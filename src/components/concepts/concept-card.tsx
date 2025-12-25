@@ -153,22 +153,27 @@ const ConceptCard: React.FC<ConceptCardProps> = ({ concept, onShowDetails, viewM
             </div>
 
             {/* Reference count indicator */}
-            {(concept.references?.length || concept.articles?.length || concept.tutorials?.length) && (
+            {(concept.references?.length ||
+                concept.articles?.length ||
+                concept.tutorials?.length) && (
                 <div className='border-primary/10 mb-3 border-t pt-2'>
                     <div className='flex flex-wrap gap-2 text-xs'>
                         {concept.references && concept.references.length > 0 && (
                             <span className='text-primary/50'>
-                                {concept.references.length} reference{concept.references.length !== 1 ? 's' : ''}
+                                {concept.references.length} reference
+                                {concept.references.length !== 1 ? 's' : ''}
                             </span>
                         )}
                         {concept.articles && concept.articles.length > 0 && (
                             <span className='text-primary/50'>
-                                {concept.articles.length} article{concept.articles.length !== 1 ? 's' : ''}
+                                {concept.articles.length} article
+                                {concept.articles.length !== 1 ? 's' : ''}
                             </span>
                         )}
                         {concept.tutorials && concept.tutorials.length > 0 && (
                             <span className='text-primary/50'>
-                                {concept.tutorials.length} tutorial{concept.tutorials.length !== 1 ? 's' : ''}
+                                {concept.tutorials.length} tutorial
+                                {concept.tutorials.length !== 1 ? 's' : ''}
                             </span>
                         )}
                     </div>
@@ -177,9 +182,7 @@ const ConceptCard: React.FC<ConceptCardProps> = ({ concept, onShowDetails, viewM
 
             {/* Action button */}
             <div className='mt-auto flex items-center gap-1.5'>
-                <span
-                    className='bg-secondary hover:bg-secondary/90 flex flex-1 items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium text-white transition-colors'
-                >
+                <span className='bg-secondary hover:bg-secondary/90 flex flex-1 items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium text-white transition-colors'>
                     <FaInfoCircle className='h-3 w-3' />
                     Learn More
                 </span>

@@ -9,15 +9,18 @@ import {
     FaNewspaper,
     FaGraduationCap,
     FaStickyNote,
-    FaQuoteLeft
+    FaQuoteLeft,
+    FaLink
 } from 'react-icons/fa'
 import ConceptIcon from '@/components/concepts/concept-icon'
 import type { Concept, Reference } from '@/types/concept'
 
 interface ConceptDetailModalProps {
     concept: Concept | null
+    allConcepts: Concept[]
     isOpen: boolean
     onClose: () => void
+    onNavigateToConcept: (concept: Concept) => void
 }
 
 const referenceTypeIcons: Record<string, React.ReactNode> = {
@@ -29,11 +32,11 @@ const referenceTypeIcons: Record<string, React.ReactNode> = {
     other: <FaExternalLinkAlt className='h-4 w-4 text-gray-400' />
 }
 
-const ReferenceList: React.FC<{ title: string; references: Reference[]; icon: React.ReactNode }> = ({
-    title,
-    references,
-    icon
-}) => {
+const ReferenceList: React.FC<{
+    title: string
+    references: Reference[]
+    icon: React.ReactNode
+}> = ({ title, references, icon }) => {
     if (!references || references.length === 0) return null
 
     return (
@@ -61,7 +64,13 @@ const ReferenceList: React.FC<{ title: string; references: Reference[]; icon: Re
     )
 }
 
-const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({ concept, isOpen, onClose }) => {
+const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
+    concept,
+    allConcepts,
+    isOpen,
+    onClose,
+    onNavigateToConcept
+}) => {
     const modalRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
@@ -113,7 +122,11 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({ concept, isOpen
                 <div className='border-primary/10 bg-background/95 sticky top-0 z-10 flex items-start justify-between border-b p-6 backdrop-blur-md'>
                     <div className='flex items-center gap-4'>
                         <div className='bg-primary/10 flex h-16 w-16 items-center justify-center rounded-xl'>
-                            <ConceptIcon icon={concept.icon} category={concept.category} size='xl' />
+                            <ConceptIcon
+                                icon={concept.icon}
+                                category={concept.category}
+                                size='xl'
+                            />
                         </div>
                         <div>
                             <div className='flex items-center gap-2'>
@@ -142,17 +155,17 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({ concept, isOpen
                 <div className='space-y-6 p-6'>
                     {/* Summary */}
                     <div className='bg-secondary/10 border-secondary/20 rounded-lg border p-4'>
-                        <p className='text-primary/90 text-base font-medium leading-relaxed'>
+                        <p className='text-primary/90 text-base leading-relaxed font-medium'>
                             {concept.summary}
                         </p>
                     </div>
 
                     {/* Full Explanation */}
                     <div>
-                        <h3 className='text-primary/80 mb-3 text-sm font-semibold uppercase tracking-wider'>
+                        <h3 className='text-primary/80 mb-3 text-sm font-semibold tracking-wider uppercase'>
                             Explanation
                         </h3>
-                        <p className='text-primary/80 whitespace-pre-line text-base leading-relaxed'>
+                        <p className='text-primary/80 text-base leading-relaxed whitespace-pre-line'>
                             {concept.explanation}
                         </p>
                     </div>
@@ -181,6 +194,38 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({ concept, isOpen
                             ))}
                         </div>
                     </div>
+
+                    {/* Related Concepts */}
+                    {concept.relatedConcepts && concept.relatedConcepts.length > 0 && (
+                        <div>
+                            <div className='mb-2 flex items-center gap-2'>
+                                <FaLink className='text-secondary h-4 w-4' />
+                                <span className='text-primary/60 text-sm'>Related Concepts</span>
+                            </div>
+                            <div className='flex flex-wrap gap-2'>
+                                {concept.relatedConcepts.map((conceptId) => {
+                                    const relatedConcept = allConcepts.find(
+                                        (c) => c.id === conceptId
+                                    )
+                                    if (!relatedConcept) return null
+                                    return (
+                                        <button
+                                            key={conceptId}
+                                            onClick={() => onNavigateToConcept(relatedConcept)}
+                                            className='bg-secondary/10 hover:bg-secondary/20 text-secondary border-secondary/20 flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm transition-colors'
+                                        >
+                                            <ConceptIcon
+                                                icon={relatedConcept.icon}
+                                                category={relatedConcept.category}
+                                                size='sm'
+                                            />
+                                            {relatedConcept.name}
+                                        </button>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                    )}
 
                     {/* Related Notes */}
                     {concept.relatedNotes && concept.relatedNotes.length > 0 && (

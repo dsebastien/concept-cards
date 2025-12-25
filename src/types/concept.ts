@@ -14,7 +14,8 @@ export interface Concept {
     icon?: string // React-icon name (e.g., "FaBrain", "FaLightbulb") or URL to an image
     featured: boolean
     aliases?: string[] // Alternative names for the concept
-    relatedNotes?: string[] // Links to related notes
+    relatedConcepts?: string[] // IDs of related concepts (internal links)
+    relatedNotes?: string[] // Links to related notes (external)
     articles?: Reference[] // Related articles
     references?: Reference[] // Books, papers, etc.
     tutorials?: Reference[] // Tutorial links

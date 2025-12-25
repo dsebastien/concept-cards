@@ -157,7 +157,12 @@ const sizeClasses = {
     xl: 'h-10 w-10'
 }
 
-const ConceptIcon: React.FC<ConceptIconProps> = ({ icon, category, className = '', size = 'md' }) => {
+const ConceptIcon: React.FC<ConceptIconProps> = ({
+    icon,
+    category,
+    className = '',
+    size = 'md'
+}) => {
     // If icon is a URL, render an image
     if (icon && (icon.startsWith('http') || icon.startsWith('/'))) {
         return (

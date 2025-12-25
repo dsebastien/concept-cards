@@ -385,8 +385,10 @@ const HomePage: React.FC = () => {
             {/* Detail Modal */}
             <ConceptDetailModal
                 concept={selectedConcept}
+                allConcepts={typedConceptsData.concepts}
                 isOpen={isDetailModalOpen}
                 onClose={handleCloseDetails}
+                onNavigateToConcept={handleShowDetails}
             />
 
             {/* Command Palette */}

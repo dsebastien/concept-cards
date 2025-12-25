@@ -10,6 +10,7 @@
             "icon": "FaLink",
             "featured": true,
             "aliases": ["Slip-box", "Card index"],
+            "relatedConcepts": ["atomic-notes", "second-brain"],
             "relatedNotes": [],
             "articles": [],
             "references": [
@@ -31,6 +32,7 @@
             "icon": "FaBrain",
             "featured": true,
             "aliases": ["BASB", "Building a Second Brain"],
+            "relatedConcepts": ["zettelkasten", "atomic-notes"],
             "relatedNotes": [],
             "articles": [],
             "references": [
@@ -52,19 +54,12 @@
             "icon": "FaAtom",
             "featured": false,
             "aliases": ["One idea per note", "Single-idea notes"],
+            "relatedConcepts": ["zettelkasten", "second-brain"],
             "relatedNotes": [],
             "articles": [],
             "references": [],
             "tutorials": []
         }
     ],
-    "categories": [
-        "All",
-        "Methods",
-        "Systems",
-        "Principles",
-        "Techniques",
-        "Tools",
-        "Frameworks"
-    ]
+    "categories": ["All", "Methods", "Systems", "Principles", "Techniques", "Tools", "Frameworks"]
 }

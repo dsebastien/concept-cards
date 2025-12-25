@@ -76,6 +76,7 @@ To add a new concept to the website, edit `/src/data/concepts.json`:
     "icon": "FaBrain",
     "featured": false,
     "aliases": ["Alternative Name", "Another Name"],
+    "relatedConcepts": ["other-concept-id", "another-concept-id"],
     "relatedNotes": ["https://link-to-related-note.com"],
     "articles": [
         {
@@ -115,7 +116,8 @@ To add a new concept to the website, edit `/src/data/concepts.json`:
 
 - `icon` - React-icon name or URL (see Icons section below)
 - `aliases` - Alternative names for the concept
-- `relatedNotes` - Array of URLs to related notes
+- `relatedConcepts` - Array of concept IDs for internal linking (clickable in the detail modal)
+- `relatedNotes` - Array of URLs to related notes (external)
 - `articles` - Array of article references
 - `references` - Array of book/paper references
 - `tutorials` - Array of tutorial references
