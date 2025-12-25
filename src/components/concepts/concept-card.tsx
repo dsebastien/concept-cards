@@ -153,9 +153,9 @@ const ConceptCard: React.FC<ConceptCardProps> = ({ concept, onShowDetails, viewM
             </div>
 
             {/* Reference count indicator */}
-            {(concept.references?.length ||
-                concept.articles?.length ||
-                concept.tutorials?.length) && (
+            {((concept.references?.length ?? 0) > 0 ||
+                (concept.articles?.length ?? 0) > 0 ||
+                (concept.tutorials?.length ?? 0) > 0) && (
                 <div className='border-primary/10 mb-3 border-t pt-2'>
                     <div className='flex flex-wrap gap-2 text-xs'>
                         {concept.references && concept.references.length > 0 && (
