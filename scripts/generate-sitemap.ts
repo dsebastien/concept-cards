@@ -1,0 +1,115 @@
+#!/usr/bin/env tsx
+/**
+ * Generates a sitemap.xml for the PKM concepts website.
+ * Includes the homepage and all concept detail pages.
+ */
+
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs'
+import { dirname, join } from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const BASE_URL = 'https://pkm-concepts.dsebastien.net'
+
+interface Reference {
+    title: string
+    url: string
+    type: string
+}
+
+interface Concept {
+    id: string
+    name: string
+    summary: string
+    explanation: string
+    tags: string[]
+    category: string
+    icon?: string
+    featured: boolean
+    aliases?: string[]
+    relatedNotes?: string[]
+    articles?: Reference[]
+    references?: Reference[]
+    tutorials?: Reference[]
+}
+
+interface ConceptsData {
+    concepts: Concept[]
+    categories: string[]
+}
+
+interface SitemapUrl {
+    loc: string
+    lastmod: string
+    changefreq: string
+    priority: string
+}
+
+// Read concepts data
+const conceptsJsonPath = join(__dirname, '../src/data/concepts.json')
+const conceptsData: ConceptsData = JSON.parse(readFileSync(conceptsJsonPath, 'utf-8'))
+
+// Get current date in YYYY-MM-DD format
+const today = new Date().toISOString().split('T')[0]
+
+// Generate sitemap XML
+function generateSitemap(): string {
+    const urls: SitemapUrl[] = []
+
+    // Add homepage
+    urls.push({
+        loc: BASE_URL,
+        lastmod: today,
+        changefreq: 'weekly',
+        priority: '1.0'
+    })
+
+    // Add each concept page
+    for (const concept of conceptsData.concepts) {
+        urls.push({
+            loc: `${BASE_URL}/#/concept/${concept.id}`,
+            lastmod: today,
+            changefreq: 'monthly',
+            priority: '0.8'
+        })
+    }
+
+    // Build XML
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls
+    .map(
+        (url) => `  <url>
+    <loc>${url.loc}</loc>
+    <lastmod>${url.lastmod}</lastmod>
+    <changefreq>${url.changefreq}</changefreq>
+    <priority>${url.priority}</priority>
+  </url>`
+    )
+    .join('\n')}
+</urlset>
+`
+
+    return xml
+}
+
+// Write sitemap to dist folder
+function writeSitemap(): void {
+    const distDir = join(__dirname, '../dist')
+
+    // Create dist directory if it doesn't exist
+    if (!existsSync(distDir)) {
+        mkdirSync(distDir, { recursive: true })
+    }
+
+    const sitemapPath = join(distDir, 'sitemap.xml')
+    const sitemap = generateSitemap()
+
+    writeFileSync(sitemapPath, sitemap)
+    console.log(`✓ Sitemap generated: ${sitemapPath}`)
+    console.log(`  - Homepage: 1 URL`)
+    console.log(`  - Concepts: ${conceptsData.concepts.length} URLs`)
+    console.log(`  - Total: ${conceptsData.concepts.length + 1} URLs`)
+}
+
+writeSitemap()
