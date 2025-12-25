@@ -1,0 +1,187 @@
+import { IconType } from 'react-icons'
+import {
+    FaLightbulb,
+    FaBrain,
+    FaBook,
+    FaBookOpen,
+    FaSitemap,
+    FaProjectDiagram,
+    FaLink,
+    FaCubes,
+    FaLayerGroup,
+    FaNetworkWired,
+    FaAtom,
+    FaPuzzlePiece,
+    FaCogs,
+    FaCompass,
+    FaDatabase,
+    FaStream,
+    FaRegLightbulb,
+    FaClipboardList,
+    FaPenNib,
+    FaSearch,
+    FaFilter,
+    FaMapMarkedAlt,
+    FaRandom,
+    FaTags,
+    FaUser,
+    FaEnvelope,
+    FaGraduationCap,
+    FaStickyNote,
+    FaStore,
+    FaUsers,
+    FaHandshake,
+    FaGithub,
+    FaYoutube,
+    FaTiktok,
+    FaMedium,
+    FaLinkedin,
+    FaHackerNews
+} from 'react-icons/fa'
+import { SiObsidian, SiSubstack, SiBluesky } from 'react-icons/si'
+import { FaXTwitter, FaThreads } from 'react-icons/fa6'
+
+// Map of icon names to their components
+const iconMap: Record<string, IconType> = {
+    FaLightbulb,
+    FaBrain,
+    FaBook,
+    FaBookOpen,
+    FaSitemap,
+    FaProjectDiagram,
+    FaLink,
+    FaCubes,
+    FaLayerGroup,
+    FaNetworkWired,
+    FaAtom,
+    FaPuzzlePiece,
+    FaCogs,
+    FaCompass,
+    FaDatabase,
+    FaStream,
+    FaRegLightbulb,
+    FaClipboardList,
+    FaPenNib,
+    FaSearch,
+    FaFilter,
+    FaMapMarkedAlt,
+    FaRandom,
+    FaTags,
+    FaUser,
+    FaEnvelope,
+    FaGraduationCap,
+    FaStickyNote,
+    FaStore,
+    FaUsers,
+    FaHandshake,
+    FaGithub,
+    FaYoutube,
+    FaTiktok,
+    FaMedium,
+    FaLinkedin,
+    FaHackerNews,
+    SiObsidian,
+    SiSubstack,
+    SiBluesky,
+    FaXTwitter,
+    FaThreads
+}
+
+// Icon-specific colors
+const iconColors: Record<string, string> = {
+    FaLightbulb: 'text-yellow-400',
+    FaBrain: 'text-pink-400',
+    FaBook: 'text-amber-500',
+    FaBookOpen: 'text-teal-400',
+    FaSitemap: 'text-blue-400',
+    FaProjectDiagram: 'text-purple-400',
+    FaLink: 'text-cyan-400',
+    FaCubes: 'text-indigo-400',
+    FaLayerGroup: 'text-emerald-400',
+    FaNetworkWired: 'text-orange-400',
+    FaAtom: 'text-violet-400',
+    FaPuzzlePiece: 'text-green-400',
+    FaCogs: 'text-gray-400',
+    FaCompass: 'text-blue-400',
+    FaDatabase: 'text-cyan-400',
+    FaStream: 'text-teal-400',
+    FaRegLightbulb: 'text-yellow-400',
+    FaClipboardList: 'text-emerald-400',
+    FaPenNib: 'text-violet-400',
+    FaSearch: 'text-blue-400',
+    FaFilter: 'text-orange-400',
+    FaMapMarkedAlt: 'text-green-400',
+    FaRandom: 'text-pink-400',
+    FaTags: 'text-amber-400',
+    FaUser: 'text-blue-400',
+    FaEnvelope: 'text-amber-400',
+    FaGraduationCap: 'text-indigo-400',
+    FaStickyNote: 'text-yellow-400',
+    FaStore: 'text-emerald-400',
+    FaUsers: 'text-blue-400',
+    FaHandshake: 'text-teal-400',
+    FaGithub: 'text-gray-300',
+    FaYoutube: 'text-red-500',
+    FaTiktok: 'text-gray-200',
+    FaMedium: 'text-gray-200',
+    FaLinkedin: 'text-blue-500',
+    FaHackerNews: 'text-orange-500',
+    SiObsidian: 'text-purple-400',
+    SiSubstack: 'text-orange-400',
+    SiBluesky: 'text-sky-400',
+    FaXTwitter: 'text-gray-200',
+    FaThreads: 'text-gray-200'
+}
+
+// Category fallback icons (emojis)
+const categoryFallbacks: Record<string, string> = {
+    Methods: '📝',
+    Systems: '🔄',
+    Principles: '💡',
+    Techniques: '🛠️',
+    Tools: '🔧',
+    Frameworks: '🏗️'
+}
+
+interface ConceptIconProps {
+    icon?: string
+    category: string
+    className?: string
+    size?: 'sm' | 'md' | 'lg' | 'xl'
+}
+
+const sizeClasses = {
+    sm: 'h-4 w-4',
+    md: 'h-6 w-6',
+    lg: 'h-8 w-8',
+    xl: 'h-10 w-10'
+}
+
+const ConceptIcon: React.FC<ConceptIconProps> = ({ icon, category, className = '', size = 'md' }) => {
+    // If icon is a URL, render an image
+    if (icon && (icon.startsWith('http') || icon.startsWith('/'))) {
+        return (
+            <img src={icon} alt='' className={`${sizeClasses[size]} object-contain ${className}`} />
+        )
+    }
+
+    // If icon is a known react-icon name, render it
+    if (icon && iconMap[icon]) {
+        const IconComponent = iconMap[icon]
+        const colorClass = iconColors[icon] || 'text-secondary'
+        return <IconComponent className={`${sizeClasses[size]} ${colorClass} ${className}`} />
+    }
+
+    // Fallback to category emoji
+    const emoji = categoryFallbacks[category] || '📚'
+    const emojiSizes = {
+        sm: 'text-base',
+        md: 'text-xl',
+        lg: 'text-2xl',
+        xl: 'text-3xl'
+    }
+
+    return <span className={`${emojiSizes[size]} ${className}`}>{emoji}</span>
+}
+
+export default ConceptIcon
