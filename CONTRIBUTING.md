@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to PKM Concepts!
+Thank you for your interest in contributing to Concepts!
 
 ## Getting Started
 
@@ -129,7 +129,7 @@ git push origin feature/your-feature-name
 
 ## Adding New Concepts
 
-To contribute new PKM concepts:
+To contribute new concepts:
 
 1. Create a new file in `/src/data/concepts/` named `{concept-id}.json`
 2. Add a concept object with all required fields (see AGENTS.md for structure)

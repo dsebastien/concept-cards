@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * Generates a sitemap.xml for the PKM concepts website.
+ * Generates a sitemap.xml for the concepts website.
  * Includes the homepage and all concept detail pages.
  */
 

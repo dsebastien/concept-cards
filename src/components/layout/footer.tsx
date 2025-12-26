@@ -17,11 +17,10 @@ const Footer: React.FC = () => {
                             <div className='bg-secondary/10 flex h-10 w-10 items-center justify-center rounded-full'>
                                 <FaBrain className='text-secondary h-5 w-5' />
                             </div>
-                            <span className='text-lg font-bold'>PKM Concepts</span>
+                            <span className='text-lg font-bold'>Concepts</span>
                         </Link>
                         <p className='text-primary/70 text-sm'>
-                            A curated collection of Personal Knowledge Management concepts, methods,
-                            and principles to help you build a better knowledge system.
+                            A curated collection of concepts, methods, and principles.
                         </p>
                     </div>
 

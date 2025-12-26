@@ -1,6 +1,6 @@
-# AGENTS.md - PKM Concepts Website Maintenance Guide
+# AGENTS.md - Concepts Website Maintenance Guide
 
-This document provides instructions for AI agents and developers on how to maintain and extend this PKM concepts showcase website.
+This document provides instructions for AI agents and developers on how to maintain and extend this concepts showcase website.
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ This is a static website built with:
 - **React Router** for client-side routing (HashRouter for GitHub Pages compatibility)
 - **React Icons** for iconography
 
-The website showcases Personal Knowledge Management (PKM) concepts, methods, and principles, with features like:
+The website showcases concepts, methods, and principles, with features like:
 
 - Grid and list view modes
 - Full-text search (across name, summary, explanation, tags, aliases)
@@ -147,7 +147,7 @@ Each reference in `articles`, `references`, or `tutorials` has:
 
 ## Categories
 
-The available categories for PKM concepts:
+The available categories for concepts:
 
 | Category     | Description                                      |
 | ------------ | ------------------------------------------------ |
@@ -169,7 +169,7 @@ Concepts can have custom icons specified via the `icon` field. The icon can be:
 
 The following icons are pre-imported in `/src/components/concepts/concept-icon.tsx`:
 
-**PKM-relevant icons:**
+**Concept icons:**
 
 - `FaLightbulb` - Ideas/Insights
 - `FaBrain` - Knowledge/Thinking

@@ -1,6 +1,6 @@
 # Development Guide
 
-This guide explains how to build, run, and test the PKM Concepts website locally.
+This guide explains how to build, run, and test the Concepts website locally.
 
 ## Prerequisites
 

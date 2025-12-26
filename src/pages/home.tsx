@@ -204,11 +204,10 @@ const HomePage: React.FC = () => {
             <Section className='pt-16 pb-12 sm:pt-24 sm:pb-16 md:pt-32 md:pb-20'>
                 <div className='mx-auto max-w-4xl text-center'>
                     <h1 className='mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl'>
-                        PKM Concepts
+                        Concepts
                     </h1>
                     <p className='text-primary/70 mx-auto mb-8 max-w-2xl text-lg sm:text-xl md:text-2xl'>
-                        A curated collection of Personal Knowledge Management concepts, methods, and
-                        principles to help you build a better knowledge system.
+                        A curated collection of concepts, methods, and principles.
                     </p>
 
                     {/* Stats */}
@@ -304,11 +303,9 @@ const HomePage: React.FC = () => {
             {/* About Section */}
             <Section className='border-primary/10 border-t py-16 sm:py-20'>
                 <div className='mx-auto max-w-3xl text-center'>
-                    <h2 className='mb-6 text-2xl font-bold sm:text-3xl'>About PKM Concepts</h2>
+                    <h2 className='mb-6 text-2xl font-bold sm:text-3xl'>About</h2>
                     <p className='text-primary/70 mb-6 leading-relaxed'>
-                        This is a curated collection of Personal Knowledge Management concepts,
-                        methods, and principles. Whether you're new to PKM or a seasoned knowledge
-                        worker, explore these concepts to build a more effective knowledge system.
+                        This is a curated collection of concepts, methods, and principles.
                     </p>
                     <p className='text-primary/70 mb-6 leading-relaxed'>
                         Created by{' '}
@@ -320,7 +317,7 @@ const HomePage: React.FC = () => {
                         >
                             Sébastien Dubois
                         </a>
-                        , a software crafter and PKM enthusiast with 20+ years of IT experience.
+                        , a software crafter with 20+ years of IT experience.
                     </p>
                     {/* Social links */}
                     <div className='flex flex-wrap justify-center gap-3'>
