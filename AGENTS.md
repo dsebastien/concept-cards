@@ -323,6 +323,48 @@ Query parameters are preserved when opening/closing concept modals.
 - Command palette with keyboard shortcuts
 - Semantic HTML structure
 
+## Claude Code Skills
+
+Skills are reusable instructions stored in `.claude/skills/` that help Claude perform specific tasks correctly and consistently.
+
+### Mandatory Skill Usage
+
+**IMPORTANT**: When a skill exists that is relevant to the current task, it **MUST** be used. Available skills in this project:
+
+| Skill                | Location                             | Use When                                       |
+| -------------------- | ------------------------------------ | ---------------------------------------------- |
+| `fetch-public-notes` | `.claude/skills/fetch-public-notes/` | Extracting content from `notes.dsebastien.net` |
+
+### Creating New Skills
+
+When you identify a repeatable process or workflow that could benefit from standardized instructions, **create a new skill** to make future work easier. Consider creating a skill when:
+
+- A task requires specific steps that are easy to forget or get wrong
+- A workaround or non-obvious approach is needed (e.g., API endpoints, URL encoding)
+- The same process will be repeated multiple times
+- Documentation would help future agents or developers
+
+**Skill structure:**
+
+```
+.claude/skills/skill-name/
+├── SKILL.md          # Required - Contains frontmatter and instructions
+└── supporting-files/ # Optional - Additional references
+```
+
+**SKILL.md format:**
+
+```yaml
+---
+name: skill-name
+description: Brief description of what this skill does and when to use it.
+allowed-tools: Tool1, Tool2 # Optional - restricts available tools
+---
+# Skill Title
+
+Instructions and documentation here...
+```
+
 ## Best Practices for Contributions
 
 1. **Avoid duplicate concepts** - Before adding a new concept, check if it already exists (see Duplicate Prevention section below)
