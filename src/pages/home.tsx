@@ -303,30 +303,33 @@ const HomePage: React.FC = () => {
             {/* About Section */}
             <Section className='border-primary/10 border-t py-16 sm:py-20'>
                 <div className='mx-auto max-w-3xl text-center'>
-                    <h2 className='mb-6 text-2xl font-bold sm:text-3xl'>About</h2>
+                    <h2 className='mb-6 text-2xl font-bold sm:text-3xl'>About the Creator</h2>
+                    <div className='mb-6 flex justify-center'>
+                        <img
+                            src='/assets/images/2025-11-03-Seb.png'
+                            alt='Sébastien Dubois'
+                            className='border-secondary/30 h-24 w-24 rounded-full border-2 object-cover sm:h-32 sm:w-32'
+                        />
+                    </div>
                     <p className='text-primary/70 mb-6 leading-relaxed'>
-                        This is a curated collection of concepts, methods, and principles.
+                        Hi! I'm Sébastien Dubois, a software crafter with 20+ years of IT
+                        experience. I'm passionate about Personal Knowledge Management, note-taking,
+                        and productivity. This collection gathers concepts, methods, and principles
+                        I've explored and found valuable over the years.
                     </p>
-                    <p className='text-primary/70 mb-6 leading-relaxed'>
-                        Created by{' '}
-                        <a
-                            href='https://www.dsebastien.net'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='text-secondary hover:underline'
-                        >
-                            Sébastien Dubois
-                        </a>
-                        , a software crafter with 20+ years of IT experience.
-                    </p>
-                    {/* Social links */}
-                    <div className='flex flex-wrap justify-center gap-3'>
+                    {/* Primary links */}
+                    <div className='mb-4 flex flex-wrap justify-center gap-3'>
                         <a
                             href='https://www.dsebastien.net'
                             target='_blank'
                             rel='noopener noreferrer'
                             className='bg-secondary hover:bg-secondary/90 flex items-center gap-2 rounded-lg px-4 py-2 text-white transition-colors'
                         >
+                            <img
+                                src='https://www.dsebastien.net/assets/images/developassion-logo.png?v=227ae60558'
+                                alt='DeveloPassion'
+                                className='h-5 w-5 rounded-full object-contain'
+                            />
                             Website
                         </a>
                         <a
@@ -347,6 +350,9 @@ const HomePage: React.FC = () => {
                             <FaEnvelope className='h-5 w-5' />
                             Newsletter
                         </a>
+                    </div>
+                    {/* Social links */}
+                    <div className='flex flex-wrap justify-center gap-3'>
                         <a
                             href='https://github.com/dsebastien'
                             target='_blank'
