@@ -1,0 +1,30 @@
+{
+    "id": "idea-development-environment",
+    "name": "Idea Development Environment (IDE)",
+    "summary": "An environment focused on idea development, akin to a software IDE but for thinking, knowledge, and learning.",
+    "explanation": "An Idea Development Environment (IDE) draws a parallel between Integrated Development Environments used by software developers and the world of Knowledge Management. Just as developers have powerful IDEs that integrate editing, debugging, testing, and other tools, knowledge workers need an Integrated Thinking Environment (ITE) that serves as their \"home\" for thinking and learning.\n\nThe vision for an ITE includes: means to take periodic notes (daily, weekly, monthly reviews), tools to discover interesting content, systems to capture and organize ideas, methods to extract insights and progressively summarize knowledge, ways to link ideas with end-to-end traceability, exploration tools to derive new insights, collaboration features, spaced repetition for learning, and version control for evolving ideas.\n\nThe goal is to support the complete funnel from content to atomic, networked knowledge—capturing thoughts, sending them through the ingestion process, extracting valuable insights, and leveraging them to expand understanding and strengthen the second brain.",
+    "tags": ["pkm", "knowledge-management", "systems", "tools-for-thought", "ide"],
+    "category": "Systems",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": ["IDE for Knowledge", "Integrated Thinking Environment"],
+    "relatedConcepts": [
+        "integrated-thinking-environment",
+        "second-brain",
+        "pkm",
+        "tools-for-thought",
+        "knowledge-ingestion-process"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Idea+Development+Environment+(IDE)"
+    ],
+    "articles": [
+        {
+            "title": "Obsidian, Roam, and the Rise of Integrated Thinking Environments",
+            "url": "https://axle.design/obsidian-roam-and-the-rise-of-integrated-thinking-environments",
+            "type": "website"
+        }
+    ],
+    "references": [],
+    "tutorials": []
+}

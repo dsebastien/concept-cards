@@ -1,0 +1,25 @@
+{
+    "id": "pkm-anti-patterns",
+    "name": "PKM Anti-patterns",
+    "summary": "Common mistakes and pitfalls that prevent people from benefiting from personal knowledge management.",
+    "explanation": "PKM Anti-patterns are recurring behaviors that undermine effective knowledge management. Recognizing and avoiding these patterns is essential for PKM success:\n\n**Overthinking**: Researching tools and methodologies for months before starting, leading to overwhelm and giving up.\n\n**Analysis Paralysis**: Endlessly searching for the perfect tool or system, never moving past the setup phase.\n\n**Theorists**: Over-focusing on methods like Zettelkasten or PARA without actually writing and creating value.\n\n**Tool Hoppers**: Constantly switching tools, wasting time on migrations and accumulating technical debt.\n\n**Integrators**: Using many specialized tools that create information silos and maintenance headaches.\n\n**Complexity Monsters**: Building unnecessarily complex systems driven by ego rather than utility.\n\n**Tweakers**: Endlessly customizing settings and configurations instead of using the system.\n\n**Perfectionists**: Waiting for the perfect system before doing meaningful work.\n\n**Designers**: Spending excessive time on themes and aesthetics rather than knowledge work.\n\n**Hoarders**: Capturing everything without purpose, becoming overwhelmed librarians.\n\n**Optimists**: Neglecting backups and data safety until disaster strikes.\n\nThe solution: start simple with just a text editor, build the writing habit, use friction as your guide, and resist complexity.",
+    "tags": ["pkm", "knowledge-management", "anti-patterns", "pitfalls", "best-practices"],
+    "category": "Principles",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": ["PKM Mistakes", "Knowledge Management Pitfalls"],
+    "relatedConcepts": [
+        "pkm",
+        "collectors-fallacy",
+        "information-hoarding",
+        "analysis-paralysis",
+        "shiny-object-syndrome",
+        "kiss-principle"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Personal+Knowledge+Management+Anti-patterns"
+    ],
+    "articles": [],
+    "references": [],
+    "tutorials": []
+}
