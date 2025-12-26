@@ -525,3 +525,26 @@ Becomes URL:
 ```
 https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.04+Expressions/Nemo+propheta+in+patria
 ```
+
+## Fetching Content from Public Notes Website
+
+**IMPORTANT**: When extracting information from the public notes website (`https://notes.dsebastien.net/`), you **MUST** use the `fetch-public-notes` skill located at `.claude/skills/fetch-public-notes/SKILL.md`.
+
+### Why This Skill is Required
+
+The notes website is an **Obsidian Publish** site that loads content dynamically via JavaScript. Direct WebFetch requests to page URLs will fail and return only HTML boilerplate. The skill documents the correct approach using the Obsidian Publish API.
+
+### Key Points
+
+- **Never use direct page URLs** like `https://notes.dsebastien.net/30+Areas/...` for fetching content
+- **Always use the Obsidian Publish API** at `https://publish-01.obsidian.md/access/91ab140857992a6480c9352ca75acb70/[path].md`
+- The skill provides URL encoding rules, examples, and alternative local file access methods
+
+### When to Use This Skill
+
+- Fetching MoC (Map of Content) files to identify concepts
+- Reading note content to create concept cards
+- Extracting information from any note on the public website
+- Verifying note content before adding `relatedNotes` URLs
+
+Refer to the skill documentation for complete instructions and examples.
