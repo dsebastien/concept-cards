@@ -10,6 +10,7 @@ import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
+const BASE_URL = 'https://concepts.dsebastien.net'
 
 interface Concept {
     id: string
@@ -35,6 +36,56 @@ const distDir = join(__dirname, '../dist')
 // Read the built index.html
 const indexHtml = readFileSync(join(distDir, 'index.html'), 'utf-8')
 
+/**
+ * Generate customized HTML for a tag page with appropriate meta tags
+ */
+function generateTagPageHtml(tag: string, encodedTag: string): string {
+    const tagUrl = `${BASE_URL}/tag/${encodedTag}`
+    const title = `${tag} - Concepts`
+    const description = `Concepts tagged with "${tag}"`
+
+    let html = indexHtml
+
+    // Update <title>
+    html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
+
+    // Update meta description
+    html = html.replace(
+        /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="description" content="${description}" />`
+    )
+
+    // Update Open Graph tags
+    html = html.replace(
+        /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:url" content="${tagUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:title" content="${title}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:description" content="${description}" />`
+    )
+
+    // Update Twitter tags
+    html = html.replace(
+        /<meta\s+name="twitter:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:url" content="${tagUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:title" content="${title}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:description" content="${description}" />`
+    )
+
+    return html
+}
+
 // Create directories and copy index.html for each concept
 console.log('Generating static pages for concepts...')
 let conceptCount = 0
@@ -46,7 +97,7 @@ for (const conceptId of allConceptIds) {
 }
 console.log(`  ✓ Created ${conceptCount} concept pages`)
 
-// Create directories and copy index.html for each tag
+// Create directories and generate customized HTML for each tag
 console.log('Generating static pages for tags...')
 let tagCount = 0
 for (const tag of allTags) {
@@ -54,7 +105,10 @@ for (const tag of allTags) {
     const encodedTag = encodeURIComponent(tag)
     const tagDir = join(distDir, 'tag', encodedTag)
     mkdirSync(tagDir, { recursive: true })
-    writeFileSync(join(tagDir, 'index.html'), indexHtml)
+
+    // Generate customized HTML with tag-specific meta tags
+    const tagHtml = generateTagPageHtml(tag, encodedTag)
+    writeFileSync(join(tagDir, 'index.html'), tagHtml)
     tagCount++
 }
 console.log(`  ✓ Created ${tagCount} tag pages`)
