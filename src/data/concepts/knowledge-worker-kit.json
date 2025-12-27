@@ -1,14 +1,25 @@
 {
     "id": "knowledge-worker-kit",
     "name": "Knowledge Worker Kit",
-    "summary": "An all-in-one productivity resource for knowledge workers.",
-    "explanation": "The Knowledge Worker Kit is an all-in-one productivity boost with lifetime community access, extensive guides covering Knowledge Work, Personal Organization, Time Management, and more. Created by Sébastien Dubois, it's designed for leaders, knowledge workers, solopreneurs, and content creators who want to optimize their workflows and productivity.",
+    "summary": "A comprehensive guide covering 13 essential areas for Knowledge Workers and Lifelong Learners.",
+    "explanation": "The Knowledge Worker Kit is an all-in-one productivity boost with lifetime community access. Created by Sébastien Dubois, it covers 13 essential areas: (1) Clarity - values, principles, goals, non-goals, priorities; (2) Habits, Routines, Systems, Processes and Methods; (3) Career Management and Anticipation; (4) Learning; (5) Personal Knowledge Management (PKM) and Journaling; (6) Projects Organization; (7) Planning and Prioritization; (8) Task Management; (9) Focus, Attention, Time Management and Action; (10) Personal Development; (11) Control; (12) Personal Organization; and (13) Work. It's designed for leaders, knowledge workers, solopreneurs, and content creators who want to optimize their workflows, achieve mental clarity, and build reliable systems that actually work.",
     "tags": ["guides", "knowledge-work", "productivity", "products"],
     "category": "Products",
     "icon": "FaToolbox",
     "featured": false,
     "aliases": ["KWK"],
-    "relatedConcepts": ["knowledge-management", "pkm", "productivity"],
+    "relatedConcepts": [
+        "knowledge-management",
+        "pkm",
+        "productivity",
+        "personal-manifesto",
+        "career-design",
+        "periodic-reviews",
+        "journaling",
+        "goal-setting",
+        "habit-loop",
+        "deep-work"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Knowledge+Worker+Kit"
     ],
