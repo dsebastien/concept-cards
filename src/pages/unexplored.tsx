@@ -4,8 +4,7 @@ import { FaCompass, FaArrowLeft, FaEnvelope, FaTh, FaList } from 'react-icons/fa
 import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, motion } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
-import { staggerItemVariants } from '@/lib/animations'
-import ConceptCard from '@/components/concepts/concept-card'
+import VirtualizedConceptList from '@/components/concepts/virtualized-concept-list'
 import ConceptDetailModal from '@/components/concepts/concept-detail-modal'
 import { conceptsData } from '@/data'
 import { useExploredConcepts } from '@/hooks/use-explored-concepts'
@@ -249,42 +248,17 @@ const UnexploredPage: React.FC = () => {
                 </div>
             </div>
 
-            {/* Concepts Grid/List */}
+            {/* Concepts Grid/List - Virtualized for performance */}
             <Section className='!py-4 pb-16'>
-                <motion.div
-                    initial='initial'
-                    animate='animate'
-                    variants={{
-                        initial: {},
-                        animate: {
-                            transition: {
-                                staggerChildren: 0.03,
-                                delayChildren: 0.3
-                            }
-                        }
-                    }}
-                    className='mx-auto max-w-7xl'
-                >
-                    <div
-                        className={
-                            viewMode === 'grid'
-                                ? 'grid gap-6 sm:grid-cols-2 lg:grid-cols-3'
-                                : 'flex flex-col gap-3'
-                        }
-                    >
-                        {unexploredConcepts.map((concept) => (
-                            <motion.div key={concept.id} variants={staggerItemVariants}>
-                                <ConceptCard
-                                    concept={concept}
-                                    onShowDetails={handleShowDetails}
-                                    onTagClick={handleTagClick}
-                                    viewMode={viewMode}
-                                    isExplored={false}
-                                />
-                            </motion.div>
-                        ))}
-                    </div>
-                </motion.div>
+                <div className='mx-auto max-w-7xl'>
+                    <VirtualizedConceptList
+                        concepts={unexploredConcepts}
+                        viewMode={viewMode}
+                        onShowDetails={handleShowDetails}
+                        onTagClick={handleTagClick}
+                        isExplored={() => false}
+                    />
+                </div>
             </Section>
 
             {/* Detail Modal */}

@@ -45,6 +45,7 @@
         "npm": ">=10.1.0"
     },
     "dependencies": {
+        "@tanstack/react-virtual": "^3.13.13",
         "clsx": "^2.1.1",
         "framer-motion": "^12.23.26",
         "react": "^19.1.1",

@@ -11,8 +11,7 @@ import {
     motion
 } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
-import { staggerItemVariants } from '@/lib/animations'
-import ConceptCard from '@/components/concepts/concept-card'
+import VirtualizedConceptList from '@/components/concepts/virtualized-concept-list'
 import ConceptsFilter from '@/components/concepts/concepts-filter'
 import ConceptDetailModal from '@/components/concepts/concept-detail-modal'
 import CommandPalette from '@/components/concepts/command-palette'
@@ -394,50 +393,14 @@ const HomePage: React.FC = () => {
                     {searchQuery && ` matching "${searchQuery}"`}
                 </div>
 
-                {/* Concepts Grid/List */}
-                {sortedConcepts.length > 0 ? (
-                    <motion.div
-                        initial='initial'
-                        animate='animate'
-                        variants={{
-                            initial: {},
-                            animate: {
-                                transition: {
-                                    staggerChildren: 0.03
-                                }
-                            }
-                        }}
-                        className={
-                            viewMode === 'grid'
-                                ? 'grid gap-6 sm:grid-cols-2 lg:grid-cols-3'
-                                : 'flex flex-col gap-3'
-                        }
-                    >
-                        {sortedConcepts.map((concept) => (
-                            <motion.div key={concept.id} variants={staggerItemVariants}>
-                                <ConceptCard
-                                    concept={concept}
-                                    onShowDetails={handleShowDetails}
-                                    onTagClick={handleTagClick}
-                                    viewMode={viewMode}
-                                    isExplored={isExplored(concept.id)}
-                                />
-                            </motion.div>
-                        ))}
-                    </motion.div>
-                ) : (
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className='py-16 text-center'
-                    >
-                        <div className='mb-4 text-5xl'>🔍</div>
-                        <h3 className='mb-2 text-xl font-semibold'>No concepts found</h3>
-                        <p className='text-primary/60'>
-                            Try adjusting your search or filters to find what you're looking for.
-                        </p>
-                    </motion.div>
-                )}
+                {/* Concepts Grid/List - Virtualized for performance */}
+                <VirtualizedConceptList
+                    concepts={sortedConcepts}
+                    viewMode={viewMode}
+                    onShowDetails={handleShowDetails}
+                    onTagClick={handleTagClick}
+                    isExplored={isExplored}
+                />
             </Section>
 
             {/* About Section */}
