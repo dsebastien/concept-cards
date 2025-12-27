@@ -137,61 +137,57 @@ const UnexploredPage: React.FC = () => {
     return (
         <>
             {/* Header */}
-            <Section className='pt-16 pb-8 sm:pt-24 sm:pb-12'>
-                <div className='mx-auto max-w-4xl'>
-                    <Link
-                        to='/'
-                        className='text-primary/70 hover:text-secondary mb-6 inline-flex items-center gap-2 text-sm transition-colors'
-                    >
-                        <FaArrowLeft className='h-3 w-3' />
-                        Back to Concepts
-                    </Link>
-                    <div className='flex items-center gap-4'>
-                        <div className='flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500/10'>
-                            <FaCompass className='h-7 w-7 text-emerald-400' />
-                        </div>
-                        <div>
-                            <h1 className='text-3xl font-bold tracking-tight sm:text-4xl'>
-                                Unexplored Concepts
-                            </h1>
-                            <p className='text-primary/70 mt-1'>
-                                {unexploredCount} concepts waiting to be discovered
-                            </p>
-                        </div>
+            <div className='mx-auto max-w-4xl px-6 pt-8 pb-4 sm:px-10 sm:pt-12 md:px-16 lg:px-20 xl:px-32'>
+                <Link
+                    to='/'
+                    className='text-primary/70 hover:text-secondary mb-4 inline-flex items-center gap-2 text-sm transition-colors'
+                >
+                    <FaArrowLeft className='h-3 w-3' />
+                    Back to Concepts
+                </Link>
+                <div className='flex items-center gap-4'>
+                    <div className='flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500/10'>
+                        <FaCompass className='h-7 w-7 text-emerald-400' />
                     </div>
-                </div>
-            </Section>
-
-            {/* Progress */}
-            <Section className='py-4'>
-                <div className='mx-auto max-w-4xl'>
-                    <div className='bg-primary/5 rounded-xl p-6'>
-                        <div className='mb-2 flex items-center justify-between text-sm'>
-                            <span className='text-primary/70'>Your exploration progress</span>
-                            <span className='font-medium'>
-                                {exploredCount} / {totalConcepts} explored
-                            </span>
-                        </div>
-                        <div className='mb-2 flex items-center gap-3'>
-                            <div className='h-3 flex-1 overflow-hidden rounded-full bg-green-500/20'>
-                                <div
-                                    className='h-full rounded-full bg-green-500 transition-all duration-500'
-                                    style={{ width: `${progressPercentage}%` }}
-                                />
-                            </div>
-                            <span className='w-12 text-right font-medium text-green-400'>
-                                {progressPercentage}%
-                            </span>
-                        </div>
-                        <p className='text-primary/50 text-xs'>
-                            Concepts are marked as explored when you view their details
+                    <div>
+                        <h1 className='text-3xl font-bold tracking-tight sm:text-4xl'>
+                            Unexplored Concepts
+                        </h1>
+                        <p className='text-primary/70 mt-1'>
+                            {unexploredCount} concepts waiting to be discovered
                         </p>
                     </div>
                 </div>
-            </Section>
+            </div>
+
+            {/* Progress */}
+            <div className='mx-auto max-w-4xl px-6 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-32'>
+                <div className='bg-primary/5 rounded-xl p-4'>
+                    <div className='mb-2 flex items-center justify-between text-sm'>
+                        <span className='text-primary/70'>Your exploration progress</span>
+                        <span className='font-medium'>
+                            {exploredCount} / {totalConcepts} explored
+                        </span>
+                    </div>
+                    <div className='mb-2 flex items-center gap-3'>
+                        <div className='h-3 flex-1 overflow-hidden rounded-full bg-green-500/20'>
+                            <div
+                                className='h-full rounded-full bg-green-500 transition-all duration-500'
+                                style={{ width: `${progressPercentage}%` }}
+                            />
+                        </div>
+                        <span className='w-12 text-right font-medium text-green-400'>
+                            {progressPercentage}%
+                        </span>
+                    </div>
+                    <p className='text-primary/50 text-xs'>
+                        Concepts are marked as explored when you view their details
+                    </p>
+                </div>
+            </div>
 
             {/* View Mode Toggle */}
-            <div className='mx-auto flex max-w-4xl items-center justify-between gap-4 px-6 py-2 sm:px-10 md:px-16 lg:px-20 xl:px-32'>
+            <div className='mx-auto flex max-w-4xl items-center justify-between gap-4 px-6 pb-4 sm:px-10 md:px-16 lg:px-20 xl:px-32'>
                 <p className='text-primary/60 text-sm'>
                     Showing {unexploredCount} unexplored concept
                     {unexploredCount !== 1 ? 's' : ''}
@@ -223,7 +219,7 @@ const UnexploredPage: React.FC = () => {
             </div>
 
             {/* Concepts Grid/List */}
-            <Section className='py-8 pb-16'>
+            <Section className='!py-4 pb-16'>
                 <div className='mx-auto max-w-7xl'>
                     <div
                         className={
