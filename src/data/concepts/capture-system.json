@@ -1,20 +1,29 @@
 {
     "id": "capture-system",
     "name": "Capture System",
-    "summary": "A reliable external system for collecting thoughts and information.",
-    "explanation": "A Capture System is a reliable external storage for collecting thoughts, ideas, and information before they're forgotten. The brain is for having ideas, not holding them - so a trusted capture system is essential. Key requirements: always available (capture tool on you at all times), low friction (quick to use), trusted (you know items will be processed). Your capture system might be a physical notebook, a notes app, or voice memos. Daily notes often serve as the central capture hub in PKM systems.",
-    "tags": ["capture", "pkm", "productivity", "systems", "techniques"],
+    "summary": "A reliable external system for collecting thoughts, highlights, and information before they're forgotten.",
+    "explanation": "A Capture System is a reliable external storage for collecting thoughts, ideas, highlights, and information before they're forgotten. The brain is for having ideas, not holding them - so a trusted capture system is essential.\n\n**Why you need a capture system:**\n\n- Too Much Information (TMI) - we're constantly bombarded with information\n- Mindless consumption is just procrastination in disguise\n- Due to the forgetting curve, you can't count on memory alone\n- Garbage in, garbage out - you need filters for quality information\n\n**What a capture system looks like:**\n\nA clear path from 'this looks interesting' to 'I already have notes about that'. It's a funnel that includes ways to capture interesting sources, capture highlights and notes, and transition those into your knowledge base - whenever and wherever you are.\n\n**The capture process:**\n\n1. Discover interesting content\n2. Capture the content in your trusted system\n3. Review your inboxes when you have time to explore\n4. Select captured content to consume and explore its ideas\n5. Capture highlights, references, and your own thoughts and insights\n6. Transition everything into your knowledge base\n\n**Capture scenarios and tools:**\n\n- **Sources**: Readwise, Obsidian Web Clipper, Zotero, Instapaper\n- **Highlights**: Readwise, Kindle, Glasp\n- **Analog notes**: Paper, reMarkable, Post-It notes\n- **Digital notes**: Obsidian, daily notes\n- **Voice notes**: Voicenotes AI, Google Keep\n- **Podcast notes**: Snipd\n\n**Key requirements:**\n\n- Always available (capture tool on you at all times)\n- Low friction (quick to use)\n- Trusted (you know items will be processed)\n\nDaily notes often serve as the central capture hub in PKM systems, acting as the knowledge inbox and main entry point for your knowledge.",
+    "tags": ["capture", "pkm", "productivity", "systems", "techniques", "workflow"],
     "category": "Systems",
     "icon": "FaInbox",
     "featured": false,
-    "aliases": ["Collection system", "Idea capture", "Idea capture system", "Quick capture"],
+    "aliases": [
+        "Collection system",
+        "Idea capture",
+        "Idea capture system",
+        "Quick capture",
+        "Knowledge capture"
+    ],
     "relatedConcepts": [
         "capture-habit",
         "daily-notes",
         "fleeting-notes",
         "gtd",
         "inbox-zero",
-        "pkm"
+        "pkm",
+        "knowledge-ingestion-process",
+        "readwise",
+        "obsidian-web-clipper"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Idea+capture+system"
