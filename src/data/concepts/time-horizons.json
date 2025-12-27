@@ -3,11 +3,19 @@
     "name": "Time Horizons",
     "summary": "Different time scales for planning, from daily tasks to lifetime goals.",
     "explanation": "Time Horizons are different time scales used for planning and organizing work, from immediate (today, this week) to long-term (years, decades, lifetime). Effective personal organization aligns activities across horizons - daily tasks should connect to weekly goals, which connect to monthly objectives, which connect to yearly ambitions, which connect to life goals. Different horizons require different thinking modes: tactical for short-term, strategic for long-term. Regular reviews bridge horizons.",
-    "tags": ["concepts", "organization", "planning", "productivity"],
+    "tags": [
+        "concepts",
+        "organization",
+        "planning",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaHourglassStart",
     "featured": false,
-    "aliases": ["Planning horizons", "Time scales"],
+    "aliases": [
+        "Planning horizons",
+        "Time scales"
+    ],
     "relatedConcepts": [
         "big-hairy-audacious-goals",
         "goal-setting",
@@ -34,6 +42,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

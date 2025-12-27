@@ -13,7 +13,10 @@
     "category": "Cognitive Biases",
     "icon": "FaEyeSlash",
     "featured": false,
-    "aliases": ["Blind Spot Bias", "Introspection Illusion"],
+    "aliases": [
+        "Blind Spot Bias",
+        "Introspection Illusion"
+    ],
     "relatedConcepts": [
         "confirmation-bias",
         "dunning-kruger-effect",
@@ -34,6 +37,16 @@
             "title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others",
             "url": "https://journals.sagepub.com/doi/10.1177/0146167202286008",
             "type": "paper"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": []

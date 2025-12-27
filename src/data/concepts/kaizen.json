@@ -3,11 +3,19 @@
     "name": "Kaizen",
     "summary": "The Japanese philosophy of continuous incremental improvement.",
     "explanation": "Kaizen is the Japanese philosophy of continuous improvement through small, incremental changes. Rather than seeking dramatic transformations, kaizen focuses on making things slightly better every day. The improvements compound over time. In PKM, kaizen means regularly refining your system - improving a template, adding useful tags, cleaning up outdated notes. The Boy Scout Rule embodies kaizen: leave things better than you found them. Sustainable progress beats sporadic overhauls.",
-    "tags": ["improvement", "philosophy", "principles", "productivity"],
+    "tags": [
+        "improvement",
+        "philosophy",
+        "principles",
+        "productivity"
+    ],
     "category": "Principles",
     "icon": "FaArrowUp",
     "featured": false,
-    "aliases": ["Continuous improvement", "Incremental improvement"],
+    "aliases": [
+        "Continuous improvement",
+        "Incremental improvement"
+    ],
     "relatedConcepts": [
         "boy-scout-rule",
         "compound-growth",
@@ -24,6 +32,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

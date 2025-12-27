@@ -3,11 +3,21 @@
     "name": "Journaling Prompts",
     "summary": "Questions and prompts to guide reflection and overcome blank page syndrome.",
     "explanation": "Journaling prompts are questions or statements designed to guide your reflection and help overcome the blank page syndrome. Useful prompts include: What did I do yesterday? Which problems did I face recently? How did I sleep? What is the most important thing I have to do today? What should I do next? What worked today? What failed today? What challenges am I facing? What did I learn today? What am I grateful for? What should I do tomorrow? What should I do next week? Having a set of go-to prompts makes it easier to start writing and ensures you cover important aspects of your day and life.",
-    "tags": ["journaling", "knowledge-management", "prompts", "questions", "reflection", "writing"],
+    "tags": [
+        "journaling",
+        "knowledge-management",
+        "prompts",
+        "questions",
+        "reflection",
+        "writing"
+    ],
     "category": "Techniques",
     "icon": "FaQuestion",
     "featured": false,
-    "aliases": ["Journal Prompts", "Reflection Questions"],
+    "aliases": [
+        "Journal Prompts",
+        "Reflection Questions"
+    ],
     "relatedConcepts": [
         "journaling",
         "morning-pages",
@@ -32,6 +42,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

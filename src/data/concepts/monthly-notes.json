@@ -3,12 +3,25 @@
     "name": "Monthly Notes",
     "summary": "Monthly summaries for mid-range reflection and goal tracking.",
     "explanation": "Monthly Notes are periodic notes created each month for mid-range reflection and planning. They provide a broader view than weekly notes, tracking progress on larger goals, identifying trends, and adjusting strategies. Monthly reviews help balance immediate tactical work with strategic objectives. They often include goal reviews, habit tracking summaries, key accomplishments, lessons learned, and plans for the coming month.",
-    "tags": ["journaling", "knowledge-management", "planning", "productivity", "reviews"],
+    "tags": [
+        "journaling",
+        "knowledge-management",
+        "planning",
+        "productivity",
+        "reviews"
+    ],
     "category": "Journaling",
     "icon": "FaCalendarAlt",
     "featured": false,
-    "aliases": ["Monthly review notes"],
-    "relatedConcepts": ["goal-setting", "periodic-reviews", "quarterly-notes", "weekly-notes"],
+    "aliases": [
+        "Monthly review notes"
+    ],
+    "relatedConcepts": [
+        "goal-setting",
+        "periodic-reviews",
+        "quarterly-notes",
+        "weekly-notes"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Periodic+reviews"
     ],
@@ -27,6 +40,36 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

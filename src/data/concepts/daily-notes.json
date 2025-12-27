@@ -3,11 +3,20 @@
     "name": "Daily Notes",
     "summary": "Time-stamped notes created each day for journaling and capture.",
     "explanation": "Daily notes are chronological notes created each day that serve multiple purposes: journaling, capturing thoughts and ideas, tracking tasks, and providing context for when things happened. They act as an excellent capture system because they're always available, automatically organized by time, and don't require decisions about where to file information. Daily notes can be the seeds that grow into atomic notes, and connecting your notes with time helps with retrieval and provides historical context. They're the perfect entry point into growing a Knowledge Management practice.",
-    "tags": ["capture", "journaling", "productivity", "techniques", "knowledge-management"],
+    "tags": [
+        "capture",
+        "journaling",
+        "productivity",
+        "techniques",
+        "knowledge-management"
+    ],
     "category": "Journaling",
     "icon": "FaCalendarDay",
     "featured": false,
-    "aliases": ["Day notes", "Journal entries"],
+    "aliases": [
+        "Day notes",
+        "Journal entries"
+    ],
     "relatedConcepts": [
         "capture-system",
         "journal-elements",
@@ -45,6 +54,36 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

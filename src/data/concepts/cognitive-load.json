@@ -3,11 +3,20 @@
     "name": "Cognitive Load",
     "summary": "The mental effort required to process information or complete tasks.",
     "explanation": "Cognitive Load refers to the amount of mental effort required to process information or complete tasks. Our working memory has limited capacity, and when cognitive load exceeds this capacity, learning and performance suffer. Three types exist: intrinsic (inherent complexity), extraneous (caused by poor design), and germane (productive effort for learning). PKM systems should minimize extraneous cognitive load through good organization, templates, and consistent patterns, freeing mental resources for actual thinking.",
-    "tags": ["cognition", "concepts", "learning", "productivity", "psychology"],
+    "tags": [
+        "cognition",
+        "concepts",
+        "learning",
+        "productivity",
+        "psychology"
+    ],
     "category": "Concepts",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["Cognitive burden", "Mental load"],
+    "aliases": [
+        "Cognitive burden",
+        "Mental load"
+    ],
     "relatedConcepts": [
         "brain-dumps",
         "chunking",
@@ -25,6 +34,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,18 @@
     "name": "Attention Momentum",
     "summary": "The tendency for focused attention to build and sustain itself over time.",
     "explanation": "Attention Momentum describes how focused attention, once established, tends to sustain itself - it's easier to stay focused than to become focused. This explains why interruptions are so costly: they don't just take the interruption time but also the time to rebuild momentum. For knowledge workers, this means protecting focus blocks fiercely, batching similar tasks, and designing environments that minimize interruptions. Starting difficult tasks with small actions helps build initial momentum that carries through.",
-    "tags": ["productivity", "focus", "concepts"],
+    "tags": [
+        "productivity",
+        "focus",
+        "concepts"
+    ],
     "category": "Concepts",
     "icon": "FaRocket",
     "featured": false,
-    "aliases": ["Focus momentum", "Flow momentum"],
+    "aliases": [
+        "Focus momentum",
+        "Flow momentum"
+    ],
     "relatedConcepts": [
         "adhd",
         "attention",
@@ -32,6 +39,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

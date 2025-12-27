@@ -3,12 +3,24 @@
     "name": "Progressive Summarization",
     "summary": "A layered highlighting method to distill information over time.",
     "explanation": "Progressive Summarization is Tiago Forte's layered highlighting method for distilling information. Instead of trying to summarize everything at once, you progressively add layers of highlighting as you revisit content: Layer 1 is the original notes, Layer 2 is bold highlighting of key passages, Layer 3 is highlighted portions of the bold text, Layer 4 is your own executive summary. This approach is really a mindful technique - a practice for fine-tuning intuition and self-awareness. It acknowledges that you don't know which information will be valuable until you need it.",
-    "tags": ["distillation", "note-taking", "productivity", "techniques", "knowledge-management"],
+    "tags": [
+        "distillation",
+        "note-taking",
+        "productivity",
+        "techniques",
+        "knowledge-management"
+    ],
     "category": "Techniques",
     "icon": "FaHighlighter",
     "featured": false,
-    "aliases": ["Layered highlighting"],
-    "relatedConcepts": ["knowledge-ingestion", "literature-notes", "second-brain"],
+    "aliases": [
+        "Layered highlighting"
+    ],
+    "relatedConcepts": [
+        "knowledge-ingestion",
+        "literature-notes",
+        "second-brain"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Progressive+summarization"
     ],
@@ -32,6 +44,36 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

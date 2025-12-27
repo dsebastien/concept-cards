@@ -3,12 +3,25 @@
     "name": "Johnny Decimal System",
     "summary": "A hierarchical decimal classification system for organizing information.",
     "explanation": "The Johnny Decimal System, created by Johnny Noble and inspired by the Dewey Decimal System, provides a framework for organizing information. It's a three-step process: 1) Divide everything into at most 10 areas, 2) Within each area, create at most 10 categories, 3) Assign unique numbers (areas: 10, 20, 30...; categories: 11, 12, 13...). The core idea is to group related information together with strict limits to keep things simple and manageable. Benefits include clear structure, easy location and identification, logical ordering (not alphabetical), and cross-platform applicability. Nothing is more than two clicks away.",
-    "tags": ["information-management", "organization", "structure", "systems"],
+    "tags": [
+        "information-management",
+        "organization",
+        "structure",
+        "systems"
+    ],
     "category": "Systems",
     "icon": "FaSortNumericDown",
     "featured": false,
-    "aliases": ["JD System", "Johnny.Decimal"],
-    "relatedConcepts": ["dewey-decimal", "folder-structure", "lift-principle", "para-method"],
+    "aliases": [
+        "JD System",
+        "Johnny.Decimal"
+    ],
+    "relatedConcepts": [
+        "dewey-decimal",
+        "folder-structure",
+        "lift-principle",
+        "para-method"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Johnny+Decimal+system"
     ],
@@ -33,6 +46,31 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
             "type": "other"
         }
     ],

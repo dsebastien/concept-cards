@@ -19,11 +19,21 @@
         "Historical Performance Disclaimer",
         "Past Performance Disclaimer"
     ],
-    "relatedConcepts": ["recency-bias", "survivorship-bias", "hindsight-bias"],
+    "relatedConcepts": [
+        "recency-bias",
+        "survivorship-bias",
+        "hindsight-bias"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.04+Expressions/Past+results+do+not+guarantee+future+performance"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

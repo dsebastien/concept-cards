@@ -3,12 +3,23 @@
     "name": "Temporal Tags",
     "summary": "Tags that capture time-based context like seasons, life stages, or project phases.",
     "explanation": "Temporal Tags are tags that capture time-related context beyond simple dates. Examples include life stages (student, new-parent, retirement), project phases (planning, execution, review), seasons (summer-2024), or states (current, someday, archived). Unlike dates which are rigid, temporal tags capture meaningful time contexts that help you find and organize content based on when it was relevant. They're particularly useful for identifying notes that may need updating or archiving as circumstances change.",
-    "tags": ["concepts", "organization", "tagging"],
+    "tags": [
+        "concepts",
+        "organization",
+        "tagging"
+    ],
     "category": "Concepts",
     "icon": "FaClock",
     "featured": false,
-    "aliases": ["Time-based tags", "Context tags"],
-    "relatedConcepts": ["periodic-reviews", "tagging", "templates"],
+    "aliases": [
+        "Time-based tags",
+        "Context tags"
+    ],
+    "relatedConcepts": [
+        "periodic-reviews",
+        "tagging",
+        "templates"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Temporal+Tags"
     ],
@@ -22,6 +33,21 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
             "type": "other"
         }
     ],

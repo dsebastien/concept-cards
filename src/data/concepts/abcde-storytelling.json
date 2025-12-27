@@ -19,9 +19,18 @@
         "ABCDE Narrative Framework",
         "Action Background Conflict Development Ending"
     ],
-    "relatedConcepts": ["abt-storytelling", "scqa-model"],
+    "relatedConcepts": [
+        "abt-storytelling",
+        "scqa-model"
+    ],
     "relatedNotes": [],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

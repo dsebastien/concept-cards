@@ -3,12 +3,23 @@
     "name": "Prompt Engineering",
     "summary": "The practice of crafting effective prompts to get optimal results from AI models.",
     "explanation": "Prompt Engineering is the practice of crafting effective prompts to get optimal results from AI language models. It involves understanding how AI models interpret instructions and structuring prompts for clarity, context, and desired output format. Techniques include: providing examples (few-shot learning), specifying output format, breaking complex tasks into steps, and giving clear constraints. Good prompt engineering dramatically improves AI output quality and is becoming an essential skill for knowledge workers.",
-    "tags": ["ai", "productivity", "skills", "techniques"],
+    "tags": [
+        "ai",
+        "productivity",
+        "skills",
+        "techniques"
+    ],
     "category": "AI",
     "icon": "FaTerminal",
     "featured": false,
-    "aliases": ["AI prompting", "LLM prompting"],
-    "relatedConcepts": ["ai-assistants", "ai-master-prompt"],
+    "aliases": [
+        "AI prompting",
+        "LLM prompting"
+    ],
+    "relatedConcepts": [
+        "ai-assistants",
+        "ai-master-prompt"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Prompt+Engineering"
     ],
@@ -17,6 +28,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,20 @@
     "name": "Knowledge Management Proficiency Ladder",
     "summary": "A ten-level progression framework for developing knowledge management skills from beginner to expert.",
     "explanation": "The Knowledge Management Proficiency Ladder provides a structured path for developing PKM skills. Each level encompasses and builds upon the previous ones:\n\n**Level 1**: Take notes (analog or digital) - the foundational habit.\n\n**Level 2**: Take digital notes - transitioning to digital for searchability and flexibility.\n\n**Level 3**: Centralize notes in a Tool for Thought - eliminating personal information silos.\n\n**Level 4**: Organize notes with metadata - using systems like LIFT, FILE, PARA, or Johnny Decimal.\n\n**Level 5**: Use a capture system - developing the capture habit for highlights and insights.\n\n**Level 6**: Be mindful about consumption - choosing sources and inputs intentionally.\n\n**Level 7**: Take smart, atomic, connected notes - using links, backlinks, and Maps of Content. Treat notes as cattle, not pets.\n\n**Level 8**: Journal daily and link knowledge with time - through periodic reviews.\n\n**Level 9**: Integrate PKM in all activities - leveraging AI and automation, exploring advanced techniques.\n\n**Level 10**: Build a complete PKMS - documenting your personalized system.\n\nThis ladder helps practitioners understand where they are and what skills to develop next.",
-    "tags": ["knowledge-management", "skill-development", "learning", "progression", "framework"],
+    "tags": [
+        "knowledge-management",
+        "skill-development",
+        "learning",
+        "progression",
+        "framework"
+    ],
     "category": "Frameworks",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["PKM Proficiency Ladder", "KM Skill Levels"],
+    "aliases": [
+        "PKM Proficiency Ladder",
+        "KM Skill Levels"
+    ],
     "relatedConcepts": [
         "km-for-beginners",
         "pkm",
@@ -34,6 +43,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,19 @@
     "name": "Processing Notes",
     "summary": "The workflow of transforming raw captures into organized, connected knowledge.",
     "explanation": "Processing Notes refers to the workflow of transforming raw captures (fleeting notes, highlights, quick thoughts) into organized, connected knowledge (literature notes, permanent notes). This is where the real work of PKM happens - not just capturing but actively working with information. Processing includes: reviewing captures, extracting key ideas, writing in your own words, creating connections, and filing appropriately. Regular processing prevents backlogs and ensures captures become usable knowledge.",
-    "tags": ["knowledge-management", "processes", "techniques", "workflows"],
+    "tags": [
+        "knowledge-management",
+        "processes",
+        "techniques",
+        "workflows"
+    ],
     "category": "Processes",
     "icon": "FaCogs",
     "featured": false,
-    "aliases": ["Note processing", "Processing workflow"],
+    "aliases": [
+        "Note processing",
+        "Processing workflow"
+    ],
     "relatedConcepts": [
         "fleeting-notes",
         "inbox-zero",
@@ -32,6 +40,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,12 +3,25 @@
     "name": "Bullet Journal",
     "summary": "A rapid logging system combining tasks, events, and notes in a structured format.",
     "explanation": "The Bullet Journal (BuJo) method, created by Ryder Carroll, is an analog organization system that combines to-do lists, calendars, and notes using rapid logging with bullets, signifiers, and migration. Key components include: an Index (table of contents), Future Log (long-term planning), Monthly Log (month overview), and Daily Log (daily tasks and notes). The method emphasizes intentionality and mindfulness. While designed for paper, the principles translate to digital systems and inspire many PKM templates.",
-    "tags": ["journaling", "methods", "organization", "productivity"],
+    "tags": [
+        "journaling",
+        "methods",
+        "organization",
+        "productivity"
+    ],
     "category": "Journaling",
     "icon": "FaListUl",
     "featured": false,
-    "aliases": ["BuJo", "Rapid logging"],
-    "relatedConcepts": ["daily-notes", "journaling", "periodic-reviews", "templates"],
+    "aliases": [
+        "BuJo",
+        "Rapid logging"
+    ],
+    "relatedConcepts": [
+        "daily-notes",
+        "journaling",
+        "periodic-reviews",
+        "templates"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Bullet+journaling"
     ],
@@ -37,6 +50,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

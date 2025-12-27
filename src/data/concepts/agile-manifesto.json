@@ -14,8 +14,16 @@
     "category": "Frameworks",
     "icon": "FaStream",
     "featured": false,
-    "aliases": ["Manifesto for Agile Software Development", "Agile Values"],
-    "relatedConcepts": ["kaizen", "continuous-improvement", "kanban", "lean-manufacturing"],
+    "aliases": [
+        "Manifesto for Agile Software Development",
+        "Agile Values"
+    ],
+    "relatedConcepts": [
+        "kaizen",
+        "continuous-improvement",
+        "kanban",
+        "lean-manufacturing"
+    ],
     "relatedNotes": [],
     "articles": [
         {
@@ -34,6 +42,16 @@
             "title": "Agile Manifesto - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Agile_software_development",
             "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "tutorials": []

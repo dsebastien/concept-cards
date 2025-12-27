@@ -3,11 +3,18 @@
     "name": "Digital Minimalism",
     "summary": "A philosophy of technology use focused on intentionally choosing tools that support your values.",
     "explanation": "Digital Minimalism is a philosophy of technology use in which you focus your online time on a small number of carefully selected activities that support your values, and then happily miss out on everything else. Coined by Cal Newport, it's not about rejecting technology but about being intentional. For PKM practitioners, digital minimalism means: choosing fewer but better tools, resisting the urge to try every new app, and designing your digital environment to support focus rather than distraction. Quality over quantity applies to tools too.",
-    "tags": ["philosophy", "productivity", "principles"],
+    "tags": [
+        "philosophy",
+        "productivity",
+        "principles"
+    ],
     "category": "Principles",
     "icon": "FaMobileAlt",
     "featured": false,
-    "aliases": ["Tech minimalism", "Intentional technology use"],
+    "aliases": [
+        "Tech minimalism",
+        "Intentional technology use"
+    ],
     "relatedConcepts": [
         "deep-work",
         "focus",
@@ -41,6 +48,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

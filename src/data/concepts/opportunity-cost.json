@@ -3,11 +3,19 @@
     "name": "Opportunity Cost",
     "summary": "The loss of potential gain from alternatives when one option is chosen.",
     "explanation": "Opportunity Cost is an economic concept representing what you give up when choosing one option over another. Every choice has an opportunity cost - time spent on one activity can't be spent on another. In PKM, this means: time spent organizing could be spent creating; time learning a new tool could be spent using your current one better; notes captured but never processed have an opportunity cost of the insights they could have generated. Understanding opportunity cost helps prioritize what truly matters.",
-    "tags": ["concepts", "economics", "productivity", "thinking"],
+    "tags": [
+        "concepts",
+        "economics",
+        "productivity",
+        "thinking"
+    ],
     "category": "Concepts",
     "icon": "FaBalanceScale",
     "featured": false,
-    "aliases": ["Alternative cost", "Trade-offs"],
+    "aliases": [
+        "Alternative cost",
+        "Trade-offs"
+    ],
     "relatedConcepts": [
         "decision-fatigue",
         "eisenhower-matrix",
@@ -27,6 +35,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,21 @@
     "name": "Default Diary",
     "summary": "A pre-planned schedule template that represents your ideal allocation of time for recurring activities across a typical week.",
     "explanation": "A Default Diary is a pre-designed schedule template that maps out how you would ideally spend your time during a typical week. Unlike a regular calendar that fills up reactively with meetings and appointments, a Default Diary is proactively designed to reflect your priorities and protect time for what matters most.\n\n**Key characteristics:**\n\n1. **Template, not rigid schedule**: It represents an ideal - you won't follow it perfectly every week, but it provides structure and intentionality.\n\n2. **Recurring blocks**: Includes regular activities like deep work sessions, exercise, admin time, family time, and rest - things that happen weekly but might otherwise get squeezed out.\n\n3. **Energy-aware design**: Places demanding cognitive work during peak energy periods and routine tasks during lower-energy times.\n\n**How to create a Default Diary:**\n\n1. **Identify your priorities**: What activities matter most for your goals and wellbeing?\n\n2. **Map your energy patterns**: When are you sharpest? When do you typically slump?\n\n3. **Block non-negotiables first**: Exercise, sleep, family time, key work sessions.\n\n4. **Add recurring commitments**: Regular meetings, appointments, routines.\n\n5. **Protect buffer time**: Leave gaps for unexpected tasks and transitions.\n\n**Benefits:**\n\n- **Reduces decision fatigue**: You don't have to decide what to do next - it's already planned.\n- **Protects priorities**: Important-but-not-urgent activities get scheduled, not squeezed out.\n- **Creates realistic expectations**: You can see if you're overcommitting.\n- **Enables saying no**: When someone requests your time, you can see what would be displaced.\n- **Builds positive habits**: Regular time slots for activities make them routine.\n\nThe Default Diary works alongside rather than replacing your regular calendar. It's the background template that your actual schedule overlays on top of.",
-    "tags": ["time-management", "productivity", "planning", "routines", "scheduling"],
+    "tags": [
+        "time-management",
+        "productivity",
+        "planning",
+        "routines",
+        "scheduling"
+    ],
     "category": "Techniques",
     "icon": "FaCalendarAlt",
     "featured": false,
-    "aliases": ["Ideal Week Template", "Weekly Time Template", "Schedule Template"],
+    "aliases": [
+        "Ideal Week Template",
+        "Weekly Time Template",
+        "Schedule Template"
+    ],
     "relatedConcepts": [
         "time-blocking",
         "ideal-schedule-week",
@@ -23,6 +33,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,20 @@
     "name": "Journaling",
     "summary": "The practice of regularly recording thoughts, experiences, and reflections.",
     "explanation": "Journaling is the practice of regularly writing down thoughts, ideas, experiences, feelings, and reflections. It's the perfect entry point for PKM, helping you expand your ideas and prevent losing important ones you may want to act on. Benefits include self-reflection, idea development, accountability, stress reduction, and better memory. Journaling throughout the day (interstitial journaling) captures context and mental state. For people with ADHD, journaling can be particularly powerful for organizing scattered thoughts. Combined with periodic reviews, journaling creates a comprehensive system for personal growth.",
-    "tags": ["habits", "journaling", "knowledge-management", "personal-growth", "productivity"],
+    "tags": [
+        "habits",
+        "journaling",
+        "knowledge-management",
+        "personal-growth",
+        "productivity"
+    ],
     "category": "Journaling",
     "icon": "FaBook",
     "featured": true,
-    "aliases": ["Daily journaling", "Journal writing"],
+    "aliases": [
+        "Daily journaling",
+        "Journal writing"
+    ],
     "relatedConcepts": [
         "1-1-1-method",
         "adhd",
@@ -66,6 +75,46 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
             "type": "other"
         }
     ],

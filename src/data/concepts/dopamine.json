@@ -3,12 +3,22 @@
     "name": "Dopamine",
     "summary": "A neurotransmitter that sets the threshold for motivation and goal pursuit, acting as a limited currency for action.",
     "explanation": "Dopamine is a neurotransmitter that plays a crucial role in motivation and goal-directed behavior. It sets the threshold for us to pursue specific goals, functioning like a currency that we spend with each action we take. All of our actions, including procrastination, deplete our dopamine reserves. Once depleted, we lose our motivation to act. This is why it is essential to choose our actions wisely and to prioritize rest and recovery. Understanding dopamine helps explain why we sometimes feel unmotivated and highlights the importance of managing our energy and focus for sustained productivity.",
-    "tags": ["neuroscience", "motivation", "health", "productivity"],
+    "tags": [
+        "neuroscience",
+        "motivation",
+        "health",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaBrain",
     "featured": false,
     "aliases": [],
-    "relatedConcepts": ["intrinsic-motivation", "extrinsic-motivation", "flow-state", "burnout"],
+    "relatedConcepts": [
+        "intrinsic-motivation",
+        "extrinsic-motivation",
+        "flow-state",
+        "burnout"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Dopamine"
     ],
@@ -17,6 +27,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

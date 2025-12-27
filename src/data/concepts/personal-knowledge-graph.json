@@ -3,11 +3,19 @@
     "name": "Personal Knowledge Graph",
     "summary": "A visual network representation of your personal knowledge and its connections.",
     "explanation": "A Personal Knowledge Graph (PKG) is a network-based representation of an individual's knowledge, showing concepts as nodes and their relationships as edges. Unlike traditional note-taking, a PKG emphasizes connections and enables discovery through traversal. Modern tools like Obsidian visualize your PKG, revealing clusters of related ideas, orphan notes needing connections, and unexpected relationships. Building a PKG transforms passive note collection into an active thinking tool that grows smarter over time.",
-    "tags": ["core-concept", "knowledge-management", "linking", "visualization"],
+    "tags": [
+        "core-concept",
+        "knowledge-management",
+        "linking",
+        "visualization"
+    ],
     "category": "Core Concepts",
     "icon": "FaNetworkWired",
     "featured": false,
-    "aliases": ["PKG", "Knowledge network"],
+    "aliases": [
+        "PKG",
+        "Knowledge network"
+    ],
     "relatedConcepts": [
         "backlinks",
         "connected-notes",
@@ -40,6 +48,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

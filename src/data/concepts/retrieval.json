@@ -3,12 +3,26 @@
     "name": "Retrieval",
     "summary": "The process of accessing and bringing stored information into consciousness.",
     "explanation": "Retrieval is the cognitive process of accessing stored memories and bringing them into conscious awareness. Unlike a computer, human retrieval is reconstructive - we rebuild memories rather than playing them back exactly. Retrieval is strengthened by practice (the testing effect) and is highly dependent on cues. PKM systems are essentially retrieval systems - they provide cues (links, tags, search) to help you access stored knowledge. Good organization optimizes retrieval.",
-    "tags": ["cognition", "knowledge-management", "learning", "memory", "psychology"],
+    "tags": [
+        "cognition",
+        "knowledge-management",
+        "learning",
+        "memory",
+        "psychology"
+    ],
     "category": "Concepts",
     "icon": "FaSearch",
     "featured": false,
-    "aliases": ["Memory retrieval", "Recall"],
-    "relatedConcepts": ["active-recall", "encoding", "forgetting-curve", "organization"],
+    "aliases": [
+        "Memory retrieval",
+        "Recall"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "encoding",
+        "forgetting-curve",
+        "organization"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -25,6 +39,31 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

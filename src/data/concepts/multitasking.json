@@ -3,11 +3,18 @@
     "name": "Multitasking",
     "summary": "Attempting to perform multiple tasks simultaneously, which reduces effectiveness.",
     "explanation": "Multitasking is the attempt to perform multiple tasks simultaneously. Research consistently shows that true multitasking is a myth for complex cognitive work - what we actually do is rapid task-switching, which incurs significant mental costs. Each switch requires context-loading time and increases errors. For knowledge work, single-tasking with time blocking produces dramatically better results. The illusion of productivity from multitasking actually reduces deep work capacity and quality. Embracing single-tasking is essential for effective PKM and creative work.",
-    "tags": ["productivity", "focus", "psychology"],
+    "tags": [
+        "productivity",
+        "focus",
+        "psychology"
+    ],
     "category": "Concepts",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["Task-switching", "Multi-tasking"],
+    "aliases": [
+        "Task-switching",
+        "Multi-tasking"
+    ],
     "relatedConcepts": [
         "attention",
         "context-switching",
@@ -35,6 +42,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

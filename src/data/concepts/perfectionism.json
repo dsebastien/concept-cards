@@ -3,11 +3,18 @@
     "name": "Perfectionism",
     "summary": "The pursuit of flawlessness that can prevent progress and completion.",
     "explanation": "Perfectionism is the drive to be perfect or appear perfect, often setting excessively high standards that become barriers to action. In PKM, perfectionism manifests as: never publishing because notes aren't 'ready,' constantly reorganizing instead of creating, or paralysis choosing the 'perfect' system. While high standards can drive quality, perfectionism becomes toxic when it prevents action. The antidotes are: treating notes as eternal drafts, embracing iterative improvement, and recognizing that imperfect action beats perfect inaction.",
-    "tags": ["psychology", "productivity", "concepts"],
+    "tags": [
+        "psychology",
+        "productivity",
+        "concepts"
+    ],
     "category": "Concepts",
     "icon": "FaStar",
     "featured": false,
-    "aliases": ["Perfect is the enemy of good", "Perfectionist tendencies"],
+    "aliases": [
+        "Perfect is the enemy of good",
+        "Perfectionist tendencies"
+    ],
     "relatedConcepts": [
         "acta-non-verba",
         "analysis-paralysis",
@@ -36,6 +43,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

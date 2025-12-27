@@ -14,7 +14,10 @@
     "category": "Principles",
     "icon": "FaCubes",
     "featured": false,
-    "aliases": ["Personal productization", "Self-productization"],
+    "aliases": [
+        "Personal productization",
+        "Self-productization"
+    ],
     "relatedConcepts": [
         "productized-services",
         "unfair-advantage",
@@ -25,6 +28,22 @@
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Productizing+yourself+is+the+process+of+transforming+your+interests+into+forms+that+can+be+inifinitely+leveraged"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

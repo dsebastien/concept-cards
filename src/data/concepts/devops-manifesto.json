@@ -14,8 +14,16 @@
     "category": "Frameworks",
     "icon": "FaCogs",
     "featured": false,
-    "aliases": ["DevOps Principles", "DevOps Culture"],
-    "relatedConcepts": ["agile-manifesto", "kaizen", "continuous-improvement", "kanban"],
+    "aliases": [
+        "DevOps Principles",
+        "DevOps Culture"
+    ],
+    "relatedConcepts": [
+        "agile-manifesto",
+        "kaizen",
+        "continuous-improvement",
+        "kanban"
+    ],
     "relatedNotes": [],
     "articles": [
         {
@@ -39,6 +47,26 @@
             "title": "The DevOps Handbook",
             "url": "https://itrevolution.com/product/the-devops-handbook/",
             "type": "book"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "tutorials": []

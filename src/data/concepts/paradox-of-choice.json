@@ -3,12 +3,24 @@
     "name": "Paradox of Choice",
     "summary": "Having too many options leads to anxiety and decision paralysis.",
     "explanation": "The Paradox of Choice describes how having too many options, rather than increasing satisfaction, often leads to anxiety, decision paralysis, and reduced satisfaction with whatever is chosen. More choices mean more opportunity cost awareness, more comparison, and more regret potential. In PKM, this manifests as overwhelm when facing too many tools, methods, or organizational structures. The antidote is deliberately limiting options and making irreversible choices that eliminate alternatives.",
-    "tags": ["concepts", "decision-making", "productivity", "psychology"],
+    "tags": [
+        "concepts",
+        "decision-making",
+        "productivity",
+        "psychology"
+    ],
     "category": "Concepts",
     "icon": "FaRandom",
     "featured": false,
-    "aliases": ["Choice overload", "Overchoice"],
-    "relatedConcepts": ["decision-fatigue", "kiss", "shiny-object-syndrome"],
+    "aliases": [
+        "Choice overload",
+        "Overchoice"
+    ],
+    "relatedConcepts": [
+        "decision-fatigue",
+        "kiss",
+        "shiny-object-syndrome"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/The+Paradox+of+choice"
     ],
@@ -22,6 +34,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

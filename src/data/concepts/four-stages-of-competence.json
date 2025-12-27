@@ -3,11 +3,20 @@
     "name": "Four Stages of Competence",
     "summary": "A learning model describing the psychological states from unconscious incompetence to unconscious competence.",
     "explanation": "The Four Stages of Competence is a popular psychological learning model that describes the progression we go through when acquiring any new skill. The stages are: (1) Unconscious incompetence - we don't know what we don't know, our view is narrow, and our intuition is often wrong; (2) Conscious incompetence - we begin to realize how much we have yet to learn, and progress requires experimentation and embracing failure; (3) Conscious competence - we can perform tasks independently but still need focused effort and have knowledge gaps; (4) Unconscious competence - the skill becomes second nature, feeling intuitive and effortless. Understanding these stages helps set realistic expectations during learning and explains why initial confidence may be misplaced. This model has a close relationship with the Dunning-Kruger effect, as both deal with self-awareness of one's abilities at different skill levels.",
-    "tags": ["learning", "psychology", "skill-development", "self-improvement", "expertise"],
+    "tags": [
+        "learning",
+        "psychology",
+        "skill-development",
+        "self-improvement",
+        "expertise"
+    ],
     "category": "Concepts",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["Conscious competence learning model", "Competence hierarchy"],
+    "aliases": [
+        "Conscious competence learning model",
+        "Competence hierarchy"
+    ],
     "relatedConcepts": [
         "dunning-kruger-effect",
         "learning-curve",
@@ -33,6 +42,26 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

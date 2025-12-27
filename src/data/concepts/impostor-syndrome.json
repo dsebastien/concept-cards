@@ -3,11 +3,18 @@
     "name": "Impostor Syndrome",
     "summary": "Persistent self-doubt and feeling like a fraud despite evidence of competence.",
     "explanation": "Impostor Syndrome is the persistent feeling of being a fraud, doubting your accomplishments, and fearing being exposed as incompetent despite evidence of your abilities. It's particularly common among high achievers and knowledge workers. In the context of PKM and content creation, impostor syndrome can prevent people from sharing their knowledge, publishing their work, or claiming expertise. Recognizing that even experts feel this way, and that learning in public is valuable, helps overcome these feelings.",
-    "tags": ["psychology", "personal-growth", "productivity"],
+    "tags": [
+        "psychology",
+        "personal-growth",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaMask",
     "featured": false,
-    "aliases": ["Imposter syndrome", "Fraud syndrome"],
+    "aliases": [
+        "Imposter syndrome",
+        "Fraud syndrome"
+    ],
     "relatedConcepts": [
         "dunning-kruger-effect",
         "embrace-imperfection",
@@ -31,6 +38,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

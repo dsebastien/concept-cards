@@ -3,11 +3,18 @@
     "name": "LIFT Principle",
     "summary": "Locatable, Identifiable, Flat structure, Try to stay DRY.",
     "explanation": "The LIFT principle originated from Google's Angular code style guides but applies excellently to PKM and Information Management. LIFT stands for: Locate (quickly find what you need), Identify (easily recognize what things are), Flat structure as long as possible (avoid deep nesting), and Try to stay DRY (Don't Repeat Yourself, avoid duplicating information). This principle ensures that file and folder structures remain manageable, information is easy to find, and duplication is minimized. It's a key design principle for organizing any information system.",
-    "tags": ["information-management", "organization", "principles", "structure"],
+    "tags": [
+        "information-management",
+        "organization",
+        "principles",
+        "structure"
+    ],
     "category": "Principles",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["LIFT"],
+    "aliases": [
+        "LIFT"
+    ],
     "relatedConcepts": [
         "dry-principle",
         "file-framework",
@@ -39,6 +46,26 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
             "type": "other"
         }
     ],

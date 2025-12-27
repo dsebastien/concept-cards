@@ -17,47 +17,36 @@ interface Concept {
     [key: string]: unknown
 }
 
-// Product definitions with their matching tags
-const PRODUCTS = {
-    obsidianStarterKit: {
-        title: 'Obsidian Starter Kit',
-        url: 'https://store.dsebastien.net/l/obsidian-starter-kit',
-        type: 'other',
-        matchTags: [
-            'obsidian',
-            'note-taking',
-            'pkm',
-            'knowledge-management',
-            'organization',
-            'templates',
-            'vault'
-        ]
-    },
-    knowledgeManagementForBeginners: {
-        title: 'Knowledge Management for Beginners',
-        url: 'https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook',
-        type: 'other',
-        matchTags: ['pkm', 'knowledge-management', 'information-management', 'organization']
-    },
-    knowiiCommunity: {
-        title: 'Knowii Community',
-        url: 'https://store.dsebastien.net/l/knowii',
-        type: 'other',
-        matchTags: ['pkm', 'knowledge-management', 'learning', 'note-taking', 'productivity']
-    }
+interface Product {
+    id: string
+    title: string
+    url: string
+    type: string
+    matchTags: string[]
+}
+
+interface ProductsConfig {
+    products: Product[]
 }
 
 const CONCEPTS_DIR = path.join(__dirname, '../src/data/concepts')
+const PRODUCTS_FILE = path.join(__dirname, 'products.json')
+
+function loadProducts(): Product[] {
+    const content = fs.readFileSync(PRODUCTS_FILE, 'utf-8')
+    const config: ProductsConfig = JSON.parse(content)
+    return config.products
+}
 
 function hasProductLink(references: Reference[], productUrl: string): boolean {
     return references.some((ref) => ref.url.includes(productUrl) || productUrl.includes(ref.url))
 }
 
-function getMatchingProducts(tags: string[]): Reference[] {
+function getMatchingProducts(tags: string[], products: Product[]): Reference[] {
     const matchedProducts: Reference[] = []
     const lowerTags = tags.map((t) => t.toLowerCase())
 
-    for (const [, product] of Object.entries(PRODUCTS)) {
+    for (const product of products) {
         const hasMatch = product.matchTags.some((matchTag) =>
             lowerTags.includes(matchTag.toLowerCase())
         )
@@ -74,7 +63,8 @@ function getMatchingProducts(tags: string[]): Reference[] {
 }
 
 async function processConceptFile(
-    filePath: string
+    filePath: string,
+    products: Product[]
 ): Promise<{ updated: boolean; added: string[] }> {
     const content = fs.readFileSync(filePath, 'utf-8')
     const concept: Concept = JSON.parse(content)
@@ -83,7 +73,7 @@ async function processConceptFile(
         concept.references = []
     }
 
-    const matchingProducts = getMatchingProducts(concept.tags || [])
+    const matchingProducts = getMatchingProducts(concept.tags || [], products)
     const addedProducts: string[] = []
 
     for (const product of matchingProducts) {
@@ -102,6 +92,9 @@ async function processConceptFile(
 }
 
 async function main() {
+    const products = loadProducts()
+    console.log(`Loaded ${products.length} products from products.json`)
+
     const files = fs.readdirSync(CONCEPTS_DIR).filter((f) => f.endsWith('.json'))
     let totalUpdated = 0
     const updates: { file: string; products: string[] }[] = []
@@ -110,7 +103,7 @@ async function main() {
 
     for (const file of files) {
         const filePath = path.join(CONCEPTS_DIR, file)
-        const result = await processConceptFile(filePath)
+        const result = await processConceptFile(filePath, products)
 
         if (result.updated) {
             totalUpdated++

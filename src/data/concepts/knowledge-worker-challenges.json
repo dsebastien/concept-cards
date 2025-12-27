@@ -3,11 +3,19 @@
     "name": "Knowledge Worker Challenges",
     "summary": "The common problems knowledge workers face: information overload, cognitive load, context switching, and knowledge retrieval.",
     "explanation": "Knowledge workers face a unique set of challenges that PKM systems are designed to address. Information overload: too much information, too many sources, too much noise that's hard to filter. Cognitive load: too many roles, tasks, projects, and responsibilities making it hard to focus or prioritize. Mental contexts: each task is associated with tons of information that's hard to build and easy to lose. Context switching: moving between mental contexts is costly and exhausting, draining energy and requiring time to refocus. Knowledge retention and retrieval: our brains are unreliable, and what matters most is being able to find what you need when you need it. AI context management adds another layer as we now need to manage context for AI assistants too. These challenges are why knowledge workers especially need personal systems for capturing, organizing, and retrieving information.",
-    "tags": ["knowledge-work", "productivity", "information-overload", "challenges"],
+    "tags": [
+        "knowledge-work",
+        "productivity",
+        "information-overload",
+        "challenges"
+    ],
     "category": "Concepts",
     "icon": "FaUserCog",
     "featured": false,
-    "aliases": ["Problems of knowledge work", "Knowledge work difficulties"],
+    "aliases": [
+        "Problems of knowledge work",
+        "Knowledge work difficulties"
+    ],
     "relatedConcepts": [
         "knowledge-workers",
         "information-overload",
@@ -25,6 +33,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

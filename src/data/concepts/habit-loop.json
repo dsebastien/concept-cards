@@ -3,11 +3,21 @@
     "name": "Habit Loop",
     "summary": "The neurological loop of cue, routine, and reward that underlies all habit formation.",
     "explanation": "The Habit Loop is a neurological pattern discovered by researchers at MIT and popularized by Charles Duhigg in 'The Power of Habit.' Every habit consists of three components: the Cue (a trigger that tells your brain to go into automatic mode), the Routine (the behavior itself, which can be physical, mental, or emotional), and the Reward (what your brain gets that helps it remember the pattern). Over time, this loop becomes increasingly automatic as the brain stops fully participating in decision-making. Understanding this loop is crucial for both building good habits and breaking bad ones. To create a new habit, identify a clear cue, define the routine you want to establish, and choose a satisfying reward. To change a bad habit, keep the same cue and reward but substitute a different routine - this is the 'golden rule of habit change.' James Clear expanded this model in Atomic Habits to include a fourth element: Craving (the motivational force between cue and routine). The habit loop explains why habits are so persistent: they become encoded in the basal ganglia, a part of the brain that operates below conscious awareness.",
-    "tags": ["habits", "productivity", "psychology", "neuroscience", "behavior-change"],
+    "tags": [
+        "habits",
+        "productivity",
+        "psychology",
+        "neuroscience",
+        "behavior-change"
+    ],
     "category": "Principles",
     "icon": "FaRedo",
     "featured": false,
-    "aliases": ["Habit cycle", "Cue-routine-reward loop", "Three Rs of habit change"],
+    "aliases": [
+        "Habit cycle",
+        "Cue-routine-reward loop",
+        "Three Rs of habit change"
+    ],
     "relatedConcepts": [
         "consistency",
         "dopamine",
@@ -34,6 +44,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

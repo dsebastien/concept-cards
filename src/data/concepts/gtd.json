@@ -3,11 +3,18 @@
     "name": "Getting Things Done (GTD)",
     "summary": "A productivity methodology for capturing, organizing, and completing tasks.",
     "explanation": "Getting Things Done (GTD) is a productivity and knowledge management method created by David Allen. The core principle is that anything that keeps stuff out of your head because it has captured it and is trusted to remind you appropriately, is GTD. The method involves capturing everything that has your attention, clarifying what each item means and what to do about it, organizing reminders and information, reflecting on the system regularly, and engaging with confidence. GTD emphasizes clearing your mind by externalizing commitments and using a trusted system.",
-    "tags": ["organization", "productivity", "systems", "task-management"],
+    "tags": [
+        "organization",
+        "productivity",
+        "systems",
+        "task-management"
+    ],
     "category": "Systems",
     "icon": "FaTasks",
     "featured": false,
-    "aliases": ["GTD"],
+    "aliases": [
+        "GTD"
+    ],
     "relatedConcepts": [
         "capture-habit",
         "capture-system",
@@ -45,6 +52,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

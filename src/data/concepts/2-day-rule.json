@@ -3,11 +3,21 @@
     "name": "Two-Day Rule",
     "summary": "A habit maintenance strategy where you never skip a habit two days in a row.",
     "explanation": "The Two-Day Rule is a flexible approach to habit consistency that acknowledges life happens while preventing complete habit abandonment. The rule is simple: never skip your habit two days in a row. Missing one day is acceptable and normal - everyone has off days, gets sick, or faces emergencies. But missing two consecutive days starts to form a new habit of not doing the behavior. This rule, popularized by Matt D'Avella, strikes a balance between the rigidity of 'never break the chain' approaches and the slippery slope of 'I'll start again Monday.' The psychology behind it works because one missed day feels like a minor setback you can recover from, while two or more missed days feels like a pattern you've fallen into. The rule also reduces the guilt and shame that can accompany missing a day, which often leads to giving up entirely. It's particularly effective for exercise, meditation, writing, or any recurring practice. The key insight is that consistency over time matters more than perfection, and having a clear recovery mechanism makes long-term adherence more sustainable.",
-    "tags": ["habits", "productivity", "techniques", "consistency", "self-discipline"],
+    "tags": [
+        "habits",
+        "productivity",
+        "techniques",
+        "consistency",
+        "self-discipline"
+    ],
     "category": "Techniques",
     "icon": "FaRedo",
     "featured": false,
-    "aliases": ["Never miss twice", "Two day rule", "Don't skip twice"],
+    "aliases": [
+        "Never miss twice",
+        "Two day rule",
+        "Don't skip twice"
+    ],
     "relatedConcepts": [
         "habit-stacking",
         "consistency",
@@ -33,6 +43,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

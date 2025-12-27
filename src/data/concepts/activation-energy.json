@@ -3,11 +3,21 @@
     "name": "Activation Energy",
     "summary": "The initial mental and physical effort required to start a task, borrowed from chemistry as a productivity metaphor.",
     "explanation": "Activation Energy is a concept borrowed from chemistry that describes the initial energy required to start a chemical reaction. In productivity, it refers to the mental and physical effort needed to begin a task. Just as a boulder requires a strong initial push to start rolling, tasks often require significant upfront effort to get started, even if maintaining the activity becomes easier once begun. Understanding activation energy helps explain procrastination: we often avoid tasks not because they are inherently difficult, but because starting them feels hard. Strategies to reduce activation energy include: preparing materials in advance, breaking tasks into smaller first steps, using the two-minute rule, removing friction from your environment, and leveraging implementation intentions. The key insight is that by lowering the barrier to entry, you can make it easier to begin tasks and build momentum. Once started, the task often feels much easier than anticipated, which is why 'just starting' is such powerful advice.",
-    "tags": ["productivity", "psychology", "motivation", "behavior-change", "habits"],
+    "tags": [
+        "productivity",
+        "psychology",
+        "motivation",
+        "behavior-change",
+        "habits"
+    ],
     "category": "Principles",
     "icon": "FaRocket",
     "featured": false,
-    "aliases": ["Startup cost", "Getting started friction", "Initial effort barrier"],
+    "aliases": [
+        "Startup cost",
+        "Getting started friction",
+        "Initial effort barrier"
+    ],
     "relatedConcepts": [
         "atomic-tasks",
         "five-minute-rule",
@@ -41,6 +51,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

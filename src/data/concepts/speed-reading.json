@@ -3,12 +3,24 @@
     "name": "Speed Reading",
     "summary": "Techniques aimed at increasing reading speed while maintaining adequate comprehension.",
     "explanation": "Speed reading encompasses various techniques aimed at increasing reading rate beyond normal speeds. Methods include reducing subvocalization (inner speech), expanding peripheral vision to read multiple words at once, using a pointer to guide eyes, and minimizing regression (re-reading). While some techniques can genuinely improve reading efficiency, claims of extreme speed reading (thousands of words per minute) are generally unsupported by research - comprehension typically suffers at very high speeds. Speed reading is most useful for preview reading, scanning for specific information, or processing familiar material. For complex or novel content requiring deep understanding, slower, more engaged reading remains superior. The key is matching reading speed to purpose and material difficulty.",
-    "tags": ["reading", "learning", "productivity", "techniques"],
+    "tags": [
+        "reading",
+        "learning",
+        "productivity",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaStream",
     "featured": false,
-    "aliases": ["Rapid reading", "Fast reading"],
-    "relatedConcepts": ["skimming", "active-reading", "deep-reading"],
+    "aliases": [
+        "Rapid reading",
+        "Fast reading"
+    ],
+    "relatedConcepts": [
+        "skimming",
+        "active-reading",
+        "deep-reading"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -20,6 +32,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

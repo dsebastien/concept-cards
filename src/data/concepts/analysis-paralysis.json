@@ -3,11 +3,18 @@
     "name": "Analysis Paralysis",
     "summary": "Overthinking a decision to the point of taking no action.",
     "explanation": "Analysis Paralysis is the state of over-analyzing or overthinking a situation so that a decision or action is never taken. In PKM, this often manifests as: endlessly researching tools without choosing one, perfecting organizational systems instead of using them, or collecting information without processing it. The cure is recognizing that imperfect action beats perfect inaction. Set time limits for decisions, embrace 'good enough,' and remember that most decisions are reversible. Done is better than perfect.",
-    "tags": ["productivity", "psychology", "concepts"],
+    "tags": [
+        "productivity",
+        "psychology",
+        "concepts"
+    ],
     "category": "Concepts",
     "icon": "FaPause",
     "featured": false,
-    "aliases": ["Overthinking", "Decision paralysis"],
+    "aliases": [
+        "Overthinking",
+        "Decision paralysis"
+    ],
     "relatedConcepts": [
         "bias-for-action",
         "choice-overload",
@@ -33,6 +40,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

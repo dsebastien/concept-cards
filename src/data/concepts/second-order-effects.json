@@ -3,11 +3,20 @@
     "name": "Second-Order Effects",
     "summary": "The indirect consequences that result from the immediate outcomes of our decisions and actions.",
     "explanation": "When we think about the potential effects of our decisions and actions, we often fail to think about second-order effects - things that will happen as a result of the immediate consequences. Our focus tends to remain on the obvious and immediate outcomes. For example, a company might reduce staff to cut costs (first-order effect), but fail to anticipate the resulting decrease in morale and productivity among remaining employees (second-order effect). The ability to anticipate these consequences requires a more systems-oriented approach to decision-making. Developing this deeper foresight can dramatically improve the quality of our choices and help us avoid unintended consequences.",
-    "tags": ["decision-making", "systems-thinking", "consequences", "strategy"],
+    "tags": [
+        "decision-making",
+        "systems-thinking",
+        "consequences",
+        "strategy"
+    ],
     "category": "Concepts",
     "icon": "FaProjectDiagram",
     "featured": false,
-    "aliases": ["Second order thinking", "Downstream effects", "Ripple effects"],
+    "aliases": [
+        "Second order thinking",
+        "Downstream effects",
+        "Ripple effects"
+    ],
     "relatedConcepts": [
         "amaras-law",
         "decision-fatigue",
@@ -19,6 +28,12 @@
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Second-order+effects"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

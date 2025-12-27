@@ -3,12 +3,23 @@
     "name": "PKM Library",
     "summary": "A curated collection of PKM resources, tools, communities, and experts.",
     "explanation": "The Personal Knowledge Management Library (PKM Library) is a massive curated collection of PKM resources, tools, communities, experts, courses, books, videos, podcasts, and more. Created by Sébastien Dubois, it serves as a comprehensive reference for anyone building or improving their PKM practice. Includes a PKM Tools Database for comparing different note-taking applications.",
-    "tags": ["curation", "knowledge-management", "products", "resources"],
+    "tags": [
+        "curation",
+        "knowledge-management",
+        "products",
+        "resources"
+    ],
     "category": "Products",
     "icon": "FaBook",
     "featured": false,
-    "aliases": ["Personal Knowledge Management Library"],
-    "relatedConcepts": ["learning", "pkm", "tools-for-thought"],
+    "aliases": [
+        "Personal Knowledge Management Library"
+    ],
+    "relatedConcepts": [
+        "learning",
+        "pkm",
+        "tools-for-thought"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Personal+Knowledge+Management+Library+(PKM+Library)"
     ],
@@ -43,6 +54,26 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

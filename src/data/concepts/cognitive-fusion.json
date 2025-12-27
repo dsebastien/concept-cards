@@ -3,11 +3,18 @@
     "name": "Cognitive Fusion",
     "summary": "Being trapped by thoughts, treating them as literal truths rather than mental events.",
     "explanation": "Cognitive Fusion is a concept from Acceptance and Commitment Therapy (ACT) describing the state of being 'fused' with your thoughts - treating them as absolute truths that must be obeyed or avoided. When fused, thoughts like 'I'm not smart enough' or 'This system won't work' feel like facts rather than mental events. This fusion can prevent action and learning. The antidote is cognitive defusion - creating distance from thoughts to evaluate them more objectively. Recognizing fusion is the first step to breaking free from limiting thought patterns.",
-    "tags": ["psychology", "mindfulness", "thinking"],
+    "tags": [
+        "psychology",
+        "mindfulness",
+        "thinking"
+    ],
     "category": "Concepts",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["Thought fusion", "Mental fusion"],
+    "aliases": [
+        "Thought fusion",
+        "Mental fusion"
+    ],
     "relatedConcepts": [
         "cognitive-defusion",
         "mindfulness",
@@ -20,6 +27,17 @@
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Cognitive+fusion"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

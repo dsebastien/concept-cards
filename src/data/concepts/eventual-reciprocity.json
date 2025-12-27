@@ -14,7 +14,10 @@
     "category": "Principles",
     "icon": "FaLink",
     "featured": false,
-    "aliases": ["Long-term Reciprocity", "Giving First"],
+    "aliases": [
+        "Long-term Reciprocity",
+        "Giving First"
+    ],
     "relatedConcepts": [
         "flywheels",
         "compound-growth",
@@ -32,6 +35,12 @@
             "type": "website"
         }
     ],
-    "references": [],
+    "references": [
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

@@ -3,11 +3,19 @@
     "name": "Explicit Knowledge",
     "summary": "Knowledge that can be easily articulated, documented, and transferred through formal language.",
     "explanation": "Explicit knowledge is knowledge that can be readily articulated, codified, stored, and transferred through formal, systematic language. It includes facts, procedures, rules, and information that can be written down in documents, databases, or manuals. Examples include recipes, mathematical formulas, technical specifications, and standard operating procedures. Explicit knowledge contrasts with tacit knowledge, which is difficult to express. The SECI model (Socialization, Externalization, Combination, Internalization) by Nonaka and Takeuchi describes how knowledge transforms between tacit and explicit forms. For PKM, explicit knowledge is what we capture in notes, documents, and knowledge bases. The challenge is that not all valuable knowledge can be made explicit - some insights resist formalization. Effective knowledge management involves both capturing explicit knowledge and creating conditions for tacit knowledge transfer.",
-    "tags": ["knowledge-management", "documentation", "learning", "information"],
+    "tags": [
+        "knowledge-management",
+        "documentation",
+        "learning",
+        "information"
+    ],
     "category": "Concepts",
     "icon": "FaBook",
     "featured": false,
-    "aliases": ["Codified knowledge", "Formal knowledge"],
+    "aliases": [
+        "Codified knowledge",
+        "Formal knowledge"
+    ],
     "relatedConcepts": [
         "tacit-knowledge",
         "process-vs-state-knowledge",
@@ -38,6 +46,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,12 +3,28 @@
     "name": "Knowledge Graph",
     "summary": "A network representation of interconnected knowledge and concepts.",
     "explanation": "A Knowledge Graph (KG) represents knowledge as a network of interconnected nodes and relationships. In the context of Personal Knowledge Management, your Personal Knowledge Graph (PKG) is the web of connected notes, ideas, and concepts in your knowledge base. Unlike hierarchical folder structures, knowledge graphs emphasize connections and relationships between ideas. The more notes and links you have, the more possible paths exist through your knowledge base - the number of paths grows exponentially. This networked approach mirrors how the brain naturally associates and connects information.",
-    "tags": ["core-concept", "knowledge-management", "linking", "visualization"],
+    "tags": [
+        "core-concept",
+        "knowledge-management",
+        "linking",
+        "visualization"
+    ],
     "category": "Core Concepts",
     "icon": "FaProjectDiagram",
     "featured": false,
-    "aliases": ["KG", "PKG", "Personal Knowledge Graph", "Web of Knowledge"],
-    "relatedConcepts": ["backlinks", "connected-notes", "digital-garden", "moc", "pkm"],
+    "aliases": [
+        "KG",
+        "PKG",
+        "Personal Knowledge Graph",
+        "Web of Knowledge"
+    ],
+    "relatedConcepts": [
+        "backlinks",
+        "connected-notes",
+        "digital-garden",
+        "moc",
+        "pkm"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Knowledge+Graph+(KG)"
     ],
@@ -33,6 +49,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

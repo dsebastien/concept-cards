@@ -3,11 +3,20 @@
     "name": "Personal Kanban",
     "summary": "A visual personal task management system using boards and work-in-progress limits.",
     "explanation": "Personal Kanban adapts the industrial Kanban methodology for individual productivity and life management. Developed by Jim Benson and Tonianne DeMaria Barry, it rests on two simple rules: visualize your work and limit your work in progress (WIP). The visualization typically uses a board with columns like Backlog, Ready, Doing, and Done, with tasks represented as cards that move through the stages. The WIP limit (often 3-5 items in the 'Doing' column) prevents overcommitment and context switching, forcing completion before starting new work. Personal Kanban provides clarity on current commitments, makes hidden work visible, reveals bottlenecks and blockers, reduces anxiety by externalizing mental inventory, and creates a sense of accomplishment as tasks flow to 'Done'. Unlike rigid planning systems, Personal Kanban embraces change and allows continuous reprioritization. It can be implemented physically with sticky notes or digitally with tools like Trello, Notion, or Obsidian's Kanban plugin.",
-    "tags": ["productivity", "task-management", "visualization", "methods", "workflow"],
+    "tags": [
+        "productivity",
+        "task-management",
+        "visualization",
+        "methods",
+        "workflow"
+    ],
     "category": "Methods",
     "icon": "FaColumns",
     "featured": false,
-    "aliases": ["PKanban", "Personal Kanban Board"],
+    "aliases": [
+        "PKanban",
+        "Personal Kanban Board"
+    ],
     "relatedConcepts": [
         "kanban",
         "limit-work-in-progress",
@@ -27,6 +36,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,12 +3,24 @@
     "name": "Paper System",
     "summary": "Analog organization systems using physical paper for note-taking and knowledge management.",
     "explanation": "Paper Systems are analog approaches to personal knowledge management using physical notebooks, index cards, and file systems. Examples include the original Zettelkasten (slip boxes), commonplace books, bullet journals, and index card methods. While digital tools offer powerful search and linking, paper systems provide tactile engagement, freedom from distraction, and the cognitive benefits of handwriting. Many knowledge workers use hybrid approaches, combining paper for capture and thinking with digital for storage and retrieval.",
-    "tags": ["analog", "note-taking", "systems"],
+    "tags": [
+        "analog",
+        "note-taking",
+        "systems"
+    ],
     "category": "Systems",
     "icon": "FaStickyNote",
     "featured": false,
-    "aliases": ["Analog PKM", "Physical note systems"],
-    "relatedConcepts": ["zettelkasten", "bullet-journal", "capture-system", "commonplace-books"],
+    "aliases": [
+        "Analog PKM",
+        "Physical note systems"
+    ],
+    "relatedConcepts": [
+        "zettelkasten",
+        "bullet-journal",
+        "capture-system",
+        "commonplace-books"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Paper+system"
     ],
@@ -22,6 +34,26 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
             "type": "other"
         }
     ],

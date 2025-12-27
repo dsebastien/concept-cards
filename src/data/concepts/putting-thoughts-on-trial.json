@@ -3,11 +3,22 @@
     "name": "Putting Thoughts on Trial",
     "summary": "A CBT technique that systematically examines and challenges negative or distorted thoughts by evaluating the evidence for and against them.",
     "explanation": "Putting Thoughts on Trial is a Cognitive Behavioral Therapy technique that treats negative thoughts as hypotheses to be tested rather than facts to be accepted. Like a courtroom trial, you become both prosecutor and defense attorney, examining the evidence supporting and contradicting your thought. The process involves: (1) Identifying the negative thought clearly, (2) Gathering evidence that supports the thought, (3) Gathering evidence that contradicts the thought, (4) Evaluating the quality and weight of evidence on both sides, and (5) Reaching a more balanced, realistic conclusion. This technique is particularly effective for cognitive distortions like catastrophizing, all-or-nothing thinking, and overgeneralization. For knowledge workers, putting thoughts on trial helps combat impostor syndrome ('I'm not qualified'), perfectionism ('This work isn't good enough'), and anxiety about uncertainty ('This project will definitely fail'). By requiring concrete evidence, the technique reveals how often our negative thoughts are based on feelings rather than facts, helping develop more balanced and accurate thinking patterns over time.",
-    "tags": ["psychology", "mental-health", "techniques", "cbt", "self-improvement"],
+    "tags": [
+        "psychology",
+        "mental-health",
+        "techniques",
+        "cbt",
+        "self-improvement"
+    ],
     "category": "Techniques",
     "icon": "FaBalanceScale",
     "featured": false,
-    "aliases": ["Thought trial", "Evidence examination", "Testing thoughts", "Courtroom technique"],
+    "aliases": [
+        "Thought trial",
+        "Evidence examination",
+        "Testing thoughts",
+        "Courtroom technique"
+    ],
     "relatedConcepts": [
         "cognitive-behavioral-therapy",
         "cognitive-defusion",
@@ -33,6 +44,11 @@
             "title": "Mind Over Mood - Dennis Greenberger & Christine Padesky",
             "url": "https://www.amazon.com/Mind-Over-Mood-Second-Changing/dp/1462520421",
             "type": "book"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
         }
     ],
     "tutorials": []

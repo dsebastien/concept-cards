@@ -3,11 +3,18 @@
     "name": "Content Curation",
     "summary": "Selecting, organizing, and presenting valuable content from various sources.",
     "explanation": "Content Curation is the process of discovering, gathering, organizing, and sharing the most relevant content on specific topics. Unlike content creation (making original content), curation involves filtering, adding context, and presenting existing content in valuable ways. Good curation saves others time by surfacing quality material. In PKM, you curate content for yourself first - collecting and organizing valuable resources. This curation can then become the basis for sharing with others.",
-    "tags": ["content", "knowledge-management", "processes", "sharing"],
+    "tags": [
+        "content",
+        "knowledge-management",
+        "processes",
+        "sharing"
+    ],
     "category": "Processes",
     "icon": "FaFilter",
     "featured": false,
-    "aliases": ["Information curation"],
+    "aliases": [
+        "Information curation"
+    ],
     "relatedConcepts": [
         "digital-garden",
         "knowledge-ingestion-process",
@@ -33,6 +40,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

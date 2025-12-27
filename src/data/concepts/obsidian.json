@@ -3,11 +3,19 @@
     "name": "Obsidian",
     "summary": "A powerful note-taking app that uses local Markdown files and linking.",
     "explanation": "Obsidian is a powerful tool for thought that uses local Markdown files, emphasizes linking between notes, and includes a graph view to visualize connections. Benefits include: local-first (you own your data), Markdown-based (future-proof and portable), extensive plugin ecosystem, graph visualization, Canvas for visual thinking, and strong community. Obsidian serves as a thinking headquarters - a fourth place beyond home, work, and social spaces where thoughts can exist, be developed, and grow. It's all you need from simple notes to complete productivity.",
-    "tags": ["note-taking", "productivity", "software", "tools", "knowledge-management"],
+    "tags": [
+        "note-taking",
+        "productivity",
+        "software",
+        "tools",
+        "knowledge-management"
+    ],
     "category": "Tools",
     "icon": "FaGem",
     "featured": false,
-    "aliases": ["Obsidian.md"],
+    "aliases": [
+        "Obsidian.md"
+    ],
     "relatedConcepts": [
         "backlinks",
         "knowledge-graph",
@@ -54,6 +62,41 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,20 @@
     "name": "Personal Knowledge Management (PKM)",
     "summary": "The practice of managing personal information and knowledge to enhance learning, productivity, and growth.",
     "explanation": "Personal Knowledge Management is the practice of applying Knowledge Management principles to manage personal information and knowledge, enhancing one's own learning, productivity, and self-improvement. It involves techniques for acquiring, organizing, and applying knowledge in ways that improve effectiveness and fulfillment. Through digital tools and methodologies like note-taking systems, knowledge bases, and personal information management systems, individuals create a structured approach to managing their knowledge. PKM helps empower individuals, store and organize knowledge outside of the head, create a reliable single source of truth, enable deep thinking, connect ideas, accelerate learning, transform information into wisdom, leverage knowledge, and create compounding value.",
-    "tags": ["core-concept", "knowledge-management", "learning", "organization", "productivity"],
+    "tags": [
+        "core-concept",
+        "knowledge-management",
+        "learning",
+        "organization",
+        "productivity"
+    ],
     "category": "Core Concepts",
     "icon": "FaBrain",
     "featured": true,
-    "aliases": ["PKM", "Personal KM"],
+    "aliases": [
+        "PKM",
+        "Personal KM"
+    ],
     "relatedConcepts": [
         "knowledge-graph",
         "knowledge-management",
@@ -59,6 +68,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

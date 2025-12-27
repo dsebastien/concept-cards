@@ -3,11 +3,19 @@
     "name": "Tacit Knowledge",
     "summary": "Knowledge that is difficult to articulate, transfer, or codify - learned through experience and intuition.",
     "explanation": "Tacit knowledge is knowledge that is difficult to express, formalize, or transfer to others through words or symbols. It's the 'know-how' gained through personal experience, practice, and intuition. Examples include riding a bicycle, recognizing faces, a craftsman's feel for materials, or an expert's gut instinct. Michael Polanyi famously stated 'we know more than we can tell.' Tacit knowledge contrasts with explicit knowledge, which can be easily documented and shared. In organizations, tacit knowledge often resides in experienced employees and is lost when they leave. For PKM, the challenge is finding ways to externalize tacit knowledge - through stories, analogies, demonstrations, or apprenticeship models. Much of expertise consists of tacit knowledge that practitioners struggle to articulate, which is why observation and practice often teach more than manuals.",
-    "tags": ["knowledge-management", "learning", "expertise", "cognition"],
+    "tags": [
+        "knowledge-management",
+        "learning",
+        "expertise",
+        "cognition"
+    ],
     "category": "Concepts",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["Implicit knowledge", "Know-how"],
+    "aliases": [
+        "Implicit knowledge",
+        "Know-how"
+    ],
     "relatedConcepts": [
         "explicit-knowledge",
         "process-vs-state-knowledge",
@@ -38,6 +46,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

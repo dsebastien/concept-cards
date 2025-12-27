@@ -3,11 +3,21 @@
     "name": "Periodic Reviews",
     "summary": "Regular reflection sessions to review progress and plan ahead.",
     "explanation": "Periodic reviews are regular system maintenance and reflection sessions - weekly, monthly, quarterly, and yearly. They help track progress, maintain your PKM system, process accumulated notes, and plan ahead. Knowledge rollover through periodic reviews ensures continuity. Reviews should include: processing inboxes, reviewing completed work, updating goals, reflecting on what worked and what didn't, and planning the next period. This practice is awesome for tracking progress and planning ahead, turning your knowledge base into an active tool rather than a passive archive.",
-    "tags": ["habits", "productivity", "reflection", "systems", "knowledge-management"],
+    "tags": [
+        "habits",
+        "productivity",
+        "reflection",
+        "systems",
+        "knowledge-management"
+    ],
     "category": "Techniques",
     "icon": "FaHistory",
     "featured": false,
-    "aliases": ["Monthly review", "Weekly review", "Yearly review"],
+    "aliases": [
+        "Monthly review",
+        "Weekly review",
+        "Yearly review"
+    ],
     "relatedConcepts": [
         "daily-notes",
         "gtd",
@@ -43,6 +53,36 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

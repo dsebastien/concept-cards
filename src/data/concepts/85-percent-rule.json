@@ -3,11 +3,21 @@
     "name": "85 Percent Rule",
     "summary": "Optimal learning and performance occur when operating at about 85% effort or accuracy.",
     "explanation": "The 85 Percent Rule, derived from machine learning research and validated across human learning contexts, suggests that the optimal error rate for learning is approximately 15% - meaning we learn fastest when we succeed about 85% of the time. This 'Goldilocks zone' of difficulty balances challenge with achievability. Too easy (100% success) provides no learning signal; too hard (high failure rate) leads to frustration and disengagement. For performance, the principle suggests that sustainable peak output occurs at roughly 85% effort, not 100%. Athletes, for instance, often run faster when instructed to run at 85% effort rather than maximum effort - the slight relaxation improves form and coordination. In productivity, this translates to avoiding perfectionism and burnout: consistently good work at 85% effort outperforms sporadic excellent work followed by exhaustion. The rule encourages embracing imperfection, calibrating task difficulty to skill level, and recognizing that sustainable excellence requires leaving margin for recovery and adaptation.",
-    "tags": ["productivity", "performance", "learning", "psychology", "optimization"],
+    "tags": [
+        "productivity",
+        "performance",
+        "learning",
+        "psychology",
+        "optimization"
+    ],
     "category": "Principles",
     "icon": "FaChartLine",
     "featured": false,
-    "aliases": ["85% Rule", "Optimal Learning Rate", "Goldilocks Zone of Learning"],
+    "aliases": [
+        "85% Rule",
+        "Optimal Learning Rate",
+        "Goldilocks Zone of Learning"
+    ],
     "relatedConcepts": [
         "flow-state",
         "goldilocks-rule-ai",
@@ -28,6 +38,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

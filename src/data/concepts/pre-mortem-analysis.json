@@ -14,7 +14,11 @@
     "category": "Techniques",
     "icon": "FaExclamationTriangle",
     "featured": false,
-    "aliases": ["Pre-Mortem", "Premortem", "Prospective Hindsight"],
+    "aliases": [
+        "Pre-Mortem",
+        "Premortem",
+        "Prospective Hindsight"
+    ],
     "relatedConcepts": [
         "first-principles",
         "root-cause-analysis",
@@ -45,6 +49,21 @@
             "title": "Sources of Power: How People Make Decisions",
             "url": "https://www.amazon.com/Sources-Power-People-Make-Decisions/dp/0262611465",
             "type": "book"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
         }
     ],
     "tutorials": []

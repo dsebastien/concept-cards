@@ -3,12 +3,23 @@
     "name": "Micromanagement",
     "summary": "Excessive control over details and decisions that should be delegated.",
     "explanation": "Micromanagement is the practice of excessively controlling, observing, or directing the work of others, even in areas where they have competence. It stems from lack of trust, fear of failure, or inability to delegate. Micromanagement demotivates employees, stifles innovation, and creates bottlenecks. The antidote is outcome-based management: define desired results and provide autonomy in how to achieve them. For personal work, self-micromanagement (obsessing over minor details) can be equally counterproductive.",
-    "tags": ["leadership", "management", "productivity"],
+    "tags": [
+        "leadership",
+        "management",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaMicroscope",
     "featured": false,
-    "aliases": ["Over-management", "Control freak management"],
-    "relatedConcepts": ["essentialism", "perfectionism", "analysis-paralysis"],
+    "aliases": [
+        "Over-management",
+        "Control freak management"
+    ],
+    "relatedConcepts": [
+        "essentialism",
+        "perfectionism",
+        "analysis-paralysis"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Micromanagement"
     ],
@@ -17,6 +28,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

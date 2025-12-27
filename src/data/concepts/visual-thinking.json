@@ -3,11 +3,19 @@
     "name": "Visual Thinking",
     "summary": "Using visual representations to understand and organize information.",
     "explanation": "Visual thinking is the practice of using visual representations to understand, organize, communicate, and solve problems. It leverages the brain's powerful visual processing capabilities. Tools include mind maps, concept maps, diagrams, sketches, and canvas tools. Dual Coding Theory explains how human cognition processes verbal and visual information through separate but interconnected systems, making visual thinking a powerful complement to text-based notes.",
-    "tags": ["learning", "techniques", "thinking", "visualization", "knowledge-management"],
+    "tags": [
+        "learning",
+        "techniques",
+        "thinking",
+        "visualization",
+        "knowledge-management"
+    ],
     "category": "Thinking",
     "icon": "FaEye",
     "featured": false,
-    "aliases": ["Visual learning"],
+    "aliases": [
+        "Visual learning"
+    ],
     "relatedConcepts": [
         "concept-maps",
         "mind-maps",
@@ -33,6 +41,31 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

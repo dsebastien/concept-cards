@@ -3,12 +3,24 @@
     "name": "Deliberate Practice",
     "summary": "Purposeful, structured practice focused on improving specific aspects of performance with feedback.",
     "explanation": "Deliberate Practice is a specific type of practice designed to improve performance, developed through research by psychologist Anders Ericsson. Unlike casual practice or mere repetition, deliberate practice involves: working on specific weaknesses, pushing just beyond current abilities, receiving immediate feedback, and intense concentration. It requires breaking skills into components and focusing on areas that need improvement rather than comfortable repetition of what's already mastered. This concept is central to expertise development across domains from music to chess to professional skills. For knowledge workers, deliberate practice might involve actively testing recall rather than passive re-reading, seeking feedback on writing, or systematically working through challenging problems.",
-    "tags": ["learning", "expertise", "skill-development", "performance"],
+    "tags": [
+        "learning",
+        "expertise",
+        "skill-development",
+        "performance"
+    ],
     "category": "Principles",
     "icon": "FaCogs",
     "featured": false,
-    "aliases": ["Purposeful practice", "Structured practice"],
-    "relatedConcepts": ["desirable-difficulty", "active-recall", "zone-of-proximal-development"],
+    "aliases": [
+        "Purposeful practice",
+        "Structured practice"
+    ],
+    "relatedConcepts": [
+        "desirable-difficulty",
+        "active-recall",
+        "zone-of-proximal-development"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -25,6 +37,21 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

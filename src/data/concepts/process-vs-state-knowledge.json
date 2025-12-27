@@ -3,11 +3,18 @@
     "name": "Process vs State Knowledge",
     "summary": "Distinguishing between knowing how things work (process) versus knowing what the current state is.",
     "explanation": "Process and state knowledge represent two fundamental types of understanding. Process Knowledge is knowing how things work - the steps, actions, and procedures to make something happen. Examples include a blacksmith knowing how to swing a hammer or documented SOPs for sending newsletters. State Knowledge is knowing what the current state of something is - the configuration, environment, or conditions. Examples include a blacksmith sensing when iron reaches the right temperature or documentation of system configurations. Both types can be tacit (intuitive, hard to articulate) or explicit (documented, transferable). For knowledge management, distinguishing between these types is crucial when designing systems: are you trying to document procedures (process), capture current configurations (state), or extract expertise about perceiving states correctly?",
-    "tags": ["knowledge-management", "learning", "systems-thinking", "pkm"],
+    "tags": [
+        "knowledge-management",
+        "learning",
+        "systems-thinking",
+        "pkm"
+    ],
     "category": "Concepts",
     "icon": "FaExchangeAlt",
     "featured": false,
-    "aliases": ["Procedural vs declarative knowledge"],
+    "aliases": [
+        "Procedural vs declarative knowledge"
+    ],
     "relatedConcepts": [
         "dikw-pyramid",
         "knowledge-management",
@@ -33,6 +40,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,12 +3,24 @@
     "name": "Obsidian Web Clipper",
     "summary": "A browser extension for capturing web content directly to Obsidian.",
     "explanation": "The Obsidian Web Clipper is a browser extension that allows you to capture web content directly into your Obsidian vault. It can extract article content, preserve formatting, add metadata, and use templates for consistent capture. This makes it a powerful content curation solution for building your knowledge base from web sources. It significantly reduces the friction of capturing information from the web.",
-    "tags": ["browser", "capture", "productivity", "tools", "knowledge-management"],
+    "tags": [
+        "browser",
+        "capture",
+        "productivity",
+        "tools",
+        "knowledge-management"
+    ],
     "category": "Tools",
     "icon": "FaClipboard",
     "featured": false,
-    "aliases": ["Web clipper"],
-    "relatedConcepts": ["capture-system", "literature-notes", "obsidian"],
+    "aliases": [
+        "Web clipper"
+    ],
+    "relatedConcepts": [
+        "capture-system",
+        "literature-notes",
+        "obsidian"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Obsidian+Web+Clipper"
     ],
@@ -33,6 +45,36 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

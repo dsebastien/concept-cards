@@ -3,11 +3,18 @@
     "name": "Atomic Tasks",
     "summary": "Breaking work into the smallest actionable units for easier completion.",
     "explanation": "Atomic Tasks are tasks broken down to their smallest actionable unit - small enough to complete in a single work session without ambiguity. Just as atomic notes contain one idea, atomic tasks contain one clear action. Vague tasks like 'work on project' become specific ones like 'write introduction paragraph'. This approach reduces procrastination (smaller tasks feel more approachable), enables better estimation, creates clear progress markers, and works well with time-boxing and Pomodoro techniques. The discipline of creating atomic tasks is a key productivity skill.",
-    "tags": ["productivity", "task-management", "techniques"],
+    "tags": [
+        "productivity",
+        "task-management",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaCheckCircle",
     "featured": false,
-    "aliases": ["Micro-tasks", "Small tasks"],
+    "aliases": [
+        "Micro-tasks",
+        "Small tasks"
+    ],
     "relatedConcepts": [
         "atomic-notes",
         "big-hairy-audacious-goals",
@@ -34,6 +41,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

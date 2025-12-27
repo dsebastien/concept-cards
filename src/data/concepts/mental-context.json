@@ -3,12 +3,25 @@
     "name": "Mental Context",
     "summary": "The cognitive state and loaded information needed for a specific task.",
     "explanation": "Mental Context refers to the cognitive state, loaded information, and mental setup required to work effectively on a specific task or project. Loading a mental context takes time as you recall relevant information, understand current state, and get into the right mindset. Context switching destroys this loaded context. PKM helps preserve mental context through documentation - capturing the current state, next steps, and relevant information so it can be quickly restored after interruptions.",
-    "tags": ["cognition", "concepts", "focus", "productivity"],
+    "tags": [
+        "cognition",
+        "concepts",
+        "focus",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["Cognitive context", "Working context"],
-    "relatedConcepts": ["cognitive-load", "context-switching", "deep-work", "flow"],
+    "aliases": [
+        "Cognitive context",
+        "Working context"
+    ],
+    "relatedConcepts": [
+        "cognitive-load",
+        "context-switching",
+        "deep-work",
+        "flow"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Mental+context"
     ],
@@ -23,6 +36,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

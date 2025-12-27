@@ -3,11 +3,19 @@
     "name": "Continuous Improvement",
     "summary": "Ongoing, incremental improvement of processes, systems, and performance.",
     "explanation": "Continuous Improvement (Kaizen in Japanese) is the philosophy and practice of making ongoing, incremental improvements to processes, products, and systems. Rather than seeking dramatic transformation, focus on small, consistent enhancements that compound over time. For PKM, this means regularly refining your system based on what works, updating notes as understanding grows, and iterating on processes. Perfection isn't the goal - steady progress is.",
-    "tags": ["improvement", "principles", "processes", "productivity"],
+    "tags": [
+        "improvement",
+        "principles",
+        "processes",
+        "productivity"
+    ],
     "category": "Principles",
     "icon": "FaArrowUp",
     "featured": false,
-    "aliases": ["Iterative improvement", "Kaizen"],
+    "aliases": [
+        "Iterative improvement",
+        "Kaizen"
+    ],
     "relatedConcepts": [
         "boy-scout-rule",
         "compound-growth",
@@ -25,6 +33,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

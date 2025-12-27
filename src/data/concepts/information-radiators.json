@@ -3,12 +3,23 @@
     "name": "Information Radiators",
     "summary": "Visible displays that broadcast important information to anyone who passes by.",
     "explanation": "Information Radiators are large, visible displays placed in high-traffic areas to passively communicate important information. Common in Agile environments (Kanban boards, burn-down charts), they make status visible without requiring explicit check-ins. The key is that information 'radiates' to observers without active effort. In personal productivity, information radiators might include visible goal trackers, habit charts, or project boards. They leverage environmental design to keep important information top of mind.",
-    "tags": ["agile", "communication", "productivity"],
+    "tags": [
+        "agile",
+        "communication",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaTv",
     "featured": false,
-    "aliases": ["Big visible charts", "Status boards"],
-    "relatedConcepts": ["kanban", "forcing-function", "mise-en-place"],
+    "aliases": [
+        "Big visible charts",
+        "Status boards"
+    ],
+    "relatedConcepts": [
+        "kanban",
+        "forcing-function",
+        "mise-en-place"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Information+Radiators"
     ],
@@ -17,6 +28,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

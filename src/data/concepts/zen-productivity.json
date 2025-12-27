@@ -3,11 +3,19 @@
     "name": "Zen Productivity",
     "summary": "A mindful, minimalist approach to productivity focused on simplicity and presence.",
     "explanation": "Zen Productivity is a philosophy that combines mindfulness with productivity, emphasizing simplicity, focus, and present-moment awareness. Popularized by Leo Babauta of Zen Habits, it rejects the typical 'do more' productivity culture in favor of doing less but better. Key principles include: single-tasking, clearing mental and physical clutter, creating space for what matters, and finding peace in the process rather than just outcomes. It's about sustainable productivity that enhances wellbeing rather than depleting it.",
-    "tags": ["mindfulness", "productivity", "philosophy", "principles"],
+    "tags": [
+        "mindfulness",
+        "productivity",
+        "philosophy",
+        "principles"
+    ],
     "category": "Principles",
     "icon": "FaYinYang",
     "featured": false,
-    "aliases": ["Mindful productivity", "Zen habits"],
+    "aliases": [
+        "Mindful productivity",
+        "Zen habits"
+    ],
     "relatedConcepts": [
         "burnout",
         "deep-work",
@@ -41,6 +49,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

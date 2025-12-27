@@ -3,11 +3,20 @@
     "name": "Retrieval Augmented Generation (RAG)",
     "summary": "An architecture that enhances LLM outputs by retrieving relevant information from external knowledge sources before generating responses.",
     "explanation": "Retrieval Augmented Generation (RAG) is an AI architecture that combines the generative capabilities of Large Language Models with external knowledge retrieval. It addresses a fundamental limitation of LLMs: their knowledge is frozen at training time and may be outdated, incomplete, or lack domain-specific information.\n\nHow RAG works:\n1. **Query encoding**: The user's question is converted into an embedding (numerical representation)\n2. **Retrieval**: The embedding is used to search a vector database for semantically similar content\n3. **Context augmentation**: Retrieved documents are added to the prompt context\n4. **Generation**: The LLM generates a response informed by both its training and the retrieved information\n\nKey components:\n- **Embedding model**: Converts text into vector representations\n- **Vector database**: Stores and indexes document embeddings for fast similarity search\n- **Retriever**: Finds the most relevant documents for a given query\n- **Generator**: The LLM that produces the final response\n\nBenefits of RAG:\n- Access to current information beyond training cutoff\n- Grounded responses with traceable sources\n- Domain-specific knowledge without fine-tuning\n- Reduced hallucinations through factual grounding\n- Cost-effective compared to training custom models\n\nRAG is particularly valuable for enterprise applications where accuracy, currency, and source attribution are critical.",
-    "tags": ["ai", "llm-architecture", "knowledge-retrieval", "vector-databases", "embeddings"],
+    "tags": [
+        "ai",
+        "llm-architecture",
+        "knowledge-retrieval",
+        "vector-databases",
+        "embeddings"
+    ],
     "category": "Systems",
     "icon": "FaDatabase",
     "featured": false,
-    "aliases": ["RAG", "Retrieval-Augmented Generation"],
+    "aliases": [
+        "RAG",
+        "Retrieval-Augmented Generation"
+    ],
     "relatedConcepts": [
         "large-language-models",
         "context-window",
@@ -24,6 +33,37 @@
             "type": "paper"
         }
     ],
-    "references": [],
+    "references": [
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://store.dsebastien.net/l/knowii-voice-ai",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

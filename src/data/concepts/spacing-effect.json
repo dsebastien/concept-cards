@@ -3,12 +3,25 @@
     "name": "Spacing Effect",
     "summary": "Learning is more effective when study sessions are spaced out over time.",
     "explanation": "The Spacing Effect, discovered by Hermann Ebbinghaus, shows that learning is more effective when study sessions are spaced out rather than massed together. More information is stored in long-term memory when study sessions are not too close to each other. Research shows participants using spaced practice outperform those using massed practice in the vast majority of cases. This principle underlies spaced repetition systems and argues against cramming. Spreading learning over time dramatically improves retention.",
-    "tags": ["education", "knowledge-management", "learning", "memory", "techniques"],
+    "tags": [
+        "education",
+        "knowledge-management",
+        "learning",
+        "memory",
+        "techniques"
+    ],
     "category": "Concepts",
     "icon": "FaCalendarAlt",
     "featured": false,
-    "aliases": ["Distributed practice"],
-    "relatedConcepts": ["active-recall", "forgetting-curve", "learning-curve", "spaced-repetition"],
+    "aliases": [
+        "Distributed practice"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "forgetting-curve",
+        "learning-curve",
+        "spaced-repetition"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Spacing+effect"
     ],
@@ -32,6 +45,31 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

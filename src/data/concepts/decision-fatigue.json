@@ -3,11 +3,18 @@
     "name": "Decision Fatigue",
     "summary": "The deteriorating quality of decisions after making many decisions.",
     "explanation": "Decision Fatigue is the phenomenon where the quality of decisions deteriorates after a long session of decision-making. Each decision depletes a finite pool of mental resources, leading to poorer choices, impulsivity, or decision avoidance later in the day. PKM helps combat decision fatigue by reducing daily decisions through templates, established workflows, consistent conventions, and by capturing decisions so they don't need to be remade. Automate and systematize where possible.",
-    "tags": ["cognition", "concepts", "productivity", "psychology"],
+    "tags": [
+        "cognition",
+        "concepts",
+        "productivity",
+        "psychology"
+    ],
     "category": "Concepts",
     "icon": "FaBatteryQuarter",
     "featured": false,
-    "aliases": ["Ego depletion"],
+    "aliases": [
+        "Ego depletion"
+    ],
     "relatedConcepts": [
         "cognitive-load",
         "effort-vs-impact",
@@ -21,6 +28,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

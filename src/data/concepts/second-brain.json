@@ -3,11 +3,20 @@
     "name": "Second Brain",
     "summary": "A methodology for saving and systematically organizing your ideas and insights using digital tools.",
     "explanation": "Building a Second Brain (BASB) is a methodology created by Tiago Forte for capturing, organizing, and sharing knowledge using digital tools. It emphasizes capturing information that resonates with you, organizing it for actionability, and regularly reviewing and using your notes to create new content. A second brain is a digital archive of your most valuable memories, ideas, and knowledge to help you do your job, run your business, and manage your life without having to keep every detail in your head. It aims to help you forget intentionally while retaining what matters forever.",
-    "tags": ["capture", "digital-notes", "organization", "productivity", "systems"],
+    "tags": [
+        "capture",
+        "digital-notes",
+        "organization",
+        "productivity",
+        "systems"
+    ],
     "category": "Systems",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["BASB", "Building a Second Brain"],
+    "aliases": [
+        "BASB",
+        "Building a Second Brain"
+    ],
     "relatedConcepts": [
         "capture-system",
         "code-method",
@@ -43,6 +52,26 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

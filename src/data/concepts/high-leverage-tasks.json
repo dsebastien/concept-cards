@@ -3,11 +3,20 @@
     "name": "High-Leverage Tasks",
     "summary": "Tasks that produce disproportionately large results relative to the effort invested, following the 80/20 principle.",
     "explanation": "High-leverage tasks are those that deliver bigger impact without necessarily requiring significantly more effort. They can be understood through the lens of the Pareto Principle (80/20 rule): 80% of your progress will come from 20% of your work.\n\nThis distinction applies at all levels, whether you're working on strategic initiatives or tactical tasks. Whenever you can apply a divide-and-conquer approach, you can classify tasks into different priority buckets.\n\nThe Eisenhower Matrix is one technique that can help uncover high-leverage tasks. There's typically a strong correlation between urgent-and-important tasks and high-leverage ones.\n\nIdentifying high-leverage tasks requires stepping back to assess which actions will create the most momentum, unlock other opportunities, or compound over time. Focus your energy on these tasks first, and you'll accomplish more with less effort.",
-    "tags": ["productivity", "prioritization", "focus", "impact", "pareto"],
+    "tags": [
+        "productivity",
+        "prioritization",
+        "focus",
+        "impact",
+        "pareto"
+    ],
     "category": "Principles",
     "icon": "FaLightbulb",
     "featured": false,
-    "aliases": ["Leverage Tasks", "High-Impact Tasks"],
+    "aliases": [
+        "Leverage Tasks",
+        "High-Impact Tasks"
+    ],
     "relatedConcepts": [
         "pareto-principle",
         "eisenhower-matrix",
@@ -22,6 +31,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

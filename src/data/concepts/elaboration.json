@@ -3,12 +3,25 @@
     "name": "Elaboration",
     "summary": "Processing information deeply by connecting it to existing knowledge.",
     "explanation": "Elaboration is the learning technique of processing information deeply by connecting it to existing knowledge, explaining it in your own words, and expanding upon it with examples and applications. Rather than surface-level memorization, elaboration creates rich, meaningful connections that improve understanding and retention. This is why writing notes in your own words is more effective than copying verbatim.",
-    "tags": ["education", "knowledge-management", "learning", "memory", "techniques"],
+    "tags": [
+        "education",
+        "knowledge-management",
+        "learning",
+        "memory",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaExpandAlt",
     "featured": false,
-    "aliases": ["Deep processing"],
-    "relatedConcepts": ["active-recall", "connected-notes", "feynman-technique", "learning"],
+    "aliases": [
+        "Deep processing"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "connected-notes",
+        "feynman-technique",
+        "learning"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -25,6 +38,31 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,18 @@
     "name": "Personal Information Management (PIM)",
     "summary": "The practice of organizing and managing information within your personal sphere of life.",
     "explanation": "Personal Information Management (PIM) encompasses the organization and management of all information relating to your personal life. Unlike PKM which focuses on knowledge, PIM deals with the broader spectrum of personal data. Key areas include: Intentions (life goals, vision, projects, milestones), Productivity (calendar, time blocking, tasks, processes), Control (planning, periodic reviews), Behaviors (routines, habits, rituals, practices), Information (ideas, knowledge, contacts, articles), and Files/Documents (photos, documents, emails, bookmarks, etc.). A well-designed PIM system creates a Personal Space of Information (PSI) containing various Personal Information Collections (PICs). PIM is foundational to PKM and helps manage the information overload of modern life by providing structure for both digital and analog personal data.",
-    "tags": ["information-management", "productivity", "organization", "personal-systems"],
+    "tags": [
+        "information-management",
+        "productivity",
+        "organization",
+        "personal-systems"
+    ],
     "category": "Systems",
     "icon": "FaDatabase",
     "featured": false,
-    "aliases": ["PIM"],
+    "aliases": [
+        "PIM"
+    ],
     "relatedConcepts": [
         "pkm",
         "information-management",
@@ -33,6 +40,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,23 @@
     "name": "Chronotype",
     "summary": "Your natural preference for when you feel most alert and productive during the day.",
     "explanation": "Chronotype refers to your body's natural inclination to sleep and wake at certain times, which also determines when you're most mentally alert and productive. The most common chronotypes are 'morning larks' (early risers who peak in the morning), 'night owls' (who come alive in the evening), and 'third birds' (somewhere in between). Your chronotype is largely determined by genetics and influenced by age - teenagers tend toward later chronotypes, while older adults often shift earlier. Understanding your chronotype is crucial for productivity because working against your natural rhythms leads to diminished performance and increased fatigue. Daniel Pink's research suggests scheduling analytical, focused work during your peak hours (typically 2-4 hours after waking for most people), and creative or insight work during your 'recovery trough' (often early-to-mid afternoon). By aligning your most demanding tasks with your peak alertness periods, you can accomplish more with less effort and maintain better energy throughout the day.",
-    "tags": ["time-management", "productivity", "energy", "focus", "biology", "sleep"],
+    "tags": [
+        "time-management",
+        "productivity",
+        "energy",
+        "focus",
+        "biology",
+        "sleep"
+    ],
     "category": "Concepts",
     "icon": "FaSun",
     "featured": false,
-    "aliases": ["Morning lark", "Night owl", "Sleep chronotype", "Circadian preference"],
+    "aliases": [
+        "Morning lark",
+        "Night owl",
+        "Sleep chronotype",
+        "Circadian preference"
+    ],
     "relatedConcepts": [
         "ultradian-rhythms",
         "deep-work",
@@ -37,6 +49,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

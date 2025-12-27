@@ -14,12 +14,35 @@
     "category": "Principles",
     "icon": "FaQuestion",
     "featured": false,
-    "aliases": ["Rumsfeld Matrix", "Known Unknowns Framework", "Johari Window of Knowledge"],
-    "relatedConcepts": ["first-principles", "systems-thinking"],
+    "aliases": [
+        "Rumsfeld Matrix",
+        "Known Unknowns Framework",
+        "Johari Window of Knowledge"
+    ],
+    "relatedConcepts": [
+        "first-principles",
+        "systems-thinking"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/How+to+deal+with+unknown+unknowns"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

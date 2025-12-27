@@ -3,12 +3,24 @@
     "name": "Knowledge Ingestion",
     "summary": "The systematic process of absorbing and integrating new knowledge.",
     "explanation": "Knowledge Ingestion is the systematic process of absorbing, processing, and integrating new information into your knowledge base. It involves capturing information from various sources, processing it (summarizing, highlighting, annotating), distilling key insights, connecting to existing knowledge, and storing appropriately. The process transforms raw information into usable knowledge. It's the workflow from consumption to capture to integration.",
-    "tags": ["knowledge-management", "learning", "processes", "techniques"],
+    "tags": [
+        "knowledge-management",
+        "learning",
+        "processes",
+        "techniques"
+    ],
     "category": "Processes",
     "icon": "FaDownload",
     "featured": false,
-    "aliases": ["Information processing", "Knowledge absorption"],
-    "relatedConcepts": ["capture-system", "literature-notes", "progressive-summarization"],
+    "aliases": [
+        "Information processing",
+        "Knowledge absorption"
+    ],
+    "relatedConcepts": [
+        "capture-system",
+        "literature-notes",
+        "progressive-summarization"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Knowledge+Ingestion+Process"
     ],
@@ -38,6 +50,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,20 @@
     "name": "Spatial Intelligence",
     "summary": "The cognitive ability to think in three dimensions, visualize objects, and mentally manipulate spatial information.",
     "explanation": "Spatial intelligence is the cognitive ability to think in three dimensions, visualize objects and spaces, and mentally manipulate visual and spatial information. It encompasses visual perception (recognizing patterns and relationships), mental manipulation (rotating objects in space), spatial memory (remembering locations and building mental maps), and spatial reasoning (understanding how objects relate in space). People with strong spatial intelligence excel in visual arts, architecture, STEM fields, navigation, and strategic thinking. For knowledge work, spatial intelligence enables visualization of complex systems, spatial problem-solving, creating effective diagrams and visualizations, and organizing information both physically and digitally. It forms the cognitive foundation for visual thinking approaches like mind maps, concept maps, canvas tools, and graph visualizations. According to Howard Gardner's Theory of Multiple Intelligences, spatial intelligence is one of several distinct cognitive abilities that can be developed through practice.",
-    "tags": ["cognition", "psychology", "intelligence", "visual-thinking", "learning"],
+    "tags": [
+        "cognition",
+        "psychology",
+        "intelligence",
+        "visual-thinking",
+        "learning"
+    ],
     "category": "Concepts",
     "icon": "FaCubes",
     "featured": false,
-    "aliases": ["Visual-Spatial Intelligence", "Picture Smart"],
+    "aliases": [
+        "Visual-Spatial Intelligence",
+        "Picture Smart"
+    ],
     "relatedConcepts": [
         "visual-thinking",
         "dual-coding-theory",
@@ -29,6 +38,21 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -15,8 +15,15 @@
     "category": "Principles",
     "icon": "FaCubes",
     "featured": false,
-    "aliases": ["SOLID", "SOLID Design Principles"],
-    "relatedConcepts": ["dry-principle", "kiss-principle", "yagni"],
+    "aliases": [
+        "SOLID",
+        "SOLID Design Principles"
+    ],
+    "relatedConcepts": [
+        "dry-principle",
+        "kiss-principle",
+        "yagni"
+    ],
     "relatedNotes": [],
     "articles": [
         {
@@ -40,6 +47,11 @@
             "title": "Agile Software Development, Principles, Patterns, and Practices",
             "url": "https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445",
             "type": "book"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "tutorials": [

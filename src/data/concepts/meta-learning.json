@@ -3,11 +3,18 @@
     "name": "Meta-Learning",
     "summary": "Learning how to learn - understanding and optimizing your learning process.",
     "explanation": "Meta-Learning is the practice of learning how to learn - understanding your own learning process and optimizing it. It involves knowing which strategies work best for different types of material, recognizing when you're not understanding, and adjusting approaches accordingly. Meta-learning is the missing link in education that schools often don't teach. Developing meta-learning skills accelerates all other learning. PKM systems support meta-learning by making the learning process visible and reflectable.",
-    "tags": ["cognition", "education", "learning", "techniques"],
+    "tags": [
+        "cognition",
+        "education",
+        "learning",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaGraduationCap",
     "featured": false,
-    "aliases": ["Learning to learn"],
+    "aliases": [
+        "Learning to learn"
+    ],
     "relatedConcepts": [
         "active-recall",
         "disss-learning-system",
@@ -24,6 +31,21 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

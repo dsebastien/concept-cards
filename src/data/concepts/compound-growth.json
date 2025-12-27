@@ -3,11 +3,19 @@
     "name": "Compound Growth",
     "summary": "Exponential growth where returns generate additional returns over time.",
     "explanation": "Compound Growth is the phenomenon where growth generates additional growth, creating exponential rather than linear progress over time. In finance, compound interest multiplies wealth; in knowledge, compound learning accelerates understanding. Your PKM system creates compounding value - each note and connection makes future learning easier, each insight enables new insights. This is why consistent, incremental progress over time produces remarkable results. PKM is a long-term investment that compounds.",
-    "tags": ["concepts", "learning", "principles", "productivity"],
+    "tags": [
+        "concepts",
+        "learning",
+        "principles",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaChartLine",
     "featured": false,
-    "aliases": ["Compound interest", "Compounding"],
+    "aliases": [
+        "Compound interest",
+        "Compounding"
+    ],
     "relatedConcepts": [
         "continuous-improvement",
         "effort-outcome-lag",
@@ -23,6 +31,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

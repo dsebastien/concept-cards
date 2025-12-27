@@ -3,11 +3,20 @@
     "name": "Tagging",
     "summary": "Adding keywords or labels to notes for categorization and retrieval.",
     "explanation": "Tagging is the practice of adding keywords or labels to notes for categorization and easier retrieval. Tags are no better or worse than folders, links, or MOCs - they're complementary. When you tag information, don't look for the one perfect tag. Instead, add as many relevant keywords as you can - those are pathways to stumble upon notes later. Tags and metadata enable finding information when you need it, maximizing usefulness and leverage. Each tag you add creates a path to resurface that note in the future.",
-    "tags": ["knowledge-management", "metadata", "organization", "techniques"],
+    "tags": [
+        "knowledge-management",
+        "metadata",
+        "organization",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaTags",
     "featured": false,
-    "aliases": ["Keywords", "Labels", "Tags"],
+    "aliases": [
+        "Keywords",
+        "Labels",
+        "Tags"
+    ],
     "relatedConcepts": [
         "folder-structure",
         "metadata",
@@ -41,6 +50,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -14,8 +14,18 @@
     "category": "Principles",
     "icon": "FaLightbulb",
     "featured": false,
-    "aliases": ["Second Law of Thermodynamics", "Disorder", "Decay", "Natural degradation"],
-    "relatedConcepts": ["lindy-effect", "compound-effect", "bit-rot", "second-order-effects"],
+    "aliases": [
+        "Second Law of Thermodynamics",
+        "Disorder",
+        "Decay",
+        "Natural degradation"
+    ],
+    "relatedConcepts": [
+        "lindy-effect",
+        "compound-effect",
+        "bit-rot",
+        "second-order-effects"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -33,6 +43,11 @@
             "title": "Entropy: Why Life Always Seems to Get More Complicated by Shane Parrish",
             "url": "https://fs.blog/entropy/",
             "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": []

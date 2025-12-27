@@ -3,11 +3,18 @@
     "name": "Deep Work",
     "summary": "Focused, distraction-free work on cognitively demanding tasks.",
     "explanation": "Deep Work, a concept popularized by Cal Newport, refers to focused, distraction-free work on cognitively demanding tasks that push your cognitive capabilities. It's the opposite of shallow work (logistical tasks, email, meetings). Deep work produces rare and valuable results and is increasingly important in the knowledge economy. Strategies include: time blocking, eliminating distractions, building deep work rituals, and embracing boredom. PKM supports deep work by externalizing information so you can focus on thinking rather than remembering.",
-    "tags": ["concepts", "focus", "productivity", "work"],
+    "tags": [
+        "concepts",
+        "focus",
+        "productivity",
+        "work"
+    ],
     "category": "Productivity",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["Focused work"],
+    "aliases": [
+        "Focused work"
+    ],
     "relatedConcepts": [
         "attention",
         "context-switching",
@@ -45,6 +52,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

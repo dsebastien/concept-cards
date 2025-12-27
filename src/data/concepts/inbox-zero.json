@@ -3,11 +3,20 @@
     "name": "Inbox Zero",
     "summary": "Keeping inboxes empty by processing items to appropriate destinations.",
     "explanation": "Inbox Zero is the practice of regularly processing inboxes to empty (or near-empty). The key insight is that inboxes are for receiving, not storing. Each item should be processed to a destination: deleted, delegated, done immediately (if quick), deferred (with a reminder), or filed. The goal isn't zero emails but zero unprocessed items. This principle applies beyond email to any inbox: notes inbox, task inbox, physical inbox. Unprocessed inboxes create stress and hide important items.",
-    "tags": ["email", "organization", "principles", "productivity"],
+    "tags": [
+        "email",
+        "organization",
+        "principles",
+        "productivity"
+    ],
     "category": "Principles",
     "icon": "FaInbox",
     "featured": false,
-    "aliases": ["Empty inbox", "Inbox management", "Zero Inbox"],
+    "aliases": [
+        "Empty inbox",
+        "Inbox management",
+        "Zero Inbox"
+    ],
     "relatedConcepts": [
         "capture-system",
         "fleeting-notes",
@@ -36,6 +45,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

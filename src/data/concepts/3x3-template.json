@@ -14,8 +14,16 @@
     "category": "Frameworks",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["3x3 Framework", "3x3 Writing Template", "Three by Three Template"],
-    "relatedConcepts": ["rule-of-3", "progressive-summarization", "brain-dumps"],
+    "aliases": [
+        "3x3 Framework",
+        "3x3 Writing Template",
+        "Three by Three Template"
+    ],
+    "relatedConcepts": [
+        "rule-of-3",
+        "progressive-summarization",
+        "brain-dumps"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/3x3+Template"
     ],
@@ -35,6 +43,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

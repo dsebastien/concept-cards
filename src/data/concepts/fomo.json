@@ -3,11 +3,17 @@
     "name": "Fear of Missing Out (FOMO)",
     "summary": "Anxiety that others are having rewarding experiences you're missing.",
     "explanation": "Fear of Missing Out (FOMO) is the anxiety that others are having rewarding experiences from which one is absent. In the context of PKM and productivity, FOMO can drive counterproductive behaviors: collecting too many notes without processing them, subscribing to too many newsletters, or jumping between tools. FOMO leads to information hoarding, context switching, and scattered attention. The antidote is JOMO (Joy of Missing Out) - deliberately choosing to miss things to focus on what truly matters.",
-    "tags": ["cognitive-biases", "psychology", "productivity"],
+    "tags": [
+        "cognitive-biases",
+        "psychology",
+        "productivity"
+    ],
     "category": "Cognitive Biases",
     "icon": "FaExclamationTriangle",
     "featured": false,
-    "aliases": ["Fear of missing out"],
+    "aliases": [
+        "Fear of missing out"
+    ],
     "relatedConcepts": [
         "choice-overload",
         "collectors-fallacy",
@@ -33,6 +39,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

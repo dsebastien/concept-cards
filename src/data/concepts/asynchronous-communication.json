@@ -3,12 +3,23 @@
     "name": "Asynchronous Communication",
     "summary": "Communication that doesn't require immediate response, allowing for thoughtful replies.",
     "explanation": "Asynchronous Communication allows participants to respond on their own schedule rather than in real-time. Email, recorded videos, and written documents are asynchronous; meetings and calls are synchronous. Async communication benefits deep thinkers who need time to process, enables global collaboration across time zones, creates written records, and respects focus time. The tradeoff is slower back-and-forth and potential for miscommunication without immediate clarification. Effective async requires clarity and context upfront.",
-    "tags": ["communication", "remote-work", "productivity"],
+    "tags": [
+        "communication",
+        "remote-work",
+        "productivity"
+    ],
     "category": "Concepts",
     "icon": "FaClock",
     "featured": false,
-    "aliases": ["Async communication", "Async-first"],
-    "relatedConcepts": ["deep-work", "context-switching", "writing-is-thinking"],
+    "aliases": [
+        "Async communication",
+        "Async-first"
+    ],
+    "relatedConcepts": [
+        "deep-work",
+        "context-switching",
+        "writing-is-thinking"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Articles/Deep+Thinking+in+a+Fast+World+-+The+Case+for+Asynchronous+Communication+(Article)"
     ],
@@ -17,6 +28,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

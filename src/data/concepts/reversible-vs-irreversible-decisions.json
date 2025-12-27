@@ -3,11 +3,22 @@
     "name": "Reversible vs Irreversible Decisions",
     "summary": "A framework for categorizing decisions as one-way doors (Type 1) or two-way doors (Type 2).",
     "explanation": "Jeff Bezos popularized this decision-making framework at Amazon to prevent both excessive caution and recklessness. Type 1 decisions are irreversible, consequential, and nearly impossible to walk back - like selling your company or making a major strategic pivot. These deserve careful analysis and broad input. Type 2 decisions are reversible, like launching a feature or trying a new process - if it doesn't work, you can change course with minimal cost. The problem is that organizations often treat all decisions as Type 1, leading to slowness and risk aversion. Most decisions are actually Type 2 and should be made quickly by individuals or small groups. Recognizing which type you're facing helps you allocate the right amount of time, resources, and deliberation to each decision.",
-    "tags": ["decision-making", "mental-models", "strategic-thinking", "frameworks", "leadership"],
+    "tags": [
+        "decision-making",
+        "mental-models",
+        "strategic-thinking",
+        "frameworks",
+        "leadership"
+    ],
     "category": "Frameworks",
     "icon": "FaExchangeAlt",
     "featured": false,
-    "aliases": ["One-way doors", "Two-way doors", "Type 1 and Type 2 decisions", "Door framework"],
+    "aliases": [
+        "One-way doors",
+        "Two-way doors",
+        "Type 1 and Type 2 decisions",
+        "Door framework"
+    ],
     "relatedConcepts": [
         "analysis-paralysis",
         "bias-for-action",
@@ -28,6 +39,11 @@
             "title": "Invent and Wander: The Collected Writings of Jeff Bezos",
             "url": "https://amzn.to/3ZXxWYG",
             "type": "book"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": []

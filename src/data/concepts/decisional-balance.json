@@ -3,11 +3,21 @@
     "name": "Decisional Balance",
     "summary": "A psychological technique for systematically weighing the pros and cons of making a change.",
     "explanation": "Decisional Balance is a psychology concept originally developed as part of the Transtheoretical Model of behavior change by James Prochaska and Carlo DiClemente. It involves systematically examining the perceived benefits (pros) and costs (cons) of both changing and not changing a behavior. The technique uses a four-quadrant matrix: pros of changing, cons of changing, pros of staying the same, and cons of staying the same. Research shows that in early stages of change, cons typically outweigh pros, but as motivation increases, this balance shifts. Decisional balance sheets help individuals move from contemplation to action by making implicit beliefs explicit and identifying ambivalence. This structured approach to decision-making reduces emotional reactivity and helps clarify values, making it particularly useful for significant life decisions, habit changes, and overcoming resistance to change.",
-    "tags": ["decision-making", "psychology", "behavior-change", "techniques", "self-awareness"],
+    "tags": [
+        "decision-making",
+        "psychology",
+        "behavior-change",
+        "techniques",
+        "self-awareness"
+    ],
     "category": "Techniques",
     "icon": "FaBalanceScale",
     "featured": false,
-    "aliases": ["Pros and Cons Analysis", "Decisional Balance Sheet", "Cost-Benefit Analysis"],
+    "aliases": [
+        "Pros and Cons Analysis",
+        "Decisional Balance Sheet",
+        "Cost-Benefit Analysis"
+    ],
     "relatedConcepts": [
         "decision-fatigue",
         "cognitive-load",
@@ -30,6 +40,16 @@
             "title": "Changing for Good: A Revolutionary Six-Stage Program for Overcoming Bad Habits and Moving Your Life Positively Forward",
             "url": "https://www.amazon.com/Changing-Good-Revolutionary-Overcoming-Positively/dp/038072572X",
             "type": "book"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": []

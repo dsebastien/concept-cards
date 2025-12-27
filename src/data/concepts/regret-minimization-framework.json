@@ -14,7 +14,11 @@
     "category": "Frameworks",
     "icon": "FaUserClock",
     "featured": false,
-    "aliases": ["Regret Minimization", "Bezos Regret Framework", "80-Year-Old Self Test"],
+    "aliases": [
+        "Regret Minimization",
+        "Bezos Regret Framework",
+        "80-Year-Old Self Test"
+    ],
     "relatedConcepts": [
         "decision-fatigue",
         "opportunity-cost",
@@ -40,6 +44,11 @@
             "title": "Invent and Wander: The Collected Writings of Jeff Bezos",
             "url": "https://www.amazon.com/Invent-Wander-Collected-Writings-Introduction/dp/1647820715",
             "type": "book"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": []

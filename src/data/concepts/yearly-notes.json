@@ -3,12 +3,26 @@
     "name": "Yearly Notes",
     "summary": "Annual reviews for big-picture reflection and long-term planning.",
     "explanation": "Yearly Notes are comprehensive annual reviews for big-picture reflection and long-term planning. They involve reviewing the entire year's achievements, failures, and lessons; assessing progress on major life goals; and setting intentions for the coming year. Yearly reviews provide perspective that's impossible to gain from shorter time frames. They help identify patterns, celebrate growth, and realign with core values and priorities.",
-    "tags": ["journaling", "knowledge-management", "productivity", "reviews", "strategy"],
+    "tags": [
+        "journaling",
+        "knowledge-management",
+        "productivity",
+        "reviews",
+        "strategy"
+    ],
     "category": "Journaling",
     "icon": "FaCalendarCheck",
     "featured": false,
-    "aliases": ["Annual review notes", "Year in review"],
-    "relatedConcepts": ["goal-setting", "periodic-reviews", "quarterly-notes", "reflection"],
+    "aliases": [
+        "Annual review notes",
+        "Year in review"
+    ],
+    "relatedConcepts": [
+        "goal-setting",
+        "periodic-reviews",
+        "quarterly-notes",
+        "reflection"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Periodic+reviews"
     ],
@@ -27,6 +41,36 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

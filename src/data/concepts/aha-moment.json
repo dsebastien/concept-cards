@@ -3,11 +3,21 @@
     "name": "Aha Moment",
     "summary": "The sudden moment of insight when understanding or a solution clicks into place.",
     "explanation": "An Aha moment is the experience of going from 'I don't get it!' to 'Aha, now I get it!' It's when we finally understand something or find the solution to a problem we've been struggling with - an epiphany, a moment of insight. Aha moments are unpredictable; sometimes we struggle for days before the solution appears 'all of a sudden' in our minds. Also known as the Eureka effect, these moments often come after periods of incubation when we step away from a problem. In PKM, creating conditions for aha moments involves connecting diverse ideas and allowing time for unconscious processing.",
-    "tags": ["creativity", "learning", "psychology", "problem-solving", "insights"],
+    "tags": [
+        "creativity",
+        "learning",
+        "psychology",
+        "problem-solving",
+        "insights"
+    ],
     "category": "Concepts",
     "icon": "FaLightbulb",
     "featured": false,
-    "aliases": ["Eureka effect", "Eureka moment", "Epiphany"],
+    "aliases": [
+        "Eureka effect",
+        "Eureka moment",
+        "Epiphany"
+    ],
     "relatedConcepts": [
         "cross-pollination-of-ideas",
         "divergent-thinking",
@@ -23,6 +33,21 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

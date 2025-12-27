@@ -3,12 +3,25 @@
     "name": "Pareto Principle",
     "summary": "80% of effects come from 20% of causes - focus on high-impact activities.",
     "explanation": "The Pareto Principle, also known as the 80/20 rule, states that roughly 80% of effects come from 20% of causes. A small portion of inputs typically produces the majority of outputs. In productivity, 20% of your efforts likely produce 80% of your results. In PKM, a small percentage of your notes may provide most of your value. This principle helps prioritize: identify and focus on the vital few rather than the trivial many. Don't try to capture everything - focus on what matters most.",
-    "tags": ["decision-making", "frameworks", "principles", "productivity"],
+    "tags": [
+        "decision-making",
+        "frameworks",
+        "principles",
+        "productivity"
+    ],
     "category": "Principles",
     "icon": "FaChartPie",
     "featured": false,
-    "aliases": ["80/20 Rule", "Pareto distribution"],
-    "relatedConcepts": ["effort-vs-impact", "eisenhower-matrix", "focus", "prioritization"],
+    "aliases": [
+        "80/20 Rule",
+        "Pareto distribution"
+    ],
+    "relatedConcepts": [
+        "effort-vs-impact",
+        "eisenhower-matrix",
+        "focus",
+        "prioritization"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Pareto+distribution"
     ],
@@ -17,6 +30,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

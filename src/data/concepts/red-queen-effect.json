@@ -14,8 +14,16 @@
     "category": "Principles",
     "icon": "FaLightbulb",
     "featured": false,
-    "aliases": ["Red Queen Hypothesis", "Red Queen's Race", "Evolutionary arms race"],
-    "relatedConcepts": ["lindy-effect", "compound-effect", "positive-feedback-loop"],
+    "aliases": [
+        "Red Queen Hypothesis",
+        "Red Queen's Race",
+        "Evolutionary arms race"
+    ],
+    "relatedConcepts": [
+        "lindy-effect",
+        "compound-effect",
+        "positive-feedback-loop"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -33,6 +41,11 @@
             "title": "The Red Queen: Sex and the Evolution of Human Nature by Matt Ridley",
             "url": "https://www.amazon.com/Red-Queen-Evolution-Human-Nature/dp/0060556579",
             "type": "book"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": []

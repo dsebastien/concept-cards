@@ -14,8 +14,15 @@
     "category": "Techniques",
     "icon": "FaUsers",
     "featured": false,
-    "aliases": ["Continuous Improvement Team", "Kaizen Team"],
-    "relatedConcepts": ["kaizen", "quality-circle", "continuous-improvement"],
+    "aliases": [
+        "Continuous Improvement Team",
+        "Kaizen Team"
+    ],
+    "relatedConcepts": [
+        "kaizen",
+        "quality-circle",
+        "continuous-improvement"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Kaizen+group"
     ],
@@ -25,6 +32,16 @@
             "title": "Kaizen",
             "url": "https://en.wikipedia.org/wiki/Kaizen",
             "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
         }
     ],
     "tutorials": []

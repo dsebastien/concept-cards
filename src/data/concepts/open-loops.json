@@ -3,11 +3,19 @@
     "name": "Open Loops",
     "summary": "Incomplete tasks and unresolved commitments that occupy mental space.",
     "explanation": "Open loops refer to incomplete tasks, unresolved problems, unexplored ideas, or any form of unprocessed information that requires attention or action. First discussed in David Allen's Getting Things Done (GTD) methodology, these are essentially anything that pulls at our attention, signaling that something needs to be acted upon, finished, or decided. Each open loop requires cognitive resources, creating background noise that constantly demands attention. This leads to cognitive overload where the brain's capacity to process information is surpassed. Closing open loops liberates cognitive resources, reducing stress and enhancing mental clarity.",
-    "tags": ["cognitive-load", "gtd", "productivity", "psychology"],
+    "tags": [
+        "cognitive-load",
+        "gtd",
+        "productivity",
+        "psychology"
+    ],
     "category": "Concepts",
     "icon": "FaCircleNotch",
     "featured": false,
-    "aliases": ["Incomplete tasks", "Unfinished business"],
+    "aliases": [
+        "Incomplete tasks",
+        "Unfinished business"
+    ],
     "relatedConcepts": [
         "brain-dumps",
         "capture-habit",
@@ -37,6 +45,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

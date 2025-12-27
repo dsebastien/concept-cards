@@ -3,11 +3,19 @@
     "name": "Double Diamond Process",
     "summary": "A design framework with four phases: Discover, Define, Develop, Deliver.",
     "explanation": "The Double Diamond is a design process framework developed by the British Design Council. It consists of four phases forming two diamonds: Discover (divergent - explore the problem broadly), Define (convergent - focus on the real problem), Develop (divergent - explore many solutions), Deliver (convergent - focus on the best solution). The key insight is alternating between divergent thinking (exploring possibilities) and convergent thinking (making decisions). This framework applies beyond design to problem-solving, research, and even organizing PKM systems.",
-    "tags": ["frameworks", "design", "thinking", "problem-solving"],
+    "tags": [
+        "frameworks",
+        "design",
+        "thinking",
+        "problem-solving"
+    ],
     "category": "Frameworks",
     "icon": "FaGem",
     "featured": false,
-    "aliases": ["Double-diamond process", "Design Council framework"],
+    "aliases": [
+        "Double-diamond process",
+        "Design Council framework"
+    ],
     "relatedConcepts": [
         "convergent-thinking",
         "design-thinking",
@@ -18,6 +26,12 @@
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Double-diamond+process"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

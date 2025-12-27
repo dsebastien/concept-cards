@@ -3,11 +3,20 @@
     "name": "Most Important Task",
     "summary": "Identifying and completing your highest-impact task early each day.",
     "explanation": "The Most Important Task (MIT) technique involves identifying the single most impactful task for the day and completing it first, before getting pulled into reactive work. This ensures that even if nothing else gets done, you've moved the needle on what matters most. The MIT is typically the task that, if completed, would make the day feel successful. Combining MIT with morning routines creates powerful momentum for productive days.",
-    "tags": ["focus", "prioritization", "productivity", "techniques"],
+    "tags": [
+        "focus",
+        "prioritization",
+        "productivity",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaStar",
     "featured": false,
-    "aliases": ["Big rock", "Highlight", "MIT"],
+    "aliases": [
+        "Big rock",
+        "Highlight",
+        "MIT"
+    ],
     "relatedConcepts": [
         "deep-work",
         "directed-attention",
@@ -31,6 +40,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -14,8 +14,14 @@
     "category": "Principles",
     "icon": "FaUsers",
     "featured": false,
-    "aliases": ["Linus's Law", "Many eyes make bugs shallow"],
-    "relatedConcepts": ["boy-scout-rule", "dry-principle"],
+    "aliases": [
+        "Linus's Law",
+        "Many eyes make bugs shallow"
+    ],
+    "relatedConcepts": [
+        "boy-scout-rule",
+        "dry-principle"
+    ],
     "relatedNotes": [],
     "articles": [
         {
@@ -34,6 +40,16 @@
             "title": "The Cathedral & the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary",
             "url": "https://www.oreilly.com/library/view/the-cathedral/0596001088/",
             "type": "book"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "tutorials": []

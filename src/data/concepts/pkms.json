@@ -3,11 +3,19 @@
     "name": "PKM System",
     "summary": "A complete personal knowledge management system combining tools, processes, and practices.",
     "explanation": "A PKM System (PKMS) is a complete personal knowledge management system that combines tools, processes, and practices for managing personal information and knowledge. Elements include: capture mechanisms, organization structure, note types, linking practices, review processes, and output workflows. The right way to think about a PKM system is as an integral part of everything you do. It should be one you can actually trust with important memories, ideas, insights, information, knowledge, and wisdom.",
-    "tags": ["core-concept", "knowledge-management", "organization", "systems"],
+    "tags": [
+        "core-concept",
+        "knowledge-management",
+        "organization",
+        "systems"
+    ],
     "category": "Systems",
     "icon": "FaSitemap",
     "featured": false,
-    "aliases": ["PKM setup", "Personal Knowledge Management System"],
+    "aliases": [
+        "PKM setup",
+        "Personal Knowledge Management System"
+    ],
     "relatedConcepts": [
         "obsidian",
         "pkm",
@@ -46,6 +54,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

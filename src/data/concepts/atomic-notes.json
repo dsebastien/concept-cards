@@ -3,11 +3,19 @@
     "name": "Atomic Notes",
     "summary": "The principle of creating notes that capture a single, self-contained idea.",
     "explanation": "Atomic notes focus on a single idea or concept, with the goal of explaining one thing well. Following the Zettelkasten method, notes should be atomic and link to each other, with longer texts assembled by composing atomic notes together. Atomic notes are foundational for building a solid, scalable and maintainable Personal Knowledge Graph. By breaking down knowledge into its most essential components, atomic notes enable flexibility, objectivity, and interconnectivity. They are inherently concise, focused, and flexible - each note becomes a building block that can easily be reorganized, linked, or expanded. Like DNA strands recombining to form new life forms, atomic notes can be linked in novel ways to generate insights.",
-    "tags": ["knowledge-management", "note-taking", "organization", "principles"],
+    "tags": [
+        "knowledge-management",
+        "note-taking",
+        "organization",
+        "principles"
+    ],
     "category": "Principles",
     "icon": "FaAtom",
     "featured": true,
-    "aliases": ["One idea per note", "Single-idea notes"],
+    "aliases": [
+        "One idea per note",
+        "Single-idea notes"
+    ],
     "relatedConcepts": [
         "connected-notes",
         "fleeting-notes",
@@ -52,6 +60,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

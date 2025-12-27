@@ -3,18 +3,46 @@
     "name": "Reflective Thinking",
     "summary": "Deliberate contemplation of experiences and knowledge to gain insight.",
     "explanation": "Reflective Thinking is the practice of deliberately contemplating experiences, actions, and knowledge to gain deeper insight and learning. It involves stepping back from activity to consider what happened, why it happened, and what can be learned. Reflection transforms experience into understanding. Journaling, periodic reviews, and deliberate note-reviewing sessions all support reflective thinking. Without reflection, we risk repeating mistakes and missing opportunities for growth.",
-    "tags": ["learning", "personal-growth", "practices", "thinking"],
+    "tags": [
+        "learning",
+        "personal-growth",
+        "practices",
+        "thinking"
+    ],
     "category": "Thinking",
     "icon": "FaMirror",
     "featured": false,
-    "aliases": ["Contemplation", "Reflection"],
-    "relatedConcepts": ["journaling", "learning", "metacognition", "periodic-reviews"],
+    "aliases": [
+        "Contemplation",
+        "Reflection"
+    ],
+    "relatedConcepts": [
+        "journaling",
+        "learning",
+        "metacognition",
+        "periodic-reviews"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,19 @@
     "name": "Memento Mori",
     "summary": "The Stoic practice of remembering that death is inevitable, to live more intentionally.",
     "explanation": "Memento Mori (Latin for 'remember you will die') is a Stoic philosophical practice of reflecting on mortality to live more fully in the present. Rather than being morbid, it's a reminder to prioritize what matters, not waste time on trivialities, and act with urgency on important goals. In productivity and PKM context, memento mori helps combat procrastination and perfectionism - if time is limited, why delay important work? It encourages focusing on legacy-building activities like creating lasting knowledge and meaningful connections.",
-    "tags": ["philosophy", "stoicism", "mindfulness", "principles"],
+    "tags": [
+        "philosophy",
+        "stoicism",
+        "mindfulness",
+        "principles"
+    ],
     "category": "Principles",
     "icon": "FaSkull",
     "featured": false,
-    "aliases": ["Remember death", "Mortality meditation"],
+    "aliases": [
+        "Remember death",
+        "Mortality meditation"
+    ],
     "relatedConcepts": [
         "delayed-gratification",
         "essentialism",
@@ -18,6 +26,17 @@
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.04+Expressions/Memento+Mori"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

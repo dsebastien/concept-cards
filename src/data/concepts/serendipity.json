@@ -3,11 +3,19 @@
     "name": "Serendipity",
     "summary": "Fortunate unexpected discoveries that emerge from good systems.",
     "explanation": "Serendipity in PKM refers to the fortunate unexpected discoveries and connections that emerge when exploring a well-connected knowledge base. It's finding valuable information you weren't looking for, or realizing connections between ideas you hadn't considered. Good PKM systems increase serendipity through linking, random surfacing, and graph exploration. Serendipity isn't pure luck - it's prepared luck that comes from having organized, connected information that can reveal surprises.",
-    "tags": ["concepts", "creativity", "discovery", "knowledge-management"],
+    "tags": [
+        "concepts",
+        "creativity",
+        "discovery",
+        "knowledge-management"
+    ],
     "category": "Concepts",
     "icon": "FaMagic",
     "featured": false,
-    "aliases": ["Lucky discovery", "Prepared luck"],
+    "aliases": [
+        "Lucky discovery",
+        "Prepared luck"
+    ],
     "relatedConcepts": [
         "backlinks",
         "connected-notes",
@@ -35,6 +43,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

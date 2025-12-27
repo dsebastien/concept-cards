@@ -3,11 +3,18 @@
     "name": "Habit Stacking",
     "summary": "Linking new habits to existing ones to leverage established neural pathways.",
     "explanation": "Habit Stacking, popularized by James Clear in Atomic Habits, is the practice of linking a new habit to an existing one to leverage established neural pathways and create natural triggers. The formula is: 'After I [CURRENT HABIT], I will [NEW HABIT].' By attaching new behaviors to existing routines, you reduce the friction of habit formation. This technique is particularly useful for integrating PKM practices into daily life.",
-    "tags": ["habits", "productivity", "psychology", "techniques"],
+    "tags": [
+        "habits",
+        "productivity",
+        "psychology",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["Habit chaining"],
+    "aliases": [
+        "Habit chaining"
+    ],
     "relatedConcepts": [
         "compound-growth",
         "consistency",
@@ -39,6 +46,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

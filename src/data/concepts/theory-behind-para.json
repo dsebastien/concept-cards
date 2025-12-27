@@ -3,12 +3,26 @@
     "name": "Theory Behind the PARA Method",
     "summary": "The underlying principles and rationale that make the PARA organizational method effective.",
     "explanation": "The PARA Method (Projects, Areas, Resources, Archives) is built on several key theoretical principles that explain why it works effectively for organizing digital information.\n\nCore Theoretical Foundations:\n\n1. Actionability Spectrum: Information is organized by how actionable it is, not by topic or source. Projects are most actionable, followed by Areas, Resources, and finally Archives.\n\n2. Just-in-Time Organization: Rather than pre-organizing everything, PARA encourages organizing information when needed. This avoids wasted effort categorizing things that may never be used.\n\n3. Project-Centric Thinking: Projects provide the primary lens for organizing information because they represent concrete outcomes with deadlines. This aligns information with action.\n\n4. Separation of Horizons: The four categories represent different time horizons:\n   - Projects: Short-term (days to months)\n   - Areas: Ongoing (indefinite)\n   - Resources: Reference (as needed)\n   - Archives: Past (rarely accessed)\n\n5. Minimal Viable Organization: PARA uses only four top-level categories, reducing cognitive overhead and decision fatigue when filing information.\n\n6. Cross-Tool Consistency: The same structure works across all tools (file system, notes, task manager, cloud storage), creating cognitive consistency.\n\n7. Progressive Disclosure: Information flows through the system - from active projects to archives - based on relevance, keeping active workspaces clean.\n\n8. Outcome Orientation: By organizing around outcomes (projects) rather than topics, PARA naturally surfaces relevant information when it's needed for action.\n\nThe theory emphasizes that organization should serve action, not just storage.",
-    "tags": ["pkm", "para", "organization", "theory", "productivity", "knowledge-management"],
+    "tags": [
+        "pkm",
+        "para",
+        "organization",
+        "theory",
+        "productivity",
+        "knowledge-management"
+    ],
     "category": "Principles",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["PARA Theory", "PARA Principles"],
-    "relatedConcepts": ["para-method", "pkm", "just-in-time-learning"],
+    "aliases": [
+        "PARA Theory",
+        "PARA Principles"
+    ],
+    "relatedConcepts": [
+        "para-method",
+        "pkm",
+        "just-in-time-learning"
+    ],
     "relatedNotes": [],
     "articles": [
         {
@@ -36,6 +50,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

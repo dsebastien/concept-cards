@@ -3,11 +3,18 @@
     "name": "Middle Out Thinking",
     "summary": "A thinking approach that combines top-down and bottom-up reasoning starting from the middle.",
     "explanation": "Middle Out Thinking is a problem-solving approach that starts from the middle rather than purely top-down (from principles) or bottom-up (from details). Instead of beginning with abstract goals or granular data, you start with concrete, medium-level concepts and work both upward toward principles and downward toward specifics. This approach mirrors how many insights naturally emerge - from noticing patterns at an intermediate level. In PKM, it might mean starting with a specific project or question rather than a complete system or individual notes.",
-    "tags": ["thinking", "problem-solving", "methods"],
+    "tags": [
+        "thinking",
+        "problem-solving",
+        "methods"
+    ],
     "category": "Thinking",
     "icon": "FaArrowsAltV",
     "featured": false,
-    "aliases": ["Middle-out approach", "Bidirectional thinking"],
+    "aliases": [
+        "Middle-out approach",
+        "Bidirectional thinking"
+    ],
     "relatedConcepts": [
         "first-principles",
         "systems-thinking",
@@ -18,6 +25,17 @@
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Middle+out+thinking"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

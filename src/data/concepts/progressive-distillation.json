@@ -3,11 +3,19 @@
     "name": "Progressive Distillation",
     "summary": "A technique for highlighting and extracting the most important information from notes over time.",
     "explanation": "Progressive Distillation, also known as Progressive Summarization, is a technique developed by Tiago Forte where you highlight the most important parts of a note in multiple passes. The first pass captures everything, subsequent passes bold the key points, then highlight the essential ideas, and finally create an executive summary. This creates layers of increasing compression, allowing you to quickly grasp the essence of a note without re-reading everything. It's a core technique in Building a Second Brain methodology.",
-    "tags": ["methods", "note-taking", "organization", "productivity"],
+    "tags": [
+        "methods",
+        "note-taking",
+        "organization",
+        "productivity"
+    ],
     "category": "Methods",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["Progressive Summarization", "Layered highlighting"],
+    "aliases": [
+        "Progressive Summarization",
+        "Layered highlighting"
+    ],
     "relatedConcepts": [
         "code-method",
         "literature-notes",
@@ -43,6 +51,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

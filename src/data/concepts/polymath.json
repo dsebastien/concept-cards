@@ -3,11 +3,18 @@
     "name": "Polymath",
     "summary": "A person with expertise across multiple fields who integrates knowledge creatively.",
     "explanation": "A Polymath is a person with expertise spanning multiple fields who can integrate knowledge from different domains to solve problems creatively. Historical examples include Leonardo da Vinci, Benjamin Franklin, and Niklas Luhmann. In the modern context, being a polymath means developing T-shaped or comb-shaped skills - deep expertise in some areas combined with broad knowledge across many. PKM systems are essential tools for polymaths, enabling the cross-pollination of ideas that drives innovation and unique insights.",
-    "tags": ["concepts", "learning", "personal-growth"],
+    "tags": [
+        "concepts",
+        "learning",
+        "personal-growth"
+    ],
     "category": "Concepts",
     "icon": "FaGraduationCap",
     "featured": false,
-    "aliases": ["Renaissance person", "Generalist"],
+    "aliases": [
+        "Renaissance person",
+        "Generalist"
+    ],
     "relatedConcepts": [
         "cross-pollination-of-ideas",
         "knowledge-graph",
@@ -28,6 +35,21 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

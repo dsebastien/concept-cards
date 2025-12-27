@@ -3,12 +3,24 @@
     "name": "PARA Method",
     "summary": "An organization system using Projects, Areas, Resources, and Archives.",
     "explanation": "The P.A.R.A method was introduced and popularized by Tiago Forte, a productivity expert known for Building a Second Brain. PARA stands for Projects (ongoing work with goals and deadlines), Areas (roles and responsibilities without end dates), Resources (reference material and inspiration), and Archives (inactive items from the other categories). PARA provides a simple skeleton to organize information consistently across any tool or platform - from note-taking apps to file systems to bookmarks. Its benefits include simplicity, flexibility, flat structure for easy navigation, scalability, and cross-platform applicability.",
-    "tags": ["methods", "organization", "productivity", "structure"],
+    "tags": [
+        "methods",
+        "organization",
+        "productivity",
+        "structure"
+    ],
     "category": "Methods",
     "icon": "FaFolderOpen",
     "featured": false,
-    "aliases": ["Projects Areas Resources Archives"],
-    "relatedConcepts": ["folder-structure", "johnny-decimal", "lift-principle", "second-brain"],
+    "aliases": [
+        "Projects Areas Resources Archives"
+    ],
+    "relatedConcepts": [
+        "folder-structure",
+        "johnny-decimal",
+        "lift-principle",
+        "second-brain"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/PARA+method"
     ],
@@ -43,6 +55,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,11 +3,18 @@
     "name": "Feedforward Effect",
     "summary": "People are more inclined to take action when they know what to expect beforehand.",
     "explanation": "The feedforward effect describes how people are more inclined to take action when they know what to expect before doing so. By outlining steps to take, time needed, and requirements upfront, you reduce uncertainty and increase the likelihood of action. This is valuable in sales (reducing friction), teaching (preparing learners), and personal productivity (planning tasks). Unlike feedback which comes after action, feedforward provides information before action to guide and encourage it. In PKM, creating clear workflows and templates leverages this effect.",
-    "tags": ["psychology", "productivity", "communication", "motivation"],
+    "tags": [
+        "psychology",
+        "productivity",
+        "communication",
+        "motivation"
+    ],
     "category": "Concepts",
     "icon": "FaArrowRight",
     "featured": false,
-    "aliases": ["Anticipatory guidance"],
+    "aliases": [
+        "Anticipatory guidance"
+    ],
     "relatedConcepts": [
         "forcing-function",
         "meet-them-where-they-are",
@@ -22,6 +29,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

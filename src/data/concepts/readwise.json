@@ -3,12 +3,24 @@
     "name": "Readwise",
     "summary": "A service for capturing and reviewing highlights from various sources.",
     "explanation": "Readwise is a service that aggregates highlights from various sources (Kindle, web articles, PDFs, podcasts) and helps you review them using spaced repetition. It can sync highlights to note-taking apps like Obsidian through the official Readwise plugin. This makes it an excellent content curation solution for capturing literature notes and building your knowledge base from what you read across different platforms.",
-    "tags": ["highlights", "productivity", "reading", "tools", "knowledge-management"],
+    "tags": [
+        "highlights",
+        "productivity",
+        "reading",
+        "tools",
+        "knowledge-management"
+    ],
     "category": "Tools",
     "icon": "FaHighlighter",
     "featured": false,
-    "aliases": ["Readwise Reader"],
-    "relatedConcepts": ["literature-notes", "obsidian", "progressive-summarization"],
+    "aliases": [
+        "Readwise Reader"
+    ],
+    "relatedConcepts": [
+        "literature-notes",
+        "obsidian",
+        "progressive-summarization"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Readwise"
     ],
@@ -32,6 +44,36 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

@@ -3,12 +3,23 @@
     "name": "10,000 Hour Rule",
     "summary": "The idea that mastery requires roughly 10,000 hours of deliberate practice.",
     "explanation": "The 10,000 Hour Rule, popularized by Malcolm Gladwell, suggests that world-class expertise requires approximately 10,000 hours of deliberate practice. While the specific number is debated and varies by field, the core insight remains: mastery requires sustained, focused effort over years. This reframes expertise as achievable through dedication rather than innate talent. However, quality of practice matters more than quantity - 10,000 hours of unfocused repetition won't create expertise.",
-    "tags": ["learning", "expertise", "mastery"],
+    "tags": [
+        "learning",
+        "expertise",
+        "mastery"
+    ],
     "category": "Concepts",
     "icon": "FaTrophy",
     "featured": false,
-    "aliases": ["10000 hours", "Mastery rule"],
-    "relatedConcepts": ["deliberate-practice", "compound-growth", "meta-learning"],
+    "aliases": [
+        "10000 hours",
+        "Mastery rule"
+    ],
+    "relatedConcepts": [
+        "deliberate-practice",
+        "compound-growth",
+        "meta-learning"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/10000+hour+rule"
     ],
@@ -22,6 +33,21 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

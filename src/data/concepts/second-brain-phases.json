@@ -3,11 +3,20 @@
     "name": "Second Brain Phases",
     "summary": "The five phases of building and using a second brain system, from capture to sharing.",
     "explanation": "The Second Brain Phases, as described by Tiago Forte, outline the complete lifecycle of knowledge in a personal knowledge management system:\n\n**Phase 1: Capture and Store**\nCollect information, knowledge, and ideas from various sources. This includes highlights from reading, insights from conversations, original thoughts, and anything that resonates with you.\n\n**Phase 2: Organize and Access**\nStructure your captured content so it can be easily found when needed. This involves using systems like PARA (Projects, Areas, Resources, Archives) to categorize information by actionability.\n\n**Phase 3: Process and Analyze**\nReview and distill what you've captured. Extract key insights, connect ideas, and transform raw information into useful knowledge through progressive summarization.\n\n**Phase 4: Create New Information and Knowledge**\nLeverage your accumulated knowledge to generate new ideas, solve problems, and create original content. Your second brain becomes a thinking partner.\n\n**Phase 5: Publish and Share**\nShare your knowledge with others through writing, teaching, or other forms of expression. This completes the cycle and often generates feedback that enriches your system.\n\nThese phases form a continuous cycle, where sharing leads to new captures, and the system grows more valuable over time.",
-    "tags": ["pkm", "second-brain", "systems", "progression", "tiago-forte"],
+    "tags": [
+        "pkm",
+        "second-brain",
+        "systems",
+        "progression",
+        "tiago-forte"
+    ],
     "category": "Frameworks",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["Building a Second Brain Phases", "BASB Phases"],
+    "aliases": [
+        "Building a Second Brain Phases",
+        "BASB Phases"
+    ],
     "relatedConcepts": [
         "second-brain",
         "pkm",
@@ -39,6 +48,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

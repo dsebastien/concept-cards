@@ -3,12 +3,24 @@
     "name": "Single Source of Truth (SSOT)",
     "summary": "The practice of having one authoritative location for each piece of information.",
     "explanation": "Single Source of Truth (SSOT) is the practice of structuring information so that each data element is stored exactly once in one authoritative location. In PKM, this means having one place where you go to save and retrieve knowledge, brain dumps, and ideas. This creates reliability and trust in your system - you always know where to find things. Why centralization matters: it eliminates confusion, reduces duplication, ensures consistency, and builds confidence in your system. Combined with the DRY principle, SSOT helps maintain a clean, efficient knowledge base.",
-    "tags": ["knowledge-management", "organization", "principles", "structure"],
+    "tags": [
+        "knowledge-management",
+        "organization",
+        "principles",
+        "structure"
+    ],
     "category": "Principles",
     "icon": "FaBullseye",
     "featured": false,
-    "aliases": ["SSOT", "Single source"],
-    "relatedConcepts": ["dry-principle", "organization", "pkm"],
+    "aliases": [
+        "SSOT",
+        "Single source"
+    ],
+    "relatedConcepts": [
+        "dry-principle",
+        "organization",
+        "pkm"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Single+Source+of+Truth+(SSOT)",
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Single+Source+of+Truth+in+a+PKM+system"
@@ -34,6 +46,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

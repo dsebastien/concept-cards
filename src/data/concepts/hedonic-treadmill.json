@@ -3,11 +3,18 @@
     "name": "Hedonic Treadmill",
     "summary": "The tendency to return to a baseline level of happiness despite positive or negative events.",
     "explanation": "The Hedonic Treadmill (or hedonic adaptation) describes how people tend to return to a relatively stable level of happiness despite major positive or negative life changes. You get the new tool, feel excited briefly, then return to baseline. In PKM, this explains why tool-hopping never satisfies - each new tool provides temporary excitement but the fundamental work remains. The antidote is finding satisfaction in the practice itself, building sustainable systems, and focusing on intrinsic rather than extrinsic motivation.",
-    "tags": ["psychology", "productivity", "concepts"],
+    "tags": [
+        "psychology",
+        "productivity",
+        "concepts"
+    ],
     "category": "Concepts",
     "icon": "FaRedo",
     "featured": false,
-    "aliases": ["Hedonic adaptation", "Happiness set-point"],
+    "aliases": [
+        "Hedonic adaptation",
+        "Happiness set-point"
+    ],
     "relatedConcepts": [
         "gratitude-journal",
         "shiny-object-syndrome",
@@ -27,6 +34,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

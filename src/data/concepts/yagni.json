@@ -3,12 +3,23 @@
     "name": "You Aren't Gonna Need It (YAGNI)",
     "summary": "Don't implement functionality until it's actually needed.",
     "explanation": "YAGNI (You Aren't Gonna Need It) is a software development principle stating that features should not be added until they're actually needed. It counters the temptation to build for hypothetical future requirements. Often, anticipated needs never materialize, or they differ from predictions when they do. In PKM, YAGNI means not over-engineering your system with elaborate categorizations, automations, or features you don't currently use. Start simple, add complexity only when actually required.",
-    "tags": ["software", "principles", "productivity"],
+    "tags": [
+        "software",
+        "principles",
+        "productivity"
+    ],
     "category": "Principles",
     "icon": "FaTrash",
     "featured": false,
-    "aliases": ["YAGNI", "Keep it simple"],
-    "relatedConcepts": ["essentialism", "minimum-viable-product", "kaizen"],
+    "aliases": [
+        "YAGNI",
+        "Keep it simple"
+    ],
+    "relatedConcepts": [
+        "essentialism",
+        "minimum-viable-product",
+        "kaizen"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/You+Aren%27t+Gonna+Need+It+(YAGNI)"
     ],
@@ -17,6 +28,36 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

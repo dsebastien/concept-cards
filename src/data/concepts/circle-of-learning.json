@@ -3,12 +3,26 @@
     "name": "The Circle of Learning",
     "summary": "A cyclical framework describing how learning progresses through experience, reflection, conceptualization, and experimentation.",
     "explanation": "The Circle of Learning (often associated with Kolb's experiential learning cycle) describes learning as a continuous cycle: Concrete Experience (doing), Reflective Observation (reviewing), Abstract Conceptualization (concluding), and Active Experimentation (planning). Effective learning requires moving through all four stages. In PKM, this means not just collecting information but actively engaging with it, reflecting on its meaning, integrating it with existing knowledge, and applying it to real situations. Each rotation through the cycle deepens understanding.",
-    "tags": ["education", "frameworks", "learning", "meta-learning"],
+    "tags": [
+        "education",
+        "frameworks",
+        "learning",
+        "meta-learning"
+    ],
     "category": "Frameworks",
     "icon": "FaSyncAlt",
     "featured": false,
-    "aliases": ["Learning cycle", "Kolb's learning cycle", "Experiential learning cycle"],
-    "relatedConcepts": ["meta-learning", "active-recall", "elaboration", "interleaving"],
+    "aliases": [
+        "Learning cycle",
+        "Kolb's learning cycle",
+        "Experiential learning cycle"
+    ],
+    "relatedConcepts": [
+        "meta-learning",
+        "active-recall",
+        "elaboration",
+        "interleaving"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/The+Circle+of+Learning"
     ],
@@ -17,6 +31,21 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

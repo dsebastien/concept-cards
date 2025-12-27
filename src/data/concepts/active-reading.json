@@ -3,12 +3,24 @@
     "name": "Active Reading",
     "summary": "Engaged reading with note-taking, questioning, and reflection.",
     "explanation": "Active Reading is an engaged approach to reading that involves taking notes, asking questions, making connections, and reflecting rather than passively consuming text. The goal is not to read faster and go through as many books as you can, but rather to retain more of what you read. You read slower but get a lot more out of it. When you only read, you're missing 90% of the benefits. Truly learning requires thinking, and thinking requires writing.",
-    "tags": ["knowledge-management", "learning", "reading", "techniques"],
+    "tags": [
+        "knowledge-management",
+        "learning",
+        "reading",
+        "techniques"
+    ],
     "category": "Techniques",
     "icon": "FaBookReader",
     "featured": false,
-    "aliases": ["Deep reading", "Engaged reading"],
-    "relatedConcepts": ["feynman-technique", "literature-notes", "progressive-summarization"],
+    "aliases": [
+        "Deep reading",
+        "Engaged reading"
+    ],
+    "relatedConcepts": [
+        "feynman-technique",
+        "literature-notes",
+        "progressive-summarization"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/How+to+take+notes+while+reading+non-fiction+books"
     ],
@@ -38,6 +50,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

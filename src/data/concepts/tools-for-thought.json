@@ -3,11 +3,23 @@
     "name": "Tools for Thought",
     "summary": "Software and methods designed to augment human thinking and knowledge work.",
     "explanation": "Tools for Thought (TfT) are technologies and methods designed to augment human cognition, memory, and reasoning. The term encompasses note-taking apps, mind mapping tools, spaced repetition systems, and any software that enhances thinking capabilities. Modern examples include Obsidian, Roam Research, and Notion. The key insight is that good tools don't just store information - they shape how you think. Choosing and configuring your TfT is a significant decision for knowledge workers.",
-    "tags": ["knowledge-management", "productivity", "software", "technology", "tools"],
+    "tags": [
+        "knowledge-management",
+        "productivity",
+        "software",
+        "technology",
+        "tools"
+    ],
     "category": "Tools",
     "icon": "FaTools",
     "featured": true,
-    "aliases": ["Note-taking apps", "Note-taking tools", "PKM tools", "TfT", "Thinking tools"],
+    "aliases": [
+        "Note-taking apps",
+        "Note-taking tools",
+        "PKM tools",
+        "TfT",
+        "Thinking tools"
+    ],
     "relatedConcepts": [
         "file-over-app",
         "knowledge-graph",
@@ -39,6 +51,41 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

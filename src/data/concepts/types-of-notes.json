@@ -3,11 +3,19 @@
     "name": "Types of Notes in PKM",
     "summary": "Different note types serving distinct purposes in a knowledge management system.",
     "explanation": "A well-designed PKM system uses different note types for different purposes. Common types include: Fleeting Notes (quick captures), Literature Notes (from sources), Permanent Notes (processed insights), Daily Notes (journal entries), Meeting Notes, Project Notes, and Maps of Content (MOCs). Each type has its own template, metadata, and lifecycle. Understanding note types helps you process information appropriately - not everything needs to become a permanent note, and knowing when to create each type keeps your system efficient.",
-    "tags": ["core-concept", "note-taking", "organization", "pkm"],
+    "tags": [
+        "core-concept",
+        "note-taking",
+        "organization",
+        "pkm"
+    ],
     "category": "Core Concepts",
     "icon": "FaFileAlt",
     "featured": false,
-    "aliases": ["Note types", "Note taxonomy"],
+    "aliases": [
+        "Note types",
+        "Note taxonomy"
+    ],
     "relatedConcepts": [
         "atomic-notes",
         "daily-notes",
@@ -45,6 +53,31 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

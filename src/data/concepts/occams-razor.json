@@ -3,12 +3,23 @@
     "name": "Occam's Razor",
     "summary": "The principle that simpler explanations are generally preferable to complex ones.",
     "explanation": "Occam's Razor is a problem-solving principle stating that among competing hypotheses, the one with the fewest assumptions should be selected. Named after William of Ockham, it favors simplicity. In PKM, Occam's Razor suggests: simpler systems are better than complex ones, don't add tools unless truly needed, prefer clear organization over elaborate schemes. When troubleshooting why your system isn't working, check the simple explanations first (inconsistent practice, unclear purpose) before assuming complex problems.",
-    "tags": ["mental-models", "thinking", "principles"],
+    "tags": [
+        "mental-models",
+        "thinking",
+        "principles"
+    ],
     "category": "Principles",
     "icon": "FaCut",
     "featured": false,
-    "aliases": ["Law of parsimony", "Principle of simplicity"],
-    "relatedConcepts": ["first-principles", "mental-models", "zen-productivity"],
+    "aliases": [
+        "Law of parsimony",
+        "Principle of simplicity"
+    ],
+    "relatedConcepts": [
+        "first-principles",
+        "mental-models",
+        "zen-productivity"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Occam's+Razor"
     ],
@@ -23,6 +34,11 @@
             "title": "Liminal Thinking",
             "url": "https://amzn.to/3HdiDPb",
             "type": "book"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": []

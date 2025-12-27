@@ -3,12 +3,25 @@
     "name": "Encoding",
     "summary": "The process of converting information into memory traces.",
     "explanation": "Encoding is the cognitive process of converting perceived information into memory traces that can later be retrieved. How information is encoded affects how well it's remembered. Deep encoding (connecting to existing knowledge, elaborating, visualizing) creates stronger memories than shallow encoding (rote repetition, surface features). PKM practices like writing in your own words, making connections, and using templates all support effective encoding of knowledge.",
-    "tags": ["cognition", "knowledge-management", "learning", "memory", "psychology"],
+    "tags": [
+        "cognition",
+        "knowledge-management",
+        "learning",
+        "memory",
+        "psychology"
+    ],
     "category": "Concepts",
     "icon": "FaSave",
     "featured": false,
-    "aliases": ["Memory encoding"],
-    "relatedConcepts": ["active-recall", "dual-coding-theory", "elaboration", "forgetting-curve"],
+    "aliases": [
+        "Memory encoding"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "dual-coding-theory",
+        "elaboration",
+        "forgetting-curve"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -25,6 +38,31 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],

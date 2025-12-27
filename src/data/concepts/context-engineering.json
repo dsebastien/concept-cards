@@ -3,11 +3,18 @@
     "name": "Context Engineering",
     "summary": "The practice of providing AI with optimal context for better outputs.",
     "explanation": "Context Engineering is the practice of designing and curating the context provided to AI systems to maximize output quality. Unlike simple prompting, context engineering considers: what background information the AI needs, how to structure that information, what examples to include, and how to maintain context across conversations. For knowledge workers using AI, context engineering means building systems that feed AI your notes, preferences, and expertise (like an AI Master Prompt) to get personalized, high-quality responses.",
-    "tags": ["ai", "techniques", "productivity"],
+    "tags": [
+        "ai",
+        "techniques",
+        "productivity"
+    ],
     "category": "AI",
     "icon": "FaCogs",
     "featured": false,
-    "aliases": ["Context design", "RAG optimization"],
+    "aliases": [
+        "Context design",
+        "RAG optimization"
+    ],
     "relatedConcepts": [
         "ai-assistants",
         "ai-master-prompt",
@@ -27,6 +34,46 @@
         {
             "title": "MCP Workshop",
             "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://store.dsebastien.net/l/knowii-voice-ai",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
             "type": "other"
         }
     ],

@@ -3,16 +3,44 @@
     "name": "Futures Wheel",
     "summary": "A visual brainstorming tool for exploring the cascading consequences of a change or decision.",
     "explanation": "The Futures Wheel is a structured brainstorming method for identifying potential consequences of trends or decisions. You place the central change in the middle, then radiate first-order consequences, then second-order consequences from each of those, and so on. This reveals indirect effects that might otherwise be missed. For strategic thinking and decision-making, it helps anticipate unintended consequences and identify opportunities. It's particularly valuable when considering major life or system changes.",
-    "tags": ["thinking", "frameworks", "planning", "strategy"],
+    "tags": [
+        "thinking",
+        "frameworks",
+        "planning",
+        "strategy"
+    ],
     "category": "Frameworks",
     "icon": "FaProjectDiagram",
     "featured": false,
-    "aliases": ["Consequence wheel", "Future wheel"],
-    "relatedConcepts": ["concept-maps", "second-order-effects", "systems-thinking"],
+    "aliases": [
+        "Consequence wheel",
+        "Future wheel"
+    ],
+    "relatedConcepts": [
+        "concept-maps",
+        "second-order-effects",
+        "systems-thinking"
+    ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Futures+Wheel"
     ],
     "articles": [],
-    "references": [],
+    "references": [
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
     "tutorials": []
 }

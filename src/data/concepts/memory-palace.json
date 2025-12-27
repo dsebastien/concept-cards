@@ -3,12 +3,26 @@
     "name": "Memory Palace",
     "summary": "A mnemonic technique using visualization of familiar locations to encode and recall information.",
     "explanation": "The Memory Palace, also known as the Method of Loci, is an ancient mnemonic technique that leverages spatial memory to enhance recall. The method involves visualizing a familiar place (like your home) and mentally placing items you want to remember at specific locations along a path through that space. To recall the information, you mentally walk through the location and 'see' each item where you placed it. This technique works because humans have evolved strong spatial memory capabilities. It was used by ancient Greek and Roman orators to remember long speeches and remains one of the most effective memorization techniques known. Modern memory champions use elaborate memory palaces to perform remarkable feats of recall.",
-    "tags": ["cognitive-techniques", "knowledge-management", "learning", "memory", "mnemonic"],
+    "tags": [
+        "cognitive-techniques",
+        "knowledge-management",
+        "learning",
+        "memory",
+        "mnemonic"
+    ],
     "category": "Techniques",
     "icon": "FaBrain",
     "featured": false,
-    "aliases": ["Method of Loci", "Mind Palace", "Journey Method"],
-    "relatedConcepts": ["mnemonic-devices", "spaced-repetition", "active-recall"],
+    "aliases": [
+        "Method of Loci",
+        "Mind Palace",
+        "Journey Method"
+    ],
+    "relatedConcepts": [
+        "mnemonic-devices",
+        "spaced-repetition",
+        "active-recall"
+    ],
     "relatedNotes": [],
     "articles": [],
     "references": [
@@ -35,6 +49,31 @@
         {
             "title": "Knowledge Management for Beginners",
             "url": "https://developassion.gumroad.com/l/knowledge-management-for-beginners-ebook",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/l/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],
