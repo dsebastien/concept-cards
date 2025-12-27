@@ -1,0 +1,39 @@
+{
+    "id": "weighted-decision-matrix",
+    "name": "Weighted Decision Matrix",
+    "summary": "A quantitative tool for evaluating options by scoring them against weighted criteria.",
+    "explanation": "A weighted decision matrix (also called a Pugh matrix or prioritization matrix) provides a structured, objective approach to comparing multiple options. You list your options as rows, your criteria as columns, assign weights to each criterion based on importance (e.g., 1-5 or percentages), then score each option against each criterion. Multiplying scores by weights and summing gives you a total score for each option. This method forces you to explicitly identify what matters most, reduces emotional bias, and creates transparency in decision-making. It's particularly useful for: choosing between job offers, selecting vendors or tools, prioritizing features, or any multi-criteria decision. The process of building the matrix often provides as much value as the final scores - it clarifies your thinking about what truly matters. However, beware of false precision; the numbers help structure thinking but shouldn't override intuition completely.",
+    "tags": ["decision-making", "frameworks", "techniques", "analysis", "prioritization"],
+    "category": "Techniques",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Pugh matrix",
+        "Decision matrix",
+        "Prioritization matrix",
+        "Criteria matrix",
+        "Grid analysis"
+    ],
+    "relatedConcepts": [
+        "decision-tree",
+        "effort-vs-impact",
+        "first-principles",
+        "analysis-paralysis"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Decision Matrix Analysis: Making Decisions by Weighing Up Different Factors",
+            "url": "https://www.mindtools.com/a8uge6c/decision-matrix-analysis",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Wikipedia: Decision Matrix Method",
+            "url": "https://en.wikipedia.org/wiki/Decision-matrix_method",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

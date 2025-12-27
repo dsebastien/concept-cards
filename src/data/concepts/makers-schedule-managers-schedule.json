@@ -1,0 +1,41 @@
+{
+    "id": "makers-schedule-managers-schedule",
+    "name": "Maker's Schedule, Manager's Schedule",
+    "summary": "Two distinct approaches to time management: makers need long uninterrupted blocks while managers work in hourly slots.",
+    "explanation": "Maker's Schedule, Manager's Schedule is a concept introduced by Paul Graham in his 2009 essay that explains why creative workers (makers) and executives (managers) experience time so differently.\n\n**The Manager's Schedule**\nManagers typically operate on an hourly schedule, where the day is cut into one-hour intervals. A meeting is just one slot. When something needs attention, they can find an open hour and schedule it. This works well for executives whose job is primarily about making decisions, delegating, and coordinating with others.\n\n**The Maker's Schedule**\nMakers (programmers, writers, designers, and other creative professionals) prefer to work in units of half a day or longer. A single meeting can destroy a whole afternoon by breaking it into two pieces, each too small to accomplish substantial creative work. The startup cost of creative work is high - it takes time to load context, enter flow state, and build momentum. Interruptions reset this process.\n\nThe conflict arises because:\n1. **Context switching costs**: Makers need 15-30 minutes to rebuild context after interruptions\n2. **Flow state vulnerability**: Deep creative work requires sustained attention\n3. **Anticipation problems**: Even a meeting hours away can fragment a maker's focus\n4. **Asymmetric impact**: A 30-minute meeting costs a manager 30 minutes but can cost a maker 3-4 hours of productive time\n\n**Solutions include**:\n- Batching meetings on specific days or time blocks\n- Protecting maker mornings with 'office hours' in the afternoon\n- Using async communication instead of synchronous meetings\n- Having makers and managers work on different schedules\n- Implementing 'no-meeting' days for the entire organization",
+    "tags": ["time-management", "productivity", "techniques", "focus", "meetings", "creative-work"],
+    "category": "Principles",
+    "icon": "FaUserClock",
+    "featured": false,
+    "aliases": ["Maker vs Manager", "Creator's Schedule", "Two Schedule Theory"],
+    "relatedConcepts": [
+        "deep-work",
+        "context-switching",
+        "flow-state",
+        "time-blocking",
+        "asynchronous-communication",
+        "focus",
+        "knowledge-workers"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Maker's Schedule, Manager's Schedule by Paul Graham",
+            "url": "http://www.paulgraham.com/makersschedule.html",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Hackers & Painters by Paul Graham",
+            "url": "https://amzn.to/3VKzMnT",
+            "type": "book"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

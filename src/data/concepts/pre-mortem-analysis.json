@@ -1,0 +1,51 @@
+{
+    "id": "pre-mortem-analysis",
+    "name": "Pre-Mortem Analysis",
+    "summary": "A risk assessment technique that imagines a project has failed before it begins to identify potential causes of failure.",
+    "explanation": "Pre-Mortem Analysis, developed by psychologist Gary Klein, is a prospective hindsight technique used to identify potential risks before a project begins. Unlike a post-mortem (which examines what went wrong after failure), a pre-mortem asks team members to imagine that the project has already failed spectacularly and then work backward to determine what could have caused the failure. This technique leverages our natural ability to explain past events while applying it to future planning. The process typically involves: 1) Assume the project has failed completely, 2) Have each team member independently write down all the reasons they can think of for the failure, 3) Share and compile the reasons, 4) Develop mitigation strategies for the most likely or impactful risks. Pre-mortems are powerful because they give permission to voice concerns that might otherwise be suppressed due to groupthink or optimism bias. They also engage prospective hindsight, which research shows generates more specific and plausible causes than simply asking 'what could go wrong.' This technique is particularly valuable for high-stakes decisions and complex projects.",
+    "tags": [
+        "decision-making",
+        "risk-management",
+        "psychology",
+        "project-management",
+        "techniques",
+        "planning"
+    ],
+    "category": "Techniques",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": ["Pre-Mortem", "Premortem", "Prospective Hindsight"],
+    "relatedConcepts": [
+        "first-principles",
+        "root-cause-analysis",
+        "five-whys",
+        "planning-fallacy",
+        "second-order-effects"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Performing a Project Premortem - Harvard Business Review",
+            "url": "https://hbr.org/2007/09/performing-a-project-premortem",
+            "type": "website"
+        },
+        {
+            "title": "Pre-mortem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pre-mortem",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Thinking, Fast and Slow",
+            "url": "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555",
+            "type": "book"
+        },
+        {
+            "title": "Sources of Power: How People Make Decisions",
+            "url": "https://www.amazon.com/Sources-Power-People-Make-Decisions/dp/0262611465",
+            "type": "book"
+        }
+    ],
+    "tutorials": []
+}

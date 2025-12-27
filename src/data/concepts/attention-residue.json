@@ -1,0 +1,40 @@
+{
+    "id": "attention-residue",
+    "name": "Attention Residue",
+    "summary": "The mental carry-over effect where thoughts from a previous task linger and interfere with focus on a new task.",
+    "explanation": "Attention Residue is a concept coined by Sophie Leroy describing how part of our cognitive resources remain stuck on a previous task even after we switch to something new. When we transition between tasks, especially if the prior task was unfinished or particularly engaging, residual thoughts continue occupying our working memory. This residue reduces our cognitive capacity for the new task, impairs performance, and creates a sense of mental fragmentation. Leroy's research shows that people perform worse on subsequent tasks when they experience high attention residue. The effect is strongest when the previous task was interrupted before completion or when there was no clear mental closure. Strategies to reduce attention residue include: completing tasks before switching when possible, creating explicit closure rituals (writing down where you left off), scheduling transition buffers between tasks, and practicing mindful task transitions. Understanding attention residue explains why deep work periods and task batching are so effective - they minimize the number of attention-fragmenting transitions.",
+    "tags": ["attention", "cognition", "focus", "productivity", "psychology", "techniques"],
+    "category": "Concepts",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": ["Cognitive residue", "Task residue", "Mental carry-over"],
+    "relatedConcepts": [
+        "context-switching",
+        "deep-work",
+        "flow-state",
+        "focus",
+        "multitasking",
+        "task-batching"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Why Is It So Hard to Do My Work? The Challenge of Attention Residue When Switching Between Work Tasks",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749597809000399",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "Deep Work by Cal Newport",
+            "url": "https://www.calnewport.com/books/deep-work/",
+            "type": "book"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

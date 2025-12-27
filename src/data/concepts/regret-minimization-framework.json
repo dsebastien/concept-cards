@@ -1,0 +1,46 @@
+{
+    "id": "regret-minimization-framework",
+    "name": "Regret Minimization Framework",
+    "summary": "A decision-making approach that evaluates choices by imagining yourself at age 80 and asking which option would minimize lifetime regret.",
+    "explanation": "The Regret Minimization Framework is a decision-making mental model popularized by Jeff Bezos, who used it when deciding to leave his Wall Street job to start Amazon. The framework involves projecting yourself forward to age 80 (or the end of your life) and asking: 'Which choice will I regret less?' Bezos reasoned that he would not regret trying to build an internet company and failing, but he would deeply regret never trying at all. This approach helps cut through short-term fears and societal pressures by anchoring decisions to your authentic long-term values and aspirations. The framework is particularly powerful for major life decisions: career pivots, entrepreneurial ventures, relationship choices, and pursuing dreams that involve risk. It helps distinguish between regrets of action (things you did wrong) and regrets of inaction (opportunities you never took). Research consistently shows that people tend to regret inactions more than actions over the long term. The framework encourages taking calculated risks on meaningful opportunities while accepting that short-term comfort is not the same as long-term fulfillment.",
+    "tags": [
+        "decision-making",
+        "frameworks",
+        "mental-models",
+        "life-design",
+        "risk-taking",
+        "long-term-thinking"
+    ],
+    "category": "Frameworks",
+    "icon": "FaUserClock",
+    "featured": false,
+    "aliases": ["Regret Minimization", "Bezos Regret Framework", "80-Year-Old Self Test"],
+    "relatedConcepts": [
+        "decision-fatigue",
+        "opportunity-cost",
+        "time-horizons",
+        "career-design",
+        "life-design"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Jeff Bezos Regret Minimization Framework",
+            "url": "https://sahilbloom.substack.com/p/the-regret-minimization-framework",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
+            "url": "https://www.amazon.com/Everything-Store-Jeff-Bezos-Amazon/dp/0316219266",
+            "type": "book"
+        },
+        {
+            "title": "Invent and Wander: The Collected Writings of Jeff Bezos",
+            "url": "https://www.amazon.com/Invent-Wander-Collected-Writings-Introduction/dp/1647820715",
+            "type": "book"
+        }
+    ],
+    "tutorials": []
+}

@@ -1,0 +1,34 @@
+{
+    "id": "decision-tree",
+    "name": "Decision Tree",
+    "summary": "A visual tool that maps out decisions, their possible outcomes, and the probabilities or consequences of each path.",
+    "explanation": "A decision tree is a flowchart-like diagram where each internal node represents a decision point, each branch represents a choice or outcome, and each leaf node represents a final result. They help make complex decisions more manageable by breaking them down into smaller, sequential choices. You start with a single decision, branch out to possible options, then branch again for each possible outcome of those options. Each path can be assigned probabilities and values, allowing you to calculate expected outcomes. Decision trees are especially valuable for: comparing multiple options with different uncertainties, communicating complex decision logic to others, identifying all possible outcomes before committing, and revealing hidden assumptions in your thinking. While simple decisions don't need trees, they become invaluable for high-stakes choices with multiple variables and uncertain outcomes.",
+    "tags": ["decision-making", "frameworks", "visualization", "techniques", "analysis"],
+    "category": "Techniques",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": ["Decision diagram", "Choice tree", "Decision flowchart"],
+    "relatedConcepts": [
+        "second-order-effects",
+        "weighted-decision-matrix",
+        "futures-wheel",
+        "analysis-paralysis",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Decision Trees: A Simple Tool for Complex Decisions",
+            "url": "https://hbr.org/2015/04/a-simple-tool-for-making-better-decisions",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Wikipedia: Decision Tree",
+            "url": "https://en.wikipedia.org/wiki/Decision_tree",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

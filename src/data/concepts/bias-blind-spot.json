@@ -1,0 +1,40 @@
+{
+    "id": "bias-blind-spot",
+    "name": "Bias Blind Spot",
+    "summary": "The cognitive bias of recognizing biases in others while failing to see them in oneself.",
+    "explanation": "The Bias Blind Spot is a meta-cognitive bias where individuals recognize the impact of biases on the judgment of others but fail to see the impact of biases on their own judgment. First identified by Emily Pronin, Daniel Lin, and Lee Ross in 2002, this phenomenon occurs because we have access to our own introspective thoughts (which feel objective and rational) but can only observe others' behaviors. We attribute our own decisions to careful reasoning while attributing others' decisions to bias. Research shows that even people who are highly educated about cognitive biases, including researchers who study them, are not immune to this effect. The more intelligent someone is, the more sophisticated their rationalizations tend to be, making the blind spot potentially worse. Addressing this bias requires humility, actively seeking disconfirming evidence, implementing external checks on decisions, and assuming that if a bias commonly affects others, it likely affects you too. Decision journals and structured decision-making processes can help reveal personal patterns of bias.",
+    "tags": [
+        "decision-making",
+        "psychology",
+        "cognitive-biases",
+        "self-awareness",
+        "metacognition"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaEyeSlash",
+    "featured": false,
+    "aliases": ["Blind Spot Bias", "Introspection Illusion"],
+    "relatedConcepts": [
+        "confirmation-bias",
+        "dunning-kruger-effect",
+        "hindsight-bias",
+        "narrative-fallacy",
+        "critical-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Bias Blind Spot - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bias_blind_spot",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others",
+            "url": "https://journals.sagepub.com/doi/10.1177/0146167202286008",
+            "type": "paper"
+        }
+    ],
+    "tutorials": []
+}
