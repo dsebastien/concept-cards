@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useMemo } from 'react'
 import {
     FaTimes,
     FaExternalLinkAlt,
@@ -11,7 +11,9 @@ import {
     FaStickyNote,
     FaQuoteLeft,
     FaLink,
-    FaCheckCircle
+    FaCheckCircle,
+    FaChevronLeft,
+    FaChevronRight
 } from 'react-icons/fa'
 import ConceptIcon from '@/components/concepts/concept-icon'
 import type { Concept, Reference } from '@/types/concept'
@@ -78,23 +80,46 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
 }) => {
     const modalRef = useRef<HTMLDivElement>(null)
 
+    // Sort concepts the same way as displayed (featured first, then alphabetically)
+    const sortedConcepts = useMemo(() => {
+        return [...allConcepts].sort((a, b) => {
+            if (a.featured && !b.featured) return -1
+            if (!a.featured && b.featured) return 1
+            return a.name.localeCompare(b.name)
+        })
+    }, [allConcepts])
+
+    // Find current index and prev/next concepts
+    const currentIndex = useMemo(() => {
+        if (!concept) return -1
+        return sortedConcepts.findIndex((c) => c.id === concept.id)
+    }, [concept, sortedConcepts])
+
+    const prevConcept = currentIndex > 0 ? sortedConcepts[currentIndex - 1] : null
+    const nextConcept =
+        currentIndex < sortedConcepts.length - 1 ? sortedConcepts[currentIndex + 1] : null
+
     useEffect(() => {
-        const handleEscape = (e: KeyboardEvent) => {
+        const handleKeyDown = (e: KeyboardEvent) => {
             if (e.key === 'Escape') {
                 onClose()
+            } else if (e.key === 'ArrowLeft' && prevConcept) {
+                onNavigateToConcept(prevConcept)
+            } else if (e.key === 'ArrowRight' && nextConcept) {
+                onNavigateToConcept(nextConcept)
             }
         }
 
         if (isOpen) {
-            document.addEventListener('keydown', handleEscape)
+            document.addEventListener('keydown', handleKeyDown)
             document.body.style.overflow = 'hidden'
         }
 
         return () => {
-            document.removeEventListener('keydown', handleEscape)
+            document.removeEventListener('keydown', handleKeyDown)
             document.body.style.overflow = ''
         }
-    }, [isOpen, onClose])
+    }, [isOpen, onClose, prevConcept, nextConcept, onNavigateToConcept])
 
     useEffect(() => {
         if (isOpen && modalRef.current) {
@@ -316,12 +341,47 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                 </div>
 
                 {/* Footer */}
-                <div className='border-primary/10 bg-background/95 sticky bottom-0 flex flex-wrap gap-3 border-t p-6 backdrop-blur-md'>
+                <div className='border-primary/10 bg-background/95 sticky bottom-0 flex items-center gap-3 border-t p-4 backdrop-blur-md sm:p-6'>
+                    {/* Previous Button */}
+                    <button
+                        onClick={() => prevConcept && onNavigateToConcept(prevConcept)}
+                        disabled={!prevConcept}
+                        className={`flex items-center gap-2 rounded-lg px-3 py-2 font-medium transition-colors sm:px-4 sm:py-3 ${
+                            prevConcept
+                                ? 'bg-primary/10 hover:bg-primary/20 text-primary'
+                                : 'text-primary/30 bg-primary/5 cursor-not-allowed'
+                        }`}
+                        aria-label='Previous concept'
+                        title={
+                            prevConcept ? `Previous: ${prevConcept.name}` : 'No previous concept'
+                        }
+                    >
+                        <FaChevronLeft className='h-4 w-4' />
+                        <span className='hidden sm:inline'>Previous</span>
+                    </button>
+
+                    {/* Close Button */}
                     <button
                         onClick={onClose}
-                        className='bg-primary/10 hover:bg-primary/20 text-primary flex flex-1 items-center justify-center gap-2 rounded-lg px-6 py-3 font-medium transition-colors'
+                        className='bg-primary/10 hover:bg-primary/20 text-primary flex flex-1 items-center justify-center gap-2 rounded-lg px-4 py-2 font-medium transition-colors sm:px-6 sm:py-3'
                     >
                         Close
+                    </button>
+
+                    {/* Next Button */}
+                    <button
+                        onClick={() => nextConcept && onNavigateToConcept(nextConcept)}
+                        disabled={!nextConcept}
+                        className={`flex items-center gap-2 rounded-lg px-3 py-2 font-medium transition-colors sm:px-4 sm:py-3 ${
+                            nextConcept
+                                ? 'bg-primary/10 hover:bg-primary/20 text-primary'
+                                : 'text-primary/30 bg-primary/5 cursor-not-allowed'
+                        }`}
+                        aria-label='Next concept'
+                        title={nextConcept ? `Next: ${nextConcept.name}` : 'No next concept'}
+                    >
+                        <span className='hidden sm:inline'>Next</span>
+                        <FaChevronRight className='h-4 w-4' />
                     </button>
                 </div>
             </div>
