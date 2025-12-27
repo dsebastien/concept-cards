@@ -24,7 +24,7 @@ The website showcases concepts, methods, and principles, with features like:
 ## Project Structure
 
 ```
-pkm-concept-cards/
+concept-cards/
    src/
       components/
          layout/          # Header, Footer, AppLayout
@@ -386,14 +386,14 @@ Instructions and documentation here...
 
 ```bash
 # List all existing concept IDs
-ls /home/dsebastien/wks/pkm-concept-cards/src/data/concepts/*.json | xargs -n1 basename | sed 's/.json$//' | sort
+ls /home/dsebastien/wks/concept-cards/src/data/concepts/*.json | xargs -n1 basename | sed 's/.json$//' | sort
 ```
 
 2. **Search by name or keyword**:
 
 ```bash
 # Search for concepts containing a keyword
-grep -r -l "keyword" /home/dsebastien/wks/pkm-concept-cards/src/data/concepts/
+grep -r -l "keyword" /home/dsebastien/wks/concept-cards/src/data/concepts/
 ```
 
 3. **Check aliases**: Similar concepts might exist under different names. Review the `aliases` field in existing concepts.
@@ -443,7 +443,7 @@ For each concept to add:
   - Spawn sub-agent with subagent_type="general-purpose"
   - Task: "Research and create concept JSON for [concept-name]:
     1. Read note at [path]
-    2. Create concept JSON at /home/dsebastien/wks/pkm-concept-cards/src/data/concepts/[id].json
+    2. Create concept JSON at /home/dsebastien/wks/concept-cards/src/data/concepts/[id].json
     3. Follow the schema in AGENTS.md
     4. Verify relatedNotes URL path exists"
 ```

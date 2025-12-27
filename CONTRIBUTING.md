@@ -15,12 +15,12 @@ Thank you for your interest in contributing to Concepts!
 1. Fork this repository by clicking the "Fork" button on GitHub
 2. Clone your fork locally:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/pkm-concept-cards.git
-    cd pkm-concept-cards
+    git clone https://github.com/YOUR_USERNAME/concept-cards.git
+    cd concept-cards
     ```
 3. Add the upstream repository as a remote:
     ```bash
-    git remote add upstream https://github.com/dsebastien/pkm-concept-cards.git
+    git remote add upstream https://github.com/dsebastien/concept-cards.git
     ```
 
 ### Install Dependencies

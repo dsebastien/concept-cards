@@ -13,8 +13,8 @@ This guide explains how to build, run, and test the Concepts website locally.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/dsebastien/pkm-concept-cards.git
-cd pkm-concept-cards
+git clone https://github.com/dsebastien/concept-cards.git
+cd concept-cards
 ```
 
 ### Install Dependencies
@@ -84,7 +84,7 @@ This serves the `dist/` directory at `http://localhost:4173`.
 ## Project Structure
 
 ```
-pkm-concept-cards/
+concept-cards/
 ├── src/
 │   ├── components/
 │   │   ├── layout/         # Header, Footer, AppLayout
