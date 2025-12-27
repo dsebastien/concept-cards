@@ -6,6 +6,7 @@ import './styles/index.css'
 import AppLayout from './components/layout/app-layout'
 import HomePage from './pages/home'
 import RandomConceptPage from './pages/random'
+import StatisticsPage from './pages/statistics'
 
 const rootElement = document.getElementById('root')
 
@@ -22,6 +23,7 @@ ReactDOM.createRoot(rootElement).render(
                     <Route path='/concept/:conceptId' element={<HomePage />} />
                     <Route path='/tag/:tagName' element={<HomePage />} />
                     <Route path='/random' element={<RandomConceptPage />} />
+                    <Route path='/statistics' element={<StatisticsPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

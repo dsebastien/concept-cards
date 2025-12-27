@@ -1,5 +1,13 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { FaSearch, FaTh, FaList, FaFilter, FaTimes, FaInfoCircle } from 'react-icons/fa'
+import {
+    FaSearch,
+    FaTh,
+    FaList,
+    FaFilter,
+    FaTimes,
+    FaInfoCircle,
+    FaCheckCircle
+} from 'react-icons/fa'
 import { cn } from '@/lib/utils'
 import ConceptIcon from '@/components/concepts/concept-icon'
 import type { Concept } from '@/types/concept'
@@ -12,6 +20,7 @@ interface CommandPaletteProps {
     onSetViewMode: (mode: 'grid' | 'list') => void
     onSetCategory: (category: string) => void
     categories: string[]
+    isExplored: (conceptId: string) => boolean
 }
 
 type CommandType = 'concept' | 'action' | 'category'
@@ -33,7 +42,8 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({
     onShowDetails,
     onSetViewMode,
     onSetCategory,
-    categories
+    categories,
+    isExplored
 }) => {
     const [query, setQuery] = useState('')
     const [selectedIndex, setSelectedIndex] = useState(0)
@@ -247,6 +257,9 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({
                                                 key={cmd.id}
                                                 command={cmd}
                                                 isSelected={selectedIndex === idx}
+                                                isExplored={
+                                                    cmd.concept ? isExplored(cmd.concept.id) : false
+                                                }
                                                 onSelect={() => setSelectedIndex(idx)}
                                                 onClick={() => cmd.action()}
                                             />
@@ -329,27 +342,52 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({
 interface CommandItemProps {
     command: Command
     isSelected: boolean
+    isExplored?: boolean
     onSelect: () => void
     onClick: () => void
 }
 
-const CommandItem: React.FC<CommandItemProps> = ({ command, isSelected, onSelect, onClick }) => {
+const CommandItem: React.FC<CommandItemProps> = ({
+    command,
+    isSelected,
+    isExplored = false,
+    onSelect,
+    onClick
+}) => {
     return (
         <div
             className={cn(
                 'group flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2 transition-colors',
-                isSelected ? 'bg-secondary/20' : 'hover:bg-primary/5'
+                isSelected ? 'bg-secondary/20' : 'hover:bg-primary/5',
+                isExplored && 'bg-green-500/5'
             )}
             onMouseEnter={onSelect}
             onClick={onClick}
             role='option'
             aria-selected={isSelected}
         >
-            <div className='bg-primary/5 group-hover:bg-secondary/10 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg transition-colors'>
+            <div
+                className={cn(
+                    'relative flex h-10 w-10 shrink-0 items-center justify-center rounded-lg transition-colors',
+                    isExplored
+                        ? 'bg-green-500/20 group-hover:bg-green-500/30'
+                        : 'bg-primary/5 group-hover:bg-secondary/10'
+                )}
+            >
                 {command.icon}
+                {isExplored && (
+                    <FaCheckCircle className='absolute -right-1 -bottom-1 h-3.5 w-3.5 text-green-500' />
+                )}
             </div>
             <div className='min-w-0 flex-1'>
-                <div className='truncate font-medium'>{command.title}</div>
+                <div className='flex items-center gap-2'>
+                    <span className='truncate font-medium'>{command.title}</span>
+                    {isExplored && (
+                        <span className='shrink-0 rounded-full bg-green-500/20 px-1.5 py-0.5 text-xs text-green-400'>
+                            Explored
+                        </span>
+                    )}
+                </div>
                 {command.subtitle && (
                     <div className='text-primary/50 truncate text-sm'>{command.subtitle}</div>
                 )}

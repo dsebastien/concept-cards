@@ -663,12 +663,213 @@ for (const tag of allTags) {
 }
 console.log(`  ✓ Created ${tagCount} tag pages`)
 
+// Generate statistics page
+console.log('Generating statistics page...')
+function generateStatisticsPageHtml(): string {
+    const statsUrl = `${BASE_URL}/statistics`
+    const title = 'Statistics - Concepts'
+    const description =
+        'Explore insights and analytics about the concepts collection, including category distribution, tag statistics, and content metrics.'
+
+    let html = indexHtml
+
+    // Update <title>
+    html = html.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
+
+    // Update canonical URL
+    html = html.replace(
+        /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+        `<link rel="canonical" href="${statsUrl}" />`
+    )
+
+    // Update meta description
+    html = html.replace(
+        /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="description" content="${escapeHtml(description)}" />`
+    )
+
+    // Update Open Graph tags
+    html = html.replace(
+        /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:url" content="${statsUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:description" content="${escapeHtml(description)}" />`
+    )
+
+    // Update Twitter tags
+    html = html.replace(
+        /<meta\s+name="twitter:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:url" content="${statsUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:description" content="${escapeHtml(description)}" />`
+    )
+
+    // Generate statistics schema
+    const statsSchema = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'WebPage',
+                '@id': `${statsUrl}#webpage`,
+                'name': title,
+                'description': description,
+                'url': statsUrl,
+                'creator': { '@id': `${BASE_URL}/#person` },
+                'publisher': { '@id': `${BASE_URL}/#organization` },
+                'isPartOf': {
+                    '@type': 'WebSite',
+                    '@id': `${BASE_URL}/#website`,
+                    'name': 'Concepts',
+                    'url': BASE_URL
+                },
+                'inLanguage': 'en'
+            },
+            authorSchema,
+            publisherSchema,
+            {
+                '@type': 'BreadcrumbList',
+                '@id': `${statsUrl}#breadcrumb`,
+                'itemListElement': [
+                    {
+                        '@type': 'ListItem',
+                        'position': 1,
+                        'name': 'Home',
+                        'item': BASE_URL
+                    },
+                    {
+                        '@type': 'ListItem',
+                        'position': 2,
+                        'name': 'Statistics',
+                        'item': statsUrl
+                    }
+                ]
+            }
+        ]
+    }
+
+    html = html.replace(
+        /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
+        `<script type="application/ld+json">\n${JSON.stringify(statsSchema, null, 12)}\n        </script>`
+    )
+
+    // Generate noscript content for statistics
+    const categoryCount: Record<string, number> = {}
+    concepts.forEach((c) => {
+        categoryCount[c.category] = (categoryCount[c.category] || 0) + 1
+    })
+    const categoryStats = Object.entries(categoryCount)
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count)
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>Statistics</h1>
+            <p>Insights and analytics about the concepts collection</p>
+            <h2>Overview</h2>
+            <ul>
+                <li><strong>Total Concepts:</strong> ${concepts.length}</li>
+                <li><strong>Categories:</strong> ${Object.keys(categoryCount).length}</li>
+                <li><strong>Featured Concepts:</strong> ${concepts.filter((c) => c.featured).length}</li>
+            </ul>
+            <h2>Category Distribution</h2>
+            <ul>
+${categoryStats.map((c) => `                <li>${escapeHtml(c.name)}: ${c.count} concepts</li>`).join('\n')}
+            </ul>
+            <p><a href="/">← Back to all concepts</a></p>
+        </article>
+    </noscript>`
+
+    html = html.replace('</body>', `${noscriptContent}\n    </body>`)
+
+    return html
+}
+
+const statisticsDir = join(distDir, 'statistics')
+mkdirSync(statisticsDir, { recursive: true })
+writeFileSync(join(statisticsDir, 'index.html'), generateStatisticsPageHtml())
+console.log('  ✓ Created statistics page')
+
+// Generate random page (simple redirect page for SEO)
+console.log('Generating random page...')
+function generateRandomPageHtml(): string {
+    const randomUrl = `${BASE_URL}/random`
+    const title = 'Random Concept - Concepts'
+    const description = 'Discover a random concept from the collection'
+
+    let html = indexHtml
+
+    // Update <title>
+    html = html.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
+
+    // Update canonical URL
+    html = html.replace(
+        /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+        `<link rel="canonical" href="${randomUrl}" />`
+    )
+
+    // Update meta description
+    html = html.replace(
+        /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="description" content="${escapeHtml(description)}" />`
+    )
+
+    // Update Open Graph tags
+    html = html.replace(
+        /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:url" content="${randomUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:description" content="${escapeHtml(description)}" />`
+    )
+
+    // Update Twitter tags
+    html = html.replace(
+        /<meta\s+name="twitter:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:url" content="${randomUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:description" content="${escapeHtml(description)}" />`
+    )
+
+    return html
+}
+
+const randomDir = join(distDir, 'random')
+mkdirSync(randomDir, { recursive: true })
+writeFileSync(join(randomDir, 'index.html'), generateRandomPageHtml())
+console.log('  ✓ Created random page')
+
 // Create 404.html for GitHub Pages fallback (copy of index.html)
 writeFileSync(join(distDir, '404.html'), indexHtml)
 console.log('  ✓ Created 404.html fallback')
 
-console.log(`\n✓ Static pages generated: ${conceptCount + tagCount + 2} total`)
+console.log(`\n✓ Static pages generated: ${conceptCount + tagCount + 4} total`)
 console.log(`  - Homepage: 1`)
+console.log(`  - Statistics: 1`)
+console.log(`  - Random: 1`)
 console.log(`  - Concepts: ${conceptCount}`)
 console.log(`  - Tags: ${tagCount}`)
 console.log(`  - 404 fallback: 1`)

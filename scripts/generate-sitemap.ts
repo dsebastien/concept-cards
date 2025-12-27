@@ -67,6 +67,22 @@ function generateSitemap(): string {
         priority: '1.0'
     })
 
+    // Add statistics page
+    urls.push({
+        loc: `${BASE_URL}/statistics`,
+        lastmod: today,
+        changefreq: 'weekly',
+        priority: '0.7'
+    })
+
+    // Add random page
+    urls.push({
+        loc: `${BASE_URL}/random`,
+        lastmod: today,
+        changefreq: 'weekly',
+        priority: '0.5'
+    })
+
     // Add each concept page
     for (const concept of concepts) {
         urls.push({
@@ -121,9 +137,11 @@ function writeSitemap(): void {
     writeFileSync(sitemapPath, sitemap)
     console.log(`✓ Sitemap generated: ${sitemapPath}`)
     console.log(`  - Homepage: 1 URL`)
+    console.log(`  - Statistics: 1 URL`)
+    console.log(`  - Random: 1 URL`)
     console.log(`  - Concepts: ${concepts.length} URLs`)
     console.log(`  - Tags: ${allTags.length} URLs`)
-    console.log(`  - Total: ${concepts.length + allTags.length + 1} URLs`)
+    console.log(`  - Total: ${concepts.length + allTags.length + 3} URLs`)
 }
 
 writeSitemap()

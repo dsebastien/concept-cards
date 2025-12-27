@@ -296,6 +296,12 @@ const HomePage: React.FC = () => {
                                 <div className='text-primary/60 text-sm'>Total Concepts</div>
                             </div>
                             <div className='text-center'>
+                                <div className='text-3xl font-bold text-emerald-400 sm:text-4xl'>
+                                    {totalConcepts - exploredCount}
+                                </div>
+                                <div className='text-primary/60 text-sm'>Unexplored</div>
+                            </div>
+                            <div className='text-center'>
                                 <div className='text-3xl font-bold text-amber-400 sm:text-4xl'>
                                     {featuredConcepts}
                                 </div>
@@ -487,6 +493,7 @@ const HomePage: React.FC = () => {
                 onSetViewMode={setViewMode}
                 onSetCategory={setSelectedCategory}
                 categories={conceptsData.categories}
+                isExplored={isExplored}
             />
         </>
     )
