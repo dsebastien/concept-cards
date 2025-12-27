@@ -9,7 +9,7 @@ import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const BASE_URL = 'https://pkm-concepts.dsebastien.net'
+const BASE_URL = 'https://concepts.dsebastien.net'
 
 interface Reference {
     title: string
@@ -70,7 +70,7 @@ function generateSitemap(): string {
     // Add each concept page
     for (const concept of concepts) {
         urls.push({
-            loc: `${BASE_URL}/#/concept/${concept.id}`,
+            loc: `${BASE_URL}/concept/${concept.id}`,
             lastmod: today,
             changefreq: 'monthly',
             priority: '0.8'
@@ -80,7 +80,7 @@ function generateSitemap(): string {
     // Add each tag page
     for (const tag of allTags) {
         urls.push({
-            loc: `${BASE_URL}/#/tag/${encodeURIComponent(tag)}`,
+            loc: `${BASE_URL}/tag/${encodeURIComponent(tag)}`,
             lastmod: today,
             changefreq: 'weekly',
             priority: '0.6'

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { HashRouter, Routes, Route } from 'react-router'
+import { BrowserRouter, Routes, Route } from 'react-router'
 import './styles/index.css'
 
 import AppLayout from './components/layout/app-layout'
@@ -14,7 +14,7 @@ if (!rootElement) {
 
 ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
-        <HashRouter>
+        <BrowserRouter>
             <Routes>
                 <Route element={<AppLayout />}>
                     <Route path='/' element={<HomePage />} />
@@ -22,6 +22,6 @@ ReactDOM.createRoot(rootElement).render(
                     <Route path='/tag/:tagName' element={<HomePage />} />
                 </Route>
             </Routes>
-        </HashRouter>
+        </BrowserRouter>
     </React.StrictMode>
 )

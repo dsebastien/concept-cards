@@ -225,39 +225,66 @@ const HomePage: React.FC = () => {
     const featuredConcepts = conceptsData.concepts.filter((c) => c.featured).length
     const categoriesCount = conceptsData.categories.filter((c) => c !== 'All').length
 
+    // Decode the tag name for display
+    const decodedTagName = tagName ? decodeURIComponent(tagName) : null
+
+    // Update document title based on the current page
+    useEffect(() => {
+        if (decodedTagName) {
+            document.title = `${decodedTagName} - Concepts`
+        } else {
+            document.title = 'Concepts'
+        }
+    }, [decodedTagName])
+
     return (
         <>
             {/* Hero Section */}
             <Section className='pt-16 pb-12 sm:pt-24 sm:pb-16 md:pt-32 md:pb-20'>
                 <div className='mx-auto max-w-4xl text-center'>
-                    <h1 className='mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl'>
-                        Concepts
-                    </h1>
-                    <p className='text-primary/70 mx-auto mb-8 max-w-2xl text-lg sm:text-xl md:text-2xl'>
-                        A curated collection of concepts, methods, and principles.
-                    </p>
+                    {decodedTagName ? (
+                        <>
+                            <h1 className='mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl'>
+                                <span className='text-primary/60'>Tag:</span> {decodedTagName}
+                            </h1>
+                            <p className='text-primary/70 mx-auto mb-8 max-w-2xl text-lg sm:text-xl md:text-2xl'>
+                                Concepts tagged with "{decodedTagName}"
+                            </p>
+                        </>
+                    ) : (
+                        <>
+                            <h1 className='mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl'>
+                                Concepts
+                            </h1>
+                            <p className='text-primary/70 mx-auto mb-8 max-w-2xl text-lg sm:text-xl md:text-2xl'>
+                                A curated collection of concepts, methods, and principles.
+                            </p>
+                        </>
+                    )}
 
-                    {/* Stats */}
-                    <div className='mb-10 flex flex-wrap justify-center gap-6 sm:gap-10'>
-                        <div className='text-center'>
-                            <div className='text-secondary text-3xl font-bold sm:text-4xl'>
-                                {totalConcepts}
+                    {/* Stats - only show on main page */}
+                    {!decodedTagName && (
+                        <div className='mb-10 flex flex-wrap justify-center gap-6 sm:gap-10'>
+                            <div className='text-center'>
+                                <div className='text-secondary text-3xl font-bold sm:text-4xl'>
+                                    {totalConcepts}
+                                </div>
+                                <div className='text-primary/60 text-sm'>Total Concepts</div>
                             </div>
-                            <div className='text-primary/60 text-sm'>Total Concepts</div>
-                        </div>
-                        <div className='text-center'>
-                            <div className='text-3xl font-bold text-amber-400 sm:text-4xl'>
-                                {featuredConcepts}
+                            <div className='text-center'>
+                                <div className='text-3xl font-bold text-amber-400 sm:text-4xl'>
+                                    {featuredConcepts}
+                                </div>
+                                <div className='text-primary/60 text-sm'>Featured</div>
                             </div>
-                            <div className='text-primary/60 text-sm'>Featured</div>
-                        </div>
-                        <div className='text-center'>
-                            <div className='text-3xl font-bold text-blue-400 sm:text-4xl'>
-                                {categoriesCount}
+                            <div className='text-center'>
+                                <div className='text-3xl font-bold text-blue-400 sm:text-4xl'>
+                                    {categoriesCount}
+                                </div>
+                                <div className='text-primary/60 text-sm'>Categories</div>
                             </div>
-                            <div className='text-primary/60 text-sm'>Categories</div>
                         </div>
-                    </div>
+                    )}
 
                     {/* Quick tip */}
                     <div className='bg-secondary/10 border-secondary/20 inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm'>

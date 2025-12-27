@@ -309,9 +309,9 @@ Renders icons for concepts, supporting both React-icons and image URLs with cate
 
 The website uses hash-based routing for GitHub Pages compatibility:
 
-- Homepage: `https://pkm-concepts.dsebastien.net/`
-- Concept detail: `https://pkm-concepts.dsebastien.net/#/concept/{concept-id}`
-- With filters: `https://pkm-concepts.dsebastien.net/?category=Methods&tags=note-taking`
+- Homepage: `https://concepts.dsebastien.net/`
+- Concept detail: `https://concepts.dsebastien.net/#/concept/{concept-id}`
+- With filters: `https://concepts.dsebastien.net/?category=Methods&tags=note-taking`
 
 Query parameters are preserved when opening/closing concept modals.
 

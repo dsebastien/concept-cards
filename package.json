@@ -12,10 +12,10 @@
     "bugs": {
         "url": "https://github.com/dsebastien/pkm-concept-cards/issues"
     },
-    "homepage": "https://pkm-concepts.dsebastien.net",
+    "homepage": "https://concepts.dsebastien.net",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build && tsx scripts/generate-sitemap.ts",
+        "build": "tsc && vite build && tsx scripts/generate-static-pages.ts && tsx scripts/generate-sitemap.ts",
         "preview": "vite preview",
         "prepare": "husky",
         "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
