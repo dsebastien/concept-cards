@@ -14,6 +14,7 @@
     },
     "homepage": "https://concepts.dsebastien.net",
     "scripts": {
+        "add-product-links": "bun ./scripts/add-product-links.ts",
         "dev": "vite",
         "build": "tsc && vite build && tsx scripts/generate-static-pages.ts && tsx scripts/generate-sitemap.ts",
         "preview": "vite preview",

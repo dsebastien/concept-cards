@@ -61,23 +61,60 @@
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
-                "@type": "WebSite",
-                "name": "Concepts",
-                "url": "https://concepts.dsebastien.net",
-                "description": "A curated collection of concepts, methods, and principles for knowledge management and personal development",
-                "author": {
-                    "@type": "Person",
-                    "name": "Sébastien Dubois",
-                    "url": "https://dsebastien.net"
-                },
-                "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": {
-                        "@type": "EntryPoint",
-                        "urlTemplate": "https://concepts.dsebastien.net/?q={search_term_string}"
+                "@graph": [
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://concepts.dsebastien.net/#website",
+                        "name": "Concepts",
+                        "alternateName": "Concepts by dSebastien",
+                        "url": "https://concepts.dsebastien.net",
+                        "description": "A curated collection of concepts, methods, and principles for knowledge management and personal development",
+                        "inLanguage": "en",
+                        "publisher": {
+                            "@id": "https://concepts.dsebastien.net/#person"
+                        },
+                        "potentialAction": {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https://concepts.dsebastien.net/?q={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
                     },
-                    "query-input": "required name=search_term_string"
-                }
+                    {
+                        "@type": "Person",
+                        "@id": "https://concepts.dsebastien.net/#person",
+                        "name": "Sébastien Dubois",
+                        "givenName": "Sébastien",
+                        "familyName": "Dubois",
+                        "url": "https://dsebastien.net",
+                        "image": "https://www.dsebastien.net/content/images/size/w2000/2024/04/Seb-2022.jpg",
+                        "jobTitle": "Knowledge Management & Productivity Mentor",
+                        "worksFor": {
+                            "@id": "https://concepts.dsebastien.net/#organization"
+                        },
+                        "sameAs": [
+                            "https://www.linkedin.com/in/sebastiend/",
+                            "https://bsky.app/profile/dsebastien.net",
+                            "https://github.com/dsebastien",
+                            "https://www.youtube.com/@dsebastien",
+                            "https://x.com/dSebastien"
+                        ]
+                    },
+                    {
+                        "@type": "Organization",
+                        "@id": "https://concepts.dsebastien.net/#organization",
+                        "name": "DeveloPassion",
+                        "url": "https://developassion.be",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "https://www.dsebastien.net/content/images/size/w256h256/2022/11/logo_symbol.png",
+                            "width": 256,
+                            "height": 256
+                        }
+                    }
+                ]
             }
         </script>
 
