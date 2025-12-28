@@ -1,26 +1,31 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router'
 import { conceptsData } from '@/data'
+import { useExploredConcepts } from '@/hooks/use-explored-concepts'
 
 const RandomConceptPage: React.FC = () => {
     const navigate = useNavigate()
+    const { exploredIds } = useExploredConcepts()
 
     useEffect(() => {
-        // Pick a random concept
         const concepts = conceptsData.concepts
         if (concepts.length === 0) {
             navigate('/', { replace: true })
             return
         }
 
-        const randomIndex = Math.floor(Math.random() * concepts.length)
-        const randomConcept = concepts[randomIndex]
+        // Prioritize unexplored concepts
+        const unexploredConcepts = concepts.filter((c) => !exploredIds.has(c.id))
+        const targetPool = unexploredConcepts.length > 0 ? unexploredConcepts : concepts
+
+        const randomIndex = Math.floor(Math.random() * targetPool.length)
+        const randomConcept = targetPool[randomIndex]
 
         // Navigate to the concept's detail page
         if (randomConcept) {
             navigate(`/concept/${randomConcept.id}`, { replace: true })
         }
-    }, [navigate])
+    }, [navigate, exploredIds])
 
     // Show a brief loading state while redirecting
     return (
