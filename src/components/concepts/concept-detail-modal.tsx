@@ -18,6 +18,7 @@ import {
 } from 'react-icons/fa'
 import { backdropVariants, scaleFadeVariants } from '@/lib/animations'
 import ConceptIcon from '@/components/concepts/concept-icon'
+import Markdown from '@/components/ui/markdown'
 import type { ConceptDetailModalProps } from '@/types/concept-detail-modal-props.intf'
 import type { Reference } from '@/types/reference.intf'
 import type { Book } from '@/types/book.intf'
@@ -277,9 +278,9 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                 <div className='space-y-6 p-6'>
                                     {/* Summary */}
                                     <div className='bg-secondary/10 border-secondary/20 rounded-lg border p-4'>
-                                        <p className='text-primary/90 text-base leading-relaxed font-medium'>
-                                            {concept.summary}
-                                        </p>
+                                        <div className='text-primary/90 text-base leading-relaxed font-medium'>
+                                            <Markdown compact>{concept.summary}</Markdown>
+                                        </div>
                                     </div>
 
                                     {/* Full Explanation */}
@@ -287,9 +288,9 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                         <h3 className='text-primary/80 mb-3 text-sm font-semibold tracking-wider uppercase'>
                                             Explanation
                                         </h3>
-                                        <p className='text-primary/80 text-base leading-relaxed whitespace-pre-line'>
-                                            {concept.explanation}
-                                        </p>
+                                        <div className='text-primary/80 text-base leading-relaxed'>
+                                            <Markdown>{concept.explanation}</Markdown>
+                                        </div>
                                     </div>
 
                                     {/* Category */}

@@ -2,6 +2,7 @@ import { memo, useCallback } from 'react'
 import { FaStar, FaInfoCircle, FaCheckCircle } from 'react-icons/fa'
 import { cn } from '@/lib/utils'
 import ConceptIcon from '@/components/concepts/concept-icon'
+import Markdown from '@/components/ui/markdown'
 import type { ConceptCardProps } from '@/types/concept-card-props.intf'
 
 const ConceptCard: React.FC<ConceptCardProps> = memo(
@@ -87,7 +88,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                             </button>
                         </div>
                         <p className='text-primary/60 mt-1 line-clamp-1 text-sm'>
-                            {concept.summary}
+                            <Markdown compact>{concept.summary}</Markdown>
                         </p>
                     </div>
 
@@ -191,7 +192,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
 
                 {/* Summary */}
                 <p className='text-primary/70 mb-3 line-clamp-2 flex-1 text-sm'>
-                    {concept.summary}
+                    <Markdown compact>{concept.summary}</Markdown>
                 </p>
 
                 {/* Tags */}
