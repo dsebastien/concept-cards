@@ -1,5 +1,13 @@
 import { Link } from 'react-router'
-import { FaFileContract, FaArrowLeft, FaEnvelope, FaLink, FaHandshake } from 'react-icons/fa'
+import {
+    FaFileContract,
+    FaArrowLeft,
+    FaEnvelope,
+    FaLink,
+    FaHandshake,
+    FaRobot,
+    FaExternalLinkAlt
+} from 'react-icons/fa'
 import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, AnimatedSection } from '@/components/ui/animated'
 
@@ -30,6 +38,216 @@ const DisclaimerPage: React.FC = () => {
                         </div>
                     </div>
                 </AnimatedHero>
+            </Section>
+
+            {/* AI-Generated Content */}
+            <Section className='py-8'>
+                <AnimatedSection className='mx-auto max-w-4xl'>
+                    <div className='bg-primary/5 rounded-xl p-6'>
+                        <div className='mb-4 flex items-center gap-3'>
+                            <div className='bg-secondary/10 flex h-10 w-10 items-center justify-center rounded-full'>
+                                <FaRobot className='text-secondary h-5 w-5' />
+                            </div>
+                            <h2 className='text-xl font-semibold'>AI-Generated Content</h2>
+                        </div>
+                        <div className='text-primary/80 space-y-4'>
+                            <p>
+                                The content on this website is generated with the help of AI, but is
+                                primarily based on my personal notes available at{' '}
+                                <a
+                                    href='https://notes.dsebastien.net'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    className='text-secondary hover:text-secondary-text inline-flex items-center gap-1 underline'
+                                >
+                                    notes.dsebastien.net
+                                    <FaExternalLinkAlt className='h-3 w-3' />
+                                </a>
+                                . These notes represent years of research, learning, and practical
+                                application in knowledge management, productivity, and personal
+                                development.
+                            </p>
+                            <p>
+                                The content is also informed by my courses, products, newsletter,
+                                and articles:
+                            </p>
+                            <ul className='list-inside list-disc space-y-2 pl-4'>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/obsidian-starter-kit'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Obsidian Starter Kit
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/obsidian-starter-course'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Obsidian Starter Course
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowledge-management-for-beginners'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Knowledge Management for Beginners
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowii'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Knowii Community
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowledge-worker-kit'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Knowledge Worker Kit
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Personal Knowledge Management Library
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/pkm-coaching'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Personal Knowledge Management Coaching
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/ai-ghostwriter-guide'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        AI Ghostwriter Guide
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://dev-concepts.dev'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Dev Concepts
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://dsebastien.net/newsletter'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        DeveloPassion Newsletter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowii-voice-ai'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Knowii Voice AI
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowii-journaling-deep-dive'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Journaling Deep Dive Workshop
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowii-clarity-101'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Clarity 101 Workshop
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowii-personal-organization-101'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Personal Organization 101 Workshop
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowii-ai-master-prompt'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        AI Master Prompt Workshop
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href='https://store.dsebastien.net/l/knowii-model-context-protocol-mcp'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-secondary hover:text-secondary-text'
+                                    >
+                                        Model Context Protocol (MCP) Workshop
+                                    </a>
+                                </li>
+                            </ul>
+                            <p className='text-primary/60 mt-4 text-sm italic'>
+                                If you find any mistakes, inaccuracies, or missing concepts, please
+                                don't hesitate to{' '}
+                                <a
+                                    href='mailto:sebastien@developassion.be'
+                                    className='text-secondary hover:text-secondary-text underline'
+                                >
+                                    contact me
+                                </a>
+                                . Your feedback helps improve the quality of this resource for
+                                everyone.
+                            </p>
+                        </div>
+                    </div>
+                </AnimatedSection>
             </Section>
 
             {/* Affiliate Disclosure */}
