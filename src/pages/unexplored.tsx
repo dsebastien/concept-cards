@@ -197,39 +197,41 @@ const UnexploredPage: React.FC = () => {
             </motion.div>
 
             {/* View Mode Toggle */}
-            <div className='mx-auto flex max-w-4xl items-center justify-between gap-4 px-6 pb-4 sm:px-10 md:px-16 lg:px-20 xl:px-32'>
-                <p className='text-primary/60 text-sm'>
-                    Showing {unexploredCount} unexplored concept
-                    {unexploredCount !== 1 ? 's' : ''}
-                </p>
-                <div className='bg-primary/5 flex rounded-lg p-1'>
-                    <button
-                        onClick={() => setViewMode('grid')}
-                        className={`rounded-md px-3 py-1.5 text-sm transition-colors ${
-                            viewMode === 'grid'
-                                ? 'bg-secondary text-white'
-                                : 'text-primary/60 hover:text-primary'
-                        }`}
-                        aria-label='Grid view'
-                    >
-                        <FaTh className='h-4 w-4' />
-                    </button>
-                    <button
-                        onClick={() => setViewMode('list')}
-                        className={`rounded-md px-3 py-1.5 text-sm transition-colors ${
-                            viewMode === 'list'
-                                ? 'bg-secondary text-white'
-                                : 'text-primary/60 hover:text-primary'
-                        }`}
-                        aria-label='List view'
-                    >
-                        <FaList className='h-4 w-4' />
-                    </button>
+            <div className='mx-auto max-w-4xl px-6 py-3 sm:px-10 md:px-16 lg:px-20 xl:px-32'>
+                <div className='flex items-center justify-between gap-4'>
+                    <p className='text-primary/60 text-sm'>
+                        Showing {unexploredCount} unexplored concept
+                        {unexploredCount !== 1 ? 's' : ''}
+                    </p>
+                    <div className='bg-primary/5 flex rounded-lg p-1'>
+                        <button
+                            onClick={() => setViewMode('grid')}
+                            className={`rounded-md px-3 py-1.5 text-sm transition-colors ${
+                                viewMode === 'grid'
+                                    ? 'bg-secondary text-white'
+                                    : 'text-primary/60 hover:text-primary'
+                            }`}
+                            aria-label='Grid view'
+                        >
+                            <FaTh className='h-4 w-4' />
+                        </button>
+                        <button
+                            onClick={() => setViewMode('list')}
+                            className={`rounded-md px-3 py-1.5 text-sm transition-colors ${
+                                viewMode === 'list'
+                                    ? 'bg-secondary text-white'
+                                    : 'text-primary/60 hover:text-primary'
+                            }`}
+                            aria-label='List view'
+                        >
+                            <FaList className='h-4 w-4' />
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            {/* Concepts Grid/List - Virtualized for performance */}
-            <Section fullWidth className='px-6 !py-4 pb-16 sm:px-10 md:px-16'>
+            {/* Concepts Grid/List - Virtualized with window scrolling */}
+            <Section fullWidth className='px-6 py-6 pb-16 sm:px-10 md:px-16'>
                 <div className='mx-auto w-full max-w-[1800px]'>
                     <VirtualizedConceptList
                         concepts={unexploredConcepts}

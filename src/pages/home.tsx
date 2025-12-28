@@ -432,36 +432,36 @@ const HomePage: React.FC = () => {
                 </AnimatedHero>
             </Section>
 
-            {/* Concepts Section */}
-            <Section className='py-8 sm:py-12'>
-                {/* Filters */}
-                <div className='mb-8'>
-                    <ConceptsFilter
-                        searchQuery={searchQuery}
-                        onSearchChange={setSearchQuery}
-                        selectedCategory={selectedCategory}
-                        onCategoryChange={setSelectedCategory}
-                        selectedTags={selectedTags}
-                        onTagsChange={setSelectedTags}
-                        viewMode={viewMode}
-                        onViewModeChange={setViewMode}
-                        exploredFilter={exploredFilter}
-                        onExploredFilterChange={setExploredFilter}
-                        exploredCount={exploredCount}
-                        onClearExplored={clearAllExplored}
-                        categories={conceptsData.categories}
-                        allTags={allTags}
-                        onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
-                    />
-                </div>
+            {/* Filters */}
+            <Section className='py-4'>
+                <ConceptsFilter
+                    searchQuery={searchQuery}
+                    onSearchChange={setSearchQuery}
+                    selectedCategory={selectedCategory}
+                    onCategoryChange={setSelectedCategory}
+                    selectedTags={selectedTags}
+                    onTagsChange={setSelectedTags}
+                    viewMode={viewMode}
+                    onViewModeChange={setViewMode}
+                    exploredFilter={exploredFilter}
+                    onExploredFilterChange={setExploredFilter}
+                    exploredCount={exploredCount}
+                    onClearExplored={clearAllExplored}
+                    categories={conceptsData.categories}
+                    allTags={allTags}
+                    onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
+                />
+            </Section>
 
+            {/* Concepts Section */}
+            <Section className='py-6 sm:py-8'>
                 {/* Results count */}
                 <div className='text-primary/60 mb-6 text-sm'>
                     Showing {sortedConcepts.length} of {totalConcepts} entries
                     {searchQuery && ` matching "${searchQuery}"`}
                 </div>
 
-                {/* Concepts Grid/List - Virtualized for performance */}
+                {/* Concepts Grid/List - Virtualized with window scrolling */}
                 <VirtualizedConceptList
                     concepts={sortedConcepts}
                     viewMode={viewMode}

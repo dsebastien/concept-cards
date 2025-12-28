@@ -1,5 +1,5 @@
 import { useRef, useCallback, useMemo, memo, useState, useEffect } from 'react'
-import { useVirtualizer } from '@tanstack/react-virtual'
+import { useWindowVirtualizer } from '@tanstack/react-virtual'
 import ConceptCard from '@/components/concepts/concept-card'
 import type { Concept } from '@/types/concept'
 
@@ -15,8 +15,10 @@ interface VirtualizedConceptListProps {
 // Grid configuration
 const BADGE_PADDING = 16 // pt-4 = 1rem = 16px for badge overflow
 const CARD_MIN_HEIGHT_GRID = 320 // Approximate card height in grid mode
-const CARD_HEIGHT_LIST = 92 // Initial estimate for list mode (actual height measured dynamically)
+const CARD_HEIGHT_LIST_DESKTOP = 92 // List card height on desktop
+const CARD_HEIGHT_LIST_MOBILE = 120 // List card height on mobile (wrapped titles)
 const LIST_GAP = 12 // pb-3 = 0.75rem = 12px gap between list items
+const GRID_GAP = 24 // Gap between grid rows
 const OVERSCAN = 5 // Number of items to render outside viewport
 
 // Get number of columns based on container width
@@ -31,16 +33,16 @@ const getColumnCount = (containerWidth: number): number => {
 
 const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
     ({ concepts, viewMode, onShowDetails, onTagClick, onCategoryClick, isExplored }) => {
-        const parentRef = useRef<HTMLDivElement>(null)
-        // Initialize with actual window width to prevent flash of wrong layout
+        const listRef = useRef<HTMLDivElement>(null)
+        // Initialize with actual window width
         const [containerWidth, setContainerWidth] = useState(() =>
             typeof window !== 'undefined' ? window.innerWidth : 1024
         )
 
-        // Observe container resize
+        // Observe container resize for responsive column count
         useEffect(() => {
-            const parent = parentRef.current
-            if (!parent) return
+            const container = listRef.current
+            if (!container) return
 
             const resizeObserver = new ResizeObserver((entries) => {
                 for (const entry of entries) {
@@ -48,39 +50,43 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
                 }
             })
 
-            resizeObserver.observe(parent)
-            // Initial measurement
-            setContainerWidth(parent.offsetWidth)
+            resizeObserver.observe(container)
+            setContainerWidth(container.offsetWidth)
 
             return () => resizeObserver.disconnect()
         }, [])
 
         // Calculate columns based on container width
-        const columnCount = getColumnCount(containerWidth)
+        const columnCount = viewMode === 'grid' ? getColumnCount(containerWidth) : 1
 
         // Calculate rows for grid view
         const rowCount =
             viewMode === 'grid' ? Math.ceil(concepts.length / columnCount) : concepts.length
 
-        // Estimate row height - use larger estimate on mobile where titles wrap
+        // Estimate row height based on view mode and screen size
+        const isMobile = containerWidth < 640
         const estimateSize = useCallback(() => {
             if (viewMode === 'grid') {
-                return CARD_MIN_HEIGHT_GRID + BADGE_PADDING + BADGE_PADDING // top and bottom padding for badges
+                return CARD_MIN_HEIGHT_GRID + BADGE_PADDING + GRID_GAP
             }
-            // List view: estimate based on container width
-            // On mobile (<640px), titles often wrap to 2 lines, need more height
-            const isMobile = containerWidth < 640
-            return (isMobile ? 120 : CARD_HEIGHT_LIST) + LIST_GAP
-        }, [viewMode, containerWidth])
+            // List view: larger estimate on mobile for wrapped titles
+            return (isMobile ? CARD_HEIGHT_LIST_MOBILE : CARD_HEIGHT_LIST_DESKTOP) + LIST_GAP
+        }, [viewMode, isMobile])
 
-        const virtualizer = useVirtualizer({
+        // Use window virtualizer for single scroll context
+        const virtualizer = useWindowVirtualizer({
             count: rowCount,
-            getScrollElement: () => parentRef.current,
             estimateSize,
             overscan: OVERSCAN,
-            paddingStart: 0,
-            paddingEnd: 0
+            scrollMargin: listRef.current?.offsetTop ?? 0
         })
+
+        // Update scroll margin when list position changes
+        useEffect(() => {
+            if (listRef.current) {
+                virtualizer.scrollRect
+            }
+        }, [virtualizer])
 
         // Remeasure when viewMode, columnCount, or containerWidth changes
         useEffect(() => {
@@ -139,49 +145,38 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
             )
         }
 
-        // Key changes when crossing mobile breakpoint to force virtualizer remount
-        const isMobile = containerWidth < 640
-        const listKey = `list-${isMobile ? 'mobile' : 'desktop'}`
+        // Calculate total size for the container
+        const totalSize = virtualizer.getTotalSize()
 
         if (viewMode === 'list') {
             return (
-                <div
-                    key={listKey}
-                    ref={parentRef}
-                    className='h-[calc(100vh-200px)] min-h-[800px] overflow-auto'
-                    style={{ contain: 'strict' }}
-                >
-                    <div
-                        className='relative w-full'
-                        style={{ height: `${virtualizer.getTotalSize()}px` }}
-                    >
-                        {virtualItems.map((virtualRow) => {
-                            const concept = concepts[virtualRow.index]
-                            if (!concept) return null
+                <div ref={listRef} className='relative w-full' style={{ height: `${totalSize}px` }}>
+                    {virtualItems.map((virtualRow) => {
+                        const concept = concepts[virtualRow.index]
+                        if (!concept) return null
 
-                            return (
-                                <div
-                                    key={concept.id}
-                                    className='absolute top-0 left-0 w-full'
-                                    style={{
-                                        height: `${virtualRow.size}px`,
-                                        transform: `translateY(${virtualRow.start}px)`
-                                    }}
-                                >
-                                    <div className='pb-3'>
-                                        <ConceptCard
-                                            concept={concept}
-                                            onShowDetails={handleShowDetails}
-                                            onTagClick={handleTagClick}
-                                            onCategoryClick={handleCategoryClick}
-                                            viewMode='list'
-                                            isExplored={getIsExplored(concept.id)}
-                                        />
-                                    </div>
+                        return (
+                            <div
+                                key={concept.id}
+                                className='absolute top-0 left-0 w-full'
+                                style={{
+                                    height: `${virtualRow.size}px`,
+                                    transform: `translateY(${virtualRow.start - virtualizer.options.scrollMargin}px)`
+                                }}
+                            >
+                                <div className='pb-3'>
+                                    <ConceptCard
+                                        concept={concept}
+                                        onShowDetails={handleShowDetails}
+                                        onTagClick={handleTagClick}
+                                        onCategoryClick={handleCategoryClick}
+                                        viewMode='list'
+                                        isExplored={getIsExplored(concept.id)}
+                                    />
                                 </div>
-                            )
-                        })}
-                    </div>
+                            </div>
+                        )
+                    })}
                 </div>
             )
         }
@@ -189,49 +184,45 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
         // Grid view - virtualize rows, render columns within each row
         return (
             <div
-                ref={parentRef}
-                className='-mx-3 h-[calc(100vh-200px)] min-h-[800px] overflow-auto px-3 pt-3'
+                ref={listRef}
+                className='relative w-full pt-3'
+                style={{ height: `${totalSize}px` }}
             >
-                <div
-                    className='relative w-full'
-                    style={{ height: `${virtualizer.getTotalSize()}px` }}
-                >
-                    {virtualItems.map((virtualRow) => {
-                        const rowIndex = virtualRow.index
-                        const startIndex = rowIndex * columnCount
-                        const rowConcepts = concepts.slice(startIndex, startIndex + columnCount)
+                {virtualItems.map((virtualRow) => {
+                    const rowIndex = virtualRow.index
+                    const startIndex = rowIndex * columnCount
+                    const rowConcepts = concepts.slice(startIndex, startIndex + columnCount)
 
-                        return (
+                    return (
+                        <div
+                            key={virtualRow.key}
+                            className='absolute top-0 left-0 w-full'
+                            style={{
+                                height: `${virtualRow.size}px`,
+                                transform: `translateY(${virtualRow.start - virtualizer.options.scrollMargin}px)`
+                            }}
+                        >
                             <div
-                                key={virtualRow.key}
-                                className='absolute top-0 left-0 w-full'
+                                className='grid gap-3 pb-6 sm:gap-4 lg:gap-6'
                                 style={{
-                                    height: `${virtualRow.size}px`,
-                                    transform: `translateY(${virtualRow.start}px)`
+                                    gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`
                                 }}
                             >
-                                <div
-                                    className='grid gap-3 pt-3 pb-3 sm:gap-4 sm:pt-4 sm:pb-4 lg:gap-6 lg:pt-5 lg:pb-5'
-                                    style={{
-                                        gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`
-                                    }}
-                                >
-                                    {rowConcepts.map((concept) => (
-                                        <ConceptCard
-                                            key={concept.id}
-                                            concept={concept}
-                                            onShowDetails={handleShowDetails}
-                                            onTagClick={handleTagClick}
-                                            onCategoryClick={handleCategoryClick}
-                                            viewMode='grid'
-                                            isExplored={getIsExplored(concept.id)}
-                                        />
-                                    ))}
-                                </div>
+                                {rowConcepts.map((concept) => (
+                                    <ConceptCard
+                                        key={concept.id}
+                                        concept={concept}
+                                        onShowDetails={handleShowDetails}
+                                        onTagClick={handleTagClick}
+                                        onCategoryClick={handleCategoryClick}
+                                        viewMode='grid'
+                                        isExplored={getIsExplored(concept.id)}
+                                    />
+                                ))}
                             </div>
-                        )
-                    })}
-                </div>
+                        </div>
+                    )
+                })}
             </div>
         )
     }
