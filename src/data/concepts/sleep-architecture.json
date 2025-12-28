@@ -1,0 +1,40 @@
+{
+    "id": "sleep-architecture",
+    "name": "Sleep Architecture",
+    "summary": "The structure and pattern of sleep stages that cycle throughout the night, each serving distinct functions.",
+    "explanation": "Sleep architecture refers to the cyclical pattern of sleep stages we move through each night. A complete sleep cycle lasts about 90 minutes and includes light sleep (N1, N2), deep sleep (N3/slow-wave sleep), and REM sleep. Each stage serves different functions: deep sleep is crucial for physical restoration, immune function, and memory consolidation; REM sleep supports emotional processing, creativity, and procedural memory. Early night sleep is dominated by deep sleep, while REM increases toward morning. This is why cutting sleep short primarily robs you of REM sleep. Understanding sleep architecture explains why consistent sleep schedules matter, why naps have different effects depending on timing and duration, and why alcohol (which suppresses REM) leaves you unrested despite sleeping.",
+    "tags": [
+        "neuroscience",
+        "health",
+        "sleep",
+        "memory",
+        "wellbeing",
+        "psychology"
+    ],
+    "category": "Concepts",
+    "icon": "FaBed",
+    "featured": false,
+    "aliases": [
+        "Sleep stages",
+        "Sleep cycles",
+        "REM and non-REM sleep"
+    ],
+    "relatedConcepts": [
+        "sleep",
+        "circadian-rhythm",
+        "memory",
+        "learning",
+        "types-of-rest",
+        "hippocampus"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Why We Sleep",
+            "url": "https://amzn.to/3CJqMpL",
+            "type": "book"
+        }
+    ],
+    "tutorials": []
+}
