@@ -18,8 +18,6 @@ import socialsData from '@/data/socials.json'
 import ConceptIcon from '@/components/concepts/concept-icon'
 
 const Footer: React.FC = () => {
-    const currentYear = new Date().getFullYear()
-
     return (
         <footer className='border-primary/10 bg-background border-t pt-12 pb-20 sm:pt-16 sm:pb-24 md:pt-20 md:pb-28 lg:pt-24 lg:pb-32'>
             <div className='xg:px-24 mx-auto max-w-7xl px-6 sm:px-10 md:px-16 lg:px-20 xl:px-32'>
@@ -189,7 +187,6 @@ const Footer: React.FC = () => {
                             Sébastien Dubois
                         </a>
                     </p>
-                    <p className='mt-2'>© {currentYear} All rights reserved.</p>
                 </div>
             </div>
         </footer>
