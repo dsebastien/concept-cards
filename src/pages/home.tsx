@@ -375,14 +375,19 @@ const HomePage: React.FC = () => {
                                 </div>
                             </AnimatedStat>
                             <AnimatedStat delay={0.4}>
-                                <div className='text-center'>
+                                <Link
+                                    to='/categories'
+                                    className='group block text-center transition-transform hover:scale-105'
+                                >
                                     <AnimatedCounter
                                         value={categoriesCount}
                                         delay={0.6}
-                                        className='text-3xl font-bold text-blue-400 sm:text-4xl'
+                                        className='text-3xl font-bold text-blue-400 group-hover:text-blue-300 sm:text-4xl'
                                     />
-                                    <div className='text-primary/60 text-sm'>Categories</div>
-                                </div>
+                                    <div className='text-primary/60 group-hover:text-primary/80 text-sm'>
+                                        Categories
+                                    </div>
+                                </Link>
                             </AnimatedStat>
                         </div>
                     )}
