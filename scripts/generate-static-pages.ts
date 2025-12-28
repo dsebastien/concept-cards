@@ -313,7 +313,6 @@ function generateRelatedLinks(concept: Concept): string[] {
  */
 function generateConceptSchema(concept: Concept): string {
     const conceptUrl = `${BASE_URL}/concept/${concept.id}`
-    const today = new Date().toISOString().split('T')[0]
 
     // Calculate word count from explanation
     const wordCount = concept.explanation.split(/\s+/).filter((w) => w.length > 0).length
@@ -354,8 +353,8 @@ function generateConceptSchema(concept: Concept): string {
                 'articleBody': articleBody,
                 'url': conceptUrl,
                 'image': `${BASE_URL}/assets/images/social-card.png`,
-                'datePublished': today,
-                'dateModified': today,
+                'datePublished': concept.datePublished,
+                'dateModified': concept.dateModified,
                 'author': { '@id': `${BASE_URL}/#person` },
                 'publisher': { '@id': `${BASE_URL}/#organization` },
                 'keywords': concept.tags.join(', '),

@@ -108,7 +108,9 @@ To add a new concept to the website, create a new JSON file in `/src/data/concep
             "url": "https://tutorial-url.com",
             "type": "video"
         }
-    ]
+    ],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
 }
 ```
 
@@ -121,6 +123,8 @@ To add a new concept to the website, create a new JSON file in `/src/data/concep
 - `tags` - Array of tags for filtering
 - `category` - Must match one of the categories in the `categories` array
 - `featured` - Boolean for featured highlighting
+- `datePublished` - ISO 8601 date (YYYY-MM-DD) when the concept was first added
+- `dateModified` - ISO 8601 date (YYYY-MM-DD) when the concept was last updated
 
 ### Optional Fields:
 
@@ -231,6 +235,67 @@ Books go in the dedicated `books` array (not `references`):
 | `businesses`       | `business`                            |
 | `innovations`      | `innovation`                          |
 | `systems-thinking` | `systemsthinking`, `systems thinking` |
+
+### Date Fields (datePublished / dateModified)
+
+**MANDATORY**: All concepts must include `datePublished` and `dateModified` fields for SEO and content freshness tracking.
+
+#### Date Format
+
+- Use **ISO 8601 date format**: `YYYY-MM-DD` (e.g., `2025-01-15`)
+- Do NOT include time or timezone information
+- Always use the full 4-digit year
+
+#### When Adding New Concepts
+
+For **new concepts**, set both fields to today's date:
+
+```json
+{
+    "datePublished": "2025-12-28",
+    "dateModified": "2025-12-28"
+}
+```
+
+#### When Updating Existing Concepts
+
+When making **substantive changes** to a concept, update the `dateModified` field to today's date. Changes that warrant updating `dateModified`:
+
+- Updating or expanding the explanation
+- Adding new references, articles, or tutorials
+- Modifying tags or categories
+- Fixing factual errors
+- Adding or updating related concepts
+
+Changes that do **NOT** require updating `dateModified`:
+
+- Fixing typos or minor grammatical errors
+- Formatting changes (whitespace, JSON structure)
+- Adding missing Wikipedia references (bulk operations)
+
+**NEVER** modify `datePublished` - this represents the original creation date.
+
+#### Bulk Operations Script
+
+For bulk additions of dates to existing concepts (using git history), use:
+
+```bash
+# Run the script to populate dates from git history
+npx tsx scripts/populate-concept-dates.ts
+```
+
+#### Verification
+
+Before committing, verify date fields are present:
+
+```bash
+# Check for concepts missing datePublished or dateModified
+for f in /home/dsebastien/wks/concept-cards/src/data/concepts/*.json; do
+  if ! grep -q '"datePublished"' "$f" || ! grep -q '"dateModified"' "$f"; then
+    echo "Missing date fields: $(basename "$f")"
+  fi
+done
+```
 
 2. If the concept uses a new category, add it to `/src/data/categories.json`:
 

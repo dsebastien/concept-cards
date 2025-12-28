@@ -17,4 +17,6 @@ export interface Concept {
     books?: Book[] // Recommended books
     references?: Reference[] // Papers, websites, etc.
     tutorials?: Reference[] // Tutorial links
+    datePublished: string // ISO 8601 date (YYYY-MM-DD) when concept was first added
+    dateModified: string // ISO 8601 date (YYYY-MM-DD) when concept was last updated
 }
