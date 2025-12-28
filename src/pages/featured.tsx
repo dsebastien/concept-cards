@@ -1,13 +1,11 @@
 import { useMemo, useCallback } from 'react'
-import { Link, useNavigate, useParams } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 import { FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, motion } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
 import ConceptIcon from '@/components/concepts/concept-icon'
-import ConceptDetailModal from '@/components/concepts/concept-detail-modal'
 import { conceptsData } from '@/data'
-import { useExploredConcepts } from '@/hooks/use-explored-concepts'
 import type { Concept } from '@/types/concept'
 
 // Colors for concept cards
@@ -25,9 +23,7 @@ const cardColors = [
 ]
 
 const FeaturedPage: React.FC = () => {
-    const { conceptId } = useParams<{ conceptId?: string }>()
     const navigate = useNavigate()
-    const { isExplored } = useExploredConcepts()
 
     const featuredData = useMemo(() => {
         const concepts = conceptsData.concepts
@@ -45,42 +41,10 @@ const FeaturedPage: React.FC = () => {
         }
     }, [])
 
-    // Selected concept for modal
-    const selectedConcept = useMemo(() => {
-        if (!conceptId) return null
-        return conceptsData.concepts.find((c) => c.id === conceptId) || null
-    }, [conceptId])
-
-    const isDetailModalOpen = !!selectedConcept
-
     const handleShowDetails = useCallback(
         (concept: Concept) => {
-            navigate(`/featured/concept/${concept.id}`)
-        },
-        [navigate]
-    )
-
-    const handleCloseDetails = useCallback(() => {
-        navigate('/featured')
-    }, [navigate])
-
-    const handleNavigateToConcept = useCallback(
-        (concept: Concept) => {
-            navigate(`/featured/concept/${concept.id}`)
-        },
-        [navigate]
-    )
-
-    const handleTagClick = useCallback(
-        (tag: string) => {
-            navigate(`/tag/${encodeURIComponent(tag)}`)
-        },
-        [navigate]
-    )
-
-    const handleCategoryClick = useCallback(
-        (category: string) => {
-            navigate(`/category/${encodeURIComponent(category)}`)
+            // Navigate to canonical concept URL with from param
+            navigate(`/concept/${concept.id}?from=/featured`)
         },
         [navigate]
     )
@@ -179,18 +143,6 @@ const FeaturedPage: React.FC = () => {
                     </div>
                 </div>
             </Section>
-
-            {/* Detail Modal */}
-            <ConceptDetailModal
-                concept={selectedConcept}
-                allConcepts={conceptsData.concepts}
-                isOpen={isDetailModalOpen}
-                onClose={handleCloseDetails}
-                onNavigateToConcept={handleNavigateToConcept}
-                onTagClick={handleTagClick}
-                onCategoryClick={handleCategoryClick}
-                isExplored={isExplored}
-            />
         </AnimatedPage>
     )
 }

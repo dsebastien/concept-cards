@@ -13,14 +13,18 @@ interface VirtualizedConceptListProps {
 }
 
 // Grid configuration
-const BADGE_PADDING = 12 // pt-3 = 0.75rem = 12px for badge overflow
+const BADGE_PADDING = 16 // pt-4 = 1rem = 16px for badge overflow
 const CARD_MIN_HEIGHT_GRID = 320 // Approximate card height in grid mode
 const CARD_HEIGHT_LIST = 80 // Approximate card height in list mode
+const LIST_GAP = 12 // pb-3 = 0.75rem = 12px gap between list items
 const OVERSCAN = 5 // Number of items to render outside viewport
 
 // Get number of columns based on container width
 const getColumnCount = (containerWidth: number): number => {
-    if (containerWidth >= 1024) return 3 // lg:grid-cols-3
+    if (containerWidth >= 1536) return 6 // 2xl:grid-cols-6
+    if (containerWidth >= 1280) return 5 // xl:grid-cols-5
+    if (containerWidth >= 1024) return 4 // lg:grid-cols-4
+    if (containerWidth >= 768) return 3 // md:grid-cols-3
     if (containerWidth >= 640) return 2 // sm:grid-cols-2
     return 1
 }
@@ -59,7 +63,7 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
         const estimateSize = useCallback(() => {
             return viewMode === 'grid'
                 ? CARD_MIN_HEIGHT_GRID + BADGE_PADDING + BADGE_PADDING // top and bottom padding for badges
-                : CARD_HEIGHT_LIST + 12
+                : CARD_HEIGHT_LIST + LIST_GAP
         }, [viewMode])
 
         const virtualizer = useVirtualizer({
@@ -190,7 +194,7 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
                                 }}
                             >
                                 <div
-                                    className='grid gap-6 pt-3 pb-3'
+                                    className='grid gap-3 pt-3 pb-3 sm:gap-4 sm:pt-4 sm:pb-4 lg:gap-6 lg:pt-5 lg:pb-5'
                                     style={{
                                         gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`
                                     }}

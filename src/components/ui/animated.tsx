@@ -21,7 +21,7 @@ export const AnimatedPage: React.FC<AnimatedPageProps> = ({ children, className 
             animate='animate'
             exit='exit'
             variants={pageVariants}
-            className={className}
+            className={`w-full ${className || ''}`}
         >
             {children}
         </motion.div>

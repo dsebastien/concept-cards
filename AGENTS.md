@@ -483,6 +483,63 @@ After all sub-agents finish:
 2. Update existing concepts with cross-references to new concepts
 3. Run `npm run build` to verify all changes work
 
+## Visual Debugging with Playwright MCP
+
+**IMPORTANT**: When debugging visual issues, layout problems, or UI behavior, **always use the Playwright MCP server** instead of manual inspection or headless screenshots.
+
+### Setup
+
+The Playwright MCP server should already be configured. To verify or add it:
+
+```bash
+# Check if Playwright MCP is configured
+claude mcp list
+
+# Add Playwright MCP if not present
+claude mcp add playwright --transport stdio -- npx -y @playwright/mcp@latest
+```
+
+### Using Playwright for Debugging
+
+When you need to inspect the UI:
+
+1. **Start the dev server** (if not running):
+
+    ```bash
+    npm run dev
+    ```
+
+2. **Use Playwright tools** to interact with the page:
+    - `browser_navigate` - Navigate to URLs (e.g., `http://localhost:5173/unexplored`)
+    - `browser_screenshot` - Take screenshots of the current page
+    - `browser_snapshot` - Get accessibility tree snapshots
+    - `browser_click` - Click on elements
+    - `browser_type` - Type text into inputs
+
+### Example Workflow
+
+```
+1. Navigate to the page: browser_navigate to http://localhost:5173/unexplored
+2. Take a screenshot: browser_screenshot to see the current state
+3. Interact if needed: browser_click on elements, browser_type in inputs
+4. Verify changes: browser_screenshot again after making code changes
+```
+
+### When to Use Playwright
+
+- Debugging layout issues (grid columns, spacing, alignment)
+- Testing responsive design at different viewport sizes
+- Verifying visual changes after code modifications
+- Inspecting hover states, animations, or interactive elements
+- Testing navigation flows and modal behavior
+
+### Benefits Over Headless Chrome
+
+- Interactive debugging with real browser context
+- Ability to click, type, and interact with elements
+- Accessibility tree snapshots for understanding page structure
+- Consistent viewport and rendering
+
 ## Troubleshooting
 
 ### Build fails with type errors

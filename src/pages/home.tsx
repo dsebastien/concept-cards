@@ -252,34 +252,34 @@ const HomePage: React.FC = () => {
 
     const handleShowDetails = useCallback(
         (concept: Concept) => {
-            // Preserve search params when opening modal
-            const params = searchParams.toString()
-            // Preserve context: if on a tag or category page, navigate within that context
+            // Build the return path based on current location
+            let fromPath = '/'
             if (tagName) {
-                navigate(`/tag/${tagName}/concept/${concept.id}${params ? `?${params}` : ''}`)
+                fromPath = `/tag/${tagName}`
             } else if (categoryName) {
-                navigate(
-                    `/category/${categoryName}/concept/${concept.id}${params ? `?${params}` : ''}`
-                )
-            } else {
-                navigate(`/concept/${concept.id}${params ? `?${params}` : ''}`)
+                fromPath = `/category/${categoryName}`
             }
+
+            // Navigate to canonical concept URL with from param
+            const params = new URLSearchParams()
+            if (fromPath !== '/') {
+                params.set('from', fromPath)
+            }
+            const queryString = params.toString()
+            navigate(`/concept/${concept.id}${queryString ? `?${queryString}` : ''}`)
         },
-        [navigate, searchParams, tagName, categoryName]
+        [navigate, tagName, categoryName]
     )
 
     const handleCloseDetails = useCallback(() => {
-        // Preserve search params when closing modal
-        const params = searchParams.toString()
-        // Preserve context: if on a tag or category page, stay on that page
-        if (tagName) {
-            navigate(`/tag/${tagName}${params ? `?${params}` : ''}`)
-        } else if (categoryName) {
-            navigate(`/category/${categoryName}${params ? `?${params}` : ''}`)
+        // Check for 'from' param to know where to return
+        const fromPath = searchParams.get('from')
+        if (fromPath) {
+            navigate(fromPath)
         } else {
-            navigate(`/${params ? `?${params}` : ''}`)
+            navigate('/')
         }
-    }, [navigate, searchParams, tagName, categoryName])
+    }, [navigate, searchParams])
 
     const handleTagClick = useCallback(
         (tag: string) => {

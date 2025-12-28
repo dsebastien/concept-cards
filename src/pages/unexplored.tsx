@@ -1,19 +1,17 @@
-import { useMemo, useState, useCallback, useEffect } from 'react'
-import { Link, useNavigate, useParams } from 'react-router'
+import { useMemo, useState, useCallback } from 'react'
+import { Link, useNavigate } from 'react-router'
 import { FaCompass, FaArrowLeft, FaEnvelope, FaTh, FaList } from 'react-icons/fa'
 import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, motion } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
 import VirtualizedConceptList from '@/components/concepts/virtualized-concept-list'
-import ConceptDetailModal from '@/components/concepts/concept-detail-modal'
 import { conceptsData } from '@/data'
 import { useExploredConcepts } from '@/hooks/use-explored-concepts'
 import type { Concept } from '@/types/concept'
 
 const UnexploredPage: React.FC = () => {
-    const { conceptId } = useParams<{ conceptId?: string }>()
     const navigate = useNavigate()
-    const { isExplored, markAsExplored } = useExploredConcepts()
+    const { isExplored } = useExploredConcepts()
     const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
 
     const unexploredConcepts = useMemo(() => {
@@ -32,35 +30,10 @@ const UnexploredPage: React.FC = () => {
     const exploredCount = totalConcepts - unexploredCount
     const progressPercentage = Math.round((exploredCount / totalConcepts) * 100)
 
-    // Selected concept for modal
-    const selectedConcept = useMemo(() => {
-        if (!conceptId) return null
-        return conceptsData.concepts.find((c) => c.id === conceptId) || null
-    }, [conceptId])
-
-    const isDetailModalOpen = !!selectedConcept
-
-    // Mark concept as explored when modal opens
-    useEffect(() => {
-        if (conceptId) {
-            markAsExplored(conceptId)
-        }
-    }, [conceptId, markAsExplored])
-
     const handleShowDetails = useCallback(
         (concept: Concept) => {
-            navigate(`/unexplored/concept/${concept.id}`)
-        },
-        [navigate]
-    )
-
-    const handleCloseDetails = useCallback(() => {
-        navigate('/unexplored')
-    }, [navigate])
-
-    const handleNavigateToConcept = useCallback(
-        (concept: Concept) => {
-            navigate(`/unexplored/concept/${concept.id}`)
+            // Navigate to canonical concept URL with from param
+            navigate(`/concept/${concept.id}?from=/unexplored`)
         },
         [navigate]
     )
@@ -256,8 +229,8 @@ const UnexploredPage: React.FC = () => {
             </div>
 
             {/* Concepts Grid/List - Virtualized for performance */}
-            <Section className='!py-4 pb-16'>
-                <div className='mx-auto max-w-7xl'>
+            <Section fullWidth className='px-6 !py-4 pb-16 sm:px-10 md:px-16'>
+                <div className='mx-auto w-full max-w-[1800px]'>
                     <VirtualizedConceptList
                         concepts={unexploredConcepts}
                         viewMode={viewMode}
@@ -268,18 +241,6 @@ const UnexploredPage: React.FC = () => {
                     />
                 </div>
             </Section>
-
-            {/* Detail Modal */}
-            <ConceptDetailModal
-                concept={selectedConcept}
-                allConcepts={conceptsData.concepts}
-                isOpen={isDetailModalOpen}
-                onClose={handleCloseDetails}
-                onNavigateToConcept={handleNavigateToConcept}
-                onTagClick={handleTagClick}
-                onCategoryClick={handleCategoryClick}
-                isExplored={isExplored}
-            />
         </AnimatedPage>
     )
 }
