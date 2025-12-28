@@ -498,7 +498,7 @@ const HomePage: React.FC = () => {
                             className='bg-secondary hover:bg-secondary/90 flex items-center gap-2 rounded-lg px-4 py-2 text-white transition-colors'
                         >
                             <img
-                                src='https://www.dsebastien.net/assets/images/developassion-logo.png?v=227ae60558'
+                                src='/assets/images/developassion-logo.png'
                                 alt='DeveloPassion'
                                 className='h-5 w-5 rounded-full object-contain'
                             />
