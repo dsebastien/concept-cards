@@ -139,17 +139,30 @@ Each reference in `articles`, `references`, or `tutorials` has:
 **MANDATORY**: Tags must follow these rules to prevent duplicates and maintain consistency:
 
 1. **Use hyphenated format** - Always use hyphens to separate words (e.g., `well-being`, `critical-thinking`, `systems-thinking`)
-2. **Check existing tags first** - Before creating a new tag, list existing tags to avoid duplicates:
+
+2. **Always use plural forms** - All tags MUST be pluralized:
+    - `strategies` not `strategy`
+    - `businesses` not `business`
+    - `careers` not `career`
+    - `innovations` not `innovation`
+    - `risks` not `risk`
+
+    **Exceptions** (keep singular):
+    - Gerunds/activities: `brainstorming`, `teaching`, `investing`, `marketing`
+    - Truly uncountable abstract nouns: `knowledge`, `wisdom`, `progress`, `entropy`
+    - Fields of study: `psychology`, `sociology`, `epistemology`
+    - Proper nouns: `toyota`, `bourdieu`
+
+3. **Check existing tags first** - Before creating a new tag, list existing tags to avoid duplicates:
+
     ```bash
     # List all unique tags currently in use
     grep -h '"tags"' /home/dsebastien/wks/concept-cards/src/data/concepts/*.json | sed 's/.*\[/[/' | tr ',' '\n' | tr -d '[]"' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | sort -u
     ```
-3. **Use plural forms** for countable nouns (e.g., `frameworks` not `framework`, `processes` not `process`, `cognitive-biases` not `cognitive-bias`)
-4. **Use singular forms** for uncountable/abstract concepts (e.g., `psychology`, `business`, `strategy`)
-5. **Never introduce variations** - If a tag exists, use the exact existing form:
+
+4. **Never introduce variations** - If a tag exists, use the exact existing form:
     - `well-being` (not `wellbeing`)
     - `cognitive-biases` (not `cognitive-bias` or `biases`)
-    - `career` (not `careers`)
     - `frameworks` (not `framework`)
     - `processes` (not `process`)
 
@@ -157,9 +170,10 @@ Each reference in `articles`, `references`, or `tutorials` has:
 | ------------------ | ------------------------------------- |
 | `well-being`       | `wellbeing`                           |
 | `cognitive-biases` | `cognitive-bias`, `biases`            |
-| `decision-making`  | `decisionmaking`, `decision making`   |
+| `strategies`       | `strategy`                            |
+| `businesses`       | `business`                            |
+| `innovations`      | `innovation`                          |
 | `systems-thinking` | `systemsthinking`, `systems thinking` |
-| `mental-health`    | `mentalhealth`, `mental health`       |
 
 2. If the concept uses a new category, add it to `/src/data/categories.json`:
 
