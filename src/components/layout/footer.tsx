@@ -1,5 +1,14 @@
 import { Link } from 'react-router'
-import { FaHeart, FaBrain, FaDice, FaChartBar, FaCompass, FaFolder, FaStar } from 'react-icons/fa'
+import {
+    FaHeart,
+    FaBrain,
+    FaDice,
+    FaChartBar,
+    FaCompass,
+    FaFolder,
+    FaStar,
+    FaFileContract
+} from 'react-icons/fa'
 import resourcesData from '@/data/resources.json'
 import socialsData from '@/data/socials.json'
 import ConceptIcon from '@/components/concepts/concept-icon'
@@ -56,6 +65,13 @@ const Footer: React.FC = () => {
                         >
                             <FaChartBar className='h-4 w-4' />
                             Statistics
+                        </Link>
+                        <Link
+                            to='/disclaimer'
+                            className='text-primary/70 hover:text-secondary mt-2 inline-flex items-center gap-2 text-sm transition-colors'
+                        >
+                            <FaFileContract className='h-4 w-4' />
+                            Disclaimer
                         </Link>
                     </div>
 

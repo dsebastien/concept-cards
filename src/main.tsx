@@ -6,6 +6,7 @@ import './styles/index.css'
 import AppLayout from './components/layout/app-layout'
 import HomePage from './pages/home'
 import CategoriesPage from './pages/categories'
+import DisclaimerPage from './pages/disclaimer'
 import FeaturedPage from './pages/featured'
 import RandomConceptPage from './pages/random'
 import StatisticsPage from './pages/statistics'
@@ -31,6 +32,7 @@ ReactDOM.createRoot(rootElement).render(
                     <Route path='/random' element={<RandomConceptPage />} />
                     <Route path='/statistics' element={<StatisticsPage />} />
                     <Route path='/unexplored' element={<UnexploredPage />} />
+                    <Route path='/disclaimer' element={<DisclaimerPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

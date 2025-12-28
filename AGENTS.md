@@ -134,6 +134,46 @@ Each reference in `articles`, `references`, or `tutorials` has:
 - `url` - Link URL
 - `type` - One of: `book`, `paper`, `website`, `video`, `podcast`, `other`
 
+### Book References with Affiliate Links
+
+**MANDATORY**: When adding book references, always use Amazon.com affiliate links with the affiliate tag `tag=dsebastien00-20`.
+
+#### How to Add Book Links
+
+1. **Search for the book on Amazon.com** (not regional Amazon sites)
+2. **Get the Amazon ASIN/ISBN** from the product URL (e.g., `B07HSHBRXN` from `amazon.com/dp/B07HSHBRXN`)
+3. **Construct the affiliate link** using this format:
+    ```
+    https://www.amazon.com/dp/[ASIN]?tag=dsebastien00-20
+    ```
+
+#### Examples
+
+| Book Title              | Affiliate URL                                              |
+| ----------------------- | ---------------------------------------------------------- |
+| Atomic Habits           | `https://www.amazon.com/dp/0735211299?tag=dsebastien00-20` |
+| How to Take Smart Notes | `https://www.amazon.com/dp/B09V5M8FR5?tag=dsebastien00-20` |
+| Thinking, Fast and Slow | `https://www.amazon.com/dp/0374533555?tag=dsebastien00-20` |
+
+#### Reference Format
+
+```json
+{
+    "title": "Book Title by Author Name",
+    "url": "https://www.amazon.com/dp/ASIN?tag=dsebastien00-20",
+    "type": "book"
+}
+```
+
+#### Guidelines
+
+- **Always include the affiliate tag** - Never add Amazon book links without `tag=dsebastien00-20`
+- **Use amazon.com** - Always use the US Amazon site (amazon.com), not regional variants
+- **Verify the link works** - Test that the ASIN is correct before adding
+- **Include author in title** - Format as "Book Title by Author Name" for clarity
+- **Add relevant books** - Only add books that are directly related to the concept
+- **Check for existing books** - Avoid duplicate book references across concepts
+
 ### Tag Guidelines
 
 **MANDATORY**: Tags must follow these rules to prevent duplicates and maintain consistency:
