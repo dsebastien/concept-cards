@@ -27,6 +27,11 @@ interface Reference {
     type: string
 }
 
+interface Book {
+    title: string
+    url: string
+}
+
 interface Concept {
     id: string
     name: string
@@ -40,6 +45,7 @@ interface Concept {
     relatedConcepts?: string[]
     relatedNotes?: string[]
     articles?: Reference[]
+    books?: Book[]
     references?: Reference[]
     tutorials?: Reference[]
 }
@@ -237,6 +243,59 @@ async function validateUrls(
     }
 }
 
+// Validate book URLs
+async function validateBooks(file: string, concept: Concept) {
+    if (!concept.books || concept.books.length === 0) return
+
+    for (const book of concept.books) {
+        if (!book.url) {
+            issues.push({
+                file,
+                conceptId: concept.id,
+                type: 'error',
+                category: 'missing-url',
+                message: `Book "${book.title}" has no URL`,
+                field: 'books'
+            })
+            continue
+        }
+
+        // Validate URL format
+        try {
+            new URL(book.url)
+        } catch {
+            issues.push({
+                file,
+                conceptId: concept.id,
+                type: 'error',
+                category: 'invalid-url',
+                message: `Invalid book URL format: ${book.url}`,
+                field: 'books',
+                value: book.url
+            })
+            continue
+        }
+
+        if (!skipUrls) {
+            const result = await checkUrl(book.url)
+            if (!result.ok) {
+                issues.push({
+                    file,
+                    conceptId: concept.id,
+                    type: 'warning',
+                    category: 'broken-url',
+                    message: `Broken book URL: ${book.url} (${result.status || result.error})`,
+                    field: 'books',
+                    value: book.url
+                })
+            } else if (verbose) {
+                console.log(`  ✓ ${book.url}`)
+            }
+            await sleep(100) // Rate limit
+        }
+    }
+}
+
 // Validate relatedNotes URLs
 async function validateRelatedNotes(file: string, concept: Concept) {
     if (!concept.relatedNotes || concept.relatedNotes.length === 0) return
@@ -321,6 +380,7 @@ async function main() {
         // Validate URLs
         if (!skipUrls) {
             await validateUrls(file, concept, concept.articles, 'articles')
+            await validateBooks(file, concept)
             await validateUrls(file, concept, concept.references, 'references')
             await validateUrls(file, concept, concept.tutorials, 'tutorials')
             await validateRelatedNotes(file, concept)

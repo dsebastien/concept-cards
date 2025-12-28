@@ -16,6 +16,11 @@ interface Reference {
     type: string
 }
 
+interface Book {
+    title: string
+    url: string
+}
+
 interface Concept {
     id: string
     name: string
@@ -29,6 +34,7 @@ interface Concept {
     relatedConcepts?: string[]
     relatedNotes?: string[]
     articles?: Reference[]
+    books?: Book[]
     references?: Reference[]
     tutorials?: Reference[]
 }
@@ -50,6 +56,21 @@ function dedupeReferenceArray(arr: Reference[] | undefined): Reference[] | undef
         if (!seen.has(key)) {
             seen.add(key)
             unique.push(ref)
+        }
+    }
+    return unique.length === arr.length ? arr : unique
+}
+
+// Deduplicate book arrays by URL (case-insensitive)
+function dedupeBookArray(arr: Book[] | undefined): Book[] | undefined {
+    if (!arr || arr.length === 0) return arr
+    const seen = new Set<string>()
+    const unique: Book[] = []
+    for (const book of arr) {
+        const key = book.url.toLowerCase()
+        if (!seen.has(key)) {
+            seen.add(key)
+            unique.push(book)
         }
     }
     return unique.length === arr.length ? arr : unique
@@ -119,6 +140,16 @@ for (const file of conceptFiles) {
         const removed = originalArticlesLength - dedupedArticles.length
         duplicatesInFile += removed
         concept.articles = dedupedArticles
+        modified = true
+    }
+
+    // Deduplicate books
+    const originalBooksLength = concept.books?.length ?? 0
+    const dedupedBooks = dedupeBookArray(concept.books)
+    if (dedupedBooks && dedupedBooks.length !== originalBooksLength) {
+        const removed = originalBooksLength - dedupedBooks.length
+        duplicatesInFile += removed
+        concept.books = dedupedBooks
         modified = true
     }
 

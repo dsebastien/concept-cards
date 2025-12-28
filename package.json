@@ -20,6 +20,7 @@
         "validate:quick": "tsx ./scripts/validate-concepts.ts --skip-urls",
         "validate:fix": "tsx ./scripts/validate-concepts.ts --skip-urls --fix-relations",
         "fix-refs": "tsx ./scripts/fix-concept-refs.ts",
+        "extract-books": "tsx ./scripts/extract-books.ts",
         "dev": "vite",
         "build": "tsc && vite build && tsx scripts/generate-static-pages.ts && tsx scripts/generate-sitemap.ts && tsx scripts/generate-llms-txt.ts",
         "preview": "vite preview",

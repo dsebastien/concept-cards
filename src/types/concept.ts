@@ -4,6 +4,11 @@ export interface Reference {
     type: 'book' | 'paper' | 'website' | 'video' | 'podcast' | 'other'
 }
 
+export interface Book {
+    title: string
+    url: string
+}
+
 export interface Concept {
     id: string
     name: string
@@ -17,7 +22,8 @@ export interface Concept {
     relatedConcepts?: string[] // IDs of related concepts (internal links)
     relatedNotes?: string[] // Links to related notes (external)
     articles?: Reference[] // Related articles
-    references?: Reference[] // Books, papers, etc.
+    books?: Book[] // Recommended books
+    references?: Reference[] // Papers, websites, etc.
     tutorials?: Reference[] // Tutorial links
 }
 

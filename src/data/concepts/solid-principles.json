@@ -37,17 +37,17 @@
             "type": "websites"
         }
     ],
-    "references": [
+    "books": [
         {
             "title": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
-            "url": "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164",
-            "type": "book"
+            "url": "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164"
         },
         {
             "title": "Agile Software Development, Principles, Patterns, and Practices",
-            "url": "https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445",
-            "type": "book"
-        },
+            "url": "https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445"
+        }
+    ],
+    "references": [
         {
             "title": "Dev Concepts",
             "url": "https://dev-concepts.dev",

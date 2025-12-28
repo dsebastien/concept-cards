@@ -89,11 +89,17 @@ To add a new concept to the website, create a new JSON file in `/src/data/concep
             "type": "website"
         }
     ],
+    "books": [
+        {
+            "title": "Book Title by Author",
+            "url": "https://amazon-affiliate-link.com"
+        }
+    ],
     "references": [
         {
-            "title": "Book Title",
-            "url": "https://book-url.com",
-            "type": "book"
+            "title": "Paper or Website Title",
+            "url": "https://reference-url.com",
+            "type": "paper"
         }
     ],
     "tutorials": [
@@ -123,7 +129,8 @@ To add a new concept to the website, create a new JSON file in `/src/data/concep
 - `relatedConcepts` - Array of concept IDs for internal linking (clickable in the detail modal)
 - `relatedNotes` - Array of URLs to related notes (external)
 - `articles` - Array of article references
-- `references` - Array of book/paper references
+- `books` - Array of recommended books (dedicated section with amber styling)
+- `references` - Array of paper/website references
 - `tutorials` - Array of tutorial references
 
 ### Reference Object Structure:
@@ -132,7 +139,16 @@ Each reference in `articles`, `references`, or `tutorials` has:
 
 - `title` - Display title
 - `url` - Link URL
-- `type` - One of: `book`, `paper`, `website`, `video`, `podcast`, `other`
+- `type` - One of: `paper`, `website`, `video`, `podcast`, `other`
+
+### Book Object Structure:
+
+Each book in `books` has:
+
+- `title` - Display title (format: "Book Title by Author Name")
+- `url` - Amazon affiliate link
+
+**Note**: Books are stored separately from references for dedicated display with amber styling in the UI.
 
 ### Book References with Affiliate Links
 
@@ -155,13 +171,14 @@ Each reference in `articles`, `references`, or `tutorials` has:
 | How to Take Smart Notes | `https://www.amazon.com/dp/B09V5M8FR5?tag=dsebastien00-20` |
 | Thinking, Fast and Slow | `https://www.amazon.com/dp/0374533555?tag=dsebastien00-20` |
 
-#### Reference Format
+#### Book Format
+
+Books go in the dedicated `books` array (not `references`):
 
 ```json
 {
     "title": "Book Title by Author Name",
-    "url": "https://www.amazon.com/dp/ASIN?tag=dsebastien00-20",
-    "type": "book"
+    "url": "https://www.amazon.com/dp/ASIN?tag=dsebastien00-20"
 }
 ```
 
@@ -377,8 +394,10 @@ Modal showing detailed concept information when a card is clicked:
 - Full explanation
 - All tags
 - Aliases
+- Related concepts (clickable)
 - Related notes
-- References (books, papers)
+- Books (dedicated section with amber styling)
+- References (papers, websites)
 - Articles
 - Tutorials
 

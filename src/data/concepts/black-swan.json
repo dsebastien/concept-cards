@@ -3,11 +3,20 @@
     "name": "Black Swan",
     "summary": "A rare, unpredictable event with major impact that is rationalized in hindsight.",
     "explanation": "A Black Swan is an event that is surprising (to the observer), has a major effect, and after being observed, is rationalized in hindsight. The theory of black swans is epistemological, relating to the limited knowledge and understanding of observed events. The term was popularized by Nassim Nicholas Taleb. Black swans challenge our ability to predict the future and highlight the importance of building antifragile systems that can withstand unexpected shocks. In planning and strategy, acknowledging black swans means accepting uncertainty and building resilience.",
-    "tags": ["uncertainties", "probabilities", "strategies", "risks", "mental-models"],
+    "tags": [
+        "uncertainties",
+        "probabilities",
+        "strategies",
+        "risks",
+        "mental-models"
+    ],
     "category": "Concepts",
     "icon": "FaQuestion",
     "featured": false,
-    "aliases": ["Black swan event", "Unpredictable event"],
+    "aliases": [
+        "Black swan event",
+        "Unpredictable event"
+    ],
     "relatedConcepts": [
         "amaras-law",
         "planning-fallacy",
@@ -18,12 +27,12 @@
         "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Black+swan"
     ],
     "articles": [],
-    "references": [
+    "books": [
         {
             "title": "The Black Swan by Nassim Nicholas Taleb",
-            "url": "https://www.amazon.com/dp/081297381X?tag=dsebastien00-20",
-            "type": "book"
+            "url": "https://www.amazon.com/dp/081297381X?tag=dsebastien00-20"
         }
     ],
+    "references": [],
     "tutorials": []
 }

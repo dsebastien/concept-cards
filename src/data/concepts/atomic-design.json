@@ -32,12 +32,13 @@
             "type": "websites"
         }
     ],
-    "references": [
+    "books": [
         {
             "title": "Atomic Design",
-            "url": "https://atomicdesign.bradfrost.com/table-of-contents/",
-            "type": "book"
-        },
+            "url": "https://atomicdesign.bradfrost.com/table-of-contents/"
+        }
+    ],
+    "references": [
         {
             "title": "Dev Concepts",
             "url": "https://dev-concepts.dev",

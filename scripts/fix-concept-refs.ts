@@ -17,6 +17,11 @@ interface Reference {
     type: string
 }
 
+interface Book {
+    title: string
+    url: string
+}
+
 interface Concept {
     id: string
     name: string
@@ -30,6 +35,7 @@ interface Concept {
     relatedConcepts?: string[]
     relatedNotes?: string[]
     articles?: Reference[]
+    books?: Book[]
     references?: Reference[]
     tutorials?: Reference[]
 }

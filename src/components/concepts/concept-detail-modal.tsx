@@ -18,7 +18,7 @@ import {
 } from 'react-icons/fa'
 import { backdropVariants, scaleFadeVariants } from '@/lib/animations'
 import ConceptIcon from '@/components/concepts/concept-icon'
-import type { Concept, Reference } from '@/types/concept'
+import type { Concept, Reference, Book } from '@/types/concept'
 
 interface ConceptDetailModalProps {
     concept: Concept | null
@@ -38,6 +38,36 @@ const referenceTypeIcons: Record<string, React.ReactNode> = {
     video: <FaGraduationCap className='h-4 w-4 text-red-400' />,
     podcast: <FaQuoteLeft className='h-4 w-4 text-purple-400' />,
     other: <FaExternalLinkAlt className='h-4 w-4 text-gray-400' />
+}
+
+const BookList: React.FC<{
+    books: Book[]
+}> = ({ books }) => {
+    if (!books || books.length === 0) return null
+
+    return (
+        <div>
+            <div className='mb-2 flex items-center gap-2'>
+                <FaBook className='text-secondary h-4 w-4' />
+                <span className='text-primary/60 text-sm'>Recommended Books</span>
+            </div>
+            <div className='space-y-2'>
+                {books.map((book, index) => (
+                    <a
+                        key={index}
+                        href={book.url}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='flex items-center gap-3 rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 transition-colors hover:bg-amber-500/10'
+                    >
+                        <FaBook className='h-4 w-4 text-amber-400' />
+                        <span className='flex-1 text-sm'>{book.title}</span>
+                        <FaExternalLinkAlt className='text-primary/40 h-3 w-3' />
+                    </a>
+                ))}
+            </div>
+        </div>
+    )
 }
 
 const ReferenceList: React.FC<{
@@ -381,18 +411,21 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                         </div>
                                     )}
 
-                                    {/* References Section */}
-                                    <ReferenceList
-                                        title='References'
-                                        references={concept.references || []}
-                                        icon={<FaBook className='text-secondary h-4 w-4' />}
-                                    />
-
                                     {/* Articles Section */}
                                     <ReferenceList
                                         title='Articles'
                                         references={concept.articles || []}
                                         icon={<FaNewspaper className='text-secondary h-4 w-4' />}
+                                    />
+
+                                    {/* Books Section */}
+                                    <BookList books={concept.books || []} />
+
+                                    {/* References Section */}
+                                    <ReferenceList
+                                        title='References'
+                                        references={concept.references || []}
+                                        icon={<FaLink className='text-secondary h-4 w-4' />}
                                     />
 
                                     {/* Tutorials Section */}

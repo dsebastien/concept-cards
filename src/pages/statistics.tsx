@@ -46,6 +46,10 @@ const StatisticsPage: React.FC = () => {
         const conceptsWithTutorials = concepts.filter(
             (c) => c.tutorials && c.tutorials.length > 0
         ).length
+        const conceptsWithBooks = concepts.filter((c) => c.books && c.books.length > 0).length
+
+        // Total books count
+        const totalBooks = concepts.reduce((sum, c) => sum + (c.books?.length || 0), 0)
 
         // Category distribution
         const categoryCount: Record<string, number> = {}
@@ -130,12 +134,14 @@ const StatisticsPage: React.FC = () => {
             conceptsWithReferences,
             conceptsWithArticles,
             conceptsWithTutorials,
+            conceptsWithBooks,
             categoryStats,
             uniqueTags,
             avgTagsPerConcept,
             topTags,
             referenceTypeStats,
             totalReferences,
+            totalBooks,
             avgExplanationLength,
             longestExplanation,
             shortestExplanation,
@@ -314,9 +320,14 @@ const StatisticsPage: React.FC = () => {
                                         color: 'bg-cyan-500'
                                     },
                                     {
+                                        label: 'Books',
+                                        count: stats.conceptsWithBooks,
+                                        color: 'bg-amber-500'
+                                    },
+                                    {
                                         label: 'References',
                                         count: stats.conceptsWithReferences,
-                                        color: 'bg-amber-500'
+                                        color: 'bg-orange-500'
                                     },
                                     {
                                         label: 'Articles',
@@ -381,6 +392,10 @@ const StatisticsPage: React.FC = () => {
                                     <span className='font-medium'>
                                         {stats.totalRelatedConcepts}
                                     </span>
+                                </div>
+                                <div className='flex items-center justify-between'>
+                                    <span className='text-primary/70 text-sm'>Total Books</span>
+                                    <span className='font-medium'>{stats.totalBooks}</span>
                                 </div>
                                 <div className='flex items-center justify-between'>
                                     <span className='text-primary/70 text-sm'>
