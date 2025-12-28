@@ -18,21 +18,12 @@ import {
 } from 'react-icons/fa'
 import { backdropVariants, scaleFadeVariants } from '@/lib/animations'
 import ConceptIcon from '@/components/concepts/concept-icon'
-import type { Concept, Reference, Book } from '@/types/concept'
+import type { ConceptDetailModalProps } from '@/types/concept-detail-modal-props.intf'
+import type { Reference } from '@/types/reference.intf'
+import type { Book } from '@/types/book.intf'
 
-interface ConceptDetailModalProps {
-    concept: Concept | null
-    allConcepts: Concept[]
-    isOpen: boolean
-    onClose: () => void
-    onNavigateToConcept: (concept: Concept) => void
-    onTagClick: (tag: string) => void
-    onCategoryClick: (category: string) => void
-    isExplored?: (conceptId: string) => boolean
-}
-
+// Icons for reference types (books are displayed separately via BookList)
 const referenceTypeIcons: Record<string, React.ReactNode> = {
-    book: <FaBook className='h-4 w-4 text-amber-400' />,
     paper: <FaNewspaper className='h-4 w-4 text-blue-400' />,
     website: <FaExternalLinkAlt className='h-4 w-4 text-green-400' />,
     video: <FaGraduationCap className='h-4 w-4 text-red-400' />,

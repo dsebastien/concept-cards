@@ -1,4 +1,5 @@
 import { IconType } from 'react-icons'
+import type { ConceptIconProps } from '@/types/concept-icon-props.intf'
 import {
     FaLightbulb,
     FaBrain,
@@ -318,13 +319,6 @@ const categoryFallbacks: Record<string, string> = {
     Techniques: '🛠️',
     Tools: '🔧',
     Frameworks: '🏗️'
-}
-
-interface ConceptIconProps {
-    icon?: string
-    category: string
-    className?: string
-    size?: 'sm' | 'md' | 'lg' | 'xl'
 }
 
 const sizeClasses = {

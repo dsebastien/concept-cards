@@ -5,23 +5,9 @@ import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, AnimatedSection, AnimatedStat } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
 import { conceptsData } from '@/data'
-
-interface CategoryStat {
-    name: string
-    count: number
-    percentage: number
-}
-
-interface TagStat {
-    name: string
-    count: number
-}
-
-interface ReferenceTypeStat {
-    type: string
-    count: number
-    percentage: number
-}
+import type { CategoryStat } from '@/types/category-stat.intf'
+import type { TagStat } from '@/types/tag-stat.intf'
+import type { ReferenceTypeStat } from '@/types/reference-type-stat.intf'
 
 const StatisticsPage: React.FC = () => {
     const stats = useMemo(() => {
@@ -168,9 +154,8 @@ const StatisticsPage: React.FC = () => {
         'bg-indigo-500'
     ]
 
-    // Colors for reference types
+    // Colors for reference types (books are now separate)
     const referenceTypeColors: Record<string, string> = {
-        book: 'bg-amber-500',
         paper: 'bg-blue-500',
         website: 'bg-green-500',
         video: 'bg-red-500',
@@ -179,7 +164,6 @@ const StatisticsPage: React.FC = () => {
     }
 
     const referenceTypeLabels: Record<string, string> = {
-        book: 'Books',
         paper: 'Papers',
         website: 'Websites',
         video: 'Videos',

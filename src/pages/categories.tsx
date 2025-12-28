@@ -5,12 +5,7 @@ import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, motion } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
 import { conceptsData } from '@/data'
-
-interface CategoryData {
-    name: string
-    count: number
-    percentage: number
-}
+import type { CategoryData } from '@/types/category-data.intf'
 
 // Colors for category cards
 const categoryColors = [

@@ -2,16 +2,7 @@ import { memo, useCallback } from 'react'
 import { FaStar, FaInfoCircle, FaCheckCircle } from 'react-icons/fa'
 import { cn } from '@/lib/utils'
 import ConceptIcon from '@/components/concepts/concept-icon'
-import type { Concept } from '@/types/concept'
-
-interface ConceptCardProps {
-    concept: Concept
-    onShowDetails: (concept: Concept) => void
-    onTagClick: (tag: string) => void
-    onCategoryClick: (category: string) => void
-    viewMode: 'grid' | 'list'
-    isExplored?: boolean
-}
+import type { ConceptCardProps } from '@/types/concept-card-props.intf'
 
 const ConceptCard: React.FC<ConceptCardProps> = memo(
     ({ concept, onShowDetails, onTagClick, onCategoryClick, viewMode, isExplored = false }) => {

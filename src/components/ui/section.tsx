@@ -1,11 +1,5 @@
 import { cn } from '@/lib/utils'
-
-interface SectionProps {
-    children: React.ReactNode
-    className?: string
-    fullWidth?: boolean
-    id?: string
-}
+import type { SectionProps } from '@/types/section-props.intf'
 
 const Section: React.FC<SectionProps> = ({ children, className, fullWidth = false, id }) => {
     return (

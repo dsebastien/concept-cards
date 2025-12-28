@@ -1,33 +1,5 @@
-export interface Reference {
-    title: string
-    url: string
-    type: 'book' | 'paper' | 'website' | 'video' | 'podcast' | 'other'
-}
-
-export interface Book {
-    title: string
-    url: string
-}
-
-export interface Concept {
-    id: string
-    name: string
-    summary: string
-    explanation: string
-    tags: string[]
-    category: string
-    icon?: string // React-icon name (e.g., "FaBrain", "FaLightbulb") or URL to an image
-    featured: boolean
-    aliases?: string[] // Alternative names for the concept
-    relatedConcepts?: string[] // IDs of related concepts (internal links)
-    relatedNotes?: string[] // Links to related notes (external)
-    articles?: Reference[] // Related articles
-    books?: Book[] // Recommended books
-    references?: Reference[] // Papers, websites, etc.
-    tutorials?: Reference[] // Tutorial links
-}
-
-export interface ConceptsData {
-    concepts: Concept[]
-    categories: string[]
-}
+// Re-export from individual type files for backwards compatibility
+export type { Reference } from './reference.intf'
+export type { Book } from './book.intf'
+export type { Concept } from './concept.intf'
+export type { ConceptsData } from './concepts-data.intf'

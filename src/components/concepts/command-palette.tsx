@@ -10,30 +10,8 @@ import {
 } from 'react-icons/fa'
 import { cn } from '@/lib/utils'
 import ConceptIcon from '@/components/concepts/concept-icon'
-import type { Concept } from '@/types/concept'
-
-interface CommandPaletteProps {
-    isOpen: boolean
-    onClose: () => void
-    concepts: Concept[]
-    onShowDetails: (concept: Concept) => void
-    onSetViewMode: (mode: 'grid' | 'list') => void
-    onSetCategory: (category: string) => void
-    categories: string[]
-    isExplored: (conceptId: string) => boolean
-}
-
-type CommandType = 'concept' | 'action' | 'category'
-
-interface Command {
-    id: string
-    type: CommandType
-    title: string
-    subtitle?: string
-    icon: React.ReactNode
-    action: () => void
-    concept?: Concept
-}
+import type { CommandPaletteProps } from '@/types/command-palette-props.intf'
+import type { Command } from '@/types/command.intf'
 
 const CommandPalette: React.FC<CommandPaletteProps> = ({
     isOpen,

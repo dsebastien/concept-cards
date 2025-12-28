@@ -139,7 +139,7 @@ Each reference in `articles`, `references`, or `tutorials` has:
 
 - `title` - Display title
 - `url` - Link URL
-- `type` - One of: `paper`, `website`, `video`, `podcast`, `other`
+- `type` - One of: `paper`, `website`, `video`, `podcast`, `other` (note: books go in the dedicated `books` array)
 
 ### Book Object Structure:
 

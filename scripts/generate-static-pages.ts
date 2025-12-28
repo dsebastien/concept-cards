@@ -180,11 +180,10 @@ function generateFaqQuestions(concept: Concept): Array<{
 
 /**
  * Map reference type to Schema.org type
+ * Note: Books are now in a separate 'books' array, not in references
  */
 function mapReferenceType(ref: Reference): string {
     switch (ref.type) {
-        case 'book':
-            return 'Book'
         case 'paper':
             return 'ScholarlyArticle'
         case 'video':
@@ -199,10 +198,21 @@ function mapReferenceType(ref: Reference): string {
 }
 
 /**
- * Generate citations from references and articles
+ * Generate citations from books, references, and articles
  */
 function generateCitations(concept: Concept): Array<Record<string, unknown>> {
     const citations: Array<Record<string, unknown>> = []
+
+    // Add books as citations
+    if (concept.books && concept.books.length > 0) {
+        concept.books.forEach((book) => {
+            citations.push({
+                '@type': 'Book',
+                'name': book.title,
+                'url': book.url
+            })
+        })
+    }
 
     // Add references as citations
     if (concept.references && concept.references.length > 0) {

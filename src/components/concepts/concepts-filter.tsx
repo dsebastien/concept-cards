@@ -9,25 +9,7 @@ import {
     FaTrash
 } from 'react-icons/fa'
 import { cn } from '@/lib/utils'
-import type { ExploredFilter } from '@/hooks/use-explored-concepts'
-
-interface ConceptsFilterProps {
-    searchQuery: string
-    onSearchChange: (query: string) => void
-    selectedCategory: string
-    onCategoryChange: (category: string) => void
-    selectedTags: string[]
-    onTagsChange: (tags: string[]) => void
-    viewMode: 'grid' | 'list'
-    onViewModeChange: (mode: 'grid' | 'list') => void
-    exploredFilter: ExploredFilter
-    onExploredFilterChange: (filter: ExploredFilter) => void
-    exploredCount: number
-    onClearExplored: () => void
-    categories: string[]
-    allTags: string[]
-    onOpenCommandPalette: () => void
-}
+import type { ConceptsFilterProps } from '@/types/concepts-filter-props.intf'
 
 const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
     searchQuery,

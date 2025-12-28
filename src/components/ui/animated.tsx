@@ -1,5 +1,4 @@
 import { motion, AnimatePresence } from 'framer-motion'
-import type { ReactNode } from 'react'
 import {
     pageVariants,
     fadeInUpVariants,
@@ -7,11 +6,9 @@ import {
     staggerItemVariants,
     heroVariants
 } from '@/lib/animations'
-
-interface AnimatedPageProps {
-    children: ReactNode
-    className?: string
-}
+import type { AnimatedPageProps } from '@/types/animated-page-props.intf'
+import type { AnimatedListProps } from '@/types/animated-list-props.intf'
+import type { AnimatedListItemProps } from '@/types/animated-list-item-props.intf'
 
 // Animated page wrapper with fade in/up effect
 export const AnimatedPage: React.FC<AnimatedPageProps> = ({ children, className }) => {
@@ -106,11 +103,6 @@ export const StaggerItem: React.FC<AnimatedPageProps> = ({ children, className }
 }
 
 // Animated list with stagger (when items change)
-interface AnimatedListProps {
-    children: ReactNode
-    className?: string
-}
-
 export const AnimatedList: React.FC<AnimatedListProps> = ({ children, className }) => {
     return (
         <motion.div
@@ -125,12 +117,6 @@ export const AnimatedList: React.FC<AnimatedListProps> = ({ children, className 
 }
 
 // Animated list item with layout animation
-interface AnimatedListItemProps {
-    children: ReactNode
-    className?: string
-    layoutId?: string
-}
-
 export const AnimatedListItem: React.FC<AnimatedListItemProps> = ({
     children,
     className,

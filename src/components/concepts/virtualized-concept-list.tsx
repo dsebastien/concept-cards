@@ -1,16 +1,8 @@
 import { useRef, useCallback, useMemo, memo, useState, useEffect } from 'react'
 import { useWindowVirtualizer } from '@tanstack/react-virtual'
 import ConceptCard from '@/components/concepts/concept-card'
-import type { Concept } from '@/types/concept'
-
-interface VirtualizedConceptListProps {
-    concepts: Concept[]
-    viewMode: 'grid' | 'list'
-    onShowDetails: (concept: Concept) => void
-    onTagClick: (tag: string) => void
-    onCategoryClick: (category: string) => void
-    isExplored: (conceptId: string) => boolean
-}
+import type { VirtualizedConceptListProps } from '@/types/virtualized-concept-list-props.intf'
+import type { Concept } from '@/types/concept.intf'
 
 // Grid configuration
 const BADGE_PADDING = 16 // pt-4 = 1rem = 16px for badge overflow

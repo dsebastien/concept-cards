@@ -2,7 +2,8 @@ import { useState, useEffect, useCallback } from 'react'
 
 const STORAGE_KEY = 'explored-concepts'
 
-export type ExploredFilter = 'all' | 'explored' | 'not-explored'
+// Re-export for backwards compatibility
+export type { ExploredFilter } from '@/types/explored-filter.intf'
 
 export function useExploredConcepts() {
     const [exploredIds, setExploredIds] = useState<Set<string>>(() => {

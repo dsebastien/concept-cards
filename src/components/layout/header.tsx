@@ -10,14 +10,7 @@ import {
     FaBars,
     FaTimes
 } from 'react-icons/fa'
-
-interface NavLink {
-    to: string
-    label: string
-    icon: React.ReactNode
-    color?: string
-    external?: boolean
-}
+import type { NavLink } from '@/types/nav-link.intf'
 
 // Links that are always visible (even on mobile, as icons)
 const alwaysVisibleLinks: NavLink[] = [

@@ -1,13 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
-
-interface AnimatedCounterProps {
-    value: number
-    duration?: number
-    delay?: number
-    className?: string
-    formatValue?: (value: number) => string
-}
+import type { AnimatedCounterProps } from '@/types/animated-counter-props.intf'
 
 const AnimatedCounter: React.FC<AnimatedCounterProps> = ({
     value,
