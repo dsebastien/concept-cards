@@ -7,32 +7,10 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
+import type { Concept } from '../src/types/concept'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const BASE_URL = 'https://concepts.dsebastien.net'
-
-interface Reference {
-    title: string
-    url: string
-    type: string
-}
-
-interface Concept {
-    id: string
-    name: string
-    summary: string
-    explanation: string
-    tags: string[]
-    category: string
-    icon?: string
-    featured: boolean
-    aliases?: string[]
-    relatedConcepts?: string[]
-    relatedNotes?: string[]
-    articles?: Reference[]
-    references?: Reference[]
-    tutorials?: Reference[]
-}
 
 interface SitemapUrl {
     loc: string

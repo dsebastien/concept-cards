@@ -8,36 +8,9 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
+import type { Concept, ConceptsData } from '../src/types/concept'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-
-interface Reference {
-    title: string
-    url: string
-    type: string
-}
-
-interface Concept {
-    id: string
-    name: string
-    summary: string
-    explanation: string
-    tags: string[]
-    category: string
-    icon?: string
-    featured: boolean
-    aliases?: string[]
-    relatedConcepts?: string[]
-    relatedNotes?: string[]
-    articles?: Reference[]
-    references?: Reference[]
-    tutorials?: Reference[]
-}
-
-interface ConceptsData {
-    concepts: Concept[]
-    categories: string[]
-}
 
 // Paths
 const conceptsJsonPath = join(__dirname, '../src/data/concepts.json')

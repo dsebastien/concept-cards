@@ -7,37 +7,9 @@
 import { readdirSync, readFileSync, writeFileSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
+import type { Concept, Book } from '../src/types/concept'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-
-interface Reference {
-    title: string
-    url: string
-    type: string
-}
-
-interface Book {
-    title: string
-    url: string
-}
-
-interface Concept {
-    id: string
-    name: string
-    summary: string
-    explanation: string
-    tags: string[]
-    category: string
-    icon?: string
-    featured: boolean
-    aliases?: string[]
-    relatedConcepts?: string[]
-    relatedNotes?: string[]
-    articles?: Reference[]
-    books?: Book[]
-    references?: Reference[]
-    tutorials?: Reference[]
-}
 
 // Paths
 const conceptsDir = join(__dirname, '../src/data/concepts')

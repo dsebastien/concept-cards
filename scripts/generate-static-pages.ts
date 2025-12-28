@@ -8,31 +8,10 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
+import type { Concept } from '../src/types/concept'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const BASE_URL = 'https://concepts.dsebastien.net'
-
-interface Reference {
-    title: string
-    url: string
-    type: 'book' | 'paper' | 'website' | 'video' | 'podcast' | 'other'
-}
-
-interface Concept {
-    id: string
-    name: string
-    summary: string
-    explanation: string
-    tags: string[]
-    category: string
-    aliases?: string[]
-    relatedConcepts?: string[]
-    relatedNotes?: string[]
-    articles?: Reference[]
-    references?: Reference[]
-    tutorials?: Reference[]
-    featured?: boolean
-}
 
 // Load all concepts from individual files
 const conceptsDir = join(__dirname, '../src/data/concepts')

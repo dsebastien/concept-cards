@@ -7,17 +7,9 @@
 import { readFileSync, writeFileSync, readdirSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
+import type { Concept } from '../src/types/concept'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-
-interface Concept {
-    id: string
-    name: string
-    summary: string
-    tags: string[]
-    category: string
-    featured?: boolean
-}
 
 // Load all concepts
 const conceptsDir = join(__dirname, '../src/data/concepts')
