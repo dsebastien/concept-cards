@@ -1490,15 +1490,153 @@ mkdirSync(historyDir, { recursive: true })
 writeFileSync(join(historyDir, 'index.html'), generateHistoryPageHtml())
 console.log('  ✓ Created history page')
 
+// Generate tags listing page
+console.log('Generating tags listing page...')
+function generateTagsListingPageHtml(): string {
+    const tagsListingUrl = `${BASE_URL}/tags`
+    const title = 'Tags - Concepts'
+    const description = `Browse ${allTags.length} tags across ${concepts.length} concepts. Find concepts organized by topic.`
+
+    // Count concepts per tag
+    const tagCounts = new Map<string, number>()
+    concepts.forEach((concept) => {
+        concept.tags.forEach((tag) => {
+            tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1)
+        })
+    })
+
+    // Sort tags by count descending
+    const sortedTags = Array.from(tagCounts.entries())
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, count]) => ({ name, count }))
+
+    let html = indexHtml
+
+    // Update <title>
+    html = html.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
+
+    // Update canonical URL
+    html = html.replace(
+        /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+        `<link rel="canonical" href="${tagsListingUrl}" />`
+    )
+
+    // Update meta description
+    html = html.replace(
+        /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="description" content="${escapeHtml(description)}" />`
+    )
+
+    // Update Open Graph tags
+    html = html.replace(
+        /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:url" content="${tagsListingUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:description" content="${escapeHtml(description)}" />`
+    )
+
+    // Update Twitter tags
+    html = html.replace(
+        /<meta\s+name="twitter:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:url" content="${tagsListingUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:description" content="${escapeHtml(description)}" />`
+    )
+
+    // Generate tags listing page schema
+    const tagsListingSchema = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'CollectionPage',
+                '@id': `${tagsListingUrl}#webpage`,
+                'name': title,
+                'description': description,
+                'url': tagsListingUrl,
+                'creator': { '@id': `${BASE_URL}/#person` },
+                'publisher': { '@id': `${BASE_URL}/#organization` },
+                'isPartOf': {
+                    '@type': 'WebSite',
+                    '@id': `${BASE_URL}/#website`,
+                    'name': 'Concepts',
+                    'url': BASE_URL
+                },
+                'inLanguage': 'en'
+            },
+            authorSchema,
+            publisherSchema,
+            {
+                '@type': 'BreadcrumbList',
+                '@id': `${tagsListingUrl}#breadcrumb`,
+                'itemListElement': [
+                    {
+                        '@type': 'ListItem',
+                        'position': 1,
+                        'name': 'Home',
+                        'item': BASE_URL
+                    },
+                    {
+                        '@type': 'ListItem',
+                        'position': 2,
+                        'name': 'Tags',
+                        'item': tagsListingUrl
+                    }
+                ]
+            }
+        ]
+    }
+
+    html = html.replace(
+        /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
+        `<script type="application/ld+json">\n${JSON.stringify(tagsListingSchema, null, 12)}\n        </script>`
+    )
+
+    // Generate noscript content for tags listing page
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>Tags</h1>
+            <p>Browse concepts by tag</p>
+            <p><strong>Total tags:</strong> ${sortedTags.length}</p>
+            <ul>
+${sortedTags.map((t) => `                <li><a href="/tag/${encodeURIComponent(t.name)}">${escapeHtml(t.name)}</a> (${t.count} concepts)</li>`).join('\n')}
+            </ul>
+            <p><a href="/">← Back to all concepts</a></p>
+        </article>
+    </noscript>`
+
+    html = html.replace('</body>', `${noscriptContent}\n    </body>`)
+
+    return html
+}
+
+const tagsListingDir = join(distDir, 'tags')
+mkdirSync(tagsListingDir, { recursive: true })
+writeFileSync(join(tagsListingDir, 'index.html'), generateTagsListingPageHtml())
+console.log('  ✓ Created tags listing page')
+
 // Create 404.html for GitHub Pages fallback (copy of index.html)
 writeFileSync(join(distDir, '404.html'), indexHtml)
 console.log('  ✓ Created 404.html fallback')
 
-console.log(`\n✓ Static pages generated: ${conceptCount + tagCount + categoryCount + 7} total`)
+console.log(`\n✓ Static pages generated: ${conceptCount + tagCount + categoryCount + 8} total`)
 console.log(`  - Homepage: 1`)
 console.log(`  - Statistics: 1`)
 console.log(`  - Random: 1`)
 console.log(`  - Categories listing: 1`)
+console.log(`  - Tags listing: 1`)
 console.log(`  - Featured: 1`)
 console.log(`  - History: 1`)
 console.log(`  - Concepts: ${conceptCount}`)

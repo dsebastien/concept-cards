@@ -13,7 +13,8 @@ import {
     FaNewspaper,
     FaLink,
     FaStickyNote,
-    FaHistory
+    FaHistory,
+    FaTag
 } from 'react-icons/fa'
 import type { NavLink } from '@/types/nav-link.intf'
 
@@ -46,6 +47,12 @@ const menuLinks: NavLink[] = [
         label: 'Categories',
         icon: <FaFolder className='h-5 w-5' />,
         color: 'text-blue-400 bg-blue-500/10 hover:bg-blue-500/20'
+    },
+    {
+        to: '/tags',
+        label: 'Tags',
+        icon: <FaTag className='h-5 w-5' />,
+        color: 'text-rose-400 bg-rose-500/10 hover:bg-rose-500/20'
     },
     {
         to: '/statistics',

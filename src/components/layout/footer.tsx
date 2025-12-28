@@ -12,7 +12,8 @@ import {
     FaNewspaper,
     FaLink,
     FaStickyNote,
-    FaHistory
+    FaHistory,
+    FaTag
 } from 'react-icons/fa'
 import resourcesData from '@/data/resources.json'
 import socialsData from '@/data/socials.json'
@@ -89,6 +90,15 @@ const Footer: React.FC = () => {
                                 >
                                     <FaFolder className='h-4 w-4' />
                                     Categories
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to='/tags'
+                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                >
+                                    <FaTag className='h-4 w-4' />
+                                    Tags
                                 </Link>
                             </li>
                             <li>

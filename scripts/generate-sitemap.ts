@@ -168,6 +168,14 @@ function generateSitemap(): string {
         priority: '0.7'
     })
 
+    // Add tags listing page
+    urls.push({
+        loc: `${BASE_URL}/tags`,
+        lastmod: today,
+        changefreq: 'weekly',
+        priority: '0.7'
+    })
+
     // Add each concept page
     for (const concept of concepts) {
         urls.push({
@@ -308,10 +316,11 @@ function writeSitemap(): void {
     console.log(`  - Random: 1 URL`)
     console.log(`  - Unexplored: 1 URL`)
     console.log(`  - Categories listing: 1 URL`)
+    console.log(`  - Tags listing: 1 URL`)
     console.log(`  - Featured: 1 URL`)
     console.log(`  - History: 1 URL`)
     console.log(`  - Concepts: ${concepts.length} URLs`)
-    console.log(`  - Tags: ${allTags.length} URLs`)
+    console.log(`  - Tag pages: ${allTags.length} URLs`)
     console.log(`  - Category pages: ${allCategories.length} URLs`)
     console.log(`  - Books: ${allBooks.length + 1} URLs (1 listing + ${allBooks.length} detail)`)
     console.log(
@@ -322,7 +331,7 @@ function writeSitemap(): void {
     )
     console.log(`  - Notes: ${allNotes.length + 1} URLs (1 listing + ${allNotes.length} detail)`)
     const totalUrls =
-        7 + // static pages (homepage, statistics, random, unexplored, categories, featured, history)
+        8 + // static pages (homepage, statistics, random, unexplored, categories, tags, featured, history)
         concepts.length +
         allTags.length +
         allCategories.length +
