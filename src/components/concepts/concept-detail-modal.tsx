@@ -243,6 +243,14 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                 handlePrevious()
             } else if (e.key === 'ArrowRight' && sortedConcepts.length > 1) {
                 handleNext()
+            } else if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+                // Allow scrolling with up/down arrows
+                const scrollContainer = modalRef.current?.querySelector('.overflow-auto')
+                if (scrollContainer) {
+                    const scrollAmount = e.key === 'ArrowUp' ? -100 : 100
+                    scrollContainer.scrollBy({ top: scrollAmount, behavior: 'smooth' })
+                    e.preventDefault()
+                }
             }
         }
 
