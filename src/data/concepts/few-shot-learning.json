@@ -1,0 +1,44 @@
+{
+    "id": "few-shot-learning",
+    "name": "Few-Shot Learning",
+    "summary": "Training or prompting AI with just a few examples to perform new tasks.",
+    "explanation": "Few-shot learning is the ability to learn new tasks from only a few examples - a capability that distinguishes modern large language models. Traditional machine learning requires thousands of examples; few-shot learning achieves useful performance with 2-10 examples in the prompt. How it works with LLMs: provide a few input-output examples in your prompt, then give a new input - the model learns the pattern and applies it. Example format: 'Text: [example1] -> Category: [label1], Text: [example2] -> Category: [label2], Text: [new input] -> Category:' Why it matters: enables rapid task adaptation without retraining, makes AI accessible to non-ML experts, and allows customization through examples rather than code. Best practices: choose diverse, representative examples; be consistent in formatting; start with 2-3 examples and add more if needed; and order examples thoughtfully. Variations: one-shot (single example), zero-shot (no examples, just instructions), and many-shot (more examples for complex tasks). For knowledge workers, few-shot learning enables: quickly adapting AI to specific tasks, showing rather than explaining what you want, and creating consistent outputs for repetitive tasks.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "prompting",
+        "techniques",
+        "learning"
+    ],
+    "category": "Techniques",
+    "icon": "FaGraduationCap",
+    "featured": false,
+    "aliases": [
+        "Few-shot prompting",
+        "In-context learning",
+        "Example-based prompting"
+    ],
+    "relatedConcepts": [
+        "zero-shot-learning",
+        "prompt-engineering",
+        "large-language-model",
+        "chain-of-thought",
+        "transfer-learning",
+        "pattern-recognition"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

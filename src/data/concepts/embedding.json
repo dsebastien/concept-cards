@@ -1,0 +1,44 @@
+{
+    "id": "embedding",
+    "name": "Embedding",
+    "summary": "Converting text, images, or other data into numerical vectors that capture semantic meaning.",
+    "explanation": "Embeddings are numerical vector representations of data (text, images, etc.) that capture semantic meaning in a form computers can process. Similar concepts have similar embeddings - enabling semantic search, clustering, and comparison. How they work: text is converted to a high-dimensional vector (hundreds to thousands of dimensions) where the position represents meaning. 'King' and 'queen' are close; 'king' and 'bicycle' are far apart. Key applications: semantic search (find similar content regardless of exact words), recommendation systems (find similar items), clustering (group related content), retrieval-augmented generation (RAG), and classification. Creating embeddings: use embedding models (OpenAI, Cohere, open-source models) to convert text to vectors. Store in vector databases for efficient similarity search. Quality depends on the embedding model - better models capture nuance better. For knowledge workers, embeddings enable: searching by meaning rather than keywords, finding related content across a knowledge base, building intelligent search over personal notes, and powering AI assistants with relevant context. Understanding embeddings helps you leverage semantic AI capabilities effectively.",
+    "tags": [
+        "ai",
+        "nlp",
+        "search",
+        "representation",
+        "fundamentals"
+    ],
+    "category": "Concepts",
+    "icon": "FaVectorSquare",
+    "featured": false,
+    "aliases": [
+        "Vector embedding",
+        "Semantic embedding",
+        "Text embedding"
+    ],
+    "relatedConcepts": [
+        "tokenization",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "vector-database",
+        "similarity",
+        "natural-language-processing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

@@ -1,0 +1,44 @@
+{
+    "id": "large-language-model",
+    "name": "Large Language Model",
+    "summary": "AI models trained on vast text data that can understand and generate human-like language.",
+    "explanation": "Large Language Models (LLMs) are AI systems trained on massive amounts of text data to understand and generate human-like language. They learn patterns, relationships, and knowledge from billions of words, enabling capabilities like: conversation, writing assistance, code generation, analysis, translation, and reasoning about complex topics. How they work: based on transformer architecture, they predict the next token (word piece) given previous context, learning statistical patterns that emerge as apparent understanding. Key characteristics: scale (billions of parameters), emergent abilities (capabilities that appear with size), and in-context learning (adapting to examples in prompts). Capabilities include: natural conversation, creative writing, summarization, question answering, and code generation. Limitations: hallucinations (confident but incorrect outputs), knowledge cutoffs (training data has end date), lack of true understanding (pattern matching vs reasoning), and potential biases from training data. Working with LLMs effectively requires: clear prompting, verification of outputs, understanding limitations, and using them as tools that augment rather than replace human judgment. For knowledge workers, LLMs offer: powerful assistance with writing, research, analysis, and coding - when used with appropriate skepticism and oversight.",
+    "tags": [
+        "ai",
+        "technology",
+        "language",
+        "machine-learning",
+        "tools"
+    ],
+    "category": "Concepts",
+    "icon": "FaRobot",
+    "featured": true,
+    "aliases": [
+        "LLM",
+        "Foundation model",
+        "Language AI"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "chain-of-thought",
+        "generative-ai",
+        "transformer",
+        "ai-hallucination",
+        "context-window"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

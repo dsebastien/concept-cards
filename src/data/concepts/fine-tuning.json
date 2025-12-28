@@ -1,0 +1,44 @@
+{
+    "id": "fine-tuning",
+    "name": "Fine-Tuning",
+    "summary": "Customizing pre-trained AI models by training them further on specific data or tasks.",
+    "explanation": "Fine-tuning is the process of customizing a pre-trained AI model by training it further on specific data or for particular tasks. Instead of training from scratch (expensive, requires massive data), you adapt an existing model's capabilities to your needs. How it works: start with a pre-trained model that has learned general capabilities, then continue training on your specific dataset or task - the model adapts its knowledge to your domain. Benefits: requires less data than training from scratch, leverages existing capabilities, can specialize for specific use cases, and can improve consistency. When to fine-tune: when you need specific behaviors not achievable through prompting, for domain-specific applications (legal, medical), to improve consistency at scale, and when you have quality training data. When NOT to fine-tune: for general tasks (prompting often sufficient), when you lack good training data, or when requirements change frequently. Alternatives: few-shot prompting (cheaper, more flexible), RAG (retrieval-augmented generation for knowledge), and system prompts (behavioral guidance). For knowledge workers, understanding fine-tuning helps: decide when custom models are worth the investment, know what's possible with AI customization, and evaluate vendor claims about specialized models.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "customization",
+        "training",
+        "models"
+    ],
+    "category": "Techniques",
+    "icon": "FaSlidersH",
+    "featured": false,
+    "aliases": [
+        "Model fine-tuning",
+        "Transfer learning",
+        "Model customization"
+    ],
+    "relatedConcepts": [
+        "large-language-model",
+        "prompt-engineering",
+        "few-shot-learning",
+        "retrieval-augmented-generation",
+        "training-data",
+        "model-adaptation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

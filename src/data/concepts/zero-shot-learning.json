@@ -1,0 +1,44 @@
+{
+    "id": "zero-shot-learning",
+    "name": "Zero-Shot Learning",
+    "summary": "AI performing tasks based on instructions alone, without any specific examples.",
+    "explanation": "Zero-shot learning is an AI capability where models perform tasks based solely on instructions, without any task-specific examples. The model generalizes from its training to understand and execute novel requests. How it works: describe what you want in natural language - the model uses its general knowledge and language understanding to attempt the task. Example: 'Classify the following text as positive, negative, or neutral: [text]' - no examples needed. Why it's powerful: enables infinite task flexibility, requires no task-specific data, and makes AI more accessible. When to use zero-shot: simple, well-defined tasks; when you don't have examples; for exploratory use; and when task descriptions are clear. When few-shot is better: complex or ambiguous tasks, when specific output format matters, and when zero-shot results aren't good enough. Zero-shot performance improves with: clear instructions, well-defined output formats, breaking complex tasks into steps, and adding context about the task. For knowledge workers, zero-shot learning means: you can try many tasks quickly, experimentation is cheap, and clear communication of intent becomes the key skill.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "prompting",
+        "techniques",
+        "generalization"
+    ],
+    "category": "Techniques",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Zero-shot prompting",
+        "Instruction-following",
+        "No-example learning"
+    ],
+    "relatedConcepts": [
+        "few-shot-learning",
+        "prompt-engineering",
+        "large-language-model",
+        "generalization",
+        "transfer-learning",
+        "instruction-tuning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

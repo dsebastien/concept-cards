@@ -1,0 +1,44 @@
+{
+    "id": "ai-agent",
+    "name": "AI Agent",
+    "summary": "AI systems that can take actions, use tools, and pursue goals autonomously.",
+    "explanation": "AI agents are systems that go beyond generating text to actually taking actions - using tools, browsing the web, executing code, interacting with APIs, and pursuing multi-step goals with some autonomy. They combine language model reasoning with the ability to act in the world. How they work: the language model reasons about what to do, decides which tools to use, executes actions, observes results, and iterates toward the goal. This loop enables complex, multi-step tasks. Capabilities include: web browsing and research, code execution, file manipulation, API interactions, and orchestrating multi-step workflows. Agent patterns: ReAct (Reasoning + Acting), tool use, planning and execution, and multi-agent systems (agents collaborating). Benefits: can handle complex tasks that require multiple steps, adapt to new situations, and reduce human involvement in routine work. Challenges: reliability (errors compound), safety (actions have consequences), alignment (pursuing correct goals), and cost (many API calls). For knowledge workers, AI agents offer: automation of complex research and analysis, assistance with multi-step workflows, and potential for significant productivity gains - with appropriate oversight for their autonomous actions.",
+    "tags": [
+        "ai",
+        "automation",
+        "tools",
+        "capabilities",
+        "workflows"
+    ],
+    "category": "Concepts",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Agentic AI",
+        "AI assistant",
+        "Autonomous AI"
+    ],
+    "relatedConcepts": [
+        "large-language-model",
+        "automation",
+        "chain-of-thought",
+        "human-in-the-loop",
+        "workflow-automation",
+        "tool-use"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

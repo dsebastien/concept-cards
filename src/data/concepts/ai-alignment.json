@@ -1,0 +1,44 @@
+{
+    "id": "ai-alignment",
+    "name": "AI Alignment",
+    "summary": "Ensuring AI systems behave in accordance with human intentions and values.",
+    "explanation": "AI alignment is the challenge of ensuring artificial intelligence systems behave in accordance with human intentions, values, and goals - that AI does what we actually want, not just what we literally asked for. The alignment problem: as AI systems become more capable, misalignment becomes more dangerous. A powerful misaligned AI might pursue goals that seem reasonable but have harmful consequences. Core challenges: specification (clearly defining what we want is hard), robustness (maintaining alignment across situations), and value learning (AI inferring rather than being told values). Current alignment techniques: reinforcement learning from human feedback (RLHF), constitutional AI (training with principles), red teaming (finding failure modes), and interpretability research (understanding AI reasoning). Why alignment matters now: as AI capabilities increase, the gap between 'what we asked for' and 'what we meant' can have larger consequences. Misaligned AI might optimize metrics while causing harm. For knowledge workers, alignment considerations include: being precise in instructions, considering unintended consequences, maintaining human oversight, and recognizing that AI systems may have subtle misalignments that aren't immediately apparent.",
+    "tags": [
+        "ai",
+        "safety",
+        "ethics",
+        "values",
+        "research"
+    ],
+    "category": "Concepts",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Value alignment",
+        "AI value alignment",
+        "Aligned AI"
+    ],
+    "relatedConcepts": [
+        "ai-safety",
+        "human-in-the-loop",
+        "large-language-model",
+        "ethics",
+        "goal-specification",
+        "unintended-consequences"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

@@ -1,0 +1,44 @@
+{
+    "id": "tokenization",
+    "name": "Tokenization",
+    "summary": "Breaking text into smaller units (tokens) that AI models can process.",
+    "explanation": "Tokenization is the process of breaking text into smaller units called tokens that language models can process. Tokens aren't exactly words - they might be whole words, subwords, characters, or punctuation. Example: 'Tokenization is important' might become ['Token', 'ization', 'is', 'important']. Why it matters for users: context limits are measured in tokens (not words), token count affects API costs, and some languages tokenize differently (requiring more tokens for same content). Common tokenization facts: 1 token ≈ 4 characters or 0.75 words in English, common words are single tokens, rare words split into subwords, and code often uses many tokens. Why subword tokenization: handles unknown words (can always break into known subwords), balances vocabulary size with expressiveness, and enables multilingual models. Practical implications: long documents may exceed context limits, token-dense content (code, technical text) costs more, and token boundaries can affect model behavior. Tools exist to count tokens before sending to APIs. For knowledge workers, understanding tokenization helps: estimate costs and feasibility, understand context limits, and optimize prompts for efficiency.",
+    "tags": [
+        "ai",
+        "nlp",
+        "processing",
+        "fundamentals",
+        "language"
+    ],
+    "category": "Concepts",
+    "icon": "FaCut",
+    "featured": false,
+    "aliases": [
+        "Token splitting",
+        "Text tokenization",
+        "Subword tokenization"
+    ],
+    "relatedConcepts": [
+        "large-language-model",
+        "context-window",
+        "embedding",
+        "natural-language-processing",
+        "text-processing",
+        "vocabulary"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

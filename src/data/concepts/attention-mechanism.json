@@ -1,0 +1,44 @@
+{
+    "id": "attention-mechanism",
+    "name": "Attention Mechanism",
+    "summary": "An AI technique that allows models to focus on relevant parts of input when producing output.",
+    "explanation": "The attention mechanism is a technique that allows neural networks to dynamically focus on relevant parts of their input when producing output. Instead of treating all input equally, attention learns which parts matter for the current task. How it works conceptually: for each output position, the model computes 'attention weights' indicating how much to focus on each input position. These weights determine how information flows through the network. Types of attention: self-attention (elements of a sequence attend to each other), cross-attention (one sequence attends to another), and multi-head attention (multiple attention patterns simultaneously). Why attention matters: enables capturing long-range dependencies (words far apart can still be related), provides interpretability (attention weights show what the model focuses on), and scales efficiently (parallel computation). In transformers: self-attention is the core operation, computing query-key-value operations across positions. Each position can 'attend to' any other position, learning complex relationships. For knowledge workers, understanding attention helps: grasp how AI 'understands' context, interpret model behavior (attention visualizations), and appreciate the breakthrough that enabled modern language AI.",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "architecture",
+        "nlp",
+        "fundamentals"
+    ],
+    "category": "Concepts",
+    "icon": "FaBullseye",
+    "featured": false,
+    "aliases": [
+        "Self-attention",
+        "Neural attention",
+        "Attention weights"
+    ],
+    "relatedConcepts": [
+        "transformer",
+        "large-language-model",
+        "deep-learning",
+        "context-window",
+        "neural-network",
+        "sequence-modeling"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

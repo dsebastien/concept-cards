@@ -1,0 +1,44 @@
+{
+    "id": "generative-ai",
+    "name": "Generative AI",
+    "summary": "AI systems that create new content such as text, images, audio, or video.",
+    "explanation": "Generative AI refers to artificial intelligence systems that create new content - text, images, audio, video, code, or other outputs - rather than simply analyzing or classifying existing content. Unlike traditional AI that answers 'what is this?' generative AI answers 'create something like this.' Types of generative AI: large language models (text generation), image generators (DALL-E, Midjourney, Stable Diffusion), code assistants (GitHub Copilot), audio/music generators, and video synthesis. How they work: trained on massive datasets to learn patterns and distributions, then generate new samples that follow similar patterns. For LLMs, this means predicting likely next tokens; for image models, generating pixels that match text descriptions. Capabilities include: writing assistance, creative ideation, code generation, content creation, summarization, translation, and multimedia synthesis. Limitations: outputs need verification (hallucinations, errors), can perpetuate biases, don't truly 'understand,' and raise copyright/attribution questions. For knowledge workers, generative AI offers: powerful creative assistance, acceleration of content creation, and augmentation of human capabilities - when used with appropriate oversight and verification.",
+    "tags": [
+        "ai",
+        "creativity",
+        "technology",
+        "content-creation",
+        "tools"
+    ],
+    "category": "Concepts",
+    "icon": "FaMagic",
+    "featured": true,
+    "aliases": [
+        "GenAI",
+        "Creative AI",
+        "Content generation AI"
+    ],
+    "relatedConcepts": [
+        "large-language-model",
+        "prompt-engineering",
+        "ai-hallucination",
+        "creativity",
+        "content-creation",
+        "automation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

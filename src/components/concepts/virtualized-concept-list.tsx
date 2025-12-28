@@ -15,7 +15,7 @@ interface VirtualizedConceptListProps {
 // Grid configuration
 const BADGE_PADDING = 16 // pt-4 = 1rem = 16px for badge overflow
 const CARD_MIN_HEIGHT_GRID = 320 // Approximate card height in grid mode
-const CARD_HEIGHT_LIST = 80 // Approximate card height in list mode
+const CARD_HEIGHT_LIST = 92 // Initial estimate for list mode (actual height measured dynamically)
 const LIST_GAP = 12 // pb-3 = 0.75rem = 12px gap between list items
 const OVERSCAN = 5 // Number of items to render outside viewport
 
@@ -72,7 +72,14 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
             estimateSize,
             overscan: OVERSCAN,
             paddingStart: 0,
-            paddingEnd: 0
+            paddingEnd: 0,
+            // Enable dynamic measurement for list view to handle variable heights
+            measureElement:
+                viewMode === 'list'
+                    ? (element) => {
+                          return element.getBoundingClientRect().height
+                      }
+                    : undefined
         })
 
         // Remeasure when viewMode or columnCount changes
@@ -150,9 +157,10 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
                             return (
                                 <div
                                     key={concept.id}
+                                    data-index={virtualRow.index}
+                                    ref={virtualizer.measureElement}
                                     className='absolute top-0 left-0 w-full'
                                     style={{
-                                        height: `${virtualRow.size}px`,
                                         transform: `translateY(${virtualRow.start}px)`
                                     }}
                                 >

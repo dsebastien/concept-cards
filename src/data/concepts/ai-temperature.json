@@ -1,0 +1,44 @@
+{
+    "id": "ai-temperature",
+    "name": "AI Temperature",
+    "summary": "A parameter controlling the randomness and creativity of AI model outputs.",
+    "explanation": "Temperature is a parameter that controls the randomness and creativity of AI language model outputs. It affects how the model selects from possible next tokens (words). Low temperature (0-0.3): model strongly favors most likely tokens, producing more deterministic, focused, and repetitive outputs. Best for: factual queries, coding, analysis, and tasks requiring consistency. High temperature (0.7-1.0+): model gives more consideration to less likely tokens, producing more diverse, creative, and sometimes surprising outputs. Best for: creative writing, brainstorming, generating alternatives, and exploratory tasks. How it works technically: temperature scales the probability distribution before sampling - low temperature sharpens it (top choices dominate), high temperature flattens it (more choices considered). Practical guidance: start with default (often 0.7-1.0), lower for precision tasks, raise for creativity, and experiment to find optimal settings for your use case. Temperature interacts with other parameters like top-p (nucleus sampling). For knowledge workers, understanding temperature helps: get more consistent results when needed, generate more creative options when exploring, and tune AI behavior to match task requirements.",
+    "tags": [
+        "ai",
+        "parameters",
+        "settings",
+        "customization",
+        "techniques"
+    ],
+    "category": "Concepts",
+    "icon": "FaThermometerHalf",
+    "featured": false,
+    "aliases": [
+        "Model temperature",
+        "Sampling temperature",
+        "Creativity parameter"
+    ],
+    "relatedConcepts": [
+        "large-language-model",
+        "prompt-engineering",
+        "creativity",
+        "randomness",
+        "model-parameters",
+        "output-control"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

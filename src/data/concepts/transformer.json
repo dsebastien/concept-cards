@@ -1,0 +1,49 @@
+{
+    "id": "transformer",
+    "name": "Transformer",
+    "summary": "The neural network architecture underlying modern AI language models.",
+    "explanation": "The transformer is the neural network architecture underlying virtually all modern large language models. Introduced in the 2017 paper 'Attention Is All You Need,' transformers revolutionized AI by enabling models to process sequences in parallel and capture long-range dependencies. Key innovation - attention mechanism: instead of processing text sequentially (like earlier architectures), transformers can attend to all parts of the input simultaneously, learning which parts are relevant to which. This enables better understanding of context and relationships. Why transformers matter: they scale efficiently with data and compute (more resources = better performance), they capture complex patterns in language, and they enable the emergent capabilities seen in large language models. Components include: self-attention layers (relate different parts of input to each other), feed-forward layers (process attended information), and positional encoding (since parallel processing loses sequence order). The scale of modern transformers is remarkable - billions of parameters learning patterns from trillions of tokens. For knowledge workers, understanding transformers provides: context for AI capabilities and limitations, insight into why more compute often means better models, and foundation for understanding how language AI works.",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "architecture",
+        "nlp",
+        "fundamentals"
+    ],
+    "category": "Concepts",
+    "icon": "FaMicrochip",
+    "featured": false,
+    "aliases": [
+        "Transformer architecture",
+        "Transformer model",
+        "Attention-based model"
+    ],
+    "relatedConcepts": [
+        "large-language-model",
+        "attention-mechanism",
+        "deep-learning",
+        "neural-network",
+        "embedding",
+        "generative-ai"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Attention Is All You Need (Vaswani et al.)",
+            "url": "https://arxiv.org/abs/1706.03762",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

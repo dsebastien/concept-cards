@@ -1,0 +1,44 @@
+{
+    "id": "ai-safety",
+    "name": "AI Safety",
+    "summary": "Research and practices ensuring AI systems are beneficial and don't cause unintended harm.",
+    "explanation": "AI safety is the field dedicated to ensuring artificial intelligence systems are beneficial, controllable, and don't cause unintended harm. It encompasses technical research, governance, and practical safeguards. Key concerns: unintended behaviors (AI doing harmful things while pursuing goals), misuse (AI being deliberately used for harm), accidents (AI failures with serious consequences), and long-term risks (increasingly capable AI systems). Safety practices include: testing and red-teaming (finding failure modes before deployment), interpretability (understanding why AI does what it does), robustness (maintaining safe behavior across conditions), and controllability (ability to correct or stop AI). Current safety measures: content filtering, human oversight, capability restrictions, monitoring, and incident response. Levels of concern: near-term (bias, misinformation, job displacement), medium-term (autonomous systems, security), and long-term (highly capable AI systems). For knowledge workers, AI safety means: using AI responsibly, maintaining appropriate oversight, understanding limitations, reporting problems, and supporting safe development practices. Safety isn't about limiting AI's potential but ensuring that potential benefits humanity.",
+    "tags": [
+        "ai",
+        "safety",
+        "ethics",
+        "risk",
+        "governance"
+    ],
+    "category": "Concepts",
+    "icon": "FaHardHat",
+    "featured": false,
+    "aliases": [
+        "Safe AI",
+        "AI risk mitigation",
+        "Beneficial AI"
+    ],
+    "relatedConcepts": [
+        "ai-alignment",
+        "human-in-the-loop",
+        "risk-management",
+        "ethics",
+        "responsible-ai",
+        "ai-governance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

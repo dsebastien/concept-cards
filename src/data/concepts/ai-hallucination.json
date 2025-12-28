@@ -1,0 +1,44 @@
+{
+    "id": "ai-hallucination",
+    "name": "AI Hallucination",
+    "summary": "When AI models generate plausible-sounding but incorrect or fabricated information.",
+    "explanation": "AI hallucination refers to when language models generate plausible-sounding but incorrect, fabricated, or nonsensical information. The model may state false facts confidently, invent citations that don't exist, or make up details when it lacks information. Why it happens: LLMs are trained to produce fluent, contextually appropriate text - not to verify truth. They generate statistically likely continuations, which may be wrong. Hallucinations are a fundamental property of how these models work, not a bug to be fixed. Types of hallucinations: factual errors (wrong dates, events), fabricated sources (fake citations, non-existent papers), confident uncertainty (asserting without knowledge), and conflation (mixing up similar entities). Mitigation strategies: verify AI outputs independently, use retrieval-augmented generation (RAG), ask for sources and check them, use lower temperature settings, and prompt for acknowledgment of uncertainty. For high-stakes applications: always verify, use AI as first draft not final answer, and maintain human oversight. For knowledge workers, understanding hallucinations is critical: AI outputs need verification, confident tone doesn't indicate accuracy, and healthy skepticism is essential when using AI-generated content.",
+    "tags": [
+        "ai",
+        "limitations",
+        "accuracy",
+        "verification",
+        "risks"
+    ],
+    "category": "Concepts",
+    "icon": "FaQuestion",
+    "featured": false,
+    "aliases": [
+        "LLM hallucination",
+        "AI confabulation",
+        "Model fabrication"
+    ],
+    "relatedConcepts": [
+        "large-language-model",
+        "critical-thinking",
+        "fact-checking",
+        "ai-limitations",
+        "retrieval-augmented-generation",
+        "verification"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}

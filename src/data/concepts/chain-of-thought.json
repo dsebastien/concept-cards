@@ -1,0 +1,44 @@
+{
+    "id": "chain-of-thought",
+    "name": "Chain of Thought",
+    "summary": "A prompting technique where AI models reason step-by-step rather than jumping to answers.",
+    "explanation": "Chain of Thought (CoT) is a prompting technique that encourages AI models to reason through problems step-by-step rather than jumping directly to answers. By asking models to 'show their work,' CoT dramatically improves performance on complex reasoning tasks. How it works: instead of asking for just the answer, prompt the model to explain its reasoning process. This can be done by: including step-by-step examples (few-shot CoT), simply adding 'let's think step by step' (zero-shot CoT), or asking the model to reason before answering. Why it works: breaking problems into steps reduces error propagation, exposes the reasoning process (making errors visible), and leverages the model's full capability. Best applications: math problems, logical reasoning, complex analysis, multi-step tasks, and any problem where intermediate steps matter. Variations include: tree of thought (exploring multiple reasoning paths), self-consistency (generating multiple chains and selecting best answer), and extended thinking (longer deliberation). For knowledge workers, chain of thought prompting is essential for: getting better AI outputs on complex tasks, understanding how AI reached conclusions, and catching errors in reasoning.",
+    "tags": [
+        "ai",
+        "prompting",
+        "reasoning",
+        "thinking",
+        "techniques"
+    ],
+    "category": "Techniques",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "CoT prompting",
+        "Step-by-step reasoning",
+        "Thinking aloud"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "large-language-model",
+        "reasoning",
+        "problem-solving",
+        "few-shot-learning",
+        "zero-shot-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}
