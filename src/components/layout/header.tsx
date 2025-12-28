@@ -68,21 +68,22 @@ const Header: React.FC = () => {
 
     // Prevent body scroll when menu is open and handle ESC key
     useEffect(() => {
-        if (isMenuOpen) {
-            document.body.style.overflow = 'hidden'
-
-            const handleEsc = (e: KeyboardEvent) => {
-                if (e.key === 'Escape') {
-                    setIsMenuOpen(false)
-                }
-            }
-            window.addEventListener('keydown', handleEsc)
-            return () => {
-                document.body.style.overflow = ''
-                window.removeEventListener('keydown', handleEsc)
-            }
-        } else {
+        if (!isMenuOpen) {
             document.body.style.overflow = ''
+            return
+        }
+
+        document.body.style.overflow = 'hidden'
+
+        const handleEsc = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') {
+                setIsMenuOpen(false)
+            }
+        }
+        window.addEventListener('keydown', handleEsc)
+        return () => {
+            document.body.style.overflow = ''
+            window.removeEventListener('keydown', handleEsc)
         }
     }, [isMenuOpen])
 
