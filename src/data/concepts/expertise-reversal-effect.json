@@ -1,0 +1,43 @@
+{
+    "id": "expertise-reversal-effect",
+    "name": "Expertise Reversal Effect",
+    "summary": "Instructional methods effective for novices can become ineffective or even harmful for experts.",
+    "explanation": "The expertise reversal effect, identified in cognitive load research, shows that instructional designs effective for beginners can actually hinder learning for more advanced learners. For example, detailed worked examples help novices but can bore and distract experts who would learn better from problem-solving. Step-by-step guidance helps beginners build schemas but becomes redundant for experts who already have them. Integrated information prevents split-attention for novices but creates redundancy for experts. This has important implications: effective instruction must adapt to learner expertise level; self-directed learning works better as expertise grows; and what feels comfortable isn't always optimal. For knowledge workers, this explains why beginner tutorials become frustrating as you advance, and why experts often prefer documentation over hand-holding. It's also why one-size-fits-all training often fails.",
+    "tags": [
+        "learning",
+        "cognitive-science",
+        "education",
+        "expertise",
+        "instruction"
+    ],
+    "category": "Concepts",
+    "icon": "FaUndoAlt",
+    "featured": false,
+    "aliases": [
+        "Reversal effect",
+        "Expertise effect"
+    ],
+    "relatedConcepts": [
+        "cognitive-load",
+        "zone-of-proximal-development",
+        "scaffolding-learning",
+        "four-stages-of-competence",
+        "curse-of-knowledge",
+        "deliberate-practice"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": []
+}
