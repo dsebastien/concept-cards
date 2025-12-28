@@ -1,6 +1,6 @@
 import { useMemo, useCallback, useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router'
-import { FaHistory, FaArrowLeft, FaArrowRight, FaCalendarAlt } from 'react-icons/fa'
+import { FaHistory, FaArrowLeft, FaArrowRight, FaCalendarAlt, FaCheckCircle } from 'react-icons/fa'
 import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, motion } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
@@ -228,19 +228,32 @@ const HistoryPage: React.FC = () => {
                                 {dateGroup.concepts.map((concept) => {
                                     const colorIndex = globalCardIndex % cardColors.length
                                     globalCardIndex++
+                                    const explored = isExplored(concept.id)
                                     return (
                                         <button
                                             key={concept.id}
                                             onClick={() => handleShowDetails(concept)}
-                                            className={`group relative cursor-pointer rounded-xl border bg-gradient-to-br p-4 text-left transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${cardColors[colorIndex]}`}
+                                            className={`group relative cursor-pointer rounded-xl border bg-gradient-to-br p-4 text-left transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${cardColors[colorIndex]} ${explored ? 'ring-2 ring-green-500/40' : ''}`}
                                         >
+                                            {/* Explored badge */}
+                                            {explored && (
+                                                <div className='absolute -top-2 -right-2 flex items-center gap-1 rounded-full bg-green-500 px-2 py-0.5 text-xs font-medium text-white shadow-md'>
+                                                    <FaCheckCircle className='h-2.5 w-2.5' />
+                                                    Explored
+                                                </div>
+                                            )}
                                             <div className='mb-3 flex items-center justify-between'>
-                                                <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-white/10'>
+                                                <div
+                                                    className={`relative flex h-10 w-10 items-center justify-center rounded-lg ${explored ? 'bg-green-500/20' : 'bg-white/10'}`}
+                                                >
                                                     <ConceptIcon
                                                         icon={concept.icon}
                                                         category={concept.category}
                                                         size='sm'
                                                     />
+                                                    {explored && (
+                                                        <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-green-500' />
+                                                    )}
                                                 </div>
                                                 <FaArrowRight className='text-primary/40 h-3 w-3 transition-transform group-hover:translate-x-1 group-hover:text-white/70' />
                                             </div>
