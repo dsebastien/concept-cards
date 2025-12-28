@@ -1,0 +1,59 @@
+{
+    "id": "scrum",
+    "name": "Scrum",
+    "summary": "An agile framework for managing complex work through iterative sprints and defined roles.",
+    "explanation": "Scrum is the most widely adopted agile framework for software development and project management. Created by Ken Schwaber and Jeff Sutherland in the early 1990s, Scrum provides a structured yet flexible approach to delivering complex products iteratively.\n\nThe framework consists of three pillars: transparency (everyone sees the same thing), inspection (regularly checking progress), and adaptation (adjusting based on learnings).\n\nScrum defines three core roles:\n\n1. Product Owner - Represents stakeholders, manages the product backlog, and prioritizes work to maximize value\n2. Scrum Master - Serves the team as a facilitator, removes impediments, and ensures Scrum practices are followed\n3. Development Team - Cross-functional group of 5-9 people who self-organize to deliver working increments\n\nWork happens in fixed-length iterations called Sprints (typically 2-4 weeks), which include four ceremonies:\n\n1. Sprint Planning - Team selects work from the backlog and commits to sprint goals\n2. Daily Scrum (Standup) - 15-minute daily synchronization meeting\n3. Sprint Review - Demonstrating completed work to stakeholders\n4. Sprint Retrospective - Team reflects on process improvements\n\nKey artifacts include the Product Backlog (prioritized list of all desired work), Sprint Backlog (work committed for current sprint), and the Increment (potentially shippable product at sprint end).\n\nScrum's power lies in its ability to handle uncertainty and change while maintaining predictable delivery cadences. The framework makes work visible, encourages collaboration, and builds in regular opportunities for learning and adjustment.",
+    "tags": [
+        "agile",
+        "frameworks",
+        "project-management",
+        "teams",
+        "software-development",
+        "iteration"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Scrum Framework",
+        "Scrum Methodology"
+    ],
+    "relatedConcepts": [
+        "agile-manifesto",
+        "sprint",
+        "backlog",
+        "daily-standup",
+        "sprint-retrospective",
+        "sprint-planning",
+        "kanban",
+        "scrumban",
+        "product-owner",
+        "scrum-master"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "The Scrum Guide",
+            "url": "https://scrumguides.org/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland",
+            "url": "https://www.amazon.com/dp/038534645X?tag=dsebastien00-20"
+        },
+        {
+            "title": "Essential Scrum: A Practical Guide to the Most Popular Agile Process by Kenneth S. Rubin",
+            "url": "https://www.amazon.com/dp/0137043295?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Scrum (software development) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

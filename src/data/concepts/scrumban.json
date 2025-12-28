@@ -1,0 +1,46 @@
+{
+    "id": "scrumban",
+    "name": "Scrumban",
+    "summary": "A hybrid agile approach combining Scrum's structure with Kanban's flow-based principles.",
+    "explanation": "Scrumban emerged as a natural evolution for teams seeking the best of both agile worlds: Scrum's structured ceremonies and roles combined with Kanban's continuous flow and visual management. The term was first coined by Corey Ladas in 2008.\n\nScrumban typically retains from Scrum:\n\n1. Regular retrospectives for continuous improvement\n2. Daily standups for team synchronization\n3. Optional sprint planning on a just-in-time basis\n4. Product Owner role for prioritization\n\nFrom Kanban, Scrumban adopts:\n\n1. Visual workflow boards with columns representing work stages\n2. Work-in-progress (WIP) limits to prevent overload\n3. Pull-based system where work is pulled when capacity allows\n4. Continuous flow rather than fixed sprint commitments\n5. Focus on cycle time and throughput metrics\n\nScrumban is particularly well-suited for:\n\n- Teams transitioning from Scrum to Kanban or vice versa\n- Support and maintenance teams with unpredictable incoming work\n- Teams wanting more flexibility than pure Scrum provides\n- Projects where work items vary significantly in size\n- Environments requiring rapid response to changing priorities\n\nThe approach allows teams to start with their current process and evolve incrementally. Teams often begin with Scrum and gradually incorporate Kanban principles as they mature, or start with Kanban and add Scrum ceremonies where beneficial.\n\nKey metrics in Scrumban include lead time (total time from request to delivery), cycle time (time in active work), and throughput (items completed per time period).",
+    "tags": [
+        "agile",
+        "frameworks",
+        "project-management",
+        "teams",
+        "hybrid-methods",
+        "workflow"
+    ],
+    "category": "Frameworks",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Scrum-ban",
+        "Scrum + Kanban"
+    ],
+    "relatedConcepts": [
+        "scrum",
+        "kanban",
+        "personal-kanban",
+        "agile-manifesto",
+        "limit-work-in-progress",
+        "sprint",
+        "daily-standup"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Scrumban: Essays on Kanban Systems for Lean Software Development by Corey Ladas",
+            "url": "https://www.amazon.com/dp/0578002140?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Scrumban - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scrumban",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

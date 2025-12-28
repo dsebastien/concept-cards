@@ -1,0 +1,41 @@
+{
+    "id": "sprint-planning",
+    "name": "Sprint Planning",
+    "summary": "A collaborative meeting where the team selects and plans work for the upcoming sprint.",
+    "explanation": "Sprint Planning is the Scrum ceremony that kicks off each sprint. The entire Scrum team collaborates to define what can be delivered in the upcoming sprint and how that work will be accomplished.\n\nThe meeting answers two key questions:\n\n1. What can be done this sprint?\n   - Product Owner presents prioritized backlog items\n   - Team discusses and clarifies requirements\n   - Team forecasts items they can complete\n   - Sprint Goal is defined collaboratively\n\n2. How will the chosen work get done?\n   - Team breaks selected items into tasks\n   - Technical approach is discussed\n   - Dependencies are identified\n   - Work is distributed (often self-assigned)\n\nTime-box guidelines:\n- Maximum 2 hours per week of sprint length\n- 2-week sprint = 4-hour planning session maximum\n- Can be shorter if backlog is well-refined\n\nPrerequisites for effective sprint planning:\n\n1. Well-refined backlog with clear acceptance criteria\n2. Items sized appropriately (story points or similar)\n3. Team availability known for the sprint\n4. Previous sprint's velocity data available\n5. Dependencies identified and resolved\n\nThe Sprint Goal provides flexibility - the team can negotiate scope with the Product Owner if they discover complexity during the sprint, as long as the goal remains achievable.\n\nOutput of Sprint Planning:\n- Sprint Goal (the 'why')\n- Sprint Backlog items (the 'what')\n- Task breakdown and plan (the 'how')\n- Team commitment to the sprint\n\nEffective planning sets the sprint up for success by ensuring shared understanding and realistic commitments.",
+    "tags": [
+        "agile",
+        "scrum",
+        "planning",
+        "meetings",
+        "teams",
+        "estimation"
+    ],
+    "category": "Techniques",
+    "icon": "FaCalendarAlt",
+    "featured": false,
+    "aliases": [
+        "Sprint Planning Meeting",
+        "Iteration Planning"
+    ],
+    "relatedConcepts": [
+        "scrum",
+        "sprint",
+        "backlog",
+        "user-stories",
+        "story-points",
+        "velocity",
+        "product-owner"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sprint Planning - Scrum Guide",
+            "url": "https://scrumguides.org/scrum-guide.html#sprint-planning",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

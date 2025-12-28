@@ -1,0 +1,45 @@
+{
+    "id": "scrum-master",
+    "name": "Scrum Master",
+    "summary": "The Scrum role responsible for facilitating the process and removing team impediments.",
+    "explanation": "The Scrum Master is a servant-leader for the Scrum Team. They help everyone understand Scrum theory, practices, rules, and values. They ensure the team follows the framework while continuously improving their effectiveness.\n\nService to the Development Team:\n\n1. Coaching in self-organization and cross-functionality\n2. Removing impediments to progress\n3. Facilitating Scrum events as requested or needed\n4. Protecting the team from external interference and distractions\n5. Helping the team create high-value products\n\nService to the Product Owner:\n\n1. Finding techniques for effective backlog management\n2. Helping the team understand clear, concise backlog items\n3. Facilitating Scrum events as requested\n4. Understanding product planning in an empirical environment\n\nService to the Organization:\n\n1. Leading and coaching Scrum adoption\n2. Planning Scrum implementations\n3. Helping stakeholders understand empirical product development\n4. Causing change that increases team productivity\n5. Working with other Scrum Masters for organizational effectiveness\n\nKey characteristics:\n\n- Servant leader, not a traditional manager\n- Process-focused, not people-manager\n- Facilitator, not decision-maker for the team\n- Coach who asks questions rather than giving answers\n- Shield against organizational dysfunction\n\nWhat Scrum Master is NOT:\n\n- Project manager\n- Team lead who assigns tasks\n- Secretary who just schedules meetings\n- Resource manager\n- Someone who solves problems FOR the team\n\nThe Scrum Master role requires a shift from traditional management thinking. They succeed by making themselves increasingly unnecessary as the team matures in self-organization.\n\nEvolution: As teams mature, Scrum Masters often take on multiple teams or focus more on organizational-level impediments.",
+    "tags": [
+        "agile",
+        "scrum",
+        "roles",
+        "leadership",
+        "servant-leadership",
+        "facilitation"
+    ],
+    "category": "Frameworks",
+    "icon": "FaUserShield",
+    "featured": false,
+    "aliases": [
+        "SM",
+        "Scrum Facilitator"
+    ],
+    "relatedConcepts": [
+        "scrum",
+        "sprint-retrospective",
+        "daily-standup",
+        "product-owner",
+        "servant-leadership",
+        "psychological-safety"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Coaching Agile Teams by Lyssa Adkins",
+            "url": "https://www.amazon.com/dp/0321637704?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Scrum Master - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)#Scrum_master",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

@@ -1,0 +1,46 @@
+{
+    "id": "story-points",
+    "name": "Story Points",
+    "summary": "A relative estimation unit measuring the effort and complexity of user stories.",
+    "explanation": "Story points are a unit of measure for expressing the overall effort required to fully implement a product backlog item or user story. Unlike time-based estimates, story points represent relative complexity, risk, and effort.\n\nKey characteristics:\n\n1. Relative, not absolute - Stories are compared to each other, not estimated in hours\n2. Team-specific - A 5-point story for one team may differ from another's\n3. Include all work - Development, testing, documentation, etc.\n4. Account for uncertainty - More complex items get higher points\n\nCommon scales:\n\n- Fibonacci sequence (1, 2, 3, 5, 8, 13, 21, 34...)\n- Modified Fibonacci (1, 2, 3, 5, 8, 13, 20, 40, 100)\n- T-shirt sizes (XS, S, M, L, XL) mapped to numbers\n- Powers of 2 (1, 2, 4, 8, 16, 32)\n\nWhy Fibonacci? The gaps between numbers increase, reflecting that larger items have more uncertainty. You can distinguish 3 from 5, but not 21 from 22.\n\nEstimation techniques:\n\n1. Planning Poker - Team members privately select cards, then reveal and discuss\n2. Affinity Estimation - Group similar items, then assign points to groups\n3. Reference Story - Compare new stories to a well-understood reference\n\nBenefits of story points:\n\n- Faster than detailed hour estimates\n- Encourage team discussion about complexity\n- Reduce anchoring to 'ideal hours'\n- Enable velocity tracking for planning\n- Focus on relative sizing over precision\n\nCommon pitfalls:\n- Converting points to hours (defeats the purpose)\n- Comparing velocity between teams\n- Using for performance evaluation\n- Over-precision (debating 5 vs 6)\n\nStory points feed into velocity calculations, enabling better sprint planning and release forecasting over time.",
+    "tags": [
+        "agile",
+        "estimation",
+        "planning",
+        "scrum",
+        "metrics",
+        "teams"
+    ],
+    "category": "Techniques",
+    "icon": "FaSortNumericUp",
+    "featured": false,
+    "aliases": [
+        "Points",
+        "SP",
+        "Effort Points"
+    ],
+    "relatedConcepts": [
+        "user-stories",
+        "sprint-planning",
+        "velocity",
+        "backlog",
+        "scrum",
+        "planning-fallacy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Estimating and Planning by Mike Cohn",
+            "url": "https://www.amazon.com/dp/0131479415?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Planning Poker - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Planning_poker",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

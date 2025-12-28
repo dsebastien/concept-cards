@@ -1,0 +1,42 @@
+{
+    "id": "backlog",
+    "name": "Backlog",
+    "summary": "A prioritized list of all desired work items for a product or project.",
+    "explanation": "A backlog is an ordered list of everything that might be needed in a product or project. In Scrum, there are two main types of backlogs:\n\nProduct Backlog:\n- Single source of requirements for any changes to the product\n- Owned and prioritized by the Product Owner\n- Contains features, enhancements, bug fixes, and technical work\n- Items are refined continuously (backlog refinement/grooming)\n- Higher priority items are more detailed and ready for work\n- Never complete - evolves as the product and market change\n\nSprint Backlog:\n- Subset of product backlog items selected for the current sprint\n- Owned by the Development Team\n- Includes a plan for delivering the sprint goal\n- Updated daily as work progresses\n- Only the team can change it during the sprint\n\nEffective backlog management practices:\n\n1. DEEP principle: Detailed appropriately, Estimated, Emergent, Prioritized\n2. Regular refinement sessions (typically 10% of sprint capacity)\n3. Clear acceptance criteria for items\n4. Proper sizing (user stories, story points)\n5. Dependencies identified and managed\n\nThe backlog serves as the bridge between business needs and development work. A well-maintained backlog enables efficient sprint planning, provides transparency to stakeholders, and allows teams to make informed tradeoff decisions.\n\nModern teams often use digital tools (Jira, Azure DevOps, Trello) to manage backlogs, though physical boards with sticky notes remain effective for co-located teams.",
+    "tags": [
+        "agile",
+        "scrum",
+        "project-management",
+        "planning",
+        "prioritization",
+        "requirements"
+    ],
+    "category": "Techniques",
+    "icon": "FaListUl",
+    "featured": false,
+    "aliases": [
+        "Product Backlog",
+        "Sprint Backlog",
+        "Work Backlog"
+    ],
+    "relatedConcepts": [
+        "scrum",
+        "sprint",
+        "sprint-planning",
+        "user-stories",
+        "story-points",
+        "product-owner",
+        "kanban"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Product Backlog - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_backlog",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

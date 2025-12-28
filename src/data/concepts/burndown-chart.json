@@ -1,0 +1,41 @@
+{
+    "id": "burndown-chart",
+    "name": "Burndown Chart",
+    "summary": "A visual graph showing remaining work over time to track sprint or project progress.",
+    "explanation": "A burndown chart is a graphical representation of work remaining versus time. It provides a quick visual indicator of progress and helps teams identify whether they're on track to complete their commitments.\n\nTypes of burndown charts:\n\n1. Sprint Burndown\n   - Shows work remaining in current sprint\n   - X-axis: Days in the sprint\n   - Y-axis: Story points (or hours) remaining\n   - Updated daily during standup\n\n2. Release Burndown\n   - Shows work remaining for a release\n   - X-axis: Sprints until release\n   - Y-axis: Story points in release backlog\n   - Updated each sprint\n\nReading a burndown chart:\n\n- Ideal line: Diagonal from total work to zero\n- Actual line: Team's real progress\n- Above ideal line: Behind schedule\n- Below ideal line: Ahead of schedule\n- Flat sections: No progress (blockage, scope added)\n- Upward jumps: Work added mid-sprint\n\nCommon patterns and what they indicate:\n\n- Cliff at end: Work completed in big batch (testing phase?)\n- Staircase: Items not broken into small tasks\n- Flat start, rapid end: Sprint planning issues\n- Never reaches zero: Over-commitment\n- Jumps up: Scope creep or discovered work\n\nBurndown charts complement other metrics:\n\n- Burnup charts (show scope changes more clearly)\n- Cumulative flow diagrams (show bottlenecks)\n- Velocity trends (show capacity over time)\n\nThe value of burndown charts is in the conversations they trigger. When the chart shows concerning patterns, teams should discuss root causes and adaptations.",
+    "tags": [
+        "agile",
+        "scrum",
+        "metrics",
+        "visualization",
+        "project-management",
+        "tracking"
+    ],
+    "category": "Techniques",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Sprint Burndown",
+        "Release Burndown",
+        "Burn Down Chart"
+    ],
+    "relatedConcepts": [
+        "sprint",
+        "velocity",
+        "story-points",
+        "scrum",
+        "daily-standup",
+        "information-radiators"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Burn down chart - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Burn_down_chart",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

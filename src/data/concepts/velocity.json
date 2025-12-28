@@ -1,0 +1,40 @@
+{
+    "id": "velocity",
+    "name": "Velocity",
+    "summary": "A measure of the amount of work a team completes during a sprint, used for planning.",
+    "explanation": "Velocity is a key metric in Scrum that measures how much work a team typically completes in a sprint, expressed in story points (or other estimation units). It's used for sprint planning and release forecasting.\n\nCalculating velocity:\n- Sum of story points for all completed items in a sprint\n- Only count items that meet the Definition of Done\n- Average over multiple sprints for reliability\n\nExample:\n- Sprint 1: 23 points completed\n- Sprint 2: 27 points completed  \n- Sprint 3: 25 points completed\n- Average velocity: 25 points\n\nUsing velocity for planning:\n\n1. Sprint Planning - Team commits to approximately their average velocity\n2. Release Planning - Estimate sprints needed for remaining backlog\n3. Forecasting - Provide stakeholders with delivery projections\n\nImportant principles:\n\n1. Team-specific - Never compare velocity between teams\n2. Trends matter more than absolutes - Watch for sustained changes\n3. Use ranges, not single numbers - Account for variation\n4. Stabilizes over time - Early sprints are unreliable\n5. Not a performance metric - Using it this way corrupts the data\n\nFactors affecting velocity:\n\n- Team composition changes\n- Holidays, PTO, sick days\n- Technical debt or infrastructure work\n- Learning new technologies\n- Process changes\n- External dependencies\n\nVelocity should be used as a planning tool, not a target. When teams are pressured to increase velocity, they often inflate estimates rather than work faster, making the metric meaningless.\n\nFor stable teams, yesterday's weather (using last sprint's velocity) is often the best predictor of next sprint's capacity.",
+    "tags": [
+        "agile",
+        "scrum",
+        "metrics",
+        "planning",
+        "estimation",
+        "teams"
+    ],
+    "category": "Techniques",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "Team Velocity",
+        "Sprint Velocity"
+    ],
+    "relatedConcepts": [
+        "sprint",
+        "story-points",
+        "sprint-planning",
+        "burndown-chart",
+        "scrum",
+        "definition-of-done"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Velocity (software development) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Velocity_(software_development)",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

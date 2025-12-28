@@ -1,0 +1,45 @@
+{
+    "id": "product-owner",
+    "name": "Product Owner",
+    "summary": "The Scrum role responsible for maximizing product value through backlog management.",
+    "explanation": "The Product Owner (PO) is one of three roles in Scrum, responsible for maximizing the value of the product resulting from the work of the Development Team. They are the single voice of the customer and stakeholders to the team.\n\nCore responsibilities:\n\n1. Backlog Management\n   - Creating and clearly expressing backlog items\n   - Ordering items to best achieve goals and missions\n   - Ensuring the backlog is visible, transparent, and understood\n   - Ensuring the team understands items at the right level\n\n2. Value Maximization\n   - Understanding customer and market needs\n   - Making trade-off decisions\n   - Prioritizing work based on value and risk\n   - Saying 'no' to protect focus\n\n3. Stakeholder Management\n   - Gathering requirements from stakeholders\n   - Communicating product vision and roadmap\n   - Managing expectations\n   - Accepting or rejecting work results\n\nKey characteristics of effective Product Owners:\n\n- Empowered to make decisions without committee approval\n- Available to the team for questions and clarifications\n- Engaged throughout the sprint, not just at ceremonies\n- Business-savvy with domain expertise\n- Skilled at saying no while maintaining relationships\n\nWhat Product Owner is NOT:\n\n- A project manager\n- A requirements writer\n- A committee or group (must be one person)\n- Telling the team HOW to do the work\n- Absent until sprint review\n\nThe Product Owner may do the above work or delegate it, but they remain accountable. They are the single person who can change the product backlog and its priority.\n\nChallenge: Many organizations struggle because the PO has insufficient authority, time, or business knowledge to fulfill the role effectively.",
+    "tags": [
+        "agile",
+        "scrum",
+        "roles",
+        "leadership",
+        "product-management",
+        "responsibility"
+    ],
+    "category": "Frameworks",
+    "icon": "FaUserTie",
+    "featured": false,
+    "aliases": [
+        "PO",
+        "Scrum Product Owner"
+    ],
+    "relatedConcepts": [
+        "scrum",
+        "backlog",
+        "sprint-planning",
+        "user-stories",
+        "scrum-master",
+        "stakeholder-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Product Management with Scrum by Roman Pichler",
+            "url": "https://www.amazon.com/dp/0321605780?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Product Owner - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_owner",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}

@@ -1,0 +1,41 @@
+{
+    "id": "definition-of-done",
+    "name": "Definition of Done",
+    "summary": "A shared checklist of criteria that must be met for work to be considered complete.",
+    "explanation": "The Definition of Done (DoD) is a formal description of the state of the Increment when it meets the quality measures required for the product. It creates transparency by providing everyone a shared understanding of what 'complete' means.\n\nWhy Definition of Done matters:\n\n1. Quality consistency - Every item meets the same standard\n2. Transparency - Everyone knows what complete means\n3. Reduces technical debt - Prevents cutting corners\n4. Enables inspection - Work is truly finished, not 'mostly done'\n5. Supports sustainability - Prevents accumulating hidden work\n\nTypical Definition of Done items:\n\n- Code complete and peer-reviewed\n- Unit tests written and passing\n- Integration tests passing\n- Documentation updated\n- Acceptance criteria verified\n- No critical bugs\n- Performance requirements met\n- Security review complete\n- Deployed to staging environment\n- Product Owner accepted\n\nLevels of Done:\n\n1. Story level - Individual item complete\n2. Sprint level - All items integrated together\n3. Release level - Ready for production deployment\n\nEvolving the Definition of Done:\n\n- Reviewed and updated during retrospectives\n- Becomes more rigorous as team matures\n- May start simple and grow over time\n- Should stretch the team appropriately\n\nAnti-patterns:\n\n- Definition so long nothing gets done\n- Ignoring DoD under deadline pressure\n- Different DoD for different team members\n- Never updating the definition\n- 'Done-ish' or partial completion\n\nThe Definition of Done is owned by the Development Team and applies to all work. It's a living document that should evolve as the team and product mature.",
+    "tags": [
+        "agile",
+        "scrum",
+        "quality",
+        "standards",
+        "teams",
+        "processes"
+    ],
+    "category": "Principles",
+    "icon": "FaCheckDouble",
+    "featured": false,
+    "aliases": [
+        "DoD",
+        "Done Criteria",
+        "Completion Criteria"
+    ],
+    "relatedConcepts": [
+        "scrum",
+        "sprint",
+        "user-stories",
+        "velocity",
+        "sprint-retrospective",
+        "working-agreements"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Definition of Done - Scrum Guide",
+            "url": "https://scrumguides.org/scrum-guide.html#increment",
+            "type": "website"
+        }
+    ],
+    "tutorials": []
+}
