@@ -11,6 +11,10 @@ import FeaturedPage from './pages/featured'
 import RandomConceptPage from './pages/random'
 import StatisticsPage from './pages/statistics'
 import UnexploredPage from './pages/unexplored'
+import BooksPage from './pages/books'
+import ArticlesPage from './pages/articles'
+import ReferencesPage from './pages/references'
+import NotesPage from './pages/notes'
 
 const rootElement = document.getElementById('root')
 
@@ -33,6 +37,14 @@ ReactDOM.createRoot(rootElement).render(
                     <Route path='/statistics' element={<StatisticsPage />} />
                     <Route path='/unexplored' element={<UnexploredPage />} />
                     <Route path='/disclaimer' element={<DisclaimerPage />} />
+                    <Route path='/books' element={<BooksPage />} />
+                    <Route path='/books/:bookId' element={<BooksPage />} />
+                    <Route path='/articles' element={<ArticlesPage />} />
+                    <Route path='/articles/:articleId' element={<ArticlesPage />} />
+                    <Route path='/references' element={<ReferencesPage />} />
+                    <Route path='/references/:referenceId' element={<ReferencesPage />} />
+                    <Route path='/notes' element={<NotesPage />} />
+                    <Route path='/notes/:noteId' element={<NotesPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -3,6 +3,7 @@ export type { Reference } from './reference.intf'
 export type { Book } from './book.intf'
 export type { Concept } from './concept.intf'
 export type { ConceptsData } from './concepts-data.intf'
+export type { ExtractedResource } from './extracted-resource.intf'
 
 // View mode
 export type { ViewMode } from './view-mode.intf'

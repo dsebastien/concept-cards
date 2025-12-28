@@ -7,7 +7,11 @@ import {
     FaCompass,
     FaFolder,
     FaStar,
-    FaFileContract
+    FaFileContract,
+    FaBook,
+    FaNewspaper,
+    FaLink,
+    FaStickyNote
 } from 'react-icons/fa'
 import resourcesData from '@/data/resources.json'
 import socialsData from '@/data/socials.json'
@@ -72,6 +76,34 @@ const Footer: React.FC = () => {
                         >
                             <FaFileContract className='h-4 w-4' />
                             Disclaimer
+                        </Link>
+                        <Link
+                            to='/books'
+                            className='text-primary/70 hover:text-secondary mt-2 inline-flex items-center gap-2 text-sm transition-colors'
+                        >
+                            <FaBook className='h-4 w-4' />
+                            Books
+                        </Link>
+                        <Link
+                            to='/articles'
+                            className='text-primary/70 hover:text-secondary mt-2 inline-flex items-center gap-2 text-sm transition-colors'
+                        >
+                            <FaNewspaper className='h-4 w-4' />
+                            Articles
+                        </Link>
+                        <Link
+                            to='/references'
+                            className='text-primary/70 hover:text-secondary mt-2 inline-flex items-center gap-2 text-sm transition-colors'
+                        >
+                            <FaLink className='h-4 w-4' />
+                            References
+                        </Link>
+                        <Link
+                            to='/notes'
+                            className='text-primary/70 hover:text-secondary mt-2 inline-flex items-center gap-2 text-sm transition-colors'
+                        >
+                            <FaStickyNote className='h-4 w-4' />
+                            Notes
                         </Link>
                     </div>
 

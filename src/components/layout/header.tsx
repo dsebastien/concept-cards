@@ -8,7 +8,11 @@ import {
     FaFolder,
     FaChartBar,
     FaBars,
-    FaTimes
+    FaTimes,
+    FaBook,
+    FaNewspaper,
+    FaLink,
+    FaStickyNote
 } from 'react-icons/fa'
 import type { NavLink } from '@/types/nav-link.intf'
 
@@ -47,6 +51,30 @@ const menuLinks: NavLink[] = [
         label: 'Statistics',
         icon: <FaChartBar className='h-5 w-5' />,
         color: 'text-purple-400 bg-purple-500/10 hover:bg-purple-500/20'
+    },
+    {
+        to: '/books',
+        label: 'Books',
+        icon: <FaBook className='h-5 w-5' />,
+        color: 'text-amber-400 bg-amber-500/10 hover:bg-amber-500/20'
+    },
+    {
+        to: '/articles',
+        label: 'Articles',
+        icon: <FaNewspaper className='h-5 w-5' />,
+        color: 'text-blue-400 bg-blue-500/10 hover:bg-blue-500/20'
+    },
+    {
+        to: '/references',
+        label: 'References',
+        icon: <FaLink className='h-5 w-5' />,
+        color: 'text-green-400 bg-green-500/10 hover:bg-green-500/20'
+    },
+    {
+        to: '/notes',
+        label: 'Notes',
+        icon: <FaStickyNote className='h-5 w-5' />,
+        color: 'text-yellow-400 bg-yellow-500/10 hover:bg-yellow-500/20'
     }
 ]
 
