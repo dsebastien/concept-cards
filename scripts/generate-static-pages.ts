@@ -261,6 +261,54 @@ function generateMentions(concept: Concept): Array<Record<string, unknown>> {
 }
 
 /**
+ * Generate relatedLink URLs for schema.org
+ * Combines related concepts, related notes, articles, tutorials, and references
+ */
+function generateRelatedLinks(concept: Concept): string[] {
+    const links: string[] = []
+
+    // Add related concepts (internal links)
+    if (concept.relatedConcepts && concept.relatedConcepts.length > 0) {
+        concept.relatedConcepts.forEach((id) => {
+            const related = concepts.find((c) => c.id === id)
+            if (related) {
+                links.push(`${BASE_URL}/concept/${id}`)
+            }
+        })
+    }
+
+    // Add related notes (external links to notes.dsebastien.net)
+    if (concept.relatedNotes && concept.relatedNotes.length > 0) {
+        concept.relatedNotes.forEach((url) => {
+            links.push(url)
+        })
+    }
+
+    // Add articles
+    if (concept.articles && concept.articles.length > 0) {
+        concept.articles.forEach((ref) => {
+            links.push(ref.url)
+        })
+    }
+
+    // Add tutorials
+    if (concept.tutorials && concept.tutorials.length > 0) {
+        concept.tutorials.forEach((ref) => {
+            links.push(ref.url)
+        })
+    }
+
+    // Add references
+    if (concept.references && concept.references.length > 0) {
+        concept.references.forEach((ref) => {
+            links.push(ref.url)
+        })
+    }
+
+    return links
+}
+
+/**
  * Generate Article JSON-LD schema for a concept
  */
 function generateConceptSchema(concept: Concept): string {
@@ -287,6 +335,9 @@ function generateConceptSchema(concept: Concept): string {
 
     // Generate mentions for related concepts
     const mentions = generateMentions(concept)
+
+    // Generate related links for schema.org relatedLink property
+    const relatedLinks = generateRelatedLinks(concept)
 
     const schema = {
         '@context': 'https://schema.org',
@@ -334,7 +385,8 @@ function generateConceptSchema(concept: Concept): string {
                         alternativeHeadline: concept.aliases.join(', ')
                     }),
                 ...(citations.length > 0 && { citation: citations }),
-                ...(mentions.length > 0 && { mentions: mentions })
+                ...(mentions.length > 0 && { mentions: mentions }),
+                ...(relatedLinks.length > 0 && { relatedLink: relatedLinks })
             },
             {
                 '@type': 'FAQPage',
