@@ -76,8 +76,8 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
 
                     {/* Content */}
                     <div className='min-w-0 flex-1'>
-                        <div className='flex items-center gap-2'>
-                            <h3 className='group-hover:text-secondary truncate font-semibold transition-colors'>
+                        <div className='flex flex-wrap items-center gap-x-2 gap-y-1'>
+                            <h3 className='group-hover:text-secondary font-semibold transition-colors'>
                                 {concept.name}
                             </h3>
                             {concept.featured && (

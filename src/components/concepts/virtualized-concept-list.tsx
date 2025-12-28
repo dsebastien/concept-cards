@@ -75,6 +75,11 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
             paddingEnd: 0
         })
 
+        // Remeasure when viewMode or columnCount changes
+        useEffect(() => {
+            virtualizer.measure()
+        }, [viewMode, columnCount, virtualizer])
+
         const virtualItems = virtualizer.getVirtualItems()
 
         // Memoize stable callbacks
