@@ -1,0 +1,40 @@
+{
+    "id": "analogical-prompting",
+    "name": "Analogical Prompting",
+    "summary": "A technique that prompts AI to recall or generate relevant examples and analogies before solving a new problem.",
+    "explanation": "Analogical Prompting leverages the power of analogical reasoning by having the AI generate or recall similar problems and their solutions before tackling the target problem. This mimics how humans often solve new problems by drawing on past experiences.\n\nHow it works:\n1. **Self-Generated Exemplars**: Instead of providing examples (few-shot), ask the model to generate its own relevant examples\n2. **Analogy Identification**: Prompt the model to identify how the current problem is similar to problems it knows\n3. **Solution Transfer**: Apply solution patterns from analogous problems to the new problem\n\nPrompt pattern:\n```\nBefore solving this problem, recall 2-3 similar problems you know how to solve. Show the problems and their solutions. Then use these as a guide to solve the new problem.\n```\n\nAdvantages over traditional few-shot:\n- **Self-tailored examples**: Model generates examples most relevant to its knowledge\n- **No example crafting**: Removes the burden of creating good examples\n- **Better coverage**: Model can draw from its full training knowledge\n- **Adaptive**: Works across different problem domains\n\nEffective applications:\n- Mathematical problem-solving\n- Code generation (recall similar algorithms)\n- Writing tasks (recall similar formats)\n- Logical reasoning\n\nAnalogical prompting often outperforms few-shot learning because the model generates examples from its own knowledge distribution, making them more actionable.",
+    "tags": [
+        "ai",
+        "prompting",
+        "reasoning",
+        "llm-techniques",
+        "problem-solving",
+        "analogies"
+    ],
+    "category": "Techniques",
+    "icon": "FaExchangeAlt",
+    "featured": false,
+    "aliases": [
+        "Analogy-Based Prompting",
+        "Self-Generated Examples",
+        "Example Recall Prompting"
+    ],
+    "relatedConcepts": [
+        "few-shot-learning",
+        "chain-of-thought-prompting",
+        "generated-knowledge-prompting",
+        "prompt-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Large Language Models as Analogical Reasoners",
+            "url": "https://arxiv.org/abs/2310.01714",
+            "type": "paper"
+        }
+    ],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "generated-knowledge-prompting",
+    "name": "Generated Knowledge Prompting",
+    "summary": "A two-step technique where the AI first generates relevant background knowledge, then uses that knowledge to answer the question.",
+    "explanation": "Generated Knowledge Prompting is a technique that improves AI reasoning by first asking the model to generate relevant facts or background knowledge about a topic, then using that generated knowledge as context for answering the actual question.\n\nThe two-step process:\n1. **Knowledge Generation**: \"Generate some facts about [topic] that would be useful for answering questions about it.\"\n2. **Knowledge Integration**: \"Given the following knowledge: [generated facts], answer this question: [actual question]\"\n\nWhy it works:\n- Activates relevant information from the model's training\n- Provides explicit context that might otherwise be implicit\n- Reduces hallucination by grounding responses in generated facts\n- Encourages systematic thinking before answering\n\nExample:\n```\nStep 1: \"Generate 5 key facts about photosynthesis.\"\n→ Facts about light reactions, chlorophyll, CO2 absorption, etc.\n\nStep 2: \"Using the facts above, explain why plants are green.\"\n→ More accurate, grounded response\n```\n\nBest applications:\n- Commonsense reasoning tasks\n- Questions requiring domain knowledge\n- Educational explanations\n- Fact-based analysis\n\nVariations:\n- Generate knowledge from multiple perspectives\n- Generate counterarguments before deciding\n- Generate examples before abstracting principles\n\nThis technique can be combined with self-consistency by generating multiple knowledge sets and selecting the best answer.",
+    "tags": [
+        "ai",
+        "prompting",
+        "reasoning",
+        "llm-techniques",
+        "knowledge-management"
+    ],
+    "category": "Techniques",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Knowledge Generation Prompting",
+        "Two-Stage Prompting",
+        "Self-Generated Context"
+    ],
+    "relatedConcepts": [
+        "chain-of-thought-prompting",
+        "prompt-chaining",
+        "retrieval-augmented-generation",
+        "prompt-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Generated Knowledge Prompting for Commonsense Reasoning",
+            "url": "https://arxiv.org/abs/2110.08387",
+            "type": "paper"
+        }
+    ],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

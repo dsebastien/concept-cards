@@ -1,0 +1,50 @@
+{
+    "id": "a-b-testing",
+    "name": "A/B Testing",
+    "summary": "A method of comparing two versions of something to determine which performs better.",
+    "explanation": "A/B testing (split testing) is a controlled experiment comparing two variants to measure which produces better results. You show version A to half your audience and version B to the other half, then measure the difference in your target metric. This removes guesswork from optimization decisions. Common A/B tests include headlines, email subject lines, button colors, pricing, layouts, and copy variations. Valid A/B testing requires sufficient sample size, testing one variable at a time, running tests long enough for statistical significance, and having clear success metrics. For creators and knowledge workers, A/B testing applies to content titles, email sequences, landing pages, and product offerings. Let data guide decisions.",
+    "tags": [
+        "marketing",
+        "optimization",
+        "experimentation",
+        "data",
+        "strategies"
+    ],
+    "category": "Methods",
+    "icon": "FaFlask",
+    "featured": false,
+    "aliases": [
+        "Split testing",
+        "Bucket testing",
+        "Randomized controlled experiment"
+    ],
+    "relatedConcepts": [
+        "conversion-rate",
+        "rapid-experimentation",
+        "statistical-significance",
+        "growth-hacking",
+        "data"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Trustworthy Online Controlled Experiments by Ron Kohavi",
+            "url": "https://www.amazon.com/dp/1108724264?tag=dsebastien00-20"
+        },
+        {
+            "title": "Testing Business Ideas by David J. Bland and Alexander Osterwalder",
+            "url": "https://www.amazon.com/dp/1119551447?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "A/B testing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/A/B_testing",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

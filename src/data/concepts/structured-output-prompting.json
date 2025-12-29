@@ -1,0 +1,41 @@
+{
+    "id": "structured-output-prompting",
+    "name": "Structured Output Prompting",
+    "summary": "Techniques for getting AI to produce output in specific, parseable formats like JSON, XML, or markdown tables.",
+    "explanation": "Structured Output Prompting encompasses techniques for getting AI to produce responses in specific, machine-readable formats. This is essential for integrating AI into applications where outputs need to be programmatically processed.\n\nCommon output formats:\n- **JSON**: For API integrations and data processing\n- **XML**: For document structures and configurations\n- **Markdown**: For formatted documentation\n- **CSV/Tables**: For data exports\n- **YAML**: For configuration files\n\nTechniques for reliable structured output:\n\n**1. Format Specification**:\n\"Respond with valid JSON matching this schema: {schema}\"\n\n**2. Examples**:\nProvide few-shot examples showing the exact format expected\n\n**3. Schema Enforcement**:\nUse model features like JSON mode or function calling that constrain output format\n\n**4. Validation Instructions**:\n\"Before responding, verify your output is valid JSON that parses correctly.\"\n\n**5. Field-by-Field Generation**:\nGenerate each field separately for complex structures\n\nBest practices:\n- Always specify the exact schema expected\n- Use model-native structured output features when available\n- Include examples for complex formats\n- Plan for validation and error handling\n- Keep structures as simple as possible\n- Use consistent field naming conventions\n\nStructured output is critical for:\n- Building AI-powered applications\n- Data extraction pipelines\n- Form filling automation\n- API integrations\n- Workflow automation",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "json",
+        "automation",
+        "integration"
+    ],
+    "category": "Techniques",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "JSON Prompting",
+        "Format-Constrained Output",
+        "Schema-Based Prompting",
+        "Output Formatting"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "prompt-chaining",
+        "few-shot-learning",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Structured Outputs - OpenAI Documentation",
+            "url": "https://platform.openai.com/docs/guides/structured-outputs",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

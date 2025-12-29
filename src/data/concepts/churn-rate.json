@@ -1,0 +1,50 @@
+{
+    "id": "churn-rate",
+    "name": "Churn Rate",
+    "summary": "The percentage of customers who stop using a product or service during a given time period.",
+    "explanation": "Churn rate measures customer attrition—how many customers you're losing. Calculate it as: (Customers lost during period / Customers at start of period) × 100. For subscription businesses, churn directly impacts revenue and growth. Even small churn rates compound dramatically: 5% monthly churn means losing nearly half your customers annually. Churn analysis reveals why customers leave (poor fit, unmet expectations, competitor, price sensitivity), enabling targeted interventions. Reducing churn is often more profitable than acquiring new customers. For creators with membership programs or courses, tracking and reducing churn through better onboarding, engagement, and value delivery is essential for sustainable business.",
+    "tags": [
+        "businesses",
+        "metrics",
+        "retention",
+        "customer-success",
+        "subscriptions"
+    ],
+    "category": "Concepts",
+    "icon": "FaUserMinus",
+    "featured": false,
+    "aliases": [
+        "Customer churn",
+        "Attrition rate",
+        "Turnover rate"
+    ],
+    "relatedConcepts": [
+        "lifetime-value",
+        "customer-acquisition-cost",
+        "net-promoter-score",
+        "monthly-recurring-revenue",
+        "subscription-business-model"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Membership Economy by Robbie Kellman Baxter",
+            "url": "https://www.amazon.com/dp/0071839321?tag=dsebastien00-20"
+        },
+        {
+            "title": "Customer Success by Nick Mehta, Dan Steinman, and Lincoln Murphy",
+            "url": "https://www.amazon.com/dp/1119167965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Churn rate - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Churn_rate",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

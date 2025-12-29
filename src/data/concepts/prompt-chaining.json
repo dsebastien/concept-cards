@@ -1,0 +1,41 @@
+{
+    "id": "prompt-chaining",
+    "name": "Prompt Chaining",
+    "summary": "Breaking complex tasks into a sequence of simpler prompts, where each prompt's output feeds into the next.",
+    "explanation": "Prompt chaining is a technique for handling complex tasks by decomposing them into a series of linked prompts, where the output of one becomes the input for the next. This mirrors how humans break down complex problems into manageable steps.\n\nCommon chaining patterns:\n\n**Sequential Chain**:\n1. Prompt 1: Research/gather information\n2. Prompt 2: Analyze findings\n3. Prompt 3: Generate recommendations\n4. Prompt 4: Format final output\n\n**Conditional Chain**:\n- Route to different prompts based on intermediate outputs\n- Example: Classify intent first, then use specialized prompts per intent\n\n**Parallel Chain**:\n- Run multiple prompts simultaneously on different aspects\n- Combine results in a final synthesis prompt\n\nBenefits:\n- **Improved accuracy**: Each step is simpler and more focused\n- **Better debugging**: Identify which step causes issues\n- **Flexibility**: Swap or improve individual steps independently\n- **Cost control**: Use cheaper models for simpler steps\n- **Transparency**: Intermediate outputs show reasoning\n\nImplementation tips:\n- Design clear interfaces between prompts\n- Handle errors gracefully at each step\n- Consider caching intermediate results\n- Validate outputs before passing to next step\n\nPrompt chaining is fundamental to building complex AI applications, workflows, and agents that need to accomplish multi-step tasks reliably.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "workflows",
+        "automation",
+        "ai-agents"
+    ],
+    "category": "Techniques",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Chained Prompts",
+        "Sequential Prompting",
+        "Multi-step Prompting",
+        "Prompt Pipelines"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "react-prompting",
+        "ai-agent",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Prompt Chaining - Anthropic Cookbook",
+            "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/misc/prompt_chaining.ipynb",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

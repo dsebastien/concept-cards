@@ -1,0 +1,41 @@
+{
+    "id": "reflexion-prompting",
+    "name": "Reflexion",
+    "summary": "An AI technique where the model reflects on its own outputs, identifies errors, and iteratively improves its responses.",
+    "explanation": "Reflexion is a prompting and agent architecture that enables AI systems to learn from their mistakes through verbal self-reflection. Instead of external feedback, the model critiques its own outputs and uses those reflections to improve subsequent attempts.\n\nThe Reflexion loop:\n1. **Act**: Generate an initial response or take an action\n2. **Evaluate**: Assess the quality/correctness of the output\n3. **Reflect**: Generate verbal feedback about what went wrong and how to improve\n4. **Retry**: Use the reflection as additional context for a new attempt\n\nKey components:\n- **Self-evaluation**: Model assesses its own output against criteria\n- **Verbal reflection**: Natural language critique stored for future reference\n- **Memory**: Reflections persist across attempts, building improvement context\n- **Iterative refinement**: Multiple cycles of reflect-and-improve\n\nReflection prompt patterns:\n- \"What errors or weaknesses are in this response?\"\n- \"How could this answer be improved?\"\n- \"What did I miss or get wrong?\"\n- \"What would I do differently next time?\"\n\nApplications:\n- Code generation and debugging\n- Complex reasoning tasks\n- Writing improvement\n- Decision-making processes\n- Agent systems that need to recover from errors\n\nReflexion demonstrates that AI can improve through self-generated feedback, making it valuable for autonomous systems that can't rely on constant human oversight.",
+    "tags": [
+        "ai",
+        "prompting",
+        "reasoning",
+        "llm-techniques",
+        "self-improvement",
+        "ai-agents"
+    ],
+    "category": "Techniques",
+    "icon": "FaRedo",
+    "featured": false,
+    "aliases": [
+        "Self-Reflection Prompting",
+        "Reflective AI",
+        "Self-Critique",
+        "Iterative Refinement"
+    ],
+    "relatedConcepts": [
+        "chain-of-thought-prompting",
+        "react-prompting",
+        "self-consistency-prompting",
+        "ai-agent"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2303.11366",
+            "type": "paper"
+        }
+    ],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

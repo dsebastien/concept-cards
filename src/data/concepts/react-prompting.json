@@ -1,0 +1,46 @@
+{
+    "id": "react-prompting",
+    "name": "ReAct Prompting",
+    "summary": "A prompting framework that combines reasoning traces with action-taking, enabling AI to think and act interleaved.",
+    "explanation": "ReAct (Reasoning + Acting) is a prompting paradigm that interleaves reasoning with actions, allowing language models to both think through problems and interact with external tools or environments. Unlike pure reasoning approaches, ReAct grounds thinking in real-world feedback.\n\nThe ReAct loop follows this pattern:\n1. **Thought**: The model reasons about what to do next\n2. **Action**: The model takes an action (search, lookup, calculate, etc.)\n3. **Observation**: The result of the action is observed\n4. **Repeat**: Continue until the task is complete\n\nExample ReAct trace:\n- Thought: I need to find when Einstein was born\n- Action: Search[Albert Einstein birthday]\n- Observation: Albert Einstein was born March 14, 1879\n- Thought: Now I can answer the question\n- Action: Finish[March 14, 1879]\n\nKey benefits:\n- **Grounded reasoning**: Actions provide real information rather than relying solely on model knowledge\n- **Transparent process**: The reasoning trace shows how conclusions were reached\n- **Error recovery**: If an action fails, the model can reason about alternatives\n- **Tool use**: Naturally extends to using APIs, databases, and other tools\n\nReAct is foundational to modern AI agents and coding assistants that need to gather information, execute code, and iteratively solve problems. It bridges pure language reasoning with practical task completion.",
+    "tags": [
+        "ai",
+        "prompting",
+        "ai-agents",
+        "reasoning",
+        "llm-techniques",
+        "tool-use"
+    ],
+    "category": "Techniques",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Reasoning and Acting",
+        "ReAct Framework",
+        "Reason-Act Loop"
+    ],
+    "relatedConcepts": [
+        "chain-of-thought-prompting",
+        "ai-agent",
+        "prompt-engineering",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "url": "https://arxiv.org/abs/2210.03629",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "ReAct Prompting - Prompt Engineering Guide",
+            "url": "https://www.promptingguide.ai/techniques/react",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

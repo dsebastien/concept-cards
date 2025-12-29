@@ -1,0 +1,40 @@
+{
+    "id": "meta-prompting",
+    "name": "Meta-Prompting",
+    "summary": "Using AI to generate, refine, or improve prompts themselves, creating a recursive improvement loop.",
+    "explanation": "Meta-prompting is the practice of using AI to work on prompts themselves - generating new prompts, improving existing ones, or optimizing prompts for specific outcomes. It treats prompt engineering as a task that AI can help automate.\n\nCommon meta-prompting patterns:\n\n**Prompt Generation**:\n\"Generate 5 different prompts I could use to get an AI to write compelling product descriptions.\"\n\n**Prompt Improvement**:\n\"Here's my current prompt: [prompt]. How can I improve it to get more consistent results?\"\n\n**Prompt Testing**:\n\"Evaluate this prompt against these criteria: [criteria]. What weaknesses does it have?\"\n\n**Automatic Prompt Optimization**:\nSystematically generate prompt variations, test them, and select the best performers.\n\nApplications:\n- **Prompt libraries**: Generate prompts for common tasks\n- **A/B testing**: Create prompt variations to test\n- **Debugging**: Identify why a prompt isn't working\n- **Translation**: Adapt prompts for different models or use cases\n- **Documentation**: Generate explanations of complex prompts\n\nAdvanced techniques:\n- **APE (Automatic Prompt Engineer)**: Use AI to search the prompt space automatically\n- **Prompt compression**: Shorten prompts while maintaining effectiveness\n- **Cross-model adaptation**: Adapt prompts from one model to work with another\n\nMeta-prompting is particularly valuable for organizations building prompt libraries or optimizing AI-powered features at scale.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "optimization",
+        "automation"
+    ],
+    "category": "Techniques",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Prompt Optimization",
+        "Automatic Prompt Engineering",
+        "APE",
+        "Recursive Prompting"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "prompt-chaining",
+        "ai-mega-prompts",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Large Language Models Are Human-Level Prompt Engineers",
+            "url": "https://arxiv.org/abs/2211.01910",
+            "type": "paper"
+        }
+    ],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

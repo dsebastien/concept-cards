@@ -1,0 +1,40 @@
+{
+    "id": "role-prompting",
+    "name": "Role Prompting",
+    "summary": "A technique where you assign a specific persona, expertise, or character to an AI to shape its responses and behavior.",
+    "explanation": "Role prompting (also called persona prompting) involves instructing an AI to adopt a specific identity, expertise, or perspective before responding. By framing the AI as an expert, character, or professional, you can influence the style, depth, and focus of its outputs.\n\nCommon role prompting patterns:\n- **Expert roles**: \"You are a senior software architect with 20 years of experience...\"\n- **Professional personas**: \"Act as an executive coach helping a new manager...\"\n- **Creative characters**: \"You are a witty science communicator like Carl Sagan...\"\n- **Perspective-taking**: \"Respond as a skeptical reviewer looking for flaws...\"\n\nWhy role prompting works:\n- Activates relevant knowledge and vocabulary from training data\n- Sets appropriate tone and complexity level\n- Provides implicit constraints on response style\n- Helps maintain consistency across a conversation\n\nBest practices:\n- Be specific about expertise level and domain\n- Include relevant context the persona would have\n- Combine with other techniques (few-shot, CoT) for better results\n- Use constraints: \"As a minimalist designer, suggest only essential features\"\n\nLimitations:\n- The AI doesn't truly become the persona; it pattern-matches\n- Harmful personas should be avoided\n- Role conflicts can occur with safety guidelines\n\nRole prompting is foundational to creating effective AI assistants, chatbots, and specialized tools that need consistent personalities or expertise areas.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "creativity",
+        "communication"
+    ],
+    "category": "Techniques",
+    "icon": "FaUserTie",
+    "featured": false,
+    "aliases": [
+        "Persona Prompting",
+        "Character Prompting",
+        "Expert Prompting",
+        "Role-Playing Prompts"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "system-prompts",
+        "ai-master-prompt",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Role Prompting - Learn Prompting",
+            "url": "https://learnprompting.org/docs/basics/roles",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

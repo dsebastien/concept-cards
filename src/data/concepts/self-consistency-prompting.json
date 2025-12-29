@@ -1,0 +1,46 @@
+{
+    "id": "self-consistency-prompting",
+    "name": "Self-Consistency Prompting",
+    "summary": "A decoding strategy that samples multiple reasoning paths and selects the most consistent answer through majority voting.",
+    "explanation": "Self-consistency prompting improves Chain-of-Thought reasoning by sampling multiple diverse reasoning paths and selecting the answer that appears most frequently. Instead of relying on a single greedy decode, it leverages the intuition that correct reasoning paths are more likely to converge on the same answer.\n\nHow it works:\n1. **Generate multiple paths**: Use temperature sampling to generate several different reasoning chains for the same problem\n2. **Extract answers**: Parse the final answer from each reasoning path\n3. **Majority vote**: Select the answer that appears most frequently across all paths\n\nWhy it works:\n- Complex problems often have multiple valid reasoning approaches\n- Errors in reasoning tend to be random and don't consistently lead to the same wrong answer\n- Correct approaches naturally converge on the true answer\n\nImplementation considerations:\n- **Sample count**: Typically 5-40 samples; more samples generally improve accuracy but increase cost\n- **Temperature**: Higher temperature (0.5-1.0) encourages diverse reasoning paths\n- **Answer extraction**: Requires reliable parsing to extract comparable answers\n\nSelf-consistency is particularly effective for:\n- Mathematical reasoning\n- Commonsense reasoning\n- Tasks with verifiable answers\n- Problems where multiple solution approaches exist\n\nThis technique consistently outperforms single-path Chain-of-Thought across various benchmarks, trading computation for accuracy.",
+    "tags": [
+        "ai",
+        "prompting",
+        "reasoning",
+        "llm-techniques",
+        "reliability",
+        "ensemble-methods"
+    ],
+    "category": "Techniques",
+    "icon": "FaCheckDouble",
+    "featured": false,
+    "aliases": [
+        "Self-Consistency Decoding",
+        "Majority Voting Prompting",
+        "CoT-SC"
+    ],
+    "relatedConcepts": [
+        "chain-of-thought-prompting",
+        "tree-of-thought-prompting",
+        "prompt-engineering",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+            "url": "https://arxiv.org/abs/2203.11171",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "Self-Consistency - Prompt Engineering Guide",
+            "url": "https://www.promptingguide.ai/techniques/consistency",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

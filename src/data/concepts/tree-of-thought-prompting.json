@@ -1,0 +1,46 @@
+{
+    "id": "tree-of-thought-prompting",
+    "name": "Tree-of-Thought Prompting",
+    "summary": "A prompting technique that explores multiple reasoning paths in parallel, like a tree of possibilities, to find the best solution.",
+    "explanation": "Tree-of-Thought (ToT) prompting extends Chain-of-Thought by exploring multiple reasoning paths simultaneously rather than following a single linear path. Like a chess player considering various moves ahead, ToT generates several candidate approaches, evaluates each branch, and can backtrack when a path proves unproductive.\n\nThe technique works in three phases:\n1. **Thought Decomposition**: Break the problem into intermediate steps\n2. **Thought Generation**: At each step, generate multiple candidate thoughts/approaches\n3. **Evaluation and Search**: Assess which branches are most promising using breadth-first or depth-first search\n\nToT is particularly effective for:\n- Complex planning problems\n- Creative writing tasks requiring exploration\n- Mathematical proofs with multiple approaches\n- Game playing and strategic reasoning\n- Problems where the first approach might not be optimal\n\nImplementation approaches:\n- **Prompting-based**: Ask the model to consider multiple approaches and evaluate them\n- **Multi-turn**: Generate options, evaluate, then continue the best path\n- **Voting**: Generate multiple complete solutions and select the best\n\nExample prompt structure:\n\"Consider 3 different approaches to solve this. For each approach, outline the steps. Then evaluate which approach is most promising and why. Finally, execute the best approach.\"\n\nToT typically outperforms standard CoT on tasks requiring lookahead and backtracking, though it requires more computation.",
+    "tags": [
+        "ai",
+        "prompting",
+        "reasoning",
+        "llm-techniques",
+        "problem-solving",
+        "decision-making"
+    ],
+    "category": "Techniques",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "ToT Prompting",
+        "Tree of Thoughts",
+        "Multi-path Reasoning"
+    ],
+    "relatedConcepts": [
+        "chain-of-thought-prompting",
+        "self-consistency-prompting",
+        "prompt-engineering",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "url": "https://arxiv.org/abs/2305.10601",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "Tree of thought - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tree_of_thought",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

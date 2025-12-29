@@ -1,0 +1,41 @@
+{
+    "id": "system-prompts",
+    "name": "System Prompts",
+    "summary": "Initial instructions given to an AI that define its behavior, personality, constraints, and capabilities for the entire conversation.",
+    "explanation": "System prompts (or system messages) are foundational instructions provided to an AI at the start of a conversation that shape all subsequent interactions. Unlike user prompts that ask for specific tasks, system prompts define who the AI is and how it should behave.\n\nKey components of effective system prompts:\n- **Identity**: Who or what the AI should act as\n- **Capabilities**: What the AI can and should do\n- **Constraints**: What the AI should avoid or refuse\n- **Style guidelines**: Tone, verbosity, formatting preferences\n- **Context**: Background information relevant to all interactions\n\nSystem prompt structure patterns:\n```\nYou are [identity/role].\n\nYour purpose is to [primary goal].\n\nYou should:\n- [behavior 1]\n- [behavior 2]\n\nYou should not:\n- [constraint 1]\n- [constraint 2]\n\nFormat your responses as [format guidelines].\n```\n\nBest practices:\n- Place critical instructions at the beginning and end (primacy/recency effects)\n- Be explicit about edge cases and exceptions\n- Use clear, unambiguous language\n- Test against adversarial inputs\n- Iterate based on actual usage patterns\n\nSystem prompts are essential for:\n- Custom AI assistants and chatbots\n- Product-specific AI integrations\n- Maintaining consistent AI behavior\n- Implementing safety guardrails\n\nThe effectiveness of a system prompt significantly impacts user experience and safety.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "ai-safety",
+        "product-development"
+    ],
+    "category": "Techniques",
+    "icon": "FaCog",
+    "featured": false,
+    "aliases": [
+        "System Messages",
+        "System Instructions",
+        "Base Prompts",
+        "AI Configuration"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "role-prompting",
+        "ai-master-prompt",
+        "ai-safety",
+        "context-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "System Prompts - Anthropic Documentation",
+            "url": "https://docs.anthropic.com/claude/docs/system-prompts",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "net-promoter-score",
+    "name": "Net Promoter Score (NPS)",
+    "summary": "A metric measuring customer loyalty based on likelihood to recommend a product or service.",
+    "explanation": "Net Promoter Score distills customer satisfaction into a single number by asking: 'How likely are you to recommend us to a friend or colleague?' (0-10 scale). Respondents are categorized as Promoters (9-10), Passives (7-8), or Detractors (0-6). NPS = % Promoters - % Detractors, yielding a score from -100 to +100. Scores above 0 are generally good, above 50 excellent, and above 70 world-class. NPS is valuable because recommendation intent correlates with retention and referrals. The follow-up question 'Why?' provides qualitative insights for improvement. For creators and knowledge workers, tracking NPS on courses, products, or services reveals whether you're creating genuine fans or just satisfied customers.",
+    "tags": [
+        "metrics",
+        "customer-success",
+        "businesses",
+        "feedback",
+        "loyalty"
+    ],
+    "category": "Concepts",
+    "icon": "FaThumbsUp",
+    "featured": false,
+    "aliases": [
+        "NPS",
+        "Promoter score",
+        "Customer loyalty score"
+    ],
+    "relatedConcepts": [
+        "customer-journey",
+        "word-of-mouth",
+        "kpis",
+        "feedback-loops-of-encouragement",
+        "churn-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Ultimate Question 2.0 by Fred Reichheld and Rob Markey",
+            "url": "https://www.amazon.com/dp/1422173356?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Loyalty Effect by Frederick F. Reichheld",
+            "url": "https://www.amazon.com/dp/1578516870?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Net promoter score - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Net_promoter_score",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

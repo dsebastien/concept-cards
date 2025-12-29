@@ -1,0 +1,40 @@
+{
+    "id": "least-to-most-prompting",
+    "name": "Least-to-Most Prompting",
+    "summary": "A technique that decomposes complex problems into simpler subproblems, solving them in order from easiest to hardest.",
+    "explanation": "Least-to-Most Prompting is a problem-solving technique that breaks down complex problems into a sequence of simpler subproblems, solving them progressively from easiest to hardest. Each solution builds context for the next, enabling the model to tackle problems that exceed its single-step capabilities.\n\nThe two-phase approach:\n\n**Phase 1 - Decomposition**:\nPrompt: \"To solve [complex problem], what simpler problems do I need to solve first?\"\nOutput: List of ordered subproblems from simplest to most complex\n\n**Phase 2 - Sequential Solving**:\nFor each subproblem (easiest first):\n- Solve using previous solutions as context\n- Add solution to accumulated context\n- Proceed to next subproblem\n\nExample for \"How many tennis balls fit in a school bus?\":\n1. What are the dimensions of a tennis ball? → ~6.7cm diameter\n2. What are the interior dimensions of a school bus? → ~2.4m × 2m × 12m\n3. What's the volume of the bus interior? → ~57.6 cubic meters\n4. Accounting for packing efficiency (~64%), how many balls fit? → ~500,000\n\nKey benefits:\n- Enables solving problems beyond single-prompt capability\n- Each step is verifiable independently\n- Builds understanding progressively\n- Works well with compositional generalization\n\nLeast-to-Most is particularly effective for:\n- Mathematical word problems\n- Multi-step reasoning tasks\n- Symbolic reasoning\n- Tasks requiring compositional reasoning",
+    "tags": [
+        "ai",
+        "prompting",
+        "reasoning",
+        "llm-techniques",
+        "problem-solving",
+        "decomposition"
+    ],
+    "category": "Techniques",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Progressive Prompting",
+        "Decomposition Prompting",
+        "Subproblem Solving"
+    ],
+    "relatedConcepts": [
+        "chain-of-thought-prompting",
+        "prompt-chaining",
+        "tree-of-thought-prompting",
+        "prompt-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+            "url": "https://arxiv.org/abs/2205.10625",
+            "type": "paper"
+        }
+    ],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}
