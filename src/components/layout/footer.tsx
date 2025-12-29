@@ -13,7 +13,9 @@ import {
     FaLink,
     FaStickyNote,
     FaHistory,
-    FaTag
+    FaTag,
+    FaCodeBranch,
+    FaGithub
 } from 'react-icons/fa'
 import resourcesData from '@/data/resources.json'
 import socialsData from '@/data/socials.json'
@@ -171,6 +173,15 @@ const Footer: React.FC = () => {
                                     Disclaimer
                                 </Link>
                             </li>
+                            <li>
+                                <Link
+                                    to='/contributing'
+                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                >
+                                    <FaCodeBranch className='h-4 w-4' />
+                                    Contributing
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
@@ -206,6 +217,21 @@ const Footer: React.FC = () => {
                         >
                             Sébastien Dubois
                         </a>
+                    </p>
+                    <p className='mt-2 flex items-center justify-center gap-1'>
+                        <FaGithub className='h-4 w-4' />
+                        <a
+                            href='https://github.com/dsebastien/concept-cards'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='hover:text-secondary transition-colors'
+                        >
+                            Open Source
+                        </a>
+                        {' · '}
+                        <Link to='/contributing' className='hover:text-secondary transition-colors'>
+                            Contributions welcome
+                        </Link>
                     </p>
                 </div>
             </div>
