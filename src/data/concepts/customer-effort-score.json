@@ -1,0 +1,50 @@
+{
+    "id": "customer-effort-score",
+    "name": "Customer Effort Score (CES)",
+    "summary": "A metric measuring how much effort customers must expend to interact with your company.",
+    "explanation": "Customer Effort Score measures the ease of customer experience—how hard customers have to work to get what they need. Research shows that reducing effort is more predictive of loyalty than exceeding expectations. CES is typically measured by asking 'How easy was it to [complete task]?' on a 1-7 scale. High-effort experiences (complex processes, multiple contacts, confusing interfaces) drive customers away, while low-effort experiences build loyalty. Areas to measure include: purchasing, onboarding, getting support, finding information, and using features. For creators, CES might reveal: is it easy to purchase your course, access materials, get questions answered, or find specific content? Reducing friction everywhere improves retention and satisfaction.",
+    "tags": [
+        "customer-success",
+        "metrics",
+        "user-experience",
+        "businesses",
+        "feedback"
+    ],
+    "category": "Concepts",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "CES",
+        "Effort score",
+        "Ease of doing business"
+    ],
+    "relatedConcepts": [
+        "customer-satisfaction",
+        "net-promoter-score",
+        "customer-journey",
+        "user-experience",
+        "friction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Effortless Experience by Matthew Dixon",
+            "url": "https://www.amazon.com/dp/1591845815?tag=dsebastien00-20"
+        },
+        {
+            "title": "Don't Make Me Think by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321965515?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Customer effort score - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Customer_effort_score",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

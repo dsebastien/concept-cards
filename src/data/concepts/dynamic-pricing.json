@@ -1,0 +1,50 @@
+{
+    "id": "dynamic-pricing",
+    "name": "Dynamic Pricing",
+    "summary": "Adjusting prices in real-time based on demand, competition, customer segments, or other factors.",
+    "explanation": "Dynamic pricing changes prices based on market conditions rather than keeping them fixed. Examples include: airline seats (prices rise as flights fill), ride-sharing surge pricing, hotel rates (weekends vs weekdays), and e-commerce personalization. Factors driving price changes include: demand levels, time until event/deadline, customer segment, competitor pricing, inventory levels, and time of day. Dynamic pricing maximizes revenue by capturing more value when demand is high and stimulating demand when it's low. For creators, dynamic pricing might mean: early-bird pricing, launch discounts, seasonal promotions, or tiered pricing as course cohorts fill. Transparency matters—customers accept dynamic pricing better when they understand the logic.",
+    "tags": [
+        "pricing",
+        "businesses",
+        "strategies",
+        "economics",
+        "revenue"
+    ],
+    "category": "Concepts",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Surge pricing",
+        "Demand pricing",
+        "Real-time pricing"
+    ],
+    "relatedConcepts": [
+        "pricing-strategies",
+        "scarcity",
+        "price-elasticity",
+        "revenue-optimization",
+        "psychological-pricing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Strategy and Tactics of Pricing by Thomas Nagle",
+            "url": "https://www.amazon.com/dp/1138737518?tag=dsebastien00-20"
+        },
+        {
+            "title": "Pricing Strategy by Tim Smith",
+            "url": "https://www.amazon.com/dp/0324178905?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Dynamic pricing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dynamic_pricing",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

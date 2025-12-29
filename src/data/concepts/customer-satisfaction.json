@@ -1,0 +1,50 @@
+{
+    "id": "customer-satisfaction",
+    "name": "Customer Satisfaction (CSAT)",
+    "summary": "A metric measuring how products or services meet or exceed customer expectations.",
+    "explanation": "Customer Satisfaction (CSAT) measures immediate happiness with a specific interaction, product, or experience. Typically measured through surveys asking 'How satisfied were you?' on a 1-5 scale, CSAT captures point-in-time sentiment. CSAT differs from NPS (which measures loyalty/recommendation) and CES (which measures effort required). High CSAT indicates you're meeting expectations; low CSAT signals problems needing attention. Track CSAT after key touchpoints: purchase, support interaction, feature use, or course completion. For creators, CSAT might measure: satisfaction with a course module, support response, or product quality. The follow-up question 'What could we improve?' transforms scores into actionable insights. CSAT is a leading indicator—satisfaction today predicts retention tomorrow.",
+    "tags": [
+        "customer-success",
+        "metrics",
+        "businesses",
+        "feedback",
+        "quality"
+    ],
+    "category": "Concepts",
+    "icon": "FaThumbsUp",
+    "featured": false,
+    "aliases": [
+        "CSAT",
+        "Satisfaction score",
+        "Customer happiness"
+    ],
+    "relatedConcepts": [
+        "net-promoter-score",
+        "customer-effort-score",
+        "customer-success",
+        "customer-retention",
+        "feedback-loops-of-encouragement"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Effortless Experience by Matthew Dixon",
+            "url": "https://www.amazon.com/dp/1591845815?tag=dsebastien00-20"
+        },
+        {
+            "title": "Measuring Customer Satisfaction by Bob Hayes",
+            "url": "https://www.amazon.com/dp/0873893190?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Customer satisfaction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Customer_satisfaction",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

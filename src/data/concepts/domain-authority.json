@@ -1,0 +1,46 @@
+{
+    "id": "domain-authority",
+    "name": "Domain Authority",
+    "summary": "A metric predicting how well a website will rank in search engine results.",
+    "explanation": "Domain Authority (DA) is a score (1-100) developed by Moz that predicts a website's ranking ability. While not a Google ranking factor, it correlates with ranking potential. DA considers: number and quality of linking domains, relevance of linking sites, and overall link profile health. Higher DA sites generally rank more easily for competitive terms. Building DA requires: creating valuable content that earns links, getting featured on authoritative sites, and consistent quality over time. DA is relative—a new site with DA 20 won't outrank established DA 80 competitors on competitive terms, but can win on long-tail queries. For creators, DA awareness helps set realistic ranking expectations and identify link building opportunities with achievable targets.",
+    "tags": [
+        "seo",
+        "metrics",
+        "digital",
+        "marketing",
+        "authority"
+    ],
+    "category": "Concepts",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "DA",
+        "Website authority",
+        "Site authority"
+    ],
+    "relatedConcepts": [
+        "link-building",
+        "seo",
+        "authority-building",
+        "topical-authority",
+        "e-e-a-t"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Domain Authority - Moz",
+            "url": "https://moz.com/learn/seo/domain-authority",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "cost-per-acquisition",
+    "name": "Cost Per Acquisition (CPA)",
+    "summary": "The total cost to acquire a single paying customer through marketing efforts.",
+    "explanation": "Cost Per Acquisition measures what it costs to convert someone into a customer—the bottom line of marketing efficiency. Calculate CPA as: Total marketing spend ÷ Number of new customers acquired. CPA includes all costs: advertising, content creation, tools, and sometimes labor. It differs from CPL because it measures actual customers, not just leads. CPA must be evaluated against customer lifetime value (LTV)—a sustainable business typically has LTV:CPA ratio of 3:1 or better. Reducing CPA involves: improving conversion rates throughout the funnel, better targeting, optimizing channels, and reducing wasted spend. For creators, tracking CPA by channel reveals which marketing efforts actually pay off versus which just feel productive.",
+    "tags": [
+        "marketing",
+        "metrics",
+        "businesses",
+        "analytics",
+        "growth"
+    ],
+    "category": "Concepts",
+    "icon": "FaDollarSign",
+    "featured": false,
+    "aliases": [
+        "CPA",
+        "Acquisition cost",
+        "Cost per customer"
+    ],
+    "relatedConcepts": [
+        "customer-acquisition-cost",
+        "cost-per-lead",
+        "lifetime-value",
+        "marketing-roi",
+        "conversion-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Lean Analytics by Alistair Croll and Benjamin Yoskovitz",
+            "url": "https://www.amazon.com/dp/1449335675?tag=dsebastien00-20"
+        },
+        {
+            "title": "Data-Driven Marketing by Mark Jeffery",
+            "url": "https://www.amazon.com/dp/0470504544?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cost per acquisition - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cost_per_action",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

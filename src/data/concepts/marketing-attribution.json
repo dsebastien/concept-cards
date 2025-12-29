@@ -1,0 +1,50 @@
+{
+    "id": "marketing-attribution",
+    "name": "Marketing Attribution",
+    "summary": "Determining which marketing touchpoints contribute to conversions and how to credit them.",
+    "explanation": "Marketing attribution assigns credit for conversions across the customer journey touchpoints—ads, content, emails, referrals, and more. Attribution models include: first-touch (credit first interaction), last-touch (credit final interaction), linear (equal credit to all), time-decay (more credit to recent touches), and data-driven (algorithmic weighting). Attribution is challenging because: customers use multiple devices, journeys are non-linear, some touchpoints assist without converting, and privacy changes limit tracking. Understanding attribution helps allocate budget effectively—without it, you might over-invest in last-touch channels while undervaluing awareness-building activities. For creators, even simple attribution (asking 'how did you find us?') reveals which channels actually drive sales.",
+    "tags": [
+        "marketing",
+        "analytics",
+        "metrics",
+        "businesses",
+        "strategies"
+    ],
+    "category": "Concepts",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Attribution modeling",
+        "Multi-touch attribution",
+        "Marketing measurement"
+    ],
+    "relatedConcepts": [
+        "customer-journey",
+        "marketing-roi",
+        "conversion-rate",
+        "sales-funnel",
+        "customer-acquisition-cost"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Marketing Attribution by Neil Hoyne",
+            "url": "https://www.amazon.com/dp/1735076600?tag=dsebastien00-20"
+        },
+        {
+            "title": "Data-Driven Marketing by Mark Jeffery",
+            "url": "https://www.amazon.com/dp/0470504544?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Attribution (marketing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Attribution_(marketing)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

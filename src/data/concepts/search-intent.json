@@ -1,0 +1,50 @@
+{
+    "id": "search-intent",
+    "name": "Search Intent",
+    "summary": "The underlying goal or purpose behind a user's search query.",
+    "explanation": "Search intent (or user intent) is what someone actually wants when they type a query. Google increasingly ranks content that best matches intent, not just keywords. Four main types: Informational (wanting to learn—'how to bake bread'), Navigational (finding a specific site—'Twitter login'), Transactional (ready to buy—'buy iPhone 15'), and Commercial investigation (researching before purchase—'best laptop 2024'). Matching content to intent is crucial: informational queries need comprehensive guides, transactional queries need product pages with clear CTAs. Mismatched intent leads to high bounce rates and poor rankings. For creators, understanding intent helps create content that truly serves searchers—an informational article shouldn't push sales; a product page shouldn't bury the buy button.",
+    "tags": [
+        "seo",
+        "content",
+        "user-experience",
+        "marketing",
+        "research"
+    ],
+    "category": "Concepts",
+    "icon": "FaBullseye",
+    "featured": false,
+    "aliases": [
+        "User intent",
+        "Query intent",
+        "Searcher intent"
+    ],
+    "relatedConcepts": [
+        "keyword-research",
+        "seo",
+        "content-marketing",
+        "customer-journey",
+        "bounce-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        },
+        {
+            "title": "Product-Led SEO by Eli Schwartz",
+            "url": "https://www.amazon.com/dp/B0BHG6PF4V?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Search intent - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Web_search_query#Intent",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

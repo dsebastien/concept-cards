@@ -1,0 +1,50 @@
+{
+    "id": "click-through-rate",
+    "name": "Click-Through Rate (CTR)",
+    "summary": "The percentage of people who click on a link or ad after seeing it.",
+    "explanation": "Click-Through Rate measures the effectiveness of getting people to take the next step—clicking from an impression to your destination. Calculate CTR as: (Clicks ÷ Impressions) × 100. CTR applies to: ads (how compelling is the creative?), email (how engaging is the subject line?), search results (how relevant is the title?), and social posts (how clickable is the content?). What constitutes 'good' CTR varies dramatically by context—2% for display ads might be excellent while 20% for email might be concerning. Improving CTR involves: better headlines, more relevant targeting, clearer value propositions, and stronger calls to action. CTR is a leading indicator—high CTR with low conversion might indicate clickbait; optimize both together.",
+    "tags": [
+        "marketing",
+        "metrics",
+        "analytics",
+        "digital",
+        "businesses"
+    ],
+    "category": "Concepts",
+    "icon": "FaMousePointer",
+    "featured": false,
+    "aliases": [
+        "CTR",
+        "Click rate",
+        "Click percentage"
+    ],
+    "relatedConcepts": [
+        "conversion-rate",
+        "copywriting",
+        "a-b-testing",
+        "email-marketing",
+        "sem-ppc"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Web Analytics 2.0 by Avinash Kaushik",
+            "url": "https://www.amazon.com/dp/0470529393?tag=dsebastien00-20"
+        },
+        {
+            "title": "Data-Driven Marketing by Mark Jeffery",
+            "url": "https://www.amazon.com/dp/0470504544?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Click-through rate - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Click-through_rate",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

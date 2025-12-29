@@ -1,0 +1,51 @@
+{
+    "id": "core-web-vitals",
+    "name": "Core Web Vitals",
+    "summary": "Google's metrics measuring page load performance, interactivity, and visual stability of web pages.",
+    "explanation": "Core Web Vitals are Google's standardized metrics for page experience, now a ranking factor. The three metrics are: Largest Contentful Paint (LCP)—how long until the main content loads (target: under 2.5 seconds); First Input Delay (FID) / Interaction to Next Paint (INP)—how quickly pages respond to interactions (target: under 100ms); and Cumulative Layout Shift (CLS)—how much the page layout shifts unexpectedly (target: under 0.1). Improving Core Web Vitals involves: optimizing images, minimizing JavaScript, using content delivery networks, avoiding layout shifts from ads or dynamic content, and efficient hosting. For creators, Core Web Vitals matter because slow, janky sites rank worse and frustrate users—choose platforms and designs that perform well.",
+    "tags": [
+        "seo",
+        "technical",
+        "performance",
+        "web",
+        "user-experience"
+    ],
+    "category": "Concepts",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "CWV",
+        "Page experience signals",
+        "Web performance metrics"
+    ],
+    "relatedConcepts": [
+        "technical-seo",
+        "seo",
+        "user-experience",
+        "page-speed",
+        "bounce-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "High Performance Web Sites by Steve Souders",
+            "url": "https://www.amazon.com/dp/0596529309?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Core Web Vitals - Google",
+            "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+            "type": "website"
+        },
+        {
+            "title": "Core Web Vitals - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Core_Web_Vitals",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "featured-snippets",
+    "name": "Featured Snippets",
+    "summary": "Selected search results displayed prominently at the top of Google's results, extracted from webpage content.",
+    "explanation": "Featured snippets (also called 'position zero') are special search results that appear above regular listings, showing an extracted answer directly in results. Types include: paragraph snippets (text answers), list snippets (numbered or bulleted lists), table snippets (data in table format), and video snippets. Winning featured snippets requires: directly answering the query, proper formatting (headers, lists), concise answers (40-60 words for paragraphs), and ranking already on page one. Featured snippets provide massive visibility but can also reduce clicks (users get the answer without visiting). For creators, optimizing for snippets involves: identifying snippet opportunities, structuring content to answer questions clearly, and using appropriate HTML formatting. They're especially valuable for establishing expertise.",
+    "tags": [
+        "seo",
+        "content",
+        "visibility",
+        "digital",
+        "marketing"
+    ],
+    "category": "Concepts",
+    "icon": "FaStar",
+    "featured": false,
+    "aliases": [
+        "Position zero",
+        "Answer boxes",
+        "Rich snippets"
+    ],
+    "relatedConcepts": [
+        "seo",
+        "search-intent",
+        "content-marketing",
+        "zero-click-searches",
+        "schema-markup"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Featured snippets - Google",
+            "url": "https://developers.google.com/search/docs/appearance/featured-snippets",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}

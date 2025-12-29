@@ -132,7 +132,21 @@ import {
     FaPenFancy,
     FaLaptop,
     FaEdit,
-    FaFlask
+    FaFlask,
+    FaPhoneAlt,
+    FaRunning,
+    FaFlagCheckered,
+    FaPalette,
+    FaCommentAlt,
+    FaShareAlt,
+    FaEnvelopeOpenText,
+    FaMedal,
+    FaUserPlus,
+    FaUserCheck,
+    FaUserTag,
+    FaSignOutAlt,
+    FaAward,
+    FaCrown
 } from 'react-icons/fa'
 import { SiObsidian, SiSubstack, SiBluesky } from 'react-icons/si'
 import { FaXTwitter, FaThreads } from 'react-icons/fa6'
@@ -271,6 +285,20 @@ const iconMap: Record<string, IconType> = {
     FaLaptop,
     FaEdit,
     FaFlask,
+    FaPhoneAlt,
+    FaRunning,
+    FaFlagCheckered,
+    FaPalette,
+    FaCommentAlt,
+    FaShareAlt,
+    FaEnvelopeOpenText,
+    FaMedal,
+    FaUserPlus,
+    FaUserCheck,
+    FaUserTag,
+    FaSignOutAlt,
+    FaAward,
+    FaCrown,
     SiObsidian,
     SiSubstack,
     SiBluesky,
@@ -416,7 +444,21 @@ const iconColors: Record<string, string> = {
     FaPenFancy: 'text-violet-400',
     FaLaptop: 'text-blue-400',
     FaEdit: 'text-amber-400',
-    FaFlask: 'text-green-400'
+    FaFlask: 'text-green-400',
+    FaPhoneAlt: 'text-blue-400',
+    FaRunning: 'text-green-400',
+    FaFlagCheckered: 'text-purple-400',
+    FaPalette: 'text-pink-400',
+    FaCommentAlt: 'text-blue-400',
+    FaShareAlt: 'text-cyan-400',
+    FaEnvelopeOpenText: 'text-amber-400',
+    FaMedal: 'text-yellow-400',
+    FaUserPlus: 'text-green-400',
+    FaUserCheck: 'text-green-400',
+    FaUserTag: 'text-purple-400',
+    FaSignOutAlt: 'text-red-400',
+    FaAward: 'text-yellow-400',
+    FaCrown: 'text-yellow-400'
 }
 
 // Category fallback icons (emojis)

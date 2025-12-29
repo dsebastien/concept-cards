@@ -1,0 +1,51 @@
+{
+    "id": "schema-markup",
+    "name": "Schema Markup",
+    "summary": "Structured data code that helps search engines understand page content and display rich results.",
+    "explanation": "Schema markup (structured data) is code added to pages that explicitly tells search engines what content means—not just what it says. Using vocabulary from Schema.org, you can mark up: articles (author, date, headline), products (price, availability, reviews), events (date, location), people (job title, organization), FAQs, how-tos, and more. Benefits include: rich results in search (star ratings, prices, event dates displayed), better content understanding, and potential ranking benefits. Implementation uses JSON-LD (recommended), Microdata, or RDFa formats. For creators, schema markup helps content stand out in search results and clearly communicates what pages contain—marking up articles with author info, courses with pricing and ratings, or FAQs with question-answer pairs.",
+    "tags": [
+        "seo",
+        "technical",
+        "web",
+        "digital",
+        "development"
+    ],
+    "category": "Techniques",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Structured data",
+        "Rich snippets markup",
+        "Schema.org"
+    ],
+    "relatedConcepts": [
+        "technical-seo",
+        "featured-snippets",
+        "seo",
+        "rich-results",
+        "semantic-web"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Schema.org",
+            "url": "https://schema.org/",
+            "type": "website"
+        },
+        {
+            "title": "Structured data - Google",
+            "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-29",
+    "dateModified": "2025-12-29"
+}
