@@ -1,3 +1,10 @@
+## [7.9.0](https://github.com/dsebastien/concept-cards/compare/7.8.0...7.9.0) (2025-12-29)
+
+### Features
+
+* **all:** added plan for gamification ([b1111a3](https://github.com/dsebastien/concept-cards/commit/b1111a3f44e92a03aaf5d5a0cf6fe617d0a3d36a))
+* **all:** updated ([4381ffa](https://github.com/dsebastien/concept-cards/commit/4381ffab9e28124accae20f4360a2b5101fc8be7))
+* **all:** updated ([65c2bde](https://github.com/dsebastien/concept-cards/commit/65c2bde1f1e0c644fadd9022d916e2f833f781ab))
 ## [7.8.0](https://github.com/dsebastien/concept-cards/compare/7.7.0...7.8.0) (2025-12-29)
 
 ### Bug Fixes
