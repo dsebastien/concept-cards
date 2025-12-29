@@ -1,3 +1,8 @@
+## [7.8.0](https://github.com/dsebastien/concept-cards/compare/7.7.0...7.8.0) (2025-12-29)
+
+### Bug Fixes
+
+* **all:** fixed release scripts ([b40b627](https://github.com/dsebastien/concept-cards/commit/b40b6279e40e32634ee6fa51da06d0ee007b26c7))
 ## [7.7.0](https://github.com/dsebastien/concept-cards/compare/7.6.0...7.7.0) (2025-12-29)
 ## [7.6.0](https://github.com/dsebastien/concept-cards/compare/7.5.0...7.6.0) (2025-12-29)
 ## [7.5.0](https://github.com/dsebastien/concept-cards/compare/7.4.0...7.5.0) (2025-12-29)
