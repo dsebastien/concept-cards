@@ -1,29 +1,33 @@
 {
     "id": "impostor-syndrome",
     "name": "Impostor Syndrome",
-    "summary": "Persistent self-doubt and feeling like a fraud despite evidence of competence.",
-    "explanation": "Impostor Syndrome is the persistent feeling of being a fraud, doubting your accomplishments, and fearing being exposed as incompetent despite evidence of your abilities. It's particularly common among high achievers and knowledge workers. In the context of PKM and content creation, impostor syndrome can prevent people from sharing their knowledge, publishing their work, or claiming expertise. Recognizing that even experts feel this way, and that learning in public is valuable, helps overcome these feelings.",
+    "summary": "A psychological pattern where individuals doubt their accomplishments and have a persistent fear of being exposed as a fraud despite evidence of their competence.",
+    "explanation": "Impostor Syndrome is a psychological pattern in which individuals doubt their accomplishments, skills, or talents and have a persistent internalized fear of being exposed as a fraud. Despite external evidence of their competence—such as promotions, awards, or positive feedback—those experiencing impostor syndrome remain convinced that they do not deserve their success and attribute it to luck, timing, or deceiving others into thinking they are more capable than they believe themselves to be.\n\nThe phenomenon was first identified and named by psychologists Pauline Rose Clance and Suzanne Imes in their 1978 paper 'The Impostor Phenomenon in High Achieving Women.' Their research initially focused on high-achieving women who, despite objective evidence of accomplishment, believed they were not intelligent and had fooled anyone who thought otherwise. Subsequent research has shown that impostor syndrome affects people of all genders, though the experience may vary across demographics and contexts.\n\nImpostor syndrome is particularly prevalent among high achievers and knowledge workers—people who have succeeded in competitive environments often experience it most intensely. This seems paradoxical, but success can amplify feelings of fraudulence because each achievement raises the stakes and expectations. Graduate students, academics, executives, entrepreneurs, software developers, and creative professionals frequently report impostor feelings.\n\nClance identified several common patterns associated with impostor syndrome: the perfectionist who sets impossibly high standards and feels like a failure when they fall short; the expert who feels they need to know everything before starting; the natural genius who believes competence should come effortlessly; the soloist who refuses help to prove their worth; and the superhero who pushes themselves to work harder than others to cover up perceived inadequacies.\n\nThe consequences of impostor syndrome can be significant. It can lead to chronic anxiety, burnout, depression, and career self-sabotage. People may turn down opportunities, avoid challenges, or overwork themselves to compensate for perceived deficiencies. In knowledge management and content creation, impostor syndrome often prevents people from sharing their knowledge, publishing their work, or claiming expertise—robbing others of valuable insights.\n\nStrategies to overcome impostor syndrome include: acknowledging and naming the feelings rather than suppressing them; keeping a record of accomplishments and positive feedback; recognizing that even experts feel this way (the phenomenon is nearly universal among high achievers); reframing failure as learning; sharing feelings with trusted peers who can provide reality checks; embracing 'learning in public' to normalize the growth process; practicing self-compassion; and challenging the internal narrative by examining evidence objectively. Understanding the Dunning-Kruger effect can also help—feeling uncertain about your abilities may actually indicate greater expertise, as true experts are more aware of what they don't know.",
     "tags": [
+        "cognitive-biases",
         "psychology",
-        "personal-growth",
-        "productivity"
+        "self-perception",
+        "careers",
+        "personal-growth"
     ],
-    "category": "Concepts",
-    "icon": "FaMask",
+    "category": "Principles",
+    "icon": "FaBrain",
     "featured": false,
     "aliases": [
-        "Imposter syndrome",
-        "Fraud syndrome"
+        "Impostor Phenomenon",
+        "Fraud Syndrome",
+        "Imposter Syndrome"
     ],
     "relatedConcepts": [
         "dunning-kruger-effect",
+        "self-serving-bias",
+        "perfectionism",
         "embrace-imperfection",
         "growth-mindset",
-        "perfectionism",
-        "who-knows-anyway",
-        "camera-confidence-tips",
-        "phases-of-camera-confidence",
-        "confidence-and-progress"
+        "self-compassion",
+        "fear-of-failure",
+        "inner-critic",
+        "spotlight-effect"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Impostor+syndrome"
@@ -31,8 +35,12 @@
     "articles": [],
     "books": [
         {
-            "title": "Think Again",
-            "url": "https://amzn.to/3ZG2Oq1"
+            "title": "The Secret Thoughts of Successful Women by Valerie Young",
+            "url": "https://www.amazon.com/dp/0307452719?tag=dsebastien00-20"
+        },
+        {
+            "title": "Think Again by Adam Grant",
+            "url": "https://www.amazon.com/dp/1984878107?tag=dsebastien00-20"
         }
     ],
     "references": [
@@ -42,37 +50,12 @@
             "type": "website"
         },
         {
-            "title": "Knowii Community",
-            "url": "https://store.dsebastien.net/l/knowii",
-            "type": "other"
-        },
-        {
-            "title": "Obsidian Starter Kit",
-            "url": "https://store.dsebastien.net/l/obsidian-starter-kit",
-            "type": "other"
-        },
-        {
-            "title": "Obsidian Starter Course",
-            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Worker Kit",
-            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
-            "type": "other"
-        },
-        {
-            "title": "Personal Knowledge Management Coaching",
-            "url": "https://store.dsebastien.net/l/pkm-coaching",
-            "type": "other"
-        },
-        {
-            "title": "DeveloPassion Newsletter",
-            "url": "https://dsebastien.net/newsletter",
-            "type": "other"
+            "title": "The Impostor Phenomenon in High Achieving Women - Clance & Imes (1978)",
+            "url": "https://www.paulineroseclance.com/pdf/ip_high_achieving_women.pdf",
+            "type": "paper"
         }
     ],
     "tutorials": [],
     "datePublished": "2025-12-26",
-    "dateModified": "2025-12-28"
+    "dateModified": "2025-12-30"
 }

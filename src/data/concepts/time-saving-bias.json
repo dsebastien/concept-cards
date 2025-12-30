@@ -1,0 +1,33 @@
+{
+    "id": "time-saving-bias",
+    "name": "Time-Saving Bias",
+    "summary": "The tendency to misestimate the time saved when increasing speed, typically overestimating savings at low speeds and underestimating at high speeds.",
+    "explanation": "The Time-Saving Bias is a cognitive bias where people systematically misjudge how much time they will save (or lose) when changing their travel speed. Specifically, people tend to overestimate time savings when increasing from a low speed and underestimate savings when increasing from a high speed.\n\nThe mathematical reality behind this bias is counterintuitive. Time saved is not linear with speed increases - it follows a hyperbolic function. For example, increasing speed from 30 to 40 mph on a 60-mile journey saves 30 minutes (from 2 hours to 1.5 hours). But increasing from 60 to 70 mph on the same journey saves only about 8.5 minutes (from 1 hour to ~51 minutes). The same 10 mph increase yields vastly different time savings depending on your starting speed.\n\nThis bias has significant road safety implications. Drivers often speed because they believe it will save substantial time, but at highway speeds, the actual time saved is minimal while the risks increase dramatically. Going from 70 to 80 mph on a 30-mile commute saves only about 3 minutes, yet significantly increases stopping distance, accident severity, and fuel consumption.\n\nTo think more accurately about travel time: (1) Use the formula Time = Distance / Speed to calculate actual savings; (2) Remember that at higher speeds, each additional mph saves proportionally less time; (3) Consider that the few minutes potentially saved rarely justify increased risks and stress; (4) Plan departures with adequate buffer time rather than relying on speeding to make up time. Understanding this bias helps make more rational decisions about speed and reduces the false urgency that leads to dangerous driving behavior.",
+    "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "perceptions",
+        "psychology",
+        "risks"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "planning-fallacy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Time-saving bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Time-saving_bias",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

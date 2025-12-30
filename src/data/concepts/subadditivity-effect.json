@@ -1,0 +1,42 @@
+{
+    "id": "subadditivity-effect",
+    "name": "Subadditivity Effect",
+    "summary": "The tendency to judge the probability of an event as less than the sum of its parts, or to estimate that the parts of a category are greater than the whole.",
+    "explanation": "The Subadditivity Effect is a cognitive bias in which people estimate that the probability of a whole category or event is less than the sum of the probabilities of its constituent parts. When a general category is 'unpacked' into specific components, the total estimated probability of those components typically exceeds the estimate for the category as a whole. This violates the logical principle that P(A) should equal P(A1) + P(A2) + ... + P(An) when A1 through An are mutually exclusive and exhaustive partitions of A.\n\nA classic demonstration involves asking people to estimate the probability of dying from 'natural causes.' When asked directly, people might estimate this at 60%. However, when asked to separately estimate deaths from heart disease, cancer, stroke, diabetes, and other natural causes, the individual estimates often sum to 80% or more. The unpacked version triggers more thorough consideration of specific scenarios, each of which brings relevant examples to mind and increases perceived likelihood.\n\nThis effect occurs because of the availability heuristic: when we think about specific categories, relevant instances come more easily to mind. A general category like 'unnatural death' is abstract and hard to visualize. But when unpacked into 'car accidents, drowning, poisoning, falls, homicide, and other accidents,' each specific cause evokes concrete images and memories, making each seem more probable. The vividness and specificity of unpacked categories increases their psychological salience and estimated likelihood.\n\nThe subadditivity effect has significant implications for forecasting and planning. In project management, if you ask for the probability of a project succeeding, you might get an optimistic estimate. But if you ask about the probability of avoiding each specific failure mode - technical problems, budget overruns, team turnover, scope creep, and external disruptions - the probabilities of each being avoided multiply to produce a much lower overall success estimate. This is why pre-mortem exercises and detailed risk assessments often reveal dangers that holistic judgments miss.\n\nIn legal contexts, unpacking charges into specific elements can make guilt seem more certain (or more doubtful) than a general verdict would suggest. In medicine, listing specific symptoms that could indicate a disease makes the diagnosis seem more probable than asking about the disease directly. Insurance companies exploit this bias by offering coverage for 'death by any cause' at premiums based on combined specific-cause estimates.\n\nTo counteract the subadditivity effect: be aware that detailed breakdowns inflate probability estimates; when planning, use both top-down (holistic) and bottom-up (unpacked) estimates and reconcile the differences; recognize that vivid, specific scenarios feel more probable than they actually are; and apply formal probability theory when accuracy matters more than intuition.",
+    "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "estimations",
+        "judgments",
+        "probability",
+        "psychology"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Unpacking Effect"
+    ],
+    "relatedConcepts": [
+        "conjunction-fallacy",
+        "availability-heuristic"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Subadditivity Effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Subadditivity_effect",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}
