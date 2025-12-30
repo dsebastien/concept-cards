@@ -312,14 +312,60 @@ done
 
 The available categories for concepts:
 
-| Category     | Description                                      |
-| ------------ | ------------------------------------------------ |
-| `Methods`    | Note-taking and knowledge management methods     |
-| `Systems`    | Complete PKM systems and frameworks              |
-| `Principles` | Fundamental principles and best practices        |
-| `Techniques` | Specific techniques for knowledge work           |
-| `Tools`      | Tool-related concepts (not the tools themselves) |
-| `Frameworks` | Organizational and thinking frameworks           |
+| Category                     | Description                                            |
+| ---------------------------- | ------------------------------------------------------ |
+| `Methods`                    | Note-taking and knowledge management methods           |
+| `Systems`                    | Complete PKM systems and frameworks                    |
+| `Tools`                      | Tool-related concepts (not the tools themselves)       |
+| `Principles`                 | Fundamental principles and best practices              |
+| `Techniques`                 | Specific techniques for knowledge work                 |
+| `Frameworks`                 | Organizational and thinking frameworks                 |
+| `Cognitive Biases`           | Systematic errors in thinking and judgment             |
+| `Psychology & Mental Models` | Psychological concepts and mental frameworks           |
+| `Philosophy & Wisdom`        | Philosophical concepts and wisdom traditions           |
+| `Well-Being & Happiness`     | Mental health, happiness, and well-being practices     |
+| `Decision Science`           | Decision-making frameworks and problem-solving         |
+| `Business & Economics`       | Business concepts, marketing, and economics            |
+| `Leadership & Management`    | Leadership, management, and organizational concepts    |
+| `Learning & Education`       | Learning strategies, memory, and education             |
+| `Writing & Content Creation` | Writing techniques and content creation                |
+| `Attention & Focus`          | Attention management and focus strategies              |
+| `Communication`              | Communication skills and practices                     |
+| `Thinking`                   | Cognitive approaches and thinking strategies           |
+| `Software Development`       | Software engineering concepts                          |
+| `Productivity`               | Productivity and efficiency concepts                   |
+| `AI`                         | Artificial intelligence concepts                       |
+| `Journaling`                 | Journaling practices and techniques                    |
+| `Concepts`                   | General concepts that don't fit specialized categories |
+
+### Category Assignment Guidelines
+
+When adding new concepts, use these criteria to determine the category:
+
+1. **Check specialized categories first** - If concept matches a specialized category (Psychology, Philosophy, etc.), use it instead of generic categories
+2. **Primary focus determines category** - If concept has multiple themes, choose category based on primary focus
+3. **Prefer specialized over generic** - Use Concepts category only if no specialized category fits
+4. **Tag alignment** - Category should align with the concept's tags
+
+**Decision tree:**
+
+- Is it a cognitive bias? → Cognitive Biases
+- Is it primarily psychological? → Psychology & Mental Models
+- Is it philosophical/wisdom? → Philosophy & Wisdom
+- Is it about well-being/happiness? → Well-Being & Happiness
+- Is it about business/economics? → Business & Economics
+- Is it about decision-making? → Decision Science
+- Is it about leadership/management? → Leadership & Management
+- Is it about learning/education? → Learning & Education
+- Is it about writing/content? → Writing & Content Creation
+- Is it about attention/focus? → Attention & Focus
+- Is it about communication? → Communication
+- Is it a systematic approach with steps? → Methods
+- Is it a complete system/framework? → Systems or Frameworks
+- Is it a fundamental principle/law? → Principles
+- Is it a specific actionable technique? → Techniques
+- Is it tool-related? → Tools
+- Otherwise → Concepts (minimize this)
 
 ## Icons
 

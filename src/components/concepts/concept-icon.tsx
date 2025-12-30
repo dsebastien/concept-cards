@@ -469,7 +469,23 @@ const categoryFallbacks: Record<string, string> = {
     'Techniques': '🛠️',
     'Tools': '🔧',
     'Frameworks': '🏗️',
-    'Software Development': '💻'
+    'Software Development': '💻',
+    'Cognitive Biases': '🧩',
+    'Psychology & Mental Models': '🧠',
+    'Philosophy & Wisdom': '🦉',
+    'Well-Being & Happiness': '😊',
+    'Decision Science': '⚖️',
+    'Business & Economics': '💼',
+    'Leadership & Management': '👥',
+    'Learning & Education': '🎓',
+    'Writing & Content Creation': '✍️',
+    'Attention & Focus': '🎯',
+    'Communication': '💬',
+    'Thinking': '🤔',
+    'Productivity': '⚡',
+    'AI': '🤖',
+    'Journaling': '📔',
+    'Concepts': '📚'
 }
 
 const sizeClasses = {
