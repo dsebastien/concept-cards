@@ -9,4 +9,5 @@ export interface ConceptDetailModalProps {
     onTagClick: (tag: string) => void
     onCategoryClick: (category: string) => void
     isExplored?: (conceptId: string) => boolean
+    hidePreviousButton?: boolean
 }

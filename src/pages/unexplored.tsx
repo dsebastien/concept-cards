@@ -34,8 +34,8 @@ const UnexploredPage: React.FC = () => {
 
     const handleShowDetails = useCallback((concept: Concept) => {
         setSelectedConcept(concept)
-        // Update URL for shareability without navigation
-        window.history.pushState({}, '', `/concept/${concept.id}?from=/unexplored`)
+        // Update URL to canonical format for shareability
+        window.history.pushState({}, '', `/concept/${concept.id}`)
     }, [])
 
     const handleCloseDetails = useCallback(() => {
@@ -47,7 +47,7 @@ const UnexploredPage: React.FC = () => {
     const handleNavigateToConcept = useCallback((concept: Concept) => {
         setSelectedConcept(concept)
         // Update URL for the new concept
-        window.history.replaceState({}, '', `/concept/${concept.id}?from=/unexplored`)
+        window.history.replaceState({}, '', `/concept/${concept.id}`)
     }, [])
 
     // Mark concept as explored when modal opens
@@ -285,6 +285,7 @@ const UnexploredPage: React.FC = () => {
                 onTagClick={handleTagClick}
                 onCategoryClick={handleCategoryClick}
                 isExplored={isExplored}
+                hidePreviousButton={true}
             />
         </AnimatedPage>
     )
