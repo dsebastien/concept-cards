@@ -1,0 +1,51 @@
+{
+    "id": "definition-of-ready",
+    "name": "Definition of Ready",
+    "summary": "Shared criteria that must be met before a work item can be started by a team.",
+    "explanation": "The Definition of Ready (DoR) is a set of criteria or checklist that a user story, task, or work item must satisfy before a team commits to working on it. This concept is widely used in Agile software development, particularly in Scrum and Kanban methodologies.\n\nThe Definition of Ready serves several important purposes:\n\n**Prevents Premature Work**: Ensures that work items are sufficiently defined and prepared before teams invest effort in implementation.\n\n**Reduces Waste**: Minimizes time spent on clarifications, blockers, or rework that occurs when requirements are unclear or incomplete.\n\n**Improves Planning**: Helps teams make better commitments during sprint planning or work intake by ensuring all necessary information is available.\n\n**Sets Clear Expectations**: Creates a shared understanding between stakeholders, product owners, and development teams about what preparation is needed.\n\nCommon criteria in a Definition of Ready include:\n- User story is clearly written with acceptance criteria\n- Dependencies are identified and resolved or managed\n- Necessary design mockups or technical specifications are available\n- Story is appropriately sized (small enough to complete in one sprint/iteration)\n- Team has the skills and resources needed\n- Relevant stakeholders have reviewed and approved the work\n\nUnlike the Definition of Done (which defines completion), the Definition of Ready defines the starting conditions. Together, these concepts create boundaries that help teams manage their workflow effectively.\n\nThe specific criteria should be tailored to each team's context and refined over time based on what actually helps the team work smoothly. An overly restrictive DoR can create bottlenecks, while too lenient criteria can lead to confusion and delays.",
+    "tags": [
+        "software-development",
+        "agile",
+        "scrum",
+        "project-management",
+        "processes",
+        "standards",
+        "quality",
+        "planning"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "DoR",
+        "Ready Criteria",
+        "Entry Criteria"
+    ],
+    "relatedConcepts": [
+        "definition-of-done",
+        "user-stories",
+        "acceptance-criteria"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland",
+            "url": "https://www.amazon.com/dp/038534645X?tag=dsebastien00-20"
+        },
+        {
+            "title": "User Story Mapping by Jeff Patton",
+            "url": "https://www.amazon.com/dp/1491904909?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Definition of Ready - Scrum.org",
+            "url": "https://www.scrum.org/resources/blog/walking-through-definition-ready",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "golden-path",
+    "name": "Golden Path",
+    "summary": "The optimal, recommended, and well-supported way to accomplish a task or achieve a goal.",
+    "explanation": "The Golden Path, also known as the \"happy path\" or \"paved road,\" refers to the ideal, most efficient, and well-supported route to accomplish a specific objective. This concept is particularly prominent in software development, product design, and user experience.\n\nIn software engineering, the golden path represents the recommended set of tools, frameworks, and practices that an organization or community endorses. It's the \"blessed\" approach that receives the most support, documentation, testing, and maintenance. For example, a company might establish a golden path for building microservices that includes specific languages, frameworks, deployment tools, and monitoring solutions.\n\nThe golden path offers several benefits: reduced decision fatigue (clear defaults are provided), faster onboarding (new team members follow established patterns), better support (the most common path gets the most attention), and proven reliability (the path has been tested and refined over time).\n\nHowever, the concept also acknowledges that alternative paths may exist. While the golden path is optimized for the common case, teams may legitimately deviate when they have specific needs that the golden path doesn't address. The key is making deviations intentional and well-justified rather than accidental.\n\nBeyond software, the golden path applies to any domain where there are multiple ways to achieve a goal. It represents best practices, recommended workflows, and the accumulation of collective wisdom about what works best in typical scenarios.",
+    "tags": [
+        "software-development",
+        "best-practices",
+        "standards",
+        "processes",
+        "user-experience",
+        "decision-making",
+        "frameworks",
+        "productivity"
+    ],
+    "category": "Principles",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Happy Path",
+        "Paved Road",
+        "Blessed Path"
+    ],
+    "relatedConcepts": [
+        "convention-over-configuration",
+        "principle-of-least-astonishment",
+        "satisficing"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "The Golden Path: Opinionated Defaults in Software",
+            "url": "https://increment.com/software-architecture/exit-the-haunted-forest/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Team Topologies by Matthew Skelton and Manuel Pais",
+            "url": "https://www.amazon.com/dp/1942788819?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Golden Path - Spotify Engineering",
+            "url": "https://engineering.atspotify.com/2020/08/how-we-use-golden-paths-to-solve-fragmentation-in-our-software-ecosystem/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

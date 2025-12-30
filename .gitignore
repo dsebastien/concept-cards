@@ -27,8 +27,3 @@ dist-ssr
 # Playwright
 .playwright-mcp/
 
-# Concepts database (generated from JSON files)
-/concepts.db
-/concepts.db-journal
-/concepts.db-wal
-/concepts.db-shm

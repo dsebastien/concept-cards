@@ -1,0 +1,53 @@
+{
+    "id": "acceptance-criteria",
+    "name": "Acceptance Criteria",
+    "summary": "Specific conditions that must be met for a user story or feature to be considered complete and acceptable.",
+    "explanation": "Acceptance Criteria are explicit, testable conditions that define the boundaries and expected behavior of a user story, feature, or requirement. They serve as a contract between stakeholders and the development team, clarifying what must be true for work to be considered done.\n\nAcceptance criteria provide several critical benefits:\n\n**Shared Understanding**: Creates alignment between product owners, developers, testers, and stakeholders about what will be delivered.\n\n**Clear Scope**: Defines the boundaries of a feature, helping prevent scope creep and managing expectations.\n\n**Testability**: Provides the basis for test cases and quality assurance validation.\n\n**Definition of Done**: Serves as objective criteria for determining when a story is complete.\n\n**Communication Tool**: Facilitates discussions about edge cases, assumptions, and requirements during planning.\n\nWell-written acceptance criteria typically follow these patterns:\n\n**Given-When-Then Format (Behavior-Driven Development)**:\n- Given [some context or precondition]\n- When [some action is performed]\n- Then [some expected outcome occurs]\n\nExample:\n- Given a user is logged in\n- When they click the \"Save\" button\n- Then their changes are persisted and a confirmation message appears\n\n**Checklist Format**:\n- User can filter results by date range\n- Results display in descending chronological order\n- Maximum 20 results shown per page\n- Error message appears if no results found\n\n**Best Practices**:\n- Make criteria specific and unambiguous\n- Focus on \"what\" not \"how\" (outcomes, not implementation)\n- Ensure they're testable and verifiable\n- Keep them independent of each other when possible\n- Write from the user's perspective\n\nAcceptance criteria are typically defined before development begins (part of the Definition of Ready) and used to verify completion (part of the Definition of Done). They bridge the gap between high-level user stories and technical implementation details.",
+    "tags": [
+        "software-development",
+        "agile",
+        "requirements",
+        "testing",
+        "quality",
+        "scrum",
+        "user-stories",
+        "communication"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "AC",
+        "Acceptance Conditions",
+        "Success Criteria",
+        "Acceptance Tests"
+    ],
+    "relatedConcepts": [
+        "definition-of-done",
+        "definition-of-ready",
+        "user-stories",
+        "behavior-driven-development"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "User Story Mapping by Jeff Patton",
+            "url": "https://www.amazon.com/dp/1491904909?tag=dsebastien00-20"
+        },
+        {
+            "title": "Specification by Example by Gojko Adzic",
+            "url": "https://www.amazon.com/dp/1617290084?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Acceptance Criteria - Agile Alliance",
+            "url": "https://www.agilealliance.org/glossary/acceptance-criteria/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}
