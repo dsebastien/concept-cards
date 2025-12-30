@@ -1,3 +1,11 @@
+## [8.1.0](https://github.com/dsebastien/concept-cards/compare/8.0.0...8.1.0) (2025-12-30)
+
+### Features
+
+* **all:** added concepts ([e82f248](https://github.com/dsebastien/concept-cards/commit/e82f248bfa4d7ecb13ed9fe9d69bd848675296e0))
+* **all:** added new concepts ([975cc19](https://github.com/dsebastien/concept-cards/commit/975cc19a96f47f1c55c330bd4670c7d39a39104b))
+* **all:** added reactance concept ([85f7ee6](https://github.com/dsebastien/concept-cards/commit/85f7ee607e1426e36a94de6a0e280a62dd1b0275))
+* **all:** added/updated concepts ([903c9ce](https://github.com/dsebastien/concept-cards/commit/903c9cee2671ee4bca4d143fbc47414e1a331bcf))
 ## [8.0.0](https://github.com/dsebastien/concept-cards/compare/7.9.0...8.0.0) (2025-12-30)
 
 ### Features
