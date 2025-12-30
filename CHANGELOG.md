@@ -1,3 +1,10 @@
+## [8.2.0](https://github.com/dsebastien/concept-cards/compare/8.1.0...8.2.0) (2025-12-30)
+
+### Features
+
+* **all:** added database and rules to help avoid adding duplicates. Updated concepts ([50f6fbc](https://github.com/dsebastien/concept-cards/commit/50f6fbce6cf0aedaff938dcfb68346ebfae71054))
+* **all:** hid categories within the filters to lighten the UI ([79667ff](https://github.com/dsebastien/concept-cards/commit/79667ff9047e0be1feccddedb8da8b0dcc32e6fe))
+* **all:** updated/merged concepts ([619fb95](https://github.com/dsebastien/concept-cards/commit/619fb95f759b70d63de7be920012e283a4fe9a92))
 ## [8.1.0](https://github.com/dsebastien/concept-cards/compare/8.0.0...8.1.0) (2025-12-30)
 
 ### Features
