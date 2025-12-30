@@ -1,0 +1,44 @@
+{
+    "id": "pseudocertainty-effect",
+    "name": "Pseudocertainty Effect",
+    "summary": "A cognitive bias where risk preferences change based on whether outcomes are framed as gains or as avoided losses.",
+    "explanation": "The Pseudocertainty Effect is a cognitive bias identified by Daniel Kahneman and Amos Tversky in their seminal work on Prospect Theory. It describes how people make risk-averse choices when a decision is framed in terms of potential gains, but shift to risk-seeking behavior when the exact same decision is framed in terms of avoiding losses. The term 'pseudocertainty' refers to the illusion of certainty that arises when multi-stage problems are mentally simplified into single-stage decisions.\n\nKahneman and Tversky demonstrated this effect through a classic experiment involving a hypothetical disease outbreak. When participants were told 600 people were at risk and asked to choose between a program that would definitely save 200 people versus one with a 1/3 chance of saving all 600, most chose the certain option. However, when the same scenario was reframed as choosing between a program where 400 would definitely die versus one with a 2/3 chance that all 600 would die, most preferred the risky option - even though the expected outcomes were mathematically identical.\n\nThe pseudocertainty effect manifests strongly in medical decisions. Patients often prefer treatments with guaranteed partial effectiveness over those with higher expected value but uncertainty. For instance, a patient might choose a surgery with a guaranteed 50% symptom reduction over one with a 75% chance of complete cure but 25% chance of no improvement. The framing of outcomes as 'certain' partial gains versus 'uncertain' complete gains heavily influences medical choices, sometimes to patients' detriment.\n\nIn insurance and financial decisions, this bias explains why people pay premiums to eliminate small risks entirely rather than accepting cost-effective partial coverage. Marketers and policymakers exploit this by framing options to emphasize 'guaranteed' elements, even when the guarantee applies only to a subset of outcomes. Understanding the pseudocertainty effect helps in recognizing when framing is manipulating our risk perception, encouraging us to focus on actual expected values rather than the emotional appeal of certainty.",
+    "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "behavioral-economics",
+        "psychology"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "framing-effect",
+        "loss-aversion",
+        "prospect-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Pseudocertainty effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pseudocertainty_effect",
+            "type": "website"
+        },
+        {
+            "title": "The Framing of Decisions and the Psychology of Choice - Tversky & Kahneman (1981)",
+            "url": "https://www.science.org/doi/10.1126/science.7455683",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

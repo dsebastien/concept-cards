@@ -1,0 +1,38 @@
+{
+    "id": "scope-insensitivity",
+    "name": "Scope Insensitivity",
+    "summary": "The cognitive bias where people's valuations are relatively insensitive to the scope or scale of a problem, failing to value outcomes proportionally to their size.",
+    "explanation": "Scope Insensitivity (also known as Scope Neglect) is a cognitive bias in which people's willingness to pay or emotional response to a problem does not scale proportionally with the magnitude of that problem. Whether saving 2,000 birds or 200,000 birds, people often report similar willingness to contribute, even though the latter represents a hundred times greater impact.\n\nThe classic demonstration of this bias comes from a 1992 study by William Desvousges and colleagues, who asked people how much they would pay to prevent migratory birds from drowning in uncovered oil ponds. Respondents offered roughly the same amount ($80, $78, and $88 respectively) to save 2,000, 20,000, or 200,000 birds. This dramatic failure to scale responses appropriately has been replicated across many domains - from environmental protection to public health to charitable giving.\n\nSeveral psychological mechanisms contribute to scope insensitivity. First, our emotional systems evolved to respond to individual cases and immediate threats, not abstract statistics about large populations. Second, the affect heuristic leads us to substitute 'How do I feel about this?' for 'How much good could I do?' Third, we often generate a mental image of a single representative victim rather than comprehending the full scope of a problem. Once we've formed that image and emotional response, additional zeros on the number don't change our feelings.\n\nScope insensitivity has profound implications for effective altruism, charitable giving, and public policy. It explains why dramatic individual stories raise more money than statistics about mass suffering, and why people donate similar amounts regardless of how many lives their contribution could save. It contributes to systematic under-response to large-scale problems like climate change, pandemic preparedness, and global poverty, where the numbers are so vast they become meaningless to our intuitive minds.\n\nTo counteract scope insensitivity, advocates recommend explicitly calculating the cost-effectiveness of interventions, using concrete comparisons to make large numbers meaningful (e.g., 'a stadium full of people'), and deliberately engaging analytical thinking rather than relying on gut emotional responses. Organizations focused on effective giving, such as GiveWell, specifically address this bias by evaluating charities based on quantitative impact rather than emotional appeal.",
+    "tags": [
+        "cognitive-biases",
+        "psychology",
+        "decision-making",
+        "charitable-giving",
+        "economics",
+        "heuristics"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Scope Neglect",
+        "Scope Blindness"
+    ],
+    "relatedConcepts": [
+        "identifiable-victim-effect",
+        "affect-heuristic"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Scope neglect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scope_neglect",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

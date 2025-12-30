@@ -1,37 +1,37 @@
 {
     "id": "testing-effect",
     "name": "Testing Effect",
-    "summary": "Learning is enhanced when you retrieve information through testing rather than just re-reading or reviewing.",
-    "explanation": "The testing effect (also called retrieval practice or the retrieval effect) demonstrates that actively recalling information strengthens memory more than passive re-reading. When you test yourself - whether through flashcards, practice problems, or simply trying to recall what you learned - you're not just assessing knowledge, you're enhancing it. Each retrieval attempt strengthens neural pathways and improves long-term retention. Research shows that even unsuccessful retrieval attempts (followed by feedback) improve learning more than additional study time. This challenges the common intuition that testing merely measures learning. For knowledge workers and learners, this means: quiz yourself regularly, use flashcard apps like Anki, practice explaining concepts without notes, and embrace the struggle of retrieval as a feature, not a bug. The testing effect combines powerfully with spaced repetition for optimal long-term learning.",
+    "summary": "Actively retrieving information from memory strengthens memory more than simply restudying material.",
+    "explanation": "The Testing Effect is a robust finding in cognitive psychology demonstrating that the act of retrieving information from memory enhances long-term retention far more effectively than passive review or restudy. When you test yourself on material - whether through flashcards, practice questions, or simply attempting to recall information without looking at your notes - you are not merely assessing what you know, but actively strengthening the memory traces themselves.\n\nResearch evidence for the testing effect is extensive and compelling. Landmark studies by Roediger and Karpicke (2006) showed that students who practiced retrieval retained significantly more information after one week compared to those who spent the same time restudying. Remarkably, this benefit occurred even when initial retrieval attempts were unsuccessful, as long as corrective feedback was provided. The effect has been replicated across diverse domains including vocabulary learning, scientific concepts, medical education, and practical skills.\n\nThe testing effect works through several mechanisms. First, retrieval practice creates 'desirable difficulties' - challenges that slow down learning initially but lead to stronger, more durable memories. When you struggle to retrieve information, you engage in elaborative processing that creates multiple retrieval routes to the same knowledge. Second, testing provides metacognitive benefits by revealing gaps in understanding that might otherwise go unnoticed during passive review. Third, each successful retrieval strengthens the neural pathways associated with that memory, making future retrieval easier and more reliable.\n\nPractical applications for students and learners include: replacing passive rereading with self-quizzing; using flashcard systems like Anki that implement spaced repetition; practicing free recall by closing your notes and writing down everything you remember; explaining concepts aloud without reference materials (the Feynman Technique); taking practice tests under realistic conditions; and embracing the initial difficulty of retrieval as a sign of effective learning rather than a problem to avoid. The testing effect combines powerfully with spaced repetition, where retrieval practice is distributed over time at optimal intervals for maximum retention.",
     "tags": [
+        "cognitive-science",
+        "education",
         "learning",
         "memories",
-        "cognitive-science",
-        "study-techniques",
-        "retrieval"
+        "study-techniques"
     ],
-    "category": "Concepts",
-    "icon": "FaQuestionCircle",
+    "category": "Principles",
+    "icon": "FaBrain",
     "featured": false,
     "aliases": [
-        "Retrieval practice",
-        "Retrieval effect",
-        "Test-enhanced learning"
+        "Retrieval Practice Effect",
+        "Test-Enhanced Learning"
     ],
     "relatedConcepts": [
         "active-recall",
-        "spaced-repetition",
         "desirable-difficulties",
-        "generation-effect",
+        "feynman-technique",
         "forgetting-curve",
-        "leitner-system"
+        "generation-effect",
+        "leitner-system",
+        "spaced-repetition"
     ],
     "relatedNotes": [],
     "articles": [],
     "books": [
         {
-            "title": "Make It Stick by Peter Brown",
-            "url": "https://amzn.to/3DpT8v2"
+            "title": "Make It Stick by Peter Brown, Henry Roediger, and Mark McDaniel",
+            "url": "https://www.amazon.com/dp/0674729013?tag=dsebastien00-20"
         }
     ],
     "references": [
@@ -63,5 +63,5 @@
     ],
     "tutorials": [],
     "datePublished": "2025-12-28",
-    "dateModified": "2025-12-28"
+    "dateModified": "2025-12-30"
 }

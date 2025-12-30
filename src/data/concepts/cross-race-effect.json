@@ -1,0 +1,48 @@
+{
+    "id": "cross-race-effect",
+    "name": "Cross-Race Effect",
+    "summary": "The tendency to more easily recognize faces of one's own racial group compared to faces of other racial groups.",
+    "explanation": "The Cross-Race Effect (CRE), also known as own-race bias or other-race effect, is a well-documented phenomenon in cognitive psychology where individuals demonstrate significantly better recognition and memory for faces of their own racial or ethnic group compared to faces of other groups. This effect is robust across cultures and has been replicated in hundreds of studies since it was first systematically documented in the 1970s.\n\nResearch evidence for the cross-race effect is extensive. Meta-analyses consistently show that people are approximately 1.4 times more likely to correctly identify a face of their own race and 1.5 times more likely to falsely identify a face of another race. Brain imaging studies reveal that different neural processing occurs when viewing own-race versus other-race faces, with reduced activation in face-processing regions like the fusiform face area for other-race faces. The effect appears early in development, with infants as young as 3 months showing preferential processing of own-race faces.\n\nThe implications for eyewitness testimony are profound and troubling. Cross-race misidentifications have been a significant factor in wrongful convictions, particularly in cases involving Black defendants and white witnesses in the United States. The Innocence Project has documented that eyewitness misidentification is the leading cause of wrongful convictions, and cross-race identifications are substantially less reliable than same-race identifications. Courts and legal systems increasingly recognize this limitation, with some jurisdictions requiring expert testimony or jury instructions about the cross-race effect.\n\nSeveral theories attempt to explain the phenomenon. The contact hypothesis suggests that greater exposure to own-race faces during development leads to expertise in distinguishing them. The perceptual expertise model proposes that we develop face-processing templates based on the faces we most frequently encounter. Social categorization theory argues that we process own-race faces as individuals while processing other-race faces primarily in terms of their category membership.\n\nImportantly, research shows that increased interracial contact can reduce the cross-race effect. Individuals who grew up in diverse environments or who have extensive meaningful contact with other racial groups show diminished effects. Training programs that teach people to attend to individuating features of other-race faces have shown some success in reducing the bias. Motivation also matters: when participants are motivated to individuate other-race faces (such as when anticipating future interaction), the effect is reduced. These findings suggest that while the cross-race effect is pervasive, it is not immutable and can be mitigated through experience and deliberate effort.",
+    "tags": [
+        "cognitive-biases",
+        "memory",
+        "perception",
+        "psychology",
+        "social-psychology"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Own-Race Bias",
+        "Other-Race Effect",
+        "Cross-Race Identification Bias"
+    ],
+    "relatedConcepts": [
+        "in-group-bias",
+        "outgroup-homogeneity-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Eyewitness Testimony by Elizabeth F. Loftus",
+            "url": "https://www.amazon.com/dp/0674287770?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cross-race effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cross-race_effect",
+            "type": "website"
+        },
+        {
+            "title": "Thirty Years of Investigating the Own-Race Bias in Memory for Faces - Meissner & Brigham",
+            "url": "https://psycnet.apa.org/record/2001-16116-001",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

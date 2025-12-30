@@ -1,0 +1,52 @@
+{
+    "id": "texas-sharpshooter-fallacy",
+    "name": "Texas Sharpshooter Fallacy",
+    "summary": "A logical fallacy where differences in data are ignored while similarities are overemphasized, like shooting a barn and then drawing targets around the bullet holes.",
+    "explanation": "The Texas Sharpshooter Fallacy is a logical fallacy that occurs when someone cherry-picks data clusters to suit an argument or finds a pattern to fit a presumption. The name comes from a joke about a Texan who fires randomly at the side of a barn, then paints a target centered on the tightest cluster of bullet holes, making it appear he is an expert marksman.\n\nThis fallacy involves ignoring the difference between data while emphasizing the similarity. When we have access to large datasets, random clusters will inevitably appear by chance. The fallacy occurs when we treat these random clusters as meaningful without having predicted them in advance.\n\nIn scientific research, this manifests as data dredging or p-hacking, where researchers analyze many variables and report only the statistically significant results, ignoring the many non-significant findings. For example, a study might test dozens of potential correlations between diet and health outcomes, then publish only the few that show significance without accounting for multiple comparisons.\n\nIn everyday life, the fallacy appears in many forms. A psychic might make hundreds of vague predictions and later highlight the few that came true. Alternative medicine proponents might point to individual success stories while ignoring the many failures. Conspiracy theorists often connect unrelated events to form patterns that support their theories.\n\nTo recognize and avoid this fallacy, consider: Was the hypothesis formed before or after examining the data? Were all the data considered, or only selected portions? Could the pattern have occurred by chance? Is there a plausible causal mechanism? Demanding pre-registered hypotheses in research and applying proper statistical corrections for multiple comparisons are key safeguards against this fallacy.",
+    "tags": [
+        "cognitive-biases",
+        "logic",
+        "statistics",
+        "critical-thinking",
+        "fallacies",
+        "reasoning"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Clustering Fallacy",
+        "Sharpshooter Fallacy"
+    ],
+    "relatedConcepts": [
+        "clustering-illusion",
+        "confirmation-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Art of Thinking Clearly by Rolf Dobelli",
+            "url": "https://www.amazon.com/dp/0062219693?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Texas sharpshooter fallacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

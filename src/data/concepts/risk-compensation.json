@@ -1,0 +1,44 @@
+{
+    "id": "risk-compensation",
+    "name": "Risk Compensation",
+    "summary": "The tendency for people to adjust their behavior in response to perceived risk, often taking more risks when they feel protected by safety measures.",
+    "explanation": "Risk Compensation is a behavioral phenomenon where people adjust their behavior in response to perceived changes in risk level. When individuals feel more protected by safety measures, they often engage in riskier behavior that partially or fully offsets the safety benefits. Conversely, when they perceive greater danger, they tend to act more cautiously. This creates a kind of behavioral thermostat where people maintain a target level of risk they find acceptable.\n\nThe concept gained prominence through economist Sam Peltzman's influential 1975 study on automobile safety regulations. Peltzman analyzed the effects of mandatory seatbelt laws and found that while seatbelts reduced fatalities for vehicle occupants, drivers appeared to compensate by driving more recklessly, leading to increased pedestrian and cyclist deaths. This controversial finding, known as the Peltzman Effect, sparked decades of research and debate about whether safety regulations produce their intended net benefits.\n\nRisk compensation manifests across many domains. In sports, players wearing protective equipment like helmets may tackle more aggressively or take more physical risks. In skiing and snowboarding, improved safety equipment and groomed slopes may encourage faster speeds and more daring maneuvers. In public health, the phenomenon has been studied in contexts ranging from HIV prevention (where access to treatment might reduce safe-sex practices) to COVID-19 (where mask-wearing might reduce social distancing).\n\nThe scientific evidence for risk compensation is mixed and context-dependent. While some studies support the effect, others find that safety measures produce net benefits even after accounting for behavioral changes. Critics argue that the effect is often overstated and that many safety interventions, like seatbelts and bicycle helmets, save far more lives than any compensating behavior costs. The magnitude of compensation varies based on how visible and conscious the safety measure is, the specific activity, and individual differences in risk tolerance.\n\nUnderstanding risk compensation has important implications for safety policy design. Effective interventions should account for potential behavioral responses and may need to include education, enforcement, or design features that minimize unintended risk-taking. The concept also highlights the importance of evaluating safety measures based on actual outcomes rather than assuming theoretical benefits will fully materialize.",
+    "tags": [
+        "behavioral-economics",
+        "cognitive-biases",
+        "decision-making",
+        "psychology",
+        "risk-management"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Peltzman Effect",
+        "Risk Homeostasis",
+        "Risk-Taking Compensation"
+    ],
+    "relatedConcepts": [
+        "illusion-of-control",
+        "optimism-bias",
+        "zero-risk-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Risk Compensation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_compensation",
+            "type": "website"
+        },
+        {
+            "title": "The Effects of Automobile Safety Regulation - Sam Peltzman",
+            "url": "https://www.journals.uchicago.edu/doi/10.1086/260352",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

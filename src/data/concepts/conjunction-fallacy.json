@@ -1,0 +1,47 @@
+{
+    "id": "conjunction-fallacy",
+    "name": "Conjunction Fallacy",
+    "summary": "The formal fallacy of assuming that a conjunction of two events is more probable than either event alone.",
+    "explanation": "The Conjunction Fallacy is a cognitive bias identified by psychologists Amos Tversky and Daniel Kahneman in which people judge that a combination of events (A and B together) is more likely than either event alone. This violates a fundamental rule of probability: the probability of two events occurring together can never exceed the probability of either event occurring independently. Mathematically, P(A and B) is always less than or equal to P(A) and P(B).\n\nThe fallacy is most famously illustrated through the 'Linda problem.' Participants were told: 'Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.' When asked which was more probable - that Linda is a bank teller, or that Linda is a bank teller and active in the feminist movement - roughly 85% of participants chose the conjunction (feminist bank teller) despite it being logically impossible for a subset to be more probable than its superset.\n\nThe conjunction fallacy occurs because our minds rely on the representativeness heuristic rather than probability logic. Linda's description strongly matches our prototype of a feminist activist, so 'feminist bank teller' feels intuitively right even though it adds an additional constraint that can only reduce probability. We judge by similarity and narrative coherence rather than by mathematical likelihood. The more details we add to a scenario, the more 'representative' and plausible it seems, even as its actual probability decreases.\n\nThis fallacy has significant real-world implications. In legal contexts, detailed scenarios may seem more credible than simpler ones. In risk assessment, elaborate failure modes may seem more likely than general failures. In medical diagnosis, specific conditions may seem more probable than broader categories. Financial forecasts with detailed mechanisms may be trusted more than simpler predictions.\n\nTo avoid the conjunction fallacy: recognize that adding specific details to any scenario can only decrease its probability; explicitly decompose conjunctions ('For both A and B to be true, first A must be true, then B must also be true'); be suspicious when detailed narratives feel more compelling than simpler alternatives; and remember that the most detailed, coherent story is often not the most probable one. When making predictions, simplicity is often statistically on your side.",
+    "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "logic",
+        "probability",
+        "psychology",
+        "thinking"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Linda Problem"
+    ],
+    "relatedConcepts": [
+        "representativeness-heuristic",
+        "base-rate-neglect",
+        "probabilistic-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        },
+        {
+            "title": "Judgment Under Uncertainty: Heuristics and Biases by Daniel Kahneman, Paul Slovic, Amos Tversky",
+            "url": "https://www.amazon.com/dp/0521284147?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Conjunction Fallacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Conjunction_fallacy",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}
