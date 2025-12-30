@@ -1,3 +1,8 @@
+## [9.2.0](https://github.com/dsebastien/concept-cards/compare/9.1.0...9.2.0) (2025-12-30)
+
+### Bug Fixes
+
+* **all:** fixed osk link ([3688a8c](https://github.com/dsebastien/concept-cards/commit/3688a8cee9b832aaacc57019ff9f6135b3a8363d))
 ## [9.1.0](https://github.com/dsebastien/concept-cards/compare/9.0.0...9.1.0) (2025-12-30)
 
 ### Bug Fixes
