@@ -1,3 +1,8 @@
+## [9.1.0](https://github.com/dsebastien/concept-cards/compare/9.0.0...9.1.0) (2025-12-30)
+
+### Bug Fixes
+
+* **all:** fix kmb link ([7782455](https://github.com/dsebastien/concept-cards/commit/77824559cc85d2ec71b2161032668a4050f34d14))
 ## [9.0.0](https://github.com/dsebastien/concept-cards/compare/8.4.0...9.0.0) (2025-12-30)
 
 ### Features
