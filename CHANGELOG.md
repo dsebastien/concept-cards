@@ -1,3 +1,11 @@
+## [8.0.0](https://github.com/dsebastien/concept-cards/compare/7.9.0...8.0.0) (2025-12-30)
+
+### Features
+
+* **all:** added concepts ([3ad5329](https://github.com/dsebastien/concept-cards/commit/3ad5329c9720456d3b1a19d6e8bde1c5ebf983e3))
+* **all:** added prospect theory ([6bfff59](https://github.com/dsebastien/concept-cards/commit/6bfff594a3610b66f4419ea68a6539ad1efb9603))
+* **all:** added/updated concepts ([508bd0c](https://github.com/dsebastien/concept-cards/commit/508bd0c3c1fb30d8808e9d5979d2c23f1977f629))
+* **all:** improved behavior of the modal on unexplored concepts page ([8845a2f](https://github.com/dsebastien/concept-cards/commit/8845a2fb97a9a04895c14a52d0974d579ba32bfb))
 ## [7.9.0](https://github.com/dsebastien/concept-cards/compare/7.8.0...7.9.0) (2025-12-29)
 
 ### Features
