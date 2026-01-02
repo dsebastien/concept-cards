@@ -1,3 +1,8 @@
+## [9.4.0](https://github.com/dsebastien/concept-cards/compare/9.3.0...9.4.0) (2026-01-02)
+
+### Bug Fixes
+
+* **all:** fix scroll position being lost on modal open/close ([2de5c3f](https://github.com/dsebastien/concept-cards/commit/2de5c3fa88f926f1bc5bfa3637a3fbac525f6bbf))
 ## [9.3.0](https://github.com/dsebastien/concept-cards/compare/9.2.0...9.3.0) (2025-12-30)
 
 ### Bug Fixes
