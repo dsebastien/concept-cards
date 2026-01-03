@@ -1,3 +1,8 @@
+## [9.7.0](https://github.com/dsebastien/concept-cards/compare/9.6.0...9.7.0) (2026-01-03)
+
+### Features
+
+* **all:** added creativity and content creation concepts ([ccd049e](https://github.com/dsebastien/concept-cards/commit/ccd049eead7b598738be113c05938b25b52b339b))
 ## [9.6.0](https://github.com/dsebastien/concept-cards/compare/9.5.0...9.6.0) (2026-01-03)
 
 ### Features
