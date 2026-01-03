@@ -1,3 +1,8 @@
+## [9.5.0](https://github.com/dsebastien/concept-cards/compare/9.4.0...9.5.0) (2026-01-03)
+
+### Features
+
+* **all:** added content creation concepts ([48af49c](https://github.com/dsebastien/concept-cards/commit/48af49c95db3f0250dd0d04359cd65904be663e6))
 ## [9.4.0](https://github.com/dsebastien/concept-cards/compare/9.3.0...9.4.0) (2026-01-02)
 
 ### Bug Fixes
