@@ -1,0 +1,44 @@
+{
+  "id": "repository",
+  "name": "Repository",
+  "summary": "A storage location containing all project files, history, and metadata for version control.",
+  "explanation": "A repository (repo) is a data structure that stores all the files, folders, and complete version history of a project. In version control systems like Git, a repository contains not just the current state of files, but every change ever made, who made it, when, and why.\n\nRepositories have two main parts: the working directory (where you edit files) and the .git directory (hidden folder containing all version control metadata, history, and configuration). This separation means you can have a clean workspace while the complete history is preserved.\n\nRepositories can be local (on your machine) or remote (on a server like GitHub). In distributed version control systems like Git, every copy is a full repository with complete history, not just a checkout. This means any repository can reconstruct the entire project and history.\n\nGood repository organization includes: clear README documentation, sensible file structure, .gitignore for excluding unnecessary files, and meaningful commit history. The repository becomes the single source of truth for a project, capturing not just what exists but how it evolved.\n\nRepositories enable collaboration by providing a shared workspace where multiple people contribute, track changes, and maintain synchronization. Remote repositories act as coordination points, though in DVCS no single repository is technically authoritative.\n\nFor knowledge work, think of your notes system as a repository—a versioned collection of ideas with complete history. The repository mindset emphasizes intentional commits (saving progress), branching (exploring ideas), and maintaining documentation of how thinking evolved. Your personal knowledge repository becomes an audit trail of intellectual growth.",
+  "tags": [
+    "software",
+    "version-control",
+    "collaboration",
+    "organization",
+    "tools"
+  ],
+  "category": "Concepts",
+  "icon": "FaDatabase",
+  "featured": false,
+  "aliases": [
+    "Repo",
+    "Git Repository",
+    "Code Repository"
+  ],
+  "relatedConcepts": [
+    "git",
+    "version-control",
+    "dvcs",
+    "commit",
+    "branch",
+    "clone",
+    "fork",
+    "remote"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Repository (version control) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Repository_(version_control)",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}

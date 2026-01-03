@@ -1,0 +1,40 @@
+{
+  "id": "stash",
+  "name": "Stash",
+  "summary": "Temporarily shelving uncommitted changes to work on something else without losing work in progress.",
+  "explanation": "Git stash is a command that temporarily saves your uncommitted changes (both staged and unstaged) and reverts your working directory to match the last commit. This creates a clean slate so you can switch branches or work on something else, with the ability to restore your changes later.\n\nStashing is invaluable when you're in the middle of work and need to context switch. Maybe a critical bug needs immediate attention, or you need to check something on another branch. Rather than committing half-finished work or losing changes, you stash them, handle the interruption, then restore your work.\n\nStashed changes are kept in a stack—you can stash multiple times and retrieve them in any order. Each stash is labeled with a message, and you can apply stashes to any branch, not just where they originated. You can also create a branch from a stash if your experiment grew into something substantial.\n\nThe stash command supports partial stashing (specific files or hunks), keeping staged changes staged when applying, and preserving untracked files. This flexibility makes it a powerful tool for managing work in progress and juggling multiple contexts.\n\nFor knowledge work, stashing represents parking incomplete thoughts when you need to context switch. Rather than forcing ideas to completion or abandoning them, you save the partial work, handle the interruption, and return to restore your thinking. It acknowledges that knowledge work often involves multiple concurrent threads and provides a mechanism to manage that complexity without losing progress.",
+  "tags": [
+    "software",
+    "version-control",
+    "git",
+    "workflows",
+    "productivity"
+  ],
+  "category": "Concepts",
+  "icon": "FaArchive",
+  "featured": false,
+  "aliases": [
+    "Git Stash",
+    "Stashing"
+  ],
+  "relatedConcepts": [
+    "git",
+    "commit",
+    "branch",
+    "version-control",
+    "context-switching"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "git stash - Git Documentation",
+      "url": "https://git-scm.com/docs/git-stash",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}

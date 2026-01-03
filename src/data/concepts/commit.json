@@ -1,0 +1,54 @@
+{
+  "id": "commit",
+  "name": "Commit",
+  "summary": "A snapshot of changes in version control, representing a specific point in the project's history.",
+  "explanation": "A commit is the fundamental unit of change in version control systems. It represents a snapshot of your project at a specific moment, capturing what changed, who made the change, when it happened, and why (through the commit message). Each commit is immutable and uniquely identified by a hash.\n\nCreating a commit is a deliberate act that packages related changes into a logical unit. Good commits are atomic (one logical change), have clear messages explaining the why (not just the what), and represent working states of the project. The commit message serves as documentation, explaining the reasoning behind changes for your future self and collaborators.\n\nCommits form a chain, each pointing to its parent, creating a complete history of how the project evolved. This enables time travel (checking out any previous state), understanding context (seeing why decisions were made), and attribution (knowing who to ask about specific changes). Commits can be referenced, compared, reverted, or cherry-picked to other branches.\n\nThe practice of committing frequently creates checkpoints you can return to if experiments fail. Committing with clear messages forces articulation of what you're doing and why, bringing clarity to your work. Small, focused commits are easier to understand, review, and selectively apply elsewhere.\n\nFor knowledge work, the commit mindset means capturing progress incrementally with clear annotations. Rather than working for hours before saving, commit ideas as they develop. The commit history becomes a record of how your understanding evolved, creating learning artifacts and documentation of your thinking process.",
+  "tags": [
+    "software",
+    "version-control",
+    "workflows",
+    "best-practices",
+    "documentation"
+  ],
+  "category": "Concepts",
+  "icon": "FaSave",
+  "featured": false,
+  "aliases": [
+    "Git Commit",
+    "Commit Message",
+    "Changeset"
+  ],
+  "relatedConcepts": [
+    "git",
+    "version-control",
+    "branch",
+    "merge",
+    "rebase",
+    "repository",
+    "staging-area"
+  ],
+  "relatedNotes": [],
+  "articles": [
+    {
+      "title": "How to Write a Git Commit Message",
+      "url": "https://chris.beams.io/posts/git-commit/",
+      "type": "website"
+    }
+  ],
+  "books": [],
+  "references": [
+    {
+      "title": "Commit (version control) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Commit_(version_control)",
+      "type": "website"
+    },
+    {
+      "title": "Git Basics - Recording Changes to the Repository",
+      "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}

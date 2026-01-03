@@ -1,0 +1,41 @@
+{
+  "id": "dvcs",
+  "name": "Distributed Version Control System (DVCS)",
+  "summary": "A version control system where every user has a complete copy of the entire repository history.",
+  "explanation": "A Distributed Version Control System (DVCS) is an approach to version control where every developer has a full copy of the entire project history, not just the current snapshot. This contrasts with centralized systems like SVN where a single server holds the definitive history and clients only check out working copies.\n\nIn DVCS, operations like viewing history, creating branches, and committing changes happen locally without network access, making them fast and always available. Developers can work offline, experiment freely, and only synchronize with others when ready. There's no single point of failure—if one repository is lost, any other copy can restore the complete history.\n\nKey advantages include: better performance (local operations are fast), offline capability, flexible workflows (developers can choose how to share changes), implicit backups (every clone is a full backup), and easier branching/merging. Git and Mercurial are the most popular DVCS implementations.\n\nThe distributed model changes collaboration patterns. Instead of everyone committing to a central server, developers can share changes peer-to-peer, maintain multiple remote repositories, and use pull requests to propose changes. This enables workflows like forking (creating personal copies), feature branches, and code review before integration.\n\nFor knowledge work, the DVCS mindset encourages treating ideas as branches that can be developed independently, merged when ready, and shared selectively. The complete local history enables deep reflection on how thinking evolved.",
+  "tags": [
+    "software",
+    "tools",
+    "version-control",
+    "workflows",
+    "collaboration"
+  ],
+  "category": "Concepts",
+  "icon": "FaNetworkWired",
+  "featured": false,
+  "aliases": [
+    "Distributed Version Control",
+    "Decentralized Version Control"
+  ],
+  "relatedConcepts": [
+    "git",
+    "version-control",
+    "repository",
+    "clone",
+    "fork",
+    "remote"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Distributed version control - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Distributed_version_control",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}

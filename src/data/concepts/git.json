@@ -1,0 +1,68 @@
+{
+  "id": "git",
+  "name": "Git",
+  "summary": "A distributed version control system for tracking changes in source code and coordinating work among programmers.",
+  "explanation": "Git is a free and open-source distributed version control system (DVCS) created by Linus Torvalds in 2005. Unlike centralized version control systems, Git gives every developer a complete copy of the entire project history, enabling offline work and fast operations.\n\nGit tracks changes to files over time through commits, which are snapshots of your project at specific points. It uses a branching model that makes it easy to create parallel lines of development, experiment with changes, and merge work back together. The distributed nature means there's no single point of failure, and developers can work independently before sharing their changes.\n\nKey features include: staging area (index) for preparing commits, lightweight branching and merging, strong support for non-linear development, cryptographic integrity of history through SHA-1 hashing, and efficient handling of large projects. Git has become the de facto standard for version control in software development, powering platforms like GitHub, GitLab, and Bitbucket.\n\nBeyond code, Git's principles apply to knowledge management: versioning ideas, branching for experimentation, merging insights, and maintaining a complete history of intellectual evolution. The ability to track who changed what and why creates valuable documentation and learning opportunities.",
+  "tags": [
+    "software",
+    "tools",
+    "version-control",
+    "collaboration",
+    "workflows"
+  ],
+  "category": "Tools",
+  "icon": "FaCodeBranch",
+  "featured": false,
+  "aliases": [],
+  "relatedConcepts": [
+    "version-control",
+    "dvcs",
+    "repository",
+    "commit",
+    "branch",
+    "merge",
+    "rebase",
+    "pull-request",
+    "version-control-for-notes"
+  ],
+  "relatedNotes": [],
+  "articles": [
+    {
+      "title": "Git Documentation",
+      "url": "https://git-scm.com/doc",
+      "type": "website"
+    }
+  ],
+  "books": [
+    {
+      "title": "Pro Git by Scott Chacon and Ben Straub",
+      "url": "https://www.amazon.com/dp/1484200772?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Git - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Git",
+      "type": "website"
+    },
+    {
+      "title": "Git Official Website",
+      "url": "https://git-scm.com",
+      "type": "website"
+    }
+  ],
+  "tutorials": [
+    {
+      "title": "Learn Git Branching",
+      "url": "https://learngitbranching.js.org",
+      "type": "website"
+    },
+    {
+      "title": "Git Tutorial for Beginners",
+      "url": "https://www.youtube.com/watch?v=8JJ101D3knE",
+      "type": "video"
+    }
+  ],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}

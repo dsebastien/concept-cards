@@ -1,0 +1,45 @@
+{
+  "id": "version-control",
+  "name": "Version Control",
+  "summary": "Systems for managing changes to documents, programs, and other collections of information over time.",
+  "explanation": "Version Control (also called Source Control, Source Code Management, or VCS) is the practice of tracking and managing changes to files over time. It allows multiple people to collaborate on the same project, maintains a complete history of modifications, enables reverting to previous versions, and helps understand who changed what and why.\n\nVersion control systems record every change made to files, creating a timeline of snapshots. Each change includes metadata: who made it, when, and why (commit message). This creates an audit trail and documentation of how work evolved. Users can compare different versions, merge parallel changes, and recover from mistakes by reverting to earlier states.\n\nThere are two main types: centralized (like SVN) where a single server holds the history, and distributed (like Git, Mercurial) where every user has a complete copy. Distributed systems offer better offline capabilities, faster operations, and no single point of failure.\n\nBeyond software development, version control principles apply to any iterative work: writing documents, managing notes, designing systems, or refining ideas. It removes the fear of making changes (you can always undo), encourages experimentation, and creates valuable documentation of how thinking evolved. The practice of committing with clear messages forces articulation of what changed and why, improving clarity and intentionality.",
+  "tags": [
+    "software",
+    "tools",
+    "workflows",
+    "collaboration",
+    "knowledge-management"
+  ],
+  "category": "Concepts",
+  "icon": "FaCogs",
+  "featured": false,
+  "aliases": [
+    "Source Control",
+    "Source Code Management",
+    "SCM",
+    "VCS",
+    "Version Control System"
+  ],
+  "relatedConcepts": [
+    "git",
+    "dvcs",
+    "repository",
+    "commit",
+    "branch",
+    "merge",
+    "version-control-for-notes"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Version control - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Version_control",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}

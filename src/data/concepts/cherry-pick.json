@@ -1,0 +1,40 @@
+{
+  "id": "cherry-pick",
+  "name": "Cherry-pick",
+  "summary": "Selectively applying specific commits from one branch to another without merging the entire branch.",
+  "explanation": "Cherry-picking is a Git operation that lets you select specific commits and apply them to another branch. Instead of merging an entire branch, you precisely choose which changes to bring over, copying the commit to a new location with a new hash.\n\nThis is useful when you need a particular bug fix or feature from another branch but don't want everything else from that branch. Maybe a fix was committed to the wrong branch, or you need a specific change from a development branch in production immediately. Cherry-pick lets you extract just that commit.\n\nWhen you cherry-pick, Git creates a new commit with the same changes but a different parent, effectively duplicating the commit in a new context. This means the commit appears in multiple places in the history graph. If both branches are eventually merged, you might encounter duplicate changes or conflicts.\n\nCherry-picking is powerful but should be used judiciously. Overuse creates confusing histories where the same changes exist in multiple forms. It's better suited for one-off situations than regular workflow. For systematic transfer of changes, merging or rebasing is typically cleaner.\n\nFor knowledge work, cherry-picking represents selective synthesis—taking specific insights from one context and applying them to another without adopting the entire framework. It's extracting the useful pieces while leaving the rest. This requires careful judgment about what transfers well and what depends on broader context.",
+  "tags": [
+    "software",
+    "version-control",
+    "git",
+    "workflows"
+  ],
+  "category": "Concepts",
+  "icon": "FaStream",
+  "featured": false,
+  "aliases": [
+    "Git Cherry-pick",
+    "Cherry-picking"
+  ],
+  "relatedConcepts": [
+    "git",
+    "commit",
+    "branch",
+    "merge",
+    "rebase",
+    "version-control"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "git cherry-pick - Git Documentation",
+      "url": "https://git-scm.com/docs/git-cherry-pick",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}

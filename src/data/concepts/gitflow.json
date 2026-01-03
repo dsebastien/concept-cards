@@ -1,0 +1,46 @@
+{
+  "id": "gitflow",
+  "name": "GitFlow",
+  "summary": "A structured branching model for Git with specific branch types for features, releases, and hotfixes.",
+  "explanation": "GitFlow is a branching model created by Vincent Driessen that defines a strict branching structure designed around project releases. It uses multiple long-lived branches and specific branch types for different purposes, creating a formal process for managing features, releases, and production fixes.\n\nThe model has two main permanent branches: 'main' (or 'master') containing production-ready code, and 'develop' for integration of features. Supporting branches include: feature branches (for new functionality, branched from develop), release branches (for preparing releases, branched from develop), and hotfix branches (for urgent production fixes, branched from main).\n\nThe workflow proceeds: create feature branches from develop, merge completed features back to develop, create release branch from develop when ready, test and fix in release branch, merge release to both main and develop, tag the release on main. Hotfixes follow a similar pattern but start from main and merge to both main and develop.\n\nGitFlow provides clear structure and roles for branches, making it easy to understand what's in production, what's being developed, and what's being prepared for release. However, it can be complex with many branches and merge operations, and may slow down continuous deployment workflows.\n\nThe model works well for scheduled releases, desktop software, or mobile apps where deployment is discrete. It's less suited to continuous deployment web services where trunk-based development might be simpler. The structure, though potentially heavyweight, brings clarity to complex projects with multiple parallel workstreams.",
+  "tags": [
+    "software",
+    "version-control",
+    "git",
+    "workflows",
+    "methodologies"
+  ],
+  "category": "Frameworks",
+  "icon": "FaStream",
+  "featured": false,
+  "aliases": [
+    "Git Flow",
+    "GitFlow Workflow"
+  ],
+  "relatedConcepts": [
+    "git",
+    "branch",
+    "feature-branching",
+    "trunk-based-development",
+    "version-control"
+  ],
+  "relatedNotes": [],
+  "articles": [
+    {
+      "title": "A successful Git branching model",
+      "url": "https://nvie.com/posts/a-successful-git-branching-model/",
+      "type": "website"
+    }
+  ],
+  "books": [],
+  "references": [
+    {
+      "title": "Gitflow Workflow - Atlassian",
+      "url": "https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-03",
+  "dateModified": "2026-01-03"
+}
