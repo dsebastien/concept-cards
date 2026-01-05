@@ -1,3 +1,8 @@
+## [9.8.0](https://github.com/dsebastien/concept-cards/compare/9.7.0...9.8.0) (2026-01-05)
+
+### Features
+
+* **all:** improved ui on large screens ([3837e2e](https://github.com/dsebastien/concept-cards/commit/3837e2e319da5b857d03deb07d51aeb3e5e40a83))
 ## [9.7.0](https://github.com/dsebastien/concept-cards/compare/9.6.0...9.7.0) (2026-01-03)
 
 ### Features
