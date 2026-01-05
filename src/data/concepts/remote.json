@@ -1,41 +1,66 @@
 {
-  "id": "remote",
-  "name": "Remote",
-  "summary": "A reference to a repository hosted on a server, enabling collaboration and synchronization in distributed version control.",
-  "explanation": "A remote in Git is a named reference to a repository hosted elsewhere, typically on a server like GitHub, GitLab, or Bitbucket. Remotes enable collaboration by providing a shared location where team members can push their changes and pull others' work.\n\nWhen you clone a repository, Git automatically creates a remote called 'origin' pointing to the source. You can have multiple remotes with different names, each pointing to different repositories. This supports complex workflows like maintaining forks (upstream remote) or deploying to multiple servers.\n\nRemotes are just bookmarks—they don't copy or synchronize data automatically. You explicitly fetch to download changes from a remote, pull to fetch and merge, or push to upload your commits. This gives you control over when and what to synchronize, supporting offline work and deliberate integration.\n\nRemote branches (like 'origin/main') are read-only references showing where the remote branch pointed during your last synchronization. Your local branches can track remote branches, creating a relationship where Git knows which remote branch corresponds to your local work.\n\nIn distributed version control, there's no technical difference between a 'central' remote and any other—all repositories are peers. However, teams often designate one remote (like a GitHub repository) as the canonical source for coordination, even though every clone has equal capabilities.\n\nFor knowledge work, remotes represent external sources you reference and sync with: authoritative knowledge bases, collaborators' work, or public resources. You maintain local copies for offline work and control, periodically synchronizing to stay current and share your contributions.",
-  "tags": [
-    "software",
-    "version-control",
-    "git",
-    "collaboration",
-    "workflows"
-  ],
-  "category": "Concepts",
-  "icon": "FaServer",
-  "featured": false,
-  "aliases": [
-    "Git Remote",
-    "Remote Repository"
-  ],
-  "relatedConcepts": [
-    "git",
-    "repository",
-    "dvcs",
-    "clone",
-    "fork",
-    "version-control"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Git Basics - Working with Remotes",
-      "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "remote",
+    "name": "Remote",
+    "summary": "A reference to a repository hosted on a server, enabling collaboration and synchronization in distributed version control.",
+    "explanation": "A remote in Git is a named reference to a repository hosted elsewhere, typically on a server like GitHub, GitLab, or Bitbucket. Remotes enable collaboration by providing a shared location where team members can push their changes and pull others' work.\n\nWhen you clone a repository, Git automatically creates a remote called 'origin' pointing to the source. You can have multiple remotes with different names, each pointing to different repositories. This supports complex workflows like maintaining forks (upstream remote) or deploying to multiple servers.\n\nRemotes are just bookmarks—they don't copy or synchronize data automatically. You explicitly fetch to download changes from a remote, pull to fetch and merge, or push to upload your commits. This gives you control over when and what to synchronize, supporting offline work and deliberate integration.\n\nRemote branches (like 'origin/main') are read-only references showing where the remote branch pointed during your last synchronization. Your local branches can track remote branches, creating a relationship where Git knows which remote branch corresponds to your local work.\n\nIn distributed version control, there's no technical difference between a 'central' remote and any other—all repositories are peers. However, teams often designate one remote (like a GitHub repository) as the canonical source for coordination, even though every clone has equal capabilities.\n\nFor knowledge work, remotes represent external sources you reference and sync with: authoritative knowledge bases, collaborators' work, or public resources. You maintain local copies for offline work and control, periodically synchronizing to stay current and share your contributions.",
+    "tags": [
+        "software",
+        "version-control",
+        "git",
+        "collaboration",
+        "workflows"
+    ],
+    "category": "Concepts",
+    "icon": "FaServer",
+    "featured": false,
+    "aliases": [
+        "Git Remote",
+        "Remote Repository"
+    ],
+    "relatedConcepts": [
+        "git",
+        "repository",
+        "dvcs",
+        "clone",
+        "fork",
+        "version-control"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Git Basics - Working with Remotes",
+            "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

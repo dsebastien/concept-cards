@@ -1,47 +1,72 @@
 {
-  "id": "fork",
-  "name": "Fork",
-  "summary": "Creating a personal copy of someone else's project to independently develop without affecting the original.",
-  "explanation": "Forking is creating your own copy of a repository, typically hosted on a platform like GitHub, that starts as an identical duplicate but can diverge independently. Unlike cloning (which creates a local copy), forking creates a server-side copy under your account that you control.\n\nForks are fundamental to open-source collaboration. They allow you to experiment with someone else's project without needing permission or risking damage to the original. You can make any changes you want in your fork, and if you create something valuable, you can propose those changes back to the original project via a pull request.\n\nThe fork workflow enables distributed contribution: fork a project, make improvements in your copy, submit a pull request, and the original maintainer can review and merge your changes. This scales collaboration—thousands can fork and experiment simultaneously without coordination overhead.\n\nForks maintain a connection to their upstream (original) repository, making it easy to sync with ongoing development. You can regularly pull updates from the upstream into your fork, keeping your copy current while preserving your modifications.\n\nForking represents a balance between independence and connection. You have complete autonomy over your fork while retaining the ability to contribute back. Some forks remain connected to their upstream and regularly sync; others diverge to become independent projects serving different purposes.\n\nFor knowledge work, forking represents taking someone's framework, methodology, or knowledge structure and adapting it to your needs. You preserve their foundation while customizing for your context. The fork maintains attribution to the original while enabling personalization.",
-  "tags": [
-    "software",
-    "version-control",
-    "collaboration",
-    "open-source",
-    "workflows"
-  ],
-  "category": "Concepts",
-  "icon": "FaCodeBranch",
-  "featured": false,
-  "aliases": [
-    "GitHub Fork",
-    "Forking",
-    "Project Fork"
-  ],
-  "relatedConcepts": [
-    "git",
-    "repository",
-    "clone",
-    "pull-request",
-    "remote",
-    "dvcs"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Fork (software development) - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fork_(software_development)",
-      "type": "website"
-    },
-    {
-      "title": "GitHub Docs - Fork a repo",
-      "url": "https://docs.github.com/en/get-started/quickstart/fork-a-repo",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "fork",
+    "name": "Fork",
+    "summary": "Creating a personal copy of someone else's project to independently develop without affecting the original.",
+    "explanation": "Forking is creating your own copy of a repository, typically hosted on a platform like GitHub, that starts as an identical duplicate but can diverge independently. Unlike cloning (which creates a local copy), forking creates a server-side copy under your account that you control.\n\nForks are fundamental to open-source collaboration. They allow you to experiment with someone else's project without needing permission or risking damage to the original. You can make any changes you want in your fork, and if you create something valuable, you can propose those changes back to the original project via a pull request.\n\nThe fork workflow enables distributed contribution: fork a project, make improvements in your copy, submit a pull request, and the original maintainer can review and merge your changes. This scales collaboration—thousands can fork and experiment simultaneously without coordination overhead.\n\nForks maintain a connection to their upstream (original) repository, making it easy to sync with ongoing development. You can regularly pull updates from the upstream into your fork, keeping your copy current while preserving your modifications.\n\nForking represents a balance between independence and connection. You have complete autonomy over your fork while retaining the ability to contribute back. Some forks remain connected to their upstream and regularly sync; others diverge to become independent projects serving different purposes.\n\nFor knowledge work, forking represents taking someone's framework, methodology, or knowledge structure and adapting it to your needs. You preserve their foundation while customizing for your context. The fork maintains attribution to the original while enabling personalization.",
+    "tags": [
+        "software",
+        "version-control",
+        "collaboration",
+        "open-source",
+        "workflows"
+    ],
+    "category": "Concepts",
+    "icon": "FaCodeBranch",
+    "featured": false,
+    "aliases": [
+        "GitHub Fork",
+        "Forking",
+        "Project Fork"
+    ],
+    "relatedConcepts": [
+        "git",
+        "repository",
+        "clone",
+        "pull-request",
+        "remote",
+        "dvcs"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Fork (software development) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fork_(software_development)",
+            "type": "website"
+        },
+        {
+            "title": "GitHub Docs - Fork a repo",
+            "url": "https://docs.github.com/en/get-started/quickstart/fork-a-repo",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

@@ -1,41 +1,66 @@
 {
-  "id": "clone",
-  "name": "Clone",
-  "summary": "Creating a complete local copy of a remote repository, including all files, branches, and history.",
-  "explanation": "Cloning is the process of creating a full copy of a repository on your local machine. When you clone a Git repository, you get not just the current files but the entire version history, all branches, and complete metadata. This is fundamentally different from simply downloading files—you get a working version control system.\n\nA cloned repository maintains a connection to its origin (the repository it was cloned from) through a remote reference, typically called 'origin'. This enables synchronization: you can fetch new changes from the remote, push your changes back, and stay in sync with others working on the same project.\n\nIn distributed version control systems, cloning creates a peer, not a subordinate. Your clone has the same capabilities as any other repository—full history, all branches, complete functionality. There's no inherent difference between your local clone and the 'central' remote repository; both are complete repositories.\n\nCloning enables offline work with full version control capabilities. You can commit, branch, merge, and view history without network access. Only pushing and pulling require connecting to the remote. This makes version control fast and always available.\n\nFor knowledge work, cloning represents creating your own working copy of a knowledge base, curriculum, or template system. You preserve the original's history and structure while having complete freedom to modify, experiment, and personalize. Changes you make remain local until you explicitly share them.\n\nThe clone pattern enables learning through modification—you can freely experiment with someone else's work without affecting the original, then selectively contribute improvements back.",
-  "tags": [
-    "software",
-    "version-control",
-    "git",
-    "workflows",
-    "collaboration"
-  ],
-  "category": "Concepts",
-  "icon": "FaCopy",
-  "featured": false,
-  "aliases": [
-    "Git Clone",
-    "Cloning"
-  ],
-  "relatedConcepts": [
-    "git",
-    "repository",
-    "dvcs",
-    "fork",
-    "remote",
-    "version-control"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "git clone - Git Documentation",
-      "url": "https://git-scm.com/docs/git-clone",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "clone",
+    "name": "Clone",
+    "summary": "Creating a complete local copy of a remote repository, including all files, branches, and history.",
+    "explanation": "Cloning is the process of creating a full copy of a repository on your local machine. When you clone a Git repository, you get not just the current files but the entire version history, all branches, and complete metadata. This is fundamentally different from simply downloading files—you get a working version control system.\n\nA cloned repository maintains a connection to its origin (the repository it was cloned from) through a remote reference, typically called 'origin'. This enables synchronization: you can fetch new changes from the remote, push your changes back, and stay in sync with others working on the same project.\n\nIn distributed version control systems, cloning creates a peer, not a subordinate. Your clone has the same capabilities as any other repository—full history, all branches, complete functionality. There's no inherent difference between your local clone and the 'central' remote repository; both are complete repositories.\n\nCloning enables offline work with full version control capabilities. You can commit, branch, merge, and view history without network access. Only pushing and pulling require connecting to the remote. This makes version control fast and always available.\n\nFor knowledge work, cloning represents creating your own working copy of a knowledge base, curriculum, or template system. You preserve the original's history and structure while having complete freedom to modify, experiment, and personalize. Changes you make remain local until you explicitly share them.\n\nThe clone pattern enables learning through modification—you can freely experiment with someone else's work without affecting the original, then selectively contribute improvements back.",
+    "tags": [
+        "software",
+        "version-control",
+        "git",
+        "workflows",
+        "collaboration"
+    ],
+    "category": "Concepts",
+    "icon": "FaCopy",
+    "featured": false,
+    "aliases": [
+        "Git Clone",
+        "Cloning"
+    ],
+    "relatedConcepts": [
+        "git",
+        "repository",
+        "dvcs",
+        "fork",
+        "remote",
+        "version-control"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "git clone - Git Documentation",
+            "url": "https://git-scm.com/docs/git-clone",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

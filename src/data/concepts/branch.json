@@ -1,49 +1,74 @@
 {
-  "id": "branch",
-  "name": "Branch",
-  "summary": "An independent line of development in version control that allows parallel work without affecting the main codebase.",
-  "explanation": "A branch is a parallel version of a repository, allowing you to work on different features, experiments, or bug fixes independently without affecting the main codebase. In Git, branches are lightweight pointers to commits, making them cheap to create and fast to switch between.\n\nBranches enable non-linear development where multiple streams of work progress simultaneously. You might have a main branch for production code, a development branch for integration, and feature branches for individual changes. Each branch maintains its own history until merged back together.\n\nThe branching workflow encourages experimentation without risk. Create a branch, try something new, and if it doesn't work, delete the branch without polluting the main history. If it succeeds, merge it back. This removes the fear of making changes and encourages exploration.\n\nCommon branching strategies include: feature branching (one branch per feature), GitFlow (structured branching model with release and hotfix branches), and trunk-based development (short-lived branches merged frequently). Each has trade-offs between isolation and integration complexity.\n\nFor knowledge work, the branch concept represents parallel exploration of ideas. Rather than committing to one approach, branch to explore alternatives. Keep the main branch as your established understanding while experimenting in branches. This allows developing multiple perspectives without losing your current thinking, then consciously choosing which ideas to integrate.\n\nBranches make visible the notion that thinking is not linear—we explore multiple paths, some dead-ends, some breakthroughs. The branch structure documents this exploration.",
-  "tags": [
-    "software",
-    "version-control",
-    "workflows",
-    "experimentation",
-    "parallel-development"
-  ],
-  "category": "Concepts",
-  "icon": "FaCodeBranch",
-  "featured": false,
-  "aliases": [
-    "Git Branch",
-    "Branching",
-    "Feature Branch"
-  ],
-  "relatedConcepts": [
-    "git",
-    "version-control",
-    "commit",
-    "merge",
-    "rebase",
-    "feature-branching",
-    "trunk-based-development",
-    "gitflow"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Branching (version control) - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Branching_(version_control)",
-      "type": "website"
-    },
-    {
-      "title": "Git Branching - Branches in a Nutshell",
-      "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "branch",
+    "name": "Branch",
+    "summary": "An independent line of development in version control that allows parallel work without affecting the main codebase.",
+    "explanation": "A branch is a parallel version of a repository, allowing you to work on different features, experiments, or bug fixes independently without affecting the main codebase. In Git, branches are lightweight pointers to commits, making them cheap to create and fast to switch between.\n\nBranches enable non-linear development where multiple streams of work progress simultaneously. You might have a main branch for production code, a development branch for integration, and feature branches for individual changes. Each branch maintains its own history until merged back together.\n\nThe branching workflow encourages experimentation without risk. Create a branch, try something new, and if it doesn't work, delete the branch without polluting the main history. If it succeeds, merge it back. This removes the fear of making changes and encourages exploration.\n\nCommon branching strategies include: feature branching (one branch per feature), GitFlow (structured branching model with release and hotfix branches), and trunk-based development (short-lived branches merged frequently). Each has trade-offs between isolation and integration complexity.\n\nFor knowledge work, the branch concept represents parallel exploration of ideas. Rather than committing to one approach, branch to explore alternatives. Keep the main branch as your established understanding while experimenting in branches. This allows developing multiple perspectives without losing your current thinking, then consciously choosing which ideas to integrate.\n\nBranches make visible the notion that thinking is not linear—we explore multiple paths, some dead-ends, some breakthroughs. The branch structure documents this exploration.",
+    "tags": [
+        "software",
+        "version-control",
+        "workflows",
+        "experimentation",
+        "parallel-development"
+    ],
+    "category": "Concepts",
+    "icon": "FaCodeBranch",
+    "featured": false,
+    "aliases": [
+        "Git Branch",
+        "Branching",
+        "Feature Branch"
+    ],
+    "relatedConcepts": [
+        "git",
+        "version-control",
+        "commit",
+        "merge",
+        "rebase",
+        "feature-branching",
+        "trunk-based-development",
+        "gitflow"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Branching (version control) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Branching_(version_control)",
+            "type": "website"
+        },
+        {
+            "title": "Git Branching - Branches in a Nutshell",
+            "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

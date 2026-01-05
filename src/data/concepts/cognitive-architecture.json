@@ -1,0 +1,138 @@
+{
+    "id": "cognitive-architecture",
+    "name": "Cognitive Architecture",
+    "summary": "Theoretical framework describing the fixed structures underlying human cognition and computational models of the mind.",
+    "explanation": "Cognitive architecture refers to the underlying computational structure and mechanisms of the human mind—the fixed building blocks that support all human cognition. Rather than studying individual cognitive phenomena in isolation, cognitive architecture examines the integrated system of fixed structures that enable thinking, learning, memory, perception, and action.\n\nAt its core, cognitive architecture provides a blueprint for how the mind processes information. It identifies fundamental components like working memory with limited capacity, long-term memory systems for storage, attention mechanisms for focusing cognitive resources, perceptual systems that convert sensory input into meaningful representations, and action systems that translate mental plans into behavior. These components interact according to specific operating principles and constraints.\n\nMajor cognitive architecture theories include ACT-R (Adaptive Control of Thought-Rational), which models learning and problem-solving through the interaction of procedural and declarative memory; SOAR (State, Operator, And Result), which frames cognition as a problem-solving system with means-ends analysis; CLARION (Connectionist Learning with Adaptive Rule Induction ON-line), which combines implicit and explicit learning; and Global Workspace Theory, which explains consciousness as a central bottleneck where multiple competing processes bid for attention.\n\nThe distinction between fixed and flexible aspects of cognition is crucial. Fixed structures include working memory capacity (typically 3-4 items), the serial nature of conscious attention, and the speed of cognitive processes (measured in seconds). Flexible aspects include the content of long-term memory, learned skills and procedures, and the strategies people develop to work within the system's constraints. Understanding this distinction helps explain both universal patterns in human cognition and individual differences based on experience and training.\n\nCognitive architecture has profound implications for human learning and problem-solving. Because working memory is severely limited, people struggle with tasks requiring simultaneous manipulation of many elements—they must rely on strategies like chunking (combining multiple items into meaningful units), schema acquisition (building larger knowledge structures), or external representations (writing, diagrams) to overcome these constraints. The architecture also explains why expertise is domain-specific: people develop highly efficient procedures for familiar domains but revert to slower, more error-prone reasoning in novel situations.\n\nThe relationship between cognitive architecture and artificial intelligence is reciprocal. Computational models of cognitive architecture inform AI design by identifying core principles of intelligent behavior, while AI advances challenge and refine theories of human cognition. Architectures like ACT-R and SOAR have been implemented as computational systems that simulate human performance on cognitive tasks, enabling researchers to test whether proposed mechanisms actually produce human-like behavior.\n\nCognitive architecture connects intimately with cognitive load theory, which applies architectural insights to learning and education. When task demands exceed working memory capacity, cognitive overload occurs, impairing learning and performance. Instructional design informed by cognitive architecture principles—such as presenting information in manageable chunks, using multimedia to distribute processing across visual and auditory channels, or providing external support (scaffolding) to reduce working memory demands—significantly improves learning outcomes.\n\nThe implications extend to tool design and human-computer interaction. Tools that respect cognitive architecture constraints tend to be more usable and effective. For example, interfaces that minimize working memory demands (clear labeling, visible options rather than recalled menu structures), support attention and perception (visual hierarchy, progressive disclosure), and provide external memory support (saved preferences, history, undo functionality) align better with how the human mind actually works.\n\nCognitive architecture also helps explain human strengths and limitations. The same architecture that constrains working memory and sequential attention enables remarkable capabilities for pattern recognition, intuitive judgment in familiar domains, and creative problem-solving when existing approaches fail. Understanding these tradeoffs—what we gain and lose by having this particular cognitive architecture—is essential for realistic views of human potential and appropriate technology design.",
+    "tags": [
+        "cognitive-science",
+        "psychology",
+        "ai",
+        "learning",
+        "mental-models"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Computational Cognitive Science",
+        "Mind Architecture",
+        "Cognitive Structure"
+    ],
+    "relatedConcepts": [
+        "working-memory",
+        "cognitive-load-theory",
+        "mental-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "What is Cognitive Architecture?",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_architecture",
+            "type": "website"
+        },
+        {
+            "title": "ACT-R: A Cognitive Architecture for Modeling Cognition",
+            "url": "https://act-r.psy.cmu.edu/",
+            "type": "website"
+        },
+        {
+            "title": "SOAR: An Integrated Architecture for General Intelligence",
+            "url": "https://soar.eecs.umich.edu/",
+            "type": "website"
+        },
+        {
+            "title": "Global Workspace Theory of Consciousness",
+            "url": "https://en.wikipedia.org/wiki/Global_workspace_theory",
+            "type": "website"
+        },
+        {
+            "title": "Cognitive Load Theory and Educational Design",
+            "url": "https://www.sciencedirect.com/topics/psychology/cognitive-load-theory",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Architecture of Cognition by John R. Anderson",
+            "url": "https://www.amazon.com/dp/0898592119?tag=dsebastien00-20"
+        },
+        {
+            "title": "Unified Theories of Cognition by Allen Newell",
+            "url": "https://www.amazon.com/dp/0674920981?tag=dsebastien00-20"
+        },
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Conscious Mind: In Search of a Fundamental Theory by David J. Chalmers",
+            "url": "https://www.amazon.com/dp/0195105842?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cognitive Architectures and General Intelligence",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_architecture",
+            "type": "paper"
+        },
+        {
+            "title": "Anderson, J. R. (2007). How Can the Human Mind Occur in the Physical Universe?",
+            "url": "https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195324259.001.0001",
+            "type": "paper"
+        },
+        {
+            "title": "Laird, J. E. (2012). The SOAR Cognitive Architecture",
+            "url": "https://mitpress.mit.edu/9780262122970/the-soar-cognitive-architecture/",
+            "type": "paper"
+        },
+        {
+            "title": "Baars, B. J. (1988). A Cognitive Theory of Consciousness",
+            "url": "https://cambridge.org/core/books/cognitive-theory-of-consciousness/",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [
+        {
+            "title": "Introduction to Cognitive Architecture - Stanford Online",
+            "url": "https://online.stanford.edu/",
+            "type": "video"
+        },
+        {
+            "title": "Cognitive Science: The Basics",
+            "url": "https://www.youtube.com/results?search_query=cognitive+architecture+tutorial",
+            "type": "video"
+        }
+    ],
+    "datePublished": "2026-01-05",
+    "dateModified": "2026-01-05"
+}

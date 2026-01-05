@@ -1,0 +1,112 @@
+{
+    "id": "cognitive-load-theory",
+    "name": "Cognitive Load Theory",
+    "summary": "Educational theory developed by John Sweller explaining how cognitive load affects learning and performance through working memory constraints.",
+    "explanation": "Cognitive Load Theory (CLT) is a psychological and instructional design theory developed by John Sweller in the late 1980s that explains how cognitive load impacts learning effectiveness. The theory is grounded in the understanding that working memory has limited capacity (approximately 4-7 elements), and when cognitive load exceeds this capacity, learning becomes inefficient or fails entirely.\n\nThe theory identifies three types of cognitive load:\n\n1. Intrinsic Load: The inherent difficulty of the task or content itself. This is determined by the complexity of the material and the learner's level of expertise. Higher expertise reduces intrinsic load as knowledge becomes increasingly automated through schemas.\n\n2. Extraneous Load: The unnecessary mental effort caused by poorly designed instructional materials or poor presentation. This can result from confusing layouts, redundant information, split attention (information split across multiple sources), or inefficient navigation. The goal of instructional design is to minimize extraneous load.\n\n3. Germane Load: The productive mental effort directly devoted to learning and processing new information. This is the \"good\" load that actually contributes to building mental schemas and understanding. Effective instruction maximizes germane load while minimizing extraneous load.\n\nThe fundamental principle of CLT is that total cognitive load (intrinsic + extraneous + germane) should not exceed working memory capacity. When total load exceeds capacity, learning suffers. When extraneous load is high, less working memory is available for germane load, reducing learning effectiveness.\n\nKey implications of CLT include:\n\n- Expertise Reversal Effect: Instructional techniques that help novices can hinder experts (who have developed efficient schemas), and vice versa.\n- Modality Effect: Information presented through multiple modalities (visual + auditory) uses different working memory stores and can enhance learning.\n- Worked Examples: Studying worked solutions is more effective than problem-solving when learning new concepts, as it reduces extraneous load.\n- Chunking: Grouping information into meaningful units reduces cognitive load by condensing multiple elements into single schema-based units.\n- Cognitive Offloading: Externalizing information through notes, diagrams, and tools reduces working memory load and frees capacity for deeper thinking.\n\nCognitive Load Theory has profound implications for knowledge management and learning design. Personal Knowledge Management (PKM) systems should be designed to minimize extraneous cognitive load through consistent organization, clear naming conventions, minimal navigation complexity, and effective use of templates. By reducing the mental effort required to manage information, these systems free cognitive resources for the germane load of actual thinking, synthesis, and learning.\n\nThe theory also explains why effective note-taking systems emphasize simplicity, consistency, and clear structure—not because they are aesthetically pleasing, but because they reduce the extraneous cognitive load required to navigate and process information.",
+    "tags": [
+        "cognitive-science",
+        "learning",
+        "education",
+        "psychology",
+        "memory",
+        "instructional-design",
+        "mental-models",
+        "working-memory"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "CLT",
+        "Sweller's Cognitive Load Theory",
+        "Working Memory Theory"
+    ],
+    "relatedConcepts": [
+        "cognitive-load",
+        "working-memory",
+        "cognitive-offloading",
+        "chunking",
+        "schemas",
+        "mental-energy",
+        "decision-fatigue",
+        "context-switching"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Cognitive Load Theory - ResearchGate",
+            "url": "https://www.researchgate.net/publication/243634819_Cognitive_Load_Theory",
+            "type": "paper"
+        },
+        {
+            "title": "Cognitive Load Theory in Practice - The Learning Scientists",
+            "url": "https://www.learningscientists.org/cognitive-load-theory",
+            "type": "website"
+        },
+        {
+            "title": "Understanding Cognitive Load - Education Week",
+            "url": "https://www.edweek.org/leadership/how-understanding-cognitive-load-theory-can-improve-instruction/2019/05",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Cognitive Load Theory by John Sweller, Paul Ayres, and Slava Kalyuga",
+            "url": "https://www.amazon.com/dp/1489990844?tag=dsebastien00-20"
+        },
+        {
+            "title": "Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success by Brad Stulberg and Steve Magness",
+            "url": "https://www.amazon.com/dp/1538549344?tag=dsebastien00-20"
+        },
+        {
+            "title": "Make It Stick: The Science of Successful Learning by Peter C. Brown, Henry L. Roediger III, and Mark A. McDaniel",
+            "url": "https://www.amazon.com/dp/0674729013?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cognitive Load Theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_load",
+            "type": "website"
+        },
+        {
+            "title": "Cognitive Load Theory and Its Application in Learning and Teaching - Sweller (2011)",
+            "url": "https://scholar.google.com/scholar?q=cognitive+load+theory+sweller",
+            "type": "paper"
+        },
+        {
+            "title": "The Effects of Cognitive Load and Presentation Modality on Learning Outcomes - Ayres (2015)",
+            "url": "https://scholar.google.com/scholar?q=cognitive+load+presentation+modality",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [
+        {
+            "title": "Cognitive Load Theory Explained - YouTube",
+            "url": "https://www.youtube.com/results?search_query=cognitive+load+theory+john+sweller",
+            "type": "video"
+        }
+    ],
+    "datePublished": "2026-01-05",
+    "dateModified": "2026-01-05"
+}

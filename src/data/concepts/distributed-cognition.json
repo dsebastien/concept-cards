@@ -1,0 +1,97 @@
+{
+    "id": "distributed-cognition",
+    "name": "Distributed Cognition",
+    "summary": "Theory that cognitive processes are distributed across individuals, artifacts, and environments",
+    "explanation": "Distributed cognition is a theoretical framework developed by cognitive scientist Edwin Hutchins that fundamentally challenges the traditional view of cognition as occurring solely within individual minds. Instead, it proposes that cognitive processes are distributed across multiple people, physical artifacts, and environmental contexts.\n\nAt its core, distributed cognition argues that thinking and problem-solving are not isolated individual activities but rather emerge from the interaction between people and their tools, systems, and surroundings. This perspective has profound implications for how we understand human capability, knowledge work, and the design of organizations and systems.\n\nThree Primary Forms of Distribution:\n\nSocial Distribution: Cognitive tasks are shared across multiple people in a group. In a surgical team, for example, each member (surgeon, anesthesiologist, nurses) maintains different knowledge and performs complementary cognitive functions. No single individual holds all the information or capability needed to complete the surgery—the team's collective cognition emerges from their coordination and communication.\n\nEmbodied Distribution: Cognition extends beyond the brain into the body and physical environment. We use our bodies to manipulate objects, and we create external representations to offload cognitive work. A pilot reading instruments, a mathematician writing equations, or a chef arranging ingredients on a counter—all are engaging in cognition that transcends the brain and incorporates physical tools and spatial organization.\n\nTemporal Distribution: Cognitive processes unfold across time through the use of artifacts and systems. Written notes from yesterday inform today's thinking; digital systems preserve knowledge for future use; traditions and practices encode centuries of accumulated understanding. Cognition doesn't exist only in the present moment but extends backward through memory aids and forward through our intentions and plans.\n\nClassic Examples:\n\nAirplane Cockpit: Hutchins' original research examined how pilots and co-pilots coordinate their cognitive work. The cockpit contains numerous instruments, displays, and procedures that distribute the cognitive load. Critical information is made visible through instruments rather than held in individual memory, and communication protocols ensure knowledge is shared and verified across the crew. A single pilot cannot safely fly a complex aircraft alone—the system's safety depends on how cognition is distributed across people and tools.\n\nShip Navigation: Historical navigation required coordinating observations from multiple crew members, interpreting charts and instruments, and maintaining course over long periods. No individual possessed all necessary knowledge; success emerged from the distributed cognitive system of trained crew members, proven navigation tools, and established procedures.\n\nSurgical Teams: Modern surgery exemplifies distributed cognition. The surgeon doesn't memorize every anatomical detail or drug interaction; this knowledge is distributed across the team (anesthesiologists know physiology), external artifacts (written protocols, imaging displays), and physical tools (instruments designed for specific purposes). Communication and coordination protocols ensure the team functions as an integrated cognitive system.\n\nConnection to Extended Mind Thesis:\n\nDistributed cognition is closely related to the extended mind thesis, which argues that the mind extends into the external world. Where extended mind emphasizes the integration of external tools into cognitive processes, distributed cognition focuses specifically on how cognitive processes are shared across social and material systems. Distributed cognition provides a more specific framework for understanding how organizations, teams, and complex systems process information and solve problems.\n\nKey Distinction: Extended mind asks \"Is the laptop part of my mind?\" while distributed cognition asks \"How does this work team think collectively?\"\n\nImplications for Tool Design and Knowledge Work:\n\nThe theory of distributed cognition has transformed how we approach the design of tools, workplaces, and information systems. Rather than assuming tools should simply assist individual cognition, we should design them to optimize distributed cognitive processes:\n\nMake Information Visible: Tools should externalize critical information so it's available to all team members. Real-time dashboards, shared documentation, and collaborative interfaces allow cognition to flow across the group.\n\nDesign Communication Protocols: The way information is shared and verified across a team dramatically affects cognitive capability. Clear procedures for communication, handoffs, and verification reduce errors and enable complexity.\n\nOptimize Cognitive Artifacts: Written notes, templates, checklists, and digital systems are not mere helpers—they are part of the cognitive system itself. Their design directly affects team performance.\n\nEmpower Cognitive Offloading: By supporting the externalization of knowledge and tasks, we can reduce individual cognitive load and increase collective capability. Personal knowledge management systems, note-taking applications, and digital tools that preserve and organize information are essential infrastructure.\n\nConnection to Cognitive Offloading, PKM, and Collaborative Systems:\n\nDistributed cognition explains why personal knowledge management is so effective. When you externalize information into a second brain—a digital garden, note system, or knowledge base—you're not replacing your brain but extending your cognitive capability. You're creating a distributed cognitive system where your brain and your tools together form an integrated thinking system.\n\nSimilarly, collaborative systems (shared documents, wikis, project management tools) aren't just communication aids—they are cognitive infrastructure. They allow teams to function as distributed cognition systems, preserving institutional knowledge, coordinating action, and making group thinking visible.\n\nIn modern knowledge work, understanding distributed cognition helps explain why certain practices are powerful: why documentation matters, why shared notes improve team performance, why externalization tools (sketching, mapping, writing) enhance thinking, and why the environment and tools we choose directly influence our capability.\n\nThe theory suggests that to improve human thinking and problem-solving, we should focus not only on individual ability but on optimizing the entire system—how people, tools, and environments interact to create collective intelligence.",
+    "tags": [
+        "cognitive-science",
+        "collaboration",
+        "tools",
+        "psychology",
+        "systems-thinking"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Distributed Cognition Theory",
+        "Hutchins' Distributed Cognition"
+    ],
+    "relatedConcepts": [
+        "extended-mind-thesis",
+        "cognitive-offloading",
+        "transactive-memory",
+        "exocortex"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Distributed+Cognition"
+    ],
+    "articles": [
+        {
+            "title": "Distributed Cognition - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Distributed_cognition",
+            "type": "website"
+        },
+        {
+            "title": "Edwin Hutchins - UC San Diego Cognitive Science Department",
+            "url": "https://cogsci.ucsd.edu/people/faculty/hutchins.html",
+            "type": "website"
+        },
+        {
+            "title": "Extended Mind - Stanford Encyclopedia of Philosophy",
+            "url": "https://plato.stanford.edu/entries/extended-mind/",
+            "type": "paper"
+        }
+    ],
+    "books": [
+        {
+            "title": "Cognition in the Wild by Edwin Hutchins",
+            "url": "https://www.amazon.com/dp/0262581469?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Distributed Mind by Peter Kirsh and Paul Maglio",
+            "url": "https://www.amazon.com/s?k=distributed+mind+cognitive+science&tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "How a Cockpit Remembers Its Speeds - Edwin Hutchins",
+            "url": "https://en.wikipedia.org/wiki/Distributed_cognition#Key_works",
+            "type": "paper"
+        },
+        {
+            "title": "Cognitive Science as a Guide to Human-Computer Interaction - Donald Norman",
+            "url": "https://scholar.google.com/scholar?q=cognitive+science+human+computer+interaction+norman",
+            "type": "paper"
+        },
+        {
+            "title": "The Extended Mind - Andy Clark and David Chalmers",
+            "url": "https://en.wikipedia.org/wiki/Extended_mind_thesis",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [
+        {
+            "title": "Introduction to Distributed Cognition - Cognitive Science Online",
+            "url": "https://cogsci.ucsd.edu/students/phd-program.html",
+            "type": "video"
+        }
+    ],
+    "datePublished": "2026-01-05",
+    "dateModified": "2026-01-05"
+}

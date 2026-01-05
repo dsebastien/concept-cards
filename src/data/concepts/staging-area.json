@@ -1,40 +1,65 @@
 {
-  "id": "staging-area",
-  "name": "Staging Area",
-  "summary": "An intermediate space in Git where you prepare and review changes before committing them to the repository.",
-  "explanation": "The staging area (also called the index) is a unique feature of Git that sits between your working directory and the repository. It's where you assemble the changes that will go into your next commit, allowing you to craft commits intentionally rather than committing everything at once.\n\nWhen you modify files in your working directory, those changes start as unstaged. You use 'git add' to move specific changes to the staging area, selectively choosing what to include in the next commit. This lets you commit logically related changes together even if you've made unrelated modifications to the same file.\n\nThe staging area enables powerful workflows: you can stage parts of a file (hunks) while leaving other parts unstaged, create multiple small commits from a batch of changes, review exactly what you're about to commit, and undo staging without losing the actual changes. This turns committing from a snapshot into a curated process.\n\nThe three-state model—working directory (modified), staging area (staged), repository (committed)—provides fine-grained control. You can have the same file in all three states with different content: modified in working directory, previously modified in staging, and older version in repository. This flexibility supports careful, intentional version control.\n\nFor knowledge work, the staging area represents the draft or review phase. Rather than immediately publishing every thought, you collect and arrange ideas, review what you're about to share, refine the presentation, and then commit. This creates space for editorial judgment, ensuring what you share is coherent and complete.",
-  "tags": [
-    "software",
-    "version-control",
-    "git",
-    "workflows",
-    "best-practices"
-  ],
-  "category": "Concepts",
-  "icon": "FaClipboardList",
-  "featured": false,
-  "aliases": [
-    "Index",
-    "Git Index",
-    "Git Staging Area"
-  ],
-  "relatedConcepts": [
-    "git",
-    "commit",
-    "version-control",
-    "repository"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Git Basics - Recording Changes to the Repository",
-      "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "staging-area",
+    "name": "Staging Area",
+    "summary": "An intermediate space in Git where you prepare and review changes before committing them to the repository.",
+    "explanation": "The staging area (also called the index) is a unique feature of Git that sits between your working directory and the repository. It's where you assemble the changes that will go into your next commit, allowing you to craft commits intentionally rather than committing everything at once.\n\nWhen you modify files in your working directory, those changes start as unstaged. You use 'git add' to move specific changes to the staging area, selectively choosing what to include in the next commit. This lets you commit logically related changes together even if you've made unrelated modifications to the same file.\n\nThe staging area enables powerful workflows: you can stage parts of a file (hunks) while leaving other parts unstaged, create multiple small commits from a batch of changes, review exactly what you're about to commit, and undo staging without losing the actual changes. This turns committing from a snapshot into a curated process.\n\nThe three-state model—working directory (modified), staging area (staged), repository (committed)—provides fine-grained control. You can have the same file in all three states with different content: modified in working directory, previously modified in staging, and older version in repository. This flexibility supports careful, intentional version control.\n\nFor knowledge work, the staging area represents the draft or review phase. Rather than immediately publishing every thought, you collect and arrange ideas, review what you're about to share, refine the presentation, and then commit. This creates space for editorial judgment, ensuring what you share is coherent and complete.",
+    "tags": [
+        "software",
+        "version-control",
+        "git",
+        "workflows",
+        "best-practices"
+    ],
+    "category": "Concepts",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "Index",
+        "Git Index",
+        "Git Staging Area"
+    ],
+    "relatedConcepts": [
+        "git",
+        "commit",
+        "version-control",
+        "repository"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Git Basics - Recording Changes to the Repository",
+            "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

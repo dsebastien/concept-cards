@@ -1,46 +1,71 @@
 {
-  "id": "merge",
-  "name": "Merge",
-  "summary": "Combining multiple sequences of commits into one unified history in version control.",
-  "explanation": "Merging is the process of integrating changes from different branches or development lines into a single unified history. In version control systems like Git, merge combines the changes from one branch (source) into another branch (target), preserving the history of both.\n\nWhen you merge, the version control system automatically combines changes that don't conflict. If both branches modified the same lines of code, a merge conflict occurs, requiring manual resolution to decide which changes to keep. Once conflicts are resolved, the merge creates a new commit that has multiple parent commits, showing where the branches came together.\n\nThere are different merge strategies: fast-forward (moving the pointer when no divergence occurred), recursive (the default three-way merge), and squash (combining all commits from a branch into a single commit). Each has trade-offs between preserving history and maintaining a clean commit log.\n\nMerging represents integration moments—times when parallel work streams come together. The act of merging forces reconciliation of different approaches and reveals conflicts that need resolution. In knowledge work, merging can represent synthesizing different perspectives, combining notes from multiple sources, or integrating experimental ideas into main thinking.\n\nThe merge-based workflow encourages parallel development, experimentation in isolation, and deliberate integration points. Pull requests formalize this by adding review before merging, turning integration into a quality control checkpoint.",
-  "tags": [
-    "software",
-    "version-control",
-    "workflows",
-    "collaboration",
-    "integration"
-  ],
-  "category": "Concepts",
-  "icon": "FaCodeBranch",
-  "featured": false,
-  "aliases": [
-    "Merging",
-    "Git Merge"
-  ],
-  "relatedConcepts": [
-    "git",
-    "branch",
-    "rebase",
-    "conflict-resolution",
-    "pull-request",
-    "version-control"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Merge (version control) - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Merge_(version_control)",
-      "type": "website"
-    },
-    {
-      "title": "Git Branching - Basic Branching and Merging",
-      "url": "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "merge",
+    "name": "Merge",
+    "summary": "Combining multiple sequences of commits into one unified history in version control.",
+    "explanation": "Merging is the process of integrating changes from different branches or development lines into a single unified history. In version control systems like Git, merge combines the changes from one branch (source) into another branch (target), preserving the history of both.\n\nWhen you merge, the version control system automatically combines changes that don't conflict. If both branches modified the same lines of code, a merge conflict occurs, requiring manual resolution to decide which changes to keep. Once conflicts are resolved, the merge creates a new commit that has multiple parent commits, showing where the branches came together.\n\nThere are different merge strategies: fast-forward (moving the pointer when no divergence occurred), recursive (the default three-way merge), and squash (combining all commits from a branch into a single commit). Each has trade-offs between preserving history and maintaining a clean commit log.\n\nMerging represents integration moments—times when parallel work streams come together. The act of merging forces reconciliation of different approaches and reveals conflicts that need resolution. In knowledge work, merging can represent synthesizing different perspectives, combining notes from multiple sources, or integrating experimental ideas into main thinking.\n\nThe merge-based workflow encourages parallel development, experimentation in isolation, and deliberate integration points. Pull requests formalize this by adding review before merging, turning integration into a quality control checkpoint.",
+    "tags": [
+        "software",
+        "version-control",
+        "workflows",
+        "collaboration",
+        "integration"
+    ],
+    "category": "Concepts",
+    "icon": "FaCodeBranch",
+    "featured": false,
+    "aliases": [
+        "Merging",
+        "Git Merge"
+    ],
+    "relatedConcepts": [
+        "git",
+        "branch",
+        "rebase",
+        "conflict-resolution",
+        "pull-request",
+        "version-control"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Merge (version control) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Merge_(version_control)",
+            "type": "website"
+        },
+        {
+            "title": "Git Branching - Basic Branching and Merging",
+            "url": "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

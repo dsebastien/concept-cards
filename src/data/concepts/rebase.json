@@ -1,47 +1,72 @@
 {
-  "id": "rebase",
-  "name": "Rebase",
-  "summary": "Reapplying commits on top of another base commit to create a linear history in version control.",
-  "explanation": "Rebasing is a Git operation that moves or combines a sequence of commits to a new base commit. Instead of creating a merge commit like merge does, rebase rewrites commit history by replaying your changes on top of another branch, creating a linear progression.\n\nWhen you rebase, Git finds the common ancestor of your branch and the target branch, takes all your commits since that point, and reapplies them one by one onto the target branch. This results in a clean, linear history without merge commits. Each commit gets a new SHA hash because its parent has changed, effectively rewriting history.\n\nRebase is powerful for cleaning up work before sharing it. Interactive rebase (`git rebase -i`) lets you edit, reorder, squash (combine), or drop commits, creating a polished narrative of changes. This turns messy development history into a clear story that's easy for others to understand and review.\n\nThe golden rule: never rebase commits that have been pushed to a public repository and that others might have based work on. Rewriting shared history causes conflicts for collaborators. Use rebase for local cleanup before pushing, but use merge for integrating shared work.\n\nIn knowledge work, rebasing represents revision—rewriting ideas with a clearer structure, reorganizing thoughts into a more logical flow, or presenting conclusions without showing every wrong turn. It's the difference between showing your thinking process versus presenting refined insights.",
-  "tags": [
-    "software",
-    "version-control",
-    "workflows",
-    "git",
-    "best-practices"
-  ],
-  "category": "Concepts",
-  "icon": "FaStream",
-  "featured": false,
-  "aliases": [
-    "Git Rebase",
-    "Interactive Rebase"
-  ],
-  "relatedConcepts": [
-    "git",
-    "merge",
-    "commit",
-    "branch",
-    "version-control",
-    "cherry-pick"
-  ],
-  "relatedNotes": [],
-  "articles": [
-    {
-      "title": "Git Rebase: Don't be Afraid of the Force (Push)",
-      "url": "https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase",
-      "type": "website"
-    }
-  ],
-  "books": [],
-  "references": [
-    {
-      "title": "Git Branching - Rebasing",
-      "url": "https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "rebase",
+    "name": "Rebase",
+    "summary": "Reapplying commits on top of another base commit to create a linear history in version control.",
+    "explanation": "Rebasing is a Git operation that moves or combines a sequence of commits to a new base commit. Instead of creating a merge commit like merge does, rebase rewrites commit history by replaying your changes on top of another branch, creating a linear progression.\n\nWhen you rebase, Git finds the common ancestor of your branch and the target branch, takes all your commits since that point, and reapplies them one by one onto the target branch. This results in a clean, linear history without merge commits. Each commit gets a new SHA hash because its parent has changed, effectively rewriting history.\n\nRebase is powerful for cleaning up work before sharing it. Interactive rebase (`git rebase -i`) lets you edit, reorder, squash (combine), or drop commits, creating a polished narrative of changes. This turns messy development history into a clear story that's easy for others to understand and review.\n\nThe golden rule: never rebase commits that have been pushed to a public repository and that others might have based work on. Rewriting shared history causes conflicts for collaborators. Use rebase for local cleanup before pushing, but use merge for integrating shared work.\n\nIn knowledge work, rebasing represents revision—rewriting ideas with a clearer structure, reorganizing thoughts into a more logical flow, or presenting conclusions without showing every wrong turn. It's the difference between showing your thinking process versus presenting refined insights.",
+    "tags": [
+        "software",
+        "version-control",
+        "workflows",
+        "git",
+        "best-practices"
+    ],
+    "category": "Concepts",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Git Rebase",
+        "Interactive Rebase"
+    ],
+    "relatedConcepts": [
+        "git",
+        "merge",
+        "commit",
+        "branch",
+        "version-control",
+        "cherry-pick"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Git Rebase: Don't be Afraid of the Force (Push)",
+            "url": "https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Git Branching - Rebasing",
+            "url": "https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

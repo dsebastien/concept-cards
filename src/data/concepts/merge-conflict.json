@@ -1,47 +1,57 @@
 {
-  "id": "merge-conflict",
-  "name": "Merge Conflict",
-  "summary": "When version control cannot automatically combine changes because different branches modified the same code incompatibly.",
-  "explanation": "A merge conflict occurs in version control when Git cannot automatically reconcile changes because different branches modified the same lines of code in incompatible ways. Resolving merge conflicts requires manually deciding which changes to keep, combining them, or creating an entirely new solution.\n\nWhen Git encounters a conflict during merge or rebase, it pauses the operation and marks the conflicted sections in the files. Each conflict shows both versions with conflict markers: `<<<<<<< HEAD` shows your current changes, `=======` separates them, and `>>>>>>> branch-name` shows the incoming changes. You must edit the file to resolve the conflict, remove the markers, stage the resolved file, and complete the merge.\n\nGood conflict resolution requires understanding both sets of changes: what problem each was solving and whether they're compatible. Sometimes you keep one version, sometimes the other, sometimes both (if they're independent), and sometimes neither—you create a third solution that addresses both concerns. This requires technical understanding and often communication with the other authors.\n\nStrategies to minimize conflicts include: committing and merging frequently (creating smaller conflicts), coordinating who works on what files, refactoring to reduce code interdependencies, and using feature toggles to isolate changes. However, some conflicts are inevitable in collaborative work and represent genuine tensions between different approaches that require human judgment.\n\nMerge tools and IDE integrations make conflict resolution easier by providing visual diffs, 3-way merge views, and semantic understanding of code. Despite automation, the decision of how to resolve conflicts ultimately requires human understanding of the code's purpose.",
-  "tags": [
-    "software",
-    "version-control",
-    "git",
-    "collaboration",
-    "problem-solving"
-  ],
-  "category": "Concepts",
-  "icon": "FaExclamationTriangle",
-  "featured": false,
-  "aliases": [
-    "Git Conflict",
-    "Merge Conflict Resolution",
-    "Resolving Merge Conflicts"
-  ],
-  "relatedConcepts": [
-    "git",
-    "merge",
-    "rebase",
-    "branch",
-    "version-control",
-    "collaboration"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Git Tools - Advanced Merging",
-      "url": "https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging",
-      "type": "website"
-    },
-    {
-      "title": "About merge conflicts - GitHub Docs",
-      "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "merge-conflict",
+    "name": "Merge Conflict",
+    "summary": "When version control cannot automatically combine changes because different branches modified the same code incompatibly.",
+    "explanation": "A merge conflict occurs in version control when Git cannot automatically reconcile changes because different branches modified the same lines of code in incompatible ways. Resolving merge conflicts requires manually deciding which changes to keep, combining them, or creating an entirely new solution.\n\nWhen Git encounters a conflict during merge or rebase, it pauses the operation and marks the conflicted sections in the files. Each conflict shows both versions with conflict markers: `<<<<<<< HEAD` shows your current changes, `=======` separates them, and `>>>>>>> branch-name` shows the incoming changes. You must edit the file to resolve the conflict, remove the markers, stage the resolved file, and complete the merge.\n\nGood conflict resolution requires understanding both sets of changes: what problem each was solving and whether they're compatible. Sometimes you keep one version, sometimes the other, sometimes both (if they're independent), and sometimes neither—you create a third solution that addresses both concerns. This requires technical understanding and often communication with the other authors.\n\nStrategies to minimize conflicts include: committing and merging frequently (creating smaller conflicts), coordinating who works on what files, refactoring to reduce code interdependencies, and using feature toggles to isolate changes. However, some conflicts are inevitable in collaborative work and represent genuine tensions between different approaches that require human judgment.\n\nMerge tools and IDE integrations make conflict resolution easier by providing visual diffs, 3-way merge views, and semantic understanding of code. Despite automation, the decision of how to resolve conflicts ultimately requires human understanding of the code's purpose.",
+    "tags": [
+        "software",
+        "version-control",
+        "git",
+        "collaboration",
+        "problem-solving"
+    ],
+    "category": "Concepts",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Git Conflict",
+        "Merge Conflict Resolution",
+        "Resolving Merge Conflicts"
+    ],
+    "relatedConcepts": [
+        "git",
+        "merge",
+        "rebase",
+        "branch",
+        "version-control",
+        "collaboration"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Git Tools - Advanced Merging",
+            "url": "https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging",
+            "type": "website"
+        },
+        {
+            "title": "About merge conflicts - GitHub Docs",
+            "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

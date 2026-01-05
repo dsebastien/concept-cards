@@ -1,46 +1,71 @@
 {
-  "id": "trunk-based-development",
-  "name": "Trunk-based Development",
-  "summary": "A version control workflow where developers integrate small changes frequently into a single main branch.",
-  "explanation": "Trunk-based development is a version control workflow where all developers work on a single branch (the trunk, typically 'main' or 'master'), committing small changes frequently—often multiple times per day. Instead of long-lived feature branches, developers create very short-lived branches (hours, at most a day or two) or commit directly to the trunk.\n\nThe practice emphasizes continuous integration and small batch sizes. By integrating constantly, teams avoid the massive merge conflicts and integration problems that arise from long-lived branches. Each integration is small enough to review quickly and fix easily if it breaks something. This requires strong automated testing and CI/CD pipelines to catch problems immediately.\n\nTrunk-based development often uses feature flags (toggles) to hide incomplete features in production. This allows incomplete code to exist in the trunk without affecting users—features are merged but not activated until ready. This decouples deployment from release, enabling true continuous deployment.\n\nThe approach requires discipline: comprehensive automated tests, rapid code review, backward-compatible changes, and feature flags for managing incomplete work. In return, it provides: simplified branching model, reduced merge conflicts, faster feedback, easier refactoring, and support for continuous deployment.\n\nTrunk-based development contrasts with GitFlow's structured branches and long-lived features. It's optimized for web services and continuous deployment rather than scheduled releases. High-performing DevOps teams often use trunk-based development to maximize deployment frequency while maintaining stability.",
-  "tags": [
-    "software",
-    "version-control",
-    "workflows",
-    "devops",
-    "continuous-integration"
-  ],
-  "category": "Frameworks",
-  "icon": "FaCodeBranch",
-  "featured": false,
-  "aliases": [
-    "Trunk-based",
-    "Mainline Development"
-  ],
-  "relatedConcepts": [
-    "git",
-    "branch",
-    "gitflow",
-    "feature-branching",
-    "version-control",
-    "continuous-integration"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Trunk Based Development",
-      "url": "https://trunkbaseddevelopment.com",
-      "type": "website"
-    },
-    {
-      "title": "Trunk-based development - Atlassian",
-      "url": "https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "trunk-based-development",
+    "name": "Trunk-based Development",
+    "summary": "A version control workflow where developers integrate small changes frequently into a single main branch.",
+    "explanation": "Trunk-based development is a version control workflow where all developers work on a single branch (the trunk, typically 'main' or 'master'), committing small changes frequently—often multiple times per day. Instead of long-lived feature branches, developers create very short-lived branches (hours, at most a day or two) or commit directly to the trunk.\n\nThe practice emphasizes continuous integration and small batch sizes. By integrating constantly, teams avoid the massive merge conflicts and integration problems that arise from long-lived branches. Each integration is small enough to review quickly and fix easily if it breaks something. This requires strong automated testing and CI/CD pipelines to catch problems immediately.\n\nTrunk-based development often uses feature flags (toggles) to hide incomplete features in production. This allows incomplete code to exist in the trunk without affecting users—features are merged but not activated until ready. This decouples deployment from release, enabling true continuous deployment.\n\nThe approach requires discipline: comprehensive automated tests, rapid code review, backward-compatible changes, and feature flags for managing incomplete work. In return, it provides: simplified branching model, reduced merge conflicts, faster feedback, easier refactoring, and support for continuous deployment.\n\nTrunk-based development contrasts with GitFlow's structured branches and long-lived features. It's optimized for web services and continuous deployment rather than scheduled releases. High-performing DevOps teams often use trunk-based development to maximize deployment frequency while maintaining stability.",
+    "tags": [
+        "software",
+        "version-control",
+        "workflows",
+        "devops",
+        "continuous-integration"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCodeBranch",
+    "featured": false,
+    "aliases": [
+        "Trunk-based",
+        "Mainline Development"
+    ],
+    "relatedConcepts": [
+        "git",
+        "branch",
+        "gitflow",
+        "feature-branching",
+        "version-control",
+        "continuous-integration"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Trunk Based Development",
+            "url": "https://trunkbaseddevelopment.com",
+            "type": "website"
+        },
+        {
+            "title": "Trunk-based development - Atlassian",
+            "url": "https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }

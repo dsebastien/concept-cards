@@ -1,46 +1,71 @@
 {
-  "id": "feature-branching",
-  "name": "Feature Branching",
-  "summary": "A development workflow where each new feature is developed in a dedicated branch before being merged into the main codebase.",
-  "explanation": "Feature branching is a version control workflow where developers create a separate branch for each feature, enhancement, or bug fix they're working on. This isolates work in progress from the main codebase, allowing multiple features to be developed in parallel without interfering with each other.\n\nThe typical workflow: create a branch from main for your feature, develop and commit on that branch, submit a pull request when ready, have the code reviewed, merge the feature branch back to main once approved, then delete the feature branch. Each feature has its own history and development timeline.\n\nFeature branching enables: parallel development without conflicts, code review before integration (via pull requests), ability to abandon failed experiments without affecting main, clear separation between production code and experimental work, and easy rollback of problematic features.\n\nHowever, long-lived feature branches create integration challenges. The longer a branch lives, the more it diverges from main, increasing merge conflicts and integration risk. This is sometimes called 'merge debt' or 'integration hell.' The solution is keeping feature branches short-lived—days, not weeks or months.\n\nBest practices include: branch from and merge to main frequently, keep feature branches small and focused, integrate upstream changes regularly to avoid divergence, use feature flags for large changes that need to be merged incrementally, and delete branches after merging to keep the repository clean.\n\nFor knowledge work, feature branching represents exploring ideas in isolation before integrating them into your main thinking. You develop a perspective fully in its own context, then consciously integrate it with your established understanding.",
-  "tags": [
-    "software",
-    "version-control",
-    "workflows",
-    "collaboration",
-    "git"
-  ],
-  "category": "Frameworks",
-  "icon": "FaCodeBranch",
-  "featured": false,
-  "aliases": [
-    "Feature Branch Workflow",
-    "GitHub Flow"
-  ],
-  "relatedConcepts": [
-    "git",
-    "branch",
-    "gitflow",
-    "trunk-based-development",
-    "pull-request",
-    "version-control"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Feature branch - Atlassian",
-      "url": "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow",
-      "type": "website"
-    },
-    {
-      "title": "GitHub flow",
-      "url": "https://docs.github.com/en/get-started/quickstart/github-flow",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-03",
-  "dateModified": "2026-01-03"
+    "id": "feature-branching",
+    "name": "Feature Branching",
+    "summary": "A development workflow where each new feature is developed in a dedicated branch before being merged into the main codebase.",
+    "explanation": "Feature branching is a version control workflow where developers create a separate branch for each feature, enhancement, or bug fix they're working on. This isolates work in progress from the main codebase, allowing multiple features to be developed in parallel without interfering with each other.\n\nThe typical workflow: create a branch from main for your feature, develop and commit on that branch, submit a pull request when ready, have the code reviewed, merge the feature branch back to main once approved, then delete the feature branch. Each feature has its own history and development timeline.\n\nFeature branching enables: parallel development without conflicts, code review before integration (via pull requests), ability to abandon failed experiments without affecting main, clear separation between production code and experimental work, and easy rollback of problematic features.\n\nHowever, long-lived feature branches create integration challenges. The longer a branch lives, the more it diverges from main, increasing merge conflicts and integration risk. This is sometimes called 'merge debt' or 'integration hell.' The solution is keeping feature branches short-lived—days, not weeks or months.\n\nBest practices include: branch from and merge to main frequently, keep feature branches small and focused, integrate upstream changes regularly to avoid divergence, use feature flags for large changes that need to be merged incrementally, and delete branches after merging to keep the repository clean.\n\nFor knowledge work, feature branching represents exploring ideas in isolation before integrating them into your main thinking. You develop a perspective fully in its own context, then consciously integrate it with your established understanding.",
+    "tags": [
+        "software",
+        "version-control",
+        "workflows",
+        "collaboration",
+        "git"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCodeBranch",
+    "featured": false,
+    "aliases": [
+        "Feature Branch Workflow",
+        "GitHub Flow"
+    ],
+    "relatedConcepts": [
+        "git",
+        "branch",
+        "gitflow",
+        "trunk-based-development",
+        "pull-request",
+        "version-control"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Feature branch - Atlassian",
+            "url": "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow",
+            "type": "website"
+        },
+        {
+            "title": "GitHub flow",
+            "url": "https://docs.github.com/en/get-started/quickstart/github-flow",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-03",
+    "dateModified": "2026-01-03"
 }
