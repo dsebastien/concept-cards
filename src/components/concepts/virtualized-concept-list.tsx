@@ -15,12 +15,12 @@ const OVERSCAN = 5 // Number of items to render outside viewport
 
 // Get number of columns based on container width
 const getColumnCount = (containerWidth: number): number => {
-    if (containerWidth >= 1536) return 6 // 2xl:grid-cols-6
-    if (containerWidth >= 1280) return 5 // xl:grid-cols-5
-    if (containerWidth >= 1024) return 4 // lg:grid-cols-4
-    if (containerWidth >= 768) return 3 // md:grid-cols-3
-    if (containerWidth >= 640) return 2 // sm:grid-cols-2
-    return 1
+    if (containerWidth >= 1536) return 7 // 2xl:grid-cols-7 (ultra-wide)
+    if (containerWidth >= 1280) return 6 // xl:grid-cols-6
+    if (containerWidth >= 1024) return 5 // lg:grid-cols-5
+    if (containerWidth >= 768) return 4 // md:grid-cols-4
+    if (containerWidth >= 640) return 3 // sm:grid-cols-3
+    return 2 // Mobile: 2 columns instead of 1 for better space usage
 }
 
 const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
