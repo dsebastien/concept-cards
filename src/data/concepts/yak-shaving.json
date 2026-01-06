@@ -1,0 +1,47 @@
+{
+    "id": "yak-shaving",
+    "name": "Yak Shaving",
+    "summary": "Getting sidetracked by a sequence of nested, preparatory tasks that take you progressively further from your original goal.",
+    "explanation": "Yak Shaving refers to the seemingly endless series of small tasks that must be completed before you can accomplish your actual goal. Each task reveals another prerequisite, creating a chain of dependencies that leads you far from your original objective.\n\n**The classic example:**\n\nYou want to write a blog post. But first, you need to update your blog theme. To update the theme, you need to update the CMS. To update the CMS, you need to back up the database. To back up the database, you need more disk space. To free up disk space, you need to reorganize your file system. And so on.\n\nEventually, you find yourself metaphorically \"shaving a yak\"—doing something completely disconnected from your original goal.\n\n**Origin:**\n\nThe term comes from an episode of the animated series \"The Ren & Stimpy Show,\" popularized in software development circles by MIT's AI Lab in the 1990s. It describes absurdly tangential tasks that seem necessary but aren't.\n\n**Why it happens:**\n\n1. **Real dependencies**: Sometimes tasks genuinely require prerequisites\n2. **Perfectionism**: The desire to have everything \"just right\" before starting\n3. **Procrastination in disguise**: Each small task feels productive while avoiding the harder work\n4. **Lack of boundaries**: Not distinguishing between \"necessary\" and \"nice to have\"\n5. **Tech debt accumulation**: Old systems require more prep work\n\n**How to recognize yak shaving:**\n\n- You're three levels deep in prerequisite tasks\n- The current task seems unrelated to your original goal\n- You've forgotten why you started this chain of tasks\n- Hours have passed with no progress on the main objective\n- You keep saying \"I just need to...\"\n\n**How to avoid it:**\n\n- **Ask \"Is this blocking?\"** - Does your original task truly require this?\n- **Set a depth limit** - Allow 1-2 levels of prerequisites, then stop\n- **Use the \"good enough\" principle** - Accept imperfect preconditions\n- **Time-box prep work** - Give yourself 30 minutes, then start regardless\n- **Write it down** - Capture the yak-shaving chain to see the absurdity\n\n**When yak shaving is legitimate:**\n\nSometimes the chain of prerequisites reveals genuine technical debt or architectural problems that need fixing. The key is intentionality—are you deliberately addressing root causes, or unconsciously avoiding your main task?",
+    "tags": [
+        "productivity",
+        "procrastination",
+        "workflows",
+        "distraction",
+        "time-management"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Yak Shave",
+        "Prerequisite Rabbit Hole",
+        "Dependency Hell"
+    ],
+    "relatedConcepts": [
+        "bikeshedding",
+        "premature-optimization",
+        "tool-gardening",
+        "scope-creep",
+        "procrastination-in-disguise"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Yak Shaving - The American Dialect Society",
+            "url": "https://www.americandialect.org/yak-shaving",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Yak shaving - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Yak_shaving",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-06",
+    "dateModified": "2026-01-06"
+}
