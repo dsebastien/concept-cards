@@ -1,0 +1,46 @@
+{
+    "id": "visual-consistency",
+    "name": "Visual Consistency",
+    "summary": "Maintaining uniform design elements and patterns across a product or system to create predictability and ease of use.",
+    "explanation": "Visual consistency is a fundamental design principle that ensures uniform application of visual elements throughout a product, interface, or brand. It involves maintaining consistency in colors, typography, spacing, iconography, component behavior, and interaction patterns. When users encounter consistent visual language, they can predict how elements will behave and where to find information, reducing cognitive load and improving usability. Visual consistency applies at multiple levels: within a single interface, across multiple screens or pages, throughout a product ecosystem, and across an entire brand identity. It's closely related to design systems, which codify these consistent patterns into reusable components and guidelines. Consistency doesn't mean rigidity—it means establishing clear rules that create familiarity while allowing flexibility for special cases. Breaking consistency should be intentional and purposeful, typically to draw attention to critical actions or distinguish between different types of content.",
+    "tags": [
+        "design",
+        "user-experience",
+        "interfaces",
+        "usability",
+        "patterns",
+        "design-systems"
+    ],
+    "category": "Principles",
+    "icon": "FaPalette",
+    "featured": false,
+    "aliases": [
+        "Design Consistency",
+        "UI Consistency",
+        "Interface Consistency"
+    ],
+    "relatedConcepts": [
+        "design-systems",
+        "atomic-design",
+        "progressive-disclosure",
+        "affordances"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Consistency in Design - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/consistency-and-standards/",
+            "type": "website"
+        },
+        {
+            "title": "Visual Consistency - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Consistency_(user_interface)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-06",
+    "dateModified": "2026-01-06"
+}
