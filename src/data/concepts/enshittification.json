@@ -1,0 +1,59 @@
+{
+  "id": "enshittification",
+  "name": "Enshittification",
+  "summary": "The pattern of online platforms progressively degrading quality and user experience to maximize profits, following a predictable cycle from user-friendly to exploitative.",
+  "explanation": "Enshittification is a term coined by technology writer Cory Doctorow to describe the inevitable decay pattern of online platforms, particularly those operating as two-sided markets. The process follows a predictable three-stage cycle that maximizes short-term extraction of value while destroying long-term viability.\n\nThe three stages are: **Stage 1 - Be good to users**: The platform starts by offering an excellent user experience, often subsidized or free, to build a large user base and network effects. Examples include Facebook's early days, Amazon's focus on customer satisfaction, or Google's simple, ad-free search. **Stage 2 - Abuse users to please business customers**: Once the platform has locked in users through network effects and switching costs, it begins degrading the user experience to attract and please business customers (advertisers, sellers, publishers). Facebook fills feeds with ads, Amazon prioritizes its own products, Google's search fills with ads and promoted content. **Stage 3 - Abuse business customers to please shareholders**: Finally, the platform extracts maximum value from business customers too—raising ad prices, increasing fees, changing algorithms unpredictably—while providing less value. The platform becomes a pure rent-extraction machine, coasting on lock-in while quality plummets.\n\nThe pattern is enabled by several factors: network effects create high switching costs (you can't leave Facebook because everyone is there), lack of interoperability traps users in walled gardens, predatory acquisition eliminates competitive alternatives, regulatory capture prevents government intervention, and venture capital funding prioritizes growth over sustainability. The result is a 'bait and switch' where platforms that initially seemed benevolent inevitably turn predatory.\n\nExamples include: Twitter/X degrading under new ownership while extracting more from users, Amazon's marketplace filling with counterfeits while raising seller fees, Google Search becoming cluttered with ads and low-quality content, streaming services raising prices while removing content, and social media platforms prioritizing engagement-bait over quality. The concept explains why so many beloved platforms eventually disappoint users—it's a structural inevitability, not bad luck.\n\nEnshittification is related to broader economic concepts: rent-seeking (extracting value without creating it), platform capitalism (concentration of power in platform intermediaries), and the principal-agent problem (incentives misaligned between stakeholders).",
+  "tags": [
+    "technology",
+    "businesses",
+    "economics",
+    "platforms",
+    "internet-culture",
+    "capitalism"
+  ],
+  "category": "Business & Economics",
+  "icon": "FaChartLine",
+  "featured": false,
+  "aliases": [
+    "Platform Decay",
+    "Platform Degradation",
+    "Platform Enshittification"
+  ],
+  "relatedConcepts": [
+    "dead-internet-theory",
+    "network-effects",
+    "switching-costs",
+    "walled-gardens",
+    "rent-seeking",
+    "monopoly-power"
+  ],
+  "relatedNotes": [],
+  "articles": [
+    {
+      "title": "The 'Enshittification' of TikTok - Cory Doctorow",
+      "url": "https://www.wired.com/story/tiktok-platforms-cory-doctorow/",
+      "type": "website"
+    },
+    {
+      "title": "Enshittification - Pluralistic",
+      "url": "https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys",
+      "type": "website"
+    }
+  ],
+  "books": [
+    {
+      "title": "The Internet Con by Cory Doctorow",
+      "url": "https://www.amazon.com/dp/1804291854?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Enshittification - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Enshittification",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-06",
+  "dateModified": "2026-01-06"
+}

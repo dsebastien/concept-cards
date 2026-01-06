@@ -1,0 +1,54 @@
+{
+  "id": "context-rot",
+  "name": "Context Rot",
+  "summary": "The gradual loss of contextual information over time, making past work harder to understand and utilize.",
+  "explanation": "Context rot describes the phenomenon where the contextual information surrounding decisions, code, notes, or knowledge gradually degrades or becomes lost over time. When we create something—whether it's a piece of code, a document, or a note—we have rich context about why we made certain choices, what alternatives we considered, and what constraints we faced. However, this context often exists only in our minds and isn't explicitly captured.\n\nAs time passes and memory fades, this contextual information rots away, making it increasingly difficult to understand our own past work or the work of others. We're left with the artifact itself but without the reasoning behind it. This leads to problems like: difficulty maintaining old code, inability to understand past notes, repeating mistakes that were already solved, and wasting time re-discovering context that was once known.\n\nContext rot is particularly problematic in knowledge work, software development, and personal knowledge management. It can be mitigated by: capturing context explicitly when creating work (documentation, comments, decision logs), using systems that preserve relationships between ideas, regularly reviewing and refreshing context, and building habits of explaining 'why' not just 'what'. The concept emphasizes that preservation of context is just as important as preservation of content.",
+  "tags": [
+    "knowledge-management",
+    "documentation",
+    "software-development",
+    "decision-making",
+    "note-taking",
+    "mental-models",
+    "productivity"
+  ],
+  "category": "Concepts",
+  "icon": "FaLayerGroup",
+  "featured": false,
+  "aliases": [
+    "Contextual Decay",
+    "Context Loss",
+    "Context Degradation"
+  ],
+  "relatedConcepts": [
+    "information-half-life",
+    "documentation",
+    "architecture-decision-records",
+    "zettelkasten",
+    "evergreen-notes",
+    "atomic-notes",
+    "context-engineering",
+    "connected-notes",
+    "curse-of-knowledge",
+    "explicit-knowledge"
+  ],
+  "relatedNotes": [],
+  "articles": [
+    {
+      "title": "Context Rot: The Hidden Cost of Time",
+      "url": "https://www.bennorthrop.com/Essays/2021/context-rot.php",
+      "type": "website"
+    }
+  ],
+  "books": [],
+  "references": [
+    {
+      "title": "Context - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Context",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-06",
+  "dateModified": "2026-01-06"
+}

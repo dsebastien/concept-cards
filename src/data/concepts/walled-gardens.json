@@ -1,0 +1,43 @@
+{
+  "id": "walled-gardens",
+  "name": "Walled Gardens",
+  "summary": "Closed platforms or ecosystems that restrict interoperability, data portability, and user freedom to maintain control and create lock-in effects.",
+  "explanation": "Walled Gardens are closed platforms or ecosystems where the operator has significant control over applications, content, and media, restricting user freedom to operate outside the system. The metaphor suggests a beautiful, controlled garden surrounded by walls—attractive inside, but you can't easily leave or interact with the outside world. This business model prioritizes platform control and lock-in over openness and user choice.\n\nCharacteristics of walled gardens include: **Restricted interoperability** - the platform doesn't integrate well with competing services or standards, **Limited data portability** - users can't easily export their data or move to alternatives, **Controlled access** - the platform gatekeeps what apps, content, or features are available, **Proprietary standards** - using non-standard technologies that only work within the ecosystem, and **High switching costs** - leaving the platform means losing access to content, connections, or functionality.\n\nExamples include: Apple's iOS ecosystem (apps only from App Store, proprietary standards like iMessage and AirDrop, difficult to switch to Android), Facebook/Meta (owns your social graph, hard to export and maintain connections elsewhere), Amazon Kindle (proprietary DRM, books locked to platform), game consoles (exclusive games, closed ecosystems), and messaging platforms (WhatsApp, iMessage—can't message across platforms easily).\n\nPlatforms build walled gardens to: maximize control over user experience, extract rent from ecosystem participants (app store fees), prevent users from leaving (network effects + switching costs = lock-in), protect against competition (hard to build alternatives), and capture value (all transactions go through the platform). This contrasts with open platforms like the web, email, or RSS, where interoperability and user control are prioritized.\n\nCritics argue walled gardens: stifle innovation (platforms control what's possible), harm competition (newcomers can't interoperate), exploit users (lock-in enables rent extraction), and centralize power (platforms become gatekeepers). Defenders argue they: provide better user experience (integrated ecosystem, quality control), improve security (vetted apps, controlled environment), and enable sustainable business models.\n\nWalled gardens are central to enshittification—the walls prevent users from leaving even as the platform degrades. They represent a philosophical choice: control and integration versus freedom and openness. The internet was built on open standards, but walled gardens now dominate, raising questions about the future of digital freedom.",
+  "tags": [
+    "technology",
+    "platforms",
+    "businesses",
+    "economics",
+    "monopolies",
+    "internet-culture"
+  ],
+  "category": "Business & Economics",
+  "icon": "FaLock",
+  "featured": false,
+  "aliases": [
+    "Walled Garden",
+    "Closed Platform",
+    "Closed Ecosystem"
+  ],
+  "relatedConcepts": [
+    "enshittification",
+    "network-effects",
+    "switching-costs",
+    "vendor-lock-in",
+    "interoperability",
+    "open-standards"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Walled Garden (Technology) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Closed_platform",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-06",
+  "dateModified": "2026-01-06"
+}

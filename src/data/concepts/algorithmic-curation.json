@@ -1,0 +1,43 @@
+{
+  "id": "algorithmic-curation",
+  "name": "Algorithmic Curation",
+  "summary": "The automated selection and prioritization of content using algorithms rather than human judgment, shaping what users see based on engagement metrics and personalization.",
+  "explanation": "Algorithmic Curation is the practice of using automated systems and machine learning algorithms to select, order, and present content to users instead of relying on human editors or chronological feeds. This approach dominates modern internet platforms—from social media feeds (Facebook, Twitter, Instagram) to video recommendations (YouTube, TikTok) to search results (Google) to shopping (Amazon).\n\nAlgorithms curate content by optimizing for measurable goals, typically engagement metrics like clicks, watch time, likes, shares, and dwell time. The algorithm learns what keeps each user on the platform longest and shows more of that content. This creates a feedback loop: content that generates engagement gets amplified, which changes what creators produce, which changes what users see, which changes their behavior, and so on.\n\nAdvantages include: personalization at massive scale (impossible for human curators), discovery of relevant content from vast libraries, and optimization for user preferences. However, algorithmic curation has significant downsides: it optimizes for engagement over quality (outrage and controversy generate clicks), creates filter bubbles (showing only content that confirms existing views), enables manipulation (bad actors can game the algorithm), reduces serendipity (you don't see unexpected content), and prioritizes short-term engagement over long-term satisfaction.\n\nThe shift from chronological feeds to algorithmic feeds represents a fundamental change in how information flows online. Users no longer see 'everything' in order—they see what the algorithm predicts will maximize engagement. This gives platforms enormous power to shape attention, culture, and even reality itself. The algorithms are typically proprietary black boxes, making it difficult to understand why you see what you see or to opt out.\n\nAlgorithmic curation contributes to phenomena like: viral content spreading rapidly regardless of accuracy, polarization (algorithms amplify divisive content), the dead internet feeling (everything feels algorithmically optimized and fake), creator optimization for the algorithm rather than audience, and platform dependency (your reach depends on algorithmic favor). The alternative—chronological feeds, human curation, user control—has largely been abandoned by major platforms in favor of engagement optimization.",
+  "tags": [
+    "algorithms",
+    "technology",
+    "social-media",
+    "information",
+    "platforms",
+    "internet-culture"
+  ],
+  "category": "Concepts",
+  "icon": "FaSitemap",
+  "featured": false,
+  "aliases": [
+    "Algorithmic Feeds",
+    "Algorithmic Recommendation",
+    "Personalization Algorithms"
+  ],
+  "relatedConcepts": [
+    "filter-bubble",
+    "echo-chamber",
+    "dead-internet-theory",
+    "enshittification",
+    "attention-economy",
+    "engagement-optimization"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Recommender System - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Recommender_system",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-06",
+  "dateModified": "2026-01-06"
+}

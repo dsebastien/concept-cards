@@ -1,0 +1,47 @@
+{
+  "id": "documentation",
+  "name": "Documentation",
+  "summary": "The practice of creating written records and explanations of systems, code, processes, and decisions to preserve knowledge and context.",
+  "explanation": "Documentation is the systematic creation of written records that explain how systems work, why decisions were made, and how to use or maintain something. Good documentation serves multiple purposes: it transfers knowledge between people, preserves context over time, reduces cognitive load by externalizing information, and enables future work by making past decisions understandable.\n\nEffective documentation balances completeness with maintainability. Over-documentation creates maintenance burden and becomes outdated quickly. Under-documentation leads to context rot and knowledge loss. The best documentation captures the 'why' behind decisions (rationale, trade-offs, alternatives considered) more than the 'what' (which can often be discovered from the artifact itself). It should be discoverable when needed, kept close to what it documents, and updated as part of the normal workflow.\n\nTypes of documentation include: code comments (explain non-obvious decisions), README files (how to get started), architecture decision records (why systems are structured a certain way), API documentation (how to use interfaces), runbooks (how to operate systems), and design documents (planning and rationale). The principle 'document at the right level' suggests: inline comments for tricky code, README for project overview, separate docs for architecture and high-level concepts.\n\nGood documentation is: accurate (reflects current reality), relevant (answers questions people actually have), discoverable (can be found when needed), maintainable (easy to keep up-to-date), and contextual (explains why, not just what). The goal is to prevent context rot and enable future maintainers (including your future self) to understand and modify the system confidently.",
+  "tags": [
+    "knowledge-management",
+    "software-development",
+    "communication",
+    "processes",
+    "learning",
+    "best-practices"
+  ],
+  "category": "Techniques",
+  "icon": "FaBook",
+  "featured": false,
+  "aliases": [
+    "Technical Documentation",
+    "Code Documentation",
+    "Knowledge Documentation"
+  ],
+  "relatedConcepts": [
+    "context-rot",
+    "explicit-knowledge",
+    "architecture-decision-records",
+    "readme-driven-development",
+    "self-documenting-code"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Documentation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Documentation",
+      "type": "website"
+    },
+    {
+      "title": "Technical Writing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Technical_writing",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-06",
+  "dateModified": "2026-01-06"
+}
