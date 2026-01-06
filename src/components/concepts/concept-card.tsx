@@ -68,28 +68,28 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
 
                     {/* Content */}
                     <div className='min-w-0 flex-1'>
-                        <div className='flex flex-wrap items-center gap-x-2 gap-y-1'>
-                            <h3 className='group-hover:text-secondary font-semibold transition-colors'>
+                        <div className='flex items-center gap-x-2 overflow-hidden'>
+                            <h3 className='group-hover:text-secondary min-w-0 flex-1 truncate font-semibold transition-colors'>
                                 {concept.name}
                             </h3>
                             {concept.featured && (
                                 <FaStar className='text-secondary h-3 w-3 shrink-0' />
                             )}
                             {isExplored && (
-                                <span className='shrink-0 rounded-full bg-green-500/20 px-2 py-0.5 text-xs text-green-400'>
+                                <span className='hidden shrink-0 rounded-full bg-green-500/20 px-2 py-0.5 text-xs text-green-400 sm:inline'>
                                     Explored
                                 </span>
                             )}
                             <button
                                 onClick={(e) => handleCategoryClick(e, concept.category)}
-                                className='bg-primary/10 text-primary/60 hover:bg-primary/20 hover:text-primary/80 shrink-0 cursor-pointer rounded-full px-2 py-0.5 text-xs transition-colors'
+                                className='bg-primary/5 text-primary/50 hover:bg-primary/10 hover:text-primary/70 max-w-[120px] shrink-0 cursor-pointer truncate rounded-full px-1.5 py-px text-[10px] transition-colors'
                             >
                                 {concept.category}
                             </button>
                         </div>
-                        <p className='text-primary/60 mt-1 line-clamp-1 text-sm'>
+                        <div className='text-primary/60 mt-1 overflow-hidden text-sm text-ellipsis whitespace-nowrap'>
                             <Markdown compact>{concept.summary}</Markdown>
-                        </p>
+                        </div>
                     </div>
 
                     {/* Tags */}
@@ -122,7 +122,9 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
         return (
             <div
                 className={cn(
-                    'bg-background/50 border-primary/10 hover:border-secondary/50 group relative flex h-full cursor-pointer flex-col rounded-xl border p-4 transition-all duration-200 hover:scale-[1.01] hover:shadow-lg hover:shadow-black/10',
+                    'bg-background/50 border-primary/10 hover:border-secondary/50 group relative flex cursor-pointer flex-col rounded-xl border p-3 transition-all duration-200 hover:scale-[1.01] hover:shadow-lg hover:shadow-black/10 sm:p-4',
+                    'h-[192px] sm:h-[224px] md:h-[256px]',
+                    'overflow-hidden', // Strictly enforce height - no overflow
                     concept.featured && 'ring-secondary/30 ring-1',
                     isExplored && 'border-green-500/20 bg-green-500/5'
                 )}
@@ -132,27 +134,12 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                 role='button'
                 aria-label={`View details for ${concept.name}`}
             >
-                {/* Featured badge */}
-                {concept.featured && (
-                    <div className='from-secondary to-secondary/80 absolute -top-2 -right-2 flex items-center gap-1 rounded-full bg-gradient-to-r px-2 py-0.5 text-xs font-medium text-white shadow-md'>
-                        <FaStar className='h-2.5 w-2.5' />
-                        Featured
-                    </div>
-                )}
-
-                {/* Explored badge */}
-                {isExplored && !concept.featured && (
-                    <div className='absolute -top-2 -right-2 flex items-center gap-1 rounded-full bg-green-500 px-2 py-0.5 text-xs font-medium text-white shadow-md'>
-                        <FaCheckCircle className='h-2.5 w-2.5' />
-                        Explored
-                    </div>
-                )}
-
                 {/* Header */}
-                <div className='mb-3 flex items-start justify-between'>
+                <div className='mb-2 flex shrink-0 items-start justify-between sm:mb-3'>
+                    {/* Icon - hide on very narrow screens (< 280px) */}
                     <div
                         className={cn(
-                            'relative flex h-10 w-10 items-center justify-center rounded-lg transition-colors',
+                            'relative hidden h-8 w-8 shrink-0 items-center justify-center rounded-lg transition-colors min-[280px]:flex sm:h-10 sm:w-10',
                             isExplored
                                 ? 'bg-green-500/20 group-hover:bg-green-500/30'
                                 : 'bg-primary/10 group-hover:bg-primary/20'
@@ -160,15 +147,23 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                     >
                         <ConceptIcon icon={concept.icon} category={concept.category} size='md' />
                     </div>
-                    <div className='flex items-center gap-2'>
-                        {isExplored && concept.featured && (
-                            <span className='flex items-center gap-1 rounded-full bg-green-500/20 px-2 py-0.5 text-xs text-green-400'>
+                    <div className='flex min-w-0 flex-col items-end gap-1'>
+                        {/* Featured/Explored badges - hide on narrow screens (< 320px) */}
+                        {isExplored ? (
+                            <span className='hidden shrink-0 items-center gap-1 rounded-full bg-green-500/20 px-2 py-0.5 text-xs text-green-400 min-[320px]:flex'>
                                 <FaCheckCircle className='h-2.5 w-2.5' />
+                                Explored
                             </span>
-                        )}
+                        ) : concept.featured ? (
+                            <span className='from-secondary to-secondary/80 hidden shrink-0 items-center gap-1 rounded-full bg-gradient-to-r px-2 py-0.5 text-xs font-medium text-white min-[320px]:flex'>
+                                <FaStar className='h-2.5 w-2.5' />
+                                Featured
+                            </span>
+                        ) : null}
+                        {/* Category - hide on narrower screens (< 360px) */}
                         <button
                             onClick={(e) => handleCategoryClick(e, concept.category)}
-                            className='bg-primary/10 text-primary/60 hover:bg-primary/20 hover:text-primary/80 cursor-pointer rounded-full px-2 py-0.5 text-xs transition-colors'
+                            className='bg-primary/5 text-primary/50 hover:bg-primary/10 hover:text-primary/70 hidden max-w-[100px] shrink-0 cursor-pointer truncate rounded-full px-1.5 py-px text-[10px] transition-colors min-[360px]:block'
                         >
                             {concept.category}
                         </button>
@@ -176,76 +171,23 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                 </div>
 
                 {/* Title */}
-                <div className='mb-1 flex items-center gap-2'>
-                    <h3 className='group-hover:text-secondary font-semibold transition-colors'>
+                <div className='mb-1 shrink-0'>
+                    <h3 className='group-hover:text-secondary line-clamp-2 min-h-[2.5rem] text-sm font-semibold transition-colors sm:text-base'>
                         {concept.name}
                     </h3>
                 </div>
 
-                {/* Aliases */}
-                {concept.aliases && concept.aliases.length > 0 && (
-                    <p className='text-primary/50 mb-2 text-xs italic'>
-                        Also known as: {concept.aliases.slice(0, 2).join(', ')}
-                        {concept.aliases.length > 2 && '...'}
-                    </p>
-                )}
-
-                {/* Summary */}
-                <p className='text-primary/70 mb-3 line-clamp-2 flex-1 text-sm'>
+                {/* Summary - multiple lines to use available space */}
+                <div className='text-primary/70 mb-2 flex-1 overflow-hidden text-xs leading-relaxed sm:mb-3 sm:text-sm'>
                     <Markdown compact>{concept.summary}</Markdown>
-                </p>
-
-                {/* Tags */}
-                <div className='mb-2 flex flex-wrap gap-1'>
-                    {concept.tags.slice(0, 3).map((tag) => (
-                        <button
-                            key={tag}
-                            onClick={(e) => handleTagClick(e, tag)}
-                            className='bg-primary/5 text-primary/70 hover:bg-primary/10 hover:text-primary/90 cursor-pointer rounded-full px-2 py-0.5 text-xs transition-colors'
-                        >
-                            {tag}
-                        </button>
-                    ))}
-                    {concept.tags.length > 3 && (
-                        <span className='text-primary/50 px-1 py-0.5 text-xs'>
-                            +{concept.tags.length - 3}
-                        </span>
-                    )}
                 </div>
 
-                {/* Reference count indicator */}
-                {((concept.references?.length ?? 0) > 0 ||
-                    (concept.articles?.length ?? 0) > 0 ||
-                    (concept.tutorials?.length ?? 0) > 0) && (
-                    <div className='border-primary/10 mb-3 border-t pt-2'>
-                        <div className='flex flex-wrap gap-2 text-xs'>
-                            {concept.references && concept.references.length > 0 && (
-                                <span className='text-primary/50'>
-                                    {concept.references.length} reference
-                                    {concept.references.length !== 1 ? 's' : ''}
-                                </span>
-                            )}
-                            {concept.articles && concept.articles.length > 0 && (
-                                <span className='text-primary/50'>
-                                    {concept.articles.length} article
-                                    {concept.articles.length !== 1 ? 's' : ''}
-                                </span>
-                            )}
-                            {concept.tutorials && concept.tutorials.length > 0 && (
-                                <span className='text-primary/50'>
-                                    {concept.tutorials.length} tutorial
-                                    {concept.tutorials.length !== 1 ? 's' : ''}
-                                </span>
-                            )}
-                        </div>
-                    </div>
-                )}
-
-                {/* Action button */}
-                <div className='mt-auto flex items-center gap-1.5'>
-                    <span className='bg-secondary hover:bg-secondary/90 flex flex-1 items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium text-white transition-colors'>
-                        <FaInfoCircle className='h-3 w-3' />
-                        Learn More
+                {/* Action button - hide icon on narrowest screens (< 400px) */}
+                <div className='mt-auto flex shrink-0 items-center gap-1.5'>
+                    <span className='bg-secondary hover:bg-secondary/90 flex flex-1 items-center justify-center gap-1.5 rounded-lg py-1.5 text-xs font-medium text-white transition-colors sm:py-2 sm:text-sm'>
+                        <FaInfoCircle className='hidden h-3 w-3 min-[400px]:block' />
+                        <span className='hidden sm:inline'>Learn More</span>
+                        <span className='sm:hidden'>Details</span>
                     </span>
                 </div>
             </div>

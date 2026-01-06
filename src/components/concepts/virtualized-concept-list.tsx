@@ -4,14 +4,22 @@ import ConceptCard from '@/components/concepts/concept-card'
 import type { VirtualizedConceptListProps } from '@/types/virtualized-concept-list-props.intf'
 import type { Concept } from '@/types/concept.intf'
 
-// Grid configuration
-const BADGE_PADDING = 16 // pt-4 = 1rem = 16px for badge overflow
-const CARD_MIN_HEIGHT_GRID = 320 // Approximate card height in grid mode
-const CARD_HEIGHT_LIST_DESKTOP = 92 // List card height on desktop
-const CARD_HEIGHT_LIST_MOBILE = 120 // List card height on mobile (wrapped titles)
-const LIST_GAP = 12 // pb-3 = 0.75rem = 12px gap between list items
-const GRID_GAP = 24 // Gap between grid rows
-const OVERSCAN = 5 // Number of items to render outside viewport
+// Grid configuration - MUST match the fixed heights in concept-card.tsx
+// Card heights match: h-[192px] sm:h-[224px] md:h-[256px]
+const CARD_HEIGHT_MOBILE = 192 // < 640px (240px reduced by 20%)
+const CARD_HEIGHT_SMALL = 224 // 640px - 768px (280px reduced by 20%)
+const CARD_HEIGHT_DESKTOP = 256 // >= 768px (320px reduced by 20%)
+
+// Row spacing - vertical gap between rows (pb-X on grid container)
+// Using consistent 32px gap across all breakpoints for simplicity
+const ROW_SPACING = 32 // 2rem spacing between rows (matches pb-8)
+
+// List mode heights
+const CARD_HEIGHT_LIST_DESKTOP = 92
+const CARD_HEIGHT_LIST_MOBILE = 120
+const LIST_SPACING = 12 // pb-3 = 0.75rem
+
+const OVERSCAN = 5
 
 // Get number of columns based on container width
 const getColumnCount = (containerWidth: number): number => {
@@ -57,14 +65,28 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
             viewMode === 'grid' ? Math.ceil(concepts.length / columnCount) : concepts.length
 
         // Estimate row height based on view mode and screen size
-        const isMobile = containerWidth < 640
+        // Row height = card height + vertical spacing between rows
         const estimateSize = useCallback(() => {
             if (viewMode === 'grid') {
-                return CARD_MIN_HEIGHT_GRID + BADGE_PADDING + GRID_GAP
+                // Determine card height based on breakpoints
+                let cardHeight: number
+                if (containerWidth < 640) {
+                    cardHeight = CARD_HEIGHT_MOBILE // 240px
+                } else if (containerWidth < 768) {
+                    cardHeight = CARD_HEIGHT_SMALL // 280px
+                } else {
+                    cardHeight = CARD_HEIGHT_DESKTOP // 320px
+                }
+
+                // Total row height = card height + spacing below
+                // This MUST match the pb-8 (32px) applied to the grid container
+                return cardHeight + ROW_SPACING
             }
-            // List view: larger estimate on mobile for wrapped titles
-            return (isMobile ? CARD_HEIGHT_LIST_MOBILE : CARD_HEIGHT_LIST_DESKTOP) + LIST_GAP
-        }, [viewMode, isMobile])
+
+            // List view
+            const isMobile = containerWidth < 640
+            return (isMobile ? CARD_HEIGHT_LIST_MOBILE : CARD_HEIGHT_LIST_DESKTOP) + LIST_SPACING
+        }, [viewMode, containerWidth])
 
         // Use window virtualizer for single scroll context
         const virtualizer = useWindowVirtualizer({
@@ -176,11 +198,7 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
 
         // Grid view - virtualize rows, render columns within each row
         return (
-            <div
-                ref={listRef}
-                className='relative w-full pt-3'
-                style={{ height: `${totalSize}px` }}
-            >
+            <div ref={listRef} className='relative w-full' style={{ height: `${totalSize}px` }}>
                 {virtualItems.map((virtualRow) => {
                     const rowIndex = virtualRow.index
                     const startIndex = rowIndex * columnCount
@@ -189,14 +207,14 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
                     return (
                         <div
                             key={virtualRow.key}
-                            className='absolute top-0 left-0 w-full'
+                            className='absolute top-0 left-0 mb-8 w-full'
                             style={{
-                                height: `${virtualRow.size}px`,
+                                height: `${virtualRow.size - ROW_SPACING}px`,
                                 transform: `translateY(${virtualRow.start - virtualizer.options.scrollMargin}px)`
                             }}
                         >
                             <div
-                                className='grid gap-3 pb-6 sm:gap-4 lg:gap-6'
+                                className='grid gap-6'
                                 style={{
                                     gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`
                                 }}
