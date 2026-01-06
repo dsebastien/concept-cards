@@ -268,8 +268,10 @@ const HomePage: React.FC = () => {
 
     const handleShowDetails = useCallback(
         (concept: Concept) => {
-            // Save scroll position before opening modal
-            sessionStorage.setItem('scrollPosition', window.scrollY.toString())
+            // Save scroll position only when first opening modal (not when navigating within it)
+            if (!selectedConcept) {
+                sessionStorage.setItem('scrollPosition', window.scrollY.toString())
+            }
 
             // Set selected concept in state
             setSelectedConcept(concept)
@@ -294,7 +296,7 @@ const HomePage: React.FC = () => {
                 `/concept/${concept.id}${queryString ? `?${queryString}` : ''}`
             )
         },
-        [tagName, categoryName, searchParams]
+        [tagName, categoryName, searchParams, selectedConcept]
     )
 
     const handleCloseDetails = useCallback(() => {
