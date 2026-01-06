@@ -176,6 +176,13 @@ const HomePage: React.FC = () => {
         }
     }, [conceptId, markAsExplored])
 
+    // Mark concept as explored when modal opens (for clicks on cards)
+    useEffect(() => {
+        if (selectedConcept) {
+            markAsExplored(selectedConcept.id)
+        }
+    }, [selectedConcept, markAsExplored])
+
     const isDetailModalOpen = !!selectedConcept
 
     // Get all unique tags from concepts
