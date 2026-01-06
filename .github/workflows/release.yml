@@ -54,17 +54,26 @@ jobs:
             - name: Install dependencies
               run: npm ci
 
-            - name: Update package.json version
-              run: npm run release:update-version ${{ steps.tag.outputs.name }}
-
-            - name: Generate changelog
-              run: npm run release:changelog
-
-            - name: Commit release changes
+            - name: Update version and changelog (workflow_dispatch only)
+              if: github.event_name == 'workflow_dispatch'
               run: |
-                  git add package.json CHANGELOG.md
-                  git commit -m "chore(release): ${{ steps.tag.outputs.name }}" || echo "No changes to commit"
+                  # Update package.json version
+                  npm run release:update-version ${{ steps.tag.outputs.name }}
+
+                  # Update package-lock.json
+                  npm install --package-lock-only
+
+                  # Generate changelog
+                  npm run release:changelog
+
+                  # Commit changes
+                  git add package.json package-lock.json CHANGELOG.md
+                  git commit -m "chore(release): ${{ steps.tag.outputs.name }}"
                   git push origin HEAD:main
+
+                  # Update tag to point to the new commit
+                  git tag -f "${{ steps.tag.outputs.name }}"
+                  git push -f origin "${{ steps.tag.outputs.name }}"
 
             - name: Extract changelog for release notes
               id: changelog
