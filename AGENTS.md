@@ -856,25 +856,17 @@ After all sub-agents finish:
 2. Update existing concepts with cross-references to new concepts
 3. Run `npm run build` to verify all changes work
 
-## Visual Debugging with Playwright MCP
+## Visual Debugging and Verification
 
-**IMPORTANT**: When debugging visual issues, layout problems, or UI behavior, **always use the Playwright MCP server** instead of manual inspection or headless screenshots.
+**MANDATORY**: When debugging visual issues, layout problems, or UI behavior, **always use Claude in Chrome MCP** for visual verification. This provides real browser rendering and interactive debugging capabilities.
 
 ### Setup
 
-The Playwright MCP server should already be configured. To verify or add it:
+Claude in Chrome MCP should already be configured and running. The browser extension provides the MCP server.
 
-```bash
-# Check if Playwright MCP is configured
-claude mcp list
+### Using Claude in Chrome for Visual Verification
 
-# Add Playwright MCP if not present
-claude mcp add playwright --transport stdio -- npx -y @playwright/mcp@latest
-```
-
-### Using Playwright for Debugging
-
-When you need to inspect the UI:
+**ALWAYS** follow this workflow when making visual changes:
 
 1. **Start the dev server** (if not running):
 
@@ -882,36 +874,80 @@ When you need to inspect the UI:
     npm run dev
     ```
 
-2. **Use Playwright tools** to interact with the page:
-    - `browser_navigate` - Navigate to URLs (e.g., `http://localhost:5173/unexplored`)
-    - `browser_screenshot` - Take screenshots of the current page
-    - `browser_snapshot` - Get accessibility tree snapshots
-    - `browser_click` - Click on elements
-    - `browser_type` - Type text into inputs
+2. **Initialize browser context**:
 
-### Example Workflow
+    ```
+    mcp__claude-in-chrome__tabs_context_mcp with createIfEmpty: true
+    ```
+
+3. **Navigate to the page**:
+
+    ```
+    mcp__claude-in-chrome__navigate to http://localhost:XXXX/
+    ```
+
+4. **Resize window for responsive testing**:
+    - Mobile portrait (320px): `mcp__claude-in-chrome__resize_window` to 320x800
+    - Mobile landscape (480px): `mcp__claude-in-chrome__resize_window` to 480x800
+    - Tablet (768px): `mcp__claude-in-chrome__resize_window` to 768x1024
+    - Desktop (1280px): `mcp__claude-in-chrome__resize_window` to 1280x800
+
+5. **Take screenshots** at each breakpoint:
+
+    ```
+    mcp__claude-in-chrome__computer with action: screenshot
+    ```
+
+6. **Verify the layout** matches requirements before completing the task
+
+### Example: Verifying Responsive Grid Layout
 
 ```
-1. Navigate to the page: browser_navigate to http://localhost:5173/unexplored
-2. Take a screenshot: browser_screenshot to see the current state
-3. Interact if needed: browser_click on elements, browser_type in inputs
-4. Verify changes: browser_screenshot again after making code changes
+1. Start dev server: npm run dev
+2. Get tab context: tabs_context_mcp
+3. Navigate: navigate to http://localhost:5178/
+4. Test narrow viewport (320px):
+   - Resize: resize_window to 320x800
+   - Screenshot: computer action=screenshot
+   - Verify: Single column layout
+5. Test mobile landscape (480px):
+   - Resize: resize_window to 480x800
+   - Screenshot: computer action=screenshot
+   - Verify: Two column layout
+6. Test tablet (768px):
+   - Resize: resize_window to 768x1024
+   - Screenshot: computer action=screenshot
+   - Verify: Four column layout
 ```
 
-### When to Use Playwright
+### When to Use Visual Verification
 
-- Debugging layout issues (grid columns, spacing, alignment)
-- Testing responsive design at different viewport sizes
-- Verifying visual changes after code modifications
-- Inspecting hover states, animations, or interactive elements
-- Testing navigation flows and modal behavior
+**MANDATORY** for these scenarios:
 
-### Benefits Over Headless Chrome
+- **All layout changes** (grid, flexbox, spacing, alignment)
+- **Responsive design updates** (breakpoint changes, column counts)
+- **Visual bug fixes** (overlapping elements, incorrect sizing)
+- **CSS modifications** (styling, theming, animations)
+- **Component updates** that affect visual rendering
 
-- Interactive debugging with real browser context
-- Ability to click, type, and interact with elements
-- Accessibility tree snapshots for understanding page structure
-- Consistent viewport and rendering
+### Benefits of Claude in Chrome
+
+- Real Chrome browser rendering (not headless)
+- Visual screenshot feedback for verification
+- Window resizing for responsive testing
+- Interactive debugging capabilities
+- Accurate representation of user experience
+
+### Alternative: Playwright MCP
+
+For automated testing or programmatic browser control, Playwright MCP can be used:
+
+- More suitable for automated test scripts
+- Accessibility tree snapshots
+- Network request inspection
+- Console message reading
+
+However, **Claude in Chrome is preferred for visual verification** due to its real browser rendering and screenshot capabilities.
 
 ## Troubleshooting
 

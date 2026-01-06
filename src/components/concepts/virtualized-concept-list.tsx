@@ -20,7 +20,8 @@ const getColumnCount = (containerWidth: number): number => {
     if (containerWidth >= 1024) return 5 // lg:grid-cols-5
     if (containerWidth >= 768) return 4 // md:grid-cols-4
     if (containerWidth >= 640) return 3 // sm:grid-cols-3
-    return 2 // Mobile: 2 columns instead of 1 for better space usage
+    if (containerWidth >= 480) return 2 // Mobile landscape: 2 columns
+    return 1 // Mobile portrait: 1 column for narrow viewports
 }
 
 const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
