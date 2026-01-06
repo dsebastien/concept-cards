@@ -23,11 +23,14 @@ const OVERSCAN = 5
 
 // Get number of columns based on container width
 const getColumnCount = (containerWidth: number): number => {
-    if (containerWidth >= 1536) return 7 // 2xl:grid-cols-7 (ultra-wide)
-    if (containerWidth >= 1280) return 6 // xl:grid-cols-6
-    if (containerWidth >= 1024) return 5 // lg:grid-cols-5
-    if (containerWidth >= 768) return 4 // md:grid-cols-4
-    if (containerWidth >= 640) return 3 // sm:grid-cols-3
+    if (containerWidth >= 2440) return 10 // 2xl+ (2440px+): 10 columns for ultra-ultra-wide
+    if (containerWidth >= 2200) return 9 // 9 columns for very large displays
+    if (containerWidth >= 1920) return 8 // xl (1920px): 8 columns
+    if (containerWidth >= 1600) return 7 // xg (1600px): 7 columns
+    if (containerWidth >= 1440) return 6 // 6 columns for large displays
+    if (containerWidth >= 1280) return 5 // lg (1280px): 5 columns
+    if (containerWidth >= 768) return 4 // md: 4 columns
+    if (containerWidth >= 640) return 3 // sm: 3 columns
     if (containerWidth >= 480) return 2 // Mobile landscape: 2 columns
     return 1 // Mobile portrait: 1 column for narrow viewports
 }
