@@ -15,7 +15,9 @@ import {
     FaLink,
     FaCheckCircle,
     FaChevronLeft,
-    FaChevronRight
+    FaChevronRight,
+    FaCopy,
+    FaCheck
 } from 'react-icons/fa'
 import { backdropVariants, scaleFadeVariants } from '@/lib/animations'
 import ConceptIcon from '@/components/concepts/concept-icon'
@@ -146,6 +148,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
 }) => {
     const modalRef = useRef<HTMLDivElement>(null)
     const [slideDirection, setSlideDirection] = useState<'left' | 'right' | null>(null)
+    const [copied, setCopied] = useState(false)
     const scrollPositionRef = useRef<number>(0)
 
     // Sort concepts the same way as displayed (featured first, then alphabetically)
@@ -241,6 +244,20 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
         if (nextConcept && sortedConcepts.length > 1) {
             setSlideDirection('left')
             onNavigateToConcept(nextConcept)
+        }
+    }
+
+    const handleCopy = async () => {
+        if (!concept) return
+
+        const textToCopy = `${concept.name}\n\n${concept.summary}\n\n${concept.explanation}`
+
+        try {
+            await navigator.clipboard.writeText(textToCopy)
+            setCopied(true)
+            setTimeout(() => setCopied(false), 2000)
+        } catch (err) {
+            console.error('Failed to copy text:', err)
         }
     }
 
@@ -405,13 +422,27 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                 )}
                                             </div>
                                         </div>
-                                        <button
-                                            onClick={onClose}
-                                            className='text-primary/60 hover:text-primary hover:bg-primary/10 rounded-lg p-2 transition-colors'
-                                            aria-label='Close modal'
-                                        >
-                                            <FaTimes className='h-5 w-5' />
-                                        </button>
+                                        <div className='flex flex-col items-center gap-2'>
+                                            <button
+                                                onClick={onClose}
+                                                className='text-primary/60 hover:text-primary hover:bg-primary/10 rounded-lg p-2 transition-colors'
+                                                aria-label='Close modal'
+                                            >
+                                                <FaTimes className='h-5 w-5' />
+                                            </button>
+                                            <button
+                                                onClick={handleCopy}
+                                                className='text-primary/60 hover:text-primary hover:bg-primary/10 rounded-lg p-2 transition-colors'
+                                                aria-label='Copy concept details'
+                                                title='Copy title, summary, and explanation'
+                                            >
+                                                {copied ? (
+                                                    <FaCheck className='h-5 w-5 text-green-500' />
+                                                ) : (
+                                                    <FaCopy className='h-5 w-5' />
+                                                )}
+                                            </button>
+                                        </div>
                                     </div>
 
                                     {/* Content */}
