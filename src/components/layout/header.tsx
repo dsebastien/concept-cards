@@ -202,7 +202,21 @@ const Header: React.FC = () => {
                 style={{ top: '64px' }}
                 onClick={() => setIsMenuOpen(false)}
             >
-                <div className='flex-1 overflow-y-auto p-6'>
+                {/* Close button */}
+                <div className='flex justify-end p-4 sm:p-6' onClick={(e) => e.stopPropagation()}>
+                    <button
+                        onClick={() => setIsMenuOpen(false)}
+                        className='bg-primary/10 hover:bg-primary/20 flex h-10 w-10 items-center justify-center rounded-lg transition-colors'
+                        aria-label='Close menu'
+                    >
+                        <FaTimes className='h-5 w-5' />
+                    </button>
+                </div>
+
+                <div
+                    className='flex-1 overflow-y-auto px-6 pb-6'
+                    onClick={(e) => e.stopPropagation()}
+                >
                     {/* Grid on desktop, compact list on mobile */}
                     <div className='mx-auto grid max-w-4xl grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 md:gap-6'>
                         {menuLinks.map((link) => (
