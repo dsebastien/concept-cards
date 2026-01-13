@@ -1,3 +1,8 @@
+## [10.5.0](https://github.com/dsebastien/concept-cards/compare/10.4.0...10.5.0) (2026-01-13)
+
+### Features
+
+* **all:** improved newsletter signup ([bdd03de](https://github.com/dsebastien/concept-cards/commit/bdd03de4dcf864e4b38a4bceefbdcfeb0246e4ec))
 ## [10.4.0](https://github.com/dsebastien/concept-cards/compare/10.3.0...10.4.0) (2026-01-13)
 
 ### Features
