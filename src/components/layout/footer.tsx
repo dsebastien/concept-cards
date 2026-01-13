@@ -64,10 +64,13 @@ const Footer: React.FC = () => {
         if (result.success) {
             setSubscribeStatus('success')
             setEmail('')
-            // Store subscription in sessionStorage
-            sessionStorage.setItem(NEWSLETTER_SESSION_KEY, 'true')
-            setHasSubscribed(true)
-            console.log('[Newsletter] Subscription stored in sessionStorage')
+            // Store subscription in sessionStorage after a delay to show success message
+            console.log('[Newsletter] Subscription successful, showing success message')
+            setTimeout(() => {
+                sessionStorage.setItem(NEWSLETTER_SESSION_KEY, 'true')
+                setHasSubscribed(true)
+                console.log('[Newsletter] Subscription stored in sessionStorage')
+            }, 3000) // Hide after 3 seconds
         } else {
             setSubscribeStatus('error')
             setErrorMessage(result.error || 'Subscription failed. Please try again.')
