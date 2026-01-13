@@ -15,6 +15,7 @@ import VirtualizedConceptList from '@/components/concepts/virtualized-concept-li
 import ConceptsFilter from '@/components/concepts/concepts-filter'
 import ConceptDetailModal from '@/components/concepts/concept-detail-modal'
 import CommandPalette from '@/components/concepts/command-palette'
+import CompactNewsletter from '@/components/ui/compact-newsletter'
 import { conceptsData } from '@/data'
 import { useExploredConcepts, type ExploredFilter } from '@/hooks/use-explored-concepts'
 import type { Concept } from '@/types/concept'
@@ -488,6 +489,18 @@ const HomePage: React.FC = () => {
                             to quickly search and navigate
                         </span>
                     </motion.div>
+
+                    {/* Compact Newsletter - Only show on main page */}
+                    {!decodedTagName && !decodedCategoryName && (
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.6, duration: 0.4 }}
+                            className='mt-8 w-full'
+                        >
+                            <CompactNewsletter />
+                        </motion.div>
+                    )}
                 </AnimatedHero>
             </Section>
 
