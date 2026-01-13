@@ -102,7 +102,8 @@ const VirtualizedConceptList: React.FC<VirtualizedConceptListProps> = memo(
         // Update scroll margin when list position changes
         useEffect(() => {
             if (listRef.current) {
-                virtualizer.scrollRect
+                // Access scrollRect to trigger recalculation when virtualizer changes
+                void virtualizer.scrollRect
             }
         }, [virtualizer])
 

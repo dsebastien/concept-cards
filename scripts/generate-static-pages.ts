@@ -27,9 +27,6 @@ const allTags = Array.from(new Set(concepts.flatMap((concept) => concept.tags)))
 // Extract all unique categories (excluding 'All')
 const allCategories = Array.from(new Set(concepts.map((concept) => concept.category))).sort()
 
-// Get all concept IDs
-const allConceptIds = concepts.map((concept) => concept.id)
-
 const distDir = join(__dirname, '../dist')
 
 // Read the built index.html
@@ -45,18 +42,6 @@ function escapeHtml(text: string): string {
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#039;')
-}
-
-/**
- * Escape string for JSON (handles quotes and special chars)
- */
-function escapeJson(text: string): string {
-    return text
-        .replace(/\\/g, '\\\\')
-        .replace(/"/g, '\\"')
-        .replace(/\n/g, '\\n')
-        .replace(/\r/g, '\\r')
-        .replace(/\t/g, '\\t')
 }
 
 // Shared author schema for all pages

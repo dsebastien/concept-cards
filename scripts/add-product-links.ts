@@ -4,15 +4,6 @@ import * as fs from 'fs'
 import * as path from 'path'
 import type { Reference } from '../src/types/concept'
 
-// Extended Concept type for dynamic property access
-interface ConceptWithDynamic {
-    id: string
-    name: string
-    tags: string[]
-    references: Reference[]
-    [key: string]: unknown
-}
-
 interface Product {
     id: string
     title: string

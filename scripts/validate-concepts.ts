@@ -18,7 +18,7 @@
 import { readdirSync, readFileSync, writeFileSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
-import type { Concept, Reference, Book } from '../src/types/concept'
+import type { Concept, Reference } from '../src/types/concept'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
@@ -330,7 +330,7 @@ async function main() {
     let filesFixed = 0
     let urlsChecked = 0
 
-    for (const [conceptId, { file, concept }] of concepts) {
+    for (const [, { file, concept }] of concepts) {
         if (verbose) {
             console.log(`Checking ${file}...`)
         }

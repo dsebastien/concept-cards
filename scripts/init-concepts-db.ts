@@ -211,7 +211,7 @@ function insertConcepts(
 
     // Use transaction for better performance
     const insertAll = db.transaction(() => {
-        for (const [id, { concept, filePath }] of concepts) {
+        for (const [, { concept, filePath }] of concepts) {
             const contentHash = calculateContentHash(concept)
 
             // Insert main concept

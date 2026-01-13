@@ -12,7 +12,7 @@ interface Concept {
     name: string
     category: string
     tags?: string[]
-    [key: string]: any
+    [key: string]: unknown
 }
 
 interface MigrationRule {
