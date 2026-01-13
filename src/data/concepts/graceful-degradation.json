@@ -1,0 +1,50 @@
+{
+    "id": "graceful-degradation",
+    "name": "Graceful Degradation",
+    "summary": "A design approach where systems continue to function with reduced capability when components fail, rather than failing completely.",
+    "explanation": "Graceful degradation is a design philosophy where systems are built to maintain partial functionality when components fail, rather than experiencing complete failure. The system degrades in a controlled, predictable manner, preserving core functionality while shedding non-essential features. This approach prioritizes availability and user experience over perfect operation.\n\nThe concept originated in fault-tolerant computing but applies broadly to software systems, hardware design, and even organizational processes. A gracefully degrading system might: serve cached content when the database is unavailable, disable real-time features while maintaining basic functionality, reduce service quality rather than refusing service entirely, or fall back to simpler algorithms when resources are constrained.\n\nKey principles of graceful degradation include: identifying which features are essential versus nice-to-have, designing fallback behaviors for each failure mode, communicating degraded status to users clearly, and ensuring degradation is reversible when conditions improve. The approach requires upfront planning and explicit consideration of failure scenarios during design.\n\nGraceful degradation contrasts with progressive enhancement (building up from a basic experience) and differs from fault tolerance (which aims to continue with no degradation). In practice, well-designed systems often combine all three approaches: a fault-tolerant core that handles common failures invisibly, graceful degradation for more severe issues, and progressive enhancement to add capabilities when resources allow.\n\nExamples include: video streaming services that reduce quality rather than buffering indefinitely, e-commerce sites that show cached prices when inventory services are slow, and mobile apps that work offline with limited features.",
+    "tags": [
+        "software-design",
+        "resilience",
+        "systems-design",
+        "best-practices",
+        "failures"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Graceful failure",
+        "Degraded mode",
+        "Failsoft"
+    ],
+    "relatedConcepts": [
+        "fault-tolerance",
+        "fail-fast",
+        "graceful-degradation-pkm",
+        "progressive-enhancement"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Release It! by Michael Nygard",
+            "url": "https://www.amazon.com/dp/1680502395?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Graceful degradation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Graceful_degradation",
+            "type": "website"
+        },
+        {
+            "title": "Fault tolerance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fault_tolerance",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-13",
+    "dateModified": "2026-01-13"
+}

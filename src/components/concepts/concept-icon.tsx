@@ -146,7 +146,9 @@ import {
     FaUserTag,
     FaSignOutAlt,
     FaAward,
-    FaCrown
+    FaCrown,
+    FaServer,
+    FaVolumeMute
 } from 'react-icons/fa'
 import { SiObsidian, SiSubstack, SiBluesky } from 'react-icons/si'
 import { FaXTwitter, FaThreads } from 'react-icons/fa6'
@@ -299,6 +301,8 @@ const iconMap: Record<string, IconType> = {
     FaSignOutAlt,
     FaAward,
     FaCrown,
+    FaServer,
+    FaVolumeMute,
     SiObsidian,
     SiSubstack,
     SiBluesky,
@@ -458,7 +462,9 @@ const iconColors: Record<string, string> = {
     FaUserTag: 'text-purple-400',
     FaSignOutAlt: 'text-red-400',
     FaAward: 'text-yellow-400',
-    FaCrown: 'text-yellow-400'
+    FaCrown: 'text-yellow-400',
+    FaServer: 'text-blue-400',
+    FaVolumeMute: 'text-gray-400'
 }
 
 // Category fallback icons (emojis)

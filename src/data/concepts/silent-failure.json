@@ -1,0 +1,40 @@
+{
+    "id": "silent-failure",
+    "name": "Silent Failure",
+    "summary": "When a system fails without providing any visible indication, making problems difficult to detect and debug.",
+    "explanation": "Silent failure occurs when a system, process, or component fails without producing any error messages, exceptions, logs, or other observable indicators. The system appears to continue operating normally from the outside, but the expected behavior is not occurring. This is the opposite of the fail-fast principle, which advocates for immediate and visible failure notification.\n\nSilent failures are particularly dangerous because they allow problems to propagate undetected, often causing cascading issues that only become apparent much later when the root cause is difficult to trace. Common causes include: swallowed exceptions (catching errors without handling or logging them), default values that mask missing data, missing validation that allows invalid inputs to pass through, and empty catch blocks that suppress errors entirely.\n\nIn software development, silent failures often manifest as: functions returning null or default values instead of throwing errors, database queries that find no results but don't indicate why, API calls that timeout without notification, and background jobs that fail but don't alert anyone. The consequences can range from corrupted data to security vulnerabilities to complete system breakdowns.\n\nTo prevent silent failures: always log errors even if you handle them, use explicit error types rather than null returns, implement monitoring and alerting for critical paths, validate inputs at system boundaries, and design APIs that make failure states explicit. The principle of making failures loud and visible is essential for building maintainable, debuggable systems.",
+    "tags": [
+        "anti-patterns",
+        "debugging",
+        "software-engineering",
+        "failures",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaVolumeMute",
+    "featured": false,
+    "aliases": [
+        "Fail silently",
+        "Silent error",
+        "Swallowed exception",
+        "Hidden failure"
+    ],
+    "relatedConcepts": [
+        "fail-fast",
+        "defensive-programming",
+        "fault-tolerance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Fail-fast system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fail-fast_system",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-13",
+    "dateModified": "2026-01-13"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "fault-tolerance",
+    "name": "Fault Tolerance",
+    "summary": "The ability of a system to continue operating correctly even when some of its components fail.",
+    "explanation": "Fault tolerance is a design property that enables a system to continue operating properly in the event of the failure of one or more of its components. A fault-tolerant system is designed to handle faults without service interruption or degradation, often through redundancy and automatic failover mechanisms. The goal is to make failures invisible to end users.\n\nFault tolerance is achieved through several strategies: redundancy (having backup components ready to take over), replication (maintaining multiple copies of data or services), diversity (using different implementations to avoid common-mode failures), and isolation (preventing failures from cascading). Hardware approaches include redundant power supplies, RAID storage, and clustered servers. Software approaches include replicated databases, load balancing, and circuit breakers.\n\nKey concepts in fault tolerance include: Mean Time Between Failures (MTBF) measuring reliability, Mean Time To Recovery (MTTR) measuring repair speed, availability as a percentage of uptime, and the distinction between fail-safe (defaulting to a safe state) and fail-operational (continuing to function) designs.\n\nFault tolerance exists on a spectrum from simple retry logic to sophisticated distributed consensus protocols. The appropriate level depends on the cost of failure versus the cost of tolerance mechanisms. Critical systems like medical devices, aircraft controls, and financial trading platforms require extensive fault tolerance, while consumer applications may tolerate occasional failures.\n\nFault tolerance differs from graceful degradation (which accepts reduced functionality) and fail-fast (which makes failures visible immediately). In practice, well-designed systems combine all three: fault tolerance for common failures, graceful degradation for severe ones, and fail-fast for programming errors.",
+    "tags": [
+        "software-design",
+        "resilience",
+        "systems-design",
+        "best-practices",
+        "failures"
+    ],
+    "category": "Software Development",
+    "icon": "FaServer",
+    "featured": false,
+    "aliases": [
+        "Failover",
+        "High availability",
+        "Resilient systems"
+    ],
+    "relatedConcepts": [
+        "graceful-degradation",
+        "fail-fast",
+        "defensive-programming"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Release It! by Michael Nygard",
+            "url": "https://www.amazon.com/dp/1680502395?tag=dsebastien00-20"
+        },
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Fault tolerance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fault_tolerance",
+            "type": "website"
+        },
+        {
+            "title": "High availability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/High_availability",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-13",
+    "dateModified": "2026-01-13"
+}

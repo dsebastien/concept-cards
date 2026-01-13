@@ -1,0 +1,48 @@
+{
+    "id": "defensive-programming",
+    "name": "Defensive Programming",
+    "summary": "A coding practice that anticipates potential errors and edge cases, writing code that fails safely and provides clear error information.",
+    "explanation": "Defensive programming is a software development practice focused on writing code that anticipates and handles potential errors, invalid inputs, and unexpected conditions. The goal is to produce software that continues to function correctly (or fails gracefully and informatively) even when faced with circumstances the developer didn't explicitly anticipate.\n\nCore techniques of defensive programming include: input validation at system boundaries, assertion statements to verify assumptions, null checks before dereferencing, bounds checking for arrays and collections, type checking in dynamic languages, and comprehensive error handling with meaningful messages. The practice assumes that external inputs are untrustworthy and that internal invariants should be verified rather than assumed.\n\nDefensive programming involves several key principles: never trust external input (validate everything from users, files, APIs, and networks), make assumptions explicit through assertions and contracts, fail fast and loud when invariants are violated, provide detailed error messages that aid debugging, and handle edge cases explicitly rather than hoping they won't occur.\n\nThe practice trades some performance and code brevity for increased robustness and maintainability. Critics argue that excessive defensive coding can obscure business logic and create performance overhead. Proponents counter that the debugging time saved and security improvements justify the investment. The key is finding the right balance: being defensive at system boundaries and critical paths while trusting well-tested internal components.\n\nDefensive programming relates to but differs from: design by contract (which formalizes the approach), test-driven development (which verifies behavior externally), and exception handling (which is one tool among many).",
+    "tags": [
+        "programming",
+        "software-engineering",
+        "best-practices",
+        "debugging",
+        "software-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Defensive coding",
+        "Secure coding",
+        "Robust programming"
+    ],
+    "relatedConcepts": [
+        "fail-fast",
+        "silent-failure",
+        "fault-tolerance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Code Complete by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735619670?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Pragmatic Programmer by David Thomas and Andrew Hunt",
+            "url": "https://www.amazon.com/dp/0135957052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Defensive programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Defensive_programming",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-13",
+    "dateModified": "2026-01-13"
+}
