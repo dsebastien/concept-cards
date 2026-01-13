@@ -1,3 +1,41 @@
+## [10.4.0](https://github.com/dsebastien/concept-cards/compare/10.3.0...10.4.0) (2026-01-13)
+
+### Features
+
+* **all:** added newsletter subscription form ([711deea](https://github.com/dsebastien/concept-cards/commit/711deeaf8352249674a19f5c42b7a67aa3b8ac91))
+* **all:** improved close button ([06c0485](https://github.com/dsebastien/concept-cards/commit/06c04859650bf7048cd6128a68873594624c8429))
+## [10.3.0](https://github.com/dsebastien/concept-cards/compare/10.2.0...10.3.0) (2026-01-07)
+
+### Features
+
+* **all:** added a copy button to concept cards ([26c0742](https://github.com/dsebastien/concept-cards/commit/26c07425d56138966ba62f164f8812f383c7d641))
+## [10.2.0](https://github.com/dsebastien/concept-cards/compare/10.1.1...10.2.0) (2026-01-06)
+
+### Bug Fixes
+
+* **all:** fixed marking concepts as explored ([84306e5](https://github.com/dsebastien/concept-cards/commit/84306e562c28ea1b9f278de5b42364ba5def7b35))
+* **all:** stop losing scroll position on next/previous modal clicks ([70ed0ff](https://github.com/dsebastien/concept-cards/commit/70ed0ff97e6b90b3591b38d72020ec17d47a9e81))
+## [10.1.1](https://github.com/dsebastien/concept-cards/compare/10.1.0...10.1.1) (2026-01-06)
+
+### Features
+
+* **all:** added concepts ([8752b24](https://github.com/dsebastien/concept-cards/commit/8752b24576ce4b430faafd29ec24ac35d6cd3aee))
+* **all:** added new concepts ([3d49411](https://github.com/dsebastien/concept-cards/commit/3d49411572368f41d52a0a1ef884db96b471f687))
+## [10.1.0](https://github.com/dsebastien/concept-cards/compare/10.0.1...10.1.0) (2026-01-06)
+
+### Features
+
+* **all:** better use horizontal space on large screens ([10d9094](https://github.com/dsebastien/concept-cards/commit/10d9094896b22e44ac0a40fb62798b64644bcfd8))
+## [10.0.1](https://github.com/dsebastien/concept-cards/compare/10.0.0...10.0.1) (2026-01-06)
+
+### Features
+
+* **all:** added visual consistency idea ([bed06f1](https://github.com/dsebastien/concept-cards/commit/bed06f164383d335fbec70ee30ad13207102266c))
+## [10.0.0](https://github.com/dsebastien/concept-cards/compare/8.0.1...10.0.0) (2026-01-06)
+
+### Features
+
+* **all:** improved grid and list rendering ([81f1ec9](https://github.com/dsebastien/concept-cards/commit/81f1ec99a7e28a354255047d3438bbab70caa530))
 ## [8.0.1](https://github.com/dsebastien/concept-cards/compare/9.9.0...8.0.1) (2026-01-05)
 
 ### Features
