@@ -1,3 +1,9 @@
+## [10.5.3](https://github.com/dsebastien/concept-cards/compare/10.5.2...10.5.3) (2026-01-14)
+
+### Features
+
+* **all:** added no free lunch and related concepts ([a1542f5](https://github.com/dsebastien/concept-cards/commit/a1542f517e262dc4a08cb7a160d719c08523e34a))
+* **all:** improved newsletter handling ([839652f](https://github.com/dsebastien/concept-cards/commit/839652fce66521fcaa96280a7a09eb9b1244463e))
 ## [10.5.2](https://github.com/dsebastien/concept-cards/compare/10.5.1...10.5.2) (2026-01-14)
 
 ### Features
