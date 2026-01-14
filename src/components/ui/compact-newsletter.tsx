@@ -5,6 +5,7 @@ import { subscribeToNewsletter } from '@/lib/ghost-api'
 // Ghost site configuration
 const GHOST_SITE_URL = 'https://www.dsebastien.net'
 const NEWSLETTER_SESSION_KEY = 'newsletter_subscribed'
+const NEWSLETTER_NEVER_SHOW_KEY = 'newsletter_never_show'
 
 const CompactNewsletter: React.FC = () => {
     const [email, setEmail] = useState('')
@@ -20,6 +21,10 @@ const CompactNewsletter: React.FC = () => {
             return true
         }
         return false
+    })
+    // Initialize hasDismissed from localStorage
+    const [hasDismissed, setHasDismissed] = useState<boolean>(() => {
+        return localStorage.getItem(NEWSLETTER_NEVER_SHOW_KEY) === 'true'
     })
 
     const handleNewsletterSubmit = async (e: React.FormEvent) => {
@@ -47,15 +52,21 @@ const CompactNewsletter: React.FC = () => {
                 sessionStorage.setItem(NEWSLETTER_SESSION_KEY, 'true')
                 setHasSubscribed(true)
                 console.log('[Newsletter] Subscription stored in sessionStorage')
-            }, 3000) // Hide after 3 seconds
+            }, 5000) // Hide after 5 seconds
         } else {
             setSubscribeStatus('error')
             setErrorMessage(result.error || 'Subscription failed. Please try again.')
         }
     }
 
-    // Don't render if already subscribed
-    if (hasSubscribed) {
+    const handleDismiss = () => {
+        localStorage.setItem(NEWSLETTER_NEVER_SHOW_KEY, 'true')
+        setHasDismissed(true)
+        console.log('[Newsletter] Permanently dismissed')
+    }
+
+    // Don't render if already subscribed or dismissed
+    if (hasSubscribed || hasDismissed) {
         return null
     }
 
@@ -118,6 +129,15 @@ const CompactNewsletter: React.FC = () => {
                             <p className='text-xs font-semibold text-red-500'>⚠️ {errorMessage}</p>
                         </div>
                     )}
+                    <div className='mt-2 text-center'>
+                        <button
+                            type='button'
+                            onClick={handleDismiss}
+                            className='text-primary/50 hover:text-primary/70 text-xs transition-colors hover:underline'
+                        >
+                            Don't show this again
+                        </button>
+                    </div>
                 </>
             )}
         </div>

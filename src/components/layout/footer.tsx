@@ -28,6 +28,7 @@ import { subscribeToNewsletter } from '@/lib/ghost-api'
 // Ghost site configuration
 const GHOST_SITE_URL = 'https://www.dsebastien.net'
 const NEWSLETTER_SESSION_KEY = 'newsletter_subscribed'
+const NEWSLETTER_NEVER_SHOW_KEY = 'newsletter_never_show'
 
 const Footer: React.FC = () => {
     const [email, setEmail] = useState('')
@@ -43,6 +44,10 @@ const Footer: React.FC = () => {
             return true
         }
         return false
+    })
+    // Initialize hasDismissed from localStorage
+    const [hasDismissed, setHasDismissed] = useState<boolean>(() => {
+        return localStorage.getItem(NEWSLETTER_NEVER_SHOW_KEY) === 'true'
     })
 
     const handleNewsletterSubmit = async (e: React.FormEvent) => {
@@ -70,17 +75,23 @@ const Footer: React.FC = () => {
                 sessionStorage.setItem(NEWSLETTER_SESSION_KEY, 'true')
                 setHasSubscribed(true)
                 console.log('[Newsletter] Subscription stored in sessionStorage')
-            }, 3000) // Hide after 3 seconds
+            }, 5000) // Hide after 5 seconds
         } else {
             setSubscribeStatus('error')
             setErrorMessage(result.error || 'Subscription failed. Please try again.')
         }
     }
 
+    const handleDismiss = () => {
+        localStorage.setItem(NEWSLETTER_NEVER_SHOW_KEY, 'true')
+        setHasDismissed(true)
+        console.log('[Newsletter] Permanently dismissed')
+    }
+
     return (
         <footer className='border-primary/10 bg-background border-t'>
-            {/* Newsletter Section - Hidden if user already subscribed */}
-            {!hasSubscribed && (
+            {/* Newsletter Section - Hidden if user already subscribed or dismissed */}
+            {!hasSubscribed && !hasDismissed && (
                 <div className='bg-secondary/5 border-primary/10 border-b py-12 sm:py-16'>
                     <div className='xg:px-24 mx-auto max-w-7xl px-6 sm:px-10 md:px-16 lg:px-20 xl:px-32'>
                         <div className='mx-auto max-w-2xl text-center'>
@@ -144,6 +155,15 @@ const Footer: React.FC = () => {
                                             </p>
                                         </div>
                                     )}
+                                    <div className='mt-3'>
+                                        <button
+                                            type='button'
+                                            onClick={handleDismiss}
+                                            className='text-primary/50 hover:text-primary/70 text-xs transition-colors hover:underline'
+                                        >
+                                            Don't show this again
+                                        </button>
+                                    </div>
                                 </>
                             )}
                         </div>
