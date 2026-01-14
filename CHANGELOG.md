@@ -1,3 +1,11 @@
+## [10.5.2](https://github.com/dsebastien/concept-cards/compare/10.5.1...10.5.2) (2026-01-14)
+
+### Features
+
+* **all:** added concepts ([d9d3f10](https://github.com/dsebastien/concept-cards/commit/d9d3f103593b80ff7b233251d97fd2310af0c4ae))
+* **all:** added concepts ([d5f0e5c](https://github.com/dsebastien/concept-cards/commit/d5f0e5c32fb033f648b0fcacd3cb466b897bd124))
+* **all:** added concepts ([b2cc20b](https://github.com/dsebastien/concept-cards/commit/b2cc20bf3e50bfb862c9dd723953e424f98d8ce4))
+* **all:** also copy the concept url when copying concepts ([0f30d09](https://github.com/dsebastien/concept-cards/commit/0f30d0923f6a18ba2a421840610fee4b5793312f))
 ## [10.5.1](https://github.com/dsebastien/concept-cards/compare/10.5.0...10.5.1) (2026-01-13)
 
 ### Features
