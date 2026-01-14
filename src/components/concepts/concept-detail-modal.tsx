@@ -250,7 +250,8 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
     const handleCopy = async () => {
         if (!concept) return
 
-        const textToCopy = `${concept.name}\n\n${concept.summary}\n\n${concept.explanation}`
+        const conceptUrl = `https://concepts.dsebastien.net/#/concept/${concept.id}`
+        const textToCopy = `${concept.name}\n\n${concept.summary}\n\n${concept.explanation}\n\n${conceptUrl}`
 
         try {
             await navigator.clipboard.writeText(textToCopy)
