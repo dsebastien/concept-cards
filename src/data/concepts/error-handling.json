@@ -1,0 +1,55 @@
+{
+    "id": "error-handling",
+    "name": "Error Handling",
+    "summary": "The practice of anticipating, detecting, and responding to errors in software to maintain system stability and provide meaningful feedback.",
+    "explanation": "Error handling is the process of anticipating, detecting, and responding to errors that occur during program execution. Effective error handling is crucial for building robust, maintainable software that provides good user experiences even when things go wrong.\n\nThe core mechanisms for error handling vary by language and paradigm: exceptions (try/catch/finally blocks), error return values, result types (Ok/Err, Some/None), error callbacks, and promises with rejection handling. Each approach has trade-offs in terms of explicitness, performance, and composability.\n\nKey principles of good error handling include: handling errors at the appropriate level of abstraction (not too early, not too late), providing meaningful error messages that aid debugging and user understanding, distinguishing between recoverable and unrecoverable errors, avoiding empty catch blocks that swallow errors silently, cleaning up resources properly (using finally blocks or RAII patterns), and logging errors with sufficient context for diagnosis.\n\nCommon error handling strategies include: graceful degradation (continue with reduced functionality), retry with backoff (for transient failures), circuit breakers (prevent cascading failures), fallback values (provide defaults when primary sources fail), and user notification (inform users when action is needed).\n\nAnti-patterns to avoid include: catching all exceptions without discrimination, using exceptions for control flow, ignoring return codes, providing generic unhelpful error messages, and failing to clean up resources on error paths. Good error handling makes the difference between systems that are debuggable and maintainable versus those that are mysterious and fragile.",
+    "tags": [
+        "programming",
+        "software-engineering",
+        "best-practices",
+        "debugging",
+        "software-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Exception handling",
+        "Error management",
+        "Fault handling"
+    ],
+    "relatedConcepts": [
+        "defensive-programming",
+        "silent-failure",
+        "breaking-loudly",
+        "fail-fast",
+        "graceful-degradation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Code by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0132350882?tag=dsebastien00-20"
+        },
+        {
+            "title": "Code Complete by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735619670?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Exception handling - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Exception_handling",
+            "type": "website"
+        },
+        {
+            "title": "Error handling - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Error_handling",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-14",
+    "dateModified": "2026-01-14"
+}

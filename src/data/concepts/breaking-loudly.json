@@ -1,0 +1,47 @@
+{
+    "id": "breaking-loudly",
+    "name": "Breaking Loudly",
+    "summary": "A software design principle where failures produce visible errors, exceptions, or warnings rather than silently continuing.",
+    "explanation": "Breaking loudly is a software design principle that advocates for making failures immediately visible through explicit error messages, exceptions, logs, or alerts. When code breaks loudly, problems are surfaced at the point of failure rather than propagating silently through the system, making debugging and maintenance significantly easier.\n\nThe principle is the deliberate opposite of silent failure, where code continues executing despite errors occurring. Code that breaks loudly might: throw exceptions instead of returning null, log errors with contextual information, display user-friendly error messages, trigger monitoring alerts, or halt execution rather than continue with invalid state.\n\nBreaking loudly is valuable because it: reduces debugging time by pinpointing failure locations, prevents cascading failures from corrupted data, makes system health visible to operators, catches bugs during development rather than production, and provides clear signals for when human intervention is needed.\n\nImplementation strategies include: using strict typing and validation, throwing descriptive exceptions rather than returning error codes, implementing comprehensive logging at failure points, setting up monitoring and alerting for critical paths, using assertions to verify invariants, and preferring explicit error states over null or empty defaults.\n\nBreaking loudly should be balanced with graceful degradation - critical user-facing systems may need to degrade gracefully while still logging errors loudly for operators. The goal is not to crash constantly, but to ensure that failures are never invisible. A well-designed system breaks loudly internally (for developers and operators) while potentially degrading gracefully externally (for users).",
+    "tags": [
+        "software-design",
+        "debugging",
+        "best-practices",
+        "failures",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaVolumeUp",
+    "featured": false,
+    "aliases": [
+        "Fail loudly",
+        "Loud failure",
+        "Explicit failure",
+        "Visible failure"
+    ],
+    "relatedConcepts": [
+        "silent-failure",
+        "fail-fast",
+        "defensive-programming",
+        "graceful-degradation",
+        "error-handling"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Pragmatic Programmer by David Thomas and Andrew Hunt",
+            "url": "https://www.amazon.com/dp/0135957052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Fail-fast system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fail-fast_system",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-14",
+    "dateModified": "2026-01-14"
+}
