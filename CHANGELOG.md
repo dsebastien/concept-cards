@@ -1,3 +1,9 @@
+## [10.5.4](https://github.com/dsebastien/concept-cards/compare/10.5.3...10.5.4) (2026-01-15)
+
+### Features
+
+* **all:** added concepts ([430b636](https://github.com/dsebastien/concept-cards/commit/430b6360302de02b08e7033d19f7624a5b642c88))
+* **all:** added concepts and refined Agents config ([99042b0](https://github.com/dsebastien/concept-cards/commit/99042b00a93aeb1a1b9e46fe673f5f1c6dfa8241))
 ## [10.5.3](https://github.com/dsebastien/concept-cards/compare/10.5.2...10.5.3) (2026-01-14)
 
 ### Features
