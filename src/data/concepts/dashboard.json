@@ -1,0 +1,42 @@
+{
+    "id": "dashboard",
+    "name": "Dashboard",
+    "summary": "A visual display consolidating key metrics and information for monitoring status at a glance.",
+    "explanation": "A Dashboard is a visual interface that consolidates and displays key information, metrics, and status indicators in a single view. Like a car dashboard shows speed, fuel, and engine status simultaneously, information dashboards provide an at-a-glance overview of what matters most.\n\n**Characteristics of Effective Dashboards**:\n- **Focused**: Shows only what's essential, avoiding information overload\n- **Visual**: Uses charts, graphs, and indicators rather than raw data\n- **Current**: Reflects real-time or near-real-time information\n- **Actionable**: Highlights items requiring attention or decision\n- **Contextual**: Provides comparison points (targets, trends, benchmarks)\n\n**Types of Dashboards**:\n- **Strategic**: High-level KPIs for executives\n- **Operational**: Day-to-day metrics for teams\n- **Analytical**: Data exploration and trend analysis\n- **Personal**: Individual productivity and progress tracking\n\n**Dashboard Design Principles**:\n- Place most important information at top-left\n- Use color consistently (red for problems, green for good)\n- Minimize cognitive load with clear hierarchy\n- Enable drill-down for details when needed\n- Update automatically to stay relevant\n\n**In PKM Context**:\nPersonal dashboards help track:\n- Daily/weekly task completion\n- Habit streaks and goal progress\n- Note-taking activity and growth\n- Reading and learning progress\n- Project status across areas\n\nTools like Obsidian, Notion, and dedicated apps allow creating personal dashboards that surface what matters for your life and work.",
+    "tags": [
+        "visualization",
+        "productivity",
+        "tools",
+        "metrics",
+        "monitoring"
+    ],
+    "category": "Tools",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "Control Panel",
+        "Status Board",
+        "Overview Panel"
+    ],
+    "relatedConcepts": [
+        "information-radiators",
+        "visual-management",
+        "kanban",
+        "personal-kanban",
+        "metrics",
+        "visualization"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dashboard (business) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dashboard_(business)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

@@ -1,0 +1,64 @@
+{
+    "id": "knowledge-base",
+    "name": "Knowledge Base",
+    "summary": "A centralized repository for storing, organizing, and retrieving information and knowledge.",
+    "explanation": "A Knowledge Base (KB) is a structured collection of information designed to support knowledge management, decision-making, and problem-solving. It serves as a central hub where knowledge is captured, organized, and made accessible.\n\n**Types of Knowledge Bases**:\n- **Personal Knowledge Bases**: Individual collections for learning and thinking (PKM systems like Obsidian vaults, Notion workspaces)\n- **Organizational Knowledge Bases**: Corporate wikis, documentation systems, help centers\n- **Public Knowledge Bases**: Wikipedia, Stack Overflow, open documentation\n- **AI Knowledge Bases**: Structured data powering intelligent systems and chatbots\n\n**Key Components**:\n- **Content**: Articles, notes, documents, FAQs, procedures\n- **Structure**: Categories, tags, hierarchies, and relationships\n- **Search**: Full-text search and filtering capabilities\n- **Navigation**: Links, cross-references, and discovery mechanisms\n- **Maintenance**: Update workflows, version control, and quality assurance\n\n**Benefits of a Knowledge Base**:\n- Single source of truth for information\n- Reduced time spent searching for answers\n- Preserved institutional or personal knowledge\n- Consistent information across users and contexts\n- Foundation for learning and decision-making\n\n**Knowledge Base vs Database**:\nWhile a database stores structured data, a knowledge base focuses on human-readable information with context, explanations, and relationships. Knowledge bases emphasize understanding over raw data storage.\n\n**In PKM Context**:\nYour personal knowledge base is your external brain—a system where you capture insights, connect ideas, and build understanding over time. The quality of your knowledge base directly impacts your ability to think, create, and solve problems.",
+    "tags": [
+        "knowledge-management",
+        "systems",
+        "organizations",
+        "tools",
+        "pkm"
+    ],
+    "category": "Systems",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "KB",
+        "Knowledge Repository",
+        "Knowledge System"
+    ],
+    "relatedConcepts": [
+        "single-vs-multiple-knowledge-bases",
+        "pkm",
+        "knowledge-management",
+        "wiki",
+        "ssot",
+        "second-brain",
+        "documentation",
+        "information-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge base - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_base",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

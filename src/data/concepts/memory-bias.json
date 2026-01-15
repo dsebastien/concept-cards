@@ -1,0 +1,60 @@
+{
+    "id": "memory-bias",
+    "name": "Memory Bias",
+    "summary": "Cognitive biases that systematically distort how memories are encoded, stored, and recalled, leading to inaccurate or altered recollections.",
+    "explanation": "Memory Bias refers to a family of cognitive biases that affect how we remember past events, information, and experiences. Unlike the common assumption that memory works like a video recorder faithfully capturing reality, our memories are reconstructive processes heavily influenced by our current beliefs, emotions, expectations, and subsequent experiences.\n\nMemory biases operate at every stage of the memory process. During encoding, we selectively attend to information that aligns with our existing beliefs or emotional state, missing or downplaying contradictory details. During storage, memories undergo consolidation and reconsolidation processes that can subtly alter them each time they are accessed. During retrieval, we fill in gaps with plausible information, often without realizing we are doing so.\n\nKey types of memory bias include:\n\n- **Rosy retrospection**: Remembering past events more positively than they actually were\n- **Fading affect bias**: Negative emotions associated with memories fade faster than positive ones\n- **Leveling and sharpening**: Details are lost (leveled) while certain aspects become exaggerated (sharpened) over retellings\n- **Source confusion**: Misattributing where information was learned or who said something\n- **Misinformation effect**: Post-event information alters memory of the original event\n- **Mood-congruent memory**: Current emotional state influences what memories are accessible\n- **Hindsight bias**: Believing we 'knew it all along' after learning an outcome\n- **Cryptomnesia**: Mistaking a memory for an original thought\n\nUnderstanding memory bias has profound implications for personal knowledge management, learning, and decision-making. It suggests we should document important information rather than relying solely on memory, verify our recollections against external sources when possible, and remain humble about the accuracy of our memories. In professional contexts, this awareness is crucial for fields like law, medicine, and journalism where memory reliability matters greatly.\n\nTo mitigate memory bias: take contemporaneous notes, review and verify memories against records, be aware of your emotional state when recalling events, seek multiple perspectives on shared experiences, and cultivate intellectual humility about the fallibility of human memory.",
+    "tags": [
+        "cognitive-biases",
+        "memories",
+        "psychology",
+        "thinking"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Memory Distortion",
+        "Memory Errors"
+    ],
+    "relatedConcepts": [
+        "cryptomnesia",
+        "fading-affect-bias",
+        "hindsight-bias",
+        "leveling-and-sharpening",
+        "misinformation-effect",
+        "mood-congruent-memory",
+        "rosy-retrospection",
+        "source-confusion",
+        "suggestibility",
+        "confabulation",
+        "von-restorff-effect",
+        "perception-of-reality"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Seven Sins of Memory by Daniel L. Schacter",
+            "url": "https://www.amazon.com/dp/0618219196?tag=dsebastien00-20"
+        },
+        {
+            "title": "Stumbling on Happiness by Daniel Gilbert",
+            "url": "https://www.amazon.com/dp/1400077427?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Memory bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Memory_bias",
+            "type": "website"
+        },
+        {
+            "title": "List of memory biases - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_memory_biases",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
+}

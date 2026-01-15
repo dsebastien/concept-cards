@@ -1,0 +1,42 @@
+{
+    "id": "flowchart",
+    "name": "Flowchart",
+    "summary": "A diagram representing a process or workflow using standardized shapes and connecting arrows.",
+    "explanation": "A Flowchart is a visual diagram that represents a process, workflow, or algorithm using standardized shapes connected by arrows. Each shape has a specific meaning: rectangles for processes, diamonds for decisions, ovals for start/end points, and parallelograms for input/output.\n\n**Common Uses**:\n- **Process documentation**: Mapping business or technical processes\n- **Algorithm design**: Planning program logic before coding\n- **Decision trees**: Visualizing decision paths and outcomes\n- **Troubleshooting guides**: Step-by-step diagnostic procedures\n- **Workflow optimization**: Identifying bottlenecks and inefficiencies\n\n**Standard Flowchart Symbols**:\n- **Oval/Terminator**: Start or end of process\n- **Rectangle/Process**: Action or operation step\n- **Diamond/Decision**: Yes/no or branching question\n- **Parallelogram**: Input or output\n- **Arrow/Flow line**: Direction of process flow\n\n**Benefits**:\n- Makes complex processes understandable at a glance\n- Identifies redundancies and inefficiencies\n- Provides common language for discussing processes\n- Supports process improvement and standardization\n- Aids in training and onboarding\n\n**In PKM Context**:\nFlowcharts help document personal workflows, decision-making frameworks, and recurring processes. Creating a flowchart for how you process information or make decisions can reveal opportunities for improvement and automation.",
+    "tags": [
+        "visualization",
+        "processes",
+        "documentation",
+        "thinking",
+        "tools"
+    ],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Flow Chart",
+        "Process Flow Diagram",
+        "Flow Diagram"
+    ],
+    "relatedConcepts": [
+        "visual-thinking",
+        "mind-maps",
+        "concept-maps",
+        "decision-trees",
+        "systems-thinking",
+        "documentation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Flowchart - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Flowchart",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

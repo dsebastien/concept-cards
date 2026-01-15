@@ -1,0 +1,45 @@
+{
+    "id": "idea-multiplier",
+    "name": "Idea Multiplier",
+    "summary": "Derek Sivers' framework showing that the value of an idea comes from multiplying it by the quality of execution.",
+    "explanation": "The Idea Multiplier is a framework popularized by entrepreneur Derek Sivers that quantifies the relationship between ideas and execution. The core formula is: Ideas × Execution = Value.\n\nIn this model, ideas are rated on a scale from awful (-1) to brilliant (20):\n- Awful idea = -1\n- Weak idea = 1\n- So-so idea = 5\n- Good idea = 10\n- Great idea = 15\n- Brilliant idea = 20\n\nExecution is rated on a similar multiplier scale:\n- No execution = $1\n- Weak execution = $1,000\n- So-so execution = $10,000\n- Good execution = $100,000\n- Great execution = $1,000,000\n- Brilliant execution = $10,000,000\n\nThe math is illuminating: A brilliant idea ($20) with weak execution ($1,000) creates only $20,000 in value. But a so-so idea ($5) with brilliant execution ($10,000,000) creates $50,000,000 in value - 2,500 times more.\n\nThis framework powerfully illustrates why execution trumps ideation. It explains why the same business concept succeeds for one entrepreneur and fails for another. It also shows why successful companies often aren't built on revolutionary ideas - they're built on superior execution of existing concepts.\n\nThe framework encourages focusing energy on execution quality rather than searching for the 'perfect' idea. It also explains why sharing ideas freely rarely hurts - without your specific execution capabilities, the idea's value to others is minimal.",
+    "tags": [
+        "entrepreneurship",
+        "execution",
+        "frameworks",
+        "startups",
+        "mental-models"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCalculator",
+    "featured": false,
+    "aliases": [
+        "Ideas are multipliers",
+        "Sivers idea formula",
+        "Idea × Execution"
+    ],
+    "relatedConcepts": [
+        "ideas-are-cheap",
+        "bias-for-action",
+        "consistency",
+        "shipping"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Anything You Want by Derek Sivers",
+            "url": "https://www.amazon.com/dp/1591848261?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Ideas are just a multiplier of execution - Derek Sivers",
+            "url": "https://sive.rs/multiply",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
+}

@@ -157,7 +157,9 @@ import {
     FaFish,
     FaPhoneVolume,
     FaSms,
-    FaQrcode
+    FaQrcode,
+    FaCloud,
+    FaLock
 } from 'react-icons/fa'
 import { SiObsidian, SiSubstack, SiBluesky } from 'react-icons/si'
 import { FaXTwitter, FaThreads } from 'react-icons/fa6'
@@ -321,6 +323,8 @@ const iconMap: Record<string, IconType> = {
     FaPhoneVolume,
     FaSms,
     FaQrcode,
+    FaCloud,
+    FaLock,
     SiObsidian,
     SiSubstack,
     SiBluesky,
@@ -491,7 +495,9 @@ const iconColors: Record<string, string> = {
     FaFish: 'text-cyan-400',
     FaPhoneVolume: 'text-red-400',
     FaSms: 'text-green-400',
-    FaQrcode: 'text-purple-400'
+    FaQrcode: 'text-purple-400',
+    FaCloud: 'text-gray-400',
+    FaLock: 'text-gray-500'
 }
 
 // Category fallback icons (emojis)

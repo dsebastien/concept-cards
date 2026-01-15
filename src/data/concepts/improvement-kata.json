@@ -1,0 +1,51 @@
+{
+    "id": "improvement-kata",
+    "name": "Improvement Kata",
+    "summary": "A scientific pattern for achieving challenging goals through iterative experimentation and learning.",
+    "explanation": "The Improvement Kata, developed by Mike Rother from studying Toyota's management practices, is a four-step pattern for navigating from the current condition toward a target condition through systematic experimentation.\n\n**The four steps:**\n\n1. **Understand the direction**: Grasp the overall challenge or vision\n2. **Grasp the current condition**: Deeply understand where you are now through direct observation\n3. **Establish the next target condition**: Define the next achievable milestone toward the vision\n4. **Experiment toward the target**: Run small experiments, learn from results, and adjust\n\n**The scientific approach:**\n\nThe Improvement Kata treats the path forward as unknowable in advance. Rather than planning detailed solutions, practitioners:\n- Form hypotheses about what might work\n- Run rapid experiments to test assumptions\n- Learn from both successes and failures\n- Adjust approach based on evidence\n\n**Key principles:**\n\n- **Obstacles are expected**: The path to any target condition will have obstacles—that's normal\n- **Single-factor experiments**: Test one change at a time to understand cause and effect\n- **Fast cycles**: Quick iterations enable faster learning\n- **Evidence over opinion**: Decisions based on observation, not assumptions\n\n**Applications:**\n\nOriginally developed for manufacturing improvement, the Improvement Kata applies to any domain requiring systematic progress: personal goals, product development, organizational change, or skill acquisition. It pairs naturally with the Coaching Kata for developing improvement capability in others.",
+    "tags": [
+        "improvement",
+        "learning",
+        "experimentation",
+        "problem-solving",
+        "lean"
+    ],
+    "category": "Frameworks",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Toyota Kata",
+        "Scientific thinking pattern"
+    ],
+    "relatedConcepts": [
+        "kata",
+        "coaching-kata",
+        "kaizen",
+        "pdca-cycle",
+        "scientific-method",
+        "deliberate-practice",
+        "hypothesis-driven-development"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Toyota Kata by Mike Rother",
+            "url": "https://www.amazon.com/dp/0071635238?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Toyota Kata Practice Guide by Mike Rother",
+            "url": "https://www.amazon.com/dp/1259860906?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Toyota Kata - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Toyota_Kata",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

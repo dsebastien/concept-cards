@@ -1,0 +1,52 @@
+{
+    "id": "wiki",
+    "name": "Wiki",
+    "summary": "A website that allows collaborative creation and editing of interlinked pages.",
+    "explanation": "A Wiki is a type of website that enables users to collaboratively create, edit, organize, and link content. The term comes from the Hawaiian word \"wiki\" meaning \"quick,\" reflecting how rapidly content can be added and modified.\n\n**Key characteristics of wikis**:\n- **Collaborative editing**: Multiple users can contribute and modify content\n- **Version history**: Changes are tracked, allowing rollback to previous versions\n- **Hyperlinking**: Pages connect through internal links, creating a web of knowledge\n- **Low barrier to entry**: Simple markup languages make editing accessible\n- **Emergent structure**: Organization evolves organically through use\n\n**Wiki vs Traditional Websites**:\nUnlike traditional websites with fixed content and designated authors, wikis embrace collective knowledge building. Anyone with permission can contribute, leading to distributed authorship and continuous improvement.\n\n**Applications in PKM**:\nWiki principles heavily influence personal knowledge management tools. The concepts of bidirectional linking, atomic notes, and interconnected thinking all trace back to wiki philosophy. Modern PKM tools like Obsidian, Roam Research, and Notion incorporate wiki-style linking and organization.\n\n**Famous Examples**:\n- Wikipedia: The largest wiki and collaborative encyclopedia\n- WikiWikiWeb: The first wiki, created by Ward Cunningham in 1995\n- Corporate wikis: Internal knowledge bases for organizations\n\nThe wiki model demonstrates how collective intelligence and iterative refinement can create valuable knowledge resources that exceed what any individual could produce alone.",
+    "tags": [
+        "collaboration",
+        "knowledge-management",
+        "tools",
+        "linking",
+        "websites"
+    ],
+    "category": "Systems",
+    "icon": "FaWikipediaW",
+    "featured": false,
+    "aliases": [
+        "WikiWiki",
+        "Wiki System"
+    ],
+    "relatedConcepts": [
+        "bidirectional-linking",
+        "backlinks",
+        "digital-garden",
+        "knowledge-base",
+        "hypertext",
+        "linked-thinking",
+        "wisdom-of-crowds"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Wiki Way: Quick Collaboration on the Web by Bo Leuf and Ward Cunningham",
+            "url": "https://www.amazon.com/dp/020171499X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Wiki - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wiki",
+            "type": "website"
+        },
+        {
+            "title": "WikiWikiWeb",
+            "url": "http://wiki.c2.com/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

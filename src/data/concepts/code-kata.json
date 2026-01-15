@@ -1,0 +1,51 @@
+{
+    "id": "code-kata",
+    "name": "Code Kata",
+    "summary": "Programming exercises designed to improve coding skills through deliberate, repeated practice.",
+    "explanation": "Code kata are small programming exercises that developers practice repeatedly to sharpen their skills. The term was coined by Dave Thomas, drawing from the martial arts concept of kata—practicing forms until they become second nature.\n\n**The purpose:**\n\nCode kata separate practice from performance. During work projects, developers focus on delivering results. During kata practice, they focus purely on improving technique. This deliberate practice builds skills that transfer to real projects.\n\n**Characteristics of good code kata:**\n\n- **Small and focused**: Can be completed in 30-60 minutes\n- **Repeatable**: Same problem practiced multiple times with different approaches\n- **No external pressure**: No deadlines, no production concerns\n- **Reflective**: Time to consider alternative solutions and improvements\n\n**Common kata exercises:**\n\n- **FizzBuzz**: Classic warm-up exercise\n- **Roman numerals**: Converting between number systems\n- **Bowling game**: Scoring logic with edge cases\n- **String calculator**: Parsing and computation\n- **Game of Life**: Cellular automaton rules\n\n**How to practice:**\n\n1. Solve the problem once to understand it\n2. Delete your solution\n3. Solve it again, trying a different approach\n4. Repeat, each time exploring new techniques, patterns, or constraints\n5. Try with TDD, without TDD, in different languages\n\n**The compound effect:**\n\nRegular kata practice—even 15-30 minutes daily—compounds into significant skill improvement. Developers who practice kata develop faster coding reflexes, broader technique repertoires, and deeper language familiarity.",
+    "tags": [
+        "programming",
+        "learning",
+        "skill-development",
+        "software-development",
+        "deliberate-practice"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Coding kata",
+        "Programming kata",
+        "Coding exercises"
+    ],
+    "relatedConcepts": [
+        "kata",
+        "deliberate-practice",
+        "test-driven-development",
+        "refactoring",
+        "clean-code"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Pragmatic Programmer by David Thomas and Andrew Hunt",
+            "url": "https://www.amazon.com/dp/0135957052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Kata (programming) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kata_(programming)",
+            "type": "website"
+        },
+        {
+            "title": "CodeKata.com",
+            "url": "http://codekata.com/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

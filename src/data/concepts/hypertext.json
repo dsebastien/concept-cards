@@ -1,0 +1,53 @@
+{
+    "id": "hypertext",
+    "name": "Hypertext",
+    "summary": "Non-linear text with embedded links allowing readers to navigate between interconnected documents.",
+    "explanation": "Hypertext is a method of organizing and presenting information where text contains links (hyperlinks) to other pieces of text or content. Unlike traditional linear text meant to be read sequentially, hypertext allows readers to navigate based on interest and association.\n\n**Origins and History**:\nThe term was coined by Ted Nelson in 1963, though the concept was envisioned earlier by Vannevar Bush in his 1945 essay \"As We May Think,\" where he described the \"memex\"—a hypothetical device for storing and linking information. Tim Berners-Lee later implemented hypertext in the World Wide Web.\n\n**Key Characteristics**:\n- **Non-linearity**: No single reading path; users choose their journey\n- **Interconnection**: Ideas link to related ideas, creating a web\n- **Reader agency**: The reader participates in constructing meaning\n- **Modularity**: Content exists as discrete, linkable units\n\n**Hypertext in PKM**:\nModern personal knowledge management is built on hypertext principles:\n- **Atomic notes**: Small, self-contained ideas that can be linked\n- **Bidirectional links**: Connections that work in both directions\n- **Emergence**: New insights emerge from following connections\n- **Personal web of knowledge**: Your notes become a hypertext system\n\n**Beyond Text**:\nThe concept has expanded to \"hypermedia,\" encompassing linked images, audio, video, and interactive content. Every time you click a link on the web, you're navigating hypertext.\n\n**Impact on Thinking**:\nHypertext mirrors associative thinking—how the mind naturally connects ideas. By structuring knowledge as hypertext, PKM systems support more natural and creative thinking patterns.",
+    "tags": [
+        "linking",
+        "information-architecture",
+        "writing",
+        "thinking",
+        "foundations"
+    ],
+    "category": "Concepts",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Hyperlinking",
+        "Hyperlink"
+    ],
+    "relatedConcepts": [
+        "wiki",
+        "bidirectional-linking",
+        "backlinks",
+        "linked-thinking",
+        "atomic-notes",
+        "digital-garden",
+        "link-rot",
+        "memex"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Literary Machines by Ted Nelson",
+            "url": "https://www.amazon.com/dp/0893470554?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Hypertext - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hypertext",
+            "type": "website"
+        },
+        {
+            "title": "As We May Think - Vannevar Bush",
+            "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}
