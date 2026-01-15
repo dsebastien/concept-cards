@@ -619,9 +619,11 @@ Skills are reusable instructions stored in `.claude/skills/` that help Claude pe
 
 **IMPORTANT**: When a skill exists that is relevant to the current task, it **MUST** be used. Available skills in this project:
 
-| Skill                | Location                             | Use When                                       |
-| -------------------- | ------------------------------------ | ---------------------------------------------- |
-| `fetch-public-notes` | `.claude/skills/fetch-public-notes/` | Extracting content from `notes.dsebastien.net` |
+| Skill                      | Location                                   | Use When                                                                                                 |
+| -------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| `manage-concepts-db`       | `.claude/skills/manage-concepts-db/`       | Adding, updating, verifying, or checking for duplicate concepts (MANDATORY before any concept operation) |
+| `fetch-public-notes`       | `.claude/skills/fetch-public-notes/`       | Extracting content from `notes.dsebastien.net`                                                           |
+| `add-wikipedia-references` | `.claude/skills/add-wikipedia-references/` | Adding Wikipedia references to concepts                                                                  |
 
 ### Creating New Skills
 
