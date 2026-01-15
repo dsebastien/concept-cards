@@ -1,0 +1,21 @@
+{
+    "id": "spear-phishing",
+    "name": "Spear Phishing",
+    "summary": "Targeted phishing attacks directed at specific individuals or organizations using personalized information.",
+    "explanation": "Spear phishing is a highly targeted form of phishing where attackers customize their approach for specific individuals or organizations. Unlike mass phishing campaigns that cast a wide net, spear phishing uses researched, personalized information to appear more credible and increase success rates.\n\nAttackers gather intelligence from social media, company websites, data breaches, and other sources to craft convincing messages. They might reference real colleagues, ongoing projects, recent events, or specific job responsibilities. This personalization makes the attack far more believable than generic phishing.\n\nCommon scenarios include: fake emails from a 'colleague' asking you to review a document, messages from 'IT support' requesting password verification, invoices from 'vendors' you actually work with, or requests from 'executives' for urgent wire transfers (when targeting finance departments, this becomes Business Email Compromise or BEC).\n\nDefense requires heightened vigilance: verify unexpected requests through a separate communication channel (call the person directly using a known number), be suspicious even when messages seem to come from known contacts, implement email authentication (DMARC, DKIM, SPF), and train employees to recognize personalized attacks. The more senior or privileged the target, the more attractive they are to attackers.",
+    "tags": ["cybersecurity", "security", "fraud", "attacks", "email"],
+    "category": "Concepts",
+    "icon": "FaCrosshairs",
+    "featured": false,
+    "aliases": ["Targeted Phishing", "Spearphishing"],
+    "relatedConcepts": ["phishing", "whaling", "social-engineering", "pretexting"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Spear phishing - Wikipedia", "url": "https://en.wikipedia.org/wiki/Phishing#Spear_phishing", "type": "website"}
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
+}

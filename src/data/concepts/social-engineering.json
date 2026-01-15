@@ -1,0 +1,23 @@
+{
+    "id": "social-engineering",
+    "name": "Social Engineering",
+    "summary": "Psychological manipulation of people into performing actions or divulging confidential information.",
+    "explanation": "Social engineering is the art of manipulating people so they give up confidential information or take actions that compromise security. Unlike technical hacking that exploits software vulnerabilities, social engineering exploits human psychology - our tendency to trust, help others, fear authority, or act quickly under pressure.\n\nCommon techniques include: phishing (fraudulent emails), pretexting (fabricated scenarios), baiting (offering something enticing), quid pro quo (offering a service in exchange for information), and tailgating (following authorized personnel into secure areas).\n\nSocial engineering works because humans are often the weakest link in security. We're wired to be helpful, to respect authority, to reciprocate favors, and to avoid conflict. Attackers exploit these natural tendencies. A well-crafted social engineering attack can bypass the most sophisticated technical security measures.\n\nDefense requires awareness and skepticism: verify identities through independent channels, be suspicious of unsolicited requests for information, don't click links or attachments from unknown sources, and remember that legitimate organizations won't ask for sensitive information via email or phone. Organizations should implement security awareness training and establish clear verification procedures for sensitive requests.",
+    "tags": ["cybersecurity", "security", "manipulation", "psychology", "attacks"],
+    "category": "Concepts",
+    "icon": "FaUserSecret",
+    "featured": false,
+    "aliases": ["Social Hacking", "Human Hacking"],
+    "relatedConcepts": ["phishing", "pretexting", "vishing", "smishing", "quishing", "spear-phishing", "whaling"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Social engineering (security) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Social_engineering_(security)", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "The Art of Deception by Kevin Mitnick", "url": "https://www.amazon.com/dp/076454280X?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
+}

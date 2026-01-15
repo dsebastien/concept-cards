@@ -1,0 +1,21 @@
+{
+    "id": "quishing",
+    "name": "Quishing",
+    "summary": "QR code phishing - using malicious QR codes to redirect victims to phishing websites or trigger harmful actions.",
+    "explanation": "Quishing (QR code phishing) is a social engineering attack that uses QR codes to direct victims to malicious websites or trigger harmful actions on their devices. As QR codes became ubiquitous during the COVID-19 pandemic (menus, payments, check-ins), attackers found a new attack vector that exploits user trust and bypasses traditional email security filters.\n\nQR codes are particularly dangerous because: users can't preview the destination URL before scanning, the codes can be easily placed over legitimate ones (stickers on parking meters, restaurant tables, or posters), mobile devices often auto-open URLs, and people have been conditioned to scan QR codes without question.\n\nCommon quishing scenarios: fake parking payment QR codes that steal credit card information, malicious codes in phishing emails (bypassing link scanners), compromised codes on restaurant menus or advertisements, fake package delivery notices with QR codes, and QR codes leading to credential harvesting sites disguised as login pages.\n\nDefense strategies: use a QR scanner that previews URLs before opening, verify the physical QR code hasn't been tampered with (look for stickers placed over original codes), be suspicious of QR codes in unexpected places or unsolicited communications, manually type known URLs rather than scanning codes for sensitive sites, and treat QR codes with the same skepticism as unknown links.",
+    "tags": ["cybersecurity", "security", "fraud", "attacks", "mobile"],
+    "category": "Concepts",
+    "icon": "FaQrcode",
+    "featured": false,
+    "aliases": ["QR Code Phishing", "QR Phishing"],
+    "relatedConcepts": ["phishing", "smishing", "social-engineering"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "QR code phishing - Wikipedia", "url": "https://en.wikipedia.org/wiki/QR_code#Security", "type": "website"}
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
+}

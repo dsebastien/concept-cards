@@ -1,0 +1,46 @@
+{
+    "id": "purpose-limitation",
+    "name": "Purpose Limitation",
+    "summary": "The principle that personal data should only be collected for specified, explicit purposes and not processed in ways incompatible with those purposes.",
+    "explanation": "Purpose limitation is a foundational data protection principle requiring that personal data be collected only for specified, explicit, and legitimate purposes, and not further processed in a manner incompatible with those original purposes. It's one of the seven key principles of GDPR and appears in privacy frameworks worldwide.\n\nCore requirements:\n\n1) Specification - purposes must be determined before collection, not decided later\n2) Explicitness - purposes must be clearly articulated, not vague or open-ended\n3) Legitimacy - purposes must have a valid legal basis\n4) Compatibility - any new uses must align with original purposes\n\nAssessing compatibility for new purposes:\n- Link between original and proposed purposes\n- Context and relationship with individuals\n- Nature of the data (sensitive data = stricter limits)\n- Consequences for individuals\n- Existence of appropriate safeguards\n\nExamples of purpose limitation in practice:\n- Customer data collected for order fulfillment shouldn't be used for unrelated marketing without consent\n- Employee data for payroll shouldn't be shared with third parties for credit scoring\n- Health data collected for treatment shouldn't be sold to advertisers\n\nExceptions exist for archiving in public interest, scientific/historical research, and statistical purposes, provided appropriate safeguards are in place.\n\nBenefits: prevents function creep and mission creep with data, maintains trust with individuals, limits exposure in case of breaches, and forces organizations to think carefully about why they need data.\n\nImplementation: document purposes at collection time, review before new uses, implement technical controls limiting access by purpose, and train staff on purpose boundaries.",
+    "tags": [
+        "privacy",
+        "data-protection",
+        "principles",
+        "compliance",
+        "ethics"
+    ],
+    "category": "Principles",
+    "icon": "FaBullseye",
+    "featured": false,
+    "aliases": [
+        "Purpose Specification",
+        "Use Limitation",
+        "Purpose Binding"
+    ],
+    "relatedConcepts": [
+        "gdpr",
+        "data-minimization",
+        "informed-consent",
+        "accountability-principle",
+        "personal-data"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Purpose limitation - GDPR.eu",
+            "url": "https://gdpr.eu/article-5-how-to-process-personal-data/",
+            "type": "website"
+        },
+        {
+            "title": "Information privacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_privacy",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

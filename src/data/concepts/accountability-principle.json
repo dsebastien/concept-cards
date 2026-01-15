@@ -1,0 +1,47 @@
+{
+    "id": "accountability-principle",
+    "name": "Accountability Principle",
+    "summary": "The requirement that organizations not only comply with data protection rules but must also demonstrate their compliance through documentation and evidence.",
+    "explanation": "The accountability principle is a cornerstone of modern data protection law that requires organizations to not only comply with privacy regulations but to actively demonstrate that compliance. It shifts the burden of proof from regulators to organizations, requiring proactive documentation and evidence of compliance measures.\n\nUnder GDPR, accountability means:\n\n1) Being responsible - taking ownership of data protection compliance\n2) Being able to demonstrate compliance - maintaining evidence and documentation\n3) Implementing appropriate measures - technical and organizational safeguards\n4) Embedding compliance - integrating data protection into operations\n\nKey accountability measures:\n- Maintaining records of processing activities\n- Implementing data protection policies\n- Conducting Data Protection Impact Assessments\n- Appointing Data Protection Officers where required\n- Ensuring processor contracts include required terms\n- Training staff on data protection\n- Implementing privacy by design and default\n- Maintaining breach response procedures\n- Regular compliance audits and reviews\n\nDocumentation requirements:\n- Processing activity records (what data, why, how, who)\n- Legal basis assessments for each processing activity\n- Consent records (when, how, what was consented to)\n- DPIA reports for high-risk processing\n- Data subject rights request logs and responses\n- Breach incident records\n- Policy documents and training records\n- Processor agreements and due diligence\n\nBenefits beyond compliance: forces systematic thinking about privacy, creates institutional memory, supports consistent decision-making, provides evidence for disputes, and builds trust with stakeholders.\n\nImplementation approach: don't just have policies - document how they're followed. Don't just train people - record the training. Don't just respond to rights requests - maintain an audit trail. The goal is demonstrable compliance, not just claimed compliance.",
+    "tags": [
+        "privacy",
+        "compliance",
+        "data-protection",
+        "governance",
+        "principles",
+        "documentation"
+    ],
+    "category": "Principles",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Accountability",
+        "Demonstrable Compliance",
+        "Privacy Accountability"
+    ],
+    "relatedConcepts": [
+        "gdpr",
+        "data-controller",
+        "data-protection-impact-assessment",
+        "privacy-by-design",
+        "transparency"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Accountability principle - ICO",
+            "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/",
+            "type": "website"
+        },
+        {
+            "title": "GDPR Article 5 - Principles",
+            "url": "https://gdpr-info.eu/art-5-gdpr/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

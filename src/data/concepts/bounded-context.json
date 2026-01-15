@@ -1,0 +1,54 @@
+{
+    "id": "bounded-context",
+    "name": "Bounded Context",
+    "summary": "A central pattern in Domain-Driven Design that defines explicit boundaries within which a domain model is defined and applicable.",
+    "explanation": "A Bounded Context is a strategic Domain-Driven Design pattern that establishes clear boundaries within which a specific domain model applies. Within these boundaries, all terms, definitions, and rules are consistent and unambiguous—the 'ubiquitous language' of that context. Key concepts: (1) Explicit boundaries - the context has well-defined edges where the model's applicability ends, (2) Ubiquitous language - within the boundary, everyone uses the same terminology with the same meaning, (3) Model integrity - the domain model remains consistent and cohesive within its context, (4) Independent evolution - each context can evolve separately. The same real-world concept may have different representations in different bounded contexts. For example, 'Customer' in a Sales context focuses on purchasing behavior, while in a Support context it emphasizes service history. Neither model is wrong; they serve different purposes. Context relationships are defined through Context Mapping, which includes patterns like: Shared Kernel (shared subset of the model), Customer-Supplier (upstream/downstream relationship), Conformist (downstream adopts upstream model), Anti-Corruption Layer (translation layer between contexts), Open Host Service (well-defined API for integration), and Published Language (shared communication format). Bounded Contexts naturally map to organizational structures (Conway's Law) and are foundational for microservices decomposition—each microservice often corresponds to one bounded context. This alignment between domain boundaries, team boundaries, and service boundaries enables autonomous development and deployment.",
+    "tags": [
+        "architecture",
+        "software-engineering",
+        "domain-driven-design",
+        "software-design",
+        "patterns",
+        "modeling"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "BC",
+        "Context Boundary"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "microservices-architecture",
+        "modulith",
+        "conways-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        },
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Bounded Context - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/BoundedContext.html",
+            "type": "website"
+        },
+        {
+            "title": "Domain-driven design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Domain-driven_design#Bounded_context",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

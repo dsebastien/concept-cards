@@ -1,0 +1,58 @@
+{
+    "id": "microservices-architecture",
+    "name": "Microservices Architecture",
+    "summary": "A distributed architecture style that structures an application as a collection of small, autonomous services organized around business capabilities.",
+    "explanation": "Microservices architecture is a design approach where an application is composed of many small, independent services that communicate over a network. Each service is self-contained, owns its data, and can be developed, deployed, and scaled independently. Key characteristics include: (1) Single responsibility - each service focuses on one business capability, (2) Autonomous deployment - services can be updated without affecting others, (3) Decentralized data management - each service manages its own database, (4) Technology diversity - services can use different languages and frameworks, (5) Designed for failure - services handle faults gracefully. Benefits include: independent scaling of services based on demand, faster development cycles with smaller codebases, team autonomy and parallel development, technology flexibility, and fault isolation. However, microservices introduce significant complexity: (1) Network latency and reliability concerns, (2) Distributed system challenges (consistency, transactions), (3) Operational overhead (monitoring, logging, deployment), (4) Service discovery and load balancing, (5) Testing complexity across service boundaries, (6) Data consistency across services. Supporting patterns include: API Gateway for unified entry points, Circuit Breaker for fault tolerance, Saga pattern for distributed transactions, Event Sourcing for state management, and Service Mesh for communication. Microservices are best suited for large, complex applications with clear domain boundaries, multiple development teams, and requirements for independent scaling. Organizations should typically start with a monolith or modulith and migrate to microservices only when the complexity is justified by actual needs.",
+    "tags": [
+        "architecture",
+        "software-engineering",
+        "software-design",
+        "distributed-systems",
+        "patterns",
+        "scalability"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Microservices",
+        "MSA",
+        "Microservice Architecture"
+    ],
+    "relatedConcepts": [
+        "monolithic-architecture",
+        "modulith",
+        "service-oriented-architecture",
+        "domain-driven-design",
+        "bounded-context",
+        "distributed-systems",
+        "cap-theorem"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Building Microservices by Sam Newman",
+            "url": "https://www.amazon.com/dp/1492034029?tag=dsebastien00-20"
+        },
+        {
+            "title": "Microservices Patterns by Chris Richardson",
+            "url": "https://www.amazon.com/dp/1617294543?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Microservices - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Microservices",
+            "type": "website"
+        },
+        {
+            "title": "Microservices by Martin Fowler",
+            "url": "https://martinfowler.com/articles/microservices.html",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

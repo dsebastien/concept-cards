@@ -1,0 +1,21 @@
+{
+    "id": "phishing",
+    "name": "Phishing",
+    "summary": "Fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity in electronic communications.",
+    "explanation": "Phishing is a type of social engineering attack where criminals send fraudulent messages designed to trick victims into revealing sensitive information like passwords, credit card numbers, or personal data. The term comes from 'fishing' - attackers cast a wide net hoping someone will take the bait.\n\nTypical phishing attacks use email, but the technique has evolved into specialized variants: vishing (voice/phone), smishing (SMS/text), and quishing (QR codes). More targeted attacks include spear phishing (aimed at specific individuals) and whaling (targeting executives).\n\nPhishing messages often create urgency ('Your account will be suspended!'), impersonate trusted entities (banks, tech companies, government agencies), and contain links to fake websites that look legitimate. Red flags include: generic greetings, spelling/grammar errors, mismatched URLs, requests for sensitive information, and suspicious attachments.\n\nProtection strategies: verify sender identity independently, hover over links before clicking, enable multi-factor authentication, use password managers (they won't auto-fill on fake sites), keep software updated, and report phishing attempts. Remember: legitimate organizations never ask for passwords or sensitive data via email.",
+    "tags": ["cybersecurity", "security", "fraud", "attacks", "email"],
+    "category": "Concepts",
+    "icon": "FaFish",
+    "featured": false,
+    "aliases": ["Phishing Attack", "Email Phishing"],
+    "relatedConcepts": ["social-engineering", "spear-phishing", "whaling", "vishing", "smishing", "quishing", "pretexting"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Phishing - Wikipedia", "url": "https://en.wikipedia.org/wiki/Phishing", "type": "website"}
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
+}

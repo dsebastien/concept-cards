@@ -1,0 +1,46 @@
+{
+    "id": "data-processor",
+    "name": "Data Processor",
+    "summary": "An entity that processes personal data on behalf of and under the instructions of a data controller.",
+    "explanation": "A data processor is a natural or legal person, public authority, agency, or other body that processes personal data on behalf of the data controller. Unlike controllers who decide why and how data is processed, processors act under the controller's instructions.\n\nKey characteristics of a data processor:\n\n1) Acts under authority - processes data only as instructed by the controller\n2) No independent decision-making - doesn't determine purposes of processing\n3) Contractual relationship - must have a data processing agreement with controller\n4) Direct obligations - GDPR imposes specific duties directly on processors\n\nProcessor obligations include:\n- Process data only on documented controller instructions\n- Ensure personnel are bound by confidentiality\n- Implement appropriate security measures\n- Engage sub-processors only with controller authorization\n- Assist controller with data subject rights and compliance obligations\n- Delete or return data after services end\n- Make available information demonstrating compliance\n- Notify controller of data breaches without undue delay\n\nCommon examples of data processors:\n- Cloud service providers (AWS, Azure, Google Cloud)\n- Payroll processing companies\n- Email marketing platforms\n- Customer support outsourcing firms\n- Data analytics providers\n- Backup and disaster recovery services\n\nProcessor vs. Controller determination:\nIf an entity starts making its own decisions about purposes or essential means of processing, it may become a controller (or joint controller) with associated responsibilities.\n\nData Processing Agreements (DPAs) must include: subject matter and duration, nature and purpose, data types, data subject categories, controller obligations and rights, and requirements for sub-processing.\n\nLiability: Processors can be directly fined for their own violations and may be liable for damages if they acted outside controller instructions or failed to meet processor-specific obligations.",
+    "tags": [
+        "privacy",
+        "data-protection",
+        "compliance",
+        "outsourcing",
+        "regulations"
+    ],
+    "category": "Concepts",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Processor",
+        "Data Processing Entity",
+        "Third-Party Processor"
+    ],
+    "relatedConcepts": [
+        "gdpr",
+        "data-controller",
+        "accountability-principle",
+        "personal-data",
+        "data-protection-impact-assessment"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Data processor - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_processor",
+            "type": "website"
+        },
+        {
+            "title": "GDPR Article 28 - Processor",
+            "url": "https://gdpr-info.eu/art-28-gdpr/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

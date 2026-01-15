@@ -1,0 +1,51 @@
+{
+    "id": "modulith",
+    "name": "Modulith",
+    "summary": "A modular monolith architecture that combines the simplicity of monoliths with the organizational benefits of microservices.",
+    "explanation": "A modulith (modular monolith) is an architectural pattern that structures a monolithic application into well-defined, loosely coupled modules while maintaining a single deployment unit. It represents a middle ground between traditional monoliths and microservices, offering many organizational benefits without the operational complexity of distributed systems. Key characteristics include: (1) Clear module boundaries with explicit public interfaces, (2) Modules communicate through well-defined APIs (not direct database access), (3) Each module owns its data and domain logic, (4) Single deployment artifact and shared infrastructure, (5) Modules can be developed by separate teams. Design principles: modules should align with business domains (often using Domain-Driven Design's Bounded Contexts), dependencies between modules should be explicit and minimized, and each module should be independently testable. Advantages over traditional monoliths: better code organization, clearer ownership boundaries, easier refactoring, and a clear migration path to microservices if needed. Advantages over microservices: simpler deployment and operations, no network latency between modules, easier debugging and tracing, simpler transactions, and lower infrastructure costs. The modulith pattern is particularly valuable when: (1) Starting a new project where microservices would be premature, (2) The team is small but expects growth, (3) Domain boundaries are still being discovered, (4) Operational complexity of microservices is not justified. Popular frameworks supporting moduliths include Spring Modulith for Java and similar patterns in other ecosystems.",
+    "tags": [
+        "architecture",
+        "software-engineering",
+        "software-design",
+        "systems",
+        "patterns",
+        "modularity"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Modular Monolith",
+        "Structured Monolith"
+    ],
+    "relatedConcepts": [
+        "monolithic-architecture",
+        "microservices-architecture",
+        "domain-driven-design",
+        "bounded-context",
+        "service-oriented-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Monolith to Microservices by Sam Newman",
+            "url": "https://www.amazon.com/dp/1492047848?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Modular monolith - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Modular_monolith",
+            "type": "website"
+        },
+        {
+            "title": "Spring Modulith",
+            "url": "https://spring.io/projects/spring-modulith",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

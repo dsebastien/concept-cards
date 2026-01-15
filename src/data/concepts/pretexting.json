@@ -1,0 +1,23 @@
+{
+    "id": "pretexting",
+    "name": "Pretexting",
+    "summary": "Creating a fabricated scenario or false identity to manipulate victims into providing information or access.",
+    "explanation": "Pretexting is a social engineering technique where an attacker creates a fabricated scenario (the 'pretext') to engage a victim and manipulate them into providing information or performing actions they wouldn't normally do. Unlike phishing which often uses generic lures, pretexting involves building a believable story and often a fake identity.\n\nThe pretext might involve impersonating: IT support needing to verify credentials, a vendor confirming order details, a researcher conducting a survey, a new employee needing help, a bank representative investigating fraud, or even a fellow employee from another department. The key is creating a plausible context that justifies the request.\n\nPretexting often involves multiple interactions to build trust before making the actual request. Attackers research their targets and organizations thoroughly, using information from social media, company websites, and previous conversations to make their story convincing. They exploit human tendencies to be helpful, respect authority, and avoid confrontation.\n\nDefense requires verification procedures: always confirm identities through independent channels (call back on official numbers), be suspicious of unsolicited contacts requesting information, establish code words or verification questions for sensitive requests, train employees to recognize pretexting attempts, and create a culture where it's acceptable to verify requests without fear of offending.",
+    "tags": ["cybersecurity", "security", "manipulation", "psychology", "attacks"],
+    "category": "Concepts",
+    "icon": "FaTheaterMasks",
+    "featured": false,
+    "aliases": ["Pretext Attack", "Pretexting Attack"],
+    "relatedConcepts": ["social-engineering", "phishing", "vishing", "spear-phishing"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Pretexting - Wikipedia", "url": "https://en.wikipedia.org/wiki/Pretexting", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "The Art of Deception by Kevin Mitnick", "url": "https://www.amazon.com/dp/076454280X?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "data-controller",
+    "name": "Data Controller",
+    "summary": "The entity that determines the purposes and means of processing personal data, bearing primary responsibility for data protection compliance.",
+    "explanation": "A data controller is the natural or legal person, public authority, agency, or other body that determines the purposes and means of processing personal data. Under GDPR and similar regulations, the controller bears primary responsibility for ensuring data protection compliance.\n\nKey characteristics of a data controller:\n\n1) Decision-making authority - determines WHY data is processed (purposes) and HOW (means)\n2) Primary accountability - legally responsible for compliance with data protection laws\n3) Can be individual or organization - companies, government agencies, nonprofits, or individuals\n4) May act alone or jointly - joint controllers share responsibilities\n\nController responsibilities include:\n- Ensuring lawful basis for processing\n- Implementing appropriate technical and organizational security measures\n- Responding to data subject rights requests\n- Maintaining records of processing activities\n- Conducting Data Protection Impact Assessments when required\n- Reporting data breaches to authorities within 72 hours\n- Ensuring processor compliance through contracts\n- Appointing a Data Protection Officer when required\n\nController vs. Processor distinction:\n- Controller: decides purposes and essential means\n- Processor: acts on controller's instructions\n- The same entity can be controller for some processing and processor for other processing\n\nJoint controllers: when two or more entities jointly determine purposes and means, they must transparently allocate responsibilities through an arrangement.\n\nExamples: An employer is controller for employee data. A hospital is controller for patient records. A SaaS company is controller for its own customer data but may be processor for data its customers upload.\n\nLiability: Controllers can face significant fines for non-compliance (up to 4% of global turnover under GDPR) and may be liable for damages to affected individuals.",
+    "tags": [
+        "privacy",
+        "data-protection",
+        "compliance",
+        "accountability",
+        "regulations"
+    ],
+    "category": "Concepts",
+    "icon": "FaUserShield",
+    "featured": false,
+    "aliases": [
+        "Data Owner",
+        "Data Custodian",
+        "Controller"
+    ],
+    "relatedConcepts": [
+        "gdpr",
+        "data-processor",
+        "accountability-principle",
+        "data-protection-impact-assessment",
+        "personal-data"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Data controller - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_controller",
+            "type": "website"
+        },
+        {
+            "title": "GDPR Article 4 - Definitions",
+            "url": "https://gdpr-info.eu/art-4-gdpr/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

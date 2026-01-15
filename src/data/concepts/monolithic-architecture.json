@@ -1,0 +1,51 @@
+{
+    "id": "monolithic-architecture",
+    "name": "Monolithic Architecture",
+    "summary": "A software architecture pattern where an entire application is built as a single, unified unit.",
+    "explanation": "Monolithic architecture is a traditional software design approach where all components of an application—user interface, business logic, and data access—are combined into a single, indivisible unit. The entire application is developed, deployed, and scaled as one cohesive package. Key characteristics include: (1) Single codebase containing all functionality, (2) Shared memory and resources between components, (3) Single deployment artifact, (4) Tight coupling between modules. Advantages include simplicity in development and debugging, easier testing with everything in one place, better performance for internal communication (no network overhead), and straightforward deployment. However, monoliths face challenges as they grow: (1) Scaling requires duplicating the entire application, (2) A bug in one module can bring down the whole system, (3) Technology stack is typically uniform across the application, (4) Large codebases become difficult to understand and modify, (5) Longer build and deployment times. Monoliths work well for small to medium applications, startups exploring product-market fit, or when the domain is not well understood. The 'Monolith First' approach suggests starting with a monolith and extracting services only when genuine need arises, avoiding premature optimization.",
+    "tags": [
+        "architecture",
+        "software-engineering",
+        "software-design",
+        "systems",
+        "patterns"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Monolith",
+        "Monolithic Application",
+        "Single-Tier Architecture"
+    ],
+    "relatedConcepts": [
+        "modulith",
+        "microservices-architecture",
+        "service-oriented-architecture",
+        "domain-driven-design",
+        "distributed-systems"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Monolith to Microservices by Sam Newman",
+            "url": "https://www.amazon.com/dp/1492047848?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Monolithic application - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Monolithic_application",
+            "type": "website"
+        },
+        {
+            "title": "MonolithFirst by Martin Fowler",
+            "url": "https://martinfowler.com/bliki/MonolithFirst.html",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

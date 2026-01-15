@@ -1,0 +1,52 @@
+{
+    "id": "conways-law",
+    "name": "Conway's Law",
+    "summary": "Organizations design systems that mirror their own communication structures.",
+    "explanation": "Conway's Law, articulated by computer programmer Melvin Conway in 1967, states that 'organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.' This observation has profound implications for software architecture. If four teams work on a compiler, you'll get a four-pass compiler. If teams don't communicate, their systems won't integrate smoothly. The law works bidirectionally: organizational structure shapes system architecture, but you can also use desired architecture to inform organizational design (the 'Inverse Conway Maneuver' or 'Reverse Conway Maneuver'). Key implications: (1) Team boundaries become system boundaries, (2) Inter-team communication overhead creates system integration complexity, (3) Isolated teams produce isolated components, (4) Cross-functional teams produce more integrated solutions. In practice: microservices work best when teams are organized around services (one team per service), monoliths often reflect organizations with high cross-team communication, and modular monoliths work well with teams that have clear domain ownership but shared deployment. The law explains why reorganizations often precede architecture changes and why 'architecture astronauts' who design systems ignoring organizational reality often fail. Modern approaches like Team Topologies explicitly use Conway's Law, designing team structures to produce desired architectural outcomes. Understanding this law is essential for technical leaders making architectural decisions—the best architecture is one that your organization can actually build and maintain.",
+    "tags": [
+        "architecture",
+        "software-engineering",
+        "organizational-design",
+        "teams",
+        "systems",
+        "laws"
+    ],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Conway Law",
+        "Inverse Conway Maneuver",
+        "Reverse Conway Maneuver"
+    ],
+    "relatedConcepts": [
+        "microservices-architecture",
+        "modulith",
+        "bounded-context",
+        "domain-driven-design",
+        "team-dynamics"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Team Topologies by Matthew Skelton & Manuel Pais",
+            "url": "https://www.amazon.com/dp/1942788819?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Conway's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Conway%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "How Do Committees Invent? by Melvin Conway",
+            "url": "https://www.melconway.com/Home/Committees_Paper.html",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

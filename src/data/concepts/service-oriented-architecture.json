@@ -1,0 +1,50 @@
+{
+    "id": "service-oriented-architecture",
+    "name": "Service-Oriented Architecture",
+    "summary": "An architectural style that organizes software as a collection of interoperable services that communicate through standardized interfaces.",
+    "explanation": "Service-Oriented Architecture (SOA) is an enterprise architecture pattern where applications are composed of discrete, reusable services that communicate over a network. Emerging in the late 1990s and early 2000s, SOA aimed to address enterprise integration challenges by promoting loose coupling and service reusability. Key principles include: (1) Service contract - services expose a formal interface defining their capabilities, (2) Loose coupling - services minimize dependencies on each other, (3) Abstraction - services hide implementation details, (4) Reusability - services are designed for multiple consumers, (5) Autonomy - services control their own logic and resources, (6) Statelessness - services minimize state retention, (7) Discoverability - services can be found via registries, (8) Composability - services can be combined to create higher-level services. SOA typically relies on: Enterprise Service Bus (ESB) for message routing and transformation, Web Services standards (SOAP, WSDL, WS-*), service registries for discovery, and orchestration engines for workflow coordination. While SOA shares goals with microservices (modularity, reusability, loose coupling), they differ in scope and implementation: SOA focuses on enterprise integration with heavyweight protocols and centralized governance, while microservices emphasize lightweight communication (REST, messaging) and decentralized governance. SOA's complexity and the overhead of ESBs led many organizations to adopt simpler microservices patterns, though SOA principles remain influential in enterprise architecture.",
+    "tags": [
+        "architecture",
+        "software-engineering",
+        "enterprise",
+        "integration",
+        "patterns",
+        "software-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "SOA"
+    ],
+    "relatedConcepts": [
+        "microservices-architecture",
+        "monolithic-architecture",
+        "modulith",
+        "distributed-systems",
+        "domain-driven-design"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "SOA Principles of Service Design by Thomas Erl",
+            "url": "https://www.amazon.com/dp/0132344823?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Service-oriented architecture - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Service-oriented_architecture",
+            "type": "website"
+        },
+        {
+            "title": "Enterprise Service Bus - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Enterprise_service_bus",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

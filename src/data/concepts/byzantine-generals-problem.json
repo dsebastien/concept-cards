@@ -1,0 +1,46 @@
+{
+    "id": "byzantine-generals-problem",
+    "name": "Byzantine Generals Problem",
+    "summary": "A fundamental problem in distributed computing about achieving consensus among distributed components when some may be faulty or malicious, named after a metaphor involving generals coordinating an attack.",
+    "explanation": "The Byzantine Generals Problem is a classic problem in distributed computing that addresses the challenge of achieving reliable consensus among distributed components when some of those components may fail or behave maliciously. First formally described by Leslie Lamport, Robert Shostak, and Marshall Pease in their 1982 paper, the problem uses a military metaphor to illustrate the difficulties of coordination in unreliable systems.\n\nThe metaphor describes several divisions of the Byzantine army camped outside an enemy city, each commanded by a general. The generals can communicate only by messenger and must agree on a common battle plan - either to attack or retreat. The challenge is that some generals may be traitors who will try to prevent loyal generals from reaching agreement. The problem asks: how can the loyal generals reach consensus despite the presence of traitors who may send conflicting messages?\n\nThe problem captures essential challenges in distributed systems: components may fail, communication may be unreliable, and some nodes may behave arbitrarily (including maliciously). Unlike simple crash failures where a component simply stops working, Byzantine failures involve components that may send contradictory information to different parts of the system, making them much harder to handle.\n\nLamport and colleagues proved that achieving Byzantine fault tolerance requires at least 3f+1 total nodes to tolerate f Byzantine (faulty or malicious) nodes. This means that to handle even one traitor general, you need at least four generals total. They also showed that with only oral messages (which can be forged), the problem is unsolvable unless more than two-thirds of the generals are loyal.\n\nSolutions to the Byzantine Generals Problem form the foundation of Byzantine Fault Tolerant (BFT) systems. Practical Byzantine Fault Tolerance (PBFT), developed by Miguel Castro and Barbara Liskov in 1999, provided an efficient algorithm that made BFT practical for real systems. The algorithm uses multiple rounds of message exchange to allow honest nodes to identify and ignore faulty ones.\n\nThe Byzantine Generals Problem gained renewed importance with the rise of blockchain technology and cryptocurrencies. Bitcoin's Proof of Work consensus mechanism and subsequent Proof of Stake systems are essentially solutions to achieving consensus in networks where participants cannot be trusted. These systems allow thousands of unknown, potentially adversarial nodes to agree on a single version of a distributed ledger.\n\nUnderstanding Byzantine fault tolerance is crucial for designing reliable distributed systems, from database replication to financial systems to blockchain networks. The problem illustrates fundamental limits on distributed consensus and informs the design of systems that must operate correctly even when some components fail or act maliciously.",
+    "tags": [
+        "distributed-systems",
+        "computer-science",
+        "consensus",
+        "fault-tolerance",
+        "blockchain",
+        "algorithms"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Byzantine Fault Tolerance",
+        "BFT",
+        "Byzantine Agreement"
+    ],
+    "relatedConcepts": [
+        "fault-tolerance",
+        "consensus-algorithms"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/31+Fleeting+notes/Byzantine+failures"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Byzantine Fault - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Byzantine_fault",
+            "type": "website"
+        },
+        {
+            "title": "The Byzantine Generals Problem (1982) - Lamport, Shostak, Pease",
+            "url": "https://lamport.azurewebsites.net/pubs/byz.pdf",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

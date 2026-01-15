@@ -1,0 +1,48 @@
+{
+    "id": "data-protection-impact-assessment",
+    "name": "Data Protection Impact Assessment",
+    "summary": "A systematic process to identify and minimize data protection risks of a project or system before it is implemented.",
+    "explanation": "A Data Protection Impact Assessment (DPIA) is a structured analysis used to identify, assess, and mitigate privacy risks associated with data processing activities. Required under GDPR for high-risk processing, DPIAs help organizations proactively address privacy concerns before problems occur.\n\nWhen a DPIA is required:\n- Systematic and extensive profiling with significant effects\n- Large-scale processing of special category data (health, biometrics, etc.)\n- Systematic monitoring of publicly accessible areas\n- Using new technologies that may pose high risks\n- Any processing likely to result in high risk to individuals' rights\n\nKey components of a DPIA:\n\n1) Description of processing - what data, why, how, and who is involved\n2) Necessity assessment - is this processing truly needed for the purpose?\n3) Risk identification - what could go wrong for individuals?\n4) Risk evaluation - how likely and severe are these risks?\n5) Mitigation measures - how will risks be addressed?\n6) Documentation - record the assessment and decisions\n7) Review process - when and how will the DPIA be revisited?\n\nBenefits beyond compliance: DPIAs force careful thinking about privacy early in projects, often reveal design improvements, build stakeholder trust, and create useful documentation for demonstrating accountability.\n\nBest practices: involve multiple perspectives (legal, technical, business), consult data protection officers early, consider consulting affected individuals, and integrate DPIAs into project management workflows.\n\nA DPIA is not a one-time activity - it should be reviewed when processing changes significantly or when new risks emerge.",
+    "tags": [
+        "privacy",
+        "compliance",
+        "risk-management",
+        "data-protection",
+        "assessments",
+        "processes"
+    ],
+    "category": "Methods",
+    "icon": "FaClipboardCheck",
+    "featured": false,
+    "aliases": [
+        "DPIA",
+        "Privacy Impact Assessment",
+        "PIA",
+        "Data Privacy Impact Assessment"
+    ],
+    "relatedConcepts": [
+        "gdpr",
+        "privacy-by-design",
+        "risk-assessment",
+        "data-controller",
+        "accountability-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Data Protection Impact Assessment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_protection_impact_assessment",
+            "type": "website"
+        },
+        {
+            "title": "GDPR Article 35 - Data protection impact assessment",
+            "url": "https://gdpr-info.eu/art-35-gdpr/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

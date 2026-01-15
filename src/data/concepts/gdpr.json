@@ -1,0 +1,53 @@
+{
+    "id": "gdpr",
+    "name": "GDPR",
+    "summary": "The European Union's comprehensive data protection regulation that sets strict rules for how organizations collect, store, and process personal data.",
+    "explanation": "The General Data Protection Regulation (GDPR) is a comprehensive privacy law enacted by the European Union in 2018 that governs how organizations worldwide must handle the personal data of EU residents. It represents the most significant change to data privacy regulation in decades and has become a global benchmark for privacy legislation.\n\nKey principles of GDPR:\n\n1) Lawfulness, fairness, and transparency - data must be processed legally and openly\n2) Purpose limitation - data collected for specific, explicit purposes only\n3) Data minimization - collect only what's necessary\n4) Accuracy - keep data correct and up to date\n5) Storage limitation - don't keep data longer than needed\n6) Integrity and confidentiality - protect data with appropriate security\n7) Accountability - organizations must demonstrate compliance\n\nIndividual rights under GDPR include: the right to access your data, the right to rectification, the right to erasure (right to be forgotten), the right to data portability, and the right to object to processing.\n\nOrganizations must: obtain valid consent before processing personal data, appoint Data Protection Officers where required, report data breaches within 72 hours, and conduct Data Protection Impact Assessments for high-risk processing.\n\nNon-compliance can result in fines up to 20 million euros or 4% of global annual turnover, whichever is higher. GDPR applies to any organization processing EU residents' data, regardless of where the organization is located.\n\nThe regulation has influenced privacy laws worldwide, including California's CCPA, Brazil's LGPD, and similar legislation across many countries.",
+    "tags": [
+        "privacy",
+        "regulations",
+        "data-protection",
+        "compliance",
+        "european-union",
+        "laws"
+    ],
+    "category": "Principles",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "General Data Protection Regulation",
+        "EU Data Protection Regulation",
+        "European Privacy Law"
+    ],
+    "relatedConcepts": [
+        "privacy-by-design",
+        "data-minimization",
+        "right-to-be-forgotten",
+        "personal-data",
+        "data-portability",
+        "informed-consent",
+        "purpose-limitation",
+        "data-controller",
+        "data-processor",
+        "data-protection-impact-assessment",
+        "accountability-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "General Data Protection Regulation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
+            "type": "website"
+        },
+        {
+            "title": "Official GDPR Text",
+            "url": "https://gdpr-info.eu/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "distributed-systems",
+    "name": "Distributed Systems",
+    "summary": "Computing systems composed of multiple independent components located on different networked computers that coordinate to achieve a common goal.",
+    "explanation": "A distributed system is a collection of autonomous computing elements that appears to users as a single coherent system. Components communicate and coordinate through message passing over a network, working together to accomplish tasks that no single computer could handle alone. Core characteristics include: (1) Concurrency - multiple components execute simultaneously, (2) No global clock - components must coordinate without shared time reference, (3) Independent failures - components can fail independently, (4) Heterogeneity - components may use different hardware, operating systems, and languages. Fundamental challenges include: Network Partitions (components becoming unreachable), Latency (communication delays), Consistency (keeping data synchronized), Ordering (determining event sequences without global clock), and Fault Tolerance (handling component failures gracefully). Key theoretical foundations: CAP Theorem (you can only guarantee two of: Consistency, Availability, Partition tolerance), Byzantine Fault Tolerance (handling malicious nodes), Consensus protocols (Paxos, Raft) for agreement. Common patterns: Replication (copies of data for availability), Sharding/Partitioning (dividing data across nodes), Load Balancing (distributing work), Circuit Breaker (preventing cascade failures), Eventual Consistency (accepting temporary inconsistency for availability). Types include: client-server, peer-to-peer, cluster computing, and cloud computing. Distributed systems power modern infrastructure: databases (Cassandra, CockroachDB), messaging (Kafka), caches (Redis Cluster), container orchestration (Kubernetes), and microservices architectures. While they enable scalability and fault tolerance, the complexity introduced requires careful design and operational expertise.",
+    "tags": [
+        "architecture",
+        "software-engineering",
+        "systems",
+        "scalability",
+        "infrastructure",
+        "computer-science"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Distributed Computing",
+        "Distributed Architecture"
+    ],
+    "relatedConcepts": [
+        "microservices-architecture",
+        "cap-theorem",
+        "byzantine-generals-problem",
+        "fault-tolerance",
+        "decentralization",
+        "chaos-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        },
+        {
+            "title": "Distributed Systems by Maarten van Steen & Andrew Tanenbaum",
+            "url": "https://www.amazon.com/dp/1543057381?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Distributed computing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Distributed_computing",
+            "type": "website"
+        },
+        {
+            "title": "Fallacies of distributed computing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

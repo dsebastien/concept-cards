@@ -1,0 +1,47 @@
+{
+    "id": "informed-consent",
+    "name": "Informed Consent",
+    "summary": "The process of obtaining permission from individuals based on clear understanding of what they are agreeing to and its implications.",
+    "explanation": "Informed consent is the ethical and legal principle that individuals must be given sufficient information to make a knowledgeable decision before agreeing to something that affects them. Originally from medical ethics, this concept is now fundamental to data privacy, research ethics, and many other fields.\n\nIn data privacy context, valid informed consent requires:\n\n1) Freely given - no coercion, undue pressure, or bundling with unrelated services\n2) Specific - consent for particular purposes, not blanket permissions\n3) Informed - clear explanation of what data, why, how long, and who accesses it\n4) Unambiguous - affirmative action required (no pre-checked boxes)\n5) Withdrawable - easy to revoke consent at any time\n\nElements of proper disclosure:\n- Identity of the data controller\n- Purpose of data processing\n- Types of data collected\n- How data will be used and shared\n- Duration of storage\n- Individual's rights regarding their data\n- Consequences of providing or withholding consent\n\nCommon failures of informed consent: overly complex legal language, buried in lengthy terms of service, dark patterns that manipulate choice, all-or-nothing bundling, and making withdrawal difficult.\n\nIn medical contexts, informed consent ensures patients understand diagnoses, treatments, risks, alternatives, and their right to refuse. In research, it protects participants from exploitation and ensures voluntary participation.\n\nGood consent practices: use plain language, layer information (summary + details), make consent specific and granular, provide clear withdrawal mechanisms, and regularly refresh consent for ongoing processing.",
+    "tags": [
+        "privacy",
+        "ethics",
+        "data-protection",
+        "compliance",
+        "rights",
+        "transparency"
+    ],
+    "category": "Principles",
+    "icon": "FaHandshake",
+    "featured": false,
+    "aliases": [
+        "Valid Consent",
+        "Explicit Consent",
+        "Consent Requirement"
+    ],
+    "relatedConcepts": [
+        "gdpr",
+        "privacy-by-design",
+        "transparency",
+        "dark-patterns",
+        "personal-data"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Informed consent - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Informed_consent",
+            "type": "website"
+        },
+        {
+            "title": "GDPR Consent Requirements",
+            "url": "https://gdpr-info.eu/issues/consent/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
+}

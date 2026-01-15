@@ -17,14 +17,20 @@
     "aliases": [
         "Regret Minimization",
         "Bezos Regret Framework",
-        "80-Year-Old Self Test"
+        "80-Year-Old Self Test",
+        "Least-regret decisions"
     ],
     "relatedConcepts": [
         "decision-fatigue",
         "opportunity-cost",
         "time-horizons",
         "career-design",
-        "life-design"
+        "life-design",
+        "10-10-10-rule",
+        "reversible-vs-irreversible-decisions",
+        "counterfactual-thinking",
+        "pre-mortem-analysis",
+        "second-order-thinking"
     ],
     "relatedNotes": [],
     "articles": [
@@ -46,6 +52,11 @@
     ],
     "references": [
         {
+            "title": "Regret (decision theory) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Regret_(decision_theory)",
+            "type": "website"
+        },
+        {
             "title": "Clarity 101 Workshop",
             "url": "https://store.dsebastien.net/l/knowii-clarity-101",
             "type": "other"
@@ -53,5 +64,5 @@
     ],
     "tutorials": [],
     "datePublished": "2025-12-27",
-    "dateModified": "2025-12-28"
+    "dateModified": "2026-01-15"
 }
