@@ -3,12 +3,25 @@
     "name": "Security Audit",
     "summary": "A systematic evaluation of an organization's security posture against established standards and policies.",
     "explanation": "A security audit is a comprehensive assessment of an organization's information systems, policies, and practices to determine compliance with security standards, identify weaknesses, and recommend improvements. Unlike penetration testing, which focuses on technical exploitation, security audits take a broader view encompassing governance, processes, and controls alongside technical measures.\n\nSecurity audits evaluate multiple dimensions: technical controls including access management, encryption, and network security; administrative controls such as policies, procedures, and training programs; physical security measures protecting facilities and hardware; and operational practices including change management and incident response. Audits compare current practices against frameworks like ISO 27001, NIST Cybersecurity Framework, SOC 2, or industry-specific standards like PCI-DSS or HIPAA.\n\nThe audit process typically involves planning and scoping to define objectives and boundaries; evidence gathering through document review, interviews, and technical testing; analysis comparing findings against criteria; reporting that documents gaps and recommendations; and follow-up to verify remediation of identified issues.\n\nSecurity audits serve multiple purposes. They provide assurance to stakeholders that security controls are effective, demonstrate compliance with regulatory requirements, identify improvement opportunities, and establish baselines for measuring progress. Many organizations require regular audits from both internal teams and independent third parties.\n\nSuccessful security audits require careful preparation: maintaining current documentation, ensuring systems are properly configured, and having relevant personnel available. Organizations should treat audit findings as improvement opportunities rather than criticisms, using results to drive security program maturation. Regular self-assessments between formal audits help maintain security posture and identify issues before they become audit findings.",
-    "tags": ["security", "compliance", "assessment", "governance", "review"],
+    "tags": [
+        "security",
+        "compliance",
+        "assessment",
+        "governance",
+        "review"
+    ],
     "category": "Concepts",
     "icon": "FaClipboardCheck",
     "featured": false,
-    "aliases": ["Security Review", "IT Audit"],
-    "relatedConcepts": ["vulnerability-assessment", "penetration-testing", "incident-response", "compliance"],
+    "aliases": [
+        "Security Review",
+        "IT Audit"
+    ],
+    "relatedConcepts": [
+        "vulnerability-assessment",
+        "penetration-testing",
+        "incident-response"
+    ],
     "relatedNotes": [],
     "references": [
         {

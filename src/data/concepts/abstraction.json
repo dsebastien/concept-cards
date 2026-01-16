@@ -3,20 +3,26 @@
     "name": "Abstraction",
     "summary": "The process of hiding complexity by focusing on essential features while ignoring irrelevant details.",
     "explanation": "Abstraction is the mental process of extracting essential characteristics while ignoring non-essential details. It allows us to manage complexity by creating simplified models that capture what matters for a particular purpose.\n\n**Why Abstraction Matters:**\n- **Manages complexity** - Allows thinking about systems without drowning in details\n- **Enables focus** - Concentrates attention on what's relevant\n- **Creates reusable concepts** - Abstract ideas apply across many specific cases\n- **Facilitates communication** - Shared abstractions enable discussion without explaining everything\n\n**Levels of Abstraction:**\nAbstraction operates at multiple levels, from concrete specifics to highly general concepts:\n- **Low abstraction:** Specific, detailed, concrete ('this particular red ball')\n- **High abstraction:** General, conceptual, universal ('objects,' 'matter,' 'existence')\n\n**Types of Abstraction:**\n1. **Data abstraction** - Representing information without implementation details\n2. **Procedural abstraction** - Defining what to do without specifying how\n3. **Conceptual abstraction** - Creating categories and general principles from specifics\n4. **Modeling abstraction** - Creating simplified representations of complex systems\n\n**The Skill:**\nEffective thinking requires moving fluidly between abstraction levels:\n- **Abstract up** when you need to see patterns, principles, or the big picture\n- **Concretize down** when you need to implement, verify, or understand specifics\n\n**Applications:**\n- **Programming:** APIs hide implementation complexity\n- **Mathematics:** Variables represent any number\n- **Science:** Models simplify reality to reveal principles\n- **Communication:** Metaphors make complex ideas accessible\n- **Learning:** Understanding principles that apply across examples\n\n**Pitfalls:**\n- **Wrong level:** Thinking too abstractly misses important details; too concretely misses patterns\n- **Leaky abstractions:** When hidden complexity unexpectedly matters\n- **Over-abstraction:** Making things harder to understand through excessive generalization",
-    "tags": ["thinking", "mental-models", "computational-thinking", "concepts", "problem-solving"],
+    "tags": [
+        "thinking",
+        "mental-models",
+        "computational-thinking",
+        "concepts",
+        "problem-solving"
+    ],
     "category": "Thinking",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["Abstracting", "Abstraction Thinking", "Levels of Abstraction"],
+    "aliases": [
+        "Abstracting",
+        "Abstraction Thinking",
+        "Levels of Abstraction"
+    ],
     "relatedConcepts": [
         "decomposition",
         "first-principles",
         "mental-models",
-        "systems-thinking",
-        "conceptual-thinking",
-        "pattern-recognition",
-        "categorization",
-        "modeling"
+        "systems-thinking"
     ],
     "relatedNotes": [],
     "references": [

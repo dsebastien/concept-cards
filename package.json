@@ -14,30 +14,32 @@
     },
     "homepage": "https://concepts.dsebastien.net",
     "scripts": {
-        "add-product-links": "bun ./scripts/add-product-links.ts",
-        "dedupe-concepts": "tsx ./scripts/dedupe-concepts.ts",
-        "validate": "tsx ./scripts/validate-concepts.ts",
-        "validate:quick": "tsx ./scripts/validate-concepts.ts --skip-urls",
-        "validate:fix": "tsx ./scripts/validate-concepts.ts --skip-urls --fix-relations",
-        "fix-refs": "tsx ./scripts/fix-concept-refs.ts",
-        "extract-books": "tsx ./scripts/extract-books.ts",
-        "generate-social-images": "tsx ./scripts/generate-social-images.ts",
-        "dev": "vite",
-        "build": "tsc && tsx scripts/generate-social-images.ts && vite build && tsx scripts/generate-static-pages.ts && tsx scripts/generate-sitemap.ts && tsx scripts/generate-llms-txt.ts",
-        "preview": "vite preview",
+        "add-product-links": "bun scripts/add-product-links.ts",
+        "dedupe-concepts": "bun scripts/dedupe-concepts.ts",
+        "validate": "bun scripts/validate-concepts.ts",
+        "validate:quick": "bun scripts/validate-concepts.ts --skip-urls",
+        "validate:fix": "bun scripts/validate-concepts.ts --skip-urls --fix-relations",
+        "fix-refs": "bun scripts/fix-concept-refs.ts",
+        "extract-books": "bun scripts/extract-books.ts",
+        "generate-social-images": "bun scripts/generate-social-images.ts",
+        "dev": "bun scripts/utils/dev.ts",
+        "build": "tsc && bun scripts/generate-social-images.ts && bun scripts/utils/build.ts && bun scripts/generate-static-pages.ts && bun scripts/generate-sitemap.ts && bun scripts/generate-llms-txt.ts",
+        "preview": "bun --bun serve dist -p 4173",
         "prepare": "husky",
         "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
         "format": "prettier --write .",
         "tsc": "tsc --noEmit",
         "tsc:watch": "tsc --noEmit --watch --preserveWatchOutput",
-        "tscw": "npm run tsc:watch",
+        "tscw": "bun run tsc:watch",
         "commit": "cz",
-        "cm": "npm run commit",
+        "cm": "bun run commit",
         "commit:lint": "commitlint --from HEAD~1 --to HEAD --verbose",
         "release": "bash scripts/release.sh",
-        "release:update-version": "tsx scripts/update-version.ts",
-        "release:changelog": "tsx scripts/generate-changelog.ts",
-        "push": "git push && git push --tags"
+        "release:update-version": "bun scripts/update-version.ts",
+        "release:changelog": "bun scripts/generate-changelog.ts",
+        "push": "git push && git push --tags",
+        "test": "bun test",
+        "test:watch": "bun test --watch"
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
@@ -51,8 +53,7 @@
         }
     },
     "engines": {
-        "node": ">=20.0",
-        "npm": ">=10.1.0"
+        "node": ">=20.0"
     },
     "dependencies": {
         "@tanstack/react-virtual": "^3.13.13",
@@ -73,14 +74,13 @@
         "@commitlint/config-conventional": "20.0.0",
         "@eslint/js": "^9.36.0",
         "@resvg/resvg-js": "^2.6.2",
-        "@tailwindcss/vite": "4.1.17",
+        "@types/bun": "^1.1.14",
         "@types/better-sqlite3": "^7.6.12",
         "@types/canvas-confetti": "^1.9.0",
         "@types/natural": "^5.1.5",
         "@types/node": "24.10.1",
         "@types/react": "19.2.7",
         "@types/react-dom": "19.2.3",
-        "@vitejs/plugin-react": "5.1.1",
         "commitizen": "4.3.1",
         "conventional-changelog-cli": "5.0.0",
         "conventional-changelog-conventionalcommits": "9.1.0",
@@ -94,9 +94,8 @@
         "prettier": "3.6.2",
         "prettier-plugin-tailwindcss": "^0.7.1",
         "tailwindcss": "4.1.17",
-        "tsx": "^4.21.0",
+        "serve": "^14.2.4",
         "typescript": "^5.9.3",
-        "typescript-eslint": "8.48.0",
-        "vite": "7.2.4"
+        "typescript-eslint": "8.48.0"
     }
 }

@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Validates concept JSON files for:
  * - Broken URLs (404s) in references, articles, tutorials, relatedNotes

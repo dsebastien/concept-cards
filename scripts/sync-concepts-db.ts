@@ -1,6 +1,6 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 
-import Database from 'better-sqlite3'
+import { Database } from 'bun:sqlite'
 import * as crypto from 'crypto'
 import * as fs from 'fs'
 import * as path from 'path'
@@ -48,13 +48,13 @@ function calculateContentHash(concept: Concept): string {
     return crypto.createHash('md5').update(content).digest('hex')
 }
 
-function deleteConcept(db: Database.Database, conceptId: string): void {
+function deleteConcept(db: Database, conceptId: string): void {
     // Delete from main table (cascades to related tables)
     const stmt = db.prepare('DELETE FROM concepts WHERE id = ?')
     stmt.run(conceptId)
 }
 
-function upsertConcept(db: Database.Database, concept: Concept, filePath: string): void {
+function upsertConcept(db: Database, concept: Concept, filePath: string): void {
     const contentHash = calculateContentHash(concept)
 
     // Check if concept exists

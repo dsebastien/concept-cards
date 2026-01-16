@@ -3,12 +3,29 @@
     "name": "Two-Factor Authentication",
     "summary": "A security process requiring exactly two different authentication factors to verify identity before granting access.",
     "explanation": "Two-factor authentication (2FA) is a specific form of multi-factor authentication that requires exactly two independent verification factors to confirm a user's identity. It represents the most common implementation of MFA and provides a significant security improvement over single-factor (password-only) authentication by ensuring that compromising one factor alone is insufficient for unauthorized access.\n\nThe two factors must come from different categories: something you know (passwords, PINs), something you have (phone, hardware token), or something you are (biometrics). Common 2FA combinations include password plus SMS code, password plus authenticator app code (TOTP), password plus hardware security key, or password plus biometric verification.\n\nAuthentication methods vary in security strength. SMS-based 2FA, while widely adopted, is vulnerable to SIM swapping attacks and SS7 protocol exploits. Authenticator apps like Google Authenticator, Authy, or Microsoft Authenticator generate time-based codes locally and are more secure. Hardware security keys (YubiKey, Google Titan) using FIDO2/WebAuthn protocols offer the strongest protection against phishing.\n\n2FA adoption has become essential for protecting accounts against credential theft, phishing, and automated attacks. Major platforms including Google, Microsoft, Apple, banks, and social media services offer or require 2FA. Studies show 2FA blocks approximately 99.9% of automated attacks and significantly reduces account takeovers.\n\nBest practices include enabling 2FA on all critical accounts (email, banking, cloud services), preferring authenticator apps or hardware keys over SMS, keeping backup codes secure for recovery, and using a password manager alongside 2FA for comprehensive protection.",
-    "tags": ["security", "authentication", "identity", "access-control", "protection"],
+    "tags": [
+        "security",
+        "authentication",
+        "identity",
+        "access-control",
+        "protection"
+    ],
     "category": "Concepts",
     "icon": "FaShieldAlt",
     "featured": false,
-    "aliases": ["2FA", "Two-Step Verification", "Two-Step Authentication"],
-    "relatedConcepts": ["multi-factor-authentication", "authentication", "credential-stuffing", "phishing", "social-engineering", "brute-force-attack", "password-security"],
+    "aliases": [
+        "2FA",
+        "Two-Step Verification",
+        "Two-Step Authentication"
+    ],
+    "relatedConcepts": [
+        "multi-factor-authentication",
+        "authentication",
+        "credential-stuffing",
+        "phishing",
+        "social-engineering",
+        "brute-force-attack"
+    ],
     "relatedNotes": [],
     "references": [
         {

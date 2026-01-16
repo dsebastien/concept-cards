@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Generates social media images (Open Graph / Twitter Cards) for:
  * - All concepts

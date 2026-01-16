@@ -1,58 +1,57 @@
 {
-  "id": "architecture-decision-records",
-  "name": "Architecture Decision Records",
-  "summary": "A systematic method for documenting architectural and technical decisions, their context, and rationale to preserve knowledge for future maintainers.",
-  "explanation": "Architecture Decision Records (ADRs) are short documents that capture important architectural and technical decisions made during software development. Each ADR describes a single decision, the context that led to it, the alternatives considered, and the rationale for the chosen approach. ADRs combat context rot by explicitly capturing the 'why' behind decisions at the moment they're made, when context is fresh and complete.\n\nA typical ADR includes: a unique identifier, the decision title, status (proposed, accepted, deprecated, superseded), context (what circumstances led to this decision), decision (what was chosen), consequences (what trade-offs were accepted), and alternatives considered (what else was evaluated and why it was rejected). ADRs are stored as text files in version control alongside the code, making them discoverable and keeping them close to what they document.\n\nThe practice was introduced by Michael Nygard and has become widely adopted in software engineering. ADRs are particularly valuable for: onboarding new team members (who can understand past decisions without tribal knowledge), avoiding repeated debates (decision is documented once), understanding technical debt (why shortcuts were taken), and enabling confident change (knowing what assumptions a decision was based on).\n\nADRs should be immutable once accepted—if a decision changes, create a new ADR that supersedes the old one, preserving the historical context. This creates an audit trail of thinking. The format is intentionally lightweight to reduce friction: a few paragraphs is often sufficient. The key is capturing enough context that someone without your current knowledge can understand the decision in the future. ADRs transform implicit team knowledge into explicit documentation, making systems maintainable over time.",
-  "tags": [
-    "software-development",
-    "documentation",
-    "knowledge-management",
-    "decision-making",
-    "best-practices",
-    "architecture"
-  ],
-  "category": "Techniques",
-  "icon": "FaProjectDiagram",
-  "featured": false,
-  "aliases": [
-    "ADR",
-    "Decision Records",
-    "Architectural Decision Records"
-  ],
-  "relatedConcepts": [
-    "context-rot",
-    "documentation",
-    "decision-journal",
-    "explicit-knowledge",
-    "readme-driven-development"
-  ],
-  "relatedNotes": [],
-  "articles": [
-    {
-      "title": "Documenting Architecture Decisions - Michael Nygard",
-      "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions",
-      "type": "website"
-    },
-    {
-      "title": "ADR GitHub Organization",
-      "url": "https://adr.github.io/",
-      "type": "website"
-    }
-  ],
-  "books": [
-    {
-      "title": "Release It! by Michael Nygard",
-      "url": "https://www.amazon.com/dp/1680502395?tag=dsebastien00-20"
-    }
-  ],
-  "references": [
-    {
-      "title": "Architecture Decision Record - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Architectural_decision",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-06",
-  "dateModified": "2026-01-06"
+    "id": "architecture-decision-records",
+    "name": "Architecture Decision Records",
+    "summary": "A systematic method for documenting architectural and technical decisions, their context, and rationale to preserve knowledge for future maintainers.",
+    "explanation": "Architecture Decision Records (ADRs) are short documents that capture important architectural and technical decisions made during software development. Each ADR describes a single decision, the context that led to it, the alternatives considered, and the rationale for the chosen approach. ADRs combat context rot by explicitly capturing the 'why' behind decisions at the moment they're made, when context is fresh and complete.\n\nA typical ADR includes: a unique identifier, the decision title, status (proposed, accepted, deprecated, superseded), context (what circumstances led to this decision), decision (what was chosen), consequences (what trade-offs were accepted), and alternatives considered (what else was evaluated and why it was rejected). ADRs are stored as text files in version control alongside the code, making them discoverable and keeping them close to what they document.\n\nThe practice was introduced by Michael Nygard and has become widely adopted in software engineering. ADRs are particularly valuable for: onboarding new team members (who can understand past decisions without tribal knowledge), avoiding repeated debates (decision is documented once), understanding technical debt (why shortcuts were taken), and enabling confident change (knowing what assumptions a decision was based on).\n\nADRs should be immutable once accepted—if a decision changes, create a new ADR that supersedes the old one, preserving the historical context. This creates an audit trail of thinking. The format is intentionally lightweight to reduce friction: a few paragraphs is often sufficient. The key is capturing enough context that someone without your current knowledge can understand the decision in the future. ADRs transform implicit team knowledge into explicit documentation, making systems maintainable over time.",
+    "tags": [
+        "software-development",
+        "documentation",
+        "knowledge-management",
+        "decision-making",
+        "best-practices",
+        "architecture"
+    ],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "ADR",
+        "Decision Records",
+        "Architectural Decision Records"
+    ],
+    "relatedConcepts": [
+        "context-rot",
+        "documentation",
+        "decision-journal",
+        "explicit-knowledge"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Documenting Architecture Decisions - Michael Nygard",
+            "url": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions",
+            "type": "website"
+        },
+        {
+            "title": "ADR GitHub Organization",
+            "url": "https://adr.github.io/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Release It! by Michael Nygard",
+            "url": "https://www.amazon.com/dp/1680502395?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Architecture Decision Record - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Architectural_decision",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-06",
+    "dateModified": "2026-01-06"
 }

@@ -57,32 +57,32 @@ print_info "Creating release: $TAG"
 
 # Update package.json version
 print_info "Updating package.json version..."
-npm run release:update-version "$TAG"
+bun run release:update-version "$TAG"
 
-# Update package-lock.json by running npm install
-print_info "Updating package-lock.json..."
-npm install --package-lock-only
+# Update bun.lock by running bun install
+print_info "Updating bun.lock..."
+bun install
 
 # Generate changelog
 print_info "Generating changelog..."
-npm run release:changelog
+bun run release:changelog
 
 # Show changes
 print_info "Changes to be committed:"
-git diff package.json package-lock.json CHANGELOG.md
+git diff package.json bun.lock CHANGELOG.md
 
 # Confirm before committing
 read -p "Commit these changes? (Y/n) " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Nn]$ ]]; then
     print_warning "Release cancelled"
-    git restore package.json package-lock.json CHANGELOG.md 2>/dev/null || true
+    git restore package.json bun.lock CHANGELOG.md 2>/dev/null || true
     exit 1
 fi
 
 # Commit changes
 print_info "Committing release changes..."
-git add package.json package-lock.json CHANGELOG.md
+git add package.json bun.lock CHANGELOG.md
 git commit -m "chore(release): $TAG"
 
 # Create tag

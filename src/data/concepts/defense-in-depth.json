@@ -3,12 +3,24 @@
     "name": "Defense in Depth",
     "summary": "A layered security approach using multiple protective measures so failure of one doesn't compromise the system",
     "explanation": "Defense in Depth is a security strategy that employs multiple layers of protection, so if one defense fails, others remain to protect the system. Borrowed from military strategy, it recognizes that no single security measure is impenetrable and that attackers who breach one layer should face additional obstacles.\n\nThe approach typically includes: physical security (locks, badges, cameras), network security (firewalls, intrusion detection, network segmentation), host security (antivirus, patch management, hardening), application security (input validation, secure coding, authentication), and data security (encryption, access controls, backups). Each layer addresses different attack vectors and threat types.\n\nFor example, protecting a database might involve: a firewall blocking unauthorized network access, an intrusion detection system monitoring for suspicious activity, application-level authentication and authorization, encryption of data at rest and in transit, and regular backups stored offsite. An attacker would need to bypass all these layers to fully compromise the data.\n\nDefense in Depth provides resilience against unknown vulnerabilities and zero-day attacks. When a new exploit is discovered, other layers continue providing protection while the vulnerability is patched. It also supports the principle of least privilege by compartmentalizing access at each layer. The strategy requires ongoing investment but significantly increases the cost and difficulty for attackers, often deterring all but the most determined adversaries.",
-    "tags": ["security", "strategies", "architecture", "resilience"],
+    "tags": [
+        "security",
+        "strategies",
+        "architecture",
+        "resilience"
+    ],
     "category": "Principles",
     "icon": "FaLayerGroup",
     "featured": false,
-    "aliases": ["Layered Security", "Defense in Layers", "Defence in Depth"],
-    "relatedConcepts": ["cia-triad", "least-privilege", "zero-trust"],
+    "aliases": [
+        "Layered Security",
+        "Defense in Layers",
+        "Defence in Depth"
+    ],
+    "relatedConcepts": [
+        "cia-triad",
+        "least-privilege"
+    ],
     "relatedNotes": [],
     "references": [
         {

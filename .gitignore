@@ -27,3 +27,6 @@ dist-ssr
 # Playwright
 .playwright-mcp/
 
+# Bun dev server
+src/.dev/
+

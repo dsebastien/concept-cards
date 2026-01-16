@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Generates static HTML pages for all routes.
  * This creates a directory structure with index.html files for each route,

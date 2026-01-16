@@ -1,6 +1,6 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 
-import Database from 'better-sqlite3'
+import { Database } from 'bun:sqlite'
 import natural from 'natural'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
@@ -65,7 +65,7 @@ function tfidfSimilarity(text1: string, text2: string): number {
 }
 
 function checkPairForDuplicate(
-    db: Database.Database,
+    db: Database,
     concept1: { id: string; name: string; summary: string },
     concept2: { id: string; name: string; summary: string }
 ): DuplicatePair | null {

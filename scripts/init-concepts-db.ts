@@ -1,6 +1,6 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 
-import Database from 'better-sqlite3'
+import { Database } from 'bun:sqlite'
 import * as crypto from 'crypto'
 import * as fs from 'fs'
 import * as path from 'path'
@@ -49,7 +49,7 @@ function calculateContentHash(concept: Concept): string {
     return crypto.createHash('md5').update(content).digest('hex')
 }
 
-function createTables(db: Database.Database): void {
+function createTables(db: Database): void {
     console.log('Creating database tables...')
 
     // Main concepts table
@@ -174,7 +174,7 @@ function loadConcepts(): Map<string, { concept: Concept; filePath: string }> {
 }
 
 function insertConcepts(
-    db: Database.Database,
+    db: Database,
     concepts: Map<string, { concept: Concept; filePath: string }>
 ): void {
     console.log('\nInserting concepts into database...')

@@ -1,49 +1,48 @@
 {
-  "id": "learning-by-doing",
-  "name": "Learning by Doing",
-  "summary": "The principle that active practice and hands-on experience are more effective for learning than passive observation or study alone.",
-  "explanation": "Learning by Doing is the pedagogical principle that people learn more effectively through direct experience and active engagement than through passive consumption of information. The concept emphasizes that knowledge gained through practice, experimentation, and real-world application is deeper, more durable, and more transferable than knowledge acquired through reading, listening, or watching alone.\n\nThis principle has roots in experiential learning theory, developed by educational theorist David Kolb, and constructivism in education. It's based on the observation that abstract knowledge becomes concrete and meaningful when learners actively construct their understanding through experience. When you do something—write code, conduct an experiment, solve a real problem, create a project—you encounter obstacles, make mistakes, and discover nuances that aren't apparent in theoretical descriptions.\n\nLearning by doing creates several advantages: it reveals gaps in understanding immediately (you can't fake your way through building something), it provides immediate feedback (the code either works or doesn't), it builds procedural knowledge (knowing how, not just knowing that), and it creates stronger memory traces through multiple encoding pathways (motor, visual, emotional). The struggle involved in doing is itself valuable—desirable difficulties enhance learning.\n\nPractical applications include: project-based learning (build something real), deliberate practice (focused repetition with feedback), apprenticeship models (learning alongside practitioners), simulation and role-play (safe practice of real situations), and prototyping (learning through iterative creation). The key is that the learner is actively engaged in producing outcomes, not just consuming information.\n\nHowever, learning by doing isn't opposed to theory—it's most effective when combined with conceptual understanding. The ideal is a cycle: study theory, apply it in practice, reflect on the experience, refine understanding, and apply again. Pure trial-and-error without guidance can be inefficient, but pure theory without practice remains abstract and disconnected from reality.",
-  "tags": [
-    "learning",
-    "education",
-    "strategies",
-    "skills",
-    "practices",
-    "experiential"
-  ],
-  "category": "Learning & Education",
-  "icon": "FaTools",
-  "featured": false,
-  "aliases": [
-    "Experiential Learning",
-    "Learning Through Practice",
-    "Hands-On Learning",
-    "Active Learning"
-  ],
-  "relatedConcepts": [
-    "deliberate-practice",
-    "four-rs-of-reading",
-    "knowledge-application",
-    "learning-pyramid",
-    "building-in-public",
-    "fail-fast"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [
-    {
-      "title": "Experiential Learning by David A. Kolb",
-      "url": "https://www.amazon.com/dp/0133892409?tag=dsebastien00-20"
-    }
-  ],
-  "references": [
-    {
-      "title": "Experiential Learning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Experiential_learning",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-06",
-  "dateModified": "2026-01-06"
+    "id": "learning-by-doing",
+    "name": "Learning by Doing",
+    "summary": "The principle that active practice and hands-on experience are more effective for learning than passive observation or study alone.",
+    "explanation": "Learning by Doing is the pedagogical principle that people learn more effectively through direct experience and active engagement than through passive consumption of information. The concept emphasizes that knowledge gained through practice, experimentation, and real-world application is deeper, more durable, and more transferable than knowledge acquired through reading, listening, or watching alone.\n\nThis principle has roots in experiential learning theory, developed by educational theorist David Kolb, and constructivism in education. It's based on the observation that abstract knowledge becomes concrete and meaningful when learners actively construct their understanding through experience. When you do something—write code, conduct an experiment, solve a real problem, create a project—you encounter obstacles, make mistakes, and discover nuances that aren't apparent in theoretical descriptions.\n\nLearning by doing creates several advantages: it reveals gaps in understanding immediately (you can't fake your way through building something), it provides immediate feedback (the code either works or doesn't), it builds procedural knowledge (knowing how, not just knowing that), and it creates stronger memory traces through multiple encoding pathways (motor, visual, emotional). The struggle involved in doing is itself valuable—desirable difficulties enhance learning.\n\nPractical applications include: project-based learning (build something real), deliberate practice (focused repetition with feedback), apprenticeship models (learning alongside practitioners), simulation and role-play (safe practice of real situations), and prototyping (learning through iterative creation). The key is that the learner is actively engaged in producing outcomes, not just consuming information.\n\nHowever, learning by doing isn't opposed to theory—it's most effective when combined with conceptual understanding. The ideal is a cycle: study theory, apply it in practice, reflect on the experience, refine understanding, and apply again. Pure trial-and-error without guidance can be inefficient, but pure theory without practice remains abstract and disconnected from reality.",
+    "tags": [
+        "learning",
+        "education",
+        "strategies",
+        "skills",
+        "practices",
+        "experiential"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaTools",
+    "featured": false,
+    "aliases": [
+        "Experiential Learning",
+        "Learning Through Practice",
+        "Hands-On Learning",
+        "Active Learning"
+    ],
+    "relatedConcepts": [
+        "deliberate-practice",
+        "four-rs-of-reading",
+        "knowledge-application",
+        "building-in-public",
+        "fail-fast"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Experiential Learning by David A. Kolb",
+            "url": "https://www.amazon.com/dp/0133892409?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Experiential Learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Experiential_learning",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-06",
+    "dateModified": "2026-01-06"
 }

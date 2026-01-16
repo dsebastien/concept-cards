@@ -1,3 +1,4 @@
+#!/usr/bin/env bun
 /**
  * Updates the version in package.json to the specified version.
  * Usage: npx tsx scripts/update-version.ts <version>

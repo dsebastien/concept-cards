@@ -1,6 +1,6 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 
-import Database from 'better-sqlite3'
+import { Database } from 'bun:sqlite'
 import * as fs from 'fs'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
@@ -113,11 +113,7 @@ function mergeConcepts(source: Concept, target: Concept, strategy: string): Conc
     return merged
 }
 
-function updateRelatedConceptsReferences(
-    db: Database.Database,
-    sourceId: string,
-    targetId: string
-): number {
+function updateRelatedConceptsReferences(db: Database, sourceId: string, targetId: string): number {
     // Find all concepts that reference the source concept in relatedConcepts
     const allConceptsStmt = db.prepare('SELECT id FROM concepts WHERE id != ? AND id != ?')
     const allConcepts = allConceptsStmt.all(sourceId, targetId) as { id: string }[]
@@ -143,7 +139,7 @@ function updateRelatedConceptsReferences(
     return updatedCount
 }
 
-function deleteConceptFromDb(db: Database.Database, conceptId: string): void {
+function deleteConceptFromDb(db: Database, conceptId: string): void {
     const stmt = db.prepare('DELETE FROM concepts WHERE id = ?')
     stmt.run(conceptId)
 }

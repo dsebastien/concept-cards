@@ -3,12 +3,26 @@
     "name": "Penetration Testing",
     "summary": "Authorized simulated attacks on systems to identify security vulnerabilities before malicious actors do.",
     "explanation": "Penetration testing, commonly known as pen testing or ethical hacking, is a proactive security assessment methodology where authorized security professionals simulate real-world cyberattacks against an organization's systems, networks, or applications. The goal is to identify exploitable vulnerabilities before malicious actors discover and leverage them, providing organizations with actionable insights to strengthen their security posture.\n\nPenetration tests follow a structured methodology typically including reconnaissance (gathering information about the target), scanning (identifying potential entry points), exploitation (attempting to breach security controls), post-exploitation (assessing the impact of successful breaches), and reporting (documenting findings and remediation recommendations). Tests can be conducted as black-box (no prior knowledge), white-box (full system knowledge), or gray-box (partial knowledge) engagements.\n\nDifferent types of penetration testing focus on specific areas: network penetration testing examines infrastructure security, web application testing targets web-based systems, wireless testing assesses Wi-Fi security, social engineering tests human vulnerabilities, and physical penetration testing evaluates facility security. Red team exercises combine multiple approaches to simulate sophisticated adversary campaigns.\n\nPenetration testing differs from vulnerability assessment in that it goes beyond identification to actual exploitation, demonstrating real-world risk. While automated tools assist in the process, skilled human testers provide crucial creativity and contextual judgment that tools cannot replicate.\n\nOrganizations should conduct penetration tests regularly, especially after significant changes to systems or infrastructure. Results should feed into a remediation process with clear prioritization based on risk, and retesting should verify that fixes are effective. Proper scoping, rules of engagement, and legal agreements are essential before any engagement begins.",
-    "tags": ["security", "testing", "vulnerabilities", "assessment", "offensive-security"],
+    "tags": [
+        "security",
+        "testing",
+        "vulnerabilities",
+        "assessment",
+        "offensive-security"
+    ],
     "category": "Techniques",
     "icon": "FaUserSecret",
     "featured": false,
-    "aliases": ["Pen Testing", "Ethical Hacking", "Pen Test"],
-    "relatedConcepts": ["vulnerability-assessment", "red-team", "security-audit", "defense-in-depth"],
+    "aliases": [
+        "Pen Testing",
+        "Ethical Hacking",
+        "Pen Test"
+    ],
+    "relatedConcepts": [
+        "vulnerability-assessment",
+        "security-audit",
+        "defense-in-depth"
+    ],
     "relatedNotes": [],
     "references": [
         {

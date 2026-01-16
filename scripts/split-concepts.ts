@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Splits the monolithic concepts.json into individual concept files.
  * Each concept is saved as {concept-id}.json in src/data/concepts/

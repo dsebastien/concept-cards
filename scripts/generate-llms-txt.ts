@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Generates llms.txt - a machine-readable summary for AI crawlers.
  * This file helps LLMs understand the site structure and content.

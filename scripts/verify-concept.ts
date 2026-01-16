@@ -1,6 +1,6 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 
-import Database from 'better-sqlite3'
+import { Database } from 'bun:sqlite'
 import natural from 'natural'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
@@ -77,7 +77,7 @@ function tfidfSimilarity(text1: string, text2: string): number {
     return dotProduct / (Math.sqrt(mag1) * Math.sqrt(mag2))
 }
 
-function checkExactNameMatch(db: Database.Database, name: string): VerificationResult[] {
+function checkExactNameMatch(db: Database, name: string): VerificationResult[] {
     const normalizedName = normalize(name)
     const stmt = db.prepare('SELECT id, name FROM concepts')
     const concepts = stmt.all() as { id: string; name: string }[]
@@ -98,11 +98,7 @@ function checkExactNameMatch(db: Database.Database, name: string): VerificationR
     return results
 }
 
-function checkAliasMatch(
-    db: Database.Database,
-    name: string,
-    aliases?: string[]
-): VerificationResult[] {
+function checkAliasMatch(db: Database, name: string, aliases?: string[]): VerificationResult[] {
     const results: VerificationResult[] = []
     const normalizedName = normalize(name)
     const normalizedAliases = (aliases || []).map(normalize)
@@ -149,7 +145,7 @@ function checkAliasMatch(
     return results
 }
 
-function checkFuzzyNameMatch(db: Database.Database, name: string): VerificationResult[] {
+function checkFuzzyNameMatch(db: Database, name: string): VerificationResult[] {
     const stmt = db.prepare('SELECT id, name FROM concepts')
     const concepts = stmt.all() as { id: string; name: string }[]
 
@@ -175,7 +171,7 @@ function checkFuzzyNameMatch(db: Database.Database, name: string): VerificationR
     return results
 }
 
-function checkSummaryMatch(db: Database.Database, summary?: string): VerificationResult[] {
+function checkSummaryMatch(db: Database, summary?: string): VerificationResult[] {
     if (!summary) return []
 
     const stmt = db.prepare('SELECT id, name, summary FROM concepts')
@@ -200,10 +196,7 @@ function checkSummaryMatch(db: Database.Database, summary?: string): Verificatio
     return results
 }
 
-function checkRelatedNotesOverlap(
-    db: Database.Database,
-    relatedNotes?: string[]
-): VerificationResult[] {
+function checkRelatedNotesOverlap(db: Database, relatedNotes?: string[]): VerificationResult[] {
     if (!relatedNotes || relatedNotes.length === 0) return []
 
     const results: VerificationResult[] = []
@@ -248,7 +241,7 @@ function mergeDuplicateResults(results: VerificationResult[]): VerificationResul
 }
 
 function logCheck(
-    db: Database.Database,
+    db: Database,
     name: string,
     summary: string,
     results: VerificationResult[]

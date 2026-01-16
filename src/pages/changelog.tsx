@@ -3,7 +3,7 @@ import { FaArrowLeft, FaHistory } from 'react-icons/fa'
 import ReactMarkdown from 'react-markdown'
 import Section from '@/components/ui/section'
 import { AnimatedPage, AnimatedHero, AnimatedSection } from '@/components/ui/animated'
-import changelogContent from '../../CHANGELOG.md?raw'
+import changelogContent from '../../CHANGELOG.md'
 
 const ChangelogPage: React.FC = () => {
     return (

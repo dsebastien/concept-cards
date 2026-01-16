@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Removes duplicate entries from array fields in concept JSON files.
  * Deduplicates: relatedConcepts, aliases, relatedNotes, articles, references, tutorials, tags

@@ -25,11 +25,8 @@ jobs:
                   fetch-depth: 0
                   token: ${{ secrets.GITHUB_TOKEN }}
 
-            - name: Setup Node.js
-              uses: actions/setup-node@v4
-              with:
-                  node-version: '20'
-                  cache: 'npm'
+            - name: Setup Bun
+              uses: oven-sh/setup-bun@v2
 
             - name: Configure Git
               run: |
@@ -52,22 +49,22 @@ jobs:
                   fi
 
             - name: Install dependencies
-              run: npm ci
+              run: bun install --frozen-lockfile
 
             - name: Update version and changelog (workflow_dispatch only)
               if: github.event_name == 'workflow_dispatch'
               run: |
                   # Update package.json version
-                  npm run release:update-version ${{ steps.tag.outputs.name }}
+                  bun run release:update-version ${{ steps.tag.outputs.name }}
 
-                  # Update package-lock.json
-                  npm install --package-lock-only
+                  # Update bun.lock
+                  bun install
 
                   # Generate changelog
-                  npm run release:changelog
+                  bun run release:changelog
 
                   # Commit changes
-                  git add package.json package-lock.json CHANGELOG.md
+                  git add package.json bun.lock CHANGELOG.md
                   git commit -m "chore(release): ${{ steps.tag.outputs.name }}"
                   git push origin HEAD:main
 

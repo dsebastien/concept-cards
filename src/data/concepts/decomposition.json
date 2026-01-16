@@ -3,17 +3,26 @@
     "name": "Decomposition",
     "summary": "Breaking down complex problems or systems into smaller, more manageable parts to understand and solve them.",
     "explanation": "Decomposition is a fundamental problem-solving strategy that involves breaking complex problems, systems, or concepts into smaller, more manageable components. It's a cornerstone of computational thinking and a key technique in first principles reasoning.\n\n**Why Decomposition Works:**\n- **Reduces cognitive load** - Smaller pieces are easier to understand\n- **Enables parallel work** - Different components can be addressed independently\n- **Reveals structure** - Breaking things apart shows how they fit together\n- **Identifies the essential** - Separates core elements from peripheral details\n\n**Types of Decomposition:**\n1. **Functional** - Breaking by what each part does\n2. **Structural** - Breaking by physical or logical components\n3. **Temporal** - Breaking by phases or stages over time\n4. **Data** - Breaking by information types or flows\n\n**The Process:**\n1. Identify the complex whole you want to understand\n2. Find natural boundaries or divisions\n3. Break into components that can be understood independently\n4. Understand each component\n5. Understand how components relate and combine\n\n**Applications:**\n- **Software development:** Breaking programs into functions and modules\n- **Project management:** Breaking projects into tasks and subtasks (WBS)\n- **Learning:** Breaking subjects into concepts and skills\n- **Problem-solving:** Breaking complex problems into sub-problems\n- **Writing:** Breaking documents into sections and paragraphs\n\n**Related Principles:**\nDecomposition works hand-in-hand with abstraction (hiding complexity), pattern recognition (finding similarities between components), and composition (reassembling parts into wholes). It's essential for first principles thinking, where you decompose until you reach fundamental truths.",
-    "tags": ["thinking", "problem-solving", "computational-thinking", "analysis", "strategies"],
+    "tags": [
+        "thinking",
+        "problem-solving",
+        "computational-thinking",
+        "analysis",
+        "strategies"
+    ],
     "category": "Thinking",
     "icon": "FaPuzzlePiece",
     "featured": false,
-    "aliases": ["Problem Decomposition", "Breaking Down Problems", "Divide and Conquer"],
+    "aliases": [
+        "Problem Decomposition",
+        "Breaking Down Problems",
+        "Divide and Conquer"
+    ],
     "relatedConcepts": [
         "first-principles",
         "abstraction",
         "systems-thinking",
         "work-breakdown-structure",
-        "modular-design",
         "analytical-thinking",
         "root-cause-analysis",
         "five-whys",

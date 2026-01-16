@@ -1,32 +1,9 @@
-#!/usr/bin/env bun
 /**
- * Fixes invalid relatedConcepts references by:
- * 1. Mapping to correct existing concepts (plural -> singular, typos, etc.)
- * 2. Removing references that don't exist and have no valid mapping
+ * Concept reference mapping utilities
  */
 
-import { readdirSync, readFileSync, writeFileSync } from 'fs'
-import { dirname, join } from 'path'
-import { fileURLToPath } from 'url'
-import type { Concept } from '../src/types/concept'
-
-const __dirname = dirname(fileURLToPath(import.meta.url))
-
-// Paths
-const conceptsDir = join(__dirname, '../src/data/concepts')
-
-// Load all concepts
-const conceptFiles = readdirSync(conceptsDir).filter((f) => f.endsWith('.json'))
-const allConceptIds = new Set<string>()
-
-for (const file of conceptFiles) {
-    allConceptIds.add(file.replace('.json', ''))
-}
-
-console.log(`Loaded ${allConceptIds.size} concepts\n`)
-
 // Manual mappings for known corrections
-const manualMappings: Record<string, string> = {
+export const manualMappings: Record<string, string> = {
     // Plural -> Singular
     'burnouts': 'burnout',
     'anxieties': 'anxiety',
@@ -140,8 +117,10 @@ const manualMappings: Record<string, string> = {
     'negotiation': ''
 }
 
-// Try to find a valid mapping for an invalid concept ID
-function findMapping(invalidId: string): string | null {
+/**
+ * Try to find a valid mapping for an invalid concept ID
+ */
+export function findMapping(invalidId: string, allConceptIds: Set<string>): string | null {
     // Check manual mappings first
     if (invalidId in manualMappings) {
         const mapped = manualMappings[invalidId]
@@ -167,52 +146,3 @@ function findMapping(invalidId: string): string | null {
 
     return null
 }
-
-let totalFixed = 0
-let totalRemoved = 0
-let filesModified = 0
-
-for (const file of conceptFiles) {
-    const filePath = join(conceptsDir, file)
-    const concept: Concept = JSON.parse(readFileSync(filePath, 'utf-8'))
-
-    if (!concept.relatedConcepts || concept.relatedConcepts.length === 0) continue
-
-    let modified = false
-    const newRelatedConcepts: string[] = []
-
-    for (const relatedId of concept.relatedConcepts) {
-        if (allConceptIds.has(relatedId)) {
-            // Valid, keep it
-            newRelatedConcepts.push(relatedId)
-        } else {
-            // Invalid, try to find mapping
-            const mapped = findMapping(relatedId)
-            if (mapped) {
-                if (!newRelatedConcepts.includes(mapped)) {
-                    newRelatedConcepts.push(mapped)
-                    console.log(`  ${file}: ${relatedId} -> ${mapped}`)
-                    totalFixed++
-                }
-                modified = true
-            } else {
-                // No mapping found, remove it
-                console.log(`  ${file}: removed "${relatedId}"`)
-                totalRemoved++
-                modified = true
-            }
-        }
-    }
-
-    if (modified) {
-        concept.relatedConcepts = newRelatedConcepts
-        writeFileSync(filePath, JSON.stringify(concept, null, 4) + '\n')
-        filesModified++
-    }
-}
-
-console.log('\n' + '='.repeat(50))
-console.log('Summary:')
-console.log(`  Files modified: ${filesModified}`)
-console.log(`  References fixed: ${totalFixed}`)
-console.log(`  References removed: ${totalRemoved}`)

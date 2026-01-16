@@ -1,50 +1,48 @@
 {
-  "id": "synthetic-media",
-  "name": "Synthetic Media",
-  "summary": "Media content generated or significantly manipulated using artificial intelligence, including deepfakes, AI-generated images, text, audio, and video that can be indistinguishable from human-created content.",
-  "explanation": "Synthetic Media refers to any media content—images, video, audio, or text—that is created or substantially modified using artificial intelligence and machine learning techniques. This includes deepfakes (AI face-swapped videos), AI-generated art (Midjourney, DALL-E, Stable Diffusion), text generation (GPT models), voice cloning, and fully synthetic video. The defining characteristic is that the content appears authentic but was not created by traditional human means.\n\nThe technology has advanced rapidly, making synthetic media increasingly difficult to distinguish from authentic content. Modern AI can generate photorealistic images of people who don't exist, clone voices from minutes of audio, write convincing articles in any style, and create videos of people saying things they never said. This creates both opportunities and risks.\n\nLegitimate uses include: creative tools for artists and designers, accessibility (text-to-speech for the disabled), education (historical figures 'speaking' in documentaries), entertainment (visual effects, game content), and productivity (AI writing assistants, content summarization). The technology democratizes content creation, making it accessible without specialized skills or expensive equipment.\n\nHowever, synthetic media raises serious concerns: disinformation and fake news (fabricated political speeches, fake evidence), fraud and scams (voice cloning for impersonation), copyright and attribution issues (who owns AI-generated art?), erosion of trust (if anything can be faked, nothing can be trusted), and the 'dead internet' phenomenon (AI content flooding platforms). The technology can be used to defame individuals, manipulate elections, create non-consensual pornography, and undermine shared reality.\n\nDetection of synthetic media is an ongoing arms race—as detectors improve, generators improve too. Authentication methods include watermarking, blockchain provenance, and detection algorithms, but none are foolproof. The social response involves media literacy education, platform policies, and legal frameworks, but these lag behind technology.\n\nSynthetic media is central to debates about internet authenticity, the future of creativity, and trust in digital information. It exemplifies the double-edged nature of AI: powerful creative tool or existential threat to truth?",
-  "tags": [
-    "ai",
-    "technology",
-    "media",
-    "deepfakes",
-    "misinformation",
-    "authenticity",
-    "ethics"
-  ],
-  "category": "AI",
-  "icon": "FaVideo",
-  "featured": false,
-  "aliases": [
-    "AI-Generated Content",
-    "Deepfakes",
-    "AI Media",
-    "Generative Media"
-  ],
-  "relatedConcepts": [
-    "dead-internet-theory",
-    "generative-ai",
-    "large-language-models",
-    "misinformation",
-    "deep-learning",
-    "text-to-image"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Synthetic Media - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Synthetic_media",
-      "type": "website"
-    },
-    {
-      "title": "Deepfake - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Deepfake",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-06",
-  "dateModified": "2026-01-06"
+    "id": "synthetic-media",
+    "name": "Synthetic Media",
+    "summary": "Media content generated or significantly manipulated using artificial intelligence, including deepfakes, AI-generated images, text, audio, and video that can be indistinguishable from human-created content.",
+    "explanation": "Synthetic Media refers to any media content—images, video, audio, or text—that is created or substantially modified using artificial intelligence and machine learning techniques. This includes deepfakes (AI face-swapped videos), AI-generated art (Midjourney, DALL-E, Stable Diffusion), text generation (GPT models), voice cloning, and fully synthetic video. The defining characteristic is that the content appears authentic but was not created by traditional human means.\n\nThe technology has advanced rapidly, making synthetic media increasingly difficult to distinguish from authentic content. Modern AI can generate photorealistic images of people who don't exist, clone voices from minutes of audio, write convincing articles in any style, and create videos of people saying things they never said. This creates both opportunities and risks.\n\nLegitimate uses include: creative tools for artists and designers, accessibility (text-to-speech for the disabled), education (historical figures 'speaking' in documentaries), entertainment (visual effects, game content), and productivity (AI writing assistants, content summarization). The technology democratizes content creation, making it accessible without specialized skills or expensive equipment.\n\nHowever, synthetic media raises serious concerns: disinformation and fake news (fabricated political speeches, fake evidence), fraud and scams (voice cloning for impersonation), copyright and attribution issues (who owns AI-generated art?), erosion of trust (if anything can be faked, nothing can be trusted), and the 'dead internet' phenomenon (AI content flooding platforms). The technology can be used to defame individuals, manipulate elections, create non-consensual pornography, and undermine shared reality.\n\nDetection of synthetic media is an ongoing arms race—as detectors improve, generators improve too. Authentication methods include watermarking, blockchain provenance, and detection algorithms, but none are foolproof. The social response involves media literacy education, platform policies, and legal frameworks, but these lag behind technology.\n\nSynthetic media is central to debates about internet authenticity, the future of creativity, and trust in digital information. It exemplifies the double-edged nature of AI: powerful creative tool or existential threat to truth?",
+    "tags": [
+        "ai",
+        "technology",
+        "media",
+        "deepfakes",
+        "misinformation",
+        "authenticity",
+        "ethics"
+    ],
+    "category": "AI",
+    "icon": "FaVideo",
+    "featured": false,
+    "aliases": [
+        "AI-Generated Content",
+        "Deepfakes",
+        "AI Media",
+        "Generative Media"
+    ],
+    "relatedConcepts": [
+        "dead-internet-theory",
+        "generative-ai",
+        "large-language-models",
+        "deep-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Synthetic Media - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Synthetic_media",
+            "type": "website"
+        },
+        {
+            "title": "Deepfake - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Deepfake",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-06",
+    "dateModified": "2026-01-06"
 }

@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Generates a sitemap.xml for the concepts website.
  * Includes the homepage and all concept detail pages.

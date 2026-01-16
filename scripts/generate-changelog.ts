@@ -1,3 +1,4 @@
+#!/usr/bin/env bun
 /**
  * Generates or updates CHANGELOG.md using conventional-changelog.
  * Usage: npx tsx scripts/generate-changelog.ts

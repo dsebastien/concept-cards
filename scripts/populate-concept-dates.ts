@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Populates datePublished and dateModified fields for all concept JSON files
  * using git history to determine the actual dates.

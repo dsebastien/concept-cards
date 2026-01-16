@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * Extracts book references from the references array into a dedicated books array.
  * Books are identified by type: "book" in references.
