@@ -1,0 +1,25 @@
+{
+    "id": "cross-site-scripting",
+    "name": "Cross-Site Scripting",
+    "summary": "An attack that injects malicious scripts into web pages viewed by other users",
+    "explanation": "Cross-Site Scripting (XSS) is a web security vulnerability that allows attackers to inject malicious client-side scripts into web pages viewed by other users. When victims visit the compromised page, the injected script executes in their browser with the same privileges as legitimate scripts, enabling attackers to steal session cookies, capture keystrokes, redirect users to malicious sites, or perform actions on behalf of victims.\n\nXSS attacks come in three main forms: Stored XSS (persistent), where malicious scripts are permanently stored on target servers (like in database fields or comment sections); Reflected XSS (non-persistent), where scripts are reflected off web servers through URLs or form submissions; and DOM-based XSS, where the vulnerability exists in client-side code rather than server-side. Each type exploits the browser's trust in content received from the server.\n\nNotable XSS attacks include the Samy worm (2005), which spread across MySpace by adding a million friends in 20 hours through stored XSS. The TweetDeck XSS vulnerability (2014) caused automatic retweeting of malicious tweets. The British Airways breach (2018) used XSS techniques to skim payment card data from 380,000 customers.\n\nDefenses include proper output encoding (HTML, JavaScript, URL, CSS contexts), input validation, implementing Content Security Policy (CSP) headers to restrict script sources, using HTTPOnly and Secure flags on cookies, employing modern frameworks that auto-escape output, and sanitizing rich-text content with libraries like DOMPurify. Regular security testing and code reviews are essential for identifying XSS vulnerabilities.",
+    "tags": ["security", "attacks", "web-security", "vulnerabilities", "javascript"],
+    "category": "Concepts",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": ["XSS", "XSS Attack"],
+    "relatedConcepts": ["sql-injection", "csrf", "defensive-programming"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Cross-site scripting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cross-site_scripting",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

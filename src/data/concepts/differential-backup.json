@@ -1,0 +1,38 @@
+{
+    "id": "differential-backup",
+    "name": "Differential Backup",
+    "summary": "A backup method that copies all data changed since the last full backup.",
+    "explanation": "Differential backup is a data protection strategy that captures all files and data that have changed since the most recent full backup. Unlike incremental backups that only capture changes since the last backup of any type, differential backups always reference the last full backup as their baseline.\n\n**How it works**:\n\nAfter a full backup is created, each differential backup copies everything that has changed since that full backup. This means differential backups grow progressively larger over time until the next full backup resets the baseline.\n\n**Advantages**:\n- **Faster restoration**: Recovery requires only the last full backup plus the most recent differential\n- **Simpler recovery process**: No chain of multiple backups to reconstruct\n- **Less vulnerable to chain corruption**: Only two backup sets needed for complete recovery\n- **Good balance**: Offers middle ground between full and incremental approaches\n\n**Disadvantages**:\n- **Growing backup size**: Each differential includes all changes since full backup\n- **Longer backup times**: Takes more time than incremental as dataset ages\n- **More storage needed**: Requires more space than incremental strategy\n\n**When to use differential backups**:\n- When fast recovery time is critical\n- When backup window allows for growing backup sizes\n- When simplicity of restoration is prioritized\n- For systems where data changes moderately between full backups\n\n**Typical strategy**:\nPerform weekly full backups with daily differentials. This provides straightforward recovery (restore Sunday's full plus the most recent daily differential) while limiting differential growth to one week's worth of changes.",
+    "tags": [
+        "backup",
+        "data-protection",
+        "recovery",
+        "storage"
+    ],
+    "category": "Concepts",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Differential Backup Strategy",
+        "Cumulative Backup"
+    ],
+    "relatedConcepts": [
+        "3-2-1-backup-rule",
+        "incremental-backup",
+        "full-backup",
+        "disaster-recovery"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Differential backup - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Differential_backup",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

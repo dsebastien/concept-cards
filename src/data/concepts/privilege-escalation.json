@@ -1,0 +1,25 @@
+{
+    "id": "privilege-escalation",
+    "name": "Privilege Escalation",
+    "summary": "Exploiting vulnerabilities to gain higher access levels than originally authorized.",
+    "explanation": "Privilege escalation is a class of attacks where an adversary gains elevated access to resources that should normally be protected. It's a critical phase in many cyber attacks, allowing attackers who have gained initial foothold to expand their control and access sensitive systems or data.\n\nThere are two primary types: vertical escalation (elevating privileges to higher levels, such as regular user to administrator) and horizontal escalation (accessing resources of other users at the same privilege level). Both pose significant security risks.\n\nCommon privilege escalation techniques include: exploiting software vulnerabilities (buffer overflows, use-after-free bugs), misconfigurations (weak file permissions, overly permissive sudo rules), credential theft (password reuse, cached credentials), token manipulation (access token impersonation), DLL hijacking, unquoted service paths, kernel exploits, and abusing legitimate administrative tools (Living off the Land).\n\nIn Windows environments, attackers target vulnerabilities in services, scheduled tasks, and registry permissions. In Linux/Unix, they exploit SUID binaries, cron jobs, and kernel vulnerabilities. Cloud environments introduce additional vectors through IAM misconfigurations and metadata service abuse.\n\nNotable examples include EternalBlue (enabling SYSTEM-level access) and numerous local privilege escalation CVEs patched monthly across operating systems.\n\nDefenses include: implementing least privilege principles, regular patching, removing unnecessary admin rights, using privilege access management (PAM) solutions, monitoring for privilege escalation indicators, hardening system configurations, and employing endpoint detection and response (EDR) tools that detect escalation attempts.",
+    "tags": ["security", "attacks", "access-control", "vulnerabilities", "exploitation"],
+    "category": "Concepts",
+    "icon": "FaLevelUpAlt",
+    "featured": false,
+    "aliases": ["Privilege Elevation", "Vertical/Horizontal Escalation"],
+    "relatedConcepts": ["social-engineering"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Privilege escalation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Privilege_escalation",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

@@ -1,0 +1,40 @@
+{
+    "id": "good-enough-principle",
+    "name": "Good Enough Principle",
+    "summary": "The practice of accepting solutions that meet requirements adequately rather than pursuing optimal or perfect outcomes.",
+    "explanation": "The Good Enough Principle is a decision-making approach that deliberately accepts adequate solutions rather than pursuing optimal ones. It recognizes that the cost of perfection often exceeds its benefits, and that 'good enough' frequently is good enough.\n\n**The Economics of Perfection:**\nImprovement follows diminishing returns. Going from 80% to 90% quality might take as much effort as going from 0% to 80%. Going from 90% to 95% takes even more. At some point, the marginal improvement isn't worth the marginal cost.\n\n**When Good Enough Is Optimal:**\n- **Reversible decisions** - You can improve later if needed\n- **Time-sensitive work** - Speed matters more than perfection\n- **Learning situations** - Feedback from 'good enough' teaches more than theoretical perfection\n- **Low-stakes outcomes** - Not everything deserves maximum effort\n- **Resource constraints** - Time and energy are finite\n\n**The Satisficing Strategy:**\nHerbert Simon coined 'satisficing' (satisfy + suffice) to describe choosing the first option that meets minimum criteria rather than exhaustively searching for the best. Satisficers are often happier than maximizers who always seek the optimal choice.\n\n**Implementation:**\n1. Define 'good enough' criteria upfront\n2. Stop when criteria are met\n3. Resist the urge to over-optimize\n4. Redirect saved effort to other priorities\n\n**Cautions:**\n- Some domains require excellence (safety, medicine, law)\n- 'Good enough' shouldn't mean careless or lazy\n- Standards should be conscious choices, not excuses\n- Cumulative 'good enough' can create technical/quality debt\n\n**The Wisdom:**\nPerfectionism often masks fear of judgment or completion anxiety. The Good Enough Principle liberates action by accepting that done and adequate beats imagined and perfect.",
+    "tags": ["decision-making", "productivity", "principles", "pragmatism", "efficiency"],
+    "category": "Principles",
+    "icon": "FaThumbsUp",
+    "featured": false,
+    "aliases": ["Good Enough", "Adequate Solution", "Satisficing Principle"],
+    "relatedConcepts": [
+        "satisficing",
+        "perfectionism",
+        "done-is-better-than-perfect",
+        "pareto-principle",
+        "worse-is-better",
+        "diminishing-returns",
+        "opportunity-cost",
+        "bias-for-action",
+        "minimum-viable-product"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Satisficing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Satisficing",
+            "type": "website"
+        },
+        {
+            "title": "Perfect is the enemy of good - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

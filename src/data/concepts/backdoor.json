@@ -1,0 +1,25 @@
+{
+    "id": "backdoor",
+    "name": "Backdoor",
+    "summary": "A hidden method of bypassing normal authentication to gain unauthorized access to a system",
+    "explanation": "A backdoor is a covert method of bypassing normal authentication or security controls to gain access to a computer system, network, or application. Backdoors can be deliberately installed by developers (sometimes legitimately for maintenance, often problematically), inserted by attackers after initial compromise, or created through exploitation of unintentional vulnerabilities. They provide persistent, often undetectable access that survives system reboots and password changes.\n\nBackdoors take various forms. Software backdoors are hidden code in applications that allows unauthorized access, sometimes disguised as debugging features or administrative functions. Malware backdoors are installed by trojans or other malware to maintain access after initial infection. Hardware backdoors can be built into chips, firmware, or devices during manufacturing. Network backdoors open covert communication channels that bypass firewalls. Some backdoors use sophisticated techniques like covert channels that hide communication within legitimate traffic.\n\nReal-world backdoor incidents have had significant impact. The SolarWinds attack (2020) inserted a backdoor into software updates that compromised thousands of organizations including US government agencies. The Dual EC DRBG controversy involved alleged NSA-created weaknesses in an encryption standard. The Juniper Networks incident revealed unauthorized code that allowed decryption of VPN traffic. Many consumer routers have been found to contain manufacturer backdoors.\n\nProtection against backdoors is challenging because they're designed to be hidden. Use software from reputable sources and verify integrity through checksums and signatures. Keep systems updated, as patches often close backdoor vulnerabilities. Monitor network traffic for unusual outbound connections. Implement application whitelisting to prevent unauthorized code execution. Conduct regular security audits and penetration testing. For high-security environments, consider hardware from trusted supply chains and firmware verification. Employ behavioral analysis tools that can detect unusual system activity indicative of backdoor access.",
+    "tags": ["security", "access", "persistence", "vulnerabilities"],
+    "category": "Concepts",
+    "icon": "FaDoorOpen",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": ["malware", "trojan-horse", "rootkit"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Backdoor (computing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backdoor_(computing)",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

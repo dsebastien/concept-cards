@@ -1,0 +1,25 @@
+{
+    "id": "spyware",
+    "name": "Spyware",
+    "summary": "Malware that secretly monitors user activity and collects sensitive information without consent",
+    "explanation": "Spyware is malware designed to secretly observe and collect information about a user's activities without their knowledge or consent. It operates covertly in the background, gathering sensitive data such as browsing habits, login credentials, financial information, personal communications, and even keystrokes. This data is then transmitted to third parties who may use it for targeted advertising, identity theft, corporate espionage, or surveillance.\n\nSpyware employs various techniques to gather information. Keyloggers record every keystroke to capture passwords and messages. Screen capture spyware takes periodic screenshots of user activity. Browser hijackers redirect web traffic and monitor browsing behavior. System monitors track application usage, files accessed, and communications. Some advanced spyware can activate webcams and microphones for audio-visual surveillance. Mobile spyware is particularly invasive, potentially accessing GPS location, call logs, text messages, and app data.\n\nReal-world spyware has targeted both individuals and organizations. Pegasus, developed by NSO Group, has been used by governments to surveil journalists, activists, and political opponents by exploiting smartphone vulnerabilities. FinFisher has been sold to law enforcement and intelligence agencies worldwide. Corporate espionage spyware has been used to steal trade secrets and monitor competitors.\n\nProtection against spyware requires vigilance on multiple fronts. Use reputable anti-spyware software and keep it updated. Be cautious about what software you install and what permissions you grant. Regularly review running processes and installed applications for suspicious entries. Use strong, unique passwords and enable two-factor authentication. On mobile devices, only install apps from official stores and be wary of apps requesting excessive permissions. Consider using privacy-focused browsers and search engines. Keep your operating system and all software updated to patch vulnerabilities that spyware might exploit.",
+    "tags": ["security", "malware", "privacy", "surveillance"],
+    "category": "Concepts",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": ["malware", "keylogger", "adware"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Spyware - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Spyware",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

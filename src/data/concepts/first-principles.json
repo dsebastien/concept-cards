@@ -1,8 +1,8 @@
 {
     "id": "first-principles",
     "name": "First Principles Thinking",
-    "summary": "Breaking down problems to fundamental truths and building up from there.",
-    "explanation": "First Principles thinking is a problem-solving approach that breaks down complex problems to their most fundamental truths, then builds up from there. Instead of reasoning by analogy (what others do), you identify the core elements and construct new solutions. This approach, famously used by Elon Musk, helps escape conventional thinking and find innovative solutions. By starting from first principles, creating atomic notes, and thinking in systems, you can combine ideas to form more complex ones.",
+    "summary": "A reasoning approach that breaks down complex problems to their most fundamental truths and rebuilds understanding from there.",
+    "explanation": "First principles thinking is a powerful reasoning approach that strips away assumptions to identify the most fundamental truths about a problem, then builds understanding and solutions from that foundation. Rather than reasoning by analogy (copying what others do or what has worked before), first principles thinking asks: 'What do we know to be absolutely true? What are the basic elements?'\n\nThe method originates from philosophy, particularly Aristotle, who defined a first principle as 'the first basis from which a thing is known.' In modern usage, it was popularized by innovators like Elon Musk, who used it to challenge assumptions in industries like space travel and electric vehicles.\n\n**The Process:**\n1. **Identify assumptions** - List everything you believe about the problem\n2. **Break down to fundamentals** - Question each assumption until you reach undeniable truths\n3. **Create new solutions** - Build up from these fundamentals without being constrained by convention\n\n**Example:** Instead of assuming batteries are expensive because that's the market price, Musk asked: 'What are batteries made of? What do those raw materials cost?' This revealed the true cost floor and opportunities for innovation.\n\n**Benefits:**\n- Escapes conventional thinking and inherited assumptions\n- Enables breakthrough innovations\n- Reveals hidden opportunities others miss\n- Creates deeper understanding of problems\n\n**Challenges:**\n- Time and energy intensive\n- Requires significant domain knowledge\n- Not always necessary for routine decisions\n\nFirst principles thinking pairs well with the Feynman Technique (explaining to verify understanding) and systems thinking (understanding how fundamentals interact).",
     "tags": [
         "mental-models",
         "problem-solving",
@@ -13,13 +13,22 @@
     "icon": "FaCubes",
     "featured": false,
     "aliases": [
-        "Fundamental thinking"
+        "Fundamental Thinking",
+        "First Principles Reasoning",
+        "Reasoning from First Principles"
     ],
     "relatedConcepts": [
         "critical-thinking",
         "mental-models",
         "systems-thinking",
-        "einstellung-effect"
+        "einstellung-effect",
+        "reasoning-by-analogy",
+        "first-principles-learning",
+        "feynman-technique",
+        "socratic-method",
+        "five-whys",
+        "root-cause-analysis",
+        "reductio-ad-absurdum"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/First+principle"

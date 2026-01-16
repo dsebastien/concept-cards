@@ -1,0 +1,25 @@
+{
+    "id": "advanced-persistent-threat",
+    "name": "Advanced Persistent Threat",
+    "summary": "A prolonged, targeted cyberattack where intruders gain access and remain undetected for extended periods.",
+    "explanation": "An Advanced Persistent Threat (APT) represents the most sophisticated category of cyber threats, characterized by well-funded, highly skilled attackers who pursue specific objectives over extended timeframes. Unlike opportunistic attacks, APTs are methodical operations often backed by nation-states, organized crime groups, or corporate espionage units.\n\nThe 'advanced' aspect refers to the attackers' use of multiple attack vectors, custom malware, and zero-day exploits. 'Persistent' describes their long-term commitment to maintaining access, often for months or years, while continuously adapting to avoid detection. 'Threat' emphasizes that these are coordinated human efforts, not automated attacks.\n\nAPT attacks typically follow a kill chain: reconnaissance, initial compromise (often via spear-phishing or supply chain attacks), establishing persistence, privilege escalation, lateral movement through the network, data collection, and exfiltration. Notable examples include Stuxnet (targeting Iranian nuclear facilities), APT29/Cozy Bear (Russian intelligence), and APT41 (Chinese state-sponsored group).\n\nDefending against APTs requires a defense-in-depth strategy: network segmentation, robust monitoring and anomaly detection, endpoint detection and response (EDR), threat intelligence integration, regular security assessments, and incident response planning. Organizations must assume breach and focus on detection and containment rather than solely prevention.",
+    "tags": ["security", "attacks", "threats", "espionage", "cybersecurity"],
+    "category": "Concepts",
+    "icon": "FaUserSecret",
+    "featured": false,
+    "aliases": ["APT", "Targeted Attack"],
+    "relatedConcepts": ["social-engineering", "phishing", "spear-phishing"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Advanced persistent threat - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Advanced_persistent_threat",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

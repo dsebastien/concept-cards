@@ -1,0 +1,62 @@
+{
+    "id": "myers-briggs-type-indicator",
+    "name": "Myers-Briggs Type Indicator",
+    "summary": "A personality assessment categorizing individuals into 16 types based on four dichotomies: Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, and Judging/Perceiving.",
+    "explanation": "The Myers-Briggs Type Indicator (MBTI) is one of the world's most widely used personality assessments, developed by Katharine Cook Briggs and her daughter Isabel Briggs Myers based on Carl Jung's theory of psychological types.\n\nThe framework categorizes personalities along four dichotomies:\n\n**1. Extraversion (E) vs. Introversion (I)**\nWhere you direct and receive energy. Extraverts gain energy from external interaction; introverts from internal reflection.\n\n**2. Sensing (S) vs. Intuition (N)**\nHow you take in information. Sensors focus on concrete facts and present realities; intuitives on patterns, possibilities, and future implications.\n\n**3. Thinking (T) vs. Feeling (F)**\nHow you make decisions. Thinkers prioritize logic and objective analysis; feelers consider values and impact on people.\n\n**4. Judging (J) vs. Perceiving (P)**\nHow you approach the external world. Judgers prefer structure, planning, and closure; perceivers prefer flexibility, spontaneity, and keeping options open.\n\nThese combinations yield 16 personality types (e.g., INTJ, ENFP, ISTP). Each type has characteristic strengths, blind spots, communication styles, and work preferences.\n\n**Practical applications:**\n- Self-awareness and personal development\n- Team building and understanding colleagues\n- Career guidance and job fit\n- Improving communication across different types\n- Leadership development\n\n**Important caveats:**\nWhile extremely popular in business and personal development, MBTI faces scientific criticism for low test-retest reliability (people often get different results on retakes) and lack of predictive validity compared to the Big Five model. It's best used as a conversation starter for self-reflection rather than a definitive classification. Types are preferences, not boxes—everyone uses all eight functions to varying degrees.",
+    "tags": [
+        "personality",
+        "assessments",
+        "self-discovery",
+        "psychology",
+        "teams",
+        "communication",
+        "careers",
+        "jung"
+    ],
+    "category": "Frameworks",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "MBTI",
+        "Myers-Briggs",
+        "16 Personalities",
+        "Briggs Myers"
+    ],
+    "relatedConcepts": [
+        "psychological-types",
+        "cognitive-functions",
+        "introversion",
+        "extraversion",
+        "big-five-personality-traits",
+        "sparketype",
+        "enneagram"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Gifts Differing: Understanding Personality Type by Isabel Briggs Myers",
+            "url": "https://www.amazon.com/dp/089106074X?tag=dsebastien00-20"
+        },
+        {
+            "title": "Please Understand Me II: Temperament, Character, Intelligence by David Keirsey",
+            "url": "https://www.amazon.com/dp/1885705026?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Myers–Briggs Type Indicator - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator",
+            "type": "website"
+        }
+    ],
+    "tutorials": [
+        {
+            "title": "16Personalities Free Test",
+            "url": "https://www.16personalities.com/free-personality-test",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

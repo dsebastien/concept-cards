@@ -1,0 +1,25 @@
+{
+    "id": "firewall",
+    "name": "Firewall",
+    "summary": "A network security system that monitors and controls incoming and outgoing traffic based on security rules.",
+    "explanation": "A firewall is a network security device or software that acts as a barrier between a trusted internal network and untrusted external networks, such as the Internet. It monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies. At its most basic, a firewall is essentially a gatekeeper that decides which traffic is allowed to pass and which should be blocked.\n\nFirewalls operate by examining data packets and comparing them against a set of rules. These rules can be based on various criteria including IP addresses, domain names, protocols, ports, and specific keywords or patterns in the data. Modern firewalls have evolved from simple packet filters to sophisticated systems capable of deep packet inspection, application-layer filtering, and integration with threat intelligence feeds.\n\nThere are several types of firewalls: packet-filtering firewalls examine packets in isolation; stateful inspection firewalls track the state of active connections; proxy firewalls act as intermediaries between systems; and next-generation firewalls (NGFWs) combine traditional firewall technology with additional functionality like encrypted traffic inspection and intrusion prevention.\n\nFirewalls are essential for any security strategy, serving as the first line of defense against cyber threats. However, they work best as part of a defense-in-depth approach, complementing other security measures such as intrusion detection systems, antivirus software, and security awareness training. Proper configuration and regular rule updates are critical for maintaining firewall effectiveness.",
+    "tags": ["security", "networks", "defense", "infrastructure", "protection"],
+    "category": "Concepts",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": ["Network Firewall"],
+    "relatedConcepts": ["defense-in-depth", "intrusion-detection-system", "ddos-attack"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Firewall (computing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Firewall_(computing)",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

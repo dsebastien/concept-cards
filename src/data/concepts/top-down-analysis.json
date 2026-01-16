@@ -1,0 +1,44 @@
+{
+    "id": "top-down-analysis",
+    "name": "Top-Down Analysis",
+    "summary": "An analytical approach that starts with the big picture and progressively decomposes it into smaller, more detailed components.",
+    "explanation": "Top-down analysis is a problem-solving and analytical approach that begins with a high-level overview and systematically breaks it down into increasingly specific details. It moves from the general to the particular, from abstract to concrete.\n\n**How it works:**\n1. Start with the overall system, goal, or problem\n2. Identify major components or categories\n3. Break each component into sub-components\n4. Continue decomposing until reaching actionable or atomic elements\n\n**Applications:**\n\n**Software development**: Design the architecture first, then modules, then functions, then code. Top-down design creates a blueprint before implementation.\n\n**Business strategy**: Define company mission, then strategic objectives, then departmental goals, then individual tasks.\n\n**Writing**: Start with thesis, then main arguments, then supporting points, then paragraphs.\n\n**Problem-solving**: Understand the whole problem, identify major factors, then drill into specifics.\n\n**Strengths:**\n- Maintains alignment with overall goals\n- Provides clear structure and organization\n- Easier to communicate and delegate\n- Prevents getting lost in details prematurely\n- Good for well-understood domains\n\n**Limitations:**\n- Requires sufficient understanding of the whole system\n- May miss important details or exceptions\n- Can impose structure that doesn't fit reality\n- Less effective for novel or poorly understood problems\n\nTop-down analysis works best in combination with bottom-up analysis—using both approaches provides complementary perspectives and more robust understanding.",
+    "tags": [
+        "analysis",
+        "thinking",
+        "problem-solving",
+        "strategy",
+        "planning",
+        "decomposition"
+    ],
+    "category": "Thinking",
+    "icon": "FaArrowDown",
+    "featured": false,
+    "aliases": [
+        "Top-Down Approach",
+        "Top-Down Design",
+        "Top-Down Thinking",
+        "Deductive Analysis"
+    ],
+    "relatedConcepts": [
+        "bottom-up-analysis",
+        "decomposition",
+        "analytical-thinking",
+        "first-principles",
+        "systems-thinking",
+        "reductionism"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Top-down and bottom-up design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "least-privilege",
+    "name": "Least Privilege",
+    "summary": "The principle of giving users and systems only the minimum access rights needed to perform their tasks",
+    "explanation": "The Principle of Least Privilege (PoLP) states that every user, program, or system should operate with only the minimum permissions necessary to complete its intended function. By limiting access rights, organizations reduce the potential damage from accidents, errors, or malicious actions.\n\nThis principle applies at multiple levels: user accounts should have only the permissions needed for their job role, applications should run with minimal system privileges, and network segments should restrict communication to necessary connections only. A developer doesn't need database admin rights, and a web server doesn't need root access to the entire filesystem.\n\nImplementing least privilege involves: role-based access control (RBAC) to assign permissions by job function, just-in-time access for temporary elevation when needed, regular access reviews to remove unnecessary permissions, and separation of duties to prevent any single person from having excessive control.\n\nThe benefits are substantial. If an account is compromised, attackers can only access what that account could access. Insider threats are limited by the same constraints. Accidental damage from user errors is contained. Compliance requirements often mandate least privilege implementation.\n\nReal-world example: Instead of giving all employees admin access to company systems, each employee receives access only to the specific applications and data their role requires. When they change roles or leave, their access is promptly adjusted or revoked.",
+    "tags": ["security", "access-control", "principles", "authorization"],
+    "category": "Principles",
+    "icon": "FaUserLock",
+    "featured": false,
+    "aliases": ["Principle of Least Privilege", "PoLP", "Minimal Privilege", "Principle of Minimal Authority"],
+    "relatedConcepts": ["authorization", "authentication", "defense-in-depth"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Principle of least privilege - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Principle_of_least_privilege",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

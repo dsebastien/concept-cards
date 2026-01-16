@@ -1,0 +1,37 @@
+{
+    "id": "offline-backup",
+    "name": "Offline Backup",
+    "summary": "Backup media that is not continuously connected to the system, providing protection against online threats.",
+    "explanation": "Offline backup refers to backup media or systems that are not continuously connected to production systems or networks. Unlike always-online cloud backups or network-attached storage, offline backups are periodically connected for backup operations and then disconnected, reducing the window of vulnerability to cyberattacks.\n\n**Offline vs. air-gapped backups**:\n\nWhile often used interchangeably, there's a subtle distinction: offline backups may be connected periodically (even automatically) for backup operations, while air-gapped backups are completely isolated with no automated connection capability. Offline backups provide substantial protection with greater convenience.\n\n**Common offline backup methods**:\n\n- **External drives**: USB or Thunderbolt drives connected only during backup windows\n- **Tape systems**: LTO tape drives with removable cartridges\n- **Removable disk systems**: Hot-swappable drive bays with rotating media\n- **NAS with disconnect**: Network storage that can be isolated from the network\n\n**Benefits of offline backups**:\n- **Ransomware protection**: Disconnected media cannot be encrypted by malware\n- **Reduced attack surface**: Less exposure time to network-based threats\n- **Physical portability**: Can be transported to secure off-site locations\n- **Cost-effective**: Often less expensive than maintaining hot standby systems\n\n**Implementation considerations**:\n- **Backup scheduling**: Plan connection times to capture critical data\n- **Automation balance**: Some automation possible while maintaining offline status\n- **Physical security**: Protect offline media from theft or damage\n- **Media management**: Track and rotate multiple backup sets\n- **Testing**: Regularly verify restoration capabilities\n\n**Best practices**:\n- Maintain at least one truly offline copy as part of 3-2-1 strategy\n- Use encryption on offline media in case of physical theft\n- Document procedures for connecting and disconnecting backup media\n- Store offline backups in geographically separate locations\n- Consider environmental factors for media longevity (temperature, humidity)\n\nOffline backups balance security with practicality, offering strong protection against modern cyber threats while remaining manageable for most organizations.",
+    "tags": [
+        "backup",
+        "security",
+        "data-protection",
+        "resilience"
+    ],
+    "category": "Concepts",
+    "icon": "FaHdd",
+    "featured": false,
+    "aliases": [
+        "Disconnected Backup",
+        "Cold Backup Storage"
+    ],
+    "relatedConcepts": [
+        "air-gapped-backup",
+        "3-2-1-backup-rule",
+        "disaster-recovery"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Backup - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backup#Offline_backup",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

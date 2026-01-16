@@ -1,0 +1,38 @@
+{
+    "id": "air-gapped-backup",
+    "name": "Air-Gapped Backup",
+    "summary": "A backup stored on media physically disconnected from networks, protecting against remote attacks.",
+    "explanation": "An air-gapped backup is a data protection strategy where backup media is physically isolated from any network connection, creating an impenetrable barrier against remote cyberattacks, particularly ransomware. The term \"air gap\" refers to the literal gap of air between the backup storage and any connected systems.\n\n**Why air-gapped backups matter**:\n\nModern ransomware attacks specifically target backup systems to maximize damage and force victims to pay ransoms. By encrypting or destroying backups, attackers eliminate recovery options. Air-gapped backups provide a last line of defense that cannot be reached through network-based attacks.\n\n**Implementation approaches**:\n\n- **Removable media**: External hard drives, tapes, or USB drives physically disconnected after backup\n- **Tape rotation**: Regular tape backups with media stored offline in secure locations\n- **Scheduled disconnection**: Automated systems that disconnect backup storage after backup windows\n- **Physical vaults**: Off-site storage facilities with no network connectivity\n\n**Best practices**:\n- Rotate multiple backup sets to maintain recent and historical copies\n- Store air-gapped media in secure, climate-controlled locations\n- Test restoration from air-gapped backups regularly\n- Document and follow strict procedures for media handling\n- Combine with other backup strategies (following 3-2-1 rule)\n\n**Challenges and considerations**:\n- Longer backup and recovery times due to physical media handling\n- Requires disciplined processes and procedures\n- Higher operational overhead than online backups\n- Media degradation over time requires monitoring\n- Balance between protection and recovery speed\n\n**When air-gapped backups are essential**:\n- Critical systems in high-risk environments\n- Organizations handling sensitive data\n- Compliance requirements mandating offline copies\n- Protection against sophisticated ransomware threats\n\nAir-gapped backups represent the gold standard for ransomware protection, ensuring that at least one recovery path remains available even after the most devastating cyberattacks.",
+    "tags": [
+        "backup",
+        "security",
+        "ransomware-protection",
+        "isolation"
+    ],
+    "category": "Concepts",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Air Gap Backup",
+        "Isolated Backup",
+        "Disconnected Backup"
+    ],
+    "relatedConcepts": [
+        "3-2-1-backup-rule",
+        "offline-backup",
+        "disaster-recovery"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Air gap (networking) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Air_gap_(networking)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

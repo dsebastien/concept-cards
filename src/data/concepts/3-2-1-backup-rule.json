@@ -21,7 +21,17 @@
     "relatedConcepts": [
         "ssot",
         "data-portability",
-        "local-first"
+        "local-first",
+        "full-backup",
+        "incremental-backup",
+        "differential-backup",
+        "disaster-recovery",
+        "recovery-point-objective",
+        "air-gapped-backup",
+        "offline-backup",
+        "ransomware",
+        "data-availability",
+        "data-integrity"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/How+I+synchronize+and+backup+my+Obsidian+notes"

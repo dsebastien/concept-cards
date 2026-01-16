@@ -1,0 +1,38 @@
+{
+    "id": "recovery-point-objective",
+    "name": "Recovery Point Objective",
+    "summary": "The maximum acceptable amount of data loss measured in time, defining how frequently backups must occur.",
+    "explanation": "Recovery Point Objective (RPO) is a critical metric in disaster recovery and business continuity planning that defines the maximum acceptable amount of data loss measured in time. It answers the question: \"How much data can we afford to lose?\" and directly determines backup frequency requirements.\n\n**Understanding RPO**:\n\nRPO is measured as time before a disaster during which data might be lost. An RPO of 4 hours means the organization can tolerate losing up to 4 hours of data. If a system fails at 3:00 PM, the most recent recoverable backup must be from no earlier than 11:00 AM.\n\n**Factors influencing RPO decisions**:\n- **Data criticality**: How valuable is the data being protected?\n- **Regulatory requirements**: Legal mandates for data retention\n- **Business impact**: Financial cost of data loss\n- **Technical feasibility**: What backup frequency is achievable?\n- **Cost considerations**: More frequent backups require more resources\n\n**RPO tiers (examples)**:\n- **Near-zero RPO**: Real-time replication for mission-critical systems\n- **1-4 hours**: Frequent snapshots for important business applications\n- **24 hours**: Daily backups for standard business data\n- **48-72 hours**: Less frequent backups for archival or low-priority data\n\n**Implementation approaches by RPO**:\n- **Seconds/minutes**: Synchronous replication, continuous data protection\n- **Hours**: Frequent incremental backups, scheduled snapshots\n- **Days**: Daily full or differential backups\n\n**Relationship with RTO**:\nRPO and RTO (Recovery Time Objective) work together. RPO defines acceptable data loss; RTO defines acceptable downtime. Both metrics must align with business requirements and guide technology investments.\n\n**Best practices**:\n- Define RPO based on business impact analysis\n- Document RPO for each system/application\n- Implement backup schedules that meet RPO requirements\n- Test recovery to verify actual RPO achievement",
+    "tags": [
+        "backup",
+        "recovery",
+        "metrics",
+        "planning"
+    ],
+    "category": "Concepts",
+    "icon": "FaClock",
+    "featured": false,
+    "aliases": [
+        "RPO"
+    ],
+    "relatedConcepts": [
+        "recovery-time-objective",
+        "disaster-recovery",
+        "3-2-1-backup-rule",
+        "incremental-backup",
+        "business-continuity"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Recovery point objective - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Recovery_point_objective",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

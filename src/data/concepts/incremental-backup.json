@@ -1,0 +1,38 @@
+{
+    "id": "incremental-backup",
+    "name": "Incremental Backup",
+    "summary": "A backup method that only copies data changed since the last backup of any type.",
+    "explanation": "Incremental backup is a data protection strategy that copies only the files or data blocks that have changed since the most recent backup of any type (whether full, differential, or incremental). This approach minimizes storage requirements and backup time by avoiding redundant copies of unchanged data.\n\n**How it works**:\n\nAfter an initial full backup, each subsequent incremental backup captures only modifications made since the previous backup. The system typically uses file timestamps, archive bits, or block-level change tracking to identify what needs to be backed up.\n\n**Advantages**:\n- **Fastest backup time**: Only changed data is copied\n- **Minimal storage usage**: No redundant data across backup sets\n- **Reduced network bandwidth**: Ideal for cloud and remote backups\n- **Lower system impact**: Quick operations minimize disruption\n\n**Disadvantages**:\n- **Slower restoration**: Recovery requires the full backup plus all subsequent incrementals in sequence\n- **Chain dependency**: If any incremental in the chain is corrupted, later data may be unrecoverable\n- **Complex management**: More backup sets to track and maintain\n\n**Best practices**:\n- Perform periodic full backups to start fresh chains (weekly or monthly)\n- Verify backup integrity regularly\n- Store multiple copies following the 3-2-1 rule\n- Test restoration procedures periodically\n\nIncremental backups are ideal for organizations with large datasets, limited backup windows, or bandwidth constraints. They work well for daily backups between less frequent full backups, balancing protection with efficiency.",
+    "tags": [
+        "backup",
+        "data-protection",
+        "recovery",
+        "storage"
+    ],
+    "category": "Concepts",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Incremental Backup Strategy",
+        "Incremental Data Backup"
+    ],
+    "relatedConcepts": [
+        "3-2-1-backup-rule",
+        "differential-backup",
+        "full-backup",
+        "disaster-recovery"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Incremental backup - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Incremental_backup",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

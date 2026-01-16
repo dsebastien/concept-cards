@@ -1,0 +1,25 @@
+{
+    "id": "threat-modeling",
+    "name": "Threat Modeling",
+    "summary": "A structured approach to identifying, quantifying, and addressing security threats to a system.",
+    "explanation": "Threat modeling is a proactive security practice that systematically identifies potential threats, vulnerabilities, and attack vectors in a system, then prioritizes countermeasures based on risk. Rather than reacting to security issues after they occur, threat modeling anticipates problems during design and development, when fixes are significantly less costly and disruptive to implement.\n\nThe threat modeling process typically answers four key questions: What are we building? A clear understanding of the system architecture, data flows, trust boundaries, and assets. What can go wrong? Systematic identification of potential threats and attack scenarios. What are we going to do about it? Selection and prioritization of security controls and mitigations. Did we do a good enough job? Validation that the model is complete and mitigations are effective.\n\nSeveral frameworks guide threat modeling efforts. STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege) categorizes threats by type. DREAD (Damage, Reproducibility, Exploitability, Affected users, Discoverability) scores threat severity. Attack trees visualize how threats might be realized. PASTA (Process for Attack Simulation and Threat Analysis) provides a risk-centric methodology.\n\nThreat modeling is most valuable when integrated into the software development lifecycle, particularly during design phases. However, it remains useful for existing systems, especially before major changes or during security reviews. The practice benefits from diverse perspectives, combining security expertise with deep system knowledge.\n\nEffective threat models are living documents, updated as systems evolve and new threats emerge. They provide valuable input for security testing, guide security architecture decisions, support compliance requirements, and help communicate risk to stakeholders. While comprehensive threat modeling requires investment, even lightweight approaches yield significant security improvements compared to ad-hoc security measures.",
+    "tags": ["security", "analysis", "design", "risk", "planning"],
+    "category": "Techniques",
+    "icon": "FaCrosshairs",
+    "featured": false,
+    "aliases": ["Threat Analysis", "Security Modeling"],
+    "relatedConcepts": ["defense-in-depth", "vulnerability-assessment", "risk-management", "security-audit"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Threat model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Threat_model",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

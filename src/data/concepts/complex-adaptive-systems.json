@@ -1,0 +1,53 @@
+{
+    "id": "complex-adaptive-systems",
+    "name": "Complex Adaptive Systems",
+    "summary": "Systems composed of many interacting agents that adapt their behavior based on experience, resulting in emergent collective behavior and evolution over time.",
+    "explanation": "Complex Adaptive Systems (CAS) are systems composed of numerous interacting components (agents) that have the ability to adapt and learn from experience. Unlike complicated systems (which can be understood by analyzing parts), complex adaptive systems exhibit emergent behavior that cannot be predicted from the components alone.\n\n**Defining characteristics:**\n\n**Many interacting agents**: Components (people, cells, organizations) interact locally without central coordination.\n\n**Adaptation**: Agents modify their behavior based on experience and feedback from the environment.\n\n**Emergence**: System-level patterns and behaviors arise that no agent intends or controls.\n\n**Non-linearity**: Small changes can have large effects; large changes may have minimal impact.\n\n**Co-evolution**: Agents and environment mutually shape each other over time.\n\n**Examples:**\n- Economies (firms adapting to markets, markets shaped by firms)\n- Ecosystems (species adapting, niches emerging)\n- Immune systems (cells adapting to pathogens)\n- Cities (residents, businesses, infrastructure co-evolving)\n- The brain (neurons adapting connections based on experience)\n- Social networks (users and content mutually shaping each other)\n\n**Implications for management:**\n\n**Unpredictability**: Long-term prediction is inherently limited—plan for adaptation, not perfection.\n\n**Leverage points**: Small interventions in the right place can have outsized effects.\n\n**Unintended consequences**: Interventions propagate through the system in unexpected ways.\n\n**Probe and respond**: Experiment, observe effects, adapt—rather than analyze and execute.\n\n**The edge of chaos**: CAS often operate most effectively at the boundary between order and chaos—enough structure for stability, enough flexibility for adaptation.\n\nUnderstanding complex adaptive systems transforms how we approach strategy, leadership, and change management.",
+    "tags": [
+        "systems-thinking",
+        "complexity",
+        "emergence",
+        "adaptation",
+        "science",
+        "organizations"
+    ],
+    "category": "Frameworks",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "CAS",
+        "Adaptive Systems",
+        "Complex Systems"
+    ],
+    "relatedConcepts": [
+        "emergence",
+        "self-organization",
+        "complexity-theory",
+        "systems-thinking",
+        "feedback-loops",
+        "designing-for-emergence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Systems: A Primer by Donella Meadows",
+            "url": "https://www.amazon.com/dp/1603580557?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Complex adaptive system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Complex_adaptive_system",
+            "type": "website"
+        },
+        {
+            "title": "Santa Fe Institute - What is Complex Systems Science?",
+            "url": "https://www.santafe.edu/what-is-complex-systems-science",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

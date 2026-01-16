@@ -1,0 +1,25 @@
+{
+    "id": "business-email-compromise",
+    "name": "Business Email Compromise",
+    "summary": "A sophisticated scam targeting businesses to trick employees into transferring money or sensitive data.",
+    "explanation": "Business Email Compromise (BEC) is a type of cybercrime where attackers use email fraud to target organizations of all sizes. Unlike mass phishing campaigns, BEC attacks are highly targeted and often involve extensive reconnaissance to understand the target organization's structure, communication patterns, and business relationships.\n\nThe attack typically begins with the compromise of a legitimate business email account or the creation of a convincing lookalike domain. Attackers then impersonate executives, vendors, or trusted business partners to manipulate employees into transferring funds or disclosing sensitive information. Common scenarios include fake invoice scams, CEO fraud (urgent wire transfer requests), attorney impersonation, and payroll diversion schemes.\n\nBEC attacks are particularly dangerous because they often don't contain malware or malicious links, making them difficult for traditional security tools to detect. Instead, they rely on social engineering, exploiting trust relationships and authority structures within organizations. The FBI's Internet Crime Complaint Center consistently ranks BEC as one of the most financially damaging cybercrimes, with losses in the billions of dollars annually.\n\nDefenses include implementing multi-factor authentication, establishing verification procedures for financial transactions (especially out-of-band confirmation via phone), training employees to recognize suspicious requests, and deploying email authentication protocols like DMARC, DKIM, and SPF to prevent domain spoofing.",
+    "tags": ["security", "attacks", "fraud", "email", "social-engineering"],
+    "category": "Concepts",
+    "icon": "FaEnvelope",
+    "featured": false,
+    "aliases": ["BEC", "CEO Fraud", "Email Account Compromise"],
+    "relatedConcepts": ["social-engineering", "phishing", "spear-phishing", "whaling"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Business email compromise - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Business_email_compromise",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

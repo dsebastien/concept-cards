@@ -1,0 +1,25 @@
+{
+    "id": "ddos-attack",
+    "name": "DDoS Attack",
+    "summary": "An attack that overwhelms systems with traffic from multiple sources to make services unavailable",
+    "explanation": "A Distributed Denial of Service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service, or network by overwhelming it with a flood of Internet traffic from multiple distributed sources. Unlike a simple denial of service (DoS) attack that originates from a single source, DDoS attacks leverage many compromised computer systems as sources of attack traffic, making them much harder to mitigate.\n\nDDoS attacks typically work by utilizing botnets, networks of malware-infected devices controlled by attackers. These compromised machines, which can include computers, IoT devices, and servers, simultaneously send requests to the target. Common attack types include volumetric attacks (flooding bandwidth), protocol attacks (exploiting network protocol weaknesses), and application layer attacks (targeting specific services like HTTP).\n\nNotable DDoS attacks include the 2016 Dyn attack, which used the Mirai botnet to take down major websites including Twitter, Netflix, and Reddit. The 2018 GitHub attack reached 1.35 Tbps, the largest at that time. AWS reported mitigating a 2.3 Tbps attack in 2020. These attacks can cause significant financial losses, with average costs exceeding hundreds of thousands of dollars per incident.\n\nDefenses include DDoS protection services (Cloudflare, AWS Shield, Akamai), rate limiting, traffic analysis and filtering, anycast network distribution, redundant infrastructure, and incident response planning. Organizations should also maintain relationships with their ISPs for upstream filtering during attacks and implement web application firewalls (WAF) for application-layer protection.",
+    "tags": ["security", "attacks", "availability", "networks", "cybersecurity"],
+    "category": "Concepts",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": ["Distributed Denial of Service", "DDoS"],
+    "relatedConcepts": ["data-availability"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Denial-of-service attack - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Denial-of-service_attack",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

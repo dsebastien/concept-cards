@@ -1,0 +1,25 @@
+{
+    "id": "botnet",
+    "name": "Botnet",
+    "summary": "A network of compromised computers controlled remotely to perform coordinated malicious activities",
+    "explanation": "A botnet (from 'robot network') is a collection of internet-connected devices infected with malware that allows them to be controlled remotely by an attacker (known as a 'botmaster' or 'bot herder'). Each infected device is called a 'bot' or 'zombie.' Botnets can consist of hundreds to millions of compromised computers, servers, IoT devices, and mobile phones, forming a powerful distributed computing resource for cybercriminal activities.\n\nBotnets are used for various malicious purposes. Distributed Denial of Service (DDoS) attacks overwhelm targets with traffic from thousands of bots simultaneously. Spam campaigns send billions of unsolicited emails through infected machines, hiding the true source. Credential stuffing attacks test stolen username/password combinations against multiple services. Cryptocurrency mining hijacks computing resources across the botnet. Click fraud generates fake ad revenue by simulating human clicks. Data theft harvests personal and financial information from infected systems.\n\nNotorious botnets have demonstrated massive scale. Mirai (2016) primarily infected IoT devices and launched DDoS attacks that temporarily took down major internet services including Twitter, Netflix, and Reddit. Emotet evolved from banking malware into a massive botnet-for-hire, distributing other malware families. Storm botnet at its peak controlled millions of computers and was estimated to comprise 8% of all malware worldwide. Conficker infected up to 15 million computers and persists today.\n\nProtection against becoming part of a botnet requires basic security hygiene. Keep all systems and software updated, especially IoT devices which are often neglected. Use strong, unique passwords and change default credentials on devices. Install reputable security software and keep it updated. Monitor network traffic for unusual patterns. Segment IoT devices on separate network segments. Disable unnecessary features and services on devices. For organizations, implement network monitoring and intrusion detection systems to identify botnet command-and-control traffic.",
+    "tags": ["security", "cybersecurity", "networks", "malware"],
+    "category": "Concepts",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": ["Robot Network", "Zombie Network"],
+    "relatedConcepts": ["malware", "computer-worm", "cryptojacking"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Botnet - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Botnet",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "recovery-time-objective",
+    "name": "Recovery Time Objective",
+    "summary": "The maximum acceptable time to restore systems after a disaster, defining recovery speed requirements.",
+    "explanation": "Recovery Time Objective (RTO) is a fundamental metric in disaster recovery and business continuity planning that defines the maximum acceptable duration of time that a system, application, or function can be down after a disaster or disruption. It answers the question: \"How quickly must we recover?\" and drives decisions about recovery infrastructure investments.\n\n**Understanding RTO**:\n\nRTO is measured from the moment of disruption to the point when the system is restored to operational status. An RTO of 2 hours means the organization must restore functionality within 2 hours of an incident occurring, or face unacceptable business consequences.\n\n**Factors influencing RTO decisions**:\n- **Business impact**: Revenue loss, productivity loss, customer impact per hour of downtime\n- **Regulatory requirements**: Mandated availability levels for certain industries\n- **Contractual obligations**: Service level agreements with customers\n- **Reputational risk**: Brand damage from extended outages\n- **Cost-benefit analysis**: Investment required vs. business value protected\n\n**RTO tiers (examples)**:\n- **Near-zero RTO**: Automatic failover for critical systems (minutes)\n- **1-4 hours**: Hot standby systems for important applications\n- **4-24 hours**: Warm recovery for standard business functions\n- **24-72 hours**: Cold recovery for lower-priority systems\n\n**Achieving different RTOs**:\n- **Minutes**: Hot sites, real-time replication, automatic failover\n- **Hours**: Warm sites, rapid restoration from recent backups\n- **Days**: Cold sites, basic backup restoration procedures\n\n**Relationship with RPO**:\nRTO (how fast to recover) and RPO (how much data loss is acceptable) together define disaster recovery requirements. A system might have a 4-hour RTO but a 1-hour RPO, requiring frequent backups but moderate recovery speed.\n\n**Best practices**:\n- Conduct business impact analysis to determine appropriate RTO per system\n- Design recovery procedures to meet RTO targets\n- Test regularly to verify RTO achievement\n- Document and communicate RTO expectations clearly",
+    "tags": [
+        "recovery",
+        "metrics",
+        "planning",
+        "availability"
+    ],
+    "category": "Concepts",
+    "icon": "FaClock",
+    "featured": false,
+    "aliases": [
+        "RTO"
+    ],
+    "relatedConcepts": [
+        "recovery-point-objective",
+        "disaster-recovery",
+        "data-availability",
+        "business-continuity"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Recovery time objective - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Recovery_time_objective",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

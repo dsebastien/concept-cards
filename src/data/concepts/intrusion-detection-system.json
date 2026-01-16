@@ -1,0 +1,25 @@
+{
+    "id": "intrusion-detection-system",
+    "name": "Intrusion Detection System",
+    "summary": "A system that monitors networks or hosts for malicious activity and policy violations.",
+    "explanation": "An Intrusion Detection System (IDS) is a security technology designed to detect unauthorized access, misuse, and anomalies in computer networks and systems. Unlike firewalls that act as gatekeepers blocking traffic based on rules, an IDS passively monitors and analyzes network traffic or system activities to identify potential security breaches, alerting administrators when suspicious activity is detected.\n\nThere are two primary types of IDS: Network-based Intrusion Detection Systems (NIDS) monitor network traffic for all devices on a network segment, analyzing packet headers and payloads for attack signatures or anomalous patterns. Host-based Intrusion Detection Systems (HIDS) run on individual hosts, monitoring system logs, file integrity, and application behavior for signs of compromise.\n\nIDS technologies use two main detection methods. Signature-based detection compares observed activity against a database of known attack patterns, offering high accuracy for known threats but unable to detect novel attacks. Anomaly-based detection establishes a baseline of normal behavior and flags deviations, capable of detecting new threats but prone to false positives.\n\nModern IDS solutions often evolve into Intrusion Prevention Systems (IPS), which not only detect but actively block threats. Many organizations deploy IDS as part of a Security Information and Event Management (SIEM) system, correlating alerts with other security data for comprehensive threat visibility.\n\nEffective IDS deployment requires proper placement within the network, regular signature updates, baseline tuning to minimize false positives, and trained personnel to investigate and respond to alerts. When combined with firewalls and other security controls, IDS provides crucial visibility into potential threats that might otherwise go unnoticed.",
+    "tags": ["security", "monitoring", "detection", "networks", "defense"],
+    "category": "Concepts",
+    "icon": "FaSearchLocation",
+    "featured": false,
+    "aliases": ["IDS", "Intrusion Detection"],
+    "relatedConcepts": ["firewall", "defense-in-depth", "incident-response", "security-audit"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Intrusion detection system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Intrusion_detection_system",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

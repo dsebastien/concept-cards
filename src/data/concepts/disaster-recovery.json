@@ -1,0 +1,41 @@
+{
+    "id": "disaster-recovery",
+    "name": "Disaster Recovery",
+    "summary": "The process and strategies for restoring IT systems and data after a catastrophic event.",
+    "explanation": "Disaster recovery (DR) encompasses the policies, tools, and procedures designed to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster. It focuses specifically on restoring IT systems, data, and operations after events that cause significant disruption.\n\n**Key components of disaster recovery**:\n\n- **Risk assessment**: Identifying potential disasters and their impact on systems\n- **Recovery objectives**: Defining RPO (Recovery Point Objective) and RTO (Recovery Time Objective)\n- **Backup strategy**: Implementing comprehensive data protection following the 3-2-1 rule\n- **Recovery procedures**: Documented step-by-step restoration processes\n- **Testing and validation**: Regular drills to ensure plans work when needed\n\n**Types of disasters addressed**:\n- Natural disasters (floods, earthquakes, fires)\n- Cyberattacks (ransomware, data breaches)\n- Hardware failures (server crashes, storage failures)\n- Human errors (accidental deletion, misconfigurations)\n- Power outages and utility failures\n\n**Disaster recovery strategies**:\n- **Cold site**: Basic facility with power and connectivity, longest recovery time\n- **Warm site**: Partially equipped facility with some systems pre-installed\n- **Hot site**: Fully operational duplicate facility for rapid failover\n- **Cloud-based DR**: Using cloud services for backup and recovery infrastructure\n\n**Best practices**:\n- Document all procedures clearly and keep them accessible\n- Assign roles and responsibilities for DR team members\n- Test recovery procedures regularly (at least annually)\n- Update plans when systems or business requirements change\n- Maintain communication plans for stakeholder notification\n\nEffective disaster recovery is essential for organizational resilience, minimizing downtime, data loss, and financial impact when disasters occur.",
+    "tags": [
+        "security",
+        "recovery",
+        "business-continuity",
+        "planning",
+        "resilience"
+    ],
+    "category": "Concepts",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "DR",
+        "IT Disaster Recovery",
+        "Disaster Recovery Planning"
+    ],
+    "relatedConcepts": [
+        "3-2-1-backup-rule",
+        "business-continuity",
+        "recovery-point-objective",
+        "recovery-time-objective",
+        "data-availability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Disaster recovery - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Disaster_recovery",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "complexity-theory",
+    "name": "Complexity Theory",
+    "summary": "The interdisciplinary study of complex systems, examining how relationships between components give rise to collective behaviors and emergent properties.",
+    "explanation": "Complexity theory is an interdisciplinary field studying systems with many interacting components whose collective behavior cannot be simply inferred from the behavior of individual parts. It bridges physics, biology, economics, sociology, and computer science to understand patterns common to all complex systems.\n\n**Key concepts:**\n\n**Emergence**: Novel properties arise from interactions that don't exist at the component level.\n\n**Self-organization**: Order emerges spontaneously without central control.\n\n**Nonlinearity**: Effects are not proportional to causes; small changes can trigger large consequences.\n\n**Feedback loops**: Outputs become inputs, creating reinforcing or balancing dynamics.\n\n**Attractors**: States toward which systems tend to evolve.\n\n**Edge of chaos**: The boundary between order and disorder where complex behavior and adaptation peak.\n\n**Power laws**: Many complex systems show scale-free distributions (few large events, many small ones).\n\n**Domains of application:**\n\n**Management**: Organizations as complex systems—implications for leadership, strategy, and change.\n\n**Economics**: Markets as emergent phenomena, understanding bubbles and crashes.\n\n**Biology**: Life as organized complexity, from cells to ecosystems.\n\n**Social science**: Understanding cities, cultures, and social movements.\n\n**Technology**: Networks, AI, and emergent behaviors in software systems.\n\n**Practical insights:**\n\n- **Prediction limits**: Complex systems have inherent unpredictability horizons.\n- **Control illusion**: Top-down control often fails; influence works better than command.\n- **Leverage points**: Find where small interventions create large effects.\n- **Diversity matters**: System resilience depends on variety.\n- **Context sensitivity**: What works in one context may fail in another.\n\nComplexity theory doesn't tell you what to do—it changes how you see systems and what interventions are reasonable to expect.",
+    "tags": [
+        "systems-thinking",
+        "complexity",
+        "science",
+        "emergence",
+        "interdisciplinary",
+        "theories"
+    ],
+    "category": "Frameworks",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Complexity Science",
+        "Complex Systems Theory"
+    ],
+    "relatedConcepts": [
+        "complex-adaptive-systems",
+        "emergence",
+        "self-organization",
+        "systems-thinking",
+        "chaos-theory",
+        "feedback-loops"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Complexity: A Guided Tour by Melanie Mitchell",
+            "url": "https://www.amazon.com/dp/0199798109?tag=dsebastien00-20"
+        },
+        {
+            "title": "Thinking in Systems: A Primer by Donella Meadows",
+            "url": "https://www.amazon.com/dp/1603580557?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Complex system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Complex_system",
+            "type": "website"
+        },
+        {
+            "title": "Santa Fe Institute",
+            "url": "https://www.santafe.edu/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "adware",
+    "name": "Adware",
+    "summary": "Software that automatically displays or downloads unwanted advertisements, often bundled with free programs",
+    "explanation": "Adware (advertising-supported software) is software that automatically displays, downloads, or plays advertisements on a user's computer or device. While some adware operates legitimately as a way to fund free software, malicious adware crosses ethical boundaries by displaying intrusive ads, collecting user data without consent, or installing itself without clear disclosure. It occupies a gray area between annoying software and outright malware.\n\nAdware typically infiltrates systems through several methods. It's commonly bundled with free software downloads, where users inadvertently agree to install it by clicking through installation screens without reading carefully. It can also arrive through malicious websites, deceptive download buttons, or browser extensions that change behavior after installation. Once installed, adware displays pop-up ads, injects advertisements into web pages, redirects search queries to ad-filled pages, or changes browser settings like the default homepage and search engine.\n\nWhile adware is often considered more annoying than dangerous, it poses real risks. It slows system performance and consumes bandwidth. Some adware collects browsing data and personal information for targeted advertising or sale to third parties. Malicious adware can serve as a gateway for more dangerous malware by displaying ads that lead to infected websites. Some adware is extremely difficult to remove, reinstalling itself or hiding components throughout the system.\n\nProtection involves careful software installation practices. Read installation screens carefully and opt out of bundled software. Use custom installation options to see and decline additional programs. Download software only from official sources. Use ad-blockers and anti-adware tools. Keep browsers updated and regularly review installed extensions, removing any you don't recognize or need. If infected, use reputable anti-malware tools that specifically target adware and potentially unwanted programs (PUPs).",
+    "tags": ["security", "software", "privacy"],
+    "category": "Concepts",
+    "icon": "FaAd",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": ["malware", "spyware", "trojan-horse"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Adware - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Adware",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

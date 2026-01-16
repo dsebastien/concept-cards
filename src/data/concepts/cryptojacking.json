@@ -1,0 +1,25 @@
+{
+    "id": "cryptojacking",
+    "name": "Cryptojacking",
+    "summary": "Unauthorized use of computing resources to mine cryptocurrency without the owner's knowledge",
+    "explanation": "Cryptojacking is the unauthorized use of someone's computing devices to mine cryptocurrency. Attackers hijack processors in computers, smartphones, servers, and even IoT devices to perform the complex calculations required for cryptocurrency mining. The victim pays for the electricity and hardware degradation while the attacker collects the cryptocurrency rewards. This form of attack has grown significantly alongside the rise of cryptocurrency values.\n\nCryptojacking operates through several methods. Browser-based cryptojacking embeds mining scripts in websites that execute when visitors load the page, using their CPU while the tab remains open. This approach emerged with services like Coinhive (now defunct) and continues through copycat scripts. Malware-based cryptojacking installs persistent mining software through trojans, drive-by downloads, or exploitation of vulnerabilities. Cloud cryptojacking targets cloud computing instances by stealing API keys or exploiting misconfigurations, allowing attackers to spin up mining operations on the victim's cloud account.\n\nCryptojacking has affected organizations worldwide. In 2018, Tesla's cloud infrastructure was hijacked for cryptocurrency mining through an unsecured Kubernetes console. Multiple government websites were infected with cryptojacking scripts through a compromised accessibility plugin. Enterprise networks have been penetrated specifically to leverage their computing power for mining.\n\nSymptoms of cryptojacking include sluggish system performance, overheating, increased electricity costs, and abnormally high CPU usage. Protection requires multiple approaches. Use browser extensions that block mining scripts. Keep systems patched and security software updated. Monitor CPU and network usage for anomalies. For organizations, implement cloud security best practices including proper access controls and monitoring for unusual resource consumption. Disable JavaScript in browsers when visiting untrusted sites, or use privacy-focused browsers. Educate users about the risks of clicking unknown links or downloading unauthorized software.",
+    "tags": ["security", "cryptocurrency", "malware", "resources"],
+    "category": "Concepts",
+    "icon": "FaCoins",
+    "featured": false,
+    "aliases": ["Crypto Mining Malware"],
+    "relatedConcepts": ["malware", "botnet", "spyware"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Cryptojacking - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cryptojacking",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

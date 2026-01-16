@@ -1,0 +1,25 @@
+{
+    "id": "computer-worm",
+    "name": "Computer Worm",
+    "summary": "Self-replicating malware that spreads across networks without requiring user action or host programs",
+    "explanation": "A computer worm is a standalone malware program that replicates itself to spread across networks. Unlike viruses that need host files and user action to propagate, worms spread automatically by exploiting vulnerabilities in operating systems or applications. This autonomous spreading capability makes worms particularly dangerous, as they can infect thousands of systems within hours.\n\nWorms spread through various vectors. Network worms exploit vulnerabilities in network services to jump between connected systems. Email worms send copies of themselves to contacts in the victim's address book. Instant messaging worms spread through chat platforms. Some worms use multiple propagation methods simultaneously. Once a worm infects a system, it scans for other vulnerable targets and repeats the process, creating exponential growth.\n\nHistoric worm outbreaks demonstrated their destructive potential. The Morris Worm (1988), one of the first internet worms, accidentally caused widespread disruption due to a programming error that made it re-infect systems repeatedly. Code Red (2001) infected over 350,000 servers in just 14 hours. SQL Slammer (2003) doubled its infection rate every 8.5 seconds, slowing internet traffic worldwide within 10 minutes. Conficker (2008) created a botnet of millions of computers and remains active today. Stuxnet (2010) specifically targeted industrial control systems and caused physical damage to Iranian nuclear centrifuges.\n\nProtection against worms requires network-level defenses. Keep systems patched to eliminate the vulnerabilities worms exploit. Use firewalls to block unnecessary network traffic. Implement network segmentation to contain outbreaks. Deploy intrusion detection and prevention systems. Disable unnecessary services and close unused ports. Monitor network traffic for unusual patterns that might indicate worm activity.",
+    "tags": ["security", "cybersecurity", "malware", "networks"],
+    "category": "Concepts",
+    "icon": "FaBug",
+    "featured": false,
+    "aliases": ["Worm", "Network Worm"],
+    "relatedConcepts": ["malware", "computer-virus", "botnet"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Computer worm - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_worm",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

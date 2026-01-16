@@ -1,0 +1,25 @@
+{
+    "id": "watering-hole-attack",
+    "name": "Watering Hole Attack",
+    "summary": "An attack that compromises websites frequently visited by a target group to infect their systems.",
+    "explanation": "A watering hole attack is a targeted cyber attack strategy named after predators in the wild that wait near water sources to ambush prey. Instead of directly attacking a target organization, attackers identify and compromise third-party websites that their intended victims regularly visit, then use these sites to deliver malware.\n\nThe attack methodology involves extensive reconnaissance to identify websites frequented by the target group, such as industry forums, professional associations, news sites, or vendor portals. Attackers then exploit vulnerabilities in these websites to inject malicious code that can deliver malware through drive-by downloads or redirect visitors to exploit kits.\n\nWatering hole attacks are particularly effective against well-defended organizations because they bypass direct security measures. Employees may have their guards down when visiting familiar, seemingly trustworthy sites. The 2013 attack on iOS developers via the iPhone Dev SDK forum and the 2017 Polish Financial Supervision Authority compromise that targeted banks across multiple countries are notable examples.\n\nDefense strategies include keeping all software and browsers updated, using web filtering and reputation services, implementing network segmentation to limit breach impact, deploying browser isolation technologies, and monitoring for suspicious outbound traffic. Organizations should also conduct security assessments of frequently visited third-party sites and educate employees about the risks of even trusted websites.",
+    "tags": ["security", "attacks", "malware", "targeted", "cybersecurity"],
+    "category": "Concepts",
+    "icon": "FaWater",
+    "featured": false,
+    "aliases": ["Strategic Website Compromise"],
+    "relatedConcepts": ["advanced-persistent-threat", "social-engineering", "drive-by-download"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Watering hole attack - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Watering_hole_attack",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

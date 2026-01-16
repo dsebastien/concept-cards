@@ -1,0 +1,39 @@
+{
+    "id": "business-continuity",
+    "name": "Business Continuity",
+    "summary": "Planning and preparation to ensure critical business functions continue during and after a disaster.",
+    "explanation": "Business continuity encompasses the proactive planning and preparation that enables an organization to continue delivering products and services at acceptable predefined levels following a disruptive incident. While disaster recovery focuses on restoring IT systems, business continuity addresses the broader organizational capability to maintain essential functions.\n\n**Core elements of business continuity**:\n\n- **Business Impact Analysis (BIA)**: Identifying critical functions and the impact of their disruption\n- **Risk Assessment**: Evaluating threats and vulnerabilities to the organization\n- **Continuity Strategies**: Developing approaches to maintain operations during disruptions\n- **Plan Development**: Documenting procedures, roles, and resources needed\n- **Testing and Exercises**: Validating plans through drills and simulations\n- **Maintenance**: Keeping plans current as the organization evolves\n\n**Key metrics**:\n- **Maximum Tolerable Downtime (MTD)**: Longest acceptable outage for each function\n- **Recovery Time Objective (RTO)**: Target time to restore operations\n- **Recovery Point Objective (RPO)**: Maximum acceptable data loss\n\n**Business continuity vs. disaster recovery**:\nDisaster recovery is a subset of business continuity focused specifically on IT systems. Business continuity addresses the entire organization including people, processes, facilities, and technology.\n\n**Critical success factors**:\n- Executive sponsorship and organizational commitment\n- Cross-functional involvement in planning\n- Regular testing and plan updates\n- Employee awareness and training\n- Integration with overall risk management\n\n**Common threats addressed**:\n- Natural disasters and severe weather\n- Cyberattacks and technology failures\n- Supply chain disruptions\n- Pandemic and workforce unavailability\n- Facility damage or inaccessibility\n\nEffective business continuity management builds organizational resilience, protects reputation, and can provide competitive advantage during industry-wide disruptions.",
+    "tags": [
+        "planning",
+        "resilience",
+        "risk-management",
+        "operations"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaBuilding",
+    "featured": false,
+    "aliases": [
+        "Business Continuity Planning",
+        "BCP",
+        "Business Continuity Management",
+        "BCM"
+    ],
+    "relatedConcepts": [
+        "disaster-recovery",
+        "recovery-point-objective",
+        "recovery-time-objective"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Business continuity planning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Business_continuity_planning",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

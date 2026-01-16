@@ -1,0 +1,25 @@
+{
+    "id": "csrf",
+    "name": "Cross-Site Request Forgery",
+    "summary": "An attack that tricks users into performing unwanted actions on websites where they're authenticated",
+    "explanation": "Cross-Site Request Forgery (CSRF or XSRF) is a web security vulnerability that tricks authenticated users into performing unintended actions on a web application. The attack exploits the trust that a site has in the user's browser by leveraging existing authentication credentials (such as session cookies) to execute unauthorized commands. Because browsers automatically include cookies with requests, malicious websites can trigger actions on other sites where users are logged in.\n\nCSRF attacks work by crafting requests that appear legitimate to the target application. An attacker might embed a hidden form or image tag on their malicious page that submits a request to a banking site when visited. If the victim is logged into their bank, the forged request executes with their privileges, potentially transferring funds or changing account settings. The attack can be delivered through emails, forum posts, or compromised websites.\n\nNotable CSRF exploits include the 2008 Netflix vulnerability that allowed attackers to change account details. The 2007 Gmail filter vulnerability enabled attackers to forward all emails to themselves. Banking trojans have combined CSRF with other techniques to perform unauthorized transactions. Even tech giants like Google and Facebook have patched numerous CSRF vulnerabilities over the years.\n\nDefenses include implementing anti-CSRF tokens (synchronizer tokens) that validate request authenticity, using SameSite cookie attributes to prevent cross-origin cookie transmission, requiring re-authentication for sensitive actions, implementing custom request headers (which can't be set cross-origin), checking Origin and Referer headers, and employing the double-submit cookie pattern for stateless applications.",
+    "tags": ["security", "attacks", "web-security", "vulnerabilities", "authentication"],
+    "category": "Concepts",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": ["Cross-Site Request Forgery", "XSRF", "Sea Surf"],
+    "relatedConcepts": ["cross-site-scripting", "social-engineering"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Cross-site request forgery - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cross-site_request_forgery",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

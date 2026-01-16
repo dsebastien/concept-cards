@@ -1,0 +1,44 @@
+{
+    "id": "bottom-up-analysis",
+    "name": "Bottom-Up Analysis",
+    "summary": "An analytical approach that starts with specific details and builds upward to understand larger patterns and systems.",
+    "explanation": "Bottom-up analysis is a problem-solving approach that begins with individual details, observations, or components and progressively synthesizes them into larger patterns and understanding. It moves from the particular to the general, from concrete to abstract.\n\n**How it works:**\n1. Gather specific data, observations, or components\n2. Identify patterns and relationships between elements\n3. Group related elements into categories\n4. Build increasingly abstract understanding\n5. Arrive at overarching conclusions or systems\n\n**Applications:**\n\n**Research**: Collect data points, identify patterns, form hypotheses, develop theories.\n\n**Software development**: Build and test individual components, integrate them into modules, assemble the complete system.\n\n**Learning**: Master fundamentals first, then combine them into more complex skills.\n\n**Investing**: Analyze individual companies, identify sector trends, understand market dynamics.\n\n**Investigation**: Gather evidence, connect pieces, reconstruct the full picture.\n\n**Strengths:**\n- Grounded in concrete reality and evidence\n- Discovers unexpected patterns and insights\n- Works well for novel or poorly understood domains\n- More empirical and data-driven\n- Less likely to impose false assumptions\n\n**Limitations:**\n- Can get lost in details without seeing the whole\n- May miss important context or relationships\n- Time-consuming without clear direction\n- Risk of premature pattern recognition\n\nBottom-up analysis complements top-down analysis—combining both provides validation (top-down structure) and discovery (bottom-up patterns). The middle-out approach alternates between both.",
+    "tags": [
+        "analysis",
+        "thinking",
+        "problem-solving",
+        "research",
+        "patterns",
+        "synthesis"
+    ],
+    "category": "Thinking",
+    "icon": "FaArrowUp",
+    "featured": false,
+    "aliases": [
+        "Bottom-Up Approach",
+        "Bottom-Up Design",
+        "Bottom-Up Thinking",
+        "Inductive Analysis"
+    ],
+    "relatedConcepts": [
+        "top-down-analysis",
+        "synthesis",
+        "analytical-thinking",
+        "inductive-reasoning",
+        "pattern-recognition",
+        "emergence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Top-down and bottom-up design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

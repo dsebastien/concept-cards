@@ -1,0 +1,25 @@
+{
+    "id": "typosquatting",
+    "name": "Typosquatting",
+    "summary": "Registering domains with common misspellings of popular websites to deceive users into visiting malicious sites.",
+    "explanation": "Typosquatting, also known as URL hijacking, is a form of cybersquatting that exploits typographical errors made by internet users when entering website addresses. Attackers register domain names that are slight misspellings of popular websites, hoping to capture traffic from users who mistype URLs.\n\nCommon typosquatting techniques include: character omission (gogle.com), character addition (googgle.com), character substitution (goggle.com), adjacent key errors (googke.com), wrong top-level domains (google.co instead of google.com), and homograph attacks using similar-looking characters from different alphabets (using Cyrillic 'а' instead of Latin 'a').\n\nOnce users land on typosquatted domains, attackers can deploy various malicious activities: phishing pages that mimic the legitimate site to steal credentials, malware distribution through drive-by downloads, ad fraud by displaying advertisements, affiliate fraud by redirecting to legitimate sites through affiliate links, or competitive intelligence gathering by collecting data about intended visitors.\n\nNotable cases include typosquatting of major banks, tech companies, and government sites. In 2024, the cybersecurity community documented thousands of typosquatted domains targeting cryptocurrency exchanges.\n\nDefenses include: organizations proactively registering common misspellings of their domains, implementing DMARC and other email authentication, using browser security features that warn about suspicious sites, training users to verify URLs carefully, and deploying DNS-layer security solutions that block known typosquatted domains.",
+    "tags": ["security", "attacks", "phishing", "domains", "deception"],
+    "category": "Concepts",
+    "icon": "FaKeyboard",
+    "featured": false,
+    "aliases": ["URL Hijacking", "Domain Typosquatting"],
+    "relatedConcepts": ["phishing", "social-engineering", "dns-spoofing"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Typosquatting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Typosquatting",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

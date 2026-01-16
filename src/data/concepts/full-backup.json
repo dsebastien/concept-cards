@@ -1,0 +1,39 @@
+{
+    "id": "full-backup",
+    "name": "Full Backup",
+    "summary": "A complete copy of all selected data, providing a baseline for incremental or differential backups.",
+    "explanation": "A full backup is a complete copy of all selected data, files, and system configurations at a specific point in time. It serves as the foundation for data protection strategies and provides the baseline from which incremental and differential backups operate.\n\n**How it works**:\n\nA full backup copies every file and folder within the defined backup scope, regardless of whether the data has changed since the previous backup. This creates a self-contained snapshot that can restore a system to a known state without requiring any other backup sets.\n\n**Advantages**:\n- **Complete independence**: Each full backup is self-sufficient for restoration\n- **Fastest recovery**: Single backup set contains everything needed\n- **Simplest management**: No dependencies or chains to track\n- **Highest data integrity**: No risk of chain corruption\n- **Easy verification**: Straightforward to test and validate\n\n**Disadvantages**:\n- **Longest backup time**: Must copy all data regardless of changes\n- **Highest storage requirements**: Full dataset duplicated each time\n- **Greater bandwidth usage**: Problematic for cloud or remote backups\n- **System impact**: Extended operations may affect performance\n\n**Best practices**:\n- Schedule full backups during low-activity periods\n- Perform at regular intervals (weekly or monthly) as baseline for incrementals\n- Retain multiple generations for point-in-time recovery options\n- Store at least one copy offsite following the 3-2-1 rule\n- Verify backup integrity after completion\n\n**When to use**:\n- As the foundation of any backup strategy\n- Before major system changes or updates\n- When storage and time constraints permit\n- For critical systems requiring rapid, reliable recovery",
+    "tags": [
+        "backup",
+        "data-protection",
+        "recovery",
+        "storage"
+    ],
+    "category": "Concepts",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Complete Backup",
+        "Normal Backup",
+        "Full System Backup"
+    ],
+    "relatedConcepts": [
+        "3-2-1-backup-rule",
+        "incremental-backup",
+        "differential-backup",
+        "disaster-recovery"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Backup - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backup",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

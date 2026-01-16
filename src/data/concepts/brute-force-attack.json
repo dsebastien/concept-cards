@@ -1,0 +1,25 @@
+{
+    "id": "brute-force-attack",
+    "name": "Brute Force Attack",
+    "summary": "An attack method that systematically tries all possible combinations to crack passwords or encryption",
+    "explanation": "A brute force attack is a cryptographic attack method that involves systematically checking all possible keys, passwords, or combinations until the correct one is found. This trial-and-error approach guarantees success given enough time and computational resources, but becomes impractical as the complexity of the target increases. The name derives from the method's reliance on raw computational power rather than clever techniques.\n\nBrute force attacks work by iterating through every possible combination of characters, starting from simple patterns and progressively trying more complex ones. Variants include dictionary attacks (using common passwords and words), hybrid attacks (combining dictionary words with numbers and symbols), and reverse brute force (trying one password against many usernames). Modern GPU clusters and specialized hardware can attempt billions of password combinations per second.\n\nNotable examples include the cracking of the DES encryption standard, which demonstrated the need for longer key lengths. The 2012 LinkedIn breach exposed 6.5 million poorly-hashed passwords that were subsequently cracked. The iCloud celebrity photo leak (2014) exploited weak rate limiting, allowing brute force attempts on accounts.\n\nDefenses against brute force attacks include implementing strong password policies (length, complexity), account lockout mechanisms after failed attempts, rate limiting and CAPTCHA systems, multi-factor authentication (MFA), using slow hashing algorithms like bcrypt or Argon2, and monitoring for suspicious login patterns. Password managers help users maintain unique, complex passwords across services, eliminating password reuse vulnerabilities.",
+    "tags": ["security", "attacks", "passwords", "credentials", "cybersecurity"],
+    "category": "Concepts",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": ["Brute Force", "Exhaustive Search Attack"],
+    "relatedConcepts": ["credential-stuffing", "data-breach"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Brute-force attack - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Brute-force_attack",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}
