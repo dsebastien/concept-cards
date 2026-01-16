@@ -1,3 +1,8 @@
+## [10.5.6](https://github.com/dsebastien/concept-cards/compare/10.5.5...10.5.6) (2026-01-16)
+
+### Features
+
+* **all:** added PRD and related concepts ([220e30e](https://github.com/dsebastien/concept-cards/commit/220e30e20af3346922bd357b8e5ddeeace433977))
 ## [10.5.5](https://github.com/dsebastien/concept-cards/compare/10.5.4...10.5.5) (2026-01-15)
 
 ### Features
