@@ -1,0 +1,24 @@
+{
+    "id": "requirements-engineering",
+    "name": "Requirements Engineering",
+    "summary": "The systematic process of defining, documenting, validating, and managing software requirements throughout a project lifecycle.",
+    "explanation": "Requirements engineering is the discipline concerned with establishing and maintaining the requirements that a software system must satisfy. It encompasses all activities involved in discovering, analyzing, documenting, validating, and managing requirements from initial conception through system retirement.\n\nThe requirements engineering process typically includes several phases. Elicitation involves discovering requirements through interviews, workshops, observation, document analysis, prototyping, and other techniques. Analysis involves examining requirements for completeness, consistency, feasibility, and conflicts. Specification involves documenting requirements in a clear, organized, and accessible format. Validation ensures requirements accurately reflect stakeholder needs and are implementable. Management involves tracking requirements throughout the project, handling changes, and maintaining traceability.\n\nEffective requirements engineering addresses several challenges: stakeholders often struggle to articulate needs, requirements change over time, different stakeholders have conflicting needs, and translating business needs into technical specifications introduces ambiguity. Various techniques help address these challenges, including requirements workshops, prototyping, model-based requirements, and agile approaches.\n\nTraceability is a crucial aspect of requirements engineering, linking requirements to their sources (backward traceability), to design and implementation artifacts (forward traceability), and to test cases. This enables impact analysis when changes occur and verification that all requirements are implemented and tested.\n\nModern requirements engineering has evolved to accommodate agile methodologies, emphasizing collaboration, iterative refinement, and just-in-time specification while maintaining rigor where needed. Tools like requirements management systems help teams organize, version, and trace requirements throughout complex projects.\n\nIn the age of AI-assisted development, requirements engineering has become a critical enabler of productivity. AI coding tools and assistants can generate implementations rapidly, but their output quality directly correlates with input quality. Well-engineered requirements—clear, complete, consistent, and testable—provide the foundation for effective AI utilization. Teams that master requirements engineering can leverage AI to achieve dramatic productivity gains, while those with weak requirements practices find AI amplifies their problems rather than solving them.",
+    "tags": ["software-engineering", "requirements", "planning", "processes", "ai"],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": ["Requirements Management", "Requirements Analysis"],
+    "relatedConcepts": ["software-requirements-specification", "product-requirements-document", "functional-requirements", "non-functional-requirements", "use-cases", "user-stories", "requirements-elicitation", "business-analysis", "software-analysis"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Requirements engineering - Wikipedia", "url": "https://en.wikipedia.org/wiki/Requirements_engineering", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Software Requirements by Karl Wiegers", "url": "https://www.amazon.com/dp/0735679665?tag=dsebastien00-20"},
+        {"title": "Requirements Engineering Fundamentals by Klaus Pohl", "url": "https://www.amazon.com/dp/1937538877?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

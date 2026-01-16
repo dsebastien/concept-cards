@@ -1,0 +1,23 @@
+{
+    "id": "product-requirements-document",
+    "name": "Product Requirements Document",
+    "summary": "A document that defines the purpose, features, functionality, and behavior of a product to be built.",
+    "explanation": "A Product Requirements Document (PRD) is a foundational artifact in product development that articulates what a product should accomplish and why. Unlike technical specifications that focus on how to build something, a PRD concentrates on the what and why, serving as the north star for product teams.\n\nA comprehensive PRD typically includes the product vision and objectives, target users and their needs, user stories or use cases, feature descriptions with acceptance criteria, success metrics, constraints and assumptions, and a prioritized roadmap. It bridges the gap between business strategy and technical implementation.\n\nThe PRD creation process involves gathering input from multiple sources: customer research, market analysis, stakeholder interviews, competitive analysis, and technical feasibility assessments. Product managers typically own the PRD, but it requires collaboration with engineering, design, marketing, and leadership to ensure alignment.\n\nModern PRDs have evolved from lengthy waterfall-era documents to more dynamic, living documents that adapt to agile methodologies. Many teams now favor lighter-weight formats like one-pagers or use product management tools that allow for iterative refinement. The key is maintaining enough detail to guide development while remaining flexible enough to accommodate learning and change.\n\nIn the era of AI-assisted development, PRDs have become even more critical. AI coding assistants and code generation tools can dramatically accelerate implementation, but they require clear, comprehensive requirements to produce quality results. A well-structured PRD serves as the essential input for AI tools, enabling them to generate code that accurately reflects intended functionality. Without thorough requirements documentation, AI assistance becomes guesswork, producing code that may be technically functional but misaligned with actual business needs. The investment in creating detailed PRDs pays dividends when working with AI by reducing iterations, improving output quality, and ensuring the final product matches stakeholder expectations.\n\nA well-crafted PRD reduces ambiguity, aligns cross-functional teams, provides a reference point for decision-making, and helps prioritize features based on business value and user needs. It serves as both a planning tool and a communication mechanism throughout the product lifecycle.",
+    "tags": ["product-management", "documentation", "requirements", "planning", "ai"],
+    "category": "Software Development",
+    "icon": "FaBook",
+    "featured": false,
+    "aliases": ["PRD", "Product Spec", "Product Specification"],
+    "relatedConcepts": ["software-requirements-specification", "user-stories", "use-cases", "functional-requirements", "requirements-engineering", "requirements-elicitation", "business-analysis", "software-analysis"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Product requirements document - Wikipedia", "url": "https://en.wikipedia.org/wiki/Product_requirements_document", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Inspired: How to Create Tech Products Customers Love by Marty Cagan", "url": "https://www.amazon.com/dp/1119387507?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

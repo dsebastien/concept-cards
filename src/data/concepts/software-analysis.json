@@ -1,0 +1,25 @@
+{
+    "id": "software-analysis",
+    "name": "Software Analysis",
+    "summary": "The process of studying a software system to understand its requirements, structure, behavior, and constraints before design and implementation.",
+    "explanation": "Software analysis is the systematic examination of a problem domain, existing systems, and stakeholder needs to establish a clear understanding of what a software solution must accomplish. It bridges the gap between initial problem statements and detailed design specifications.\n\nThe analysis process encompasses several dimensions. Domain analysis involves understanding the business context, terminology, rules, and processes that the software must support. Requirements analysis examines and refines gathered requirements for completeness, consistency, feasibility, and testability. System analysis studies how the proposed solution will interact with existing systems, users, and organizational processes. Risk analysis identifies potential problems and constraints that could affect project success.\n\nAnalysts employ various modeling techniques to represent their understanding: data flow diagrams, entity-relationship diagrams, state machines, use case diagrams, and business process models. These models serve as communication tools with stakeholders and as specifications for developers.\n\nEffective software analysis requires both technical skills and soft skills. Analysts must understand software architecture, data modeling, and system design while also excelling at interviewing, facilitation, and conflict resolution. They serve as translators between business stakeholders who understand the problem domain and technical teams who will build the solution.\n\nIn modern AI-assisted development workflows, software analysis takes on heightened importance. Clear analysis artifacts—well-defined models, precise specifications, and comprehensive documentation—provide the foundation for effective AI code generation. AI tools can accelerate implementation dramatically, but only when fed with thoroughly analyzed requirements. Poor analysis leads to iterations, rework, and AI-generated solutions that miss the mark. Investment in rigorous analysis amplifies the productivity gains possible with AI assistance.",
+    "tags": ["software-engineering", "requirements", "planning", "systems-thinking", "ai"],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": ["Systems Analysis", "Requirements Analysis"],
+    "relatedConcepts": ["requirements-engineering", "software-requirements-specification", "product-requirements-document", "business-analysis", "requirements-elicitation", "functional-requirements", "non-functional-requirements"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Systems analysis - Wikipedia", "url": "https://en.wikipedia.org/wiki/Systems_analysis", "type": "website"},
+        {"title": "Software development process - Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_development_process", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Software Requirements by Karl Wiegers", "url": "https://www.amazon.com/dp/0735679665?tag=dsebastien00-20"},
+        {"title": "Analysis Patterns by Martin Fowler", "url": "https://www.amazon.com/dp/0201895420?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

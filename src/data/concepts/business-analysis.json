@@ -1,0 +1,25 @@
+{
+    "id": "business-analysis",
+    "name": "Business Analysis",
+    "summary": "The practice of identifying business needs, analyzing problems, and determining solutions that deliver value to stakeholders.",
+    "explanation": "Business analysis is the discipline of enabling change in an organizational context by defining needs and recommending solutions that deliver value to stakeholders. It serves as the critical bridge between business objectives and technical solutions, ensuring that investments in technology and process changes actually address real organizational needs.\n\nBusiness analysts perform several key activities. Stakeholder analysis identifies all parties affected by a solution and understands their interests and influence. Current state analysis documents existing processes, systems, and capabilities. Gap analysis compares current state to desired future state. Solution assessment evaluates potential approaches and recommends the best path forward. Requirements definition translates business needs into clear specifications.\n\nThe discipline draws on multiple frameworks and techniques. BABOK (Business Analysis Body of Knowledge) provides comprehensive guidance on practices and competencies. Techniques include process modeling, root cause analysis, SWOT analysis, decision tables, and various elicitation methods. Agile business analysis adapts these practices for iterative development contexts.\n\nBusiness analysts must navigate organizational complexity, balancing competing stakeholder interests while maintaining focus on delivering genuine business value. They need strong communication skills to translate between business and technical language, facilitation skills to build consensus, and analytical skills to decompose complex problems.\n\nIn the era of AI-assisted development, business analysis becomes a critical success factor. AI tools can generate solutions rapidly, but only when given clear, well-analyzed requirements. Thorough business analysis ensures that the problems being solved are the right problems, that solutions align with strategic objectives, and that specifications are complete enough for AI to produce valuable outputs. The business analyst's work in understanding context, constraints, and stakeholder needs provides the essential foundation for effective AI utilization.",
+    "tags": ["business", "requirements", "planning", "communication", "ai"],
+    "category": "Business & Economics",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["BA", "Business Systems Analysis"],
+    "relatedConcepts": ["requirements-engineering", "requirements-elicitation", "software-analysis", "product-requirements-document", "software-requirements-specification", "user-stories", "use-cases"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Business analysis - Wikipedia", "url": "https://en.wikipedia.org/wiki/Business_analysis", "type": "website"},
+        {"title": "Business Analysis Body of Knowledge - Wikipedia", "url": "https://en.wikipedia.org/wiki/Business_Analysis_Body_of_Knowledge", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Business Analysis by Debra Paul", "url": "https://www.amazon.com/dp/1780175744?tag=dsebastien00-20"},
+        {"title": "A Guide to the Business Analysis Body of Knowledge", "url": "https://www.amazon.com/dp/1927584027?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

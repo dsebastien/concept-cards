@@ -1,0 +1,23 @@
+{
+    "id": "non-functional-requirements",
+    "name": "Non-Functional Requirements",
+    "summary": "Requirements that specify quality attributes of a system such as performance, security, reliability, and usability.",
+    "explanation": "Non-functional requirements (NFRs) define the quality attributes, constraints, and characteristics that determine how well a system performs its functions. While functional requirements specify what a system does, non-functional requirements specify how well it does it.\n\nNFRs span multiple categories. Performance requirements specify response times, throughput, and resource utilization. Scalability requirements define how the system should handle growth. Security requirements address authentication, authorization, data protection, and compliance. Reliability requirements specify uptime, fault tolerance, and recovery capabilities. Usability requirements define ease of use, accessibility, and user experience standards. Maintainability requirements address code quality, documentation, and ease of modification.\n\nOther important categories include portability (ability to run on different platforms), interoperability (ability to work with other systems), and compliance requirements (adherence to regulations and standards). Each NFR should be measurable with specific metrics and thresholds.\n\nNon-functional requirements are often more challenging to define and test than functional requirements because they deal with qualities rather than specific behaviors. They require careful consideration during architecture design, as they often have system-wide implications. A system that meets all functional requirements but fails non-functional requirements may be unusable in practice.\n\nNFRs should be prioritized alongside functional requirements, as they significantly impact architecture decisions, development effort, and operational costs. Trade-offs between different quality attributes are common and must be negotiated with stakeholders.",
+    "tags": ["software-engineering", "requirements", "quality-attributes", "systems-thinking"],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": ["NFRs", "Quality Attributes", "System Qualities", "Quality Requirements"],
+    "relatedConcepts": ["functional-requirements", "software-requirements-specification", "requirements-engineering", "technical-debt"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Non-functional requirement - Wikipedia", "url": "https://en.wikipedia.org/wiki/Non-functional_requirement", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Software Architecture in Practice by Len Bass", "url": "https://www.amazon.com/dp/0136886094?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

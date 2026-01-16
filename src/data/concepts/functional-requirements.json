@@ -1,0 +1,21 @@
+{
+    "id": "functional-requirements",
+    "name": "Functional Requirements",
+    "summary": "Requirements that specify what a system should do, including its features, capabilities, and behaviors.",
+    "explanation": "Functional requirements define the specific behaviors, functions, and capabilities that a system must provide. They describe what the system should do in response to particular inputs or in specific situations, essentially forming the contract for system functionality.\n\nThese requirements answer questions like: What tasks must the system perform? What data must it process? What outputs must it produce? What business rules must it enforce? Examples include user authentication, data validation, calculation logic, report generation, and API integrations.\n\nFunctional requirements are typically expressed through various formats: natural language statements, use cases, user stories, process flows, or formal specifications. Each requirement should be testable, meaning there must be a clear way to verify whether the system meets the requirement. Well-written functional requirements follow the SMART criteria: Specific, Measurable, Achievable, Relevant, and Time-bound.\n\nThe process of defining functional requirements involves close collaboration with stakeholders to understand business needs, user workflows, and system interactions. Requirements are gathered through interviews, workshops, document analysis, observation, and prototyping. They must be prioritized based on business value, dependencies, and risk.\n\nFunctional requirements differ from non-functional requirements, which specify quality attributes rather than specific behaviors. Both types work together to provide a complete picture of system expectations. Incomplete or ambiguous functional requirements are a leading cause of project failures, making their careful definition crucial to project success.",
+    "tags": ["software-engineering", "requirements", "planning", "systems-thinking"],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": ["Behavioral Requirements", "Feature Requirements"],
+    "relatedConcepts": ["non-functional-requirements", "software-requirements-specification", "use-cases", "user-stories", "requirements-engineering"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Functional requirement - Wikipedia", "url": "https://en.wikipedia.org/wiki/Functional_requirement", "type": "website"}
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}
