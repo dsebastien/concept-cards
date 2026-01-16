@@ -1,0 +1,40 @@
+{
+    "id": "payback-period",
+    "name": "Payback Period",
+    "summary": "The time required to recover the initial investment from a project's cash flows or benefits.",
+    "explanation": "Payback Period is a capital budgeting metric that measures how long it takes for an investment to generate enough cash flows to recover its initial cost. It answers the simple question: 'When will I get my money back?'\n\n**Calculation**:\nPayback Period = Initial Investment / Annual Cash Flow (for equal cash flows)\n\nFor unequal cash flows, sum the cash flows year by year until they equal the initial investment.\n\n**Example**:\nInvest $10,000 in a course that generates $2,500 annual value → Payback = 4 years\n\n**Why payback period matters**:\n- **Simplicity**: Easy to calculate and understand\n- **Liquidity**: Shows when invested capital becomes available again\n- **Risk proxy**: Shorter payback means less exposure to uncertainty\n- **Communication**: Intuitive metric for non-financial stakeholders\n\n**Limitations**:\n- Ignores the time value of money (standard version)\n- Ignores cash flows after the payback period\n- Doesn't measure total profitability\n- Arbitrary cutoff decisions for acceptable payback\n\n**Discounted Payback Period**:\nAddresses the time value limitation by using present values of cash flows, providing a more accurate picture but adding complexity.\n\n**Applications beyond finance**:\n- **Learning investments**: How long until a skill pays for the time invested?\n- **Tool purchases**: When will productivity gains offset the cost?\n- **Career moves**: How long until a job change yields net benefits?\n- **Habits**: When does a new practice generate positive returns?\n\n**Best practices**:\n- Use alongside NPV or ROI, not as sole criterion\n- Consider industry norms for acceptable payback periods\n- Account for risk—riskier investments warrant shorter acceptable payback\n- Don't ignore long-term value just because payback is slow\n\nPayback period is most useful for screening investments quickly or when liquidity is a primary concern.",
+    "tags": [
+        "finance",
+        "decision-making",
+        "metrics",
+        "investments"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaHourglassHalf",
+    "featured": false,
+    "aliases": [
+        "PP",
+        "Investment payback",
+        "Payback time"
+    ],
+    "relatedConcepts": [
+        "return-on-investment",
+        "net-present-value",
+        "time-value-of-money",
+        "break-even-analysis",
+        "opportunity-cost"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Payback period - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Payback_period",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

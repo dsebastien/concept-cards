@@ -1,0 +1,40 @@
+{
+    "id": "time-value-of-money",
+    "name": "Time Value of Money",
+    "summary": "The principle that money available now is worth more than the same amount in the future due to its earning potential.",
+    "explanation": "The Time Value of Money (TVM) is a foundational concept in finance stating that a sum of money is worth more now than the same sum at a future date. This is due to the potential earning capacity of money—money you have today can be invested to earn interest or returns.\n\n**Core principles**:\n- Present value: What future money is worth today\n- Future value: What today's money will be worth later\n- The relationship between them depends on the interest/discount rate and time period\n\n**Why money has time value**:\n1. **Opportunity cost**: Money today can be invested to earn returns\n2. **Inflation**: Purchasing power typically decreases over time\n3. **Risk**: Future money has uncertainty attached to it\n4. **Preference**: People generally prefer immediate satisfaction (present bias)\n\n**Key formulas**:\n- Future Value: FV = PV × (1 + r)^n\n- Present Value: PV = FV / (1 + r)^n\n\nWhere PV is present value, FV is future value, r is the interest rate, and n is the number of periods.\n\n**Applications**:\n- Comparing investment options with different timing\n- Calculating loan payments and mortgage schedules\n- Valuing bonds and other financial instruments\n- Making capital budgeting decisions\n- Retirement planning\n\n**Beyond finance**:\nTVM thinking applies to any resource:\n- Time invested in learning compounds over a career\n- Relationships built early yield long-term benefits\n- Skills acquired now are worth more than skills acquired later\n- Health investments today prevent costly problems tomorrow\n\nUnderstanding TVM helps make better decisions about when to invest resources, whether financial or otherwise. It explains why starting early—with saving, learning, or building—creates disproportionate long-term advantages.",
+    "tags": [
+        "finance",
+        "decision-making",
+        "investments",
+        "principles"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaClock",
+    "featured": false,
+    "aliases": [
+        "TVM",
+        "Present value concept",
+        "Discounting"
+    ],
+    "relatedConcepts": [
+        "net-present-value",
+        "compound-growth",
+        "opportunity-cost",
+        "return-on-investment",
+        "delayed-gratification"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Time value of money - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Time_value_of_money",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}

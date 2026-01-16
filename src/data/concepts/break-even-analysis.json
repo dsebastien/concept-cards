@@ -1,0 +1,40 @@
+{
+    "id": "break-even-analysis",
+    "name": "Break-Even Analysis",
+    "summary": "Determining the point at which total revenue equals total costs, resulting in neither profit nor loss.",
+    "explanation": "Break-Even Analysis is a financial calculation that determines the point where total costs and total revenue are equal—the break-even point (BEP). At this point, there is no net loss or gain. It's a critical planning tool for understanding the minimum performance needed for viability.\n\n**The Formula**:\nBreak-Even Point (units) = Fixed Costs / (Price per Unit - Variable Cost per Unit)\n\nOr in terms of revenue:\nBreak-Even Point ($) = Fixed Costs / Contribution Margin Ratio\n\n**Key components**:\n- **Fixed costs**: Expenses that don't change with production volume (rent, salaries, insurance)\n- **Variable costs**: Expenses that scale with production (materials, commissions)\n- **Contribution margin**: Price minus variable cost per unit—what each sale contributes to covering fixed costs\n\n**Why break-even matters**:\n- Sets minimum sales targets for profitability\n- Helps price products and services\n- Reveals the risk in different cost structures\n- Guides decisions about fixed vs. variable cost trade-offs\n- Provides a foundation for profit planning\n\n**Beyond traditional business**:\n- **Freelancing**: How many hours/projects to cover monthly expenses?\n- **Course creation**: How many students to justify development time?\n- **Tool investment**: How much productivity gain to justify subscription cost?\n- **Career moves**: What salary covers the costs of transition?\n\n**Sensitivity analysis**:\nBreak-even analysis becomes more powerful when exploring scenarios:\n- What if price increases by 10%?\n- What if fixed costs rise?\n- How does volume affect profitability?\n\n**Limitations**:\n- Assumes linear cost and revenue relationships\n- Simplifies complex cost structures\n- Doesn't account for time value of money\n- Static model—doesn't capture market dynamics\n\n**Margin of safety**:\nThe difference between actual sales and break-even sales. A larger margin of safety indicates lower risk.",
+    "tags": [
+        "finance",
+        "decision-making",
+        "businesses",
+        "metrics"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "BEP",
+        "Break-even point",
+        "Breakeven analysis"
+    ],
+    "relatedConcepts": [
+        "return-on-investment",
+        "payback-period",
+        "opportunity-cost",
+        "running-costs-influence",
+        "pricing-strategies"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Break-even (economics) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Break-even_(economics)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-16"
+}
