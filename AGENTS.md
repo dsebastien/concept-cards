@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Static website built with React 19, TypeScript, Vite, Tailwind CSS v4, React Router (HashRouter), React Icons.
+Static website built with React 19, TypeScript, Bun, Tailwind CSS v4, React Router (HashRouter), React Icons.
 
 Features: grid/list views, full-text search, category/tag filtering, command palette (`/` or `Ctrl+K`), concept modals, responsive design.
 
@@ -129,7 +129,7 @@ Format: `https://www.amazon.com/dp/[ASIN]?tag=dsebastien00-20`
 After adding/renaming/removing concepts:
 
 ```bash
-npm run generate-social-images
+bun run generate-social-images
 ```
 
 Delete orphaned images manually for renamed/removed concepts.
@@ -180,19 +180,19 @@ To add icons: import in `concept-icon.tsx`, add to `iconMap`.
 ## Development Commands
 
 ```bash
-npm install          # Install dependencies
-npm run dev          # Start dev server
-npm run build        # Build for production
-npm run preview      # Preview production build
-npm run lint         # Lint code
-npm run format       # Format code
-npm run tsc          # Type check
+bun install           # Install dependencies
+bun run dev           # Start dev server
+bun run build         # Build for production
+bun run preview       # Preview production build
+bun run lint          # Lint code
+bun run format        # Format code
+bun run tsc           # Type check
 ```
 
 ## Deployment
 
 ```bash
-npm run release      # Create and push release tag
+bun run release       # Create and push release tag
 ```
 
 Auto-deploys to GitHub Pages via `.github/workflows/deploy.yml`.
@@ -210,7 +210,7 @@ Hash-based routing for GitHub Pages:
 **MANDATORY** for layout/CSS changes: use Claude in Chrome MCP.
 
 ```
-1. npm run dev
+1. bun run dev
 2. mcp__claude-in-chrome__tabs_context_mcp (createIfEmpty: true)
 3. mcp__claude-in-chrome__navigate to http://localhost:XXXX/
 4. mcp__claude-in-chrome__resize_window (320x800, 480x800, 768x1024, 1280x800)
@@ -234,7 +234,7 @@ Tailwind CSS v4. Theme variables in `/src/styles/index.css`:
 
 | Issue                       | Solution                               |
 | --------------------------- | -------------------------------------- |
-| Build type errors           | `npm run tsc`                          |
+| Build type errors           | `bun run tsc`                          |
 | Styles not updating         | Restart dev server                     |
 | Concept not appearing       | Verify JSON valid, filename matches id |
 | Command palette not opening | Check not focused on input             |
