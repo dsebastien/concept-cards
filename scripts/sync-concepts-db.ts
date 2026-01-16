@@ -174,7 +174,7 @@ function main(): void {
     }
 
     const db = new Database(DB_PATH)
-    db.pragma('foreign_keys = ON')
+    db.exec('PRAGMA foreign_keys = ON')
 
     try {
         // Load all concept files

@@ -251,7 +251,7 @@ function main(): void {
 
     // Open database
     const db = new Database(DB_PATH)
-    db.pragma('foreign_keys = ON')
+    db.exec('PRAGMA foreign_keys = ON')
 
     try {
         // Update relatedConcepts references in other concepts
