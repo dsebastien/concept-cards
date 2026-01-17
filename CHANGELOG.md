@@ -1,3 +1,11 @@
+## [10.6.0](https://github.com/dsebastien/concept-cards/compare/10.5.9...10.6.0) (2026-01-17)
+
+### Features
+
+* **all:** added scripts ([f1d16ce](https://github.com/dsebastien/concept-cards/commit/f1d16ceadf4d3bd350c4f6a5d68cab112665034f))
+* **all:** fixed issue with release ([62d21a9](https://github.com/dsebastien/concept-cards/commit/62d21a93a9f3b06bfc9c81d7d3f9b53dd3c6b129))
+* **all:** improved release workflow and script ([e97ad05](https://github.com/dsebastien/concept-cards/commit/e97ad05c3fb36f36c2af95e7fce10eb0ffd4c510))
+* **all:** improved workflows ([69254a4](https://github.com/dsebastien/concept-cards/commit/69254a49e9e75907126c8047112cba0dfe39617c))
 ## [10.5.9](https://github.com/dsebastien/concept-cards/compare/10.5.8...10.5.9) (2026-01-17)
 
 ### Features
