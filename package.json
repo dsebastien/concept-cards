@@ -24,6 +24,7 @@
         "generate-social-images": "bun scripts/generate-social-images.ts",
         "dev": "bun scripts/utils/dev.ts",
         "build": "tsc && bun scripts/generate-social-images.ts && bun scripts/utils/build.ts && bun scripts/generate-static-pages.ts && bun scripts/generate-sitemap.ts && bun scripts/generate-llms-txt.ts",
+        "build:ci": "tsc && bun scripts/utils/build.ts && bun scripts/generate-static-pages.ts && bun scripts/generate-sitemap.ts && bun scripts/generate-llms-txt.ts",
         "preview": "bun --bun serve dist -p 4173",
         "prepare": "husky",
         "lint": "eslint . --report-unused-disable-directives --max-warnings 0",

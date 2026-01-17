@@ -40,7 +40,7 @@ jobs:
               run: bun run validate:quick
 
             - name: Build project
-              run: bun run build
+              run: bun run build:ci
 
             - name: Summary
               run: |
