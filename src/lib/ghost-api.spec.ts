@@ -9,7 +9,7 @@ describe('subscribeToNewsletter', () => {
 
     beforeEach(() => {
         mockFetch = mock(() => Promise.resolve(new Response()))
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
         consoleLogSpy = spyOn(console, 'log').mockImplementation(() => {})
         consoleErrorSpy = spyOn(console, 'error').mockImplementation(() => {})
     })
@@ -46,14 +46,14 @@ describe('subscribeToNewsletter', () => {
             )
             .mockImplementationOnce(() => Promise.resolve(new Response('', { status: 201 })))
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com'
         })
 
         expect(mockFetch).toHaveBeenCalledTimes(2)
-        expect(mockFetch.mock.calls[0][0]).toBe('https://example.com/members/api/integrity-token/')
+        expect(mockFetch.mock.calls[0]![0]).toBe('https://example.com/members/api/integrity-token/')
     })
 
     test('sends correct payload for subscription', async () => {
@@ -63,7 +63,7 @@ describe('subscribeToNewsletter', () => {
             )
             .mockImplementationOnce(() => Promise.resolve(new Response('', { status: 201 })))
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com',
@@ -71,11 +71,11 @@ describe('subscribeToNewsletter', () => {
             newsletters: ['newsletter-1']
         })
 
-        const subscribeCall = mockFetch.mock.calls[1]
+        const subscribeCall = mockFetch.mock.calls[1]!
         expect(subscribeCall[0]).toBe('https://example.com/members/api/send-magic-link')
-        expect(subscribeCall[1].method).toBe('POST')
+        expect((subscribeCall[1] as RequestInit).method).toBe('POST')
 
-        const body = JSON.parse(subscribeCall[1].body)
+        const body = JSON.parse((subscribeCall[1] as RequestInit).body as string)
         expect(body.email).toBe('test@example.com')
         expect(body.name).toBe('Test User')
         expect(body.emailType).toBe('subscribe')
@@ -90,7 +90,7 @@ describe('subscribeToNewsletter', () => {
             )
             .mockImplementationOnce(() => Promise.resolve(new Response('', { status: 201 })))
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         const result = await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com'
@@ -118,7 +118,7 @@ describe('subscribeToNewsletter', () => {
                 )
             )
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         const result = await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com'
@@ -135,7 +135,7 @@ describe('subscribeToNewsletter', () => {
             )
             .mockImplementationOnce(() => Promise.resolve(new Response('{}', { status: 400 })))
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         const result = await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com'
@@ -148,7 +148,7 @@ describe('subscribeToNewsletter', () => {
     test('returns network error on fetch failure', async () => {
         mockFetch = mock().mockImplementationOnce(() => Promise.reject(new Error('Network error')))
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         const result = await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com'
@@ -163,7 +163,7 @@ describe('subscribeToNewsletter', () => {
             Promise.resolve(new Response('', { status: 500 }))
         )
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         const result = await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com'
@@ -180,14 +180,14 @@ describe('subscribeToNewsletter', () => {
             )
             .mockImplementationOnce(() => Promise.resolve(new Response('', { status: 201 })))
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com'
         })
 
-        const subscribeCall = mockFetch.mock.calls[1]
-        const body = JSON.parse(subscribeCall[1].body)
+        const subscribeCall = mockFetch.mock.calls[1]!
+        const body = JSON.parse((subscribeCall[1] as RequestInit).body as string)
         expect(body.name).toBeUndefined()
     })
 
@@ -198,15 +198,15 @@ describe('subscribeToNewsletter', () => {
             )
             .mockImplementationOnce(() => Promise.resolve(new Response('', { status: 201 })))
 
-        globalThis.fetch = mockFetch
+        globalThis.fetch = mockFetch as unknown as typeof fetch
 
         await subscribeToNewsletter('https://example.com', {
             email: 'test@example.com',
             newsletters: []
         })
 
-        const subscribeCall = mockFetch.mock.calls[1]
-        const body = JSON.parse(subscribeCall[1].body)
+        const subscribeCall = mockFetch.mock.calls[1]!
+        const body = JSON.parse((subscribeCall[1] as RequestInit).body as string)
         expect(body.newsletters).toBeUndefined()
     })
 })

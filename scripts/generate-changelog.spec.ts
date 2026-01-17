@@ -1,5 +1,5 @@
-import { describe, expect, test, beforeEach, afterEach, mock } from 'bun:test'
-import { existsSync, readFileSync, writeFileSync, unlinkSync } from 'fs'
+import { describe, expect, test, afterEach } from 'bun:test'
+import { existsSync, unlinkSync } from 'fs'
 import { getLatestChangelogEntry } from './generate-changelog'
 
 describe('getLatestChangelogEntry', () => {

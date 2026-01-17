@@ -8,6 +8,8 @@ import {
     extractNotes
 } from './extract-resources'
 import type { Concept } from '@/types/concept.intf'
+import type { Reference } from '@/types/reference.intf'
+import type { Book } from '@/types/book.intf'
 
 describe('generateResourceId', () => {
     test('generates consistent ID for same URL', () => {
@@ -77,7 +79,7 @@ describe('extractNoteTitle', () => {
 })
 
 describe('extractBooks', () => {
-    const createConcept = (id: string, books?: { title: string; url: string }[]): Concept => ({
+    const createConcept = (id: string, books?: Book[]): Concept => ({
         id,
         name: `Concept ${id}`,
         summary: 'Test summary',
@@ -98,8 +100,8 @@ describe('extractBooks', () => {
 
         const books = extractBooks(concepts)
         expect(books).toHaveLength(2)
-        expect(books[0].title).toBe('Book A')
-        expect(books[1].title).toBe('Book B')
+        expect(books[0]!.title).toBe('Book A')
+        expect(books[1]!.title).toBe('Book B')
     })
 
     test('groups books by URL', () => {
@@ -111,9 +113,9 @@ describe('extractBooks', () => {
 
         const books = extractBooks(concepts)
         expect(books).toHaveLength(1)
-        expect(books[0].concepts).toHaveLength(2)
-        expect(books[0].concepts[0].id).toBe('c1')
-        expect(books[0].concepts[1].id).toBe('c2')
+        expect(books[0]!.concepts).toHaveLength(2)
+        expect(books[0]!.concepts[0]!.id).toBe('c1')
+        expect(books[0]!.concepts[1]!.id).toBe('c2')
     })
 
     test('sorts books alphabetically by title', () => {
@@ -123,8 +125,8 @@ describe('extractBooks', () => {
         ]
 
         const books = extractBooks(concepts)
-        expect(books[0].title).toBe('Alpha Book')
-        expect(books[1].title).toBe('Zebra Book')
+        expect(books[0]!.title).toBe('Alpha Book')
+        expect(books[1]!.title).toBe('Zebra Book')
     })
 
     test('handles concepts without books', () => {
@@ -142,15 +144,12 @@ describe('extractBooks', () => {
         ]
 
         const books = extractBooks(concepts)
-        expect(books[0].id).not.toBe(books[1].id)
+        expect(books[0]!.id).not.toBe(books[1]!.id)
     })
 })
 
 describe('extractArticles', () => {
-    const createConcept = (
-        id: string,
-        articles?: { title: string; url: string; type?: string }[]
-    ): Concept => ({
+    const createConcept = (id: string, articles?: Reference[]): Concept => ({
         id,
         name: `Concept ${id}`,
         summary: 'Test summary',
@@ -165,8 +164,12 @@ describe('extractArticles', () => {
 
     test('extracts articles from concepts', () => {
         const concepts = [
-            createConcept('c1', [{ title: 'Article A', url: 'https://example.com/a' }]),
-            createConcept('c2', [{ title: 'Article B', url: 'https://example.com/b' }])
+            createConcept('c1', [
+                { title: 'Article A', url: 'https://example.com/a', type: 'website' }
+            ]),
+            createConcept('c2', [
+                { title: 'Article B', url: 'https://example.com/b', type: 'website' }
+            ])
         ]
 
         const articles = extractArticles(concepts)
@@ -181,27 +184,24 @@ describe('extractArticles', () => {
         ]
 
         const articles = extractArticles(concepts)
-        expect(articles[0].type).toBe('video')
+        expect(articles[0]!.type).toBe('video')
     })
 
     test('groups articles by URL', () => {
         const sharedUrl = 'https://example.com/shared'
         const concepts = [
-            createConcept('c1', [{ title: 'Shared Article', url: sharedUrl }]),
-            createConcept('c2', [{ title: 'Shared Article', url: sharedUrl }])
+            createConcept('c1', [{ title: 'Shared Article', url: sharedUrl, type: 'website' }]),
+            createConcept('c2', [{ title: 'Shared Article', url: sharedUrl, type: 'website' }])
         ]
 
         const articles = extractArticles(concepts)
         expect(articles).toHaveLength(1)
-        expect(articles[0].concepts).toHaveLength(2)
+        expect(articles[0]!.concepts).toHaveLength(2)
     })
 })
 
 describe('extractReferences', () => {
-    const createConcept = (
-        id: string,
-        references?: { title: string; url: string; type?: string }[]
-    ): Concept => ({
+    const createConcept = (id: string, references?: Reference[]): Concept => ({
         id,
         name: `Concept ${id}`,
         summary: 'Test summary',
@@ -236,7 +236,7 @@ describe('extractReferences', () => {
         ]
 
         const refs = extractReferences(concepts)
-        expect(refs[0].type).toBe('paper')
+        expect(refs[0]!.type).toBe('paper')
     })
 })
 
@@ -268,7 +268,7 @@ describe('extractNotes', () => {
         const concepts = [createConcept('c1', ['https://notes.dsebastien.net/Path/My+Note'])]
 
         const notes = extractNotes(concepts)
-        expect(notes[0].title).toBe('My Note')
+        expect(notes[0]!.title).toBe('My Note')
     })
 
     test('groups notes by URL', () => {
@@ -277,7 +277,7 @@ describe('extractNotes', () => {
 
         const notes = extractNotes(concepts)
         expect(notes).toHaveLength(1)
-        expect(notes[0].concepts).toHaveLength(2)
+        expect(notes[0]!.concepts).toHaveLength(2)
     })
 
     test('handles concepts without notes', () => {

@@ -66,14 +66,13 @@ describe('validateRequiredFields', () => {
     })
 
     test('returns error for missing tags', () => {
-        const concept = createValidConcept({ tags: [] })
         // Empty array is falsy in the check, this depends on implementation
         // The current implementation uses !concept[field] which treats [] as truthy
         // Let's test with undefined instead
-        const concept2 = createValidConcept()
+        const concept = createValidConcept()
         // @ts-expect-error - testing undefined tags
-        concept2.tags = undefined
-        const issues = validateRequiredFields('test-concept.json', concept2)
+        concept.tags = undefined
+        const issues = validateRequiredFields('test-concept.json', concept)
         expect(issues.some((i) => i.field === 'tags')).toBe(true)
     })
 

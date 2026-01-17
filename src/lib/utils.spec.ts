@@ -15,8 +15,10 @@ describe('cn', () => {
     })
 
     test('handles conditional classes with boolean', () => {
-        expect(cn('foo', false && 'bar', 'baz')).toBe('foo baz')
-        expect(cn('foo', true && 'bar', 'baz')).toBe('foo bar baz')
+        const showBar = false
+        const showBarTrue = true
+        expect(cn('foo', showBar && 'bar', 'baz')).toBe('foo baz')
+        expect(cn('foo', showBarTrue && 'bar', 'baz')).toBe('foo bar baz')
     })
 
     test('handles undefined and null values', () => {

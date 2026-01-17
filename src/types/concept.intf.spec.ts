@@ -121,7 +121,7 @@ describe('Concept interface', () => {
                 articles: [{ title: 'Article', url: 'https://example.com', type: 'website' }]
             }
             expect(Array.isArray(concept.articles)).toBe(true)
-            expect(concept.articles?.[0].title).toBe('Article')
+            expect(concept.articles![0]!.title).toBe('Article')
         })
 
         test('books is optional array', () => {
@@ -130,7 +130,7 @@ describe('Concept interface', () => {
                 books: [{ title: 'Book Title', url: 'https://amazon.com/book' }]
             }
             expect(Array.isArray(concept.books)).toBe(true)
-            expect(concept.books?.[0].title).toBe('Book Title')
+            expect(concept.books![0]!.title).toBe('Book Title')
         })
 
         test('references is optional array', () => {
