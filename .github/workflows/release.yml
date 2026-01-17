@@ -7,16 +7,54 @@ on:
                 description: 'Tag name (e.g., 1.0.0, 2024-01-15, release-candidate-1)'
                 required: true
                 type: string
-    push:
-        tags:
-            - '**'
 
 permissions:
     contents: write
 
 jobs:
+    pre-release-checks:
+        name: Pre-Release Checks
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Setup Bun
+              uses: oven-sh/setup-bun@v2
+
+            - name: Install dependencies
+              run: bun install --frozen-lockfile
+
+            - name: Run ESLint
+              run: bun run lint
+
+            - name: Check formatting
+              run: bunx prettier --check .
+
+            - name: TypeScript type checking
+              run: bun run tsc
+
+            - name: Validate concepts
+              run: bun run validate:quick
+
+            - name: Build project
+              run: bun run build
+
+            - name: Summary
+              run: |
+                  echo "## Pre-Release Checks Passed ✓" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "- ✓ ESLint" >> $GITHUB_STEP_SUMMARY
+                  echo "- ✓ Prettier formatting" >> $GITHUB_STEP_SUMMARY
+                  echo "- ✓ TypeScript type checking" >> $GITHUB_STEP_SUMMARY
+                  echo "- ✓ Concept validation" >> $GITHUB_STEP_SUMMARY
+                  echo "- ✓ Build" >> $GITHUB_STEP_SUMMARY
+
     release:
         name: Create Tag and Release
+        needs: pre-release-checks
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repository
@@ -33,29 +71,13 @@ jobs:
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
 
-            - name: Create and push tag
-              if: github.event_name == 'workflow_dispatch'
-              run: |
-                  git tag "${{ inputs.tag }}"
-                  git push origin "${{ inputs.tag }}"
-
-            - name: Determine tag name
-              id: tag
-              run: |
-                  if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-                      echo "name=${{ inputs.tag }}" >> $GITHUB_OUTPUT
-                  else
-                      echo "name=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
-                  fi
-
             - name: Install dependencies
               run: bun install --frozen-lockfile
 
-            - name: Update version and changelog (workflow_dispatch only)
-              if: github.event_name == 'workflow_dispatch'
+            - name: Update version and changelog
               run: |
                   # Update package.json version
-                  bun run release:update-version ${{ steps.tag.outputs.name }}
+                  bun run release:update-version ${{ inputs.tag }}
 
                   # Update bun.lock
                   bun install
@@ -65,12 +87,13 @@ jobs:
 
                   # Commit changes
                   git add package.json bun.lock CHANGELOG.md
-                  git commit -m "chore(release): ${{ steps.tag.outputs.name }}"
+                  git commit -m "chore(release): ${{ inputs.tag }}"
                   git push origin HEAD:main
 
-                  # Update tag to point to the new commit
-                  git tag -f "${{ steps.tag.outputs.name }}"
-                  git push -f origin "${{ steps.tag.outputs.name }}"
+            - name: Create and push tag
+              run: |
+                  git tag "${{ inputs.tag }}"
+                  git push origin "${{ inputs.tag }}"
 
             - name: Extract changelog for release notes
               id: changelog
@@ -85,8 +108,8 @@ jobs:
             - name: Create GitHub Release
               uses: softprops/action-gh-release@v2
               with:
-                  tag_name: ${{ steps.tag.outputs.name }}
-                  name: Release ${{ steps.tag.outputs.name }}
+                  tag_name: ${{ inputs.tag }}
+                  name: Release ${{ inputs.tag }}
                   body: ${{ steps.changelog.outputs.notes }}
                   draft: false
                   prerelease: false
