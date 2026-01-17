@@ -39,7 +39,13 @@
         "release:changelog": "bun scripts/generate-changelog.ts",
         "push": "git push && git push --tags",
         "test": "bun test",
-        "test:watch": "bun test --watch"
+        "test:watch": "bun test --watch",
+        "test:coverage": "bun test --coverage",
+        "validate:all": "bun run validate:quick",
+        "ci:local": "bun run lint && bun run tsc && bun run test && bun run validate:all && bun run build",
+        "audit:local": "lighthouse http://localhost:5173 --output=json --output=html --output-path=./lighthouse-reports/local --chrome-flags=\"--headless --no-sandbox\"",
+        "audit:production": "lighthouse https://concepts.dsebastien.net --output=json --output=html --output-path=./lighthouse-reports/production --chrome-flags=\"--headless --no-sandbox\"",
+        "add": "bun run format && git add -A && bun run commit"
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
@@ -74,8 +80,8 @@
         "@commitlint/config-conventional": "20.0.0",
         "@eslint/js": "^9.36.0",
         "@resvg/resvg-js": "^2.6.2",
-        "@types/bun": "^1.1.14",
         "@types/better-sqlite3": "^7.6.12",
+        "@types/bun": "^1.1.14",
         "@types/canvas-confetti": "^1.9.0",
         "@types/natural": "^5.1.5",
         "@types/node": "24.10.1",
@@ -90,11 +96,12 @@
         "eslint-plugin-react": "^7.37.5",
         "globals": "^16.4.0",
         "husky": "^9.1.7",
+        "lighthouse": "13.0.1",
         "lint-staged": "16.2.7",
         "prettier": "3.6.2",
         "prettier-plugin-tailwindcss": "^0.7.1",
-        "tailwindcss": "4.1.17",
         "serve": "^14.2.4",
+        "tailwindcss": "4.1.17",
         "typescript": "^5.9.3",
         "typescript-eslint": "8.48.0"
     }
