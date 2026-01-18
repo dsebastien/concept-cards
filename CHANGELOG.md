@@ -1,3 +1,11 @@
+## [10.6.1](https://github.com/dsebastien/concept-cards/compare/10.6.0...10.6.1) (2026-01-18)
+
+### Features
+
+* **all:** added concepts ([a5d3596](https://github.com/dsebastien/concept-cards/commit/a5d359689bb5f89f9973ff407524268cddf2f071))
+* **all:** added concepts and fixed soial image gen script ([1fe67fb](https://github.com/dsebastien/concept-cards/commit/1fe67fb70936e814e647a5236ba2fc08c5347d76))
+* **all:** updated ([22ae85b](https://github.com/dsebastien/concept-cards/commit/22ae85b0ea96a6f9ccc5648b171477489183407c))
+* **all:** updated concepts ([7bb0166](https://github.com/dsebastien/concept-cards/commit/7bb01669d19a2204c332d466a6cafc82a722b2cb))
 ## [10.6.0](https://github.com/dsebastien/concept-cards/compare/10.5.9...10.6.0) (2026-01-17)
 
 ### Features
