@@ -1,0 +1,92 @@
+{
+    "id": "durability",
+    "name": "Durability",
+    "summary": "The property ensuring that data persists and survives system failures, power outages, and crashes.",
+    "explanation": "Durability is a fundamental property of data storage systems that guarantees once data is successfully written or a transaction is committed, it will persist even in the face of system failures, power outages, crashes, or other disruptions. It's the 'D' in the ACID properties of database systems and a critical concern for anyone managing important information.\n\n**Why durability matters**:\n\n- **Data permanence**: Ensures your work isn't lost due to technical failures\n- **Trust in systems**: Users can rely on saved data actually being saved\n- **Business continuity**: Organizations depend on data surviving unexpected events\n- **Knowledge preservation**: For PKM, durability ensures years of accumulated notes survive\n\n**How durability is achieved**:\n\n- **Write-ahead logging (WAL)**: Changes are logged before being applied, enabling recovery\n- **Journaling file systems**: Track changes to recover from crashes (ext4, NTFS, APFS)\n- **Synchronous writes**: Force data to physical storage before confirming success\n- **Replication**: Copy data to multiple locations to survive hardware failures\n- **Checksums**: Detect and correct data corruption over time\n\n**Durability in personal knowledge management**:\n\n- Store notes in plain text formats that don't depend on specific software\n- Use file systems and storage that implement journaling\n- Follow the 3-2-1 backup rule to ensure copies survive disasters\n- Consider version control (Git) for additional durability and history\n- Test backups regularly - untested backups aren't truly durable\n\n**Durability vs. availability**: Durability ensures data isn't lost; availability ensures data is accessible. A system can be durable (data is safe on disk) but unavailable (the server is down). Both are essential but address different concerns.\n\n**Trade-offs**: Stronger durability guarantees often come at the cost of performance. Synchronous writes are slower than asynchronous ones. The appropriate balance depends on how critical the data is - financial transactions need strong durability, while temporary cache data may not.",
+    "tags": [
+        "data-protection",
+        "storage",
+        "reliability",
+        "databases",
+        "knowledge-management"
+    ],
+    "category": "Concepts",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Data Durability",
+        "Data Persistence",
+        "Durable Storage"
+    ],
+    "relatedConcepts": [
+        "acid-properties",
+        "data-integrity",
+        "data-availability",
+        "3-2-1-backup-rule",
+        "fault-tolerance",
+        "data-redundancy",
+        "disaster-recovery",
+        "version-control-for-notes",
+        "local-first"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/How+I+synchronize+and+backup+my+Obsidian+notes"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Durability (database systems) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Durability_(database_systems)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-18",
+    "dateModified": "2026-01-18"
+}

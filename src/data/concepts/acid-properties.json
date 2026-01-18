@@ -1,0 +1,57 @@
+{
+    "id": "acid-properties",
+    "name": "ACID Properties",
+    "summary": "The four guarantees for reliable database transactions: Atomicity, Consistency, Isolation, and Durability.",
+    "explanation": "ACID is an acronym describing four properties that guarantee reliable processing of database transactions. These properties ensure that database operations are processed reliably even in the face of errors, power failures, and other problems. Understanding ACID is essential for anyone working with databases or designing systems that need reliable data storage.\n\n**The four properties**:\n\n**Atomicity** - All or nothing. A transaction either completes entirely or has no effect at all. If any part fails, the entire transaction is rolled back. Example: transferring money between accounts - both the debit and credit must succeed, or neither happens.\n\n**Consistency** - Valid states only. A transaction brings the database from one valid state to another. All data integrity rules (constraints, cascades, triggers) are enforced. The database never contains invalid data due to a partially completed transaction.\n\n**Isolation** - No interference. Concurrent transactions don't affect each other's execution. Each transaction appears to run in isolation, even when many transactions run simultaneously. Different isolation levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable) offer trade-offs between consistency and performance.\n\n**Durability** - Permanence. Once a transaction is committed, it remains so even in case of system failure. Data is written to non-volatile storage, and recovery mechanisms ensure committed transactions survive crashes.\n\n**ACID in practice**:\n\n- Traditional relational databases (PostgreSQL, MySQL, Oracle) provide strong ACID guarantees\n- NoSQL databases often relax some ACID properties for performance and scalability (eventual consistency)\n- Distributed systems face additional challenges (CAP theorem) in maintaining ACID properties\n\n**Relevance to PKM**:\n\nWhile personal note-taking tools don't typically use transactional databases, understanding ACID helps appreciate why some operations (like renaming linked notes) can be tricky, and why features like undo/redo and sync conflict resolution are important. The principles inform good practices like atomic saves (don't partially save files) and consistent state management.",
+    "tags": [
+        "databases",
+        "transactions",
+        "reliability",
+        "software-development",
+        "data-integrity"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "ACID",
+        "ACID Compliance",
+        "Transaction Properties",
+        "Database ACID"
+    ],
+    "relatedConcepts": [
+        "durability",
+        "data-integrity",
+        "data-availability",
+        "fault-tolerance",
+        "cap-theorem",
+        "data-redundancy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        },
+        {
+            "title": "Database Internals by Alex Petrov",
+            "url": "https://www.amazon.com/dp/1492040347?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "ACID - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/ACID",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-18",
+    "dateModified": "2026-01-18"
+}

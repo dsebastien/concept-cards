@@ -1,0 +1,66 @@
+{
+    "id": "data-redundancy",
+    "name": "Data Redundancy",
+    "summary": "The practice of storing multiple copies of data to protect against loss from hardware failures, corruption, or disasters.",
+    "explanation": "Data redundancy is the deliberate storage of the same data in multiple locations or formats to ensure it survives various failure scenarios. While redundancy in databases often refers to unnecessary duplication (a design flaw), in the context of data protection, redundancy is a vital strategy for ensuring durability and availability.\n\n**Types of data redundancy**:\n\n**Hardware redundancy**:\n- **RAID arrays**: Distribute data across multiple disks so failure of one disk doesn't cause data loss (RAID 1, 5, 6, 10)\n- **Redundant storage nodes**: Multiple servers each holding copies of data\n- **Geographic redundancy**: Data centers in different locations\n\n**Logical redundancy**:\n- **Database replication**: Master-slave or multi-master setups\n- **File replication**: Copying files to multiple storage systems\n- **Backup copies**: Point-in-time copies stored separately\n\n**Redundancy strategies for PKM**:\n\n- **Local redundancy**: Multiple drives or partitions on the same machine\n- **Cloud sync**: Services like Dropbox, iCloud, or Google Drive replicate data to the cloud\n- **Git repositories**: Every clone is a complete copy of the repository\n- **3-2-1 backup rule**: Three copies, two media types, one offsite\n\n**Benefits**:\n- **Fault tolerance**: System continues operating despite component failures\n- **Disaster recovery**: Data survives catastrophic events\n- **High availability**: Users can access data even during maintenance\n- **Performance**: Read operations can be distributed across copies\n\n**Costs and trade-offs**:\n- **Storage costs**: Multiple copies multiply storage requirements\n- **Consistency challenges**: Keeping copies synchronized requires effort\n- **Complexity**: More copies mean more potential points of failure in synchronization\n- **Write performance**: Updates may need to propagate to multiple locations\n\n**Redundancy is not backup**: Redundancy protects against hardware failures but not against logical errors (accidental deletion, ransomware). Redundant systems replicate mistakes instantly. True protection requires both redundancy (for hardware failures) and versioned backups (for logical errors).",
+    "tags": [
+        "data-protection",
+        "backup",
+        "storage",
+        "reliability",
+        "fault-tolerance"
+    ],
+    "category": "Concepts",
+    "icon": "FaCopy",
+    "featured": false,
+    "aliases": [
+        "Redundant Storage",
+        "Data Replication",
+        "Storage Redundancy"
+    ],
+    "relatedConcepts": [
+        "3-2-1-backup-rule",
+        "durability",
+        "fault-tolerance",
+        "data-availability",
+        "disaster-recovery",
+        "data-synchronization",
+        "full-backup",
+        "incremental-backup",
+        "air-gapped-backup"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/How+I+synchronize+and+backup+my+Obsidian+notes"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Backup & Recovery by W. Curtis Preston",
+            "url": "https://www.amazon.com/dp/0596102461?tag=dsebastien00-20"
+        },
+        {
+            "title": "Data Protection by Preston de Guise",
+            "url": "https://www.amazon.com/dp/0367255820?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Data redundancy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_redundancy",
+            "type": "website"
+        },
+        {
+            "title": "RAID - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/RAID",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-18",
+    "dateModified": "2026-01-18"
+}

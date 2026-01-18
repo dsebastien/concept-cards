@@ -1,0 +1,97 @@
+{
+    "id": "information-lifecycle-management",
+    "name": "Information Lifecycle Management",
+    "summary": "A comprehensive approach to managing data through all stages from creation to disposal based on its value and requirements.",
+    "explanation": "Information Lifecycle Management (ILM) is a strategy for administering storage systems and data throughout its lifecycle - from creation through final disposition. ILM recognizes that data value changes over time and manages it accordingly, optimizing storage costs while meeting access, compliance, and retention requirements.\n\n**The information lifecycle stages**:\n\n1. **Creation/Capture**: Data is generated or collected\n   - Focus: Proper classification, metadata capture, quality assurance\n\n2. **Storage/Maintenance**: Active use and management\n   - Focus: Accessibility, integrity, security, performance\n\n3. **Use/Access**: Data is actively referenced and modified\n   - Focus: Availability, search, collaboration, version control\n\n4. **Archival**: Data moves to long-term storage\n   - Focus: Compliance, cost optimization, preservation\n\n5. **Disposition**: Data is securely destroyed\n   - Focus: Compliance, security, verification\n\n**ILM strategies**:\n\n**Tiered storage**: Move data between storage tiers based on access patterns\n- Hot tier: Fast, expensive storage for frequently accessed data\n- Warm tier: Moderate performance for occasional access\n- Cold tier: Slow, cheap storage for rarely accessed archives\n\n**Policy-based automation**: Rules that automatically manage data movement\n- Move files older than 90 days to archive\n- Delete temporary files after 30 days\n- Migrate completed projects to cold storage\n\n**ILM in personal knowledge management**:\n\n- **Capture inbox**: New notes start in a processing area\n- **Active notes**: Working notes in easily accessible locations\n- **Reference archive**: Stable notes for long-term reference\n- **Project lifecycle**: Active → completed → archived\n- **Regular reviews**: Periodic assessment of note relevance and value\n\n**Benefits**:\n- **Cost optimization**: Match storage cost to data value\n- **Compliance**: Automated retention and disposal\n- **Performance**: Keep active data on fast storage\n- **Organization**: Clear expectations for data at each stage\n\n**Challenges**:\n- **Classification complexity**: Determining data value is difficult\n- **Changing requirements**: Business needs and regulations evolve\n- **Integration**: Tools and systems must support lifecycle policies\n\nEffective ILM requires understanding that not all data is equal and that its value typically decreases over time - but not always linearly or predictably.",
+    "tags": [
+        "data-management",
+        "storage",
+        "governance",
+        "organization",
+        "knowledge-management"
+    ],
+    "category": "Frameworks",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "ILM",
+        "Data Lifecycle Management",
+        "Information Management Lifecycle"
+    ],
+    "relatedConcepts": [
+        "data-retention-policy",
+        "digital-preservation",
+        "cold-storage",
+        "durability",
+        "3-2-1-backup-rule",
+        "capture-system",
+        "data-redundancy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Information Governance by Robert Smallwood",
+            "url": "https://www.amazon.com/dp/1119491444?tag=dsebastien00-20"
+        },
+        {
+            "title": "Data Management at Scale by Piethein Strengholt",
+            "url": "https://www.amazon.com/dp/1098138864?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Information lifecycle management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_lifecycle_management",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-18",
+    "dateModified": "2026-01-18"
+}

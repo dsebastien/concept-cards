@@ -1,0 +1,96 @@
+{
+    "id": "digital-preservation",
+    "name": "Digital Preservation",
+    "summary": "The active management of digital content over time to ensure it remains accessible and usable for the long term.",
+    "explanation": "Digital preservation encompasses the policies, strategies, and actions required to ensure that digital information remains accessible, usable, and authentic over extended periods of time - potentially decades or centuries. Unlike physical preservation, digital preservation must contend with rapidly changing technology, format obsolescence, and the fragility of digital storage media.\n\n**Core challenges**:\n\n- **Format obsolescence**: File formats become unsupported (WordPerfect, Flash, early image formats)\n- **Software obsolescence**: Applications needed to open files are discontinued\n- **Hardware obsolescence**: Storage media becomes unreadable (floppy disks, ZIP drives)\n- **Bit rot**: Physical degradation of storage media over time\n- **Link rot**: URLs and references becoming broken\n\n**Preservation strategies**:\n\n**Migration**: Converting content to new formats as technology changes\n- Requires ongoing effort and monitoring\n- May lose some fidelity or metadata\n- Example: Converting Word docs to PDF/A for archival\n\n**Emulation**: Running old software in simulated environments\n- Preserves original experience\n- Complex and resource-intensive\n- Used for software, games, interactive content\n\n**Normalization**: Converting diverse formats to a few standard ones upon ingest\n- Simplifies long-term management\n- May lose format-specific features\n\n**Digital preservation for PKM**:\n\n- **Use open, plain-text formats**: Markdown, plain text, and open standards (PNG, PDF/A) have better longevity than proprietary formats\n- **Avoid vendor lock-in**: Tools that use open formats ensure your notes survive the tool\n- **Document your system**: Future you (or your heirs) needs to understand your organization\n- **Regular format audits**: Periodically check that all files can still be opened\n- **Multiple copies in multiple formats**: Export important content to both original and preservation formats\n\n**Institutional frameworks**:\n\n- **OAIS (Open Archival Information System)**: ISO standard for archival systems\n- **PREMIS**: Metadata standard for digital preservation\n- **LOCKSS**: \"Lots of Copies Keep Stuff Safe\" - distributed preservation network\n\nDigital preservation is an ongoing process, not a one-time action. The goal isn't just to keep bits intact but to maintain the ability to render them meaningfully.",
+    "tags": [
+        "archival",
+        "data-protection",
+        "long-term-storage",
+        "knowledge-management",
+        "formats"
+    ],
+    "category": "Concepts",
+    "icon": "FaArchive",
+    "featured": false,
+    "aliases": [
+        "Digital Archiving",
+        "Long-term Digital Storage",
+        "Digital Curation"
+    ],
+    "relatedConcepts": [
+        "durability",
+        "data-portability",
+        "link-rot",
+        "plain-text-productivity",
+        "markdown",
+        "local-first",
+        "3-2-1-backup-rule",
+        "cold-storage",
+        "information-lifecycle-management",
+        "data-retention-policy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Digital Antiquarian by Jimmy Maher",
+            "url": "https://www.amazon.com/dp/B08FRDPMKD?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Digital preservation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Digital_preservation",
+            "type": "website"
+        },
+        {
+            "title": "Library of Congress Digital Preservation",
+            "url": "https://www.loc.gov/preservation/digital/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-18",
+    "dateModified": "2026-01-18"
+}

@@ -23,7 +23,11 @@
         "business-continuity",
         "recovery-point-objective",
         "recovery-time-objective",
-        "data-availability"
+        "data-availability",
+        "durability",
+        "data-redundancy",
+        "cold-storage",
+        "fault-tolerance"
     ],
     "relatedNotes": [],
     "articles": [],
@@ -52,5 +56,5 @@
     ],
     "tutorials": [],
     "datePublished": "2026-01-16",
-    "dateModified": "2026-01-16"
+    "dateModified": "2026-01-18"
 }

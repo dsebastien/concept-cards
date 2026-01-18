@@ -1,0 +1,59 @@
+{
+    "id": "cold-storage",
+    "name": "Cold Storage",
+    "summary": "Low-cost archival storage for data that is rarely accessed but must be retained for compliance, backup, or historical purposes.",
+    "explanation": "Cold storage refers to data storage systems optimized for infrequently accessed data, offering significantly lower costs in exchange for slower retrieval times. It's a key component of tiered storage strategies and information lifecycle management, providing an economical way to retain large volumes of data long-term.\n\n**Characteristics of cold storage**:\n\n- **Low cost per gigabyte**: Often 5-10x cheaper than hot storage\n- **Slower access times**: Minutes to hours for retrieval vs. milliseconds\n- **Retrieval fees**: Some services charge per-access fees\n- **Minimum storage durations**: Data may need to stay for 30-180 days\n- **High durability**: Designed for long-term data integrity\n\n**Cold storage options**:\n\n**Cloud services**:\n- AWS Glacier / Glacier Deep Archive\n- Azure Archive Storage\n- Google Cloud Archive Storage\n- Backblaze B2 (cold tier)\n\n**On-premises**:\n- Tape libraries (LTO tapes)\n- Optical media (M-DISC, archival Blu-ray)\n- Offline hard drives\n- Air-gapped NAS systems\n\n**Use cases**:\n\n- **Compliance archives**: Data required by law but rarely needed\n- **Backup archives**: Long-term backup retention beyond active rotation\n- **Historical records**: Past projects, old versions, legacy data\n- **Media archives**: Original photos, videos, raw files\n- **Legal holds**: Evidence preservation for potential litigation\n\n**Cold storage in PKM**:\n\n- **Old project archives**: Completed projects you might reference someday\n- **Version history**: Historical snapshots of your knowledge base\n- **Raw captures**: Original source materials (PDFs, books, videos)\n- **Backup archives**: Monthly or yearly full backups\n\n**Best practices**:\n\n1. **Catalog thoroughly**: You need to find data before retrieving it\n2. **Test retrieval**: Periodically verify you can actually restore data\n3. **Consider retrieval costs**: Factor in access fees for planning\n4. **Use appropriate formats**: Avoid proprietary formats that may become unreadable\n5. **Geographic distribution**: Keep copies in multiple locations\n6. **Document the archive**: Future you needs to understand what's stored and why\n\n**Cold vs. offline vs. air-gapped**:\n- **Cold storage**: Online but slow to access\n- **Offline storage**: Must be physically connected to access\n- **Air-gapped storage**: Never connected to networks (strongest ransomware protection)",
+    "tags": [
+        "storage",
+        "archival",
+        "backup",
+        "data-protection",
+        "cost-optimization"
+    ],
+    "category": "Concepts",
+    "icon": "FaSnowflake",
+    "featured": false,
+    "aliases": [
+        "Archive Storage",
+        "Cold Tier",
+        "Archival Storage",
+        "Deep Archive"
+    ],
+    "relatedConcepts": [
+        "information-lifecycle-management",
+        "3-2-1-backup-rule",
+        "air-gapped-backup",
+        "digital-preservation",
+        "data-retention-policy",
+        "durability",
+        "offline-backup"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Data Protection by Preston de Guise",
+            "url": "https://www.amazon.com/dp/0367255820?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cold data storage - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cold_data",
+            "type": "website"
+        },
+        {
+            "title": "AWS Glacier",
+            "url": "https://aws.amazon.com/glacier/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-18",
+    "dateModified": "2026-01-18"
+}
