@@ -48,6 +48,9 @@
         "typescript": "^5.9.3",
         "typescript-eslint": "8.48.0",
       },
+      "optionalDependencies": {
+        "@resvg/resvg-js-linux-x64-gnu": "2.6.2",
+      },
     },
   },
   "packages": {
