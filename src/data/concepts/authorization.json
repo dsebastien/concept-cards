@@ -3,12 +3,25 @@
     "name": "Authorization",
     "summary": "The process of determining what actions or resources an authenticated entity is permitted to access",
     "explanation": "Authorization is the security process that determines what an authenticated user, device, or system is allowed to do. While authentication verifies identity ('Who are you?'), authorization controls access ('What can you do?'). It's the enforcement mechanism that implements access policies after identity has been established.\n\nAuthorization models include: Role-Based Access Control (RBAC) where permissions are assigned to roles and users are assigned to roles; Attribute-Based Access Control (ABAC) where access decisions are based on attributes of users, resources, and environment; Discretionary Access Control (DAC) where resource owners control access; and Mandatory Access Control (MAC) where a central authority enforces access policies.\n\nIn practice, authorization involves: defining permissions (read, write, delete, execute), assigning permissions to roles or users, enforcing permissions at access points, and logging access decisions for audit purposes. A user might authenticate successfully but be denied access to specific files, features, or administrative functions based on their authorization level.\n\nReal-world example: In a corporate system, an authenticated employee might be authorized to view their own payroll information but not other employees' records. A manager might be authorized to approve expense reports for their team but not change company-wide policies. Each action requires both successful authentication and appropriate authorization.\n\nProper authorization prevents privilege escalation attacks, enforces separation of duties, and ensures compliance with data protection regulations by restricting access to sensitive information.",
-    "tags": ["security", "access-control", "permissions", "identity"],
+    "tags": [
+        "security",
+        "access-control",
+        "permissions",
+        "identity"
+    ],
     "category": "Principles",
     "icon": "FaKey",
     "featured": false,
-    "aliases": ["AuthZ", "Access Control", "Permission Management"],
-    "relatedConcepts": ["authentication", "least-privilege", "defense-in-depth"],
+    "aliases": [
+        "AuthZ",
+        "Access Control",
+        "Permission Management"
+    ],
+    "relatedConcepts": [
+        "authentication",
+        "least-privilege",
+        "defense-in-depth"
+    ],
     "relatedNotes": [],
     "references": [
         {
@@ -20,6 +33,11 @@
             "title": "Role-based access control - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Role-based_access_control",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

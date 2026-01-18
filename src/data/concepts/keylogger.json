@@ -3,18 +3,39 @@
     "name": "Keylogger",
     "summary": "Software or hardware that records keystrokes to capture passwords, messages, and other sensitive data",
     "explanation": "A keylogger (keystroke logger) is a surveillance tool that records every key pressed on a keyboard. While keyloggers have legitimate uses in parental monitoring, employee oversight (with disclosure), and IT troubleshooting, they are primarily associated with malicious activity. Cybercriminals use keyloggers to steal passwords, credit card numbers, personal messages, and other sensitive information typed by unsuspecting users.\n\nKeyloggers exist in two main forms. Software keyloggers are programs that run in the background, intercepting keystrokes at various system levels. Kernel-based keyloggers intercept keystrokes at the operating system level, making them difficult to detect. API-level keyloggers hook into the keyboard API to capture input. Form grabbers specifically target data entered into web forms. Hardware keyloggers are physical devices inserted between the keyboard and computer, or embedded in keyboards themselves. These are undetectable by software and can capture keystrokes even before the operating system loads.\n\nKeyloggers have been used in high-profile attacks. The 2014 Sony Pictures hack reportedly involved keyloggers to capture employee credentials. Banking trojans like Zeus and SpyEye incorporate keylogging capabilities to steal financial credentials. Corporate espionage cases have involved hardware keyloggers planted by insiders or during physical security breaches.\n\nProtection against keyloggers requires multiple approaches. Use comprehensive security software that includes anti-keylogger capabilities. Consider using a password manager that auto-fills credentials without typing. For highly sensitive input, use virtual keyboards or copy-paste from secure storage. Enable two-factor authentication, which limits the usefulness of captured passwords. Physically inspect your keyboard connections for unfamiliar devices. Use encrypted communication channels. For organizations, implement strict physical security controls and conduct regular security audits of systems.",
-    "tags": ["security", "surveillance", "credentials", "privacy"],
+    "tags": [
+        "security",
+        "surveillance",
+        "credentials",
+        "privacy"
+    ],
     "category": "Concepts",
     "icon": "FaKeyboard",
     "featured": false,
-    "aliases": ["Keystroke Logger", "Keyboard Logger"],
-    "relatedConcepts": ["spyware", "malware"],
+    "aliases": [
+        "Keystroke Logger",
+        "Keyboard Logger"
+    ],
+    "relatedConcepts": [
+        "spyware",
+        "malware"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Keystroke logging - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Keystroke_logging",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
         }
     ],
     "articles": [],

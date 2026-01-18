@@ -3,18 +3,35 @@
     "name": "Insider Threat",
     "summary": "Security risks originating from people within an organization who misuse their authorized access.",
     "explanation": "An insider threat refers to security risks posed by individuals within an organization who have legitimate access to systems, data, or facilities. These insiders, including employees, contractors, partners, or former staff with residual access, may intentionally or unintentionally cause harm to the organization.\n\nInsider threats manifest in three primary forms: malicious insiders who deliberately steal data, sabotage systems, or conduct fraud for personal gain, revenge, or external incentives; negligent insiders who inadvertently cause breaches through carelessness, policy violations, or falling victim to social engineering; and compromised insiders whose credentials have been stolen by external attackers who then operate with legitimate access.\n\nThe insider threat is particularly dangerous because insiders already possess authorized access, understand security controls and how to evade them, know where valuable data resides, and can often operate within normal activity patterns. Notable cases include Edward Snowden's NSA data disclosure, the 2020 Twitter social engineering attack facilitated by insider access, and numerous cases of intellectual property theft by departing employees.\n\nIndicators of insider threats include: unusual data access patterns, accessing resources outside job scope, working unusual hours, expressing grievances, unexplained financial changes, and attempting to circumvent security controls.\n\nDefenses require a layered approach: implementing least privilege and need-to-know access controls, deploying user behavior analytics (UBA), monitoring data loss prevention (DLP) systems, conducting thorough background checks, establishing clear offboarding procedures, creating a positive security culture, and developing insider threat programs that balance security with employee privacy.",
-    "tags": ["security", "threats", "human-factors", "access-control", "trust"],
+    "tags": [
+        "security",
+        "threats",
+        "human-factors",
+        "access-control",
+        "trust"
+    ],
     "category": "Concepts",
     "icon": "FaUserShield",
     "featured": false,
-    "aliases": ["Internal Threat", "Malicious Insider"],
-    "relatedConcepts": ["social-engineering", "data-breach"],
+    "aliases": [
+        "Internal Threat",
+        "Malicious Insider"
+    ],
+    "relatedConcepts": [
+        "social-engineering",
+        "data-breach"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Insider threat - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Insider_threat",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

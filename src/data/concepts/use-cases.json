@@ -3,19 +3,49 @@
     "name": "Use Cases",
     "summary": "Descriptions of interactions between actors and a system to achieve specific goals, capturing functional requirements in a scenario-based format.",
     "explanation": "Use cases are a technique for capturing and describing the functional requirements of a system by focusing on the interactions between users (actors) and the system to accomplish specific goals. Originated by Ivar Jacobson in the 1980s, use cases became a cornerstone of the Unified Modeling Language (UML) and object-oriented analysis.\n\nA use case describes a sequence of actions that a system performs to yield a valuable result for an actor. Each use case has a primary actor (the user initiating the interaction), preconditions (what must be true before), postconditions (what will be true after), a main success scenario (the happy path), and alternative flows (variations and error handling).\n\nUse cases are organized into use case diagrams that show the relationships between actors and use cases, as well as relationships between use cases themselves (include, extend, and generalization). This visual representation helps stakeholders understand system scope and actor interactions at a glance.\n\nThe level of detail in use cases can vary from brief (a simple sentence), to casual (a paragraph), to fully dressed (comprehensive documentation). The appropriate level depends on the project's needs and the complexity of the interaction being described.\n\nUse cases differ from user stories in their level of detail and formality. While user stories are brief, informal descriptions focused on user value, use cases provide structured, detailed specifications of system behavior. Both can be used together, with user stories capturing high-level requirements and use cases providing detailed specifications when needed.",
-    "tags": ["software-engineering", "requirements", "uml", "planning"],
+    "tags": [
+        "software-engineering",
+        "requirements",
+        "uml",
+        "planning"
+    ],
     "category": "Software Development",
     "icon": "FaProjectDiagram",
     "featured": false,
-    "aliases": ["Use Case Scenarios", "Use Case Specifications"],
-    "relatedConcepts": ["user-stories", "functional-requirements", "software-requirements-specification", "requirements-engineering"],
+    "aliases": [
+        "Use Case Scenarios",
+        "Use Case Specifications"
+    ],
+    "relatedConcepts": [
+        "user-stories",
+        "functional-requirements",
+        "software-requirements-specification",
+        "requirements-engineering"
+    ],
     "relatedNotes": [],
     "references": [
-        {"title": "Use case - Wikipedia", "url": "https://en.wikipedia.org/wiki/Use_case", "type": "website"}
+        {
+            "title": "Use case - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Use_case",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
     ],
     "articles": [],
     "books": [
-        {"title": "Writing Effective Use Cases by Alistair Cockburn", "url": "https://www.amazon.com/dp/0201702258?tag=dsebastien00-20"}
+        {
+            "title": "Writing Effective Use Cases by Alistair Cockburn",
+            "url": "https://www.amazon.com/dp/0201702258?tag=dsebastien00-20"
+        }
     ],
     "tutorials": [],
     "datePublished": "2026-01-16",

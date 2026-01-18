@@ -3,18 +3,36 @@
     "name": "DNS Spoofing",
     "summary": "An attack that corrupts DNS data to redirect users to malicious websites without their knowledge.",
     "explanation": "DNS Spoofing, also known as DNS cache poisoning, is an attack that exploits vulnerabilities in the Domain Name System to redirect users from legitimate websites to malicious ones. By corrupting DNS resolver caches with fraudulent records, attackers can intercept traffic intended for trusted sites without the victims' awareness.\n\nThe Domain Name System acts as the internet's phone book, translating human-readable domain names into IP addresses. DNS spoofing attacks inject false DNS responses, causing resolvers to cache incorrect IP mappings. When users subsequently request the affected domain, they're silently redirected to attacker-controlled servers that may host phishing pages, malware, or man-in-the-middle proxies.\n\nThe Kaminsky attack (2008) demonstrated how fundamental DNS vulnerabilities could enable large-scale cache poisoning. Attackers can also compromise DNS through: hijacking authoritative DNS servers, intercepting DNS queries on the network (especially on unsecured WiFi), modifying local hosts files, or compromising router DNS settings.\n\nImpacts include credential theft through fake login pages, malware distribution, email interception, and surveillance of encrypted communications through certificate manipulation.\n\nDefenses include: implementing DNSSEC (DNS Security Extensions) for cryptographic verification of DNS records, using DNS over HTTPS (DoH) or DNS over TLS (DoT) to encrypt DNS queries, employing reputable DNS providers with security measures, monitoring for DNS anomalies, using certificate pinning in applications, and regularly auditing DNS configurations.",
-    "tags": ["security", "attacks", "networks", "dns", "redirection"],
+    "tags": [
+        "security",
+        "attacks",
+        "networks",
+        "dns",
+        "redirection"
+    ],
     "category": "Concepts",
     "icon": "FaNetworkWired",
     "featured": false,
-    "aliases": ["DNS Cache Poisoning", "DNS Hijacking"],
-    "relatedConcepts": ["phishing", "typosquatting", "social-engineering"],
+    "aliases": [
+        "DNS Cache Poisoning",
+        "DNS Hijacking"
+    ],
+    "relatedConcepts": [
+        "phishing",
+        "typosquatting",
+        "social-engineering"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "DNS spoofing - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/DNS_spoofing",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

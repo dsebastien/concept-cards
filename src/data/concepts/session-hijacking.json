@@ -3,18 +3,35 @@
     "name": "Session Hijacking",
     "summary": "An attack that takes over a user's active session to gain unauthorized access to systems or data.",
     "explanation": "Session hijacking is an attack where an adversary takes control of a user's active session with a web application or service. By stealing or predicting session identifiers, attackers can impersonate legitimate users and gain unauthorized access to accounts, sensitive data, and system functionality without needing the victim's credentials.\n\nWeb applications maintain user sessions through tokens, typically stored in cookies. Session hijacking can occur through multiple vectors: packet sniffing on unencrypted networks to capture session cookies, cross-site scripting (XSS) attacks that steal cookies via malicious JavaScript, session fixation where attackers set a known session ID before the victim authenticates, brute-forcing weak session tokens, or malware that extracts session data from browsers.\n\nModern variants include session sidejacking (intercepting cookies over unencrypted connections), cookie replay attacks, and browser-in-the-browser attacks that display fake login windows to capture credentials and session tokens. The 2020 Twitter hack partially relied on session token theft through social engineering.\n\nThe impact can be severe: complete account takeover, unauthorized transactions, data theft, privilege escalation, and persistent access through session token refresh mechanisms.\n\nDefenses include: using HTTPS exclusively with HSTS, implementing secure cookie attributes (HttpOnly, Secure, SameSite), generating cryptographically strong session IDs, binding sessions to client fingerprints, implementing session timeouts and re-authentication for sensitive operations, deploying XSS protections, and monitoring for anomalous session behavior.",
-    "tags": ["security", "attacks", "sessions", "authentication", "web-security"],
+    "tags": [
+        "security",
+        "attacks",
+        "sessions",
+        "authentication",
+        "web-security"
+    ],
     "category": "Concepts",
     "icon": "FaUserLock",
     "featured": false,
-    "aliases": ["Cookie Hijacking", "Session Theft"],
-    "relatedConcepts": ["phishing", "social-engineering"],
+    "aliases": [
+        "Cookie Hijacking",
+        "Session Theft"
+    ],
+    "relatedConcepts": [
+        "phishing",
+        "social-engineering"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Session hijacking - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Session_hijacking",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

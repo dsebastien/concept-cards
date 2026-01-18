@@ -3,18 +3,33 @@
     "name": "Patch Management",
     "summary": "The process of identifying, acquiring, testing, and installing software updates to fix security vulnerabilities.",
     "explanation": "Patch management is a critical cybersecurity practice involving the systematic acquisition, testing, and installation of software updates (patches) to address security vulnerabilities, fix bugs, and improve functionality. In today's threat landscape, where attackers rapidly weaponize newly discovered vulnerabilities, effective patch management is essential for maintaining security posture and reducing attack surface.\n\nThe patch management lifecycle consists of several stages: inventory and discovery ensures visibility into all systems and software requiring updates; monitoring tracks vendor announcements and vulnerability disclosures for relevant patches; assessment evaluates each patch's criticality, applicability, and potential impact; testing validates patches in a non-production environment to identify compatibility issues; deployment rolls out approved patches according to defined schedules and priorities; and verification confirms successful installation and system stability.\n\nOrganizations face several challenges in patch management. The sheer volume of patches across diverse systems can be overwhelming. Patches occasionally introduce new problems or break functionality. Critical systems may have limited maintenance windows. Legacy systems may no longer receive vendor support. Remote and mobile devices complicate deployment. These challenges require balancing security urgency against operational stability.\n\nBest practices for effective patch management include maintaining comprehensive asset inventories, establishing risk-based prioritization criteria, defining clear timelines for different severity levels, automating where possible while maintaining human oversight, coordinating with change management processes, and maintaining rollback procedures for problematic patches.\n\nPatch management is closely linked to vulnerability management. Vulnerability assessments identify weaknesses that patches often address. Organizations should correlate vulnerability scan results with patch status to ensure critical vulnerabilities receive timely remediation. Metrics like mean time to patch and patch compliance rates help measure program effectiveness.",
-    "tags": ["security", "maintenance", "updates", "vulnerabilities", "processes"],
+    "tags": [
+        "security",
+        "maintenance",
+        "updates",
+        "vulnerabilities",
+        "processes"
+    ],
     "category": "Concepts",
     "icon": "FaWrench",
     "featured": false,
     "aliases": [],
-    "relatedConcepts": ["vulnerability-assessment", "zero-day-vulnerability", "defense-in-depth"],
+    "relatedConcepts": [
+        "vulnerability-assessment",
+        "zero-day-vulnerability",
+        "defense-in-depth"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Patch (computing) - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Patch_(computing)",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

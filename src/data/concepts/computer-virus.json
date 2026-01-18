@@ -3,18 +3,33 @@
     "name": "Computer Virus",
     "summary": "Self-replicating malware that spreads by inserting copies of itself into other programs or files",
     "explanation": "A computer virus is a type of malware that replicates by inserting copies of itself into other programs, data files, or the boot sector of a hard drive. Like biological viruses that need host cells to reproduce, computer viruses require host files or programs to spread. When the infected host is executed or opened, the virus code runs and attempts to infect additional files.\n\nViruses spread through various mechanisms. File infectors attach to executable programs and spread when those programs are shared or copied. Boot sector viruses infect the master boot record and activate when the computer starts. Macro viruses embed in documents (particularly Microsoft Office files) and execute when the document is opened. Polymorphic viruses change their code each time they replicate to evade signature-based detection, while metamorphic viruses completely rewrite themselves.\n\nHistorically significant viruses shaped cybersecurity. The Brain virus (1986) was the first PC virus, spreading via floppy disks. The ILOVEYOU virus (2000) caused an estimated $10 billion in damages by spreading through email with an irresistible subject line. The Melissa virus (1999) overwhelmed email servers worldwide. CIH (Chernobyl) could overwrite system BIOS, rendering computers unbootable.\n\nProtection requires multiple defenses. Use reputable antivirus software with up-to-date definitions and heuristic detection capabilities. Keep operating systems and applications patched. Be cautious with email attachments and downloads from untrusted sources. Disable auto-run features for removable media. Enable macro security settings in office applications. Regular backups ensure recovery if infection occurs. Modern security practices have made traditional viruses less common, but they remain a threat, especially in environments with legacy systems.",
-    "tags": ["security", "cybersecurity", "malware"],
+    "tags": [
+        "security",
+        "cybersecurity",
+        "malware"
+    ],
     "category": "Concepts",
     "icon": "FaVirus",
     "featured": false,
-    "aliases": ["Virus"],
-    "relatedConcepts": ["malware", "computer-worm", "trojan-horse"],
+    "aliases": [
+        "Virus"
+    ],
+    "relatedConcepts": [
+        "malware",
+        "computer-worm",
+        "trojan-horse"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Computer virus - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Computer_virus",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

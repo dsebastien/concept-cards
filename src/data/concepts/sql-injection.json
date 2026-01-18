@@ -3,18 +3,36 @@
     "name": "SQL Injection",
     "summary": "An attack that inserts malicious SQL code into application queries to manipulate databases",
     "explanation": "SQL injection (SQLi) is a code injection technique that exploits vulnerabilities in applications that incorporate user input into SQL database queries without proper validation or sanitization. By inserting malicious SQL statements into entry fields, attackers can manipulate the database to reveal sensitive information, modify or delete data, execute administrative operations, or even gain control of the database server.\n\nSQL injection works when user-supplied data is directly concatenated into SQL queries. For example, if a login form directly inserts the username into a query, an attacker might enter \"admin' --\" to bypass authentication, as the comment sequence (--) nullifies the password check. More sophisticated attacks can use UNION statements to extract data from other tables, stacked queries to execute multiple commands, or time-based techniques to infer database contents.\n\nNotable SQL injection attacks include the Heartland Payment Systems breach (2008), exposing 130 million credit card numbers. The Sony Pictures hack (2011) compromised data of 77 million users. The TalkTalk breach (2015) exposed personal data of 157,000 customers using basic SQL injection. These attacks consistently rank among the top web application vulnerabilities in OWASP's Top 10.\n\nDefenses include using parameterized queries (prepared statements) that separate SQL code from data, implementing stored procedures, applying input validation and sanitization, employing the principle of least privilege for database accounts, using web application firewalls (WAF), and conducting regular security testing including automated vulnerability scanning and manual penetration testing.",
-    "tags": ["security", "attacks", "databases", "web-security", "vulnerabilities"],
+    "tags": [
+        "security",
+        "attacks",
+        "databases",
+        "web-security",
+        "vulnerabilities"
+    ],
     "category": "Concepts",
     "icon": "FaDatabase",
     "featured": false,
-    "aliases": ["SQLi", "SQL Injection Attack"],
-    "relatedConcepts": ["cross-site-scripting", "defensive-programming", "data-integrity"],
+    "aliases": [
+        "SQLi",
+        "SQL Injection Attack"
+    ],
+    "relatedConcepts": [
+        "cross-site-scripting",
+        "defensive-programming",
+        "data-integrity"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "SQL injection - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/SQL_injection",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

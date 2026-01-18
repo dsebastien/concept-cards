@@ -3,12 +3,27 @@
     "name": "Incident Response",
     "summary": "The organized approach to detecting, containing, and recovering from security breaches.",
     "explanation": "Incident response (IR) is a structured methodology for handling and managing the aftermath of a security breach or cyberattack. The primary objectives are to limit damage, reduce recovery time and costs, and prevent future incidents. A well-prepared incident response capability is essential because security incidents are not a matter of 'if' but 'when' for most organizations.\n\nThe incident response lifecycle typically follows six phases defined by frameworks like NIST: Preparation involves establishing policies, procedures, and teams before incidents occur. Detection and Analysis focuses on identifying and validating potential security events. Containment prevents the incident from spreading while preserving evidence. Eradication removes the threat from the environment. Recovery restores systems to normal operation. Post-Incident Activity involves documentation and lessons learned to improve future response.\n\nAn effective incident response program requires several components: a dedicated Computer Security Incident Response Team (CSIRT) with clearly defined roles and responsibilities, documented playbooks for common incident types, communication plans for internal and external stakeholders, forensic capabilities to preserve and analyze evidence, and relationships with external resources like law enforcement and third-party responders.\n\nTiming is critical in incident response. The faster an organization can detect and contain a breach, the less damage it typically sustains. Organizations should practice their response capabilities through tabletop exercises and simulations, testing both technical procedures and decision-making processes.\n\nPost-incident analysis is often undervalued but crucial. Every incident provides learning opportunities to strengthen defenses, improve detection capabilities, and refine response procedures. Organizations should maintain detailed incident documentation and conduct blameless post-mortems to drive continuous improvement.",
-    "tags": ["security", "response", "recovery", "processes", "management"],
+    "tags": [
+        "security",
+        "response",
+        "recovery",
+        "processes",
+        "management"
+    ],
     "category": "Concepts",
     "icon": "FaExclamationTriangle",
     "featured": false,
-    "aliases": ["IR", "Security Incident Response", "Incident Handling"],
-    "relatedConcepts": ["disaster-recovery", "security-audit", "data-breach", "ransomware"],
+    "aliases": [
+        "IR",
+        "Security Incident Response",
+        "Incident Handling"
+    ],
+    "relatedConcepts": [
+        "disaster-recovery",
+        "security-audit",
+        "data-breach",
+        "ransomware"
+    ],
     "relatedNotes": [],
     "references": [
         {
@@ -20,6 +35,11 @@
             "title": "Computer security incident management - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Computer_security_incident_management",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

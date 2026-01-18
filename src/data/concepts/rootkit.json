@@ -3,18 +3,32 @@
     "name": "Rootkit",
     "summary": "Stealthy malware designed to hide its presence and maintain persistent privileged access to a system",
     "explanation": "A rootkit is a collection of malicious software tools designed to gain and maintain unauthorized privileged access to a computer while actively concealing its presence. The name derives from 'root' (the superuser account on Unix systems) and 'kit' (the software components). Rootkits are particularly dangerous because they operate at deep system levels, making them extremely difficult to detect and remove.\n\nRootkits achieve stealth through various techniques depending on where they operate. User-mode rootkits intercept and modify system calls and API functions to hide their processes, files, and network connections from security software. Kernel-mode rootkits operate at the operating system kernel level, giving them complete control over the system and the ability to hide anything from any application. Bootkits infect the master boot record or volume boot record, loading before the operating system and potentially evading OS-level security. Firmware rootkits infect BIOS, UEFI, or device firmware, surviving even complete hard drive replacements.\n\nNotable rootkits include Sony's controversial DRM rootkit (2005), which was bundled with music CDs and created security vulnerabilities. The TDL/TDSS family of bootkits demonstrated sophisticated techniques for evading detection. Uroburos (Snake) is an advanced rootkit associated with state-sponsored espionage operations.\n\nProtection against rootkits is challenging. Use security software with rootkit detection capabilities that can scan at boot time or from outside the running OS. Keep systems fully patched to prevent initial compromise. Use Secure Boot and measured boot features on modern systems. Monitor for unusual system behavior that might indicate hidden processes. If a rootkit infection is confirmed, the safest approach is often to completely reinstall the operating system from trusted media, as removal tools may not eliminate all components of sophisticated rootkits.",
-    "tags": ["security", "malware", "persistence", "stealth"],
+    "tags": [
+        "security",
+        "malware",
+        "persistence",
+        "stealth"
+    ],
     "category": "Concepts",
     "icon": "FaUserSecret",
     "featured": false,
     "aliases": [],
-    "relatedConcepts": ["malware", "backdoor", "trojan-horse"],
+    "relatedConcepts": [
+        "malware",
+        "backdoor",
+        "trojan-horse"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Rootkit - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Rootkit",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

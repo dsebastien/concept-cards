@@ -3,19 +3,43 @@
     "name": "Smishing",
     "summary": "SMS phishing - using text messages to trick victims into clicking malicious links or revealing sensitive information.",
     "explanation": "Smishing (SMS phishing) is a social engineering attack that uses text messages to deceive victims. Attackers send fraudulent SMS messages designed to trick recipients into clicking malicious links, downloading malware, or revealing sensitive information like passwords and credit card numbers.\n\nSmishing exploits several factors: people tend to trust text messages more than emails, SMS has higher open rates (98% vs 20% for email), mobile screens make it harder to inspect URLs, and the informal nature of texting lowers our guard. Messages often create urgency to prompt immediate action without careful consideration.\n\nCommon smishing scenarios: 'Your package couldn't be delivered - click here to reschedule,' 'Your bank account has been locked - verify your identity,' 'You've won a prize - claim it now,' 'Unusual login detected - secure your account,' or fake two-factor authentication requests.\n\nDefense strategies: never click links in unexpected text messages - instead, go directly to the official website or app. Be suspicious of messages from unknown numbers claiming to be companies you do business with. Legitimate organizations rarely ask for sensitive information via SMS. Report suspicious messages to your carrier (forward to 7726/SPAM in many countries) and delete them. Enable spam filtering on your phone.",
-    "tags": ["cybersecurity", "security", "fraud", "attacks", "mobile"],
+    "tags": [
+        "cybersecurity",
+        "security",
+        "fraud",
+        "attacks",
+        "mobile"
+    ],
     "category": "Concepts",
     "icon": "FaSms",
     "featured": false,
-    "aliases": ["SMS Phishing", "Text Message Phishing", "Text Scam"],
-    "relatedConcepts": ["phishing", "vishing", "quishing", "social-engineering"],
+    "aliases": [
+        "SMS Phishing",
+        "Text Message Phishing",
+        "Text Scam"
+    ],
+    "relatedConcepts": [
+        "phishing",
+        "vishing",
+        "quishing",
+        "social-engineering"
+    ],
     "relatedNotes": [],
     "references": [
-        {"title": "SMS phishing - Wikipedia", "url": "https://en.wikipedia.org/wiki/SMS_phishing", "type": "website"}
+        {
+            "title": "SMS phishing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/SMS_phishing",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
     ],
     "articles": [],
     "books": [],
     "tutorials": [],
-    "datePublished": "2025-01-15",
-    "dateModified": "2025-01-15"
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
 }

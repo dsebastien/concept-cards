@@ -3,18 +3,34 @@
     "name": "Drive-by Download",
     "summary": "Unintentional download of malware simply by visiting a compromised or malicious website.",
     "explanation": "A drive-by download is a malware delivery technique where malicious software is automatically downloaded and often executed on a user's device without their knowledge or explicit consent. The attack occurs simply by visiting an infected webpage, requiring no user interaction beyond navigation to the site.\n\nDrive-by downloads exploit vulnerabilities in web browsers, browser plugins (historically Flash, Java, and PDF readers), or the operating system itself. Attackers inject malicious code into legitimate websites through compromised ad networks (malvertising), cross-site scripting vulnerabilities, or by hacking the site directly. When a vulnerable browser loads the page, exploit kits probe for weaknesses and deliver appropriate payloads.\n\nThe attack chain typically involves: a user visits a compromised page, hidden iframes or JavaScript redirect to an exploit kit, the kit fingerprints the browser and plugins, matching exploits are served, and malware is silently downloaded and executed. Modern exploit kits like Angler, RIG, and Magnitude have industrialized this process, offering malware-as-a-service to criminals.\n\nProtection requires a multi-layered approach: keeping browsers and plugins updated, removing unnecessary plugins, using browsers with built-in exploit mitigations and sandboxing, deploying endpoint protection with behavior analysis, implementing web filtering to block known malicious domains, and using script blockers or browser isolation. Network-level protections like DNS filtering and intrusion prevention systems add additional defense layers.",
-    "tags": ["security", "attacks", "malware", "web-security", "browsers"],
+    "tags": [
+        "security",
+        "attacks",
+        "malware",
+        "web-security",
+        "browsers"
+    ],
     "category": "Concepts",
     "icon": "FaDownload",
     "featured": false,
-    "aliases": ["Drive-by Attack"],
-    "relatedConcepts": ["watering-hole-attack", "social-engineering"],
+    "aliases": [
+        "Drive-by Attack"
+    ],
+    "relatedConcepts": [
+        "watering-hole-attack",
+        "social-engineering"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Drive-by download - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Drive-by_download",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

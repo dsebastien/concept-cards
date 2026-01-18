@@ -3,18 +3,36 @@
     "name": "Trojan Horse",
     "summary": "Malware disguised as legitimate software that performs malicious actions once installed",
     "explanation": "A Trojan horse (or simply 'Trojan') is malware that disguises itself as legitimate, desirable software to trick users into installing it. Named after the wooden horse from Greek mythology used to infiltrate Troy, this malware relies on deception rather than self-replication to spread. Users willingly download and execute Trojans, believing them to be games, utilities, security tools, or other helpful programs.\n\nTrojans operate by presenting an attractive facade while hiding malicious functionality. Once installed, they can perform virtually any harmful action: creating backdoors for remote access, stealing passwords and financial data, downloading additional malware, capturing keystrokes, taking screenshots, activating webcams, or enrolling the computer in a botnet. Some Trojans specifically target banking credentials (banking Trojans), while others focus on stealing cryptocurrency wallet information.\n\nReal-world Trojans have caused significant damage. Emotet, initially a banking Trojan, evolved into a major malware distribution platform used to deliver ransomware. Zeus (and its successor ZeuS/Zbot) stole hundreds of millions of dollars by capturing banking credentials. The DarkComet remote access Trojan (RAT) has been used in targeted attacks against activists and dissidents.\n\nProtection against Trojans centers on avoiding installation in the first place. Only download software from official sources and verified publishers. Be skeptical of free versions of paid software or 'cracked' programs. Keep antivirus software updated and scan downloads before execution. Pay attention to user reviews and download counts. Be wary of email attachments, even from known contacts whose accounts may be compromised. Enable application whitelisting where possible to prevent unauthorized programs from running.",
-    "tags": ["security", "cybersecurity", "malware", "deception"],
+    "tags": [
+        "security",
+        "cybersecurity",
+        "malware",
+        "deception"
+    ],
     "category": "Concepts",
     "icon": "FaHorseHead",
     "featured": false,
-    "aliases": ["Trojan", "Trojan Malware"],
-    "relatedConcepts": ["malware", "backdoor", "social-engineering", "spyware"],
+    "aliases": [
+        "Trojan",
+        "Trojan Malware"
+    ],
+    "relatedConcepts": [
+        "malware",
+        "backdoor",
+        "social-engineering",
+        "spyware"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Trojan horse (computing) - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Trojan_horse_(computing)",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

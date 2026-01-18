@@ -3,18 +3,37 @@
     "name": "CIA Triad",
     "summary": "The foundational security model comprising Confidentiality, Integrity, and Availability",
     "explanation": "The CIA Triad is the cornerstone framework of information security, defining three essential properties that must be protected: Confidentiality (ensuring data is accessible only to authorized parties), Integrity (ensuring data remains accurate and unaltered), and Availability (ensuring data and systems are accessible when needed). These three pillars work together to provide comprehensive security.\n\nConfidentiality protects against unauthorized disclosure through encryption, access controls, and classification systems. Integrity guards against unauthorized modification using checksums, digital signatures, and audit trails. Availability ensures systems remain operational through redundancy, fault tolerance, and disaster recovery planning.\n\nThe triad helps security professionals make balanced decisions. For example, maximizing confidentiality by restricting access might reduce availability. A hospital system must balance patient privacy (confidentiality) with immediate access for emergency care (availability) while ensuring records aren't tampered with (integrity).\n\nIn practice, different systems emphasize different aspects: banking systems prioritize integrity (accurate transactions), military systems prioritize confidentiality (classified information), and e-commerce sites prioritize availability (always-on shopping). The CIA Triad provides a framework for analyzing threats and designing appropriate countermeasures, ensuring security measures address all three dimensions rather than leaving gaps that attackers could exploit.",
-    "tags": ["security", "principles", "frameworks", "information-security"],
+    "tags": [
+        "security",
+        "principles",
+        "frameworks",
+        "information-security"
+    ],
     "category": "Principles",
     "icon": "FaShieldAlt",
     "featured": false,
-    "aliases": ["CIA Model", "Information Security Triad", "AIC Triad"],
-    "relatedConcepts": ["data-confidentiality", "data-integrity", "data-availability", "defense-in-depth"],
+    "aliases": [
+        "CIA Model",
+        "Information Security Triad",
+        "AIC Triad"
+    ],
+    "relatedConcepts": [
+        "data-confidentiality",
+        "data-integrity",
+        "data-availability",
+        "defense-in-depth"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Information security - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Information_security",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

@@ -3,19 +3,43 @@
     "name": "Vishing",
     "summary": "Voice phishing - using phone calls to deceive victims into revealing sensitive information or taking harmful actions.",
     "explanation": "Vishing (voice phishing) is a social engineering attack conducted over the phone. Attackers call victims pretending to be from legitimate organizations - banks, government agencies, tech support, or employers - to extract sensitive information or manipulate them into taking specific actions.\n\nVishing is effective because phone calls create urgency and pressure that's harder to resist than email. Hearing a human voice builds false trust, and victims can't easily verify caller identity. Modern vishing attacks use caller ID spoofing to display legitimate-looking numbers, and some even use AI-generated voices to impersonate specific people.\n\nCommon vishing scenarios: 'bank fraud department' calling about suspicious activity, 'IRS' threatening arrest for unpaid taxes, 'tech support' claiming your computer has viruses, 'utility company' threatening service disconnection, or 'grandchild' claiming to be in trouble and needing money urgently (grandparent scam).\n\nDefense strategies: never give sensitive information to incoming callers - hang up and call back using an official number you look up independently. Be suspicious of urgency and threats. Remember that legitimate organizations won't ask for passwords, PINs, or full card numbers over the phone. If something feels wrong, trust your instincts and verify through official channels.",
-    "tags": ["cybersecurity", "security", "fraud", "attacks", "phone"],
+    "tags": [
+        "cybersecurity",
+        "security",
+        "fraud",
+        "attacks",
+        "phone"
+    ],
     "category": "Concepts",
     "icon": "FaPhoneVolume",
     "featured": false,
-    "aliases": ["Voice Phishing", "Phone Phishing", "Phone Scam"],
-    "relatedConcepts": ["phishing", "smishing", "social-engineering", "pretexting"],
+    "aliases": [
+        "Voice Phishing",
+        "Phone Phishing",
+        "Phone Scam"
+    ],
+    "relatedConcepts": [
+        "phishing",
+        "smishing",
+        "social-engineering",
+        "pretexting"
+    ],
     "relatedNotes": [],
     "references": [
-        {"title": "Voice phishing - Wikipedia", "url": "https://en.wikipedia.org/wiki/Voice_phishing", "type": "website"}
+        {
+            "title": "Voice phishing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voice_phishing",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
     ],
     "articles": [],
     "books": [],
     "tutorials": [],
-    "datePublished": "2025-01-15",
-    "dateModified": "2025-01-15"
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
 }

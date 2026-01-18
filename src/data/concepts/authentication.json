@@ -3,12 +3,29 @@
     "name": "Authentication",
     "summary": "The process of verifying the identity of a user, device, or system before granting access",
     "explanation": "Authentication is the security process of verifying that someone or something is who or what it claims to be. It answers the question 'Who are you?' and forms the foundation of access control in any secure system. Without reliable authentication, authorization decisions become meaningless.\n\nAuthentication factors fall into three categories: something you know (passwords, PINs, security questions), something you have (smart cards, tokens, mobile phones), and something you are (fingerprints, facial recognition, voice patterns). Multi-factor authentication (MFA) combines two or more of these factors for stronger security.\n\nCommon authentication methods include: password-based authentication (most common but vulnerable to attacks), certificate-based authentication (using digital certificates), biometric authentication (physical characteristics), token-based authentication (hardware or software tokens), and single sign-on (SSO) allowing one authentication for multiple systems.\n\nAuthentication faces numerous threats: password attacks (brute force, dictionary, credential stuffing), phishing (tricking users into revealing credentials), man-in-the-middle attacks (intercepting authentication exchanges), and session hijacking (stealing authenticated sessions).\n\nBest practices include: enforcing strong password policies, implementing MFA especially for sensitive systems, using secure protocols (HTTPS, OAuth 2.0), monitoring for failed authentication attempts, and educating users about phishing. Modern systems increasingly use passwordless authentication methods like FIDO2/WebAuthn to eliminate password-related vulnerabilities entirely.",
-    "tags": ["security", "identity", "access-control", "verification"],
+    "tags": [
+        "security",
+        "identity",
+        "access-control",
+        "verification"
+    ],
     "category": "Principles",
     "icon": "FaFingerprint",
     "featured": false,
-    "aliases": ["AuthN", "Identity Verification", "User Authentication"],
-    "relatedConcepts": ["authorization", "least-privilege", "defense-in-depth", "multi-factor-authentication", "two-factor-authentication", "credential-stuffing", "phishing"],
+    "aliases": [
+        "AuthN",
+        "Identity Verification",
+        "User Authentication"
+    ],
+    "relatedConcepts": [
+        "authorization",
+        "least-privilege",
+        "defense-in-depth",
+        "multi-factor-authentication",
+        "two-factor-authentication",
+        "credential-stuffing",
+        "phishing"
+    ],
     "relatedNotes": [],
     "references": [
         {
@@ -20,6 +37,11 @@
             "title": "Multi-factor authentication - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Multi-factor_authentication",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

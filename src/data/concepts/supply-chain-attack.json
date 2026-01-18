@@ -3,18 +3,37 @@
     "name": "Supply Chain Attack",
     "summary": "An attack that targets less-secure elements in the supply chain to compromise the final product or service",
     "explanation": "A supply chain attack is a sophisticated cyberattack that exploits vulnerabilities in the supply chain rather than attacking the target directly. Instead of breaching a well-defended organization head-on, attackers compromise a trusted supplier, vendor, or third-party service provider that has access to the target's systems or data. This approach leverages the inherent trust relationships between organizations and their suppliers.\n\nThe attack typically works by injecting malicious code into legitimate software updates, compromising hardware during manufacturing, or infiltrating managed service providers who have privileged access to multiple client networks. Once the compromised component is distributed through normal business channels, the malware spreads to all downstream customers who use that component.\n\nNotable examples include the SolarWinds attack (2020), where hackers inserted malicious code into the Orion software update, affecting thousands of organizations including US government agencies. The NotPetya attack (2017) spread through a compromised Ukrainian tax software, causing billions in damages globally. The Codecov breach (2021) exploited a CI/CD tool to steal credentials from thousands of repositories.\n\nDefenses against supply chain attacks include rigorous vendor security assessments, software bill of materials (SBOM) tracking, code signing verification, network segmentation to limit supplier access, zero-trust architecture principles, and continuous monitoring of third-party connections. Organizations should also implement strict access controls for vendors and regularly audit their supply chain security practices.",
-    "tags": ["security", "attacks", "threats", "vendors", "cybersecurity"],
+    "tags": [
+        "security",
+        "attacks",
+        "threats",
+        "vendors",
+        "cybersecurity"
+    ],
     "category": "Concepts",
     "icon": "FaLink",
     "featured": false,
-    "aliases": ["Supply Chain Compromise", "Third-Party Attack", "Vendor Attack"],
-    "relatedConcepts": ["phishing", "social-engineering", "data-breach"],
+    "aliases": [
+        "Supply Chain Compromise",
+        "Third-Party Attack",
+        "Vendor Attack"
+    ],
+    "relatedConcepts": [
+        "phishing",
+        "social-engineering",
+        "data-breach"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Supply chain attack - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Supply_chain_attack",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

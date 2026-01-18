@@ -3,18 +3,36 @@
     "name": "Man-in-the-Middle Attack",
     "summary": "An attack where the attacker secretly intercepts and potentially alters communication between two parties",
     "explanation": "A man-in-the-middle (MITM) attack is a cyberattack where an attacker secretly positions themselves between two communicating parties, intercepting and potentially altering the data exchanged between them. Both parties believe they are communicating directly with each other, unaware that an attacker is relaying and possibly modifying their messages. This attack compromises the confidentiality and integrity of communications.\n\nMITM attacks work through various techniques including ARP spoofing (redirecting local network traffic), DNS spoofing (redirecting domain lookups), SSL stripping (downgrading HTTPS to HTTP), rogue Wi-Fi access points (evil twin attacks), and BGP hijacking (redirecting internet traffic at the routing level). The attacker can passively eavesdrop on sensitive information or actively modify data, inject malicious content, or steal credentials.\n\nNotable examples include the Superfish adware (2015) pre-installed on Lenovo laptops, which installed a root certificate enabling MITM attacks on all HTTPS traffic. The DigiNotar breach (2011) allowed attackers to issue fraudulent SSL certificates used to intercept Gmail traffic. Nation-state actors have used BGP hijacking to redirect and intercept international internet traffic.\n\nDefenses include using end-to-end encryption, verifying SSL/TLS certificates and watching for warnings, implementing certificate pinning in applications, using VPNs on untrusted networks, enabling HSTS (HTTP Strict Transport Security), and avoiding public Wi-Fi for sensitive transactions. Organizations should implement mutual TLS authentication and use secure protocols that provide forward secrecy.",
-    "tags": ["security", "attacks", "interception", "networks", "cybersecurity"],
+    "tags": [
+        "security",
+        "attacks",
+        "interception",
+        "networks",
+        "cybersecurity"
+    ],
     "category": "Concepts",
     "icon": "FaNetworkWired",
     "featured": false,
-    "aliases": ["MITM", "MitM Attack", "Interception Attack"],
-    "relatedConcepts": ["encryption", "end-to-end-encryption"],
+    "aliases": [
+        "MITM",
+        "MitM Attack",
+        "Interception Attack"
+    ],
+    "relatedConcepts": [
+        "encryption",
+        "end-to-end-encryption"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Man-in-the-middle attack - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Man-in-the-middle_attack",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

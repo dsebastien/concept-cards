@@ -3,20 +3,86 @@
     "name": "Software Requirements Specification",
     "summary": "A comprehensive document that describes what a software system should do, including functional and non-functional requirements.",
     "explanation": "A Software Requirements Specification (SRS) is a detailed description of a software system to be developed. It serves as a contract between stakeholders and development teams, establishing a shared understanding of what the system should accomplish.\n\nAn SRS typically includes several key sections: an introduction describing the purpose and scope, an overall description of the product context and constraints, specific functional requirements detailing what the system must do, non-functional requirements specifying quality attributes like performance and security, and external interface requirements describing interactions with users, hardware, and other systems.\n\nThe document follows established standards such as IEEE 830 or ISO/IEC/IEEE 29148, which provide templates and guidelines for comprehensive requirements documentation. A well-written SRS uses clear, unambiguous language and includes acceptance criteria that can be tested and verified.\n\nCreating an effective SRS requires collaboration between business analysts, developers, testers, and stakeholders. The process involves requirements elicitation through interviews, workshops, and observation, followed by analysis, documentation, and validation. The SRS evolves throughout the project as requirements are refined and new ones emerge.\n\nIn the context of AI-assisted software development, the SRS has gained renewed importance. AI coding tools and assistants can dramatically accelerate implementation, but their effectiveness depends entirely on the quality of their input. A well-structured SRS provides the precise, unambiguous specifications that AI tools need to generate accurate, relevant code. The traditional emphasis on clarity, completeness, and testability in SRS documents directly translates to better AI outputs. Teams that invest in thorough requirements documentation find that AI assistance multiplies their productivity, while those with vague or incomplete specifications struggle with AI-generated code that misses the mark.\n\nThe benefits of a thorough SRS include reduced development costs through early detection of issues, clearer communication among team members, a solid foundation for testing and validation, and better project estimation. However, overly rigid adherence to an SRS can conflict with agile methodologies that embrace changing requirements.",
-    "tags": ["software-engineering", "documentation", "requirements", "planning", "ai"],
+    "tags": [
+        "software-engineering",
+        "documentation",
+        "requirements",
+        "planning",
+        "ai"
+    ],
     "category": "Software Development",
     "icon": "FaBook",
     "featured": false,
-    "aliases": ["SRS", "System Requirements Specification", "Requirements Spec"],
-    "relatedConcepts": ["product-requirements-document", "functional-requirements", "non-functional-requirements", "use-cases", "user-stories", "requirements-engineering", "requirements-elicitation", "business-analysis", "software-analysis"],
+    "aliases": [
+        "SRS",
+        "System Requirements Specification",
+        "Requirements Spec"
+    ],
+    "relatedConcepts": [
+        "product-requirements-document",
+        "functional-requirements",
+        "non-functional-requirements",
+        "use-cases",
+        "user-stories",
+        "requirements-engineering",
+        "requirements-elicitation",
+        "business-analysis",
+        "software-analysis"
+    ],
     "relatedNotes": [],
     "references": [
-        {"title": "Software requirements specification - Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_requirements_specification", "type": "website"},
-        {"title": "IEEE 830-1998 - Wikipedia", "url": "https://en.wikipedia.org/wiki/IEEE_830-1998", "type": "website"}
+        {
+            "title": "Software requirements specification - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_requirements_specification",
+            "type": "website"
+        },
+        {
+            "title": "IEEE 830-1998 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/IEEE_830-1998",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
     ],
     "articles": [],
     "books": [
-        {"title": "Software Requirements by Karl Wiegers", "url": "https://www.amazon.com/dp/0735679665?tag=dsebastien00-20"}
+        {
+            "title": "Software Requirements by Karl Wiegers",
+            "url": "https://www.amazon.com/dp/0735679665?tag=dsebastien00-20"
+        }
     ],
     "tutorials": [],
     "datePublished": "2026-01-16",

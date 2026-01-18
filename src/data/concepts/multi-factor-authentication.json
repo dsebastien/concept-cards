@@ -3,18 +3,40 @@
     "name": "Multi-Factor Authentication",
     "summary": "A security method requiring two or more verification factors to prove identity before granting access.",
     "explanation": "Multi-factor authentication (MFA) is a security mechanism that requires users to provide two or more independent verification factors to prove their identity before gaining access to a system, application, or account. By combining multiple authentication factors, MFA significantly reduces the risk of unauthorized access even if one factor is compromised, making it one of the most effective security controls available.\n\nAuthentication factors fall into three categories: something you know (knowledge factors) like passwords, PINs, or security questions; something you have (possession factors) like hardware tokens, smartphones, or smart cards; and something you are (inherence factors) like fingerprints, facial recognition, or voice patterns. True MFA requires factors from at least two different categories, not just two items from the same category.\n\nCommon MFA implementations include SMS or voice codes sent to registered phones (though vulnerable to SIM swapping), authenticator apps generating time-based one-time passwords (TOTP), push notifications to approved devices, hardware security keys using standards like FIDO2/WebAuthn, and biometric verification. Passwordless authentication is emerging as an advanced form, eliminating passwords entirely in favor of stronger factors.\n\nMFA significantly mitigates common attacks including credential stuffing (using stolen password databases), phishing (since passwords alone are insufficient), and brute force attacks. Studies consistently show that MFA blocks over 99% of automated attacks and dramatically reduces account compromise risk.\n\nOrganizations implementing MFA should consider user experience alongside security, providing multiple factor options and clear recovery procedures. Risk-based or adaptive MFA adjusts requirements based on context like location, device, or behavior, balancing security with convenience. While no authentication method is perfect, MFA represents a fundamental defense-in-depth measure that should be required for any sensitive access.",
-    "tags": ["security", "authentication", "identity", "access-control", "protection"],
+    "tags": [
+        "security",
+        "authentication",
+        "identity",
+        "access-control",
+        "protection"
+    ],
     "category": "Concepts",
     "icon": "FaKey",
     "featured": false,
-    "aliases": ["MFA", "Multi-Step Authentication"],
-    "relatedConcepts": ["two-factor-authentication", "authentication", "credential-stuffing", "phishing", "defense-in-depth", "brute-force-attack", "social-engineering"],
+    "aliases": [
+        "MFA",
+        "Multi-Step Authentication"
+    ],
+    "relatedConcepts": [
+        "two-factor-authentication",
+        "authentication",
+        "credential-stuffing",
+        "phishing",
+        "defense-in-depth",
+        "brute-force-attack",
+        "social-engineering"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Multi-factor authentication - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Multi-factor_authentication",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],

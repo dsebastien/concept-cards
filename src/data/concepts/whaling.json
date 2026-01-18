@@ -3,19 +3,43 @@
     "name": "Whaling",
     "summary": "Phishing attacks specifically targeting high-profile executives, senior management, and other 'big fish' in organizations.",
     "explanation": "Whaling is a specialized form of spear phishing that targets high-value individuals - C-level executives, board members, and senior managers. The term comes from the idea of going after 'big fish' or 'whales' rather than ordinary targets. These attacks are highly sophisticated and often involve extensive research about the target.\n\nWhaling attacks are particularly dangerous because executives often have: access to sensitive company information, authority to approve financial transactions, credentials to critical systems, and less time to scrutinize every message carefully. A successful whaling attack can lead to massive financial losses, data breaches, or reputational damage.\n\nCommon whaling scenarios include: fake subpoenas or legal complaints requiring urgent action, fraudulent requests from 'board members' for confidential information, impersonation of business partners requesting wire transfers, and fake merger/acquisition communications requesting sensitive documents.\n\nDefense strategies: executives need security awareness training tailored to their role, implement strict verification procedures for financial requests (especially wire transfers), use out-of-band verification for sensitive requests, limit public exposure of executive details, and consider executive protection services for digital presence. Organizations should also have clear policies that no single person can authorize large transactions without verification.",
-    "tags": ["cybersecurity", "security", "fraud", "attacks", "executives"],
+    "tags": [
+        "cybersecurity",
+        "security",
+        "fraud",
+        "attacks",
+        "executives"
+    ],
     "category": "Concepts",
     "icon": "FaUserTie",
     "featured": false,
-    "aliases": ["Whale Phishing", "CEO Fraud", "Executive Phishing"],
-    "relatedConcepts": ["phishing", "spear-phishing", "social-engineering", "pretexting"],
+    "aliases": [
+        "Whale Phishing",
+        "CEO Fraud",
+        "Executive Phishing"
+    ],
+    "relatedConcepts": [
+        "phishing",
+        "spear-phishing",
+        "social-engineering",
+        "pretexting"
+    ],
     "relatedNotes": [],
     "references": [
-        {"title": "Whaling attack - Wikipedia", "url": "https://en.wikipedia.org/wiki/Phishing#Whaling", "type": "website"}
+        {
+            "title": "Whaling attack - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Phishing#Whaling",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
     ],
     "articles": [],
     "books": [],
     "tutorials": [],
-    "datePublished": "2025-01-15",
-    "dateModified": "2025-01-15"
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15"
 }

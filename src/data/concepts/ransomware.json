@@ -3,18 +3,33 @@
     "name": "Ransomware",
     "summary": "Malware that encrypts victim's data and demands payment for the decryption key",
     "explanation": "Ransomware is a type of malware that encrypts a victim's files or locks them out of their system entirely, then demands a ransom payment (typically in cryptocurrency) in exchange for the decryption key. It has become one of the most profitable and destructive forms of cybercrime, affecting individuals, businesses, hospitals, and government agencies worldwide.\n\nRansomware typically spreads through phishing emails with malicious attachments, compromised websites, exploit kits that target software vulnerabilities, or through other malware that provides initial access. Once executed, it rapidly encrypts files using strong cryptographic algorithms, making recovery without the key practically impossible. Modern ransomware variants often employ 'double extortion,' where attackers also steal sensitive data before encryption and threaten to publish it if the ransom isn't paid.\n\nNotable ransomware attacks have caused billions in damages. The Colonial Pipeline attack in 2021 disrupted fuel supply across the US East Coast, leading to gas shortages and panic buying. The Kaseya attack affected over 1,500 businesses through a single software supply chain compromise. Healthcare systems have been particularly targeted, with attacks on hospitals potentially endangering patient lives.\n\nProtection requires comprehensive preparation. Implement robust backup strategies following the 3-2-1 rule, with at least one air-gapped backup that ransomware cannot reach. Keep systems patched and updated. Use endpoint detection and response (EDR) solutions. Train employees to recognize phishing attempts. Segment networks to limit lateral movement. Develop and test incident response plans. Consider cyber insurance, but remember that paying ransoms is discouraged as it funds criminal operations and doesn't guarantee data recovery.",
-    "tags": ["security", "cybersecurity", "malware", "extortion"],
+    "tags": [
+        "security",
+        "cybersecurity",
+        "malware",
+        "extortion"
+    ],
     "category": "Concepts",
     "icon": "FaLock",
     "featured": false,
     "aliases": [],
-    "relatedConcepts": ["malware", "3-2-1-backup-rule", "data-availability", "social-engineering"],
+    "relatedConcepts": [
+        "malware",
+        "3-2-1-backup-rule",
+        "data-availability",
+        "social-engineering"
+    ],
     "relatedNotes": [],
     "references": [
         {
             "title": "Ransomware - Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Ransomware",
             "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
         }
     ],
     "articles": [],
