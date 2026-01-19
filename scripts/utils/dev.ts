@@ -7,12 +7,18 @@
 import { $ } from 'bun'
 import * as path from 'path'
 import * as fs from 'fs'
+import { mergeConceptFiles } from './merge-concepts'
 
 const SRC_DIR = path.join(process.cwd(), 'src')
 const PUBLIC_DIR = path.join(process.cwd(), 'public')
 const PORT = 5173
 
 console.log('🚀 Starting development server...\n')
+
+// Merge concept files into concepts.json
+console.log('📚 Merging concept files...')
+const conceptCount = mergeConceptFiles()
+console.log(`✅ Merged ${conceptCount} concepts\n`)
 
 // Create .dev directory for compiled CSS
 const devDir = path.join(SRC_DIR, '.dev')

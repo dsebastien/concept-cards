@@ -30,6 +30,9 @@ dist-ssr
 # Bun dev server
 src/.dev/
 
+# Generated files
+src/data/concepts.json
+
 # Lighthouse reports
 lighthouse-reports/
 

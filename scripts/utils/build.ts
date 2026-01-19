@@ -7,12 +7,18 @@
 import { $ } from 'bun'
 import * as fs from 'fs'
 import * as path from 'path'
+import { mergeConceptFiles } from './merge-concepts'
 
 const SRC_DIR = path.join(process.cwd(), 'src')
 const DIST_DIR = path.join(process.cwd(), 'dist')
 const PUBLIC_DIR = path.join(process.cwd(), 'public')
 
 console.log('🚀 Building application with Bun...\n')
+
+// Step 0: Merge concept files into concepts.json
+console.log('📚 Merging concept files...')
+const conceptCount = mergeConceptFiles()
+console.log(`✅ Merged ${conceptCount} concepts\n`)
 
 // Clean dist directory
 console.log('📁 Cleaning dist directory...')
