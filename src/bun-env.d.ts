@@ -21,21 +21,16 @@ interface ImportMetaGlobOptions<Eager extends boolean = false> {
     eager?: Eager
 }
 
-// Augment the global ImportMeta interface
-declare global {
-    interface ImportMeta {
-        /**
-         * Glob import pattern matching (supported by Bun bundler)
-         */
-        glob<T = unknown>(
-            pattern: string | string[],
-            options?: ImportMetaGlobOptions<false>
-        ): Record<string, () => Promise<T>>
-        glob<T = unknown>(
-            pattern: string | string[],
-            options: ImportMetaGlobOptions<true>
-        ): Record<string, T>
-    }
+interface ImportMeta {
+    /**
+     * Glob import pattern matching (supported by Bun bundler)
+     */
+    glob<T = unknown>(
+        pattern: string | string[],
+        options?: ImportMetaGlobOptions<false>
+    ): Record<string, () => Promise<T>>
+    glob<T = unknown>(
+        pattern: string | string[],
+        options: ImportMetaGlobOptions<true>
+    ): Record<string, T>
 }
-
-export {}
