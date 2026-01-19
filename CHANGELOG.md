@@ -1,3 +1,13 @@
+## [10.6.4](https://github.com/dsebastien/concept-cards/compare/10.6.3...10.6.4) (2026-01-19)
+
+### Features
+
+* **all:** deploy after release ([3497180](https://github.com/dsebastien/concept-cards/commit/349718095d204c4042f8f8792bcd69b6769535bc))
+* **all:** updated workflows ([5b137ce](https://github.com/dsebastien/concept-cards/commit/5b137ce241a5dc68051a3037291ba9e7ffef725a))
+
+### Reverts
+
+* Revert "fix(all): adapted bun ev" ([88231aa](https://github.com/dsebastien/concept-cards/commit/88231aa085cc1c613573d233b0e5e31c760d1771))
 ## [10.6.3](https://github.com/dsebastien/concept-cards/compare/10.6.2...10.6.3) (2026-01-19)
 
 ### Bug Fixes
