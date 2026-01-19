@@ -1,3 +1,8 @@
+## [10.6.3](https://github.com/dsebastien/concept-cards/compare/10.6.2...10.6.3) (2026-01-19)
+
+### Bug Fixes
+
+* **all:** adapted bun ev ([f9aefca](https://github.com/dsebastien/concept-cards/commit/f9aefcae3cb3e149f953bd6985c58ce56e641d88))
 ## [10.6.2](https://github.com/dsebastien/concept-cards/compare/10.6.1...10.6.2) (2026-01-19)
 
 ### Features
