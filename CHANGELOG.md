@@ -1,3 +1,9 @@
+## [10.6.5](https://github.com/dsebastien/concept-cards/compare/10.6.4...10.6.5) (2026-01-19)
+
+### Features
+
+* **all:** push before triggering the release ([3617ea8](https://github.com/dsebastien/concept-cards/commit/3617ea8ad87a9cca7ac4e70e0544cab41be44bec))
+* **all:** split concepts at build time ([d18e47d](https://github.com/dsebastien/concept-cards/commit/d18e47d1ce9aa214c1c8c6e5bf29a563b8506cfe))
 ## [10.6.4](https://github.com/dsebastien/concept-cards/compare/10.6.3...10.6.4) (2026-01-19)
 
 ### Features
