@@ -115,8 +115,3 @@ jobs:
                   prerelease: false
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    deploy:
-        name: Deploy to GitHub Pages
-        needs: release
-        uses: ./.github/workflows/deploy.yml
