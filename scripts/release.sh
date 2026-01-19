@@ -69,6 +69,10 @@ if [ -n "$(git status --porcelain)" ]; then
     exit 1
 fi
 
+# Push local commits to remote
+print_step "Pushing local commits to origin..."
+git push origin "$CURRENT_BRANCH"
+
 # Prompt for tag name
 echo ""
 print_step "Enter the release version:"
