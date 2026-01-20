@@ -1,0 +1,40 @@
+{
+    "id": "usage-based-pricing",
+    "name": "Usage-Based Pricing",
+    "summary": "Pricing model where customers pay based on actual consumption or usage rather than flat fees.",
+    "explanation": "Usage-based pricing (also called consumption-based or metered pricing) charges customers according to how much they use a product or service. Common metrics include: API calls, storage used, compute hours, transactions processed, active users, or messages sent. The model aligns cost with value—customers pay proportionally to the benefit they receive.\n\nBenefits include: lower barrier to entry (start small and scale), automatic expansion revenue as customers grow, fair pricing perception (pay for what you use), and natural alignment between vendor and customer success. AWS, Twilio, and many developer tools exemplify this approach.\n\nChallenges include: revenue unpredictability (usage fluctuates), customer budgeting difficulties, potential for 'bill shock,' and complex pricing communication. Hybrid models often combine usage-based elements with base fees or tiers to provide predictability while capturing upside.\n\nFor creators and knowledge workers, usage-based pricing appears in: pay-per-download content, per-consultation fees, word-based writing services, or API access to tools. The model works best when value delivered clearly correlates with usage and when customers have varying needs—it self-selects appropriate segments without requiring explicit tiering.",
+    "tags": [
+        "pricing",
+        "strategies",
+        "businesses",
+        "saas"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaTags",
+    "featured": false,
+    "aliases": [
+        "Consumption-based pricing",
+        "Metered pricing",
+        "Pay-per-use",
+        "Pay-as-you-go"
+    ],
+    "relatedConcepts": [
+        "pricing-strategies",
+        "subscription-business-model",
+        "tiered-pricing",
+        "value-based-pricing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pay per use - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pay_per_use",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

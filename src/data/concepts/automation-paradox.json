@@ -1,0 +1,76 @@
+{
+    "id": "automation-paradox",
+    "name": "Automation Paradox",
+    "summary": "The counterintuitive phenomenon where automation makes humans worse at the tasks being automated.",
+    "explanation": "The Automation Paradox describes a counterintuitive effect: the more reliable and comprehensive automation becomes, the worse humans become at performing the automated tasks manually—and the more catastrophic failures become when automation fails. This creates a dangerous dynamic where we're least capable precisely when we most need to be capable.\n\nThe paradox operates through several mechanisms. First, skill atrophy: when automation handles routine tasks, humans lose practice and their abilities degrade. Airline pilots who rarely hand-fly lose proficiency; developers who rely on AI lose coding intuition. Second, vigilance failure: monitoring automated systems is cognitively demanding and boring, leading to attention drift when intervention is needed. Third, complexity opacity: as systems become more automated, humans understand them less, making diagnosis and manual intervention harder.\n\nHistoric examples illustrate the danger: Air France Flight 447 crashed partly because pilots, accustomed to automation, couldn't respond effectively when it failed. Financial flash crashes occur when algorithmic trading fails and humans can't intervene fast enough. Medical errors happen when clinicians over-trust and under-verify automated systems.\n\nThe paradox doesn't argue against automation—the benefits are real—but highlights the need for thoughtful implementation: maintaining human skills through deliberate practice, designing systems that keep humans engaged rather than passive, ensuring graceful degradation when automation fails, and training for manual fallback scenarios.\n\nFor knowledge workers using AI tools, this means: periodically working without AI assistance, deeply understanding what the AI is doing, and maintaining the judgment to catch AI errors.",
+    "tags": [
+        "technology",
+        "systems-thinking",
+        "human-factors",
+        "automation",
+        "artificial-intelligence"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": [
+        "Ironies of automation",
+        "Automation irony",
+        "Paradox of automation"
+    ],
+    "relatedConcepts": [
+        "automation-bias",
+        "skill-atrophy",
+        "human-in-the-loop",
+        "cognitive-offloading",
+        "vibe-coding"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Automation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Automation",
+            "type": "website"
+        },
+        {
+            "title": "Ironies of automation - Lisanne Bainbridge",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/0005109883900468",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}
