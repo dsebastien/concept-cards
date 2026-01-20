@@ -124,6 +124,20 @@ Format: `https://www.amazon.com/dp/[ASIN]?tag=dsebastien00-20`
 - Updates: only update `dateModified` for substantive changes
 - Never modify `datePublished`
 
+### Finalize Concept Changes (MANDATORY)
+
+After adding or updating ANY concept, run:
+
+```bash
+bun run fix-concepts
+```
+
+This script:
+
+- Adds affiliate product links to book references
+- Fixes concept cross-references (validates `relatedConcepts`)
+- Populates missing date fields
+
 ### Social Images
 
 After adding/renaming/removing concepts:

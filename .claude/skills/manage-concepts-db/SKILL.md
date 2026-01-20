@@ -11,16 +11,18 @@ allowed-tools: Bash, Read, Edit, Write, Grep, Glob, Task
 ## Core Rules
 
 1. **ALWAYS verify before adding** - run verification BEFORE creating JSON
-2. **ALWAYS sync after changes** - run sync AFTER modifying concepts
-3. **≥90% confidence = STOP** - review suggested duplicates
-4. **70-89% confidence = REVIEW** - manually compare matches
-5. **<70% confidence = PROCEED** with caution
+2. **ALWAYS fix-concepts after changes** - run `bun run fix-concepts` AFTER adding/updating concepts
+3. **ALWAYS sync after changes** - run sync AFTER modifying concepts
+4. **≥90% confidence = STOP** - review suggested duplicates
+5. **70-89% confidence = REVIEW** - manually compare matches
+6. **<70% confidence = PROCEED** with caution
 
 ## Scripts Reference
 
 | Script | Command | When |
 |--------|---------|------|
 | verify-concept.ts | `npx tsx scripts/verify-concept.ts --name "Name" --summary "Summary"` | BEFORE adding |
+| fix-concepts | `bun run fix-concepts` | AFTER adding/updating concepts |
 | sync-concepts-db.ts | `npx tsx scripts/sync-concepts-db.ts` | AFTER any change |
 | find-duplicates.ts | `npx tsx scripts/find-duplicates.ts --threshold 80` | Periodic cleanup |
 | merge-duplicates.ts | `npx tsx scripts/merge-duplicates.ts --source ID --target ID --strategy merge-fields` | Merge confirmed duplicates |
@@ -76,8 +78,9 @@ done
 }
 ```
 
-### Step 6: Sync Database
+### Step 6: Fix & Sync
 ```bash
+bun run fix-concepts
 npx tsx scripts/sync-concepts-db.ts
 ```
 
@@ -98,8 +101,9 @@ Task tool (subagent_type="general-purpose"):
 
 After all complete:
 ```bash
+bun run fix-concepts
 npx tsx scripts/sync-concepts-db.ts
-npm run build 2>&1 | tail -5
+bun run build 2>&1 | tail -5
 ```
 
 ## Merge Duplicates
@@ -111,6 +115,7 @@ cat src/data/concepts/{target-id}.json
 
 # Merge (combines tags, aliases, references; deletes source)
 npx tsx scripts/merge-duplicates.ts --source {source-id} --target {target-id} --strategy merge-fields
+bun run fix-concepts
 npx tsx scripts/sync-concepts-db.ts
 ```
 
