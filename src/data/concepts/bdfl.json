@@ -1,0 +1,40 @@
+{
+    "id": "bdfl",
+    "name": "BDFL",
+    "summary": "Benevolent Dictator For Life - a title for open source project leaders who retain final decision-making authority.",
+    "explanation": "BDFL (Benevolent Dictator For Life) is a title given to founders or leaders of open source software projects who retain the final say in disputes or decisions within the community. The term acknowledges that while open source development is collaborative, someone needs to make binding decisions when consensus cannot be reached.\n\nOrigin and notable examples:\n\n- **Guido van Rossum** (Python) - the original BDFL, who stepped down in 2018\n- **Linus Torvalds** (Linux kernel) - often described as BDFL\n- **Larry Wall** (Perl) - another classic example\n\nHow BDFL governance works:\n\n1. Day-to-day decisions are made by consensus or delegation\n2. The BDFL intervenes only when needed (technical disputes, direction setting)\n3. Authority comes from founding the project and ongoing technical leadership\n4. The 'For Life' part is somewhat tongue-in-cheek - BDFLs can and do step down\n\nAdvantages:\n\n- Prevents endless bikeshedding and decision paralysis\n- Maintains coherent project vision\n- Clear escalation path for disputes\n- Works well for projects with strong technical vision\n\nChallenges:\n\n- Succession planning is difficult\n- Can create bottlenecks if BDFL is unavailable\n- May discourage diverse viewpoints\n- 'For Life' can lead to burnout\n\nMany projects have moved away from BDFL toward governance councils (Python now has a Steering Council), but the model remains influential in understanding how open source communities self-organize.",
+    "tags": [
+        "open-source",
+        "governance",
+        "leadership",
+        "software-development",
+        "communities"
+    ],
+    "category": "Software Development",
+    "icon": "FaCrown",
+    "featured": false,
+    "aliases": [
+        "Benevolent Dictator For Life"
+    ],
+    "relatedConcepts": [
+        "benevolent-dictator"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Benevolent dictator for life - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Benevolent_dictator_for_life",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

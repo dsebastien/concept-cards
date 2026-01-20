@@ -1,0 +1,47 @@
+{
+    "id": "scaling-laws",
+    "name": "Scaling Laws",
+    "summary": "Mathematical relationships describing how system properties change predictably with size, revealing fundamental constraints and opportunities.",
+    "explanation": "Scaling laws are mathematical relationships that describe how properties of a system change as its size or scale changes. These relationships often follow power laws (y = x^n), revealing deep structural constraints that govern everything from biology to technology to organizations.\n\nIn biology, Kleiber's Law shows that metabolic rate scales with body mass to the 3/4 power - a larger animal is more energy-efficient per unit mass. This explains why elephants have slower heartbeats than mice. Similar scaling laws govern lifespan, brain size, and countless other biological properties.\n\nIn AI and machine learning, scaling laws have become critical. Research has shown that model performance improves predictably with more compute, data, and parameters, following power law relationships. This has driven the race toward larger models, as performance gains follow predictable curves - though with eventual diminishing returns.\n\nIn cities and organizations, Geoffrey West's research reveals that cities exhibit superlinear scaling: doubling a city's population more than doubles its innovation, wealth creation, and unfortunately also crime and disease. Meanwhile, infrastructure scales sublinearly - a city twice as large doesn't need twice the roads.\n\nFor knowledge workers and leaders, scaling laws matter because: they reveal fundamental constraints (some things get harder with scale, others easier), they help predict how systems will behave at different sizes, they expose why strategies that work at one scale fail at another, and they identify leverage points where small changes have outsized effects. Understanding scaling laws helps distinguish between linear thinking (which often fails at scale) and the non-linear reality of complex systems.",
+    "tags": [
+        "systems-thinking",
+        "mathematics",
+        "complexity"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Power Laws",
+        "Scale Effects",
+        "Allometric Scaling"
+    ],
+    "relatedConcepts": [
+        "economies-of-scale",
+        "network-effects",
+        "pareto-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Scaling law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scaling_law",
+            "type": "website"
+        },
+        {
+            "title": "Neural scaling law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neural_scaling_law",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Scale by Geoffrey West",
+            "url": "https://www.amazon.com/dp/0143110902"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

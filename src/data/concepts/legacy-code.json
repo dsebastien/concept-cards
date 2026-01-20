@@ -1,0 +1,49 @@
+{
+    "id": "legacy-code",
+    "name": "Legacy Code",
+    "summary": "Inherited code that is difficult to change safely due to lack of tests, documentation, or understanding.",
+    "explanation": "Legacy Code, as defined by Michael Feathers, is simply 'code without tests.' More broadly, it refers to any codebase that developers are afraid to modify because they cannot confidently predict the impact of changes. Legacy code is not necessarily old or bad - it's code that has become difficult to work with safely.\n\nCharacteristics of legacy code:\n\n- **No automated tests** or inadequate test coverage\n- **Missing or outdated documentation**\n- **Original developers unavailable** to explain design decisions\n- **Tightly coupled components** that resist modification\n- **Implicit knowledge** required to understand behavior\n- **Fear of change** among current maintainers\n\nWhy legacy code accumulates:\n\n1. Time pressure prioritizes features over maintainability\n2. Team turnover loses institutional knowledge\n3. Technologies evolve, making old code feel alien\n4. Technical debt compounds over time\n5. 'Working code' is left alone even when problematic\n\nStrategies for dealing with legacy code:\n\n- **Characterization tests**: Write tests that document current behavior before changing\n- **Strangler fig pattern**: Gradually replace old code with new\n- **Seams**: Find safe places to insert tests and make changes\n- **Boy Scout Rule**: Leave code cleaner than you found it\n- **Incremental refactoring**: Small, safe improvements over time\n\nThe key insight is that legacy code isn't a permanent condition - with disciplined effort, any codebase can be brought under test and made maintainable again.",
+    "tags": [
+        "software-development",
+        "code-quality",
+        "maintenance",
+        "refactoring",
+        "testing"
+    ],
+    "category": "Software Development",
+    "icon": "FaArchive",
+    "featured": false,
+    "aliases": [
+        "Heritage Code",
+        "Inherited Code"
+    ],
+    "relatedConcepts": [
+        "technical-debt",
+        "code-smell",
+        "bit-rot",
+        "boy-scout-rule"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Working Effectively with Legacy Code by Michael Feathers",
+            "url": "https://www.amazon.com/dp/0131177052"
+        }
+    ],
+    "references": [
+        {
+            "title": "Legacy code - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legacy_code",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}
