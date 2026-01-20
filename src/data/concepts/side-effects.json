@@ -1,0 +1,43 @@
+{
+    "id": "side-effects",
+    "name": "Side Effects",
+    "summary": "Observable changes to state or interactions with the outside world that occur during the execution of a function or operation.",
+    "explanation": "In programming, a side effect is any observable change to state or behavior that occurs outside of a function's return value. Side effects include: modifying global or static variables, mutating input parameters, writing to files or databases, making network requests, printing to console, accessing system time, and generating random numbers.\n\nSide effects make code harder to reason about because: the function's behavior depends on and affects external state, the same inputs may produce different outputs depending on context, testing requires careful setup and cleanup of external state, and parallel execution can cause race conditions and unpredictable behavior.\n\nManaging side effects is a key concern in software design. Strategies include: isolating side effects at system boundaries (functional core, imperative shell), making side effects explicit through types (IO monad, Effect systems), using dependency injection to control and mock side effects, preferring immutable data to prevent accidental mutations, and designing idempotent operations that are safe to retry.\n\nSide effects are not inherently bad - they're necessary for any useful program to interact with the real world. The goal is to control and contain them, making their occurrence predictable and testable. Understanding side effects helps write more maintainable, testable, and reliable code.",
+    "tags": [
+        "functional-programming",
+        "software-engineering",
+        "programming",
+        "code-quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Side Effect",
+        "Impure Operation"
+    ],
+    "relatedConcepts": [
+        "pure-functions",
+        "idempotency",
+        "determinism",
+        "defensive-programming"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Side effect (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Side_effect_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

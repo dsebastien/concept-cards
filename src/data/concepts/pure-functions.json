@@ -1,0 +1,42 @@
+{
+    "id": "pure-functions",
+    "name": "Pure Functions",
+    "summary": "Functions that always return the same output for the same input and produce no side effects.",
+    "explanation": "A pure function is a function that satisfies two conditions: it is deterministic (always returns the same result given the same arguments), and it has no side effects (does not modify any state outside its scope or interact with the outside world). Pure functions are a cornerstone of functional programming.\n\nBenefits of pure functions include: predictability (easy to reason about behavior), testability (no setup or teardown needed, just input and expected output), parallelization (can be safely executed concurrently since they don't share mutable state), memoization (results can be cached since same inputs always produce same outputs), and referential transparency (function calls can be replaced with their return values).\n\nExamples of pure functions: mathematical operations (add, multiply), string manipulation (concat, substring), data transformations (map, filter, reduce). Examples of impure functions: those that read/write files, make network requests, access current time, modify global variables, or generate random numbers.\n\nIn practice, most programs need some impure operations (I/O, persistence, user interaction). The functional programming approach is to push impure operations to the edges of the system while keeping the core logic pure. This 'functional core, imperative shell' pattern combines the benefits of pure functions with the necessity of real-world interactions.",
+    "tags": [
+        "functional-programming",
+        "software-engineering",
+        "testing",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Pure Function",
+        "Referentially Transparent Function"
+    ],
+    "relatedConcepts": [
+        "idempotency",
+        "determinism",
+        "test-driven-development"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pure function - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pure_function",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

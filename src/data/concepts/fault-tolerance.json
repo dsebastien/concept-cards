@@ -25,7 +25,10 @@
         "durability",
         "data-redundancy",
         "acid-properties",
-        "disaster-recovery"
+        "disaster-recovery",
+        "idempotency",
+        "determinism",
+        "statelessness"
     ],
     "relatedNotes": [],
     "articles": [],

@@ -23,7 +23,9 @@
         "fail-fast",
         "breaking-loudly",
         "error-handling",
-        "graceful-degradation-pkm"
+        "graceful-degradation-pkm",
+        "idempotency",
+        "statelessness"
     ],
     "relatedNotes": [],
     "articles": [],

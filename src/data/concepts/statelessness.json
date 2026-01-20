@@ -1,0 +1,25 @@
+{
+    "id": "statelessness",
+    "name": "Statelessness",
+    "summary": "A design principle where components do not retain information between requests or operations, treating each interaction independently.",
+    "explanation": "Statelessness is an architectural principle where a system component does not store any client context between requests. Each request contains all the information needed to process it, and the server treats every request as independent and self-contained. This is a fundamental principle of REST architecture and scalable system design.\n\nBenefits of stateless design include: scalability (any server instance can handle any request, enabling easy horizontal scaling), reliability (server failures don't lose client state), simplicity (no need to synchronize state across servers), cacheability (responses can be cached without worrying about state changes), and testability (each request can be tested in isolation).\n\nStatelessness in practice: HTTP is inherently stateless - each request is independent. Stateless authentication uses tokens (JWT) that contain all needed information rather than server-side sessions. RESTful APIs are designed to be stateless, with each request containing complete context. Serverless functions are typically stateless by design.\n\nTrade-offs: Statelessness can increase request payload size (context must be sent each time), may require external state stores (databases, caches) for data that must persist, and some use cases genuinely require stateful interactions (websockets, long-running transactions). The key is choosing appropriate boundaries - stateless at the service layer while managing necessary state explicitly in dedicated stores.",
+    "tags": ["software-architecture", "distributed-systems", "scalability", "api-design", "rest"],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": ["Stateless", "Stateless Design", "Stateless Architecture"],
+    "relatedConcepts": ["idempotency", "microservices-architecture", "service-oriented-architecture", "fault-tolerance", "graceful-degradation"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Stateless protocol - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Stateless_protocol",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

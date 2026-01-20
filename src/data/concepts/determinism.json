@@ -1,0 +1,43 @@
+{
+    "id": "determinism",
+    "name": "Determinism",
+    "summary": "The principle that given the same inputs and initial conditions, a system or process will always produce the same outputs.",
+    "explanation": "Determinism in computing and systems design refers to the property where a system's behavior is entirely predictable given complete knowledge of its inputs and state. A deterministic system will always produce the same output when given the same input, with no randomness or variation in results.\n\nIn software engineering, determinism is crucial for: testing (reproducible tests require deterministic behavior), debugging (reproducing bugs requires deterministic conditions), distributed systems (consensus algorithms rely on deterministic execution), and build systems (reproducible builds require deterministic compilation).\n\nSources of non-determinism include: random number generators, system time, thread scheduling, network latency, file system ordering, and floating-point operations across different hardware. Managing non-determinism often requires: seeding random generators, mocking time in tests, using deterministic data structures, and controlling execution order.\n\nDeterminism relates closely to idempotency but differs: a deterministic function always produces the same output for the same input, while an idempotent function produces the same result whether applied once or multiple times. Pure functions are both deterministic and free of side effects. Understanding determinism helps build more reliable, testable, and debuggable systems.",
+    "tags": [
+        "software-engineering",
+        "testing",
+        "debugging",
+        "distributed-systems",
+        "reliability"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Deterministic",
+        "Deterministic System"
+    ],
+    "relatedConcepts": [
+        "idempotency",
+        "fault-tolerance",
+        "test-driven-development"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Deterministic algorithm - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Deterministic_algorithm",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

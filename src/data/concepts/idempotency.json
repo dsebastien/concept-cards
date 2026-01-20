@@ -1,0 +1,25 @@
+{
+    "id": "idempotency",
+    "name": "Idempotency",
+    "summary": "A property where an operation can be applied multiple times without changing the result beyond the initial application.",
+    "explanation": "Idempotency is a fundamental concept in mathematics, computer science, and systems design where applying an operation multiple times produces the same result as applying it once. An idempotent operation satisfies the equation f(f(x)) = f(x). This property is crucial for building reliable, fault-tolerant systems.\n\nIn software development, idempotency is essential for: API design (HTTP GET, PUT, DELETE should be idempotent), distributed systems (retry mechanisms work safely with idempotent operations), database operations (ensuring consistency despite failures or retries), and message processing (handling duplicate messages gracefully).\n\nExamples of idempotent operations: setting a value to a specific number (repeated sets yield the same result), HTTP DELETE requests (deleting a resource multiple times has the same effect as deleting once), and mathematical operations like taking the absolute value. Non-idempotent examples include incrementing a counter, appending to a list, or HTTP POST requests.\n\nDesigning for idempotency often involves: using unique identifiers or idempotency keys to detect duplicates, storing operation results to return cached responses, and preferring absolute operations (set to X) over relative ones (increment by Y). The concept extends beyond software: context switching in human cognition is notably not idempotent because our memories are incomplete and switching back to a task may not restore the exact same mental state.",
+    "tags": ["software-engineering", "distributed-systems", "api-design", "fault-tolerance", "reliability"],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": ["Idempotent", "Idempotent Operation"],
+    "relatedConcepts": ["fault-tolerance", "distributed-systems", "acid-properties", "graceful-degradation"],
+    "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+switching+is+not+an+idempotent+operation"],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Idempotence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Idempotence",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20"
+}

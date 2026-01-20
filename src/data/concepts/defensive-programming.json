@@ -23,7 +23,9 @@
         "silent-failure",
         "breaking-loudly",
         "error-handling",
-        "fault-tolerance"
+        "fault-tolerance",
+        "side-effects",
+        "idempotency"
     ],
     "relatedNotes": [],
     "articles": [],
