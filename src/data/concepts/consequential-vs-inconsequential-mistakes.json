@@ -1,0 +1,51 @@
+{
+    "id": "consequential-vs-inconsequential-mistakes",
+    "name": "Consequential vs Inconsequential Mistakes",
+    "summary": "A framework for categorizing errors by their impact to guide appropriate risk-taking and recovery strategies.",
+    "explanation": "Not all mistakes are created equal. Consequential mistakes have significant, lasting, or hard-to-reverse impacts—a wrong hire, a major strategic pivot, a public statement that damages reputation. Inconsequential mistakes have minimal or easily reversible impacts—a typo in a draft, trying a restaurant that disappoints, or an A/B test that doesn't improve metrics.\n\nThis distinction is crucial for rational decision-making and emotional calibration. Many people treat all mistakes as equally catastrophic, leading to paralysis, excessive risk-aversion, and disproportionate stress over minor errors. Conversely, some people treat all mistakes as equally trivial, failing to apply appropriate care to high-stakes decisions.\n\nThe framework suggests different approaches:\n\n**For inconsequential mistakes:** Move fast, experiment freely, don't overthink. The cost of delay or over-analysis exceeds the cost of being wrong. Learn quickly and iterate. Most daily decisions fall here.\n\n**For consequential mistakes:** Slow down, gather information, seek counsel, consider second-order effects. The cost of being wrong justifies additional investment in getting it right. Think about reversibility, magnitude of impact, and recovery difficulty.\n\nThis maps to Jeff Bezos's Type 1 vs Type 2 decisions: Type 1 (consequential, irreversible) deserve careful deliberation; Type 2 (inconsequential, reversible) should be made quickly by individuals or small groups.\n\nFor knowledge workers, calibrating your response to mistake severity helps: preserve energy for what matters, maintain appropriate risk-taking in low-stakes domains, and apply due diligence where consequences are real.",
+    "tags": [
+        "decision-making",
+        "risk-management",
+        "strategies",
+        "mental-models",
+        "failures"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "High-stakes vs low-stakes mistakes",
+        "Error severity framework",
+        "Mistake categorization"
+    ],
+    "relatedConcepts": [
+        "reversible-vs-irreversible-decisions",
+        "fail-fast",
+        "safe-to-fail",
+        "intelligent-failure",
+        "second-order-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Bets by Annie Duke",
+            "url": "https://www.amazon.com/dp/0735216355?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Risk management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_management",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

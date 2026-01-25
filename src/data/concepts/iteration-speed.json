@@ -1,0 +1,67 @@
+{
+    "id": "iteration-speed",
+    "name": "Iteration Speed",
+    "summary": "The rate at which you can complete try-learn-adjust cycles, determining how quickly you can improve.",
+    "explanation": "Iteration speed is the frequency at which you can complete a full cycle of trying something, getting feedback, learning from it, and making adjustments. It's one of the most important factors in learning, skill development, product development, and business success. Higher iteration speed means more learning opportunities in the same time period.\n\nThe components of iteration speed are:\n\n**Cycle time:** How long from attempt to feedback? A game of chess gives instant feedback; a book launch takes months. Activities with faster feedback loops enable faster iteration.\n\n**Feedback quality:** Is the feedback clear enough to learn from? Noisy or ambiguous feedback slows learning even with fast cycles.\n\n**Cost per iteration:** Can you afford many attempts? Lower costs per try enable more iterations. This is why simulations, prototypes, and small experiments are valuable—they reduce iteration cost.\n\n**Recovery time:** How quickly can you try again after a failure? Systems that enable rapid recovery allow faster iteration.\n\nStrategies to increase iteration speed: reduce batch sizes (ship smaller increments), automate feedback collection, create faster feedback mechanisms (user testing vs waiting for sales data), lower the cost of experiments, and build systems that support rapid recovery from failures.\n\nThe power of iteration speed compounds: if you iterate twice as fast as competitors, you get twice the learning opportunities. Over time, this compounds into dramatically different outcomes. This is why startups often beat incumbents—they iterate faster despite fewer resources.\n\nFor knowledge workers, increasing iteration speed in your learning and work means: getting feedback earlier and more often, reducing the cost of trying new approaches, and building systems that support rapid experimentation.",
+    "tags": [
+        "learning",
+        "strategies",
+        "product-development",
+        "agility",
+        "experimentation"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Learning rate",
+        "Cycle speed",
+        "Feedback frequency",
+        "Rate of iteration"
+    ],
+    "relatedConcepts": [
+        "fail-fast",
+        "tight-feedback-loops",
+        "rapid-experimentation",
+        "learning-curve",
+        "compound-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Lean Startup by Eric Ries",
+            "url": "https://www.amazon.com/dp/0307887898?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Iterative design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Iterative_design",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

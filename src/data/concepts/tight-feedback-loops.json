@@ -1,0 +1,81 @@
+{
+    "id": "tight-feedback-loops",
+    "name": "Tight Feedback Loops",
+    "summary": "Systems where the time between action and feedback is minimized, enabling rapid learning and adjustment.",
+    "explanation": "Tight feedback loops occur when the time between taking an action and receiving feedback about its effects is short. This rapid feedback enables faster learning, quicker course correction, and better calibration of behavior. Loose feedback loops—where feedback is delayed or absent—make learning slow, difficult, or impossible.\n\nExamples of tight feedback loops:\n- Video games provide instant feedback on every action\n- Compilers immediately flag code errors\n- Sales calls give immediate signals about what resonates\n- A/B tests with high traffic show results quickly\n- Cooking lets you taste as you go\n\nExamples of loose feedback loops:\n- Health outcomes from lifestyle choices (years of delay)\n- Career impact of skill development (months to years)\n- Investment returns (long time horizons)\n- Book sales after writing (months of delay)\n\nStrategies for tightening feedback loops:\n\n**Create proxies:** When ultimate feedback is delayed, find leading indicators. Instead of waiting for health outcomes, track daily behaviors. Instead of waiting for career results, get feedback on specific skills.\n\n**Reduce batch size:** Get feedback on smaller increments. Review code more frequently. Share writing drafts earlier. Test with users before building full features.\n\n**Seek active feedback:** Don't wait for passive signals. Ask for input directly. Conduct surveys. Hold retrospectives.\n\n**Build feedback mechanisms:** Instrument systems to provide data. Add logging. Track metrics. Create dashboards.\n\nThe value of tight feedback loops compounds: each cycle provides learning that improves the next cycle. Over time, this creates exponential improvements compared to systems with loose feedback. For knowledge workers, designing tight feedback loops into your work and learning systems dramatically accelerates growth.",
+    "tags": [
+        "learning",
+        "systems-thinking",
+        "strategies",
+        "productivity",
+        "experimentation"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaSync",
+    "featured": false,
+    "aliases": [
+        "Fast feedback",
+        "Rapid feedback cycles",
+        "Short feedback loops"
+    ],
+    "relatedConcepts": [
+        "iteration-speed",
+        "positive-feedback-loop",
+        "fail-fast",
+        "learning-curve",
+        "kaizen"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Peak by Anders Ericsson",
+            "url": "https://www.amazon.com/dp/0544947223?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Feedback - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Feedback",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

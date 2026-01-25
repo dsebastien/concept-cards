@@ -1,0 +1,45 @@
+{
+    "id": "launching-too-soon",
+    "name": "Launching Too Soon",
+    "summary": "The mistake of releasing a product or service before it's ready to deliver on its value promise.",
+    "explanation": "Launching too soon occurs when a product, service, or initiative is released before it can adequately deliver on its core value proposition. While 'fail fast' and 'ship early' are valuable principles, they have limits. The cost of launching too soon includes: damaged reputation (first impressions matter and are hard to change), lost customers who won't return (they've already tried and been disappointed), wasted marketing spend (acquiring users who churn immediately), and demoralized teams (watching users struggle with an unready product).\n\nThe key distinction is between launching with missing features (often acceptable) versus launching with a broken core value proposition (rarely acceptable). A note-taking app can launch without advanced search, but not if basic note creation is buggy. An e-commerce site can launch with limited inventory, but not if checkout fails.\n\nSigns you might be launching too soon: core functionality is unstable, you haven't validated the value proposition with real users, your team isn't confident in the product, or you're launching primarily due to external pressure rather than readiness. The irony is that launching too soon often delays real progress—fixing problems post-launch while managing disappointed users is slower than getting it right first.\n\nThe antidote isn't perfection—it's clarity about what 'ready enough' means for your specific context. Define the minimum viable experience that delivers on your promise, and don't launch until you can deliver that reliably. Sometimes the brave move is to delay, not to ship.",
+    "tags": [
+        "product-development",
+        "strategies",
+        "startups",
+        "timing",
+        "failures"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaRocket",
+    "featured": false,
+    "aliases": [
+        "Premature launch",
+        "Shipping too early",
+        "Launching before ready"
+    ],
+    "relatedConcepts": [
+        "fail-fast",
+        "minimum-viable-product",
+        "opportunity-cost",
+        "lean-startup"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mom Test by Rob Fitzpatrick",
+            "url": "https://www.amazon.com/dp/1492180742?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Minimum viable product - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}
