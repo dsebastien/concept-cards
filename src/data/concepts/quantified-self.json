@@ -1,0 +1,88 @@
+{
+    "id": "quantified-self",
+    "name": "Quantified Self",
+    "summary": "A movement and practice of using technology to track and analyze personal data for self-improvement.",
+    "explanation": "The Quantified Self (QS) is both a cultural movement and a set of practices centered on self-tracking with technology. Coined by Wired editors Gary Wolf and Kevin Kelly in 2007, it embodies the idea of 'self-knowledge through numbers.' Practitioners use various tools—wearables, apps, sensors, and manual logging—to collect data about their bodies, behaviors, and environments. Common tracking areas include: physical health (steps, heart rate, sleep, weight), mental states (mood, energy, focus), behaviors (habits, time use, productivity), and environment (location, weather, social interactions). The goal isn't data collection for its own sake but gaining actionable insights. Key principles include: continuous measurement over time, correlation discovery between variables, n=1 experimentation (testing interventions on yourself), and closing the feedback loop (using data to adjust behavior). Benefits include increased self-awareness, objective progress measurement, pattern recognition, and motivation through accountability. Challenges include data overload, obsessive tracking, privacy concerns, and the risk of optimizing metrics rather than actual wellbeing. For knowledge workers, QS practices can reveal productivity patterns, identify energy cycles, and provide evidence for lifestyle experiments.",
+    "tags": [
+        "self-improvement",
+        "self-awareness",
+        "data",
+        "health",
+        "technologies",
+        "habits",
+        "measurement"
+    ],
+    "category": "Methods",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "QS",
+        "Self-tracking",
+        "Personal informatics",
+        "Self-quantification"
+    ],
+    "relatedConcepts": [
+        "life-tracking",
+        "biofeedback",
+        "mere-measurement-effect",
+        "habit-loop",
+        "periodic-reviews",
+        "life-audit",
+        "daily-notes",
+        "keystone-habits",
+        "habit-tracking",
+        "mood-tracking",
+        "sleep-tracking",
+        "n-of-1-experiments",
+        "lifelogging"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Announcing Life Tracker: A New Obsidian Plugin",
+            "url": "https://www.dsebastien.net/announcing-life-tracker-a-new-obsidian-plugin",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Obsidian Life Tracker Base View - GitHub",
+            "url": "https://github.com/dsebastien/obsidian-life-tracker-base-view",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101",
+            "url": "https://www.store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Quantified self - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantified_self",
+            "type": "website"
+        },
+        {
+            "title": "Quantified Self Official Site",
+            "url": "https://quantifiedself.com/",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

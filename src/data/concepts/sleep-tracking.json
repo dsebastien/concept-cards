@@ -1,0 +1,60 @@
+{
+    "id": "sleep-tracking",
+    "name": "Sleep Tracking",
+    "summary": "Monitoring sleep patterns, duration, and quality to optimize rest and overall health.",
+    "explanation": "Sleep tracking is the practice of monitoring your sleep to understand patterns and improve sleep quality. Given that sleep profoundly affects cognitive performance, mood, health, and longevity, tracking provides data-driven insights for optimization. Metrics commonly tracked include: total sleep duration, time to fall asleep (sleep latency), wake times during the night, sleep stages (light, deep, REM), sleep efficiency (time asleep vs. time in bed), heart rate and heart rate variability during sleep, movement and restlessness, and environmental factors (temperature, noise, light). Methods range from simple sleep diaries (recording bed time, wake time, subjective quality) to consumer wearables (Oura Ring, Whoop, Apple Watch, Fitbit) to dedicated sleep trackers (under-mattress sensors, bedside devices). Benefits include: identifying optimal sleep duration for your biology, discovering factors that help or hurt sleep quality, detecting sleep disorders (apnea patterns, insomnia trends), correlating sleep with next-day performance, and measuring the impact of interventions (caffeine cutoff times, evening routines, supplements). Limitations include accuracy concerns with consumer devices (especially for sleep stages), the risk of orthosomnia (anxiety about sleep data), and the difference between tracking and actually improving sleep. For knowledge workers, understanding your sleep patterns directly impacts cognitive performance, creativity, and sustained focus.",
+    "tags": [
+        "health",
+        "well-being",
+        "sleep",
+        "measurement",
+        "technologies",
+        "performance"
+    ],
+    "category": "Well-Being & Happiness",
+    "icon": "FaMoon",
+    "featured": false,
+    "aliases": [
+        "Sleep monitoring",
+        "Sleep logging",
+        "Sleep diary"
+    ],
+    "relatedConcepts": [
+        "quantified-self",
+        "life-tracking",
+        "biofeedback",
+        "heart-rate-variability",
+        "biological-prime-time",
+        "sleep-hygiene",
+        "circadian-rhythm"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Announcing Life Tracker: A New Obsidian Plugin",
+            "url": "https://www.dsebastien.net/announcing-life-tracker-a-new-obsidian-plugin",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Obsidian Life Tracker Base View - GitHub",
+            "url": "https://github.com/dsebastien/obsidian-life-tracker-base-view",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101",
+            "url": "https://www.store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Sleep tracking - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sleep_tracking",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}
