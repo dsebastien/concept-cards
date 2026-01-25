@@ -1,0 +1,66 @@
+{
+    "id": "wireframing",
+    "name": "Wireframing",
+    "summary": "Creating simplified visual guides that represent the skeletal structure of a user interface, focusing on layout and functionality rather than visual design.",
+    "explanation": "Wireframing is the practice of creating low-fidelity representations of user interfaces that focus on structure, content hierarchy, and functionality rather than visual design. Wireframes serve as blueprints for digital products.\n\n**What Wireframes Show**:\n\n- Page layout and structure\n- Content placement and hierarchy\n- Navigation elements\n- Functional components (buttons, forms)\n- Spacing and grouping\n- User flow between screens\n\n**What Wireframes Don't Show**:\n\n- Colors and branding\n- Typography choices\n- Images and graphics\n- Final visual polish\n- Animation and interactions\n\n**Fidelity Levels**:\n\n**Low-Fidelity**:\n- Quick sketches, often on paper\n- Boxes, lines, and placeholders\n- Used for early exploration\n- Minutes to create\n\n**Mid-Fidelity**:\n- Digital but still grayscale\n- More accurate proportions\n- Basic annotations\n- Used for stakeholder review\n\n**High-Fidelity**:\n- Closer to final layout\n- May include some styling\n- Detailed interactions\n- Used for user testing\n\n**Benefits of Wireframing**:\n\n1. **Fast iteration**: Changes are cheap before coding\n2. **Focus on structure**: Separates layout from aesthetics\n3. **Communication**: Aligns team on functionality\n4. **Early feedback**: Catch problems before investment\n5. **Documentation**: Reference for development\n\n**Wireframing Process**:\n\n1. List content and features needed\n2. Sketch rough layouts (multiple options)\n3. Refine chosen direction\n4. Add annotations explaining behavior\n5. Review with stakeholders\n6. Iterate based on feedback\n7. Hand off for visual design\n\n**Common Elements**:\n\n- Rectangles for images/video\n- Lines for text\n- X-boxes for placeholder images\n- Gray boxes for content areas\n- Annotations for interactions\n\n**Tools**: Balsamiq, Figma, Sketch, Adobe XD, Whimsical, paper and pen\n\nWireframing is about making decisions visible and testable before committing to expensive development work.",
+    "tags": [
+        "ux",
+        "design",
+        "planning",
+        "prototyping",
+        "interfaces"
+    ],
+    "category": "Techniques",
+    "icon": "FaObjectGroup",
+    "featured": false,
+    "aliases": [
+        "Wireframes",
+        "Low-fidelity design",
+        "Page schematics"
+    ],
+    "relatedConcepts": [
+        "ux-design",
+        "ui-design",
+        "prototyping",
+        "design-thinking",
+        "information-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Wireframing Essentials by Matthew J. Hamm",
+            "url": "https://www.amazon.com/dp/1849698546"
+        }
+    ],
+    "references": [
+        {
+            "title": "Website wireframe - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Website_wireframe",
+            "type": "website"
+        },
+        {
+            "title": "Wireframing 101 - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/wireframes-101/",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

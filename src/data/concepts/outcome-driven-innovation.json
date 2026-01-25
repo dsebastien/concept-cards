@@ -1,0 +1,57 @@
+{
+    "id": "outcome-driven-innovation",
+    "name": "Outcome-Driven Innovation",
+    "summary": "A systematic innovation process developed by Tony Ulwick that uses customer-desired outcomes as metrics to discover unmet needs and guide product development.",
+    "explanation": "Outcome-Driven Innovation (ODI) is a strategy and innovation methodology developed by Tony Ulwick that treats innovation as a predictable, measurable process rather than a creative gamble. It operationalizes Jobs to Be Done theory with a rigorous framework for identifying, prioritizing, and satisfying unmet customer needs.\n\n**Core Principle**:\n\nCustomers don't want products—they want to achieve outcomes. Innovation succeeds when it helps customers achieve important outcomes they're currently struggling with.\n\n**The ODI Process**:\n\n1. **Define the Job**: Identify the core job customers are trying to get done (functional, emotional, social)\n\n2. **Discover Desired Outcomes**: Uncover 50-150 outcome statements customers use to measure success\n   - Format: \"Minimize the time it takes to [do something]\"\n   - Example: \"Minimize the time it takes to find relevant information\"\n\n3. **Quantify Unmet Needs**: Survey customers on:\n   - Importance of each outcome (1-5 scale)\n   - Satisfaction with current solutions (1-5 scale)\n   \n4. **Calculate Opportunity Score**:\n   Opportunity = Importance + max(Importance - Satisfaction, 0)\n   - Score > 10: Underserved (innovation opportunity)\n   - Score 6-10: Appropriately served\n   - Score < 6: Overserved (cost reduction opportunity)\n\n5. **Segment by Unmet Needs**: Group customers by their outcome patterns, not demographics\n\n6. **Target High-Opportunity Outcomes**: Focus R&D on outcomes with highest opportunity scores\n\n**Why ODI Works**:\n\n- Outcomes are stable (technologies change, jobs don't)\n- Quantified data replaces opinions and intuition\n- Innovation investment is targeted, not scattered\n- Success can be measured before launch\n\n**ODI vs. Traditional Research**:\n\n| Traditional | ODI |\n|-------------|-----|\n| \"What do you want?\" | \"What are you trying to accomplish?\" |\n| Feature requests | Outcome metrics |\n| Demographic segments | Needs-based segments |\n| Gut-feel prioritization | Opportunity algorithm |\n\n**Applications**:\n\n- New product development\n- Product line extensions\n- Service design\n- M&A target identification\n- Competitive analysis\n\nODI has been used successfully by companies like Microsoft, J&J, Bosch, and Arm & Hammer to achieve innovation success rates significantly above industry averages.",
+    "tags": [
+        "innovations",
+        "products",
+        "customer-research",
+        "strategies",
+        "frameworks",
+        "methodologies"
+    ],
+    "category": "Frameworks",
+    "icon": "FaBullseye",
+    "featured": false,
+    "aliases": [
+        "ODI",
+        "Outcome-Based Innovation",
+        "Ulwick Method"
+    ],
+    "relatedConcepts": [
+        "jobs-to-be-done",
+        "customer-discovery",
+        "product-market-fit",
+        "disruptive-innovation",
+        "value-proposition-canvas",
+        "forces-of-progress"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Jobs to Be Done: Theory to Practice by Anthony Ulwick",
+            "url": "https://www.amazon.com/dp/0990576744"
+        },
+        {
+            "title": "What Customers Want by Anthony Ulwick",
+            "url": "https://www.amazon.com/dp/0071408673"
+        }
+    ],
+    "references": [
+        {
+            "title": "Outcome-Driven Innovation - Strategyn",
+            "url": "https://strategyn.com/outcome-driven-innovation-process/",
+            "type": "website"
+        },
+        {
+            "title": "Outcome-Driven Innovation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Outcome-driven_innovation",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

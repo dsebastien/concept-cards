@@ -1,0 +1,70 @@
+{
+    "id": "ux-design",
+    "name": "UX Design",
+    "summary": "The practice of designing products that provide meaningful, relevant, and enjoyable experiences to users throughout their entire interaction journey.",
+    "explanation": "User Experience (UX) Design is the process of creating products that provide meaningful and relevant experiences to users. It encompasses the entire journey of acquiring and integrating a product, including aspects of branding, design, usability, and function.\n\n**What UX Design Includes**:\n\n- **User Research**: Understanding user needs, behaviors, and motivations through observation, interviews, and analysis\n- **Information Architecture**: Organizing and structuring content so users can find what they need\n- **Interaction Design**: Designing how users interact with the product (clicks, gestures, inputs)\n- **Visual Design**: Creating the aesthetic layer that supports usability\n- **Usability**: Ensuring the product is easy to learn and use effectively\n- **Accessibility**: Making the product usable by people with diverse abilities\n\n**UX vs UI**:\n\n- **UX (User Experience)**: The overall feel and flow of interacting with a product\n- **UI (User Interface)**: The specific visual elements users interact with (buttons, icons, typography)\n\nUX encompasses UI, but also includes research, strategy, and the complete user journey.\n\n**The UX Design Process**:\n\n1. **Research**: Understand users and their context\n2. **Define**: Synthesize findings into user needs and problems\n3. **Ideate**: Generate potential solutions\n4. **Prototype**: Create testable representations\n5. **Test**: Validate with real users\n6. **Iterate**: Refine based on feedback\n\n**Key UX Principles**:\n\n- User-centered: Design decisions based on user needs, not assumptions\n- Consistent: Predictable patterns reduce cognitive load\n- Accessible: Usable by everyone, regardless of ability\n- Feedback-rich: Users know what's happening and what to do next\n- Error-tolerant: Prevent errors and make recovery easy\n\n**Measuring UX**:\n\n- Usability metrics (task completion, error rates, time on task)\n- User satisfaction (NPS, CSAT, SUS scores)\n- Behavioral analytics (engagement, retention, conversion)\n- Qualitative feedback (interviews, surveys)\n\nGood UX design is often invisible—users accomplish their goals without friction or frustration.",
+    "tags": [
+        "design",
+        "products",
+        "user-centered",
+        "usability",
+        "interfaces"
+    ],
+    "category": "Methods",
+    "icon": "FaPencilRuler",
+    "featured": false,
+    "aliases": [
+        "User Experience Design",
+        "UXD",
+        "Experience Design"
+    ],
+    "relatedConcepts": [
+        "design-thinking",
+        "usability",
+        "usability-heuristics",
+        "affordances",
+        "ui-design",
+        "information-architecture",
+        "eight-golden-rules",
+        "cognitive-load",
+        "empathy-canvas",
+        "jobs-to-be-done",
+        "accessibility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Don't Make Me Think by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321965515"
+        },
+        {
+            "title": "The Design of Everyday Things by Don Norman",
+            "url": "https://www.amazon.com/dp/0465050654"
+        },
+        {
+            "title": "About Face: The Essentials of Interaction Design by Alan Cooper",
+            "url": "https://www.amazon.com/dp/1118766571"
+        }
+    ],
+    "references": [
+        {
+            "title": "User experience design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/User_experience_design",
+            "type": "website"
+        },
+        {
+            "title": "Nielsen Norman Group",
+            "url": "https://www.nngroup.com/",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

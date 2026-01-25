@@ -1,0 +1,55 @@
+{
+    "id": "job-story",
+    "name": "Job Story",
+    "summary": "A requirements format from JTBD that focuses on the situation and motivation rather than the user persona, using 'When... I want to... So I can...' structure.",
+    "explanation": "Job Stories are an alternative to traditional User Stories that emerged from the Jobs to Be Done framework. Developed by Alan Klement and the Intercom team, they shift focus from user personas to the situation and motivation driving behavior.\n\n**The Format**:\n\nWhen [situation],\nI want to [motivation],\nSo I can [expected outcome].\n\n**Example Comparison**:\n\n*User Story*: \"As a premium subscriber, I want to download videos, so that I can watch offline.\"\n\n*Job Story*: \"When I'm commuting on a train with poor connectivity, I want to have my content ready, so I can continue learning without interruption.\"\n\n**Why Job Stories Work Better**:\n\n1. **Situation > Persona**: The same person behaves differently in different situations. A \"premium subscriber\" behaves differently commuting vs. at home. Situation captures this context.\n\n2. **Motivation > Feature**: \"Download videos\" is a solution, not the job. The job is \"continue learning without interruption.\" Job Stories keep focus on the underlying need.\n\n3. **Outcome > Benefit**: \"So I can\" forces clarity on what success looks like, preventing feature creep.\n\n**When to Use Job Stories**:\n\n- Designing new features (understand the triggering situation)\n- Prioritizing work (which situations matter most?)\n- Evaluating solutions (does this actually help in that situation?)\n- User research (interview about situations, not preferences)\n\n**Writing Good Job Stories**:\n\n- Be specific about the situation (time, place, constraints)\n- Focus on emotional and functional motivations\n- Make outcomes measurable when possible\n- Avoid embedding solutions in the motivation\n\n**Job Stories vs User Stories**:\n\n| Aspect | User Story | Job Story |\n|--------|------------|------------|\n| Focus | Who (persona) | When (situation) |\n| Risk | Persona assumptions | Situation assumptions |\n| Strength | Role clarity | Context clarity |\n| Best for | Role-based systems | Behavior-driven design |\n\nJob Stories complement User Stories rather than replacing them—use the format that best captures the insight.",
+    "tags": [
+        "requirements",
+        "products",
+        "customer-research",
+        "agile",
+        "frameworks"
+    ],
+    "category": "Techniques",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "JTBD Story",
+        "Situation-Motivation-Outcome"
+    ],
+    "relatedConcepts": [
+        "jobs-to-be-done",
+        "user-stories",
+        "forces-of-progress",
+        "customer-discovery",
+        "product-requirements-document"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "When Coffee and Kale Compete by Alan Klement",
+            "url": "https://www.amazon.com/dp/1534873066"
+        }
+    ],
+    "references": [
+        {
+            "title": "Replacing The User Story With The Job Story - JTBD.info",
+            "url": "https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27",
+            "type": "website"
+        },
+        {
+            "title": "Designing features using Job Stories - Intercom",
+            "url": "https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

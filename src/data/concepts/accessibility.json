@@ -1,0 +1,61 @@
+{
+    "id": "accessibility",
+    "name": "Accessibility",
+    "summary": "The practice of designing products, services, and environments that can be used by people with the widest range of abilities, including those with disabilities.",
+    "explanation": "Accessibility (often abbreviated as a11y) ensures that products and services are usable by everyone, including people with visual, auditory, motor, or cognitive disabilities. Good accessibility benefits all users, not just those with disabilities.\n\n**Types of Disabilities to Consider**:\n\n- **Visual**: Blindness, low vision, color blindness\n- **Auditory**: Deafness, hard of hearing\n- **Motor**: Limited fine motor control, tremors, paralysis\n- **Cognitive**: Learning disabilities, attention disorders, memory issues\n- **Temporary**: Broken arm, situational (bright sunlight, noisy environment)\n\n**Web Content Accessibility Guidelines (WCAG)**:\n\nThe four principles (POUR):\n\n**1. Perceivable**: Information must be presentable in ways users can perceive\n- Text alternatives for images\n- Captions for videos\n- Sufficient color contrast\n- Resizable text\n\n**2. Operable**: Interface components must be operable\n- Keyboard navigation\n- Sufficient time to interact\n- No seizure-inducing content\n- Clear navigation\n\n**3. Understandable**: Information and operation must be understandable\n- Readable text\n- Predictable behavior\n- Input assistance\n- Error prevention\n\n**4. Robust**: Content must be robust enough for assistive technologies\n- Valid HTML\n- ARIA labels\n- Compatible with screen readers\n\n**Common Accessibility Features**:\n\n- Alt text for images\n- Keyboard navigation\n- Skip links\n- ARIA labels and roles\n- Focus indicators\n- Sufficient color contrast (4.5:1 for normal text)\n- Captions and transcripts\n- Scalable text\n- Clear error messages\n\n**Why Accessibility Matters**:\n\n- **Legal**: Many countries require accessibility (ADA, EU Accessibility Act)\n- **Business**: Expands potential audience (15%+ of population has disabilities)\n- **SEO**: Many accessibility practices improve search ranking\n- **Usability**: Benefits everyone (curb cuts, closed captions)\n\n**Testing Accessibility**:\n\n- Automated tools (Lighthouse, axe, WAVE)\n- Manual testing (keyboard navigation, screen readers)\n- User testing with people who have disabilities\n\nAccessibility isn't an afterthought—it should be built into the design process from the start.",
+    "tags": [
+        "ux",
+        "design",
+        "inclusion",
+        "usability",
+        "web-development"
+    ],
+    "category": "Principles",
+    "icon": "FaUniversalAccess",
+    "featured": false,
+    "aliases": [
+        "a11y",
+        "Web Accessibility",
+        "Digital Accessibility",
+        "Inclusive Design"
+    ],
+    "relatedConcepts": [
+        "ux-design",
+        "usability",
+        "usability-heuristics",
+        "ui-design",
+        "cognitive-load"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "A Web for Everyone by Sarah Horton and Whitney Quesenbery",
+            "url": "https://www.amazon.com/dp/1933820977"
+        },
+        {
+            "title": "Inclusive Design Patterns by Heydon Pickering",
+            "url": "https://www.amazon.com/dp/1912862123"
+        }
+    ],
+    "references": [
+        {
+            "title": "Web accessibility - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Web_accessibility",
+            "type": "website"
+        },
+        {
+            "title": "Web Content Accessibility Guidelines (WCAG)",
+            "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

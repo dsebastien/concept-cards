@@ -1,0 +1,57 @@
+{
+    "id": "forces-of-progress",
+    "name": "Forces of Progress",
+    "summary": "A JTBD framework diagram showing the four forces that influence a customer's decision to switch from an old solution to a new one.",
+    "explanation": "The Forces of Progress diagram, developed within the Jobs to Be Done framework, maps the psychological forces at play when customers consider switching from their current solution to something new. Understanding these forces helps explain why people do or don't change their behavior.\n\n**The Four Forces**:\n\n**Push Forces (Driving Change)**:\n\n1. **Push of the Current Situation**: Dissatisfaction with the current solution\n   - Frustrations with the status quo\n   - Problems that aren't being solved\n   - Pain points accumulating over time\n   - \"This isn't working for me anymore\"\n\n2. **Pull of the New Solution**: Attraction to the new alternative\n   - Appeal of new features or benefits\n   - Promise of solving current problems\n   - Aspirational outcomes\n   - \"This could be so much better\"\n\n**Resistance Forces (Preventing Change)**:\n\n3. **Anxiety of the New Solution**: Fear and uncertainty about switching\n   - Will it actually work?\n   - What if I make the wrong choice?\n   - Learning curve concerns\n   - \"What if this doesn't work out?\"\n\n4. **Habit of the Current Situation**: Comfort and familiarity with the status quo\n   - Switching costs (time, money, effort)\n   - Invested learning and customization\n   - \"Good enough\" rationalization\n   - \"It's not that bad, I'm used to it\"\n\n**How Change Happens**:\n\nFor a customer to switch:\n**Push + Pull > Anxiety + Habit**\n\nThe combined strength of dissatisfaction with the current situation plus attraction to the new solution must overcome the combined resistance of switching anxiety and habitual attachment.\n\n**Applications**:\n\n- **Marketing**: Increase push (highlight current pain) and pull (show better future) while reducing anxiety (social proof, guarantees, trials)\n- **Product Design**: Make switching easy to reduce habit/anxiety barriers\n- **Competitive Analysis**: Understand why customers stay with inferior solutions\n- **User Research**: Interview about all four forces, not just features\n\n**Interview Questions by Force**:\n\n- Push: \"What frustrated you about your previous solution?\"\n- Pull: \"What made you consider trying something new?\"\n- Anxiety: \"What concerns did you have about switching?\"\n- Habit: \"What did you like about your old way of doing things?\"\n\nThis model is particularly valuable because it reveals that features alone rarely drive switching—you must address all four forces.",
+    "tags": [
+        "customer-research",
+        "behaviors",
+        "decision-making",
+        "products",
+        "marketing",
+        "frameworks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaExchangeAlt",
+    "featured": false,
+    "aliases": [
+        "Four Forces of Progress",
+        "JTBD Forces Diagram",
+        "Push-Pull Forces"
+    ],
+    "relatedConcepts": [
+        "jobs-to-be-done",
+        "switching-costs",
+        "customer-discovery",
+        "status-quo-bias",
+        "loss-aversion",
+        "value-proposition-canvas"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Competing Against Luck by Clayton Christensen",
+            "url": "https://www.amazon.com/dp/0062565230"
+        },
+        {
+            "title": "Demand-Side Sales 101 by Bob Moesta",
+            "url": "https://www.amazon.com/dp/1544519710"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Forces Diagram - JTBD Toolkit",
+            "url": "https://jtbd.info/the-forces-of-progress-4e9a7c4e5fa6",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

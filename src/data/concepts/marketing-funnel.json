@@ -1,0 +1,60 @@
+{
+    "id": "marketing-funnel",
+    "name": "Marketing Funnel",
+    "summary": "A framework representing the customer journey from first awareness through consideration to purchase decision, with content strategies for each stage.",
+    "explanation": "The Marketing Funnel (also called the Purchase Funnel or Customer Funnel) is a model that illustrates the theoretical customer journey from first becoming aware of a product to making a purchase decision. It provides a framework for creating targeted content and campaigns for each stage.\n\n**The Classic Funnel Stages (AIDA)**:\n\n1. **Awareness**: Prospect learns you exist\n2. **Interest**: Prospect wants to learn more\n3. **Desire**: Prospect wants your solution\n4. **Action**: Prospect becomes customer\n\n**Modern Funnel Stages (TOFU/MOFU/BOFU)**:\n\n| Stage | Focus | Prospect State |\n|-------|-------|----------------|\n| TOFU (Top) | Awareness | Doesn't know they have a problem |\n| MOFU (Middle) | Consideration | Researching solutions |\n| BOFU (Bottom) | Decision | Ready to choose |\n\n**Marketing Funnel vs. Sales Funnel**:\n\n- **Marketing Funnel**: Focuses on attracting and nurturing\n- **Sales Funnel**: Focuses on qualifying and closing\n\nIn practice, they overlap. Marketing generates and nurtures leads; sales converts them.\n\n**Content by Funnel Stage**:\n\n**TOFU Content** (Attract):\n- Blog posts, social media\n- Videos, podcasts\n- Infographics, guides\n- SEO-optimized content\n\n**MOFU Content** (Engage):\n- Lead magnets, ebooks\n- Webinars, email sequences\n- Case studies, comparisons\n- Free tools, assessments\n\n**BOFU Content** (Convert):\n- Product demos, free trials\n- Testimonials, detailed case studies\n- Pricing pages, consultations\n- Risk-reversal offers\n\n**Funnel Metrics**:\n\n- **Reach**: How many enter the funnel\n- **Engagement**: How many progress through stages\n- **Conversion**: How many become customers\n- **Velocity**: How fast they move through\n- **Leakage**: Where they drop out\n\n**The Funnel Isn't Linear**:\n\nModern customer journeys are messy:\n- People enter at different stages\n- They move back and forth\n- Multiple touchpoints influence decisions\n- The funnel is more like a flywheel\n\n**Optimizing the Funnel**:\n\n1. **Identify drop-off points**: Where do people leave?\n2. **Test content**: What moves people forward?\n3. **Segment audiences**: Different paths for different people\n4. **Automate nurturing**: Scale personalized follow-up\n5. **Align sales and marketing**: Smooth handoffs\n\n**The Extended Funnel (Post-Purchase)**:\n\n- **Retention**: Keep customers engaged\n- **Expansion**: Upsells, cross-sells\n- **Advocacy**: Turn customers into promoters\n\nThe funnel doesn't end at purchase—existing customers are your best source of new ones.",
+    "tags": [
+        "marketing",
+        "sales",
+        "frameworks",
+        "funnels",
+        "strategies"
+    ],
+    "category": "Frameworks",
+    "icon": "FaFilter",
+    "featured": false,
+    "aliases": [
+        "Purchase funnel",
+        "Customer funnel",
+        "Conversion funnel",
+        "Buyer's journey"
+    ],
+    "relatedConcepts": [
+        "top-of-funnel",
+        "middle-of-funnel",
+        "bottom-of-funnel",
+        "sales-funnel",
+        "aida-model",
+        "customer-journey",
+        "lead-generation",
+        "lead-nurturing",
+        "content-marketing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "DotCom Secrets by Russell Brunson",
+            "url": "https://www.amazon.com/dp/1401960464"
+        },
+        {
+            "title": "Building a StoryBrand by Donald Miller",
+            "url": "https://www.amazon.com/dp/0718033329"
+        }
+    ],
+    "references": [
+        {
+            "title": "Purchase funnel - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Purchase_funnel",
+            "type": "website"
+        },
+        {
+            "title": "Marketing funnel - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Marketing_funnel",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

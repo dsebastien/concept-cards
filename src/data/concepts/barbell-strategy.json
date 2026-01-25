@@ -1,0 +1,55 @@
+{
+    "id": "barbell-strategy",
+    "name": "Barbell Strategy",
+    "summary": "A risk management approach that combines extreme safety on one end with small, high-risk/high-reward bets on the other—avoiding the mediocre middle.",
+    "explanation": "The Barbell Strategy, articulated by Nassim Nicholas Taleb, is an approach to risk that avoids the middle ground by combining two extremes: extreme safety and extreme risk. The shape resembles a barbell—heavy weights on both ends with nothing in the middle.\n\n**The Core Principle**:\n\n- 85-90% in extremely safe, conservative assets\n- 10-15% in extremely speculative, high-risk/high-reward bets\n- 0% in the 'medium risk' middle\n\n**Why Avoid the Middle?**\n\nMedium-risk investments have a dangerous property: they appear safe but carry hidden tail risks. You get modest returns most of the time but occasionally experience catastrophic losses. The barbell eliminates this by:\n\n- Safe portion: Cannot lose significantly (cash, treasuries)\n- Risky portion: Small enough that total loss is acceptable, but upside is unlimited\n\n**Barbell in Different Domains**:\n\n**Finance**:\n- 90% treasury bonds, 10% speculative options\n- Never invest in 'medium-risk' corporate bonds\n\n**Career**:\n- Stable job (safe income) + side projects (unlimited upside)\n- Don't rely on a single 'medium-security' employer\n\n**Time Management**:\n- Focused deep work + complete rest\n- Avoid constant 'medium productivity' multitasking\n\n**Reading**:\n- Classics and serious non-fiction + light entertainment\n- Skip mediocre 'business books'\n\n**Health**:\n- Intense exercise + complete rest\n- Not chronic cardio at medium intensity\n\n**Social**:\n- Deep relationships with few + casual acquaintances with many\n- Not medium-depth friendships with everyone\n\n**Key Properties**:\n\n1. **Convexity**: More upside than downside\n2. **Optionality**: The risky end provides options\n3. **Robustness**: The safe end prevents ruin\n4. **Antifragility**: Benefits from volatility on the risky end\n\n**Implementing the Barbell**:\n\n1. Identify what 'ruin' looks like in your domain\n2. Protect absolutely against ruin (safe end)\n3. Take many small bets with unlimited upside (risky end)\n4. Eliminate medium-risk positions\n5. Let winners run, cut losers fast\n\n**The Math**:\n\nIf you put 90% safe and lose 100% of your 10% risky bet, you've lost 10%.\nIf that risky bet returns 10x, you've gained 100%.\nAsymmetric upside with bounded downside.\n\nThe barbell strategy is fundamentally about having the humility to admit you can't predict the future—so you build a portfolio that profits from your uncertainty.",
+    "tags": [
+        "risk-management",
+        "strategies",
+        "investing",
+        "decision-making",
+        "antifragility"
+    ],
+    "category": "Frameworks",
+    "icon": "FaDumbbell",
+    "featured": false,
+    "aliases": [
+        "Bimodal strategy",
+        "Extreme diversification"
+    ],
+    "relatedConcepts": [
+        "antifragility",
+        "optionality",
+        "asymmetric-upside",
+        "black-swan",
+        "fat-tails",
+        "skin-in-the-game"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Antifragile: Things That Gain from Disorder by Nassim Nicholas Taleb",
+            "url": "https://www.amazon.com/dp/0812979680"
+        },
+        {
+            "title": "The Black Swan by Nassim Nicholas Taleb",
+            "url": "https://www.amazon.com/dp/081297381X"
+        }
+    ],
+    "references": [
+        {
+            "title": "Barbell strategy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Barbell_strategy",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

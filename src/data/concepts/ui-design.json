@@ -1,0 +1,62 @@
+{
+    "id": "ui-design",
+    "name": "UI Design",
+    "summary": "The design of user interfaces for software and machines, focusing on visual elements, layouts, and interactive components that users directly interact with.",
+    "explanation": "User Interface (UI) Design is the process of designing interfaces in software or computerized devices with a focus on looks, style, and interactivity. The goal is to make the user's interaction as simple and efficient as possible.\n\n**UI Design Elements**:\n\n**Visual Elements**:\n- Typography: Fonts, sizes, hierarchy\n- Color: Palette, contrast, meaning\n- Icons and imagery\n- Spacing and layout\n- Visual hierarchy\n\n**Interactive Components**:\n- Buttons and controls\n- Forms and inputs\n- Navigation menus\n- Modals and dialogs\n- Cards and containers\n- Feedback elements (loaders, toasts)\n\n**UI vs UX**:\n\n| UI Design | UX Design |\n|-----------|------------|\n| How it looks | How it works |\n| Visual design | Experience design |\n| Interface elements | User journey |\n| Aesthetic appeal | Functional satisfaction |\n| Surface layer | All layers |\n\nUI is a subset of UX—good UX requires good UI, but good UI alone doesn't guarantee good UX.\n\n**UI Design Principles**:\n\n1. **Clarity**: Users should immediately understand what they can do\n2. **Consistency**: Similar elements should look and behave similarly\n3. **Feedback**: Every action should have a visible response\n4. **Efficiency**: Minimize steps to accomplish tasks\n5. **Aesthetics**: Visual appeal that doesn't compromise function\n6. **Accessibility**: Usable by people with diverse abilities\n\n**Design Systems**:\n\nModern UI design often uses design systems—collections of reusable components and guidelines:\n- Component libraries (buttons, forms, cards)\n- Style guides (colors, typography, spacing)\n- Pattern libraries (common UI patterns)\n- Documentation and usage guidelines\n\nExamples: Material Design (Google), Human Interface Guidelines (Apple), Fluent Design (Microsoft)\n\n**UI Design Process**:\n\n1. **Research**: Understand users and requirements\n2. **Wireframing**: Low-fidelity structure layouts\n3. **Visual Design**: High-fidelity mockups\n4. **Prototyping**: Interactive demonstrations\n5. **Testing**: Validate with users\n6. **Handoff**: Deliver to development\n\n**Tools**: Figma, Sketch, Adobe XD, Framer",
+    "tags": [
+        "design",
+        "interfaces",
+        "visual-design",
+        "products",
+        "software"
+    ],
+    "category": "Methods",
+    "icon": "FaPalette",
+    "featured": false,
+    "aliases": [
+        "User Interface Design",
+        "Interface Design",
+        "Visual Interface Design"
+    ],
+    "relatedConcepts": [
+        "ux-design",
+        "usability",
+        "affordances",
+        "eight-golden-rules",
+        "visual-consistency",
+        "information-architecture",
+        "skeuomorphism"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Refactoring UI by Adam Wathan and Steve Schoger",
+            "url": "https://www.refactoringui.com/"
+        },
+        {
+            "title": "Designing Interfaces by Jenifer Tidwell",
+            "url": "https://www.amazon.com/dp/1492051969"
+        }
+    ],
+    "references": [
+        {
+            "title": "User interface design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/User_interface_design",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}

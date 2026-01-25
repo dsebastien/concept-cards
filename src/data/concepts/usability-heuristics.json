@@ -1,0 +1,62 @@
+{
+    "id": "usability-heuristics",
+    "name": "Nielsen's 10 Usability Heuristics",
+    "summary": "Ten general principles for interaction design developed by Jakob Nielsen, used as guidelines for evaluating user interface usability.",
+    "explanation": "Jakob Nielsen's 10 Usability Heuristics are broad rules of thumb for interaction design. Developed in 1994, they remain the gold standard for heuristic evaluation of user interfaces.\n\n**The 10 Heuristics**:\n\n**1. Visibility of System Status**\nThe system should always keep users informed about what is going on, through appropriate feedback within reasonable time.\n- Progress indicators, loading states, confirmation messages\n- \"You are here\" indicators in navigation\n\n**2. Match Between System and the Real World**\nThe system should speak the users' language, with words, phrases, and concepts familiar to the user, rather than system-oriented terms.\n- Use natural language, not jargon\n- Follow real-world conventions (e.g., shopping cart icon)\n\n**3. User Control and Freedom**\nUsers often choose system functions by mistake. Provide a clearly marked \"emergency exit\" to leave the unwanted state without extended dialogue.\n- Undo and redo\n- Cancel buttons\n- Easy navigation back\n\n**4. Consistency and Standards**\nUsers should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.\n- Consistent terminology\n- Standard icon meanings\n- Predictable behavior patterns\n\n**5. Error Prevention**\nEven better than good error messages is a careful design that prevents problems from occurring in the first place.\n- Confirmation dialogs for destructive actions\n- Constraints that prevent invalid input\n- Suggestions and defaults\n\n**6. Recognition Rather Than Recall**\nMinimize the user's memory load by making objects, actions, and options visible. Don't make users remember information from one part to another.\n- Visible options, not hidden commands\n- Recent items and suggestions\n- Contextual help\n\n**7. Flexibility and Efficiency of Use**\nAccelerators—unseen by the novice user—may speed up interaction for the expert user. Allow users to tailor frequent actions.\n- Keyboard shortcuts\n- Customization options\n- Power user features\n\n**8. Aesthetic and Minimalist Design**\nDialogues should not contain information that is irrelevant or rarely needed. Every extra unit of information competes with relevant information.\n- Remove unnecessary elements\n- Progressive disclosure\n- Visual hierarchy\n\n**9. Help Users Recognize, Diagnose, and Recover from Errors**\nError messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.\n- Clear error messages\n- Specific guidance for recovery\n- No blame on the user\n\n**10. Help and Documentation**\nEven though it's better if the system can be used without documentation, it may be necessary to provide help. Such information should be easy to search, focused on the task, and concise.\n- Contextual help\n- Searchable documentation\n- Task-oriented guidance\n\n**Using the Heuristics**:\n\nHeuristic evaluation involves experts reviewing an interface against these principles, identifying violations, and rating severity. It's a cost-effective method for finding usability problems early in the design process.",
+    "tags": [
+        "ux",
+        "usability",
+        "principles",
+        "evaluation",
+        "interfaces",
+        "heuristics"
+    ],
+    "category": "Principles",
+    "icon": "FaListOl",
+    "featured": false,
+    "aliases": [
+        "Nielsen's Heuristics",
+        "10 Usability Heuristics",
+        "Heuristic Evaluation Principles"
+    ],
+    "relatedConcepts": [
+        "usability",
+        "ux-design",
+        "eight-golden-rules",
+        "cognitive-load",
+        "affordances",
+        "accessibility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Usability Engineering by Jakob Nielsen",
+            "url": "https://www.amazon.com/dp/0125184069"
+        },
+        {
+            "title": "Usability Inspection Methods by Jakob Nielsen",
+            "url": "https://www.amazon.com/dp/0471018775"
+        }
+    ],
+    "references": [
+        {
+            "title": "10 Usability Heuristics for User Interface Design - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+            "type": "website"
+        },
+        {
+            "title": "Heuristic evaluation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Heuristic_evaluation",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}
