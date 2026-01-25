@@ -1,0 +1,72 @@
+{
+    "id": "feedback-frequency",
+    "name": "Feedback Frequency and Learning Rate",
+    "summary": "The relationship between how often you receive feedback and how quickly you can learn and improve.",
+    "explanation": "Feedback Frequency and Learning Rate describes the direct relationship between how often you receive information about your performance and how quickly you can improve. More frequent feedback accelerates learning; infrequent feedback slows it down.\n\n**The Core Principle:**\n\nLearning speed is largely determined by the number of feedback cycles you can complete. If you get feedback once a month, you can only make twelve adjustments per year. If you get feedback hourly, you could make thousands of micro-adjustments.\n\n**Why Frequency Matters:**\n\n1. **Faster iteration**: Each feedback cycle is an opportunity to adjust and improve\n2. **Better attribution**: With frequent feedback, you can connect cause and effect more clearly\n3. **Smaller corrections**: Frequent feedback enables small adjustments before problems compound\n4. **Maintained motivation**: Regular progress signals sustain engagement\n\n**Examples Across Domains:**\n\n- **Video games**: Instant feedback on every action → rapid skill development\n- **Learning to drive**: Immediate feedback from the car → quick learning\n- **Writing a book**: Feedback months after completion → slow iteration cycles\n- **Health outcomes**: Years between cause and effect → difficult to learn from\n- **Investing**: Decades for outcomes to materialize → few learning cycles in a lifetime\n\n**Implications for Design:**\n\nWhen designing systems for learning or improvement:\n- Create leading indicators that provide earlier signals\n- Break long projects into phases with intermediate feedback points\n- Build in measurement and reflection rituals\n- Seek active feedback rather than waiting for passive signals\n\n**The Quality-Frequency Tradeoff:**\n\nMore frequent feedback often comes at the cost of feedback quality. Daily check-ins may catch issues but miss patterns visible only over months. The ideal is high-quality feedback at the highest sustainable frequency.\n\n**Practical Applications:**\n\n- **Deliberate practice**: Immediate feedback on specific skills\n- **Agile development**: Short sprints with regular retrospectives\n- **Writing**: Sharing drafts early and often\n- **Personal development**: Regular journaling and reflection\n- **Relationships**: Frequent communication rather than storing up issues\n\nThe key insight is that environments with infrequent feedback are inherently harder to learn in, regardless of talent or effort. When possible, restructure activities to increase feedback frequency.",
+    "tags": [
+        "learning",
+        "feedbacks",
+        "improvement",
+        "skill-development",
+        "systems-thinking"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaSync",
+    "featured": false,
+    "aliases": [
+        "Feedback rate",
+        "Learning cycles",
+        "Iteration frequency"
+    ],
+    "relatedConcepts": [
+        "tight-feedback-loops",
+        "deliberate-practice",
+        "iteration-speed",
+        "kaizen",
+        "learning-curve",
+        "positive-feedback-loop",
+        "failure-as-feedback"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Peak: Secrets from the New Science of Expertise by Anders Ericsson",
+            "url": "https://www.amazon.com/dp/0544947223"
+        },
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555"
+        }
+    ],
+    "references": [
+        {
+            "title": "Feedback - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Feedback",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-25",
+    "dateModified": "2026-01-25"
+}
