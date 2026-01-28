@@ -1,0 +1,90 @@
+{
+    "id": "ralph-wiggum-technique",
+    "name": "Ralph Wiggum Technique",
+    "summary": "An AI agent execution philosophy that embraces persistent iteration, where agents keep trying despite initial failures until they converge on working solutions.",
+    "explanation": "The Ralph Wiggum Technique is an AI agent execution philosophy named after Ralph Wiggum, the famously clueless yet relentlessly persistent character from The Simpsons. The technique embraces the idea that persistence and iteration can overcome initial failures, even when the agent doesn't fully understand the problem at first.\n\nLike Ralph Wiggum stumbling through situations with cheerful persistence, AI agents using this technique don't need to understand everything upfront to make progress, keep trying despite failures and confusion, eventually succeed through sheer persistence and iteration, and learn from mistakes even if they don't realize it.\n\nThe technique works because Large Language Models are probabilistic and don't always produce correct output on the first try. Given error feedback from failed attempts, multiple opportunities to try, and accumulated context from previous iterations, they often converge on working solutions. Complex tasks also have hidden dependencies - many coding tasks fail initially because of missing imports, incorrect assumptions about the codebase, or edge cases not considered. Each failure reveals information that helps the next attempt succeed.\n\nIn practice, the technique manifests as an iterative loop: Attempt 1 might produce a syntax error, Attempt 2 fixes that but hits a runtime error, Attempt 3 handles the error but produces wrong output, Attempt 4 adjusts logic but fails a test, and Attempt 5 finally fixes the edge case and succeeds. Each failure narrows the solution space until success is achieved.\n\nKey elements include persistence (never giving up after a single failure), error ingestion (feeding failure information back to the agent), context accumulation (building understanding across iterations), completion detection (knowing when to stop via success tokens), and graceful degradation (handling truly impossible tasks). Anti-patterns to avoid include infinite loops (set maximum iteration limits), repeating the same error (detect and break loops), catastrophic failures (implement safety guardrails), and token waste (balance persistence with cost).",
+    "tags": [
+        "ai",
+        "automation",
+        "workflows",
+        "software-engineering",
+        "problem-solving"
+    ],
+    "category": "AI",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": [
+        "Ralph Wiggum Loop",
+        "Ralph Loop"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-agent-swarms",
+        "large-language-models"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Ralph+Wiggum+Technique"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Ralph TUI - AI Agent Orchestration Tool",
+            "url": "https://ralph-tui.dev",
+            "type": "website"
+        },
+        {
+            "title": "Ralph Wiggum - Simpsons Wiki",
+            "url": "https://simpsons.fandom.com/wiki/Ralph_Wiggum",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

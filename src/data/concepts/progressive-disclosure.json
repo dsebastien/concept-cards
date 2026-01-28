@@ -1,0 +1,56 @@
+{
+    "id": "progressive-disclosure",
+    "name": "Progressive Disclosure",
+    "summary": "An interaction design pattern that sequences information and actions across several screens to reduce complexity and cognitive load.",
+    "explanation": "Progressive Disclosure is an interaction design technique that reveals only essential information initially, with additional details available on demand. The concept was formalized by J.M. Carroll and M.B. Rosson at IBM in the 1980s during research on minimalist instruction design. Jakob Nielsen later popularized the term in usability contexts, calling it one of the most valuable concepts in UX design.\n\n**Why Progressive Disclosure Works**:\n\nThe principle directly addresses working memory limitations. By showing less at once, users can focus on immediate tasks without being overwhelmed. This creates a graduated learning curve that serves both novices (who get simple defaults) and experts (who can access advanced features when needed).\n\n**The Three Layers Model**:\n\n1. **Essential Layer (Always visible)**: Core features needed by all users, primary actions, key information. Follows the 80/20 principle—approximately 20% of features handle 80% of tasks.\n\n2. **Secondary Layer (Available on request)**: Features needed by some users, additional options, and more details.\n\n3. **Advanced Layer (Expert features)**: Specialized features for power users, configuration options, customization, and edge cases.\n\n**Implementation Patterns**:\n\n- **Accordion**: Expandable sections for FAQs and long forms\n- **Show more/less**: Toggle for lists and descriptions\n- **Wizard/Stepper**: Multi-step processes for forms and setup flows\n- **Tabs**: Organize related information sets\n- **Modal/Drawer**: Overlay for editing and advanced options\n- **Hover/Tooltip**: Explanations and labels on hover\n- **Progressive forms**: Fields appear as needed dynamically\n- **Advanced settings**: Hidden complex options for power users\n\n**Benefits**:\n\n- Reduced cognitive load through less information to process\n- Cleaner, less cluttered interfaces\n- Faster task completion by focusing on essentials\n- Better learnability through gradual introduction\n- Serves multiple audiences (novices and experts)\n- Reduced errors from fewer confusing options\n\n**Risks and Mitigation**:\n\nPoor implementation frustrates users by hiding necessary information or requiring too many clicks. Key risks include hiding essential information (mitigate with user testing), creating too many clicks (limit disclosure depth to 2-3 levels), and discoverability problems (use clear affordances for 'more').\n\n**Design Guidelines**:\n\n- Prioritize ruthlessly: What do 80% of users need immediately?\n- Make disclosure obvious with clear 'more' affordances\n- Preserve context so users don't lose their place\n- Allow experts to skip ahead for quick access\n- Keep hierarchy shallow (maximum 2-3 levels deep)\n- Group related items together for logical disclosure",
+    "tags": [
+        "user-experience",
+        "user-interface-design",
+        "usability",
+        "interaction-design",
+        "information-architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Staged Disclosure",
+        "Layered Interface"
+    ],
+    "relatedConcepts": [
+        "usability",
+        "human-computer-interaction",
+        "cognitive-load"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Progressive+Disclosure"
+    ],
+    "articles": [
+        {
+            "title": "Progressive Disclosure - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Don't Make Me Think by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321965515?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Progressive disclosure - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Progressive_disclosure",
+            "type": "website"
+        },
+        {
+            "title": "The Paradox of the Active User - Carroll & Rosson (1987)",
+            "url": "https://doi.org/10.1016/S0020-7373(87)80011-6",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "arpanet",
+    "name": "ARPANET",
+    "summary": "The first wide-area packet-switching network and direct predecessor to the modern Internet, developed by DARPA in 1969.",
+    "explanation": "ARPANET (Advanced Research Projects Agency Network) was the first wide-area packet-switching network and the direct predecessor to the modern Internet. Funded by DARPA (then called ARPA), the network went live on October 29, 1969, when the first message was sent from UCLA to Stanford Research Institute. The system famously crashed after transmitting just \"LO\" while attempting to send \"LOGIN.\" The project emerged from J.C.R. Licklider's vision of an \"Intergalactic Computer Network\" and was developed under the leadership of Bob Taylor and Larry Roberts.\n\nARPANET introduced several foundational concepts that remain central to networking today. Packet switching allowed data to be broken into packets and routed independently across the network. The distributed architecture meant there was no central point of failure—a design that made the network inherently resilient. The network later adopted TCP/IP, developed by Vint Cerf and Bob Kahn, which became the universal protocol for Internet communication.\n\nBy 1971, ARPANET connected 15 nodes including MIT, Harvard, and BBN. The network enabled revolutionary applications: email was invented on ARPANET in 1971 by Ray Tomlinson, along with file transfer and remote login capabilities. These innovations proved that heterogeneous computers could communicate effectively.\n\nThe original four nodes in 1969 were UCLA (Network Measurement Center), Stanford Research Institute (Network Information Center), UC Santa Barbara (Culler-Fried Interactive Mathematics), and the University of Utah (graphics research). The network continued to grow, reaching international connections to the UK and Norway by 1973.\n\nContrary to popular myth, ARPANET wasn't designed primarily for nuclear attack survival—that was a beneficial side effect of its distributed design. It was fundamentally a research network for universities. ARPANET was decommissioned in 1990, having evolved into the Internet through the widespread adoption of TCP/IP starting with \"Flag Day\" in 1983 when the network switched from NCP to TCP/IP.",
+    "tags": [
+        "technology",
+        "history",
+        "networking",
+        "computing-history"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Advanced Research Projects Agency Network",
+        "ARPAnet"
+    ],
+    "relatedConcepts": [
+        "internet"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/ARPANET"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Where Wizards Stay Up Late: The Origins of the Internet by Katie Hafner and Matthew Lyon",
+            "url": "https://www.amazon.com/dp/0684832674?tag=dsebastien00-20"
+        },
+        {
+            "title": "Inventing the Internet by Janet Abbate",
+            "url": "https://www.amazon.com/dp/0262511150?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "ARPANET - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/ARPANET",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

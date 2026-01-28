@@ -1,0 +1,54 @@
+{
+    "id": "data-visualization",
+    "name": "Data Visualization",
+    "summary": "The graphical representation of data and information to communicate patterns, trends, and insights effectively.",
+    "explanation": "Data Visualization is the practice of representing data and information through visual elements such as charts, graphs, maps, and diagrams. It transforms raw data into visual formats that make complex information accessible and understandable to a broad audience.\n\n**Why Data Visualization Matters**:\n- Humans process visual information 60,000 times faster than text\n- Reveals patterns, trends, and outliers that might be hidden in raw data\n- Enables faster and more informed decision-making\n- Communicates complex findings to non-technical stakeholders\n- Supports exploratory data analysis and hypothesis generation\n\n**Types of Charts and Their Uses**:\n\n**Comparison Charts**:\n- Bar charts: Compare quantities across categories\n- Column charts: Compare data over time or categories\n- Radar/Spider charts: Compare multiple variables for different items\n\n**Trend Charts**:\n- Line charts: Show changes over time\n- Area charts: Emphasize magnitude of change over time\n- Sparklines: Compact trend indicators within text or tables\n\n**Part-to-Whole Charts**:\n- Pie charts: Show proportions of a whole (use sparingly)\n- Donut charts: Proportions with center space for metrics\n- Treemaps: Hierarchical proportions\n- Stacked bar charts: Proportions across categories\n\n**Distribution Charts**:\n- Histograms: Show frequency distribution\n- Box plots: Display statistical distribution\n- Violin plots: Combine box plots with density curves\n\n**Relationship Charts**:\n- Scatter plots: Show correlation between two variables\n- Bubble charts: Add a third dimension via bubble size\n- Heatmaps: Display magnitude across two dimensions\n\n**Best Practices**:\n- Choose the right chart type for your data and message\n- Remove chart junk and unnecessary decorations\n- Use color purposefully and consider accessibility\n- Label axes clearly and include units\n- Tell a story with your visualization\n- Design for your audience's expertise level\n\n**Common Mistakes to Avoid**:\n- Truncating axes to exaggerate differences\n- Using 3D effects that distort perception\n- Overloading with too many data series\n- Choosing form over function\n- Ignoring color blindness accessibility",
+    "tags": [
+        "visualization",
+        "communication",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "DataViz",
+        "Data Viz",
+        "Information Visualization"
+    ],
+    "relatedConcepts": [
+        "visualization",
+        "dashboard",
+        "visual-thinking",
+        "treemap"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Data+Visualization"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Visual Display of Quantitative Information by Edward Tufte",
+            "url": "https://www.amazon.com/dp/1930824130?tag=dsebastien00-20"
+        },
+        {
+            "title": "Storytelling with Data by Cole Nussbaumer Knaflic",
+            "url": "https://www.amazon.com/dp/1119002257?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Data visualization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_visualization",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

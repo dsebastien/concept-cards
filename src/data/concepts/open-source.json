@@ -1,0 +1,64 @@
+{
+    "id": "open-source",
+    "name": "Open Source",
+    "summary": "Software whose source code is made publicly available for anyone to view, modify, and distribute, fostering transparency, collaboration, and innovation.",
+    "explanation": "Open Source refers to software whose source code is made publicly available for anyone to view, modify, and distribute. The term was coined in 1998 by Christine Peterson and popularized by Eric S. Raymond, Bruce Perens, and others who founded the Open Source Initiative (OSI). They sought a more business-friendly alternative to Richard Stallman's 'free software' terminology.\n\nWhile open source shares practical similarities with free software, the philosophies differ: open source emphasizes practical benefits such as better code quality, collaboration, and transparency, while free software emphasizes ethical freedoms. Despite this tension, both movements have driven the collaborative development model that powers much of modern software infrastructure.\n\nThe Open Source Definition (OSD) established by the OSI includes several key criteria: free redistribution without royalty or fee restrictions, source code that must be included or easily obtainable, permission for derived works and modifications, and no discrimination against persons, groups, or fields of endeavor.\n\nCommon open source licenses range from permissive licenses like MIT and Apache 2.0, which allow nearly unrestricted use, to copyleft licenses like GPLv3, which require derivative works to maintain the same licensing terms. This spectrum allows creators to choose how their work can be used and shared.\n\nOpen source has become foundational to modern computing. Linux powers the majority of web servers and cloud infrastructure, Git revolutionized version control, and countless frameworks, libraries, and tools are developed openly. The model has proven that distributed collaboration can produce world-class software while enabling innovation, reducing costs, and creating more secure and transparent systems.",
+    "tags": [
+        "software-engineering",
+        "collaboration",
+        "tools",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Open Source Software",
+        "OSS"
+    ],
+    "relatedConcepts": [
+        "linux",
+        "git"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Open+Source"
+    ],
+    "articles": [
+        {
+            "title": "Open Source Initiative",
+            "url": "https://opensource.org",
+            "type": "website"
+        },
+        {
+            "title": "Open Source Definition",
+            "url": "https://opensource.org/osd",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Open-source software - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open-source_software",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

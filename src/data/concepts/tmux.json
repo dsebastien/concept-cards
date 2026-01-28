@@ -1,0 +1,87 @@
+{
+    "id": "tmux",
+    "name": "tmux",
+    "summary": "A terminal multiplexer that enables running multiple terminal sessions within a single window, with persistent sessions that survive disconnections.",
+    "explanation": "tmux (Terminal Multiplexer) is a terminal application that allows running multiple terminal sessions within a single window. It enables splitting the terminal into panes, creating multiple windows, and most importantly, detaching sessions that continue running in the background. This makes tmux essential for remote work, long-running processes, and organizing complex terminal workflows.\n\nThe key concepts in tmux are sessions, windows, and panes. A session is a collection of windows managed by tmux. A window is a single screen within a session, similar to browser tabs. A pane is a subdivision of a window, allowing split views. All tmux commands are triggered using a prefix key (default: Ctrl+b) followed by a command key.\n\ntmux offers several compelling benefits. Persistent sessions allow you to detach and reattach without losing work. Remote resilience means SSH disconnections won't kill your processes. Workspace organization is achieved through multiple projects in separate sessions. Split views let you see multiple terminals simultaneously. Session sharing enables pair programming with collaborators.\n\nCommon session management commands include 'tmux new -s name' to create a named session, 'tmux ls' to list sessions, 'tmux attach -t name' to attach to a session, and 'tmux kill-session -t name' to terminate one. Inside tmux, prefix+d detaches from the session, prefix+c creates a new window, prefix+% splits a pane vertically, and prefix+\" splits horizontally.\n\ntmux is configured via ~/.tmux.conf, where you can customize the prefix key, enable mouse support, change the base index for windows, and set up custom keybindings. The plugin ecosystem, managed through TPM (Tmux Plugin Manager), extends functionality with tools like tmux-resurrect for saving and restoring sessions, tmux-continuum for automatic session saving, and tmux-yank for system clipboard integration.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "productivity"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "Terminal Multiplexer"
+    ],
+    "relatedConcepts": [
+        "shell",
+        "bash",
+        "linux"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/TMux"
+    ],
+    "references": [
+        {
+            "title": "tmux - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tmux",
+            "type": "website"
+        },
+        {
+            "title": "tmux - Official Website",
+            "url": "https://tmux.github.io/",
+            "type": "website"
+        },
+        {
+            "title": "tmux - GitHub Repository",
+            "url": "https://github.com/tmux/tmux",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

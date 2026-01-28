@@ -1,0 +1,43 @@
+{
+    "id": "linux-foundation",
+    "name": "Linux Foundation",
+    "summary": "A nonprofit organization that promotes, protects, and standardizes Linux while supporting collaborative development of open source projects.",
+    "explanation": "The Linux Foundation is a nonprofit organization founded in 2000 (originally as Open Source Development Labs, renamed in 2007) dedicated to fostering the growth of Linux and collaborative open source development. It employs Linus Torvalds and Greg Kroah-Hartman, who maintain the Linux kernel, and provides a neutral home for many critical open source projects.\n\nUnlike the Free Software Foundation (FSF), which emphasizes software freedom as an ethical imperative, the Linux Foundation takes a pragmatic, industry-focused approach. It hosts projects across cloud computing, networking, security, and more, with corporate members including Google, Microsoft, IBM, Intel, and most major technology companies.\n\nThe Linux Foundation hosts hundreds of significant projects including: the Linux Kernel (core of Linux operating systems), Kubernetes (container orchestration platform), Node.js (JavaScript runtime), CNCF (Cloud Native Computing Foundation), OpenJS Foundation (JavaScript ecosystem), Let's Encrypt (free SSL/TLS certificates), and the TODO Group (open source program offices).\n\nKey activities of the Linux Foundation include funding core Linux kernel development, providing training and certification programs, organizing major events like LinuxCon, Open Source Summit, and KubeCon, offering legal support for patent protection and license compliance, and conducting research through open source surveys and reports.\n\nThe organization operates on a corporate membership model, with companies paying dues to support shared infrastructure and development resources. This approach has proven effective at creating a sustainable ecosystem where competing companies can collaborate on shared technology foundations while maintaining their competitive differentiation at higher levels of the software stack.",
+    "tags": [
+        "open-source",
+        "linux",
+        "organizations"
+    ],
+    "category": "Software Development",
+    "icon": "FaLinux",
+    "featured": false,
+    "aliases": [
+        "LF"
+    ],
+    "relatedConcepts": [
+        "linux",
+        "open-source",
+        "kubernetes"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Linux+Foundation"
+    ],
+    "articles": [
+        {
+            "title": "Linux Foundation Official Website",
+            "url": "https://www.linuxfoundation.org",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Linux Foundation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Linux_Foundation",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

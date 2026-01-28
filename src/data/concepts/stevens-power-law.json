@@ -1,0 +1,21 @@
+{
+  "id": "stevens-power-law",
+  "name": "Stevens' Power Law",
+  "summary": "A psychophysical principle stating that the perceived intensity of a stimulus is a power function of its actual physical magnitude.",
+  "explanation": "Stevens' Power Law, developed by S.S. Stevens in the 1950s, describes the relationship between the magnitude of a physical stimulus and its perceived intensity using the formula S = k*I^n, where S is the perceived sensation, I is the stimulus intensity, k is a constant, and n is an exponent that varies by sensory modality.\n\nUnlike Fechner's logarithmic law, Stevens' Power Law uses different exponents for different types of sensory experiences. For brightness, the exponent is approximately 0.33 (compressive), meaning that large increases in light intensity produce relatively small increases in perceived brightness. For loudness, the exponent is around 0.6, also compressive. Line length perception has an exponent of 1.0, indicating a linear relationship. Electric shock, with an exponent of 3.5, is highly expansive, where small increases in intensity produce dramatically larger increases in perceived pain.\n\nStevens developed this law using magnitude estimation, a method where subjects assign numerical values to their sensory experiences. This approach allowed direct measurement of perceived intensity rather than relying on just-noticeable differences.\n\nThe power law has numerous practical applications, including display calibration (adjusting brightness curves for monitors), audio engineering (designing volume controls and compression), and pain measurement in clinical settings. It forms a cornerstone of psychophysics, the quantitative study of relationships between physical stimuli and psychological sensations.",
+  "tags": ["psychology", "perception", "psychophysics", "sensory-processing", "cognitive-science"],
+  "category": "Psychology & Mental Models",
+  "featured": false,
+  "aliases": ["Power Law of Sensation"],
+  "relatedConcepts": ["perception"],
+  "relatedNotes": ["https://notes.dsebastien.net/Stevens-Power-Law"],
+  "references": [
+    {
+      "title": "Stevens's power law - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stevens%27s_power_law",
+      "type": "website"
+    }
+  ],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

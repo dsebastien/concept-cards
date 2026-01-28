@@ -1,0 +1,63 @@
+{
+    "id": "semantic-search",
+    "name": "Semantic Search",
+    "summary": "A search technique that finds information based on meaning and intent rather than exact keyword matching.",
+    "explanation": "Semantic Search is a search approach that understands the meaning and context of queries rather than simply matching keywords. Unlike traditional lexical search that looks for exact word matches, semantic search interprets the intent behind a query and finds conceptually relevant results even when different words are used.\n\nHow semantic search works:\n1. **Embedding conversion**: Both the query and documents are converted into numerical vector representations (embeddings) using AI models\n2. **Similarity matching**: The system finds documents whose vectors are mathematically close to the query vector\n3. **Ranking**: Results are ranked by semantic similarity rather than keyword frequency\n\nKey differences from keyword search:\n- **Synonyms handled naturally**: Searching for 'automobile' finds documents about 'cars'\n- **Context awareness**: 'Apple' in a food context differs from 'Apple' as a company\n- **Intent understanding**: 'How to fix a leaky faucet' matches plumbing repair guides\n- **Cross-language potential**: Meaning transcends specific word choices\n\nThe technology relies on embedding models trained on vast text corpora to understand semantic relationships. Popular models include OpenAI's text-embedding-ada-002, Cohere's embed models, and open-source alternatives like Sentence-BERT.\n\nSemantic search is foundational to modern AI applications including:\n- Question-answering systems\n- Retrieval-Augmented Generation (RAG)\n- Document discovery and research tools\n- Personal knowledge management search\n- Recommendation systems\n\nFor knowledge workers, semantic search transforms how information is found - enabling discovery of relevant content based on concepts rather than remembering exact terminology.",
+    "tags": [
+        "ai",
+        "search",
+        "embeddings",
+        "machine-learning",
+        "nlp"
+    ],
+    "category": "AI",
+    "icon": "FaSearch",
+    "featured": false,
+    "aliases": [
+        "Meaning-based search",
+        "Vector search",
+        "Neural search"
+    ],
+    "relatedConcepts": [
+        "embedding",
+        "vector-store",
+        "retrieval-augmented-generation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Semantic search - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Semantic_search",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

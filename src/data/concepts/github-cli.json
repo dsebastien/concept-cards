@@ -1,0 +1,83 @@
+{
+    "id": "github-cli",
+    "name": "GitHub CLI",
+    "summary": "The official command-line tool for GitHub that brings pull requests, issues, and other GitHub features to your terminal.",
+    "explanation": "GitHub CLI (gh) is an official open-source command-line tool that brings GitHub's functionality directly to your terminal. Released in 2020, it enables developers to work with repositories, issues, pull requests, and more without leaving the command line.\n\n**Core Features**\n\nGitHub CLI provides native access to GitHub's most important workflows:\n\n- **Pull Requests**: Create, view, review, and merge PRs with commands like `gh pr create`, `gh pr view`, and `gh pr merge`\n- **Issues**: Manage issues through `gh issue create`, `gh issue list`, and `gh issue close`\n- **Repositories**: Clone, fork, and create repos using `gh repo clone`, `gh repo fork`, and `gh repo create`\n- **GitHub Actions**: View workflow runs, watch logs, and trigger workflows with `gh run list`, `gh run view`, and `gh workflow run`\n- **Releases**: Create and manage releases via `gh release create` and `gh release list`\n\n**Key Commands**\n\n```bash\ngh auth login          # Authenticate with GitHub\ngh repo clone owner/repo   # Clone a repository\ngh pr create           # Create a pull request\ngh pr checkout 123     # Check out a PR locally\ngh issue create        # Create an issue\ngh api /user           # Make authenticated API calls\ngh codespace create    # Create a GitHub Codespace\n```\n\n**Advanced Capabilities**\n\nThe `gh api` command enables direct access to GitHub's REST and GraphQL APIs with automatic authentication, making it invaluable for scripting and automation. GitHub CLI also supports aliases for custom commands and extensions for community-built functionality.\n\n**Integration Benefits**\n\nGitHub CLI streamlines developer workflows by eliminating context switching between terminal and browser. It integrates seamlessly with Git, allowing developers to manage both local version control and remote GitHub operations from a single interface. The tool is particularly powerful for code review, CI/CD management, and automating GitHub workflows in scripts.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "version-control",
+        "devops",
+        "automation"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "gh",
+        "gh CLI"
+    ],
+    "relatedConcepts": [
+        "github",
+        "git",
+        "cli"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "GitHub CLI - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GitHub#GitHub_CLI",
+            "type": "website"
+        },
+        {
+            "title": "GitHub CLI Documentation",
+            "url": "https://cli.github.com/manual/",
+            "type": "website"
+        },
+        {
+            "title": "GitHub CLI Official Website",
+            "url": "https://cli.github.com/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

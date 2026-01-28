@@ -1,0 +1,55 @@
+{
+    "id": "database",
+    "name": "Database",
+    "summary": "An organized collection of structured data stored electronically and managed by software for efficient storage, retrieval, and manipulation.",
+    "explanation": "A database is an organized collection of structured data, typically stored electronically in a computer system. Databases are managed by Database Management Systems (DBMS) that provide mechanisms for storing, retrieving, updating, and managing data. They are fundamental to virtually all modern applications, from simple mobile apps to complex enterprise systems.\n\n**Types of Databases**:\n\n**Relational Databases (RDBMS)** store data in tables with rows and columns, using SQL for queries. Tables can be linked through relationships using foreign keys. Popular examples include PostgreSQL, MySQL, SQLite, Microsoft SQL Server, and Oracle Database. These are ideal for structured data with clear relationships.\n\n**NoSQL Databases** are non-relational databases designed for specific data models and flexible schemas:\n- Document stores (MongoDB, CouchDB) store data as JSON-like documents\n- Key-value stores (Redis, DynamoDB) use simple key-value pairs for extreme speed\n- Wide-column stores (Cassandra, HBase) organize data in column families\n- Graph databases (Neo4j, Amazon Neptune) model nodes and relationships\n\n**NewSQL Databases** (CockroachDB, TiDB, Spanner) combine the relational model with NoSQL scalability.\n\n**Specialized Databases** serve specific use cases: time-series databases (InfluxDB, TimescaleDB), search engines (Elasticsearch, Meilisearch), vector databases for AI/ML (Pinecone, Weaviate, pgvector), and embedded databases (SQLite, LevelDB).\n\n**Key Database Concepts**:\n\n**ACID Properties** guarantee reliable transaction processing:\n- Atomicity: Transactions are all-or-nothing\n- Consistency: Data remains valid after transactions\n- Isolation: Concurrent transactions don't interfere\n- Durability: Committed data persists\n\n**Normalization** is the process of organizing data to reduce redundancy, progressing through normal forms (1NF, 2NF, 3NF) to eliminate repeating groups and dependencies.\n\n**Indexing** uses data structures that speed up queries at the cost of storage and write performance. Common types include B-tree (default for most databases), hash indexes, GIN/GiST (for full-text search and JSON), and bitmap indexes.\n\n**Choosing the right database** depends on your needs: PostgreSQL for general-purpose web apps, SQLite for simple local storage, Redis for caching, MongoDB for document flexibility, Neo4j for graph relationships, and TimescaleDB or InfluxDB for time-series data.",
+    "tags": [
+        "databases",
+        "software-development",
+        "data-storage",
+        "software-architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "DB",
+        "Data Store",
+        "Data Repository"
+    ],
+    "relatedConcepts": [
+        "acid-properties",
+        "data-integrity",
+        "data-redundancy",
+        "cap-theorem"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Database"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        },
+        {
+            "title": "Database Internals by Alex Petrov",
+            "url": "https://www.amazon.com/dp/1492040347?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Database - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Database",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

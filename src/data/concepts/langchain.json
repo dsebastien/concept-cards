@@ -1,0 +1,86 @@
+{
+    "id": "langchain",
+    "name": "LangChain",
+    "summary": "An open-source orchestration framework for building applications with Large Language Models (LLMs).",
+    "explanation": "LangChain is an open-source orchestration framework for building applications with Large Language Models (LLMs). Available in both Python and JavaScript, it provides tools and APIs to simplify building LLM-driven applications like chatbots, AI agents, and Retrieval-Augmented Generation (RAG) systems.\n\nThe framework serves as a generic interface for nearly any LLM, providing a centralized development environment to build applications and integrate them with external data sources and software workflows.\n\nKey features include:\n- **Modular architecture**: Chain together interoperable components\n- **Model agnostic**: Connect to OpenAI, Anthropic, Google, and other providers\n- **Tool integration**: Built-in support for external tools and APIs\n- **Memory systems**: Short-term and long-term conversation memory\n- **Retrieval mechanisms**: Document loaders, text splitters, and vector stores\n- **Prompt templates**: Reusable, parameterized prompts\n\nLangChain's ecosystem includes several libraries: LangChain-core (fundamental abstractions), integration packages (provider-specific integrations), chains (sequential processing pipelines), agents (autonomous decision-making components), and retrievers (document retrieval mechanisms).\n\nLangChain applications typically follow common patterns: chains for linear sequences of operations, agents for dynamic decision-making with tool selection, and RAG pipelines for retrieving context, augmenting prompts, and generating responses.\n\nLimitations include a steep learning curve due to layered abstractions, overhead that may be excessive for simple applications, and rapid API changes between versions.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "frameworks",
+        "software-engineering",
+        "tools"
+    ],
+    "category": "AI",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "LangChain Framework"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "ai-agent",
+        "retrieval-augmented-generation",
+        "prompt-engineering",
+        "model-context-protocol"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/LangChain"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "LangChain - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/LangChain",
+            "type": "website"
+        },
+        {
+            "title": "LangChain Official Website",
+            "url": "https://www.langchain.com/",
+            "type": "website"
+        },
+        {
+            "title": "LangChain Documentation",
+            "url": "https://docs.langchain.com/",
+            "type": "website"
+        },
+        {
+            "title": "LangChain GitHub Repository",
+            "url": "https://github.com/langchain-ai/langchain",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

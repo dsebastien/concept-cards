@@ -1,0 +1,34 @@
+{
+  "id": "perception",
+  "name": "Perception",
+  "summary": "The cognitive process of organizing and interpreting sensory information to construct a meaningful understanding of the environment.",
+  "explanation": "Perception is far more than passive reception of sensory data. It is an active cognitive process through which the brain organizes, interprets, and constructs our experience of reality through complex neural computations. This process bridges the gap between raw sensory input (sensation) and meaningful understanding of the world around us.\n\nThe perceptual process follows a sequence: stimulus (physical energy) leads to sensation (sensory detection), which is then organized into perception, recognized for its meaning, and finally triggers behavioral responses. Two fundamental processing modes work in tandem: bottom-up processing builds from stimulus features to higher-level interpretation, while top-down processing uses expectations and prior knowledge to guide interpretation.\n\nKey theoretical approaches have shaped our understanding of perception. Hermann von Helmholtz proposed that perception involves 'unconscious inference,' where the brain makes automatic assumptions. James J. Gibson's ecological approach argues that perception directly picks up 'affordances' from the environment. Richard Gregory emphasized perception's constructive, hypothesis-testing nature, while the Gestalt psychologists demonstrated that the whole is more than the sum of its parts.\n\nSeveral perceptual systems work together, including visual (light waves), auditory (sound waves), somatosensory (touch), olfactory (smell), gustatory (taste), vestibular (balance), and proprioceptive (body position). The Gestalt principles such as proximity, similarity, continuity, closure, and figure-ground organization describe how we group and organize visual elements.\n\nPerceptual constancies allow us to recognize objects as stable despite changing conditions: size constancy (despite distance), shape constancy (despite viewing angle), and color constancy (despite lighting changes). However, perception is not always veridical. Illusions such as the Muller-Lyer, Ponzo, and Necker Cube demonstrate how perception can be systematically fooled, revealing the underlying mechanisms at work.\n\nUnderstanding perception has practical applications across design (visual hierarchy, affordances), user experience (interface feedback), marketing (attention and visual appeal), safety (warning signals), art (composition), and medicine (diagnostic imaging).",
+  "tags": ["psychology", "cognition", "neuroscience", "cognitive-science", "sensory-processing"],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBrain",
+  "featured": false,
+  "aliases": ["Perceptual Processing", "Sensory Perception"],
+  "relatedConcepts": ["gestalt-psychology", "cognitive-psychology"],
+  "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Perception"],
+  "articles": [],
+  "books": [
+    {
+      "title": "The Ecological Approach to Visual Perception by James J. Gibson",
+      "url": "https://www.amazon.com/dp/1848725787?tag=dsebastien00-20"
+    },
+    {
+      "title": "The Intelligent Eye by Richard L. Gregory",
+      "url": "https://www.amazon.com/dp/0691024103?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Perception - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Perception",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

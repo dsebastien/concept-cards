@@ -1,0 +1,57 @@
+{
+    "id": "shell",
+    "name": "Shell",
+    "summary": "A program that provides a command-line interface to interact with an operating system by interpreting user commands and executing them.",
+    "explanation": "A shell is a program that provides a command-line interface (CLI) to interact with an operating system. It interprets user commands and executes them, acting as an intermediary between the user and the operating system kernel. The term 'shell' comes from the idea of a protective outer layer around the kernel; the shell wraps the core system, providing a user-friendly way to access its functionality.\n\nShells perform several key functions: command interpretation (parsing and executing user commands), scripting (supporting automation through shell scripts), environment management (handling variables, paths, and configuration), job control (managing background and foreground processes), I/O redirection (piping and redirecting input/output streams), and globbing (expanding wildcards and patterns).\n\nThere are many types of shells across different operating systems. Unix and Linux shells include sh (Bourne Shell, the original Unix shell), Bash (Bourne Again Shell, the most common Linux default), Zsh (Z Shell, with advanced features and macOS default since Catalina), fish (user-friendly with syntax highlighting), dash (lightweight POSIX-compliant), and ksh (Korn Shell). Windows shells include cmd.exe (traditional command prompt), PowerShell (object-oriented with .NET integration), and Git Bash (Bash emulation for Windows).\n\nIt's important to distinguish between a shell and a terminal: the shell is the program that interprets commands (like Bash, Zsh, or fish), while the terminal is the interface that displays the shell (like iTerm2, Windows Terminal, or Alacritty). Think of it this way: the terminal is the window, the shell is the program running inside it.\n\nCommon shell features include tab completion (auto-completing commands and paths), history (accessing previous commands with arrow keys), aliases (shortcuts for common commands), functions (reusable command sequences), and startup files (like .bashrc and .zshrc for configuration).",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "Command Shell",
+        "Unix Shell"
+    ],
+    "relatedConcepts": [
+        "bash",
+        "linux"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Shell"
+    ],
+    "references": [
+        {
+            "title": "Shell (computing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shell_(computing)",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

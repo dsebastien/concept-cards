@@ -1,0 +1,63 @@
+{
+    "id": "continuous-delivery",
+    "name": "Continuous Delivery",
+    "summary": "A software development practice where code changes are automatically built, tested, and prepared for release to production, ensuring software can be deployed at any time.",
+    "explanation": "Continuous Delivery (CD) is a software development practice where code changes are automatically built, tested, and prepared for release to production. The key distinction from Continuous Deployment is that Continuous Delivery requires a manual approval step before deploying to production. This ensures that software can be released at any time with confidence, even if the actual deployment is triggered manually by a human decision.\n\nKey Characteristics:\n\n- Always releasable: Code in the main branch is always production-ready\n- Automated pipeline: Build, test, and staging processes are automated\n- Manual gate: Human approval is required for production deployment\n- Low risk releases: Small, frequent changes reduce deployment risk\n- Fast feedback: Issues are caught early in the pipeline\n\nThe typical Continuous Delivery pipeline flows from Code to Build to Test to Stage, then requires Manual Approval before finally deploying to Production. This allows for preview and QA environments to be automatically created while maintaining human oversight for the final production release.\n\nContinuous Delivery vs Continuous Deployment:\n\nWhile both practices automate the build and test phases, they differ in the final step. Continuous Delivery requires manual approval for production deployment, while Continuous Deployment is fully automated with every passing build going straight to production. Continuous Delivery offers lower risk tolerance and on-demand release frequency, making it suitable for organizations that need human oversight before releases.\n\nBenefits:\n\n- Reduced deployment risk through automation and smaller changes\n- Faster time to market with streamlined release processes\n- Reliable, repeatable release process that minimizes human error\n- Better collaboration between Development and Operations teams\n- Higher confidence in release quality through comprehensive testing",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "automation",
+        "ci-cd",
+        "continuous-integration"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "CD"
+    ],
+    "relatedConcepts": [
+        "devops"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Continuous+Delivery+(CD)"
+    ],
+    "articles": [
+        {
+            "title": "Continuous Delivery - continuousdelivery.com",
+            "url": "https://continuousdelivery.com",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Continuous delivery - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Continuous_delivery",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

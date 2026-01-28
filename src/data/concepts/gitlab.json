@@ -1,0 +1,72 @@
+{
+    "id": "gitlab",
+    "name": "GitLab",
+    "summary": "A web-based DevSecOps platform providing Git repository hosting, CI/CD pipelines, issue tracking, and the complete software development lifecycle in a single application.",
+    "explanation": "GitLab is a web-based DevSecOps platform that provides Git repository hosting, CI/CD pipelines, issue tracking, and the complete software development lifecycle in a single application. Founded in 2011, it offers both cloud-hosted (gitlab.com) and self-hosted options, with the Community Edition being free and open source.\n\nGitLab differentiates itself from competitors like GitHub by providing an all-in-one DevOps platform rather than requiring integrations with separate tools. This unified approach means teams can manage their entire development workflow from planning to production within a single interface.\n\nKey features include:\n\n**Repositories**: Git hosting with merge requests (GitLab's equivalent of pull requests) for code review and collaboration.\n\n**CI/CD Pipelines**: Built-in continuous integration and deployment capabilities, defined through YAML configuration files (.gitlab-ci.yml) at the repository root. Pipelines consist of stages (build, test, deploy) where jobs run scripts in runner environments.\n\n**Issue Boards**: Kanban-style project management for tracking bugs, features, and tasks.\n\n**Container Registry**: Built-in Docker image hosting for container-based workflows.\n\n**Package Registry**: Support for npm, Maven, PyPI, and other package formats.\n\n**Security Scanning**: Integrated SAST (Static Application Security Testing), DAST (Dynamic Application Security Testing), and dependency scanning.\n\n**Wiki**: Built-in documentation system for project knowledge management.\n\nGitLab offers multiple editions: Free, Premium, Ultimate (for cloud), and Community Edition (for self-hosted deployments). The platform is particularly popular with organizations that prefer self-hosting their development infrastructure or need a comprehensive DevOps solution without managing multiple tool integrations.",
+    "tags": [
+        "software",
+        "tools",
+        "version-control",
+        "devops",
+        "ci-cd",
+        "collaboration",
+        "open-source"
+    ],
+    "category": "Software Development",
+    "icon": "FaGitlab",
+    "featured": false,
+    "aliases": [
+        "GL"
+    ],
+    "relatedConcepts": [
+        "git",
+        "github",
+        "devops"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/GitLab"
+    ],
+    "articles": [
+        {
+            "title": "GitLab Documentation",
+            "url": "https://docs.gitlab.com",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "GitLab - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GitLab",
+            "type": "website"
+        },
+        {
+            "title": "GitLab Official Website",
+            "url": "https://gitlab.com",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

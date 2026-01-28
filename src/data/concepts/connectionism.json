@@ -1,0 +1,81 @@
+{
+    "id": "connectionism",
+    "name": "Connectionism",
+    "summary": "Connectionism is a cognitive science approach that models mental processes using artificial neural networks of simple interconnected units processing information in parallel through weighted connections.",
+    "explanation": "Connectionism emerged in the 1980s with Rumelhart and McClelland's influential Parallel Distributed Processing (PDP) volumes as an alternative to classical symbolic approaches in cognitive science. Rather than treating cognition as symbol manipulation like a digital computer, connectionism models thinking as pattern activation across distributed networks of simple processing units—more like how brains actually work.\n\nThe approach features several distinctive properties: distributed representations where concepts spread across many units, parallel processing enabling simultaneous computations, learning through weight adjustment via backpropagation, graceful degradation where partial damage causes only partial impairment rather than catastrophic failure, and pattern completion allowing recognition of wholes from partial information.\n\nPhilosophers Paul and Patricia Churchland championed connectionism, arguing it better captures neural reality than symbolic approaches. However, critics like Jerry Fodor and Zenon Pylyshyn raised the systematicity challenge: if someone can think \"John loves Mary,\" they can also think \"Mary loves John.\" This systematic, compositional nature of thought seemed difficult for connectionist models to explain.\n\nThe debate between symbolic and connectionist approaches anticipated the modern deep learning revolution. Today's neural networks—transformers, large language models, and deep networks—have achieved remarkable success while still facing fundamental questions about whether they truly understand or merely pattern-match. Connectionism remains central to understanding both how minds might work and what artificial intelligence can achieve.",
+    "tags": [
+        "cognitive-science",
+        "neural-networks",
+        "psychology",
+        "artificial-intelligence",
+        "philosophy-of-mind",
+        "machine-learning"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Parallel Distributed Processing",
+        "PDP",
+        "Neural Network Models"
+    ],
+    "relatedConcepts": [
+        "cognitive-science",
+        "deep-learning",
+        "philosophy-of-mind"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Connectionism"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Parallel Distributed Processing by David Rumelhart and James McClelland",
+            "url": "https://www.amazon.com/dp/0262680530?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Engine of Reason, the Seat of the Soul by Paul Churchland",
+            "url": "https://www.amazon.com/dp/0262531429?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Connectionism - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Connectionism",
+            "type": "website"
+        },
+        {
+            "title": "Connectionism - Stanford Encyclopedia of Philosophy",
+            "url": "https://plato.stanford.edu/entries/connectionism/",
+            "type": "website"
+        },
+        {
+            "title": "Connectionism and Cognitive Architecture: A Critical Analysis by Fodor and Pylyshyn",
+            "url": "https://doi.org/10.1016/0010-0277(88)90031-5",
+            "type": "paper"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

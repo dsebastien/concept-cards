@@ -1,0 +1,49 @@
+{
+    "id": "bsd-license",
+    "name": "BSD License",
+    "summary": "A family of permissive open source licenses from the University of California, Berkeley, requiring only attribution in source and binary distributions.",
+    "explanation": "The BSD License is a family of permissive open source licenses originating from the University of California, Berkeley, for their Berkeley Software Distribution (BSD) Unix variant in the late 1980s. BSD licenses are among the simplest and most permissive software licenses, requiring only attribution in source and binary distributions.\n\nBSD licenses allow proprietary use without requiring source code disclosure, making them popular with commercial software developers. The original 4-clause BSD had an advertising clause requiring acknowledgment in all advertising materials, which caused compatibility issues with other licenses. The modern 2-clause and 3-clause variants removed this problematic clause.\n\nThe main variants are: the 4-clause (Original) BSD License with an advertising clause (now deprecated), the 3-clause (New/Modified) BSD License adding a no-endorsement clause, the 2-clause (Simplified/FreeBSD) BSD License which is the most permissive, and the 0-clause (Zero) BSD License which is effectively public domain.\n\nThe 2-clause BSD License is remarkably simple, requiring only two things: retain the copyright notice in source code distributions, and retain the copyright notice in binary documentation. This simplicity has made it one of the most widely used permissive licenses.\n\nBSD-licensed code has been incorporated into major proprietary systems including macOS, PlayStation OS, and the Windows networking stack. Notable BSD-licensed projects include FreeBSD, OpenBSD, NetBSD (operating systems), Nginx (web server), and the Go programming language. Compared to the MIT License, BSD is similarly permissive with minimal requirements; MIT is slightly simpler while BSD has more variants. For most practical purposes, they are functionally identical.",
+    "tags": [
+        "open-source",
+        "licensing",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileContract",
+    "featured": false,
+    "aliases": [
+        "Berkeley Software Distribution License",
+        "BSD"
+    ],
+    "relatedConcepts": [
+        "open-source",
+        "mit-license",
+        "apache-license"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/BSD+License"
+    ],
+    "articles": [
+        {
+            "title": "Open Source Initiative - BSD 3-Clause License",
+            "url": "https://opensource.org/licenses/BSD-3-Clause",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "BSD licenses - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/BSD_licenses",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

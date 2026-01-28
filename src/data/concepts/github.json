@@ -1,0 +1,72 @@
+{
+    "id": "github",
+    "name": "GitHub",
+    "summary": "A web-based platform for version control and collaboration using Git, serving as the world's largest source code hosting service.",
+    "explanation": "GitHub is a web-based platform for version control and collaboration using Git. Launched in 2008 and acquired by Microsoft in 2018, it has become the world's largest source code hosting service with over 100 million developers.\n\nBeyond hosting repositories, GitHub provides a comprehensive suite of tools for modern software development:\n\n**Repositories**: Store code in public or private Git repositories with full version history, branching, and collaboration features.\n\n**Pull Requests (PRs)**: Enable code review workflows where developers propose changes, discuss modifications, and merge approved code into the main branch.\n\n**Issues**: Track bugs, feature requests, and tasks with labels, milestones, and project boards for organization.\n\n**GitHub Actions**: Automate CI/CD pipelines directly within repositories, supporting testing, building, and deployment workflows.\n\n**Copilot**: AI-powered code completion and suggestion tool that helps developers write code faster.\n\n**GitHub Pages**: Host static websites directly from repositories, popular for documentation and personal sites.\n\n**Packages**: Host and manage packages (npm, Docker, Maven, etc.) alongside your code.\n\n**Codespaces**: Cloud-based development environments that provide instant, configured workspaces.\n\nGitHub has fundamentally changed how developers collaborate on software. Its social coding features—following users, starring repositories, and forking projects—created a culture of open source contribution. The platform serves as both a portfolio for developers and a discovery mechanism for useful libraries and tools.\n\nFor teams, GitHub provides enterprise features including advanced security scanning, code owners, protected branches, and organization management. Its integration ecosystem connects with virtually every development tool, making it the central hub for many software development workflows.",
+    "tags": [
+        "software",
+        "tools",
+        "version-control",
+        "collaboration",
+        "devops",
+        "ci-cd",
+        "open-source"
+    ],
+    "category": "Software Development",
+    "icon": "FaGithub",
+    "featured": false,
+    "aliases": [
+        "GH"
+    ],
+    "relatedConcepts": [
+        "git",
+        "devops-manifesto",
+        "gitflow"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/GitHub"
+    ],
+    "articles": [
+        {
+            "title": "GitHub Documentation",
+            "url": "https://docs.github.com",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "GitHub - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GitHub",
+            "type": "website"
+        },
+        {
+            "title": "GitHub Official Website",
+            "url": "https://github.com",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "turing-test",
+    "name": "Turing Test",
+    "summary": "A test of machine intelligence proposed by Alan Turing, where a machine must exhibit intelligent behavior indistinguishable from a human in conversation.",
+    "explanation": "The Turing Test is a measure of machine intelligence proposed by British mathematician and computer scientist Alan Turing in his 1950 paper 'Computing Machinery and Intelligence.' The test evaluates whether a machine can exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.\n\nIn the original formulation, called the 'imitation game,' a human evaluator engages in natural language conversations with both a human and a machine, without knowing which is which. If the evaluator cannot reliably distinguish the machine from the human, the machine is said to have passed the test. The conversations are typically text-only to focus on intellectual capabilities rather than physical appearance or voice.\n\nTuring proposed this test as a practical alternative to the philosophical question 'Can machines think?' Rather than attempting to define thought or consciousness, the test focuses on observable behavior - if a machine behaves indistinguishably from a thinking entity, it may be considered intelligent for practical purposes.\n\nThe test has faced significant criticism over the decades. Critics argue that it measures only linguistic manipulation, not true understanding or consciousness. The Chinese Room argument by John Searle suggests that a system could pass the test through symbol manipulation without genuine comprehension. Others note that the test may set the bar too low (mimicking human conversation doesn't require general intelligence) or too high (superintelligent AI might fail if it doesn't hide its nature).\n\nDespite its limitations, the Turing Test remains a foundational concept in AI and philosophy of mind. It sparked decades of research and debate about machine intelligence, consciousness, and what it means to think. Modern variations include the Total Turing Test (incorporating perceptual and robotic capabilities) and various AI benchmarks that evolved from its spirit.",
+    "tags": [
+        "ai",
+        "history",
+        "philosophy",
+        "cognition"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Imitation Game",
+        "Turing's Test"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "ai-assistants",
+        "chinese-room-argument"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Turing+Test"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Alan Turing: The Enigma by Andrew Hodges",
+            "url": "https://www.amazon.com/dp/069116472X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Turing test - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Turing_test",
+            "type": "website"
+        },
+        {
+            "title": "Computing Machinery and Intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence",
+            "type": "website"
+        },
+        {
+            "title": "The Turing Test - Stanford Encyclopedia of Philosophy",
+            "url": "https://plato.stanford.edu/entries/turing-test/",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

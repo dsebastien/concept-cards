@@ -1,0 +1,72 @@
+{
+    "id": "human-computer-interaction",
+    "name": "Human-Computer Interaction",
+    "summary": "An interdisciplinary field studying how people interact with computers and designing technologies that enable effective, efficient, and satisfying interactions.",
+    "explanation": "Human-Computer Interaction (HCI) is an interdisciplinary field that emerged in the 1980s, studying how people interact with computers and designing technologies that enable effective, efficient, and satisfying interactions. It draws from computer science, cognitive psychology, design, and ergonomics to create better interfaces and experiences.\n\nHCI encompasses both research (understanding human behavior with technology) and practice (designing better interfaces). It provides the theoretical foundation for User Experience (UX) and User Interface Design, examining topics from input devices and interface paradigms to social computing and human-AI interaction.\n\n**Key Concepts**:\n\n- **Mental models**: Users' internal understanding of how systems work\n- **Affordances**: Perceived possible actions, as defined by Don Norman\n- **Feedback**: System responses to user actions\n- **Cognitive load**: Mental effort required for interaction\n- **Fitts's Law**: Movement time to targets depends on distance and size\n- **Hick's Law**: Decision time increases with the number of choices\n\n**HCI Research Areas**:\n\n| Area | Focus |\n|------|-------|\n| Input/Output | Keyboards, mice, touch, voice, VR/AR |\n| Information Visualization | Data representation and exploration |\n| Ubiquitous Computing | Computing embedded everywhere |\n| CSCW | Computer-supported cooperative work |\n| Accessibility | Design for users with disabilities |\n| Human-AI Interaction | AI assistants, recommendations |\n\n**Foundational Principles (Shneiderman's 8 Golden Rules)**:\n\n1. Strive for consistency\n2. Seek universal usability\n3. Offer informative feedback\n4. Design dialogs to yield closure\n5. Prevent errors\n6. Permit easy reversal of actions\n7. Keep users in control\n8. Reduce short-term memory load\n\n**Pioneers of HCI**:\n\n- **Don Norman**: Introduced affordances to design, wrote 'The Design of Everyday Things'\n- **Ben Shneiderman**: Created the 8 Golden Rules, wrote 'Designing the User Interface'\n- **Stuart Card**: Co-authored 'The Psychology of Human-Computer Interaction'\n- **Alan Cooper**: Created personas, wrote 'About Face'\n\n**HCI vs UX vs UI**:\n\n| Field | Focus | Output |\n|-------|-------|--------|\n| HCI | Research, theory | Knowledge, principles |\n| UX | User journey, experience | Designs, prototypes |\n| UI | Visual presentation | Interfaces, layouts |\n\nHCI research informs UX practice, which implements principles through UI design. Understanding HCI helps designers make evidence-based decisions rather than relying solely on intuition.",
+    "tags": [
+        "ux",
+        "design",
+        "psychology",
+        "interfaces",
+        "research",
+        "hci"
+    ],
+    "category": "Software Development",
+    "icon": "FaDesktop",
+    "featured": false,
+    "aliases": [
+        "HCI"
+    ],
+    "relatedConcepts": [
+        "usability",
+        "gui",
+        "accessibility",
+        "ux-design",
+        "affordances",
+        "eight-golden-rules",
+        "cognitive-load"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Human-Computer+Interaction+(HCI)"
+    ],
+    "articles": [
+        {
+            "title": "Human-Computer Interaction - Interaction Design Foundation",
+            "url": "https://www.interaction-design.org/literature/topics/human-computer-interaction",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Design of Everyday Things by Don Norman",
+            "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
+        },
+        {
+            "title": "Designing the User Interface by Ben Shneiderman",
+            "url": "https://www.amazon.com/dp/013438038X?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Psychology of Human-Computer Interaction by Card, Moran, and Newell",
+            "url": "https://www.amazon.com/dp/0898598591?tag=dsebastien00-20"
+        },
+        {
+            "title": "About Face: The Essentials of Interaction Design by Alan Cooper",
+            "url": "https://www.amazon.com/dp/1118766571?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Human-computer interaction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,68 @@
+{
+    "id": "behavioral-economics",
+    "name": "Behavioral Economics",
+    "summary": "A field combining psychology and economics to study how cognitive biases, heuristics, and emotional factors influence real-world economic decisions.",
+    "explanation": "Behavioral Economics is a field that merges insights from cognitive psychology with economic theory to understand how people actually make decisions, rather than how rational models predict they should. Classical economics assumed 'homo economicus'--rational actors who maximize utility with perfect information. Behavioral economics replaced this idealized model with realistic models of human behavior, showing that we use mental shortcuts, are influenced by how choices are framed, feel losses more than gains, and often act against our own long-term interests.\n\nThe field was pioneered by Daniel Kahneman and Amos Tversky in the 1970s through their groundbreaking work on heuristics and biases. Their Prospect Theory demonstrated that people evaluate outcomes as gains or losses relative to a reference point, with losses hurting roughly twice as much as equivalent gains feel good. Kahneman received the Nobel Prize in Economics in 2002 for this work. Richard Thaler, who won the Nobel in 2017, extended these insights into practical applications through 'nudge' theory and mental accounting.\n\nKey concepts in behavioral economics include: loss aversion (losses hurt more than gains please), framing effects (presentation affects choice), anchoring (first numbers influence estimates), present bias (overweighting immediate rewards), status quo bias (preferring current state), and mental accounting (treating money differently based on its source). These systematic deviations from rationality are predictable and can be leveraged in policy, marketing, and personal decision-making.\n\nThe practical applications are vast. Public policy uses nudges like default options to increase retirement savings and organ donation. Behavioral finance explains why investors hold losing stocks too long. Marketing leverages pricing psychology and framing. UX design applies choice architecture to guide user decisions. Understanding behavioral economics helps you recognize when your own cognitive biases might be distorting your judgment and design environments that support better choices.",
+    "tags": [
+        "psychology",
+        "economics",
+        "decision-making",
+        "mental-model",
+        "behavioral-economics"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Behavioral Econ",
+        "Behavioural Economics"
+    ],
+    "relatedConcepts": [
+        "nudge-theory",
+        "prospect-theory",
+        "bounded-rationality",
+        "loss-aversion",
+        "anchoring",
+        "framing-effect",
+        "mental-accounting",
+        "status-quo-bias",
+        "choice-architecture"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Behavioral+Economics"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        },
+        {
+            "title": "Nudge by Richard Thaler and Cass Sunstein",
+            "url": "https://www.amazon.com/dp/014311526X?tag=dsebastien00-20"
+        },
+        {
+            "title": "Misbehaving by Richard Thaler",
+            "url": "https://www.amazon.com/dp/0393352795?tag=dsebastien00-20"
+        },
+        {
+            "title": "Predictably Irrational by Dan Ariely",
+            "url": "https://www.amazon.com/dp/0061353248?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Behavioral economics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Behavioral_economics",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

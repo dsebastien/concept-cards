@@ -1,0 +1,73 @@
+{
+    "id": "docker",
+    "name": "Docker",
+    "summary": "A platform for developing, shipping, and running applications in lightweight, isolated containers that package code with all dependencies.",
+    "explanation": "Docker is a containerization platform that revolutionized software deployment by making containers accessible to developers. Created by Solomon Hykes at dotCloud (later Docker, Inc.) and released as open source in 2013, Docker became the de facto standard for containerization.\n\nUnlike virtual machines that include full operating systems, Docker containers share the host kernel while maintaining isolation through Linux namespaces and cgroups. This architecture makes containers extremely fast to start (milliseconds versus minutes for VMs), efficient in resource usage, and consistent across environments, effectively solving the infamous 'works on my machine' problem.\n\nCore Concepts:\n\n- Images: Read-only templates containing the application and all its dependencies\n- Containers: Running instances of images that can be started, stopped, and deleted\n- Dockerfiles: Scripts that define how to build an image layer by layer\n- Registries: Storage and distribution systems for images (Docker Hub, AWS ECR, Google GCR)\n- Volumes: Persistent storage mechanisms that survive container restarts\n- Networks: Virtual networks that enable communication between containers\n- Compose: A tool for defining and running multi-container applications\n\nDocker Architecture:\n\nDocker uses a client-server architecture. The Docker client (CLI) communicates with the Docker daemon (dockerd) via a REST API. The daemon manages images, containers, networks, and volumes. Under the hood, the daemon uses containerd as the container runtime, which interfaces with the Linux kernel's isolation features.\n\nKey Benefits:\n\n- Portability: Containers run identically across development, testing, and production environments\n- Efficiency: Containers share the OS kernel, enabling high density (hundreds per host vs. tens for VMs)\n- Speed: Near-instant startup times compared to minutes for virtual machines\n- Isolation: Applications run in isolated environments with their own filesystem, network, and process space\n- Scalability: Easy to replicate containers for horizontal scaling\n\nThe Docker ecosystem includes Docker Hub (the largest public image registry), Docker Desktop (GUI for Mac and Windows), Docker Compose (multi-container orchestration), and integration with orchestration platforms like Kubernetes for large-scale deployments.",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "tools",
+        "infrastructure"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Docker Container",
+        "Docker Engine"
+    ],
+    "relatedConcepts": [
+        "devops-manifesto",
+        "infrastructure-as-code"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Docker"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Docker - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+            "type": "website"
+        },
+        {
+            "title": "Docker Official Website",
+            "url": "https://docker.com",
+            "type": "website"
+        },
+        {
+            "title": "Docker Documentation",
+            "url": "https://docs.docker.com",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

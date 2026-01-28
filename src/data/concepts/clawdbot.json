@@ -1,0 +1,86 @@
+{
+    "id": "clawdbot",
+    "name": "Clawdbot",
+    "summary": "An open-source, self-hosted personal AI assistant that turns language models like Claude into proactive digital coworkers capable of executing actions across devices.",
+    "explanation": "Clawdbot is an open-source, self-hosted personal AI assistant created by Peter Steinberger. It transforms powerful language models like Claude into proactive digital coworkers capable of executing meaningful actions across devices. The lobster-themed project runs entirely on your own hardware - Mac, PC, Raspberry Pi, or cloud server - without relying on external hosted services.\n\nThe name 'Clawd' hints at its origins from Claude and Claude Code. You give natural-language commands, and it writes and executes code to get results.\n\nKey features include: self-hosted operation with full control over your hardware, multi-platform messaging through WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Google Chat, Mattermost, and WebChat, direct system access to filesystem, browser, email, calendar, and smart home devices, long-term memory that persists across sessions and learns preferences over time, and voice support on compatible platforms.\n\nClawdbot operates by ingesting natural-language requests (text or screenshots) and autonomously executes tasks. It plans the approach, writes code using modern frameworks, executes and tests functionality, self-heals by debugging its own errors, and reports results back to you.\n\nCommon use cases include overnight coding supervision where agents fix bugs and open PRs while you sleep, automated daily briefings with summaries and task lists, expense tracking with automatic categorization, smart home orchestration through natural language, and cross-device workflow coordination.\n\nCompared to Claude Code, Clawdbot focuses on personal assistance and orchestration through messaging apps with persistent long-term memory and cross-device scope, while Claude Code is optimized for direct coding in repositories through terminal/CLI with session-based context.",
+    "tags": [
+        "ai",
+        "automation",
+        "tools"
+    ],
+    "category": "AI",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": [
+        "Clawd",
+        "Clawdbot AI"
+    ],
+    "relatedConcepts": [
+        "ai-agent"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Clawdbot"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Clawdbot Official Website",
+            "url": "https://clawd.bot/",
+            "type": "website"
+        },
+        {
+            "title": "Clawdbot Documentation",
+            "url": "https://docs.clawd.bot/",
+            "type": "website"
+        },
+        {
+            "title": "Clawdbot GitHub Repository",
+            "url": "https://github.com/clawdbot/clawdbot",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

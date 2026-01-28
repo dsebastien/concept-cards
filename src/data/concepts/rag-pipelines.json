@@ -1,0 +1,74 @@
+{
+    "id": "rag-pipelines",
+    "name": "RAG Pipelines",
+    "summary": "Data processing workflows that handle the end-to-end flow from document ingestion to LLM response generation in Retrieval-Augmented Generation systems.",
+    "explanation": "RAG Pipelines are the data processing workflows that power Retrieval-Augmented Generation (RAG) systems. They orchestrate the complete flow from document ingestion to response generation, ensuring that LLMs receive relevant context for their answers.\n\nA RAG system typically consists of two main pipelines:\n\n**Ingestion Pipeline** handles document preparation: Load documents (PDF, HTML, Markdown), split them into manageable chunks (by tokens, sentences, or semantics), convert chunks to vector embeddings, and store them in a Vector Store for retrieval.\n\n**Query Pipeline** handles user requests: Convert the user query to a vector embedding, retrieve similar chunks from the vector store, optionally rerank results for relevance, then pass the context plus query to the LLM for response generation.\n\n**Pipeline Patterns** range from simple to sophisticated:\n- **Naive RAG**: Simple retrieve-then-generate approach\n- **Advanced RAG**: Adds query rewriting, hybrid search, and reranking\n- **Agentic RAG**: LLM decides what and when to retrieve\n- **Corrective RAG**: Evaluates retrieval quality and retries if poor\n\n**Key Considerations** for pipeline design include chunk size (balance context vs precision), chunk overlap (prevent splitting important context), embedding model selection (match to your domain), top-k selection (how many chunks to retrieve), and prompt engineering (how to present retrieved context to the LLM).\n\nPopular frameworks for building RAG pipelines include LangChain (comprehensive building blocks), LlamaIndex (specialized for data indexing), and Haystack (end-to-end NLP pipelines).",
+    "tags": [
+        "ai",
+        "llm-architecture",
+        "data-pipelines",
+        "machine-learning",
+        "infrastructure"
+    ],
+    "category": "AI",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Retrieval-Augmented Generation Pipelines"
+    ],
+    "relatedConcepts": [
+        "retrieval-augmented-generation",
+        "vector-store",
+        "embedding"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/RAG+Pipelines"
+    ],
+    "articles": [
+        {
+            "title": "LangChain Documentation",
+            "url": "https://docs.langchain.com/",
+            "type": "website"
+        },
+        {
+            "title": "LlamaIndex Documentation",
+            "url": "https://docs.llamaindex.ai/",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Retrieval-augmented generation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

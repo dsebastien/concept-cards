@@ -1,0 +1,46 @@
+{
+    "id": "javascript",
+    "name": "JavaScript",
+    "summary": "A high-level, interpreted programming language that powers interactive web pages and modern applications across browsers, servers, and mobile platforms.",
+    "explanation": "JavaScript (JS) is a high-level, interpreted programming language that has become one of the most widely used languages in the world. Created by Brendan Eich at Netscape in 1995 in just 10 days, it was initially designed to add interactivity to web pages but has since evolved into a versatile language used for server-side development, mobile apps, desktop applications, and more.\n\nDespite its name, JavaScript is unrelated to Java—the naming was a marketing decision to capitalize on Java's popularity at the time.\n\nKey Characteristics:\n\n- Dynamic typing: Variable types are determined at runtime rather than compile time\n- First-class functions: Functions are values that can be passed around and assigned to variables\n- Prototype-based inheritance: Objects inherit directly from other objects via prototypes\n- Event-driven: Supports asynchronous, non-blocking I/O patterns\n- Multi-paradigm: Supports object-oriented, functional, and imperative programming styles\n\nWhere JavaScript Runs:\n\n- Browser: DOM manipulation, user interactions, single-page applications\n- Server: Node.js, Deno, and Bun enable server-side JavaScript\n- Mobile: React Native and Ionic for cross-platform mobile development\n- Desktop: Electron for building desktop applications\n\nModern JavaScript (ES6+):\n\nECMAScript 2015 (ES6) and subsequent versions introduced major improvements including arrow functions, destructuring, async/await for handling asynchronous code, modules for better code organization, classes, template literals, and many more features that make the language more powerful and developer-friendly.\n\nEcosystem:\n\nJavaScript has one of the largest and most active ecosystems in software development:\n\n- Package managers: npm, yarn, pnpm, Bun\n- Frameworks: React, Vue, Angular, Svelte for frontend; Express, Fastify, Nest.js for backend\n- Build tools: Vite, webpack, esbuild, Rollup\n- Testing: Jest, Vitest, Playwright, Cypress\n- TypeScript: A typed superset that compiles to JavaScript, adding static type checking\n\nJavaScript's ubiquity in web browsers and its expansion to other platforms has made it an essential skill for modern software development.",
+    "tags": [
+        "programming",
+        "software-engineering",
+        "web-development",
+        "frontend",
+        "languages"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "JS",
+        "ECMAScript"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/JavaScript"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "JavaScript - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/JavaScript",
+            "type": "website"
+        },
+        {
+            "title": "JavaScript | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

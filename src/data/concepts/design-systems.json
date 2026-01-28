@@ -1,0 +1,66 @@
+{
+    "id": "design-systems",
+    "name": "Design Systems",
+    "summary": "A collection of reusable components, guidelines, and standards that enable teams to build consistent user interfaces at scale.",
+    "explanation": "A Design System is more than a style guide or component library. It serves as a single source of truth for product development, encompassing design tokens, UI components, patterns, documentation, and design principles that teams use to create cohesive user experiences.\n\nDesign systems emerged from the need to maintain consistency across large products and distributed teams. Pioneered by companies like Salesforce (Lightning Design System), Google (Material Design), and IBM (Carbon), they have become essential infrastructure for modern software organizations.\n\nCore Components of a Design System:\n\n1. Design Tokens: The atomic values that define visual properties - colors, typography, spacing, shadows, and border radii. These primitive values ensure consistency across platforms and implementations.\n\n2. Components: Reusable UI elements like buttons, inputs, cards, and modals. Each component is documented with usage guidelines, accessibility requirements, and code examples.\n\n3. Patterns: Recurring solutions to common design problems, such as form validation, navigation structures, and error handling approaches.\n\n4. Guidelines: Usage rules, best practices, and governance processes that help teams apply the system correctly.\n\n5. Documentation: Comprehensive resources explaining how to use, implement, and contribute to the system.\n\nKey Benefits:\n\n- Consistency: Creates a uniform look and feel across all products and touchpoints\n- Efficiency: Eliminates redundant design and development work through component reuse\n- Quality: Provides tested, accessible components that meet established standards\n- Collaboration: Establishes a shared language between designers, developers, and stakeholders\n- Scalability: Makes large applications easier to build and maintain over time\n\nBrad Frost's Atomic Design methodology has significantly influenced how design systems organize their component hierarchies, breaking interfaces into atoms, molecules, organisms, templates, and pages.",
+    "tags": [
+        "ui-design",
+        "design-systems",
+        "components",
+        "frontend",
+        "scalability",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Component Library",
+        "UI System",
+        "Design Language System"
+    ],
+    "relatedConcepts": [
+        "atomic-design"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Design+Systems"
+    ],
+    "articles": [
+        {
+            "title": "Design Systems Repo - A Collection of Design System Resources",
+            "url": "https://designsystemsrepo.com",
+            "type": "website"
+        },
+        {
+            "title": "Design Systems - Articles and Resources",
+            "url": "https://www.designsystems.com",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Atomic Design by Brad Frost",
+            "url": "https://www.amazon.com/dp/0998296600?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Design Systems - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Design_system",
+            "type": "website"
+        },
+        {
+            "title": "Material Design - Google",
+            "url": "https://m3.material.io/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

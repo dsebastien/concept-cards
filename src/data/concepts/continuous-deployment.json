@@ -1,0 +1,58 @@
+{
+    "id": "continuous-deployment",
+    "name": "Continuous Deployment",
+    "summary": "A software release practice where every code change that passes automated tests is automatically deployed to production without human intervention.",
+    "explanation": "Continuous Deployment (CD) is the most mature form of continuous delivery, where every code change that successfully passes through the automated pipeline is automatically released to production. Unlike Continuous Delivery, which maintains a manual approval step before production deployment, Continuous Deployment removes all human gates from the release process.\n\nKey Characteristics:\n\n- Fully automated: No manual steps exist between code commit and production deployment\n- Every change deploys: All commits that pass automated tests go live immediately\n- Extensive testing: Requires robust, comprehensive automated test suites to maintain quality\n- Feature flags: Enable control over feature visibility independent of deployment timing\n- Rapid rollback: Quick recovery mechanisms must be in place when issues are detected\n\nContinuous Deployment vs Continuous Delivery:\n\nWhile both practices aim to keep software releasable at all times, they differ in a crucial way. Continuous Delivery ensures code is always ready to deploy but requires a human to make the final release decision. Continuous Deployment removes this manual approval entirely - if tests pass, the code goes to production automatically. This means Continuous Deployment demands higher automation maturity and greater confidence in test coverage.\n\nPrerequisites for Success:\n\nImplementing Continuous Deployment requires several foundational capabilities: comprehensive automated test coverage across unit, integration, and end-to-end tests; robust monitoring and alerting to detect issues quickly; feature flags for gradual rollouts and instant rollbacks; blue-green or canary deployment strategies to minimize risk; and fast rollback capabilities when problems occur.\n\nOrganizations that practice Continuous Deployment typically deploy many times per day, enabling rapid iteration and immediate feedback from real users. This practice is common among tech companies with mature DevOps cultures, SaaS products requiring frequent updates, and teams with strong testing discipline who prioritize rapid delivery of value to customers.",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "automation",
+        "ci-cd",
+        "deployment"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "CD",
+        "Continuous Deploy"
+    ],
+    "relatedConcepts": [
+        "devops"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Continuous+Deployment+(CD)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Continuous deployment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Continuous_deployment",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

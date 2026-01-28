@@ -1,0 +1,48 @@
+{
+    "id": "literate-programming",
+    "name": "Literate Programming",
+    "summary": "A programming paradigm that treats programs as literature by interweaving human-readable documentation with executable code.",
+    "explanation": "Literate Programming is a programming paradigm introduced by Donald Knuth in 1984 that emphasizes writing programs as if they were works of literature. Instead of organizing code around the compiler's needs, literate programs are structured around the logic that humans find easiest to understand. The source file contains both documentation and code interwoven together, with the documentation explaining the reasoning behind the code at a detailed level.\n\nThe key insight behind literate programming is that programs should be written primarily for human readers, not for computers. Knuth developed the WEB system for Pascal and later CWEB for C to implement this paradigm. These tools use two processes: 'tangle' extracts the executable code in the order the compiler requires, while 'weave' produces a beautifully formatted document explaining the program.\n\nModern implementations of literate programming concepts include Jupyter Notebooks for Python and data science, R Markdown for statistical computing, Org-mode's Babel for Emacs, and documentation tools like Docco and Pycco. These tools allow developers to create executable documents that serve as both working software and comprehensive documentation.\n\nThe benefits of literate programming include improved code comprehension, better documentation that stays in sync with code, easier maintenance and knowledge transfer, and a forcing function for clear thinking about program design. Critics argue that it requires more upfront effort and can be challenging to maintain in rapidly evolving codebases. However, for complex algorithms, research code, and educational materials, literate programming remains a powerful approach to creating understandable software.",
+    "tags": [
+        "programming",
+        "software-engineering",
+        "documentation",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "LP"
+    ],
+    "relatedConcepts": [
+        "documentation",
+        "org-mode",
+        "code-review"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Literate+Programming"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Literate Programming by Donald E. Knuth",
+            "url": "https://www.amazon.com/dp/0937073806?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Literate programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Literate_programming",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,88 @@
+{
+    "id": "ralph-tui",
+    "name": "Ralph TUI",
+    "summary": "A terminal user interface for orchestrating AI coding agents through autonomous task loops with intelligent selection, error handling, and real-time observability.",
+    "explanation": "Ralph TUI is an AI Agent Loop Orchestrator - a Terminal User Interface for running AI coding agents autonomously through task lists. Instead of manually copying task details into AI coding assistants like Claude Code or OpenCode, Ralph does it in a continuous loop, connecting your AI assistant to your task tracker and completing tasks one-by-one.\n\nThe tool automates the cycle of selecting tasks, building prompts, running AI agents, and detecting completion. It reads tasks from your task source (such as Beads or prd.json), selects the next available task intelligently, builds a prompt with task details and context, runs your chosen AI coding agent, detects completion via a token, and then moves to the next task automatically.\n\nKey features include autonomous execution that runs AI agents in a loop until all tasks complete, session persistence that allows pausing and resuming while surviving crashes, a real-time TUI to watch agent output as it happens, subagent tracing to see nested agent calls, cross-iteration context for automatic progress tracking between tasks, remote instance support for monitoring multiple machines, and a plugin architecture for integrating different AI agents and task tracking systems.\n\nRalph TUI supports multiple AI agents including Claude Code, OpenCode, Factory Droid, Gemini CLI, Codex, and Kiro CLI. It also supports various task sources including Beads (via Beads Viewer), prd.json files, and custom sources via plugins.\n\nThe tool is named after The Simpsons character Ralph Wiggum, embodying the 'Ralph Wiggum Technique' - an approach where an AI coding loop stubbornly iterates on tasks, failing repeatedly but never giving up until it finally succeeds. This recognizes that AI agents may not succeed on the first try, but with persistence and good error handling, they can complete complex multi-step tasks autonomously.\n\nRalph TUI replaces shell-script-based agent loops with a structured execution engine that supports pause/resume functionality, crash recovery, comprehensive iteration logging, real-time observability, and plugin-based extensibility.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "automation",
+        "tools",
+        "software-engineering"
+    ],
+    "category": "AI",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "Ralph"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "tui"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Ralph+TUI"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Ralph TUI - Official Website",
+            "url": "https://ralph-tui.dev",
+            "type": "website"
+        },
+        {
+            "title": "Ralph TUI - GitHub Repository",
+            "url": "https://github.com/subsy/ralph-tui",
+            "type": "website"
+        },
+        {
+            "title": "Ralph TUI - Documentation",
+            "url": "https://ralph-tui.com/docs/getting-started/introduction",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

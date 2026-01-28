@@ -1,0 +1,25 @@
+{
+    "id": "webers-law",
+    "name": "Weber's Law",
+    "summary": "The just-noticeable difference between two stimuli is a constant proportion of the original stimulus intensity.",
+    "explanation": "Weber's Law (1834) is one of the first quantitative laws in psychology, foundational to the field of psychophysics. It states that the just noticeable difference (JND) between two stimuli is a constant proportion of the original stimulus, expressed as ΔI/I = k, where ΔI is the change in stimulus, I is the original stimulus intensity, and k is a constant that varies by sensory modality.\n\nFor example, to notice a weight difference, you need about a 2% change regardless of whether you're lifting 1kg or 50kg. For brightness, the threshold is approximately 8%. This explains why we perceive relative rather than absolute differences in stimulation.\n\nGustav Fechner extended this into Fechner's Law, proposing that sensation grows logarithmically with stimulus intensity (S = k·log I). Stevens' Power Law later revised this relationship to a power function. Weber's Law has applications beyond perception, influencing our understanding of economics (diminishing marginal utility), UX design, and any domain where humans evaluate relative differences.",
+    "tags": ["psychology", "perception", "psychophysics"],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": ["Weber-Fechner Law"],
+    "relatedConcepts": [],
+    "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Weber's+Law"],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Weber-Fechner law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

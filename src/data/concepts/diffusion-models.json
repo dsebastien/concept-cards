@@ -1,0 +1,63 @@
+{
+    "id": "diffusion-models",
+    "name": "Diffusion Models",
+    "summary": "Generative AI models that learn to create data by progressively denoising random noise into coherent outputs.",
+    "explanation": "Diffusion models are a class of generative AI models that learn to create new data by reversing a gradual noising process. They work by first adding noise to training data in small incremental steps until the data becomes pure random noise, then learning to reverse this process - starting from noise and progressively removing it to generate coherent outputs.\n\nHow They Work:\n\nThe training process involves two phases:\n\n1. Forward Diffusion: Gradually add Gaussian noise to training images over many timesteps until the original image becomes indistinguishable from random noise.\n\n2. Reverse Diffusion: Train a neural network (typically a U-Net or transformer architecture) to predict and remove the noise at each step, learning to reconstruct the original data from noisy versions.\n\nDuring generation, the model starts with pure random noise and iteratively denoises it, guided by learned patterns from training data. This process can be conditioned on text prompts, allowing text-to-image generation.\n\nKey Applications:\n\n- Image generation (Stable Diffusion, DALL-E 2, Midjourney)\n- Image editing and inpainting\n- Video generation\n- Audio synthesis\n- 3D model generation\n- Drug discovery and molecular design\n\nAdvantages Over Other Generative Models:\n\n- Higher quality outputs compared to GANs\n- More stable training process\n- Better mode coverage (diversity in outputs)\n- Flexible conditioning mechanisms\n\nDiffusion models have become the dominant architecture for high-quality image generation, powering most modern AI art tools and representing a significant advancement in generative AI capabilities.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "generative-ai",
+        "deep-learning",
+        "neural-networks"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Denoising Diffusion Models",
+        "Diffusion Probabilistic Models",
+        "Score-Based Models"
+    ],
+    "relatedConcepts": [
+        "generative-ai",
+        "deep-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Diffusion model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Diffusion_model",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

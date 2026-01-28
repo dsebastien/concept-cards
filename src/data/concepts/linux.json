@@ -1,0 +1,61 @@
+{
+    "id": "linux",
+    "name": "Linux",
+    "summary": "A free and open-source Unix-like operating system kernel that powers the majority of web servers, cloud platforms, supercomputers, and Android devices.",
+    "explanation": "Linux is a free and open-source Unix-like operating system kernel created by Linus Torvalds in 1991. What began as a personal project while he was a student at the University of Helsinki has become the foundation of modern computing infrastructure, powering the majority of web servers, cloud platforms, supercomputers, and Android devices.\n\nThe term 'Linux' technically refers to the kernel, while complete operating systems built around it are called 'Linux distributions' (distros). These combine the kernel with GNU tools, package managers, and desktop environments to create usable systems. Major distribution families include Debian-based (Ubuntu, Linux Mint), Red Hat-based (Fedora, RHEL, CentOS), Arch-based (Arch Linux, Manjaro), and independent distributions (Gentoo, Slackware, NixOS).\n\nKey characteristics of Linux include its open-source nature under the GPL license, multiuser and multitasking capabilities, portability across devices from embedded systems to supercomputers, strong security with robust permission models and rapid security patches, and comprehensive package management through distribution-specific software repositories.\n\nLinux dominates several computing domains: approximately 96% of top web servers run Linux, major cloud providers (AWS, Google Cloud, Azure) primarily run Linux workloads, 100% of the TOP500 supercomputers use Linux, Android is built on the Linux kernel, and it powers countless embedded devices including routers, IoT devices, and smart TVs. Desktop adoption continues to grow with user-friendly distributions like Ubuntu and Fedora making Linux more accessible to everyday users.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaLaptop",
+    "featured": false,
+    "aliases": [
+        "GNU/Linux"
+    ],
+    "relatedConcepts": [
+        "git"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Linux"
+    ],
+    "articles": [
+        {
+            "title": "The Linux Kernel Archives",
+            "url": "https://kernel.org",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Linux - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Linux",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

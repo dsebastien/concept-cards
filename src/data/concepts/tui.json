@@ -1,0 +1,53 @@
+{
+    "id": "tui",
+    "name": "Terminal User Interface",
+    "summary": "A text-based user interface that runs within a terminal, providing interactive elements like menus, windows, and forms using text characters and ANSI escape codes.",
+    "explanation": "A Terminal User Interface (TUI) is a text-based user interface that runs within a terminal or console. Unlike Command Line Interfaces (CLIs) that rely solely on text commands and output, TUIs provide interactive elements like menus, windows, forms, and visual feedback using text characters and ANSI escape codes.\n\nTUIs bridge the gap between simple CLIs and Graphical User Interfaces (GUIs). They offer richer interaction than plain text while remaining lightweight and accessible over remote connections like SSH.\n\nKey characteristics of TUIs include text-based rendering using characters, box-drawing symbols, and colors instead of pixels. They are keyboard-driven, with navigation typically via arrow keys, vim bindings, or keyboard shortcuts. TUIs have low resource usage, running in any terminal without requiring a display server. They are remote-friendly, working seamlessly over SSH and in headless environments, and cross-platform, functioning consistently across operating systems.\n\nCommon TUI elements include menus and navigation bars, split panes and windows, forms and input fields, progress bars and status indicators, tables and lists, and scrollable content areas.\n\nPopular TUI frameworks include ncurses (the classic C library for Unix-like systems), Bubble Tea (modern Go framework using The Elm Architecture), Textual (Python framework for rich terminal applications), Ratatui (Rust library for building terminal interfaces), blessed (Node.js curses-like library), and Rich (Python library for rich text and formatting).\n\nExamples of TUI applications include htop and btop for system monitoring, Midnight Commander for file management, lazygit for Git interface, vim and neovim for text editing, and tmux for terminal multiplexing.",
+    "tags": [
+        "software-engineering",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "TUI",
+        "Text User Interface"
+    ],
+    "relatedConcepts": [
+        "shell",
+        "bash"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Terminal+User+Interface+(TUI)"
+    ],
+    "references": [
+        {
+            "title": "Text-based user interface - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Text-based_user_interface",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

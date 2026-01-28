@@ -1,0 +1,81 @@
+{
+    "id": "beads-viewer",
+    "name": "Beads Viewer",
+    "summary": "A Terminal User Interface for browsing and managing tasks in projects using the Beads issue tracking system, with graph-aware dependency analysis.",
+    "explanation": "Beads Viewer (bv) is a Terminal User Interface written in Go for browsing and managing tasks in projects using the Beads issue tracking system. Unlike traditional issue trackers that treat tasks as simple lists, Beads Viewer treats projects as Directed Acyclic Graphs (DAGs), enabling visualization of dependencies, bottlenecks, and critical paths.\n\nThe interface features Vim-style keyboard navigation, a split-view dashboard showing lists and detailed information, Markdown rendering with syntax highlighting, and real-time filtering for Open, Closed, and Ready tasks. It includes file-watching that auto-refreshes when the .beads/beads.jsonl file changes.\n\nBeads Viewer offers multiple view modes including List view for fast browsing, Kanban board for workflow visualization, Graph view for dependency exploration, Insights dashboard for graph metrics, History view for git commit correlation, and Tree view for hierarchical exploration.\n\nThe system computes nine graph-theoretic metrics: PageRank for identifying foundational blockers, Betweenness for revealing cross-team bottlenecks, HITS for distinguishing epics from infrastructure tasks, Critical Path for finding zero-slack tasks, Eigenvector Centrality for surfacing strategic dependencies, plus Degree, Density, Cycles, and Topological Sort analysis.\n\nFor AI agent integration, Beads Viewer provides robot mode via --robot-* flags: --robot-triage for comprehensive analysis with rankings, --robot-next for the top priority item, --robot-plan for parallel execution tracks, --robot-insights for full graph metrics, and --robot-graph for dependency export in JSON, DOT, or Mermaid formats. This programmatic access enables AI agents to intelligently select and prioritize tasks.\n\nQuick actions include exporting issues to timestamped Markdown with diagrams, copying issues as formatted Markdown, opening the beads.jsonl file in an editor, time-traveling to compare against git revisions, and fuzzy search by ID, title, or content.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "tools",
+        "automation",
+        "software-engineering"
+    ],
+    "category": "AI",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "bv"
+    ],
+    "relatedConcepts": [
+        "beads",
+        "ralph-tui",
+        "tui",
+        "dag",
+        "kanban"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Beads+Viewer"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Beads Viewer - GitHub Repository",
+            "url": "https://github.com/Dicklesworthstone/beads_viewer",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

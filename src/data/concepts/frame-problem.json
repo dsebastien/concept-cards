@@ -1,0 +1,58 @@
+{
+    "id": "frame-problem",
+    "name": "Frame Problem",
+    "summary": "The challenge of representing what does NOT change when an action is performed, without explicitly listing every unchanged fact.",
+    "explanation": "The frame problem, identified by McCarthy and Hayes in 1969, asks how an AI system can efficiently determine what doesn't change when an action is taken. If a robot moves a box, the box's location changes, but millions of other facts (the color of the walls, the time of day, gravity) remain the same. How does the system avoid re-checking everything?\n\nOriginally a technical AI problem, philosophers like Hubert Dreyfus argued it reveals a deeper issue: classical AI struggles with relevance, knowing what matters in a situation. Humans effortlessly filter irrelevant information; symbol-manipulating systems cannot. The frame problem became a key argument for embodied cognition and against purely computational theories of mind.\n\nThe problem manifests in three aspects: logical (how to represent non-change efficiently), computational (avoiding combinatorial explosion), and philosophical (how do minds determine relevance?). Modern AI addresses it through heuristics, neural networks, and learned representations rather than explicit logical enumeration.",
+    "tags": [
+        "artificial-intelligence",
+        "philosophy",
+        "logic",
+        "cognitive-science"
+    ],
+    "category": "AI",
+    "featured": false,
+    "aliases": [
+        "Frame Problem"
+    ],
+    "relatedConcepts": [
+        "philosophy-of-mind",
+        "embodied-cognition"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Frame+problem"
+    ],
+    "references": [
+        {
+            "title": "Frame problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Frame_problem",
+            "type": "website"
+        },
+        {
+            "title": "Some Philosophical Problems from the Standpoint of Artificial Intelligence - McCarthy & Hayes (1969)",
+            "url": "http://www-formal.stanford.edu/jmc/mcchay69.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

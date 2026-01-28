@@ -1,0 +1,63 @@
+{
+    "id": "cognitive-biases",
+    "name": "Cognitive Biases",
+    "summary": "Systematic patterns of deviation from rationality in judgment, arising from mental shortcuts that are efficient but can lead to predictable errors.",
+    "explanation": "Cognitive biases are consistent, reproducible errors in thinking that affect how we perceive, remember, and reason. First systematically catalogued by Daniel Kahneman and Amos Tversky in the 1970s, these biases emerge from the brain's use of heuristics—mental shortcuts that evolved for quick decision-making in ancestral environments but often misfire in modern contexts.\n\nUnlike random errors, cognitive biases are predictable. People make the same mistakes in similar situations, whether in investing (loss aversion, herd mentality), hiring (halo effect, affinity bias), medical diagnosis (availability, anchoring), or everyday choices (status quo bias, framing effects). Common biases include confirmation bias (seeking information that confirms existing beliefs), anchoring (over-relying on initial information), availability heuristic (overweighting recent or vivid events), and sunk cost fallacy (continuing investments due to past costs rather than future value).\n\nBiases can be categorized into domains: decision-making biases (confirmation, anchoring), social biases (in-group bias, halo effect), memory biases (hindsight, rosy retrospection), probability errors (gambler's fallacy, base rate neglect), self-perception biases (overconfidence, Dunning-Kruger), and belief persistence (backfire effect, Semmelweis reflex).\n\nWhile cognitive biases cannot be eliminated entirely, their effects can be mitigated through awareness, structured decision-making processes, and deliberate strategies. Effective debiasing techniques include slowing down to engage deliberate thinking (System 2), actively seeking disconfirming evidence, using checklists to reduce cognitive load, employing devil's advocates to challenge assumptions, and conducting pre-mortems to anticipate failure modes. Understanding biases is crucial for behavioral economics, UX design, critical thinking, and improving personal and organizational decision-making.",
+    "tags": [
+        "psychology",
+        "decision-making",
+        "thinking",
+        "cognitive-science",
+        "rationality",
+        "behavioral-economics"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Cognitive Bias",
+        "Biases",
+        "Mental Biases"
+    ],
+    "relatedConcepts": [
+        "heuristics",
+        "bounded-rationality",
+        "system-1",
+        "system-2",
+        "confirmation-bias",
+        "loss-aversion",
+        "behavioral-economics",
+        "prospect-theory",
+        "critical-thinking"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Cognitive+biases"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cognitive bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_bias",
+            "type": "website"
+        },
+        {
+            "title": "List of cognitive biases - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_cognitive_biases",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

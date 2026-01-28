@@ -1,0 +1,61 @@
+{
+    "id": "onboarding",
+    "name": "Onboarding",
+    "summary": "The process of introducing new users to a product, helping them understand its value and learn to use it effectively.",
+    "explanation": "Onboarding is the process of guiding new users through a product's initial experience, from first impression to becoming regular users. The term originated in HR (employee onboarding) and was adopted by product design as software-as-a-service grew. Good onboarding reduces user abandonment, shortens time-to-value, and builds habits that drive retention.\n\nEffective onboarding applies principles from cognitive psychology, behavioral economics, and user experience design. It uses progressive disclosure to avoid overwhelming new users, reduces cognitive load by focusing on core features first, and creates early \"aha moments\" where users experience the product's value. Onboarding encompasses the entire first-run experience: account setup, welcome tours, tooltips, empty states, checklists, and ongoing education.\n\nKey onboarding patterns include welcome tours for complex products, contextual tooltips for feature discovery, checklists for measurable progress, meaningful empty states, sample data for understanding structure, and interactive tutorials for skill-based products.\n\nCritical metrics include activation rate (percentage completing key actions), time to value (how long until the \"aha\" moment), completion rate, drop-off points, day 1/7/30 retention, and feature adoption rates.\n\nCore principles: reduce friction by removing unnecessary steps, show value early before asking for effort, focus on the core action rather than showing everything, use progressive disclosure to reveal complexity gradually, celebrate progress, personalize when possible, and always provide escape hatches for users who want to explore freely.\n\nCommon mistakes include overwhelming users with too much information, not showing clear benefits, forcing tutorials on returning users, requiring too many steps, providing generic experiences that don't address user goals, and ignoring the opportunity presented by empty states.",
+    "tags": [
+        "user-experience",
+        "product-design",
+        "engagement",
+        "software",
+        "retention"
+    ],
+    "category": "Software Development",
+    "icon": "FaUserPlus",
+    "featured": false,
+    "aliases": [
+        "User Onboarding",
+        "Product Onboarding",
+        "First-Time User Experience",
+        "FTUE"
+    ],
+    "relatedConcepts": [
+        "progressive-disclosure",
+        "usability",
+        "cognitive-load"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/Onboarding"
+    ],
+    "articles": [
+        {
+            "title": "UserOnboard - User Onboarding Teardowns",
+            "url": "https://www.useronboard.com/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Elements of User Onboarding by Samuel Hulick",
+            "url": "https://www.amazon.com/dp/B00SKPOMVS?tag=dsebastien00-20"
+        },
+        {
+            "title": "Hooked: How to Build Habit-Forming Products by Nir Eyal",
+            "url": "https://www.amazon.com/dp/1591847788?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Wikipedia: User onboarding",
+            "url": "https://en.wikipedia.org/wiki/User_onboarding",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

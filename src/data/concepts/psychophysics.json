@@ -1,0 +1,30 @@
+{
+  "id": "psychophysics",
+  "name": "Psychophysics",
+  "summary": "The scientific study of the relationship between physical stimuli and the subjective sensations and perceptions they produce.",
+  "explanation": "Psychophysics bridges the objective world of physics and the subjective world of psychology. Founded by Gustav Fechner in 1860 with his seminal work 'Elemente der Psychophysik', it was one of the first truly quantitative approaches to psychology. The core question it addresses: how does a physical change (in light intensity, sound frequency, weight) translate into a psychological change (in brightness, pitch, heaviness)?\n\nThree fundamental laws describe the stimulus-sensation relationship mathematically: Weber's Law (the just noticeable difference is a constant proportion of stimulus intensity), Fechner's Law (sensation grows logarithmically with stimulus intensity), and Stevens' Power Law (sensation grows as a power function of intensity). These laws reveal that perception isn't a simple mirror of reality.\n\nPsychophysics introduced rigorous experimental methods still used today: absolute thresholds (minimum detectable stimulus), difference thresholds or just noticeable differences (JNDs), and classical methods including the method of limits, method of adjustment, and method of constant stimuli. Signal Detection Theory later refined these approaches by separating perceptual sensitivity from response bias.\n\nModern psychophysics extends beyond basic sensory measurement to multisensory integration, neural correlates of perception, and practical applications in display technology (gamma correction, brightness perception), audio engineering (loudness standards), clinical audiology, pain measurement, and user experience research.",
+  "tags": ["psychology", "perception", "neuroscience", "sensation", "measurement"],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBrain",
+  "featured": false,
+  "aliases": ["Psychophysical Methods"],
+  "relatedConcepts": ["perception", "cognitive-psychology", "signal-detection-theory"],
+  "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Psychophysics"],
+  "articles": [],
+  "books": [
+    {
+      "title": "Sensation and Perception by E. Bruce Goldstein",
+      "url": "https://www.amazon.com/dp/1305580299?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Psychophysics - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Psychophysics",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

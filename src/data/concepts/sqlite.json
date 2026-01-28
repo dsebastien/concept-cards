@@ -1,0 +1,59 @@
+{
+    "id": "sqlite",
+    "name": "SQLite",
+    "summary": "A self-contained, serverless, zero-configuration SQL database engine that stores entire databases in single files.",
+    "explanation": "SQLite is a lightweight, embeddable relational database engine that runs in-process with applications rather than as a separate server. Created by D. Richard Hipp in 2000, it has become the most widely deployed database engine in the world, embedded in every smartphone, most web browsers, and countless applications.\n\nUnlike client-server databases such as PostgreSQL or MySQL, SQLite requires no separate server process, no configuration, and no administration. The entire database is stored in a single cross-platform file, making it exceptionally portable and easy to use. Despite its simplicity, SQLite provides full ACID compliance with complete transaction support.\n\n**Key characteristics**:\n\n- **Serverless**: No separate server process needed\n- **Zero-configuration**: No setup or administration required\n- **Self-contained**: Single library with minimal dependencies\n- **Single file**: Entire database in one portable file\n- **ACID compliant**: Full transaction support with rollback capabilities\n- **Cross-platform**: Works on any operating system\n- **Public domain**: No licensing restrictions\n\n**When to use SQLite**:\n\nSQLite excels in mobile and desktop applications, embedded systems, IoT devices, local caching, development environments, small to medium websites, data analysis, and as an application file format. It is not ideal for high-concurrency write-heavy workloads, very large datasets (over 1TB), applications with many concurrent users requiring client-server architecture, or distributed systems needing replication.\n\n**Common use cases**:\n\n- **Mobile apps**: Both iOS and Android use SQLite extensively for local storage\n- **Web browsers**: Chrome, Firefox, and Safari store data in SQLite databases\n- **Desktop applications**: Local storage for Electron apps and native applications\n- **Caching**: Local cache for applications and command-line tools\n- **Configuration**: Application settings and preferences storage\n- **Analytics**: Quick data exploration with SQL queries\n\n**Extensions and capabilities**:\n\nSQLite supports powerful extensions including FTS5 for full-text search, R*Tree for spatial indexing, and built-in JSON functions since version 3.38. Tools like Litestream enable streaming replication to cloud storage.\n\nThe file format supports databases up to 281 TB in size, with common extensions being .db, .sqlite, or .sqlite3. Performance can be optimized through transactions for bulk operations, proper indexing, WAL journal mode for better concurrency, and prepared statements for security and efficiency.",
+    "tags": [
+        "databases",
+        "software-development",
+        "data-integrity"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "SQLite3",
+        "SQLite Database"
+    ],
+    "relatedConcepts": [
+        "acid-properties",
+        "sql-injection",
+        "data-integrity"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/SQLite"
+    ],
+    "articles": [
+        {
+            "title": "SQLite Official Documentation",
+            "url": "https://www.sqlite.org/docs.html",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "SQLite - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/SQLite",
+            "type": "website"
+        },
+        {
+            "title": "SQLite Official Website",
+            "url": "https://www.sqlite.org/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,89 @@
+{
+    "id": "project-xanadu",
+    "name": "Project Xanadu",
+    "summary": "The first hypertext project, founded by Ted Nelson in 1960, envisioning a global network with bidirectional links, transclusion, version control, and micropayments.",
+    "explanation": "Project Xanadu is a hypertext project founded by Ted Nelson in 1960, predating the World Wide Web by nearly 30 years. Nelson envisioned a global network of interconnected documents with features the Web still lacks: bidirectional links (both documents know they're linked), transclusion (quoting content by reference with automatic attribution), version control (every version preserved), and micropayments (authors paid when content is accessed). Xanadu was conceived as a universal literary system where all documents would be accessible, connected, and properly attributed.\n\nDespite decades of development, Xanadu was never fully implemented, becoming one of computing's most famous 'vaporware' projects. The complexity of the system, combined with perfectionism and the need for coordinated infrastructure, prevented its completion. When Tim Berners-Lee created the World Wide Web in 1989, he adopted simpler one-way links that could break (link rot) and didn't track attribution. Nelson has criticized the Web as a dumbed-down version of his vision.\n\nHowever, Xanadu's ideas have proven remarkably prescient. Modern Personal Knowledge Management tools like Roam Research, Obsidian, and Logseq now implement bidirectional links and transclusion. Git provides distributed version control, and blockchain explores micropayments. A partial demonstration called XanaduSpace was released in 2014. Xanadu remains influential as a vision of what hypertext could be, and its concepts continue to resurface in modern software design.",
+    "tags": [
+        "hypertext",
+        "computing-history",
+        "software-architecture",
+        "knowledge-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Xanadu"
+    ],
+    "relatedConcepts": [
+        "hypertext",
+        "world-wide-web",
+        "bidirectional-linking",
+        "transclusion",
+        "memex"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Project+Xanadu"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Literary Machines by Ted Nelson",
+            "url": "https://www.amazon.com/dp/0893470554?tag=dsebastien00-20"
+        },
+        {
+            "title": "Computer Lib/Dream Machines by Ted Nelson",
+            "url": "https://www.amazon.com/dp/0914845497?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Project Xanadu - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Project_Xanadu",
+            "type": "website"
+        },
+        {
+            "title": "Xanadu Official Website",
+            "url": "https://xanadu.com/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

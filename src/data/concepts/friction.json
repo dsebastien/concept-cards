@@ -1,0 +1,82 @@
+{
+    "id": "friction",
+    "name": "Friction",
+    "summary": "Barriers or obstacles that slow down or prevent actions, which can be intentionally added or removed to influence behavior.",
+    "explanation": "Friction in behavioral design refers to the obstacles, steps, or effort required to perform a behavior. The key insight is that tiny changes in friction have outsized effects on whether behaviors occur. Wendy Wood's research demonstrates this powerfully: moving snacks just 6 feet away reduces consumption by 50%—not because desire changes, but because the small inconvenience tips the balance.\n\nBJ Fogg's Behavior Model captures friction through the 'Ability' dimension: when friction is low, even weak motivation produces action; when friction is high, even strong motivation fails. This principle underlies environment design, nudge theory, and behavioral design more broadly. Rather than trying to change minds, you change the path.\n\nFriction comes in multiple forms: physical (distance, movement required), temporal (time delays), cognitive (mental effort, complexity), financial (cost, payment steps), social (social awkwardness), and technical (clicks, logins, steps). Each type can be strategically manipulated.\n\nTech companies understand friction deeply—one-click purchasing, infinite scroll, and frictionless sharing are designed to remove barriers to engagement. The same principle works in reverse: adding friction (website blockers, keeping your phone in another room, cooling-off periods) makes undesired behaviors less likely.\n\nFriction manipulation is often more effective than motivation or willpower because it operates at the moment of decision, when even small obstacles loom large. As James Clear puts it, friction is 'the invisible hand that shapes behavior.' To build good habits, reduce friction; to break bad habits, add friction.",
+    "tags": [
+        "behavioral-design",
+        "habits",
+        "decision-making",
+        "user-experience",
+        "psychology",
+        "environment-design"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Behavioral Friction",
+        "Friction Design"
+    ],
+    "relatedConcepts": [
+        "nudge-theory",
+        "choice-architecture",
+        "environment-design",
+        "habit-formation",
+        "fogg-behavior-model",
+        "default-effect",
+        "usability"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/33+Areas/33+Permanent+notes/33.02+Content/Friction"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Good Habits, Bad Habits by Wendy Wood",
+            "url": "https://www.amazon.com/dp/1250159075"
+        },
+        {
+            "title": "Tiny Habits by BJ Fogg",
+            "url": "https://www.amazon.com/dp/0358003326"
+        },
+        {
+            "title": "Atomic Habits by James Clear",
+            "url": "https://www.amazon.com/dp/0735211299"
+        },
+        {
+            "title": "Nudge by Richard Thaler and Cass Sunstein",
+            "url": "https://www.amazon.com/dp/014311526X"
+        }
+    ],
+    "references": [
+        {
+            "title": "Friction (engineering) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Friction",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

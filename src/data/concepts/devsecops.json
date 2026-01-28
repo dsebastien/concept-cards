@@ -1,0 +1,59 @@
+{
+    "id": "devsecops",
+    "name": "DevSecOps",
+    "summary": "A DevOps approach that integrates security practices throughout the entire software development lifecycle, treating security as code.",
+    "explanation": "DevSecOps extends DevOps by embedding security practices throughout the entire software development lifecycle, rather than treating security as an afterthought. The core philosophy is 'security as code': automated, continuous, and integrated at every stage.\n\nAlso known as 'shift-left security,' DevSecOps moves security considerations earlier in the development process, making vulnerabilities cheaper and easier to fix. Instead of discovering security issues late in production, teams catch them during coding, building, and testing.\n\nCore Principles:\n\n- Shift Left: Address security early in development rather than waiting until deployment\n- Automate Security: Integrate security checks directly into CI/CD pipelines\n- Shared Responsibility: Everyone owns security, not just the dedicated security team\n- Continuous Monitoring: Real-time threat detection and incident response\n- Compliance as Code: Automate regulatory compliance checks and audits\n\nSecurity Testing Types:\n\n- SAST (Static Application Security Testing): Analyzes source code for vulnerabilities during coding\n- DAST (Dynamic Application Security Testing): Tests running applications for security flaws\n- SCA (Software Composition Analysis): Scans dependencies for known vulnerabilities\n- IAST (Interactive Application Security Testing): Combines static and dynamic analysis at runtime\n- Container Scanning: Detects vulnerabilities in container images\n- Secret Scanning: Identifies exposed credentials, API keys, and sensitive data in code\n\nCommon Tools:\n\n- SAST: SonarQube, Semgrep, CodeQL\n- DAST: OWASP ZAP, Burp Suite\n- SCA: Snyk, Dependabot, OWASP Dependency-Check\n- Secrets: GitLeaks, TruffleHog\n- Container: Trivy, Clair, Anchore\n- Platform: GitLab Ultimate, GitHub Advanced Security\n\nCompared to traditional DevOps, DevSecOps adds a security dimension: while DevOps focuses on speed and reliability, DevSecOps balances speed, reliability, and security. Security shifts from being an end-stage gate to continuous integration throughout the pipeline. The responsibility model expands from Dev+Ops to Dev+Ops+Sec, and testing extends beyond functional testing to include comprehensive security testing.",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "security",
+        "automation",
+        "ci-cd",
+        "operations"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Development Security Operations",
+        "Shift-Left Security"
+    ],
+    "relatedConcepts": [
+        "devops"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/DevSecOps"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "DevOps (DevSecOps) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/DevOps#DevSecOps",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

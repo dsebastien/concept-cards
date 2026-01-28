@@ -1,0 +1,42 @@
+{
+    "id": "json",
+    "name": "JSON",
+    "summary": "A lightweight, text-based data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.",
+    "explanation": "JSON (JavaScript Object Notation) is a lightweight data interchange format that was specified and popularized by Douglas Crockford in the early 2000s. Despite its name and JavaScript origins, JSON is language-independent and has become the dominant format for data exchange on the web, APIs, and configuration files.\n\nJSON's power lies in its simplicity. It supports six data types: strings, numbers, booleans, null, arrays, and objects. The syntax rules are straightforward: data is organized in key/value pairs, keys must be strings in double quotes, objects use curly braces, arrays use square brackets, and elements are separated by commas. No trailing commas or comments are allowed by the specification.\n\nCommon use cases include REST and GraphQL API responses, configuration files (like package.json and tsconfig.json), NoSQL databases (MongoDB, CouchDB), data exchange between services, and structured logging. JSON's ubiquity means virtually every programming language has built-in or readily available JSON parsing libraries.\n\nCompared to alternatives, JSON strikes a balance between readability and simplicity. XML offers schema validation but is verbose. YAML allows comments and is less verbose but is whitespace-sensitive. TOML supports comments and sections but is less common. JSON's lack of comments is often cited as a limitation, but its simplicity and universal support make it the default choice for most data interchange scenarios.",
+    "tags": [
+        "software-engineering",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "JavaScript Object Notation"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/JavaScript+Object+Notation+(JSON)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "JSON",
+            "url": "https://en.wikipedia.org/wiki/JSON",
+            "type": "website"
+        },
+        {
+            "title": "Official JSON Specification",
+            "url": "https://www.json.org/",
+            "type": "website"
+        },
+        {
+            "title": "JSON Schema",
+            "url": "https://json-schema.org/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,92 @@
+{
+    "id": "beads",
+    "name": "Beads",
+    "summary": "A distributed, Git-backed graph issue tracker specifically designed for AI agents to provide persistent, structured memory for coding tasks.",
+    "explanation": "Beads (bd) is a specialized issue tracking system built for AI coding agents. Unlike traditional issue trackers, Beads stores issues as JSONL files in a .beads/ directory, enabling version control alongside regular code. It replaces messy Markdown plans with a dependency-aware graph, allowing agents to handle long-horizon tasks without losing context.\n\nThe system uses hash-based task identifiers (e.g., bd-a1b2) designed to prevent merge conflicts, with a SQLite local cache for performance optimization and a background daemon for automatic synchronization.\n\nKey agent-focused capabilities include JSON-formatted output for machine readability, dependency tracking between tasks, automatic detection of ready-to-work tasks, and semantic summarization of completed work to preserve context.\n\nWorkflow support features hierarchical task organization (bd-a3f8 to bd-a3f8.1 to bd-a3f8.1.1), stealth mode for local-only usage without repository commits, and contributor vs. maintainer role detection for open-source workflows.\n\nEssential commands include: bd ready (display tasks without open blockers), bd create for task creation with priority, bd dep add for linking tasks with dependencies, and bd show for viewing full task details and history.\n\nBeads supports Linux, FreeBSD, macOS, and Windows, making it a cross-platform solution for AI-assisted development workflows.",
+    "tags": [
+        "ai",
+        "tools",
+        "automation",
+        "workflows",
+        "software-development"
+    ],
+    "category": "AI",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "bd"
+    ],
+    "relatedConcepts": [
+        "ai-agent"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Beads"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Beads - GitHub Repository",
+            "url": "https://github.com/steveyegge/beads",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

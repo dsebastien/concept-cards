@@ -1,0 +1,34 @@
+{
+    "id": "gui",
+    "name": "Graphical User Interface",
+    "summary": "A visual interface that allows users to interact with software through graphical elements like windows, icons, buttons, and menus.",
+    "explanation": "A Graphical User Interface (GUI) is a visual interface that enables users to interact with software through graphical elements rather than text-based commands. Users interact primarily with a mouse, touch input, or other pointing devices to manipulate visual elements on screen.\n\nGUIs revolutionized computing by making software accessible to non-technical users. The visual metaphors introduced (desktop, folders, trash can) made abstract computer operations intuitive and discoverable, transforming computers from specialized tools into everyday devices.\n\nKey Characteristics:\n\n- Visual elements: Windows, buttons, icons, menus, and forms provide visual representation of actions and data\n- Direct manipulation: Users click, drag, and drop to interact with objects directly\n- WYSIWYG (What You See Is What You Get): The screen displays content as it will appear in final output\n- Discoverability: Features are visible and explorable through menus and interface elements\n- Immediate feedback: Visual responses confirm user actions instantly\n\nCore Components:\n\n- Windows: Containers that organize and display application content\n- Menus: Organized hierarchical lists of available commands\n- Toolbars: Quick-access buttons for frequently used actions\n- Dialogs: Modal windows for specific tasks requiring user input\n- Forms: Input fields, checkboxes, dropdowns, and other data entry elements\n- Status bars: Areas displaying contextual information about the current state\n\nDesign Principles:\n\n- Consistency: Similar actions should work the same way throughout the interface\n- Feedback: Every user action should produce a visible response\n- Affordance: Interface elements should suggest how they can be used\n- Hierarchy: Visual organization guides user attention to important elements\n- Accessibility: Interfaces should be usable by people with various abilities\n\nHistorical Milestones:\n\n- 1973: Xerox Alto introduces the GUI concept at Xerox PARC\n- 1984: Apple Macintosh brings GUI to mainstream consumers\n- 1985: Microsoft Windows 1.0 launches, bringing GUI to PC users\n- 1990s: Web browsers create an entirely new GUI paradigm\n- 2007: iPhone revolutionizes touch-based GUI design\n\nModern GUI frameworks span multiple platforms: web frameworks like React, Vue, and Angular; desktop frameworks like Electron, Qt, and GTK; mobile frameworks like SwiftUI and Jetpack Compose; and cross-platform solutions like Flutter and Tauri.",
+    "tags": [
+        "software-engineering",
+        "designs",
+        "ui-design",
+        "history"
+    ],
+    "category": "Software Development",
+    "icon": "FaDesktop",
+    "featured": false,
+    "aliases": [
+        "GUI"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Graphical+User+Interface+(GUI)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Graphical user interface - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Graphical_user_interface",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

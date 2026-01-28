@@ -1,0 +1,54 @@
+{
+    "id": "offline-first",
+    "name": "Offline-First",
+    "summary": "A software design approach where applications are built to work fully without an internet connection, treating connectivity as an enhancement rather than a requirement.",
+    "explanation": "Offline-first is a software design approach where applications are built to work fully without an internet connection, treating connectivity as an enhancement rather than a requirement. The app stores data locally and syncs when online, rather than requiring constant server communication. This contrasts with cloud-first apps that fail or degrade without internet.\n\nOffline-first design acknowledges that network connectivity is unreliable, whether in airplanes, subways, rural areas, or simply spotty Wi-Fi. By storing data locally first, apps remain responsive and functional. When connectivity returns, changes sync in the background. This requires solving conflict resolution (what if two devices edit the same data offline?), often using CRDTs (Conflict-free Replicated Data Types) or operational transforms.\n\nCore principles include local-first storage (data lives on device primarily), graceful degradation (full function without network), background sync (sync when connected invisibly), conflict resolution (handle concurrent edits), and optimistic UI (assume actions succeed).\n\nKey benefits include reliability (works anywhere regardless of network), speed (no network latency), data ownership (data on your device), security (less cloud exposure), and privacy (reduced server logging). Trade-offs include increased complexity (sync and conflicts are harder), storage requirements (local space needed), and challenges with real-time collaboration.\n\nTechnologies commonly used in offline-first apps include CRDTs, IndexedDB, SQLite, Service Workers, PouchDB/CouchDB, Automerge, and Yjs. Examples of offline-first applications include Obsidian, Logseq, Figma, and Linear.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "user-experience",
+        "data",
+        "privacy"
+    ],
+    "category": "Software Development",
+    "featured": false,
+    "aliases": [
+        "Offline First"
+    ],
+    "relatedConcepts": [
+        "local-first",
+        "data-ownership"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Offline-First"
+    ],
+    "references": [
+        {
+            "title": "Offline First",
+            "url": "https://offlinefirst.org/",
+            "type": "website"
+        },
+        {
+            "title": "Local-first software - Ink & Switch",
+            "url": "https://www.inkandswitch.com/local-first/",
+            "type": "website"
+        },
+        {
+            "title": "Build an offline-first app - Android Developers",
+            "url": "https://developer.android.com/topic/architecture/data-layer/offline-first",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

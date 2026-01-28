@@ -1,0 +1,92 @@
+{
+    "id": "langgraph",
+    "name": "LangGraph",
+    "summary": "A low-level orchestration framework for building stateful, long-running AI agent workflows with support for cyclic graphs.",
+    "explanation": "LangGraph is an orchestration framework built on top of LangChain for creating stateful, long-running AI agents. While LangChain creates Directed Acyclic Graphs (DAGs) for linear workflows, LangGraph enables cyclic computational graphs essential for complex agent behaviors where LLMs continuously loop and dynamically decide actions based on evolving conditions.\n\nVersion 1.0 was released in November 2025.\n\nKey Features:\n\n- Stateful execution: Maintain and modify agent state throughout interactions\n- Durable execution: Agents persist through failures and resume from checkpoints\n- Cyclic graphs: Support loops and conditional branching (unlike DAG-only frameworks)\n- Human-in-the-loop: Inspect and modify agent state at any point\n- Memory systems: Both short-term working memory and long-term cross-session memory\n- Concurrent users: Manage independent graph instances per user at scale\n\nArchitecture:\n\nLangGraph models agents as state machines with:\n- Nodes: Individual processing steps or tool calls\n- Edges: Transitions between nodes (can be conditional)\n- State: Persistent data passed between nodes\n- Cycles: Ability to return to previous nodes based on conditions\n\nWhen to Use LangGraph vs LangChain:\n\nUse LangChain for simple, linear workflows and document Q&A systems. Use LangGraph for complex multi-step agents, long-running autonomous tasks, state-dependent decision making, and production-scale agent deployments.\n\nEnterprise Adoption:\n\nVodafone uses it for autonomous agents handling data engineering and operations. Klarna employs it for customer service agents with LangSmith integration. Elastic uses it for their AI security assistant serving over 20,000 customers.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "frameworks",
+        "python",
+        "workflows",
+        "automation"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "ai-agent",
+        "large-language-models"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/LangGraph"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "LangGraph - Official Website",
+            "url": "https://www.langchain.com/langgraph",
+            "type": "website"
+        },
+        {
+            "title": "LangGraph Documentation",
+            "url": "https://langchain-ai.github.io/langgraph/",
+            "type": "website"
+        },
+        {
+            "title": "LangGraph GitHub Repository",
+            "url": "https://github.com/langchain-ai/langgraph",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,68 @@
+{
+    "id": "devops",
+    "name": "DevOps",
+    "summary": "A set of practices combining software development and IT operations to shorten the development lifecycle and deliver software continuously.",
+    "explanation": "DevOps is a cultural and professional movement that brings together software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver software continuously. The term emerged around 2008-2009, popularized by Patrick Debois and others who sought to bridge the gap between development and operations teams.\n\nCore Principles:\n\n- Collaboration: Breaking down silos between development, operations, and other stakeholders\n- Automation: Automating repetitive tasks including building, testing, and deployment\n- Continuous Improvement: Iterating and refining processes over time\n- Customer Focus: Delivering value quickly and reliably to end users\n- End-to-end Responsibility: Teams own the full lifecycle from development to production\n\nKey Practices:\n\nCI/CD (Continuous Integration/Continuous Deployment): Frequently merging code changes, running automated tests, and automatically deploying validated changes to production. Popular platforms include GitHub Actions, GitLab CI/CD, Jenkins, and CircleCI.\n\nInfrastructure as Code (IaC): Defining and managing infrastructure through version-controlled code using tools like Terraform, Pulumi, AWS CloudFormation, and Ansible.\n\nContainerization and Orchestration: Packaging applications with their dependencies using Docker, then managing them at scale with Kubernetes.\n\nMonitoring and Observability: Tracking application and infrastructure health using tools like Prometheus, Grafana, Datadog, and New Relic.\n\nThe DevOps Lifecycle follows a continuous loop: Plan, Code, Build, Test, Release, Deploy, Operate, and Monitor. This cycle enables rapid feedback and continuous improvement.\n\nCompared to traditional IT approaches, DevOps emphasizes frequent small releases over infrequent large ones, collaborative teams over siloed departments, automated deployment over manual processes, rapid feedback over slow cycles, and learning from failures rather than assigning blame.",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "automation",
+        "collaboration",
+        "ci-cd",
+        "operations"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Development Operations",
+        "Dev Ops"
+    ],
+    "relatedConcepts": [
+        "devops-manifesto",
+        "infrastructure-as-code",
+        "docker",
+        "kubernetes"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/DevOps"
+    ],
+    "articles": [
+        {
+            "title": "What is DevOps? - AWS",
+            "url": "https://aws.amazon.com/devops/what-is-devops/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "DevOps - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/DevOps",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

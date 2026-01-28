@@ -1,0 +1,68 @@
+{
+    "id": "cognitive-science",
+    "name": "Cognitive Science",
+    "summary": "The interdisciplinary study of mind and intelligence, integrating psychology, neuroscience, linguistics, philosophy, computer science, and anthropology.",
+    "explanation": "Cognitive Science is an interdisciplinary field that investigates the nature of mind and intelligence. It emerged in the mid-20th century from the realization that understanding cognition requires insights from multiple disciplines, each offering unique perspectives and methodologies for studying how minds work.\n\nThe field draws from six core disciplines: psychology provides experimental methods for studying behavior and mental processes; neuroscience reveals the biological substrates of cognition in the brain and nervous system; linguistics examines the structure and acquisition of language as a window into mental representation; philosophy addresses foundational questions about consciousness, knowledge, and the nature of mind; computer science and artificial intelligence offer computational models of cognitive processes; and anthropology explores how culture shapes cognition across human societies.\n\nKey topics in cognitive science include perception and attention (how we process sensory information and allocate mental resources), memory (how we encode, store, and retrieve information), language (how we understand and produce speech and text), reasoning and decision-making (how we draw inferences and make choices), learning (how we acquire new knowledge and skills), consciousness (the nature of subjective experience), and emotion (how affective states influence cognition).\n\nCentral to cognitive science is the computational theory of mind—the idea that mental processes can be understood as computations over mental representations. This framework has proven enormously productive, enabling researchers to build precise models of cognitive processes that generate testable predictions. However, alternative frameworks emphasizing embodied, embedded, and enacted cognition have also gained prominence, arguing that understanding mind requires considering the body, environment, and action.\n\nCognitive science has profound practical implications across many domains. In education, it informs learning science and instructional design through principles like spaced practice, retrieval practice, and cognitive load management. In technology, it guides human-computer interaction design and the development of AI systems. In healthcare, it contributes to understanding and treating cognitive disorders. In law, it illuminates questions about memory reliability, decision-making under uncertainty, and moral responsibility.\n\nThe field continues to evolve with advances in neuroimaging, machine learning, and computational modeling. Current frontiers include understanding the neural basis of consciousness, developing AI systems with human-like cognitive capabilities, and addressing how social and cultural factors shape individual cognition.",
+    "tags": [
+        "cognitive-science",
+        "psychology",
+        "neuroscience",
+        "artificial-intelligence",
+        "linguistics",
+        "cognition",
+        "research"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "CogSci",
+        "Cognitive Sciences",
+        "Study of Mind"
+    ],
+    "relatedConcepts": [
+        "cognitive-psychology",
+        "cognitive-load",
+        "cognitive-architecture"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Cognitive+Science"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mind's New Science by Howard Gardner",
+            "url": "https://www.amazon.com/dp/0465046355?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cognitive Science - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_science",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

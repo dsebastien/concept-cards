@@ -1,0 +1,47 @@
+{
+    "id": "tcp-ip",
+    "name": "TCP/IP",
+    "summary": "The fundamental communication protocol suite that powers the Internet, defining how data is packetized, addressed, transmitted, routed, and received across networks.",
+    "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational protocol suite that enables communication on the Internet. Developed by Vint Cerf and Bob Kahn in the 1970s, it provides the rules for how data is packaged, addressed, transmitted, routed, and received across networks. The 'IP' part handles addressing and routing packets to their destination, while the 'TCP' part ensures reliable, ordered delivery by managing connections and retransmitting lost packets.\n\nThe protocol suite operates through a layered architecture with four main layers: the Application Layer (HTTP, FTP, DNS, SSH), the Transport Layer (TCP for reliable delivery, UDP for speed), the Internet Layer (IP addressing and routing), and the Network Access Layer (physical transmission via Ethernet, Wi-Fi, etc.). This layered design allows each component to handle specific functions independently.\n\nTCP/IP replaced ARPANET's original NCP (Network Control Protocol) on January 1, 1983, a date known as 'flag day.' The suite embodies key design principles including packet switching (data split into independent packets), layered architecture, end-to-end design (intelligence at endpoints, network kept simple), and decentralization. These principles enabled the Internet to scale from four nodes in 1969 to billions of devices today.\n\nTCP establishes connections using a three-way handshake (SYN, SYN-ACK, ACK) and provides features like sequencing, acknowledgment, retransmission of lost packets, flow control, and congestion control. UDP offers a faster but less reliable alternative for applications like streaming and gaming. The protocol family also includes ICMP for diagnostics, ARP for address resolution, and many application-layer protocols built on the IP foundation.",
+    "tags": [
+        "networking",
+        "protocols",
+        "infrastructure"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Transmission Control Protocol/Internet Protocol",
+        "Internet Protocol Suite"
+    ],
+    "relatedConcepts": [
+        "internet",
+        "http"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/TCP+IP"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "TCP/IP Illustrated by W. Richard Stevens",
+            "url": "https://www.amazon.com/dp/0321336313?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Internet protocol suite - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Internet_protocol_suite",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

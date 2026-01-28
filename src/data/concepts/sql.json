@@ -1,0 +1,34 @@
+{
+    "id": "sql",
+    "name": "SQL",
+    "summary": "A domain-specific language for managing and querying relational databases.",
+    "explanation": "SQL (Structured Query Language) is a domain-specific language designed for managing and querying relational databases. Developed in the 1970s at IBM by Donald D. Chamberlin and Raymond F. Boyce, it has become the universal standard for interacting with relational database management systems.\n\nSQL is fundamentally declarative - you describe what data you want rather than how to retrieve it. The database engine determines the optimal execution plan, handling the complexity of data retrieval, joins, and optimization automatically.\n\nCore Operations (CRUD):\n\nSQL centers around four fundamental operations:\n\n1. SELECT (Read): Query data from one or more tables with filtering, sorting, aggregation, and joining capabilities\n2. INSERT (Create): Add new rows of data to tables\n3. UPDATE: Modify existing data based on specified conditions\n4. DELETE: Remove rows from tables based on criteria\n\nKey Features:\n\n- Joins: Combine data from multiple tables using INNER, LEFT, RIGHT, FULL, and CROSS joins\n- Aggregations: Functions like COUNT, SUM, AVG, MIN, and MAX for summarizing data\n- Subqueries: Nested queries for complex data retrieval\n- Common Table Expressions (CTEs): Named temporary result sets for improved readability\n- Window Functions: Perform calculations across sets of rows related to the current row\n- Transactions: Group multiple operations into atomic units with COMMIT and ROLLBACK\n\nData Definition Language (DDL):\n\nBeyond querying, SQL handles database structure through CREATE, ALTER, and DROP statements for tables, indexes, views, and other database objects.\n\nSQL Dialects:\n\nWhile SQL is standardized (ANSI SQL), each database system has its own dialect with variations:\n\n- PostgreSQL: Highly standards-compliant with rich features\n- MySQL: Popular for web applications\n- SQLite: Lightweight, file-based database\n- SQL Server (T-SQL): Microsoft's implementation with procedural extensions\n- Oracle (PL/SQL): Enterprise database with proprietary features\n\nSQL remains essential for data analysis, application development, business intelligence, and anywhere structured data needs to be stored, retrieved, and manipulated efficiently.",
+    "tags": [
+        "databases",
+        "programming",
+        "software-engineering",
+        "technologies"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Structured Query Language"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/SQL"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "SQL - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/SQL",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

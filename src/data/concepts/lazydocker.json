@@ -1,0 +1,62 @@
+{
+    "id": "lazydocker",
+    "name": "LazyDocker",
+    "summary": "A terminal-based user interface (TUI) for managing Docker containers, images, volumes, and networks with an intuitive keyboard-driven interface.",
+    "explanation": "LazyDocker is a free and open-source terminal-based user interface for Docker, written in Go by Jesse Duffield. Created in 2019, it provides an intuitive visual interface for Docker operations without leaving the terminal. Part of Duffield's 'lazy' tool suite (alongside LazyGit and LazyNpm), it follows the philosophy of making complex CLI tools accessible through keyboard-driven interfaces.\n\nInstead of memorizing Docker commands or constantly checking documentation, LazyDocker presents all resources in navigable panels with contextual actions. The interface displays containers, images, volumes, and networks in separate panels, allowing users to view logs in real-time, attach to containers, inspect configurations, and manage resources with single keystrokes.\n\nKey features include container management (start, stop, restart, remove, attach), real-time log streaming with search capability, resource monitoring showing CPU, memory, and network statistics per container, image and volume management, native Docker Compose support for multi-container projects, custom command definitions for project-specific actions, and bulk operations like pruning all unused resources.\n\nThe interface layout presents containers, images, and volumes in a left sidebar with detailed information panels on the right showing logs, stats, configuration, and running processes. Navigation uses vim-like keybindings with arrow keys for moving between items, Enter to focus, and single-letter shortcuts for actions (d for delete, s for stop, r for restart, a for attach).\n\nLazyDocker is fast, cross-platform, and requires no configuration. It can be installed via Homebrew, Go, or ironically through Docker itself. Configuration is optional but supports custom commands defined in a YAML config file.",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "lazydocker"
+    ],
+    "relatedConcepts": [
+        "docker",
+        "tui",
+        "lazygit"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/LazyDocker"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "LazyDocker GitHub Repository",
+            "url": "https://github.com/jesseduffield/lazydocker",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

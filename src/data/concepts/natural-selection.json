@@ -1,0 +1,34 @@
+{
+  "id": "natural-selection",
+  "name": "Natural Selection",
+  "summary": "The mechanism of evolution whereby organisms with favorable traits are more likely to survive, reproduce, and pass those traits to future generations.",
+  "explanation": "Natural selection is the fundamental process driving biological evolution, first articulated by Charles Darwin in his 1859 work 'On the Origin of Species.' It operates on a simple but powerful principle: within any population of organisms, individuals vary in their inherited traits. Some of these variations provide advantages in survival or reproduction within a given environment.\n\nThe process works through several key components. First, there must be variation among individuals in a population—differences in physical characteristics, behaviors, or other traits. Second, at least some of this variation must be heritable, meaning it can be passed from parents to offspring through genetic inheritance. Third, there must be differential survival and reproduction, where individuals with certain traits are more likely to survive and reproduce than others.\n\nOver many generations, favorable traits become more common in a population while unfavorable ones become rarer. This gradual shift in trait frequencies is what we observe as evolutionary change. Importantly, natural selection does not act with foresight or purpose—it simply reflects which traits happen to be advantageous in a particular environment at a particular time.\n\nThe concept of natural selection extends beyond biology into many fields. In business and economics, market competition can be seen as a form of selection among companies and ideas. In technology, successful innovations spread while failures disappear. Understanding natural selection provides insight into adaptive systems across domains.",
+  "tags": ["biology", "evolution", "science", "adaptation"],
+  "category": "Concepts",
+  "icon": "FaAtom",
+  "featured": false,
+  "aliases": ["Darwinian Selection", "Survival of the Fittest"],
+  "relatedConcepts": ["evolutionary-psychology"],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [
+    {
+      "title": "On the Origin of Species by Charles Darwin",
+      "url": "https://www.amazon.com/dp/0451529065?tag=dsebastien00-20"
+    },
+    {
+      "title": "The Selfish Gene by Richard Dawkins",
+      "url": "https://www.amazon.com/dp/0198788606?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Natural selection - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Natural_selection",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "persuasive-technology",
+  "name": "Persuasive Technology",
+  "summary": "Interactive systems designed to change users' attitudes or behaviors through persuasion and social influence rather than coercion.",
+  "explanation": "Persuasive technology refers to interactive computing systems designed to change users' attitudes or behaviors through persuasion and social influence rather than coercion. The field was established by BJ Fogg at Stanford's Persuasive Technology Lab, who coined the term 'captology' (Computers As Persuasive Technologies) in the 1990s.\n\nFogg's research demonstrated how software could leverage psychological principles to shape behavior, including variable rewards, social proof, commitment mechanisms, and reduction of friction. His Fogg Behavior Model (B=MAP) describes behavior as the product of Motivation, Ability, and Prompts occurring simultaneously. When all three elements converge at the right moment, behavior change becomes possible.\n\nPersuasive technology employs various techniques including reduction (simplifying complex tasks), tunneling (guiding users through processes), tailoring (personalizing experiences), suggestion (intervening at opportune moments), self-monitoring (enabling users to track their own behavior), and conditioning (reinforcing behaviors through points, badges, and streaks).\n\nWhile these techniques were pioneered for beneficial purposes such as health apps, educational tools, and sustainability initiatives, they have been widely adopted by the attention economy to maximize engagement and revenue. Social media platforms use persuasive design to create compulsive usage patterns through infinite scroll, variable reward notifications, fear of missing out (FOMO), and streaks.\n\nThis dual nature has raised significant ethical concerns about manipulation, addiction, and the creation of filter bubbles. Critics like Tristan Harris have documented how persuasive design can exploit cognitive weaknesses. The field now grapples with fundamental questions about consent, autonomy, transparency, and whether 'ethical persuasion' is truly possible when billion-dollar companies optimize for attention capture. Responses include the Time Well Spent movement, screen time tools, and regulatory efforts to ban dark patterns.",
+  "tags": ["technology", "psychology", "behavioral-design", "ethics", "attention", "behavior-change"],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBrain",
+  "featured": false,
+  "aliases": ["Captology", "Persuasive Design", "Behavior Change Technology"],
+  "relatedConcepts": ["fogg-behavior-model", "gamification", "nudge-theory", "attention-economy"],
+  "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Persuasive+Technology"],
+  "articles": [],
+  "books": [
+    {
+      "title": "Persuasive Technology: Using Computers to Change What We Think and Do by BJ Fogg",
+      "url": "https://www.amazon.com/dp/1558606432?tag=dsebastien00-20"
+    },
+    {
+      "title": "Hooked: How to Build Habit-Forming Products by Nir Eyal",
+      "url": "https://www.amazon.com/dp/1591847788?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Persuasive technology - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Persuasive_technology",
+      "type": "website"
+    },
+    {
+      "title": "Center for Humane Technology",
+      "url": "https://www.humanetech.com/",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

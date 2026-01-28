@@ -1,0 +1,35 @@
+{
+    "id": "wsl",
+    "name": "Windows Subsystem for Linux (WSL)",
+    "summary": "A compatibility layer that allows running Linux distributions natively on Windows without the need for a virtual machine or dual booting.",
+    "explanation": "Windows Subsystem for Linux (WSL) is a feature of Windows 10 and later that enables users to run a Linux environment directly on Windows, including command-line tools, utilities, and applications, without the overhead of a traditional virtual machine or dual-boot setup.\n\nWSL2, the current version, uses a lightweight virtual machine with a real Linux kernel, providing full system call compatibility and significantly improved file system performance compared to the original WSL. This makes it ideal for software development workflows that require Linux-based tools, package managers, and utilities.\n\nDevelopers benefit from WSL because they can use native Linux tools like Bash, grep, sed, and awk alongside Windows applications. It integrates seamlessly with Windows, allowing access to Windows files from Linux and vice versa. WSL supports popular distributions including Ubuntu, Debian, Fedora, and others, which can be installed directly from the Microsoft Store.\n\nWSL can be configured globally through a .wslconfig file in the Windows user profile, controlling memory allocation, processor usage, and networking settings. The mirrored networking mode allows network configuration to work identically between the Windows host and WSL environments, simplifying development of network-dependent applications.",
+    "tags": ["linux", "windows", "development-tools", "virtualization", "cli"],
+    "category": "Software Development",
+    "icon": "FaLinux",
+    "featured": false,
+    "aliases": ["WSL", "WSL2", "Windows Subsystem for Linux"],
+    "relatedConcepts": ["linux", "bash", "shell", "cli"],
+    "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Windows+Subsystem+for+Linux+(WSL)"],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Windows Subsystem for Linux - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux",
+            "type": "website"
+        },
+        {
+            "title": "Windows Subsystem for Linux Documentation - Microsoft",
+            "url": "https://learn.microsoft.com/en-us/windows/wsl/",
+            "type": "website"
+        },
+        {
+            "title": "Install WSL - Microsoft",
+            "url": "https://learn.microsoft.com/en-us/windows/wsl/install",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

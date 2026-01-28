@@ -1,0 +1,64 @@
+{
+    "id": "python",
+    "name": "Python",
+    "summary": "A high-level, interpreted programming language known for its readable syntax and versatility, widely used in AI/ML, data science, web development, and scripting.",
+    "explanation": "Python is a general-purpose programming language created by Guido van Rossum and first released in 1991. It emphasizes code readability through its clean syntax and significant use of whitespace indentation, making it accessible to beginners while remaining powerful enough for experts.\n\nThe language supports multiple programming paradigms including object-oriented, functional, and procedural programming. Python uses dynamic typing, where types are checked at runtime rather than compile time, though modern Python supports optional type hints that enable static analysis tools to catch potential errors before execution.\n\nPython's extensive ecosystem is one of its greatest strengths. The Python Package Index (PyPI) hosts over 500,000 packages covering virtually every domain. For AI and machine learning, frameworks like PyTorch, TensorFlow, and libraries like LangChain and LangGraph have made Python the dominant language. In data science, NumPy, Pandas, and SciPy form the foundation of most analytical workflows. Web frameworks like Django, FastAPI, and Flask power countless web applications and APIs.\n\nThe language runs on all major platforms including Windows, macOS, and Linux, making it ideal for cross-platform development. Its interpreted nature allows for rapid prototyping and interactive development, while tools like Jupyter notebooks have made Python the standard for data exploration and scientific computing.\n\nPython's design philosophy, captured in 'The Zen of Python,' prioritizes simplicity, readability, and explicitness. These principles have helped Python maintain its position as one of the most popular programming languages, consistently ranking at or near the top in developer surveys and usage metrics.",
+    "tags": [
+        "programming",
+        "software-engineering",
+        "ai"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Python Programming Language",
+        "Python 3"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Python"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Python (programming language) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "type": "website"
+        },
+        {
+            "title": "Python Official Website",
+            "url": "https://www.python.org/",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "summary": "An open source container orchestration platform for automating deployment, scaling, and management of containerized applications.",
+    "explanation": "Kubernetes (K8s) is a container orchestration platform that abstracts infrastructure into a declarative API. You describe the desired state of your application (pods, services, deployments), and Kubernetes continuously works to maintain it. Originally developed at Google based on their internal Borg system, it was donated to the Cloud Native Computing Foundation (CNCF) in 2014 and has become the industry standard for running containers in production.\n\nThe platform handles critical operational tasks automatically: service discovery and load balancing, storage orchestration, automated rollouts and rollbacks, self-healing (restarting failed containers, replacing pods), horizontal scaling based on CPU/memory/custom metrics, and secret management. The name comes from Greek for 'helmsman' or 'pilot,' with K8s being shorthand (K + 8 letters + s).\n\nCore concepts include: Pods (smallest deployable unit containing one or more containers), Deployments (manage ReplicaSets and handle rollouts), Services (stable network endpoints for pods), Namespaces (virtual clusters for resource isolation), ConfigMaps (configuration data), Secrets (sensitive data like passwords and tokens), Ingress (external HTTP/HTTPS routing), and PersistentVolumes (storage abstraction).\n\nThe architecture consists of a Control Plane (API Server, Scheduler, Controller Manager, etcd key-value store) that manages the cluster, and Worker Nodes (running kubelet, kube-proxy, and container runtime) where application pods actually run. Various distributions exist: managed services (EKS, GKE, AKS), self-hosted options (kubeadm, kops, Rancher), local development tools (minikube, kind, k3d), lightweight variants (k3s, MicroK8s), and enterprise platforms (OpenShift, Tanzu).",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "distributed-systems",
+        "automation",
+        "scalability",
+        "infrastructure"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "K8s"
+    ],
+    "relatedConcepts": [
+        "devops-manifesto",
+        "microservices-architecture",
+        "distributed-systems"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Kubernetes"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Kubernetes Up & Running by Brendan Burns, Joe Beda, and Kelsey Hightower",
+            "url": "https://www.amazon.com/dp/109811020X?tag=dsebastien00-20"
+        },
+        {
+            "title": "Kubernetes in Action by Marko Luksa",
+            "url": "https://www.amazon.com/dp/1617297615?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Kubernetes - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kubernetes",
+            "type": "website"
+        },
+        {
+            "title": "Kubernetes Official Documentation",
+            "url": "https://kubernetes.io/docs/home/",
+            "type": "website"
+        },
+        {
+            "title": "Kubernetes GitHub Repository",
+            "url": "https://github.com/kubernetes/kubernetes",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

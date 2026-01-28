@@ -1,0 +1,66 @@
+{
+    "id": "plain-text",
+    "name": "Plain Text",
+    "summary": "Unformatted text without styling or proprietary encoding, ensuring maximum longevity and interoperability.",
+    "explanation": "Plain text is the simplest form of digital text, containing only standard characters without any formatting, styling, or proprietary encoding. Unlike rich text or binary formats, plain text files (.txt) can be opened and read by virtually any software on any operating system, making them the most universal and future-proof format for storing information.\n\nThe benefits of plain text extend far beyond simplicity. Plain text files are: (1) Future-proof - they remain readable for decades without special software, (2) Universally compatible - editable with any text editor on any platform, (3) Lightweight - small file sizes and fast to process, (4) Version-controllable - work seamlessly with Git and other version control systems, (5) Searchable - easily indexed and searched by any tool, (6) Portable - move freely between devices and applications.\n\nPlain text embodies the 'File Over App' principle: your data outlives any particular application. While proprietary formats may become obsolete or require specific software to access, plain text files written decades ago remain perfectly readable today. This makes plain text ideal for long-term knowledge storage, note-taking, and any content that should survive technological change.\n\nIn practice, many productivity systems build upon plain text foundations. Markdown adds lightweight formatting while remaining human-readable. Tools like Obsidian, Vim, and countless others treat plain text as their native format. The plain text philosophy prioritizes data longevity and user control over flashy features that may trap information in proprietary silos.",
+    "tags": [
+        "software-engineering",
+        "simplicity",
+        "plain-text",
+        "formats",
+        "data",
+        "portability"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileAlt",
+    "featured": false,
+    "aliases": [
+        "Plain text format",
+        "Text files",
+        "TXT",
+        "plaintext"
+    ],
+    "relatedConcepts": [
+        "file-over-app",
+        "markdown",
+        "plain-text-productivity",
+        "one-big-text-file",
+        "data-ownership"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Plain+Text"
+    ],
+    "articles": [
+        {
+            "title": "Write Plain Text Files - Derek Sivers",
+            "url": "https://sive.rs/plaintext",
+            "type": "website"
+        },
+        {
+            "title": "File Over App - Steph Ango",
+            "url": "https://stephango.com/file-over-app",
+            "type": "website"
+        },
+        {
+            "title": "The Plain Text Project",
+            "url": "https://plaintextproject.online/",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Plain text - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Plain_text",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "gnu",
+    "name": "GNU",
+    "summary": "A free software project launched in 1983 to create a complete Unix-compatible operating system composed entirely of free software.",
+    "explanation": "GNU (a recursive acronym for 'GNU's Not Unix') is a free software project launched by Richard Stallman in 1983 to create a complete Unix-compatible operating system composed entirely of free software. The project produced essential components including compilers, editors, shells, and utilities that, combined with the Linux kernel in the early 1990s, formed what Stallman prefers to call 'GNU/Linux.'\n\nThe GNU project pioneered the copyleft licensing model through the GPL (General Public License), ensuring that derivative works remain free. While the GNU Hurd kernel (the project's own microkernel) never achieved widespread adoption, GNU's userland tools became the standard foundation for Linux distributions and are used by millions daily.\n\nKey GNU software includes: GCC (GNU Compiler Collection for C, C++, and other languages), Bash (Bourne Again Shell, the default on most Linux systems), GNU Emacs (extensible text editor), GNU Coreutils (basic Unix utilities like ls, cp, mv), GDB (GNU Debugger), GNU Make (build automation tool), GIMP (GNU Image Manipulation Program), and glibc (GNU C Library).\n\nThe 'GNU/Linux' naming controversy reflects the system's dual heritage: GNU provides the userland (shell, utilities, libraries, compilers) while Linux provides the kernel (hardware abstraction, process management). Stallman argues 'GNU/Linux' credits both projects fairly, though most users simply say 'Linux.'\n\nThe GNU Manifesto, published by Stallman in 1985, outlined why software should be free, how the GNU system would work, how free software development could be funded, and provided responses to common objections. This document became foundational to the free software movement.",
+    "tags": [
+        "open-source",
+        "free-software",
+        "operating-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaLaptop",
+    "featured": false,
+    "aliases": [
+        "GNU is not Unix",
+        "GNU Project"
+    ],
+    "relatedConcepts": [
+        "linux",
+        "open-source",
+        "gpl-license"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/GNU+is+not+Unix+(GNU)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Free as in Freedom by Sam Williams",
+            "url": "https://www.amazon.com/dp/1449324649?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "GNU - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GNU",
+            "type": "website"
+        },
+        {
+            "title": "GNU Project",
+            "url": "https://www.gnu.org",
+            "type": "website"
+        },
+        {
+            "title": "The GNU Manifesto",
+            "url": "https://www.gnu.org/gnu/manifesto.html",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

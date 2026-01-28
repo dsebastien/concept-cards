@@ -1,0 +1,50 @@
+{
+    "id": "apache-license",
+    "name": "Apache License 2.0",
+    "summary": "A permissive open source license that allows users to use, modify, and distribute software while providing an explicit patent grant and requiring preservation of copyright notices.",
+    "explanation": "The Apache License 2.0 is a permissive open source license published by the Apache Software Foundation in 2004. It allows users to use, modify, and distribute the software for any purpose, including proprietary use, while providing an explicit patent grant and requiring preservation of copyright notices and disclaimers.\n\nUnlike copyleft licenses such as the GNU General Public License (GPL), Apache 2.0 doesn't require derivative works to be open source. This makes it particularly popular in enterprise environments because it's business-friendly, legally clear, and compatible with GPLv3.\n\nOne of the key distinguishing features of the Apache License 2.0 is its explicit patent grant. When contributors submit code under this license, they automatically grant users a license to any patents that would be infringed by their contribution. This protects users from patent litigation by contributors, addressing a concern that simpler licenses like MIT and BSD don't explicitly cover.\n\nThe license requires that you retain the original copyright notice, provide a copy of the license, and clearly mark any significant modifications you make to the source code. However, it doesn't grant any rights to use the trademarks of the project or the Apache Software Foundation.\n\nCompared to the MIT and BSD licenses, Apache 2.0 is longer and more detailed but provides stronger legal protections. While MIT and BSD are extremely short and permissive, they lack explicit patent grants. For enterprise use and projects where patent concerns are relevant, Apache 2.0 is often the preferred choice.\n\nMajor projects using the Apache License 2.0 include Android (AOSP), Kubernetes, TensorFlow, Apache HTTP Server, Swift, and many others. Rust uses a dual MIT/Apache 2.0 licensing approach, giving users the choice of either license.",
+    "tags": [
+        "software-engineering",
+        "programming",
+        "licensing",
+        "open-source"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileContract",
+    "featured": false,
+    "aliases": [
+        "Apache 2.0",
+        "Apache License"
+    ],
+    "relatedConcepts": [
+        "open-source",
+        "mit-license",
+        "gpl-license"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Apache+2.0+License"
+    ],
+    "articles": [
+        {
+            "title": "Apache License 2.0 - Official Text",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "type": "website"
+        },
+        {
+            "title": "Open Source Initiative - Apache License 2.0",
+            "url": "https://opensource.org/license/apache-2-0",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Apache License - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Apache_License",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

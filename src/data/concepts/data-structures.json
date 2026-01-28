@@ -1,0 +1,44 @@
+{
+    "id": "data-structures",
+    "name": "Data Structures",
+    "summary": "Specialized formats for organizing, storing, and managing data in computers to enable efficient access and modification.",
+    "explanation": "Data structures are fundamental building blocks in computer science that determine how data is organized, stored, and manipulated in memory. The choice of data structure profoundly affects algorithm performance—the same problem can be trivial or intractable depending on how data is organized. Understanding data structures is essential for software engineering, directly impacting program efficiency, memory usage, and code complexity.\n\nDifferent data structures optimize for different operations. Arrays provide O(1) random access but O(n) insertion; linked lists offer O(1) insertion but O(n) access; hash tables provide O(1) average-case lookup; trees enable O(log n) sorted operations. Data structures can be classified as linear (arrays, linked lists, stacks, queues) or non-linear (trees, graphs, hash tables, tries).\n\nCommon data structures include: Arrays for indexed, contiguous memory storage ideal for random access; Linked Lists for frequent insertions and deletions; Stacks (LIFO) for undo operations, parsing, and recursion; Queues (FIFO) for scheduling and breadth-first search; Hash Tables for fast key-value lookups; Binary Search Trees for sorted data and range queries; Heaps for priority queues; Graphs for representing networks and relationships; and Tries for prefix matching and autocomplete.\n\nChoosing the right structure requires understanding the specific access patterns, frequency of operations, and constraints of each problem. Modern programming languages provide built-in implementations of common structures, but understanding their internals remains essential for performance-critical code and technical interviews.",
+    "tags": [
+        "programming",
+        "computer-science",
+        "software-development",
+        "algorithms"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Data Structure"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Data+Structures"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein",
+            "url": "https://www.amazon.com/dp/026204630X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Data structure - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_structure",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

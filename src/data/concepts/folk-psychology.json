@@ -1,0 +1,35 @@
+{
+  "id": "folk-psychology",
+  "name": "Folk Psychology",
+  "summary": "The everyday framework for understanding and predicting behavior in terms of mental states like beliefs, desires, and intentions.",
+  "explanation": "Folk psychology is our intuitive, commonsense approach to explaining human behavior through mental states. When we say 'She went to the fridge because she wanted water and believed it was there,' we're engaging in belief-desire reasoning that constitutes an implicit theory of mind. This framework is so natural we barely notice using it, yet it represents a theoretical stance about how minds work that could, in principle, be mistaken.\n\nThe philosophical debate centers on folk psychology's status as a theory. Functionalists and defenders of the Language of Thought hypothesis see it as approximately true and capable of refinement. In contrast, eliminative materialists like Paul and Patricia Churchland argue that folk psychology is a failed theory that neuroscience will eventually replace. They contend that concepts like 'belief' and 'desire' may not map onto actual brain states, much like 'phlogiston' failed to map onto real chemistry. Jerry Fodor famously defended folk psychology as our best available theory of behavior, while eliminativists view it as destined for the same fate as other abandoned scientific theories.\n\nThree main positions characterize the debate: vindication (folk psychology is approximately true and will be refined), reduction (folk psychological terms will map onto brain states), and elimination (folk psychology is fundamentally false and will be replaced by neuroscience).",
+  "tags": ["psychology", "philosophy", "philosophy-of-mind", "cognition", "mental-states", "belief-desire-psychology"],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBrain",
+  "featured": false,
+  "aliases": ["Common-Sense Psychology", "Commonsense Psychology", "Belief-Desire Psychology"],
+  "relatedConcepts": ["theory-of-mind", "philosophy-of-mind"],
+  "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Folk+Psychology"],
+  "articles": [],
+  "books": [
+    {
+      "title": "Psychosemantics by Jerry Fodor",
+      "url": "https://www.amazon.com/dp/0262560526?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Folk Psychology - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Folk_psychology",
+      "type": "website"
+    },
+    {
+      "title": "Eliminative Materialism and the Propositional Attitudes by Paul Churchland (1981)",
+      "url": "https://www.jstor.org/stable/2025900",
+      "type": "paper"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

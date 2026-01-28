@@ -1,0 +1,60 @@
+{
+    "id": "data-security",
+    "name": "Data Security",
+    "summary": "The practices, technologies, and policies that protect digital information from unauthorized access, corruption, or theft throughout its lifecycle.",
+    "explanation": "Data security encompasses the practices, technologies, and policies that protect digital information from unauthorized access, corruption, or theft throughout its lifecycle. The CIA triad forms the foundation: Confidentiality (data should only be accessible to authorized users), Integrity (data remains accurate and unaltered), and Availability (data is accessible when needed). As more personal and business data moves online, security breaches have become increasingly common, making data security essential for individuals and organizations alike.\n\nFor personal data, security involves encryption (at rest and in transit), strong authentication (passwords, 2FA, passkeys), secure backups, and awareness of threats like phishing and malware. Local-first approaches can enhance security by reducing attack surface since data stored locally isn't exposed to cloud breaches. End-to-end encryption ensures only you can read your data. The principle of least privilege, regular updates, and defense in depth (multiple protective layers) are core strategies.\n\nSecurity operates across multiple layers: physical (device security, locks, biometrics), network (firewalls, VPN, secure Wi-Fi), application (secure software, updates), data (encryption, access controls), and user (passwords, 2FA, awareness). Common threats include phishing, malware, data breaches, man-in-the-middle attacks, social engineering, and insider threats. Best practices include using unique passwords with a password manager, enabling 2FA everywhere, following the 3-2-1 backup rule (3 copies, 2 media types, 1 offsite), keeping software updated, and using VPNs on public Wi-Fi. Data security connects directly to data ownership since you cannot truly own data you cannot protect.",
+    "tags": [
+        "security",
+        "privacy",
+        "technologies",
+        "protection",
+        "cryptography"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Information Security",
+        "InfoSec",
+        "Cybersecurity"
+    ],
+    "relatedConcepts": [
+        "data-ownership",
+        "encryption"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/Data+Security"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Data security - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_security",
+            "type": "website"
+        },
+        {
+            "title": "OWASP Foundation",
+            "url": "https://www.owasp.org/",
+            "type": "website"
+        },
+        {
+            "title": "NIST Cybersecurity",
+            "url": "https://www.nist.gov/cybersecurity",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "jsonl",
+    "name": "JSONL",
+    "summary": "A text format for storing and streaming structured data where each line is a valid JSON object, enabling efficient line-by-line processing without loading entire datasets into memory.",
+    "explanation": "JSONL (JSON Lines), also known as Newline-delimited JSON (NDJSON), is a text format where each line contains a complete, valid JSON object. Unlike standard JSON arrays that require loading the entire dataset into memory, JSONL allows each line to be parsed independently, making it ideal for large datasets, streaming applications, and log files.\n\nThe format is simple: one JSON object per line, separated by newlines, with no commas between records and no enclosing brackets. This design enables several key advantages over JSON arrays. Memory usage stays low because you can stream and process line by line. Appending data is trivial—just add a new line. Partial reads are straightforward, and if one line contains invalid JSON, you can skip it and continue processing the rest. Parallel processing is natural since each line is independent.\n\nCommon use cases span many domains. Log files benefit from storing each event as a separate JSON object. Data pipelines use JSONL for streaming between services. Machine learning frameworks like OpenAI and Hugging Face use JSONL for training data. Database exports often use one record per line. Event sourcing systems leverage the append-only nature for event logs. Analytics platforms use it for clickstream and telemetry data.\n\nWorking with JSONL is straightforward in most languages. Command-line tools like jq can process JSONL files efficiently. In Python, you simply iterate over lines and parse each with json.loads(). Node.js can use readline to process files line by line. File extensions include .jsonl (most common), .ndjson, or sometimes just .json depending on context. While there's no official RFC, community specifications at jsonlines.org and the ndjson-spec GitHub repository document the format.",
+    "tags": [
+        "software-engineering",
+        "data-formats"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "JSON Lines",
+        "Newline-delimited JSON",
+        "NDJSON"
+    ],
+    "relatedConcepts": [
+        "json"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/JSONL"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "JSON streaming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/JSON_streaming#Newline-delimited_JSON",
+            "type": "website"
+        },
+        {
+            "title": "JSON Lines",
+            "url": "https://jsonlines.org/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

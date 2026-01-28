@@ -1,0 +1,94 @@
+{
+    "id": "org-mode",
+    "name": "Org-mode",
+    "summary": "A powerful major mode for Emacs that combines outlining, task management, scheduling, literate programming, and document publishing in a plain-text format.",
+    "explanation": "Org-mode is a powerful document editing, formatting, and organizing mode for the Emacs text editor. Created by Carsten Dominik in 2003, it combines outliner functionality with task management, scheduling, literate programming, and document publishing in a plain-text format. Org files (.org) use a simple, human-readable markup syntax that influenced later tools like Markdown. Despite being tied to Emacs, Org-mode has developed a devoted following and inspired features in modern Personal Knowledge Management tools like Logseq (which supports Org files natively) and Obsidian.\n\nOrg-mode exemplifies the file over app principle—all data is stored in plain text files that remain readable without Emacs. Its feature set is vast: hierarchical outlining with folding, TODO items with customizable states and priorities, time tracking, agenda views aggregating tasks across files, tables with spreadsheet functionality, code blocks with execution (literate programming via Org Babel), and export to HTML, LaTeX, PDF, Markdown, and dozens of other formats. For many users, Org-mode becomes a complete PKM and productivity system.\n\nKey features include hierarchical headings with folding, TODO management with customizable states and priorities, scheduling with deadlines and timestamps, agenda views for aggregating tasks across files, tables with spreadsheet-like formulas, code blocks supporting 40+ programming languages with literate programming capabilities, export to multiple formats, quick capture for notes and tasks, time tracking (clocking), and properties for metadata on headings.\n\nThe Org-mode ecosystem includes org-roam (Zettelkasten/PKM layer), org-journal (daily journaling), org-noter (PDF/EPUB annotation), ox-hugo (Hugo blog export), Logseq (modern app with native Org support), and Orgzly (Android app). Its longevity of over 20 years demonstrates the durability of plain-text, open-source tools. Org-mode appeals to developers, researchers, writers, and productivity enthusiasts who value open formats, extensibility, and complete control over their data.",
+    "tags": [
+        "tools",
+        "note-taking",
+        "knowledge-management",
+        "productivity",
+        "programming"
+    ],
+    "category": "Tools",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Org Mode",
+        "Emacs Org-mode",
+        "org-mode"
+    ],
+    "relatedConcepts": [
+        "outliner",
+        "plain-text-productivity",
+        "markdown",
+        "file-over-app",
+        "gtd",
+        "pkm"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Org-mode"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Org Mode Official Website",
+            "url": "https://orgmode.org/",
+            "type": "website"
+        },
+        {
+            "title": "Org-mode - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Org-mode",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

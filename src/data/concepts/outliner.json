@@ -1,0 +1,90 @@
+{
+    "id": "outliner",
+    "name": "Outliner",
+    "summary": "A software application designed for creating, editing, and organizing hierarchical text structures using nested bullet points or numbered lists.",
+    "explanation": "An outliner (also called an outline processor) is a specialized software application for creating and managing hierarchical text structures. Unlike traditional word processors or note-taking apps, outliners treat every line or block as a node in a tree structure that can be expanded, collapsed, rearranged, and nested to any depth. This makes them particularly powerful for organizing complex information, planning projects, and capturing ideas that have natural parent-child relationships.\n\nOutliners emerged from early hypertext research, with notable examples including Dave Winer's ThinkTank (1984) and MORE (1986). Modern outliners have evolved significantly, incorporating features like infinite nesting, collapsible sections, tagging, filtering, linking between nodes, and cloud synchronization. Some outliners have expanded into full knowledge management systems by adding bidirectional links and graph views.\n\nKey features of modern outliners include:\n- Hierarchical organization with unlimited nesting depth\n- Expand and collapse sections to manage complexity\n- Drag-and-drop reordering of items and branches\n- Keyboard shortcuts for rapid navigation and editing\n- Zoom functionality to focus on any branch\n- Search and filtering across the entire outline\n- Export options for various formats\n\nPopular outliner applications include Workflowy, Dynalist, OmniOutliner, Logseq, and Roam Research (which adds networked note features to the outliner paradigm). The outliner approach is particularly well-suited for brainstorming, project planning, writing preparation, meeting notes, research organization, and personal knowledge management. Many users find that thinking in outlines matches their natural cognitive patterns, making outliners invaluable tools for organizing complex thoughts.",
+    "tags": [
+        "tools",
+        "productivity",
+        "note-taking",
+        "outliners",
+        "software"
+    ],
+    "category": "Tools",
+    "icon": "FaList",
+    "featured": false,
+    "aliases": [
+        "Outlining",
+        "Outline Processor",
+        "Outliner App",
+        "Outliner Software"
+    ],
+    "relatedConcepts": [
+        "outlining"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Outliner"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Outliner - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Outliner",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

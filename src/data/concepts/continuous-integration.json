@@ -1,0 +1,65 @@
+{
+    "id": "continuous-integration",
+    "name": "Continuous Integration",
+    "summary": "A software development practice where developers frequently merge code changes into a shared repository, with each integration automatically verified by building and testing.",
+    "explanation": "Continuous Integration (CI) is a software development practice where developers frequently merge code changes into a shared repository, with each integration automatically verified by building the code and running tests. The goal is to detect integration problems early, when they are easier and cheaper to fix.\n\nCI was popularized by Kent Beck as part of Extreme Programming (XP) in the late 1990s and has become a foundational practice in modern DevOps and DevSecOps workflows.\n\nKey Principles:\n\n- Frequent commits: Integrate changes at least daily to minimize merge conflicts\n- Automated builds: Every commit triggers an automated build process\n- Automated testing: Run unit tests, integration tests, linting, and security scans on every build\n- Fast feedback: Developers receive quick notification if their changes break something\n- Single source of truth: One main branch that everyone integrates to\n\nThe typical CI workflow follows this pattern: Developer commits code, pushes to the repository, which triggers the CI server to compile the code, run tests, and report results back to the team.\n\nBenefits of CI:\n\n- Early bug detection before issues compound\n- Reduced integration problems by merging frequently\n- Always-working main branch ready for deployment\n- Faster development cycles through automation\n- Improved code quality via consistent automated checks\n- Team visibility into changes and their impact\n\nBest Practices:\n\n- Keep builds fast, ideally under 10 minutes\n- Fix broken builds immediately, treating them as top priority\n- Write comprehensive automated tests to catch regressions\n- Use feature branches with short lifespans\n- Review code before merging to the main branch\n\nPopular CI tools include GitHub Actions, GitLab CI, Jenkins, CircleCI, Travis CI, and Azure Pipelines.",
+    "tags": [
+        "software-engineering",
+        "devops",
+        "automation",
+        "testing",
+        "ci-cd",
+        "quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "CI"
+    ],
+    "relatedConcepts": [
+        "devops",
+        "test-driven-development"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Continuous+Integration+(CI)"
+    ],
+    "articles": [
+        {
+            "title": "Continuous Integration by Martin Fowler",
+            "url": "https://martinfowler.com/articles/continuousIntegration.html",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Continuous integration - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Continuous_integration",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "world-wide-web",
+    "name": "World Wide Web",
+    "summary": "An information system of interlinked hypertext documents and resources accessed via the Internet using web browsers.",
+    "explanation": "The World Wide Web (WWW or simply the Web) is a global information system that allows users to access and navigate interconnected documents and resources through hyperlinks. It operates over the Internet using standardized protocols and languages.\n\n**Origins and Creation**:\nThe Web was invented by British computer scientist Tim Berners-Lee in 1989 while working at CERN (the European Organization for Nuclear Research) in Switzerland. He proposed a system to help scientists share research documents across different computer systems. The first website went live on August 6, 1991, and the technology was made freely available to the public in 1993.\n\n**Core Technologies**:\n- **HTML (HyperText Markup Language)**: The standard language for creating web pages and structuring content\n- **HTTP (HyperText Transfer Protocol)**: The protocol that enables communication between web browsers and servers\n- **URLs (Uniform Resource Locators)**: Addresses that uniquely identify resources on the web\n- **Web Browsers**: Software applications that retrieve, render, and display web content\n\n**How It Works**:\nWhen you enter a URL in your browser, it sends an HTTP request to a web server. The server responds with HTML documents, images, and other resources. The browser then renders this content as the web page you see. Hyperlinks within pages allow you to navigate to other documents anywhere on the web.\n\n**Web vs. Internet**:\nThe Web is often confused with the Internet, but they are distinct. The Internet is the global network infrastructure connecting computers worldwide. The Web is one of many services that run on top of the Internet, alongside email, file transfer (FTP), and other protocols.\n\n**Impact and Evolution**:\nThe World Wide Web fundamentally transformed how humanity accesses, shares, and creates information. It democratized publishing, enabled e-commerce, created new forms of social interaction, and became the foundation for countless applications. The Web continues to evolve through standards like HTML5, CSS3, and WebAssembly, enabling increasingly sophisticated web applications.\n\n**Web Standards**:\nThe World Wide Web Consortium (W3C), founded by Tim Berners-Lee, develops and maintains web standards to ensure interoperability and accessibility across different browsers and devices.",
+    "tags": [
+        "software-engineering",
+        "history",
+        "foundations"
+    ],
+    "category": "Software Development",
+    "icon": "FaGlobe",
+    "featured": false,
+    "aliases": [
+        "WWW",
+        "The Web"
+    ],
+    "relatedConcepts": [
+        "hypertext"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/World+Wide+Web"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Weaving the Web by Tim Berners-Lee",
+            "url": "https://www.amazon.com/dp/006251587X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "World Wide Web - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

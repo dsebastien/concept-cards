@@ -1,0 +1,70 @@
+{
+    "id": "gource",
+    "name": "Gource",
+    "summary": "An open-source software version control visualization tool that creates animated visualizations of source code repository history.",
+    "explanation": "Gource is a free and open-source tool that transforms version control repository history into engaging animated visualizations. It displays the evolution of a project over time as developers work on files and directories, compressing years of development into a captivating time-lapse video.\n\nThe visualization represents the repository as an expanding tree structure where files appear as colored nodes branching from directories, and developers are shown as moving avatars (using Gravatar images or custom pictures). As the timeline advances, you can watch files being created, modified, and deleted while developers work throughout the codebase. This reveals patterns in development: where activity concentrates, how the project structure grows, and which contributors work on which areas.\n\nGource supports multiple version control systems including Git, Mercurial, Bazaar, and SVN (via custom log formats). It offers extensive customization options for colors, playback speed, camera behavior, labels, resolution, and more. Combined with FFmpeg, it can export high-quality MP4 or WebM videos suitable for presentations, documentation, or social media.\n\nCommon use cases include project retrospectives to visualize a year of development, presentations to stakeholders showing project evolution, team building to celebrate contributions from all developers, documentation to create visual histories of open source projects, and creating engaging content for social media and marketing.",
+    "tags": [
+        "software",
+        "tools",
+        "software-engineering",
+        "version-control"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "git",
+        "version-control"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Gource"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Gource Official Website",
+            "url": "https://gource.io/",
+            "type": "website"
+        },
+        {
+            "title": "Gource GitHub Repository",
+            "url": "https://github.com/acaudwell/Gource",
+            "type": "website"
+        },
+        {
+            "title": "Gource Documentation Wiki",
+            "url": "https://github.com/acaudwell/Gource/wiki",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "bash",
+    "name": "Bash",
+    "summary": "A Unix shell and command language that serves as both an interactive command interpreter and a powerful scripting language.",
+    "explanation": "Bash (Bourne Again Shell) is a Unix shell and command language created by Brian Fox for the GNU Project in 1989. It has been the default shell on most Linux distributions and was macOS's default shell until Catalina (2019).\n\nBash functions as both an interactive command interpreter and a scripting language. It combines features from the original Bourne shell (sh) with additions from the Korn shell (ksh) and C shell (csh), making it a versatile tool for system administration and automation.\n\nKey features include POSIX compliance for compatibility with sh scripts, command history navigation, tab completion for files and commands, aliases for command shortcuts, functions for reusable command sequences, support for both indexed and associative arrays, built-in integer arithmetic, and job control for managing background and foreground processes.\n\nBash scripts use variables (assigned without spaces around =), conditionals (if/elif/else with [[ ]] syntax), loops (for, while), and functions. Configuration files like ~/.bashrc (for interactive non-login shells) and ~/.bash_profile (for login shells) allow users to customize their shell environment with aliases, functions, and environment variables.\n\nCommon built-in commands include cd (change directory), pwd (print working directory), echo (print text), export (set environment variables), source (execute script in current shell), alias (create shortcuts), and history (view command history).",
+    "tags": [
+        "software-engineering",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "Bourne Again Shell"
+    ],
+    "relatedConcepts": [
+        "linux"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Bash"
+    ],
+    "references": [
+        {
+            "title": "Bash (Unix shell) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
+            "type": "website"
+        },
+        {
+            "title": "GNU Bash - Official Website",
+            "url": "https://www.gnu.org/software/bash/",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

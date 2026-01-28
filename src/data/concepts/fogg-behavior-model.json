@@ -1,0 +1,74 @@
+{
+    "id": "fogg-behavior-model",
+    "name": "Fogg Behavior Model",
+    "summary": "A framework stating that behavior occurs when motivation, ability, and a prompt converge at the same moment, expressed as B=MAP.",
+    "explanation": "The Fogg Behavior Model, developed by BJ Fogg at Stanford's Behavior Design Lab, provides a diagnostic framework for understanding why behaviors happen or fail to happen. The model states that behavior (B) occurs when three elements converge simultaneously: Motivation (M), Ability (A), and Prompt (P). This relationship is expressed as B = MAP.\n\nMotivation represents the desire to perform a behavior, driven by core human motivators: pleasure/pain, hope/fear, and social acceptance/rejection. Ability refers to the capacity to perform the behavior, influenced by factors like time, money, physical effort, mental effort, social acceptability, and routine fit. Prompts are the triggers that call us to action at the right moment.\n\nA key insight of the model is that ability often matters more than motivation. Motivation fluctuates and is hard to sustain, but making behaviors easier by reducing friction produces more reliable change. This is why Fogg recommends a specific intervention order: first ensure prompts exist at the right moment, then maximize ability by making the behavior easier, and only then boost motivation if still needed.\n\nThe model identifies three types of prompts: Sparks (for high ability, low motivation situations), Facilitators (for high motivation, low ability situations), and Signals (for high motivation, high ability situations). When a behavior isn't happening, the model helps diagnose which element is weak or missing.\n\nThis framework underpins Fogg's Tiny Habits method, which applies B=MAP by shrinking behaviors until ability is trivially high, making motivation nearly irrelevant. It also explains why persuasive technology works: successful apps make behaviors easy (one-click actions) and provide timely prompts (notifications).",
+    "tags": [
+        "psychology",
+        "behavior-change",
+        "persuasive-design",
+        "habits",
+        "behavioral-design"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "FBM",
+        "B=MAP",
+        "Behavior Model"
+    ],
+    "relatedConcepts": [
+        "habit-formation",
+        "nudge-theory",
+        "intrinsic-motivation",
+        "extrinsic-motivation",
+        "behavioral-economics"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Fogg+Behavior+Model"
+    ],
+    "articles": [
+        {
+            "title": "A Behavior Model for Persuasive Design",
+            "url": "https://behaviormodel.org/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Tiny Habits: The Small Changes That Change Everything by BJ Fogg",
+            "url": "https://www.amazon.com/dp/0358003326?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Fogg Behavior Model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fogg_behavior_model",
+            "type": "website"
+        },
+        {
+            "title": "Stanford Behavior Design Lab",
+            "url": "https://behaviordesign.stanford.edu/",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/l/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

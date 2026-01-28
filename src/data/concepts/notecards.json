@@ -1,0 +1,89 @@
+{
+    "id": "notecards",
+    "name": "NoteCards",
+    "summary": "A pioneering hypertext system developed at Xerox PARC in the 1980s that introduced typed links and card-based knowledge organization.",
+    "explanation": "NoteCards was a groundbreaking hypermedia system developed at Xerox PARC from 1984 to 1987 by Thomas P. Moran, Frank Halasz, and Randall Trigg. It implemented Vannevar Bush's Memex vision and Ted Nelson's hypertext concepts in a practical tool for knowledge work.\n\n**Core Design**:\nNoteCards organized information as a network of cards connected by typed links:\n- **Cards**: Individual units containing text, graphics, or other content\n- **Typed Links**: Connections with semantic labels (supports, opposes, elaborates, example)\n- **Fileboxes**: Containers for organizing related cards\n- **Browser Cards**: Visual maps showing card networks\n\n**Key Innovations**:\n- **Semantic linking**: Links carried meaning beyond simple connections\n- **Network structure**: Went beyond hierarchies to support associative thinking\n- **Programmability**: Built in Lisp, highly extensible by users\n- **Link inheritance**: Cards could inherit properties through links\n\n**Influence on Modern Tools**:\nNoteCards concepts appear throughout modern PKM:\n- Cards became notes in tools like Obsidian and Roam Research\n- Typed links evolved into semantic linking and block references\n- Browser cards became graph views and backlinks panels\n- Fileboxes became folders and tags\n\n**Historical Significance**:\nNoteCards contributed to hypertext research, personal information management studies, the development of the World Wide Web, and enterprise knowledge management systems.\n\n**Seven Issues for Hypertext**:\nFrank Halasz's influential 1988 paper identified challenges that remain relevant today: search and query, composites, virtual structures, computation, versioning, collaboration, and extensibility.",
+    "tags": [
+        "pkm",
+        "hypertext",
+        "linking",
+        "history",
+        "foundations",
+        "software"
+    ],
+    "category": "Concepts",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Xerox NoteCards",
+        "Note Cards"
+    ],
+    "relatedConcepts": [
+        "hypertext",
+        "memex",
+        "wiki",
+        "bidirectional-linking",
+        "linked-thinking",
+        "obsidian"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/NoteCards"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "NoteCards - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/NoteCards",
+            "type": "website"
+        },
+        {
+            "title": "Reflections on NoteCards: Seven Issues for the Next Generation of Hypermedia Systems - Frank Halasz (1988)",
+            "url": "https://dl.acm.org/doi/10.1145/48511.48514",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

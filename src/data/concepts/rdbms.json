@@ -1,0 +1,61 @@
+{
+    "id": "rdbms",
+    "name": "Relational Database Management System",
+    "summary": "A type of database management system that stores data in tables with rows and columns, using SQL for querying and the relational model for organizing data relationships.",
+    "explanation": "A Relational Database Management System (RDBMS) is a database system based on the relational model proposed by Edgar F. Codd in 1970. It stores data in structured tables (relations) consisting of rows (tuples) and columns (attributes), with relationships between tables established through keys.\n\n**The Relational Model**:\n\nThe term \"relational\" comes from the mathematical concept of relations (sets of tuples), not from relationships between tables, though foreign key relationships are a key feature. Each table represents an entity, with rows being individual records and columns being specific data fields with defined types. The schema defines the structure of each table.\n\n**Keys and Relationships**:\n\n- **Primary Key**: Unique identifier for each row\n- **Foreign Key**: Reference to a primary key in another table, establishing relationships\n- **Composite Key**: Primary key made of multiple columns\n- **Candidate Key**: Columns that could serve as primary key\n\nRelationship types include one-to-one, one-to-many (most common), and many-to-many (requiring junction tables).\n\n**SQL - The Standard Language**:\n\nRDBMS universally use SQL (Structured Query Language) for data definition, manipulation, and querying. SQL provides a declarative approach where you specify what data you want rather than how to retrieve it.\n\n**ACID Properties**:\n\nRDBMS guarantee transactional integrity through ACID properties:\n- **Atomicity**: All operations in a transaction succeed or all fail\n- **Consistency**: Database remains in a valid state after transactions\n- **Isolation**: Concurrent transactions don't interfere with each other\n- **Durability**: Committed transactions persist even after system failure\n\n**Normalization and Constraints**:\n\nNormalization organizes data to reduce redundancy and improve integrity through progressive normal forms (1NF, 2NF, 3NF, BCNF). Constraints enforce data rules including primary keys, unique constraints, check constraints, foreign keys, and default values.\n\n**Indexing**:\n\nIndexes are data structures that speed up queries, with B-tree being the default type. Other index types include unique indexes, composite indexes, and partial indexes.\n\n**Popular RDBMS**:\n\n- PostgreSQL: Feature-rich, standards-compliant, extensible\n- SQLite: Embedded, serverless, zero-configuration\n- MySQL/MariaDB: Popular for web applications\n- SQL Server: Microsoft ecosystem, enterprise features\n- Oracle: Enterprise standard with extensive features\n\n**When to Use RDBMS**:\n\nRDBMS are ideal for applications requiring complex queries and joins, systems needing strong data integrity (financial, medical), well-defined stable data structures, reporting and analytics, and multi-table transactions. Consider alternatives for extremely high write throughput, unstructured or rapidly changing schemas, simple key-value access patterns, or horizontal scaling requirements.",
+    "tags": [
+        "databases",
+        "software-development",
+        "software-engineering",
+        "data-storage"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "RDBMS",
+        "Relational Database",
+        "Relational Databases"
+    ],
+    "relatedConcepts": [
+        "database",
+        "sql",
+        "postgresql",
+        "sqlite",
+        "acid-properties"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Relational+Databases+(RDBMS)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        },
+        {
+            "title": "Database Internals by Alex Petrov",
+            "url": "https://www.amazon.com/dp/1492040347?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Relational database - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Relational_database",
+            "type": "website"
+        },
+        {
+            "title": "A Relational Model of Data for Large Shared Data Banks - E.F. Codd (1970)",
+            "url": "https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

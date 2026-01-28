@@ -1,0 +1,59 @@
+{
+    "id": "debian",
+    "name": "Debian",
+    "summary": "One of the oldest and most influential Linux distributions, known for its stability, free software commitment, and serving as the foundation for Ubuntu and many other distributions.",
+    "explanation": "Debian is one of the oldest and most influential Linux distributions, founded by Ian Murdock in 1993. The name combines 'Debra' (his then-girlfriend) and 'Ian.' Known for its stability, strict adherence to free software principles, and vast software repository, Debian serves as the foundation for many other distributions including Ubuntu, Linux Mint, and Raspberry Pi OS.\n\nDebian is developed by a large volunteer community and governed by the Debian Social Contract, which commits to keeping the system 100% free software. The Debian Free Software Guidelines (DFSG) have become a foundational definition of open source software.\n\nKey characteristics of Debian include its exceptional stability through extensive testing before release (making it favored for servers), strict commitment to free software principles, universal support for 9+ hardware architectures, and comprehensive package management through apt/dpkg with over 59,000 packages available.\n\nDebian maintains three main release branches: Stable (thoroughly tested with frozen packages for production servers), Testing (the next stable release with newer packages for desktop users), and Unstable (codenamed 'Sid', a rolling release with the latest packages for developers). This release model allows users to choose their preferred balance between stability and freshness of software.\n\nThe community-driven nature of Debian, with no corporate owner, ensures decisions are made in the interest of users and free software principles rather than commercial interests. This governance model has made Debian a trusted choice for servers, desktops, and embedded systems worldwide.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "open-source"
+    ],
+    "category": "Software Development",
+    "icon": "FaLaptop",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "linux"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Debian"
+    ],
+    "articles": [
+        {
+            "title": "Debian Official Website",
+            "url": "https://www.debian.org",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Debian - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Debian",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

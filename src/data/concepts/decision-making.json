@@ -1,0 +1,61 @@
+{
+    "id": "decision-making",
+    "name": "Decision Making",
+    "summary": "The cognitive process of selecting a course of action from multiple alternatives by identifying options, evaluating consequences, and choosing based on preferences or goals.",
+    "explanation": "Decision Making is the cognitive process of selecting a course of action from multiple alternatives. It involves identifying options, evaluating potential consequences, and choosing based on preferences, values, or goals. Research in cognitive psychology, economics, and neuroscience has revealed that human decision-making is profoundly shaped by cognitive biases, emotions, and environmental factors, often deviating significantly from purely rational choice models.\n\nDaniel Kahneman and Amos Tversky's groundbreaking work on heuristics and biases transformed our understanding of decisions, earning Kahneman the Nobel Prize in Economics in 2002. Their dual-process theory distinguishes fast, intuitive 'System 1' thinking from slow, deliberate 'System 2' reasoning. Most everyday decisions rely on System 1, with System 2 activating only for complex or unfamiliar problems. Herbert Simon's concept of bounded rationality further demonstrated that humans 'satisfice' (satisfy + suffice) rather than optimize due to cognitive limitations, time constraints, and incomplete information.\n\nDecisions can be categorized by stakes and complexity: routine (habitual, low-stakes), tactical (medium-term, some analysis required), and strategic (long-term, high-stakes). The quality of decisions is affected by numerous factors including emotions, fatigue (decision fatigue), time pressure, social influence, framing effects, and cognitive load. Common biases that derail decisions include confirmation bias, anchoring, availability heuristic, sunk cost fallacy, loss aversion, and overconfidence.\n\nImproving decision quality involves several practical strategies: slowing down to engage System 2 for important choices, actively considering alternatives rather than binary options, seeking disconfirming evidence, using checklists and decision frameworks, limiting daily decisions to combat decision fatigue, and seeking outside perspectives to counter blind spots. Decision frameworks like the decision matrix, regret minimization (Bezos), 10/10/10 rule, and pre-mortem analysis provide structured approaches for different decision types.",
+    "tags": [
+        "decision-making",
+        "psychology",
+        "cognitive-science",
+        "mental-models",
+        "thinking"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBalanceScale",
+    "featured": true,
+    "aliases": [
+        "Decision-Making",
+        "Decisions"
+    ],
+    "relatedConcepts": [
+        "bounded-rationality",
+        "cognitive-biases",
+        "decision-fatigue",
+        "decision-hygiene",
+        "decision-journal",
+        "heuristics",
+        "prospect-theory",
+        "satisficing",
+        "behavioral-economics",
+        "cognitive-load"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Decision+Making"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        },
+        {
+            "title": "Nudge by Richard Thaler and Cass Sunstein",
+            "url": "https://www.amazon.com/dp/014311526X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Decision-making - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision-making",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

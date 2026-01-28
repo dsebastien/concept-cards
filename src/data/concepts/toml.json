@@ -1,0 +1,51 @@
+{
+    "id": "toml",
+    "name": "TOML",
+    "summary": "A configuration file format designed to be easy to read due to obvious semantics, mapping unambiguously to a hash table.",
+    "explanation": "TOML (Tom's Obvious Minimal Language) is a configuration file format created by Tom Preston-Werner (co-founder of GitHub) in 2013. It prioritizes human readability over flexibility while maintaining unambiguous parsing.\n\nUnlike YAML, TOML avoids whitespace-sensitivity and complex features that can lead to parsing ambiguities. Its minimal syntax uses simple, obvious rules with strong typing for dates, times, integers, floats, and booleans. Comments are supported using the # character, and keys are case-sensitive.\n\nTOML has become the standard configuration format for modern development tools. Rust uses Cargo.toml for package management, Python adopted pyproject.toml (PEP 518, PEP 621) for project configuration, and static site generators like Hugo and Zola use it for site configuration. Its combination of readability, simplicity, and lack of whitespace sensitivity makes it an excellent choice for configuration files where clarity matters.",
+    "tags": [
+        "configuration",
+        "data-formats",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Tom's Obvious Minimal Language"
+    ],
+    "relatedConcepts": [
+        "yaml",
+        "json"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Tom's+Obvious+Minimal+Language+(TOML)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "TOML - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/TOML",
+            "type": "website"
+        },
+        {
+            "title": "TOML: Tom's Obvious Minimal Language",
+            "url": "https://toml.io",
+            "type": "website"
+        },
+        {
+            "title": "TOML GitHub Repository",
+            "url": "https://github.com/toml-lang/toml",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

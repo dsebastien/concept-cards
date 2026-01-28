@@ -1,0 +1,98 @@
+{
+    "id": "ai-agent-swarms",
+    "name": "AI Agent Swarms",
+    "summary": "Systems where multiple AI agents work together to accomplish complex tasks through collaboration, communication, and coordination.",
+    "explanation": "AI Agent Swarms are systems where multiple AI agents work together to accomplish complex tasks. Instead of a single agent handling everything, swarms distribute work across specialized agents that collaborate, communicate, and coordinate their actions. Swarms leverage the principle that multiple focused agents can outperform a single generalist agent on complex, multi-faceted problems.\n\nSwarms overcome single-agent limitations such as context window constraints, the jack-of-all-trades problem, single points of failure, and sequential processing bottlenecks. Key advantages include specialization (each agent excels at specific tasks), parallelism (multiple agents work simultaneously), resilience (failure of one agent doesn't stop the system), scalability (add agents as complexity grows), and diverse perspectives (different agents may find different solutions).\n\nCommon swarm architectures include: Hierarchical (central orchestrator assigns tasks to workers), Peer-to-Peer (agents communicate directly with emergent coordination), Pipeline (sequential handoff between specialists), and Debate/Adversarial (agents argue different positions while a judge evaluates).\n\nCoordination mechanisms include shared memory (common knowledge base all agents access), message passing (event-driven communication between agents), blackboard systems (central state where agents post partial solutions), and task queues (agents claim and complete work from a central queue).\n\nCommon agent roles in software development swarms include Product Manager, Architect, Developer, Reviewer, Tester, and DevOps. Research swarms typically have Researcher, Analyst, Critic, and Writer roles. Creative swarms may include Ideator, Refiner, Editor, and Fact-checker.\n\nChallenges include coordination overhead (communication costs tokens), consistency (agents may have conflicting views), debugging difficulty (hard to trace issues across agents), cost multiplication (many agents means many API calls), and emergent behavior (unpredictable interactions). Best practices include clear role definitions, explicit handoff protocols, shared context management, error escalation procedures, human checkpoints for critical decisions, and comprehensive logging for observability.",
+    "tags": [
+        "ai",
+        "automation",
+        "workflows",
+        "distributed-systems",
+        "scalability"
+    ],
+    "category": "AI",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Multi-Agent Systems",
+        "Agent Swarms"
+    ],
+    "relatedConcepts": [
+        "ai-agent"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Agent+Swarms"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Multi-agent system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Multi-agent_system",
+            "type": "website"
+        },
+        {
+            "title": "AutoGen - Microsoft Multi-Agent Framework",
+            "url": "https://github.com/microsoft/autogen",
+            "type": "website"
+        },
+        {
+            "title": "CrewAI - Role-based Agent Orchestration",
+            "url": "https://github.com/joaomdmoura/crewAI",
+            "type": "website"
+        },
+        {
+            "title": "LangGraph - Graph-based Agent Workflows",
+            "url": "https://github.com/langchain-ai/langgraph",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

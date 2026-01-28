@@ -1,0 +1,59 @@
+{
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "summary": "A Debian-based Linux distribution focused on ease of use and accessibility, making it the most popular desktop Linux distribution worldwide.",
+    "explanation": "Ubuntu is a Debian-based Linux distribution created by Mark Shuttleworth and his company Canonical in 2004. The name comes from the Zulu/Xhosa word meaning 'humanity to others,' reflecting its mission to bring free software to the widest audience by prioritizing ease of use and regular releases.\n\nUbuntu has become the most popular desktop Linux distribution and is widely used on servers and in cloud environments. It offers both standard releases (every 6 months in April and October) with 9 months of support, and Long Term Support (LTS) releases (every 2 years in April) with 5 years of standard support that can be extended to 10 years with Extended Security Maintenance (ESM).\n\nKey characteristics of Ubuntu include its user-friendly design focused on ease of installation and use, its Debian foundation which provides stability and the apt package management system, a predictable release cycle, enterprise-grade long-term support options, and commercial backing from Canonical which provides professional support services.\n\nUbuntu comes in several official flavors to suit different user preferences: Ubuntu with the GNOME desktop environment, Kubuntu with KDE Plasma, Xubuntu with Xfce, Lubuntu with LXQt, and Ubuntu Server for headless deployments. This variety allows users to choose the desktop environment that best fits their needs while benefiting from Ubuntu's ecosystem and support infrastructure.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaLaptop",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "linux"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Ubuntu"
+    ],
+    "articles": [
+        {
+            "title": "Ubuntu Official Website",
+            "url": "https://ubuntu.com",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Ubuntu - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ubuntu",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

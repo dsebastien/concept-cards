@@ -1,0 +1,30 @@
+{
+  "id": "sensation",
+  "name": "Sensation",
+  "summary": "The process by which sensory receptors detect physical stimuli from the environment and convert them into neural signals.",
+  "explanation": "Sensation is the process by which sensory receptors detect physical stimuli and convert them into neural signals through a process called transduction. It is distinct from perception, which involves interpreting and organizing those signals into meaningful experiences. While sensation is largely automatic and physiological, perception is cognitive and influenced by experience, expectations, and context.\n\nThe study of sensation began with psychophysics, founded by Gustav Fechner and Ernst Weber in the 19th century, establishing quantitative relationships between physical stimuli and psychological experience. Each sensory system has specialized receptors tuned to specific forms of energy: photoreceptors for light, mechanoreceptors for pressure, chemoreceptors for molecules.\n\nKey concepts in sensation include absolute threshold (the minimum stimulus detectable 50% of the time), difference threshold or just noticeable difference (the smallest detectable change in stimulus intensity), and signal detection theory (which separates sensitivity from response bias). Weber's Law states that the just noticeable difference is proportional to the original stimulus intensity, while Fechner's Law relates perceived intensity to the logarithm of stimulus intensity.\n\nSensory systems include vision, audition, touch, pain, temperature, taste, smell, proprioception (body position), and the vestibular system (balance and spatial orientation). Sensory adaptation occurs when receptors decrease their response to constant stimulation, explaining why we stop noticing constant stimuli like background noise or the feeling of clothing.\n\nUnderstanding sensation is foundational for cognitive psychology, neuroscience, and practical applications in design, accessibility, and human factors engineering. Design considerations include ensuring sufficient contrast for visual thresholds, appropriate audio feedback levels, and accounting for varied sensory abilities in accessibility.",
+  "tags": ["psychology", "perception", "neuroscience", "sensory-processing", "psychophysics"],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBrain",
+  "featured": false,
+  "aliases": ["Sensory Processing", "Sensory Systems"],
+  "relatedConcepts": ["perception", "psychophysics"],
+  "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Sensation"],
+  "articles": [],
+  "books": [
+    {
+      "title": "Sensation and Perception by E. Bruce Goldstein",
+      "url": "https://www.amazon.com/dp/1305580299?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Sensation (psychology) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sensation_(psychology)",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

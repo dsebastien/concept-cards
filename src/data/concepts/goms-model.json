@@ -1,0 +1,53 @@
+{
+    "id": "goms-model",
+    "name": "GOMS Model",
+    "summary": "A cognitive task analysis framework that predicts how long expert users take to complete computer tasks by analyzing Goals, Operators, Methods, and Selection rules.",
+    "explanation": "GOMS (Goals, Operators, Methods, and Selection rules) is a human information processing model developed by Stuart Card, Thomas P. Moran, and Allen Newell, introduced in their seminal 1983 book 'The Psychology of Human-Computer Interaction'. It was one of the first rigorous engineering models for Human-Computer Interaction (HCI), enabling quantitative predictions of user performance.\n\nThe model decomposes tasks into four components: Goals (what users want to accomplish), Operators (primitive physical and mental actions like keystrokes or mouse clicks), Methods (sequences of operators that achieve goals), and Selection rules (how users choose between alternative methods). The Keystroke-Level Model (KLM), a simplified GOMS variant, assigns time values to operators (e.g., 0.2 seconds for a keystroke, 1.1 seconds for mouse pointing), allowing designers to calculate task completion times.\n\nGOMS enables comparing design alternatives objectively and identifying inefficiencies without extensive user testing. For example, comparing keyboard shortcuts versus menu navigation reveals significant time differences. However, the model assumes expert, error-free performance and doesn't account for learning, errors, or fatigue, limiting its applicability to routine cognitive tasks performed by skilled users.",
+    "tags": [
+        "human-computer-interaction",
+        "usability",
+        "cognitive-psychology",
+        "task-analysis",
+        "user-experience"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Goals, Operators, Methods, and Selection rules",
+        "GOMS",
+        "Keystroke-Level Model",
+        "KLM"
+    ],
+    "relatedConcepts": [
+        "human-computer-interaction",
+        "usability",
+        "cognitive-psychology"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/GOMS+Model"
+    ],
+    "articles": [
+        {
+            "title": "GOMS Model - Interaction Design Foundation",
+            "url": "https://www.interaction-design.org/literature/topics/goms-model",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Psychology of Human-Computer Interaction by Stuart Card, Thomas P. Moran, and Allen Newell",
+            "url": "https://www.amazon.com/dp/0898598591?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "GOMS - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GOMS",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

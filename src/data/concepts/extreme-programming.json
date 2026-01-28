@@ -1,0 +1,63 @@
+{
+    "id": "extreme-programming",
+    "name": "Extreme Programming",
+    "summary": "An agile software development methodology that emphasizes technical excellence, continuous feedback, and close customer collaboration through practices taken to their logical extremes.",
+    "explanation": "Extreme Programming (XP) is an agile software development methodology created by Kent Beck in the late 1990s. It emerged from the Chrysler Comprehensive Compensation System (C3) project and represents a disciplined approach to delivering high-quality software quickly and continuously.\n\nThe methodology takes proven software development practices to their logical extremes: if code review is good, do it continuously through pair programming; if testing is good, write tests first using Test-Driven Development; if integration is good, integrate continuously.\n\nXP is built on five core values:\n\n1. Communication - Team members talk constantly and openly\n2. Simplicity - Build only what is needed now, no speculative features\n3. Feedback - Learn from code, tests, and customers as quickly as possible\n4. Courage - Make necessary changes and refactor boldly\n5. Respect - Value each team member's contributions\n\nKey practices that define XP include:\n\n- Pair Programming: Two developers work at one computer, providing continuous code review\n- Test-Driven Development: Write tests before code to ensure quality and design clarity\n- Continuous Integration: Integrate and test code frequently, often multiple times daily\n- Refactoring: Continuously improve code design without changing functionality\n- Small Releases: Release working software in small, frequent increments\n- Collective Code Ownership: Any developer can modify any code\n- Simple Design: Build the simplest solution that works\n- Coding Standards: Maintain consistent style across the entire team\n- Sustainable Pace: Work at a pace that can be maintained indefinitely (no death marches)\n- On-site Customer: A customer representative is always available for questions\n- Planning Game: Collaborative planning involving business and technical perspectives\n\nXP iterations typically run 1-3 weeks, following a cycle of plan, design, code, test, integrate, and release. The methodology emphasizes frequent feedback loops at every level, from pair programming conversations to daily builds to weekly iterations.\n\nWhile XP was originally designed for small, co-located teams, many of its practices have been widely adopted across the software industry, including TDD, continuous integration, and pair programming. XP influenced the creation of the Agile Manifesto and remains one of the most technically rigorous agile methodologies.",
+    "tags": [
+        "agile",
+        "software-engineering",
+        "methodologies",
+        "collaboration",
+        "iteration",
+        "testing"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "XP"
+    ],
+    "relatedConcepts": [
+        "agile-manifesto",
+        "test-driven-development",
+        "scrum",
+        "pair-programming",
+        "kaizen"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Extreme+Programming+(XP)"
+    ],
+    "articles": [
+        {
+            "title": "Extreme Programming: A gentle introduction",
+            "url": "http://www.extremeprogramming.org",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Extreme Programming Explained: Embrace Change by Kent Beck",
+            "url": "https://www.amazon.com/dp/0321278658?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

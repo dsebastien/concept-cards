@@ -1,0 +1,74 @@
+{
+    "id": "supabase",
+    "name": "Supabase",
+    "summary": "An open-source Backend-as-a-Service (BaaS) platform often described as an open-source Firebase alternative, built on top of PostgreSQL.",
+    "explanation": "Supabase is an open-source Backend-as-a-Service platform that provides developers with a complete backend stack including database, authentication, storage, real-time subscriptions, and edge functions. Unlike Firebase which uses a proprietary NoSQL database, Supabase is built on top of PostgreSQL, giving developers the full power of SQL, joins, and relational data modeling while still offering real-time capabilities.\n\nThe platform offers several core features that make it a compelling choice for modern application development. For database needs, it provides a full PostgreSQL instance with a visual table editor, SQL editor, database branching for development workflows, and automatic API generation from your schema. Authentication includes email/password, magic links, phone auth, OAuth providers (Google, GitHub, Apple, etc.), Row Level Security integration, and multi-factor authentication.\n\nSupabase Storage offers S3-compatible object storage with image transformations, CDN delivery, and access policies tied to authentication. The real-time feature allows subscribing to database changes via WebSockets, broadcasting messages between clients, and presence tracking. Edge Functions provide serverless computing at the edge using the Deno runtime with TypeScript/JavaScript support.\n\nOne of Supabase's key differentiators is its auto-generated APIs. It automatically creates both REST APIs (via PostgREST) and GraphQL endpoints from your database schema, enabling rapid development without writing backend code. Row Level Security (RLS) policies allow fine-grained access control at the database level, ensuring data security.\n\nSupabase can be self-hosted using Docker, which significantly reduces vendor lock-in compared to proprietary alternatives. This open-source nature, combined with PostgreSQL's maturity and the platform's comprehensive feature set, has made Supabase increasingly popular among startups and enterprises building modern web and mobile applications.",
+    "tags": [
+        "databases",
+        "software-development",
+        "software-engineering",
+        "tools",
+        "open-source"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "relatedConcepts": [
+        "postgresql"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Supabase"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Supabase - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Supabase",
+            "type": "website"
+        },
+        {
+            "title": "Supabase Official Website",
+            "url": "https://supabase.com/",
+            "type": "website"
+        },
+        {
+            "title": "Supabase Documentation",
+            "url": "https://supabase.com/docs",
+            "type": "website"
+        },
+        {
+            "title": "Supabase on GitHub",
+            "url": "https://github.com/supabase/supabase",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

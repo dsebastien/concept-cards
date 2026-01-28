@@ -1,0 +1,53 @@
+{
+    "id": "lazygit",
+    "name": "LazyGit",
+    "summary": "A terminal-based user interface (TUI) for Git that provides a visual, keyboard-driven way to perform Git operations.",
+    "explanation": "LazyGit is a free and open-source terminal-based user interface for Git, written in Go by Jesse Duffield. It provides a visual, keyboard-driven way to perform Git operations without memorizing complex commands, displaying files, branches, commits, and stashes in separate panels for intuitive repository management.\n\nThe tool simplifies complex Git workflows like interactive rebasing, cherry-picking, and conflict resolution through its visual interface. It's particularly useful for developers who prefer staying in the terminal but want a more visual Git experience than the command line provides.\n\nKey features include visual staging of individual lines or hunks, branch management for creating, checking out, merging, and rebasing visually, interactive rebase for squashing, reordering, and editing commits, side-by-side diff view for merge conflict resolution, stash management, commit graph visualization showing branch history and relationships, and extensibility through user-defined custom commands.\n\nLazyGit exemplifies the power of TUI applications, bridging the gap between command-line simplicity and GUI convenience. It's become a popular tool among developers who value terminal-based workflows but appreciate visual feedback for complex Git operations.",
+    "tags": [
+        "software-engineering",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "git",
+        "tui"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/LazyGit"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "LazyGit GitHub Repository",
+            "url": "https://github.com/jesseduffield/lazygit",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

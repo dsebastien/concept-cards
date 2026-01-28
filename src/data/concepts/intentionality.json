@@ -1,0 +1,24 @@
+{
+    "id": "intentionality",
+    "name": "Intentionality",
+    "summary": "The property of mental states by which they are 'about' or 'directed toward' something, considered by some philosophers to be the defining mark of the mental.",
+    "explanation": "Intentionality is the 'aboutness' or 'directedness' of mental states - the property by which thoughts, beliefs, and desires are about something. When you believe that Paris is in France, your belief is about Paris; when you desire coffee, your desire is directed at coffee. This concept was central to the work of Franz Brentano (1874), who argued that intentionality is the mark of the mental - what fundamentally distinguishes mind from mere matter.\n\nThe concept has become central to debates about artificial intelligence and consciousness. John Searle's Chinese Room Argument claims that computers lack genuine intentionality - they manipulate symbols without truly understanding what those symbols are about. This relates to the Symbol Grounding Problem, which asks how symbols can acquire genuine meaning or intentionality.\n\nA key distinction exists between 'original' and 'derived' intentionality. Minds possess original intentionality - their mental states are intrinsically about things. Symbols and words, by contrast, have only derived intentionality - they mean something only because minds use them to represent things.\n\nIt's important to note that intentionality (aboutness) differs from 'intention' (purpose or plan), though the concepts are related. Intentionality is a broader philosophical concept encompassing all forms of mental directedness, while intentions are specific mental states about future actions.",
+    "tags": ["philosophy", "consciousness", "phenomenology", "philosophy-of-mind", "cognitive-science"],
+    "category": "Philosophy & Wisdom",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": ["Aboutness", "Mental Content"],
+    "relatedConcepts": ["consciousness", "philosophy-of-mind", "chinese-room-argument"],
+    "relatedNotes": ["https://notes.dsebastien.net/33+Areas/33+Permanent+notes/33.02+Content/Intentionality"],
+    "articles": [],
+    "books": [
+        { "title": "Psychology from an Empirical Standpoint by Franz Brentano", "url": "https://www.amazon.com/dp/0415106605?tag=dsebastien00-20" },
+        { "title": "Intentionality by John Searle", "url": "https://www.amazon.com/dp/0521273021?tag=dsebastien00-20" }
+    ],
+    "references": [
+        { "title": "Intentionality - Wikipedia", "url": "https://en.wikipedia.org/wiki/Intentionality", "type": "website" }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "dbms",
+    "name": "Database Management System",
+    "summary": "Software that manages databases, providing an interface between users/applications and data while handling storage, retrieval, security, backup, and concurrent access.",
+    "explanation": "A Database Management System (DBMS) is software that manages databases, providing an interface between users/applications and the data. It handles storage, retrieval, security, backup, and concurrent access to data, abstracting physical storage details so users can interact with data through high-level languages like SQL without understanding how data is stored on disk.\n\n**Core Functions**:\n\n- **Data storage management**: Efficiently store and organize data on disk\n- **Query processing**: Parse, optimize, and execute queries\n- **Transaction management**: Ensure ACID properties for data integrity\n- **Concurrency control**: Handle multiple simultaneous users safely\n- **Security**: Authentication, authorization, and access control\n- **Backup and recovery**: Protect against data loss and corruption\n- **Data integrity**: Enforce constraints and relationships\n\n**Three-Schema Architecture**:\n\n1. **External level**: User views of the data (what users see)\n2. **Conceptual level**: Logical structure of the entire database\n3. **Internal level**: Physical storage details\n\n**Types of DBMS by Data Model**:\n\n- **Relational (RDBMS)**: Tables with rows and columns (PostgreSQL, SQLite, MySQL)\n- **Document**: JSON/BSON documents (MongoDB, CouchDB)\n- **Key-Value**: Simple key-value pairs (Redis, DynamoDB)\n- **Graph**: Nodes and relationships (Neo4j, Amazon Neptune)\n- **Wide-Column**: Column families (Cassandra, HBase)\n- **Time-Series**: Optimized for time-stamped data (InfluxDB, TimescaleDB)\n\n**Types by Architecture**:\n\n- **Centralized**: Single server (traditional)\n- **Distributed**: Data spread across multiple nodes\n- **Federated**: Unified view of multiple independent databases\n- **Cloud-native**: Designed for cloud deployment (Spanner, Aurora)\n\n**Types by Use Case**:\n\n- **OLTP**: Online Transaction Processing (fast writes, many users)\n- **OLAP**: Online Analytical Processing (complex queries, reporting)\n- **HTAP**: Hybrid Transactional/Analytical Processing\n\n**Key Concepts**:\n\n**Query Optimization**: The DBMS query optimizer chooses the most efficient execution plan by parsing queries, generating possible plans, estimating costs, and selecting the lowest-cost option.\n\n**Buffer Management**: Caches frequently accessed data in memory using page replacement policies (LRU, Clock), write-ahead logging (WAL), and dirty page management.\n\n**Concurrency Control**: Handles simultaneous access through pessimistic locking (lock before access), optimistic locking (check conflicts at commit), or MVCC (Multi-Version Concurrency Control).\n\n**Recovery**: Restores data after failures using Write-Ahead Logging (WAL), checkpointing, and algorithms like ARIES.",
+    "tags": [
+        "databases",
+        "software-engineering",
+        "software-architecture",
+        "data-storage"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "DBMS",
+        "Database Management Systems"
+    ],
+    "relatedConcepts": [
+        "database",
+        "sql"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Database+Management+Systems+(DBMS)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        },
+        {
+            "title": "Database Internals by Alex Petrov",
+            "url": "https://www.amazon.com/dp/1492040347?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Database management system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Database#Database_management_system",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

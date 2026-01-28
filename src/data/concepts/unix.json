@@ -1,0 +1,67 @@
+{
+    "id": "unix",
+    "name": "Unix",
+    "summary": "A family of multitasking, multi-user operating systems that originated at Bell Labs in 1969 and introduced foundational concepts that shaped modern computing.",
+    "explanation": "Unix is a family of multitasking, multi-user operating systems that originated at AT&T's Bell Labs in 1969. Developed by Ken Thompson, Dennis Ritchie, and others, Unix introduced concepts that remain foundational to modern computing: hierarchical file systems, plain text configuration, pipes, and the philosophy of small, composable tools. Dennis Ritchie rewrote Unix in C in 1973, making it one of the first portable operating systems.\n\nDue to AT&T's licensing restrictions, Unix spawned numerous variants and inspired free alternatives. BSD emerged from Berkeley in the 1970s-80s, while Richard Stallman's GNU project (1983) and Linus Torvalds' Linux kernel (1991) created the dominant free Unix-like systems used today. The POSIX standard (1988) codified Unix interfaces for portability.\n\nThe Unix philosophy, articulated by Doug McIlroy, emphasizes several key principles: do one thing well (programs should have a single, focused purpose), use text streams as the universal interface, build composable tools that combine via pipes and scripts, prototype quickly and iterate, and prefer simplicity over cleverness.\n\nKey Unix innovations include the hierarchical filesystem where everything is a file under the root directory, pipes that connect program output to input, the shell as a programmable command interpreter, the C language enabling portable systems programming, plain text configuration files that are human-readable, and multi-user support with process isolation and permissions.\n\nThe Unix family tree includes AT&T Unix (the original System III and System V), BSD (Berkeley Software Distribution including FreeBSD, OpenBSD, and NetBSD), commercial variants (Solaris, AIX, HP-UX), and Unix-like systems (Linux, GNU/Linux, macOS with its Darwin/XNU kernel).",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "history"
+    ],
+    "category": "Software Development",
+    "icon": "FaLaptop",
+    "featured": false,
+    "aliases": [
+        "UNIX"
+    ],
+    "relatedConcepts": [
+        "linux",
+        "shell",
+        "bash"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Unix"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Unix Programming Environment by Kernighan & Pike",
+            "url": "https://www.amazon.com/dp/013937681X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Unix - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unix",
+            "type": "website"
+        },
+        {
+            "title": "Unix philosophy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unix_philosophy",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

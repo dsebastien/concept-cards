@@ -1,0 +1,38 @@
+{
+    "id": "typescript",
+    "name": "TypeScript",
+    "summary": "A strongly-typed superset of JavaScript that adds static type checking and compiles to plain JavaScript, catching errors at development time rather than runtime.",
+    "explanation": "TypeScript is a programming language developed and maintained by Microsoft, created by Anders Hejlsberg (also known for creating C# and Delphi). First released in 2012, TypeScript extends JavaScript by adding optional static type checking, making it easier to write and maintain large-scale applications.\n\nAt its core, TypeScript is a superset of JavaScript, meaning all valid JavaScript code is also valid TypeScript code. This design decision enables gradual adoption, allowing teams to incrementally add types to existing JavaScript projects without requiring a complete rewrite. The TypeScript compiler (tsc) transpiles TypeScript code into standard JavaScript that runs in any browser or JavaScript runtime.\n\nKey Features and Benefits:\n\n1. Static Type System: TypeScript's type system catches errors at compile time rather than runtime. Types can be explicitly declared or inferred by the compiler, providing flexibility in how strictly you want to type your code.\n\n2. Superior IDE Support: The type information enables powerful features in modern editors like VS Code, including intelligent code completion, instant error detection, safe refactoring, and comprehensive documentation on hover.\n\n3. Modern JavaScript Features: TypeScript supports the latest ECMAScript features and can compile them down to older JavaScript versions for broader browser compatibility.\n\n4. Interfaces and Generics: TypeScript provides advanced type constructs that enable better code organization and reusability, allowing developers to define contracts for objects and create flexible, type-safe abstractions.\n\n5. Configuration Flexibility: The tsconfig.json file allows teams to tune the strictness of type checking to match their needs, from loose checking for legacy code migration to strict mode for maximum type safety.\n\nTypeScript has become the de facto standard for large-scale JavaScript development. It's widely adopted in frontend frameworks (React, Vue, Angular), backend development (Node.js, Deno, Bun), and enables full-stack type safety through tools like tRPC, Prisma, and Zod. Its ability to improve code quality, enable better tooling, and scale to large codebases has made it one of the most loved programming languages in developer surveys.",
+    "tags": [
+        "programming",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "TypeScript Programming Language",
+        "TS"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/TypeScript"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "TypeScript - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/TypeScript",
+            "type": "website"
+        },
+        {
+            "title": "TypeScript Official Website",
+            "url": "https://www.typescriptlang.org/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

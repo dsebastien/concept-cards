@@ -1,0 +1,68 @@
+{
+    "id": "git-bash",
+    "name": "Git Bash",
+    "summary": "A Bash emulation for Windows bundled with Git for Windows, providing a Unix-like command line experience on Windows systems.",
+    "explanation": "Git Bash is a Bash shell emulation for Windows that comes bundled with Git for Windows. It combines MSYS2 (a collection of Unix tools for Windows) with Bash, enabling Windows users to run the same commands and scripts that work on macOS and Linux systems.\n\nThe tool provides full Bash functionality along with essential Unix utilities like grep, sed, awk, find, and ssh. It includes the Mintty terminal emulator, which offers modern features such as good Unicode support. One of its most practical features is automatic path translation between Windows (C:\\Users\\name) and Unix-style paths (/c/Users/name).\n\nGit Bash is particularly valuable for developers who work across multiple operating systems or collaborate with team members on different platforms. It allows running Bash scripts without modification, provides a native Git experience on Windows, and includes a built-in SSH client for remote connections. The consistent command-line experience reduces friction when switching between environments.\n\nWhile Git Bash is lightweight and sufficient for most Git workflows and basic Unix operations, it is not a full Linux environment. Users requiring more comprehensive Linux compatibility should consider Windows Subsystem for Linux (WSL). Git Bash may also exhibit minor behavioral differences with some Unix tools and can be slower than native shells in certain scenarios.",
+    "tags": [
+        "software",
+        "tools",
+        "version-control",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "Git for Windows Bash"
+    ],
+    "relatedConcepts": [
+        "git",
+        "bash",
+        "shell"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Git+Bash"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Git for Windows Official Website",
+            "url": "https://gitforwindows.org/",
+            "type": "website"
+        },
+        {
+            "title": "Git for Windows Download",
+            "url": "https://git-scm.com/download/win",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

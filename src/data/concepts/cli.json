@@ -1,0 +1,57 @@
+{
+    "id": "cli",
+    "name": "Command Line Interface",
+    "summary": "A text-based interface where users interact with software by typing commands and receiving text output.",
+    "explanation": "A Command Line Interface (CLI) is a text-based interface where users interact with software by typing commands. The program processes the command and returns text output. CLIs are the oldest and most fundamental way to interact with computers, predating graphical user interfaces by decades.\n\nDespite graphical interfaces dominating consumer software, CLIs remain essential for developers, system administrators, and power users. They offer precision, automation capabilities, and efficiency that GUIs often cannot match.\n\nCLIs have several key characteristics that make them powerful: text-based input and output (commands are typed and results are printed as text), scriptability (commands can be combined and automated), precise control (fine-grained options available through flags and arguments), low overhead (minimal resource usage), and remote-friendliness (they work seamlessly over SSH and in headless environments).\n\nThe anatomy of a typical CLI command follows this pattern: command [subcommand] [options/flags] [arguments]. For example, in 'git commit -m \"Initial commit\"', 'git' is the program, 'commit' is the subcommand, '-m' is a flag/option, and 'Initial commit' is the argument.\n\nCommon CLI patterns include flags (like -v for short form or --verbose for long form), positional arguments that the command operates on, piping (command1 | command2) to chain output to input, redirection (> writes output to file, < reads input from file), and environment variables for configuration via $VAR_NAME.\n\nWhen comparing CLIs to Terminal User Interfaces (TUIs) and Graphical User Interfaces (GUIs), CLIs excel at automation and scripting, have the steepest learning curve, and use minimal system resources. TUIs provide interactive text displays with keyboard navigation and moderate automation capabilities. GUIs offer the gentlest learning curve with mouse and keyboard input but have poor automation support and higher resource usage.\n\nPopular CLI tools include Git for version control, curl and wget for HTTP requests, grep and ripgrep for text search, jq for JSON processing, and ffmpeg for media processing.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "CLI",
+        "Command-Line Interface"
+    ],
+    "relatedConcepts": [
+        "shell",
+        "bash"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Command+Line+Interface+(CLI)"
+    ],
+    "references": [
+        {
+            "title": "Command-line interface - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Command-line_interface",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

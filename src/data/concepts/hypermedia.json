@@ -1,0 +1,36 @@
+{
+    "id": "hypermedia",
+    "name": "Hypermedia",
+    "summary": "An extension of hypertext that incorporates multimedia elements like images, audio, video, and interactive content into linked information systems.",
+    "explanation": "Hypermedia extends the concept of hypertext beyond text-only links to include multimedia content such as graphics, audio, video, animations, and interactive elements. While hypertext connects textual documents through links, hypermedia creates rich, interconnected experiences that engage multiple senses and modes of interaction.\n\n**Origins and Evolution**:\nThe term \"hypermedia\" was coined by Ted Nelson in 1965, building on his earlier work on hypertext. Nelson envisioned systems where any type of media could be linked and navigated non-linearly. The World Wide Web, while often described as a hypertext system, is fundamentally a hypermedia system—web pages routinely combine text, images, videos, and interactive elements connected through hyperlinks.\n\n**Key Characteristics**:\n- **Multimodal content**: Integrates text, images, audio, video, and interactive elements\n- **Non-linear navigation**: Users choose their own path through interconnected content\n- **Linking across media types**: A text passage can link to a video, an image can link to audio\n- **Interactivity**: Users can interact with and manipulate content, not just consume it\n\n**Hypermedia in Modern Applications**:\n- **Websites and web applications**: The primary example of hypermedia in daily use\n- **Educational software**: Interactive learning materials with linked multimedia\n- **Digital encyclopedias**: Rich media entries connected to related content\n- **Streaming platforms**: Recommendation systems linking videos based on content and preferences\n\n**REST and HATEOAS**:\nIn software architecture, hypermedia plays a crucial role in RESTful API design through the principle of HATEOAS (Hypermedia as the Engine of Application State). APIs that follow this principle include links in their responses, allowing clients to discover available actions dynamically rather than hardcoding endpoints.\n\n**Impact on Information Design**:\nHypermedia has transformed how we create and consume information. It enables richer storytelling, more engaging educational content, and more intuitive user interfaces. Understanding hypermedia principles helps designers create more navigable, discoverable, and user-friendly digital experiences.",
+    "tags": [
+        "software-engineering",
+        "information-architecture",
+        "foundations"
+    ],
+    "category": "Software Development",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Hypermedia Systems"
+    ],
+    "relatedConcepts": [
+        "hypertext",
+        "world-wide-web"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Hypermedia"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Hypermedia - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hypermedia",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

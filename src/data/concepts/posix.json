@@ -1,0 +1,43 @@
+{
+    "id": "posix",
+    "name": "POSIX",
+    "summary": "A family of IEEE standards defining the API, shell, and utility interfaces for Unix-like operating systems to ensure software portability.",
+    "explanation": "POSIX (Portable Operating System Interface) is a family of standards specified by IEEE and standardized by ISO, defining the API, command-line interface, and utility interfaces for Unix-like operating systems. The name was suggested by Richard Stallman in response to an IEEE request. First published in 1988 as IEEE 1003.1, POSIX ensures software portability across different Unix variants.\n\nPOSIX compliance means applications can run on any conforming system with minimal modification. While no operating system is fully POSIX-compliant, Linux, macOS (which is certified), FreeBSD, and other Unix-like systems implement most POSIX standards, enabling portable shell scripts and C programs across platforms.\n\nPOSIX defines several key areas of operating system functionality. System calls cover file operations, process control, and signals. C library functions include standard functions like fork(), exec(), and open(). Shell and utilities encompass Bash-compatible shell and standard commands such as ls, grep, and awk. Threading is handled through the POSIX threads (pthreads) API. Regular expressions define both basic and extended regex syntax. Environment variables establish conventions for PATH, HOME, and USER.\n\nThe key POSIX standards include POSIX.1 for the core OS interface (system calls and C library), POSIX.2 for shell and utilities, POSIX.1b for real-time extensions, POSIX.1c for threads (pthreads), and POSIX.1-2017 as the current combined standard.\n\nPOSIX matters for several important reasons. It enables portability, allowing developers to write once and run on multiple Unix-like systems. It ensures shell scripts are POSIX-compliant and work across platforms. It provides standards compliance as a common baseline for Unix-like development. It facilitates interoperability through consistent behavior expectations across different systems.",
+    "tags": [
+        "operating-systems",
+        "standards",
+        "unix"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileCode",
+    "featured": false,
+    "aliases": [
+        "Portable Operating System Interface"
+    ],
+    "relatedConcepts": [
+        "unix",
+        "linux",
+        "shell",
+        "bash"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/POSIX"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "POSIX - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/POSIX",
+            "type": "website"
+        },
+        {
+            "title": "The Open Group Base Specifications",
+            "url": "https://pubs.opengroup.org/onlinepubs/9699919799/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

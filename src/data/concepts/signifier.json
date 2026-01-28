@@ -1,0 +1,35 @@
+{
+  "id": "signifier",
+  "name": "Signifier",
+  "summary": "A perceptual cue or signal that communicates to users where and how actions can be performed, distinguishing from affordances which are the actual possibilities for action.",
+  "explanation": "Signifier is a term introduced by Don Norman in the revised 2013 edition of The Design of Everyday Things to clarify the distinction between what actions are possible (affordances) and what communicates those possibilities to users. While affordances exist whether or not they are perceivable, signifiers are the perceptual cues that signal to users where actions should take place and how. Norman adopted this term because the word \"affordance\" was being misused in design to mean \"the way we communicate where to click.\"\n\nSignifiers are essential to good interaction design because users cannot act on affordances they don't perceive. A door that opens by pushing affords pushing (the affordance), but a flat metal plate signals \"push here\" (the signifier). A button that can be clicked affords clicking, but its raised appearance, color, and label signify clickability.\n\nEffective signifiers have several key qualities: they are discoverable (users can find them), understandable (their meaning is clear), consistent (the same signifier always means the same thing), visible (perceivable at the right time), accurate (correctly indicating the affordance), and accessible (working for all users).\n\nSignifiers come in various forms: explicit signifiers like labels and text (a \"Push\" sign on a door), implicit signifiers like shape and position (a raised button surface), iconic signifiers using symbols (play and pause icons), conventional signifiers based on learned associations (blue underlined text meaning a link), social signifiers from observing others (a queue forming at a door), and even accidental signifiers that emerge unintentionally (wear marks showing where something is frequently used).\n\nIn digital design, signifiers are critical because affordances can be anything—they're not constrained by physics as in the physical world. Common digital signifiers include raised button appearances, blue underlined links, text field borders with placeholders, slider tracks with handles, cursor changes on hover, and the six-dot drag handle pattern. Without well-designed signifiers, users struggle to discover what's possible, leading to confusion and errors—the hallmark of bad design.",
+  "tags": ["design", "user-experience", "user-interface-design", "interaction-design", "human-computer-interaction"],
+  "category": "Software Development",
+  "icon": "FaHandPointer",
+  "featured": false,
+  "aliases": ["Signifiers", "Perceived Affordance"],
+  "relatedConcepts": ["affordances", "usability", "human-computer-interaction"],
+  "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Signifier"],
+  "articles": [],
+  "books": [
+    {
+      "title": "The Design of Everyday Things by Don Norman",
+      "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Signifier - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Signifier",
+      "type": "website"
+    },
+    {
+      "title": "Affordances and Signifiers - Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/affordance-signifier/",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
+}

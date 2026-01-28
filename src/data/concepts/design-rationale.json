@@ -1,0 +1,84 @@
+{
+    "id": "design-rationale",
+    "name": "Design Rationale",
+    "summary": "The documentation of the reasons behind design decisions, capturing not just what was designed but why those choices were made and what alternatives were considered.",
+    "explanation": "Design Rationale (DR) is the practice of documenting the reasoning behind design decisions. It goes beyond recording what was designed to capture why specific choices were made, what alternatives were considered, and what trade-offs were accepted. This documentation helps future maintainers understand the context of decisions, prevents teams from re-debating settled issues, and preserves institutional knowledge that would otherwise be lost over time.\n\nThe concept was pioneered by Thomas P. Moran and others at Xerox PARC in the 1980s-90s, who developed structured approaches like IBIS (Issue-Based Information System) and QOC (Questions, Options, Criteria). IBIS structures discussions around issues (questions), positions (potential answers), and arguments (pros and cons). QOC explicitly maps questions to options and evaluates them against defined criteria.\n\nThe primary challenge with design rationale is the overhead of capturing it. Rich DR systems require significant effort, which often leads to low adoption. Modern approaches address this by integrating rationale capture into existing workflows: git commit messages, Architectural Decision Records (ADRs), inline code comments, and RFCs. The key insight is that some rationale captured informally is far more valuable than comprehensive rationale that never gets written.\n\nBenefits of capturing design rationale include: easier maintenance (understanding why code exists as it does), faster onboarding (new team members learn context quickly), avoiding repetition (no re-debating settled decisions), improved quality (forces explicit consideration of alternatives), better communication (shares reasoning across teams and time), and compliance (documents decisions for audits and reviews).\n\nBest practices include: capturing rationale at decision time rather than reconstructing later, using lightweight formats like ADRs over complex systems, integrating into existing workflows, focusing on significant decisions rather than documenting everything, and always including the alternatives that were not chosen and why.",
+    "tags": [
+        "design",
+        "documentation",
+        "decision-making",
+        "software-development",
+        "knowledge-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaBook",
+    "featured": false,
+    "aliases": [
+        "Design Rationale Documentation",
+        "DR"
+    ],
+    "relatedConcepts": [
+        "architecture-decision-records",
+        "documentation"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Design+Rationale"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Design Rationale: Concepts, Techniques, and Use edited by Moran and Carroll",
+            "url": "https://www.amazon.com/dp/0805815678?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Design rationale - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Design_rationale",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

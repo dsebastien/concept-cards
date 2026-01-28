@@ -1,0 +1,30 @@
+{
+    "id": "hierarchical-data",
+    "name": "Hierarchical Data",
+    "summary": "Information organized in a tree-like structure where each item has exactly one parent and zero or more children, creating nested levels from general to specific.",
+    "explanation": "Hierarchical data is information organized in a tree-like structure where each item (except the root) has exactly one parent and zero or more children. This parent-child relationship creates nested levels from general to specific. Common examples include file systems (folders containing files and subfolders), organizational charts (CEO to departments to teams), taxonomies (kingdom to phylum to class), and data formats like XML/JSON documents.\n\nThe key terminology includes: root (top-level node with no parent), parent (node with children below it), child (node with a parent above it), leaf (node with no children), sibling (nodes sharing the same parent), depth (distance from root in levels), path (route from root to a node), and subtree (a node and all its descendants).\n\nHierarchical structures are intuitive because they mirror how humans naturally categorize information, moving from broad categories to specific items. They offer simple navigation with a single path from any node to the root, making them ideal for file systems, navigation menus, and organizational representation.\n\nHowever, hierarchies have limitations. Real-world relationships often don't fit neatly into strict single-parent structures (an employee might report to multiple managers). Items can only belong to one branch, making multi-faceted classification difficult. Deep nesting can become unwieldy and hard to navigate, and reorganization can be complex.\n\nAlternatives to pure hierarchies include tags/labels (flat, multi-dimensional classification), faceted classification (multiple independent hierarchies), graph databases (network relationships with multiple parents), and polyhierarchy (items appearing in multiple locations). Common visualization methods for hierarchical data include tree diagrams, treemaps, indented lists, sunburst charts, icicle charts, and nested circles.",
+    "tags": ["data-structures", "information-architecture", "data-management"],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": ["Tree Data", "Hierarchical Structure", "Tree Structure"],
+    "relatedConcepts": ["information-architecture", "treemap", "json"],
+    "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Hierarchical+Data"],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Hierarchical database model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hierarchical_database_model",
+            "type": "website"
+        },
+        {
+            "title": "Tree (data structure) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tree_(data_structure)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

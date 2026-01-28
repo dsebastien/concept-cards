@@ -1,0 +1,52 @@
+{
+    "id": "treemap",
+    "name": "Treemap",
+    "summary": "A data visualization technique that displays hierarchical data as nested rectangles, where each rectangle's area represents a quantitative value.",
+    "explanation": "A treemap is a space-efficient visualization method invented by Ben Shneiderman in 1991 at the University of Maryland Human-Computer Interaction Lab. Originally developed to visualize disk space usage, treemaps display hierarchical data as a set of nested rectangles, making efficient use of screen space to show thousands of items simultaneously.\n\n**How Treemaps Work**:\n- **Area** encodes the primary quantitative value (file size, revenue, population)\n- **Nesting** represents hierarchy (folders contain files, categories contain items)\n- **Color** can encode a secondary dimension (growth rate, type, status)\n\n**Layout Algorithms**:\n\n| Algorithm | Description |\n|-----------|-------------|\n| Slice-and-dice (1991) | Original algorithm; alternates horizontal/vertical divisions |\n| Squarified (2000) | Optimizes for square-like rectangles for better readability |\n| Strip (2001) | Hybrid approach balancing aspects of both methods |\n| Pivot-by-size (2002) | Maintains data ordering for predictable layouts |\n\n**Common Applications**:\n- **Disk analysis**: WinDirStat, GrandPerspective, Baobab\n- **Financial markets**: Stock market maps, portfolio visualization\n- **Business intelligence**: Sales by region/product, budget allocation\n- **Software engineering**: Code complexity, test coverage by module\n- **News visualization**: Newsmap (Google News visualization)\n\n**Advantages**:\n- Space-efficient: Displays thousands of items in limited space\n- Comparative: Easy to spot large/small items at a glance\n- Hierarchical: Shows structure and proportions simultaneously\n- Scalable: Works from dozens to millions of items\n\n**Limitations**:\n- Deep hierarchies become hard to read with many nesting levels\n- Small items are difficult to label or interact with\n- Comparing non-adjacent rectangles is challenging\n- Thin rectangles are harder to perceive than squares",
+    "tags": [
+        "data-visualization",
+        "information-design",
+        "software-development",
+        "human-computer-interaction"
+    ],
+    "category": "Software Development",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "Treemaps",
+        "Tree Map"
+    ],
+    "relatedConcepts": [
+        "data-visualization"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Treemap"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Treemapping - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Treemapping",
+            "type": "website"
+        },
+        {
+            "title": "Treemap History - University of Maryland HCIL",
+            "url": "https://www.cs.umd.edu/hcil/treemap-history/",
+            "type": "website"
+        },
+        {
+            "title": "D3.js Treemap Documentation",
+            "url": "https://d3js.org/d3-hierarchy/treemap",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

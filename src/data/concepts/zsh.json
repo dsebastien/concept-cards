@@ -1,0 +1,68 @@
+{
+    "id": "zsh",
+    "name": "Zsh",
+    "summary": "A powerful Unix shell that extends the Bourne shell with advanced features like enhanced tab completion, spelling correction, and extensive customization options.",
+    "explanation": "Zsh (Z Shell) is a powerful Unix shell that extends Bash with additional features and became macOS's default shell in Catalina (2019), replacing Bash. It combines the best features of Bash, ksh, and tcsh while adding its own innovations, making it popular among developers who want a more productive command line experience.\n\nKey features of Zsh include advanced context-aware tab completion with menu selection, spelling correction that suggests fixes for typos, intelligent path expansion (where 'cd /u/lo/b' expands to '/usr/local/bin'), shared history across terminal sessions, extended globbing for pattern matching ('**/*.js' for recursive searches), highly configurable prompts with themes, and an extensible plugin system through frameworks like Oh My Zsh.\n\nZsh differs from Bash in several important ways. Arrays use 1-based indexing instead of 0-based, extended globbing is built-in rather than requiring 'shopt', spelling correction and right-side prompts are built-in features not available in Bash, and floating point math is native rather than requiring 'bc'.\n\nConfiguration in Zsh uses several files: ~/.zshrc (main configuration, equivalent to .bashrc), ~/.zshenv (loaded for all shells for environment variables), ~/.zprofile (loaded for login shells), ~/.zlogin (loaded after .zprofile), and ~/.zlogout (loaded when login shell exits). The loading order for user-specific files is: .zshenv, .zprofile, .zshrc, .zlogin, and .zlogout.\n\nPopular Zsh plugins include zsh-autosuggestions (Fish-like command suggestions), zsh-syntax-highlighting (real-time syntax coloring), z (jump to frequently used directories), git (aliases and prompt integration), and fzf (fuzzy finder integration). These plugins can be managed through frameworks like Oh My Zsh, which provides a rich ecosystem of themes and plugins.",
+    "tags": [
+        "software-engineering",
+        "programming",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "Z Shell"
+    ],
+    "relatedConcepts": [
+        "shell",
+        "bash",
+        "linux",
+        "oh-my-zsh"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Zsh+(Z+Shell)"
+    ],
+    "references": [
+        {
+            "title": "Z shell - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Z_shell",
+            "type": "website"
+        },
+        {
+            "title": "Zsh - Official Website",
+            "url": "https://www.zsh.org/",
+            "type": "website"
+        },
+        {
+            "title": "Oh My Zsh",
+            "url": "https://ohmyz.sh/",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

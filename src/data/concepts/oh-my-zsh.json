@@ -1,0 +1,66 @@
+{
+    "id": "oh-my-zsh",
+    "name": "Oh My Zsh",
+    "summary": "A community-driven framework for managing Zsh configuration that provides thousands of themes and plugins to enhance the command-line experience.",
+    "explanation": "Oh My Zsh is a delightful, open-source, community-driven framework for managing Zsh configuration. Created by Robby Russell in 2009, it has grown into one of the most popular shell customization tools with over 170,000 GitHub stars and 2,000+ contributors. It simplifies the process of customizing and extending Zsh by providing a structured approach to configuration management.\n\nThe framework comes bundled with over 300 plugins that extend Zsh's functionality. Popular plugins include git (providing dozens of aliases and functions for Git operations), zsh-autosuggestions (Fish-like command suggestions based on history), zsh-syntax-highlighting (real-time syntax coloring for commands), z (intelligent directory jumping based on frecency), docker (Docker command completion), kubectl (Kubernetes CLI completion), and node (Node.js version management). Plugins are enabled by adding them to the plugins array in ~/.zshrc.\n\nOh My Zsh includes over 150 themes that customize the terminal prompt appearance. The default theme is 'robbyrussell', but popular alternatives include agnoster (powerline-style with git info), powerlevel10k (highly customizable with instant prompt), spaceship (comprehensive with async loading), and pure (minimal and fast). Themes can display information like the current directory, git branch and status, command execution time, Node/Python/Ruby versions, and more.\n\nInstallation is straightforward using curl or wget: `sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"`. This creates a ~/.oh-my-zsh directory containing all themes and plugins, and backs up existing ~/.zshrc before creating a new one. The framework auto-updates periodically and can be manually updated with the `omz update` command.\n\nConfiguration is managed through ~/.zshrc, where users can set ZSH_THEME for the prompt theme, plugins=(plugin1 plugin2) for enabled plugins, and various other options like CASE_SENSITIVE, HYPHEN_INSENSITIVE, and DISABLE_AUTO_UPDATE. Custom configurations can be placed in the ~/.oh-my-zsh/custom directory, including custom plugins in custom/plugins and custom themes in custom/themes.",
+    "tags": [
+        "software-engineering",
+        "programming",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaTerminal",
+    "featured": false,
+    "aliases": [
+        "OMZ"
+    ],
+    "relatedConcepts": [
+        "zsh",
+        "shell",
+        "bash",
+        "cli"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Oh My Zsh - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Oh_My_Zsh",
+            "type": "website"
+        },
+        {
+            "title": "Oh My Zsh - Official Website",
+            "url": "https://ohmyz.sh/",
+            "type": "website"
+        },
+        {
+            "title": "Oh My Zsh - GitHub Repository",
+            "url": "https://github.com/ohmyzsh/ohmyzsh",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

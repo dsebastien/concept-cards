@@ -1,0 +1,91 @@
+{
+    "id": "semantic-links",
+    "name": "Semantic Links",
+    "summary": "Hyperlinks that carry explicit meaning about the relationship between linked items, enabling structured navigation and reasoning in knowledge systems.",
+    "explanation": "Semantic Links are hyperlinks that go beyond simple 'is connected to' associations by specifying the nature of the relationship between items. Instead of just linking Note A to Note B, semantic links define how they relate: 'supports,' 'contradicts,' 'is-example-of,' or 'is-part-of.' This approach emerged from hypertext research in the 1980s, notably Randall Trigg's PhD thesis (1983) which proposed a comprehensive taxonomy of link types, and Frank Halasz's work on NoteCards at Xerox PARC.\n\nThe concept has become increasingly relevant in Personal Knowledge Management, knowledge graphs, and the Semantic Web. Tools like Tana implement typed links natively, while users of Obsidian and Logseq create conventions using properties or prefixes. Common semantic link types include bidirectional pairs like 'supports/supported-by' and 'contradicts,' inverse pairs like 'is-example-of/has-example' and 'is-part-of/has-part,' and directional relationships like 'prerequisite-of.'\n\nThe key benefits of semantic linking include queryable relationships (finding all supporting evidence for a claim), reasoning support (tracing argument structures), reduced ambiguity about connection meanings, and structured learning through concept dependencies. Semantic links transform a simple network of connected notes into a structured knowledge base where relationships are first-class citizens. While they add some overhead compared to plain links, starting with a few essential types and expanding as needed keeps the system manageable.",
+    "tags": [
+        "knowledge-management",
+        "hypertext",
+        "note-taking",
+        "pkm",
+        "relationships",
+        "knowledge-graphs"
+    ],
+    "category": "Methods",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Typed Links",
+        "Link Types",
+        "Semantic Linking"
+    ],
+    "relatedConcepts": [
+        "knowledge-graph",
+        "hypertext"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Semantic+Links"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "A Network-Based Approach to Text Handling for the Online Scientific Community (Trigg, 1983)",
+            "url": "https://dl.acm.org/doi/10.1145/358027.358042",
+            "type": "paper"
+        },
+        {
+            "title": "Reflections on NoteCards: Seven Issues for the Next Generation of Hypermedia Systems (Halasz, 1988)",
+            "url": "https://dl.acm.org/doi/10.1145/48511.48514",
+            "type": "paper"
+        },
+        {
+            "title": "Wikipedia: Semantic Web",
+            "url": "https://en.wikipedia.org/wiki/Semantic_Web",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://obsidianstarterkit.com",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/l/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://knowledge-management-for-beginners.com",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/l/knowii",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/l/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

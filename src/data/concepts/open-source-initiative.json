@@ -1,0 +1,55 @@
+{
+    "id": "open-source-initiative",
+    "name": "Open Source Initiative (OSI)",
+    "summary": "A nonprofit organization that promotes and protects open source software, maintains the Open Source Definition, and approves open source licenses.",
+    "explanation": "The Open Source Initiative (OSI) is a nonprofit organization founded in February 1998 by Eric S. Raymond and Bruce Perens to promote and protect open source software. Following Netscape's historic source code release, the OSI was created to steward the term \"open source\" (coined by Christine Peterson) and maintain the Open Source Definition that determines which licenses qualify as open source.\n\nThe OSI takes a pragmatic, business-friendly approach to open source advocacy, focusing on the practical benefits of open development methodologies rather than the ethical arguments about software freedom championed by the Free Software Foundation. This approach has helped open source gain widespread adoption in enterprise and government settings.\n\nCore functions of the OSI include:\n\n1. **License Approval**: The OSI maintains a rigorous process for certifying licenses as \"OSI-approved,\" ensuring they comply with the Open Source Definition. This certification is widely recognized and helps organizations confidently adopt open source software.\n\n2. **Open Source Definition**: The OSI maintains the authoritative 10-point criteria that define what constitutes open source software, including free redistribution, source code availability, derived works permissions, and non-discrimination clauses.\n\n3. **Advocacy**: The organization promotes open source adoption in business, government, and education, helping stakeholders understand the benefits of open development.\n\n4. **Education**: OSI provides resources for understanding open source licensing, contribution practices, and community governance.\n\n5. **Community Building**: The organization connects open source stakeholders, including developers, businesses, and policymakers.\n\nMajor OSI-approved licenses include the MIT License, Apache License 2.0, GNU General Public License (GPL), BSD License, and Affero General Public License (AGPL). The OSI's certification has become the de facto standard for determining whether a license truly qualifies as open source.",
+    "tags": [
+        "open-source",
+        "organizations",
+        "licensing",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "OSI"
+    ],
+    "relatedConcepts": [
+        "open-source",
+        "mit-license",
+        "apache-license",
+        "gpl-license",
+        "agpl-license"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Open+Source+Initiative+(OSI)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Open Source Initiative - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open_Source_Initiative",
+            "type": "website"
+        },
+        {
+            "title": "Open Source Initiative",
+            "url": "https://opensource.org",
+            "type": "website"
+        },
+        {
+            "title": "The Open Source Definition",
+            "url": "https://opensource.org/osd",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

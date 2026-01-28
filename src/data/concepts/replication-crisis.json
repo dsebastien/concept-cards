@@ -1,0 +1,49 @@
+{
+    "id": "replication-crisis",
+    "name": "Replication Crisis",
+    "summary": "The widespread failure of scientific studies to reproduce their original findings when repeated by other researchers.",
+    "explanation": "The Replication Crisis refers to the widespread failure of scientific studies—particularly in psychology, medicine, and social sciences—to reproduce their original findings when repeated by other researchers. The crisis gained prominence after the 2015 Reproducibility Project found that only 36% of 100 psychology studies could be replicated. High-profile casualties include ego depletion effects, social priming studies, and power pose research.\n\nThe causes are structural: journals prefer novel, positive findings (publication bias), researchers face pressure to publish frequently (publish or perish), small sample sizes produce unreliable results, and p-hacking (manipulating analysis to achieve statistical significance) is common. Other issues include HARKing (Hypothesizing After Results are Known), lack of transparency, and excessive researcher degrees of freedom in analysis.\n\nSolutions emerging from the resulting 'credibility revolution' include pre-registration of studies (committing to analysis plans before data collection), larger sample sizes, open data and materials sharing, registered reports (peer review before results are known), and adversarial collaborations where critics and proponents work together. While painful, the crisis has ultimately been healthy for science—research practices are improving, replications are now valued, and skepticism is encouraged.\n\nFields most affected include social psychology, behavioral economics, cancer biology, neuroscience, and education. Specific theories under scrutiny include ego depletion, growth mindset effects (smaller than claimed), grit (overlaps with conscientiousness), nudge theory (mixed replication results), and the marshmallow test (confounded by socioeconomic factors).",
+    "tags": [
+        "science",
+        "research",
+        "psychology",
+        "statistics",
+        "methodology"
+    ],
+    "category": "Concepts",
+    "icon": "FaFlask",
+    "featured": false,
+    "aliases": [
+        "Reproducibility Crisis",
+        "Credibility Revolution"
+    ],
+    "relatedConcepts": [
+        "ego-depletion",
+        "grit"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Replication+Crisis"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Science Fictions by Stuart Ritchie",
+            "url": "https://www.amazon.com/dp/1250222699?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Replication crisis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Replication_crisis",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

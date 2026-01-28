@@ -1,0 +1,36 @@
+{
+    "id": "http",
+    "name": "HTTP",
+    "summary": "The foundational protocol of the World Wide Web that enables the transfer of hypertext documents and data between clients and servers.",
+    "explanation": "HTTP (Hypertext Transfer Protocol) is an application-layer protocol designed for transmitting hypermedia documents, such as HTML pages, across the internet. It forms the foundation of data communication on the World Wide Web, defining how messages are formatted and transmitted, and how web servers and browsers should respond to various commands.\n\nHTTP operates on a request-response model. A client (typically a web browser) sends an HTTP request to a server, which then returns a response. Common HTTP methods include GET (retrieve data), POST (submit data), PUT (update data), DELETE (remove data), PATCH (partial update), HEAD (retrieve headers only), and OPTIONS (describe communication options).\n\nHTTP responses include status codes that indicate the outcome of a request. These are grouped into categories: 1xx (informational), 2xx (success, such as 200 OK), 3xx (redirection, such as 301 Moved Permanently), 4xx (client errors, such as 404 Not Found), and 5xx (server errors, such as 500 Internal Server Error).\n\nHTTPS (HTTP Secure) is the encrypted version of HTTP, using TLS/SSL to provide secure communication over a network. HTTPS protects against eavesdropping and man-in-the-middle attacks, and has become the standard for web communication, especially for sensitive data transmission.\n\nHTTP has evolved through several versions: HTTP/1.0, HTTP/1.1 (which introduced persistent connections and chunked transfer encoding), HTTP/2 (which added multiplexing and header compression), and HTTP/3 (which uses QUIC instead of TCP for improved performance).",
+    "tags": [
+        "software-engineering",
+        "distributed-systems",
+        "api-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaExchangeAlt",
+    "featured": false,
+    "aliases": [
+        "Hypertext Transfer Protocol"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "HTTP: The Definitive Guide by David Gourley",
+            "url": "https://www.amazon.com/dp/1565925092?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "HTTP - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/HTTP",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

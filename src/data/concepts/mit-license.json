@@ -1,0 +1,40 @@
+{
+    "id": "mit-license",
+    "name": "MIT License",
+    "summary": "A permissive open source license that allows almost unrestricted freedom to use, copy, modify, and distribute software with minimal conditions.",
+    "explanation": "The MIT License is one of the most popular and permissive open source software licenses. Created at the Massachusetts Institute of Technology in the late 1980s, it has become the preferred choice for many open source projects due to its simplicity and minimal restrictions.\n\nThe license grants users extensive permissions: the freedom to use the software for any purpose, to copy and distribute the software, to modify the source code, and to merge the software into other projects. The only requirements are that the original copyright notice and license text be included in all copies or substantial portions of the software.\n\nCompared to other open source licenses, the MIT License stands out for its permissiveness. Unlike copyleft licenses such as the GPL (GNU General Public License), which require derivative works to be released under the same license, the MIT License allows code to be incorporated into proprietary software without obligation to open-source the derivative work. This makes it particularly attractive to businesses and developers who want maximum flexibility.\n\nThe MIT License is similar to other permissive licenses like the BSD licenses and the Apache License 2.0, though each has subtle differences. The Apache License, for instance, includes explicit patent grants and trademark provisions that the MIT License lacks. The BSD licenses have various forms, some including clauses about advertising or endorsement.\n\nMajor projects using the MIT License include Node.js, React, Angular, jQuery, Ruby on Rails, and thousands of npm packages. Its widespread adoption reflects the developer community's preference for licensing that promotes code sharing and reuse with minimal friction.",
+    "tags": [
+        "software-engineering",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileContract",
+    "featured": false,
+    "aliases": [
+        "MIT",
+        "X11 License",
+        "Expat License"
+    ],
+    "relatedConcepts": [
+        "open-source"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Open Source Initiative - MIT License",
+            "url": "https://opensource.org/license/mit",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "MIT License - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/MIT_License",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

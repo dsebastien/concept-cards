@@ -1,0 +1,70 @@
+{
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "aliases": [
+        "Postgres"
+    ],
+    "summary": "A powerful, open-source object-relational database management system known for reliability, extensibility, and standards compliance.",
+    "explanation": "PostgreSQL (often called Postgres) is an advanced open-source relational database system with over 35 years of active development. It has earned a strong reputation for reliability, feature robustness, and close adherence to SQL standards.\n\nPostgreSQL handles workloads ranging from single-machine applications to large-scale data warehouses serving many concurrent users. Its ACID compliance ensures strong data integrity, while Multi-Version Concurrency Control (MVCC) provides excellent performance under heavy concurrent access.\n\nKey features that set PostgreSQL apart include advanced data types (JSON/JSONB, arrays, geometric and network types), built-in full-text search, table partitioning, streaming and logical replication, and foreign data wrappers for querying external data sources. Its extensibility allows users to create custom data types, functions, operators, and install powerful extensions like PostGIS for geospatial data or TimescaleDB for time-series workloads.\n\nPostgreSQL is particularly well-suited for web applications with complex queries, data warehousing and analytics, geospatial applications, multi-tenant SaaS platforms, and any application requiring strict data integrity. It's the database of choice for many startups and enterprises due to its permissive open-source license (similar to MIT/BSD) and the ability to run anywhere without vendor lock-in.\n\nPopular managed PostgreSQL services include Supabase, Neon (serverless), AWS RDS, Google Cloud SQL, and Azure Database, making it easy to deploy and scale PostgreSQL in cloud environments.",
+    "tags": [
+        "databases",
+        "software-development",
+        "software-engineering",
+        "tools",
+        "open-source"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/PostgreSQL"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "PostgreSQL - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/PostgreSQL",
+            "type": "website"
+        },
+        {
+            "title": "PostgreSQL Official Website",
+            "url": "https://www.postgresql.org/",
+            "type": "website"
+        },
+        {
+            "title": "PostgreSQL Documentation",
+            "url": "https://www.postgresql.org/docs/",
+            "type": "website"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

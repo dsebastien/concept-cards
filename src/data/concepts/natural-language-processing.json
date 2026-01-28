@@ -1,0 +1,64 @@
+{
+    "id": "natural-language-processing",
+    "name": "Natural Language Processing",
+    "summary": "The field of artificial intelligence focused on enabling computers to understand, interpret, and generate human language.",
+    "explanation": "Natural Language Processing (NLP) is a branch of artificial intelligence that deals with the interaction between computers and human language. It combines computational linguistics, machine learning, and deep learning to enable machines to process and analyze large amounts of natural language data.\n\nCore NLP Tasks:\n\n1. **Text Classification**: Categorizing text into predefined groups (spam detection, sentiment analysis)\n2. **Named Entity Recognition (NER)**: Identifying and classifying entities like names, organizations, and locations\n3. **Part-of-Speech Tagging**: Labeling words with their grammatical roles\n4. **Parsing**: Analyzing grammatical structure of sentences\n5. **Machine Translation**: Converting text between languages\n6. **Text Summarization**: Condensing documents while preserving key information\n7. **Question Answering**: Extracting answers from text based on queries\n8. **Text Generation**: Creating human-like text from prompts\n\nKey Techniques:\n\n- **Tokenization**: Breaking text into words, subwords, or characters\n- **Word Embeddings**: Representing words as dense numerical vectors (Word2Vec, GloVe)\n- **Transformers**: Neural architecture using attention mechanisms for context understanding\n- **Language Models**: Statistical models that predict the probability of word sequences\n\nApplications:\n\n- Virtual assistants and chatbots\n- Search engines and information retrieval\n- Content moderation and filtering\n- Email and document organization\n- Healthcare record analysis\n- Legal document review\n- Accessibility tools (speech-to-text, text-to-speech)\n\nNLP has evolved from rule-based systems to statistical methods, and now to deep learning approaches. Modern Large Language Models (LLMs) like GPT and Claude represent the current frontier of NLP, capable of understanding context, generating coherent text, and performing complex reasoning tasks.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "nlp",
+        "artificial-intelligence",
+        "technologies"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "NLP"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "deep-learning",
+        "transformer",
+        "tokenization",
+        "embedding"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Natural language processing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

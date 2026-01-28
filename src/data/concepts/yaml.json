@@ -1,0 +1,38 @@
+{
+    "id": "yaml",
+    "name": "YAML",
+    "summary": "A human-readable data serialization format designed for configuration files and data exchange, using indentation-based structure instead of brackets or tags.",
+    "explanation": "YAML (YAML Ain't Markup Language, originally Yet Another Markup Language) is a data serialization format created by Clark Evans in 2001, with Ingy dot Net and Oren Ben-Kiki as co-designers. The recursive acronym was chosen later to emphasize that YAML focuses on data representation rather than document markup.\n\nYAML is a superset of JSON, meaning any valid JSON document is also valid YAML. However, YAML offers several advantages over JSON: it supports comments, uses whitespace for structure (similar to Python), requires less punctuation, and provides features like anchors and aliases for value reuse. These characteristics make it particularly well-suited for human-authored configuration files.\n\nThe format uses indentation to define hierarchical structure, colons for key-value pairs, and dashes for list items. It supports multiple data types including strings, numbers, booleans, null values, arrays, and nested objects. Multi-line strings can be handled with literal blocks (preserving line breaks) or folded blocks (collapsing into single lines).\n\nYAML has become the de facto standard for configuration in many modern development tools. Common use cases include container orchestration (Docker Compose, Kubernetes), CI/CD pipelines (GitHub Actions, GitLab CI), infrastructure as code (Ansible, CloudFormation), API specifications (OpenAPI/Swagger), and static site generators (Jekyll, Hugo front matter).\n\nWhile YAML excels at readability and human authoring, it has trade-offs: parsing is slower than JSON, the specification is more complex, and whitespace sensitivity can lead to subtle errors. For machine-to-machine data interchange where human editing is rare, JSON often remains the preferred choice.",
+    "tags": [
+        "software-engineering",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Yet Another Markup Language",
+        "YAML Ain't Markup Language"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Yet+Another+Markup+Language+(YAML)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "YAML - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/YAML",
+            "type": "website"
+        },
+        {
+            "title": "YAML Official Website",
+            "url": "https://yaml.org/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

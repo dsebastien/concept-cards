@@ -1,0 +1,70 @@
+{
+    "id": "vector-store",
+    "name": "Vector Store",
+    "summary": "A specialized database designed to store, index, and search high-dimensional vector embeddings for AI applications.",
+    "explanation": "A Vector Store (or Vector Database) is a specialized database designed to store, index, and search high-dimensional vector embeddings. Unlike traditional databases that store text and numbers in rows and columns, vector stores work with mathematical representations where similar items cluster together in multidimensional space.\n\nWhen machine learning models process text, images, or audio, they convert these into dense numerical vectors called embeddings. Each dimension captures different features and attributes. Similar meanings result in nearby vectors, while different meanings produce distant vectors. Typical embeddings have 384 to 1536 dimensions.\n\nKey operations in vector stores include:\n- **Indexing**: Storing vectors with associated metadata\n- **Similarity search**: Finding nearest neighbors using distance metrics like cosine similarity, euclidean distance, or dot product\n- **Filtering**: Combining vector search with metadata filters\n- **Hybrid search**: Mixing semantic and keyword search for better results\n\nPopular vector databases include Pinecone (managed, easy RAG setup), Milvus (billion-scale, enterprise), Weaviate (model integrations), Chroma (simple, developer-friendly), Qdrant (open source, high performance), pgvector (PostgreSQL extension), and Redis (sub-millisecond latency).\n\nCommon use cases include: Retrieval-Augmented Generation (RAG) for LLMs, semantic search across documents, AI chatbots with contextual memory, image and audio similarity search, recommendation systems, and duplicate detection.\n\nVector stores are essential infrastructure for modern AI applications, enabling semantic understanding and intelligent retrieval at scale.",
+    "tags": [
+        "ai",
+        "databases",
+        "embeddings",
+        "infrastructure",
+        "machine-learning",
+        "search"
+    ],
+    "category": "AI",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Vector Database",
+        "Vector DB"
+    ],
+    "relatedConcepts": [
+        "embedding",
+        "retrieval-augmented-generation"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Vector+Store"
+    ],
+    "articles": [
+        {
+            "title": "What is a Vector Database?",
+            "url": "https://www.pinecone.io/learn/vector-database/",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "Vector database - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vector_database",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/l/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-model-context-protocol-mcp",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

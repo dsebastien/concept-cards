@@ -1,0 +1,49 @@
+{
+    "id": "agpl-license",
+    "name": "Affero General Public License (AGPL)",
+    "summary": "A copyleft license that extends GPL requirements to software provided over a network, ensuring users can access the source code of server-side applications.",
+    "explanation": "The GNU Affero General Public License (AGPL) is a copyleft license that extends the GNU General Public License (GPL) to close the \"SaaS loophole.\" Under GPL, providing software as a network service (without distributing it) doesn't trigger copyleft obligations. The AGPL fixes this by requiring that if users interact with AGPL software over a network, they must be able to receive the source code.\n\nReleased by the Free Software Foundation in 2007, AGPLv3 is based on GPLv3 with Section 13 added for network use. It's commonly used for server software where maintainers want to ensure cloud providers and SaaS companies contribute back their modifications rather than keeping them proprietary.\n\nThe key difference from GPL is the network interaction requirement: if you modify the program and make it available to users interacting with it over a network, you must provide source code access to those users.\n\nAGPL is ideal for server software like web applications, APIs, and databases; for preventing proprietary cloud forks; and for community projects where maintainers want to ensure all improvements are shared back.\n\nNotable AGPL projects include MongoDB (before switching to SSPL), Nextcloud, Grafana, Mastodon, and Mattermost. However, some companies like Google avoid AGPL dependencies due to concerns about license compliance complexity and uncertainty about what triggers network copyleft.",
+    "tags": [
+        "open-source",
+        "licensing",
+        "software-development",
+        "copyleft"
+    ],
+    "category": "Software Development",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "AGPL",
+        "AGPLv3",
+        "GNU Affero General Public License"
+    ],
+    "relatedConcepts": [
+        "open-source",
+        "gpl-license"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Affero+General+Public+License+(AGPL)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "GNU Affero General Public License - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License",
+            "type": "website"
+        },
+        {
+            "title": "GNU Affero General Public License v3.0 - GNU Project",
+            "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

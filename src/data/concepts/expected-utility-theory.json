@@ -1,0 +1,52 @@
+{
+    "id": "expected-utility-theory",
+    "name": "Expected Utility Theory",
+    "summary": "The standard economic model of rational decision-making under uncertainty, where agents choose options that maximize expected utility.",
+    "explanation": "Expected Utility Theory (EU theory), developed by von Neumann and Morgenstern in 1944, is the foundational economic model of rational decision-making under uncertainty. According to this theory, a rational agent should choose the option that maximizes expected utility, calculated as the sum of probability times utility across all possible outcomes.\n\nThe theory rests on several key assumptions about rational preferences: completeness (agents can compare any two options), transitivity (if A is preferred to B and B to C, then A is preferred to C), continuity, and the independence of irrelevant alternatives. These axioms ensure that preferences can be represented by a utility function.\n\nWhile EU theory remains normatively powerful - describing how we should ideally make decisions - behavioral economics has shown that humans systematically violate its assumptions. Daniel Kahneman and Amos Tversky's Prospect Theory demonstrated that people are loss-averse, weight probabilities nonlinearly (overweighting small probabilities and underweighting large ones), and evaluate outcomes relative to reference points rather than in absolute terms.\n\nThe key differences between Expected Utility Theory and Prospect Theory highlight the gap between rational ideals and actual human behavior: EU assumes linear probability weighting while Prospect Theory shows nonlinear weighting; EU has no reference point while Prospect Theory frames everything as gains or losses from a reference; EU assumes risk neutrality while humans display loss aversion.\n\nDespite its empirical limitations, Expected Utility Theory remains essential in economics, game theory, and decision analysis as a benchmark for rational choice and a tool for prescriptive decision-making.",
+    "tags": [
+        "economics",
+        "decision-making",
+        "rationality",
+        "game-theory",
+        "behavioral-economics"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "EU Theory",
+        "Rational Choice Theory"
+    ],
+    "relatedConcepts": [
+        "prospect-theory",
+        "behavioral-economics",
+        "loss-aversion",
+        "heuristics",
+        "cognitive-biases"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/33+Areas/33+Permanent+notes/33.02+Content/Expected+Utility+Theory"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Theory of Games and Economic Behavior by John von Neumann and Oskar Morgenstern",
+            "url": "https://www.amazon.com/dp/0691130612?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Expected Utility Hypothesis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Expected_utility_hypothesis",
+            "type": "website"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "html",
+    "name": "HTML",
+    "summary": "The standard markup language for creating web pages and web applications.",
+    "explanation": "HTML (HyperText Markup Language) is the standard markup language used to create and structure content on the World Wide Web. It provides the foundation for all web pages by defining the structure and meaning of content through a system of elements and tags.\n\n**Core Concepts**:\n\n- **Elements and Tags**: HTML uses tags (like `<p>`, `<div>`, `<a>`) to define elements. Most elements have opening and closing tags that wrap content.\n- **Attributes**: Elements can have attributes that provide additional information (like `href` for links, `src` for images).\n- **Document Structure**: Every HTML document follows a standard structure with `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>` elements.\n- **Semantic Markup**: Modern HTML emphasizes semantic elements (`<header>`, `<nav>`, `<article>`, `<footer>`) that describe content meaning rather than just appearance.\n\n**Key Element Categories**:\n\n- **Structural**: `<html>`, `<head>`, `<body>`, `<div>`, `<section>`\n- **Text content**: `<p>`, `<h1>`-`<h6>`, `<span>`, `<blockquote>`\n- **Links and media**: `<a>`, `<img>`, `<video>`, `<audio>`\n- **Forms**: `<form>`, `<input>`, `<button>`, `<select>`\n- **Tables**: `<table>`, `<tr>`, `<td>`, `<th>`\n- **Lists**: `<ul>`, `<ol>`, `<li>`\n\n**Historical Evolution**:\n\nHTML was created by Tim Berners-Lee in 1991 as part of the World Wide Web project at CERN. Major versions include:\n- HTML 2.0 (1995): First standard specification\n- HTML 4.01 (1999): Widely adopted version\n- XHTML (2000): XML-based reformulation\n- HTML5 (2014): Current standard with rich multimedia and API support\n\n**HTML in Modern Web Development**:\n\nWhile HTML defines structure, it works alongside CSS (for styling) and JavaScript (for interactivity) to create complete web experiences. The separation of concerns principle keeps HTML focused on content structure while delegating presentation and behavior to other technologies.\n\n**Accessibility Considerations**:\n\nProper HTML usage is essential for web accessibility. Semantic elements, proper heading hierarchy, alt text for images, and form labels help screen readers and assistive technologies interpret web content correctly.",
+    "tags": [
+        "web-development",
+        "markup",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Hypertext Markup Language",
+        "HTML5"
+    ],
+    "relatedConcepts": [
+        "hypertext",
+        "world-wide-web",
+        "http",
+        "javascript"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Hypertext+Markup+Language+(HTML)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "HTML and CSS: Design and Build Websites by Jon Duckett",
+            "url": "https://www.amazon.com/dp/1118008189?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "HTML - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/HTML",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-28"
+}
