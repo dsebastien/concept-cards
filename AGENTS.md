@@ -44,11 +44,12 @@ concept-cards/
 
 **Use skills when relevant - they override generic instructions.**
 
-| Skill                      | Invoke                      | Use When                                                      |
-| -------------------------- | --------------------------- | ------------------------------------------------------------- |
-| `manage-concepts-db`       | `/manage-concepts-db`       | ALL concept operations: add, update, verify, merge duplicates |
-| `fetch-public-notes`       | `/fetch-public-notes`       | Fetching content from notes.dsebastien.net                    |
-| `add-wikipedia-references` | `/add-wikipedia-references` | Adding Wikipedia links to concepts                            |
+| Skill                       | Invoke                       | Use When                                                      |
+| --------------------------- | ---------------------------- | ------------------------------------------------------------- |
+| `manage-concepts-db`        | `/manage-concepts-db`        | ALL concept operations: add, update, verify, merge duplicates |
+| `fetch-public-notes`        | `/fetch-public-notes`        | Fetching content from notes.dsebastien.net                    |
+| `add-wikipedia-references`  | `/add-wikipedia-references`  | Adding Wikipedia links to concepts                            |
+| `discover-missing-concepts` | `/discover-missing-concepts` | Autopilot mode: find and add missing concepts continuously    |
 
 ## Adding a New Concept
 

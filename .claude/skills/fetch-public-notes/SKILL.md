@@ -40,14 +40,14 @@ WebFetch:
 
 ## Local Repository (Faster)
 
-**Location**: `/home/dsebastien/notesSeb/`
+**Location**: `$OBSIDIAN_VAULT_LOCATION`
 
 ```bash
 # Find note by name
-find /home/dsebastien/notesSeb/30\ Areas -type f -name "*Note Name*" 2>/dev/null | grep -v ".smart-env"
+find "$OBSIDIAN_VAULT_LOCATION/30 Areas" -type f -name "*Note Name*" 2>/dev/null | grep -v ".smart-env"
 
 # Read directly
-Read: /home/dsebastien/notesSeb/30 Areas/33 Permanent notes/33.02 Content/Note Name.md
+Read: $OBSIDIAN_VAULT_LOCATION/30 Areas/33 Permanent notes/33.02 Content/Note Name.md
 ```
 
 ## URL Construction for relatedNotes
@@ -55,7 +55,7 @@ Read: /home/dsebastien/notesSeb/30 Areas/33 Permanent notes/33.02 Content/Note N
 For concept cards, convert file path to public URL:
 
 ```
-File: /home/dsebastien/notesSeb/30 Areas/33 Permanent notes/33.02 Content/Note Name.md
+File: $OBSIDIAN_VAULT_LOCATION/30 Areas/33 Permanent notes/33.02 Content/Note Name.md
 URL:  https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Note+Name
 ```
 

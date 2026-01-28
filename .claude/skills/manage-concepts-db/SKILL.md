@@ -43,13 +43,13 @@ npx tsx scripts/verify-concept.ts --name "Concept Name" --summary "Brief summary
 
 ### Step 3: Find Related Notes
 ```bash
-find /home/dsebastien/notesSeb/30\ Areas -type f -name "*KEYWORD*.md" 2>/dev/null | grep -v ".smart-env" | head -5
+find $OBSIDIAN_VAULT_LOCATION/30\ Areas -type f -name "*KEYWORD*.md" 2>/dev/null | grep -v ".smart-env" | head -5
 ```
 Convert path to URL: spaces→`+`, remove `.md`, prefix `https://notes.dsebastien.net/`
 
 ### Step 4: Find Related Articles
 ```bash
-for f in $(grep -ril "KEYWORD" "/home/dsebastien/notesSeb/30 Areas/33 Permanent notes/33.04 Creations/Articles/"*.md 2>/dev/null | grep -v "(Draft)"); do
+for f in $(grep -ril "KEYWORD" "$OBSIDIAN_VAULT_LOCATION/30 Areas/33 Permanent notes/33.04 Creations/Articles/"*.md 2>/dev/null | grep -v "(Draft)"); do
   grep -m1 "^title:" "$f" | sed 's/title: //'
   grep -m1 "^url:" "$f" | sed 's/url: //'
 done
@@ -93,7 +93,7 @@ Task tool (subagent_type="general-purpose"):
 "Create concept JSON for [NAME]:
 1. Read source note at [PATH] if available
 2. Generate explanation if source thin
-3. Search related notes in /home/dsebastien/notesSeb/30 Areas/ (32.02 or 33.02 Content)
+3. Search related notes in $OBSIDIAN_VAULT_LOCATION/30 Areas/ (32.02 or 33.02 Content)
 4. Search related articles in .../33.04 Creations/Articles/ (skip Draft)
 5. Create JSON at src/data/concepts/[id].json
 6. Add Wikipedia reference if available"
@@ -122,7 +122,7 @@ npx tsx scripts/sync-concepts-db.ts
 ## URL Construction: Related Notes
 
 ```
-File: /home/dsebastien/notesSeb/30 Areas/33 Permanent notes/33.02 Content/Note Name.md
+File: $OBSIDIAN_VAULT_LOCATION/30 Areas/33 Permanent notes/33.02 Content/Note Name.md
 URL:  https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Note+Name
 ```
 
