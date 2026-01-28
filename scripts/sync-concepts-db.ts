@@ -164,8 +164,14 @@ function upsertConcept(db: Database, concept: Concept, filePath: string): void {
 }
 
 function main(): void {
+    const args = process.argv.slice(2)
+    const cleanOrphans = args.includes('--clean')
+
     console.log('='.repeat(60))
     console.log('Syncing Concepts Database')
+    if (cleanOrphans) {
+        console.log('(with orphan cleanup enabled)')
+    }
     console.log('='.repeat(60))
 
     if (!fs.existsSync(DB_PATH)) {
@@ -225,12 +231,25 @@ function main(): void {
 
         const orphaned = allDbConcepts.filter((c) => !fileIds.has(c.id))
 
+        let removed = 0
         if (orphaned.length > 0) {
-            console.log('\n⚠ Orphaned database entries (no matching files):')
-            for (const concept of orphaned) {
-                console.log(`  - ${concept.id} (${concept.name})`)
+            if (cleanOrphans) {
+                console.log('\n🧹 Removing orphaned database entries:')
+                const removeOrphans = db.transaction(() => {
+                    for (const concept of orphaned) {
+                        deleteConcept(db, concept.id)
+                        console.log(`  ✓ Removed: ${concept.id} (${concept.name})`)
+                        removed++
+                    }
+                })
+                removeOrphans()
+            } else {
+                console.log('\n⚠ Orphaned database entries (no matching files):')
+                for (const concept of orphaned) {
+                    console.log(`  - ${concept.id} (${concept.name})`)
+                }
+                console.log('\nRun with --clean to remove these entries.')
             }
-            console.log('\nThese entries remain in the database but have no source file.')
         }
 
         // Print summary
@@ -240,7 +259,11 @@ function main(): void {
         console.log(`Added:     ${added}`)
         console.log(`Updated:   ${updated}`)
         console.log(`Unchanged: ${unchanged}`)
-        console.log(`Orphaned:  ${orphaned.length}`)
+        if (cleanOrphans) {
+            console.log(`Removed:   ${removed}`)
+        } else {
+            console.log(`Orphaned:  ${orphaned.length}`)
+        }
         console.log('='.repeat(60))
     } catch (error) {
         console.error('\n❌ Error syncing database:', error)
