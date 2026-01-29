@@ -14,6 +14,7 @@
     },
     "homepage": "https://concepts.dsebastien.net",
     "scripts": {
+        "update:products": "bun scripts/update-products.ts",
         "add-product-links": "bun scripts/add-product-links.ts",
         "dedupe-concepts": "bun scripts/dedupe-concepts.ts",
         "validate": "bun scripts/validate-concepts.ts",
@@ -70,6 +71,7 @@
     },
     "dependencies": {
         "@tanstack/react-virtual": "^3.13.13",
+        "inquirer": "^12.6.0",
         "better-sqlite3": "^11.8.1",
         "canvas-confetti": "^1.9.4",
         "clsx": "^2.1.1",
@@ -83,6 +85,7 @@
         "tailwind-merge": "3.4.0"
     },
     "devDependencies": {
+        "@types/inquirer": "^9.0.7",
         "@commitlint/cli": "20.1.0",
         "@commitlint/config-conventional": "20.0.0",
         "@eslint/js": "^9.36.0",
