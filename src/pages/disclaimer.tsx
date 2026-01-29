@@ -74,7 +74,7 @@ const DisclaimerPage: React.FC = () => {
                             <ul className='list-inside list-disc space-y-2 pl-4'>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/obsidian-starter-kit'
+                                        href='https://store.dsebastien.net/product/obsidian-starter-kit'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -84,7 +84,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/obsidian-starter-course'
+                                        href='https://store.dsebastien.net/product/obsidian-starter-course'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -94,7 +94,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowledge-management-for-beginners'
+                                        href='https://store.dsebastien.net/product/knowledge-management-for-beginners'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -104,7 +104,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowii'
+                                        href='https://store.dsebastien.net/product/knowii-community'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -114,7 +114,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowledge-worker-kit'
+                                        href='https://store.dsebastien.net/product/knowledge-worker-kit'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -124,7 +124,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/PersonalKnowledgeManagementLibrary'
+                                        href='https://store.dsebastien.net/product/pkm-library'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -134,7 +134,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/pkm-coaching'
+                                        href='https://store.dsebastien.net/product/pkm-coaching'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -144,7 +144,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/ai-ghostwriter-guide'
+                                        href='https://store.dsebastien.net/product/ai-ghostwriter-guide'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -169,12 +169,12 @@ const DisclaimerPage: React.FC = () => {
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
                                     >
-                                        DeveloPassion Newsletter
+                                        DeveloPassion's Newsletter
                                     </a>
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowii-voice-ai'
+                                        href='https://store.dsebastien.net/product/knowii-voice-ai'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -184,7 +184,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowii-journaling-deep-dive'
+                                        href='https://store.dsebastien.net/product/journaling-deep-dive'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -194,7 +194,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowii-clarity-101'
+                                        href='https://store.dsebastien.net/product/clarity-101'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -204,7 +204,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowii-personal-organization-101'
+                                        href='https://store.dsebastien.net/product/personal-organization-101'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -214,7 +214,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowii-ai-master-prompt'
+                                        href='https://store.dsebastien.net/product/ai-master-prompt'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
@@ -224,7 +224,7 @@ const DisclaimerPage: React.FC = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href='https://store.dsebastien.net/l/knowii-model-context-protocol-mcp'
+                                        href='https://store.dsebastien.net/product/model-context-protocol'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-secondary hover:text-secondary-text'
