@@ -85,17 +85,17 @@ File: `/src/data/concepts/{concept-id}.json` (filename must match `id`)
 
 ### Required Fields
 
-| Field           | Format                        |
-| --------------- | ----------------------------- |
-| `id`            | lowercase, hyphenated         |
-| `name`          | Display name                  |
-| `summary`       | One sentence                  |
-| `explanation`   | Multi-paragraph               |
-| `tags`          | Array of strings              |
-| `category`      | Must exist in categories.json |
-| `featured`      | boolean                       |
-| `datePublished` | YYYY-MM-DD                    |
-| `dateModified`  | YYYY-MM-DD                    |
+| Field           | Format                                          |
+| --------------- | ----------------------------------------------- |
+| `id`            | lowercase, hyphenated                           |
+| `name`          | Display name                                    |
+| `summary`       | One sentence, **plain text only** (no Markdown) |
+| `explanation`   | Multi-paragraph, Markdown supported             |
+| `tags`          | Array of strings                                |
+| `category`      | Must exist in categories.json                   |
+| `featured`      | boolean                                         |
+| `datePublished` | YYYY-MM-DD                                      |
+| `dateModified`  | YYYY-MM-DD                                      |
 
 ### Optional Fields
 

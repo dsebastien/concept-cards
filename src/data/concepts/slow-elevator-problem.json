@@ -1,0 +1,55 @@
+{
+    "id": "slow-elevator-problem",
+    "name": "Slow Elevator Problem",
+    "summary": "A classic reframing example where instead of making elevators faster, the solution was to add mirrors so people would not notice the wait.",
+    "explanation": "The Slow Elevator Problem is one of the most famous examples of problem reframing in design and innovation literature. The story goes that tenants in a building were complaining about slow elevators. Engineers proposed expensive solutions: upgrading motors, improving algorithms, or installing additional lifts. These solutions were costly and time-consuming.\n\nThe breakthrough came when someone reframed the problem. The real issue was not that the elevators were too slow, but that the wait felt annoying. The solution? Install mirrors near the elevator doors. People became occupied checking their appearance, and complaints dropped dramatically. The actual elevator speed never changed, but the perceived wait time did.\n\nThis story illustrates several powerful lessons for problem-solvers. First, question whether you are solving the right problem. The stated problem (slow elevators) was different from the underlying problem (boring or frustrating wait). Second, cheap and elegant solutions often emerge from reframing rather than from attacking the problem head-on. Third, understanding human psychology and perception can unlock solutions that pure engineering cannot.\n\nThe Slow Elevator Problem is frequently cited in design thinking, lateral thinking, and innovation workshops as a reminder to challenge assumptions before investing in solutions. Before asking 'How do we solve this?', ask 'Is this the right problem to solve?'",
+    "tags": [
+        "problem-solving",
+        "creativity",
+        "reframing",
+        "design-thinking",
+        "innovation",
+        "mental-models"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Elevator Reframing",
+        "Slow Lift Problem",
+        "Mirror Solution"
+    ],
+    "relatedConcepts": [
+        "lateral-thinking",
+        "design-thinking",
+        "first-principles",
+        "problem-solving-cycle",
+        "five-whys",
+        "double-diamond"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Slow+Elevator+Problem"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Are Your Lights On? by Donald C. Gause and Gerald M. Weinberg",
+            "url": "https://www.amazon.com/dp/0932633161?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Problem structuring methods - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Problem_structuring_methods",
+            "type": "website"
+        },
+        {
+            "title": "Reframing: The Art of Problem Solving - Harvard Business Review",
+            "url": "https://hbr.org/2017/01/are-you-solving-the-right-problems",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-29",
+    "dateModified": "2026-01-29"
+}

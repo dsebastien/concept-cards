@@ -1,0 +1,54 @@
+{
+    "id": "continued-influence-effect",
+    "name": "Continued Influence Effect",
+    "summary": "The tendency for misinformation to continue influencing thinking and decision-making even after it has been corrected.",
+    "explanation": "The Continued Influence Effect (CIE) is a cognitive phenomenon where corrected misinformation continues to shape people's reasoning, judgments, and memories despite them acknowledging and remembering the correction. First demonstrated by Wilkes and Leatherbarrow in 1988, research has consistently shown that approximately 30% of people continue to rely on discredited information even when they can correctly recall the correction. This is not simply a case of forgetting the correction; studies confirm that nearly all participants who exhibit the effect accurately remember being told the original information was false.\n\nThe persistence of misinformation stems from how we construct mental models to understand events. When we first encounter information, we integrate it into a coherent narrative that explains what happened and why. Even when part of that information is later retracted, the mental model built upon it remains intact. Removing the misinformation creates a gap in our understanding that feels incomplete or incoherent. Our minds resist this gap, preferring a flawed but complete explanation over one with missing pieces. This is why corrections often fail: they tell us what is wrong without providing an alternative explanation that fills the conceptual void left behind.\n\nEffective strategies for countering the Continued Influence Effect focus on replacement rather than mere retraction. Research suggests that corrections work best when they provide an alternative causal explanation that can take the place of the misinformation in the mental model. For example, rather than simply stating that an accused person did not commit a crime, it is more effective to identify who actually did and explain their motive. Prebunking, which involves warning people about misinformation before they encounter it, has also proven effective. Additionally, repetition of corrections, use of clear and simple messaging, and presenting corrections in a non-threatening manner that does not challenge core identities all improve the likelihood that accurate information will supplant false beliefs.",
+    "tags": [
+        "cognitive-biases",
+        "psychology",
+        "memory",
+        "misinformation"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Misinformation Persistence",
+        "CIE"
+    ],
+    "relatedConcepts": [
+        "belief-perseverance",
+        "backfire-effect",
+        "confirmation-bias",
+        "misinformation-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Misinformation and Its Correction: Continued Influence and Successful Debiasing",
+            "url": "https://www.psychologicalscience.org/publications/journals/pspi/misinformation1.html",
+            "type": "website"
+        },
+        {
+            "title": "The psychological drivers of misinformation belief and its resistance to correction",
+            "url": "https://www.nature.com/articles/s44159-021-00006-y",
+            "type": "paper"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Continued influence effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Continued_influence_effect",
+            "type": "website"
+        },
+        {
+            "title": "Exploring factors that mitigate the continued influence of misinformation",
+            "url": "https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-021-00335-9",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-29",
+    "dateModified": "2026-01-29"
+}

@@ -58,7 +58,7 @@ const authorSchema = {
         '@type': 'Organization',
         '@id': `${BASE_URL}/#organization`,
         'name': 'DeveloPassion',
-        'url': 'https://developassion.be'
+        'url': 'https://dsebastien.net'
     },
     'sameAs': [
         'https://www.linkedin.com/in/sebastiend/',
@@ -80,7 +80,7 @@ const publisherSchema = {
     '@type': 'Organization',
     '@id': `${BASE_URL}/#organization`,
     'name': 'DeveloPassion',
-    'url': 'https://developassion.be',
+    'url': 'https://dsebastien.net',
     'logo': {
         '@type': 'ImageObject',
         'url': 'https://www.dsebastien.net/content/images/size/w256h256/2022/11/logo_symbol.png',

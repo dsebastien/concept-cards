@@ -2,7 +2,6 @@ import { memo, useCallback } from 'react'
 import { FaStar, FaInfoCircle, FaCheckCircle } from 'react-icons/fa'
 import { cn } from '@/lib/utils'
 import ConceptIcon from '@/components/concepts/concept-icon'
-import Markdown from '@/components/ui/markdown'
 import type { ConceptCardProps } from '@/types/concept-card-props.intf'
 
 const ConceptCard: React.FC<ConceptCardProps> = memo(
@@ -87,9 +86,9 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                                 {concept.category}
                             </button>
                         </div>
-                        <div className='text-primary/60 mt-1 overflow-hidden text-sm text-ellipsis whitespace-nowrap'>
-                            <Markdown compact>{concept.summary}</Markdown>
-                        </div>
+                        <p className='text-primary/60 mt-1 overflow-hidden text-sm text-ellipsis whitespace-nowrap'>
+                            {concept.summary}
+                        </p>
                     </div>
 
                     {/* Tags */}
@@ -178,9 +177,9 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                 </div>
 
                 {/* Summary - multiple lines to use available space */}
-                <div className='text-primary/70 mb-2 flex-1 overflow-hidden text-xs leading-relaxed sm:mb-3 sm:text-sm'>
-                    <Markdown compact>{concept.summary}</Markdown>
-                </div>
+                <p className='text-primary/70 mb-2 flex-1 overflow-hidden text-xs leading-relaxed sm:mb-3 sm:text-sm'>
+                    {concept.summary}
+                </p>
 
                 {/* Action button - hide icon on narrowest screens (< 400px) */}
                 <div className='mt-auto flex shrink-0 items-center gap-1.5'>

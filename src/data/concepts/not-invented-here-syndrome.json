@@ -1,0 +1,71 @@
+{
+    "id": "not-invented-here-syndrome",
+    "name": "Not Invented Here Syndrome",
+    "summary": "The tendency to reject external solutions in favor of internally-developed alternatives, even when better options already exist.",
+    "explanation": "Not Invented Here (NIH) Syndrome is a cognitive bias where individuals, teams, or organizations reject external ideas, products, or technologies simply because they originated elsewhere. This manifests as a preference for building solutions in-house even when superior, proven alternatives are readily available. The term gained prominence in the engineering culture of companies like Hewlett-Packard in the 1970s and 1980s, where engineers often preferred designing solutions from scratch rather than integrating components developed by others.\n\nSeveral psychological mechanisms drive NIH syndrome. Pride and ego-defense make teams believe they can build better solutions than what already exists. Loss of control anxiety creates fear around depending on external suppliers or 'black box' solutions. In-group bias leads to higher valuation of ideas from within the team while dismissing external contributions as lacking innovation or quality. The IKEA effect amplifies this by making teams emotionally invested in their own creations. Research by psychologists like Alex Haslam demonstrates that identical ideas are rated as more creative and valuable when perceived as coming from within the group.\n\nIn software development, NIH syndrome is particularly costly. Teams reinvent logging frameworks, authentication systems, and countless utilities rather than adopting battle-tested open-source solutions. This drains engineering resources, introduces bugs that mature libraries have already solved, and delays product delivery. Research by Thomas Allen showed that R&D groups become increasingly insular over time, communicating less with external information sources and experiencing performance decline after about five years.\n\nOvercoming NIH syndrome requires cultural change and deliberate practices. Organizations should establish 'build vs. buy' frameworks that objectively evaluate external solutions against internal development costs. Leaders must model openness to external ideas and reward adoption of good solutions regardless of origin. Creating cross-functional teams and rotating personnel prevents insularity. Conducting pre-mortems that specifically ask 'what existing solutions did we ignore?' surfaces blind spots. Most importantly, reframing the team's identity from 'we build everything' to 'we deliver the best solutions' shifts the focus from creation to outcomes.",
+    "tags": [
+        "cognitive-biases",
+        "organizations",
+        "software-development",
+        "innovations",
+        "decision-making"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "NIH Syndrome",
+        "Not Invented Here",
+        "NIH Bias"
+    ],
+    "relatedConcepts": [
+        "endowment-effect",
+        "ikea-effect",
+        "in-group-bias",
+        "groupthink",
+        "confirmation-bias",
+        "open-innovation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Open Innovation by Henry Chesbrough",
+            "url": "https://www.amazon.com/dp/1578518377?tag=dsebastien00-20"
+        },
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Not invented here - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Not_invented_here",
+            "type": "website"
+        },
+        {
+            "title": "How Not Invented Here Kills Innovation - WunderGraph",
+            "url": "https://wundergraph.com/blog/how-not-invented-here-kills-innovation-and-five-rules-to-avoid-it",
+            "type": "website"
+        },
+        {
+            "title": "Beating Not Invented Here Syndrome - MIT Sloan Review",
+            "url": "https://sloanreview.mit.edu/article/beating-not-invented-here-syndrome/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/l/knowii-clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-29",
+    "dateModified": "2026-01-29"
+}

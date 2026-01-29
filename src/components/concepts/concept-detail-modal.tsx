@@ -450,9 +450,9 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                     <div className='space-y-6 p-6'>
                                         {/* Summary */}
                                         <div className='bg-secondary/10 border-secondary/20 rounded-lg border p-4'>
-                                            <div className='text-primary/90 text-base leading-relaxed font-medium'>
-                                                <Markdown compact>{concept.summary}</Markdown>
-                                            </div>
+                                            <p className='text-primary/90 text-base leading-relaxed font-medium'>
+                                                {concept.summary}
+                                            </p>
                                         </div>
 
                                         {/* Full Explanation */}
