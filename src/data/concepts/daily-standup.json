@@ -1,54 +1,54 @@
 {
-    "id": "daily-standup",
-    "name": "Daily Standup",
-    "summary": "A brief daily team meeting to synchronize work and identify blockers.",
-    "explanation": "The Daily Standup (or Daily Scrum) is a time-boxed 15-minute event for the development team to synchronize activities and create a plan for the next 24 hours. It's held at the same time and place each day to reduce complexity.\n\nTraditional format - each team member answers three questions:\n\n1. What did I accomplish yesterday?\n2. What will I work on today?\n3. What obstacles are blocking my progress?\n\nModern variations focus on the work rather than individuals:\n\n- Walking the board (discussing each item from right to left)\n- Focus on blockers and dependencies first\n- Update the sprint burndown\n\nKey characteristics:\n\n1. Time-boxed to 15 minutes - detailed discussions happen afterward\n2. Standing (traditionally) to keep it brief\n3. Same time, same place daily\n4. Development team event (others may observe)\n5. Not a status report to management\n\nBenefits:\n\n- Surfaces blockers early for quick resolution\n- Improves team communication and collaboration\n- Eliminates need for other status meetings\n- Promotes accountability and transparency\n- Keeps sprint goal front of mind\n\nCommon anti-patterns to avoid:\n\n- Reporting to the Scrum Master instead of the team\n- Detailed technical discussions (take offline)\n- Late starts or running over time\n- Treating it as a status meeting for management\n- Skipping when things seem fine\n\nFor remote teams, video standups, async standups (written updates), or walking-the-board formats often work better than the traditional three-question format.",
-    "tags": [
-        "agile",
-        "scrum",
-        "meetings",
-        "teams",
-        "communication",
-        "synchronization"
-    ],
-    "category": "Techniques",
-    "icon": "FaUsers",
-    "featured": false,
-    "aliases": [
-        "Daily Scrum",
-        "Standup Meeting",
-        "Daily Sync",
-        "Morning Standup"
-    ],
-    "relatedConcepts": [
-        "scrum",
-        "sprint",
-        "sprint-planning",
-        "sprint-retrospective",
-        "scrum-master",
-        "scrumban"
-    ],
-    "relatedNotes": [],
-    "articles": [],
-    "books": [],
-    "references": [
-        {
-            "title": "Stand-up meeting - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Stand-up_meeting",
-            "type": "website"
-        },
-        {
-            "title": "Knowledge Worker Kit",
-            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
-            "type": "other"
-        },
-        {
-            "title": "Dev Concepts",
-            "url": "https://dev-concepts.dev",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2025-12-28",
-    "dateModified": "2026-01-29"
+  "id": "daily-standup",
+  "name": "Daily Standup",
+  "summary": "A brief daily team meeting to synchronize work and identify blockers.",
+  "explanation": "The Daily Standup (or Daily Scrum) is a time-boxed 15-minute event for the development team to synchronize activities and create a plan for the next 24 hours. It's held at the same time and place each day to reduce complexity.\n\nTraditional format - each team member answers three questions:\n\n1. What did I accomplish yesterday?\n2. What will I work on today?\n3. What obstacles are blocking my progress?\n\nModern variations focus on the work rather than individuals:\n\n- Walking the board (discussing each item from right to left)\n- Focus on blockers and dependencies first\n- Update the sprint burndown\n\nKey characteristics:\n\n1. Time-boxed to 15 minutes - detailed discussions happen afterward\n2. Standing (traditionally) to keep it brief\n3. Same time, same place daily\n4. Development team event (others may observe)\n5. Not a status report to management\n\nBenefits:\n\n- Surfaces blockers early for quick resolution\n- Improves team communication and collaboration\n- Eliminates need for other status meetings\n- Promotes accountability and transparency\n- Keeps sprint goal front of mind\n\nCommon anti-patterns to avoid:\n\n- Reporting to the Scrum Master instead of the team\n- Detailed technical discussions (take offline)\n- Late starts or running over time\n- Treating it as a status meeting for management\n- Skipping when things seem fine\n\nFor remote teams, video standups, async standups (written updates), or walking-the-board formats often work better than the traditional three-question format.",
+  "tags": [
+    "agile",
+    "scrum",
+    "meetings",
+    "teams",
+    "communications",
+    "synchronization"
+  ],
+  "category": "Techniques",
+  "icon": "FaUsers",
+  "featured": false,
+  "aliases": [
+    "Daily Scrum",
+    "Standup Meeting",
+    "Daily Sync",
+    "Morning Standup"
+  ],
+  "relatedConcepts": [
+    "scrum",
+    "sprint",
+    "sprint-planning",
+    "sprint-retrospective",
+    "scrum-master",
+    "scrumban"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Stand-up meeting - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stand-up_meeting",
+      "type": "website"
+    },
+    {
+      "title": "Knowledge Worker Kit",
+      "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+      "type": "other"
+    },
+    {
+      "title": "Dev Concepts",
+      "url": "https://dev-concepts.dev",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2025-12-28",
+  "dateModified": "2026-01-29"
 }

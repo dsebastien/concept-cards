@@ -1,31 +1,44 @@
 {
-    "id": "dualism",
-    "name": "Dualism",
-    "summary": "The philosophical view that mind and body are fundamentally different kinds of substances or possess fundamentally different properties.",
-    "explanation": "Dualism is the philosophical position that mind and body are fundamentally different in nature. The most famous version, substance dualism, was articulated by Rene Descartes in the 17th century. He argued that the mind (res cogitans, or thinking substance) and body (res extensa, or extended substance) are two completely separate substances that somehow interact, proposing the pineal gland as the point of interaction.\n\nGilbert Ryle famously criticized this view as the 'ghost in the machine'—a category mistake that treats the mind as if it were a special kind of thing hiding inside the body. Despite such criticisms, dualism persists in various forms.\n\nModern property dualism, championed by philosopher David Chalmers, accepts that everything is ultimately physical but maintains that consciousness involves non-physical properties that cannot be reduced to or explained by physical processes alone. This is closely tied to the 'hard problem of consciousness'—explaining why there is subjective experience at all.\n\nDualism faces the notorious interaction problem: if mind and body are fundamentally different, how can they causally affect each other? Yet physicalism struggles to explain qualia and consciousness—what Thomas Nagel described as 'what it is like' to be conscious. This debate remains central to philosophy of mind.",
-    "tags": ["philosophy", "consciousness", "metaphysics", "philosophy-of-mind"],
-    "category": "Philosophy & Wisdom",
-    "featured": false,
-    "aliases": ["Mind-Body Dualism", "Cartesian Dualism", "Substance Dualism"],
-    "relatedConcepts": ["consciousness"],
-    "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Dualism"],
-    "references": [
-        {
-            "title": "Dualism (philosophy of mind) - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Mind%E2%80%93body_dualism",
-            "type": "website"
-        }
-    ],
-    "books": [
-        {
-            "title": "Meditations on First Philosophy by Rene Descartes",
-            "url": "https://www.amazon.com/dp/1107665736?tag=dsebastien00-20"
-        },
-        {
-            "title": "The Conscious Mind by David Chalmers",
-            "url": "https://www.amazon.com/dp/0195117891?tag=dsebastien00-20"
-        }
-    ],
-    "datePublished": "2026-01-28",
-    "dateModified": "2026-01-28"
+  "id": "dualism",
+  "name": "Dualism",
+  "summary": "The philosophical view that mind and body are fundamentally different kinds of substances or possess fundamentally different properties.",
+  "explanation": "Dualism is the philosophical position that mind and body are fundamentally different in nature. The most famous version, substance dualism, was articulated by Rene Descartes in the 17th century. He argued that the mind (res cogitans, or thinking substance) and body (res extensa, or extended substance) are two completely separate substances that somehow interact, proposing the pineal gland as the point of interaction.\n\nGilbert Ryle famously criticized this view as the 'ghost in the machine'—a category mistake that treats the mind as if it were a special kind of thing hiding inside the body. Despite such criticisms, dualism persists in various forms.\n\nModern property dualism, championed by philosopher David Chalmers, accepts that everything is ultimately physical but maintains that consciousness involves non-physical properties that cannot be reduced to or explained by physical processes alone. This is closely tied to the 'hard problem of consciousness'—explaining why there is subjective experience at all.\n\nDualism faces the notorious interaction problem: if mind and body are fundamentally different, how can they causally affect each other? Yet physicalism struggles to explain qualia and consciousness—what Thomas Nagel described as 'what it is like' to be conscious. This debate remains central to philosophy of mind.",
+  "tags": [
+    "philosophies",
+    "consciousness",
+    "metaphysics",
+    "philosophy-of-mind"
+  ],
+  "category": "Philosophy & Wisdom",
+  "featured": false,
+  "aliases": [
+    "Mind-Body Dualism",
+    "Cartesian Dualism",
+    "Substance Dualism"
+  ],
+  "relatedConcepts": [
+    "consciousness"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Dualism"
+  ],
+  "references": [
+    {
+      "title": "Dualism (philosophy of mind) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mind%E2%80%93body_dualism",
+      "type": "website"
+    }
+  ],
+  "books": [
+    {
+      "title": "Meditations on First Philosophy by Rene Descartes",
+      "url": "https://www.amazon.com/dp/1107665736?tag=dsebastien00-20"
+    },
+    {
+      "title": "The Conscious Mind by David Chalmers",
+      "url": "https://www.amazon.com/dp/0195117891?tag=dsebastien00-20"
+    }
+  ],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
 }

@@ -1,52 +1,52 @@
 {
-    "id": "signaling",
-    "name": "Signaling",
-    "summary": "Actions taken primarily to communicate information about oneself to others rather than for their direct practical value.",
-    "explanation": "Signaling is a concept from economics and evolutionary biology describing behaviors whose primary purpose is to convey information about the signaler's qualities, abilities, or intentions to others. The key insight is that many human behaviors make little sense purely in terms of their direct utility but become rational when viewed as signals. A college degree signals intelligence and conscientiousness to employers. Luxury goods signal wealth and status. Elaborate courtship rituals signal commitment and resources. For a signal to be credible, it often needs to be costly or difficult to fake - otherwise everyone would send the signal regardless of whether they possess the underlying quality. This explains why effective signals tend to be expensive, time-consuming, or require genuine capability. Understanding signaling helps explain seemingly irrational behavior: why people overspend on visible goods but skimp on invisible ones, why credentials matter even when skills could be demonstrated directly, why rituals and ceremonies persist despite their apparent inefficiency. Signaling theory also reveals a social dilemma: while signals may be individually rational, they can be collectively wasteful when everyone must signal just to keep up, creating arms races in credentials, luxury goods, or performative behavior.",
-    "tags": [
-        "economics",
-        "psychology",
-        "social-psychology",
-        "game-theory",
-        "communication",
-        "behaviors"
-    ],
-    "category": "Psychology & Mental Models",
-    "icon": "FaBullhorn",
-    "featured": false,
-    "aliases": [
-        "Social signaling",
-        "Economic signaling",
-        "Signalling"
-    ],
-    "relatedConcepts": [
-        "costly-signaling-theory",
-        "virtue-signaling",
-        "countersignaling",
-        "conspicuous-consumption",
-        "status-games",
-        "game-theory"
-    ],
-    "relatedNotes": [],
-    "articles": [],
-    "books": [
-        {
-            "title": "The Elephant in the Brain by Kevin Simler and Robin Hanson",
-            "url": "https://www.amazon.com/dp/0190495995?tag=dsebastien00-20"
-        },
-        {
-            "title": "The Case Against Education by Bryan Caplan",
-            "url": "https://www.amazon.com/dp/0691196451?tag=dsebastien00-20"
-        }
-    ],
-    "references": [
-        {
-            "title": "Signalling (economics) - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Signalling_(economics)",
-            "type": "website"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-13",
-    "dateModified": "2026-01-13"
+  "id": "signaling",
+  "name": "Signaling",
+  "summary": "Actions taken primarily to communicate information about oneself to others rather than for their direct practical value.",
+  "explanation": "Signaling is a concept from economics and evolutionary biology describing behaviors whose primary purpose is to convey information about the signaler's qualities, abilities, or intentions to others. The key insight is that many human behaviors make little sense purely in terms of their direct utility but become rational when viewed as signals. A college degree signals intelligence and conscientiousness to employers. Luxury goods signal wealth and status. Elaborate courtship rituals signal commitment and resources. For a signal to be credible, it often needs to be costly or difficult to fake - otherwise everyone would send the signal regardless of whether they possess the underlying quality. This explains why effective signals tend to be expensive, time-consuming, or require genuine capability. Understanding signaling helps explain seemingly irrational behavior: why people overspend on visible goods but skimp on invisible ones, why credentials matter even when skills could be demonstrated directly, why rituals and ceremonies persist despite their apparent inefficiency. Signaling theory also reveals a social dilemma: while signals may be individually rational, they can be collectively wasteful when everyone must signal just to keep up, creating arms races in credentials, luxury goods, or performative behavior.",
+  "tags": [
+    "economics",
+    "psychology",
+    "social-psychology",
+    "game-theory",
+    "communications",
+    "behaviors"
+  ],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBullhorn",
+  "featured": false,
+  "aliases": [
+    "Social signaling",
+    "Economic signaling",
+    "Signalling"
+  ],
+  "relatedConcepts": [
+    "costly-signaling-theory",
+    "virtue-signaling",
+    "countersignaling",
+    "conspicuous-consumption",
+    "status-games",
+    "game-theory"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [
+    {
+      "title": "The Elephant in the Brain by Kevin Simler and Robin Hanson",
+      "url": "https://www.amazon.com/dp/0190495995?tag=dsebastien00-20"
+    },
+    {
+      "title": "The Case Against Education by Bryan Caplan",
+      "url": "https://www.amazon.com/dp/0691196451?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Signalling (economics) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Signalling_(economics)",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-13",
+  "dateModified": "2026-01-13"
 }

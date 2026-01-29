@@ -3,13 +3,30 @@
   "name": "Information Design",
   "summary": "The practice of presenting information in a way that enables efficient and effective understanding by combining principles from graphic design, cognitive psychology, and user experience.",
   "explanation": "Information Design transforms complex data and concepts into clear, accessible formats. It encompasses a broad range of applications including wayfinding systems, transit maps, data dashboards, instruction manuals, infographics, and technical documentation.\n\nThe field is built on several core principles: clarity (information should be immediately understandable), accuracy (visualizations must not distort data), efficiency (maximize information per unit of visual space), hierarchy (guide attention to the most important elements first), consistency (use uniform visual language), and accessibility (design for diverse audiences and abilities).\n\nEdward Tufte is perhaps the most influential figure in information design, advocating for high data-to-ink ratios and criticizing 'chartjunk' (decorative elements that obscure data). His principles include maximizing data while minimizing non-essential ink, avoiding visual distortions that mislead (lie factor), using small multiples for comparison, and employing sparklines for word-sized trend graphics. Other key figures include Otto Neurath (ISOTYPE pictograms), Harry Beck (London Underground map), Richard Saul Wurman (who coined 'information architecture'), and Ben Shneiderman (treemaps).\n\nWhile related to data visualization, information design has a broader scope encompassing all forms of information presentation across print, digital, and physical environments. Data visualization focuses specifically on deriving insight from data, whereas information design aims at effective communication of any information type.",
-  "tags": ["design", "communication", "visualization", "user-experience", "data-visualization", "cognitive-psychology"],
+  "tags": [
+    "design",
+    "communications",
+    "visualization",
+    "user-experience",
+    "data-visualization",
+    "cognitive-psychology"
+  ],
   "category": "Software Development",
   "icon": "FaChartPie",
   "featured": false,
-  "aliases": ["Information Graphics", "Infographics"],
-  "relatedConcepts": ["data-visualization", "information-architecture", "cognitive-psychology", "treemap"],
-  "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Information+Design"],
+  "aliases": [
+    "Information Graphics",
+    "Infographics"
+  ],
+  "relatedConcepts": [
+    "data-visualization",
+    "information-architecture",
+    "cognitive-psychology",
+    "treemap"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Information+Design"
+  ],
   "articles": [],
   "books": [
     {

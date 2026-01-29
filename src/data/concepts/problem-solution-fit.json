@@ -1,43 +1,53 @@
 {
-    "id": "problem-solution-fit",
-    "name": "Problem-Solution Fit",
-    "summary": "The validation that your solution actually solves a real problem that people have and care about.",
-    "explanation": "Problem-Solution Fit is the first critical milestone in building products, services, or expertise. It validates that you've identified a real problem worth solving and that your solution actually addresses it. It precedes Product-Market Fit.\n\n**The Two Validations:**\n1. **Problem validation:** Do people actually have this problem? Do they care enough to seek solutions?\n2. **Solution validation:** Does your solution actually solve the problem? Do people prefer it over alternatives?\n\n**Signs of Problem-Solution Fit:**\n- People actively search for solutions to the problem\n- They've tried other solutions (showing they care)\n- They can articulate their frustration clearly\n- They respond positively to your solution concept\n- Early users report the problem is genuinely solved\n\n**Signs You Don't Have It:**\n- You have to convince people they have the problem\n- People say 'nice to have' instead of 'must have'\n- Users try once and don't return\n- No one will pay (even a small amount)\n- Feedback is polite but not enthusiastic\n\n**The Validation Process:**\n1. **Identify assumed problem** - What problem do you think exists?\n2. **Talk to potential users** - Do they confirm the problem?\n3. **Understand current solutions** - What do they do now?\n4. **Propose your solution** - Does it resonate?\n5. **Test with real usage** - Does it actually solve their problem?\n\n**Common Mistakes:**\n- Building solutions to problems you have, not customers have\n- Solving problems people don't care enough about\n- Assuming 'better' means people will switch\n- Skipping validation because you're certain\n\n**Relationship to Other Fits:**\n- **Problem-Solution Fit:** Does the solution work?\n- **Product-Market Fit:** Does the market want it at scale?\n- **Business Model Fit:** Can you deliver it profitably?",
-    "tags": ["entrepreneurship", "product-development", "validation", "startups", "strategy"],
-    "category": "Business & Economics",
-    "icon": "FaPuzzlePiece",
-    "featured": false,
-    "aliases": ["Solution-Problem Fit", "Problem Validation", "Solution Validation"],
-    "relatedConcepts": [
-        "product-market-fit",
-        "minimum-viable-product",
-        "jobs-to-be-done",
-        "minimal-viable-expertise",
-        "lean-startup",
-        "customer-discovery",
-        "value-proposition",
-        "ideal-customer-profile"
-    ],
-    "relatedNotes": [],
-    "references": [
-        {
-            "title": "Product/market fit - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Product/market_fit",
-            "type": "website"
-        }
-    ],
-    "articles": [],
-    "books": [
-        {
-            "title": "The Mom Test by Rob Fitzpatrick",
-            "url": "https://www.amazon.com/dp/1492180742?tag=dsebastien00-20"
-        },
-        {
-            "title": "The Lean Startup by Eric Ries",
-            "url": "https://www.amazon.com/dp/0307887898?tag=dsebastien00-20"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-16",
-    "dateModified": "2026-01-16"
+  "id": "problem-solution-fit",
+  "name": "Problem-Solution Fit",
+  "summary": "The validation that your solution actually solves a real problem that people have and care about.",
+  "explanation": "Problem-Solution Fit is the first critical milestone in building products, services, or expertise. It validates that you've identified a real problem worth solving and that your solution actually addresses it. It precedes Product-Market Fit.\n\n**The Two Validations:**\n1. **Problem validation:** Do people actually have this problem? Do they care enough to seek solutions?\n2. **Solution validation:** Does your solution actually solve the problem? Do people prefer it over alternatives?\n\n**Signs of Problem-Solution Fit:**\n- People actively search for solutions to the problem\n- They've tried other solutions (showing they care)\n- They can articulate their frustration clearly\n- They respond positively to your solution concept\n- Early users report the problem is genuinely solved\n\n**Signs You Don't Have It:**\n- You have to convince people they have the problem\n- People say 'nice to have' instead of 'must have'\n- Users try once and don't return\n- No one will pay (even a small amount)\n- Feedback is polite but not enthusiastic\n\n**The Validation Process:**\n1. **Identify assumed problem** - What problem do you think exists?\n2. **Talk to potential users** - Do they confirm the problem?\n3. **Understand current solutions** - What do they do now?\n4. **Propose your solution** - Does it resonate?\n5. **Test with real usage** - Does it actually solve their problem?\n\n**Common Mistakes:**\n- Building solutions to problems you have, not customers have\n- Solving problems people don't care enough about\n- Assuming 'better' means people will switch\n- Skipping validation because you're certain\n\n**Relationship to Other Fits:**\n- **Problem-Solution Fit:** Does the solution work?\n- **Product-Market Fit:** Does the market want it at scale?\n- **Business Model Fit:** Can you deliver it profitably?",
+  "tags": [
+    "entrepreneurship",
+    "product-development",
+    "validation",
+    "startups",
+    "strategies"
+  ],
+  "category": "Business & Economics",
+  "icon": "FaPuzzlePiece",
+  "featured": false,
+  "aliases": [
+    "Solution-Problem Fit",
+    "Problem Validation",
+    "Solution Validation"
+  ],
+  "relatedConcepts": [
+    "product-market-fit",
+    "minimum-viable-product",
+    "jobs-to-be-done",
+    "minimal-viable-expertise",
+    "lean-startup",
+    "customer-discovery",
+    "value-proposition",
+    "ideal-customer-profile"
+  ],
+  "relatedNotes": [],
+  "references": [
+    {
+      "title": "Product/market fit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Product/market_fit",
+      "type": "website"
+    }
+  ],
+  "articles": [],
+  "books": [
+    {
+      "title": "The Mom Test by Rob Fitzpatrick",
+      "url": "https://www.amazon.com/dp/1492180742?tag=dsebastien00-20"
+    },
+    {
+      "title": "The Lean Startup by Eric Ries",
+      "url": "https://www.amazon.com/dp/0307887898?tag=dsebastien00-20"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-16",
+  "dateModified": "2026-01-16"
 }

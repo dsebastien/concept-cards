@@ -35,7 +35,7 @@
                 "note-taking",
                 "note-types",
                 "obsidian",
-                "organization",
+                "organizations",
                 "para",
                 "periodic-reviews",
                 "personal-development",
@@ -124,7 +124,7 @@
                 "note-taking",
                 "note-types",
                 "obsidian",
-                "organization",
+                "organizations",
                 "para",
                 "periodic-reviews",
                 "personal-development",
@@ -152,7 +152,6 @@
             "type": "other",
             "matchTags": [
                 "ai",
-                "artificial-intelligence",
                 "atomic-notes",
                 "branding",
                 "career",
@@ -201,7 +200,7 @@
                 "note-taking",
                 "note-types",
                 "obsidian",
-                "organization",
+                "organizations",
                 "para",
                 "periodic-reviews",
                 "personal-branding",
@@ -284,7 +283,7 @@
                 "mentorship",
                 "methods",
                 "networking",
-                "organization",
+                "organizations",
                 "para",
                 "periodic-reviews",
                 "personal-development",
@@ -354,7 +353,6 @@
             "type": "other",
             "matchTags": [
                 "ai",
-                "artificial-intelligence",
                 "writing",
                 "content-creation",
                 "prompting",
@@ -410,14 +408,7 @@
             "title": "Knowii Voice AI",
             "url": "https://voice-ai.knowii.net",
             "type": "other",
-            "matchTags": [
-                "ai",
-                "artificial-intelligence",
-                "capture",
-                "note-taking",
-                "privacy",
-                "tools"
-            ]
+            "matchTags": ["ai", "capture", "note-taking", "privacy", "tools"]
         },
         {
             "id": "journaling-deep-dive",
@@ -467,7 +458,7 @@
             "type": "other",
             "matchTags": [
                 "personal-organization",
-                "organization",
+                "organizations",
                 "productivity",
                 "habits",
                 "routines",
@@ -487,7 +478,6 @@
             "type": "other",
             "matchTags": [
                 "ai",
-                "artificial-intelligence",
                 "prompting",
                 "prompts",
                 "llm",
@@ -501,15 +491,7 @@
             "title": "Model Context Protocol (MCP) Workshop",
             "url": "https://store.dsebastien.net/product/model-context-protocol",
             "type": "other",
-            "matchTags": [
-                "ai",
-                "artificial-intelligence",
-                "llm",
-                "integration",
-                "automation",
-                "tools",
-                "interfaces"
-            ]
+            "matchTags": ["ai", "llm", "integration", "automation", "tools", "interfaces"]
         }
     ]
 }

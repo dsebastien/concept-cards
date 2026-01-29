@@ -1,61 +1,61 @@
 {
-    "id": "usability",
-    "name": "Usability",
-    "summary": "The degree to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction.",
-    "explanation": "Usability is a quality attribute that assesses how easy user interfaces are to use. It's defined by five quality components identified by Jakob Nielsen:\n\n**The Five Components of Usability**:\n\n1. **Learnability**: How easy is it for users to accomplish basic tasks the first time they encounter the design?\n\n2. **Efficiency**: Once users have learned the design, how quickly can they perform tasks?\n\n3. **Memorability**: When users return after a period of not using it, how easily can they reestablish proficiency?\n\n4. **Errors**: How many errors do users make, how severe are they, and how easily can users recover?\n\n5. **Satisfaction**: How pleasant is it to use the design?\n\n**Usability vs. Utility**:\n\n- **Utility**: Does it provide the features you need?\n- **Usability**: How easy and pleasant are those features to use?\n- **Usefulness**: Utility + Usability combined\n\nA product can have high utility (many features) but low usability (hard to use), or vice versa.\n\n**Measuring Usability**:\n\n- **Task Success Rate**: Percentage of correctly completed tasks\n- **Time on Task**: How long tasks take to complete\n- **Error Rate**: Number and severity of errors\n- **System Usability Scale (SUS)**: Standardized questionnaire\n- **Net Promoter Score (NPS)**: Likelihood to recommend\n\n**Usability Testing Methods**:\n\n- **Moderated Testing**: Researcher guides participants through tasks\n- **Unmoderated Testing**: Users complete tasks independently (remote)\n- **A/B Testing**: Compare two versions with different users\n- **Heuristic Evaluation**: Experts evaluate against principles\n- **Cognitive Walkthrough**: Step through tasks from user perspective\n\n**Why Usability Matters**:\n\n- Users leave sites that are hard to use\n- Poor usability increases support costs\n- Good usability reduces training time\n- Usability affects brand perception\n- Accessibility and usability overlap significantly\n\nUsability should be considered throughout the design process, not just at the end. Testing early with rough prototypes catches problems when they're cheap to fix.",
-    "tags": [
-        "ux",
-        "quality",
-        "user-centered",
-        "interfaces",
-        "evaluation"
-    ],
-    "category": "Principles",
-    "icon": "FaCheckCircle",
-    "featured": false,
-    "aliases": [
-        "Ease of use",
-        "User-friendliness"
-    ],
-    "relatedConcepts": [
-        "ux-design",
-        "usability-heuristics",
-        "eight-golden-rules",
-        "cognitive-load",
-        "affordances",
-        "accessibility",
-        "customer-effort-score"
-    ],
-    "relatedNotes": [],
-    "articles": [],
-    "books": [
-        {
-            "title": "Don't Make Me Think by Steve Krug",
-            "url": "https://www.amazon.com/dp/0321965515"
-        },
-        {
-            "title": "Rocket Surgery Made Easy by Steve Krug",
-            "url": "https://www.amazon.com/dp/0321657292"
-        }
-    ],
-    "references": [
-        {
-            "title": "Usability - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Usability",
-            "type": "website"
-        },
-        {
-            "title": "Usability 101: Introduction to Usability - Nielsen Norman Group",
-            "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
-            "type": "website"
-        },
-        {
-            "title": "Model Context Protocol (MCP) Workshop",
-            "url": "https://store.dsebastien.net/product/model-context-protocol",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-25",
-    "dateModified": "2026-01-29"
+  "id": "usability",
+  "name": "Usability",
+  "summary": "The degree to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction.",
+  "explanation": "Usability is a quality attribute that assesses how easy user interfaces are to use. It's defined by five quality components identified by Jakob Nielsen:\n\n**The Five Components of Usability**:\n\n1. **Learnability**: How easy is it for users to accomplish basic tasks the first time they encounter the design?\n\n2. **Efficiency**: Once users have learned the design, how quickly can they perform tasks?\n\n3. **Memorability**: When users return after a period of not using it, how easily can they reestablish proficiency?\n\n4. **Errors**: How many errors do users make, how severe are they, and how easily can users recover?\n\n5. **Satisfaction**: How pleasant is it to use the design?\n\n**Usability vs. Utility**:\n\n- **Utility**: Does it provide the features you need?\n- **Usability**: How easy and pleasant are those features to use?\n- **Usefulness**: Utility + Usability combined\n\nA product can have high utility (many features) but low usability (hard to use), or vice versa.\n\n**Measuring Usability**:\n\n- **Task Success Rate**: Percentage of correctly completed tasks\n- **Time on Task**: How long tasks take to complete\n- **Error Rate**: Number and severity of errors\n- **System Usability Scale (SUS)**: Standardized questionnaire\n- **Net Promoter Score (NPS)**: Likelihood to recommend\n\n**Usability Testing Methods**:\n\n- **Moderated Testing**: Researcher guides participants through tasks\n- **Unmoderated Testing**: Users complete tasks independently (remote)\n- **A/B Testing**: Compare two versions with different users\n- **Heuristic Evaluation**: Experts evaluate against principles\n- **Cognitive Walkthrough**: Step through tasks from user perspective\n\n**Why Usability Matters**:\n\n- Users leave sites that are hard to use\n- Poor usability increases support costs\n- Good usability reduces training time\n- Usability affects brand perception\n- Accessibility and usability overlap significantly\n\nUsability should be considered throughout the design process, not just at the end. Testing early with rough prototypes catches problems when they're cheap to fix.",
+  "tags": [
+    "user-experience",
+    "quality",
+    "user-centered",
+    "interfaces",
+    "evaluation"
+  ],
+  "category": "Principles",
+  "icon": "FaCheckCircle",
+  "featured": false,
+  "aliases": [
+    "Ease of use",
+    "User-friendliness"
+  ],
+  "relatedConcepts": [
+    "ux-design",
+    "usability-heuristics",
+    "eight-golden-rules",
+    "cognitive-load",
+    "affordances",
+    "accessibility",
+    "customer-effort-score"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [
+    {
+      "title": "Don't Make Me Think by Steve Krug",
+      "url": "https://www.amazon.com/dp/0321965515"
+    },
+    {
+      "title": "Rocket Surgery Made Easy by Steve Krug",
+      "url": "https://www.amazon.com/dp/0321657292"
+    }
+  ],
+  "references": [
+    {
+      "title": "Usability - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Usability",
+      "type": "website"
+    },
+    {
+      "title": "Usability 101: Introduction to Usability - Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
+      "type": "website"
+    },
+    {
+      "title": "Model Context Protocol (MCP) Workshop",
+      "url": "https://store.dsebastien.net/product/model-context-protocol",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-25",
+  "dateModified": "2026-01-29"
 }

@@ -1,74 +1,74 @@
 {
-    "id": "interaction-design",
-    "name": "Interaction Design",
-    "summary": "The practice of designing interactive digital products, environments, systems, and services with a focus on behavior—how users interact with them through actions, responses, feedback, and flows.",
-    "explanation": "Interaction Design (IxD) is the practice of designing interactive digital products, environments, systems, and services with a focus on behavior—how users interact with them. The term was coined by Bill Moggridge and Bill Verplank in the mid-1980s at IDEO. While User Experience (UX) encompasses the entire user journey, interaction design specifically focuses on the moment-to-moment dialogue between user and product: actions, responses, feedback, and flows.\n\n**The Five Dimensions of Interaction Design**:\n\n1. **Words (1D)**: Text, labels, and microcopy like button labels and error messages\n2. **Visual (2D)**: Images, typography, icons, and interface graphics\n3. **Physical (3D)**: Hardware and space—mouse, touchscreen, keyboard\n4. **Time (4D)**: Animation, sound, and duration—loading indicators, transitions\n5. **Behavior (5D)**: How the product responds—feedback and state changes\n\n**Core Concepts**:\n\n- **Affordance**: What actions are possible\n- **Signifier**: What communicates affordances\n- **Feedback**: Response to user actions\n- **Mapping**: Relationship between control and effect\n- **Constraints**: Limiting possible actions\n- **Consistency**: Predictable patterns\n- **Mental Model**: User's understanding of the system\n\n**Common Interaction Patterns**:\n\n- **Direct manipulation**: Drag and drop, resize\n- **Menu selection**: Choosing from options\n- **Form fill-in**: Data entry\n- **Command line**: Expert text input\n- **Conversational**: Chatbots, voice assistants\n- **Gesture**: Touch, motion control\n- **WIMP**: Windows, Icons, Menus, Pointer\n\n**The Design Process**:\n\n1. **Research**: User interviews, observation, analysis\n2. **Define**: Personas, scenarios, requirements\n3. **Ideate**: Sketching, wireframing, flow diagrams\n4. **Prototype**: Interactive mockups, clickable prototypes\n5. **Test**: Usability testing, iteration\n6. **Implement**: Collaboration with development\n\n**IxD vs Related Fields**:\n\n| Field | Focus |\n|-------|-------|\n| Interaction Design | Behavior, moment-to-moment dialogue |\n| UX Design | Entire user journey, holistic |\n| UI Design | Visual appearance, layout |\n| HCI | Research-focused, theoretical |\n\nInteraction design draws on cognitive psychology, human-computer interaction, and product design. Key concerns include defining how products behave in response to user input, designing clear affordances and signifiers, providing appropriate feedback, and creating coherent interaction patterns.",
-    "tags": [
-        "design",
-        "user-experience",
-        "human-computer-interaction",
-        "interfaces",
-        "behavior"
-    ],
-    "category": "Software Development",
-    "icon": "FaMousePointer",
-    "featured": false,
-    "aliases": [
-        "IxD",
-        "Interaction Designer"
-    ],
-    "relatedConcepts": [
-        "ux-design",
-        "human-computer-interaction",
-        "usability",
-        "affordances",
-        "signifier"
-    ],
-    "relatedNotes": [
-        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Interaction+Design+(IxD)"
-    ],
-    "articles": [
-        {
-            "title": "What is Interaction Design? - Interaction Design Foundation",
-            "url": "https://www.interaction-design.org/literature/topics/interaction-design",
-            "type": "website"
-        }
-    ],
-    "books": [
-        {
-            "title": "The Design of Everyday Things by Don Norman",
-            "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
-        },
-        {
-            "title": "About Face: The Essentials of Interaction Design by Alan Cooper",
-            "url": "https://www.amazon.com/dp/1118766571?tag=dsebastien00-20"
-        },
-        {
-            "title": "Designing for Interaction by Dan Saffer",
-            "url": "https://www.amazon.com/dp/0321643399?tag=dsebastien00-20"
-        },
-        {
-            "title": "Microinteractions by Dan Saffer",
-            "url": "https://www.amazon.com/dp/1491945923?tag=dsebastien00-20"
-        },
-        {
-            "title": "Designing Interactions by Bill Moggridge",
-            "url": "https://www.amazon.com/dp/0262134748?tag=dsebastien00-20"
-        }
-    ],
-    "references": [
-        {
-            "title": "Interaction design - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Interaction_design",
-            "type": "website"
-        },
-        {
-            "title": "Model Context Protocol (MCP) Workshop",
-            "url": "https://store.dsebastien.net/product/model-context-protocol",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-28",
-    "dateModified": "2026-01-29"
+  "id": "interaction-design",
+  "name": "Interaction Design",
+  "summary": "The practice of designing interactive digital products, environments, systems, and services with a focus on behavior—how users interact with them through actions, responses, feedback, and flows.",
+  "explanation": "Interaction Design (IxD) is the practice of designing interactive digital products, environments, systems, and services with a focus on behavior—how users interact with them. The term was coined by Bill Moggridge and Bill Verplank in the mid-1980s at IDEO. While User Experience (UX) encompasses the entire user journey, interaction design specifically focuses on the moment-to-moment dialogue between user and product: actions, responses, feedback, and flows.\n\n**The Five Dimensions of Interaction Design**:\n\n1. **Words (1D)**: Text, labels, and microcopy like button labels and error messages\n2. **Visual (2D)**: Images, typography, icons, and interface graphics\n3. **Physical (3D)**: Hardware and space—mouse, touchscreen, keyboard\n4. **Time (4D)**: Animation, sound, and duration—loading indicators, transitions\n5. **Behavior (5D)**: How the product responds—feedback and state changes\n\n**Core Concepts**:\n\n- **Affordance**: What actions are possible\n- **Signifier**: What communicates affordances\n- **Feedback**: Response to user actions\n- **Mapping**: Relationship between control and effect\n- **Constraints**: Limiting possible actions\n- **Consistency**: Predictable patterns\n- **Mental Model**: User's understanding of the system\n\n**Common Interaction Patterns**:\n\n- **Direct manipulation**: Drag and drop, resize\n- **Menu selection**: Choosing from options\n- **Form fill-in**: Data entry\n- **Command line**: Expert text input\n- **Conversational**: Chatbots, voice assistants\n- **Gesture**: Touch, motion control\n- **WIMP**: Windows, Icons, Menus, Pointer\n\n**The Design Process**:\n\n1. **Research**: User interviews, observation, analysis\n2. **Define**: Personas, scenarios, requirements\n3. **Ideate**: Sketching, wireframing, flow diagrams\n4. **Prototype**: Interactive mockups, clickable prototypes\n5. **Test**: Usability testing, iteration\n6. **Implement**: Collaboration with development\n\n**IxD vs Related Fields**:\n\n| Field | Focus |\n|-------|-------|\n| Interaction Design | Behavior, moment-to-moment dialogue |\n| UX Design | Entire user journey, holistic |\n| UI Design | Visual appearance, layout |\n| HCI | Research-focused, theoretical |\n\nInteraction design draws on cognitive psychology, human-computer interaction, and product design. Key concerns include defining how products behave in response to user input, designing clear affordances and signifiers, providing appropriate feedback, and creating coherent interaction patterns.",
+  "tags": [
+    "design",
+    "user-experience",
+    "human-computer-interaction",
+    "interfaces",
+    "behaviors"
+  ],
+  "category": "Software Development",
+  "icon": "FaMousePointer",
+  "featured": false,
+  "aliases": [
+    "IxD",
+    "Interaction Designer"
+  ],
+  "relatedConcepts": [
+    "ux-design",
+    "human-computer-interaction",
+    "usability",
+    "affordances",
+    "signifier"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Interaction+Design+(IxD)"
+  ],
+  "articles": [
+    {
+      "title": "What is Interaction Design? - Interaction Design Foundation",
+      "url": "https://www.interaction-design.org/literature/topics/interaction-design",
+      "type": "website"
+    }
+  ],
+  "books": [
+    {
+      "title": "The Design of Everyday Things by Don Norman",
+      "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
+    },
+    {
+      "title": "About Face: The Essentials of Interaction Design by Alan Cooper",
+      "url": "https://www.amazon.com/dp/1118766571?tag=dsebastien00-20"
+    },
+    {
+      "title": "Designing for Interaction by Dan Saffer",
+      "url": "https://www.amazon.com/dp/0321643399?tag=dsebastien00-20"
+    },
+    {
+      "title": "Microinteractions by Dan Saffer",
+      "url": "https://www.amazon.com/dp/1491945923?tag=dsebastien00-20"
+    },
+    {
+      "title": "Designing Interactions by Bill Moggridge",
+      "url": "https://www.amazon.com/dp/0262134748?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Interaction design - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Interaction_design",
+      "type": "website"
+    },
+    {
+      "title": "Model Context Protocol (MCP) Workshop",
+      "url": "https://store.dsebastien.net/product/model-context-protocol",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-29"
 }

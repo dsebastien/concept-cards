@@ -1,60 +1,60 @@
 {
-    "id": "affordances",
-    "name": "Affordances",
-    "summary": "The perceived and actual properties of an object that suggest how it can be used—a door handle affords pulling, a button affords pressing.",
-    "explanation": "Affordances are the possible actions between an object and an individual. The term was coined by psychologist James Gibson and later applied to design by Don Norman in 'The Design of Everyday Things.'\n\n**Types of Affordances**:\n\n**1. Physical Affordances**\nActual properties that determine what's physically possible:\n- A chair affords sitting\n- A ball affords throwing\n- Stairs afford climbing\n\n**2. Perceived Affordances**\nWhat users believe they can do based on visual cues:\n- A 3D button appears clickable\n- An underlined text appears to be a link\n- A handle suggests pulling\n\n**3. Hidden Affordances**\nPossible actions that aren't visually apparent:\n- Right-click menus\n- Keyboard shortcuts\n- Swipe gestures\n\n**4. False Affordances**\nSuggested actions that don't actually work:\n- A button that looks clickable but isn't\n- Decorative underlined text (not a link)\n- Fake scroll bars\n\n**Affordances in Digital Design**:\n\n| Element | Affordance |\n|---------|------------|\n| Button with shadow | Clickable/pressable |\n| Text field | Text entry |\n| Slider | Dragging to adjust value |\n| Checkbox | Toggle on/off |\n| Underlined text | Hyperlink |\n| Scroll bar | Content continues |\n\n**Signifiers vs. Affordances**:\n\nDon Norman later clarified the distinction:\n- **Affordance**: What action is possible\n- **Signifier**: The signal that communicates the affordance\n\nA door may afford pushing, but only a signifier (like a flat plate) communicates that pushing is the right action.\n\n**Design Implications**:\n\n- Make affordances visible through clear signifiers\n- Match perceived affordances to actual affordances\n- Use familiar patterns (buttons that look like buttons)\n- Avoid false affordances that frustrate users\n- Consider cultural conventions (what looks clickable varies by context)\n\n**Anti-patterns**:\n\n- Flat design without clear interaction cues\n- Text that looks like links but isn't\n- Clickable areas that are too small\n- Gestural interfaces without discovery mechanisms\n\nGood design makes the right action obvious through clear affordances. When users guess wrong about what an element does, the affordance has failed.",
-    "tags": [
-        "ux",
-        "design",
-        "psychology",
-        "interfaces",
-        "perception"
-    ],
-    "category": "Principles",
-    "icon": "FaHandPointer",
-    "featured": false,
-    "aliases": [
-        "Perceived affordances",
-        "Design affordances",
-        "Action possibilities"
-    ],
-    "relatedConcepts": [
-        "ux-design",
-        "usability",
-        "usability-heuristics",
-        "cognitive-load",
-        "eight-golden-rules",
-        "skeuomorphism",
-        "mental-models"
-    ],
-    "relatedNotes": [
-        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Affordance"
-    ],
-    "articles": [],
-    "books": [
-        {
-            "title": "The Design of Everyday Things by Don Norman",
-            "url": "https://www.amazon.com/dp/0465050654"
-        }
-    ],
-    "references": [
-        {
-            "title": "Affordance - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Affordance",
-            "type": "website"
-        },
-        {
-            "title": "Affordances and Design - Interaction Design Foundation",
-            "url": "https://www.interaction-design.org/literature/topics/affordances",
-            "type": "website"
-        },
-        {
-            "title": "Model Context Protocol (MCP) Workshop",
-            "url": "https://store.dsebastien.net/product/model-context-protocol",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-25",
-    "dateModified": "2026-01-29"
+  "id": "affordances",
+  "name": "Affordances",
+  "summary": "The perceived and actual properties of an object that suggest how it can be used—a door handle affords pulling, a button affords pressing.",
+  "explanation": "Affordances are the possible actions between an object and an individual. The term was coined by psychologist James Gibson and later applied to design by Don Norman in 'The Design of Everyday Things.'\n\n**Types of Affordances**:\n\n**1. Physical Affordances**\nActual properties that determine what's physically possible:\n- A chair affords sitting\n- A ball affords throwing\n- Stairs afford climbing\n\n**2. Perceived Affordances**\nWhat users believe they can do based on visual cues:\n- A 3D button appears clickable\n- An underlined text appears to be a link\n- A handle suggests pulling\n\n**3. Hidden Affordances**\nPossible actions that aren't visually apparent:\n- Right-click menus\n- Keyboard shortcuts\n- Swipe gestures\n\n**4. False Affordances**\nSuggested actions that don't actually work:\n- A button that looks clickable but isn't\n- Decorative underlined text (not a link)\n- Fake scroll bars\n\n**Affordances in Digital Design**:\n\n| Element | Affordance |\n|---------|------------|\n| Button with shadow | Clickable/pressable |\n| Text field | Text entry |\n| Slider | Dragging to adjust value |\n| Checkbox | Toggle on/off |\n| Underlined text | Hyperlink |\n| Scroll bar | Content continues |\n\n**Signifiers vs. Affordances**:\n\nDon Norman later clarified the distinction:\n- **Affordance**: What action is possible\n- **Signifier**: The signal that communicates the affordance\n\nA door may afford pushing, but only a signifier (like a flat plate) communicates that pushing is the right action.\n\n**Design Implications**:\n\n- Make affordances visible through clear signifiers\n- Match perceived affordances to actual affordances\n- Use familiar patterns (buttons that look like buttons)\n- Avoid false affordances that frustrate users\n- Consider cultural conventions (what looks clickable varies by context)\n\n**Anti-patterns**:\n\n- Flat design without clear interaction cues\n- Text that looks like links but isn't\n- Clickable areas that are too small\n- Gestural interfaces without discovery mechanisms\n\nGood design makes the right action obvious through clear affordances. When users guess wrong about what an element does, the affordance has failed.",
+  "tags": [
+    "user-experience",
+    "design",
+    "psychology",
+    "interfaces",
+    "perception"
+  ],
+  "category": "Principles",
+  "icon": "FaHandPointer",
+  "featured": false,
+  "aliases": [
+    "Perceived affordances",
+    "Design affordances",
+    "Action possibilities"
+  ],
+  "relatedConcepts": [
+    "ux-design",
+    "usability",
+    "usability-heuristics",
+    "cognitive-load",
+    "eight-golden-rules",
+    "skeuomorphism",
+    "mental-models"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Affordance"
+  ],
+  "articles": [],
+  "books": [
+    {
+      "title": "The Design of Everyday Things by Don Norman",
+      "url": "https://www.amazon.com/dp/0465050654"
+    }
+  ],
+  "references": [
+    {
+      "title": "Affordance - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Affordance",
+      "type": "website"
+    },
+    {
+      "title": "Affordances and Design - Interaction Design Foundation",
+      "url": "https://www.interaction-design.org/literature/topics/affordances",
+      "type": "website"
+    },
+    {
+      "title": "Model Context Protocol (MCP) Workshop",
+      "url": "https://store.dsebastien.net/product/model-context-protocol",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-25",
+  "dateModified": "2026-01-29"
 }

@@ -1,95 +1,95 @@
 {
-    "id": "hierarchical-organization",
-    "name": "Hierarchical Organization",
-    "summary": "A tree-like structure for organizing information where each item has exactly one parent, creating clear paths from root to leaves.",
-    "explanation": "Hierarchical organization structures information as a tree: a root with branches that subdivide into smaller branches, each item having exactly one parent. This is the dominant metaphor in computing (file systems, folders) and traditional knowledge organization (library classification, outlines, org charts). Outliners like Workflowy and traditional note apps use hierarchies. The strength is clarity: everything has one place, and you navigate by drilling down. The weakness is rigidity: real knowledge often doesn't fit neatly into trees—an idea may belong in multiple categories.\n\nThe rise of networked thought and tools like Roam Research, Obsidian, and Logseq challenged pure hierarchies by emphasizing links over folders. In a network, items connect to many others without a single \"correct\" location. However, hierarchies remain valuable for certain tasks: project breakdown, sequential processes, and when you need clear structure. Modern PKM often combines both: hierarchical folders for broad organization, with links and tags creating a network within. The PARA method uses a light hierarchy (Projects, Areas, Resources, Archive) while encouraging linking.\n\nHierarchies work well for project breakdown (clear parent-child tasks), sequential processes (steps in order), formal documents (chapters, sections, subsections), organizational structure (reporting lines), navigation menus (users expect tree structure), and archiving (clear categorization). They fail when dealing with cross-cutting concerns (items fitting multiple categories), arbitrary placement decisions, maintenance burden (moving items requires restructuring), discovery limitations (must know the path to find things), and evolving knowledge (categories change over time).\n\nBest practices include keeping hierarchies shallow (2-3 levels max), using links liberally to connect across branches, employing tags for cross-cutting concerns, avoiding over-categorization, and letting structure emerge organically rather than imposing it prematurely.",
-    "tags": [
-        "organization",
-        "information-architecture",
-        "structure",
-        "pkm",
-        "note-taking"
-    ],
-    "category": "Methods",
-    "icon": "FaSitemap",
-    "featured": false,
-    "aliases": [
-        "Tree Structure",
-        "Folder Hierarchy"
-    ],
-    "relatedConcepts": [
-        "outliner",
-        "para-method",
-        "networked-thought"
-    ],
-    "relatedNotes": [
-        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Hierarchical+Organization"
-    ],
-    "articles": [],
-    "books": [],
-    "references": [
-        {
-            "title": "Hierarchy - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Hierarchy",
-            "type": "website"
-        },
-        {
-            "title": "As We May Think - Vannevar Bush (1945)",
-            "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
-            "type": "paper"
-        },
-        {
-            "title": "Obsidian Starter Kit",
-            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
-            "type": "other"
-        },
-        {
-            "title": "Obsidian Starter Course",
-            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Management for Beginners",
-            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
-            "type": "other"
-        },
-        {
-            "title": "Knowii Community",
-            "url": "https://store.dsebastien.net/product/knowii-community",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Worker Kit",
-            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
-            "type": "other"
-        },
-        {
-            "title": "Personal Knowledge Management Library",
-            "url": "https://store.dsebastien.net/product/pkm-library",
-            "type": "other"
-        },
-        {
-            "title": "Personal Knowledge Management Coaching",
-            "url": "https://store.dsebastien.net/product/pkm-coaching",
-            "type": "other"
-        },
-        {
-            "title": "DeveloPassion's Newsletter",
-            "url": "https://dsebastien.net/newsletter",
-            "type": "other"
-        },
-        {
-            "title": "Knowii Voice AI",
-            "url": "https://voice-ai.knowii.net",
-            "type": "other"
-        },
-        {
-            "title": "Personal Organization 101 Workshop",
-            "url": "https://store.dsebastien.net/product/personal-organization-101",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-28",
-    "dateModified": "2026-01-29"
+  "id": "hierarchical-organization",
+  "name": "Hierarchical Organization",
+  "summary": "A tree-like structure for organizing information where each item has exactly one parent, creating clear paths from root to leaves.",
+  "explanation": "Hierarchical organization structures information as a tree: a root with branches that subdivide into smaller branches, each item having exactly one parent. This is the dominant metaphor in computing (file systems, folders) and traditional knowledge organization (library classification, outlines, org charts). Outliners like Workflowy and traditional note apps use hierarchies. The strength is clarity: everything has one place, and you navigate by drilling down. The weakness is rigidity: real knowledge often doesn't fit neatly into trees—an idea may belong in multiple categories.\n\nThe rise of networked thought and tools like Roam Research, Obsidian, and Logseq challenged pure hierarchies by emphasizing links over folders. In a network, items connect to many others without a single \"correct\" location. However, hierarchies remain valuable for certain tasks: project breakdown, sequential processes, and when you need clear structure. Modern PKM often combines both: hierarchical folders for broad organization, with links and tags creating a network within. The PARA method uses a light hierarchy (Projects, Areas, Resources, Archive) while encouraging linking.\n\nHierarchies work well for project breakdown (clear parent-child tasks), sequential processes (steps in order), formal documents (chapters, sections, subsections), organizational structure (reporting lines), navigation menus (users expect tree structure), and archiving (clear categorization). They fail when dealing with cross-cutting concerns (items fitting multiple categories), arbitrary placement decisions, maintenance burden (moving items requires restructuring), discovery limitations (must know the path to find things), and evolving knowledge (categories change over time).\n\nBest practices include keeping hierarchies shallow (2-3 levels max), using links liberally to connect across branches, employing tags for cross-cutting concerns, avoiding over-categorization, and letting structure emerge organically rather than imposing it prematurely.",
+  "tags": [
+    "organizations",
+    "information-architecture",
+    "structure",
+    "pkm",
+    "note-taking"
+  ],
+  "category": "Methods",
+  "icon": "FaSitemap",
+  "featured": false,
+  "aliases": [
+    "Tree Structure",
+    "Folder Hierarchy"
+  ],
+  "relatedConcepts": [
+    "outliner",
+    "para-method",
+    "networked-thought"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Hierarchical+Organization"
+  ],
+  "articles": [],
+  "books": [],
+  "references": [
+    {
+      "title": "Hierarchy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hierarchy",
+      "type": "website"
+    },
+    {
+      "title": "As We May Think - Vannevar Bush (1945)",
+      "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+      "type": "paper"
+    },
+    {
+      "title": "Obsidian Starter Kit",
+      "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+      "type": "other"
+    },
+    {
+      "title": "Obsidian Starter Course",
+      "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+      "type": "other"
+    },
+    {
+      "title": "Knowledge Management for Beginners",
+      "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+      "type": "other"
+    },
+    {
+      "title": "Knowii Community",
+      "url": "https://store.dsebastien.net/product/knowii-community",
+      "type": "other"
+    },
+    {
+      "title": "Knowledge Worker Kit",
+      "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+      "type": "other"
+    },
+    {
+      "title": "Personal Knowledge Management Library",
+      "url": "https://store.dsebastien.net/product/pkm-library",
+      "type": "other"
+    },
+    {
+      "title": "Personal Knowledge Management Coaching",
+      "url": "https://store.dsebastien.net/product/pkm-coaching",
+      "type": "other"
+    },
+    {
+      "title": "DeveloPassion's Newsletter",
+      "url": "https://dsebastien.net/newsletter",
+      "type": "other"
+    },
+    {
+      "title": "Knowii Voice AI",
+      "url": "https://voice-ai.knowii.net",
+      "type": "other"
+    },
+    {
+      "title": "Personal Organization 101 Workshop",
+      "url": "https://store.dsebastien.net/product/personal-organization-101",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-29"
 }

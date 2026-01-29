@@ -1,74 +1,74 @@
 {
-    "id": "heuristics",
-    "name": "Heuristics",
-    "summary": "Mental shortcuts that simplify complex problem-solving and decision-making by reducing cognitive effort.",
-    "explanation": "Heuristics are cognitive shortcuts or rules of thumb that our brains use to make decisions quickly without exhaustively analyzing all available information. Rather than calculating optimal solutions, we rely on simplified strategies that usually yield good-enough results with minimal mental effort. These mental shortcuts evolved because they work well in most everyday situations while conserving our limited cognitive resources.\n\nThere are several well-known types of heuristics. The availability heuristic leads us to judge probability based on how easily examples come to mind - we think plane crashes are more common than they are because they're memorable. The representativeness heuristic causes us to judge likelihood based on how well something matches a prototype - we might assume a quiet, book-loving person is more likely a librarian than a salesperson, ignoring base rates. The anchoring heuristic makes us rely heavily on the first piece of information we encounter when making decisions.\n\nThe relationship between heuristics and cognitive biases is nuanced. Heuristics aren't inherently flawed - they're efficient adaptations that serve us well most of the time. However, in certain contexts, these shortcuts can lead to systematic errors in judgment, which we call cognitive biases. Understanding this relationship helps us appreciate when to trust our intuitions and when to engage more deliberate, analytical thinking.\n\nResearch by Gerd Gigerenzer has shown that in uncertain, complex environments, simple heuristics often outperform elaborate analytical methods. The key is ecological rationality - matching the right heuristic to the right environment. For practical decision-making, this means: recognize when you're using heuristics, understand their strengths and limitations, and deliberately slow down for high-stakes decisions where quick shortcuts might lead you astray.",
-    "tags": [
-        "decision-making",
-        "mental-model",
-        "thinking",
-        "psychology"
-    ],
-    "category": "Psychology & Mental Models",
-    "icon": "FaBrain",
-    "featured": false,
-    "aliases": [
-        "Mental Shortcuts",
-        "Rules of Thumb"
-    ],
-    "relatedConcepts": [
-        "bounded-rationality",
-        "fast-and-frugal-heuristics",
-        "two-system-thinking",
-        "affect-heuristic"
-    ],
-    "relatedNotes": [
-        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Heuristics"
-    ],
-    "articles": [],
-    "books": [
-        {
-            "title": "Thinking, Fast and Slow by Daniel Kahneman",
-            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
-        },
-        {
-            "title": "Simple Heuristics That Make Us Smart by Gigerenzer & Todd",
-            "url": "https://www.amazon.com/dp/0195143817?tag=dsebastien00-20"
-        }
-    ],
-    "references": [
-        {
-            "title": "Heuristic - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Heuristic",
-            "type": "website"
-        },
-        {
-            "title": "Clarity 101 Workshop",
-            "url": "https://store.dsebastien.net/product/clarity-101",
-            "type": "other"
-        },
-        {
-            "title": "Obsidian Starter Kit",
-            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
-            "type": "other"
-        },
-        {
-            "title": "Knowii Community",
-            "url": "https://store.dsebastien.net/product/knowii-community",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Management for Beginners",
-            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Worker Kit",
-            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-28",
-    "dateModified": "2026-01-29"
+  "id": "heuristics",
+  "name": "Heuristics",
+  "summary": "Mental shortcuts that simplify complex problem-solving and decision-making by reducing cognitive effort.",
+  "explanation": "Heuristics are cognitive shortcuts or rules of thumb that our brains use to make decisions quickly without exhaustively analyzing all available information. Rather than calculating optimal solutions, we rely on simplified strategies that usually yield good-enough results with minimal mental effort. These mental shortcuts evolved because they work well in most everyday situations while conserving our limited cognitive resources.\n\nThere are several well-known types of heuristics. The availability heuristic leads us to judge probability based on how easily examples come to mind - we think plane crashes are more common than they are because they're memorable. The representativeness heuristic causes us to judge likelihood based on how well something matches a prototype - we might assume a quiet, book-loving person is more likely a librarian than a salesperson, ignoring base rates. The anchoring heuristic makes us rely heavily on the first piece of information we encounter when making decisions.\n\nThe relationship between heuristics and cognitive biases is nuanced. Heuristics aren't inherently flawed - they're efficient adaptations that serve us well most of the time. However, in certain contexts, these shortcuts can lead to systematic errors in judgment, which we call cognitive biases. Understanding this relationship helps us appreciate when to trust our intuitions and when to engage more deliberate, analytical thinking.\n\nResearch by Gerd Gigerenzer has shown that in uncertain, complex environments, simple heuristics often outperform elaborate analytical methods. The key is ecological rationality - matching the right heuristic to the right environment. For practical decision-making, this means: recognize when you're using heuristics, understand their strengths and limitations, and deliberately slow down for high-stakes decisions where quick shortcuts might lead you astray.",
+  "tags": [
+    "decision-making",
+    "mental-models",
+    "thinking",
+    "psychology"
+  ],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBrain",
+  "featured": false,
+  "aliases": [
+    "Mental Shortcuts",
+    "Rules of Thumb"
+  ],
+  "relatedConcepts": [
+    "bounded-rationality",
+    "fast-and-frugal-heuristics",
+    "two-system-thinking",
+    "affect-heuristic"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Heuristics"
+  ],
+  "articles": [],
+  "books": [
+    {
+      "title": "Thinking, Fast and Slow by Daniel Kahneman",
+      "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+    },
+    {
+      "title": "Simple Heuristics That Make Us Smart by Gigerenzer & Todd",
+      "url": "https://www.amazon.com/dp/0195143817?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Heuristic - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heuristic",
+      "type": "website"
+    },
+    {
+      "title": "Clarity 101 Workshop",
+      "url": "https://store.dsebastien.net/product/clarity-101",
+      "type": "other"
+    },
+    {
+      "title": "Obsidian Starter Kit",
+      "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+      "type": "other"
+    },
+    {
+      "title": "Knowii Community",
+      "url": "https://store.dsebastien.net/product/knowii-community",
+      "type": "other"
+    },
+    {
+      "title": "Knowledge Management for Beginners",
+      "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+      "type": "other"
+    },
+    {
+      "title": "Knowledge Worker Kit",
+      "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-29"
 }

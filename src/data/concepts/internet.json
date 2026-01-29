@@ -1,42 +1,42 @@
 {
-    "id": "internet",
-    "name": "Internet",
-    "summary": "The global network of interconnected computer networks that enables worldwide communication and data exchange using standardized protocols.",
-    "explanation": "The Internet is a vast, decentralized network of interconnected computer networks that spans the globe, enabling billions of devices to communicate and share information. Unlike a single network owned by one entity, the Internet is a 'network of networks' - a collection of autonomous networks that agree to exchange data using common protocols, primarily TCP/IP (Transmission Control Protocol/Internet Protocol).\n\nThe Internet's origins trace back to ARPANET (Advanced Research Projects Agency Network), a project funded by the U.S. Department of Defense in the late 1960s. ARPANET pioneered packet switching - breaking data into small packets that can travel independently across the network and reassemble at their destination. This design made the network resilient; if one path failed, packets could find alternative routes. In 1983, ARPANET adopted TCP/IP, which became the universal language of the Internet. Throughout the 1980s and 1990s, the network expanded beyond military and academic use to become a public infrastructure.\n\nA crucial distinction exists between the Internet and the World Wide Web (WWW). The Internet is the physical and logical infrastructure - the cables, routers, protocols, and connections that form the global network. The World Wide Web, invented by Tim Berners-Lee in 1989, is just one service that runs on top of the Internet, using HTTP protocol to deliver hyperlinked documents (web pages) through browsers. Other Internet services include email (SMTP), file transfer (FTP), streaming media, and countless applications. The Web is the most visible part of the Internet, but it is not the Internet itself.\n\nThe Internet's architecture is built on several key principles: decentralization (no single point of control), open standards (protocols are publicly documented), end-to-end design (intelligence at the edges, simple core), and layered protocols (each layer handles specific functions). This architecture has enabled remarkable innovation because anyone can build new applications without needing permission from network operators. The Internet has transformed virtually every aspect of modern life - commerce, communication, education, entertainment, and social interaction - making it one of the most significant technological developments in human history.",
-    "tags": [
-        "software-engineering",
-        "history",
-        "technology",
-        "communication"
-    ],
-    "category": "Software Development",
-    "icon": "FaNetworkWired",
-    "featured": false,
-    "aliases": [
-        "The Internet",
-        "Net"
-    ],
-    "relatedConcepts": [
-        "world-wide-web"
-    ],
-    "relatedNotes": [
-        "https://notes.dsebastien.net/33.02+Content/Internet"
-    ],
-    "articles": [],
-    "books": [
-        {
-            "title": "Where Wizards Stay Up Late by Katie Hafner",
-            "url": "https://www.amazon.com/dp/0684832674?tag=dsebastien00-20"
-        }
-    ],
-    "references": [
-        {
-            "title": "Internet - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Internet",
-            "type": "website"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-28",
-    "dateModified": "2026-01-28"
+  "id": "internet",
+  "name": "Internet",
+  "summary": "The global network of interconnected computer networks that enables worldwide communication and data exchange using standardized protocols.",
+  "explanation": "The Internet is a vast, decentralized network of interconnected computer networks that spans the globe, enabling billions of devices to communicate and share information. Unlike a single network owned by one entity, the Internet is a 'network of networks' - a collection of autonomous networks that agree to exchange data using common protocols, primarily TCP/IP (Transmission Control Protocol/Internet Protocol).\n\nThe Internet's origins trace back to ARPANET (Advanced Research Projects Agency Network), a project funded by the U.S. Department of Defense in the late 1960s. ARPANET pioneered packet switching - breaking data into small packets that can travel independently across the network and reassemble at their destination. This design made the network resilient; if one path failed, packets could find alternative routes. In 1983, ARPANET adopted TCP/IP, which became the universal language of the Internet. Throughout the 1980s and 1990s, the network expanded beyond military and academic use to become a public infrastructure.\n\nA crucial distinction exists between the Internet and the World Wide Web (WWW). The Internet is the physical and logical infrastructure - the cables, routers, protocols, and connections that form the global network. The World Wide Web, invented by Tim Berners-Lee in 1989, is just one service that runs on top of the Internet, using HTTP protocol to deliver hyperlinked documents (web pages) through browsers. Other Internet services include email (SMTP), file transfer (FTP), streaming media, and countless applications. The Web is the most visible part of the Internet, but it is not the Internet itself.\n\nThe Internet's architecture is built on several key principles: decentralization (no single point of control), open standards (protocols are publicly documented), end-to-end design (intelligence at the edges, simple core), and layered protocols (each layer handles specific functions). This architecture has enabled remarkable innovation because anyone can build new applications without needing permission from network operators. The Internet has transformed virtually every aspect of modern life - commerce, communication, education, entertainment, and social interaction - making it one of the most significant technological developments in human history.",
+  "tags": [
+    "software-engineering",
+    "history",
+    "technology",
+    "communications"
+  ],
+  "category": "Software Development",
+  "icon": "FaNetworkWired",
+  "featured": false,
+  "aliases": [
+    "The Internet",
+    "Net"
+  ],
+  "relatedConcepts": [
+    "world-wide-web"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/33.02+Content/Internet"
+  ],
+  "articles": [],
+  "books": [
+    {
+      "title": "Where Wizards Stay Up Late by Katie Hafner",
+      "url": "https://www.amazon.com/dp/0684832674?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Internet - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Internet",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
 }

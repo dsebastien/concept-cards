@@ -1,83 +1,83 @@
 {
-    "id": "hicks-law",
-    "name": "Hick's Law",
-    "summary": "Decision time increases logarithmically with the number of choices available.",
-    "explanation": "Hick's Law states that the time it takes to make a decision increases logarithmically as the number of choices increases. More options = slower decisions. In PKM, this means: too many folder options slows filing; too many tags creates choice paralysis; too many tools fragments attention. Hick's Law supports the case for simpler systems with fewer, well-defined options. Reduce choice where possible - have a default location for captures, standard templates, and clear criteria for organization.",
-    "tags": [
-        "concepts",
-        "productivity",
-        "psychology",
-        "ux"
-    ],
-    "category": "Psychology & Mental Models",
-    "icon": "FaSortNumericDown",
-    "featured": false,
-    "aliases": [
-        "Hick-Hyman Law",
-        "Choice reaction time"
-    ],
-    "relatedConcepts": [
-        "paradox-of-choice",
-        "decision-fatigue"
-    ],
-    "relatedNotes": [
-        "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Hick's+Law"
-    ],
-    "articles": [],
-    "books": [
-        {
-            "title": "The Paradox of Choice",
-            "url": "https://amzn.to/45EfHn7"
-        }
-    ],
-    "references": [
-        {
-            "title": "Hick's law - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Hick%27s_law",
-            "type": "website"
-        },
-        {
-            "title": "Knowii Community",
-            "url": "https://store.dsebastien.net/product/knowii-community",
-            "type": "other"
-        },
-        {
-            "title": "Obsidian Starter Kit",
-            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
-            "type": "other"
-        },
-        {
-            "title": "Obsidian Starter Course",
-            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Worker Kit",
-            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
-            "type": "other"
-        },
-        {
-            "title": "Personal Knowledge Management Coaching",
-            "url": "https://store.dsebastien.net/product/pkm-coaching",
-            "type": "other"
-        },
-        {
-            "title": "DeveloPassion's Newsletter",
-            "url": "https://dsebastien.net/newsletter",
-            "type": "other"
-        },
-        {
-            "title": "Personal Organization 101 Workshop",
-            "url": "https://store.dsebastien.net/product/personal-organization-101",
-            "type": "other"
-        },
-        {
-            "title": "AI Master Prompt Workshop",
-            "url": "https://store.dsebastien.net/product/ai-master-prompt",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2025-12-26",
-    "dateModified": "2026-01-29"
+  "id": "hicks-law",
+  "name": "Hick's Law",
+  "summary": "Decision time increases logarithmically with the number of choices available.",
+  "explanation": "Hick's Law states that the time it takes to make a decision increases logarithmically as the number of choices increases. More options = slower decisions. In PKM, this means: too many folder options slows filing; too many tags creates choice paralysis; too many tools fragments attention. Hick's Law supports the case for simpler systems with fewer, well-defined options. Reduce choice where possible - have a default location for captures, standard templates, and clear criteria for organization.",
+  "tags": [
+    "concepts",
+    "productivity",
+    "psychology",
+    "user-experience"
+  ],
+  "category": "Psychology & Mental Models",
+  "icon": "FaSortNumericDown",
+  "featured": false,
+  "aliases": [
+    "Hick-Hyman Law",
+    "Choice reaction time"
+  ],
+  "relatedConcepts": [
+    "paradox-of-choice",
+    "decision-fatigue"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.02+Content/Hick's+Law"
+  ],
+  "articles": [],
+  "books": [
+    {
+      "title": "The Paradox of Choice",
+      "url": "https://amzn.to/45EfHn7"
+    }
+  ],
+  "references": [
+    {
+      "title": "Hick's law - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hick%27s_law",
+      "type": "website"
+    },
+    {
+      "title": "Knowii Community",
+      "url": "https://store.dsebastien.net/product/knowii-community",
+      "type": "other"
+    },
+    {
+      "title": "Obsidian Starter Kit",
+      "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+      "type": "other"
+    },
+    {
+      "title": "Obsidian Starter Course",
+      "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+      "type": "other"
+    },
+    {
+      "title": "Knowledge Worker Kit",
+      "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+      "type": "other"
+    },
+    {
+      "title": "Personal Knowledge Management Coaching",
+      "url": "https://store.dsebastien.net/product/pkm-coaching",
+      "type": "other"
+    },
+    {
+      "title": "DeveloPassion's Newsletter",
+      "url": "https://dsebastien.net/newsletter",
+      "type": "other"
+    },
+    {
+      "title": "Personal Organization 101 Workshop",
+      "url": "https://store.dsebastien.net/product/personal-organization-101",
+      "type": "other"
+    },
+    {
+      "title": "AI Master Prompt Workshop",
+      "url": "https://store.dsebastien.net/product/ai-master-prompt",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2025-12-26",
+  "dateModified": "2026-01-29"
 }

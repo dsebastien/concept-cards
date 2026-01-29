@@ -1,68 +1,68 @@
 {
-    "id": "tokenization",
-    "name": "Tokenization",
-    "summary": "Breaking text into smaller units (tokens) that AI models can process.",
-    "explanation": "Tokenization is the process of breaking text into smaller units called tokens that language models can process. Tokens aren't exactly words - they might be whole words, subwords, characters, or punctuation. Example: 'Tokenization is important' might become ['Token', 'ization', 'is', 'important']. Why it matters for users: context limits are measured in tokens (not words), token count affects API costs, and some languages tokenize differently (requiring more tokens for same content). Common tokenization facts: 1 token ≈ 4 characters or 0.75 words in English, common words are single tokens, rare words split into subwords, and code often uses many tokens. Why subword tokenization: handles unknown words (can always break into known subwords), balances vocabulary size with expressiveness, and enables multilingual models. Practical implications: long documents may exceed context limits, token-dense content (code, technical text) costs more, and token boundaries can affect model behavior. Tools exist to count tokens before sending to APIs. For knowledge workers, understanding tokenization helps: estimate costs and feasibility, understand context limits, and optimize prompts for efficiency.",
-    "tags": [
-        "ai",
-        "nlp",
-        "processing",
-        "fundamentals",
-        "language"
-    ],
-    "category": "Concepts",
-    "icon": "FaCut",
-    "featured": false,
-    "aliases": [
-        "Token splitting",
-        "Text tokenization",
-        "Subword tokenization"
-    ],
-    "relatedConcepts": [
-        "large-language-models",
-        "context-window",
-        "embedding"
-    ],
-    "relatedNotes": [],
-    "articles": [],
-    "references": [
-        {
-            "title": "Lexical analysis - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Lexical_analysis",
-            "type": "website"
-        },
-        {
-            "title": "Knowii Community",
-            "url": "https://store.dsebastien.net/product/knowii-community",
-            "type": "other"
-        },
-        {
-            "title": "DeveloPassion's Newsletter",
-            "url": "https://dsebastien.net/newsletter",
-            "type": "other"
-        },
-        {
-            "title": "AI Ghostwriter Guide",
-            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
-            "type": "other"
-        },
-        {
-            "title": "Knowii Voice AI",
-            "url": "https://voice-ai.knowii.net",
-            "type": "other"
-        },
-        {
-            "title": "AI Master Prompt Workshop",
-            "url": "https://store.dsebastien.net/product/ai-master-prompt",
-            "type": "other"
-        },
-        {
-            "title": "Model Context Protocol (MCP) Workshop",
-            "url": "https://store.dsebastien.net/product/model-context-protocol",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2025-12-28",
-    "dateModified": "2026-01-29"
+  "id": "tokenization",
+  "name": "Tokenization",
+  "summary": "Breaking text into smaller units (tokens) that AI models can process.",
+  "explanation": "Tokenization is the process of breaking text into smaller units called tokens that language models can process. Tokens aren't exactly words - they might be whole words, subwords, characters, or punctuation. Example: 'Tokenization is important' might become ['Token', 'ization', 'is', 'important']. Why it matters for users: context limits are measured in tokens (not words), token count affects API costs, and some languages tokenize differently (requiring more tokens for same content). Common tokenization facts: 1 token ≈ 4 characters or 0.75 words in English, common words are single tokens, rare words split into subwords, and code often uses many tokens. Why subword tokenization: handles unknown words (can always break into known subwords), balances vocabulary size with expressiveness, and enables multilingual models. Practical implications: long documents may exceed context limits, token-dense content (code, technical text) costs more, and token boundaries can affect model behavior. Tools exist to count tokens before sending to APIs. For knowledge workers, understanding tokenization helps: estimate costs and feasibility, understand context limits, and optimize prompts for efficiency.",
+  "tags": [
+    "ai",
+    "nlp",
+    "processing",
+    "fundamentals",
+    "languages"
+  ],
+  "category": "Concepts",
+  "icon": "FaCut",
+  "featured": false,
+  "aliases": [
+    "Token splitting",
+    "Text tokenization",
+    "Subword tokenization"
+  ],
+  "relatedConcepts": [
+    "large-language-models",
+    "context-window",
+    "embedding"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "references": [
+    {
+      "title": "Lexical analysis - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lexical_analysis",
+      "type": "website"
+    },
+    {
+      "title": "Knowii Community",
+      "url": "https://store.dsebastien.net/product/knowii-community",
+      "type": "other"
+    },
+    {
+      "title": "DeveloPassion's Newsletter",
+      "url": "https://dsebastien.net/newsletter",
+      "type": "other"
+    },
+    {
+      "title": "AI Ghostwriter Guide",
+      "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+      "type": "other"
+    },
+    {
+      "title": "Knowii Voice AI",
+      "url": "https://voice-ai.knowii.net",
+      "type": "other"
+    },
+    {
+      "title": "AI Master Prompt Workshop",
+      "url": "https://store.dsebastien.net/product/ai-master-prompt",
+      "type": "other"
+    },
+    {
+      "title": "Model Context Protocol (MCP) Workshop",
+      "url": "https://store.dsebastien.net/product/model-context-protocol",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2025-12-28",
+  "dateModified": "2026-01-29"
 }

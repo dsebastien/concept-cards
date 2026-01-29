@@ -1,82 +1,82 @@
 {
-    "id": "data-retention-policy",
-    "name": "Data Retention Policy",
-    "summary": "A set of rules defining how long different types of data should be kept and when they should be deleted.",
-    "explanation": "A data retention policy establishes guidelines for how long an organization or individual should keep different types of data before securely disposing of them. These policies balance legal requirements, business needs, storage costs, and privacy considerations.\n\n**Why retention policies matter**:\n\n- **Legal compliance**: Many regulations require keeping certain data for specific periods (tax records, medical records, financial transactions)\n- **Legal protection**: Some data must be deleted after a period to avoid liability (GDPR right to erasure)\n- **Storage costs**: Keeping everything forever is expensive and unsustainable\n- **Security risk**: Old data that's no longer needed becomes a liability if breached\n- **Performance**: Systems slow down with excessive data accumulation\n\n**Common retention periods**:\n\n- **Tax records**: 7 years (varies by jurisdiction)\n- **Employment records**: 7 years after termination\n- **Medical records**: Varies (often 10+ years)\n- **Financial transactions**: 5-7 years\n- **Email communications**: 1-7 years depending on content\n- **Operational logs**: 30-90 days for routine, longer for security\n\n**Elements of a good retention policy**:\n\n1. **Data classification**: Categorize data by type and sensitivity\n2. **Retention schedules**: Define how long each category is kept\n3. **Legal holds**: Process for preserving data during litigation\n4. **Disposal procedures**: Secure deletion methods (not just moving to trash)\n5. **Documentation**: Records of what was deleted and when\n6. **Regular review**: Policies should be updated as requirements change\n\n**Personal data retention (PKM)**:\n\nEven for personal knowledge management, retention thinking is valuable:\n- **Inbox zero mentality**: Process and archive/delete communications\n- **Note lifecycle**: Some notes are temporary; don't keep everything\n- **Reference expiration**: External links and sources may become outdated\n- **Backup rotation**: Old backups can be pruned as newer ones accumulate\n- **Project archives**: Completed project materials may not need active storage\n\n**The retention paradox**: We can't predict what will be valuable in the future, so there's tension between keeping too much (cost, risk) and too little (lost value). The key is thoughtful categorization and regular review, not blanket policies.",
-    "tags": [
-        "data-management",
-        "compliance",
-        "governance",
-        "security",
-        "organization"
-    ],
-    "category": "Concepts",
-    "icon": "FaCalendarAlt",
-    "featured": false,
-    "aliases": [
-        "Retention Policy",
-        "Data Lifecycle Policy",
-        "Records Retention"
-    ],
-    "relatedConcepts": [
-        "information-lifecycle-management",
-        "digital-preservation",
-        "right-to-be-forgotten",
-        "data-minimization",
-        "3-2-1-backup-rule",
-        "cold-storage"
-    ],
-    "relatedNotes": [],
-    "articles": [],
-    "books": [
-        {
-            "title": "Information Governance by Robert Smallwood",
-            "url": "https://www.amazon.com/dp/1119491444?tag=dsebastien00-20"
-        }
-    ],
-    "references": [
-        {
-            "title": "Records management - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Records_management",
-            "type": "website"
-        },
-        {
-            "title": "Data retention - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Data_retention",
-            "type": "website"
-        },
-        {
-            "title": "Obsidian Starter Kit",
-            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Management for Beginners",
-            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
-            "type": "other"
-        },
-        {
-            "title": "Knowledge Worker Kit",
-            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
-            "type": "other"
-        },
-        {
-            "title": "Dev Concepts",
-            "url": "https://dev-concepts.dev",
-            "type": "other"
-        },
-        {
-            "title": "Personal Organization 101 Workshop",
-            "url": "https://store.dsebastien.net/product/personal-organization-101",
-            "type": "other"
-        },
-        {
-            "title": "Knowii Community",
-            "url": "https://store.dsebastien.net/product/knowii-community",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-18",
-    "dateModified": "2026-01-29"
+  "id": "data-retention-policy",
+  "name": "Data Retention Policy",
+  "summary": "A set of rules defining how long different types of data should be kept and when they should be deleted.",
+  "explanation": "A data retention policy establishes guidelines for how long an organization or individual should keep different types of data before securely disposing of them. These policies balance legal requirements, business needs, storage costs, and privacy considerations.\n\n**Why retention policies matter**:\n\n- **Legal compliance**: Many regulations require keeping certain data for specific periods (tax records, medical records, financial transactions)\n- **Legal protection**: Some data must be deleted after a period to avoid liability (GDPR right to erasure)\n- **Storage costs**: Keeping everything forever is expensive and unsustainable\n- **Security risk**: Old data that's no longer needed becomes a liability if breached\n- **Performance**: Systems slow down with excessive data accumulation\n\n**Common retention periods**:\n\n- **Tax records**: 7 years (varies by jurisdiction)\n- **Employment records**: 7 years after termination\n- **Medical records**: Varies (often 10+ years)\n- **Financial transactions**: 5-7 years\n- **Email communications**: 1-7 years depending on content\n- **Operational logs**: 30-90 days for routine, longer for security\n\n**Elements of a good retention policy**:\n\n1. **Data classification**: Categorize data by type and sensitivity\n2. **Retention schedules**: Define how long each category is kept\n3. **Legal holds**: Process for preserving data during litigation\n4. **Disposal procedures**: Secure deletion methods (not just moving to trash)\n5. **Documentation**: Records of what was deleted and when\n6. **Regular review**: Policies should be updated as requirements change\n\n**Personal data retention (PKM)**:\n\nEven for personal knowledge management, retention thinking is valuable:\n- **Inbox zero mentality**: Process and archive/delete communications\n- **Note lifecycle**: Some notes are temporary; don't keep everything\n- **Reference expiration**: External links and sources may become outdated\n- **Backup rotation**: Old backups can be pruned as newer ones accumulate\n- **Project archives**: Completed project materials may not need active storage\n\n**The retention paradox**: We can't predict what will be valuable in the future, so there's tension between keeping too much (cost, risk) and too little (lost value). The key is thoughtful categorization and regular review, not blanket policies.",
+  "tags": [
+    "data-management",
+    "compliance",
+    "governance",
+    "security",
+    "organizations"
+  ],
+  "category": "Concepts",
+  "icon": "FaCalendarAlt",
+  "featured": false,
+  "aliases": [
+    "Retention Policy",
+    "Data Lifecycle Policy",
+    "Records Retention"
+  ],
+  "relatedConcepts": [
+    "information-lifecycle-management",
+    "digital-preservation",
+    "right-to-be-forgotten",
+    "data-minimization",
+    "3-2-1-backup-rule",
+    "cold-storage"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [
+    {
+      "title": "Information Governance by Robert Smallwood",
+      "url": "https://www.amazon.com/dp/1119491444?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Records management - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Records_management",
+      "type": "website"
+    },
+    {
+      "title": "Data retention - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Data_retention",
+      "type": "website"
+    },
+    {
+      "title": "Obsidian Starter Kit",
+      "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+      "type": "other"
+    },
+    {
+      "title": "Knowledge Management for Beginners",
+      "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+      "type": "other"
+    },
+    {
+      "title": "Knowledge Worker Kit",
+      "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+      "type": "other"
+    },
+    {
+      "title": "Dev Concepts",
+      "url": "https://dev-concepts.dev",
+      "type": "other"
+    },
+    {
+      "title": "Personal Organization 101 Workshop",
+      "url": "https://store.dsebastien.net/product/personal-organization-101",
+      "type": "other"
+    },
+    {
+      "title": "Knowii Community",
+      "url": "https://store.dsebastien.net/product/knowii-community",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-18",
+  "dateModified": "2026-01-29"
 }

@@ -1,24 +1,48 @@
 {
-    "id": "universal-grammar",
-    "name": "Universal Grammar",
-    "summary": "Noam Chomsky's theory that humans are born with an innate language faculty containing a set of grammatical principles hard-wired into the brain.",
-    "explanation": "Universal Grammar (UG) is the linguistic theory proposed by Noam Chomsky that all humans are born with an innate language faculty—a set of grammatical principles and constraints that are biologically encoded in the brain. This theory explains why children acquire language so effortlessly and rapidly despite what Chomsky called the 'poverty of the stimulus'—the observation that the linguistic input children receive is insufficient to learn grammar from scratch through pure imitation or reinforcement.\n\nThe theory also accounts for why all human languages, despite their surface differences, share deep structural properties and universal constraints. No matter where in the world a child is born, they will acquire the language of their environment following the same developmental trajectory and timetable, suggesting an underlying biological program for language acquisition.\n\nUniversal Grammar was central to the Cognitive Revolution's challenge to Behaviorism, demonstrating that language could not be explained purely through stimulus-response learning. Steven Pinker's book 'The Language Instinct' helped popularize this concept for general audiences.\n\nWhile UG remains influential, critics argue that statistical learning, usage-based approaches, and neural network models can explain language acquisition without positing innate grammatical knowledge. This debate continues, but the theory established that language has biological foundations and shifted the study of linguistics toward understanding the cognitive architecture underlying human language capacity.",
-    "tags": ["linguistics", "cognition", "language", "cognitive-science", "psychology"],
-    "category": "Psychology & Mental Models",
-    "icon": "FaBrain",
-    "featured": false,
-    "aliases": ["UG"],
-    "relatedConcepts": ["linguistics", "cognitive-science", "behaviorism"],
-    "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Universal+Grammar"],
-    "articles": [],
-    "books": [
-        { "title": "Syntactic Structures by Noam Chomsky", "url": "https://www.amazon.com/dp/1614278040?tag=dsebastien00-20" },
-        { "title": "The Language Instinct by Steven Pinker", "url": "https://www.amazon.com/dp/0061336467?tag=dsebastien00-20" }
-    ],
-    "references": [
-        { "title": "Universal Grammar - Wikipedia", "url": "https://en.wikipedia.org/wiki/Universal_grammar", "type": "website" }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-28",
-    "dateModified": "2026-01-28"
+  "id": "universal-grammar",
+  "name": "Universal Grammar",
+  "summary": "Noam Chomsky's theory that humans are born with an innate language faculty containing a set of grammatical principles hard-wired into the brain.",
+  "explanation": "Universal Grammar (UG) is the linguistic theory proposed by Noam Chomsky that all humans are born with an innate language faculty—a set of grammatical principles and constraints that are biologically encoded in the brain. This theory explains why children acquire language so effortlessly and rapidly despite what Chomsky called the 'poverty of the stimulus'—the observation that the linguistic input children receive is insufficient to learn grammar from scratch through pure imitation or reinforcement.\n\nThe theory also accounts for why all human languages, despite their surface differences, share deep structural properties and universal constraints. No matter where in the world a child is born, they will acquire the language of their environment following the same developmental trajectory and timetable, suggesting an underlying biological program for language acquisition.\n\nUniversal Grammar was central to the Cognitive Revolution's challenge to Behaviorism, demonstrating that language could not be explained purely through stimulus-response learning. Steven Pinker's book 'The Language Instinct' helped popularize this concept for general audiences.\n\nWhile UG remains influential, critics argue that statistical learning, usage-based approaches, and neural network models can explain language acquisition without positing innate grammatical knowledge. This debate continues, but the theory established that language has biological foundations and shifted the study of linguistics toward understanding the cognitive architecture underlying human language capacity.",
+  "tags": [
+    "linguistics",
+    "cognition",
+    "languages",
+    "cognitive-science",
+    "psychology"
+  ],
+  "category": "Psychology & Mental Models",
+  "icon": "FaBrain",
+  "featured": false,
+  "aliases": [
+    "UG"
+  ],
+  "relatedConcepts": [
+    "linguistics",
+    "cognitive-science",
+    "behaviorism"
+  ],
+  "relatedNotes": [
+    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Universal+Grammar"
+  ],
+  "articles": [],
+  "books": [
+    {
+      "title": "Syntactic Structures by Noam Chomsky",
+      "url": "https://www.amazon.com/dp/1614278040?tag=dsebastien00-20"
+    },
+    {
+      "title": "The Language Instinct by Steven Pinker",
+      "url": "https://www.amazon.com/dp/0061336467?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "Universal Grammar - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Universal_grammar",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-28",
+  "dateModified": "2026-01-28"
 }

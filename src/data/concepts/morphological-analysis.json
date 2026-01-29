@@ -1,0 +1,44 @@
+{
+    "id": "morphological-analysis",
+    "name": "Morphological Analysis",
+    "summary": "Systematic creativity method that explores all possible combinations of a problem's attributes to generate comprehensive solutions.",
+    "explanation": "Morphological Analysis is a structured creativity method developed by Swiss astronomer Fritz Zwicky in the 1940s. It systematically maps out all possible combinations of a problem's dimensions to ensure comprehensive exploration of the solution space.\n\nHow it works:\n\n1. Define the problem and identify its key parameters (dimensions or attributes)\n2. List possible values or options for each parameter\n3. Create a morphological box (matrix) with parameters as columns and options as rows\n4. Systematically explore combinations across the matrix\n5. Evaluate promising combinations for feasibility and innovation\n\nExample: Designing a new beverage. Parameters might include: container (bottle, can, carton, pouch), temperature (hot, cold, room), carbonation (yes, no), sweetness level (none, low, medium, high). A morphological box reveals combinations that might not occur through intuitive thinking - like a hot carbonated drink in a pouch.\n\nWhy Morphological Analysis works: It forces systematic rather than heuristic thinking, prevents premature closure on familiar solutions, reveals non-obvious combinations, ensures comprehensive coverage of the solution space, and makes implicit assumptions explicit.\n\nWhen to use it: Product development and innovation, strategic planning with multiple variables, system design with interacting components, scenario planning, and any problem with multiple independent dimensions.\n\nLimitations: Large parameter sets create combinatorial explosion (5 parameters with 5 options each = 3,125 combinations). Use filtering criteria to manage complexity.\n\nMorphological Analysis complements divergent thinking by providing structure, then feeds convergent thinking by generating options to evaluate.",
+    "tags": [
+        "creativity",
+        "problem-solving",
+        "systematic-methods",
+        "innovation"
+    ],
+    "category": "Techniques",
+    "icon": "FaThLarge",
+    "featured": false,
+    "aliases": [
+        "Morphological box",
+        "Zwicky box",
+        "Morphological matrix"
+    ],
+    "relatedConcepts": [
+        "divergent-thinking",
+        "convergent-thinking",
+        "scamper-method",
+        "combinatorial-creativity"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Morphological Analysis for Policy Analysis and Futures Studies by Tom Ritchey",
+            "url": "https://www.amazon.com/dp/3030968094?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Morphological analysis (problem-solving) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-29",
+    "dateModified": "2026-01-29"
+}

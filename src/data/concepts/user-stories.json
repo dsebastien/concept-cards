@@ -1,74 +1,74 @@
 {
-    "id": "user-stories",
-    "name": "User Stories",
-    "summary": "Short descriptions of features from the user's perspective used to capture requirements.",
-    "explanation": "User stories are a lightweight technique for capturing product requirements from the end user's perspective. Popularized by Extreme Programming (XP) and widely used in Scrum, they focus on the value delivered rather than technical specifications.\n\nThe classic format:\n\nAs a [type of user],\nI want [some goal/desire],\nSo that [benefit/value].\n\nExample: 'As a returning customer, I want to save my payment details, so that I can checkout faster on future purchases.'\n\nKey characteristics:\n\n1. User-focused - Written from the perspective of someone using the system\n2. Independent - Can be developed and delivered separately\n3. Negotiable - Details are discussed, not prescribed upfront\n4. Valuable - Delivers clear benefit to users or business\n5. Estimable - Team can roughly estimate the effort\n6. Small - Fits within a single sprint\n7. Testable - Clear criteria for success\n\n(This is the INVEST criteria by Bill Wake)\n\nComponents of a complete user story:\n\n- Card: The written story itself (brief)\n- Conversation: Discussion to clarify details\n- Confirmation: Acceptance criteria defining 'done'\n\nAcceptance criteria example:\n- Given I am logged in with saved payment details\n- When I click 'Express Checkout'\n- Then my saved card is pre-selected\n- And I can complete purchase with one click\n\nUser stories differ from traditional requirements:\n- Focus on 'why' not just 'what'\n- Encourage conversation over documentation\n- Delay detailed specifications until needed\n- Keep scope small and deliverable\n\nUser stories can be organized into Epics (large stories spanning multiple sprints) and broken down into tasks during sprint planning.",
-    "tags": [
-        "agile",
-        "requirements",
-        "user-centered",
-        "planning",
-        "communication",
-        "product-management"
-    ],
-    "category": "Techniques",
-    "icon": "FaUserEdit",
-    "featured": false,
-    "aliases": [
-        "User Story",
-        "Agile User Stories"
-    ],
-    "relatedConcepts": [
-        "job-story",
-        "scrum",
-        "backlog",
-        "sprint-planning",
-        "story-points",
-        "definition-of-done",
-        "product-owner",
-        "jobs-to-be-done",
-        "use-cases",
-        "product-requirements-document",
-        "software-requirements-specification",
-        "requirements-engineering",
-        "functional-requirements"
-    ],
-    "relatedNotes": [],
-    "articles": [],
-    "books": [
-        {
-            "title": "User Stories Applied: For Agile Software Development by Mike Cohn",
-            "url": "https://www.amazon.com/dp/0321205685?tag=dsebastien00-20"
-        }
-    ],
-    "references": [
-        {
-            "title": "User Story - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/User_story",
-            "type": "website"
-        },
-        {
-            "title": "Knowledge Worker Kit",
-            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
-            "type": "other"
-        },
-        {
-            "title": "Dev Concepts",
-            "url": "https://dev-concepts.dev",
-            "type": "other"
-        },
-        {
-            "title": "Personal Organization 101 Workshop",
-            "url": "https://store.dsebastien.net/product/personal-organization-101",
-            "type": "other"
-        },
-        {
-            "title": "Knowii Community",
-            "url": "https://store.dsebastien.net/product/knowii-community",
-            "type": "other"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2025-12-28",
-    "dateModified": "2026-01-29"
+  "id": "user-stories",
+  "name": "User Stories",
+  "summary": "Short descriptions of features from the user's perspective used to capture requirements.",
+  "explanation": "User stories are a lightweight technique for capturing product requirements from the end user's perspective. Popularized by Extreme Programming (XP) and widely used in Scrum, they focus on the value delivered rather than technical specifications.\n\nThe classic format:\n\nAs a [type of user],\nI want [some goal/desire],\nSo that [benefit/value].\n\nExample: 'As a returning customer, I want to save my payment details, so that I can checkout faster on future purchases.'\n\nKey characteristics:\n\n1. User-focused - Written from the perspective of someone using the system\n2. Independent - Can be developed and delivered separately\n3. Negotiable - Details are discussed, not prescribed upfront\n4. Valuable - Delivers clear benefit to users or business\n5. Estimable - Team can roughly estimate the effort\n6. Small - Fits within a single sprint\n7. Testable - Clear criteria for success\n\n(This is the INVEST criteria by Bill Wake)\n\nComponents of a complete user story:\n\n- Card: The written story itself (brief)\n- Conversation: Discussion to clarify details\n- Confirmation: Acceptance criteria defining 'done'\n\nAcceptance criteria example:\n- Given I am logged in with saved payment details\n- When I click 'Express Checkout'\n- Then my saved card is pre-selected\n- And I can complete purchase with one click\n\nUser stories differ from traditional requirements:\n- Focus on 'why' not just 'what'\n- Encourage conversation over documentation\n- Delay detailed specifications until needed\n- Keep scope small and deliverable\n\nUser stories can be organized into Epics (large stories spanning multiple sprints) and broken down into tasks during sprint planning.",
+  "tags": [
+    "agile",
+    "requirements",
+    "user-centered",
+    "planning",
+    "communications",
+    "product-management"
+  ],
+  "category": "Techniques",
+  "icon": "FaUserEdit",
+  "featured": false,
+  "aliases": [
+    "User Story",
+    "Agile User Stories"
+  ],
+  "relatedConcepts": [
+    "job-story",
+    "scrum",
+    "backlog",
+    "sprint-planning",
+    "story-points",
+    "definition-of-done",
+    "product-owner",
+    "jobs-to-be-done",
+    "use-cases",
+    "product-requirements-document",
+    "software-requirements-specification",
+    "requirements-engineering",
+    "functional-requirements"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [
+    {
+      "title": "User Stories Applied: For Agile Software Development by Mike Cohn",
+      "url": "https://www.amazon.com/dp/0321205685?tag=dsebastien00-20"
+    }
+  ],
+  "references": [
+    {
+      "title": "User Story - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/User_story",
+      "type": "website"
+    },
+    {
+      "title": "Knowledge Worker Kit",
+      "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+      "type": "other"
+    },
+    {
+      "title": "Dev Concepts",
+      "url": "https://dev-concepts.dev",
+      "type": "other"
+    },
+    {
+      "title": "Personal Organization 101 Workshop",
+      "url": "https://store.dsebastien.net/product/personal-organization-101",
+      "type": "other"
+    },
+    {
+      "title": "Knowii Community",
+      "url": "https://store.dsebastien.net/product/knowii-community",
+      "type": "other"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2025-12-28",
+  "dateModified": "2026-01-29"
 }

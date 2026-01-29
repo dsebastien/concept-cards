@@ -1,51 +1,51 @@
 {
-    "id": "information-scent",
-    "name": "Information Scent",
-    "summary": "The perceived likelihood that a path (link, button, navigation element) will lead to the desired information, based on cues like labels, descriptions, and context.",
-    "explanation": "Information scent is a concept from information foraging theory that describes how users assess whether a particular path will lead them to what they're looking for. Users follow scent trails of cues to navigate toward their goals, much like animals follow scent trails to food.\n\n**How Information Scent Works**:\n\nUsers evaluate links and navigation elements based on:\n- **Labels**: Does the text match what I'm looking for?\n- **Descriptions**: Does the preview or summary seem relevant?\n- **Context**: Does the surrounding content support this path?\n- **Visual cues**: Does it look like other successful paths?\n\n**Strong vs. Weak Scent**:\n\n**Strong Information Scent**:\n- Clear, descriptive labels\n- Relevant keywords visible\n- Obvious connection to user's goal\n- Users click confidently\n\n**Weak Information Scent**:\n- Vague or clever labels (\"Discover More\")\n- Missing context or descriptions\n- Ambiguous icons without text\n- Users hesitate or abandon\n\n**Practical Applications**:\n\n**Navigation Design**:\n- Use clear, specific labels\n- Include descriptive subtitles\n- Show breadcrumbs for orientation\n- Highlight the current location\n\n**Link Text**:\n- Avoid \"Click here\" or \"Learn more\"\n- Use descriptive anchor text\n- Front-load keywords\n- Match user vocabulary\n\n**Search Results**:\n- Show relevant snippets\n- Highlight matching terms\n- Include metadata (dates, categories)\n- Provide clear titles\n\n**Content Strategy**:\n- Use headings as signposts\n- Include summaries and previews\n- Maintain consistent terminology\n- Match content to navigation labels\n\n**Why It Matters**:\n\n- Users satisfice—they follow the strongest scent, not the best path\n- Weak scent causes abandonment\n- Users won't explore if they can't predict outcomes\n- Scent degrades with each unsuccessful click\n\n**Testing Information Scent**:\n\n- Tree testing: Can users find items in your navigation?\n- First-click testing: Where do users click to accomplish tasks?\n- Card sorting: Do your categories match user mental models?\n\nImproving information scent is one of the highest-impact usability improvements you can make.",
-    "tags": [
-        "ux",
-        "navigation",
-        "usability",
-        "information-architecture",
-        "psychology"
-    ],
-    "category": "Principles",
-    "icon": "FaRoute",
-    "featured": false,
-    "aliases": [
-        "Scent of information",
-        "Information foraging",
-        "Navigation cues"
-    ],
-    "relatedConcepts": [
-        "ux-design",
-        "usability",
-        "information-architecture",
-        "cognitive-load",
-        "affordances"
-    ],
-    "relatedNotes": [],
-    "articles": [],
-    "books": [
-        {
-            "title": "Information Architecture: For the Web and Beyond by Louis Rosenfeld",
-            "url": "https://www.amazon.com/dp/1491911689"
-        }
-    ],
-    "references": [
-        {
-            "title": "Information scent - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Information_scent",
-            "type": "website"
-        },
-        {
-            "title": "Information Scent - Nielsen Norman Group",
-            "url": "https://www.nngroup.com/articles/information-scent/",
-            "type": "website"
-        }
-    ],
-    "tutorials": [],
-    "datePublished": "2026-01-25",
-    "dateModified": "2026-01-25"
+  "id": "information-scent",
+  "name": "Information Scent",
+  "summary": "The perceived likelihood that a path (link, button, navigation element) will lead to the desired information, based on cues like labels, descriptions, and context.",
+  "explanation": "Information scent is a concept from information foraging theory that describes how users assess whether a particular path will lead them to what they're looking for. Users follow scent trails of cues to navigate toward their goals, much like animals follow scent trails to food.\n\n**How Information Scent Works**:\n\nUsers evaluate links and navigation elements based on:\n- **Labels**: Does the text match what I'm looking for?\n- **Descriptions**: Does the preview or summary seem relevant?\n- **Context**: Does the surrounding content support this path?\n- **Visual cues**: Does it look like other successful paths?\n\n**Strong vs. Weak Scent**:\n\n**Strong Information Scent**:\n- Clear, descriptive labels\n- Relevant keywords visible\n- Obvious connection to user's goal\n- Users click confidently\n\n**Weak Information Scent**:\n- Vague or clever labels (\"Discover More\")\n- Missing context or descriptions\n- Ambiguous icons without text\n- Users hesitate or abandon\n\n**Practical Applications**:\n\n**Navigation Design**:\n- Use clear, specific labels\n- Include descriptive subtitles\n- Show breadcrumbs for orientation\n- Highlight the current location\n\n**Link Text**:\n- Avoid \"Click here\" or \"Learn more\"\n- Use descriptive anchor text\n- Front-load keywords\n- Match user vocabulary\n\n**Search Results**:\n- Show relevant snippets\n- Highlight matching terms\n- Include metadata (dates, categories)\n- Provide clear titles\n\n**Content Strategy**:\n- Use headings as signposts\n- Include summaries and previews\n- Maintain consistent terminology\n- Match content to navigation labels\n\n**Why It Matters**:\n\n- Users satisfice—they follow the strongest scent, not the best path\n- Weak scent causes abandonment\n- Users won't explore if they can't predict outcomes\n- Scent degrades with each unsuccessful click\n\n**Testing Information Scent**:\n\n- Tree testing: Can users find items in your navigation?\n- First-click testing: Where do users click to accomplish tasks?\n- Card sorting: Do your categories match user mental models?\n\nImproving information scent is one of the highest-impact usability improvements you can make.",
+  "tags": [
+    "user-experience",
+    "navigation",
+    "usability",
+    "information-architecture",
+    "psychology"
+  ],
+  "category": "Principles",
+  "icon": "FaRoute",
+  "featured": false,
+  "aliases": [
+    "Scent of information",
+    "Information foraging",
+    "Navigation cues"
+  ],
+  "relatedConcepts": [
+    "ux-design",
+    "usability",
+    "information-architecture",
+    "cognitive-load",
+    "affordances"
+  ],
+  "relatedNotes": [],
+  "articles": [],
+  "books": [
+    {
+      "title": "Information Architecture: For the Web and Beyond by Louis Rosenfeld",
+      "url": "https://www.amazon.com/dp/1491911689"
+    }
+  ],
+  "references": [
+    {
+      "title": "Information scent - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Information_scent",
+      "type": "website"
+    },
+    {
+      "title": "Information Scent - Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/information-scent/",
+      "type": "website"
+    }
+  ],
+  "tutorials": [],
+  "datePublished": "2026-01-25",
+  "dateModified": "2026-01-25"
 }

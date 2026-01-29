@@ -4,8 +4,8 @@
     "summary": "The challenge of representing what does NOT change when an action is performed, without explicitly listing every unchanged fact.",
     "explanation": "The frame problem, identified by McCarthy and Hayes in 1969, asks how an AI system can efficiently determine what doesn't change when an action is taken. If a robot moves a box, the box's location changes, but millions of other facts (the color of the walls, the time of day, gravity) remain the same. How does the system avoid re-checking everything?\n\nOriginally a technical AI problem, philosophers like Hubert Dreyfus argued it reveals a deeper issue: classical AI struggles with relevance, knowing what matters in a situation. Humans effortlessly filter irrelevant information; symbol-manipulating systems cannot. The frame problem became a key argument for embodied cognition and against purely computational theories of mind.\n\nThe problem manifests in three aspects: logical (how to represent non-change efficiently), computational (avoiding combinatorial explosion), and philosophical (how do minds determine relevance?). Modern AI addresses it through heuristics, neural networks, and learned representations rather than explicit logical enumeration.",
     "tags": [
-        "artificial-intelligence",
-        "philosophy",
+        "ai",
+        "philosophies",
         "logic",
         "cognitive-science"
     ],
@@ -55,6 +55,11 @@
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
             "type": "other"
         }
     ],
