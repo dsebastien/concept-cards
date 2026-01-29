@@ -1,3 +1,10 @@
+## [10.7.5](https://github.com/dsebastien/concept-cards/compare/10.7.4...10.7.5) (2026-01-29)
+
+### Features
+
+* **all:** added concepts ([541cfa9](https://github.com/dsebastien/concept-cards/commit/541cfa9da3748ff071178129ff7da481f95332f8))
+* **all:** added concepts ([2e78d35](https://github.com/dsebastien/concept-cards/commit/2e78d35eac7a80723033af9434e180cd24fa67f1))
+* **all:** added skills to discover skills on autopilot using my notes ([a613f35](https://github.com/dsebastien/concept-cards/commit/a613f3538e0bcea4285463e183cdb01ae3f4cd5b))
 ## [10.7.4](https://github.com/dsebastien/concept-cards/compare/10.7.3...10.7.4) (2026-01-28)
 
 ### Features
