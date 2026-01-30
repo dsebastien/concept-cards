@@ -1,3 +1,11 @@
+## [10.15.0](https://github.com/dsebastien/concept-cards/compare/10.14.0...10.15.0) (2026-01-30)
+
+### Features
+
+* **all:** added avg concepts per day on history page ([d4ba20d](https://github.com/dsebastien/concept-cards/commit/d4ba20dc50921e6466f08ddb00d08a2354823ce0))
+* **all:** added concepts ([c393a7e](https://github.com/dsebastien/concept-cards/commit/c393a7e5810ab1212f29c6b43ac86fd98afefc14))
+* **all:** hand cursor ([647f4cd](https://github.com/dsebastien/concept-cards/commit/647f4cdab838238833487dae4c4958a182b878e8))
+* **all:** reduced hamburger cards sizes ([eb5385b](https://github.com/dsebastien/concept-cards/commit/eb5385b1bd5ad245d25c2484c0fef3c9303dc6a4))
 ## [10.14.0](https://github.com/dsebastien/concept-cards/compare/10.13.0...10.14.0) (2026-01-30)
 
 ### Features
