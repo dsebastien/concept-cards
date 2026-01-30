@@ -118,7 +118,14 @@ export function calculateNextVersion(): VersionInfo {
     const latestTag = getLatestTag()
     const currentVersion = latestTag ?? '0.0.0'
     const commits = getCommitsSinceTag(latestTag)
-    const bumpType = analyzeBumpType(commits)
+    let bumpType = analyzeBumpType(commits)
+
+    // If this is the first release (no previous tags) and no conventional commits were found,
+    // default to patch bump so we get at least 0.0.1 instead of 0.0.0
+    if (!latestTag && bumpType === 'none' && commits.length > 0) {
+        bumpType = 'patch'
+    }
+
     const nextVersion = incrementVersion(currentVersion, bumpType)
 
     return {
