@@ -169,7 +169,7 @@ function parseArgs(): { source: string; target: string; strategy: string } | nul
     if (!source || !target) {
         console.error('\n❌ Error: --source and --target are required\n')
         console.log(
-            'Usage: npx tsx scripts/merge-duplicates.ts --source <id> --target <id> [options]\n'
+            'Usage: bun scripts/merge-duplicates.ts --source <id> --target <id> [options]\n'
         )
         console.log('Options:')
         console.log('  --source <id>      Source concept ID (will be deleted)')
@@ -178,7 +178,7 @@ function parseArgs(): { source: string; target: string; strategy: string } | nul
             '  --strategy <type>  Merge strategy: keep-target | merge-fields (default: merge-fields)'
         )
         console.log('\nExample:')
-        console.log('  npx tsx scripts/merge-duplicates.ts \\')
+        console.log('  bun scripts/merge-duplicates.ts \\')
         console.log('    --source gratitude \\')
         console.log('    --target gratitude-practice \\')
         console.log('    --strategy merge-fields\n')
@@ -282,7 +282,7 @@ function main(): void {
         console.log('✅ Merge Complete')
         console.log('='.repeat(60))
         console.log('\n⚠️  Important: Run sync-concepts-db.ts to update the database:')
-        console.log('   npx tsx scripts/sync-concepts-db.ts\n')
+        console.log('   bun scripts/sync-concepts-db.ts\n')
     } catch (error) {
         console.error('\n❌ Error merging concepts:', error)
         process.exit(1)

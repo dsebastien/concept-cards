@@ -220,7 +220,7 @@ function main(): void {
                 dup.reasons.forEach((r) => console.log(`  • ${r}`))
                 console.log(`  Suggested action:`)
                 console.log(
-                    `    npx tsx scripts/merge-duplicates.ts --source ${dup.concept1.id} --target ${dup.concept2.id}`
+                    `    bun scripts/merge-duplicates.ts --source ${dup.concept1.id} --target ${dup.concept2.id}`
                 )
             }
         }

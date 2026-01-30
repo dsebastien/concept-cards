@@ -330,14 +330,14 @@ function parseArgs(): Args | null {
 
     if (!name) {
         console.error('\n❌ Error: --name is required\n')
-        console.log('Usage: npx tsx scripts/verify-concept.ts --name "Concept Name" [options]\n')
+        console.log('Usage: bun scripts/verify-concept.ts --name "Concept Name" [options]\n')
         console.log('Options:')
         console.log('  --name <string>           Concept name (required)')
         console.log('  --summary <string>        Concept summary (optional, improves accuracy)')
         console.log('  --aliases <string>        Comma-separated aliases (optional)')
         console.log('  --related-notes <string>  Comma-separated related note URLs (optional)')
         console.log('\nExample:')
-        console.log('  npx tsx scripts/verify-concept.ts \\')
+        console.log('  bun scripts/verify-concept.ts \\')
         console.log('    --name "Zettelkasten Method" \\')
         console.log('    --summary "Note-taking system with atomic notes" \\')
         console.log('    --aliases "Zettelkasten,Slip-box method"\n')

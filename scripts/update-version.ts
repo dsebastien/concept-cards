@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
  * Updates the version in package.json to the specified version.
- * Usage: npx tsx scripts/update-version.ts <version>
+ * Usage: bun scripts/update-version.ts <version>
  * Version can optionally have a 'v' prefix which will be stripped.
  */
 
@@ -30,9 +30,9 @@ const isMain = process.argv[1]?.endsWith('update-version.ts')
 if (isMain) {
     const version = process.argv[2]
     if (!version) {
-        console.error('Usage: npx tsx scripts/update-version.ts <version>')
-        console.error('Example: npx tsx scripts/update-version.ts 1.2.3')
-        console.error('Example: npx tsx scripts/update-version.ts v1.2.3')
+        console.error('Usage: bun scripts/update-version.ts <version>')
+        console.error('Example: bun scripts/update-version.ts 1.2.3')
+        console.error('Example: bun scripts/update-version.ts v1.2.3')
         process.exit(1)
     }
 
