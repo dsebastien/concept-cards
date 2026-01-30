@@ -31,6 +31,8 @@ concept-cards/
 │   └── social-cards/{concepts,tags,categories,pages}/
 ├── scripts/
 │   ├── generate-sitemap.ts
+│   ├── generate-llms-txt.ts
+│   ├── generate-rss-feed.ts
 │   ├── generate-social-images.ts
 │   ├── verify-concept.ts
 │   ├── sync-concepts-db.ts
