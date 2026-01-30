@@ -1,4 +1,9 @@
-## [1010.8.1](https://github.com/dsebastien/concept-cards/compare/10.8.0...1010.8.1) (2026-01-30)
+## [10.8.2](https://github.com/dsebastien/concept-cards/compare/10.8.1...10.8.2) (2026-01-30)
+
+### Features
+
+* **all:** improved ([7f3602a](https://github.com/dsebastien/concept-cards/commit/7f3602acf21d7b9df1c008d69ac9a416bc98a78a))
+## [10.8.1](https://github.com/dsebastien/concept-cards/compare/10.8.0...10.8.1) (2026-01-30)
 
 ### Features
 
