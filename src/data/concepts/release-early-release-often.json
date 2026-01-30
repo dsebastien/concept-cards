@@ -1,0 +1,58 @@
+{
+    "id": "release-early-release-often",
+    "name": "Release Early, Release Often",
+    "summary": "A software development philosophy advocating frequent releases to gather feedback and iterate quickly.",
+    "explanation": "Release Early, Release Often (RERO) is a software development philosophy popularized by Eric S. Raymond in 'The Cathedral and the Bazaar.' The principle advocates releasing software as soon as it provides any value, then iterating rapidly based on real-world feedback.\n\nCore tenets:\n\n1. **Early feedback**: Real users provide better feedback than internal testing or speculation.\n\n2. **Incremental improvement**: Many small releases reduce risk compared to infrequent large releases.\n\n3. **Market validation**: Early releases test assumptions before investing heavily in wrong directions.\n\n4. **User engagement**: Frequent updates keep users engaged and feeling heard.\n\n5. **Bug discovery**: More eyes and more usage environments expose issues faster (see Linus's Law).\n\nImplementation practices:\n\n- Continuous integration and deployment pipelines\n- Feature flags for gradual rollouts\n- Semantic versioning for clear communication\n- Beta/canary release channels\n- Automated testing to maintain quality at speed\n\nThe philosophy contrasts with traditional 'waterfall' approaches where software is released only when 'complete.' RERO acknowledges that software is never truly complete and that iteration is essential.\n\nFor knowledge workers, RERO suggests: sharing drafts early for feedback, publishing incrementally rather than waiting for perfection, and treating work as ongoing conversation rather than final pronouncement.",
+    "tags": [
+        "software-engineering",
+        "processes",
+        "agile",
+        "open-source",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaRocket",
+    "featured": false,
+    "aliases": [
+        "RERO",
+        "Ship Early Ship Often",
+        "Frequent Releases"
+    ],
+    "relatedConcepts": [
+        "ship-it",
+        "continuous-delivery",
+        "continuous-deployment",
+        "agile-manifesto",
+        "linus-law",
+        "open-source",
+        "semantic-versioning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Cathedral and the Bazaar by Eric S. Raymond",
+            "url": "https://www.amazon.com/dp/0596001088"
+        }
+    ],
+    "references": [
+        {
+            "title": "Release early, release often - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Release_early,_release_often",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}

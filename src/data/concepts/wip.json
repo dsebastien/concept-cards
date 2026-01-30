@@ -1,0 +1,75 @@
+{
+    "id": "wip",
+    "name": "Work In Progress (WIP)",
+    "summary": "An indicator that work is incomplete and not ready for final review or production use.",
+    "explanation": "Work In Progress (WIP) is a status marker indicating that something is still being developed and isn't ready for final evaluation. In software development, WIP commits, branches, or pull requests signal to collaborators that the code is incomplete and may contain temporary solutions, debugging code, or unfinished features. WIP limits in Kanban methodologies restrict how many items can be in progress simultaneously to prevent context switching and improve flow. The WIP concept applies broadly to knowledge work: marking drafts as WIP sets expectations, prevents premature criticism, and creates psychological safety for sharing incomplete ideas. Effective WIP management involves: (1) clear labeling of incomplete work, (2) regular progress updates, (3) setting limits to maintain focus, and (4) establishing criteria for when work moves from WIP to ready-for-review status.",
+    "tags": [
+        "software-engineering",
+        "collaboration",
+        "processes",
+        "productivity"
+    ],
+    "category": "Software Development",
+    "icon": "FaHardHat",
+    "featured": false,
+    "aliases": [
+        "WIP",
+        "Work in Progress",
+        "Draft"
+    ],
+    "relatedConcepts": [
+        "pull-request",
+        "code-review",
+        "kanban",
+        "lgtm",
+        "feature-branching"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Work in process - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Work_in_process",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}

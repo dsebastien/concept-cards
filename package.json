@@ -23,6 +23,7 @@
         "fix-refs": "bun scripts/fix-concept-refs.ts",
         "populate-dates": "bun scripts/populate-concept-dates.ts",
         "fix-concepts": "bun run add-product-links && bun run fix-refs && bun run populate-dates",
+        "update": "bun run add-product-links && bun run fix-refs && bun run populate-dates",
         "extract-books": "bun scripts/extract-books.ts",
         "generate-social-images": "bun scripts/generate-social-images.ts",
         "dev": "bun scripts/utils/dev.ts",

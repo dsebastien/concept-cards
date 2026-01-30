@@ -1,0 +1,50 @@
+{
+    "id": "rfc",
+    "name": "Request For Comments (RFC)",
+    "summary": "A document proposing changes or new ideas for collaborative review and feedback before implementation.",
+    "explanation": "Request For Comments (RFC) is a collaborative process for proposing and discussing significant changes before implementation. Originating from the IETF's internet standards process, RFCs have become a common practice in software organizations for architectural decisions, API designs, and major features. An RFC typically includes: (1) problem statement - what issue needs solving, (2) proposed solution - detailed approach, (3) alternatives considered - other options evaluated, (4) trade-offs - pros and cons of the proposal, (5) implementation plan - how the work will be done. The RFC process creates documentation, enables asynchronous collaboration, surfaces concerns early, and builds consensus. For knowledge workers, the RFC mindset encourages thinking through ideas thoroughly before acting, inviting diverse perspectives, and creating records of decision rationale. RFCs complement ADRs (Architecture Decision Records) by capturing the discussion process, not just the outcome.",
+    "tags": [
+        "software-engineering",
+        "collaboration",
+        "processes",
+        "documentation"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileAlt",
+    "featured": false,
+    "aliases": [
+        "RFC",
+        "Design Doc",
+        "Technical Proposal"
+    ],
+    "relatedConcepts": [
+        "architecture-decision-records",
+        "code-review",
+        "design-rationale",
+        "documentation",
+        "collective-intelligence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Request for Comments - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Request_for_Comments",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}
