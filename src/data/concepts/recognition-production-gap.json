@@ -1,0 +1,79 @@
+{
+    "id": "recognition-production-gap",
+    "name": "Recognition-Production Gap",
+    "summary": "The cognitive asymmetry where recognizing or evaluating something is easier than producing or creating it.",
+    "explanation": "The Recognition-Production Gap describes the fundamental asymmetry between our ability to recognize or evaluate something (discrimination) versus our ability to produce or create it (generation). Recognition is roughly 10 times easier than production. This explains why you can understand a language but struggle to speak it, why you can appreciate good code but find writing it difficult, and why you can identify a great design without being able to create one.\n\nThis gap manifests in multiple domains. In language learning, passive vocabulary (words you recognize) vastly exceeds active vocabulary (words you can use). Native English speakers may have 30,000 passive words versus 20,000 active ones, with the gap being much larger for second-language learners. In programming, developers can review and understand code effectively even when they struggle to write equivalent code from scratch—the syntactic details and patterns are easier to recognize than recall.\n\nThe cognitive mechanisms behind this asymmetry involve different neural pathways. Recognition relies on pattern matching against stored templates, requiring only that something 'feel familiar.' Production requires retrieving information from memory, assembling it correctly, and executing the output—a far more demanding process. This is why passive reading creates 'fluency illusions': material feels mastered because it's easily recognized, but true mastery requires production ability.\n\nPractical implications include: (1) Don't confuse comprehension with capability—being able to follow code doesn't mean you can write it. (2) For learning, emphasize production practice over recognition: write code, speak languages, create designs. (3) Code review skills and code writing skills are separate competencies that develop somewhat independently. (4) When studying, test yourself with production tasks (write the answer) rather than recognition tasks (choose from options). (5) Accept that the gap is normal and use it strategically—leverage recognition abilities in review roles while building production abilities through deliberate practice.",
+    "tags": [
+        "cognition",
+        "learning",
+        "psychology",
+        "skill-development",
+        "software-development"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Generation-Discrimination Asymmetry",
+        "Receptive-Productive Asymmetry",
+        "Active-Passive Knowledge Gap",
+        "Comprehension-Production Gap"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "active-vocabulary",
+        "desirable-difficulties",
+        "fluency-illusion",
+        "generation-effect",
+        "passive-vocabulary",
+        "skill-acquisition"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Make It Stick: The Science of Successful Learning by Peter C. Brown",
+            "url": "https://www.amazon.com/dp/0674729013?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Vocabulary - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vocabulary",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}
