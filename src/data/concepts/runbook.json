@@ -1,0 +1,45 @@
+{
+    "id": "runbook",
+    "name": "Runbook",
+    "summary": "A documented set of procedures for routine operations, troubleshooting, and incident response.",
+    "explanation": "A runbook is a compilation of routine procedures and operations that need to be performed to keep systems running. It provides step-by-step instructions for common tasks, troubleshooting guides for known issues, and procedures for incident response. Runbooks serve as operational documentation that enables anyone to perform tasks that might otherwise require specialized knowledge.\n\nRunbooks are essential for: reducing dependency on specific individuals, enabling consistent operations across teams, faster incident response through predefined procedures, smoother on-call handoffs, and preserving operational knowledge against context rot. They transform tribal knowledge into explicit, actionable documentation.\n\nEffective runbooks include: clear step-by-step procedures, expected outcomes for each step, troubleshooting guidance when things go wrong, escalation paths, links to relevant dashboards and tools, and version history. They should be written for the audience who will use them (often someone unfamiliar with the system, possibly at 3 AM during an incident).\n\nRunbook best practices: keep them up-to-date (outdated runbooks are dangerous), test procedures regularly, link runbooks to alerting systems, use templates for consistency, store them where they're easily accessible during incidents, and review them during post-incident retrospectives. Automation can turn manual runbook steps into executable scripts, but documented procedures remain valuable even when partially automated.",
+    "tags": [
+        "documentation",
+        "operations",
+        "software-development",
+        "incident-response",
+        "devops",
+        "procedures"
+    ],
+    "category": "Software Development",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "Playbook",
+        "Operations Manual",
+        "Standard Operating Procedure"
+    ],
+    "relatedConcepts": [
+        "documentation",
+        "tribal-knowledge",
+        "context-rot"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Runbook - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Runbook",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}

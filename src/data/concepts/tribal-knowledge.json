@@ -1,0 +1,96 @@
+{
+    "id": "tribal-knowledge",
+    "name": "Tribal Knowledge",
+    "summary": "Undocumented information known only to specific individuals or groups within an organization.",
+    "explanation": "Tribal knowledge refers to information, processes, and expertise that exist only in the minds of certain individuals or small groups within an organization, never having been formally documented or shared. This knowledge is typically acquired through experience, informal conversations, and on-the-job learning rather than through official training or documentation.\n\nTribal knowledge creates significant organizational risks. When key individuals leave, take vacation, or are unavailable, their knowledge leaves with them—leading to context rot, delays, and repeated mistakes. It creates bottlenecks where only specific people can perform certain tasks, increasing the bus factor and creating single points of failure. It also leads to inconsistent practices as different 'tribes' develop their own ways of doing things.\n\nCommon examples include: knowing why a system was designed a certain way, understanding workarounds for quirky behavior, remembering past decisions and their rationale, knowing who to contact for specific issues, and understanding the real (vs. documented) process for getting things done.\n\nTo combat tribal knowledge: document critical processes and decisions, create runbooks for common tasks, use architecture decision records (ADRs) to capture rationale, establish knowledge sharing practices like pair programming or documentation days, and conduct regular knowledge transfer sessions. The goal is to convert tacit tribal knowledge into explicit organizational knowledge that persists independent of any individual.",
+    "tags": [
+        "knowledge-management",
+        "organizations",
+        "documentation",
+        "teams",
+        "risks",
+        "software-development"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "Undocumented Knowledge",
+        "Oral Tradition",
+        "Institutional Folklore"
+    ],
+    "relatedConcepts": [
+        "tacit-knowledge",
+        "explicit-knowledge",
+        "bus-factor",
+        "context-rot",
+        "documentation",
+        "knowledge-transfer",
+        "knowledge-silos",
+        "architecture-decision-records",
+        "onboarding"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Tribal Knowledge - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tribal_knowledge",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "self-documenting-code",
+    "name": "Self-Documenting Code",
+    "summary": "Code written so clearly that it explains itself without requiring extensive external documentation.",
+    "explanation": "Self-documenting code is source code written in a way that its purpose, logic, and behavior are clear from reading the code itself. The goal is to make the code's intent obvious through meaningful names, clear structure, and appropriate abstraction—reducing (but not eliminating) the need for comments and external documentation.\n\nTechniques for self-documenting code include: descriptive variable and function names that reveal intent ('calculateTotalPrice' vs 'calc'), small focused functions that do one thing well, meaningful constant names instead of magic numbers, consistent naming conventions, appropriate use of types to convey meaning, and code structure that follows the problem domain.\n\nSelf-documenting code has limits. It cannot explain: why certain approaches were chosen over alternatives, non-obvious business rules, historical context and past decisions, performance considerations, and edge cases that aren't apparent from the code. These still require comments, documentation, and architecture decision records.\n\nThe principle isn't 'no documentation needed' but rather 'the code should explain what it does, while comments and docs explain why.' Self-documenting code reduces context rot for the 'what' but context about the 'why' still needs explicit capture. The best approach combines clear code with strategic documentation: code shows the implementation, comments explain the non-obvious, and external docs provide architecture and rationale.",
+    "tags": [
+        "software-development",
+        "code-quality",
+        "documentation",
+        "clean-code",
+        "readability",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Readable Code",
+        "Expressive Code"
+    ],
+    "relatedConcepts": [
+        "documentation",
+        "context-rot",
+        "code-review",
+        "technical-debt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Self-Documenting Code - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Self-documenting_code",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}

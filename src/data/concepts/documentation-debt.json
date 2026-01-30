@@ -1,0 +1,87 @@
+{
+    "id": "documentation-debt",
+    "name": "Documentation Debt",
+    "summary": "The accumulated cost of missing, outdated, or inadequate documentation that hinders future work.",
+    "explanation": "Documentation debt is a form of technical debt that accumulates when documentation is not created, maintained, or updated alongside the systems and processes it describes. Like financial debt, it accrues 'interest' over time—the longer documentation gaps persist, the harder they become to fill as context fades and original authors move on.\n\nDocumentation debt manifests as: missing documentation for critical systems, outdated docs that no longer reflect reality, incomplete onboarding materials, undocumented decisions and their rationale, absent runbooks for operations, and poorly maintained API documentation. The cost compounds through context rot, slower onboarding, repeated questions, mistakes from misunderstanding, and time lost rediscovering how things work.\n\nDocumentation debt accumulates due to: time pressure prioritizing features over docs, the assumption that 'we'll document it later' (which rarely happens), undervaluing documentation in engineering culture, lack of clear ownership, and no process for keeping docs current.\n\nTo address documentation debt: treat documentation as part of the definition of done, allocate specific time for documentation work, establish documentation ownership, use automated tools to detect stale docs, create templates to reduce friction, link documentation to code in version control, and foster a culture where documentation is valued. Prevention is cheaper than remediation—capturing context when it's fresh is far easier than reconstructing it later.",
+    "tags": [
+        "documentation",
+        "software-development",
+        "technical-debt",
+        "knowledge-management",
+        "maintenance"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileAlt",
+    "featured": false,
+    "aliases": [
+        "Doc Debt",
+        "Knowledge Debt"
+    ],
+    "relatedConcepts": [
+        "technical-debt",
+        "context-rot",
+        "documentation",
+        "tribal-knowledge",
+        "architecture-decision-records",
+        "definition-of-done",
+        "code-review"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Technical Debt - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Technical_debt",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30"
+}
