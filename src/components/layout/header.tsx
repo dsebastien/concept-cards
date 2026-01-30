@@ -218,17 +218,17 @@ const Header: React.FC = () => {
                     onClick={(e) => e.stopPropagation()}
                 >
                     {/* Grid on desktop, compact list on mobile */}
-                    <div className='mx-auto grid max-w-4xl grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 md:gap-6'>
+                    <div className='mx-auto grid max-w-4xl grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:gap-4 lg:gap-6'>
                         {menuLinks.map((link) => (
                             <Link
                                 key={link.to}
                                 to={link.to}
-                                className={`flex flex-col items-center justify-center gap-2 rounded-xl p-4 text-center transition-all hover:scale-105 sm:gap-3 sm:p-6 md:p-8 ${link.color}`}
+                                className={`flex flex-col items-center justify-center gap-2 rounded-xl p-4 text-center transition-all hover:scale-105 sm:gap-3 sm:p-6 md:p-5 lg:p-8 ${link.color}`}
                             >
-                                <span className='text-2xl sm:text-3xl md:text-4xl'>
+                                <span className='text-2xl sm:text-3xl md:text-3xl lg:text-4xl'>
                                     {link.icon}
                                 </span>
-                                <span className='text-sm font-medium sm:text-base md:text-lg'>
+                                <span className='text-sm font-medium sm:text-base'>
                                     {link.label}
                                 </span>
                             </Link>
