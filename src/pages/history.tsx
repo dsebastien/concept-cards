@@ -8,6 +8,7 @@ import ConceptIcon from '@/components/concepts/concept-icon'
 import ConceptDetailModal from '@/components/concepts/concept-detail-modal'
 import { conceptsData } from '@/data'
 import { useExploredConcepts } from '@/hooks/use-explored-concepts'
+import { calculateHistoryStats } from '@/lib/history-stats'
 import type { Concept } from '@/types/concept'
 
 // Colors for concept cards - cycling through different colors
@@ -24,66 +25,12 @@ const cardColors = [
     'from-orange-500/20 to-orange-600/10 border-orange-500/30 hover:border-orange-500/50'
 ]
 
-interface ConceptsByDate {
-    date: string
-    formattedDate: string
-    concepts: Concept[]
-}
-
 const HistoryPage: React.FC = () => {
     const navigate = useNavigate()
     const { isExplored, markAsExplored } = useExploredConcepts()
     const [selectedConcept, setSelectedConcept] = useState<Concept | null>(null)
 
-    const historyData = useMemo(() => {
-        const concepts = conceptsData.concepts
-        const totalConcepts = concepts.length
-
-        // Group concepts by datePublished
-        const conceptsByDateMap = new Map<string, Concept[]>()
-
-        concepts.forEach((concept) => {
-            const date = concept.datePublished
-            if (!conceptsByDateMap.has(date)) {
-                conceptsByDateMap.set(date, [])
-            }
-            conceptsByDateMap.get(date)!.push(concept)
-        })
-
-        // Sort dates newest first and create array
-        const sortedDates = Array.from(conceptsByDateMap.keys()).sort(
-            (a, b) => new Date(b).getTime() - new Date(a).getTime()
-        )
-
-        // Format dates and sort concepts within each date alphabetically
-        const conceptsByDate: ConceptsByDate[] = sortedDates.map((date) => {
-            const dateObj = new Date(date + 'T00:00:00')
-            const formattedDate = dateObj.toLocaleDateString('en-US', {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            })
-
-            const dateConcepts = conceptsByDateMap.get(date)!
-            dateConcepts.sort((a, b) => a.name.localeCompare(b.name))
-
-            return {
-                date,
-                formattedDate,
-                concepts: dateConcepts
-            }
-        })
-
-        // Count unique dates
-        const uniqueDates = conceptsByDate.length
-
-        return {
-            conceptsByDate,
-            totalConcepts,
-            uniqueDates
-        }
-    }, [])
+    const historyData = useMemo(() => calculateHistoryStats(conceptsData.concepts), [])
 
     // Flatten all concepts for modal navigation
     const allConcepts = useMemo(() => {
@@ -204,6 +151,16 @@ const HistoryPage: React.FC = () => {
                             className='text-secondary text-2xl font-bold'
                         />
                         <div className='text-primary/60 text-sm'>Days with Additions</div>
+                    </div>
+                    <div className='bg-primary/20 h-8 w-px' />
+                    <div className='text-center'>
+                        <AnimatedCounter
+                            value={historyData.avgPerDay}
+                            delay={0.5}
+                            formatValue={(v) => v.toFixed(1)}
+                            className='text-2xl font-bold text-green-400'
+                        />
+                        <div className='text-primary/60 text-sm'>Avg per Day</div>
                     </div>
                 </div>
             </motion.div>
