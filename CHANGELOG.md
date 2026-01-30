@@ -1,3 +1,8 @@
+## [10.13.0](https://github.com/dsebastien/concept-cards/compare/10.12.0...10.13.0) (2026-01-30)
+
+### Features
+
+* **all:** added RSS feed ([b5eae84](https://github.com/dsebastien/concept-cards/commit/b5eae8497cbfd0a425fcacaba36a5723bab92a03))
 ## [10.12.0](https://github.com/dsebastien/concept-cards/compare/10.11.0...10.12.0) (2026-01-30)
 
 ### Features
