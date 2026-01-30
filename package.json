@@ -40,6 +40,7 @@
         "cm": "bun run commit",
         "commit:lint": "commitlint --from HEAD~1 --to HEAD --verbose",
         "release": "bash scripts/release.sh",
+        "release:next-version": "bun scripts/calculate-next-version.ts --verbose",
         "release:update-version": "bun scripts/update-version.ts",
         "release:changelog": "bun scripts/generate-changelog.ts",
         "push": "git push && git push --tags",
