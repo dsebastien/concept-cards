@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
                                         <button
                                             type='submit'
                                             disabled={subscribeStatus === 'loading'}
-                                            className='bg-secondary hover:bg-secondary/90 flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold whitespace-nowrap text-white transition-colors disabled:cursor-not-allowed disabled:opacity-50'
+                                            className='bg-secondary hover:bg-secondary/90 flex cursor-pointer items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold whitespace-nowrap text-white transition-colors disabled:cursor-not-allowed disabled:opacity-50'
                                         >
                                             {subscribeStatus === 'loading' ? (
                                                 <>
@@ -159,7 +159,7 @@ const Footer: React.FC = () => {
                                         <button
                                             type='button'
                                             onClick={handleDismiss}
-                                            className='text-primary/50 hover:text-primary/70 text-xs transition-colors hover:underline'
+                                            className='text-primary/50 hover:text-primary/70 cursor-pointer text-xs transition-colors hover:underline'
                                         >
                                             Don't show this again
                                         </button>
@@ -176,7 +176,7 @@ const Footer: React.FC = () => {
                 <div className='grid grid-cols-1 gap-10 sm:gap-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-12'>
                     {/* Logo and Description */}
                     <div className='flex flex-col gap-4'>
-                        <Link to='/' className='flex items-center gap-3'>
+                        <Link to='/' className='flex cursor-pointer items-center gap-3'>
                             <div className='bg-secondary/10 flex h-10 w-10 items-center justify-center rounded-full'>
                                 <FaBrain className='text-secondary h-5 w-5' />
                             </div>
@@ -192,7 +192,7 @@ const Footer: React.FC = () => {
                                     href={social.url}
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    className='transition-transform hover:scale-110'
+                                    className='cursor-pointer transition-transform hover:scale-110'
                                     aria-label={social.name}
                                     title={social.name}
                                 >
@@ -209,7 +209,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/featured'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaStar className='h-4 w-4' />
                                     Featured
@@ -218,7 +218,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/unexplored'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaCompass className='h-4 w-4' />
                                     Unexplored
@@ -227,7 +227,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/random'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaDice className='h-4 w-4' />
                                     Random Concept
@@ -236,7 +236,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/categories'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaFolder className='h-4 w-4' />
                                     Categories
@@ -245,7 +245,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/tags'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaTag className='h-4 w-4' />
                                     Tags
@@ -254,7 +254,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/statistics'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaChartBar className='h-4 w-4' />
                                     Statistics
@@ -263,7 +263,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/history'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaHistory className='h-4 w-4' />
                                     History
@@ -279,7 +279,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/books'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaBook className='h-4 w-4' />
                                     Books
@@ -288,7 +288,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/articles'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaNewspaper className='h-4 w-4' />
                                     Articles
@@ -297,7 +297,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/references'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaLink className='h-4 w-4' />
                                     References
@@ -306,7 +306,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/notes'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaStickyNote className='h-4 w-4' />
                                     Notes
@@ -315,7 +315,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/disclaimer'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaFileContract className='h-4 w-4' />
                                     Disclaimer
@@ -324,7 +324,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/contributing'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaCodeBranch className='h-4 w-4' />
                                     Contributing
@@ -333,7 +333,7 @@ const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     to='/changelog'
-                                    className='text-primary/70 hover:text-secondary inline-flex items-center gap-2 transition-colors'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
                                 >
                                     <FaClipboardList className='h-4 w-4' />
                                     Changelog
@@ -352,7 +352,7 @@ const Footer: React.FC = () => {
                                         href={resource.url}
                                         target='_blank'
                                         rel='noopener noreferrer'
-                                        className='text-primary/70 hover:text-secondary flex items-center gap-2 transition-colors'
+                                        className='text-primary/70 hover:text-secondary flex cursor-pointer items-center gap-2 transition-colors'
                                     >
                                         <ConceptIcon icon={resource.icon} category='' size='sm' />
                                         {resource.name}
@@ -370,7 +370,7 @@ const Footer: React.FC = () => {
                             href='https://www.dsebastien.net'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='hover:text-secondary transition-colors'
+                            className='hover:text-secondary cursor-pointer transition-colors'
                         >
                             Sébastien Dubois
                         </a>
@@ -381,12 +381,15 @@ const Footer: React.FC = () => {
                             href='https://github.com/dsebastien/concept-cards'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='hover:text-secondary transition-colors'
+                            className='hover:text-secondary cursor-pointer transition-colors'
                         >
                             Open Source
                         </a>
                         {' · '}
-                        <Link to='/contributing' className='hover:text-secondary transition-colors'>
+                        <Link
+                            to='/contributing'
+                            className='hover:text-secondary cursor-pointer transition-colors'
+                        >
                             Contributions welcome
                         </Link>
                     </p>

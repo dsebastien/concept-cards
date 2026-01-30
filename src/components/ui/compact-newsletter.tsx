@@ -111,7 +111,7 @@ const CompactNewsletter: React.FC = () => {
                             <button
                                 type='submit'
                                 disabled={subscribeStatus === 'loading'}
-                                className='bg-secondary hover:bg-secondary/90 flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold whitespace-nowrap text-white transition-colors disabled:cursor-not-allowed disabled:opacity-50'
+                                className='bg-secondary hover:bg-secondary/90 flex cursor-pointer items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold whitespace-nowrap text-white transition-colors disabled:cursor-not-allowed disabled:opacity-50'
                             >
                                 {subscribeStatus === 'loading' ? (
                                     <>
@@ -133,7 +133,7 @@ const CompactNewsletter: React.FC = () => {
                         <button
                             type='button'
                             onClick={handleDismiss}
-                            className='text-primary/50 hover:text-primary/70 text-xs transition-colors hover:underline'
+                            className='text-primary/50 hover:text-primary/70 cursor-pointer text-xs transition-colors hover:underline'
                         >
                             Don't show this again
                         </button>

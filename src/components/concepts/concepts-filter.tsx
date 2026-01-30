@@ -67,7 +67,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                     {searchQuery && (
                         <button
                             onClick={() => onSearchChange('')}
-                            className='text-primary/40 hover:text-primary absolute top-1/2 right-16 -translate-y-1/2 p-1'
+                            className='text-primary/40 hover:text-primary absolute top-1/2 right-16 -translate-y-1/2 cursor-pointer p-1'
                             aria-label='Clear search'
                         >
                             <FaTimes className='h-4 w-4' />
@@ -75,7 +75,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                     )}
                     <button
                         onClick={onOpenCommandPalette}
-                        className='text-primary/40 hover:text-primary border-primary/20 bg-primary/5 absolute top-1/2 right-3 flex -translate-y-1/2 items-center gap-1 rounded border px-2 py-1 text-xs transition-colors'
+                        className='text-primary/40 hover:text-primary border-primary/20 bg-primary/5 absolute top-1/2 right-3 flex -translate-y-1/2 cursor-pointer items-center gap-1 rounded border px-2 py-1 text-xs transition-colors'
                         title="Press '/' to open command palette"
                     >
                         <FaKeyboard className='h-3 w-3' />
@@ -88,7 +88,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                     <button
                         onClick={() => onViewModeChange('grid')}
                         className={cn(
-                            'flex items-center gap-2 rounded-l-xl px-4 py-3 transition-colors',
+                            'flex cursor-pointer items-center gap-2 rounded-l-xl px-4 py-3 transition-colors',
                             viewMode === 'grid'
                                 ? 'bg-secondary text-white'
                                 : 'text-primary/60 hover:bg-primary/10'
@@ -102,7 +102,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                     <button
                         onClick={() => onViewModeChange('list')}
                         className={cn(
-                            'flex items-center gap-2 rounded-r-xl px-4 py-3 transition-colors',
+                            'flex cursor-pointer items-center gap-2 rounded-r-xl px-4 py-3 transition-colors',
                             viewMode === 'list'
                                 ? 'bg-secondary text-white'
                                 : 'text-primary/60 hover:bg-primary/10'
@@ -137,7 +137,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                                     key={category}
                                     onClick={() => onCategoryChange(category)}
                                     className={cn(
-                                        'rounded-full px-3 py-1.5 text-sm transition-colors',
+                                        'cursor-pointer rounded-full px-3 py-1.5 text-sm transition-colors',
                                         selectedCategory === category
                                             ? 'bg-secondary text-white'
                                             : 'bg-primary/5 text-primary/60 hover:bg-primary/10'
@@ -159,7 +159,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                             {exploredCount > 0 && (
                                 <button
                                     onClick={onClearExplored}
-                                    className='text-primary/40 hover:text-secondary flex items-center gap-1 text-xs transition-colors'
+                                    className='text-primary/40 hover:text-secondary flex cursor-pointer items-center gap-1 text-xs transition-colors'
                                     title='Clear exploration history'
                                 >
                                     <FaTrash className='h-3 w-3' />
@@ -179,7 +179,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                                     key={option.value}
                                     onClick={() => onExploredFilterChange(option.value)}
                                     className={cn(
-                                        'rounded-full px-3 py-1.5 text-sm transition-colors',
+                                        'cursor-pointer rounded-full px-3 py-1.5 text-sm transition-colors',
                                         exploredFilter === option.value
                                             ? 'bg-secondary text-white'
                                             : 'bg-primary/5 text-primary/60 hover:bg-primary/10'
@@ -200,7 +200,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                                     key={tag}
                                     onClick={() => toggleTag(tag)}
                                     className={cn(
-                                        'rounded-full px-3 py-1.5 text-sm transition-colors',
+                                        'cursor-pointer rounded-full px-3 py-1.5 text-sm transition-colors',
                                         selectedTags.includes(tag)
                                             ? 'bg-secondary text-white'
                                             : 'bg-primary/5 text-primary/60 hover:bg-primary/10'
@@ -216,7 +216,7 @@ const ConceptsFilter: React.FC<ConceptsFilterProps> = ({
                     {hasActiveFilters && (
                         <button
                             onClick={clearAllFilters}
-                            className='text-secondary hover:text-secondary/80 flex items-center gap-2 text-sm transition-colors'
+                            className='text-secondary hover:text-secondary/80 flex cursor-pointer items-center gap-2 text-sm transition-colors'
                         >
                             <FaTimes className='h-3 w-3' />
                             Clear all filters

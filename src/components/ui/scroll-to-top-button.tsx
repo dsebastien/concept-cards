@@ -47,7 +47,7 @@ const ScrollToTopButton: React.FC = () => {
         <button
             onClick={scrollToTop}
             className={cn(
-                'bg-secondary hover:bg-secondary/90 hover:shadow-secondary/30 fixed right-6 bottom-6 z-50 flex h-12 w-12 items-center justify-center rounded-full shadow-lg transition-all duration-300 hover:shadow-xl sm:right-8 sm:bottom-8 md:h-14 md:w-14 lg:right-10 lg:bottom-10',
+                'bg-secondary hover:bg-secondary/90 hover:shadow-secondary/30 fixed right-6 bottom-6 z-50 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full shadow-lg transition-all duration-300 hover:shadow-xl sm:right-8 sm:bottom-8 md:h-14 md:w-14 lg:right-10 lg:bottom-10',
                 isVisible && !isModalOpen
                     ? 'translate-y-0 opacity-100'
                     : 'pointer-events-none translate-y-16 opacity-0'

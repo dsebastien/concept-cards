@@ -91,7 +91,7 @@ const BookList: React.FC<{
                         href={book.url}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='flex items-center gap-3 rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 transition-colors hover:bg-amber-500/10'
+                        className='flex cursor-pointer items-center gap-3 rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 transition-colors hover:bg-amber-500/10'
                     >
                         <FaBook className='h-4 w-4 text-amber-400' />
                         <span className='flex-1 text-sm'>{book.title}</span>
@@ -123,7 +123,7 @@ const ReferenceList: React.FC<{
                         href={ref.url}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='bg-primary/5 hover:bg-primary/10 flex items-center gap-3 rounded-lg p-3 transition-colors'
+                        className='bg-primary/5 hover:bg-primary/10 flex cursor-pointer items-center gap-3 rounded-lg p-3 transition-colors'
                     >
                         {referenceTypeIcons[ref.type] || referenceTypeIcons['other']}
                         <span className='flex-1 text-sm'>{ref.title}</span>
@@ -426,14 +426,14 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                         <div className='flex flex-col items-center gap-2'>
                                             <button
                                                 onClick={onClose}
-                                                className='text-primary/60 hover:text-primary hover:bg-primary/10 rounded-lg p-2 transition-colors'
+                                                className='text-primary/60 hover:text-primary hover:bg-primary/10 cursor-pointer rounded-lg p-2 transition-colors'
                                                 aria-label='Close modal'
                                             >
                                                 <FaTimes className='h-5 w-5' />
                                             </button>
                                             <button
                                                 onClick={handleCopy}
-                                                className='text-primary/60 hover:text-primary hover:bg-primary/10 rounded-lg p-2 transition-colors'
+                                                className='text-primary/60 hover:text-primary hover:bg-primary/10 cursor-pointer rounded-lg p-2 transition-colors'
                                                 aria-label='Copy concept details'
                                                 title='Copy title, summary, and explanation'
                                             >
@@ -572,7 +572,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                                 href={note}
                                                                 target='_blank'
                                                                 rel='noopener noreferrer'
-                                                                className='bg-primary/5 hover:bg-primary/10 flex items-center gap-3 rounded-lg p-3 transition-colors'
+                                                                className='bg-primary/5 hover:bg-primary/10 flex cursor-pointer items-center gap-3 rounded-lg p-3 transition-colors'
                                                             >
                                                                 <FaStickyNote className='h-4 w-4 text-yellow-400' />
                                                                 <span className='flex-1 truncate text-sm'>
@@ -623,7 +623,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                 disabled={sortedConcepts.length <= 1}
                                                 className={`flex items-center gap-2 rounded-lg px-3 py-2 font-medium transition-colors sm:px-4 sm:py-3 ${
                                                     sortedConcepts.length > 1
-                                                        ? 'bg-primary/10 hover:bg-primary/20 text-primary'
+                                                        ? 'bg-primary/10 hover:bg-primary/20 text-primary cursor-pointer'
                                                         : 'text-primary/30 bg-primary/5 cursor-not-allowed'
                                                 }`}
                                                 aria-label='Previous concept'
@@ -641,7 +641,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                         {/* Close Button */}
                                         <button
                                             onClick={onClose}
-                                            className='bg-primary/10 hover:bg-primary/20 text-primary flex flex-1 items-center justify-center gap-2 rounded-lg px-4 py-2 font-medium transition-colors sm:px-6 sm:py-3'
+                                            className='bg-primary/10 hover:bg-primary/20 text-primary flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-lg px-4 py-2 font-medium transition-colors sm:px-6 sm:py-3'
                                         >
                                             Close
                                         </button>
@@ -652,7 +652,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                             disabled={!nextConcept}
                                             className={`flex items-center gap-2 rounded-lg px-3 py-2 font-medium transition-colors sm:px-4 sm:py-3 ${
                                                 nextConcept
-                                                    ? 'bg-primary/10 hover:bg-primary/20 text-primary'
+                                                    ? 'bg-primary/10 hover:bg-primary/20 text-primary cursor-pointer'
                                                     : 'text-primary/30 bg-primary/5 cursor-not-allowed'
                                             }`}
                                             aria-label='Next concept'

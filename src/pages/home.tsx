@@ -428,7 +428,7 @@ const HomePage: React.FC = () => {
                             <AnimatedStat delay={0.2}>
                                 <Link
                                     to='/unexplored'
-                                    className='group block text-center transition-transform hover:scale-105'
+                                    className='group block cursor-pointer text-center transition-transform hover:scale-105'
                                 >
                                     <AnimatedCounter
                                         value={totalConcepts - exploredCount}
@@ -443,7 +443,7 @@ const HomePage: React.FC = () => {
                             <AnimatedStat delay={0.3}>
                                 <Link
                                     to='/featured'
-                                    className='group block text-center transition-transform hover:scale-105'
+                                    className='group block cursor-pointer text-center transition-transform hover:scale-105'
                                 >
                                     <AnimatedCounter
                                         value={featuredConcepts}
@@ -458,7 +458,7 @@ const HomePage: React.FC = () => {
                             <AnimatedStat delay={0.4}>
                                 <Link
                                     to='/categories'
-                                    className='group block text-center transition-transform hover:scale-105'
+                                    className='group block cursor-pointer text-center transition-transform hover:scale-105'
                                 >
                                     <AnimatedCounter
                                         value={categoriesCount}
@@ -567,7 +567,7 @@ const HomePage: React.FC = () => {
                             href='https://www.dsebastien.net'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='bg-secondary hover:bg-secondary/90 flex items-center gap-2 rounded-lg px-4 py-2 text-white transition-colors'
+                            className='bg-secondary hover:bg-secondary/90 flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 text-white transition-colors'
                         >
                             <img
                                 src='/assets/images/developassion-logo.png'
@@ -580,7 +580,7 @@ const HomePage: React.FC = () => {
                             href='https://www.youtube.com/@dsebastien'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='flex items-center gap-2 rounded-lg bg-red-500/20 px-4 py-2 text-red-400 transition-colors hover:bg-red-500/30'
+                            className='flex cursor-pointer items-center gap-2 rounded-lg bg-red-500/20 px-4 py-2 text-red-400 transition-colors hover:bg-red-500/30'
                         >
                             <FaYoutube className='h-5 w-5' />
                             YouTube
@@ -589,7 +589,7 @@ const HomePage: React.FC = () => {
                             href='https://www.dsebastien.net/newsletter/'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='flex items-center gap-2 rounded-lg bg-amber-500/20 px-4 py-2 text-amber-400 transition-colors hover:bg-amber-500/30'
+                            className='flex cursor-pointer items-center gap-2 rounded-lg bg-amber-500/20 px-4 py-2 text-amber-400 transition-colors hover:bg-amber-500/30'
                         >
                             <FaEnvelope className='h-5 w-5' />
                             Newsletter
@@ -601,7 +601,7 @@ const HomePage: React.FC = () => {
                             href='https://github.com/dsebastien'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='bg-primary/10 hover:bg-primary/20 flex items-center gap-2 rounded-lg px-4 py-2 transition-colors'
+                            className='bg-primary/10 hover:bg-primary/20 flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 transition-colors'
                         >
                             <FaGithub className='h-5 w-5' />
                             GitHub
@@ -610,7 +610,7 @@ const HomePage: React.FC = () => {
                             href='https://x.com/dsebastien'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='bg-primary/10 hover:bg-primary/20 flex items-center gap-2 rounded-lg px-4 py-2 transition-colors'
+                            className='bg-primary/10 hover:bg-primary/20 flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 transition-colors'
                         >
                             <FaXTwitter className='h-5 w-5' />X
                         </a>
@@ -618,7 +618,7 @@ const HomePage: React.FC = () => {
                             href='https://www.linkedin.com/in/sebastiend'
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='bg-primary/10 hover:bg-primary/20 flex items-center gap-2 rounded-lg px-4 py-2 transition-colors'
+                            className='bg-primary/10 hover:bg-primary/20 flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 transition-colors'
                         >
                             <FaLinkedin className='h-5 w-5' />
                             LinkedIn

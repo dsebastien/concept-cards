@@ -131,7 +131,7 @@ const Header: React.FC = () => {
                         <div className='flex items-center'>
                             <Link
                                 to='/'
-                                className='flex items-center gap-3 transition-transform hover:scale-105 active:scale-95 sm:gap-4'
+                                className='flex cursor-pointer items-center gap-3 transition-transform hover:scale-105 active:scale-95 sm:gap-4'
                             >
                                 <div className='relative'>
                                     <div className='bg-secondary/20 absolute inset-0 rounded-full blur-md'></div>
@@ -152,7 +152,7 @@ const Header: React.FC = () => {
                                 <Link
                                     key={link.to}
                                     to={link.to}
-                                    className={`flex items-center gap-2 rounded-lg p-2 transition-colors sm:px-3 sm:py-2 xl:px-4 ${link.color}`}
+                                    className={`flex cursor-pointer items-center gap-2 rounded-lg p-2 transition-colors sm:px-3 sm:py-2 xl:px-4 ${link.color}`}
                                     title={link.label}
                                 >
                                     {link.icon}
@@ -165,7 +165,7 @@ const Header: React.FC = () => {
                                 href='https://www.dsebastien.net'
                                 target='_blank'
                                 rel='noopener noreferrer'
-                                className='bg-primary/10 hover:bg-primary/20 flex items-center gap-2 rounded-lg p-2 transition-colors sm:px-3 sm:py-2 xl:px-4'
+                                className='bg-primary/10 hover:bg-primary/20 flex cursor-pointer items-center gap-2 rounded-lg p-2 transition-colors sm:px-3 sm:py-2 xl:px-4'
                                 title='DeveloPassion Website'
                             >
                                 <img
@@ -179,7 +179,7 @@ const Header: React.FC = () => {
                             {/* Hamburger Menu Button - always visible */}
                             <button
                                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                                className='bg-primary/10 hover:bg-primary/20 flex h-10 w-10 items-center justify-center rounded-lg transition-colors'
+                                className='bg-primary/10 hover:bg-primary/20 flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg transition-colors'
                                 aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
                                 aria-expanded={isMenuOpen}
                             >
@@ -206,7 +206,7 @@ const Header: React.FC = () => {
                 <div className='flex justify-end p-4 sm:p-6' onClick={(e) => e.stopPropagation()}>
                     <button
                         onClick={() => setIsMenuOpen(false)}
-                        className='bg-primary/10 hover:bg-primary/20 flex h-10 w-10 items-center justify-center rounded-lg transition-colors'
+                        className='bg-primary/10 hover:bg-primary/20 flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg transition-colors'
                         aria-label='Close menu'
                     >
                         <FaTimes className='h-5 w-5' />
@@ -223,7 +223,7 @@ const Header: React.FC = () => {
                             <Link
                                 key={link.to}
                                 to={link.to}
-                                className={`flex flex-col items-center justify-center gap-2 rounded-xl p-4 text-center transition-all hover:scale-105 sm:gap-3 sm:p-6 md:p-5 lg:p-8 ${link.color}`}
+                                className={`flex cursor-pointer flex-col items-center justify-center gap-2 rounded-xl p-4 text-center transition-all hover:scale-105 sm:gap-3 sm:p-6 md:p-5 lg:p-8 ${link.color}`}
                             >
                                 <span className='text-2xl sm:text-3xl md:text-3xl lg:text-4xl'>
                                     {link.icon}

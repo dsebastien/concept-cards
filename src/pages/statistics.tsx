@@ -242,7 +242,7 @@ const StatisticsPage: React.FC = () => {
                 <AnimatedHero className='mx-auto max-w-4xl'>
                     <Link
                         to='/'
-                        className='text-primary/70 hover:text-secondary mb-6 inline-flex items-center gap-2 text-sm transition-colors'
+                        className='text-primary/70 hover:text-secondary mb-6 inline-flex cursor-pointer items-center gap-2 text-sm transition-colors'
                     >
                         <FaArrowLeft className='h-3 w-3' />
                         Back to Concepts
@@ -756,7 +756,7 @@ const StatisticsPage: React.FC = () => {
                                     <Link
                                         key={tag.name}
                                         to={`/tag/${encodeURIComponent(tag.name)}`}
-                                        className='hover:bg-secondary/20 hover:border-secondary/40 rounded-full border border-white/10 bg-white/5 px-3 py-1 transition-colors'
+                                        className='hover:bg-secondary/20 hover:border-secondary/40 cursor-pointer rounded-full border border-white/10 bg-white/5 px-3 py-1 transition-colors'
                                         style={{
                                             fontSize: `${size}rem`,
                                             opacity

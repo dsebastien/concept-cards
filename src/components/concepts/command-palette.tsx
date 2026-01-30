@@ -207,7 +207,7 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({
                     />
                     <button
                         onClick={onClose}
-                        className='text-primary/40 hover:text-primary rounded p-1 transition-colors'
+                        className='text-primary/40 hover:text-primary cursor-pointer rounded p-1 transition-colors'
                         aria-label='Close command palette'
                     >
                         <FaTimes className='h-4 w-4' />
