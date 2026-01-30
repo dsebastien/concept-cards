@@ -1,3 +1,8 @@
+## [10.9.0](https://github.com/dsebastien/concept-cards/compare/10.8.2...10.9.0) (2026-01-30)
+
+### Features
+
+* **all:** added version inference ([03dd882](https://github.com/dsebastien/concept-cards/commit/03dd88277af049712c81614d349dc9ce1bbc1b92))
 ## [10.8.2](https://github.com/dsebastien/concept-cards/compare/10.8.1...10.8.2) (2026-01-30)
 
 ### Features
