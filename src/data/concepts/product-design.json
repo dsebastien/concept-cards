@@ -1,55 +1,55 @@
 {
-  "id": "product-design",
-  "name": "Product Design",
-  "summary": "The process of imagining, creating, and iterating products that solve users' problems while balancing desirability, viability, and feasibility.",
-  "explanation": "Product Design is the discipline of creating products that address specific user needs in a given market. In the digital context, product designers combine user experience, interaction design, visual design, and business strategy to create software products. The discipline evolved from industrial design and has been shaped by influential figures like Dieter Rams, whose ten principles of good design remain foundational.\n\nModern product design is holistic, spanning user research, strategy, prototyping, visual design, and engineering collaboration. Product designers own the end-to-end experience rather than specializing in one layer. The field emphasizes solving real problems, measuring outcomes, and iterating based on data.\n\nKey methodologies include design thinking (popularized by IDEO and Stanford d.school), lean UX, and jobs-to-be-done theory. The best product design balances three dimensions: desirability (user needs), viability (business goals), and feasibility (technical possibility). This intersection represents the sweet spot where great products emerge.\n\nThe product design process typically follows phases: Discover (user research, competitive analysis), Define (problem framing, success metrics), Ideate (sketching, brainstorming), Prototype (interactive mockups), Test (usability testing), Ship (engineering handoff), and Measure (analytics and feedback for iteration).\n\nProduct designers require a broad skill set including research methods, strategic thinking, interaction and visual design, systems thinking, communication, and technical understanding. They work closely with product managers, engineers, and stakeholders to deliver products that create value for both users and businesses.",
-  "tags": [
-    "design",
-    "product-development",
-    "user-experience",
-    "prototyping",
-    "user-research"
-  ],
-  "category": "Software Development",
-  "icon": "FaLayerGroup",
-  "featured": false,
-  "aliases": [
-    "Product Designer",
-    "Digital Product Design"
-  ],
-  "relatedConcepts": [
-    "ux-design",
-    "design-thinking",
-    "usability",
-    "design-systems",
-    "jobs-to-be-done"
-  ],
-  "relatedNotes": [
-    "https://notes.dsebastien.net/33+Areas/33+Permanent+notes/33.02+Content/Product+Design"
-  ],
-  "articles": [],
-  "books": [
-    {
-      "title": "Change by Design by Tim Brown",
-      "url": "https://www.amazon.com/dp/0061766089?tag=dsebastien00-20"
-    },
-    {
-      "title": "Less but Better by Dieter Rams",
-      "url": "https://www.amazon.com/dp/3899555252?tag=dsebastien00-20"
-    },
-    {
-      "title": "The Making of a Manager by Julie Zhuo",
-      "url": "https://www.amazon.com/dp/0735219567?tag=dsebastien00-20"
-    }
-  ],
-  "references": [
-    {
-      "title": "Product design - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Product_design",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-28",
-  "dateModified": "2026-01-28"
+    "id": "product-design",
+    "name": "Product Design",
+    "summary": "The process of imagining, creating, and iterating products that solve users' problems while balancing desirability, viability, and feasibility.",
+    "explanation": "Product Design is the discipline of creating products that address specific user needs in a given market. In the digital context, product designers combine user experience, interaction design, visual design, and business strategy to create software products. The discipline evolved from industrial design and has been shaped by influential figures like Dieter Rams, whose ten principles of good design remain foundational.\n\nModern product design is holistic, spanning user research, strategy, prototyping, visual design, and engineering collaboration. Product designers own the end-to-end experience rather than specializing in one layer. The field emphasizes solving real problems, measuring outcomes, and iterating based on data.\n\nKey methodologies include design thinking (popularized by IDEO and Stanford d.school), lean UX, and jobs-to-be-done theory. The best product design balances three dimensions: desirability (user needs), viability (business goals), and feasibility (technical possibility). This intersection represents the sweet spot where great products emerge.\n\nThe product design process typically follows phases: Discover (user research, competitive analysis), Define (problem framing, success metrics), Ideate (sketching, brainstorming), Prototype (interactive mockups), Test (usability testing), Ship (engineering handoff), and Measure (analytics and feedback for iteration).\n\nProduct designers require a broad skill set including research methods, strategic thinking, interaction and visual design, systems thinking, communication, and technical understanding. They work closely with product managers, engineers, and stakeholders to deliver products that create value for both users and businesses.",
+    "tags": [
+        "design",
+        "product-development",
+        "user-experience",
+        "prototyping",
+        "user-research"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Product Designer",
+        "Digital Product Design"
+    ],
+    "relatedConcepts": [
+        "ux-design",
+        "design-thinking",
+        "usability",
+        "design-systems",
+        "jobs-to-be-done"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/33+Areas/33+Permanent+notes/33.02+Content/Product+Design"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Change by Design by Tim Brown",
+            "url": "https://www.amazon.com/dp/0061766089?tag=dsebastien00-20"
+        },
+        {
+            "title": "Less but Better by Dieter Rams",
+            "url": "https://www.amazon.com/dp/3899555252?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Making of a Manager by Julie Zhuo",
+            "url": "https://www.amazon.com/dp/0735219567?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Product design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Product_design",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-29"
 }

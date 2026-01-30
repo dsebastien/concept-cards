@@ -1,46 +1,46 @@
 {
-  "id": "requirements-elicitation",
-  "name": "Requirements Elicitation",
-  "summary": "The process of gathering and discovering requirements from stakeholders through interviews, workshops, observation, and other techniques.",
-  "explanation": "Requirements elicitation is the foundational activity in requirements engineering focused on discovering, extracting, and gathering requirements from stakeholders and other sources. It involves understanding what stakeholders need, want, and expect from a system, even when they struggle to articulate these needs clearly.\n\nMultiple techniques support effective elicitation. Interviews provide one-on-one conversations to explore individual perspectives and deep domain knowledge. Workshops bring multiple stakeholders together to build shared understanding and resolve conflicts. Observation and ethnography reveal actual work practices that stakeholders may not consciously recognize. Document analysis examines existing systems, processes, and artifacts. Prototyping and mockups help stakeholders visualize and react to potential solutions. Questionnaires and surveys gather input from large groups efficiently.\n\nEffective elicitation faces several challenges. Stakeholders may have tacit knowledge they cannot easily express. Different stakeholders have conflicting needs and priorities. Business contexts change during the elicitation process. Technical constraints may not be apparent to business stakeholders. Political dynamics can influence what people are willing to share.\n\nSkilled elicitors employ various strategies to address these challenges: asking open-ended questions, using concrete examples and scenarios, validating understanding through paraphrasing, exploring edge cases and exceptions, and separating stated requirements from underlying needs.\n\nIn the context of AI-assisted development, thorough requirements elicitation becomes even more valuable. The quality of input directly affects AI output quality. Well-elicited requirements translate into precise prompts and specifications that enable AI tools to generate relevant, accurate code and solutions. Investing time in elicitation upfront dramatically improves the effectiveness of AI-assisted implementation.",
-  "tags": [
-    "software-engineering",
-    "requirements",
-    "communications",
-    "processes"
-  ],
-  "category": "Software Development",
-  "icon": "FaCompass",
-  "featured": false,
-  "aliases": [
-    "Requirements Gathering",
-    "Requirements Discovery"
-  ],
-  "relatedConcepts": [
-    "requirements-engineering",
-    "software-requirements-specification",
-    "product-requirements-document",
-    "use-cases",
-    "user-stories",
-    "business-analysis",
-    "software-analysis"
-  ],
-  "relatedNotes": [],
-  "references": [
-    {
-      "title": "Requirements elicitation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Requirements_elicitation",
-      "type": "website"
-    }
-  ],
-  "articles": [],
-  "books": [
-    {
-      "title": "Software Requirements by Karl Wiegers",
-      "url": "https://www.amazon.com/dp/0735679665?tag=dsebastien00-20"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-16",
-  "dateModified": "2026-01-16"
+    "id": "requirements-elicitation",
+    "name": "Requirements Elicitation",
+    "summary": "The process of gathering and discovering requirements from stakeholders through interviews, workshops, observation, and other techniques.",
+    "explanation": "Requirements elicitation is the foundational activity in requirements engineering focused on discovering, extracting, and gathering requirements from stakeholders and other sources. It involves understanding what stakeholders need, want, and expect from a system, even when they struggle to articulate these needs clearly.\n\nMultiple techniques support effective elicitation. Interviews provide one-on-one conversations to explore individual perspectives and deep domain knowledge. Workshops bring multiple stakeholders together to build shared understanding and resolve conflicts. Observation and ethnography reveal actual work practices that stakeholders may not consciously recognize. Document analysis examines existing systems, processes, and artifacts. Prototyping and mockups help stakeholders visualize and react to potential solutions. Questionnaires and surveys gather input from large groups efficiently.\n\nEffective elicitation faces several challenges. Stakeholders may have tacit knowledge they cannot easily express. Different stakeholders have conflicting needs and priorities. Business contexts change during the elicitation process. Technical constraints may not be apparent to business stakeholders. Political dynamics can influence what people are willing to share.\n\nSkilled elicitors employ various strategies to address these challenges: asking open-ended questions, using concrete examples and scenarios, validating understanding through paraphrasing, exploring edge cases and exceptions, and separating stated requirements from underlying needs.\n\nIn the context of AI-assisted development, thorough requirements elicitation becomes even more valuable. The quality of input directly affects AI output quality. Well-elicited requirements translate into precise prompts and specifications that enable AI tools to generate relevant, accurate code and solutions. Investing time in elicitation upfront dramatically improves the effectiveness of AI-assisted implementation.",
+    "tags": [
+        "software-engineering",
+        "requirements",
+        "communications",
+        "processes"
+    ],
+    "category": "Software Development",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Requirements Gathering",
+        "Requirements Discovery"
+    ],
+    "relatedConcepts": [
+        "requirements-engineering",
+        "software-requirements-specification",
+        "product-requirements-document",
+        "use-cases",
+        "user-stories",
+        "business-analysis",
+        "software-analysis"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Requirements elicitation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Requirements_elicitation",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Requirements by Karl Wiegers",
+            "url": "https://www.amazon.com/dp/0735679665?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-29"
 }

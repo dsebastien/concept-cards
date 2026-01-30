@@ -1,45 +1,45 @@
 {
-  "id": "learnability",
-  "name": "Learnability",
-  "summary": "A usability attribute that measures how easily new users can accomplish basic tasks the first time they encounter an interface.",
-  "explanation": "Learnability is one of the five key usability components identified by Jakob Nielsen, alongside efficiency, memorability, errors, and satisfaction. High learnability means users can quickly become productive without extensive training or documentation, making it a critical factor for consumer products and applications with infrequent users.\n\nLearnability often trades off against efficiency for expert users. An interface optimized for first-time users (simple, explicit, guided) may feel slow and tedious for power users who want shortcuts and density. Designers must balance these needs based on their user population.\n\nInterfaces with good learnability typically use familiar patterns, clear affordances, progressive disclosure, and helpful feedback. Key factors affecting learnability include consistency, visual affordances that suggest actions, immediate feedback confirming actions, constraints that limit confusion, meaningful defaults, and recognition over recall.\n\nCommon design patterns that improve learnability include onboarding flows, tooltips, helpful empty states, coach marks, contextual help, undo functionality (which encourages exploration), and step-by-step wizards for complex tasks.\n\nLearnability can be measured through metrics such as time to first task completion, initial error rate, tasks completed without help, learning curve slope, and System Usability Scale (SUS) scores.",
-  "tags": [
-    "usability",
-    "user-experience",
-    "design",
-    "human-computer-interaction"
-  ],
-  "category": "Software Development",
-  "featured": false,
-  "aliases": [
-    "Ease of Learning",
-    "Learning Curve"
-  ],
-  "relatedConcepts": [
-    "usability",
-    "progressive-disclosure"
-  ],
-  "relatedNotes": [
-    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Learnability"
-  ],
-  "references": [
-    {
-      "title": "Learnability - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Learnability",
-      "type": "website"
-    },
-    {
-      "title": "Usability 101: Introduction to Usability - Nielsen Norman Group",
-      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
-      "type": "website"
-    }
-  ],
-  "books": [
-    {
-      "title": "Usability Engineering by Jakob Nielsen",
-      "url": "https://www.amazon.com/dp/0125184069?tag=dsebastien00-20"
-    }
-  ],
-  "datePublished": "2026-01-28",
-  "dateModified": "2026-01-28"
+    "id": "learnability",
+    "name": "Learnability",
+    "summary": "A usability attribute that measures how easily new users can accomplish basic tasks the first time they encounter an interface.",
+    "explanation": "Learnability is one of the five key usability components identified by Jakob Nielsen, alongside efficiency, memorability, errors, and satisfaction. High learnability means users can quickly become productive without extensive training or documentation, making it a critical factor for consumer products and applications with infrequent users.\n\nLearnability often trades off against efficiency for expert users. An interface optimized for first-time users (simple, explicit, guided) may feel slow and tedious for power users who want shortcuts and density. Designers must balance these needs based on their user population.\n\nInterfaces with good learnability typically use familiar patterns, clear affordances, progressive disclosure, and helpful feedback. Key factors affecting learnability include consistency, visual affordances that suggest actions, immediate feedback confirming actions, constraints that limit confusion, meaningful defaults, and recognition over recall.\n\nCommon design patterns that improve learnability include onboarding flows, tooltips, helpful empty states, coach marks, contextual help, undo functionality (which encourages exploration), and step-by-step wizards for complex tasks.\n\nLearnability can be measured through metrics such as time to first task completion, initial error rate, tasks completed without help, learning curve slope, and System Usability Scale (SUS) scores.",
+    "tags": [
+        "usability",
+        "user-experience",
+        "design",
+        "human-computer-interaction"
+    ],
+    "category": "Software Development",
+    "featured": false,
+    "aliases": [
+        "Ease of Learning",
+        "Learning Curve"
+    ],
+    "relatedConcepts": [
+        "usability",
+        "progressive-disclosure"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Learnability"
+    ],
+    "references": [
+        {
+            "title": "Learnability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Learnability",
+            "type": "website"
+        },
+        {
+            "title": "Usability 101: Introduction to Usability - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Usability Engineering by Jakob Nielsen",
+            "url": "https://www.amazon.com/dp/0125184069?tag=dsebastien00-20"
+        }
+    ],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-29"
 }

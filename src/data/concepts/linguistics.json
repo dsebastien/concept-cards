@@ -1,50 +1,50 @@
 {
-  "id": "linguistics",
-  "name": "Linguistics",
-  "summary": "The scientific study of language, examining its structure, meaning, use, acquisition, and change over time.",
-  "explanation": "Linguistics is the scientific study of language, encompassing how sounds combine into words (phonology), how words are formed (morphology), how words combine into sentences (syntax), and how meaning is constructed (semantics and pragmatics). Modern linguistics was revolutionized by Noam Chomsky's 1957 work proposing that humans have an innate capacity for language, transforming it into a cognitive science.\n\nThe field operates at multiple levels of analysis: phonetics examines the physical sounds of speech, phonology studies sound systems and patterns, morphology investigates word structure, syntax analyzes sentence structure, semantics explores meaning, and pragmatics examines meaning in context. Additional subfields include sociolinguistics (language and society), psycholinguistics (language and mind), historical linguistics (language change over time), and computational linguistics (NLP and language technology).\n\nLinguistics encompasses both theoretical inquiry into the nature of language and applied work in language teaching, translation systems, speech therapy, and AI. Key concepts include Universal Grammar (the innate language capacity proposed by Chomsky), recursion (embedding structures within structures), the distinction between competence and performance, and linguistic relativity (the Sapir-Whorf hypothesis that language influences thought). The field intersects with psychology, computer science, neuroscience, anthropology, and philosophy, making it essential for understanding human cognition and building language technologies.",
-  "tags": [
-    "languages",
-    "science",
-    "communications",
-    "cognitive-science",
-    "phonology",
-    "syntax",
-    "semantics"
-  ],
-  "category": "Psychology & Mental Models",
-  "icon": "FaLanguage",
-  "featured": false,
-  "aliases": [
-    "Linguistic Science",
-    "Language Science"
-  ],
-  "relatedConcepts": [
-    "natural-language-processing",
-    "cognitive-science"
-  ],
-  "relatedNotes": [
-    "https://notes.dsebastien.net/33+Areas/33+Permanent+notes/33.02+Content/Linguistics"
-  ],
-  "articles": [],
-  "books": [
-    {
-      "title": "Syntactic Structures by Noam Chomsky",
-      "url": "https://www.amazon.com/dp/1614278040?tag=dsebastien00-20"
-    },
-    {
-      "title": "The Language Instinct by Steven Pinker",
-      "url": "https://www.amazon.com/dp/0061336467?tag=dsebastien00-20"
-    }
-  ],
-  "references": [
-    {
-      "title": "Linguistics - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Linguistics",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-28",
-  "dateModified": "2026-01-28"
+    "id": "linguistics",
+    "name": "Linguistics",
+    "summary": "The scientific study of language, examining its structure, meaning, use, acquisition, and change over time.",
+    "explanation": "Linguistics is the scientific study of language, encompassing how sounds combine into words (phonology), how words are formed (morphology), how words combine into sentences (syntax), and how meaning is constructed (semantics and pragmatics). Modern linguistics was revolutionized by Noam Chomsky's 1957 work proposing that humans have an innate capacity for language, transforming it into a cognitive science.\n\nThe field operates at multiple levels of analysis: phonetics examines the physical sounds of speech, phonology studies sound systems and patterns, morphology investigates word structure, syntax analyzes sentence structure, semantics explores meaning, and pragmatics examines meaning in context. Additional subfields include sociolinguistics (language and society), psycholinguistics (language and mind), historical linguistics (language change over time), and computational linguistics (NLP and language technology).\n\nLinguistics encompasses both theoretical inquiry into the nature of language and applied work in language teaching, translation systems, speech therapy, and AI. Key concepts include Universal Grammar (the innate language capacity proposed by Chomsky), recursion (embedding structures within structures), the distinction between competence and performance, and linguistic relativity (the Sapir-Whorf hypothesis that language influences thought). The field intersects with psychology, computer science, neuroscience, anthropology, and philosophy, making it essential for understanding human cognition and building language technologies.",
+    "tags": [
+        "languages",
+        "science",
+        "communications",
+        "cognitive-science",
+        "phonology",
+        "syntax",
+        "semantics"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaLanguage",
+    "featured": false,
+    "aliases": [
+        "Linguistic Science",
+        "Language Science"
+    ],
+    "relatedConcepts": [
+        "natural-language-processing",
+        "cognitive-science"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/33+Areas/33+Permanent+notes/33.02+Content/Linguistics"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Syntactic Structures by Noam Chomsky",
+            "url": "https://www.amazon.com/dp/1614278040?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Language Instinct by Steven Pinker",
+            "url": "https://www.amazon.com/dp/0061336467?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Linguistics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Linguistics",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-29"
 }

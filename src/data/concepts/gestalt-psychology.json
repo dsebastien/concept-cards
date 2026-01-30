@@ -1,43 +1,43 @@
 {
-  "id": "gestalt-psychology",
-  "name": "Gestalt Psychology",
-  "summary": "A psychological approach emphasizing that humans perceive whole patterns and configurations rather than individual components, summarized by the principle that the whole is greater than the sum of its parts.",
-  "explanation": "Gestalt psychology is a school of thought that emerged in early 20th century Germany, founded by Max Wertheimer, Wolfgang Kohler, and Kurt Koffka. The German word 'Gestalt' means 'form' or 'shape,' reflecting the theory's core insight: human perception naturally organizes sensory information into coherent wholes rather than processing isolated elements.\n\nThe fundamental principle of Gestalt psychology is that the whole is different from (and greater than) the sum of its parts. When you look at a forest, you see a forest first, not individual trees. When you hear a melody, you perceive the tune as a unified experience, not a series of disconnected notes. This holistic processing happens automatically and unconsciously.\n\n**Core Gestalt Principles of Perception**:\n\n**1. Proximity**\nElements that are close together are perceived as belonging to the same group. Dots arranged in clusters appear as distinct groups rather than random dots.\n\n**2. Similarity**\nElements that share visual characteristics (color, shape, size, texture) are perceived as related. In a field of circles and squares, you automatically group the circles together and squares together.\n\n**3. Closure**\nThe mind tends to complete incomplete shapes, filling in gaps to perceive whole objects. A circle with a small gap is still seen as a circle, not an arc.\n\n**4. Continuity**\nElements arranged in a line or curve are perceived as related. The eye follows the smoothest path, grouping elements along continuous lines.\n\n**5. Figure-Ground**\nThe brain distinguishes objects (figures) from their background (ground). The classic example is the vase/faces illusion, where you either see a vase or two faces depending on what you perceive as figure versus ground.\n\n**6. Common Fate**\nElements moving in the same direction are perceived as grouped together. Birds flying in formation are seen as a flock, not individual birds.\n\n**7. Pragnanz (Good Form)**\nThe mind prefers the simplest, most stable interpretation of visual information. Ambiguous images are resolved toward regular, orderly patterns.\n\n**Applications in Design**:\n\nGestalt principles are foundational to visual design, user interface design, and user experience:\n\n- **Layout**: Using proximity to group related content and create visual hierarchy\n- **Navigation**: Applying similarity so users recognize clickable elements\n- **Icons**: Leveraging closure so simplified icons remain recognizable\n- **Data visualization**: Using common fate to show trends and relationships\n\n**Beyond Visual Perception**:\n\nWhile Gestalt psychology began with visual perception, its principles extend to other domains:\n\n- **Problem-solving**: Gestalt psychologists studied insight learning, where solutions emerge suddenly as a complete understanding rather than through trial and error\n- **Music perception**: We hear melodies as wholes, not individual notes\n- **Social psychology**: We form impressions of people as integrated wholes\n\nGestalt psychology challenged the reductionist approach of analyzing experience into basic elements. Its legacy lives on in modern cognitive psychology, design practice, and our understanding of how the brain actively constructs meaningful perception from sensory input.",
-  "tags": [
-    "psychology",
-    "perception",
-    "design",
-    "user-experience",
-    "cognitive-science"
-  ],
-  "category": "Psychology & Mental Models",
-  "icon": "FaBrain",
-  "featured": false,
-  "aliases": [
-    "Gestalt Theory",
-    "Gestalt Principles",
-    "Gestalt Laws",
-    "Laws of Perceptual Organization"
-  ],
-  "relatedConcepts": [
-    "affordances",
-    "cognitive-load",
-    "mental-models",
-    "apophenia"
-  ],
-  "relatedNotes": [
-    "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Gestalt+Psychology"
-  ],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Gestalt psychology - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gestalt_psychology",
-      "type": "website"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-28",
-  "dateModified": "2026-01-28"
+    "id": "gestalt-psychology",
+    "name": "Gestalt Psychology",
+    "summary": "A psychological approach emphasizing that humans perceive whole patterns and configurations rather than individual components, summarized by the principle that the whole is greater than the sum of its parts.",
+    "explanation": "Gestalt psychology is a school of thought that emerged in early 20th century Germany, founded by Max Wertheimer, Wolfgang Kohler, and Kurt Koffka. The German word 'Gestalt' means 'form' or 'shape,' reflecting the theory's core insight: human perception naturally organizes sensory information into coherent wholes rather than processing isolated elements.\n\nThe fundamental principle of Gestalt psychology is that the whole is different from (and greater than) the sum of its parts. When you look at a forest, you see a forest first, not individual trees. When you hear a melody, you perceive the tune as a unified experience, not a series of disconnected notes. This holistic processing happens automatically and unconsciously.\n\n**Core Gestalt Principles of Perception**:\n\n**1. Proximity**\nElements that are close together are perceived as belonging to the same group. Dots arranged in clusters appear as distinct groups rather than random dots.\n\n**2. Similarity**\nElements that share visual characteristics (color, shape, size, texture) are perceived as related. In a field of circles and squares, you automatically group the circles together and squares together.\n\n**3. Closure**\nThe mind tends to complete incomplete shapes, filling in gaps to perceive whole objects. A circle with a small gap is still seen as a circle, not an arc.\n\n**4. Continuity**\nElements arranged in a line or curve are perceived as related. The eye follows the smoothest path, grouping elements along continuous lines.\n\n**5. Figure-Ground**\nThe brain distinguishes objects (figures) from their background (ground). The classic example is the vase/faces illusion, where you either see a vase or two faces depending on what you perceive as figure versus ground.\n\n**6. Common Fate**\nElements moving in the same direction are perceived as grouped together. Birds flying in formation are seen as a flock, not individual birds.\n\n**7. Pragnanz (Good Form)**\nThe mind prefers the simplest, most stable interpretation of visual information. Ambiguous images are resolved toward regular, orderly patterns.\n\n**Applications in Design**:\n\nGestalt principles are foundational to visual design, user interface design, and user experience:\n\n- **Layout**: Using proximity to group related content and create visual hierarchy\n- **Navigation**: Applying similarity so users recognize clickable elements\n- **Icons**: Leveraging closure so simplified icons remain recognizable\n- **Data visualization**: Using common fate to show trends and relationships\n\n**Beyond Visual Perception**:\n\nWhile Gestalt psychology began with visual perception, its principles extend to other domains:\n\n- **Problem-solving**: Gestalt psychologists studied insight learning, where solutions emerge suddenly as a complete understanding rather than through trial and error\n- **Music perception**: We hear melodies as wholes, not individual notes\n- **Social psychology**: We form impressions of people as integrated wholes\n\nGestalt psychology challenged the reductionist approach of analyzing experience into basic elements. Its legacy lives on in modern cognitive psychology, design practice, and our understanding of how the brain actively constructs meaningful perception from sensory input.",
+    "tags": [
+        "psychology",
+        "perception",
+        "design",
+        "user-experience",
+        "cognitive-science"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Gestalt Theory",
+        "Gestalt Principles",
+        "Gestalt Laws",
+        "Laws of Perceptual Organization"
+    ],
+    "relatedConcepts": [
+        "affordances",
+        "cognitive-load",
+        "mental-models",
+        "apophenia"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Gestalt+Psychology"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Gestalt psychology - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Gestalt_psychology",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-01-29"
 }
