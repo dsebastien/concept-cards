@@ -17,6 +17,7 @@ import {
     FaTag
 } from 'react-icons/fa'
 import type { NavLink } from '@/types/nav-link.intf'
+import ThemeToggle from '@/components/ui/theme-toggle'
 
 // Links that are always visible (even on mobile, as icons)
 const alwaysVisibleLinks: NavLink[] = [
@@ -175,6 +176,9 @@ const Header: React.FC = () => {
                                 />
                                 <span className='hidden xl:inline'>Website</span>
                             </a>
+
+                            {/* Theme Toggle */}
+                            <ThemeToggle />
 
                             {/* Hamburger Menu Button - always visible */}
                             <button
