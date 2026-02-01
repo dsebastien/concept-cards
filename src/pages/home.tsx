@@ -244,6 +244,27 @@ const HomePage: React.FC = () => {
         })
     }, [filteredConcepts])
 
+    // Pagination: show 100 concepts at a time
+    const CONCEPTS_PER_PAGE = 100
+    const [displayLimit, setDisplayLimit] = useState(CONCEPTS_PER_PAGE)
+
+    // Reset display limit when filters change
+    useEffect(() => {
+        setDisplayLimit(CONCEPTS_PER_PAGE)
+    }, [searchQuery, selectedCategory, selectedTags, exploredFilter])
+
+    // Get visible concepts based on current limit
+    const visibleConcepts = useMemo(() => {
+        return sortedConcepts.slice(0, displayLimit)
+    }, [sortedConcepts, displayLimit])
+
+    const hasMoreConcepts = displayLimit < sortedConcepts.length
+    const remainingConcepts = sortedConcepts.length - displayLimit
+
+    const handleShowMore = useCallback(() => {
+        setDisplayLimit((prev) => prev + CONCEPTS_PER_PAGE)
+    }, [])
+
     // Handle keyboard shortcut for command palette
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
@@ -529,19 +550,35 @@ const HomePage: React.FC = () => {
             <Section className='!py-6 md:!pt-0 md:!pb-8 lg:!pt-0 lg:!pb-8 xl:!pt-0 xl:!pb-8'>
                 {/* Results count */}
                 <div className='text-primary/60 mb-6 text-sm md:mb-3'>
-                    Showing {sortedConcepts.length} of {totalConcepts} entries
+                    Showing {visibleConcepts.length} of {sortedConcepts.length} entries
+                    {sortedConcepts.length !== totalConcepts && ` (filtered from ${totalConcepts})`}
                     {searchQuery && ` matching "${searchQuery}"`}
                 </div>
 
                 {/* Concepts Grid/List - Virtualized with window scrolling */}
                 <VirtualizedConceptList
-                    concepts={sortedConcepts}
+                    concepts={visibleConcepts}
                     viewMode={viewMode}
                     onShowDetails={handleShowDetails}
                     onTagClick={handleTagClick}
                     onCategoryClick={handleCategoryClick}
                     isExplored={isExplored}
                 />
+
+                {/* Show More Button */}
+                {hasMoreConcepts && (
+                    <div className='mt-8 flex justify-center'>
+                        <button
+                            onClick={handleShowMore}
+                            className='bg-secondary/20 hover:bg-secondary/30 border-secondary/30 hover:border-secondary/50 cursor-pointer rounded-lg border px-6 py-3 font-medium transition-all hover:scale-105 active:scale-95'
+                        >
+                            Show {Math.min(CONCEPTS_PER_PAGE, remainingConcepts)} more
+                            <span className='text-primary/60 ml-2 text-sm'>
+                                ({remainingConcepts} remaining)
+                            </span>
+                        </button>
+                    </div>
+                )}
             </Section>
 
             {/* About Section */}
