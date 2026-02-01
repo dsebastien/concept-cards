@@ -1,3 +1,8 @@
+## [10.18.0](https://github.com/dsebastien/concept-cards/compare/10.17.0...10.18.0) (2026-02-01)
+
+### Features
+
+* add show more pagination for concepts list ([656d068](https://github.com/dsebastien/concept-cards/commit/656d0686fccd23a220e72b02b6bfd6f5b49aae40))
 ## [10.17.0](https://github.com/dsebastien/concept-cards/compare/10.16.0...10.17.0) (2026-02-01)
 
 ### Features
