@@ -11,8 +11,17 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 const STORAGE_KEY = 'concept-cards-theme'
+const USER_PREFERENCE_KEY = 'concept-cards-theme-user-set'
 
 export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+    // Track whether user has manually set a preference
+    const [isUserPreference, setIsUserPreference] = useState<boolean>(() => {
+        if (typeof window !== 'undefined') {
+            return localStorage.getItem(USER_PREFERENCE_KEY) === 'true'
+        }
+        return false
+    })
+
     const [theme, setThemeState] = useState<Theme>(() => {
         // Check localStorage first
         if (typeof window !== 'undefined') {
@@ -39,21 +48,26 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     useEffect(() => {
         const mediaQuery = window.matchMedia('(prefers-color-scheme: light)')
         const handleChange = (e: MediaQueryListEvent) => {
-            const stored = localStorage.getItem(STORAGE_KEY)
-            // Only auto-switch if user hasn't set a preference
-            if (!stored) {
+            // Only auto-switch if user hasn't manually set a preference
+            if (!isUserPreference) {
                 setThemeState(e.matches ? 'light' : 'dark')
             }
         }
         mediaQuery.addEventListener('change', handleChange)
         return () => mediaQuery.removeEventListener('change', handleChange)
-    }, [])
+    }, [isUserPreference])
 
     const toggleTheme = () => {
+        // Mark that user has manually set a preference
+        setIsUserPreference(true)
+        localStorage.setItem(USER_PREFERENCE_KEY, 'true')
         setThemeState((prev) => (prev === 'dark' ? 'light' : 'dark'))
     }
 
     const setTheme = (newTheme: Theme) => {
+        // Mark that user has manually set a preference
+        setIsUserPreference(true)
+        localStorage.setItem(USER_PREFERENCE_KEY, 'true')
         setThemeState(newTheme)
     }
 
