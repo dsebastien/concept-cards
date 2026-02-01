@@ -153,7 +153,7 @@ const Header: React.FC = () => {
                                 <Link
                                     key={link.to}
                                     to={link.to}
-                                    className={`flex cursor-pointer items-center gap-2 rounded-lg p-2 transition-colors sm:px-3 sm:py-2 xl:px-4 ${link.color}`}
+                                    className={`flex h-10 w-10 cursor-pointer items-center justify-center gap-2 rounded-lg transition-colors xl:w-auto xl:px-4 ${link.color}`}
                                     title={link.label}
                                 >
                                     {link.icon}
@@ -166,7 +166,7 @@ const Header: React.FC = () => {
                                 href='https://www.dsebastien.net'
                                 target='_blank'
                                 rel='noopener noreferrer'
-                                className='bg-primary/10 hover:bg-primary/20 flex cursor-pointer items-center gap-2 rounded-lg p-2 transition-colors sm:px-3 sm:py-2 xl:px-4'
+                                className='bg-primary/10 hover:bg-primary/20 flex h-10 w-10 cursor-pointer items-center justify-center gap-2 rounded-lg transition-colors xl:w-auto xl:px-4'
                                 title='DeveloPassion Website'
                             >
                                 <img
