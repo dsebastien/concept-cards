@@ -1,3 +1,18 @@
+## [10.17.0](https://github.com/dsebastien/concept-cards/compare/10.16.0...10.17.0) (2026-02-01)
+
+### Features
+
+* add light theme and theme switcher with localStorage persistence ([01eb696](https://github.com/dsebastien/concept-cards/commit/01eb696446e12e112576c5c7fe7f0f88f1e05b61))
+
+### Bug Fixes
+
+* **all:** fixed issues ([bdba91b](https://github.com/dsebastien/concept-cards/commit/bdba91bdf133e1c4b4f1248e92703f2965f8cce0))
+* standardize header icon button sizes ([ea3a8c1](https://github.com/dsebastien/concept-cards/commit/ea3a8c1133a0535283fb4b4bfebba3daa979d699))
+* theme listener sync issue and CSS performance ([8dd7186](https://github.com/dsebastien/concept-cards/commit/8dd7186b22904c4f5baf26fba5c8bd5b52ef0496))
+
+### Performance Improvements
+
+* prevent FOUC and optimize theme handling ([e2eda77](https://github.com/dsebastien/concept-cards/commit/e2eda77228c9ae5c7acb3a47a5f28322891aea7c))
 ## [10.16.0](https://github.com/dsebastien/concept-cards/compare/10.15.0...10.16.0) (2026-02-01)
 
 ### Features
