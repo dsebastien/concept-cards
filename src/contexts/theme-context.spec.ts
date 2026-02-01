@@ -1,8 +1,18 @@
-import { describe, expect, test, beforeEach, afterEach, mock, spyOn } from 'bun:test'
+import { describe, expect, test, beforeEach, afterEach, mock } from 'bun:test'
+import { THEME_STORAGE_KEYS } from './theme-context'
+
+describe('THEME_STORAGE_KEYS', () => {
+    test('exports correct theme storage key', () => {
+        expect(THEME_STORAGE_KEYS.THEME).toBe('concept-cards-theme')
+    })
+
+    test('exports correct user preference storage key', () => {
+        expect(THEME_STORAGE_KEYS.USER_PREFERENCE).toBe('concept-cards-theme-user-set')
+    })
+})
 
 describe('ThemeContext (logic tests)', () => {
-    const STORAGE_KEY = 'concept-cards-theme'
-    const USER_PREFERENCE_KEY = 'concept-cards-theme-user-set'
+    const { THEME: STORAGE_KEY, USER_PREFERENCE: USER_PREFERENCE_KEY } = THEME_STORAGE_KEYS
 
     // Mock localStorage
     let mockStorage: Record<string, string>

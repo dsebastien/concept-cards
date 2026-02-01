@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
+import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
 
 type Theme = 'light' | 'dark'
 
@@ -10,14 +10,22 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
-const STORAGE_KEY = 'concept-cards-theme'
-const USER_PREFERENCE_KEY = 'concept-cards-theme-user-set'
+/** Storage keys for theme persistence */
+export const THEME_STORAGE_KEYS = {
+    /** Current theme preference (light/dark) */
+    THEME: 'concept-cards-theme',
+    /** Whether user has manually set a preference (prevents system preference override) */
+    USER_PREFERENCE: 'concept-cards-theme-user-set'
+} as const
 
 export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+    // Track whether this is the initial mount to avoid redundant localStorage writes
+    const isInitialMount = useRef(true)
+
     // Track whether user has manually set a preference
     const [isUserPreference, setIsUserPreference] = useState<boolean>(() => {
         if (typeof window !== 'undefined') {
-            return localStorage.getItem(USER_PREFERENCE_KEY) === 'true'
+            return localStorage.getItem(THEME_STORAGE_KEYS.USER_PREFERENCE) === 'true'
         }
         return false
     })
@@ -25,7 +33,7 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     const [theme, setThemeState] = useState<Theme>(() => {
         // Check localStorage first
         if (typeof window !== 'undefined') {
-            const stored = localStorage.getItem(STORAGE_KEY)
+            const stored = localStorage.getItem(THEME_STORAGE_KEYS.THEME)
             if (stored === 'light' || stored === 'dark') {
                 return stored
             }
@@ -41,7 +49,14 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
         // Apply theme to document
         const root = document.documentElement
         root.setAttribute('data-theme', theme)
-        localStorage.setItem(STORAGE_KEY, theme)
+
+        // Skip localStorage write on initial mount (already set by inline script or previous session)
+        if (isInitialMount.current) {
+            isInitialMount.current = false
+            return
+        }
+
+        localStorage.setItem(THEME_STORAGE_KEYS.THEME, theme)
     }, [theme])
 
     // Listen for system preference changes
@@ -60,14 +75,14 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     const toggleTheme = () => {
         // Mark that user has manually set a preference
         setIsUserPreference(true)
-        localStorage.setItem(USER_PREFERENCE_KEY, 'true')
+        localStorage.setItem(THEME_STORAGE_KEYS.USER_PREFERENCE, 'true')
         setThemeState((prev) => (prev === 'dark' ? 'light' : 'dark'))
     }
 
     const setTheme = (newTheme: Theme) => {
         // Mark that user has manually set a preference
         setIsUserPreference(true)
-        localStorage.setItem(USER_PREFERENCE_KEY, 'true')
+        localStorage.setItem(THEME_STORAGE_KEYS.USER_PREFERENCE, 'true')
         setThemeState(newTheme)
     }
 
