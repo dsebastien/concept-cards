@@ -30,7 +30,7 @@
     --theme-background: #37404c;
     --theme-surface: #424d5c;
     --theme-muted: rgba(255, 255, 255, 0.6);
-    
+
     /* Scrollbar colors */
     --scrollbar-track: rgba(255, 255, 255, 0.05);
     --scrollbar-thumb: rgba(255, 255, 255, 0.2);
@@ -45,7 +45,7 @@
     --theme-background: #f8f9fc;
     --theme-surface: #ffffff;
     --theme-muted: rgba(26, 26, 46, 0.6);
-    
+
     /* Scrollbar colors */
     --scrollbar-track: rgba(0, 0, 0, 0.05);
     --scrollbar-thumb: rgba(0, 0, 0, 0.2);
@@ -58,7 +58,9 @@ body {
     color: var(--color-primary);
     line-height: 1.7;
     letter-spacing: 0.01em;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
 }
 
 a {
@@ -120,7 +122,10 @@ a {
     nav,
     main,
     footer {
-        transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+        transition:
+            background-color 0.3s ease,
+            border-color 0.3s ease,
+            color 0.3s ease;
     }
 }
 
@@ -128,5 +133,9 @@ a {
 .transition-transform,
 .transition-opacity,
 .transition-all {
-    transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
 }

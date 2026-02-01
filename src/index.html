@@ -156,14 +156,17 @@
     <body>
         <!-- Inline theme script to prevent FOUC (Flash of Unstyled Content) -->
         <script>
-            (function() {
-                var THEME_KEY = 'concept-cards-theme';
-                var stored = localStorage.getItem(THEME_KEY);
-                var theme = stored === 'light' || stored === 'dark' 
-                    ? stored 
-                    : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-                document.documentElement.setAttribute('data-theme', theme);
-            })();
+            ;(function () {
+                var THEME_KEY = 'concept-cards-theme'
+                var stored = localStorage.getItem(THEME_KEY)
+                var theme =
+                    stored === 'light' || stored === 'dark'
+                        ? stored
+                        : window.matchMedia('(prefers-color-scheme: light)').matches
+                          ? 'light'
+                          : 'dark'
+                document.documentElement.setAttribute('data-theme', theme)
+            })()
         </script>
         <div id="root"></div>
         <script type="module" src="/main.tsx"></script>
