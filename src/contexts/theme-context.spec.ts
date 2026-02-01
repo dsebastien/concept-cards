@@ -119,7 +119,7 @@ describe('ThemeContext (logic tests)', () => {
                 theme = theme === 'dark' ? 'light' : 'dark'
             }
             toggleTheme()
-            expect(theme).toBe('light')
+            expect(theme as 'light' | 'dark').toBe('light')
         })
 
         test('toggles from light to dark', () => {
@@ -128,7 +128,7 @@ describe('ThemeContext (logic tests)', () => {
                 theme = theme === 'dark' ? 'light' : 'dark'
             }
             toggleTheme()
-            expect(theme).toBe('dark')
+            expect(theme as 'light' | 'dark').toBe('dark')
         })
 
         test('sets user preference flag when toggling', () => {
@@ -150,7 +150,7 @@ describe('ThemeContext (logic tests)', () => {
                 theme = newTheme
             }
             setTheme('light')
-            expect(theme).toBe('light')
+            expect(theme as 'light' | 'dark').toBe('light')
         })
 
         test('sets theme to dark', () => {
@@ -159,16 +159,16 @@ describe('ThemeContext (logic tests)', () => {
                 theme = newTheme
             }
             setTheme('dark')
-            expect(theme).toBe('dark')
+            expect(theme as 'light' | 'dark').toBe('dark')
         })
 
         test('sets user preference flag when setting theme', () => {
             let isUserPreference = false
-            const setTheme = (_newTheme: 'light' | 'dark') => {
+            const setTheme = () => {
                 isUserPreference = true
                 localStorage.setItem(USER_PREFERENCE_KEY, 'true')
             }
-            setTheme('light')
+            setTheme()
             expect(isUserPreference).toBe(true)
             expect(localStorage.getItem(USER_PREFERENCE_KEY)).toBe('true')
         })
@@ -204,7 +204,7 @@ describe('ThemeContext (logic tests)', () => {
             }
 
             handleSystemChange(true) // System changes to light
-            expect(theme).toBe('light') // Should follow system preference
+            expect(theme as 'light' | 'dark').toBe('light') // Should follow system preference
         })
     })
 
@@ -229,15 +229,15 @@ describe('ThemeContext (logic tests)', () => {
             const mockRoot = { dataset: {} as Record<string, string> }
             const setAttribute = (attr: string, value: string) => {
                 if (attr === 'data-theme') {
-                    mockRoot.dataset.theme = value
+                    mockRoot.dataset['theme'] = value
                 }
             }
 
             setAttribute('data-theme', 'light')
-            expect(mockRoot.dataset.theme).toBe('light')
+            expect(mockRoot.dataset['theme']).toBe('light')
 
             setAttribute('data-theme', 'dark')
-            expect(mockRoot.dataset.theme).toBe('dark')
+            expect(mockRoot.dataset['theme']).toBe('dark')
         })
     })
 })

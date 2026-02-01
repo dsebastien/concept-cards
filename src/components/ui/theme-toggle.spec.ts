@@ -9,7 +9,7 @@ describe('ThemeToggle (logic tests)', () => {
         })
 
         test('shows "Switch to dark theme" when light', () => {
-            const theme = 'light'
+            const theme = 'light' as 'light' | 'dark'
             const ariaLabel = theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
             expect(ariaLabel).toBe('Switch to dark theme')
         })
@@ -23,7 +23,7 @@ describe('ThemeToggle (logic tests)', () => {
         })
 
         test('shows "Switch to dark theme" when light', () => {
-            const theme = 'light'
+            const theme = 'light' as 'light' | 'dark'
             const title = theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
             expect(title).toBe('Switch to dark theme')
         })
@@ -31,7 +31,7 @@ describe('ThemeToggle (logic tests)', () => {
 
     describe('icon selection logic', () => {
         test('shows sun icon when dark (to switch to light)', () => {
-            const theme = 'dark'
+            const theme = 'dark' as 'light' | 'dark'
             const showSun = theme === 'dark'
             const showMoon = theme === 'light'
 
@@ -40,7 +40,7 @@ describe('ThemeToggle (logic tests)', () => {
         })
 
         test('shows moon icon when light (to switch to dark)', () => {
-            const theme = 'light'
+            const theme = 'light' as 'light' | 'dark'
             const showSun = theme === 'dark'
             const showMoon = theme === 'light'
 
@@ -70,11 +70,11 @@ describe('ThemeToggle (logic tests)', () => {
 
             // First toggle: dark -> light
             toggleTheme()
-            expect(theme).toBe('light')
+            expect(theme as 'light' | 'dark').toBe('light')
 
             // Second toggle: light -> dark
             toggleTheme()
-            expect(theme).toBe('dark')
+            expect(theme as 'light' | 'dark').toBe('dark')
         })
     })
 
@@ -90,7 +90,8 @@ describe('ThemeToggle (logic tests)', () => {
             const themes: Array<'light' | 'dark'> = ['light', 'dark']
 
             for (const theme of themes) {
-                const ariaLabel = theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
+                const ariaLabel =
+                    theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
                 expect(ariaLabel.length).toBeGreaterThan(0)
             }
         })
@@ -98,7 +99,8 @@ describe('ThemeToggle (logic tests)', () => {
 
     describe('styling classes', () => {
         test('contains expected base classes', () => {
-            const className = 'bg-primary/10 hover:bg-primary/20 flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg transition-all duration-300 hover:scale-105 active:scale-95'
+            const className =
+                'bg-primary/10 hover:bg-primary/20 flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg transition-all duration-300 hover:scale-105 active:scale-95'
 
             expect(className).toContain('cursor-pointer')
             expect(className).toContain('transition-all')
