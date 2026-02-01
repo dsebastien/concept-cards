@@ -2,10 +2,12 @@
 @import 'tailwindcss';
 
 @theme {
-    --color-primary: #ffffff;
-    --color-secondary: #e5007d;
-    --color-secondary-text: #ff1493;
-    --color-background: #37404c;
+    --color-primary: var(--theme-primary);
+    --color-secondary: var(--theme-secondary);
+    --color-secondary-text: var(--theme-secondary-text);
+    --color-background: var(--theme-background);
+    --color-surface: var(--theme-surface);
+    --color-muted: var(--theme-muted);
 
     --font-sans:
         'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -19,12 +21,44 @@
     --breakpoint-2xl: 2440px;
 }
 
+/* Dark theme (default) */
+:root,
+[data-theme='dark'] {
+    --theme-primary: #ffffff;
+    --theme-secondary: #e5007d;
+    --theme-secondary-text: #ff1493;
+    --theme-background: #37404c;
+    --theme-surface: #424d5c;
+    --theme-muted: rgba(255, 255, 255, 0.6);
+    
+    /* Scrollbar colors */
+    --scrollbar-track: rgba(255, 255, 255, 0.05);
+    --scrollbar-thumb: rgba(255, 255, 255, 0.2);
+    --scrollbar-thumb-hover: rgba(255, 255, 255, 0.3);
+}
+
+/* Light theme */
+[data-theme='light'] {
+    --theme-primary: #1a1a2e;
+    --theme-secondary: #e5007d;
+    --theme-secondary-text: #c4006a;
+    --theme-background: #f8f9fc;
+    --theme-surface: #ffffff;
+    --theme-muted: rgba(26, 26, 46, 0.6);
+    
+    /* Scrollbar colors */
+    --scrollbar-track: rgba(0, 0, 0, 0.05);
+    --scrollbar-thumb: rgba(0, 0, 0, 0.2);
+    --scrollbar-thumb-hover: rgba(0, 0, 0, 0.3);
+}
+
 body {
     font-family: var(--font-sans);
     background-color: var(--color-background);
     color: var(--color-primary);
     line-height: 1.7;
     letter-spacing: 0.01em;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
@@ -40,6 +74,16 @@ a {
     color: var(--color-secondary-text) !important;
 }
 
+/* Surface background utility */
+.bg-surface {
+    background-color: var(--theme-surface);
+}
+
+/* Muted text utility */
+.text-muted {
+    color: var(--theme-muted);
+}
+
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
     width: 10px;
@@ -47,21 +91,42 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--scrollbar-track);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--scrollbar-thumb);
     border-radius: 5px;
+    transition: background 0.2s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: var(--scrollbar-thumb-hover);
 }
 
 /* Firefox scrollbar */
 * {
     scrollbar-width: thin;
-    scrollbar-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.05);
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* Theme transition utility - apply to elements that need smooth theme transitions */
+@media (prefers-reduced-motion: no-preference) {
+    .theme-transition,
+    body,
+    .bg-surface,
+    header,
+    nav,
+    main,
+    footer {
+        transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    }
+}
+
+/* Exclude transition on transform and opacity for performance */
+.transition-transform,
+.transition-opacity,
+.transition-all {
+    transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
 }
