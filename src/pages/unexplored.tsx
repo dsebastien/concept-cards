@@ -137,7 +137,6 @@ const UnexploredPage: React.FC = () => {
                                         animate={{ width: '100%' }}
                                         transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
                                         className='bg-success-muted h-full rounded-full'
-                                        style={{ backgroundColor: 'var(--theme-success-muted)' }}
                                     />
                                 </div>
                                 <span className='text-success font-medium'>100%</span>
@@ -222,8 +221,7 @@ const UnexploredPage: React.FC = () => {
                                 initial={{ width: 0 }}
                                 animate={{ width: `${progressPercentage}%` }}
                                 transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
-                                className='h-full rounded-full'
-                                style={{ backgroundColor: 'var(--theme-success-muted)' }}
+                                className='bg-success-muted h-full rounded-full'
                             />
                         </div>
                         <span className='text-success w-12 text-right font-medium'>

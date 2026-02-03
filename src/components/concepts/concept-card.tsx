@@ -81,7 +81,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                             )}
                             <button
                                 onClick={(e) => handleCategoryClick(e, concept.category)}
-                                className='bg-primary/5 text-primary/50 hover:bg-primary/10 hover:text-primary/70 max-w-[120px] shrink-0 cursor-pointer truncate rounded-full px-1.5 py-px text-[10px] transition-colors'
+                                className='bg-primary/10 text-primary/70 hover:bg-primary/15 hover:text-primary max-w-[120px] shrink-0 cursor-pointer truncate rounded-full px-1.5 py-px text-[10px] transition-colors'
                             >
                                 {concept.category}
                             </button>
@@ -97,7 +97,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                             <button
                                 key={tag}
                                 onClick={(e) => handleTagClick(e, tag)}
-                                className='bg-primary/5 text-primary/60 hover:bg-primary/10 hover:text-primary/80 cursor-pointer rounded-full px-2 py-0.5 text-xs transition-colors'
+                                className='bg-primary/10 text-primary/70 hover:bg-primary/15 hover:text-primary cursor-pointer rounded-full px-2 py-0.5 text-xs transition-colors'
                             >
                                 {tag}
                             </button>
@@ -162,7 +162,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                         {/* Category - hide on narrower screens (< 360px) */}
                         <button
                             onClick={(e) => handleCategoryClick(e, concept.category)}
-                            className='bg-primary/5 text-primary/50 hover:bg-primary/10 hover:text-primary/70 hidden max-w-[100px] shrink-0 cursor-pointer truncate rounded-full px-1.5 py-px text-[10px] transition-colors min-[360px]:block'
+                            className='bg-primary/10 text-primary/70 hover:bg-primary/15 hover:text-primary hidden max-w-[100px] shrink-0 cursor-pointer truncate rounded-full px-1.5 py-px text-[10px] transition-colors min-[360px]:block'
                         >
                             {concept.category}
                         </button>
