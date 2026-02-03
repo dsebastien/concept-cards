@@ -1,3 +1,14 @@
+## [10.21.0](https://github.com/dsebastien/concept-cards/compare/10.20.0...10.21.0) (2026-02-03)
+
+### Features
+
+* **all:** formatted ([45435b7](https://github.com/dsebastien/concept-cards/commit/45435b7b7c17fd7ae3679cee1e53488185e940cc))
+* **all:** improved ([574f06b](https://github.com/dsebastien/concept-cards/commit/574f06bf25728f80b9372ccc1fc57f35895f0c61))
+* **all:** updated ([541becb](https://github.com/dsebastien/concept-cards/commit/541becbed32c8856090719f29a571451a07ca9c3))
+
+### Bug Fixes
+
+* improve WCAG contrast for explored status colors ([0078989](https://github.com/dsebastien/concept-cards/commit/00789892622e24374e132c7e437ea90a85401de5))
 ## [10.20.0](https://github.com/dsebastien/concept-cards/compare/10.19.0...10.20.0) (2026-02-03)
 
 ### Features
