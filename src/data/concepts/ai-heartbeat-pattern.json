@@ -1,0 +1,87 @@
+{
+    "id": "ai-heartbeat-pattern",
+    "name": "AI Heartbeat Pattern",
+    "summary": "Design pattern where AI agents periodically wake up at configured intervals to check for changes, tasks, or events rather than waiting for explicit invocation.",
+    "explanation": "The AI Heartbeat Pattern is an architectural approach for proactive AI systems where agents operate on a periodic schedule rather than purely responding to user commands. Like a biological heartbeat, the AI \"wakes up\" at regular intervals to:\n\n- **Scan for changes**: Check files, databases, or systems for modifications since the last heartbeat\n- **Process queued tasks**: Look for pending requests or to-do items\n- **Monitor conditions**: Evaluate triggers, thresholds, or events that require action\n- **Update state**: Refresh context and maintain awareness of the current situation\n\nKey design considerations:\n\n**Interval configuration**: Heartbeat frequency balances responsiveness against resource usage. Common intervals range from 30 seconds (near real-time) to several minutes (batch processing). Some systems allow dynamic intervals that increase during inactivity.\n\n**Idempotent operations**: Since heartbeats may fire repeatedly, actions should be safe to repeat without side effects. The agent should track what has been processed.\n\n**Efficient diffing**: Rather than re-processing everything, smart heartbeat systems maintain state about what changed since the last check. Git commits, file modification timestamps, or database change logs enable efficient delta processing.\n\n**Graceful degradation**: If a heartbeat cycle fails, the system should recover on the next cycle without data loss or duplicate processing.\n\nThe pattern enables a fundamentally different interaction model: instead of \"ask and receive,\" users can simply express intent in their normal workflow (adding a task, writing a note) and trust that the AI will notice and act. This creates an ambient intelligence that feels like having a thoughtful assistant always monitoring your work.\n\nTrade-offs include higher resource consumption compared to purely reactive systems and potential latency between user action and AI response (bounded by heartbeat interval).",
+    "tags": [
+        "ai",
+        "design-patterns",
+        "automation",
+        "architecture",
+        "agents",
+        "proactive-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaHeartbeat",
+    "featured": false,
+    "aliases": [
+        "Periodic AI Polling",
+        "AI Wake Pattern",
+        "Proactive Agent Loop"
+    ],
+    "relatedConcepts": [
+        "agentic-knowledge-management",
+        "ai-agent",
+        "async-development",
+        "automation-paradox",
+        "human-in-the-loop"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Polling (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Polling_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

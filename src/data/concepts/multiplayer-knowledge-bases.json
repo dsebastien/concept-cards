@@ -1,0 +1,87 @@
+{
+    "id": "multiplayer-knowledge-bases",
+    "name": "Multiplayer Knowledge Bases",
+    "summary": "Real-time collaborative editing systems for knowledge bases where multiple users or AI agents can work simultaneously with live synchronization.",
+    "explanation": "Multiplayer Knowledge Bases extend the concept of real-time collaborative editing (like Google Docs) to personal knowledge management systems. Instead of a single-user vault where files are edited in isolation, multiplayer systems enable:\n\n- **Real-time synchronization**: Changes propagate instantly to all connected participants\n- **Change sets and diffs**: Each sync includes detailed information about what changed, enabling reactive workflows\n- **Conflict resolution**: Built-in mechanisms to handle simultaneous edits\n- **Presence awareness**: See who else is viewing or editing a note\n- **Cursor and selection sharing**: Visual feedback of collaborator activity\n\nFor AI integration, multiplayer becomes transformative. When an AI agent connects as a participant:\n\n1. **Instant awareness**: The AI sees your changes immediately, not through polling or file watchers\n2. **Granular reactions**: It can respond to specific insertions, deletions, or modifications\n3. **Seamless collaboration**: The AI can write responses directly into notes without file conflicts\n4. **Reduced latency**: No waiting for commit cycles or sync intervals\n\nThe technical foundation typically involves Conflict-free Replicated Data Types (CRDTs) or Operational Transformation (OT) algorithms. Obsidian's lack of native multiplayer is a significant limitation for agentic knowledge management, as current workarounds (Git-based sync, file watchers) introduce latency and complexity.\n\nMultiplayer knowledge bases represent the infrastructure layer needed for truly fluid human-AI collaboration in PKM systems.",
+    "tags": [
+        "knowledge-management",
+        "collaboration",
+        "real-time",
+        "synchronization",
+        "personal-knowledge-management"
+    ],
+    "category": "Tools",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "Collaborative Knowledge Bases",
+        "Real-time PKM",
+        "Multi-user Vaults"
+    ],
+    "relatedConcepts": [
+        "agentic-knowledge-management",
+        "knowledge-management",
+        "pkm",
+        "obsidian",
+        "data-synchronization",
+        "version-control-for-notes"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Conflict-free replicated data type - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type",
+            "type": "website"
+        },
+        {
+            "title": "Operational transformation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Operational_transformation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

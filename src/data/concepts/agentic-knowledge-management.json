@@ -1,0 +1,105 @@
+{
+    "id": "agentic-knowledge-management",
+    "name": "Agentic Knowledge Management",
+    "summary": "Knowledge management approach where AI assistants proactively interact with knowledge bases, monitoring changes and autonomously executing tasks based on user intent.",
+    "explanation": "Agentic Knowledge Management represents a paradigm shift from passive AI tools to proactive AI collaborators within personal knowledge systems. Rather than waiting for explicit user commands, agentic AI assistants operate with a \"heartbeat\" - periodically waking up to scan the knowledge base for changes, understand user intent from notes and tasks, and autonomously propose or execute actions.\n\nThe core architecture involves giving an AI assistant read-write access to your knowledge base, along with understanding of its structure (note types, metadata schemas, templates). The AI can then:\n\n- **Monitor changes**: Watch for new tasks, modified notes, or activity patterns\n- **Understand intent**: Parse to-do items, daily notes, and project files to comprehend what the user wants to accomplish\n- **Propose actions**: Ask for permission before executing tasks (e.g., \"Do you want me to cross-post this article?\")\n- **Execute autonomously**: Carry out approved tasks and update status in the knowledge base\n- **Learn context**: Build understanding of user workflows, writing style, and preferences over time\n\nImplementation approaches range from simple (Git-based change detection with commit-triggered reactions) to sophisticated (WebSocket connections enabling real-time bidirectional communication between the knowledge base and AI agent). The ideal form involves multiplayer/collaborative editing capabilities where the AI receives change sets in real-time and can respond within seconds.\n\nKey enablers include:\n- AI assistants with system access (like OpenCloud/Molpot)\n- Structured knowledge bases with clear schemas (like those using Obsidian Starter Kit)\n- Event-driven architectures (file watchers, WebSockets)\n- Permission systems for human-in-the-loop approval\n\nThis approach transforms the knowledge base from a static repository into a living system where AI and human collaborate asynchronously, with the AI serving as an always-available assistant that understands your context and can act on your behalf.",
+    "tags": [
+        "ai",
+        "knowledge-management",
+        "automation",
+        "personal-knowledge-management",
+        "agents",
+        "proactive-systems"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": true,
+    "aliases": [
+        "Proactive AI Knowledge Management",
+        "AI-Augmented PKM",
+        "Autonomous Knowledge Assistants"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "human-in-the-loop",
+        "knowledge-management",
+        "pkm",
+        "second-brain",
+        "obsidian",
+        "model-context-protocol",
+        "exocortex"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "OpenCloud - AI Assistant Platform",
+            "url": "https://github.com/ArcadeAI/OpenClawd",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}
