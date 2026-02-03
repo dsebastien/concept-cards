@@ -158,7 +158,7 @@ const HistoryPage: React.FC = () => {
                             value={historyData.avgPerDay}
                             delay={0.5}
                             formatValue={(v) => v.toFixed(1)}
-                            className='text-2xl font-bold text-green-400'
+                            className='text-2xl font-bold text-success'
                         />
                         <div className='text-primary/60 text-sm'>Avg per Day</div>
                     </div>
@@ -202,18 +202,18 @@ const HistoryPage: React.FC = () => {
                                         <button
                                             key={concept.id}
                                             onClick={() => handleShowDetails(concept)}
-                                            className={`group relative cursor-pointer rounded-xl border bg-gradient-to-br p-4 text-left transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${cardColors[colorIndex]} ${explored ? 'ring-2 ring-green-500/40' : ''}`}
+                                            className={`group relative cursor-pointer rounded-xl border bg-gradient-to-br p-4 text-left transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${cardColors[colorIndex]} ${explored ? 'ring-2 ring-success' : ''}`}
                                         >
                                             {/* Explored badge */}
                                             {explored && (
-                                                <div className='absolute -top-2 -right-2 flex items-center gap-1 rounded-full bg-green-500 px-2 py-0.5 text-xs font-medium text-white shadow-md'>
+                                                <div className='bg-success-muted absolute -top-2 -right-2 flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium text-white shadow-md' style={{ backgroundColor: 'var(--theme-success-muted)' }}>
                                                     <FaCheckCircle className='h-2.5 w-2.5' />
                                                     Explored
                                                 </div>
                                             )}
                                             <div className='mb-3 flex items-center justify-between'>
                                                 <div
-                                                    className={`relative flex h-10 w-10 items-center justify-center rounded-lg ${explored ? 'bg-green-500/20' : 'bg-card-subtle-hover'}`}
+                                                    className={`relative flex h-10 w-10 items-center justify-center rounded-lg ${explored ? 'bg-success' : 'bg-card-subtle-hover'}`}
                                                 >
                                                     <ConceptIcon
                                                         icon={concept.icon}
@@ -221,7 +221,7 @@ const HistoryPage: React.FC = () => {
                                                         size='sm'
                                                     />
                                                     {explored && (
-                                                        <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-green-500' />
+                                                        <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-success-muted' />
                                                     )}
                                                 </div>
                                                 <FaArrowRight className='text-primary/40 h-3 w-3 transition-transform group-hover:translate-x-1 group-hover:text-primary/70' />

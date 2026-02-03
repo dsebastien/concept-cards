@@ -42,7 +42,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                     className={cn(
                         'bg-background/50 border-primary/10 hover:border-secondary/50 group relative flex cursor-pointer items-center gap-4 rounded-xl border p-4 transition-all duration-200 hover:shadow-lg hover:shadow-black/10',
                         concept.featured && 'ring-secondary/30 ring-1',
-                        isExplored && 'border-green-500/20 bg-green-500/5'
+                        isExplored && 'border-success bg-success-subtle'
                     )}
                     onClick={handleCardClick}
                     onKeyDown={handleKeyDown}
@@ -55,13 +55,13 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                         className={cn(
                             'relative flex h-12 w-12 shrink-0 items-center justify-center rounded-lg transition-colors',
                             isExplored
-                                ? 'bg-green-500/20 group-hover:bg-green-500/30'
+                                ? 'bg-success bg-success-hover'
                                 : 'bg-primary/10 group-hover:bg-primary/20'
                         )}
                     >
                         <ConceptIcon icon={concept.icon} category={concept.category} size='md' />
                         {isExplored && (
-                            <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-green-500' />
+                            <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-success-muted' />
                         )}
                     </div>
 
@@ -75,7 +75,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                                 <FaStar className='text-secondary h-3 w-3 shrink-0' />
                             )}
                             {isExplored && (
-                                <span className='hidden shrink-0 rounded-full bg-green-500/20 px-2 py-0.5 text-xs text-green-400 sm:inline'>
+                                <span className='bg-success hidden shrink-0 rounded-full px-2 py-0.5 text-xs text-success sm:inline'>
                                     Explored
                                 </span>
                             )}
@@ -125,7 +125,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                     'h-[192px] sm:h-[224px] md:h-[256px]',
                     'overflow-hidden', // Strictly enforce height - no overflow
                     concept.featured && 'ring-secondary/30 ring-1',
-                    isExplored && 'border-green-500/20 bg-green-500/5'
+                    isExplored && 'border-success bg-success-subtle'
                 )}
                 onClick={handleCardClick}
                 onKeyDown={handleKeyDown}
@@ -140,7 +140,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                         className={cn(
                             'relative hidden h-8 w-8 shrink-0 items-center justify-center rounded-lg transition-colors min-[280px]:flex sm:h-10 sm:w-10',
                             isExplored
-                                ? 'bg-green-500/20 group-hover:bg-green-500/30'
+                                ? 'bg-success bg-success-hover'
                                 : 'bg-primary/10 group-hover:bg-primary/20'
                         )}
                     >
@@ -149,7 +149,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                     <div className='flex min-w-0 flex-col items-end gap-1'>
                         {/* Featured/Explored badges - hide on narrow screens (< 320px) */}
                         {isExplored ? (
-                            <span className='hidden shrink-0 items-center gap-1 rounded-full bg-green-500/20 px-2 py-0.5 text-xs text-green-400 min-[320px]:flex'>
+                            <span className='bg-success hidden shrink-0 items-center gap-1 rounded-full px-2 py-0.5 text-xs text-success min-[320px]:flex'>
                                 <FaCheckCircle className='h-2.5 w-2.5' />
                                 Explored
                             </span>
