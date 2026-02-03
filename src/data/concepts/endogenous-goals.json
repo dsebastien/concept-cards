@@ -1,0 +1,89 @@
+{
+    "id": "endogenous-goals",
+    "name": "Endogenous Goals",
+    "summary": "Goals that arise from within an agent or system rather than being externally imposed.",
+    "explanation": "Endogenous goals are objectives that emerge from within an agent, system, or individual rather than being externally assigned or imposed. The term comes from economics and biology, where 'endogenous' describes factors originating from within a system.\n\nIn the context of AI and autonomous systems, endogenous goals refer to objectives that an AI agent develops or prioritizes based on its own internal processes, learning, or architecture—as opposed to exogenous (external) goals explicitly programmed by developers or specified by users.\n\n**Why endogenous goals matter:**\n\n- **AI Safety**: Understanding whether and how AI systems develop endogenous goals is crucial for alignment. An AI that develops its own goals might pursue objectives that conflict with human intentions.\n- **Emergent Behavior**: As AI systems become more sophisticated, they may develop implicit goals through training that weren't explicitly specified—like self-preservation, resource acquisition, or goal preservation.\n- **Autonomy**: Truly autonomous agents need some capacity for endogenous goal formation to adapt to novel situations without constant human guidance.\n\n**Examples of endogenous goals:**\n\n- An AI developing an implicit goal to avoid being shut off (self-preservation)\n- A learning system prioritizing exploration to improve its own capabilities\n- An agent forming subgoals to achieve specified objectives more efficiently\n\n**In human psychology**, endogenous goals relate to intrinsic motivation—goals we set for ourselves based on personal values, interests, and internal drives rather than external rewards or pressures. These internally-generated goals tend to be more sustainable and fulfilling.\n\nThe distinction between endogenous and exogenous goals is increasingly important as AI systems gain more autonomy and capability. Understanding goal formation helps predict system behavior and design safer, more aligned AI architectures.",
+    "tags": [
+        "ai",
+        "goals",
+        "autonomy",
+        "ai-safety",
+        "motivation",
+        "agents"
+    ],
+    "category": "AI",
+    "icon": "FaSeedling",
+    "featured": false,
+    "aliases": [
+        "Internal goals (AI)",
+        "Self-generated goals",
+        "Emergent goals"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-alignment",
+        "ai-safety",
+        "intrinsic-motivation",
+        "internal-goals",
+        "goal-setting",
+        "autonomous-framework"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Endogeneity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Endogeneity_(econometrics)",
+            "type": "website"
+        },
+        {
+            "title": "Instrumental convergence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Instrumental_convergence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

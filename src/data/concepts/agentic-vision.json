@@ -1,0 +1,85 @@
+{
+    "id": "agentic-vision",
+    "name": "Agentic Vision",
+    "summary": "The ability of AI systems to perceive, understand, and interact with visual information autonomously to accomplish goals.",
+    "explanation": "Agentic vision refers to AI systems that can perceive, interpret, and act upon visual information autonomously to accomplish tasks and goals. Unlike passive computer vision (which simply identifies objects or scenes), agentic vision integrates visual understanding with decision-making and action-taking capabilities.\n\n**Core capabilities:**\n\n- **Visual perception**: Processing images, videos, and screen content to understand what's displayed\n- **Contextual understanding**: Interpreting visual elements in context (UI elements, documents, physical environments)\n- **Action planning**: Using visual information to determine what actions to take\n- **Interactive feedback**: Observing the results of actions and adjusting behavior accordingly\n\n**Applications:**\n\n- **Computer use agents**: AI that can see and interact with graphical user interfaces, clicking buttons, filling forms, and navigating applications\n- **Robotic systems**: Robots using vision to manipulate objects, navigate environments, and interact with the physical world\n- **Document processing**: Extracting and acting on information from visual documents, screenshots, and images\n- **Multimodal assistants**: AI helpers that can analyze images, charts, and visual content to provide contextual assistance\n\n**Key technologies enabling agentic vision:**\n\n- Vision-language models (VLMs) that understand both images and text\n- Multimodal large language models with visual capabilities\n- Computer vision for object detection, OCR, and scene understanding\n- Reinforcement learning for visual navigation and manipulation\n\n**Challenges:**\n\n- **Reliability**: Visual understanding can be imperfect, leading to incorrect actions\n- **Grounding**: Connecting visual perception to actionable understanding\n- **Safety**: Ensuring agents don't take harmful actions based on visual misinterpretation\n- **Efficiency**: Real-time visual processing requires significant computational resources\n\nAgentic vision represents a convergence of computer vision, multimodal AI, and autonomous agents—enabling AI systems to see and interact with the world in ways previously limited to humans.",
+    "tags": [
+        "ai",
+        "computer-vision",
+        "agents",
+        "multimodal-ai",
+        "automation"
+    ],
+    "category": "AI",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Visual AI agents",
+        "Vision-enabled agents",
+        "Computer use vision"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "agentic-knowledge-management",
+        "large-language-models",
+        "multimodal-ai"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Computer vision - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_vision",
+            "type": "website"
+        },
+        {
+            "title": "Embodied agent - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Embodied_agent",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}
