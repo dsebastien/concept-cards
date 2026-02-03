@@ -213,7 +213,7 @@ const HistoryPage: React.FC = () => {
                                             )}
                                             <div className='mb-3 flex items-center justify-between'>
                                                 <div
-                                                    className={`relative flex h-10 w-10 items-center justify-center rounded-lg ${explored ? 'bg-green-500/20' : 'bg-white/10'}`}
+                                                    className={`relative flex h-10 w-10 items-center justify-center rounded-lg ${explored ? 'bg-green-500/20' : 'bg-card-subtle-hover'}`}
                                                 >
                                                     <ConceptIcon
                                                         icon={concept.icon}
@@ -224,7 +224,7 @@ const HistoryPage: React.FC = () => {
                                                         <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-green-500' />
                                                     )}
                                                 </div>
-                                                <FaArrowRight className='text-primary/40 h-3 w-3 transition-transform group-hover:translate-x-1 group-hover:text-white/70' />
+                                                <FaArrowRight className='text-primary/40 h-3 w-3 transition-transform group-hover:translate-x-1 group-hover:text-primary/70' />
                                             </div>
                                             <h3 className='mb-1 line-clamp-1 text-base font-semibold'>
                                                 {concept.name}
@@ -232,7 +232,7 @@ const HistoryPage: React.FC = () => {
                                             <p className='text-primary/60 mb-2 line-clamp-2 text-xs'>
                                                 {concept.summary}
                                             </p>
-                                            <span className='rounded-full bg-white/10 px-2 py-0.5 text-xs text-white/60'>
+                                            <span className='rounded-full bg-card-subtle-hover px-2 py-0.5 text-xs text-primary/60'>
                                                 {concept.category}
                                             </span>
                                         </button>

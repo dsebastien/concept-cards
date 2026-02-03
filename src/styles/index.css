@@ -8,6 +8,8 @@
     --color-background: var(--theme-background);
     --color-surface: var(--theme-surface);
     --color-muted: var(--theme-muted);
+    --color-card-subtle: var(--theme-card-subtle);
+    --color-card-subtle-hover: var(--theme-card-subtle-hover);
 
     --font-sans:
         'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -30,6 +32,8 @@
     --theme-background: #37404c;
     --theme-surface: #424d5c;
     --theme-muted: rgba(255, 255, 255, 0.6);
+    --theme-card-subtle: rgba(255, 255, 255, 0.05);
+    --theme-card-subtle-hover: rgba(255, 255, 255, 0.1);
 
     /* Scrollbar colors */
     --scrollbar-track: rgba(255, 255, 255, 0.05);
@@ -45,6 +49,8 @@
     --theme-background: #f8f9fc;
     --theme-surface: #ffffff;
     --theme-muted: rgba(26, 26, 46, 0.6);
+    --theme-card-subtle: rgba(0, 0, 0, 0.03);
+    --theme-card-subtle-hover: rgba(0, 0, 0, 0.06);
 
     /* Scrollbar colors */
     --scrollbar-track: rgba(0, 0, 0, 0.05);
