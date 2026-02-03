@@ -1,0 +1,60 @@
+{
+    "id": "ice-scoring-model",
+    "name": "ICE Scoring Model",
+    "summary": "A prioritization framework scoring ideas by Impact, Confidence, and Ease.",
+    "explanation": "The ICE scoring model is a simple prioritization framework popularized by Sean Ellis for growth experiments and feature prioritization. It evaluates ideas using three factors, each scored typically from 1-10.\n\n**The Three Factors:**\n\n1. **Impact**: If this works, how much will it move the needle? Score 1-10 based on expected effect on key metrics.\n\n2. **Confidence**: How sure are you that this will achieve the expected impact? Score 1-10 based on available data, prior experience, or analogous situations.\n\n3. **Ease**: How easy is this to implement? Score 1-10 based on resources, time, and complexity required. Higher = easier.\n\n**The Formula:**\n\nICE Score = Impact + Confidence + Ease (or averaged: (I + C + E) / 3)\n\n**Comparison with RICE:**\n\nICE is simpler than RICE, trading precision for speed:\n- ICE omits Reach as a separate factor (absorbed into Impact)\n- ICE uses simple 1-10 scales instead of specific metrics\n- ICE is faster to apply but less rigorous\n- RICE is better for comparing initiatives of different scales\n\n**When to Use ICE:**\n\n- Rapid prioritization of many ideas\n- Early-stage ideation where precision isn't possible\n- Growth experiments and A/B tests\n- Situations requiring quick decisions\n\n**Best Practices:**\n\n- Calibrate your team's scoring (what does a '7' mean?)\n- Document reasoning behind scores\n- Compare scores within similar initiative types\n- Use as a starting point for discussion, not final arbiter\n\nICE's simplicity makes it valuable for high-velocity teams that need to prioritize frequently without getting bogged down in detailed estimates.",
+    "tags": [
+        "frameworks",
+        "prioritization",
+        "product-management",
+        "decision-making",
+        "growth"
+    ],
+    "category": "Frameworks",
+    "icon": "FaThermometerHalf",
+    "featured": false,
+    "aliases": [
+        "ICE framework",
+        "ICE prioritization",
+        "ICE score"
+    ],
+    "relatedConcepts": [
+        "rice-framework",
+        "effort-vs-impact",
+        "weighted-decision-matrix",
+        "a-b-testing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "ICE Score - ProductPlan",
+            "url": "https://www.productplan.com/glossary/ice-scoring-model/",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

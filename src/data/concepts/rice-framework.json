@@ -1,0 +1,69 @@
+{
+    "id": "rice-framework",
+    "name": "RICE Framework",
+    "summary": "A prioritization framework scoring initiatives by Reach, Impact, Confidence, and Effort.",
+    "explanation": "The RICE framework is a quantitative prioritization method developed by Intercom for product management. It scores initiatives using four factors to produce comparable priority scores.\n\n**The Four Factors:**\n\n1. **Reach**: How many users or customers will this affect in a given time period? Measured as a concrete number (e.g., 1000 users per quarter).\n\n2. **Impact**: How much will this affect each user? Scored on a scale: 3x (massive), 2x (high), 1x (medium), 0.5x (low), 0.25x (minimal).\n\n3. **Confidence**: How certain are you about your estimates? Expressed as a percentage: 100% (high confidence), 80% (medium), 50% (low). Lower confidence reduces the final score proportionally.\n\n4. **Effort**: How many person-months of work will this require? Higher effort reduces the score.\n\n**The Formula:**\n\nRICE Score = (Reach × Impact × Confidence) / Effort\n\n**Benefits:**\n\n- Reduces subjective bias by requiring explicit estimates\n- Creates a common language for teams discussing priorities\n- Forces consideration of reach and impact, not just effort\n- Confidence factor accounts for uncertainty in estimates\n- Enables objective comparison across different types of initiatives\n\n**Best Practices:**\n\n- Be consistent in how you measure reach (same time period, same units)\n- Document assumptions behind estimates for future calibration\n- Use the framework to inform decisions, not replace judgment entirely\n- Revisit and refine estimates as you learn more\n\nRICE is particularly valuable when comparing initiatives of different types or when teams have competing priorities that need objective evaluation.",
+    "tags": [
+        "frameworks",
+        "prioritization",
+        "product-management",
+        "decision-making"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCalculator",
+    "featured": false,
+    "aliases": [
+        "RICE scoring",
+        "RICE prioritization",
+        "RICE score"
+    ],
+    "relatedConcepts": [
+        "ice-scoring-model",
+        "effort-vs-impact",
+        "weighted-decision-matrix",
+        "moscow-method",
+        "kano-model",
+        "eisenhower-matrix"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/RICE+framework"
+    ],
+    "articles": [
+        {
+            "title": "RICE: Simple prioritization for product managers",
+            "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/",
+            "type": "website"
+        }
+    ],
+    "references": [
+        {
+            "title": "RICE scoring model - ProductPlan",
+            "url": "https://www.productplan.com/glossary/rice-scoring-model/",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

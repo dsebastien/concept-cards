@@ -1,0 +1,75 @@
+{
+    "id": "constitutional-ai",
+    "name": "Constitutional AI",
+    "summary": "AI training method using a set of principles (constitution) to guide model behavior and self-improvement.",
+    "explanation": "Constitutional AI (CAI) is a training methodology developed by Anthropic for creating AI systems that are helpful, harmless, and honest. It uses a set of explicit principles - a 'constitution' - to guide the model's behavior during training and inference.\n\n**How it Works:**\n\n1. **Supervised Learning**: Initial training on helpful responses\n2. **Constitutional Critique**: The model critiques its own outputs against constitutional principles\n3. **Revision**: The model revises responses based on its critiques\n4. **RLAIF**: Reinforcement Learning from AI Feedback uses these revised responses for training\n\n**Key Innovation:**\n\nTraditional RLHF requires extensive human labeling of response quality. CAI reduces this dependency by having the AI evaluate its own outputs against explicit principles, scaling the training process.\n\n**The Constitution:**\n\nA typical constitution includes principles like:\n- Be helpful while avoiding harm\n- Be honest and don't deceive\n- Respect user autonomy\n- Avoid illegal or unethical content\n- Acknowledge uncertainty\n\n**Benefits:**\n\n- **Scalability**: Less human annotation required\n- **Transparency**: Principles are explicit and auditable\n- **Consistency**: Same principles applied across all interactions\n- **Adaptability**: Constitution can be updated for new requirements\n\n**Limitations:**\n\n- Principles must be carefully crafted (garbage in, garbage out)\n- May not capture nuanced ethical situations\n- Model interpretation of principles may differ from human intent\n\nConstitutional AI represents a significant step toward scalable AI alignment, combining explicit values with self-improvement mechanisms.",
+    "tags": [
+        "ai",
+        "alignment",
+        "training",
+        "safety",
+        "ethics"
+    ],
+    "category": "AI",
+    "icon": "FaScroll",
+    "featured": false,
+    "aliases": [
+        "CAI",
+        "RLAIF"
+    ],
+    "relatedConcepts": [
+        "ai-alignment",
+        "ai-safety",
+        "rlhf",
+        "ai-guardrails",
+        "human-in-the-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Constitutional AI: Harmlessness from AI Feedback",
+            "url": "https://arxiv.org/abs/2212.08073",
+            "type": "paper"
+        },
+        {
+            "title": "Constitutional AI - Anthropic",
+            "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

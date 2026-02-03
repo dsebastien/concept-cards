@@ -1,0 +1,70 @@
+{
+    "id": "ai-guardrails",
+    "name": "AI Guardrails",
+    "summary": "Safety constraints and boundaries built into AI systems to prevent harmful or undesired outputs.",
+    "explanation": "AI guardrails are safety mechanisms designed to constrain AI system behavior within acceptable boundaries. They prevent harmful outputs, enforce policies, and ensure AI systems operate as intended.\n\n**Types of Guardrails:**\n\n1. **Input guardrails**: Filter or reject problematic prompts before processing\n   - Detect prompt injection attempts\n   - Block requests for harmful content\n   - Validate input format and length\n\n2. **Output guardrails**: Check and filter responses before delivery\n   - Content moderation (toxicity, bias, PII)\n   - Factual accuracy checking\n   - Format compliance validation\n\n3. **Behavioral guardrails**: Constrain what actions AI can take\n   - Scope limitations (what domains AI can operate in)\n   - Authorization requirements (human approval for certain actions)\n   - Rate limiting and resource constraints\n\n4. **Constitutional guardrails**: Embedded principles guiding behavior\n   - Ethical guidelines trained into the model\n   - Refusal patterns for harmful requests\n   - Value alignment through training\n\n**Implementation Approaches:**\n\n- **Rule-based**: Explicit filters and keyword blocking\n- **ML-based**: Classifiers trained to detect problematic content\n- **LLM-based**: Using language models to evaluate other LLM outputs\n- **Human review**: Escalation to human judgment for edge cases\n\n**Tradeoffs:**\n\n- Too strict: False positives frustrate legitimate use\n- Too loose: Harmful content slips through\n- Static rules: Can be gamed or become outdated\n- Dynamic systems: Require ongoing maintenance and monitoring\n\nEffective guardrails balance safety with usability, adapting to new threats while enabling legitimate use cases.",
+    "tags": [
+        "ai",
+        "safety",
+        "constraints",
+        "moderation",
+        "governance"
+    ],
+    "category": "AI",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "LLM guardrails",
+        "AI safety rails",
+        "Model guardrails"
+    ],
+    "relatedConcepts": [
+        "ai-safety",
+        "ai-alignment",
+        "human-in-the-loop",
+        "constitutional-ai"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Guardrails AI",
+            "url": "https://www.guardrailsai.com/",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}
