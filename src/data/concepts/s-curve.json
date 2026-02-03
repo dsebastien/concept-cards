@@ -1,0 +1,71 @@
+{
+    "id": "s-curve",
+    "name": "S-Curve",
+    "summary": "Model describing the typical sigmoid pattern of adoption, growth, or performance improvement over time.",
+    "explanation": "The S-curve (or sigmoid curve) is a mathematical model that describes how many natural and social phenomena evolve over time. The pattern shows slow initial growth, followed by rapid acceleration, then deceleration as a ceiling is approached. S-curves appear in: technology adoption (few early adopters, rapid mainstream growth, then saturation), skill development (slow start, rapid improvement, then plateau), organizational growth (startup phase, hypergrowth, then maturity), and product life cycles. Understanding S-curves helps predict: when current approaches will hit limits, when new technologies might displace established ones, and when to invest in the next growth curve. In technology, companies must 'jump' to new S-curves before current ones plateau. In personal development, recognizing you're on the flat part of an S-curve signals it's time to learn something new. Clayton Christensen applied S-curve thinking to explain why incumbents fail - they optimize for mature S-curves while disruptors start new ones.",
+    "tags": [
+        "models",
+        "growth",
+        "technologies",
+        "learning",
+        "predictions"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Sigmoid Curve",
+        "Technology S-Curve",
+        "Growth Curve"
+    ],
+    "relatedConcepts": [
+        "disruptive-innovation",
+        "technology-adoption-lifecycle",
+        "innovation-diffusion",
+        "crossing-the-chasm",
+        "learning-curve"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sigmoid function - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sigmoid_function",
+            "type": "website"
+        },
+        {
+            "title": "Technology life cycle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Technology_life_cycle",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}
