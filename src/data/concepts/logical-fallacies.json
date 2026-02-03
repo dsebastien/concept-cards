@@ -1,0 +1,51 @@
+{
+    "id": "logical-fallacies",
+    "name": "Logical Fallacies",
+    "summary": "Errors in reasoning that undermine the logic of an argument, often appearing persuasive but fundamentally flawed.",
+    "explanation": "Logical fallacies are flaws in reasoning that make arguments invalid or unsound. While they often appear convincing on the surface, they rely on faulty logic rather than solid evidence and valid reasoning. Understanding these fallacies is essential for critical thinking and constructive discourse.\n\n## Categories of Fallacies\n\n### Formal Fallacies\nErrors in the logical structure of an argument:\n- **Affirming the consequent**: If A then B; B is true; therefore A is true (invalid)\n- **Denying the antecedent**: If A then B; A is false; therefore B is false (invalid)\n\n### Informal Fallacies\nErrors in content, context, or delivery:\n\n**Fallacies of Relevance**\n- **Ad hominem**: Attacking the person instead of the argument\n- **Appeal to authority**: Relying on an authority figure rather than evidence\n- **Appeal to emotion**: Using emotional manipulation instead of logic\n- **Red herring**: Introducing irrelevant information to distract\n\n**Fallacies of Ambiguity**\n- **Equivocation**: Using a word with different meanings in the same argument\n- **Straw man**: Misrepresenting someone's argument to make it easier to attack\n\n**Fallacies of Presumption**\n- **False dichotomy**: Presenting only two options when more exist\n- **Begging the question**: Assuming the conclusion in the premise\n- **Hasty generalization**: Drawing broad conclusions from limited evidence\n- **Slippery slope**: Claiming one event will inevitably lead to extreme consequences\n\n## Why Fallacies Persist\n\nLogical fallacies persist because they exploit cognitive biases and mental shortcuts. They often feel intuitively correct, appeal to emotions, or align with existing beliefs. Recognizing these patterns requires deliberate, effortful thinking.\n\n## Practical Application\n\nWhen evaluating arguments, ask:\n1. Does the evidence actually support the conclusion?\n2. Are there hidden assumptions?\n3. Is the argument attacking the position or the person?\n4. Are all reasonable alternatives being considered?",
+    "tags": [
+        "critical-thinking",
+        "logic",
+        "reasoning",
+        "arguments",
+        "fallacies",
+        "rhetoric"
+    ],
+    "category": "Thinking",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Fallacies",
+        "Reasoning Errors",
+        "Invalid Arguments"
+    ],
+    "relatedConcepts": [
+        "critical-thinking",
+        "false-dichotomy",
+        "sunk-cost-fallacy",
+        "confirmation-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "List of fallacies - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "type": "website"
+        },
+        {
+            "title": "Fallacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fallacy",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}
