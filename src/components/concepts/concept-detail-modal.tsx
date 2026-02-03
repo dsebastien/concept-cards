@@ -377,7 +377,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                     <div
                                         className={`sticky top-0 z-10 flex items-start justify-between border-b p-6 backdrop-blur-md ${
                                             currentConceptExplored
-                                                ? 'border-green-500/20 bg-green-500/5'
+                                                ? 'border-success bg-success-subtle'
                                                 : 'border-primary/10 bg-background/95'
                                         }`}
                                     >
@@ -385,7 +385,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                             <div
                                                 className={`relative flex h-16 w-16 items-center justify-center rounded-xl ${
                                                     currentConceptExplored
-                                                        ? 'bg-green-500/20'
+                                                        ? 'bg-success'
                                                         : 'bg-primary/10'
                                                 }`}
                                             >
@@ -395,7 +395,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                     size='xl'
                                                 />
                                                 {currentConceptExplored && (
-                                                    <FaCheckCircle className='absolute -right-1 -bottom-1 h-5 w-5 text-green-500' />
+                                                    <FaCheckCircle className='text-success-muted absolute -right-1 -bottom-1 h-5 w-5' />
                                                 )}
                                             </div>
                                             <div>
@@ -410,7 +410,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                         <FaStar className='text-secondary h-5 w-5' />
                                                     )}
                                                     {currentConceptExplored && (
-                                                        <span className='flex items-center gap-1 rounded-full bg-green-500/20 px-2 py-0.5 text-xs text-green-400'>
+                                                        <span className='bg-success text-success flex items-center gap-1 rounded-full px-2 py-0.5 text-xs'>
                                                             <FaCheckCircle className='h-2.5 w-2.5' />
                                                             Explored
                                                         </span>
@@ -438,7 +438,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                 title='Copy title, summary, and explanation'
                                             >
                                                 {copied ? (
-                                                    <FaCheck className='h-5 w-5 text-green-500' />
+                                                    <FaCheck className='text-success-muted h-5 w-5' />
                                                 ) : (
                                                     <FaCopy className='h-5 w-5' />
                                                 )}
@@ -530,7 +530,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                                         }
                                                                         className={`flex cursor-pointer items-center gap-2 rounded-full border px-3 py-1.5 text-sm transition-colors ${
                                                                             explored
-                                                                                ? 'border-green-500/30 bg-green-500/10 text-green-400 hover:bg-green-500/20'
+                                                                                ? 'border-success bg-success text-success bg-success-hover'
                                                                                 : 'bg-secondary/10 hover:bg-secondary/20 text-secondary border-secondary/20'
                                                                         }`}
                                                                     >
@@ -545,7 +545,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                                                         />
                                                                         {relatedConcept.name}
                                                                         {explored && (
-                                                                            <FaCheckCircle className='h-3 w-3 text-green-500' />
+                                                                            <FaCheckCircle className='text-success-muted h-3 w-3' />
                                                                         )}
                                                                     </button>
                                                                 )

@@ -337,7 +337,7 @@ const CommandItem: React.FC<CommandItemProps> = ({
             className={cn(
                 'group flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2 transition-colors',
                 isSelected ? 'bg-secondary/20' : 'hover:bg-primary/5',
-                isExplored && 'bg-green-500/5'
+                isExplored && 'bg-success-subtle'
             )}
             onMouseEnter={onSelect}
             onClick={onClick}
@@ -348,20 +348,20 @@ const CommandItem: React.FC<CommandItemProps> = ({
                 className={cn(
                     'relative flex h-10 w-10 shrink-0 items-center justify-center rounded-lg transition-colors',
                     isExplored
-                        ? 'bg-green-500/20 group-hover:bg-green-500/30'
+                        ? 'bg-success bg-success-hover'
                         : 'bg-primary/5 group-hover:bg-secondary/10'
                 )}
             >
                 {command.icon}
                 {isExplored && (
-                    <FaCheckCircle className='absolute -right-1 -bottom-1 h-3.5 w-3.5 text-green-500' />
+                    <FaCheckCircle className='text-success-muted absolute -right-1 -bottom-1 h-3.5 w-3.5' />
                 )}
             </div>
             <div className='min-w-0 flex-1'>
                 <div className='flex items-center gap-2'>
                     <span className='truncate font-medium'>{command.title}</span>
                     {isExplored && (
-                        <span className='shrink-0 rounded-full bg-green-500/20 px-1.5 py-0.5 text-xs text-green-400'>
+                        <span className='bg-success text-success shrink-0 rounded-full px-1.5 py-0.5 text-xs'>
                             Explored
                         </span>
                     )}

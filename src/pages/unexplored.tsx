@@ -131,15 +131,15 @@ const UnexploredPage: React.FC = () => {
 
                         <div className='bg-primary/5 mb-10 rounded-xl p-6'>
                             <div className='mb-4 flex items-center justify-center gap-2'>
-                                <div className='h-4 max-w-xs flex-1 overflow-hidden rounded-full bg-green-500/20'>
+                                <div className='bg-success h-4 max-w-xs flex-1 overflow-hidden rounded-full'>
                                     <motion.div
                                         initial={{ width: 0 }}
                                         animate={{ width: '100%' }}
                                         transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
-                                        className='h-full rounded-full bg-green-500'
+                                        className='bg-success-muted h-full rounded-full'
                                     />
                                 </div>
-                                <span className='font-medium text-green-400'>100%</span>
+                                <span className='text-success font-medium'>100%</span>
                             </div>
                             <p className='text-primary/60 text-sm'>
                                 {totalConcepts} of {totalConcepts} concepts explored
@@ -216,15 +216,15 @@ const UnexploredPage: React.FC = () => {
                         </span>
                     </div>
                     <div className='mb-2 flex items-center gap-3'>
-                        <div className='h-3 flex-1 overflow-hidden rounded-full bg-green-500/20'>
+                        <div className='bg-success h-3 flex-1 overflow-hidden rounded-full'>
                             <motion.div
                                 initial={{ width: 0 }}
                                 animate={{ width: `${progressPercentage}%` }}
                                 transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
-                                className='h-full rounded-full bg-green-500'
+                                className='bg-success-muted h-full rounded-full'
                             />
                         </div>
-                        <span className='w-12 text-right font-medium text-green-400'>
+                        <span className='text-success w-12 text-right font-medium'>
                             <AnimatedCounter
                                 value={progressPercentage}
                                 delay={0.4}

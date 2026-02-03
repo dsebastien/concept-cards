@@ -139,13 +139,13 @@ const CategoriesPage: React.FC = () => {
                             >
                                 <div className='mb-4 flex items-center justify-between'>
                                     <div
-                                        className={`flex h-12 w-12 items-center justify-center rounded-lg bg-white/10`}
+                                        className={`bg-card-subtle-hover flex h-12 w-12 items-center justify-center rounded-lg`}
                                     >
                                         <FaFolder
                                             className={`h-6 w-6 ${iconColors[index % iconColors.length]}`}
                                         />
                                     </div>
-                                    <FaArrowRight className='text-primary/40 h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:text-white/70' />
+                                    <FaArrowRight className='text-primary/40 group-hover:text-primary/70 h-4 w-4 transition-transform group-hover:translate-x-1' />
                                 </div>
                                 <h3 className='mb-1 text-lg font-semibold'>{category.name}</h3>
                                 <p className='text-primary/60 text-sm'>
@@ -155,12 +155,12 @@ const CategoriesPage: React.FC = () => {
                                     </span>
                                 </p>
                                 {/* Progress bar */}
-                                <div className='mt-4 h-1 overflow-hidden rounded-full bg-white/10'>
+                                <div className='bg-card-subtle-hover mt-4 h-1 overflow-hidden rounded-full'>
                                     <motion.div
                                         initial={{ width: 0 }}
                                         animate={{ width: `${category.percentage}%` }}
                                         transition={{ delay: 0.3 + index * 0.05, duration: 0.5 }}
-                                        className='h-full rounded-full bg-white/30'
+                                        className='bg-primary/20 h-full rounded-full'
                                     />
                                 </div>
                             </motion.button>
