@@ -1,0 +1,44 @@
+{
+    "id": "four-eyes-principle",
+    "name": "Four Eyes Principle",
+    "summary": "Control mechanism requiring two people to approve critical actions, preventing unilateral decisions",
+    "explanation": "The Four Eyes Principle (also called the Two-Person Rule or Dual Control) requires that critical decisions or actions be witnessed, reviewed, or approved by at least two people. The name derives from the idea that four eyes (two people) see more than two (one person), reducing the risk of errors, fraud, or unauthorized actions.\n\nThis principle is widely applied in: financial transactions (large transfers require dual approval), nuclear weapons protocols (two-person rule for launch procedures), banking (dual signatures on checks above certain amounts), software deployment (code reviews before merging), and access control (two keys or passwords needed to open vaults).\n\nThe Four Eyes Principle provides several benefits: it deters fraud since collusion between two people is harder than individual wrongdoing, it catches errors that one person might miss, it creates accountability by having a witness, and it distributes responsibility so no single person bears full burden for critical decisions.\n\nImplementation considerations include: selecting independent reviewers (not reporting to the same manager), ensuring reviewers have sufficient expertise to provide meaningful oversight, avoiding rubber-stamp approvals by rotating reviewers, and balancing security with operational efficiency for time-sensitive decisions.\n\nThe principle is a specific application of Separation of Duties, focused on the approval and execution phases of critical processes. While Separation of Duties divides entire workflows, the Four Eyes Principle specifically ensures critical checkpoints have multiple participants.",
+    "tags": [
+        "security",
+        "access-control",
+        "internal-controls",
+        "governance"
+    ],
+    "category": "Principles",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Two-Person Rule",
+        "Dual Control",
+        "Two-Man Rule",
+        "Dual Authorization"
+    ],
+    "relatedConcepts": [
+        "separation-of-duties",
+        "least-privilege",
+        "authorization"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Two-man rule - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Two-man_rule",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

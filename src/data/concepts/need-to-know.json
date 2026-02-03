@@ -1,0 +1,43 @@
+{
+    "id": "need-to-know",
+    "name": "Need-to-Know Principle",
+    "summary": "Security principle restricting information access to only those who require it for their specific duties",
+    "explanation": "The Need-to-Know principle restricts access to sensitive information to individuals who require that specific information to perform their job duties. Even if someone has the appropriate security clearance or general authorization, they should not access information unless they have a legitimate, work-related need for it.\n\nThis principle originated in military and intelligence contexts where classified information is compartmentalized. A person might have Top Secret clearance but still cannot access all Top Secret information—only the specific information relevant to their mission. This limits the damage from any single compromise and makes it harder for adversaries to piece together complete intelligence.\n\nIn business contexts, need-to-know applies to: customer data (support staff only access records of customers they're helping), financial information (employees only see data relevant to their projects), strategic plans (shared only with those involved in execution), and intellectual property (engineers access only components they're building).\n\nNeed-to-know differs subtly from least privilege. Least privilege focuses on limiting what actions someone can perform (permissions), while need-to-know focuses on limiting what information someone can see (data access). Both work together: a user might have permission to query a database (least privilege) but should only query records they need (need-to-know).\n\nImplementing need-to-know requires: clear data classification, well-defined job roles, access request and approval processes, regular access reviews, and a culture where requesting unnecessary access is discouraged.",
+    "tags": [
+        "security",
+        "access-control",
+        "data-privacy",
+        "information-security"
+    ],
+    "category": "Principles",
+    "icon": "FaEyeSlash",
+    "featured": false,
+    "aliases": [
+        "Need to Know",
+        "Information Compartmentalization"
+    ],
+    "relatedConcepts": [
+        "least-privilege",
+        "data-minimization",
+        "data-confidentiality",
+        "separation-of-duties"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Need to know - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Need_to_know",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

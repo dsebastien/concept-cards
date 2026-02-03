@@ -21,12 +21,12 @@ allowed-tools: Bash, Read, Edit, Write, Grep, Glob, Task
 
 | Script | Command | When |
 |--------|---------|------|
-| verify-concept.ts | `npx tsx scripts/verify-concept.ts --name "Name" --summary "Summary"` | BEFORE adding |
+| verify-concept.ts | `bun scripts/verify-concept.ts --name "Name" --summary "Summary"` | BEFORE adding |
 | fix-concepts | `bun run fix-concepts` | AFTER adding/updating concepts |
-| sync-concepts-db.ts | `npx tsx scripts/sync-concepts-db.ts` | AFTER any change |
-| find-duplicates.ts | `npx tsx scripts/find-duplicates.ts --threshold 80` | Periodic cleanup |
-| merge-duplicates.ts | `npx tsx scripts/merge-duplicates.ts --source ID --target ID --strategy merge-fields` | Merge confirmed duplicates |
-| init-concepts-db.ts | `npx tsx scripts/init-concepts-db.ts` | Database rebuild |
+| sync-concepts-db.ts | `bun scripts/sync-concepts-db.ts` | AFTER any change |
+| find-duplicates.ts | `bun scripts/find-duplicates.ts --threshold 80` | Periodic cleanup |
+| merge-duplicates.ts | `bun scripts/merge-duplicates.ts --source ID --target ID --strategy merge-fields` | Merge confirmed duplicates |
+| init-concepts-db.ts | `bun scripts/init-concepts-db.ts` | Database rebuild |
 
 ## Quick Workflow: Add Single Concept
 
@@ -38,7 +38,7 @@ If matches → stop, verify manually.
 
 ### Step 2: Database Verify (10s)
 ```bash
-npx tsx scripts/verify-concept.ts --name "Concept Name" --summary "Brief summary"
+bun scripts/verify-concept.ts --name "Concept Name" --summary "Brief summary"
 ```
 
 ### Step 3: Find Related Notes
@@ -81,7 +81,7 @@ done
 ### Step 6: Fix & Sync
 ```bash
 bun run fix-concepts
-npx tsx scripts/sync-concepts-db.ts
+bun scripts/sync-concepts-db.ts
 ```
 
 ## Bulk Concept Addition (Parallel)
@@ -102,7 +102,7 @@ Task tool (subagent_type="general-purpose"):
 After all complete:
 ```bash
 bun run fix-concepts
-npx tsx scripts/sync-concepts-db.ts
+bun scripts/sync-concepts-db.ts
 bun run build 2>&1 | tail -5
 ```
 
@@ -114,9 +114,9 @@ cat src/data/concepts/{source-id}.json
 cat src/data/concepts/{target-id}.json
 
 # Merge (combines tags, aliases, references; deletes source)
-npx tsx scripts/merge-duplicates.ts --source {source-id} --target {target-id} --strategy merge-fields
+bun scripts/merge-duplicates.ts --source {source-id} --target {target-id} --strategy merge-fields
 bun run fix-concepts
-npx tsx scripts/sync-concepts-db.ts
+bun scripts/sync-concepts-db.ts
 ```
 
 ## URL Construction: Related Notes
@@ -214,7 +214,7 @@ echo "Parkinson's Law" | tr '[:upper:]' '[:lower:]' | sed "s/'//g" | sed 's/ /-/
 sqlite3 concepts.db "SELECT (SELECT COUNT(*) FROM concepts) as concepts, (SELECT COUNT(*) FROM concept_aliases) as aliases, (SELECT COUNT(*) FROM concept_tags) as tags;"
 
 # Rebuild
-rm concepts.db && npx tsx scripts/init-concepts-db.ts
+rm concepts.db && bun scripts/init-concepts-db.ts
 ```
 
 ## Handling Light Source Content

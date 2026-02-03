@@ -1,0 +1,43 @@
+{
+    "id": "role-based-access-control",
+    "name": "Role-Based Access Control",
+    "summary": "Access control method that assigns permissions to roles rather than individuals, simplifying security management",
+    "explanation": "Role-Based Access Control (RBAC) is an approach to restricting system access where permissions are assigned to roles, and users are assigned to roles based on their job functions. Instead of granting permissions directly to each user, administrators define roles like 'Editor', 'Viewer', or 'Administrator', each with specific permissions, then assign users to appropriate roles.\n\nRBAC consists of three key components: users (individuals who need access), roles (collections of permissions based on job functions), and permissions (specific access rights to resources). A user can have multiple roles, and roles can have multiple permissions. This creates a flexible yet manageable access structure.\n\nThe benefits of RBAC are significant. It simplifies administration by allowing bulk permission changes through role modifications rather than individual user updates. It enforces the Principle of Least Privilege by ensuring users only receive permissions necessary for their role. It improves compliance by making access rights auditable and consistent. It reduces errors by standardizing access patterns.\n\nCommon RBAC implementations include: operating system groups, database roles, application-level permissions, and cloud IAM (Identity and Access Management) systems. Most enterprise software supports RBAC natively.\n\nBest practices include: keeping roles granular but not excessive, regularly reviewing role assignments, implementing role hierarchies where appropriate, and combining RBAC with other controls like Attribute-Based Access Control (ABAC) for complex scenarios requiring dynamic permissions based on context.",
+    "tags": [
+        "security",
+        "access-control",
+        "authorization",
+        "identity-management"
+    ],
+    "category": "Principles",
+    "icon": "FaUsersCog",
+    "featured": false,
+    "aliases": [
+        "RBAC",
+        "Role-Based Security"
+    ],
+    "relatedConcepts": [
+        "least-privilege",
+        "authorization",
+        "separation-of-duties",
+        "authentication"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Role-based access control - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Role-based_access_control",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

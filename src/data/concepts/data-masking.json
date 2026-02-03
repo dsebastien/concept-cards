@@ -1,0 +1,45 @@
+{
+    "id": "data-masking",
+    "name": "Data Masking",
+    "summary": "Hiding sensitive data by replacing it with realistic but fictional values while preserving data format and usability",
+    "explanation": "Data masking is a technique for protecting sensitive information by replacing actual data with modified, realistic-looking values that maintain the same format and characteristics. The goal is to create functional data that can be used for testing, development, or analytics without exposing real sensitive information.\n\nCommon masking techniques include: substitution (replacing values with fictional alternatives from a lookup table), shuffling (randomly reordering values within a column), number variance (adding random variations to numeric values), encryption (reversible masking using cryptographic methods), nulling out (replacing values with null or empty values), and character masking (replacing characters with symbols, e.g., credit card ****-****-****-1234).\n\nTypes of data masking: static masking (creates a permanently masked copy of the database), dynamic masking (masks data in real-time as it's queried, original remains intact), and on-the-fly masking (masks data during transfer between systems).\n\nKey considerations: referential integrity (masked data should maintain relationships between tables), format preservation (masked credit cards should still look like credit cards), deterministic masking (same input produces same output for consistency), and reversibility (some scenarios require ability to unmask).\n\nUse cases include: development and testing environments (developers work with realistic data without privacy risk), training environments (new employees practice on masked data), analytics and reporting (analyze patterns without exposing individuals), and third-party sharing (share data with vendors without exposing sensitive details).\n\nData masking complements other privacy techniques: it's less rigorous than anonymization (masked data might still be re-identifiable in some cases) but more practical for maintaining data utility in non-production environments.",
+    "tags": [
+        "data-privacy",
+        "security",
+        "data-protection",
+        "testing"
+    ],
+    "category": "Techniques",
+    "icon": "FaEyeSlash",
+    "featured": false,
+    "aliases": [
+        "Data Obfuscation",
+        "Data Scrambling",
+        "Data Redaction"
+    ],
+    "relatedConcepts": [
+        "anonymization",
+        "pseudonymization",
+        "data-privacy",
+        "data-minimization",
+        "encryption"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Data masking - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_masking",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

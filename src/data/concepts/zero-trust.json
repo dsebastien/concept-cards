@@ -1,0 +1,45 @@
+{
+    "id": "zero-trust",
+    "name": "Zero Trust",
+    "summary": "Security model that requires strict verification for every user and device, regardless of network location",
+    "explanation": "Zero Trust is a security model based on the principle 'never trust, always verify.' Unlike traditional security that trusts users inside the network perimeter, Zero Trust assumes breach and verifies every access request as if it originates from an untrusted network. No user, device, or system is inherently trusted, regardless of their location.\n\nThe core tenets of Zero Trust include: verify explicitly (always authenticate and authorize based on all available data points), use least privilege access (limit user access with just-in-time and just-enough-access), and assume breach (minimize blast radius and segment access, verify end-to-end encryption, and use analytics for threat detection).\n\nKey components of Zero Trust architecture include: strong identity verification using multi-factor authentication, device health validation before granting access, micro-segmentation to contain breaches, continuous monitoring and validation throughout sessions, and encryption of all data in transit and at rest.\n\nZero Trust emerged because traditional perimeter-based security fails in modern environments. With cloud computing, remote work, and mobile devices, the network perimeter has dissolved. Attackers who breach the perimeter (through phishing, compromised credentials, or supply chain attacks) traditionally gained broad access. Zero Trust limits this by treating every access request skeptically.\n\nImplementing Zero Trust is a journey, not a single project. Organizations typically start by identifying sensitive data and critical assets, mapping access patterns, implementing strong authentication, then progressively adding verification layers and monitoring.",
+    "tags": [
+        "security",
+        "access-control",
+        "network-security",
+        "architecture"
+    ],
+    "category": "Principles",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Zero Trust Security",
+        "Zero Trust Architecture",
+        "ZTA",
+        "Never Trust Always Verify"
+    ],
+    "relatedConcepts": [
+        "least-privilege",
+        "defense-in-depth",
+        "multi-factor-authentication",
+        "authentication"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Zero trust security model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Zero_trust_security_model",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

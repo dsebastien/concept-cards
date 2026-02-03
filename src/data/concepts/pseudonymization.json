@@ -1,0 +1,46 @@
+{
+    "id": "pseudonymization",
+    "name": "Pseudonymization",
+    "summary": "Replacing personal identifiers with artificial pseudonyms while maintaining the ability to re-identify when needed",
+    "explanation": "Pseudonymization is a data protection technique that replaces directly identifying information (names, emails, IDs) with artificial identifiers (pseudonyms) while keeping a separate, secured mapping that allows re-identification when necessary. Unlike anonymization, pseudonymization is reversible—the original identity can be recovered using the mapping key.\n\nCommon approaches include: consistent replacement (John Smith → User_A847 across all records), tokenization (replacing sensitive data with non-sensitive tokens), encryption-based pseudonyms (using cryptographic functions to generate pseudonyms), and hashing (one-way functions that consistently map the same input to the same output).\n\nUnder GDPR, pseudonymized data is still considered personal data because re-identification is possible. However, pseudonymization is recognized as a valuable security measure that: reduces risk if data is breached (attackers get pseudonyms, not real identities), enables data processing while limiting exposure, supports the principle of data minimization, and allows research and analytics on sensitive datasets.\n\nKey requirements for effective pseudonymization: the mapping key must be stored separately and securely, access to the key should be strictly controlled, the pseudonymization process should be consistent (same input always produces same pseudonym for data linkage), and the technique should be appropriate for the threat model.\n\nUse cases include: clinical trials (patients identified by codes), customer analytics (analyzing behavior without exposing identities), data sharing between departments (HR shares pseudonymized data with analytics), and backup systems (reduce exposure in less-secured backups).\n\nPseudonymization differs from anonymization in reversibility: anonymization permanently removes the ability to identify, while pseudonymization preserves it under controlled conditions.",
+    "tags": [
+        "data-privacy",
+        "security",
+        "compliance",
+        "data-protection"
+    ],
+    "category": "Techniques",
+    "icon": "FaMask",
+    "featured": false,
+    "aliases": [
+        "Pseudonymisation",
+        "Data Pseudonymization"
+    ],
+    "relatedConcepts": [
+        "anonymization",
+        "data-masking",
+        "encryption",
+        "data-minimization",
+        "gdpr",
+        "data-privacy",
+        "privacy-by-design"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Pseudonymization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pseudonymization",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

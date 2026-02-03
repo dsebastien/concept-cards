@@ -1,0 +1,47 @@
+{
+    "id": "anonymization",
+    "name": "Anonymization",
+    "summary": "Permanently removing or altering personal identifiers so individuals cannot be re-identified from the data",
+    "explanation": "Anonymization is the process of irreversibly removing or transforming personal identifiers from data so that individuals can no longer be identified, directly or indirectly. Unlike pseudonymization, true anonymization is permanent—there is no key or method to reverse the process and re-identify individuals.\n\nTechniques for anonymization include: data masking (replacing identifiable values with fictional ones), generalization (replacing specific values with ranges, e.g., exact age becomes age bracket), aggregation (combining individual records into group statistics), data swapping (exchanging values between records), and noise addition (adding random variations to numerical data).\n\nUnder regulations like GDPR, properly anonymized data is no longer considered personal data and falls outside the regulation's scope. However, achieving true anonymization is challenging. Re-identification attacks have succeeded against supposedly anonymous datasets by combining multiple data points or cross-referencing with external data sources.\n\nKey considerations include: the mosaic effect (seemingly anonymous data points can identify individuals when combined), evolving re-identification techniques (what's anonymous today may not be tomorrow), and utility trade-offs (more aggressive anonymization reduces data usefulness for analysis).\n\nStandards like k-anonymity (each record is indistinguishable from at least k-1 others), l-diversity (sensitive attributes have diverse values within groups), and differential privacy (mathematical guarantees against re-identification) help measure anonymization strength.\n\nFor knowledge workers handling data, anonymization is crucial for: sharing datasets for research, publishing statistics without exposing individuals, and reducing regulatory burden when personal identification isn't needed.",
+    "tags": [
+        "data-privacy",
+        "security",
+        "compliance",
+        "data-protection"
+    ],
+    "category": "Principles",
+    "icon": "FaUserSecret",
+    "featured": false,
+    "aliases": [
+        "Data Anonymization",
+        "De-identification",
+        "Anonymous Data"
+    ],
+    "relatedConcepts": [
+        "pseudonymization",
+        "data-masking",
+        "differential-privacy",
+        "data-minimization",
+        "gdpr",
+        "data-privacy",
+        "privacy-by-design"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Data anonymization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_anonymization",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

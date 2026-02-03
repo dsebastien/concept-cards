@@ -1,0 +1,44 @@
+{
+    "id": "differential-privacy",
+    "name": "Differential Privacy",
+    "summary": "Mathematical framework providing provable privacy guarantees by adding calibrated noise to data or query results",
+    "explanation": "Differential Privacy is a rigorous mathematical framework that provides provable privacy guarantees when analyzing or sharing data. The core idea: the output of an analysis should be essentially the same whether or not any single individual's data is included in the dataset. This is achieved by adding carefully calibrated random noise to results.\n\nThe formal guarantee: an algorithm is ε-differentially private if, for any two datasets differing by one person's data, the probability of any output is within a factor of e^ε. The parameter ε (epsilon) controls the privacy-utility trade-off—smaller ε means stronger privacy but noisier results.\n\nKey mechanisms include: Laplace mechanism (adds noise drawn from Laplace distribution for numeric queries), Gaussian mechanism (uses Gaussian noise, useful for multiple queries), exponential mechanism (for non-numeric outputs), and randomized response (individuals randomly lie about sensitive attributes).\n\nImportant properties: composition (privacy degrades predictably across multiple queries), post-processing immunity (any computation on differentially private output remains differentially private), and group privacy (protects groups, though with weaker guarantees than individuals).\n\nReal-world applications: Apple uses differential privacy to collect usage statistics from iPhones without identifying individuals, Google's RAPPOR collects Chrome browser statistics privately, the U.S. Census Bureau used differential privacy for the 2020 Census, and many tech companies use it for analytics.\n\nAdvantages over traditional anonymization: provides mathematical guarantees rather than heuristic protection, protects against arbitrary auxiliary information attacks, and allows quantifying exactly how much privacy is being spent.\n\nLimitations: noise reduces data utility, complex to implement correctly, epsilon selection requires expertise, and may not suit all use cases (especially small datasets where noise overwhelms signal).",
+    "tags": [
+        "data-privacy",
+        "security",
+        "mathematics",
+        "statistics"
+    ],
+    "category": "Techniques",
+    "icon": "FaRandom",
+    "featured": false,
+    "aliases": [
+        "DP",
+        "ε-Differential Privacy",
+        "Epsilon Differential Privacy"
+    ],
+    "relatedConcepts": [
+        "anonymization",
+        "data-privacy",
+        "data-minimization",
+        "privacy-by-design"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Differential privacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Differential_privacy",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}

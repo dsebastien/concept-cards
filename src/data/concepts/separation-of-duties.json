@@ -1,0 +1,44 @@
+{
+    "id": "separation-of-duties",
+    "name": "Separation of Duties",
+    "summary": "Security principle requiring multiple people to complete critical tasks, preventing fraud and errors by one individual",
+    "explanation": "Separation of Duties (SoD), also known as Segregation of Duties, is a security and internal control principle that divides critical functions among different people to prevent fraud, errors, and abuse of power. No single individual should have control over all aspects of any critical transaction or process.\n\nThe principle works by creating checks and balances. For example, in financial systems: one person may initiate a payment, another approves it, and a third reconciles the accounts. In software development: developers write code, but separate reviewers approve it, and different teams handle deployment to production. This division ensures that any malicious or erroneous action requires collusion between multiple parties.\n\nKey applications include: authorization vs. custody (the person who approves transactions shouldn't handle the assets), record-keeping vs. reconciliation (those who record transactions shouldn't verify them), and development vs. operations (those who write code shouldn't have production access without oversight).\n\nSeparation of Duties complements the Principle of Least Privilege. While least privilege limits what any individual can do, separation of duties ensures that sensitive operations require multiple individuals. Together, they create robust access control that protects against both external attacks and insider threats.\n\nImplementation challenges include small teams where perfect separation isn't feasible. In such cases, compensating controls like detailed audit logs, mandatory reviews, and rotation of duties help mitigate risks.",
+    "tags": [
+        "security",
+        "access-control",
+        "internal-controls",
+        "governance"
+    ],
+    "category": "Principles",
+    "icon": "FaUserFriends",
+    "featured": false,
+    "aliases": [
+        "Segregation of Duties",
+        "SoD",
+        "Division of Duties"
+    ],
+    "relatedConcepts": [
+        "least-privilege",
+        "authorization",
+        "defense-in-depth",
+        "four-eyes-principle"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Separation of duties - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Separation_of_duties",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-03",
+    "dateModified": "2026-02-03"
+}
