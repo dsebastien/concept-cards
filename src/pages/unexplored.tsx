@@ -140,7 +140,7 @@ const UnexploredPage: React.FC = () => {
                                         style={{ backgroundColor: 'var(--theme-success-muted)' }}
                                     />
                                 </div>
-                                <span className='font-medium text-success'>100%</span>
+                                <span className='text-success font-medium'>100%</span>
                             </div>
                             <p className='text-primary/60 text-sm'>
                                 {totalConcepts} of {totalConcepts} concepts explored
@@ -226,7 +226,7 @@ const UnexploredPage: React.FC = () => {
                                 style={{ backgroundColor: 'var(--theme-success-muted)' }}
                             />
                         </div>
-                        <span className='w-12 text-right font-medium text-success'>
+                        <span className='text-success w-12 text-right font-medium'>
                             <AnimatedCounter
                                 value={progressPercentage}
                                 delay={0.4}

@@ -61,7 +61,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                     >
                         <ConceptIcon icon={concept.icon} category={concept.category} size='md' />
                         {isExplored && (
-                            <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-success-muted' />
+                            <FaCheckCircle className='text-success-muted absolute -right-1 -bottom-1 h-4 w-4' />
                         )}
                     </div>
 
@@ -75,7 +75,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                                 <FaStar className='text-secondary h-3 w-3 shrink-0' />
                             )}
                             {isExplored && (
-                                <span className='bg-success hidden shrink-0 rounded-full px-2 py-0.5 text-xs text-success sm:inline'>
+                                <span className='bg-success text-success hidden shrink-0 rounded-full px-2 py-0.5 text-xs sm:inline'>
                                     Explored
                                 </span>
                             )}
@@ -149,7 +149,7 @@ const ConceptCard: React.FC<ConceptCardProps> = memo(
                     <div className='flex min-w-0 flex-col items-end gap-1'>
                         {/* Featured/Explored badges - hide on narrow screens (< 320px) */}
                         {isExplored ? (
-                            <span className='bg-success hidden shrink-0 items-center gap-1 rounded-full px-2 py-0.5 text-xs text-success min-[320px]:flex'>
+                            <span className='bg-success text-success hidden shrink-0 items-center gap-1 rounded-full px-2 py-0.5 text-xs min-[320px]:flex'>
                                 <FaCheckCircle className='h-2.5 w-2.5' />
                                 Explored
                             </span>

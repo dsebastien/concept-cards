@@ -354,14 +354,14 @@ const CommandItem: React.FC<CommandItemProps> = ({
             >
                 {command.icon}
                 {isExplored && (
-                    <FaCheckCircle className='absolute -right-1 -bottom-1 h-3.5 w-3.5 text-success-muted' />
+                    <FaCheckCircle className='text-success-muted absolute -right-1 -bottom-1 h-3.5 w-3.5' />
                 )}
             </div>
             <div className='min-w-0 flex-1'>
                 <div className='flex items-center gap-2'>
                     <span className='truncate font-medium'>{command.title}</span>
                     {isExplored && (
-                        <span className='bg-success shrink-0 rounded-full px-1.5 py-0.5 text-xs text-success'>
+                        <span className='bg-success text-success shrink-0 rounded-full px-1.5 py-0.5 text-xs'>
                             Explored
                         </span>
                     )}

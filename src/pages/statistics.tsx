@@ -756,7 +756,7 @@ const StatisticsPage: React.FC = () => {
                                     <Link
                                         key={tag.name}
                                         to={`/tag/${encodeURIComponent(tag.name)}`}
-                                        className='hover:bg-secondary/20 hover:border-secondary/40 cursor-pointer rounded-full border border-white/10 bg-card-subtle px-3 py-1 transition-colors'
+                                        className='hover:bg-secondary/20 hover:border-secondary/40 bg-card-subtle cursor-pointer rounded-full border border-white/10 px-3 py-1 transition-colors'
                                         style={{
                                             fontSize: `${size}rem`,
                                             opacity

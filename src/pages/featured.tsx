@@ -178,21 +178,21 @@ const FeaturedPage: React.FC = () => {
                                 className={`group relative cursor-pointer rounded-xl border bg-gradient-to-br p-6 text-left transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${cardColors[index % cardColors.length]}`}
                             >
                                 <div className='mb-4 flex items-center justify-between'>
-                                    <div className='flex h-12 w-12 items-center justify-center rounded-lg bg-card-subtle-hover'>
+                                    <div className='bg-card-subtle-hover flex h-12 w-12 items-center justify-center rounded-lg'>
                                         <ConceptIcon
                                             icon={concept.icon}
                                             category={concept.category}
                                             size='md'
                                         />
                                     </div>
-                                    <FaArrowRight className='text-primary/40 h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:text-primary/70' />
+                                    <FaArrowRight className='text-primary/40 group-hover:text-primary/70 h-4 w-4 transition-transform group-hover:translate-x-1' />
                                 </div>
                                 <h3 className='mb-1 text-lg font-semibold'>{concept.name}</h3>
                                 <p className='text-primary/60 mb-2 line-clamp-2 text-sm'>
                                     {concept.summary}
                                 </p>
                                 <div className='mt-3 flex items-center gap-2'>
-                                    <span className='rounded-full bg-card-subtle-hover px-2 py-0.5 text-xs text-primary/60'>
+                                    <span className='bg-card-subtle-hover text-primary/60 rounded-full px-2 py-0.5 text-xs'>
                                         {concept.category}
                                     </span>
                                     <FaStar className='h-3 w-3 text-amber-400' />

@@ -158,7 +158,7 @@ const HistoryPage: React.FC = () => {
                             value={historyData.avgPerDay}
                             delay={0.5}
                             formatValue={(v) => v.toFixed(1)}
-                            className='text-2xl font-bold text-success'
+                            className='text-success text-2xl font-bold'
                         />
                         <div className='text-primary/60 text-sm'>Avg per Day</div>
                     </div>
@@ -202,11 +202,17 @@ const HistoryPage: React.FC = () => {
                                         <button
                                             key={concept.id}
                                             onClick={() => handleShowDetails(concept)}
-                                            className={`group relative cursor-pointer rounded-xl border bg-gradient-to-br p-4 text-left transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${cardColors[colorIndex]} ${explored ? 'ring-2 ring-success' : ''}`}
+                                            className={`group relative cursor-pointer rounded-xl border bg-gradient-to-br p-4 text-left transition-all duration-200 hover:scale-[1.02] hover:shadow-lg ${cardColors[colorIndex]} ${explored ? 'ring-success ring-2' : ''}`}
                                         >
                                             {/* Explored badge */}
                                             {explored && (
-                                                <div className='bg-success-muted absolute -top-2 -right-2 flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium text-white shadow-md' style={{ backgroundColor: 'var(--theme-success-muted)' }}>
+                                                <div
+                                                    className='bg-success-muted absolute -top-2 -right-2 flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium text-white shadow-md'
+                                                    style={{
+                                                        backgroundColor:
+                                                            'var(--theme-success-muted)'
+                                                    }}
+                                                >
                                                     <FaCheckCircle className='h-2.5 w-2.5' />
                                                     Explored
                                                 </div>
@@ -221,10 +227,10 @@ const HistoryPage: React.FC = () => {
                                                         size='sm'
                                                     />
                                                     {explored && (
-                                                        <FaCheckCircle className='absolute -right-1 -bottom-1 h-4 w-4 text-success-muted' />
+                                                        <FaCheckCircle className='text-success-muted absolute -right-1 -bottom-1 h-4 w-4' />
                                                     )}
                                                 </div>
-                                                <FaArrowRight className='text-primary/40 h-3 w-3 transition-transform group-hover:translate-x-1 group-hover:text-primary/70' />
+                                                <FaArrowRight className='text-primary/40 group-hover:text-primary/70 h-3 w-3 transition-transform group-hover:translate-x-1' />
                                             </div>
                                             <h3 className='mb-1 line-clamp-1 text-base font-semibold'>
                                                 {concept.name}
@@ -232,7 +238,7 @@ const HistoryPage: React.FC = () => {
                                             <p className='text-primary/60 mb-2 line-clamp-2 text-xs'>
                                                 {concept.summary}
                                             </p>
-                                            <span className='rounded-full bg-card-subtle-hover px-2 py-0.5 text-xs text-primary/60'>
+                                            <span className='bg-card-subtle-hover text-primary/60 rounded-full px-2 py-0.5 text-xs'>
                                                 {concept.category}
                                             </span>
                                         </button>
