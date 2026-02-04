@@ -1,0 +1,84 @@
+{
+    "id": "bottleneck",
+    "name": "Bottleneck",
+    "summary": "A point of congestion in a system that limits overall throughput, where capacity constraints restrict the flow of work or information.",
+    "explanation": "A bottleneck is a constraint point in any system where limited capacity restricts overall throughput. The term comes from the narrow neck of a bottle, which limits how fast liquid can flow regardless of how much is in the bottle. In systems thinking, identifying and addressing bottlenecks is crucial for improving performance.\n\n**Characteristics of Bottlenecks**:\n\n1. **Rate limiting**: They determine the maximum throughput of the entire system\n2. **Queue formation**: Work accumulates before the bottleneck\n3. **Underutilization elsewhere**: Other parts of the system wait idle\n4. **Leverage point**: Improving the bottleneck improves the whole system\n\n**Types of Bottlenecks**:\n\n- **Resource bottlenecks**: Not enough capacity (people, machines, bandwidth)\n- **Process bottlenecks**: Slow steps or approvals in a workflow\n- **Knowledge bottlenecks**: Information or expertise concentrated in few people\n- **Decision bottlenecks**: Approvals required from limited decision-makers\n- **Technical bottlenecks**: System components that can't scale\n\n**Theory of Constraints (TOC)**:\n\nEliyahu Goldratt's framework for managing bottlenecks:\n\n1. **Identify**: Find the constraint limiting throughput\n2. **Exploit**: Maximize utilization of the constraint\n3. **Subordinate**: Align everything else to support the constraint\n4. **Elevate**: Invest to increase constraint capacity\n5. **Repeat**: Once resolved, a new constraint emerges\n\n**Common Organizational Bottlenecks**:\n\n- Founder/CEO who must approve everything (egotistical structure)\n- Single expert with unique knowledge (bus factor)\n- Shared resources with competing demands\n- Sequential processes that could be parallelized\n- Manual steps that could be automated\n\n**In Knowledge Work**:\n\nPersonal bottlenecks include:\n\n- Limited attention and energy\n- Single-threaded processing (you can only do one thing at a time)\n- Dependencies on others' availability\n- Tools that don't scale with your workflow\n\n**Addressing Bottlenecks**:\n\n- Increase capacity at the bottleneck\n- Reduce demand on the bottleneck\n- Parallelize or distribute work\n- Eliminate the bottleneck entirely\n- Accept it as a deliberate constraint\n\nNot all bottlenecks should be removed—sometimes they serve as useful governors. The key is intentionality: know where your bottlenecks are and make conscious choices about them.",
+    "tags": [
+        "systems-thinking",
+        "productivity",
+        "operations",
+        "constraints",
+        "throughput"
+    ],
+    "category": "Systems",
+    "icon": "FaFunnelDollar",
+    "featured": false,
+    "aliases": [
+        "Constraint",
+        "Choke Point"
+    ],
+    "relatedConcepts": [
+        "single-point-of-failure",
+        "egotistical-structure",
+        "bus-factor",
+        "leverage-points"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Bottleneck (production) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bottleneck_(production)",
+            "type": "website"
+        },
+        {
+            "title": "Theory of constraints - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_constraints",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

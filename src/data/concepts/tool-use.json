@@ -1,0 +1,71 @@
+{
+    "id": "tool-use",
+    "name": "Tool Use",
+    "summary": "The ability of AI systems to invoke external tools, APIs, and services to extend their capabilities beyond pure language reasoning.",
+    "explanation": "Tool use (also called function calling or tool augmentation) is the capability of AI systems to interact with external tools, APIs, databases, and services to accomplish tasks that go beyond text generation. Rather than trying to solve everything through language modeling, tool-augmented AI can take actions in the real world.\n\n**Why Tool Use Matters**:\n\nLanguage models have inherent limitations:\n\n- **No real-time information**: Training data has a cutoff date\n- **No computation**: Can make arithmetic errors\n- **No persistence**: Can't save or retrieve information\n- **No actions**: Can't send emails, write files, or interact with systems\n- **No verification**: Can't check if information is current\n\nTool use addresses these limitations by letting AI invoke specialized capabilities.\n\n**Common Tool Categories**:\n\n1. **Information retrieval**: Web search, database queries, file reading\n2. **Computation**: Calculators, code execution, data analysis\n3. **Communication**: Email, messaging, API calls\n4. **File operations**: Reading, writing, editing documents\n5. **System interactions**: Browser automation, shell commands\n6. **Knowledge bases**: Documentation lookup, semantic search\n\n**How Tool Use Works**:\n\n1. AI receives a request it recognizes as needing external capability\n2. AI generates a structured tool call (function name, parameters)\n3. System executes the tool and returns results\n4. AI incorporates results into its response\n5. Process may repeat for multi-step tasks\n\n**Design Considerations**:\n\n- **Tool selection**: AI must choose appropriate tools from available options\n- **Parameter extraction**: AI must identify correct inputs from context\n- **Error handling**: What happens when tools fail?\n- **Chaining**: Complex tasks may require multiple tool calls\n- **Safety**: Some tools have real-world consequences\n\n**Evolution of Tool Use**:\n\n- Simple: Single tools with clear triggers\n- Intermediate: Multiple tools, AI selects appropriate one\n- Advanced: Tool chains, parallel tool use, error recovery\n- Agentic: Autonomous tool use over extended workflows\n\n**In Practice**:\n\nTool use transforms AI from a text generator into an agent that can:\n- Search the web for current information\n- Execute and test code\n- Read and modify files\n- Interact with APIs and services\n- Automate complex workflows",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "function-calling",
+        "augmented-ai",
+        "capabilities"
+    ],
+    "category": "AI",
+    "icon": "FaTools",
+    "featured": false,
+    "aliases": [
+        "Function Calling",
+        "Tool Augmentation",
+        "AI Tool Use"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "agent-skills",
+        "agentic-knowledge-management",
+        "retrieval-augmented-generation",
+        "prompt-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Tool use (AI) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tool_use",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

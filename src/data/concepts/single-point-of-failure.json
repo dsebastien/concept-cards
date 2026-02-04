@@ -1,0 +1,41 @@
+{
+    "id": "single-point-of-failure",
+    "name": "Single Point of Failure",
+    "summary": "A component whose failure would cause the entire system to stop functioning, representing a critical vulnerability in any system design.",
+    "explanation": "A Single Point of Failure (SPOF) is any component in a system whose malfunction would cause the entire system to fail. The concept originates from reliability engineering and systems design, where identifying and eliminating SPOFs is crucial for building robust, fault-tolerant systems.\n\n**Characteristics of SPOFs**:\n\n- **Non-redundant**: No backup or alternative exists\n- **Critical path**: The component lies on every path to system functionality\n- **Cascading impact**: Its failure doesn't just degrade performance—it stops everything\n- **Often hidden**: SPOFs may not be obvious until they fail\n\n**Examples Across Domains**:\n\n1. **Technology**: A single server hosting a critical application, one network switch connecting entire office, sole authentication system\n2. **Organizations**: Key person with unique knowledge (see Bus Factor), single supplier for critical component, one decision-maker for all approvals\n3. **Personal life**: Single income source, one backup location, relying on single tool for critical work\n4. **Infrastructure**: One power line to a facility, single bridge connecting communities\n\n**Mitigation Strategies**:\n\n- **Redundancy**: Multiple instances of critical components (backup servers, multiple suppliers)\n- **Failover systems**: Automatic switching to backup when primary fails\n- **Distributed architecture**: Spread functionality across multiple independent components\n- **Documentation**: Ensure knowledge isn't locked in one person's head\n- **Cross-training**: Multiple people capable of critical tasks\n- **Regular testing**: Verify backup systems actually work\n\n**The SPOF Mindset**:\n\nAsking \"What could fail that would stop everything?\" is a powerful design heuristic. Apply it to:\n\n- Your personal knowledge system (what if that one app disappeared?)\n- Your team's operations (what if that one person left?)\n- Your business (what if that one client left?)\n- Your life (what if that one income source disappeared?)\n\nIdentifying SPOFs before they fail allows proactive mitigation. The goal isn't to eliminate all SPOFs (sometimes impossible or too expensive) but to understand them, monitor them closely, and have contingency plans.",
+    "tags": [
+        "systems-thinking",
+        "risk-management",
+        "reliability",
+        "resilience",
+        "redundancy"
+    ],
+    "category": "Systems",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "SPOF",
+        "Single Point Dependency"
+    ],
+    "relatedConcepts": [
+        "bus-factor",
+        "antifragility",
+        "redundancy",
+        "resilience",
+        "decentralization",
+        "fault-tolerance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Single point of failure - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Single_point_of_failure",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

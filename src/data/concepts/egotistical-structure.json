@@ -1,0 +1,45 @@
+{
+    "id": "egotistical-structure",
+    "name": "Egotistical Structure",
+    "summary": "An organizational design where power, decision-making, and control are concentrated around a single founder or leader, creating dependency on one person.",
+    "explanation": "An egotistical structure is an organizational pattern where the founder, CEO, or central leader becomes the hub through which all significant decisions must flow. While this can enable rapid, coherent decision-making in early stages, it creates fundamental scalability and resilience problems as organizations grow.\n\n**Characteristics**:\n\n1. **Centralized decision-making**: All significant choices require the leader's input or approval\n2. **Hub-and-spoke communication**: Information flows to and from the leader rather than laterally\n3. **Personal loyalty**: Success depends on relationship with the leader rather than organizational processes\n4. **Limited delegation**: The leader struggles to truly delegate authority, only tasks\n5. **Identity fusion**: The organization's identity is inseparable from the leader's\n\n**Why Egotistical Structures Form**:\n\n- Founders who built everything themselves struggle to let go\n- Early success reinforces centralized control\n- Leaders believe (sometimes correctly) that their judgment is superior\n- Lack of trust in team capabilities\n- Organizational culture that rewards access to the leader\n- Fear of loss of control or vision dilution\n\n**Problems They Create**:\n\n- **Single point of failure**: Organization cannot function without the leader\n- **Low bus factor**: Critical knowledge concentrated in one person\n- **Scalability ceiling**: Leader becomes bottleneck as organization grows\n- **Talent attrition**: Capable people leave when they can't exercise judgment\n- **Succession crisis**: No one prepared to take over\n- **Slow decisions**: Everything waits for the leader's attention\n- **Burnout**: Unsustainable workload for the central figure\n\n**Evolution and Resolution**:\n\nHealthy organizations evolve from founder-centric to distributed authority:\n\n1. **Heroic leadership**: Leader does everything (early startup)\n2. **Delegation of tasks**: Leader assigns work but retains all decisions\n3. **Delegation of authority**: Others can make decisions within domains\n4. **Institutional processes**: Systems and culture guide decisions, not individuals\n\n**In Knowledge Work**:\n\nPersonal knowledge systems can also become egotistically structured—entirely dependent on one person's mental context, with no documentation or transferability. Building systems that could theoretically be used by others (even if they won't be) creates more robust, sustainable knowledge infrastructure.",
+    "tags": [
+        "leadership",
+        "organizational-design",
+        "management",
+        "delegation",
+        "scalability"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaCrown",
+    "featured": false,
+    "aliases": [
+        "Founder-Centric Organization",
+        "Hub-and-Spoke Leadership"
+    ],
+    "relatedConcepts": [
+        "bus-factor",
+        "single-point-of-failure",
+        "delegation",
+        "benevolent-dictator",
+        "bottleneck"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The E-Myth Revisited by Michael E. Gerber",
+            "url": "https://www.amazon.com/dp/0887307280?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

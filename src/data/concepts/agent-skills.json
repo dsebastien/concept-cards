@@ -1,0 +1,81 @@
+{
+    "id": "agent-skills",
+    "name": "Agent Skills",
+    "summary": "Discrete, specialized capabilities or tools that AI agents can invoke to accomplish specific tasks within a larger agentic system.",
+    "explanation": "Agent skills are modular capabilities that AI agents can use to perform specific tasks. Rather than trying to handle everything through general reasoning, agents equipped with skills can invoke specialized tools, APIs, or workflows when appropriate, combining general intelligence with domain-specific functionality.\n\n**Anatomy of an Agent Skill**:\n\n1. **Trigger conditions**: When should this skill be invoked? (keywords, patterns, context)\n2. **Inputs**: What information does the skill need?\n3. **Execution logic**: What does the skill actually do?\n4. **Outputs**: What does the skill return?\n5. **Documentation**: How should the agent understand when and how to use it?\n\n**Types of Agent Skills**:\n\n- **Tool skills**: Wrappers around APIs, databases, or external services\n- **Workflow skills**: Multi-step procedures for complex tasks\n- **Knowledge skills**: Access to specialized information or documentation\n- **Transformation skills**: Converting between formats or representations\n- **Integration skills**: Connecting different systems or data sources\n\n**Design Principles**:\n\n1. **Single responsibility**: Each skill should do one thing well\n2. **Clear interfaces**: Unambiguous inputs and outputs\n3. **Graceful degradation**: Handle errors without crashing the agent\n4. **Discoverability**: Skills should be easy for agents to understand and select\n5. **Composability**: Skills should combine well for complex tasks\n6. **Progressive disclosure**: Simple use cases should be simple; complexity available when needed\n\n**Skills vs. General Reasoning**:\n\nSkills are most valuable when:\n\n- Tasks require precise, repeatable procedures\n- External system integration is needed\n- Domain expertise exceeds general model knowledge\n- Speed or reliability is critical\n- Actions have real-world consequences requiring safeguards\n\nGeneral reasoning is better when:\n\n- Tasks are novel or unpredictable\n- Creative problem-solving is needed\n- Context requires flexible interpretation\n- No appropriate skill exists\n\n**Skill Orchestration**:\n\nSophisticated agents don't just use skills—they orchestrate them:\n\n- Selecting appropriate skills for sub-tasks\n- Chaining skills together in sequences\n- Handling skill failures with fallbacks\n- Combining skill outputs with reasoning\n\n**In Practice**:\n\nModern AI coding assistants, browser automation agents, and workflow automation tools all rely heavily on skill architectures. The skill pattern allows extending agent capabilities without retraining models, creating a plugin-like ecosystem for AI functionality.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "automation",
+        "modular-design",
+        "tool-use"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "AI Agent Tools",
+        "Agent Capabilities",
+        "Skill-Based Agents"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "tool-use",
+        "agentic-knowledge-management",
+        "composability",
+        "prompt-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Intelligent agent - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Intelligent_agent",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

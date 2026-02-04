@@ -1,0 +1,80 @@
+{
+    "id": "progressive-context-disclosure",
+    "name": "Progressive Context Disclosure",
+    "summary": "A communication and information design pattern where context and background information is revealed gradually based on need rather than provided all upfront.",
+    "explanation": "Progressive Context Disclosure is the practice of providing context and background information incrementally, based on the recipient's demonstrated need, rather than front-loading all potentially relevant information. It applies the principles of progressive disclosure to the specific challenge of context management in communication, documentation, and AI interactions.\n\n**The Context Overload Problem**:\n\nProviding too much context upfront creates problems:\n\n- **Cognitive overload**: Recipients can't process everything at once\n- **Relevance uncertainty**: Hard to know what matters before engaging with the core content\n- **Time waste**: Much context may never be needed\n- **Attention dilution**: Key points get buried in background\n- **Maintenance burden**: More context means more to keep updated\n\n**How Progressive Context Disclosure Works**:\n\n1. **Start with essentials**: Provide minimum viable context for initial understanding\n2. **Offer expansion points**: Make it clear where more context is available\n3. **Reveal on demand**: Provide deeper context when requested or when engagement indicates need\n4. **Layer appropriately**: Different depths for different audience expertise levels\n\n**Applications**:\n\n- **Documentation**: Executive summary → details → appendices\n- **AI interactions**: Initial prompt → follow-up context as conversation reveals needs\n- **Onboarding**: Need-to-know basics → deeper context as questions arise\n- **Code comments**: What it does → why it's done this way → historical context\n- **Meetings**: Agenda → supporting materials → deep dives as needed\n- **Teaching**: Core concept → nuances → edge cases → historical development\n\n**In AI and LLM Contexts**:\n\nProgressive context disclosure is particularly valuable when working with AI systems:\n\n- Start with focused prompts rather than massive context dumps\n- Add context when the AI's response reveals gaps in understanding\n- Use conversation history as accumulated context\n- Structure reference materials with clear layers of depth\n\n**Benefits**:\n\n- Respects cognitive limits\n- Keeps communication focused\n- Reduces information overload\n- Allows customization to recipient's actual needs\n- More efficient use of attention (human or AI)\n- Easier to maintain than comprehensive upfront documentation\n\n**Relationship to Progressive Disclosure**:\n\nWhile progressive disclosure in UX focuses on interface elements and features, progressive context disclosure specifically addresses the challenge of background information, explanatory content, and situational awareness in communication.",
+    "tags": [
+        "communication",
+        "information-architecture",
+        "documentation",
+        "knowledge-management",
+        "ai-interactions"
+    ],
+    "category": "Communication",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Layered Context",
+        "Context on Demand"
+    ],
+    "relatedConcepts": [
+        "progressive-disclosure",
+        "cognitive-load",
+        "compression-vs-context",
+        "information-architecture",
+        "prompt-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Progressive disclosure - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Progressive_disclosure",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

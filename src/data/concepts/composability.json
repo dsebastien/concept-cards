@@ -1,0 +1,42 @@
+{
+    "id": "composability",
+    "name": "Composability",
+    "summary": "A system design principle where components can be combined and recombined in various ways to build more complex functionality from simpler parts.",
+    "explanation": "Composability is a design principle where system components are built to be combined with other components to create larger, more complex systems. Like LEGO bricks, composable components have standardized interfaces that allow them to connect in many different configurations, enabling flexibility and reuse.\n\n**Characteristics of Composable Systems**:\n\n1. **Modularity**: Components are self-contained with clear boundaries\n2. **Standardized interfaces**: Components connect through consistent, well-defined contracts\n3. **Independence**: Components can be developed, tested, and deployed separately\n4. **Reusability**: Same component works in multiple contexts\n5. **Combinatorial power**: N components can create many more than N configurations\n\n**Examples Across Domains**:\n\n- **Unix philosophy**: Small programs that do one thing well, connected via pipes\n- **Web APIs**: Services that can be combined (payments + shipping + inventory)\n- **React components**: UI elements that compose into complex interfaces\n- **Financial instruments**: Derivatives built from simpler contracts\n- **Music**: Notes combine into chords, chords into progressions, progressions into songs\n\n**Benefits**:\n\n- **Flexibility**: Build new capabilities by recombining existing parts\n- **Reduced complexity**: Understand small pieces, compose large systems\n- **Faster development**: Reuse rather than rebuild\n- **Easier testing**: Test components in isolation\n- **Innovation enablement**: New combinations yield new capabilities\n\n**Design for Composability**:\n\n1. **Clear interfaces**: Define inputs, outputs, and contracts\n2. **Minimal coupling**: Components shouldn't need to know each other's internals\n3. **Consistent conventions**: Similar components should work similarly\n4. **Graceful handling**: Components should handle unexpected inputs reasonably\n5. **Documentation**: Others must understand how to compose your components\n\n**In Knowledge Work**:\n\nComposability applies to personal systems:\n\n- **Atomic notes**: Small ideas that link into larger structures\n- **Templates**: Reusable patterns for common note types\n- **Workflows**: Small habits that chain into routines\n- **Tools**: Applications that integrate via standard formats\n\n**Tradeoffs**:\n\n- Composability adds abstraction overhead\n- Not everything benefits from being composable\n- Over-composition can make simple things complex\n- Standardized interfaces may limit optimization\n\nThe art is knowing when composability's benefits outweigh its costs.",
+    "tags": [
+        "systems-thinking",
+        "software-architecture",
+        "modular-design",
+        "design-principles",
+        "reusability"
+    ],
+    "category": "Software Development",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Compositional Design",
+        "Modular Composition"
+    ],
+    "relatedConcepts": [
+        "atomic-notes",
+        "agent-skills"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "A Philosophy of Software Design by John Ousterhout",
+            "url": "https://www.amazon.com/dp/173210221X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Composability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Composability",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

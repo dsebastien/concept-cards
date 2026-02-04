@@ -1,0 +1,40 @@
+{
+    "id": "redundancy",
+    "name": "Redundancy",
+    "summary": "The inclusion of extra components beyond the minimum necessary, serving as backups to maintain system function when primary components fail.",
+    "explanation": "Redundancy is a design principle where additional resources, components, or pathways are included beyond the strict minimum required for a system to function. These extras serve as backups, ensuring continued operation when primary elements fail. While redundancy adds cost and complexity, it provides resilience against failure.\n\n**Types of Redundancy**:\n\n1. **Hardware redundancy**: Backup servers, RAID storage, multiple network paths\n2. **Information redundancy**: Error-correcting codes, checksums, multiple copies of data\n3. **Time redundancy**: Retry mechanisms, repeated operations\n4. **Human redundancy**: Cross-trained team members, documented procedures\n5. **Process redundancy**: Multiple verification steps, parallel approval paths\n\n**Redundancy Patterns**:\n\n- **Active-active**: Multiple components share load; any can handle full load if others fail\n- **Active-passive**: Standby components activate only when primary fails\n- **N+1**: One extra component beyond minimum needed\n- **2N**: Complete duplicate of entire system\n- **N+M**: M spare components for N required\n\n**Benefits**:\n\n- **Fault tolerance**: System continues despite failures\n- **Graceful degradation**: Partial function rather than complete failure\n- **Maintenance windows**: Update one component while others maintain service\n- **Load distribution**: Spread work across multiple components\n\n**Costs and Tradeoffs**:\n\n- **Expense**: More hardware, storage, or personnel\n- **Complexity**: More components to manage and synchronize\n- **Maintenance burden**: Keep backups updated and tested\n- **False confidence**: Untested backups may not work when needed\n- **Coordination overhead**: Multiple components must stay synchronized\n\n**In Knowledge Work**:\n\nRedundancy applies to personal systems:\n\n- Multiple backups of important files (3-2-1 rule)\n- Ideas captured in multiple places\n- Knowledge documented, not just memorized\n- Skills distributed across team members\n- Multiple tools capable of core functions\n\nThe question isn't whether to have redundancy, but how much and where. Critical systems need more; less critical can accept more risk. Regular testing ensures redundancy actually works when needed.",
+    "tags": [
+        "systems-thinking",
+        "reliability",
+        "resilience",
+        "risk-management",
+        "fault-tolerance"
+    ],
+    "category": "Systems",
+    "icon": "FaClone",
+    "featured": false,
+    "aliases": [
+        "Backup Systems",
+        "Fault Tolerance"
+    ],
+    "relatedConcepts": [
+        "single-point-of-failure",
+        "antifragility",
+        "resilience",
+        "bus-factor",
+        "fault-tolerance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Redundancy (engineering) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Redundancy_(engineering)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}
