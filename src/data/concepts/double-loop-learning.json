@@ -1,0 +1,75 @@
+{
+    "id": "double-loop-learning",
+    "name": "Double-Loop Learning",
+    "summary": "A form of learning that questions and modifies underlying assumptions, values, and goals rather than just adjusting actions within existing frameworks.",
+    "explanation": "Double-loop learning is a concept developed by organizational theorists Chris Argyris and Donald Schön that distinguishes between two fundamentally different types of learning. Understanding this distinction is crucial for deep learning and genuine organizational change.\n\n**Single-loop learning**:\n\nIn single-loop learning, we detect and correct errors without questioning the underlying assumptions, values, policies, or objectives. We ask: 'Are we doing things right?'\n\nExample: A thermostat that turns on heating when temperature drops below a setpoint. It adjusts actions (heating on/off) to achieve a fixed goal (target temperature) but never questions whether the target temperature is appropriate.\n\nIn organizations: Improving efficiency of existing processes, fixing bugs in current systems, meeting established targets better. The fundamental approach remains unchanged.\n\n**Double-loop learning**:\n\nIn double-loop learning, we question and modify the governing values, assumptions, and policies themselves. We ask: 'Are we doing the right things?'\n\nExample: Instead of just adjusting the thermostat, questioning whether the target temperature is appropriate, whether heating is the right approach, or whether the comfort standards themselves should change.\n\nIn organizations: Questioning whether existing goals are worth pursuing, examining assumptions behind strategies, reconsidering fundamental approaches rather than just optimizing within them.\n\n**Why double-loop learning is difficult**:\n\nArgyris identified that individuals and organizations often have 'defensive routines' that prevent double-loop learning:\n\n- **Espoused theory vs. theory-in-use**: We say we're open to learning but act defensively when assumptions are challenged\n- **Self-sealing logic**: Defensive reasoning that protects existing beliefs from challenge\n- **Undiscussables**: Topics that everyone knows are problematic but no one raises\n- **Skilled incompetence**: Being highly skilled at avoiding genuine learning\n- **Organizational defensiveness**: Cultures that punish questioning of fundamental assumptions\n\n**Enabling double-loop learning**:\n\n- **Psychological safety**: Create environments where questioning is welcomed, not punished\n- **Make reasoning explicit**: Share the assumptions and logic behind decisions\n- **Seek disconfirmation**: Actively look for evidence that challenges current beliefs\n- **Encourage productive conflict**: Welcome disagreement about fundamental issues\n- **Reflect on patterns**: Look for recurring problems that might indicate flawed assumptions\n- **External perspectives**: Bring in outsiders who can see what insiders take for granted\n\n**Personal double-loop learning**:\n\nFor individuals, double-loop learning means:\n- Questioning your fundamental goals and values, not just your methods\n- Examining the mental models that guide your behavior\n- Being willing to change not just what you do, but how you think\n- Recognizing when repeated failures indicate a need to reframe the problem\n\n**Examples**:\n\n- Single-loop: Improving your study techniques\n- Double-loop: Questioning whether you're studying the right things for your actual goals\n\n- Single-loop: Getting better at managing your task list\n- Double-loop: Questioning whether your productivity system serves your values\n\n- Single-loop: Improving communication skills\n- Double-loop: Examining assumptions about what communication should achieve\n\nDouble-loop learning is essential for adapting to changing environments, solving persistent problems, and achieving transformative rather than incremental improvement.",
+    "tags": [
+        "learning",
+        "organizational-behavior",
+        "change-management",
+        "reflection",
+        "mental-models"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Second-order learning",
+        "Deutero-learning",
+        "Transformative learning"
+    ],
+    "relatedConcepts": [
+        "reflective-practice",
+        "mental-models",
+        "metacognition",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Organizational Learning II by Chris Argyris and Donald Schön",
+            "url": "https://www.amazon.com/dp/0201629836"
+        }
+    ],
+    "references": [
+        {
+            "title": "Double-loop learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Double-loop_learning",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

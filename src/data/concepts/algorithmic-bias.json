@@ -1,0 +1,81 @@
+{
+    "id": "algorithmic-bias",
+    "name": "Algorithmic Bias",
+    "summary": "Systematic errors in AI and automated systems that create unfair outcomes, often reflecting or amplifying human biases present in training data or design choices.",
+    "explanation": "Algorithmic bias refers to systematic and repeatable errors in computer systems that create unfair outcomes, such as privileging one group over another. As algorithms increasingly make or influence decisions in hiring, lending, criminal justice, healthcare, and countless other domains, understanding and mitigating algorithmic bias has become a critical concern.\n\n**Sources of algorithmic bias**:\n\n**Training data bias**:\n- Historical data reflects past discrimination (e.g., hiring data from when certain groups were excluded)\n- Underrepresentation of minorities in datasets leads to poor performance for those groups\n- Data collection methods may systematically miss certain populations\n- Labels and categories reflect human judgments and biases\n\n**Design and development bias**:\n- Homogeneous development teams may have blind spots\n- Problem framing choices embed assumptions about what matters\n- Feature selection decisions determine what factors influence outcomes\n- Optimization objectives may not align with fairness goals\n\n**Deployment and feedback bias**:\n- Systems may perform differently across contexts than where tested\n- Feedback loops can amplify initial biases over time\n- User behavior can introduce new biases into learning systems\n\n**Notable examples**:\n\n- **Facial recognition**: Higher error rates for darker-skinned faces and women\n- **Hiring algorithms**: Penalizing women or filtering out minority names\n- **Criminal justice**: Risk assessment tools showing racial disparities\n- **Healthcare**: Algorithms underestimating Black patients' needs\n- **Credit scoring**: Perpetuating historical lending discrimination\n- **Search and recommendations**: Reinforcing stereotypes and filter bubbles\n\n**Why algorithmic bias matters**:\n\n- **Scale**: Algorithms make millions of decisions, amplifying harm\n- **Opacity**: 'Black box' systems hide biases from scrutiny\n- **Authority**: Algorithmic decisions may be perceived as objective\n- **Feedback loops**: Biased outputs become biased inputs, compounding effects\n- **Legal liability**: Discriminatory algorithms may violate civil rights laws\n\n**Addressing algorithmic bias**:\n\n- **Diverse teams**: Include perspectives that can identify blind spots\n- **Bias audits**: Test systems for disparate impacts across groups\n- **Fairness metrics**: Explicitly measure and optimize for fairness criteria\n- **Transparency**: Enable inspection and understanding of algorithmic decisions\n- **Human oversight**: Maintain meaningful human review for high-stakes decisions\n- **Regulatory frameworks**: Establish accountability for algorithmic harms\n\n**Challenges**:\n\nDifferent definitions of fairness can be mathematically incompatible. Removing bias from predictions may reduce accuracy. Historical data cannot easily be 'debiased.' Technical solutions alone cannot address structural inequities that algorithms reflect.",
+    "tags": [
+        "ai",
+        "ethics",
+        "fairness",
+        "technology",
+        "discrimination",
+        "machine-learning"
+    ],
+    "category": "AI",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "AI bias",
+        "Machine learning bias",
+        "Algorithm discrimination"
+    ],
+    "relatedConcepts": [
+        "ai-alignment",
+        "ai-safety",
+        "automation-bias",
+        "confirmation-bias",
+        "data-privacy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Weapons of Math Destruction by Cathy O'Neil",
+            "url": "https://www.amazon.com/dp/0553418815"
+        },
+        {
+            "title": "Algorithms of Oppression by Safiya Umoja Noble",
+            "url": "https://www.amazon.com/dp/1479837245"
+        }
+    ],
+    "references": [
+        {
+            "title": "Algorithmic bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

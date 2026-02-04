@@ -1,0 +1,45 @@
+{
+    "id": "separation-of-concerns",
+    "name": "Separation of Concerns",
+    "summary": "A design principle for dividing a system into distinct sections, each addressing a separate concern or responsibility.",
+    "explanation": "Separation of Concerns (SoC) is a fundamental design principle in software engineering that advocates dividing a program into distinct sections, where each section addresses a separate concern. A 'concern' is a set of information or functionality that affects the code—it could be a feature, a behavior, or a cross-cutting aspect like logging or security.\n\n**The core idea**:\n\nRather than mixing different responsibilities together, SoC advocates isolating them so that:\n- Each component does one thing well\n- Changes to one concern don't ripple through unrelated code\n- Components can be developed, tested, and maintained independently\n- The system is easier to understand (you can focus on one concern at a time)\n\n**Examples of separation of concerns**:\n\n**Web development (HTML/CSS/JavaScript)**:\n- HTML handles structure and content\n- CSS handles presentation and styling\n- JavaScript handles behavior and interactivity\n\n**MVC architecture (Model-View-Controller)**:\n- Model: data and business logic\n- View: user interface and presentation\n- Controller: input handling and coordination\n\n**Layered architecture**:\n- Presentation layer (UI)\n- Business logic layer (domain rules)\n- Data access layer (database interactions)\n- Infrastructure layer (external services)\n\n**Microservices**:\n- Each service handles a specific business capability\n- Services communicate through well-defined interfaces\n- Teams can work independently on different services\n\n**Benefits of separation of concerns**:\n\n- **Maintainability**: Changes are localized; fixing the UI doesn't require touching business logic\n- **Testability**: Components can be tested in isolation\n- **Reusability**: Well-separated components can be reused in different contexts\n- **Parallel development**: Teams can work on different concerns simultaneously\n- **Comprehensibility**: Smaller, focused components are easier to understand\n- **Flexibility**: Components can be replaced or upgraded independently\n\n**Challenges and trade-offs**:\n\n- **Initial complexity**: Setting up proper separation requires upfront design effort\n- **Over-engineering**: Too much separation can create unnecessary abstraction layers\n- **Communication overhead**: Separated components need well-defined interfaces\n- **Cross-cutting concerns**: Some concerns (logging, security, caching) naturally span multiple components\n\n**Cross-cutting concerns**:\n\nSome concerns don't fit neatly into one component—they 'cross cut' multiple parts of the system. Examples include:\n- Logging and monitoring\n- Security and authentication\n- Error handling\n- Caching\n- Transaction management\n\nTechniques like Aspect-Oriented Programming (AOP) address cross-cutting concerns by allowing them to be defined separately and applied across the system.\n\n**Relationship to other principles**:\n\nSeparation of Concerns is foundational to many other software principles:\n- **Single Responsibility Principle**: Each class should have one reason to change\n- **Modularity**: Breaking systems into independent modules\n- **Encapsulation**: Hiding implementation details behind interfaces\n- **Don't Repeat Yourself (DRY)**: Centralizing concerns prevents duplication\n\nThe principle extends beyond software to any complex system where managing complexity requires dividing it into manageable, independent parts.",
+    "tags": [
+        "software-design",
+        "architecture",
+        "programming",
+        "best-practices",
+        "modularity"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "SoC",
+        "Concern separation",
+        "Modular design"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "dry-principle",
+        "kiss-principle",
+        "technical-debt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Separation of concerns - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Separation_of_concerns",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

@@ -1,0 +1,89 @@
+{
+    "id": "intentional-friction",
+    "name": "Intentional Friction",
+    "summary": "Deliberately adding obstacles or delays to slow down decisions and actions, promoting more thoughtful engagement and reducing impulsive behavior.",
+    "explanation": "Intentional friction is the deliberate introduction of obstacles, delays, or effort requirements to slow down behavior and promote more thoughtful engagement. While much of design focuses on reducing friction to make actions easier, intentional friction recognizes that some friction is valuable—it can protect us from impulsive decisions, encourage reflection, and improve outcomes.\n\n**Why add friction intentionally?**\n\nIn a world optimized for frictionless engagement, we often act faster than we think. Social media encourages instant reactions, one-click purchasing enables impulse buys, and infinite scroll keeps us consuming mindlessly. Intentional friction is a countermeasure—adding pause points that allow deliberation to catch up with impulse.\n\n**Applications of intentional friction**:\n\n**Personal productivity and habits**:\n- Keeping your phone in another room (distance friction)\n- Using website blockers that require effort to disable\n- Removing social media apps from phone (requiring browser access)\n- 24-hour wait periods before purchases\n- Requiring manual entry of passwords rather than auto-fill for distracting sites\n\n**Digital wellbeing**:\n- Screen time limits with override friction\n- Grayscale mode on phones (reduces visual appeal)\n- Removing infinite scroll (requiring explicit 'load more')\n- Confirmation dialogs before posting on social media\n- Time-delayed sending for emails\n\n**Financial decisions**:\n- Cooling-off periods for large purchases\n- Making savings automatic but spending require effort\n- Requiring multiple approvals for significant expenditures\n- Physical distance from credit cards\n\n**Software and system design**:\n- Confirmation dialogs for destructive actions (delete, format)\n- Two-factor authentication (security friction)\n- Code review requirements before merging\n- Mandatory checklists before deployment\n- Required waiting periods between retries\n\n**Learning and knowledge work**:\n- Requiring note-taking by hand rather than typing (deeper processing)\n- Implementing 'generation before consumption' (writing your thoughts before reading others')\n- Spacing practice sessions (the inconvenience improves retention)\n- Testing yourself before checking answers\n\n**Principles for effective intentional friction**:\n\n1. **Target the moment of decision**: Place friction at the point where impulsive choices happen\n2. **Match friction to stakes**: Higher-stakes decisions warrant more friction\n3. **Make friction proportional**: Too much friction and people give up; too little and it doesn't work\n4. **Allow override**: Good friction slows you down, not stops you entirely\n5. **Apply selectively**: Add friction to undesired behaviors, not everything\n\n**The paradox of friction**:\n\nIntentional friction seems counterintuitive in a culture that celebrates frictionless experiences. But frictionless isn't always better—it depends on whether the behavior being enabled is beneficial. Friction that prevents thoughtless spending, protects attention, or enables reflection serves human flourishing better than smooth paths to regret.\n\n**Relationship to other concepts**:\n\nIntentional friction draws on forcing functions (structures that compel behavior), nudge theory (environment shapes choices), desirable difficulties (productive struggle improves outcomes), and choice architecture (designing decision environments). It's the deliberate application of friction principles for positive ends.",
+    "tags": [
+        "behavioral-design",
+        "productivity",
+        "habits",
+        "decision-making",
+        "self-regulation",
+        "digital-wellbeing"
+    ],
+    "category": "Techniques",
+    "icon": "FaHandPaper",
+    "featured": false,
+    "aliases": [
+        "Deliberate friction",
+        "Productive friction",
+        "Good friction"
+    ],
+    "relatedConcepts": [
+        "friction",
+        "forcing-function",
+        "choice-architecture",
+        "nudge-theory",
+        "desirable-difficulties",
+        "digital-minimalism",
+        "self-regulation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

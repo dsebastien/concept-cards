@@ -1,0 +1,50 @@
+{
+    "id": "design-patterns",
+    "name": "Design Patterns",
+    "summary": "Reusable solutions to commonly occurring problems in software design, providing templates for solving design challenges.",
+    "explanation": "Design patterns are general, reusable solutions to commonly occurring problems in software design. They are not finished designs that can be transformed directly into code, but rather templates or descriptions of how to solve problems that can be used in many different situations. The concept was popularized by the 'Gang of Four' (GoF) book 'Design Patterns: Elements of Reusable Object-Oriented Software' (1994).\n\n**Why design patterns matter**:\n\n- **Shared vocabulary**: Patterns give developers a common language ('Let's use a Factory here')\n- **Proven solutions**: Patterns encode experience and collective wisdom\n- **Faster design**: Recognizing a pattern accelerates problem-solving\n- **Better communication**: Pattern names convey complex ideas succinctly\n- **Learning tool**: Studying patterns teaches design principles\n\n**Categories of design patterns**:\n\n**Creational patterns** deal with object creation:\n- **Singleton**: Ensure a class has only one instance\n- **Factory Method**: Create objects without specifying exact class\n- **Abstract Factory**: Create families of related objects\n- **Builder**: Construct complex objects step by step\n- **Prototype**: Create objects by cloning existing ones\n\n**Structural patterns** deal with composition:\n- **Adapter**: Make incompatible interfaces work together\n- **Bridge**: Separate abstraction from implementation\n- **Composite**: Treat individual objects and compositions uniformly\n- **Decorator**: Add behavior to objects dynamically\n- **Facade**: Provide simplified interface to complex subsystem\n- **Proxy**: Provide placeholder for another object\n\n**Behavioral patterns** deal with communication:\n- **Observer**: Define subscription mechanism for events\n- **Strategy**: Define family of interchangeable algorithms\n- **Command**: Encapsulate requests as objects\n- **Iterator**: Traverse collections without exposing internals\n- **State**: Alter behavior when internal state changes\n- **Template Method**: Define algorithm skeleton, defer steps to subclasses\n\n**Using patterns effectively**:\n\n**Do**:\n- Learn patterns to expand your design vocabulary\n- Use patterns when they naturally fit the problem\n- Adapt patterns to your specific context\n- Use pattern names in documentation and discussion\n\n**Don't**:\n- Force patterns where they don't fit (pattern fever)\n- Use patterns just to seem sophisticated\n- Follow patterns dogmatically without understanding why\n- Over-engineer simple problems with complex patterns\n\n**Beyond GoF patterns**:\n\nDesign patterns extend beyond the original 23:\n- **Architectural patterns**: MVC, MVVM, microservices, event-driven architecture\n- **Concurrency patterns**: Producer-consumer, thread pool, futures\n- **Enterprise patterns**: Repository, Unit of Work, CQRS\n- **Functional patterns**: Monad, functor, higher-order functions\n- **Anti-patterns**: Common bad solutions to avoid (God Object, Spaghetti Code)\n\n**Criticism and evolution**:\n\nSome argue that many GoF patterns are workarounds for language limitations—languages with first-class functions don't need the Strategy pattern, for example. Modern programming paradigms (functional programming, reactive programming) have their own patterns. The key insight remains: recurring problems have recurring solutions worth documenting and sharing.\n\nPatterns are tools, not rules. Understanding them helps you recognize when a well-known solution fits your problem, communicate your design to others, and learn from collective experience—but the goal is solving problems well, not applying patterns for their own sake.",
+    "tags": [
+        "software-design",
+        "programming",
+        "architecture",
+        "best-practices",
+        "object-oriented"
+    ],
+    "category": "Software Development",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Software patterns",
+        "GoF patterns",
+        "Programming patterns"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "separation-of-concerns",
+        "technical-debt",
+        "code-smell"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+            "url": "https://www.amazon.com/dp/0201633612"
+        }
+    ],
+    "references": [
+        {
+            "title": "Software design pattern - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_design_pattern",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

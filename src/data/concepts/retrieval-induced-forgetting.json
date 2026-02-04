@@ -1,0 +1,66 @@
+{
+    "id": "retrieval-induced-forgetting",
+    "name": "Retrieval-Induced Forgetting",
+    "summary": "The phenomenon where retrieving certain memories makes related but unretrieved memories harder to recall later.",
+    "explanation": "Retrieval-induced forgetting (RIF) is a memory phenomenon where the act of remembering some information can actually make related, non-retrieved information harder to recall later. When you practice retrieving certain memories, you inadvertently inhibit access to competing memories that share similar cues or associations.\n\nThis effect was first systematically demonstrated by Michael Anderson and colleagues in 1994 using the retrieval-practice paradigm. In these experiments, participants study category-exemplar pairs (e.g., Fruit-Orange, Fruit-Banana, Fruit-Apple), then practice retrieving only some items from certain categories. Later, when tested on all items, participants show impaired recall for the non-practiced items from practiced categories compared to items from baseline (never-practiced) categories.\n\nThe mechanism behind RIF is thought to involve inhibitory processes. When retrieving a target memory, the brain must suppress competing memories that might interfere with accurate retrieval. This suppression leaves lasting traces, making the inhibited memories temporarily less accessible. The effect is strongest when competitors are strong (well-learned) and when retrieval requires effortful selection among alternatives.\n\nRIF has important implications across several domains:\n\n- **Learning and studying**: Selective review of material can inadvertently weaken memory for related but non-reviewed content. Comprehensive review strategies may be preferable to selective cramming.\n\n- **Eyewitness testimony**: Repeatedly questioning witnesses about specific details may impair their ability to recall other aspects of the event, potentially compromising testimony accuracy.\n\n- **Knowledge management**: When you frequently access certain notes or concepts, you may inadvertently make related notes harder to recall spontaneously. This suggests value in periodic comprehensive reviews rather than always following the same retrieval paths.\n\n- **Expertise development**: Experts may experience RIF when their extensive practice with common cases inhibits recall of rare but important variations.\n\nStrategies to mitigate retrieval-induced forgetting include:\n\n- Using diverse retrieval cues rather than always accessing information the same way\n- Periodically reviewing entire categories of information, not just frequently-used items\n- Creating multiple access paths to important information\n- Being aware that strong memories may be suppressing weaker but relevant alternatives\n- Using external systems to compensate for internal memory limitations",
+    "tags": [
+        "memory",
+        "psychology",
+        "cognitive-science",
+        "learning",
+        "forgetting"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "RIF",
+        "Retrieval-practice effect",
+        "Part-set cuing inhibition"
+    ],
+    "relatedConcepts": [
+        "retrieval",
+        "testing-effect",
+        "memory",
+        "spacing-effect",
+        "forgetting-curve"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Retrieval-induced forgetting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Retrieval-induced_forgetting",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

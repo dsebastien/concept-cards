@@ -1,0 +1,66 @@
+{
+    "id": "context-dependent-memory",
+    "name": "Context-Dependent Memory",
+    "summary": "The phenomenon where memory retrieval is enhanced when the context at recall matches the context during encoding.",
+    "explanation": "Context-dependent memory refers to the improved ability to retrieve information when the external environment at recall matches the environment during original learning. The context becomes encoded as part of the memory trace and serves as a retrieval cue. When you return to the same physical location, hear the same sounds, or experience similar environmental conditions, these contextual cues help activate associated memories.\n\nThe classic demonstration was a study by Godden and Baddeley (1975) where divers learned word lists either underwater or on land. Recall was significantly better when the retrieval environment matched the learning environment - words learned underwater were better recalled underwater, and words learned on land were better recalled on land.\n\n**Types of context effects**:\n\n**Environmental context**: Physical surroundings, room characteristics, ambient sounds, and smells all become associated with memories formed in that setting. This explains why walking into your childhood home can trigger a flood of memories.\n\n**Mental context reinstatement**: Even imagining the original learning context can improve retrieval, which is why police may ask witnesses to mentally return to a crime scene.\n\n**Temporal context**: Memories are tagged with temporal information, and recalling events from a particular time period can cue related memories.\n\n**State-dependent memory** is a related phenomenon where internal states (mood, physiological arousal, drug states) serve as retrieval cues. Information learned while in a particular state is better recalled when in that same state.\n\n**The encoding specificity principle**: More broadly, any aspect of the encoding context that gets incorporated into the memory trace can serve as a retrieval cue. The more overlap between encoding and retrieval conditions, the better the memory performance.\n\n**Practical implications**:\n\n- **Study environment**: If possible, study in conditions similar to where you'll be tested. However, the effect is stronger for recall than recognition tests.\n\n- **Varied learning contexts**: Paradoxically, learning in varied contexts can create memories that are less context-dependent and more flexibly accessible.\n\n- **Mental reinstatement**: When struggling to remember something, try to mentally recreate the context where you learned it.\n\n- **Memory palaces**: The method of loci works partly by providing rich contextual cues through imagined physical locations.\n\n- **Digital PKM**: Unlike biological memory, digital systems aren't context-dependent - notes are equally accessible regardless of where you are. This is both a feature (consistent access) and a limitation (missing contextual triggers).\n\n- **Association building**: Deliberately enriching encoding contexts (using multiple sensory channels, linking to physical locations) can create more retrieval pathways.",
+    "tags": [
+        "memory",
+        "learning",
+        "psychology",
+        "retrieval",
+        "cognitive-science"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Environmental context-dependent memory",
+        "Context reinstatement",
+        "Encoding specificity"
+    ],
+    "relatedConcepts": [
+        "encoding-specificity",
+        "memory",
+        "retrieval",
+        "memory-palace",
+        "state-dependent-memory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Context-dependent memory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Context-dependent_memory",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "memory-consolidation",
+    "name": "Memory Consolidation",
+    "summary": "The process by which newly acquired, fragile memories are transformed into stable, long-lasting memory traces.",
+    "explanation": "Memory consolidation is the process by which initially labile (unstable) memories become stabilized into durable long-term memory traces. This transformation involves both synaptic changes at the cellular level and systems-level reorganization involving multiple brain regions over time.\n\n**Two types of consolidation**:\n\n**Synaptic consolidation** occurs within hours of learning at the cellular level. New memories are initially encoded through changes in synaptic strength, but these traces are fragile and can be disrupted. Through protein synthesis and synaptic remodeling, these connections are stabilized. This is why cramming right before sleep can be effective - the brain consolidates recently encoded information during sleep.\n\n**Systems consolidation** unfolds over much longer periods - weeks, months, or even years. Memories initially dependent on the hippocampus gradually become represented in neocortical networks. The hippocampus acts as a temporary index, binding together distributed cortical representations. Over time, direct cortical-cortical connections strengthen, reducing hippocampal dependence.\n\n**Sleep and consolidation**: Sleep plays a crucial role in memory consolidation. During slow-wave sleep, recently encoded hippocampal memories are \"replayed\" and transferred to cortical storage. REM sleep may be particularly important for procedural and emotional memory consolidation. Sleep deprivation impairs consolidation, while naps after learning enhance retention.\n\n**Reconsolidation**: When memories are retrieved, they temporarily return to a labile state and must be reconsolidated. This reconsolidation window provides opportunities for memory modification - memories can be strengthened, weakened, or updated during this period. This has implications for treating traumatic memories and for understanding why memories change over time.\n\n**Factors affecting consolidation**:\n- **Emotional arousal**: Emotionally significant events are often better consolidated, mediated by stress hormones affecting the amygdala\n- **Sleep**: Critical for consolidation; sleep deprivation impairs memory formation\n- **Spaced practice**: Distributed learning allows consolidation between sessions\n- **Interference**: New learning shortly after encoding can disrupt consolidation\n- **Exercise**: Physical activity may enhance consolidation processes\n\n**Implications for learning and PKM**:\n- **Allow time for consolidation**: Don't expect immediate mastery; memories need time to stabilize\n- **Prioritize sleep**: Sleep after learning is not laziness but essential processing time\n- **Space your learning**: Interleaved practice sessions allow consolidation between sessions\n- **Review strategically**: Retrieval during reconsolidation can strengthen memories\n- **Be patient with complex material**: Systems consolidation for deep understanding takes time",
+    "tags": [
+        "memory",
+        "neuroscience",
+        "learning",
+        "sleep",
+        "cognitive-science",
+        "psychology"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Memory stabilization",
+        "Consolidation",
+        "Synaptic consolidation"
+    ],
+    "relatedConcepts": [
+        "memory",
+        "spacing-effect",
+        "sleep-architecture",
+        "forgetting-curve",
+        "spaced-repetition"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Memory consolidation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Memory_consolidation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "debiasing",
+    "name": "Debiasing",
+    "summary": "Strategies and techniques designed to reduce or eliminate the impact of cognitive biases on judgment and decision-making.",
+    "explanation": "Debiasing refers to methods aimed at reducing the influence of cognitive biases on human judgment and decision-making. While cognitive biases are deeply rooted in how our minds process information, research has identified various techniques that can mitigate their effects, though complete elimination remains elusive.\n\n**Why debiasing is difficult**:\n\n- **Automatic processing**: Many biases operate unconsciously and automatically\n- **Bias blind spot**: We see biases in others more easily than in ourselves\n- **Motivated reasoning**: We often want to believe biased conclusions\n- **Context dependence**: A technique that works in one situation may fail in another\n- **Effort requirements**: Deliberate thinking is effortful; shortcuts are appealing\n\n**Categories of debiasing strategies**:\n\n**Cognitive strategies** (changing how individuals think):\n\n- **Consider the opposite**: Actively generate reasons why your initial judgment might be wrong\n- **Take the outside view**: Use base rates and reference classes rather than case-specific details\n- **Pre-mortem analysis**: Imagine the decision failed and explain why\n- **Perspective-taking**: Imagine how others with different views would see the situation\n- **Slow down**: Create friction between impulse and action to engage deliberate thinking\n- **Make beliefs pay rent**: Ask what evidence would change your mind\n- **Probabilistic thinking**: Express beliefs as probabilities rather than certainties\n\n**Environmental/structural strategies** (changing the decision context):\n\n- **Checklists**: Ensure systematic consideration of relevant factors\n- **Decision procedures**: Structured processes that force consideration of alternatives\n- **Accountability**: Knowing you'll explain your reasoning to others increases care\n- **Diverse teams**: Different perspectives catch different blind spots\n- **Devil's advocates**: Assign someone to argue the opposing view\n- **Blind evaluation**: Remove irrelevant information that might bias judgment\n- **Choice architecture**: Design environments that nudge toward better decisions\n\n**Feedback-based strategies**:\n\n- **Prediction tracking**: Record predictions and compare to outcomes\n- **Calibration training**: Practice with feedback on confidence accuracy\n- **Fast feedback loops**: Immediate consequences reveal errors\n- **Post-decision reviews**: Systematically analyze decisions and outcomes\n\n**What research shows**:\n\n- **Education about biases has limited effect**: Knowing about a bias doesn't necessarily prevent it\n- **Practice helps more than knowledge**: Active training with feedback is more effective than lectures\n- **Some biases are harder to debias**: Motivated biases and automatic processes resist intervention\n- **Structural changes often outperform individual effort**: Changing the environment is often more effective than trying to change minds\n- **Effects can be temporary**: Debiasing techniques may wear off without ongoing practice\n\n**Realistic expectations**:\n\nComplete debiasing is probably impossible—biases are deeply embedded in cognition. The goal is harm reduction: identifying situations where biases cause the most damage and applying appropriate countermeasures. Perfect rationality is not achievable, but better decisions are.\n\n**Organizational debiasing**:\n\nOrganizations can institutionalize debiasing through:\n- Decision-making protocols that require consideration of alternatives\n- Diverse teams and red teams\n- Separation of advocacy and evaluation roles\n- Systematic tracking of predictions and outcomes\n- Cultures that reward changing one's mind in light of evidence\n\nEffective debiasing combines self-awareness (knowing your vulnerabilities), structural supports (systems that catch errors), and deliberate practice (building better thinking habits over time).",
+    "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "rationality",
+        "psychology",
+        "critical-thinking"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Bias mitigation",
+        "Cognitive debiasing",
+        "Bias correction"
+    ],
+    "relatedConcepts": [
+        "cognitive-biases",
+        "metacognition",
+        "critical-thinking",
+        "calibration",
+        "decision-making"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555"
+        }
+    ],
+    "references": [
+        {
+            "title": "Debiasing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Debiasing",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

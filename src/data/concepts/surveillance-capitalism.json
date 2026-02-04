@@ -1,0 +1,52 @@
+{
+    "id": "surveillance-capitalism",
+    "name": "Surveillance Capitalism",
+    "summary": "An economic system built on the extraction and commodification of personal data to predict and influence human behavior for profit.",
+    "explanation": "Surveillance capitalism, a term coined by scholar Shoshana Zuboff, describes an economic system in which human experience is claimed as free raw material for translation into behavioral data. While some of this data is used to improve products and services, a surplus is fed into advanced manufacturing processes known as 'machine intelligence' to produce predictions about human behavior that are sold in 'behavioral futures markets.'\n\n**The surveillance capitalism cycle**:\n\n1. **Extraction**: Collect vast amounts of behavioral data from users, often without meaningful consent or awareness\n2. **Analysis**: Process data using machine learning to identify patterns and predict behavior\n3. **Prediction products**: Package predictions about what users will do, think, want, or buy\n4. **Behavioral futures markets**: Sell predictions to business customers (advertisers, insurers, employers)\n5. **Behavior modification**: Increasingly, shape behavior to make predictions more accurate and valuable\n\n**Key characteristics**:\n\n- **Asymmetry of knowledge**: Companies know almost everything about users; users know almost nothing about what companies know\n- **Unilateral claiming**: Data extraction happens without genuine consent or fair exchange\n- **Behavioral modification**: The goal shifts from prediction to actual influence over behavior\n- **Inevitability rhetoric**: Presented as natural technological progress rather than deliberate economic choice\n- **Network effects**: Platforms become inescapable, making opting out practically impossible\n\n**Origins and spread**:\n\nGoogle pioneered surveillance capitalism when it discovered that 'data exhaust' from searches could predict ad clicks. Facebook refined it with social graph data. The model has spread to nearly every sector: smart devices, cars, cities, healthcare, education, and finance all increasingly operate on surveillance capitalist logic.\n\n**Harms and concerns**:\n\n- **Privacy erosion**: Intimate details of life are recorded and analyzed\n- **Autonomy threats**: Behavioral modification undermines free will and self-determination\n- **Democracy risks**: Micro-targeted manipulation can distort political processes\n- **Inequality**: Creates unprecedented concentrations of knowledge and power\n- **Psychological manipulation**: Exploits cognitive vulnerabilities for profit\n\n**Relationship to enshittification**:\n\nSurveillance capitalism provides the economic engine that drives enshittification. Platforms degrade because the real customers are advertisers buying behavioral predictions, not users. User experience is sacrificed to extract more behavioral surplus.\n\n**Responses and alternatives**:\n\n- **Regulation**: GDPR, CCPA, and proposed laws attempt to constrain data extraction\n- **Privacy tools**: VPNs, ad blockers, and privacy-focused alternatives\n- **Business model alternatives**: Subscription services, cooperatives, public options\n- **Awareness**: Understanding the system is the first step to resisting it",
+    "tags": [
+        "technology",
+        "privacy",
+        "economics",
+        "data",
+        "platforms",
+        "capitalism"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Data capitalism",
+        "Platform capitalism",
+        "Behavioral capitalism"
+    ],
+    "relatedConcepts": [
+        "enshittification",
+        "attention-economy",
+        "data-privacy",
+        "filter-bubble",
+        "network-effects"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Age of Surveillance Capitalism by Shoshana Zuboff",
+            "url": "https://www.amazon.com/dp/1610395697"
+        }
+    ],
+    "references": [
+        {
+            "title": "Surveillance capitalism - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Surveillance_capitalism",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

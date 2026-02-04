@@ -1,0 +1,65 @@
+{
+    "id": "state-dependent-memory",
+    "name": "State-Dependent Memory",
+    "summary": "The phenomenon where information learned in a particular internal state is best retrieved when in that same state.",
+    "explanation": "State-dependent memory is the finding that memory retrieval is enhanced when an individual's internal state at recall matches their state during encoding. Internal states include mood, physiological arousal, drug-induced states, and even physical states like body position. The internal state becomes part of the memory trace and serves as an implicit retrieval cue.\n\n**Evidence and examples**:\n\n- **Drug state dependency**: Early research showed that information learned under the influence of alcohol or other substances was better recalled when in the same drugged state - not because the drug improved memory, but because the drug state served as a retrieval cue.\n\n- **Mood-dependent memory**: Information encoded while happy is more accessible when happy; information encoded while sad is more accessible when sad. This contributes to the persistence of depression - negative thoughts access other negative memories, creating downward spirals.\n\n- **Arousal states**: High-arousal states during learning can make memories harder to access during calm states, and vice versa.\n\n- **Physical states**: Some research suggests even body positions can serve as memory cues, with information better recalled in the position used during learning.\n\n**Mechanisms**:\n\nThe internal state provides additional retrieval cues that were encoded along with the target information. When the state matches, more cues are available to activate the memory network. Neurobiologically, emotional and physiological states affect neurotransmitter levels and brain activity patterns, which become associated with memories formed during those states.\n\n**Relationship to mood congruence**:\n\nState-dependent memory (same state at encoding and retrieval) should be distinguished from mood-congruent memory (tendency to recall material consistent with current mood). Both phenomena can operate simultaneously, affecting what we remember and how easily we access different memories.\n\n**Implications**:\n\n- **Learning consistency**: Major state changes between learning and testing can impair recall. This is one reason why being anxious during an exam can hurt performance - the high-anxiety state doesn't match the calmer learning state.\n\n- **Depression and memory**: Depressed states preferentially access negative memories encoded during previous depressive episodes, potentially deepening the depression.\n\n- **Therapy applications**: Understanding state dependency helps explain why insights gained in therapy sessions may be harder to access in everyday triggering situations - the states don't match.\n\n- **Study strategies**: Simulating test conditions (including stress levels) during practice may improve performance by matching states.\n\n- **Memory biases**: Our current state shapes which memories are most accessible, potentially distorting our perception of the past.\n\n- **Practical retrieval**: When struggling to remember something, try to recreate not just the external context but your internal state at the time of encoding.",
+    "tags": [
+        "memory",
+        "psychology",
+        "emotions",
+        "learning",
+        "cognitive-science"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "State-dependent learning",
+        "Mood-dependent memory",
+        "Drug state-dependent memory"
+    ],
+    "relatedConcepts": [
+        "context-dependent-memory",
+        "memory",
+        "encoding-specificity",
+        "mood-congruent-memory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "State-dependent memory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/State-dependent_memory",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

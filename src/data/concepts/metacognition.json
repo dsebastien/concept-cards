@@ -1,25 +1,34 @@
 {
     "id": "metacognition",
     "name": "Metacognition",
-    "summary": "Thinking about thinking - awareness and understanding of one's own thought processes.",
-    "explanation": "Metacognition is thinking about thinking - the awareness and understanding of one's own thought processes. It involves monitoring your comprehension, recognizing when you don't understand something, and knowing which strategies help you learn best. Metacognitive skills are essential for effective learning and PKM. They help you choose appropriate note-taking strategies, identify knowledge gaps, and optimize your learning process.",
+    "summary": "Thinking about thinking - the awareness, understanding, and regulation of one's own cognitive processes.",
+    "explanation": "Metacognition is cognition about cognition, or thinking about thinking. It encompasses the awareness, understanding, and active regulation of one's own thought processes. The term was introduced by developmental psychologist John Flavell in the 1970s, though the concept has roots in ancient philosophical traditions of self-examination.\n\n**Two core components**:\n\n**Metacognitive knowledge** is what you know about cognition:\n- **Person knowledge**: Understanding your own cognitive strengths, weaknesses, and tendencies (I learn better visually; I tend to rush through problems)\n- **Task knowledge**: Understanding what different tasks require (this problem needs careful analysis; this text requires slow reading)\n- **Strategy knowledge**: Knowing which cognitive strategies work for which situations (use mnemonics for lists; draw diagrams for spatial problems)\n\n**Metacognitive regulation** is how you control cognition:\n- **Planning**: Selecting strategies and allocating resources before a task\n- **Monitoring**: Tracking comprehension and performance during a task (Do I understand this? Am I making progress?)\n- **Evaluating**: Assessing outcomes and strategy effectiveness after a task\n- **Debugging**: Identifying and correcting errors in thinking\n\n**Why metacognition matters**:\n\nResearch consistently shows that metacognitive skills are among the strongest predictors of learning success, often more important than raw intelligence. Students who monitor their understanding, recognize confusion early, and adapt their strategies outperform those who study passively without self-reflection.\n\nMetacognition enables:\n- Identifying what you don't know (crucial for addressing knowledge gaps)\n- Choosing appropriate learning strategies for different material\n- Recognizing when comprehension is failing and taking corrective action\n- Calibrating confidence to actual knowledge (avoiding overconfidence)\n- Transferring learning strategies across domains\n\n**Metacognition in knowledge management**:\n\nEffective PKM is inherently metacognitive. It requires:\n- Knowing what you know and where to find it\n- Recognizing what's worth capturing vs. what to let go\n- Choosing appropriate note structures for different content\n- Monitoring whether your system serves your needs\n- Reflecting on and improving your processes\n\n**Developing metacognition**:\n\n- **Self-questioning**: Regularly ask yourself what you understand, what confuses you, and what strategies you're using\n- **Reflection practices**: Journaling, after-action reviews, and deliberate reflection build metacognitive awareness\n- **Prediction and testing**: Predict your performance before testing yourself to calibrate self-assessment\n- **Think-aloud**: Verbalizing your thinking process reveals implicit strategies and errors\n- **Seek feedback**: External feedback helps correct blind spots in self-assessment\n\nMetacognition is not fixed—it can be developed through deliberate practice. The investment pays dividends across all cognitive endeavors, making you a more effective learner, thinker, and knowledge worker.",
     "tags": [
         "cognition",
-        "concepts",
         "learning",
-        "thinking"
+        "thinking",
+        "psychology",
+        "self-awareness",
+        "cognitive-science"
     ],
     "category": "Thinking",
     "icon": "FaBrain",
     "featured": false,
     "aliases": [
-        "Meta-learning",
-        "Thinking about thinking"
+        "Thinking about thinking",
+        "Metacognitive awareness",
+        "Cognitive self-regulation"
     ],
     "relatedConcepts": [
         "growth-mindset",
         "learning-curve",
-        "unconscious-bias-training"
+        "metamemory",
+        "self-regulation",
+        "reflective-thinking",
+        "dunning-kruger-effect",
+        "executive-functions",
+        "self-awareness",
+        "introspection"
     ],
     "relatedNotes": [],
     "articles": [],
@@ -57,6 +66,16 @@
         {
             "title": "Clarity 101 Workshop",
             "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
             "type": "other"
         }
     ],

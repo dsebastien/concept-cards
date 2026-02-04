@@ -1,0 +1,57 @@
+{
+    "id": "automation-complacency",
+    "name": "Automation Complacency",
+    "summary": "Reduced vigilance and monitoring when relying on automated systems, leading to failure to detect errors or malfunctions.",
+    "explanation": "Automation complacency is the tendency for human operators to reduce their vigilance and attention when working with automated systems that normally function reliably. Unlike automation bias (trusting automation too much), complacency specifically refers to the reduced monitoring that develops over time as operators come to expect consistent automated performance.\n\n**How complacency develops**:\n\n1. **Initial trust building**: Operators observe that the automated system works reliably\n2. **Attention reallocation**: Operators redirect attention to other tasks or disengage mentally\n3. **Monitoring reduction**: Checks of automated outputs become cursory or infrequent\n4. **Skill degradation**: Manual skills needed to detect or handle failures atrophy\n5. **Vulnerability**: When rare failures occur, operators are unprepared to detect or respond\n\n**The automation paradox**:\n\nAutomation complacency creates a dangerous paradox: the more reliable an automated system, the less operators monitor it, and the less prepared they are when it fails. Highly reliable automation may actually increase risk by creating false confidence and degrading human backup capabilities.\n\n**Examples across domains**:\n\n- **Aviation**: Pilots on autopilot may miss warning signs until situations become critical\n- **Driving**: Semi-autonomous vehicle features create inattention that leads to accidents\n- **Healthcare**: Automated monitoring may be ignored until alarms sound\n- **Finance**: Automated trading systems may not be monitored until dramatic failures\n- **AI assistants**: Users may accept AI outputs without verification as trust builds\n\n**Factors that increase complacency**:\n\n- Long periods of reliable automated performance\n- Low workload that doesn't require continuous engagement\n- Trust in the automation's capabilities\n- Competing demands for attention\n- Lack of consequences for past lapses in monitoring\n- Poor feedback about automation state and confidence\n\n**Mitigating automation complacency**:\n\n- **Adaptive automation**: Varying automation levels to maintain engagement\n- **Attention prompts**: Requiring periodic human input or acknowledgment\n- **Uncertainty display**: Showing automation confidence levels to calibrate trust\n- **Training**: Regular practice with manual skills and failure scenarios\n- **Task design**: Keeping humans meaningfully in the loop, not just monitoring\n- **Organizational culture**: Valuing vigilance even when automation performs well\n\n**Implications for AI**:\n\nAs AI systems become more capable and reliable, automation complacency poses increasing risks. Users who rarely see AI errors may become unable to recognize them. Maintaining appropriate skepticism and verification habits becomes crucial as AI handles more consequential tasks.",
+    "tags": [
+        "cognitive-biases",
+        "automation",
+        "psychology",
+        "safety",
+        "technology",
+        "human-factors"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Complacency bias",
+        "Automation-induced complacency",
+        "Vigilance decrement"
+    ],
+    "relatedConcepts": [
+        "automation-bias",
+        "automation-paradox",
+        "cognitive-debt",
+        "skill-atrophy",
+        "human-in-the-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Automation complacency - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Automation_complacency",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

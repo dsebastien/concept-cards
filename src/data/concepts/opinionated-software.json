@@ -1,0 +1,40 @@
+{
+    "id": "opinionated-software",
+    "name": "Opinionated Software",
+    "summary": "Software that prescribes a particular way of doing things, making design decisions for users rather than offering maximum flexibility.",
+    "explanation": "Opinionated software is software that has strong opinions about how things should be done. Rather than offering maximum flexibility and configuration options, opinionated software makes decisions for you, prescribing particular patterns, structures, and workflows. The opposite is 'unopinionated' or 'flexible' software that provides building blocks without dictating how to use them.\n\n**Characteristics of opinionated software**:\n\n- **Prescriptive**: Has a 'right way' to do things\n- **Convention-based**: Relies on conventions rather than configuration\n- **Guided experience**: Leads users down established paths\n- **Fewer choices**: Limits options to curated best practices\n- **Integrated**: Components designed to work together in specific ways\n\n**Examples**:\n\n**Opinionated**:\n- **Ruby on Rails**: Strong conventions for file structure, naming, database mapping\n- **Next.js**: File-based routing, specific patterns for data fetching\n- **Angular**: Prescribed architecture with modules, components, services\n- **Obsidian Starter Kit**: Defined folder structure and workflow patterns\n- **Apple ecosystem**: Curated, controlled experience with limited customization\n\n**Unopinionated**:\n- **Express.js**: Minimal framework, structure your app however you want\n- **React**: UI library without prescribed patterns for state, routing, or structure\n- **Vim**: Infinitely configurable to match any workflow\n- **Linux**: Maximum flexibility, minimal assumptions\n\n**Benefits of opinionated software**:\n\n- **Faster onboarding**: New users don't need to make foundational decisions\n- **Reduced decision fatigue**: Fewer choices means less cognitive load\n- **Consistency**: Projects using the same framework look similar\n- **Best practices built in**: Opinions often encode industry wisdom\n- **Community knowledge**: Documentation and help assume the standard approach\n- **Focus on domain problems**: Less time on tooling decisions\n\n**Drawbacks of opinionated software**:\n\n- **Fighting the framework**: Deviating from opinions can be painful\n- **Lock-in**: Deep integration makes switching costly\n- **Learning curve for opinions**: Must learn the framework's way, not just the language\n- **Not always optimal**: Opinions may not suit your specific needs\n- **Hidden complexity**: Magic can obscure what's actually happening\n\n**When to choose opinionated software**:\n\n- Starting new projects without strong existing conventions\n- Teams with varying experience levels (opinions provide guardrails)\n- When you agree with the opinions (they match your preferences)\n- Rapid prototyping where speed matters more than flexibility\n- Domains where best practices are well-established\n\n**When to choose unopinionated software**:\n\n- Unique requirements that don't fit standard patterns\n- Strong existing architecture that new tools must fit into\n- Teams with deep expertise who have their own proven approaches\n- Need for maximum flexibility and customization\n- Learning purposes (understanding fundamentals, not abstractions)\n\n**The spectrum**:\n\nMost software falls on a spectrum rather than being purely opinionated or unopinionated. The key is matching the software's opinions to your needs and being aware of the trade-offs. Good opinionated software makes it easy to follow the happy path while providing escape hatches when you need to deviate.",
+    "tags": [
+        "software-design",
+        "frameworks",
+        "programming",
+        "developer-experience",
+        "architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaCog",
+    "featured": false,
+    "aliases": [
+        "Opinionated frameworks",
+        "Prescriptive software",
+        "Convention-based software"
+    ],
+    "relatedConcepts": [
+        "convention-over-configuration",
+        "kiss-principle",
+        "dry-principle",
+        "technical-debt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

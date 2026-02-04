@@ -1,0 +1,66 @@
+{
+    "id": "calibration",
+    "name": "Calibration",
+    "summary": "The alignment between confidence in one's judgments and actual accuracy, reflecting how well subjective certainty matches objective correctness.",
+    "explanation": "Calibration refers to the correspondence between subjective confidence and objective accuracy. A well-calibrated person's confidence levels match their actual performance: when they say they're 80% sure, they're right about 80% of the time. Calibration is a key component of epistemic rationality and effective decision-making.\n\n**Understanding calibration**:\n\nImagine making 100 predictions, each with an associated confidence level. For a well-calibrated person:\n- Predictions made with 50% confidence should be correct about 50 times\n- Predictions made with 90% confidence should be correct about 90 times\n- Predictions made with 99% confidence should be correct about 99 times\n\nMiscalibration occurs when confidence systematically deviates from accuracy:\n\n**Overconfidence**: Believing you're more accurate than you are\n- Saying you're 90% confident when you're only right 70% of the time\n- This is the most common form of miscalibration\n- Leads to insufficient hedging, inadequate preparation, and poor risk assessment\n\n**Underconfidence**: Believing you're less accurate than you are\n- Saying you're 60% confident when you're actually right 80% of the time\n- Less common but can lead to excessive caution and missed opportunities\n\n**Why calibration matters**:\n\n- **Better decisions**: Accurate confidence allows appropriate risk-taking\n- **Effective communication**: Others can rely on your stated certainties\n- **Learning efficiency**: Knowing what you don't know focuses learning efforts\n- **Credibility**: Well-calibrated people earn trust over time\n- **Avoiding disasters**: Overconfidence contributes to catastrophic failures\n\n**Calibration in practice**:\n\n**Domain specificity**: People may be well-calibrated in familiar domains but poorly calibrated in unfamiliar ones. Experts are often better calibrated within their expertise.\n\n**The hard-easy effect**: People tend to be overconfident on hard questions and underconfident on easy ones. Calibration is best for medium-difficulty items.\n\n**Confidence intervals**: When estimating quantities, people typically make intervals too narrow. Asked for a 90% confidence interval, people often capture the true value only 50% of the time.\n\n**Improving calibration**:\n\n- **Track predictions**: Record predictions with confidence levels and check accuracy over time\n- **Feedback**: Immediate, clear feedback enables calibration improvement\n- **Consider alternatives**: Actively thinking about how you could be wrong reduces overconfidence\n- **Reference classes**: Compare to base rates and similar past cases\n- **Practice with calibration training**: Games and exercises that provide feedback on calibration\n- **Probabilistic thinking**: Express beliefs as probabilities rather than certainties\n- **Pre-mortems**: Imagine failure and explain why it happened\n\n**Calibration and metacognition**:\n\nCalibration is a metacognitive skill—it requires monitoring the relationship between your beliefs and reality. Well-calibrated metamemory (knowing what you know) is essential for effective learning and knowledge management. If you can't accurately assess what you know, you can't efficiently direct your learning efforts.\n\n**Organizational implications**:\n\nPoorly calibrated forecasts and risk assessments have contributed to financial crises, engineering disasters, and strategic failures. Organizations benefit from fostering calibration through prediction markets, tracking forecast accuracy, and rewarding honest uncertainty over false confidence.",
+    "tags": [
+        "decision-making",
+        "rationality",
+        "psychology",
+        "forecasting",
+        "metacognition",
+        "epistemology"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Epistemic calibration",
+        "Confidence calibration",
+        "Probability calibration"
+    ],
+    "relatedConcepts": [
+        "metacognition",
+        "overconfidence-effect",
+        "dunning-kruger-effect",
+        "probabilistic-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Superforecasting by Philip Tetlock",
+            "url": "https://www.amazon.com/dp/0804136718"
+        }
+    ],
+    "references": [
+        {
+            "title": "Calibrated probability assessment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Calibrated_probability_assessment",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

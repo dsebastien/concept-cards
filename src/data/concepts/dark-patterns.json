@@ -1,0 +1,43 @@
+{
+    "id": "dark-patterns",
+    "name": "Dark Patterns",
+    "summary": "Deceptive user interface designs that trick users into unintended actions, such as subscribing, purchasing, or sharing data they didn't mean to.",
+    "explanation": "Dark patterns are user interface design choices crafted to manipulate users into taking actions they didn't intend or wouldn't choose if fully informed. Coined by UX designer Harry Brignull in 2010, the term describes deceptive practices that exploit cognitive biases and psychological vulnerabilities for commercial gain.\n\n**Common dark patterns**:\n\n**Trick questions**: Confusing wording that leads users to select options they didn't intend (double negatives, unclear language).\n\n**Sneak into basket**: Adding items to shopping carts without explicit consent, hoping users won't notice at checkout.\n\n**Roach motel**: Making it easy to get into a situation (subscribe, sign up) but hard to get out (cancellation requires phone calls, hidden unsubscribe links).\n\n**Privacy Zuckering**: Named after Mark Zuckerberg—confusing privacy settings that lead users to share more data than intended.\n\n**Misdirection**: Using visual design to draw attention away from important information (large 'Accept' buttons, tiny 'Decline' links).\n\n**Hidden costs**: Revealing additional charges (shipping, taxes, fees) only at the final checkout step.\n\n**Bait and switch**: Advertising one thing but delivering another, or changing terms after commitment.\n\n**Confirmshaming**: Using guilt-inducing language for declining options ('No, I don't want to save money').\n\n**Forced continuity**: Free trials that automatically convert to paid subscriptions, often with difficult cancellation.\n\n**Friend spam**: Requesting contact access and sending messages to contacts without clear consent.\n\n**Disguised ads**: Advertisements designed to look like content or navigation elements.\n\n**Urgency and scarcity**: Fake countdown timers, false 'only 2 left' messages, or manufactured urgency.\n\n**Why dark patterns work**:\n\nDark patterns exploit well-documented cognitive biases:\n- **Default effect**: We tend to accept defaults rather than actively change them\n- **Loss aversion**: Fear of missing out or losing something\n- **Social proof**: 'Others are doing this' pressure\n- **Cognitive load**: Complexity and fatigue lead to shortcuts\n- **Anchoring**: Initial information shapes subsequent judgments\n\n**Ethical and legal concerns**:\n\nDark patterns raise serious ethical issues:\n- They undermine informed consent\n- They exploit vulnerable users (elderly, less tech-savvy)\n- They erode trust in digital services\n- They represent a form of deception\n\nRegulatory responses are emerging. The EU's GDPR requires clear consent mechanisms, California's CCPA addresses deceptive design, and the FTC has taken action against companies using dark patterns.\n\n**The opposite: Ethical design**:\n\nEthical design prioritizes user interests:\n- Clear, honest communication\n- Easy opt-out and cancellation\n- Transparent pricing\n- Respectful defaults (privacy-protective)\n- Friction where friction serves the user (confirmation for irreversible actions)\n\nDesigners face pressure to use dark patterns for short-term metrics, but the long-term costs include damaged trust, regulatory risk, and ethical compromise. Recognizing dark patterns helps users protect themselves and helps designers choose better practices.",
+    "tags": [
+        "design",
+        "ethics",
+        "user-experience",
+        "psychology",
+        "manipulation",
+        "technology"
+    ],
+    "category": "Concepts",
+    "icon": "FaEyeSlash",
+    "featured": false,
+    "aliases": [
+        "Deceptive patterns",
+        "Manipulative design",
+        "UX dark patterns"
+    ],
+    "relatedConcepts": [
+        "friction",
+        "choice-architecture",
+        "nudge-theory",
+        "cognitive-biases",
+        "enshittification",
+        "surveillance-capitalism"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dark pattern - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dark_pattern",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}
