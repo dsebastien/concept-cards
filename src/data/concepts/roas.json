@@ -1,0 +1,25 @@
+{
+    "id": "roas",
+    "name": "Return on Ad Spend (ROAS)",
+    "summary": "A marketing metric measuring revenue generated for every dollar spent on advertising.",
+    "explanation": "Return on Ad Spend (ROAS) measures the effectiveness of advertising campaigns by calculating the revenue earned for each dollar invested in advertising. It's one of the most critical metrics for digital marketers, e-commerce businesses, and anyone running paid campaigns.\n\n**Calculation:**\n\nROAS = Revenue from Ads / Cost of Ads\n\nFor example, if you spend $1,000 on ads and generate $5,000 in revenue, your ROAS is 5:1 or 500%.\n\n**What makes a good ROAS:**\n\nGood ROAS varies by industry, margin, and business model:\n- E-commerce typically targets 4:1 or higher\n- High-margin products can be profitable at 3:1\n- Low-margin businesses may need 10:1 or more\n- Brand awareness campaigns may accept lower ROAS\n\n**ROAS vs ROI:**\n\n- ROAS measures only ad spend vs revenue\n- ROI accounts for all costs (product cost, overhead, etc.)\n- A positive ROAS doesn't guarantee profit\n\n**Factors affecting ROAS:**\n\n- Ad creative quality and relevance\n- Targeting accuracy\n- Landing page conversion rate\n- Product pricing and margins\n- Competition and market conditions\n- Seasonality\n\n**Improving ROAS:**\n\n1. Refine audience targeting\n2. Test different ad creatives\n3. Optimize landing pages\n4. Adjust bidding strategies\n5. Focus budget on high-performing campaigns\n6. Improve product pages and checkout flow\n\n**Limitations:**\n\n- Doesn't account for customer lifetime value\n- Attribution can be complex (multi-touch journeys)\n- Doesn't reflect brand-building value\n- Can vary by platform and measurement method\n\nROAS is essential for optimizing paid media budgets and ensuring advertising investments generate positive returns.",
+    "tags": ["marketing", "advertising", "metrics", "digital-marketing", "analytics", "roi"],
+    "category": "Business & Economics",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": ["ROAS", "Return on Advertising Spend", "Ad Spend Return"],
+    "relatedConcepts": ["cost-per-acquisition", "click-through-rate", "conversion-rate", "customer-acquisition-cost", "lifetime-value"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Return on advertising spend - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Return_on_advertising_spend",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

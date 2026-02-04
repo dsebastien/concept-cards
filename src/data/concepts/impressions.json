@@ -1,0 +1,25 @@
+{
+    "id": "impressions",
+    "name": "Impressions",
+    "summary": "The number of times content is displayed to users, regardless of whether it was clicked.",
+    "explanation": "Impressions measure how many times a piece of content—an ad, post, or page—is displayed to users. It's a fundamental metric in digital marketing and advertising that quantifies reach and exposure, regardless of user interaction.\n\n**Key distinctions:**\n\n- **Impression**: Content is displayed (may or may not be seen)\n- **Viewable impression**: Content is actually visible to user\n- **Reach**: Number of unique users who saw content\n- **Frequency**: Average impressions per unique user\n\n**Impressions vs Reach:**\n\nIf one person sees your ad 5 times:\n- Impressions: 5\n- Reach: 1\n- Frequency: 5\n\n**Types of impressions:**\n\n1. **Served impressions**: Ad was delivered to page\n2. **Viewable impressions**: Ad was actually visible (IAB standard: 50% of pixels visible for 1+ second)\n3. **Measured impressions**: Impressions that could be measured for viewability\n\n**Where impressions matter:**\n\n- **Display advertising**: Banner views\n- **Social media**: Post appearances in feeds\n- **Search ads**: Ad shown in results\n- **Video**: Pre-roll ad starts\n- **Email**: Opens (sometimes called impressions)\n- **Content**: Page views\n\n**Using impressions effectively:**\n\n1. **Calculate CTR**: Clicks / Impressions × 100\n2. **Measure CPM**: Cost / (Impressions / 1000)\n3. **Assess reach**: Impressions / Frequency\n4. **Evaluate awareness**: Total exposure over time\n\n**Limitations of impressions:**\n\n- Doesn't indicate engagement\n- May count bot traffic\n- Served ≠ viewable\n- Doesn't measure attention quality\n- Can be inflated by refreshes\n\n**Viewability standards (IAB):**\n\n- Display: 50% of pixels visible for 1 second\n- Video: 50% of pixels visible for 2 seconds\n- Large ads: 30% of pixels for 1 second\n\n**Industry benchmarks:**\n\n- Average viewability: 50-70%\n- Premium placements: 70-90%\n- Programmatic: Often lower\n\n**When impressions matter most:**\n\n- Brand awareness campaigns\n- Product launches\n- Reach maximization\n- Share of voice analysis\n- Top-of-funnel metrics\n\nWhile impressions alone don't indicate success, they're essential for understanding exposure, calculating efficiency metrics, and building brand awareness over time.",
+    "tags": ["marketing", "advertising", "metrics", "digital-marketing", "analytics", "reach"],
+    "category": "Business & Economics",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": ["Ad Impressions", "Page Impressions", "Imps"],
+    "relatedConcepts": ["click-through-rate", "cost-per-mille", "engagement-rate", "conversion-rate", "roas"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Impression (online media) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Impression_(online_media)",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

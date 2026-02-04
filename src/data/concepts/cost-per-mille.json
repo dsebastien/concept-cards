@@ -1,0 +1,25 @@
+{
+    "id": "cost-per-mille",
+    "name": "Cost Per Mille (CPM)",
+    "summary": "An advertising pricing model measuring the cost per thousand impressions of an ad.",
+    "explanation": "Cost Per Mille (CPM), also known as Cost Per Thousand, is an advertising pricing model where advertisers pay for every 1,000 times their ad is displayed (impressions). 'Mille' is Latin for thousand.\n\n**Calculation:**\n\nCPM = (Total Ad Spend / Total Impressions) × 1,000\n\nOr:\nTotal Cost = (CPM × Impressions) / 1,000\n\n**Example:**\nIf you pay $5 CPM and get 100,000 impressions:\nCost = ($5 × 100,000) / 1,000 = $500\n\n**CPM vs other models:**\n\n- **CPM**: Pay per impressions (brand awareness)\n- **CPC**: Pay per click (engagement)\n- **CPA**: Pay per action (conversions)\n- **CPV**: Pay per video view\n\n**When to use CPM:**\n\n- Brand awareness campaigns\n- Reaching large audiences\n- Display and banner advertising\n- Video pre-roll ads\n- Social media reach campaigns\n- Retargeting campaigns\n\n**Factors affecting CPM:**\n\n- Ad format (video > display > text)\n- Placement quality (premium sites cost more)\n- Audience targeting specificity\n- Industry and competition\n- Seasonality (Q4 typically higher)\n- Geographic location\n- Device type\n\n**Average CPM ranges:**\n\n- Display ads: $1-$10\n- Social media: $5-$15\n- Video ads: $10-$30\n- Premium placements: $20-$50+\n- Programmatic: Often lower\n\n**Related metrics:**\n\n- **vCPM**: Cost per thousand viewable impressions\n- **eCPM**: Effective CPM (actual revenue per 1,000 impressions)\n- **RPM**: Revenue per mille (publisher perspective)\n\n**Evaluating CPM campaigns:**\n\n1. Compare against industry benchmarks\n2. Consider reach and frequency\n3. Track brand lift and recall\n4. Monitor downstream metrics (search, direct traffic)\n5. Balance with performance metrics\n\n**CPM in programmatic advertising:**\n\nReal-time bidding (RTB) platforms use CPM as the standard pricing unit. Advertisers bid on impressions, with prices determined by auction dynamics.\n\nCPM remains fundamental for brand advertising where exposure matters more than immediate clicks or conversions.",
+    "tags": ["marketing", "advertising", "metrics", "digital-marketing", "brand-awareness", "impressions"],
+    "category": "Business & Economics",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": ["CPM", "Cost Per Thousand", "Cost Per Thousand Impressions"],
+    "relatedConcepts": ["cost-per-click", "click-through-rate", "impressions", "roas", "conversion-rate"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Cost per mille - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cost_per_mille",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

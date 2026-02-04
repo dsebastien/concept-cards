@@ -1,0 +1,25 @@
+{
+    "id": "utm-parameters",
+    "name": "UTM Parameters",
+    "summary": "Tracking codes added to URLs to measure the effectiveness of marketing campaigns.",
+    "explanation": "UTM (Urchin Tracking Module) parameters are tags added to URLs that help track the effectiveness of marketing campaigns across different traffic sources. Originally developed by Urchin Software (acquired by Google), they're now a standard in digital marketing analytics.\n\n**The five UTM parameters:**\n\n1. **utm_source** (required): Identifies the traffic source\n   - Examples: google, facebook, newsletter, twitter\n\n2. **utm_medium** (required): Identifies the marketing medium\n   - Examples: cpc, email, social, organic, banner\n\n3. **utm_campaign** (required): Identifies the specific campaign\n   - Examples: spring_sale, product_launch, black_friday\n\n4. **utm_term** (optional): Identifies paid search keywords\n   - Examples: running+shoes, best+crm+software\n\n5. **utm_content** (optional): Differentiates similar content/links\n   - Examples: banner_ad, text_link, button_cta\n\n**Example URL:**\n```\nhttps://example.com/page?utm_source=facebook&utm_medium=social&utm_campaign=summer_sale&utm_content=carousel_ad\n```\n\n**Best practices:**\n\n1. **Use consistent naming conventions**\n   - Lowercase only (UTMs are case-sensitive)\n   - Use underscores or hyphens, not spaces\n   - Document your conventions\n\n2. **Be specific but concise**\n   - Balance detail with readability\n   - Avoid redundant information\n\n3. **Use a URL builder**\n   - Google Campaign URL Builder\n   - Spreadsheet templates\n   - Marketing automation tools\n\n4. **Track systematically**\n   - Maintain a UTM tracking spreadsheet\n   - Review and clean up regularly\n   - Train team on conventions\n\n**Common mistakes:**\n\n- Inconsistent capitalization\n- Typos in parameter names\n- Missing required parameters\n- Overly complex naming\n- Not documenting conventions\n\n**Where UTM data appears:**\n\n- Google Analytics (Acquisition reports)\n- Marketing automation platforms\n- CRM systems (when integrated)\n- Custom dashboards\n\n**Limitations:**\n\n- Can be stripped by some platforms\n- May be modified by users\n- Don't track cross-device journeys\n- Can create long, ugly URLs\n- Need link shorteners for some platforms\n\nUTM parameters are essential for attributing traffic and conversions to specific marketing efforts, enabling data-driven optimization of marketing spend.",
+    "tags": ["marketing", "analytics", "tracking", "digital-marketing", "attribution", "campaigns"],
+    "category": "Business & Economics",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": ["UTM Codes", "UTM Tags", "Urchin Tracking Module", "Campaign Parameters"],
+    "relatedConcepts": ["conversion-rate", "click-through-rate", "roas", "cost-per-click"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "UTM parameters - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/UTM_parameters",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

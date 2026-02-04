@@ -1,0 +1,25 @@
+{
+    "id": "annual-recurring-revenue",
+    "name": "Annual Recurring Revenue (ARR)",
+    "summary": "The annualized value of recurring subscription revenue, a key metric for SaaS businesses.",
+    "explanation": "Annual Recurring Revenue (ARR) is the value of recurring revenue normalized to a one-year period. It's a critical metric for subscription-based businesses, particularly SaaS companies, as it represents predictable, ongoing revenue.\n\n**Calculation:**\n\nARR = MRR × 12\n\nOr:\nARR = (Total Annual Subscription Value) - (One-time fees)\n\n**What to include in ARR:**\n\n- Monthly subscriptions (annualized)\n- Annual subscriptions\n- Recurring add-ons and upsells\n\n**What NOT to include:**\n\n- One-time setup fees\n- Professional services\n- Non-recurring charges\n- Variable usage fees (sometimes)\n\n**Key ARR metrics:**\n\n- **New ARR**: From new customers\n- **Expansion ARR**: From upsells/cross-sells\n- **Churned ARR**: Lost from cancellations\n- **Contraction ARR**: Lost from downgrades\n- **Net New ARR**: New + Expansion - Churned - Contraction\n\n**ARR vs MRR:**\n\n- ARR: Annual view, better for annual contracts\n- MRR: Monthly view, better for monthly subscriptions\n- Both measure the same thing at different timescales\n- Enterprise SaaS typically uses ARR\n- SMB SaaS often uses MRR\n\n**Why ARR matters:**\n\n1. **Predictability**: Shows reliable future revenue\n2. **Valuation**: SaaS companies often valued as multiple of ARR\n3. **Growth tracking**: Measures business health over time\n4. **Investor metric**: Key for fundraising and reporting\n5. **Benchmarking**: Enables comparison with peers\n\n**Typical ARR growth benchmarks:**\n\n- Early stage: 200-300%+ growth\n- Growth stage: 100-200%\n- Scale stage: 50-100%\n- Mature: 20-50%\n\n**ARR in company valuation:**\n\nSaaS multiples vary widely:\n- Public SaaS: 5-15x ARR\n- High-growth private: 10-30x ARR\n- Slower growth: 3-5x ARR\n\nARR provides a standardized way to measure and communicate the size and growth trajectory of subscription businesses.",
+    "tags": ["saas", "metrics", "businesses", "subscriptions", "revenue", "analytics"],
+    "category": "Business & Economics",
+    "icon": "FaCalendarAlt",
+    "featured": false,
+    "aliases": ["ARR", "Annualized Recurring Revenue"],
+    "relatedConcepts": ["monthly-recurring-revenue", "churn-rate", "lifetime-value", "customer-acquisition-cost", "arpu"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Annual recurring revenue - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Annual_recurring_revenue",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}

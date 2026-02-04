@@ -1,0 +1,25 @@
+{
+    "id": "cost-per-click",
+    "name": "Cost Per Click (CPC)",
+    "summary": "An advertising pricing model where advertisers pay each time a user clicks on their ad.",
+    "explanation": "Cost Per Click (CPC) is an online advertising pricing model where advertisers pay a fee each time someone clicks on their advertisement. It's one of the most common models for search engine advertising, social media ads, and display advertising.\n\n**Calculation:**\n\nCPC = Total Ad Spend / Number of Clicks\n\nAlternatively:\nCPC = CPM / (CTR × 1000)\n\n**How CPC works:**\n\n1. Advertiser sets maximum bid (max CPC)\n2. Ad platforms run auctions for ad placements\n3. Winners determined by bid amount and ad quality\n4. Actual CPC often lower than max bid\n5. Payment only when users click\n\n**CPC vs other models:**\n\n- **CPM (Cost Per Mille)**: Pay per 1,000 impressions regardless of clicks\n- **CPA (Cost Per Acquisition)**: Pay only when users complete desired action\n- **CPV (Cost Per View)**: Pay when video is viewed\n\n**Factors affecting CPC:**\n\n- Industry and competition\n- Keyword popularity (search ads)\n- Quality score/relevance\n- Ad placement and format\n- Targeting specificity\n- Geographic location\n- Time of day/seasonality\n\n**Average CPC by platform (varies widely):**\n\n- Google Search: $1-$2 (some keywords $50+)\n- Facebook: $0.50-$2.00\n- LinkedIn: $2-$7\n- Twitter: $0.50-$2.00\n\n**Strategies to lower CPC:**\n\n1. Improve ad relevance and quality score\n2. Use long-tail keywords\n3. Refine audience targeting\n4. Test different ad formats\n5. Optimize landing pages\n6. Adjust bidding strategies\n7. Use negative keywords\n\n**When CPC makes sense:**\n\n- Direct response campaigns\n- Lead generation\n- E-commerce sales\n- When you want controlled spending\n- When click-to-conversion rate is known\n\nCPC provides a performance-based model that ties advertising costs directly to user engagement rather than mere exposure.",
+    "tags": ["marketing", "advertising", "digital-marketing", "metrics", "ppc", "search-marketing"],
+    "category": "Business & Economics",
+    "icon": "FaMousePointer",
+    "featured": false,
+    "aliases": ["CPC", "Pay Per Click", "PPC Cost"],
+    "relatedConcepts": ["click-through-rate", "cost-per-acquisition", "cost-per-mille", "conversion-rate", "roas"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Cost per click - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cost_per_click",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-04",
+    "dateModified": "2026-02-04"
+}
