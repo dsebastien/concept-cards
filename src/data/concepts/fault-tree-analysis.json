@@ -1,0 +1,42 @@
+{
+    "id": "fault-tree-analysis",
+    "name": "Fault Tree Analysis",
+    "summary": "A top-down deductive analysis method that maps how combinations of lower-level failures can lead to an undesired system-level event using Boolean logic.",
+    "explanation": "Fault Tree Analysis (FTA) is a top-down, deductive failure analysis technique that uses Boolean logic to model how combinations of individual failures can lead to an undesired top-level event. Developed at Bell Laboratories in 1962 for the U.S. Air Force, it has become a standard tool in safety engineering, reliability engineering, and risk assessment.\n\n**How It Works**:\n\nFTA starts with an undesired event (the top event) and works backward to identify all possible combinations of lower-level events that could cause it. The analysis produces a tree-like diagram using logic gates.\n\n**Key Elements**:\n\n- **Top Event**: The undesired outcome being analyzed (e.g., system failure, safety incident)\n- **AND Gates**: All inputs must occur simultaneously for the output to occur\n- **OR Gates**: Any single input is sufficient for the output to occur\n- **Basic Events**: The lowest-level failures that cannot be decomposed further\n- **Intermediate Events**: Events caused by combinations of other events\n- **Transfer Gates**: Connect to other parts of the tree or other fault trees\n\n**The FTA Process**:\n\n1. Define the top event (undesired outcome)\n2. Identify immediate causes\n3. For each cause, determine whether it requires AND or OR logic\n4. Continue decomposing until reaching basic events\n5. Assign probabilities to basic events (if doing quantitative analysis)\n6. Calculate the probability of the top event\n7. Identify minimal cut sets (smallest combinations of failures causing the top event)\n8. Prioritize improvements based on analysis\n\n**Types of Analysis**:\n\n- **Qualitative FTA**: Identifies failure paths and critical combinations without probabilities\n- **Quantitative FTA**: Assigns failure probabilities to calculate overall system risk\n\n**Strengths**:\n\n- Reveals how failures interact and combine\n- Identifies single points of failure\n- Supports both qualitative understanding and quantitative risk calculation\n- Useful for complex systems with multiple interacting components\n\n**Complementary Tools**:\n\n- FMEA (bottom-up) complements FTA (top-down)\n- Ishikawa diagrams for brainstorming causes\n- Event Tree Analysis for consequence modeling\n\nFTA is widely used in aerospace, nuclear power, chemical processing, automotive safety, and software reliability. Its structured, logical approach ensures that no significant failure combination is overlooked.",
+    "tags": [
+        "root-cause-analysis",
+        "risk-management",
+        "problem-solving",
+        "qualities",
+        "systems-thinking"
+    ],
+    "category": "Techniques",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "FTA",
+        "Fault Tree",
+        "Failure Tree Analysis"
+    ],
+    "relatedConcepts": [
+        "fmea",
+        "root-cause-analysis",
+        "ishikawa-diagram",
+        "systems-thinking",
+        "failure-analysis",
+        "pre-mortem-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Fault tree analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fault_tree_analysis",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

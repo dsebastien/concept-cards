@@ -1,0 +1,69 @@
+{
+    "id": "ai-attention-budget",
+    "name": "AI Attention Budget",
+    "summary": "The finite computational attention a language model distributes across tokens in its context, where quality degrades as the model must spread attention over more content.",
+    "explanation": "The AI Attention Budget describes the practical reality that a language model has a finite amount of 'attention' to distribute across all the tokens in its context window. While context windows have grown dramatically (from 4K to 1M+ tokens), the model's ability to effectively attend to all that content has not scaled proportionally. This creates a budget-like constraint: the more content in the context, the less attention each piece receives.\n\n**How Attention Works in Practice**:\n\nIn transformer models, the attention mechanism computes relationships between every pair of tokens. As context grows:\n\n- Each token competes with more tokens for attention weight\n- The model must decide what to focus on and what to deprioritize\n- Important details can be drowned out by less relevant content\n- The computational cost scales quadratically (O(n^2)) with context length\n\n**The Attention Budget Metaphor**:\n\nThink of attention as a budget of 100 'attention units':\n- With 1,000 tokens: each gets 0.1 units on average\n- With 100,000 tokens: each gets 0.001 units on average\n- Critical instructions buried among verbose context may receive insufficient attention\n\n**Practical Implications**:\n\n1. **System prompt dilution**: As conversation grows, system prompt instructions receive proportionally less attention\n2. **Lost-in-the-middle effect**: Content in the middle of long contexts gets less attention than content at the start or end\n3. **Instruction following degradation**: Models become less reliable at following complex instructions as context fills up\n4. **RAG quality ceiling**: Adding more retrieved documents has diminishing (or negative) returns\n5. **Agent loop degradation**: Multi-step agents accumulate context, degrading performance over iterations\n\n**Strategies for Managing the Budget**:\n\n- **Context compression**: Summarize old conversation history rather than keeping full transcripts\n- **Strategic placement**: Put critical instructions at the beginning and end, not the middle\n- **Relevance filtering**: Only include information directly relevant to the current task\n- **Progressive disclosure**: Provide context incrementally rather than all at once\n- **Context rotation**: In long-running agents, periodically refresh the context with a summary\n- **Chunking**: Break large tasks into smaller sub-tasks with focused contexts\n\n**Connection to Human Attention**:\n\nThe AI attention budget parallels human attention management. Just as humans can't pay equal attention to everything (attention is a scarce resource), language models face analogous constraints. Effective use of AI, like effective knowledge work, requires careful attention management.",
+    "tags": [
+        "ai",
+        "attention",
+        "context-engineering",
+        "performance",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "LLM Attention Limits",
+        "Attention Dilution",
+        "Context Attention Trade-off"
+    ],
+    "relatedConcepts": [
+        "attention-mechanism",
+        "context-window",
+        "context-poisoning",
+        "context-engineering",
+        "context-rot",
+        "prompt-engineering",
+        "rag-pipelines",
+        "ai-inference"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

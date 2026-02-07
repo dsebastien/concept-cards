@@ -1,0 +1,43 @@
+{
+    "id": "statistical-inference",
+    "name": "Statistical Inference",
+    "summary": "The process of using data analysis and probability theory to draw conclusions about a population from a sample.",
+    "explanation": "Statistical Inference is the branch of statistics concerned with drawing conclusions about populations or processes based on observed sample data. It provides the mathematical framework for moving from specific observations to general claims, quantifying the uncertainty inherent in that leap.\n\n**Two Main Approaches**:\n\n**Frequentist Inference**:\n- Probability is the long-run frequency of events\n- Tools: hypothesis testing, confidence intervals, p-values\n- The parameter is fixed but unknown; the data varies across samples\n- Example: 'The 95% confidence interval for the mean is [4.2, 5.8]'\n\n**Bayesian Inference**:\n- Probability represents degree of belief\n- Tools: prior distributions, posterior distributions, Bayes' theorem\n- Updates beliefs as new evidence arrives\n- Example: 'Given the data, there is a 92% probability the mean exceeds 4.0'\n\n**Core Methods**:\n\n1. **Point Estimation**: Calculating a single best guess for a parameter (mean, proportion, etc.)\n2. **Interval Estimation**: Providing a range of plausible values (confidence intervals, credible intervals)\n3. **Hypothesis Testing**: Deciding whether data supports or contradicts a specific claim\n4. **Prediction**: Forecasting future observations based on the model\n\n**Key Concepts**:\n\n- **Sampling Distribution**: The distribution of a statistic across all possible samples\n- **Standard Error**: How much a statistic varies from sample to sample\n- **Bias**: Systematic difference between an estimator and the true value\n- **Consistency**: Whether an estimator converges to the true value as sample size grows\n- **Power**: The probability of detecting a true effect\n\n**Common Pitfalls**:\n\n- Confusing statistical significance with practical significance\n- Ignoring assumptions (normality, independence, sample size)\n- P-hacking: Testing many hypotheses until one appears significant\n- Ignoring base rates (Bayesian reasoning)\n- Generalizing from non-representative samples\n\n**Applications**:\n\nStatistical inference is foundational to science, medicine, economics, social policy, quality control, machine learning, and any field that draws conclusions from data. Understanding its principles is essential for evaluating evidence-based claims and making data-driven decisions.",
+    "tags": [
+        "statistics",
+        "reasoning",
+        "probabilities",
+        "analysis",
+        "data-science"
+    ],
+    "category": "Thinking",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "Statistical Reasoning",
+        "Inferential Statistics"
+    ],
+    "relatedConcepts": [
+        "inference",
+        "statistical-significance",
+        "confidence-interval",
+        "sample-size",
+        "normal-distribution",
+        "correlation-vs-causation",
+        "replication-crisis",
+        "causal-inference"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Statistical inference - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Statistical_inference",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

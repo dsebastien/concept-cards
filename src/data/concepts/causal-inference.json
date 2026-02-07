@@ -1,0 +1,48 @@
+{
+    "id": "causal-inference",
+    "name": "Causal Inference",
+    "summary": "The process of determining whether and how one variable or event actually causes changes in another, going beyond mere correlation.",
+    "explanation": "Causal Inference is the science of determining cause-and-effect relationships from data and observations. While correlation tells us that two things tend to occur together, causal inference aims to answer the harder question: does changing one thing actually produce a change in another?\n\n**Why Correlation Is Not Causation**:\n\nTwo variables can be correlated because:\n- A causes B (direct causation)\n- B causes A (reverse causation)\n- C causes both A and B (confounding)\n- A causes C, which causes B (mediation)\n- Pure coincidence or selection bias\n\n**Approaches to Establishing Causation**:\n\n1. **Randomized Controlled Trials (RCTs)**: The gold standard. Randomly assign subjects to treatment/control groups to isolate the causal effect. Used in medicine, A/B testing, and policy evaluation.\n\n2. **Natural Experiments**: Exploit situations where nature or policy created quasi-random variation. Examples: comparing outcomes across an arbitrary policy boundary.\n\n3. **Instrumental Variables**: Find a variable that affects the outcome only through the treatment variable.\n\n4. **Difference-in-Differences**: Compare changes over time between a treated and untreated group.\n\n5. **Regression Discontinuity**: Exploit sharp cutoffs in treatment assignment.\n\n6. **Structural Causal Models (SCMs)**: Judea Pearl's framework using directed acyclic graphs (DAGs) to represent and reason about causal relationships mathematically.\n\n**Counterfactual Reasoning**:\n\nAt its core, causation asks: 'What would have happened if things had been different?' The causal effect of a treatment is the difference between the actual outcome and the counterfactual outcome (what would have happened without the treatment). Since we can never observe both, all of causal inference is about estimating this unobservable counterfactual.\n\n**Applications**:\n\n- **Medicine**: Does this drug actually improve outcomes?\n- **Policy**: Did this intervention reduce poverty?\n- **Business**: Did this marketing campaign drive sales?\n- **AI**: Making models that understand 'why' rather than just 'what'\n- **Personal reasoning**: Distinguishing genuine causes from coincidences in daily life\n\nCausal thinking is one of the most important reasoning skills because acting on false causal beliefs leads to ineffective or harmful decisions. Understanding causal inference helps evaluate claims, design better experiments, and make sounder decisions.",
+    "tags": [
+        "reasoning",
+        "statistics",
+        "critical-thinking",
+        "analysis",
+        "sciences"
+    ],
+    "category": "Thinking",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Causal Reasoning",
+        "Causal Analysis",
+        "Causality"
+    ],
+    "relatedConcepts": [
+        "inference",
+        "statistical-inference",
+        "correlation-vs-causation",
+        "second-order-effects",
+        "counterfactual-thinking",
+        "critical-thinking",
+        "deductive-reasoning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Book of Why by Judea Pearl",
+            "url": "https://www.amazon.com/dp/046509760X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Causal inference - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Causal_inference",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

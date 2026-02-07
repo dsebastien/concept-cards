@@ -1,0 +1,78 @@
+{
+    "id": "ai-inference",
+    "name": "AI Inference",
+    "summary": "The process of running a trained machine learning model to generate predictions, classifications, or outputs from new input data.",
+    "explanation": "AI Inference is the phase where a trained machine learning model is put to work - taking new, unseen input data and producing outputs such as predictions, classifications, generated text, or decisions. While training teaches the model what to do, inference is where it actually does it in production.\n\n**Training vs. Inference**:\n\n| Aspect | Training | Inference |\n|--------|----------|-----------|\n| Purpose | Learn patterns from data | Apply learned patterns to new data |\n| Compute | Extremely intensive (days/weeks) | Must be fast (milliseconds/seconds) |\n| Frequency | Done once or periodically | Done continuously in production |\n| Hardware | GPUs/TPUs, large clusters | Can run on various hardware including edge devices |\n| Cost driver | Data size, model complexity | Request volume, latency requirements |\n\n**Types of AI Inference**:\n\n- **Real-time (Online) Inference**: Single requests processed immediately with low latency. Used for chatbots, voice assistants, recommendation engines, and autonomous driving.\n- **Batch Inference**: Processing large volumes of data at once, trading latency for throughput. Used for bulk predictions, data pipelines, and periodic scoring.\n- **Streaming Inference**: Continuous processing of data streams in near-real-time. Used for fraud detection, sensor monitoring, and live content moderation.\n\n**Key Performance Metrics**:\n\n- **Latency**: Time from input to output (critical for user-facing applications)\n- **Throughput**: Number of inferences per second\n- **Cost per inference**: Compute cost for each prediction\n- **Accuracy**: Quality of outputs under production conditions\n\n**Inference Optimization Techniques**:\n\n- **Model Quantization**: Reducing numerical precision (e.g., FP32 to INT8) to shrink model size and speed up computation\n- **Knowledge Distillation**: Training a smaller model to mimic a larger one\n- **Model Pruning**: Removing redundant parameters\n- **Speculative Decoding**: Using a small draft model to propose tokens verified by the larger model\n- **Batching**: Grouping multiple requests for efficient GPU utilization\n- **Caching**: Storing and reusing common inference results\n- **Hardware acceleration**: Using specialized chips (GPUs, TPUs, NPUs) optimized for inference workloads\n\n**Inference at Scale**:\n\nServing AI at scale involves model serving infrastructure, load balancing, auto-scaling, model versioning, A/B testing, and monitoring for model drift. Cloud providers offer managed inference services, but many organizations also deploy models on-premise or at the edge for latency, cost, or privacy reasons.\n\nAs AI models grow larger (particularly large language models), inference cost and latency have become critical engineering challenges, driving innovation in optimization techniques and specialized hardware.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "performance",
+        "technologies"
+    ],
+    "category": "AI",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": [
+        "Model Inference",
+        "ML Inference",
+        "Model Serving",
+        "Prediction Serving"
+    ],
+    "relatedConcepts": [
+        "inference",
+        "machine-learning",
+        "deep-learning",
+        "neural-networks",
+        "model-quantization",
+        "knowledge-distillation",
+        "model-pruning",
+        "speculative-decoding",
+        "edge-ai",
+        "fine-tuning",
+        "transformer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Inference engine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Inference_engine",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

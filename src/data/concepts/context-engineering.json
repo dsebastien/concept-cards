@@ -19,7 +19,11 @@
         "ai-assistants",
         "ai-master-prompt",
         "model-context-protocol",
-        "prompt-engineering"
+        "prompt-engineering",
+        "context-poisoning",
+        "ai-attention-budget",
+        "prompt-debt",
+        "context-window"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+engineering"

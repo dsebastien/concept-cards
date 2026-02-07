@@ -1,0 +1,70 @@
+{
+    "id": "pdca-cycle",
+    "name": "PDCA Cycle",
+    "summary": "A four-step iterative management method (Plan-Do-Check-Act) for continuous improvement of processes and products.",
+    "explanation": "The PDCA Cycle (Plan-Do-Check-Act), also known as the Deming Cycle or Shewhart Cycle, is a foundational iterative methodology for continuous improvement. Originally conceived by Walter Shewhart and later popularized by W. Edwards Deming, it provides a simple yet powerful framework for systematic problem-solving and process improvement.\n\n**The Four Phases**:\n\n**Plan**: Identify the problem or opportunity. Analyze the current state, gather data, identify root causes, and develop a hypothesis for improvement. Set measurable objectives and create an action plan.\n\n**Do**: Execute the plan on a small scale first. Implement the changes as a pilot or controlled experiment. Document what happens, including unexpected observations.\n\n**Check** (sometimes called Study, making it PDSA): Evaluate the results against objectives. Did the change produce the expected improvement? Analyze data, identify gaps between expected and actual results, and understand why.\n\n**Act**: Based on what was learned, decide what to do next. If the change worked, standardize it and implement at full scale. If it didn't, learn from the failure and begin a new cycle with adjusted plans.\n\n**Key Principles**:\n\n- **Iterative**: Each cycle builds on the previous one\n- **Data-driven**: Decisions based on measurement, not intuition\n- **Small experiments**: Test changes before full rollout\n- **Never-ending**: Improvement is continuous, not a destination\n- **Learning-oriented**: Even failed experiments generate valuable knowledge\n\n**Relationship to Other Methodologies**:\n\n- **Kaizen**: PDCA is the operational engine of kaizen philosophy\n- **Six Sigma DMAIC**: An expanded, more structured version of PDCA\n- **Agile Sprints**: Share the same iterative, inspect-and-adapt structure\n- **Scientific Method**: PDCA applies the hypothesis-test-learn loop to management\n\n**Applications Beyond Manufacturing**:\n\n- Personal development: Plan a habit change, try it for a week, review results, adjust\n- Knowledge management: Test a new workflow, evaluate its effectiveness, refine or abandon\n- Software development: Continuous delivery embodies rapid PDCA cycles\n- Healthcare: Quality improvement initiatives\n\nThe PDCA cycle's power lies in its simplicity and universality. It transforms improvement from a one-time event into a sustainable practice, and it provides a structured way to learn from both successes and failures.",
+    "tags": [
+        "continuous-improvement",
+        "processes",
+        "qualities",
+        "problem-solving",
+        "management"
+    ],
+    "category": "Frameworks",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Deming Cycle",
+        "Shewhart Cycle",
+        "Plan-Do-Check-Act",
+        "PDSA",
+        "Plan-Do-Study-Act"
+    ],
+    "relatedConcepts": [
+        "kaizen",
+        "lean-manufacturing",
+        "8d-problem-solving",
+        "root-cause-analysis",
+        "improvement-kata",
+        "design-sprint",
+        "iterative-note-taking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Out of the Crisis by W. Edwards Deming",
+            "url": "https://www.amazon.com/dp/0262535947?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "PDCA - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/PDCA",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

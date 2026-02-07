@@ -1,0 +1,72 @@
+{
+    "id": "model-quantization",
+    "name": "Model Quantization",
+    "summary": "A technique for reducing the numerical precision of a neural network's weights and activations to decrease model size, memory usage, and inference latency.",
+    "explanation": "Model Quantization is a model compression technique that converts the high-precision floating-point numbers (typically FP32 or FP16) used in neural network weights and activations into lower-precision formats (INT8, INT4, or even binary). This trades a small amount of accuracy for significant gains in speed, memory, and power efficiency.\n\n**Why Quantize?**:\n\n- **Smaller models**: A model quantized from FP32 to INT8 is roughly 4x smaller\n- **Faster inference**: Lower-precision arithmetic is faster on most hardware\n- **Lower power consumption**: Critical for mobile and edge devices\n- **Lower cost**: Smaller models require less expensive hardware to serve\n- **Enables deployment**: Makes large models feasible on resource-constrained devices\n\n**Types of Quantization**:\n\n1. **Post-Training Quantization (PTQ)**: Applied after training is complete. No retraining needed. Fastest to implement but may lose more accuracy.\n   - Dynamic quantization: Weights quantized statically, activations quantized at runtime\n   - Static quantization: Both weights and activations quantized using calibration data\n\n2. **Quantization-Aware Training (QAT)**: Simulates quantization during training so the model learns to compensate. Produces better accuracy but requires retraining.\n\n3. **Mixed-Precision Quantization**: Uses different precision levels for different layers based on their sensitivity. Balances accuracy and efficiency.\n\n**Common Precision Levels**:\n\n- **FP32** (Full precision): 32-bit floating-point, standard training precision\n- **FP16/BF16** (Half precision): 16-bit, common for GPU inference\n- **INT8**: 8-bit integer, 4x compression, widely supported\n- **INT4/NF4**: 4-bit, 8x compression, popular for LLM inference (GPTQ, GGUF)\n- **Binary/Ternary**: Extreme compression, significant accuracy loss\n\n**Quantization for LLMs**:\n\nWith the rise of large language models, quantization has become essential for practical deployment. Techniques like GPTQ, AWQ, and GGML/GGUF enable running models with billions of parameters on consumer hardware. A 70B parameter model in FP16 requires ~140GB of memory, but in 4-bit quantization it fits in ~35GB.\n\n**Trade-offs**:\n\n- Lower precision means some loss of accuracy (usually small for INT8, more noticeable for INT4)\n- Not all operations quantize equally well; attention layers are often more sensitive\n- Hardware support varies; not all chips accelerate all precision formats\n- Calibration data quality affects post-training quantization results",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "optimization",
+        "performance",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaCompress",
+    "featured": false,
+    "aliases": [
+        "Quantization",
+        "Weight Quantization",
+        "Neural Network Quantization"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "model-pruning",
+        "knowledge-distillation",
+        "edge-ai",
+        "deep-learning",
+        "neural-networks"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Quantization (signal processing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantization_(signal_processing)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

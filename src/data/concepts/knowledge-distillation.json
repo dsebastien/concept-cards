@@ -1,0 +1,73 @@
+{
+    "id": "knowledge-distillation",
+    "name": "Knowledge Distillation",
+    "summary": "A model compression technique where a smaller student model is trained to reproduce the behavior and outputs of a larger, more capable teacher model.",
+    "explanation": "Knowledge Distillation is a machine learning technique introduced by Geoffrey Hinton in 2015, where knowledge from a large, complex model (the teacher) is transferred to a smaller, more efficient model (the student). The student learns not just from the hard labels in the training data, but from the teacher's soft probability distributions, which encode richer information about inter-class relationships.\n\n**How It Works**:\n\n1. **Train the teacher**: A large, high-accuracy model is trained normally on the task\n2. **Generate soft targets**: The teacher produces probability distributions over outputs (not just the top prediction) at a raised temperature\n3. **Train the student**: The smaller model learns from both the original labels and the teacher's soft distributions\n4. **Deploy the student**: The compact model is used in production, offering most of the teacher's accuracy at a fraction of the cost\n\n**Why Soft Targets Matter**:\n\nWhen a teacher model classifies an image of a dog, it might output: dog=0.85, wolf=0.10, cat=0.04, horse=0.01. These soft probabilities contain far more information than just the label 'dog' - they reveal that dogs look somewhat like wolves, a little like cats, and not much like horses. The student learns these relationships, not just the correct answer.\n\n**Types of Distillation**:\n\n- **Response-based**: Student mimics teacher's output probabilities\n- **Feature-based**: Student mimics teacher's intermediate representations\n- **Relation-based**: Student mimics relationships between teacher's representations across samples\n- **Self-distillation**: A model distills knowledge from its own deeper layers to shallower ones\n\n**Applications**:\n\n- **Model compression**: Deploy capable models on mobile devices or edge hardware\n- **LLM distillation**: Creating smaller language models that retain much of a larger model's capability\n- **Ensemble distillation**: Compressing an ensemble of models into a single model\n- **Cross-modal distillation**: Transferring knowledge between different data modalities\n\n**Distillation in the LLM Era**:\n\nMany smaller open-source language models are distilled from larger ones. The student model might be 10-100x smaller while retaining 90%+ of the teacher's performance on key benchmarks. This has democratized access to capable AI models.\n\n**Limitations**:\n\n- Student can never fully match teacher performance\n- Requires access to teacher model outputs (or the model itself)\n- Training is more complex than standard training\n- Quality depends heavily on the teacher-student architecture match",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "optimization",
+        "models",
+        "training"
+    ],
+    "category": "AI",
+    "icon": "FaFlask",
+    "featured": false,
+    "aliases": [
+        "Model Distillation",
+        "Teacher-Student Learning",
+        "KD"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "model-quantization",
+        "model-pruning",
+        "deep-learning",
+        "neural-networks",
+        "fine-tuning",
+        "edge-ai"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge distillation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_distillation",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "poka-yoke",
+    "name": "Poka-Yoke",
+    "summary": "A mistake-proofing mechanism built into a process or design that prevents errors from occurring or makes them immediately obvious.",
+    "explanation": "Poka-Yoke (Japanese for 'mistake-proofing') is a concept developed by Shigeo Shingo as part of the Toyota Production System. It refers to any mechanism in a process that helps prevent human errors or makes errors immediately detectable before they cause defects.\n\n**Core Principle**:\n\nHumans inevitably make mistakes. Rather than relying on training, attention, or willpower to prevent errors, poka-yoke designs the process or environment so that errors either cannot occur or are caught instantly.\n\n**Types of Poka-Yoke**:\n\n1. **Prevention (Control)**: Makes it physically impossible to make the error\n   - USB plugs that only fit one way\n   - Car ignition that won't start unless in Park/Neutral\n   - Software form validation that prevents invalid input\n\n2. **Detection (Warning)**: Alerts the operator immediately when an error is made\n   - Car door chime when keys are left in ignition\n   - Spell-check underlining misspelled words\n   - Alarms for out-of-range values in monitoring systems\n\n3. **Facilitation**: Makes the correct action easier than the incorrect one\n   - Color-coded connectors\n   - Checklists with forced completion\n   - Default settings configured for the common case\n\n**Poka-Yoke Design Principles**:\n\n- Design for the error, not the person\n- Make errors impossible, or make them obvious\n- Stop the process at the source of the error\n- Use simple, low-cost solutions\n- Implement as close to the error source as possible\n\n**Everyday Examples**:\n\n- Microwaves that stop when the door opens\n- Elevator doors with sensors preventing closing on people\n- Software 'undo' functionality\n- Confirmation dialogs before irreversible actions\n- Auto-save in document editors\n\n**In Knowledge Work and Software**:\n\n- Linters and type systems that catch errors before runtime\n- Database constraints that prevent invalid data\n- CI/CD pipelines that block deployments with failing tests\n- Templates that ensure required fields are filled\n- Git hooks that enforce commit message formats\n\nPoka-yoke reflects a systems-thinking approach: instead of blaming people for mistakes, design the system so mistakes cannot propagate into defects.",
+    "tags": [
+        "qualities",
+        "processes",
+        "manufacturing",
+        "error-prevention",
+        "design"
+    ],
+    "category": "Techniques",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Mistake-Proofing",
+        "Error-Proofing",
+        "Fool-Proofing",
+        "Baka-Yoke"
+    ],
+    "relatedConcepts": [
+        "lean-manufacturing",
+        "kaizen",
+        "fmea",
+        "fault-tolerance",
+        "graceful-degradation",
+        "systems-thinking",
+        "8d-problem-solving"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Zero Quality Control by Shigeo Shingo",
+            "url": "https://www.amazon.com/dp/0915299070?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Poka-yoke - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Poka-yoke",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

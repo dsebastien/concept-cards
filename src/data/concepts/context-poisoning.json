@@ -1,0 +1,69 @@
+{
+    "id": "context-poisoning",
+    "name": "Context Poisoning",
+    "summary": "The degradation of AI model performance when irrelevant, misleading, contradictory, or adversarial information is included in the context window.",
+    "explanation": "Context Poisoning occurs when the quality of an AI model's output degrades because of problematic content in its context window. Unlike prompt injection (which targets the model's instructions), context poisoning corrupts the informational context the model uses to reason, leading to subtly degraded rather than overtly hijacked outputs.\n\n**Types of Context Poisoning**:\n\n1. **Noise poisoning**: Including irrelevant information that dilutes the model's attention away from what matters\n2. **Contradictory poisoning**: Providing conflicting information that confuses the model's reasoning\n3. **Stale poisoning**: Including outdated information that the model treats as current\n4. **Adversarial poisoning**: Deliberately inserting misleading content to manipulate outputs\n5. **Volume poisoning**: Overwhelming the context with so much information that quality degrades (related to the lost-in-the-middle effect)\n6. **Bias poisoning**: Including skewed or unrepresentative examples that shift the model's outputs\n\n**How It Happens**:\n\n- **RAG pipelines**: Retrieval systems return irrelevant or outdated documents\n- **Conversation history**: Long conversations accumulate noise and contradictions\n- **Multi-source context**: Combining information from sources of varying quality\n- **User inputs**: Unvalidated user content pollutes the context\n- **Tool outputs**: Failed tool calls or noisy tool results contaminate reasoning\n\n**The Lost-in-the-Middle Effect**:\n\nResearch has shown that LLMs pay less attention to information in the middle of long contexts, favoring the beginning and end. This means that important context placed in the middle may be effectively lost, while irrelevant content near the edges may receive disproportionate attention.\n\n**Impact on AI Systems**:\n\n- Subtle accuracy degradation that's hard to detect\n- Confident but incorrect responses\n- Inconsistent output quality depending on context composition\n- Compounding errors in multi-step agent workflows\n- Reduced effectiveness of carefully crafted system prompts\n\n**Mitigation**:\n\n- Curate context carefully: only include relevant, high-quality information\n- Place critical context at the beginning and end of the prompt\n- Use context compression or summarization for long conversations\n- Validate RAG retrieval results before including them\n- Monitor output quality as context grows\n- Implement context rotation strategies for long-running agents\n- Test with adversarial and noisy contexts",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "risks",
+        "reliability",
+        "prompt-engineering"
+    ],
+    "category": "AI",
+    "icon": "FaSkullCrossbones",
+    "featured": false,
+    "aliases": [
+        "Context Contamination",
+        "Context Pollution",
+        "Noisy Context"
+    ],
+    "relatedConcepts": [
+        "context-window",
+        "context-engineering",
+        "context-rot",
+        "ai-hallucination",
+        "ai-attention-budget",
+        "prompt-engineering",
+        "rag-pipelines",
+        "signal-vs-noise"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

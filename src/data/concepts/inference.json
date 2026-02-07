@@ -1,0 +1,64 @@
+{
+    "id": "inference",
+    "name": "Inference",
+    "summary": "The process of drawing conclusions from available evidence, premises, or observations using logical reasoning.",
+    "explanation": "Inference is the fundamental cognitive process of deriving new conclusions from known information. It is the bridge between what we observe or know and what we conclude or predict. Every act of understanding, interpreting, or deciding involves some form of inference.\n\n**Types of Inference**:\n\n1. **Deductive Inference**: Drawing logically certain conclusions from general premises. If premises are true and the logic is valid, the conclusion must be true. Example: All mammals are warm-blooded; whales are mammals; therefore whales are warm-blooded.\n\n2. **Inductive Inference**: Generalizing from specific observations to broader conclusions. The conclusion is probable but not certain. Example: Every swan I've seen is white, so all swans are probably white.\n\n3. **Abductive Inference**: Inferring the best explanation for observed evidence. Example: The grass is wet; the best explanation is that it rained last night.\n\n4. **Statistical Inference**: Drawing conclusions about a population based on a sample of data, using probability theory.\n\n5. **Causal Inference**: Determining whether and how one event causes another, distinguishing correlation from causation.\n\n**Inference in Different Domains**:\n\n- **Logic and Philosophy**: Formal rules of inference (modus ponens, modus tollens) that guarantee valid conclusions\n- **Science**: Hypothesis testing, experimental design, and theory building all rely on inference\n- **AI and Machine Learning**: Models perform inference when they apply learned patterns to new data to generate predictions\n- **Everyday Reasoning**: We constantly infer intentions, meanings, and likely outcomes from incomplete information\n- **Reading and Communication**: Understanding implied meaning, reading between the lines, pragmatic inference\n\n**Inference vs. Observation**:\n\nObservation is direct perception; inference goes beyond what is directly perceived. Good thinkers distinguish carefully between what they have observed and what they have inferred, recognizing that inferences can be wrong even when observations are accurate.\n\n**Common Inference Errors**:\n\n- Hasty generalization: Inferring too much from too little data\n- Confirmation bias: Only noticing evidence that supports existing beliefs\n- Post hoc fallacy: Assuming causation from temporal sequence\n- False dichotomy: Inferring only two options when more exist\n\nStrengthening inference requires awareness of reasoning types, attention to evidence quality, and willingness to revise conclusions when new information appears.",
+    "tags": [
+        "thinking",
+        "logic",
+        "reasoning",
+        "critical-thinking",
+        "fundamentals"
+    ],
+    "category": "Thinking",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Logical Inference",
+        "Reasoning",
+        "Drawing Conclusions"
+    ],
+    "relatedConcepts": [
+        "deductive-reasoning",
+        "inductive-reasoning",
+        "abductive-reasoning",
+        "critical-thinking",
+        "statistical-inference",
+        "ai-inference",
+        "causal-inference",
+        "analytical-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Inference - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Inference",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

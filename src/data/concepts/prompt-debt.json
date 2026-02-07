@@ -1,0 +1,88 @@
+{
+    "id": "prompt-debt",
+    "name": "Prompt Debt",
+    "summary": "The accumulated cost of unrefined, ad-hoc, or poorly maintained prompts that degrade AI output quality and create hidden inefficiencies over time.",
+    "explanation": "Prompt Debt is an emerging concept in AI-assisted workflows, analogous to technical debt in software development. It describes the accumulating cost of using quick, unrefined, or poorly maintained prompts instead of investing in well-crafted, tested, and documented ones.\n\n**How Prompt Debt Accumulates**:\n\n- **Copy-paste prompts**: Reusing prompts without adapting them to new contexts\n- **Ad-hoc prompting**: Writing one-off prompts instead of developing reusable templates\n- **Untested prompts**: Never validating that prompts work across edge cases and model versions\n- **Undocumented prompts**: No record of what works, what failed, and why\n- **Outdated prompts**: Prompts tuned for older models that haven't been updated\n- **Prompt sprawl**: Many variations of similar prompts with no canonical version\n\n**Symptoms of Prompt Debt**:\n\n- Inconsistent AI output quality across similar tasks\n- Team members each using different prompts for the same purpose\n- Prompts that break when models are updated\n- Time wasted repeatedly debugging and tweaking prompts\n- Knowledge loss when the person who created a prompt leaves\n- Difficulty onboarding new team members to AI workflows\n\n**Types of Prompt Debt**:\n\n1. **Structural debt**: Prompts that are poorly organized, overly complex, or fragile\n2. **Knowledge debt**: Prompts that don't encode team knowledge and best practices\n3. **Maintenance debt**: Prompts that haven't been updated for new model capabilities\n4. **Testing debt**: Prompts that have never been systematically evaluated\n5. **Documentation debt**: Prompts with no explanation of their design rationale\n\n**Paying Down Prompt Debt**:\n\n- Build a prompt library with versioning and documentation\n- Establish prompt engineering standards and review processes\n- Test prompts systematically against diverse inputs\n- Update prompts when models change (prompt fragility)\n- Share and iterate on prompts as a team\n- Invest in system prompts and AI Master Prompts for consistency\n\n**Connection to Technical Debt**:\n\nLike technical debt, prompt debt isn't always bad — quick prompts can be appropriate for exploration and prototyping. The debt becomes problematic when ad-hoc prompts become the production standard, are relied upon by others, or compound into systemic quality issues.",
+    "tags": [
+        "ai",
+        "prompt-engineering",
+        "technical-debt",
+        "workflows",
+        "maintenance"
+    ],
+    "category": "AI",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Prompting Debt",
+        "AI Prompt Technical Debt"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "prompt-fragility",
+        "context-engineering",
+        "context-rot",
+        "ai-master-prompt",
+        "system-prompts",
+        "technical-debt",
+        "knowledge-debt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

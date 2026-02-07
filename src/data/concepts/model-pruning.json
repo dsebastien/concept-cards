@@ -1,0 +1,72 @@
+{
+    "id": "model-pruning",
+    "name": "Model Pruning",
+    "summary": "A neural network compression technique that removes redundant or low-impact weights, neurons, or entire layers to create smaller, faster models.",
+    "explanation": "Model Pruning is a technique for reducing the size and computational cost of neural networks by identifying and removing components that contribute little to the model's performance. Inspired by synaptic pruning in the developing brain, it produces sparser, more efficient models.\n\n**Core Idea**:\n\nNeural networks are often over-parameterized - they contain far more parameters than necessary for the task. Pruning exploits this redundancy by removing the least important connections, resulting in a smaller model that performs nearly as well as the original.\n\n**Types of Pruning**:\n\n1. **Unstructured Pruning**: Removes individual weights (sets them to zero). Creates sparse weight matrices. Achieves high compression ratios but requires specialized hardware/software to realize speed gains.\n\n2. **Structured Pruning**: Removes entire neurons, filters, channels, or attention heads. Produces models that run faster on standard hardware because entire computation units are eliminated.\n\n3. **Layer Pruning**: Removes entire layers from deep networks. Most aggressive form but risks significant accuracy loss.\n\n**Pruning Approaches**:\n\n- **Magnitude Pruning**: Remove weights with the smallest absolute values (the simplest and most common approach)\n- **Gradient-based Pruning**: Remove weights that have the least impact on the loss function\n- **Sensitivity Analysis**: Prune layers or components based on their measured contribution to accuracy\n- **Lottery Ticket Hypothesis**: The idea that dense networks contain sparse subnetworks (winning tickets) that can match the full network's performance when trained in isolation\n\n**The Pruning Pipeline**:\n\n1. Train the full model to convergence\n2. Evaluate component importance (weights, neurons, heads)\n3. Remove low-importance components based on a threshold or target sparsity\n4. Fine-tune the pruned model to recover accuracy\n5. Optionally iterate: prune more, fine-tune again\n\n**Pruning in Practice**:\n\n- 80-90% of weights can often be pruned with minimal accuracy loss\n- Structured pruning typically achieves 2-4x speedup on standard hardware\n- Pruning combines well with quantization for compounding compression\n- Increasingly used for LLMs to reduce serving costs\n\n**Limitations**:\n\n- Aggressive pruning degrades accuracy\n- Unstructured sparsity needs specialized hardware for real speedups\n- Finding optimal pruning strategy often requires experimentation\n- Pruned models may lose robustness or performance on edge cases",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "optimization",
+        "models",
+        "performance"
+    ],
+    "category": "AI",
+    "icon": "FaCut",
+    "featured": false,
+    "aliases": [
+        "Neural Network Pruning",
+        "Weight Pruning",
+        "Network Pruning"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "model-quantization",
+        "knowledge-distillation",
+        "deep-learning",
+        "neural-networks",
+        "edge-ai"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pruning (artificial neural network) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pruning_(artificial_neural_network)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

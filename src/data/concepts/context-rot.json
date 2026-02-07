@@ -40,7 +40,9 @@
         "bus-factor",
         "link-rot",
         "bit-rot",
-        "law-of-staleness"
+        "law-of-staleness",
+        "prompt-debt",
+        "context-poisoning"
     ],
     "relatedNotes": [],
     "articles": [

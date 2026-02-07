@@ -1,0 +1,56 @@
+{
+    "id": "pareto-chart",
+    "name": "Pareto Chart",
+    "summary": "A bar chart that ranks causes or factors by frequency or impact, combined with a cumulative line, to identify the most significant contributors to a problem.",
+    "explanation": "A Pareto Chart is a quality tool that combines a bar chart and a line graph to visualize the relative importance of different factors contributing to a problem. Named after Vilfredo Pareto's observation that roughly 80% of effects come from 20% of causes, it helps teams focus on the vital few issues that will deliver the greatest improvement.\n\n**Structure**:\n\n- **Bars**: Represent individual categories, sorted from highest to lowest frequency or impact (left to right)\n- **Line**: Shows the cumulative percentage, making it easy to see how much of the total is accounted for by each successive category\n- **Left Y-axis**: Frequency or count\n- **Right Y-axis**: Cumulative percentage (0-100%)\n\n**How to Create a Pareto Chart**:\n\n1. Identify the problem and possible contributing categories\n2. Collect data: measure frequency, cost, time, or other relevant metrics for each category\n3. Sort categories from largest to smallest\n4. Calculate cumulative percentages\n5. Draw bars for each category (descending order)\n6. Draw the cumulative percentage line\n7. Identify the break point where roughly 80% of the impact is accounted for\n\n**When to Use**:\n\n- After brainstorming causes (e.g., with an Ishikawa diagram)\n- To prioritize which defects, complaints, or issues to address first\n- To communicate findings to stakeholders visually\n- To compare before and after improvement efforts\n- In 8D Problem Solving (D2 and D4) to quantify problem scope\n\n**Key Insight**:\n\nThe Pareto Chart operationalizes the Pareto Principle for decision-making. Rather than spreading effort across all causes equally, it reveals which few causes deserve focused attention. Addressing the tallest bars first typically yields the greatest return on improvement effort.\n\n**Limitations**:\n\n- Relies on accurate, sufficient data\n- Does not show root causes (use with Five Whys or Ishikawa diagrams)\n- Can mislead if categories overlap or are poorly defined\n- The 80/20 split is a guideline, not a law\n\nThe Pareto Chart is one of the Seven Basic Quality Tools and is used across manufacturing, healthcare, software development, and any domain where data-driven prioritization is needed.",
+    "tags": [
+        "visualization",
+        "qualities",
+        "problem-solving",
+        "data-analysis",
+        "prioritization"
+    ],
+    "category": "Techniques",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "Pareto Analysis",
+        "Pareto Diagram",
+        "80/20 Chart"
+    ],
+    "relatedConcepts": [
+        "pareto-principle",
+        "ishikawa-diagram",
+        "root-cause-analysis",
+        "data-visualization",
+        "8d-problem-solving"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pareto chart - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pareto_chart",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "agent-orchestration",
+    "name": "Agent Orchestration",
+    "summary": "The coordination and management of multiple AI agents, including their workflows, communication, task delegation, and error handling to achieve complex goals.",
+    "explanation": "Agent Orchestration is the practice of coordinating multiple AI agents to work together effectively on complex tasks. As AI systems move beyond single-prompt interactions toward multi-step, multi-agent workflows, orchestration becomes the critical layer that determines whether agents collaborate productively or descend into chaos.\n\n**Core Orchestration Patterns**:\n\n1. **Sequential Pipeline**: Agents execute in a defined order, each receiving the previous agent's output. Simple but inflexible. Example: Research agent -> Analysis agent -> Writing agent.\n\n2. **Hierarchical (Manager-Worker)**: A central orchestrator agent delegates tasks to specialized workers and aggregates results. Scalable but creates a bottleneck. Example: Planning agent assigns sub-tasks to coding, testing, and documentation agents.\n\n3. **Peer-to-Peer**: Agents communicate directly and coordinate emergently. Flexible but harder to control. Example: Debate between multiple agents that challenge each other's reasoning.\n\n4. **Event-Driven**: Agents react to events or state changes. Highly decoupled but requires careful event design. Example: Code change triggers review agent, which triggers test agent if issues found.\n\n5. **Graph-Based**: Workflows defined as directed graphs with conditional branching and parallel execution. Powerful but complex. Implemented by tools like LangGraph.\n\n**Key Orchestration Concerns**:\n\n- **Task decomposition**: Breaking complex goals into agent-sized tasks\n- **Context management**: Deciding what context each agent needs (and doesn't need)\n- **State management**: Maintaining shared state across agents\n- **Error handling**: What happens when an agent fails or produces bad output?\n- **Human-in-the-loop**: When and how to involve humans in the workflow\n- **Cost management**: Multi-agent systems multiply API costs\n- **Observability**: Tracing execution across agents for debugging\n\n**Orchestration Anti-Patterns**:\n\n- Over-orchestrating simple tasks (one good agent beats three mediocre ones)\n- Passing full context between agents (context poisoning risk)\n- No error recovery (one agent failure cascades through the system)\n- Missing checkpoints (inability to resume from intermediate states)\n- Ignoring cost (each agent hop costs tokens and latency)\n\n**Orchestration Frameworks**:\n\nThe field is evolving rapidly with frameworks like LangGraph, AutoGen, CrewAI, and Claude's native tool-use and multi-agent capabilities providing different approaches to the orchestration problem.\n\n**Connection to Software Architecture**:\n\nAgent orchestration mirrors distributed systems architecture: the same challenges of coordination, fault tolerance, consistency, and observability apply. Teams with microservices experience often find agent orchestration patterns intuitive.",
+    "tags": [
+        "ai",
+        "automation",
+        "workflows",
+        "architecture",
+        "distributed-systems"
+    ],
+    "category": "AI",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Multi-Agent Orchestration",
+        "Agent Coordination",
+        "AI Workflow Orchestration",
+        "Agent Pipeline"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-agent-swarms",
+        "tool-use",
+        "prompt-chaining",
+        "model-context-protocol",
+        "human-in-the-loop",
+        "context-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Multi-agent system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Multi-agent_system",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

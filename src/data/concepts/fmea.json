@@ -1,0 +1,44 @@
+{
+    "id": "fmea",
+    "name": "Failure Mode and Effects Analysis",
+    "summary": "A systematic method for proactively identifying potential failure modes in a process or product and prioritizing them by severity, occurrence, and detectability.",
+    "explanation": "Failure Mode and Effects Analysis (FMEA) is a structured, proactive methodology for identifying potential ways a process, product, or system could fail, understanding the consequences of those failures, and prioritizing actions to prevent or mitigate them. Originally developed by the U.S. military in the 1940s, it became a cornerstone of quality engineering in aerospace, automotive, healthcare, and many other industries.\n\n**Core Concept**:\n\nFor each potential failure mode, FMEA evaluates three dimensions:\n\n1. **Severity (S)**: How serious is the impact if this failure occurs? (1-10 scale)\n2. **Occurrence (O)**: How likely is this failure to happen? (1-10 scale)\n3. **Detection (D)**: How likely is it that current controls will catch the failure before it reaches the customer? (1-10 scale)\n\nThese produce a **Risk Priority Number (RPN)** = S x O x D, which helps prioritize which failure modes to address first.\n\n**Types of FMEA**:\n\n- **Design FMEA (DFMEA)**: Analyzes potential failures in product design before manufacturing\n- **Process FMEA (PFMEA)**: Analyzes potential failures in manufacturing or business processes\n- **System FMEA**: Analyzes failures at the overall system level\n\n**The FMEA Process**:\n\n1. Define the scope (process, product, or system)\n2. Identify potential failure modes for each component or step\n3. Determine the effects of each failure mode\n4. Identify potential causes of each failure mode\n5. List current controls (prevention and detection)\n6. Assign Severity, Occurrence, and Detection ratings\n7. Calculate RPN and prioritize\n8. Develop and implement recommended actions\n9. Re-evaluate RPN after actions are taken\n\n**Strengths**:\n\n- Proactive: identifies risks before they become problems\n- Systematic: ensures comprehensive coverage\n- Prioritizes: focuses resources on highest-risk areas\n- Living document: updated throughout the product or process lifecycle\n\n**Limitations**:\n\n- Can be time-consuming for complex systems\n- RPN has mathematical weaknesses (same RPN can represent very different risk profiles)\n- Quality depends heavily on team expertise\n- Risk of becoming a bureaucratic exercise if not genuinely used\n\n**Beyond Engineering**:\n\nFMEA principles apply to knowledge work: What could go wrong with this workflow? How severe would the impact be? What controls do I have? This proactive thinking prevents recurring problems rather than just reacting to them.",
+    "tags": [
+        "root-cause-analysis",
+        "qualities",
+        "risk-management",
+        "processes",
+        "manufacturing",
+        "problem-solving"
+    ],
+    "category": "Techniques",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "FMEA",
+        "Failure Modes and Effects Analysis",
+        "FMECA",
+        "Failure Mode Effects and Criticality Analysis"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "fault-tree-analysis",
+        "ishikawa-diagram",
+        "8d-problem-solving",
+        "pre-mortem-analysis",
+        "lean-manufacturing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Failure mode and effects analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

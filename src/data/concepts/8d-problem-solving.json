@@ -1,0 +1,68 @@
+{
+    "id": "8d-problem-solving",
+    "name": "8D Problem Solving",
+    "summary": "A structured eight-discipline methodology for investigating complex problems, identifying root causes, and implementing permanent corrective actions.",
+    "explanation": "8D Problem Solving (Eight Disciplines) is a structured methodology developed by Ford Motor Company in the 1980s for systematically addressing complex, recurring, or critical problems. It is widely used in manufacturing, engineering, and quality management to move from symptom containment to permanent resolution.\n\n**The Eight Disciplines**:\n\n**D0 - Plan**: Prepare for the 8D process. Determine whether a full 8D is warranted based on problem severity, recurrence risk, and complexity.\n\n**D1 - Establish the Team**: Form a cross-functional team with the skills, authority, and knowledge to solve the problem. Assign a champion and team leader.\n\n**D2 - Describe the Problem**: Define the problem precisely using the IS/IS NOT method. Answer: What? Where? When? How big? Quantify with data. A well-defined problem is half-solved.\n\n**D3 - Interim Containment Actions (ICA)**: Implement immediate actions to contain the problem and protect the customer while root cause investigation proceeds. Verify containment effectiveness.\n\n**D4 - Root Cause Analysis**: Identify all potential root causes using tools like Ishikawa diagrams, Five Whys, fault tree analysis, and statistical methods. Verify root causes with data and experimentation.\n\n**D5 - Permanent Corrective Actions (PCA)**: Select and verify permanent solutions that address the verified root causes. Ensure the solutions eliminate the root cause without introducing new problems.\n\n**D6 - Implement and Validate**: Put permanent corrective actions in place. Monitor results to confirm the problem is eliminated. Remove interim containment actions.\n\n**D7 - Prevent Recurrence**: Modify systems, procedures, standards, and training to prevent the problem (and similar problems) from recurring. Update FMEA, control plans, and process documentation.\n\n**D8 - Congratulate the Team**: Recognize the team's collective effort. Document lessons learned and share knowledge across the organization.\n\n**Key Principles**:\n\n- Data-driven: Every step requires evidence and verification\n- Team-based: Complex problems need diverse expertise\n- Systematic: Follow the sequence; don't skip steps\n- Prevention-oriented: The goal is permanent elimination, not just fixes\n\n**When to Use 8D**:\n\n- Customer complaints requiring formal response\n- Recurring quality issues\n- Safety-related problems\n- Problems with unknown root causes\n- Supplier quality issues\n\nThe 8D methodology shares DNA with other structured approaches like DMAIC (Six Sigma), PDCA, and A3 Problem Solving, but emphasizes team formation, containment, and organizational learning.",
+    "tags": [
+        "root-cause-analysis",
+        "problem-solving",
+        "qualities",
+        "processes",
+        "continuous-improvement",
+        "manufacturing"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Eight Disciplines",
+        "8D Investigation",
+        "8D Report",
+        "8D Methodology",
+        "Global 8D"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "five-whys",
+        "ishikawa-diagram",
+        "fmea",
+        "corrective-and-preventive-action",
+        "pdca-cycle",
+        "lean-manufacturing",
+        "blameless-postmortem",
+        "after-action-review"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Eight disciplines problem solving - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

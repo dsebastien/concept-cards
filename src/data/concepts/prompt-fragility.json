@@ -1,0 +1,68 @@
+{
+    "id": "prompt-fragility",
+    "name": "Prompt Fragility",
+    "summary": "The tendency for AI prompts to break or produce degraded outputs when small changes occur in input data, phrasing, or model versions.",
+    "explanation": "Prompt Fragility describes how seemingly minor changes to a prompt, its inputs, or the underlying model can cause disproportionately large changes in output quality. A prompt that works perfectly in one context may fail unexpectedly in another, making AI workflows brittle and unpredictable.\n\n**Sources of Fragility**:\n\n1. **Model sensitivity**: Small wording changes produce very different outputs (e.g., 'list' vs. 'enumerate' vs. 'describe')\n2. **Model updates**: A prompt tuned for one model version may degrade when the model is updated\n3. **Input variation**: Prompts that work for typical inputs break on edge cases\n4. **Context sensitivity**: Output quality depends heavily on what other content is in the context window\n5. **Order effects**: The sequence of instructions or examples affects output\n6. **Temperature sensitivity**: Outputs vary dramatically with sampling parameter changes\n\n**Why Prompts Are Fragile**:\n\n- LLMs are statistical models, not rule-following systems\n- Prompts are natural language instructions, inherently ambiguous\n- Models are trained on diverse data and may interpret instructions differently than intended\n- The mapping from prompt to output is highly non-linear\n- No formal specification or type system for prompt behavior\n\n**Symptoms**:\n\n- A prompt that worked yesterday produces garbage today (after a model update)\n- Works for English but fails for other languages\n- Works for short inputs but not long ones\n- Works 90% of the time but fails unpredictably on the other 10%\n- Adding seemingly helpful context actually degrades output\n\n**Mitigation Strategies**:\n\n- **Structured output prompting**: Use schemas, JSON output, or explicit formatting to constrain outputs\n- **Few-shot examples**: Demonstrate expected behavior rather than only describing it\n- **Prompt testing**: Systematically evaluate prompts against diverse test cases\n- **Version pinning**: Use specific model versions for production prompts\n- **Guardrails**: Add validation layers that catch malformed outputs\n- **Redundancy**: Use multiple prompt variants and select the best output\n- **Defensive prompting**: Anticipate failure modes and add explicit instructions to handle them\n\nPrompt fragility is a fundamental challenge of working with LLMs that makes prompt engineering closer to empirical science than traditional programming. Understanding it is essential for building reliable AI-powered systems.",
+    "tags": [
+        "ai",
+        "prompt-engineering",
+        "reliability",
+        "risks",
+        "challenges"
+    ],
+    "category": "AI",
+    "icon": "FaUnlink",
+    "featured": false,
+    "aliases": [
+        "Prompt Brittleness",
+        "Prompt Sensitivity",
+        "Prompt Instability"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "prompt-debt",
+        "context-engineering",
+        "ai-guardrails",
+        "system-prompts",
+        "structured-output-prompting",
+        "ai-hallucination"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

@@ -1,0 +1,78 @@
+{
+    "id": "edge-ai",
+    "name": "Edge AI",
+    "summary": "Running artificial intelligence models directly on local devices (phones, IoT sensors, cars) rather than in the cloud, enabling faster responses and greater privacy.",
+    "explanation": "Edge AI refers to deploying and running AI algorithms directly on edge devices - hardware located close to where data is generated - rather than sending data to a centralized cloud for processing. This approach brings intelligence to the point of action, enabling real-time decision-making without network dependency.\n\n**Why Edge AI?**:\n\n1. **Low Latency**: No round-trip to the cloud means millisecond-level response times, critical for autonomous vehicles, industrial robotics, and real-time video analysis\n2. **Privacy**: Data never leaves the device, addressing regulations like GDPR and user privacy concerns\n3. **Reliability**: Works offline or with intermittent connectivity\n4. **Bandwidth**: Avoids transmitting large volumes of raw data (video, sensor streams) to the cloud\n5. **Cost**: Reduces ongoing cloud compute and data transfer costs\n\n**Edge AI Hardware**:\n\n- **NPUs (Neural Processing Units)**: Dedicated AI accelerators in modern smartphones and laptops\n- **GPUs**: Graphics processors adapted for inference (NVIDIA Jetson, etc.)\n- **TPUs**: Google's Tensor Processing Units in edge form factors\n- **FPGAs**: Programmable hardware for custom inference workloads\n- **Specialized chips**: Apple Neural Engine, Google Coral, Intel Movidius\n\n**Enabling Techniques**:\n\nRunning large models on constrained edge hardware requires:\n- **Model Quantization**: Reducing numerical precision for smaller, faster models\n- **Knowledge Distillation**: Creating compact student models from large teacher models\n- **Model Pruning**: Removing unnecessary weights and connections\n- **Architecture design**: Efficient model architectures like MobileNet, EfficientNet, TinyML\n- **On-device training**: Federated learning and incremental adaptation\n\n**Applications**:\n\n- **Smartphones**: On-device language models, image processing, voice assistants\n- **Autonomous vehicles**: Real-time perception and decision-making\n- **Industrial IoT**: Predictive maintenance, quality inspection, anomaly detection\n- **Healthcare**: Medical device AI, patient monitoring\n- **Smart home**: Security cameras, voice assistants, energy management\n- **Retail**: Cashierless stores, inventory management\n\n**Edge AI vs. Cloud AI**:\n\nThe choice is not either/or. Many systems use a hybrid approach: edge for latency-sensitive tasks and cloud for complex processing, training, and model updates. The trend is toward more capable edge devices, enabling increasingly sophisticated AI to run locally.\n\n**Challenges**:\n\n- Limited compute, memory, and power budget\n- Model updates and lifecycle management across many devices\n- Hardware fragmentation across device types\n- Balancing model capability with device constraints",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "performance",
+        "technologies",
+        "architecture"
+    ],
+    "category": "AI",
+    "icon": "FaMicrochip",
+    "featured": false,
+    "aliases": [
+        "On-Device AI",
+        "Edge Computing AI",
+        "Edge Intelligence",
+        "TinyML"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "model-quantization",
+        "knowledge-distillation",
+        "model-pruning",
+        "neural-networks",
+        "deep-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Edge computing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Edge_computing",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

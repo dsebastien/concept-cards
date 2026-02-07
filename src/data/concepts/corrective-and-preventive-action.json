@@ -1,0 +1,65 @@
+{
+    "id": "corrective-and-preventive-action",
+    "name": "Corrective and Preventive Action",
+    "summary": "A systematic approach to investigating nonconformities, implementing fixes to eliminate root causes, and taking proactive steps to prevent future occurrences.",
+    "explanation": "Corrective and Preventive Action (CAPA) is a quality management concept that addresses both reactive and proactive improvement. It is a core requirement of ISO 9001, FDA regulations, and most quality management systems.\n\n**Two Distinct Components**:\n\n**Corrective Action (CA)**:\n- Triggered by an existing nonconformity, defect, or complaint\n- Goal: Eliminate the root cause so the problem does not recur\n- Reactive but systematic\n- Steps: Identify problem → Investigate root cause → Implement solution → Verify effectiveness\n\n**Preventive Action (PA)**:\n- Triggered by potential nonconformities identified through data analysis, trends, or risk assessment\n- Goal: Eliminate the cause of a potential problem before it occurs\n- Proactive and forward-looking\n- Steps: Identify risk → Analyze potential cause → Implement prevention → Monitor effectiveness\n\n**The CAPA Process**:\n\n1. **Identification**: Document the nonconformity or potential risk\n2. **Evaluation**: Assess severity and determine if CAPA is warranted\n3. **Investigation**: Conduct root cause analysis (using tools like Five Whys, Ishikawa diagrams, fault tree analysis)\n4. **Action Planning**: Define corrective or preventive actions with owners and deadlines\n5. **Implementation**: Execute the planned actions\n6. **Effectiveness Verification**: Confirm the actions actually resolved the issue\n7. **Closure**: Document the outcome and close the CAPA record\n\n**Key Distinctions**:\n\n- **Correction** vs **Corrective Action**: A correction fixes the immediate problem (rework the defective part); corrective action addresses why it happened (fix the machine calibration process)\n- **Corrective** vs **Preventive**: Corrective addresses existing problems; preventive addresses potential future problems\n\n**Common Pitfalls**:\n\n- Confusing corrections with corrective actions\n- Shallow root cause analysis that addresses symptoms\n- Implementing actions without verifying effectiveness\n- CAPA overload: opening too many CAPAs without closing them\n- Treating CAPA as a compliance exercise rather than an improvement tool\n\n**Applications Beyond Manufacturing**:\n\nCAPA thinking applies to any knowledge work: When something goes wrong, don't just fix it - investigate why and change the system. When you notice a risk, act before it becomes a problem. This transforms reactive firefighting into proactive quality management.",
+    "tags": [
+        "qualities",
+        "processes",
+        "continuous-improvement",
+        "root-cause-analysis",
+        "problem-solving"
+    ],
+    "category": "Techniques",
+    "icon": "FaWrench",
+    "featured": false,
+    "aliases": [
+        "CAPA",
+        "Corrective Action",
+        "Preventive Action",
+        "CA/PA"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "8d-problem-solving",
+        "five-whys",
+        "ishikawa-diagram",
+        "pdca-cycle",
+        "fmea",
+        "kaizen",
+        "lean-manufacturing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Corrective and preventive action - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Corrective_and_preventive_action",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}

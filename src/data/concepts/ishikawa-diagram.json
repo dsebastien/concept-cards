@@ -1,0 +1,45 @@
+{
+    "id": "ishikawa-diagram",
+    "name": "Ishikawa Diagram",
+    "summary": "A cause-and-effect diagram that visually maps potential root causes of a problem into categories to facilitate systematic analysis.",
+    "explanation": "The Ishikawa Diagram (also called the Fishbone Diagram or Cause-and-Effect Diagram) is a visual tool for systematically identifying and organizing the potential causes of a problem. Created by Kaoru Ishikawa in the 1960s, it resembles a fish skeleton: the problem (effect) is placed at the head, and potential causes branch off as bones grouped into categories.\n\n**Standard Categories (6Ms for Manufacturing)**:\n\n1. **Man** (People): Skills, training, fatigue, motivation\n2. **Machine** (Equipment): Maintenance, calibration, capacity\n3. **Method** (Process): Procedures, standards, workflows\n4. **Material**: Quality, specifications, suppliers\n5. **Measurement**: Accuracy, precision, inspection methods\n6. **Mother Nature** (Environment): Temperature, humidity, conditions\n\n**Variations for Different Contexts**:\n\n- **8Ps (Service)**: Product, Price, Place, Promotion, People, Process, Physical Evidence, Productivity\n- **4Ss (Software)**: Systems, Skills, Suppliers, Surroundings\n- **Custom categories** tailored to the specific domain\n\n**How to Build an Ishikawa Diagram**:\n\n1. Define the problem statement clearly (the fish head)\n2. Draw the main spine (horizontal line)\n3. Identify major cause categories (main bones)\n4. Brainstorm specific causes within each category (sub-bones)\n5. Dig deeper with sub-causes (smaller branches)\n6. Analyze the diagram to identify the most likely root causes\n7. Verify causes with data and investigation\n\n**Strengths**:\n\n- Forces structured, comprehensive thinking about all possible causes\n- Prevents fixation on a single cause\n- Engages teams in collaborative problem-solving\n- Creates a visual record of the analysis\n- Works well combined with the Five Whys for drilling into each branch\n\n**Limitations**:\n\n- Can become cluttered for complex problems\n- Does not show interactions between causes\n- Quality depends on team knowledge and brainstorming quality\n- Risk of listing symptoms rather than true causes\n\nThe Ishikawa Diagram is widely used in quality management, manufacturing, healthcare, and any field where systematic root cause analysis is needed. It pairs naturally with other tools like the Five Whys, Pareto Charts, and 8D Problem Solving.",
+    "tags": [
+        "root-cause-analysis",
+        "problem-solving",
+        "qualities",
+        "visualization",
+        "techniques"
+    ],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Fishbone Diagram",
+        "Cause-and-Effect Diagram",
+        "Herringbone Diagram",
+        "Cause and Effect Analysis"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "five-whys",
+        "pareto-chart",
+        "8d-problem-solving",
+        "fmea",
+        "lean-manufacturing",
+        "quality-circle",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Ishikawa diagram - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ishikawa_diagram",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-07",
+    "dateModified": "2026-02-07"
+}
