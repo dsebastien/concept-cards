@@ -1,0 +1,67 @@
+{
+    "id": "overshooting-and-undershooting",
+    "name": "Overshooting and Undershooting",
+    "summary": "The tendency to overcorrect or undercorrect when making adjustments, leading to oscillation around optimal outcomes in decision-making, goal-setting, and system regulation.",
+    "explanation": "Overshooting and undershooting describes a common pattern in which adjustments to correct errors or deviations from a target go too far (overshooting) or not far enough (undershooting), often resulting in oscillation around the desired state rather than smooth convergence.\n\nIn control systems and cybernetics, overshooting occurs when a corrective action exceeds the necessary magnitude, pushing the system past its target state. The system then detects the new error and applies a correction in the opposite direction, which may itself overshoot, creating a damped or even sustained oscillation. Undershooting, conversely, occurs when corrections are too timid, leading to sluggish progress toward the goal.\n\nThis pattern manifests across many domains:\n\n**Decision-making and policy**: Governments and organizations frequently overshoot or undershoot when responding to crises. Economic stimulus may be too aggressive (causing inflation) or too cautious (prolonging recession). Public health measures may be imposed too harshly or relaxed too quickly.\n\n**Personal behavior**: When correcting habits, people often swing to the opposite extreme. A person trying to eat less might restrict calories too severely, then binge in response. Someone who has been too passive might become overly aggressive.\n\n**Goal-setting**: Setting targets too high (overshooting ambition) leads to burnout and discouragement, while setting them too low (undershooting) leaves potential unrealized.\n\n**Emotional regulation**: People may overreact to setbacks or underreact to warning signs, struggling to find proportionate responses.\n\nSeveral factors contribute to overshooting and undershooting. Delayed feedback makes it hard to gauge the impact of corrections in real time. Cognitive biases like recency bias and overconfidence distort our assessment of how much correction is needed. Emotional reactivity amplifies responses beyond what rational analysis would suggest. And the complexity of systems means that simple corrective actions often have nonlinear effects.\n\nEffective strategies to mitigate this pattern include implementing tighter feedback loops, making smaller incremental adjustments, using data-driven calibration, applying the principle of proportional response, and building in deliberate pause points to assess whether corrections are having the intended effect before making further changes.",
+    "tags": [
+        "systems-thinking",
+        "decision-making",
+        "cognition",
+        "psychology"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Overshoot and Undershoot",
+        "Overcorrection and Undercorrection"
+    ],
+    "relatedConcepts": [
+        "feedback-loop",
+        "homeostasis",
+        "overcorrection",
+        "calibration",
+        "regression-to-the-mean",
+        "cybernetics",
+        "recency-bias",
+        "overconfidence-effect"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Overshoot (signal) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Overshoot_(signal)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Systems by Donella H. Meadows",
+            "url": "https://www.amazon.com/dp/1603580557?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

@@ -1,0 +1,62 @@
+{
+    "id": "overcorrection",
+    "name": "Overcorrection",
+    "summary": "The tendency to adjust too far in response to an error or deviation, often creating new problems that are the mirror image of the original ones.",
+    "explanation": "Overcorrection occurs when a response to a perceived error or deviation exceeds what is necessary, pushing past the optimal adjustment point and creating a new problem in the opposite direction. This pattern is deeply rooted in human psychology and appears across personal behavior, organizational decision-making, public policy, and system design.\n\nAt the psychological level, overcorrection is driven by several mechanisms. The availability heuristic makes recent failures more salient than historical baseline performance, leading to disproportionate responses. Loss aversion amplifies the perceived cost of the original error, motivating excessive corrective action. And emotional reactivity - particularly fear, anger, or shame - can overwhelm rational calibration of the appropriate response magnitude.\n\nCommon manifestations include:\n\n**Policy overcorrection**: After a financial crisis, regulations may become so restrictive they stifle healthy economic activity. After a security breach, procedures may become so burdensome they impede normal operations.\n\n**Behavioral overcorrection**: A person who has been too trusting may become excessively suspicious. Someone criticized for being too lenient may become unreasonably strict.\n\n**Technical overcorrection**: In engineering, overcorrecting a steering input can cause a vehicle to swerve in the opposite direction. In software, fixing a bug with an overly broad change may break other features.\n\n**Organizational overcorrection**: After a failed initiative driven by insufficient planning, a company may implement such heavy planning processes that agility is lost.\n\nThe hypercorrection effect in psychology is a related phenomenon where people who are highly confident in an incorrect answer are more likely to overcorrect when given feedback, sometimes rejecting their previously correct methodology entirely.\n\nMitigation strategies include implementing proportional response guidelines, using data rather than emotion to calibrate adjustments, building in cooling-off periods before major corrective actions, seeking diverse perspectives to check for disproportionate responses, and making smaller iterative changes rather than one large correction.",
+    "tags": [
+        "psychology",
+        "decision-making",
+        "cognition",
+        "systems-thinking"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Overreaction",
+        "Overcompensation"
+    ],
+    "relatedConcepts": [
+        "overshooting-and-undershooting",
+        "hypercorrection-effect",
+        "feedback-loop",
+        "recency-bias",
+        "loss-aversion",
+        "availability-heuristic",
+        "homeostasis",
+        "regression-to-the-mean"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Overcorrection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Overcorrection",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}
