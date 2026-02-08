@@ -1,0 +1,69 @@
+{
+    "id": "planning-poker",
+    "name": "Planning Poker",
+    "summary": "A consensus-based estimation technique where team members simultaneously reveal cards to estimate effort.",
+    "explanation": "Planning Poker (also called Scrum Poker) is a gamified estimation technique where team members use numbered cards to estimate the effort of work items. It combines expert opinion, analogy, and group discussion to produce consensus estimates.\n\n## How it works\n\n1. **Present the item** - The product owner or facilitator describes the user story or task\n2. **Discuss** - The team asks clarifying questions and briefly discusses the work involved\n3. **Estimate privately** - Each team member selects a card representing their estimate without showing others\n4. **Reveal simultaneously** - Everyone flips their cards at the same time\n5. **Discuss outliers** - The highest and lowest estimators explain their reasoning\n6. **Re-estimate** - The team votes again until consensus is reached (usually 1-2 rounds)\n\n## Card values\n\nMost Planning Poker decks use a modified Fibonacci sequence: 0, 1, 2, 3, 5, 8, 13, 20, 40, 100, plus special cards like '?' (need more information) and a coffee cup (break time).\n\nThe increasing gaps in the Fibonacci sequence reflect that larger items carry more uncertainty. You can meaningfully distinguish between a 3 and a 5, but the difference between a 21 and a 22 is meaningless.\n\n## Why simultaneous reveal matters\n\nRevealing cards at the same time prevents **anchoring bias** - the tendency for the first number spoken to influence everyone else's estimate. Without simultaneous reveal, junior developers often defer to senior developers' estimates, and diverse perspectives are lost.\n\n## Benefits\n\n- **Surfaces hidden complexity** - Divergent estimates reveal different assumptions or knowledge gaps\n- **Builds shared understanding** - Discussion is where the real value lies\n- **Reduces anchoring** - Independent thinking before group discussion\n- **Engages the whole team** - Everyone participates equally\n- **Fast** - Most items converge in 1-2 rounds\n\n## Best practices\n\n- Keep discussions time-boxed (2-5 minutes per item)\n- Use a well-understood reference story as a baseline\n- Don't average estimates - seek consensus through discussion\n- If estimates remain far apart after 2 rounds, the item likely needs refinement\n- Track actual vs estimated effort to improve calibration over time\n\nPlanning Poker was first described by James Grenning in 2002 and later popularized by Mike Cohn in his book 'Agile Estimating and Planning'.",
+    "tags": [
+        "agile",
+        "estimation",
+        "planning",
+        "scrum",
+        "teams",
+        "collaboration"
+    ],
+    "category": "Techniques",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Scrum Poker",
+        "Estimation Poker",
+        "Poker Planning"
+    ],
+    "relatedConcepts": [
+        "story-points",
+        "t-shirt-sizing",
+        "affinity-estimation",
+        "sprint-planning",
+        "wideband-delphi",
+        "anchoring",
+        "software-estimation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Estimating and Planning by Mike Cohn",
+            "url": "https://www.amazon.com/dp/0131479415?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Planning poker - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Planning_poker",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

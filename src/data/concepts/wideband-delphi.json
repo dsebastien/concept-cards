@@ -1,0 +1,73 @@
+{
+    "id": "wideband-delphi",
+    "name": "Wideband Delphi",
+    "summary": "A structured group estimation technique that combines anonymous individual estimates with facilitated discussion rounds.",
+    "explanation": "Wideband Delphi is a consensus-based estimation technique that combines individual expert judgment with structured group discussion. It was developed at the RAND Corporation in the 1940s-50s and later adapted for software estimation by Barry Boehm at TRW in the 1970s.\n\n## How it works\n\n1. **Kickoff meeting** - The moderator presents the item to be estimated and provides any relevant documentation\n2. **Individual estimation** - Each participant independently creates an estimate, including assumptions\n3. **Collect and share** - The moderator collects all estimates and shares the results anonymously (typically showing the range and distribution)\n4. **Group discussion** - Participants discuss the estimates, focusing on:\n   - Why the highest and lowest estimates differ\n   - What assumptions were made\n   - What risks or complexities were identified\n5. **Re-estimate** - Each participant revises their estimate independently based on the discussion\n6. **Iterate** - Repeat steps 3-5 until estimates converge (typically 2-3 rounds)\n7. **Final result** - The moderator summarizes the consensus estimate and key assumptions\n\n## Why 'Wideband'?\n\nThe original Delphi method used only written communication between participants. The 'wideband' variant adds face-to-face discussion rounds, providing a wider bandwidth of communication. This allows for richer exchange of reasoning and faster convergence.\n\n## Key principles\n\n- **Anonymity** - Estimates are collected privately to prevent anchoring and groupthink\n- **Iteration** - Multiple rounds allow learning and convergence\n- **Facilitation** - A moderator ensures productive discussion and prevents domination\n- **Documentation** - Assumptions and rationale are captured alongside estimates\n\n## Advantages\n\n- Produces well-reasoned estimates with documented assumptions\n- Reduces the influence of authority and dominant personalities\n- Surfaces hidden risks and complexity through structured discussion\n- Works well for novel or complex items where individual expertise is insufficient\n- Produces estimates that the whole team understands and supports\n\n## Comparison with Planning Poker\n\nPlanning Poker is essentially a lightweight descendant of Wideband Delphi, adapted for agile teams. The key differences:\n\n| Aspect | Wideband Delphi | Planning Poker |\n|---|---|---|\n| Formality | High - structured rounds | Low - quick card flips |\n| Duration | Hours per item | Minutes per item |\n| Best for | Large, complex items | User stories, sprint items |\n| Documentation | Extensive | Minimal |\n| Rounds | 2-4 typical | 1-2 typical |\n\n## When to use it\n\n- Estimating entire projects or major phases\n- High-stakes estimates that need strong justification\n- When team members have significantly different expertise areas\n- When detailed assumptions and risks need to be documented",
+    "tags": [
+        "estimation",
+        "planning",
+        "project-management",
+        "collaboration",
+        "teams"
+    ],
+    "category": "Techniques",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "Delphi Method",
+        "Delphi Estimation",
+        "Wideband Delphi Estimation"
+    ],
+    "relatedConcepts": [
+        "planning-poker",
+        "software-estimation",
+        "story-points",
+        "three-point-estimation",
+        "groupthink",
+        "anchoring",
+        "wisdom-of-crowds"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Estimation: Demystifying the Black Art by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735605351?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Wideband delphi - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wideband_delphi",
+            "type": "website"
+        },
+        {
+            "title": "Delphi method - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Delphi_method",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

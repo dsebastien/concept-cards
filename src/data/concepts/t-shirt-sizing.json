@@ -1,0 +1,73 @@
+{
+    "id": "t-shirt-sizing",
+    "name": "T-Shirt Sizing",
+    "summary": "An estimation technique using clothing sizes (XS, S, M, L, XL) to categorize work items by relative effort.",
+    "explanation": "T-shirt sizing is an agile estimation technique that uses familiar clothing sizes (XS, S, M, L, XL, and sometimes XXL) to express the relative effort, complexity, or scope of work items. It trades numerical precision for speed and simplicity.\n\n## How it works\n\nThe team agrees on a reference item for each size, then categorizes new work items by comparing them to these references:\n\n- **XS** - Trivial change, minimal effort (e.g., fix a typo)\n- **S** - Small, well-understood task (e.g., add a form field)\n- **M** - Moderate complexity, some unknowns (e.g., new API endpoint)\n- **L** - Significant effort, multiple components (e.g., new feature with UI, API, and database changes)\n- **XL** - Very large, should likely be broken down (e.g., new module or subsystem)\n\n## When to use T-shirt sizing\n\n1. **Early-stage estimation** - When detailed requirements are not yet available\n2. **Roadmap planning** - For high-level capacity planning across quarters\n3. **Backlog grooming** - Quick initial sizing before detailed estimation\n4. **Non-technical stakeholders** - More intuitive than story points or hours\n5. **Large backlogs** - When you need to size many items quickly\n\n## Advantages\n\n- **Low cognitive load** - Fewer choices make decisions faster\n- **Avoids false precision** - Discourages debates over whether something is a 5 or an 8\n- **Inclusive** - Anyone can participate, not just developers\n- **Quick** - Teams can size dozens of items in a short session\n- **Natural grouping** - Creates clear categories for prioritization\n\n## Mapping to numbers\n\nTeams often map T-shirt sizes to story points or effort ranges for planning:\n\n| Size | Story Points | Days (example) |\n|------|-------------|----------------|\n| XS   | 1           | 0.5            |\n| S    | 2-3         | 1-2            |\n| M    | 5           | 3-5            |\n| L    | 8-13        | 5-10           |\n| XL   | 20+         | 10+            |\n\n## Common pitfalls\n\n- Using T-shirt sizes when more precision is needed for sprint commitments\n- Not establishing clear reference stories for each size\n- Letting sizes creep (today's M becomes tomorrow's S)\n- Skipping the conversation - the discussion matters more than the label",
+    "tags": [
+        "agile",
+        "estimation",
+        "planning",
+        "project-management",
+        "teams"
+    ],
+    "category": "Techniques",
+    "icon": "FaTshirt",
+    "featured": false,
+    "aliases": [
+        "T-Shirt Estimates",
+        "Tee-Shirt Sizing",
+        "Relative Sizing"
+    ],
+    "relatedConcepts": [
+        "story-points",
+        "planning-poker",
+        "affinity-estimation",
+        "sprint-planning",
+        "user-stories",
+        "software-estimation",
+        "backlog"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Estimating and Planning by Mike Cohn",
+            "url": "https://www.amazon.com/dp/0131479415?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Planning poker - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Planning_poker",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

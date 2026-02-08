@@ -1,0 +1,49 @@
+{
+    "id": "cybernetics",
+    "name": "Cybernetics",
+    "summary": "The interdisciplinary study of regulatory and purposive systems, focusing on how feedback, communication, and control enable systems to self-regulate.",
+    "explanation": "Cybernetics is the study of systems that regulate themselves through feedback. Founded by Norbert Wiener in the 1940s, the term comes from the Greek 'kybernetes' (steersman/governor). It examines how systems - biological, mechanical, social, or cognitive - use information and feedback to achieve goals and maintain stability.\n\n## Core concepts\n\n### Feedback\nThe central mechanism of cybernetics. A system monitors its output, compares it to a desired state, and adjusts its behavior:\n\n- **Negative feedback** (stabilizing) - Reduces deviation from a goal (thermostat, cruise control)\n- **Positive feedback** (amplifying) - Increases deviation, creating growth or collapse (viral spread, compound interest)\n\n### Circular causality\nIn cybernetic systems, cause and effect are circular, not linear. The output influences the input, which influences the output. This contrasts with simple linear thinking (A causes B).\n\n### Requisite variety\nAshby's Law: a system must have at least as much variety in its responses as there are disturbances in the environment. A controller must be as complex as the system it controls.\n\n### Self-organization\nComplex systems can organize themselves through feedback interactions without central control. Order emerges from the interactions of components.\n\n## First-order vs. second-order cybernetics\n\n- **First-order** (Wiener, 1940s-50s) - Studying systems from outside as an objective observer\n- **Second-order** (Von Foerster, Maturana, 1970s) - Recognizing that the observer is part of the system being observed\n\n## Influence across fields\n\nCybernetics has profoundly influenced:\n\n- **Computer science** - Feedback loops in control systems, AI\n- **Systems thinking** - Understanding complex adaptive systems\n- **Management** - Organizational feedback and control (Stafford Beer's Viable System Model)\n- **Psychology** - Cognitive behavioral models, self-regulation\n- **Biology** - Homeostasis, autopoiesis\n- **Communication** - Information theory, human-machine interaction\n- **Education** - Feedback-driven learning\n\n## Key figures\n\n- **Norbert Wiener** - Founder, wrote 'Cybernetics' (1948)\n- **W. Ross Ashby** - Law of Requisite Variety, 'Design for a Brain'\n- **Stafford Beer** - Management cybernetics, Viable System Model\n- **Gregory Bateson** - Applied cybernetics to anthropology and psychology\n- **Heinz von Foerster** - Second-order cybernetics\n\n## Why cybernetics matters today\n\nIn an age of AI, complex organizations, and interconnected systems, cybernetic thinking provides essential tools for understanding how systems regulate, adapt, and evolve. The principles of feedback, control, and self-regulation underpin everything from machine learning algorithms to organizational design.",
+    "tags": [
+        "systems-thinking",
+        "feedback",
+        "control-theory",
+        "interdisciplinary",
+        "science"
+    ],
+    "category": "Thinking",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Control Theory",
+        "Systems Control",
+        "Regulatory Systems"
+    ],
+    "relatedConcepts": [
+        "feedback-loop",
+        "systems-thinking",
+        "homeostasis",
+        "virtuous-circle",
+        "vicious-circle",
+        "double-loop-learning",
+        "emergence",
+        "complexity-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Systems by Donella H. Meadows",
+            "url": "https://www.amazon.com/dp/1603580557?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cybernetics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cybernetics",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

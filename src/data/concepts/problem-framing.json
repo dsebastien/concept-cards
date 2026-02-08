@@ -1,0 +1,62 @@
+{
+    "id": "problem-framing",
+    "name": "Problem Framing",
+    "summary": "The practice of defining and structuring a problem clearly before attempting to solve it, ensuring effort is directed at the right issue.",
+    "explanation": "Problem framing is the critical first step in any problem-solving process: defining what the problem actually is before jumping to solutions. How a problem is framed determines what solutions are considered, what data is gathered, and ultimately whether the real issue gets addressed. A poorly framed problem leads to solving the wrong thing, while a well-framed problem often makes the solution obvious.\n\n**Why problem framing matters**:\n\n- Most problem-solving failures come from solving the wrong problem, not from wrong solutions\n- The way a problem is stated constrains the solution space\n- Reframing a problem can unlock entirely new approaches\n- Stakeholders often present solutions disguised as problems ('We need a bigger database' vs. 'Queries are slow')\n\n**Problem framing techniques**:\n\n- **Problem statement**: Write a clear, concise description of the gap between current and desired state\n- **5 Whys**: Ask 'why' repeatedly to move from symptoms to root causes\n- **Reframing**: Deliberately state the problem in multiple different ways to see it from different angles\n- **Boundary setting**: Define what is and isn't in scope\n- **Stakeholder mapping**: Identify who is affected and what 'solved' means to each\n- **Assumption surfacing**: Make implicit assumptions explicit and challenge them\n- **Jobs to be done**: Frame the problem in terms of what the user is trying to accomplish\n\n**Common framing mistakes**:\n\n- Jumping to solutions before understanding the problem\n- Framing too narrowly (missing the bigger picture) or too broadly (boiling the ocean)\n- Confusing symptoms with root causes\n- Embedding assumptions in the problem statement\n- Accepting the first framing without exploring alternatives\n- Letting the loudest voice define the problem\n\n**Problem framing in practice**:\n\nEffective problem framers spend a disproportionate amount of time understanding the problem relative to solving it. Albert Einstein reportedly said that if he had an hour to solve a problem, he'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions. While the ratio varies, the principle is sound: invest in understanding before acting.",
+    "tags": [
+        "problem-solving",
+        "thinking",
+        "analysis",
+        "strategy"
+    ],
+    "category": "Thinking",
+    "icon": "FaSearchPlus",
+    "featured": false,
+    "aliases": [
+        "Problem definition",
+        "Problem structuring",
+        "Problem formulation"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "five-whys",
+        "first-principles",
+        "critical-thinking",
+        "jobs-to-be-done",
+        "systems-thinking",
+        "kepner-tregoe"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Problem statement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Problem_statement",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

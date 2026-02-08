@@ -1,0 +1,62 @@
+{
+    "id": "affinity-estimation",
+    "name": "Affinity Estimation",
+    "summary": "A collaborative estimation technique where team members silently group work items by relative size to quickly estimate large backlogs.",
+    "explanation": "Affinity Estimation (also called Affinity Grouping or Wall Estimation) is a fast, collaborative estimation technique designed to size a large number of items quickly. Instead of estimating each item individually, the team sorts items into relative size groups.\n\n## How it works\n\n1. **Set up columns** - Create columns on a wall or board representing sizes (e.g., XS, S, M, L, XL or Fibonacci values)\n2. **Seed the board** - Place one well-understood item in each column as a reference point\n3. **Silent sorting** - Team members take turns placing items in columns based on relative size. No talking during this phase\n4. **Review and adjust** - Once all items are placed, the team discusses any items that seem misplaced\n5. **Move items** - Anyone can move items, but if an item moves back and forth, it's flagged for group discussion\n6. **Finalize** - The team agrees on final placements\n\n## Why silent sorting works\n\n- **Prevents anchoring** - No one influences others with spoken opinions\n- **Leverages diverse perspectives** - Everyone's judgment contributes equally\n- **Surfaces disagreements visibly** - Items that bounce between columns reveal hidden complexity or misunderstanding\n- **Fast** - A team can size 50-100 items in under an hour\n\n## When to use it\n\n- **Large backlog sizing** - When you have dozens or hundreds of items to estimate\n- **Initial release planning** - Getting a rough sense of total scope\n- **New teams** - When the team hasn't established a velocity baseline yet\n- **Portfolio-level planning** - Comparing effort across multiple projects\n\n## Advantages over other techniques\n\n- Much faster than Planning Poker for large numbers of items\n- Naturally produces a relative ordering, not just point values\n- Entire team participates without long discussions per item\n- The physical movement keeps energy high\n\n## Limitations\n\n- Less detailed than per-item estimation techniques\n- Requires physical or virtual board space\n- Works best for items at a similar level of decomposition\n- Not suitable when detailed estimates are needed for sprint commitments",
+    "tags": [
+        "agile",
+        "estimation",
+        "planning",
+        "collaboration",
+        "teams"
+    ],
+    "category": "Techniques",
+    "icon": "FaTh",
+    "featured": false,
+    "aliases": [
+        "Affinity Grouping",
+        "Wall Estimation",
+        "Bucket Estimation"
+    ],
+    "relatedConcepts": [
+        "t-shirt-sizing",
+        "planning-poker",
+        "story-points",
+        "software-estimation",
+        "sprint-planning",
+        "backlog"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Estimating and Planning by Mike Cohn",
+            "url": "https://www.amazon.com/dp/0131479415?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

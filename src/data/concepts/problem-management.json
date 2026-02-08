@@ -1,0 +1,46 @@
+{
+    "id": "problem-management",
+    "name": "Problem Management",
+    "summary": "The practice of identifying and managing the underlying causes of incidents to prevent recurrence and minimize impact.",
+    "explanation": "Problem management is an IT service management practice focused on reducing the likelihood and impact of incidents by identifying their root causes and managing known errors. While incident management restores service quickly, problem management asks 'why did this happen?' and 'how do we prevent it from happening again?'\n\n**Problem management vs. incident management**:\n\n- **Incident management**: Reactive, focused on restoring service as quickly as possible. Treats symptoms\n- **Problem management**: Proactive and reactive, focused on finding and eliminating root causes. Prevents recurrence\n- A single problem can be the root cause of multiple incidents\n\n**Problem management activities**:\n\n**Reactive**:\n1. **Problem identification**: Detecting recurring incidents, major incidents, or patterns through trend analysis\n2. **Problem investigation**: Root cause analysis using techniques like 5 Whys, Kepner-Tregoe, or fault tree analysis\n3. **Known error management**: Documenting known errors and workarounds in a Known Error Database (KEDB)\n4. **Problem resolution**: Implementing permanent fixes, often through the change management process\n\n**Proactive**:\n1. **Trend analysis**: Identifying patterns in incident data before they become critical\n2. **Risk assessment**: Evaluating potential problems before they manifest as incidents\n3. **Preventive action**: Implementing improvements to prevent anticipated problems\n\n**Key concepts**:\n\n- **Known error**: A problem that has a documented root cause and a workaround or permanent fix\n- **Workaround**: A temporary solution that reduces the impact of a problem until a permanent fix is available\n- **Problem record**: The documentation of a problem's lifecycle from identification to resolution\n\n**Success metrics**:\n\n- Number of recurring incidents reduced\n- Mean time to identify root cause\n- Number of known errors documented\n- Percentage of problems resolved within SLA\n- Number of incidents prevented through proactive problem management\n\n**Challenge**: Many organizations skip problem management because it requires dedicated time and resources beyond the urgency of incident response. However, organizations that invest in problem management typically see significant reductions in incident volume and operational costs over time.",
+    "tags": [
+        "operations",
+        "processes",
+        "reliability",
+        "devops"
+    ],
+    "category": "Software Development",
+    "icon": "FaSearch",
+    "featured": false,
+    "aliases": [
+        "ITIL problem management",
+        "Root cause elimination"
+    ],
+    "relatedConcepts": [
+        "incident-management",
+        "root-cause-analysis",
+        "five-whys",
+        "kepner-tregoe",
+        "change-management",
+        "blameless-postmortem",
+        "corrective-and-preventive-action"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Problem management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Problem_management",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

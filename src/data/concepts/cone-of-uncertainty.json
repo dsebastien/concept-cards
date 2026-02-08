@@ -1,0 +1,67 @@
+{
+    "id": "cone-of-uncertainty",
+    "name": "Cone of Uncertainty",
+    "summary": "The principle that estimation accuracy improves as a project progresses and unknowns are resolved.",
+    "explanation": "The Cone of Uncertainty describes how the range of possible outcomes for a project narrows as the project moves forward and unknowns are resolved. Early in a project, estimates may vary by a factor of 4x or more; as work progresses, the variance shrinks.\n\n## The cone in numbers\n\nResearch by Barry Boehm and Steve McConnell shows typical estimation ranges at different project stages:\n\n| Project Phase | Estimate Range |\n|---|---|\n| Initial concept | 0.25x to 4x |\n| Approved product definition | 0.5x to 2x |\n| Requirements complete | 0.67x to 1.5x |\n| UI design complete | 0.8x to 1.25x |\n| Detailed design complete | 0.9x to 1.1x |\n\nA 0.25x to 4x range means a project initially estimated at 12 months could actually take anywhere from 3 to 48 months.\n\n## Why the cone exists\n\nAt the start of a project:\n- Requirements are vague or incomplete\n- Technical approach is not yet validated\n- Team capabilities are untested against this specific challenge\n- External dependencies are unclear\n- Unknown unknowns abound\n\nAs work progresses, each of these uncertainties is resolved through decisions, prototyping, and implementation.\n\n## Implications for estimation\n\n1. **Early estimates should be ranges, not points** - Don't promise a date when you're at 4x uncertainty\n2. **Re-estimate as the cone narrows** - Update estimates at each phase transition\n3. **Decisions narrow the cone** - Each choice eliminates alternative paths and their associated uncertainty\n4. **The cone only narrows if you actively reduce uncertainty** - Simply passing time does not improve accuracy; you must make decisions and do work\n5. **Don't hold teams to initial estimates** - The cone tells us these estimates are inherently unreliable\n\n## The cone doesn't narrow automatically\n\nA critical insight from McConnell: the cone only narrows when teams actively reduce uncertainty through decisions and validated work. Projects that defer key decisions or avoid confronting risks don't see their estimation accuracy improve - they just carry the wide cone forward into development.\n\n## Practical applications\n\n- **Communicate uncertainty explicitly** - Show stakeholders the cone at each phase\n- **Use iterative development** - Short iterations continuously narrow the cone through working software\n- **Front-load risk** - Address the biggest unknowns first to narrow the cone faster\n- **Plan in waves** - Detail the near-term, leave the far-term at a higher level\n- **Budget for contingency** - Early-stage plans should include appropriate buffers matching the cone width",
+    "tags": [
+        "estimation",
+        "planning",
+        "project-management",
+        "software-engineering",
+        "risk-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaFilter",
+    "featured": false,
+    "aliases": [
+        "Estimation Cone",
+        "Uncertainty Cone"
+    ],
+    "relatedConcepts": [
+        "software-estimation",
+        "planning-fallacy",
+        "three-point-estimation",
+        "reference-class-forecasting",
+        "story-points",
+        "hofstadter-law",
+        "minimum-viable-product"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Estimation: Demystifying the Black Art by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735605351?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cone of Uncertainty - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cone_of_Uncertainty",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

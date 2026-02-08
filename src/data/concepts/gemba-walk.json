@@ -1,0 +1,53 @@
+{
+    "id": "gemba-walk",
+    "name": "Gemba Walk",
+    "summary": "The practice of going to where work actually happens to observe processes firsthand and identify improvement opportunities.",
+    "explanation": "A Gemba Walk (from Japanese 'gemba' meaning 'the real place') is the practice of going to the place where value is created to observe the actual work process firsthand. Rather than relying on reports, dashboards, or secondhand information, leaders go to the source.\n\n## The philosophy\n\nTaiichi Ohno, architect of the Toyota Production System, insisted that managers must go to the factory floor to truly understand what was happening. He reportedly drew circles on the floor and made engineers stand in them for hours, simply observing. The principle: you cannot improve what you do not understand firsthand.\n\n## How to conduct a Gemba Walk\n\n1. **Go to the workplace** - The shop floor, the development team's area, the customer service center\n2. **Observe** - Watch the actual process without judgment or interference\n3. **Ask questions** - Understand why things are done the way they are\n4. **Listen** - The workers closest to the process have the deepest knowledge\n5. **Show respect** - You're there to learn, not to audit or criticize\n6. **Take notes** - Document observations for later analysis\n7. **Follow up** - Act on what you learned\n\n## What to observe\n\n- **Flow** - Does work move smoothly or are there bottlenecks?\n- **Waste (muda)** - Are there unnecessary steps, waiting, or rework?\n- **Workarounds** - Are workers circumventing official processes? Why?\n- **Problems** - What issues are workers dealing with daily?\n- **Standards** - Are standard procedures being followed? Are they adequate?\n\n## Gemba in software development\n\nThe concept translates beyond manufacturing:\n\n- **Pair programming** - Observing how developers actually write code\n- **Shadowing users** - Watching how customers use your software\n- **Sitting with support** - Hearing real customer problems firsthand\n- **Attending standups** - Understanding what blocks the team\n- **Reviewing pull requests** - Seeing the actual code changes\n\n## Common mistakes\n\n- **Going to blame** - Using observations to criticize rather than improve\n- **Solving on the spot** - Jumping to solutions instead of deeply understanding\n- **Infrequent visits** - A one-time event rather than a regular practice\n- **Staying in the office** - Trusting metrics over observation\n- **Not following up** - Observing without acting on findings\n\nThe key insight of gemba is that reality often differs significantly from what reports and dashboards suggest. Direct observation reveals the waste, workarounds, and frustrations that data can't capture.",
+    "tags": [
+        "lean",
+        "management",
+        "improvement",
+        "leadership",
+        "japanese-concepts"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaWalking",
+    "featured": false,
+    "aliases": [
+        "Gemba",
+        "Go and See",
+        "Genchi Genbutsu",
+        "Management by Walking Around"
+    ],
+    "relatedConcepts": [
+        "kaizen",
+        "lean-manufacturing",
+        "muda",
+        "hansei",
+        "visual-management",
+        "kanban",
+        "value-stream-mapping"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Toyota Way by Jeffrey K. Liker",
+            "url": "https://www.amazon.com/dp/0071392319?tag=dsebastien00-20"
+        },
+        {
+            "title": "Gemba Kaizen by Masaaki Imai",
+            "url": "https://www.amazon.com/dp/0071790357?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Gemba - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Gemba",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

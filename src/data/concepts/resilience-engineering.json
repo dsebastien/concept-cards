@@ -1,0 +1,55 @@
+{
+    "id": "resilience-engineering",
+    "name": "Resilience Engineering",
+    "summary": "A discipline focused on understanding how systems succeed under varying conditions and building capacity to adapt to unexpected situations.",
+    "explanation": "Resilience engineering is a paradigm for safety management that focuses on how to help systems cope with complexity and variability, rather than simply trying to prevent failures. Originating from the work of Erik Hollnagel, David Woods, and others, it shifts the focus from 'what goes wrong' to 'what goes right' and how to sustain that.\n\n**Core principles**:\n\n- **Systems succeed more than they fail**: Most of the time, complex systems work well despite imperfect conditions. Understanding why things go right is as important as understanding failures\n- **Safety is a dynamic property**: It is not a static state but something that must be continuously created through adaptive behavior\n- **Humans as a source of resilience**: People are not just sources of error — they are the primary source of adaptation and recovery in complex systems\n- **Complexity and coupling**: Modern systems are too complex to fully predict, so building adaptive capacity is more effective than trying to eliminate all possible failures\n\n**The four cornerstones of resilience**:\n\n1. **Anticipating**: Looking ahead to identify potential challenges and opportunities\n2. **Monitoring**: Knowing what to look for and recognizing when conditions are changing\n3. **Responding**: Knowing what to do and being able to adjust to actual or anticipated disruptions\n4. **Learning**: Knowing what has happened and extracting lessons from both success and failure\n\n**Resilience engineering vs. traditional safety**:\n\n- Traditional safety: Focuses on counting failures, finding root causes, and adding barriers\n- Resilience engineering: Focuses on understanding adaptation, building capacity for surprise, and enabling graceful extensibility\n\n**Practical applications**:\n\n- **Aviation**: Crew Resource Management and adaptive cockpit procedures\n- **Healthcare**: Designing systems that support clinician judgment rather than just adding protocols\n- **Software engineering**: Chaos engineering, game days, and blameless post-mortems\n- **Organizations**: Building learning cultures that improve through experience\n\n**Key insight**: You cannot protect a system against every possible failure. Instead, build the capacity to adapt, respond, and recover from whatever happens — including things you never anticipated.",
+    "tags": [
+        "resilience",
+        "systems-thinking",
+        "safety",
+        "engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Safety-II",
+        "Adaptive safety management"
+    ],
+    "relatedConcepts": [
+        "antifragility",
+        "chaos-engineering",
+        "operational-resilience",
+        "blameless-postmortem",
+        "systems-thinking",
+        "complex-adaptive-systems"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Resilience Engineering by Erik Hollnagel, David D. Woods, and Nancy Leveson",
+            "url": "https://www.amazon.com/dp/0754649040?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Resilience engineering - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Resilience_engineering",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

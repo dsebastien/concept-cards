@@ -1,0 +1,45 @@
+{
+    "id": "change-management",
+    "name": "Change Management",
+    "summary": "The structured approach to transitioning individuals, teams, and organizations from a current state to a desired future state.",
+    "explanation": "Change management is the discipline of guiding individuals, teams, and organizations through transitions from a current state to a desired future state. It addresses both the technical side (processes, systems, structures) and the human side (attitudes, behaviors, culture) of change.\n\n**Why change management matters**:\n\n- 70% of change initiatives fail, primarily due to employee resistance and inadequate management support\n- Technical solutions fail without human adoption\n- The cost of poorly managed change includes lost productivity, turnover, and organizational cynicism\n\n**Major change management models**:\n\n- **Kotter's 8-Step Process**: Create urgency, form coalition, create vision, communicate vision, empower action, create quick wins, build on change, anchor in culture\n- **ADKAR Model** (Prosci): Awareness, Desire, Knowledge, Ability, Reinforcement — focuses on individual change\n- **Lewin's Change Model**: Unfreeze (prepare), Change (transition), Refreeze (solidify)\n- **Bridges' Transition Model**: Ending (letting go), Neutral Zone (in-between), New Beginning — focuses on the psychological experience\n\n**Key principles**:\n\n- **Start with why**: People need to understand the reason for change before they'll support it\n- **Leadership alignment**: Leaders must model the change they're asking for\n- **Communication**: Over-communicate by a factor of 10; silence breeds fear and rumors\n- **Empathy**: Acknowledge that change involves loss, even when the outcome is positive\n- **Quick wins**: Early visible successes build momentum and credibility\n- **Sustainability**: Change must be reinforced through systems, incentives, and culture to last\n\n**Change management in IT/Software**:\n\nIn ITIL and IT service management, change management (now called change enablement) specifically refers to the process of controlling changes to the IT infrastructure to minimize disruption. This includes change requests, impact assessment, approval processes, and post-implementation review.\n\n**Resistance to change** is natural and should be expected, not punished. Common sources include fear of the unknown, loss of control, lack of trust, and past experiences with failed changes. The most effective approach is to involve people early, listen to concerns, and address legitimate objections.",
+    "tags": [
+        "leadership",
+        "organizational-culture",
+        "strategy",
+        "processes"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaExchangeAlt",
+    "featured": false,
+    "aliases": [
+        "Organizational change management",
+        "OCM",
+        "Change enablement"
+    ],
+    "relatedConcepts": [
+        "adkar-model",
+        "kaizen",
+        "psychological-safety",
+        "servant-leadership",
+        "stakeholder-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Leading Change by John P. Kotter",
+            "url": "https://www.amazon.com/dp/1422186431?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Change management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Change_management",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

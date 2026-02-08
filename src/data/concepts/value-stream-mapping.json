@@ -1,0 +1,50 @@
+{
+    "id": "value-stream-mapping",
+    "name": "Value Stream Mapping",
+    "summary": "A lean technique for visualizing and analyzing the complete flow of materials and information needed to deliver a product or service.",
+    "explanation": "Value Stream Mapping (VSM) is a lean management tool used to visualize, analyze, and improve the flow of materials and information required to bring a product or service to the customer. It maps the entire process from beginning to end, distinguishing value-adding steps from waste.\n\n## What it maps\n\nA value stream map captures:\n\n- **Process steps** - Each activity in the flow\n- **Information flow** - How decisions and data move\n- **Material flow** - How physical or digital items move\n- **Time data** - Processing time vs. wait time at each step\n- **Inventory/queues** - Where work piles up between steps\n- **Metrics** - Cycle time, lead time, defect rates\n\n## How to create one\n\n1. **Select the value stream** - Choose a specific product family or service\n2. **Walk the process** - Follow the work from start to finish (gemba)\n3. **Map the current state** - Document what actually happens, not what should happen\n4. **Identify waste** - Mark non-value-adding steps (muda)\n5. **Design the future state** - Envision the improved process\n6. **Create an action plan** - Define steps to move from current to future state\n\n## Key metrics\n\n- **Lead time** - Total time from request to delivery\n- **Processing time** - Time spent actually working on the item\n- **Process cycle efficiency** = Processing time / Lead time\n- **Takt time** - The rate at which you need to complete items to meet demand\n\nA typical finding: processing time is only 5-10% of total lead time. The rest is waiting, handoffs, and queues.\n\n## In software development\n\nVSM has been adapted for software delivery:\n\n- **Stages**: Idea, requirements, design, development, testing, deployment, monitoring\n- **Wait times**: Approval queues, code review backlogs, staging environment availability\n- **Handoffs**: Between teams (design to dev, dev to QA, QA to ops)\n- **Waste**: Unnecessary documentation, unused features, rework from unclear requirements\n\n## Benefits\n\n- Makes invisible waste visible\n- Provides a shared understanding of the whole process\n- Highlights bottlenecks and queues objectively\n- Focuses improvement efforts on the highest-impact areas\n- Connects tactical improvements to end-to-end flow\n\n## Common discoveries\n\n- Most of lead time is waiting, not working\n- Handoffs between teams create significant delays\n- Batch processing creates artificial bottlenecks\n- Information gaps cause rework and delays",
+    "tags": [
+        "lean",
+        "processes",
+        "improvement",
+        "visualization",
+        "management"
+    ],
+    "category": "Techniques",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "VSM",
+        "Value Stream Analysis",
+        "Material and Information Flow Mapping"
+    ],
+    "relatedConcepts": [
+        "lean-manufacturing",
+        "muda",
+        "kaizen",
+        "kanban",
+        "gemba-walk",
+        "theory-of-constraints",
+        "bottleneck",
+        "six-sigma",
+        "limit-work-in-progress"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Learning to See by Mike Rother and John Shook",
+            "url": "https://www.amazon.com/dp/0966784308?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Value-stream mapping - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Value-stream_mapping",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

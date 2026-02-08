@@ -1,0 +1,50 @@
+{
+    "id": "theory-of-constraints",
+    "name": "Theory of Constraints",
+    "summary": "A management philosophy that identifies the most critical limiting factor (constraint) in a system and systematically improves it.",
+    "explanation": "The Theory of Constraints (TOC) is a management paradigm developed by Eliyahu M. Goldratt, introduced in his 1984 novel 'The Goal'. Its core premise is that every system has at least one constraint that limits its ability to achieve its goal. Improving anything other than the constraint is wasted effort.\n\n## The Five Focusing Steps\n\n1. **Identify** the constraint - Find the bottleneck that limits throughput\n2. **Exploit** the constraint - Maximize the output of the constraint with existing resources\n3. **Subordinate** everything else - Align all other processes to support the constraint\n4. **Elevate** the constraint - Invest to increase the constraint's capacity\n5. **Repeat** - Once a constraint is broken, find the next one (avoid inertia)\n\n## The chain analogy\n\nA chain is only as strong as its weakest link. Strengthening any link other than the weakest one does nothing to improve the chain's overall strength. Similarly, improving a non-constraint process does nothing to improve overall system throughput.\n\n## Drum-Buffer-Rope (DBR)\n\nTOC's scheduling methodology:\n\n- **Drum** - The constraint sets the pace for the entire system\n- **Buffer** - Protective inventory before the constraint ensures it's never starved\n- **Rope** - A signal mechanism that ties material release to constraint consumption\n\n## Key metrics\n\n- **Throughput** - The rate at which the system generates money (or value)\n- **Inventory** - Money tied up in the system\n- **Operating Expense** - Money spent to turn inventory into throughput\n\nTOC prioritizes throughput over cost reduction, arguing that costs can only be cut to zero, but throughput has no upper limit.\n\n## Applications\n\n- **Manufacturing** - Identifying production bottlenecks\n- **Software development** - Finding what slows delivery (testing, code review, deployment)\n- **Project management** - Critical Chain Project Management (CCPM)\n- **Supply chain** - Distribution and replenishment strategies\n- **Personal productivity** - Identifying your personal constraint\n\n## Thinking Processes\n\nTOC includes logical thinking tools for problem-solving:\n\n- **Current Reality Tree** - Maps cause-and-effect of current problems\n- **Evaporating Cloud** - Resolves conflicts by challenging assumptions\n- **Future Reality Tree** - Maps the expected effects of proposed solutions\n- **Prerequisite Tree** - Identifies obstacles and intermediate objectives\n- **Transition Tree** - Plans the implementation sequence\n\n## Key insight\n\nMost improvement efforts fail because they improve non-constraints. TOC forces focus on the one thing that matters most right now. When that constraint is resolved, the next constraint emerges, creating a cycle of focused, systematic improvement.",
+    "tags": [
+        "systems-thinking",
+        "management",
+        "improvement",
+        "processes",
+        "bottlenecks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "TOC",
+        "Constraint Management",
+        "Bottleneck Theory"
+    ],
+    "relatedConcepts": [
+        "bottleneck",
+        "lean-manufacturing",
+        "kaizen",
+        "kanban",
+        "value-stream-mapping",
+        "systems-thinking",
+        "current-reality-tree",
+        "identifying-system-constraints",
+        "limit-work-in-progress"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Theory of constraints - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_constraints",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

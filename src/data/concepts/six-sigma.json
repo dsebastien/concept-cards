@@ -1,0 +1,52 @@
+{
+    "id": "six-sigma",
+    "name": "Six Sigma",
+    "summary": "A data-driven methodology for eliminating defects and reducing process variation to achieve near-perfect quality.",
+    "explanation": "Six Sigma is a disciplined, data-driven methodology for eliminating defects and reducing variation in any process. Developed at Motorola in the 1980s and popularized by General Electric under Jack Welch, it aims for no more than 3.4 defects per million opportunities (DPMO).\n\n## The name\n\nSigma is the Greek letter used in statistics for standard deviation. Six sigma means that the process mean is six standard deviations from the nearest specification limit, allowing virtually no defects. In practical terms:\n\n| Sigma Level | DPMO | Yield |\n|---|---|---|\n| 1 sigma | 690,000 | 31% |\n| 2 sigma | 308,000 | 69.2% |\n| 3 sigma | 66,800 | 93.3% |\n| 4 sigma | 6,210 | 99.4% |\n| 5 sigma | 230 | 99.98% |\n| 6 sigma | 3.4 | 99.99966% |\n\n## DMAIC methodology\n\nThe core improvement framework for existing processes:\n\n1. **Define** - Identify the problem, project goals, and customer requirements\n2. **Measure** - Quantify the current process performance with data\n3. **Analyze** - Identify root causes of defects using statistical tools\n4. **Improve** - Develop and implement solutions to address root causes\n5. **Control** - Establish monitoring to sustain improvements\n\n## DMADV (Design for Six Sigma)\n\nFor creating new processes or products:\n\n1. **Define** - Design goals aligned with customer needs\n2. **Measure** - Identify critical quality characteristics\n3. **Analyze** - Develop design alternatives\n4. **Design** - Optimize the design using simulations and tools\n5. **Verify** - Validate the design meets requirements\n\n## Key tools\n\n- Process mapping and value stream mapping\n- Statistical process control (SPC)\n- Failure mode and effects analysis (FMEA)\n- Root cause analysis (Ishikawa diagrams, Five Whys)\n- Hypothesis testing and regression analysis\n- Design of experiments (DOE)\n\n## Belt system\n\nSix Sigma uses a martial arts-inspired hierarchy:\n- **White Belt** - Basic awareness\n- **Yellow Belt** - Team member with fundamental knowledge\n- **Green Belt** - Part-time project leader\n- **Black Belt** - Full-time project leader\n- **Master Black Belt** - Expert coach and trainer\n\n## Lean Six Sigma\n\nThe combination of Lean (eliminating waste) and Six Sigma (reducing variation) has become the dominant form. Lean addresses speed and efficiency; Six Sigma addresses quality and consistency.\n\n## Criticisms\n\n- Can be overly bureaucratic for small organizations\n- Statistical approach may miss creative or innovative solutions\n- Belt certification can become an end in itself\n- Not well suited for highly creative or exploratory work\n- May create analysis paralysis if applied too rigidly",
+    "tags": [
+        "quality",
+        "processes",
+        "statistics",
+        "management",
+        "improvement"
+    ],
+    "category": "Frameworks",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "6 Sigma",
+        "Lean Six Sigma",
+        "DMAIC"
+    ],
+    "relatedConcepts": [
+        "kaizen",
+        "lean-manufacturing",
+        "pdca-cycle",
+        "root-cause-analysis",
+        "fmea",
+        "ishikawa-diagram",
+        "five-whys",
+        "value-stream-mapping",
+        "muda",
+        "poka-yoke",
+        "quality-circle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Six Sigma - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Six_Sigma",
+            "type": "website"
+        },
+        {
+            "title": "DMAIC - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/DMAIC",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

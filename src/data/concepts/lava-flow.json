@@ -1,0 +1,51 @@
+{
+    "id": "lava-flow",
+    "name": "Lava Flow",
+    "summary": "An anti-pattern where dead or experimental code hardens into production systems and becomes difficult to remove.",
+    "explanation": "Lava Flow is a software anti-pattern where code that was once experimental, temporary, or provisional becomes permanently embedded in a production system. Like volcanic lava that cools and hardens into rock, this code solidifies into the codebase and becomes increasingly difficult to remove.\n\n## How lava flows form\n\n- **Prototypes go to production** - Quick proof-of-concept code ships without being rewritten\n- **Abandoned experiments** - Code from features that were never completed lingers\n- **Developer turnover** - Nobody knows why the code exists, so nobody dares remove it\n- **Missing tests** - Without tests, removing code might break unknown functionality\n- **Fear of regression** - 'It works, don't touch it' mentality\n- **Time pressure** - No time allocated to clean up old code\n\n## Symptoms\n\n1. **Large blocks of commented-out code** - Code that was disabled but not deleted\n2. **TODO/FIXME comments from years ago** - Intentions that were never acted on\n3. **Unused variables, functions, and classes** - Code that nothing references\n4. **Mysterious configuration** - Settings for features that no longer exist\n5. **Dead branches in version control** - Feature branches that were never merged or deleted\n6. **Undocumented workarounds** - Hacks that solved problems that may no longer exist\n\n## Consequences\n\n- **Increased complexity** - More code to understand, navigate, and maintain\n- **Misleading context** - Developers waste time trying to understand dead code\n- **Build time** - Dead code still gets compiled and processed\n- **False positives** - Static analysis tools report issues in code that doesn't matter\n- **Security risk** - Unused code may contain vulnerabilities that are never patched\n\n## Prevention and remediation\n\n- **Delete aggressively** - Version control means you can always get it back\n- **Code review** - Catch provisional code before it merges\n- **Static analysis** - Use tools to identify dead code\n- **Feature flags** - Remove old flags and their associated code paths\n- **Regular cleanup sprints** - Allocate time specifically for removing lava flows\n- **Boy Scout Rule** - Remove dead code whenever you encounter it\n\nThe key insight is that keeping code 'just in case' has a cost. The code is always available in version control history if truly needed.",
+    "tags": [
+        "software-engineering",
+        "anti-patterns",
+        "code-quality",
+        "maintenance"
+    ],
+    "category": "Software Development",
+    "icon": "FaFire",
+    "featured": false,
+    "aliases": [
+        "Lava Flow Anti-Pattern",
+        "Dead Lava"
+    ],
+    "relatedConcepts": [
+        "dead-code",
+        "technical-debt",
+        "software-entropy",
+        "code-smell",
+        "legacy-code",
+        "boy-scout-rule",
+        "broken-windows-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "AntiPatterns: Refactoring Software, Architectures, and Projects in Crisis by William J. Brown",
+            "url": "https://www.amazon.com/dp/0471197130?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Lava flow (programming) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lava_flow_(programming)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

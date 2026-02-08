@@ -1,0 +1,83 @@
+{
+    "id": "software-estimation",
+    "name": "Software Estimation",
+    "summary": "The process of predicting the effort, time, or cost required to develop software, using various techniques to manage inherent uncertainty.",
+    "explanation": "Software estimation is the practice of predicting how much effort, time, or resources a software project or work item will require. It is one of the most difficult and consequential activities in software development because of the inherent uncertainty involved.\n\n## Why estimation is hard\n\nSoftware development is fundamentally creative and exploratory work. Unlike manufacturing, where repeating the same process yields predictable results, each piece of software is unique. Key challenges include:\n\n- **Novel work** - Most tasks involve solving problems that haven't been solved exactly this way before\n- **Hidden complexity** - Requirements interact in unexpected ways\n- **Unknown unknowns** - You can't estimate what you don't know you don't know\n- **Human factors** - Skill levels, interruptions, and team dynamics all affect delivery\n- **Scope creep** - Requirements evolve during development\n\n## Categories of techniques\n\n**Relative estimation** - Comparing items to each other rather than estimating in absolute terms:\n- Story Points using Fibonacci sequences\n- T-shirt Sizing (XS, S, M, L, XL)\n- Affinity Estimation (grouping by similarity)\n\n**Expert judgment** - Leveraging experience:\n- Planning Poker (consensus-based group estimation)\n- Wideband Delphi (structured expert consultation)\n- SWAG (Scientific Wild-Ass Guess)\n\n**Statistical methods** - Using historical data:\n- Reference Class Forecasting (using outcomes from similar past projects)\n- Three-Point Estimation (optimistic, likely, pessimistic)\n- Monte Carlo simulation\n\n**Decomposition** - Breaking work into smaller, more estimable pieces:\n- Work Breakdown Structure\n- Bottom-up estimation\n\n## Key principles\n\n1. **Estimates are not commitments** - An estimate is a prediction, not a promise\n2. **Precision is not accuracy** - Saying '87.5 hours' sounds precise but is probably no more accurate than 'about 2 weeks'\n3. **Ranges beat point estimates** - Express uncertainty with confidence intervals\n4. **Relative estimation outperforms absolute** - Humans are better at comparing than measuring\n5. **Smaller items are easier to estimate** - Decompose before estimating\n6. **Track actuals** - Compare estimates to reality to improve calibration\n7. **The Cone of Uncertainty narrows over time** - Early estimates are inherently less accurate\n\n## Common pitfalls\n\n- Confusing estimates with targets or deadlines\n- Anchoring on the first number mentioned\n- Ignoring historical data in favor of optimism\n- Pressure to lower estimates rather than reduce scope\n- Not accounting for overhead (meetings, code reviews, testing)",
+    "tags": [
+        "software-engineering",
+        "estimation",
+        "planning",
+        "project-management",
+        "agile"
+    ],
+    "category": "Software Development",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "Effort Estimation",
+        "Project Estimation",
+        "Estimation Techniques"
+    ],
+    "relatedConcepts": [
+        "story-points",
+        "t-shirt-sizing",
+        "planning-poker",
+        "affinity-estimation",
+        "three-point-estimation",
+        "reference-class-forecasting",
+        "cone-of-uncertainty",
+        "wideband-delphi",
+        "planning-fallacy",
+        "planning-fallacy-mitigation",
+        "swag",
+        "work-breakdown-structure",
+        "velocity"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Estimation: Demystifying the Black Art by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735605351?tag=dsebastien00-20"
+        },
+        {
+            "title": "Agile Estimating and Planning by Mike Cohn",
+            "url": "https://www.amazon.com/dp/0131479415?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Software development effort estimation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_development_effort_estimation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

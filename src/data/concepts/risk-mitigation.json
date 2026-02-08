@@ -1,0 +1,55 @@
+{
+    "id": "risk-mitigation",
+    "name": "Risk Mitigation",
+    "summary": "The process of reducing the likelihood or impact of identified risks through preventive and corrective actions.",
+    "explanation": "Risk mitigation encompasses the strategies and actions taken to reduce the probability of a risk occurring or to minimize its impact if it does occur. It is one of the primary risk treatment options in the risk management process.\n\n**Risk mitigation strategies**:\n\n- **Prevention**: Actions to reduce the likelihood of a risk materializing (e.g., redundant systems, training, quality controls)\n- **Impact reduction**: Actions to minimize consequences if the risk occurs (e.g., insurance, backup systems, emergency plans)\n- **Detection**: Systems to identify risks early when they begin to materialize (e.g., monitoring, alerts, audits)\n- **Contingency planning**: Predefined responses activated when specific risk triggers are hit\n\n**Mitigation planning**:\n\n1. Prioritize risks based on assessment results\n2. Identify potential mitigation actions for each priority risk\n3. Evaluate the cost-effectiveness of each mitigation option\n4. Select and implement the most appropriate mitigations\n5. Monitor effectiveness and adjust as needed\n\n**Common mitigation approaches by domain**:\n\n- **IT/Security**: Defense in depth, patching, access controls, encryption\n- **Project management**: Schedule buffers, scope management, resource redundancy\n- **Financial**: Hedging, diversification, insurance, reserves\n- **Operational**: Standard operating procedures, training, preventive maintenance\n\n**Key principles**:\n\n- Mitigation should be proportionate to the risk level\n- The cost of mitigation should not exceed the expected loss\n- Multiple layers of mitigation provide defense in depth\n- Residual risk (risk remaining after mitigation) must be within tolerance\n- Mitigation effectiveness must be regularly evaluated",
+    "tags": [
+        "risk-management",
+        "planning",
+        "strategy",
+        "operations"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Risk reduction",
+        "Risk treatment"
+    ],
+    "relatedConcepts": [
+        "risk-management",
+        "risk-assessment",
+        "risk-register",
+        "defense-in-depth",
+        "business-continuity",
+        "disaster-recovery"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Risk management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_management",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

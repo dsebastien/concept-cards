@@ -1,0 +1,44 @@
+{
+    "id": "current-reality-tree",
+    "name": "Current Reality Tree",
+    "summary": "A logic-based tool from the Theory of Constraints that maps cause-and-effect relationships to identify core problems underlying multiple symptoms.",
+    "explanation": "A Current Reality Tree (CRT) is a logical analysis tool from Eliyahu Goldratt's Theory of Constraints (TOC) Thinking Processes. It uses cause-and-effect logic to connect observed undesirable effects (UDEs) to a few core problems or root causes, helping identify the most impactful leverage points for improvement.\n\n**How a CRT works**:\n\n1. **List undesirable effects (UDEs)**: Identify 5-10 observable symptoms or problems in the system\n2. **Connect with cause-and-effect logic**: Build if-then chains that show how one condition leads to another\n3. **Trace to root causes**: Follow the chains downward to find the few core problems that cause most of the UDEs\n4. **Validate logic**: Check each connection using the Categories of Legitimate Reservation (CLR) — logical tests for validity\n\n**Key concepts**:\n\n- **Undesirable Effects (UDEs)**: Observable problems or symptoms, not root causes\n- **Core problem**: The one or few underlying causes that drive most UDEs\n- **Sufficiency logic**: 'If A then B' — each arrow represents a sufficient cause\n- **AND connectors**: When multiple causes must be present together\n- **Categories of Legitimate Reservation**: Formal rules for validating the logic (clarity, entity existence, causality, insufficient cause, additional cause, etc.)\n\n**Benefits**:\n\n- Reveals that many seemingly unrelated problems share common root causes\n- Prevents treating symptoms while ignoring the underlying disease\n- Provides logical rigor that reduces the influence of politics and opinions\n- Creates shared understanding and consensus around what to fix first\n- Focuses improvement efforts on high-leverage points\n\n**CRT in the TOC Thinking Processes**:\n\nThe CRT answers 'What to change?' It is typically followed by:\n- **Evaporating Cloud** (Conflict Resolution Diagram): 'What to change to?'\n- **Future Reality Tree**: 'How to cause the change?'\n- **Prerequisite Tree** and **Transition Tree**: Implementation planning\n\n**When to use a CRT**: When facing multiple interconnected problems and needing to identify where to focus improvement efforts for maximum impact. Particularly valuable when stakeholders disagree about the real problem.",
+    "tags": [
+        "systems-thinking",
+        "problem-solving",
+        "analysis",
+        "constraints"
+    ],
+    "category": "Techniques",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "CRT",
+        "TOC Current Reality Tree"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "systems-thinking",
+        "five-whys",
+        "causal-loop-diagram",
+        "leverage-points"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "It's Not Luck by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271153?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Current reality tree - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Current_reality_tree_(theory_of_constraints)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

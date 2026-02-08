@@ -1,0 +1,43 @@
+{
+    "id": "confused-deputy",
+    "name": "Confused Deputy",
+    "summary": "A security vulnerability where a trusted program is tricked into misusing its authority on behalf of an attacker.",
+    "explanation": "The confused deputy problem is a type of security vulnerability in which a computer program with legitimate authority (the 'deputy') is tricked by an attacker into misusing that authority. The deputy is confused because it cannot distinguish between requests from legitimate principals and requests from malicious ones, leading it to perform unauthorized actions using its own elevated privileges.\n\n**The classic example**:\n\nThe term was coined by Norm Hardy in 1988, describing a compiler service that had permission to write to a billing directory. Users could specify an output file for compilation results. An attacker specified the billing file as the output, causing the compiler (the confused deputy) to overwrite billing records using its own write permissions — permissions the attacker did not have.\n\n**Modern manifestations**:\n\n- **Cross-site request forgery (CSRF)**: A web browser (deputy) is tricked into sending authenticated requests to a site on behalf of an attacker\n- **SQL injection**: A database server (deputy) executes attacker-crafted queries using the application's database permissions\n- **Server-Side Request Forgery (SSRF)**: A server (deputy) is tricked into making requests to internal resources on behalf of an attacker\n- **Cloud IAM confusion**: A cloud service with broad permissions is tricked into accessing resources in other accounts\n- **Clickjacking**: A browser (deputy) executes clicks intended for a hidden element\n\n**Prevention strategies**:\n\n- **Capability-based security**: Instead of ambient authority, explicitly pass capabilities (unforgeable references) that authorize specific actions\n- **Principle of least privilege**: Minimize the permissions granted to any program or service\n- **Input validation**: Verify that requests are legitimate and within expected parameters\n- **CSRF tokens**: Include unguessable tokens in requests to verify their origin\n- **Confused deputy mitigations in cloud**: Use external ID parameters, restrict cross-account trust policies\n\n**Key insight**: The confused deputy problem arises from **ambient authority** — when a program's authority is determined by its identity rather than by explicit authorization tokens. The fundamental solution is to move from identity-based to capability-based authorization.",
+    "tags": [
+        "security",
+        "software-engineering",
+        "vulnerabilities",
+        "access-control"
+    ],
+    "category": "Software Development",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Confused deputy problem",
+        "Deputy attack"
+    ],
+    "relatedConcepts": [
+        "privilege-escalation",
+        "cia-triad",
+        "defense-in-depth",
+        "authorization"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Confused deputy problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Confused_deputy_problem",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

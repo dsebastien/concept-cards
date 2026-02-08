@@ -1,0 +1,40 @@
+{
+    "id": "standard-operating-procedure",
+    "name": "Standard Operating Procedure",
+    "summary": "A documented set of step-by-step instructions for carrying out routine operations consistently and efficiently.",
+    "explanation": "A Standard Operating Procedure (SOP) is a set of written instructions that documents the steps required to perform a routine activity consistently, correctly, and efficiently. SOPs ensure that operations are carried out uniformly regardless of who performs them, reducing variability and errors.\n\n**Purpose of SOPs**:\n\n- **Consistency**: Ensure tasks are performed the same way every time\n- **Quality**: Maintain standards and reduce errors\n- **Training**: Provide a reference for onboarding new team members\n- **Compliance**: Demonstrate adherence to regulatory requirements\n- **Knowledge preservation**: Capture institutional knowledge before it's lost\n- **Efficiency**: Reduce decision fatigue by standardizing routine tasks\n\n**SOP structure**:\n\n1. **Title and ID**: Clear identification of the procedure\n2. **Purpose**: Why the procedure exists\n3. **Scope**: What it covers and what it doesn't\n4. **Roles and responsibilities**: Who does what\n5. **Prerequisites**: What must be in place before starting\n6. **Step-by-step instructions**: Detailed, numbered steps\n7. **Decision points**: What to do when conditions vary\n8. **References**: Related documents and resources\n9. **Revision history**: Track of changes\n\n**Writing effective SOPs**:\n\n- Write for the audience — use language they understand\n- Be specific and unambiguous\n- Include visual aids (diagrams, screenshots) where helpful\n- Test with someone unfamiliar with the process\n- Keep them up to date — outdated SOPs are worse than none\n- Make them easily accessible when needed\n\n**SOPs vs. runbooks**: SOPs cover routine operations for consistency. Runbooks cover incident response and troubleshooting for specific scenarios. Both are essential but serve different purposes.\n\n**Common domains**: Manufacturing, healthcare, laboratory work, IT operations, financial services, food safety, military, aviation.",
+    "tags": [
+        "documentation",
+        "processes",
+        "operations",
+        "quality"
+    ],
+    "category": "Frameworks",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "SOP",
+        "Operating procedure",
+        "Work instruction"
+    ],
+    "relatedConcepts": [
+        "runbook",
+        "quad-pattern",
+        "convention-over-configuration",
+        "documentation",
+        "kaizen"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Standard operating procedure - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Standard_operating_procedure",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

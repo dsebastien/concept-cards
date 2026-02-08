@@ -1,0 +1,86 @@
+{
+    "id": "feedback-loop",
+    "name": "Feedback Loop",
+    "summary": "A system where outputs are routed back as inputs, creating a cycle that either amplifies or stabilizes behavior.",
+    "explanation": "A feedback loop is a circular process where the output of a system is fed back as input, influencing subsequent behavior. Feedback loops are fundamental to understanding how systems behave, grow, stabilize, or collapse.\n\n## Two types\n\n### Positive (reinforcing) feedback loops\n\nAmplify change - the output reinforces the input, creating exponential growth or decline:\n\n- **Compound interest** - More money earns more interest, which earns more interest\n- **Viral growth** - More users invite more users who invite more users\n- **Bank runs** - Fear of bank failure causes withdrawals, which causes failure\n- **Skill development** - Better skills lead to better results, which motivates more practice\n- **Technical debt** - More debt makes changes harder, which creates more shortcuts, which adds more debt\n\nPositive loops are powerful but unstable. Without limits, they produce exponential growth (bubbles) or exponential decline (death spirals).\n\n### Negative (balancing) feedback loops\n\nStabilize the system by counteracting change:\n\n- **Thermostat** - Temperature rises above setpoint, heater turns off; falls below, heater turns on\n- **Supply and demand** - High prices reduce demand, which reduces prices\n- **Code reviews** - Catch and correct quality issues before they compound\n- **Retrospectives** - Team identifies problems and adjusts process\n- **Homeostasis** - Body temperature, blood sugar, and other vital signs are regulated\n\nNegative loops maintain equilibrium and are the basis of self-regulation.\n\n## Feedback loops in practice\n\n### Software development\n- **CI/CD pipelines** - Automated tests give rapid feedback on code changes\n- **User analytics** - Usage data informs product decisions\n- **Sprint retrospectives** - Team reflects and adjusts process\n- **Error monitoring** - Alerts trigger investigation and fixes\n\n### Personal development\n- **Journaling** - Reflection creates awareness, which improves decisions\n- **Habit tracking** - Visibility of streaks motivates consistency\n- **Mentoring** - External perspective corrects blind spots\n\n## Key properties\n\n- **Delay** - The time between action and feedback. Shorter delays enable faster learning\n- **Strength** - How much the feedback affects the next cycle\n- **Visibility** - Whether participants can see the feedback clearly\n- **Noise** - How much irrelevant information obscures the signal\n\n## Why feedback loops matter\n\nMost complex behaviors in natural and artificial systems emerge from interacting feedback loops. Understanding them helps you:\n\n- Design better systems (add balancing loops to prevent runaway behavior)\n- Accelerate learning (shorten feedback delays)\n- Avoid vicious cycles (recognize reinforcing loops early)\n- Create virtuous cycles (design reinforcing loops deliberately)",
+    "tags": [
+        "systems-thinking",
+        "processes",
+        "learning",
+        "improvement",
+        "cybernetics"
+    ],
+    "category": "Thinking",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Feedback Cycle",
+        "Feedback Mechanism",
+        "Causal Loop"
+    ],
+    "relatedConcepts": [
+        "tight-feedback-loops",
+        "iteration-speed",
+        "pdca-cycle",
+        "kaizen",
+        "double-loop-learning",
+        "compound-effect",
+        "flywheels",
+        "systems-thinking",
+        "causal-loop-diagram",
+        "rapid-experimentation",
+        "cybernetics",
+        "homeostasis",
+        "virtuous-circle",
+        "vicious-circle",
+        "lead-and-lag-measures"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Systems by Donella H. Meadows",
+            "url": "https://www.amazon.com/dp/1603580557?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Feedback - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Feedback",
+            "type": "website"
+        },
+        {
+            "title": "Positive feedback - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Positive_feedback",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

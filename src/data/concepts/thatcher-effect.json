@@ -1,0 +1,47 @@
+{
+    "id": "thatcher-effect",
+    "name": "Thatcher Effect",
+    "summary": "A visual perception phenomenon where it is difficult to detect changes to facial features when a face is viewed upside down.",
+    "explanation": "The Thatcher effect, named after British Prime Minister Margaret Thatcher (whose photo was used in the original demonstration), is a phenomenon in which it becomes difficult to detect local feature distortions in an inverted face. Discovered by psychologist Peter Thompson in 1980, the effect is demonstrated by flipping the eyes and mouth of a face upside down within an otherwise normally oriented photograph. When the modified face is viewed upside down, it appears relatively normal. However, when the image is turned right-side up, the distortions become immediately and strikingly grotesque.\n\nThe Thatcher effect reveals something fundamental about how our brains process faces. Humans rely heavily on holistic and configural processing when viewing upright faces, perceiving them as integrated wholes rather than as collections of individual features. When a face is inverted, this holistic processing is disrupted, and the brain falls back on processing individual features in isolation. Since the individual features (eyes, mouth) appear correctly oriented within the inverted face, the brain fails to detect the manipulation.\n\nThis phenomenon is closely related to the face inversion effect, the general finding that inverted faces are much harder to recognize than inverted objects of other types. Research has shown that the Thatcher effect also occurs in monkeys, suggesting that holistic face processing is a deeply evolved perceptual mechanism rather than a learned cultural behavior.\n\nThe Thatcher effect has practical implications for understanding face perception disorders like prosopagnosia (face blindness) and informs the design of facial recognition systems. It also demonstrates more broadly how context and orientation profoundly shape perception, a principle relevant to visual design and information presentation. We do not simply perceive the world as it is; our brains actively construct perception through specialized processing strategies.",
+    "tags": [
+        "cognitive-science",
+        "perception",
+        "psychology",
+        "optical-illusions"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Thatcher Illusion",
+        "Margaret Thatcher Illusion",
+        "Thompson Effect"
+    ],
+    "relatedConcepts": [
+        "face-perception",
+        "holistic-processing",
+        "gestalt-psychology",
+        "pareidolia",
+        "perceptual-set",
+        "change-blindness",
+        "prosopagnosia"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Thatcher effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Thatcher_effect",
+            "type": "website"
+        },
+        {
+            "title": "The Thatcher Effect - Optical Toys",
+            "url": "https://optical.toys/thatcher-effect/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

@@ -1,0 +1,68 @@
+{
+    "id": "iterative-development",
+    "name": "Iterative Development",
+    "summary": "A software development approach that builds systems through repeated cycles of planning, building, testing, and refining.",
+    "explanation": "Iterative development is an approach to building software where the system is developed through repeated cycles (iterations), each producing a working increment that is reviewed and refined. Instead of trying to get everything right in one pass, the team deliberately plans to revisit and improve.\n\n## How it works\n\nEach iteration follows a mini-lifecycle:\n\n1. **Plan** - Select a subset of requirements to address\n2. **Build** - Design and implement the selected features\n3. **Test** - Verify the increment works correctly\n4. **Review** - Evaluate what was built and gather feedback\n5. **Refine** - Incorporate lessons into the next iteration\n\nIterations are typically time-boxed (1-4 weeks), creating a predictable rhythm.\n\n## Iterative vs. Incremental\n\nThese terms are often used together but mean different things:\n\n- **Iterative** means revisiting and refining. Like a painter who sketches the whole canvas in rough strokes, then makes successive passes with more detail.\n- **Incremental** means adding piece by piece. Like building a house room by room, each room complete before starting the next.\n\nMost modern approaches combine both: building incrementally (adding features) while iterating (refining what exists).\n\n## Why iteration works\n\n- **Reduces risk** - Problems are discovered early when they're cheap to fix\n- **Accommodates change** - Requirements can evolve between iterations\n- **Generates feedback** - Working software can be shown to stakeholders\n- **Improves estimates** - Each iteration improves understanding of velocity and complexity\n- **Maintains motivation** - Regular delivery of working software keeps teams energized\n\n## Historical context\n\nIterative development predates Agile. Notable examples:\n\n- NASA's Mercury project (1960s) used iterative approaches\n- Barry Boehm's Spiral Model (1986) formalized iteration with risk management\n- Rational Unified Process (RUP) organized development into iterative phases\n- Agile methodologies (2001+) embraced iteration as a core principle\n\n## Contrast with Waterfall\n\nThe Waterfall model assumes each phase (requirements, design, implementation, testing) is completed once. Iterative development acknowledges that understanding deepens through building, and plans for multiple passes through these activities.\n\n## In practice\n\n- **Scrum** structures iterations as sprints\n- **Kanban** enables continuous flow with iterative improvement\n- **XP** uses short iterations with continuous feedback\n- **Design Thinking** iterates through prototyping and testing\n- **Lean Startup** iterates through build-measure-learn cycles",
+    "tags": [
+        "software-engineering",
+        "agile",
+        "processes",
+        "methodologies",
+        "project-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Iterative and Incremental Development",
+        "Iterative Design",
+        "Spiral Development"
+    ],
+    "relatedConcepts": [
+        "agile-manifesto",
+        "scrum",
+        "sprint",
+        "kaizen",
+        "pdca-cycle",
+        "lean-startup",
+        "iteration-speed",
+        "rapid-experimentation",
+        "waterfall-methodology",
+        "tight-feedback-loops",
+        "feedback-loop",
+        "design-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Iterative and incremental development - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Iterative_and_incremental_development",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

@@ -1,0 +1,65 @@
+{
+    "id": "kepner-tregoe",
+    "name": "Kepner-Tregoe Method",
+    "summary": "A structured problem-solving and decision-making methodology using systematic analysis to identify root causes and evaluate alternatives.",
+    "explanation": "The Kepner-Tregoe (KT) method is a structured approach to problem-solving and decision-making developed by Charles Kepner and Benjamin Tregoe in the 1960s. It provides four distinct analytical processes that can be used independently or together to address complex issues systematically.\n\n**The four processes**:\n\n1. **Situation Appraisal (SA)**: Clarifying and prioritizing concerns\n   - Break complex situations into manageable components\n   - Set priorities based on urgency, seriousness, and growth potential\n   - Determine which analytical process to apply to each concern\n\n2. **Problem Analysis (PA)**: Finding the root cause of deviations\n   - Define the problem precisely using IS/IS NOT comparisons\n   - Identify distinctions and changes that could explain the deviation\n   - Develop and test possible causes against the specification\n   - Verify the true cause\n\n3. **Decision Analysis (DA)**: Making choices\n   - Clarify the purpose and establish objectives (musts vs. wants)\n   - Generate alternatives\n   - Evaluate alternatives against objectives\n   - Assess risks of the best alternatives\n   - Make a balanced choice\n\n4. **Potential Problem/Opportunity Analysis (PPOA)**: Protecting plans\n   - Identify what could go wrong (or right) with a plan\n   - Determine likely causes of potential problems\n   - Take preventive actions\n   - Prepare contingent actions and triggers\n\n**Strengths of the KT method**:\n\n- Highly structured, reducing the chance of overlooking important factors\n- The IS/IS NOT technique in Problem Analysis is particularly powerful for isolating root causes\n- Provides a common language and framework for teams\n- Separates problem analysis from decision-making, avoiding premature solutions\n\n**When to use it**: Complex technical problems, high-stakes decisions, situations where systematic analysis is more appropriate than intuition, and when teams need a shared analytical framework.",
+    "tags": [
+        "problem-solving",
+        "decision-making",
+        "analysis",
+        "frameworks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaSearchPlus",
+    "featured": false,
+    "aliases": [
+        "KT Method",
+        "Kepner-Tregoe Analysis",
+        "KT Problem Analysis"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "five-whys",
+        "problem-framing",
+        "ishikawa-diagram",
+        "8d-problem-solving"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The New Rational Manager by Charles H. Kepner and Benjamin B. Tregoe",
+            "url": "https://www.amazon.com/dp/0971562717?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Kepner-Tregoe - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kepner%E2%80%93Tregoe",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

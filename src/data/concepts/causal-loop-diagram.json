@@ -1,0 +1,45 @@
+{
+    "id": "causal-loop-diagram",
+    "name": "Causal Loop Diagram",
+    "summary": "A visual tool for mapping the feedback relationships between variables in a system to understand dynamic behavior.",
+    "explanation": "A Causal Loop Diagram (CLD) is a systems thinking tool that maps the causal relationships between variables in a system, showing how they influence each other through feedback loops. CLDs help reveal the underlying structure that drives system behavior over time.\n\n**Components of a causal loop diagram**:\n\n- **Variables**: The key factors in the system (e.g., 'customer satisfaction', 'revenue', 'quality')\n- **Causal links**: Arrows showing how one variable influences another\n- **Polarity**: Each link is marked + (same direction — if A increases, B increases) or - (opposite direction — if A increases, B decreases)\n- **Feedback loops**: Closed chains of causal links\n\n**Types of feedback loops**:\n\n- **Reinforcing loops (R)**: Also called positive feedback loops. Changes amplify themselves, creating exponential growth or collapse. Example: More customers → more word-of-mouth → more customers\n- **Balancing loops (B)**: Also called negative feedback loops. Changes trigger counteracting forces that push back toward equilibrium. Example: More hunger → more eating → less hunger\n\n**Why CLDs matter**:\n\n- Reveal non-obvious relationships and unintended consequences\n- Help identify leverage points where small changes create large effects\n- Make mental models explicit so they can be examined and challenged\n- Show why well-intentioned interventions sometimes make things worse\n- Facilitate shared understanding in teams\n\n**Common CLD patterns (archetypes)**:\n\n- **Limits to growth**: A reinforcing loop drives growth until it hits a constraint (balancing loop)\n- **Shifting the burden**: A quick fix weakens the capacity for a fundamental solution\n- **Fixes that fail**: A solution creates side effects that eventually worsen the original problem\n- **Tragedy of the commons**: Individual actors deplete a shared resource\n\n**How to create a CLD**:\n\n1. Identify the problem or behavior to understand\n2. List the key variables involved\n3. Draw causal connections between variables\n4. Mark the polarity of each link (+ or -)\n5. Identify the feedback loops\n6. Test the diagram against known behavior\n\n**Limitations**: CLDs show structure but not quantities. For quantitative analysis, they can be extended into stock-and-flow models used in system dynamics simulation.",
+    "tags": [
+        "systems-thinking",
+        "visualization",
+        "analysis",
+        "mental-models"
+    ],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "CLD",
+        "Feedback loop diagram",
+        "Causal diagram"
+    ],
+    "relatedConcepts": [
+        "systems-thinking",
+        "second-order-effects",
+        "root-cause-analysis",
+        "mental-models",
+        "leverage-points"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Systems by Donella H. Meadows",
+            "url": "https://www.amazon.com/dp/1603580557?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Causal loop diagram - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Causal_loop_diagram",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

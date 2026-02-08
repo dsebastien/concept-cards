@@ -167,7 +167,13 @@ import {
     FaCompress,
     FaMicrochip,
     FaUnlink,
-    FaSkullCrossbones
+    FaSkullCrossbones,
+    FaBuilding,
+    FaThLarge,
+    FaTshirt,
+    FaDice,
+    FaWalking,
+    FaTrash
 } from 'react-icons/fa'
 import { SiObsidian, SiSubstack, SiBluesky } from 'react-icons/si'
 import { FaXTwitter, FaThreads } from 'react-icons/fa6'
@@ -341,6 +347,12 @@ const iconMap: Record<string, IconType> = {
     FaMicrochip,
     FaUnlink,
     FaSkullCrossbones,
+    FaBuilding,
+    FaThLarge,
+    FaTshirt,
+    FaDice,
+    FaWalking,
+    FaTrash,
     SiObsidian,
     SiSubstack,
     SiBluesky,
@@ -521,7 +533,13 @@ const iconColors: Record<string, string> = {
     FaCompress: 'text-purple-400',
     FaMicrochip: 'text-cyan-400',
     FaUnlink: 'text-red-400',
-    FaSkullCrossbones: 'text-red-500'
+    FaSkullCrossbones: 'text-red-500',
+    FaBuilding: 'text-blue-400',
+    FaThLarge: 'text-indigo-400',
+    FaTshirt: 'text-purple-400',
+    FaDice: 'text-orange-400',
+    FaWalking: 'text-green-400',
+    FaTrash: 'text-red-400'
 }
 
 // Category fallback icons (emojis)

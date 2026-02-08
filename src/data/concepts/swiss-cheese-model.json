@@ -1,0 +1,42 @@
+{
+    "id": "swiss-cheese-model",
+    "name": "Swiss Cheese Model",
+    "summary": "A model illustrating how accidents occur when holes in multiple layers of defense align, allowing a hazard to pass through all barriers.",
+    "explanation": "The Swiss Cheese Model, developed by James Reason, is a widely used framework for understanding how accidents and failures occur in complex systems. The model visualizes each layer of defense (policies, procedures, training, equipment, supervision) as a slice of Swiss cheese — each slice has holes representing weaknesses or failures in that layer.\n\n**How the model works**:\n\n- Each defensive layer has imperfections ('holes') that are constantly shifting in size and position\n- An accident occurs when holes in multiple layers momentarily align, creating a trajectory of opportunity for a hazard to pass through all defenses\n- No single failure is usually sufficient to cause an accident — it takes the alignment of multiple failures across different layers\n\n**Types of failures**:\n\n- **Active failures**: Unsafe acts committed by people in direct contact with the system (errors, violations). These have immediate effects\n- **Latent conditions**: Pre-existing organizational factors that create the holes — poor design, inadequate training, budget pressures, management decisions. These may lie dormant for years\n\n**Key insights**:\n\n- Accidents are rarely caused by a single person's error — they result from systemic failures\n- Blaming individuals misses the opportunity to fix systemic weaknesses\n- Adding more layers of defense reduces risk but never eliminates it entirely\n- Latent conditions created by organizational decisions are often more dangerous than individual active failures\n- The model supports a systems-thinking approach to safety\n\n**Applications**:\n\n- **Aviation**: Understanding how multiple failures led to crashes, informing safety protocols\n- **Healthcare**: Analyzing medical errors and designing safer clinical processes\n- **Nuclear safety**: Multiple independent safety barriers\n- **Software engineering**: Defense in depth, multiple testing layers, code review processes\n- **Incident investigation**: Looking beyond the immediate cause to systemic factors\n\n**Limitations**: The model can oversimplify by suggesting failures are linear and sequential, when in reality complex system failures often involve non-linear interactions and emergent behaviors.",
+    "tags": [
+        "safety",
+        "systems-thinking",
+        "mental-models",
+        "problem-solving"
+    ],
+    "category": "Frameworks",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Reason's Swiss Cheese Model",
+        "Cumulative act effect",
+        "Defense in depth model"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "defense-in-depth",
+        "resilience-engineering",
+        "systems-thinking",
+        "blameless-postmortem",
+        "failure-analysis",
+        "incident-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Swiss cheese model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Swiss_cheese_model",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

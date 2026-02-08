@@ -1,0 +1,39 @@
+{
+    "id": "configural-processing",
+    "name": "Configural Processing",
+    "summary": "The perception of spatial relationships between features of an object rather than the features themselves in isolation.",
+    "explanation": "Configural processing refers to the perception and encoding of the spatial relationships between the parts or features of an object, as opposed to processing individual features independently. While closely related to holistic processing, configural processing specifically emphasizes the relational information: the distances between the eyes, the position of the nose relative to the mouth, the spacing of elements in a design.\n\nIn face perception research, three levels of configural processing are distinguished:\n\n1. **First-order relations**: The basic arrangement that defines a face (two eyes above a nose above a mouth). This is what allows us to detect that something is a face at all.\n2. **Holistic processing**: Perceiving the face as a gestalt, where features are glued together into a unified representation.\n3. **Second-order relations**: The precise spatial distances between features (e.g., how far apart the eyes are, the distance from nose to mouth). These fine-grained measurements are critical for distinguishing one individual from another.\n\nConfigural processing explains several important phenomena. The face inversion effect occurs because inversion selectively disrupts the processing of second-order spatial relations while leaving featural processing relatively intact. The Thatcher effect works because inverted faces do not trigger the configural processing needed to detect that features have been flipped. The other-race effect may partly reflect less developed configural processing for faces of unfamiliar racial groups.\n\nBeyond faces, configural processing applies to any domain where spatial relationships carry information: reading (letter spacing and arrangement), music notation, map reading, and visual design. Expert perceivers in any domain tend to rely more heavily on configural information. In design and data visualization, understanding configural processing helps explain why the spatial arrangement of elements can be as important as the elements themselves.",
+    "tags": [
+        "cognitive-science",
+        "perception",
+        "psychology",
+        "pattern-recognition"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Configural Perception",
+        "Relational Processing",
+        "Second-Order Relations"
+    ],
+    "relatedConcepts": [
+        "holistic-processing",
+        "face-perception",
+        "gestalt-psychology",
+        "thatcher-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Configural processing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Configural_processing",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

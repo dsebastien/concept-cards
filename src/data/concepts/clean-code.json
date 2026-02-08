@@ -1,0 +1,54 @@
+{
+    "id": "clean-code",
+    "name": "Clean Code",
+    "summary": "Code that is easy to understand, maintain, and modify, following principles of readability, simplicity, and expressiveness.",
+    "explanation": "Clean code is code that is easy to read, understand, and change. The concept was popularized by Robert C. Martin (Uncle Bob) in his influential book of the same name. Clean code is not about cleverness or brevity - it's about clarity and communication.\n\n## Characteristics of clean code\n\n- **Reads like well-written prose** - Intention is clear without extensive comments\n- **Does one thing well** - Each function, class, and module has a single responsibility\n- **Minimal dependencies** - Low coupling between components\n- **Has tests** - Verified behavior enables confident changes\n- **No surprises** - Behaves as the reader expects\n- **No duplication** - Every piece of knowledge is expressed in exactly one place\n- **Expressive naming** - Variables, functions, and classes reveal their purpose\n\n## Clean code principles\n\n1. **Meaningful names** - Choose names that reveal intent. `elapsedTimeInDays` over `d`\n2. **Small functions** - Functions should do one thing, do it well, and do it only\n3. **One level of abstraction** - Don't mix high-level policy with low-level detail\n4. **Minimal arguments** - Fewer parameters make functions easier to understand and test\n5. **No side effects** - Functions should do what their name says, nothing more\n6. **Error handling as a separate concern** - Don't obscure logic with error handling\n7. **Comments only when necessary** - Prefer self-documenting code; use comments to explain 'why', not 'what'\n\n## The cost of unclean code\n\n- **Slower development** - Developers spend more time reading than writing code\n- **More bugs** - Unclear code hides defects\n- **Higher onboarding cost** - New team members struggle to understand the system\n- **Fear of change** - Nobody wants to touch fragile, confusing code\n- **Morale impact** - Working in a messy codebase is demoralizing\n\n## Clean code is a practice, not a destination\n\nCode is never 'finished clean.' It requires ongoing attention through:\n- Regular refactoring during development\n- Code reviews focused on clarity\n- The Boy Scout Rule (leave it cleaner than you found it)\n- Team agreements on coding standards\n\nClean code is ultimately about empathy for the next developer who will read your code - which is often future you.",
+    "tags": [
+        "software-engineering",
+        "code-quality",
+        "best-practices",
+        "programming",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Readable Code",
+        "Maintainable Code"
+    ],
+    "relatedConcepts": [
+        "refactoring",
+        "code-smell",
+        "boy-scout-rule",
+        "technical-debt",
+        "solid-principles",
+        "dry-principle",
+        "kiss-principle",
+        "yagni",
+        "software-entropy",
+        "legacy-code"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Code by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0132350882?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Pragmatic Programmer by David Thomas and Andrew Hunt",
+            "url": "https://www.amazon.com/dp/0135957052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

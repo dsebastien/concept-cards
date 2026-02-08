@@ -1,0 +1,41 @@
+{
+    "id": "operational-resilience",
+    "name": "Operational Resilience",
+    "summary": "An organization's ability to prevent, adapt to, respond to, and recover from disruptions to continue delivering critical services.",
+    "explanation": "Operational resilience is the ability of an organization to deliver critical operations through disruption. It goes beyond business continuity and disaster recovery by focusing on end-to-end delivery of important business services, including all the people, processes, technology, and third-party dependencies involved.\n\n**Key dimensions of operational resilience**:\n\n- **Anticipation**: Identifying potential disruptions before they occur through threat assessment, scenario planning, and horizon scanning\n- **Prevention**: Implementing controls and safeguards to reduce the likelihood and impact of disruptions\n- **Adaptation**: Adjusting operations in real-time to respond to changing conditions\n- **Response**: Executing predefined plans to manage disruptions when they occur\n- **Recovery**: Restoring normal operations and learning from the experience\n\n**Operational resilience vs. business continuity**:\n\n- Business continuity focuses on recovering specific functions after a disruption\n- Operational resilience takes a broader view, focusing on the end-to-end delivery of critical services and proactively building the capacity to absorb disruption\n- Operational resilience considers the full ecosystem, including third parties and supply chains\n\n**Building operational resilience**:\n\n1. Identify and map critical business services\n2. Set impact tolerances for disruption to each service\n3. Map dependencies (people, processes, technology, third parties)\n4. Scenario test against a range of severe but plausible disruptions\n5. Invest in capabilities to remain within impact tolerances\n6. Continuously improve based on testing and real incidents\n\n**Regulatory context**:\n\nFinancial regulators worldwide (UK PRA/FCA, US OCC, EU DORA) have introduced operational resilience requirements, recognizing that the interconnected nature of financial services creates systemic risks that require proactive resilience rather than reactive recovery.",
+    "tags": [
+        "resilience",
+        "operations",
+        "risk-management",
+        "governance"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Business resilience",
+        "Organizational resilience"
+    ],
+    "relatedConcepts": [
+        "business-continuity",
+        "disaster-recovery",
+        "risk-management",
+        "incident-management",
+        "resilience-engineering",
+        "chaos-engineering",
+        "antifragility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Operational resilience - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Operational_resilience",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

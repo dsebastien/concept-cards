@@ -1,0 +1,41 @@
+{
+    "id": "bow-tie-analysis",
+    "name": "Bow-Tie Analysis",
+    "summary": "A risk analysis method that visually maps the pathways from causes through a hazardous event to consequences, showing preventive and mitigative barriers.",
+    "explanation": "Bow-Tie Analysis is a risk evaluation method that provides a visual representation of the relationship between the causes of an undesirable event, the event itself, and its potential consequences. Named for its distinctive shape, the diagram places the hazardous event (the 'knot') at the center, with causes branching to the left and consequences to the right.\n\n**Structure of a bow-tie diagram**:\n\n- **Left side (Threat/Cause side)**: Identifies the threats or causes that could lead to the central event. Preventive barriers (controls) are shown between causes and the event\n- **Center (Top Event)**: The hazardous event or loss of control — the moment when something goes wrong\n- **Right side (Consequence side)**: Shows the potential consequences if the event occurs. Mitigative barriers (recovery controls) are shown between the event and consequences\n- **Barriers**: Both preventive and mitigative controls are represented as vertical lines crossing the cause/consequence pathways\n- **Escalation factors**: Conditions that can reduce the effectiveness of barriers\n\n**Benefits**:\n\n- Provides a clear, visual overview of risk scenarios\n- Shows both prevention and mitigation strategies in one diagram\n- Easy to communicate to non-specialists\n- Identifies gaps where barriers are missing or weak\n- Supports barrier management and maintenance programs\n- Helps prioritize risk management investments\n\n**When to use bow-tie analysis**:\n\n- Major hazard identification and management\n- Communicating risk to stakeholders\n- Safety case development\n- Compliance demonstration\n- Incident investigation — mapping what barriers failed\n\n**Industries that commonly use bow-tie analysis**: Oil and gas, aviation, chemical processing, healthcare, mining, nuclear, and increasingly in IT/software for security risk analysis.\n\n**Relationship to other methods**: Bow-tie analysis often incorporates elements from fault tree analysis (left side) and event tree analysis (right side), combining them into a single, intuitive visual framework.",
+    "tags": [
+        "risk-management",
+        "safety",
+        "analysis",
+        "visualization"
+    ],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Bow-tie diagram",
+        "Bow-tie risk assessment",
+        "BTA"
+    ],
+    "relatedConcepts": [
+        "risk-assessment",
+        "fault-tree-analysis",
+        "root-cause-analysis",
+        "risk-mitigation",
+        "swiss-cheese-model",
+        "defense-in-depth"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Bow-tie diagram - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bow_tie_diagram",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

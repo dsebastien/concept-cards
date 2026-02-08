@@ -1,0 +1,46 @@
+{
+    "id": "strangler-fig-pattern",
+    "name": "Strangler Fig Pattern",
+    "summary": "A migration strategy that gradually replaces a legacy system by building new functionality alongside it until the old system can be decommissioned.",
+    "explanation": "The Strangler Fig Pattern is a software migration strategy named after the strangler fig tree, which grows around a host tree, gradually replacing it. Similarly, this pattern replaces a legacy system incrementally by building new functionality alongside the old system.\n\n## How it works\n\n1. **Identify** - Choose a piece of functionality in the legacy system to replace\n2. **Build** - Create the new implementation alongside the existing one\n3. **Redirect** - Route traffic or calls from the old implementation to the new one\n4. **Remove** - Once the new implementation is proven, remove the old code\n5. **Repeat** - Continue with the next piece of functionality\n\n## The facade/proxy layer\n\nA key element is an intermediary layer (proxy, API gateway, or facade) that sits between consumers and the system. This layer controls routing:\n\n- Initially, all requests go to the legacy system\n- As new components are built, the proxy routes specific requests to them\n- Eventually, all requests go to the new system\n- The legacy system is decommissioned\n\n## Why not rewrite from scratch?\n\nBig-bang rewrites are notoriously risky:\n\n- You must understand the entire system before replacing it\n- No value is delivered until the rewrite is complete\n- The legacy system is a moving target (it keeps changing)\n- Hidden behaviors and edge cases are easy to miss\n- Business can't wait for a multi-year rewrite\n\nThe strangler fig pattern mitigates these risks by delivering incremental value and reducing the blast radius of each change.\n\n## When to use it\n\n- Migrating from a monolith to microservices\n- Replacing a legacy system with a modern one\n- Migrating between technology stacks\n- Gradually retiring technical debt\n\n## Advantages\n\n- **Low risk** - Small, reversible changes\n- **Continuous delivery** - New functionality ships incrementally\n- **Coexistence** - Old and new systems work together during transition\n- **Learning** - Team gains understanding of the legacy system as they migrate it\n\n## Challenges\n\n- The proxy layer adds complexity\n- Data consistency between old and new systems can be tricky\n- Some systems are too tightly coupled to migrate incrementally\n- Requires discipline to avoid maintaining both systems indefinitely\n\nThe pattern was named by Martin Fowler in 2004.",
+    "tags": [
+        "software-engineering",
+        "architecture",
+        "migration",
+        "design-patterns",
+        "legacy-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaSeedling",
+    "featured": false,
+    "aliases": [
+        "Strangler Pattern",
+        "Strangler Application",
+        "Branch by Abstraction"
+    ],
+    "relatedConcepts": [
+        "legacy-code",
+        "technical-debt",
+        "refactoring",
+        "software-entropy",
+        "boy-scout-rule"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Strangler fig pattern - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Strangler_fig_pattern",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

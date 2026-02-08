@@ -1,0 +1,72 @@
+{
+    "id": "three-point-estimation",
+    "name": "Three-Point Estimation",
+    "summary": "An estimation technique that uses optimistic, most likely, and pessimistic values to calculate a weighted expected effort.",
+    "explanation": "Three-Point Estimation is a technique that produces more realistic estimates by explicitly accounting for uncertainty. Instead of a single number, the estimator provides three values and uses them to calculate a weighted average.\n\n## The three points\n\n- **Optimistic (O)** - The best-case scenario if everything goes right\n- **Most Likely (M)** - The expected effort under normal conditions\n- **Pessimistic (P)** - The worst-case scenario if things go wrong (but the project is still completed)\n\n## Formulas\n\n**Triangular distribution (simple average):**\nE = (O + M + P) / 3\n\n**PERT-weighted (Beta distribution):**\nE = (O + 4M + P) / 6\n\nThe PERT formula gives four times the weight to the most likely estimate, producing results closer to the expected outcome under normal conditions.\n\n**Standard deviation:**\nSD = (P - O) / 6\n\nThe standard deviation quantifies the uncertainty in the estimate and can be used to calculate confidence intervals.\n\n## Example\n\nEstimating a feature:\n- Optimistic: 3 days\n- Most Likely: 5 days\n- Pessimistic: 15 days\n\nPERT estimate: (3 + 4×5 + 15) / 6 = 38/6 = **6.3 days**\nSD: (15 - 3) / 6 = **2 days**\n\nThis means there's roughly a 68% chance the task takes between 4.3 and 8.3 days, and a 95% chance it takes between 2.3 and 10.3 days.\n\n## When to use it\n\n- **High-uncertainty tasks** - When outcomes could vary significantly\n- **Stakeholder communication** - Presenting ranges rather than false precision\n- **Risk analysis** - Identifying tasks with the widest pessimistic-optimistic gaps\n- **Project-level aggregation** - Summing estimates and standard deviations across tasks\n- **Contract negotiation** - Justifying timelines with statistical backing\n\n## Advantages\n\n- Forces consideration of both best and worst cases\n- Produces a range that communicates uncertainty\n- Statistical foundation allows aggregation across tasks\n- Reduces the planning fallacy by requiring pessimistic scenarios\n\n## Limitations\n\n- People tend to underestimate pessimistic values\n- More time-consuming than relative estimation methods\n- Assumes a specific probability distribution (which may not match reality)\n- Individual estimates can still be subject to cognitive biases\n\nThree-point estimation originated from the PERT (Program Evaluation and Review Technique) developed by the U.S. Navy in the 1950s for the Polaris missile program.",
+    "tags": [
+        "estimation",
+        "planning",
+        "project-management",
+        "statistics",
+        "risk-management"
+    ],
+    "category": "Techniques",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "PERT Estimation",
+        "Three-Point Estimate",
+        "Program Evaluation and Review Technique"
+    ],
+    "relatedConcepts": [
+        "software-estimation",
+        "planning-fallacy",
+        "cone-of-uncertainty",
+        "reference-class-forecasting",
+        "story-points",
+        "planning-fallacy-mitigation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Estimation: Demystifying the Black Art by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735605351?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Three-point estimation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Three-point_estimation",
+            "type": "website"
+        },
+        {
+            "title": "Program evaluation and review technique - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "dead-code",
+    "name": "Dead Code",
+    "summary": "Source code that exists in a program but is never executed, has no effect on the output, or is unreachable.",
+    "explanation": "Dead code is any code in a software system that is never executed, cannot be reached, or has no effect on the program's output. It is a common form of technical debt that increases complexity without providing value.\n\n## Types of dead code\n\n1. **Unreachable code** - Code after a return statement, inside impossible conditions, or in branches that can never execute\n2. **Unused declarations** - Functions, methods, classes, variables, or constants that nothing references\n3. **Commented-out code** - Code that has been disabled but left in the source file\n4. **Redundant code** - Code that executes but whose results are never used\n5. **Feature remnants** - Code from features that were removed or never completed\n6. **Dead imports** - Imported modules or packages that are never used\n\n## Why dead code is harmful\n\n- **Cognitive load** - Developers must read and mentally parse code that does nothing\n- **Misleading** - Future developers may assume the code serves a purpose and work around it\n- **Maintenance burden** - Dead code still needs to compile, may trigger warnings, and requires updates when APIs change\n- **Larger binary size** - In some languages, dead code increases build artifacts\n- **Security surface** - Unused code paths may contain vulnerabilities\n- **Test overhead** - Code coverage tools may flag dead code as untested, obscuring real gaps\n\n## Detection\n\n- **Static analysis tools** - ESLint, SonarQube, IntelliJ inspections, etc.\n- **Compiler warnings** - Many compilers flag unreachable code\n- **Code coverage** - Identify code that is never executed in tests\n- **IDE features** - Most IDEs highlight unused imports, variables, and methods\n- **Tree shaking** - Bundlers like webpack and Rollup identify unused exports\n\n## Removal strategy\n\n1. Use static analysis to identify candidates\n2. Verify the code is truly dead (not used via reflection, dynamic dispatch, etc.)\n3. Delete it - version control preserves history\n4. Run tests to confirm nothing breaks\n5. Resist the urge to comment out instead of deleting\n\nThe best approach is preventing dead code from accumulating in the first place through code reviews, the Boy Scout Rule, and team norms that favor deletion over commenting out.",
+    "tags": [
+        "software-engineering",
+        "code-quality",
+        "maintenance",
+        "anti-patterns",
+        "programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaSkullCrossbones",
+    "featured": false,
+    "aliases": [
+        "Unreachable Code",
+        "Zombie Code",
+        "Unused Code"
+    ],
+    "relatedConcepts": [
+        "lava-flow",
+        "code-smell",
+        "technical-debt",
+        "refactoring",
+        "software-entropy",
+        "boy-scout-rule",
+        "clean-code"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dead code - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dead_code",
+            "type": "website"
+        },
+        {
+            "title": "Unreachable code - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unreachable_code",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

@@ -1,0 +1,96 @@
+{
+    "id": "lead-and-lag-measures",
+    "name": "Lead and Lag Measures",
+    "summary": "The distinction between predictive metrics that drive future outcomes (lead) and retrospective metrics that measure past results (lag).",
+    "explanation": "Lead and lag measures are two fundamentally different types of metrics. Understanding the distinction is critical for effective goal tracking, performance management, and process improvement.\n\n## Lag measures\n\nLag measures tell you whether you achieved a goal. They measure *outcomes* after the fact:\n\n- Revenue, profit, market share\n- Weight lost, BMI\n- Customer satisfaction scores\n- Number of bugs in production\n- Book published, course completed\n\n**Characteristics:**\n- Easy to measure\n- Hard to influence directly\n- Retrospective (you see them after the fact)\n- Tell you *what* happened, not *why*\n\n## Lead measures\n\nLead measures are the activities and behaviors that *drive* the lag measures. They measure *inputs* and *actions*:\n\n- Sales calls made, proposals sent\n- Calories consumed, workouts completed\n- Customer interactions per week\n- Code review coverage, test coverage\n- Words written per day, chapters edited per week\n\n**Characteristics:**\n- Harder to measure (often require tracking discipline)\n- Directly influenceable\n- Predictive (they indicate future outcomes)\n- Tell you *what to do*\n\n## Why lead measures matter more\n\nMost people obsess over lag measures (the scale, the revenue number) while ignoring lead measures (the daily habits that produce results). But you can't directly change a lag measure - you can only influence it through lead measures.\n\nThe relationship: **Consistent lead measures → Predictable lag measures**\n\n## Examples\n\n| Goal (Lag Measure) | Lead Measures |\n|---|---|\n| Lose 10 kg | Calories tracked daily, 4 workouts/week |\n| $1M revenue | 20 sales calls/day, 5 proposals/week |\n| Ship product by Q3 | Features completed/sprint, bugs fixed/week |\n| Write a book | 2,000 words/day, 1 chapter reviewed/week |\n| Improve code quality | % of PRs with code review, test coverage % |\n\n## In the 12 Week Year\n\nThe 12 Week Year system explicitly tracks lead measures through weekly scoring. The score measures execution of tactics (lead measures), not achievement of goals (lag measures). This keeps focus on controllable actions.\n\n## In 4 Disciplines of Execution (4DX)\n\nFranklin Covey's 4DX framework places lead measures as Discipline 2, recognizing that acting on lead measures is where most execution strategies fail. Teams identify and track the highest-leverage activities that predict goal achievement.\n\n## Key insight\n\nIf your lead measures are consistently strong but lag measures aren't improving, your theory of change is wrong - you're doing the wrong activities. If your lead measures are weak, you have an execution problem. This diagnostic power makes lead/lag distinction invaluable.",
+    "tags": [
+        "metrics",
+        "goal-setting",
+        "performance",
+        "management",
+        "productivity"
+    ],
+    "category": "Techniques",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Leading Indicators",
+        "Lagging Indicators",
+        "Lead Measures",
+        "Lag Measures",
+        "Input vs Output Metrics"
+    ],
+    "relatedConcepts": [
+        "12-week-year",
+        "kpis",
+        "okrs",
+        "goal-setting",
+        "success-metrics",
+        "north-star-metric",
+        "process-goals",
+        "feedback-loop",
+        "goodharts-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The 12 Week Year by Brian P. Moran and Michael Lennington",
+            "url": "https://www.amazon.com/dp/1118509234?tag=dsebastien00-20"
+        },
+        {
+            "title": "The 4 Disciplines of Execution by Chris McChesney, Sean Covey, and Jim Huling",
+            "url": "https://www.amazon.com/dp/1451627068?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Performance indicator - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Performance_indicator",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "refactoring",
+    "name": "Refactoring",
+    "summary": "The process of restructuring existing code without changing its external behavior to improve readability, maintainability, and design.",
+    "explanation": "Refactoring is the disciplined technique of restructuring existing code by altering its internal structure without changing its external behavior. The term was popularized by Martin Fowler in his seminal book on the subject.\n\n## Key principle\n\nRefactoring is not rewriting. It is a series of small, behavior-preserving transformations. Each transformation (called a 'refactoring') does little, but a sequence of them can significantly restructure code.\n\n## Common refactorings\n\n- **Extract Method** - Pull a code fragment into its own method with a descriptive name\n- **Rename Variable/Method** - Give something a more descriptive name\n- **Move Method** - Relocate a method to the class where it belongs\n- **Extract Class** - Split a class that is doing too much\n- **Inline Method** - Replace a method call with the method body when the method adds no value\n- **Replace Conditional with Polymorphism** - Use objects instead of if/switch chains\n- **Introduce Parameter Object** - Group related parameters into an object\n\n## When to refactor\n\n1. **Before adding a feature** - Make the existing code easier to work with first\n2. **After getting a test passing** - Red, Green, Refactor (TDD cycle)\n3. **When you encounter a code smell** - Fix the underlying issue\n4. **During code review** - When reviewers identify structural issues\n5. **When you struggle to understand code** - Clarify it for the next reader\n\n## Prerequisites for safe refactoring\n\n- **Automated tests** - You need confidence that behavior hasn't changed\n- **Version control** - Ability to revert if something goes wrong\n- **Small steps** - Each refactoring should be a tiny, verifiable change\n- **Continuous integration** - Verify changes don't break the build\n\n## The refactoring mindset\n\nRefactoring is not a separate phase or a weekend project. It's woven into daily development:\n- You refactor when you add a feature\n- You refactor when you fix a bug\n- You refactor when you review code\n\nThe goal is to keep the codebase healthy enough that changes remain easy and safe. Code that isn't refactored regularly accumulates technical debt and eventually becomes legacy code.\n\n## Anti-patterns\n\n- **Big Bang refactoring** - Rewriting large portions at once (risky, often fails)\n- **Refactoring without tests** - Changes without a safety net\n- **Refactoring and changing behavior simultaneously** - Mixing structural changes with feature changes makes bugs hard to trace\n- **Gold plating** - Refactoring code that works fine and doesn't need to change",
+    "tags": [
+        "software-engineering",
+        "code-quality",
+        "best-practices",
+        "programming",
+        "maintenance"
+    ],
+    "category": "Software Development",
+    "icon": "FaWrench",
+    "featured": false,
+    "aliases": [
+        "Code Refactoring",
+        "Software Refactoring"
+    ],
+    "relatedConcepts": [
+        "code-smell",
+        "technical-debt",
+        "clean-code",
+        "boy-scout-rule",
+        "legacy-code",
+        "software-entropy",
+        "solid-principles",
+        "dry-principle",
+        "kiss-principle",
+        "dead-code"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Refactoring: Improving the Design of Existing Code by Martin Fowler",
+            "url": "https://www.amazon.com/dp/0134757599?tag=dsebastien00-20"
+        },
+        {
+            "title": "Working Effectively with Legacy Code by Michael Feathers",
+            "url": "https://www.amazon.com/dp/0131177052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Code refactoring - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Code_refactoring",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

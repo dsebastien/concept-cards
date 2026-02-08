@@ -1,0 +1,79 @@
+{
+    "id": "risk-matrix",
+    "name": "Risk Matrix",
+    "summary": "A visual grid that maps risks by plotting their likelihood against their potential impact to prioritize response efforts.",
+    "explanation": "A risk matrix (also called a probability-impact matrix or risk heat map) is a visual tool used to prioritize risks by plotting their likelihood of occurrence against their potential impact. It is one of the most widely used qualitative risk assessment tools across industries.\n\n**Structure**:\n\n- **X-axis**: Impact/consequence severity (typically 1-5: negligible, minor, moderate, major, catastrophic)\n- **Y-axis**: Likelihood/probability (typically 1-5: rare, unlikely, possible, likely, almost certain)\n- **Risk score**: Likelihood × Impact, often color-coded into zones\n\n**Color-coded risk zones**:\n\n- **Green (Low)**: Acceptable risks — monitor and review\n- **Yellow (Medium)**: Risks requiring active management and mitigation plans\n- **Orange (High)**: Significant risks requiring priority attention and senior management oversight\n- **Red (Critical)**: Unacceptable risks requiring immediate action and possible escalation\n\n**Benefits**:\n\n- Simple, visual communication of risk priorities\n- Enables quick comparison and prioritization\n- Facilitates discussion and consensus building\n- Accessible to non-specialists\n\n**Limitations**:\n\n- Subjective assessments can vary between individuals\n- Coarse granularity can group very different risks together\n- May not capture risk velocity (how quickly a risk materializes)\n- Cannot represent risk interdependencies\n- Can create a false sense of precision\n\n**Best practices**:\n\n- Define clear, consistent criteria for each scale level\n- Use calibrated examples to reduce subjective variation\n- Complement with quantitative analysis for critical risks\n- Review and recalibrate periodically\n- Consider risk velocity and interconnections separately",
+    "tags": [
+        "risk-management",
+        "decision-making",
+        "visualization",
+        "tools"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaThLarge",
+    "featured": false,
+    "aliases": [
+        "Probability-impact matrix",
+        "Risk heat map"
+    ],
+    "relatedConcepts": [
+        "risk-assessment",
+        "risk-management",
+        "risk-register",
+        "risk-appetite",
+        "risk-tolerance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Risk matrix - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_matrix",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

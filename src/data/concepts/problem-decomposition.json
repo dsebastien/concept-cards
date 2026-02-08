@@ -1,0 +1,61 @@
+{
+    "id": "problem-decomposition",
+    "name": "Problem Decomposition",
+    "summary": "The practice of breaking a complex problem into smaller, more manageable sub-problems that can be solved independently.",
+    "explanation": "Problem decomposition is a fundamental problem-solving strategy that involves breaking a large, complex problem into smaller, more manageable sub-problems. Each sub-problem can then be analyzed, understood, and solved more easily, and the solutions combined to address the original problem.\n\n**Why decomposition works**:\n\n- **Reduces cognitive load**: Working memory is limited; smaller problems fit better\n- **Enables parallel work**: Different people or teams can tackle different sub-problems simultaneously\n- **Reveals structure**: Decomposition exposes the relationships and dependencies between parts\n- **Reduces risk**: Solving smaller problems carries less risk of catastrophic failure\n- **Enables estimation**: Smaller pieces are easier to estimate and plan\n\n**Decomposition strategies**:\n\n- **Functional decomposition**: Break by function or capability (e.g., authentication, payment, notification)\n- **Sequential decomposition**: Break by steps or phases (e.g., input → processing → output)\n- **Data decomposition**: Break by the data being processed (e.g., by customer segment, by region)\n- **Structural decomposition**: Break by component or layer (e.g., frontend, backend, database)\n- **Abstraction levels**: Break by levels of detail (e.g., high-level architecture → module design → implementation)\n\n**Decomposition principles**:\n\n- **MECE** (Mutually Exclusive, Collectively Exhaustive): Sub-problems shouldn't overlap and should cover the full problem\n- **Right granularity**: Too coarse and sub-problems are still complex; too fine and integration becomes the problem\n- **Clear interfaces**: Define how sub-problems relate and how solutions will integrate\n- **Independence**: Maximize independence between sub-problems to reduce coordination overhead\n\n**Applications**:\n\n- **Software engineering**: Modular design, microservices architecture, divide and conquer algorithms\n- **Project management**: Work breakdown structure (WBS)\n- **Business strategy**: Breaking strategic goals into tactical objectives and operational tasks\n- **Scientific research**: Reducing complex questions to testable hypotheses\n- **Learning**: Breaking a skill into sub-skills and mastering them individually\n\n**Pitfalls**:\n\n- **Lost emergent properties**: Some problems arise from interactions between parts, not the parts themselves\n- **Over-decomposition**: Creating so many pieces that integration and coordination become the main challenge\n- **Wrong decomposition axis**: Choosing a decomposition strategy that doesn't align with the problem structure",
+    "tags": [
+        "problem-solving",
+        "thinking",
+        "analysis",
+        "strategy"
+    ],
+    "category": "Thinking",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Divide and conquer",
+        "Problem breakdown",
+        "Decomposition strategy"
+    ],
+    "relatedConcepts": [
+        "first-principles",
+        "problem-framing",
+        "abstraction",
+        "work-breakdown-structure",
+        "systems-thinking",
+        "root-cause-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Decomposition (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decomposition_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

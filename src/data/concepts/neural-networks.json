@@ -1,68 +1,68 @@
 {
-  "id": "neural-networks",
-  "name": "Neural Networks",
-  "summary": "Computing systems inspired by biological neural networks in the brain, designed to recognize patterns and learn from data.",
-  "explanation": "Neural Networks are computational systems loosely modeled after the structure and function of biological brains. They consist of interconnected nodes (artificial neurons) organized in layers that process information and learn to perform tasks by adjusting the strength of connections between neurons.\n\nArchitecture:\n\nA typical neural network consists of three types of layers:\n\n1. Input Layer: Receives raw data (numbers, pixels, text tokens, etc.)\n2. Hidden Layers: One or more intermediate layers that transform the input through weighted connections and activation functions\n3. Output Layer: Produces the final result, whether a classification, prediction, or generated content\n\nEach connection between neurons has a weight that determines its influence. During training, these weights are adjusted through a process called backpropagation, where the network learns by minimizing the difference between its outputs and the expected results.\n\nTypes of Neural Networks:\n\n- Feedforward Networks: Information flows in one direction from input to output; the simplest architecture\n- Convolutional Neural Networks (CNNs): Specialized for processing grid-like data such as images, using convolution operations to detect features\n- Recurrent Neural Networks (RNNs): Designed for sequential data, with connections that loop back to process time-series or text\n- Transformers: Attention-based architectures that have revolutionized natural language processing\n- Autoencoders: Learn compressed representations of data for dimensionality reduction\n- Generative Adversarial Networks (GANs): Two networks compete to generate realistic synthetic data\n\nApplications:\n\nNeural networks power many modern AI applications including image recognition, speech-to-text, language translation, recommendation systems, autonomous vehicles, medical diagnosis, and content generation. Their ability to learn complex patterns from large datasets has made them the foundation of the current AI revolution.",
-  "tags": [
-    "ai",
-    "machine-learning",
-    "technologies"
-  ],
-  "category": "AI",
-  "icon": "FaBrain",
-  "featured": false,
-  "aliases": [
-    "NNs",
-    "Artificial Neural Networks",
-    "ANNs"
-  ],
-  "relatedConcepts": [
-    "deep-learning",
-    "machine-learning",
-    "ai-inference",
-    "transformer"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Artificial neural network - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
-      "type": "website"
-    },
-    {
-      "title": "AI Ghostwriter Guide",
-      "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
-      "type": "other"
-    },
-    {
-      "title": "DeveloPassion's Newsletter",
-      "url": "https://dsebastien.net/newsletter",
-      "type": "other"
-    },
-    {
-      "title": "Knowii Voice AI",
-      "url": "https://voice-ai.knowii.net",
-      "type": "other"
-    },
-    {
-      "title": "AI Master Prompt Workshop",
-      "url": "https://store.dsebastien.net/product/ai-master-prompt",
-      "type": "other"
-    },
-    {
-      "title": "Model Context Protocol (MCP) Workshop",
-      "url": "https://store.dsebastien.net/product/model-context-protocol",
-      "type": "other"
-    },
-    {
-      "title": "Knowii Community",
-      "url": "https://store.dsebastien.net/product/knowii-community",
-      "type": "other"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-28",
-  "dateModified": "2026-01-29"
+    "id": "neural-networks",
+    "name": "Neural Networks",
+    "summary": "Computing systems inspired by biological neural networks in the brain, designed to recognize patterns and learn from data.",
+    "explanation": "Neural Networks are computational systems loosely modeled after the structure and function of biological brains. They consist of interconnected nodes (artificial neurons) organized in layers that process information and learn to perform tasks by adjusting the strength of connections between neurons.\n\nArchitecture:\n\nA typical neural network consists of three types of layers:\n\n1. Input Layer: Receives raw data (numbers, pixels, text tokens, etc.)\n2. Hidden Layers: One or more intermediate layers that transform the input through weighted connections and activation functions\n3. Output Layer: Produces the final result, whether a classification, prediction, or generated content\n\nEach connection between neurons has a weight that determines its influence. During training, these weights are adjusted through a process called backpropagation, where the network learns by minimizing the difference between its outputs and the expected results.\n\nTypes of Neural Networks:\n\n- Feedforward Networks: Information flows in one direction from input to output; the simplest architecture\n- Convolutional Neural Networks (CNNs): Specialized for processing grid-like data such as images, using convolution operations to detect features\n- Recurrent Neural Networks (RNNs): Designed for sequential data, with connections that loop back to process time-series or text\n- Transformers: Attention-based architectures that have revolutionized natural language processing\n- Autoencoders: Learn compressed representations of data for dimensionality reduction\n- Generative Adversarial Networks (GANs): Two networks compete to generate realistic synthetic data\n\nApplications:\n\nNeural networks power many modern AI applications including image recognition, speech-to-text, language translation, recommendation systems, autonomous vehicles, medical diagnosis, and content generation. Their ability to learn complex patterns from large datasets has made them the foundation of the current AI revolution.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "technologies"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "NNs",
+        "Artificial Neural Networks",
+        "ANNs"
+    ],
+    "relatedConcepts": [
+        "deep-learning",
+        "machine-learning",
+        "ai-inference",
+        "transformer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Artificial neural network - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+            "type": "website"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-28",
+    "dateModified": "2026-02-07"
 }

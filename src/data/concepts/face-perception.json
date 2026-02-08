@@ -1,0 +1,42 @@
+{
+    "id": "face-perception",
+    "name": "Face Perception",
+    "summary": "The cognitive process by which the brain recognizes and interprets faces using specialized neural mechanisms.",
+    "explanation": "Face perception is the brain's ability to detect, recognize, and interpret faces. It is one of the most highly developed visual skills in humans, supported by dedicated neural circuitry including the fusiform face area (FFA), a region in the temporal lobe that responds selectively to faces. Newborns show a preference for face-like patterns within minutes of birth, suggesting that some aspects of face perception are innate.\n\nFace perception involves multiple processing stages. Detection determines whether a face is present. Structural encoding creates a representation of the face's geometry, including the spatial relationships between features. This representation feeds into two parallel pathways: one for recognizing identity (who is this person?) and another for interpreting expression, gaze direction, and lip movements (what are they communicating?).\n\nA key feature of face perception is its reliance on holistic and configural processing. Rather than analyzing eyes, nose, and mouth independently, the brain perceives faces as integrated wholes and encodes the spatial relationships between features. This is why the face inversion effect occurs: turning a face upside down disproportionately impairs recognition compared to other objects, because inversion disrupts holistic processing.\n\nFace perception can be impaired in several ways. Prosopagnosia (face blindness) is a condition where individuals cannot recognize faces despite having normal vision. The Thatcher effect demonstrates how holistic processing fails when faces are inverted. The other-race effect shows that people are better at recognizing faces from their own racial group, likely due to greater exposure and expertise.\n\nUnderstanding face perception has practical applications in user interface design (where face-like elements draw attention), security and surveillance systems, AI facial recognition technology, and clinical assessment of neurological conditions.",
+    "tags": [
+        "cognitive-science",
+        "perception",
+        "neuroscience",
+        "psychology"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Facial Recognition",
+        "Face Processing",
+        "Facial Perception"
+    ],
+    "relatedConcepts": [
+        "thatcher-effect",
+        "holistic-processing",
+        "pareidolia",
+        "prosopagnosia",
+        "gestalt-psychology",
+        "perceptual-set",
+        "limbic-system"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Face perception - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Face_perception",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

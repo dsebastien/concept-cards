@@ -1,0 +1,66 @@
+{
+    "id": "risk-assessment",
+    "name": "Risk Assessment",
+    "summary": "The systematic process of identifying hazards and evaluating the likelihood and impact of potential risks.",
+    "explanation": "Risk assessment is the systematic process of identifying potential hazards, analyzing their likelihood and consequences, and evaluating the resulting risk level to determine appropriate responses. It is a critical component of the broader risk management process.\n\n**Risk assessment steps**:\n\n1. **Hazard identification**: Systematically identifying what could go wrong, using techniques like brainstorming, checklists, failure mode analysis, and historical data review\n2. **Risk analysis**: Determining the likelihood and potential impact of each identified risk. This can be qualitative (high/medium/low), semi-quantitative (scoring scales), or quantitative (probability distributions)\n3. **Risk evaluation**: Comparing risk levels against acceptance criteria and prioritizing risks for treatment\n\n**Common risk assessment tools**:\n\n- **Risk matrix**: Visual grid plotting likelihood against impact\n- **FMEA**: Failure Mode and Effects Analysis for systematic evaluation\n- **Fault tree analysis**: Top-down deductive analysis of failure causes\n- **Bow-tie analysis**: Visual representation of risk pathways from causes to consequences\n- **Monte Carlo simulation**: Quantitative modeling of risk scenarios\n\n**Qualitative vs. quantitative assessment**:\n\n- Qualitative methods use descriptive scales and are faster but less precise\n- Quantitative methods use numerical probabilities and financial values but require more data\n- Most organizations use a combination, starting qualitative and moving to quantitative for critical risks\n\n**Best practices**:\n\n- Involve diverse perspectives to avoid blind spots\n- Base assessments on evidence, not assumptions\n- Document methodology and rationale\n- Review and update assessments regularly\n- Consider both threats and opportunities",
+    "tags": [
+        "risk-management",
+        "decision-making",
+        "analysis",
+        "planning"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaSearchPlus",
+    "featured": false,
+    "aliases": [
+        "Risk evaluation",
+        "Risk analysis"
+    ],
+    "relatedConcepts": [
+        "risk-management",
+        "risk-matrix",
+        "risk-register",
+        "fmea",
+        "fault-tree-analysis",
+        "pre-mortem-analysis",
+        "root-cause-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Risk assessment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_assessment",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

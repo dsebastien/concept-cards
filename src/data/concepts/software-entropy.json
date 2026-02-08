@@ -1,0 +1,55 @@
+{
+    "id": "software-entropy",
+    "name": "Software Entropy",
+    "summary": "The tendency of software systems to become increasingly disordered and complex over time without active maintenance.",
+    "explanation": "Software entropy is the observation that software systems naturally tend toward disorder, complexity, and decay over time. The term borrows from thermodynamics, where entropy measures the degree of disorder in a system. Without deliberate effort to maintain order, codebases degrade.\n\n## How entropy increases\n\n- **Feature additions** - Each new feature adds complexity and potential interactions\n- **Quick fixes** - Patches and workarounds that bypass proper design\n- **Changing requirements** - The original architecture drifts from what the system actually needs\n- **Team turnover** - New developers may not understand original design intent\n- **Dependency rot** - Libraries evolve, deprecate APIs, or introduce breaking changes\n- **Copy-paste programming** - Duplicated code that diverges over time\n\n## Manifestations\n\n1. **Increasing bug rates** - More defects per change as the system becomes fragile\n2. **Slower development** - Simple changes take longer as developers navigate complexity\n3. **Knowledge silos** - Only certain developers dare to touch certain parts\n4. **Fear of refactoring** - The system is too fragile to improve safely\n5. **Accumulating workarounds** - Layers of patches on patches\n\n## The second law of software\n\nIvar Jacobson formulated this as: 'All software systems, left unmaintained, tend toward increasing entropy.' This is sometimes called the Second Law of Software Thermodynamics. Unlike physical entropy, software entropy can be reversed through active maintenance, refactoring, and disciplined engineering practices.\n\n## Counteracting software entropy\n\n- **Refactoring** - Regularly restructure code to improve design\n- **Boy Scout Rule** - Leave code better than you found it\n- **Automated testing** - Safety net that enables confident changes\n- **Code reviews** - Catch entropy-increasing changes before they merge\n- **Architecture governance** - Ensure changes align with system design\n- **Technical debt management** - Track and allocate time to address debt\n- **Documentation** - Preserve design intent for future developers",
+    "tags": [
+        "software-engineering",
+        "code-quality",
+        "maintenance",
+        "principles",
+        "architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Code Entropy",
+        "Software Decay",
+        "Software Rot"
+    ],
+    "relatedConcepts": [
+        "technical-debt",
+        "bit-rot",
+        "broken-windows-theory",
+        "boy-scout-rule",
+        "refactoring",
+        "code-smell",
+        "legacy-code",
+        "clean-code",
+        "lava-flow"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Pragmatic Programmer by David Thomas and Andrew Hunt",
+            "url": "https://www.amazon.com/dp/0135957052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Software entropy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_entropy",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

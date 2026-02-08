@@ -1,0 +1,56 @@
+{
+    "id": "muda",
+    "name": "Muda",
+    "summary": "The Japanese term for waste - any activity that consumes resources without creating value for the customer.",
+    "explanation": "Muda is a Japanese word meaning 'futility', 'uselessness', or 'waste'. In lean manufacturing and the Toyota Production System, it refers to any activity that consumes resources without adding value from the customer's perspective. Eliminating muda is the primary focus of lean thinking.\n\n## The seven wastes (original)\n\nTaiichi Ohno identified seven categories of waste:\n\n1. **Transport** - Unnecessary movement of materials or information\n2. **Inventory** - Excess materials, work-in-progress, or finished goods\n3. **Motion** - Unnecessary movement of people (reaching, walking, searching)\n4. **Waiting** - Idle time when people or work items are not being processed\n5. **Overproduction** - Making more than needed, sooner than needed (the worst waste)\n6. **Over-processing** - Doing more work than the customer requires\n7. **Defects** - Rework, scrap, and correction of errors\n\nThe mnemonic TIMWOOD helps remember them.\n\n## The eighth waste\n\nLater practitioners added an eighth waste:\n\n8. **Unused talent** - Not leveraging people's skills, ideas, and creativity\n\n## Muda in software development\n\n| Manufacturing Waste | Software Equivalent |\n|---|---|\n| Transport | Unnecessary handoffs between teams |\n| Inventory | Partially done work, unmerged branches |\n| Motion | Context switching, searching for information |\n| Waiting | Waiting for approvals, reviews, environments |\n| Overproduction | Features nobody uses (YAGNI violations) |\n| Over-processing | Gold plating, premature optimization |\n| Defects | Bugs, rework, production incidents |\n| Unused talent | Developers stuck in meetings instead of coding |\n\n## Muda, Mura, Muri\n\nMuda is part of a triad of wastes in lean:\n\n- **Muda** (waste) - Non-value-adding activities\n- **Mura** (unevenness) - Inconsistency and variation in the process\n- **Muri** (overburden) - Unreasonable stress on people or equipment\n\nThese three are interconnected: mura (uneven workload) often causes muri (overburden), which leads to muda (defects, rework).\n\n## Type 1 vs. Type 2 muda\n\n- **Type 1** - Non-value-adding but currently necessary (e.g., regulatory compliance, some testing)\n- **Type 2** - Non-value-adding and unnecessary (pure waste to be eliminated immediately)\n\n## Identifying muda\n\n- Gemba walks (go see for yourself)\n- Value stream mapping (visualize the flow)\n- Asking 'Does the customer care about this step?'\n- Measuring the ratio of processing time to lead time\n- Listening to workers who experience the waste daily",
+    "tags": [
+        "lean",
+        "improvement",
+        "processes",
+        "efficiency",
+        "japanese-concepts"
+    ],
+    "category": "Principles",
+    "icon": "FaTrash",
+    "featured": false,
+    "aliases": [
+        "Waste",
+        "Seven Wastes",
+        "Eight Wastes",
+        "TIMWOOD"
+    ],
+    "relatedConcepts": [
+        "lean-manufacturing",
+        "kaizen",
+        "value-stream-mapping",
+        "gemba-walk",
+        "kanban",
+        "limit-work-in-progress",
+        "yagni",
+        "poka-yoke",
+        "six-sigma",
+        "theory-of-constraints"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Toyota Way by Jeffrey K. Liker",
+            "url": "https://www.amazon.com/dp/0071392319?tag=dsebastien00-20"
+        },
+        {
+            "title": "Lean Thinking by James P. Womack and Daniel T. Jones",
+            "url": "https://www.amazon.com/dp/0743249275?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Muda (Japanese term) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Muda_(Japanese_term)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

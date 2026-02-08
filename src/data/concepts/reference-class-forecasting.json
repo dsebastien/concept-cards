@@ -1,0 +1,83 @@
+{
+    "id": "reference-class-forecasting",
+    "name": "Reference Class Forecasting",
+    "summary": "An estimation method that bases predictions on actual outcomes of similar past projects rather than the specifics of the current plan.",
+    "explanation": "Reference Class Forecasting (RCF) is a method for making predictions by looking at what actually happened in a class of similar past projects, rather than building an estimate from the inside out based on the specifics of the current plan.\n\n## The problem it solves\n\nMost project estimates are built 'inside out' - decomposing the project into tasks, estimating each task, and summing them up. This approach systematically produces overoptimistic results because:\n\n- Planners focus on the unique features of their project\n- They underweight the base rate of how similar projects actually performed\n- Optimism bias and anchoring skew individual task estimates\n- Unforeseen problems are, by definition, not included in the plan\n\nDaniel Kahneman calls this the **inside view** versus the **outside view**.\n\n## How it works\n\n1. **Identify a reference class** - Find a set of past projects that are relevantly similar to the current one\n2. **Collect outcome data** - Gather actual durations, costs, or other metrics from these past projects\n3. **Establish a distribution** - Determine the statistical distribution of outcomes in the reference class\n4. **Position the current project** - Place the current project within this distribution, adjusting for any genuinely distinctive features\n\n## Example\n\nIf you're estimating a new e-commerce platform:\n- Look at 20 similar e-commerce builds from the past 5 years\n- Find that the average took 14 months (not the planned 8-10)\n- Find that 90% completed within 20 months\n- Use 14 months as your baseline estimate rather than your bottom-up calculation of 9 months\n\n## Key insight\n\nPeople consistently believe their project is special and will avoid the problems that plagued others. Reference class forecasting forces confrontation with the base rate of actual outcomes.\n\n## Applications beyond software\n\nRCF was developed by Bent Flyvbjerg for large infrastructure projects (bridges, tunnels, railways) where cost overruns of 50-300% are common. It has since been adopted in:\n\n- Government project planning (mandated in the UK since 2004)\n- IT project estimation\n- Pharmaceutical drug development timelines\n- Construction budgeting\n\n## Limitations\n\n- Requires access to historical data from comparable projects\n- Defining the right reference class can be subjective\n- Truly novel projects may have no valid reference class\n- Does not replace detailed planning, but rather serves as a reality check on it",
+    "tags": [
+        "estimation",
+        "planning",
+        "decision-making",
+        "cognitive-biases",
+        "project-management",
+        "statistics"
+    ],
+    "category": "Decision Science",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "Outside View",
+        "Base Rate Forecasting",
+        "RCF"
+    ],
+    "relatedConcepts": [
+        "planning-fallacy",
+        "planning-fallacy-mitigation",
+        "software-estimation",
+        "three-point-estimation",
+        "cone-of-uncertainty",
+        "anchoring",
+        "probabilistic-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        },
+        {
+            "title": "Superforecasting by Philip E. Tetlock",
+            "url": "https://www.amazon.com/dp/0804136718?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Reference class forecasting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reference_class_forecasting",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

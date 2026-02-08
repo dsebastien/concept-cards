@@ -1,0 +1,53 @@
+{
+    "id": "risk-register",
+    "name": "Risk Register",
+    "summary": "A structured document that records identified risks along with their analysis, treatment plans, and current status.",
+    "explanation": "A risk register (also called a risk log) is a foundational risk management tool that provides a centralized record of all identified risks, their assessment, planned responses, and current status. It serves as the primary document for tracking and managing risks throughout a project, program, or organization.\n\n**Typical risk register contents**:\n\n- **Risk ID**: Unique identifier for tracking\n- **Risk description**: Clear statement of the risk event and its potential consequences\n- **Category**: Classification of the risk type (financial, operational, strategic, etc.)\n- **Likelihood**: Probability of the risk occurring (often on a 1-5 scale)\n- **Impact**: Severity of consequences if the risk materializes (often on a 1-5 scale)\n- **Risk score**: Calculated from likelihood × impact\n- **Risk owner**: Person accountable for managing the risk\n- **Mitigation actions**: Planned and implemented responses\n- **Status**: Current state of the risk (open, mitigating, closed, materialized)\n- **Residual risk**: Risk level remaining after mitigation\n\n**Best practices**:\n\n- Review and update regularly (at minimum quarterly, monthly for active projects)\n- Ensure all risks have clear owners\n- Track mitigation action completion\n- Use consistent scoring criteria across the organization\n- Make the register accessible to relevant stakeholders\n- Record lessons learned when risks materialize or are closed\n\n**Common pitfalls**:\n\n- Treating it as a one-time exercise rather than a living document\n- Listing risks without clear ownership or actions\n- Using inconsistent or unclear rating scales\n- Focusing only on negative risks and ignoring opportunities\n- Creating overly complex registers that discourage use",
+    "tags": [
+        "risk-management",
+        "project-management",
+        "governance",
+        "documentation"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "Risk log",
+        "Risk tracker"
+    ],
+    "relatedConcepts": [
+        "risk-management",
+        "risk-assessment",
+        "risk-mitigation",
+        "risk-matrix"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Risk register - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_register",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

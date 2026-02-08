@@ -1,0 +1,49 @@
+{
+    "id": "incident-management",
+    "name": "Incident Management",
+    "summary": "The process of identifying, responding to, and resolving unplanned disruptions to restore normal service as quickly as possible.",
+    "explanation": "Incident management is the structured process for detecting, responding to, and resolving unplanned events or service disruptions that affect normal operations. It aims to restore normal service operation as quickly as possible while minimizing impact on business operations.\n\n**Incident management lifecycle**:\n\n1. **Detection**: Identifying that an incident has occurred through monitoring, alerts, or user reports\n2. **Triage**: Assessing severity, impact, and urgency to prioritize response\n3. **Response**: Assembling the right people and resources to address the incident\n4. **Resolution**: Implementing fixes to restore normal operations\n5. **Recovery**: Verifying service restoration and addressing any residual issues\n6. **Post-incident review**: Learning from the incident to prevent recurrence\n\n**Severity levels** (common model):\n\n- **SEV-1 (Critical)**: Complete service outage affecting all users\n- **SEV-2 (Major)**: Significant degradation affecting many users\n- **SEV-3 (Minor)**: Partial degradation with workaround available\n- **SEV-4 (Low)**: Minor issue with minimal impact\n\n**Key roles**:\n\n- **Incident Commander**: Coordinates the overall response effort\n- **Communications Lead**: Manages stakeholder and customer communication\n- **Subject Matter Experts**: Provide technical expertise for diagnosis and resolution\n- **Scribe**: Documents actions, decisions, and timeline\n\n**Best practices**:\n\n- Define clear escalation paths and severity criteria\n- Practice incident response through regular drills and game days\n- Maintain runbooks for common incident types\n- Conduct blameless post-incident reviews\n- Track incident metrics (MTTR, MTTD, frequency) to identify trends\n- Automate detection and routine response actions where possible\n\n**Relationship to other practices**:\n\nIncident management is closely related to problem management (addressing root causes), change management (preventing incidents from changes), and business continuity (maintaining operations during major incidents).",
+    "tags": [
+        "operations",
+        "reliability",
+        "devops",
+        "processes"
+    ],
+    "category": "Software Development",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Incident response",
+        "IM",
+        "ITSM incident management"
+    ],
+    "relatedConcepts": [
+        "blameless-postmortem",
+        "runbook",
+        "operational-resilience",
+        "business-continuity",
+        "root-cause-analysis",
+        "crisis-management",
+        "problem-management",
+        "change-management",
+        "lessons-learned"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Incident management (ITSM) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Incident_management_(ITSM)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

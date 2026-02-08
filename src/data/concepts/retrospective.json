@@ -1,0 +1,73 @@
+{
+    "id": "retrospective",
+    "name": "Retrospective",
+    "summary": "A structured team meeting held after a project or iteration to reflect on what went well, what didn't, and how to improve.",
+    "explanation": "A retrospective is a structured reflection meeting where a team examines its recent work to identify successes, challenges, and actionable improvements. It is a cornerstone of Agile methodologies but applicable far beyond software development to any team or individual seeking continuous improvement.\n\n**Core questions** (the classic format):\n\n1. **What went well?** — Identify and celebrate successes to reinforce good practices\n2. **What didn't go well?** — Honestly acknowledge problems without blame\n3. **What will we do differently?** — Commit to specific, actionable changes\n\n**Popular retrospective formats**:\n\n- **Start/Stop/Continue**: What should we start doing, stop doing, and keep doing?\n- **4Ls**: Liked, Learned, Lacked, Longed for\n- **Mad/Sad/Glad**: Emotional mapping of the experience\n- **Sailboat**: Wind (what propels us), anchors (what holds us back), rocks (risks ahead)\n- **Timeline**: Walk through events chronologically, noting high and low points\n- **Starfish**: More of, less of, keep doing, start doing, stop doing\n\n**Key principles**:\n\n- **Psychological safety**: People must feel safe to speak honestly without fear of reprisal\n- **Blameless culture**: Focus on systems and processes, not individuals\n- **Action-oriented**: Every retrospective should produce concrete action items with owners\n- **Follow-through**: Review previous action items at the start of each retrospective\n- **Variety**: Rotate formats to prevent staleness and surface different insights\n\n**When to hold retrospectives**:\n\n- End of each sprint or iteration (typically every 1-2 weeks)\n- After project milestones or completion\n- After significant incidents or failures\n- Periodically for ongoing teams (monthly or quarterly)\n\n**Common pitfalls**:\n\n- No action items or no follow-through on action items\n- Same issues raised repeatedly without resolution\n- Dominated by a few voices while others stay silent\n- Blame-oriented discussions that shut down honesty\n- Skipping retrospectives when the team is 'too busy'",
+    "tags": [
+        "agile",
+        "teams",
+        "continuous-improvement",
+        "processes"
+    ],
+    "category": "Techniques",
+    "icon": "FaRedo",
+    "featured": false,
+    "aliases": [
+        "Retro",
+        "Sprint retrospective",
+        "Team retrospective",
+        "Post-mortem"
+    ],
+    "relatedConcepts": [
+        "blameless-postmortem",
+        "kaizen",
+        "lessons-learned",
+        "after-action-review",
+        "psychological-safety",
+        "agile-manifesto",
+        "pdca-cycle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Retrospectives by Esther Derby and Diana Larsen",
+            "url": "https://www.amazon.com/dp/0977616649?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Retrospective (software development) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Retrospective#Software_development",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}

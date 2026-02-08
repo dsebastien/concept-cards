@@ -1,0 +1,41 @@
+{
+    "id": "barrier-analysis",
+    "name": "Barrier Analysis",
+    "summary": "A root cause analysis technique that examines what barriers should have prevented an incident and why they failed.",
+    "explanation": "Barrier analysis is a root cause investigation technique that focuses on the controls, defenses, and safeguards (barriers) that should have prevented an unwanted event from occurring or mitigated its consequences. By systematically examining which barriers existed, which failed, and why, it reveals both the immediate causes and the systemic weaknesses that allowed the event to happen.\n\n**How barrier analysis works**:\n\n1. **Identify the hazard and target**: What was the harmful energy/condition (hazard) and what was affected (target)?\n2. **List the barriers**: Identify all barriers that existed or should have existed between the hazard and the target\n3. **Assess each barrier**: Determine whether each barrier was in place, failed, was bypassed, or was missing\n4. **Analyze failures**: For each failed or missing barrier, determine why it failed\n5. **Recommend improvements**: Identify how barriers can be strengthened, added, or made more reliable\n\n**Types of barriers**:\n\n- **Physical barriers**: Fences, guards, containment, lockouts\n- **Technical barriers**: Alarms, interlocks, automatic shutdowns, fail-safes\n- **Administrative barriers**: Procedures, training, permits, checklists\n- **Human barriers**: Supervision, verification steps, buddy systems\n- **Natural barriers**: Distance, time delays\n\n**Barrier failure modes**:\n\n- **Not present**: The barrier was never implemented\n- **Not used**: The barrier existed but was bypassed or ignored\n- **Failed**: The barrier was in place but didn't work as intended\n- **Inadequate**: The barrier was insufficient for the hazard\n- **Degraded**: The barrier had deteriorated over time without maintenance\n\n**Relationship to other methods**:\n\n- Barrier analysis complements the Swiss Cheese Model, which conceptually shows how barriers work in layers\n- It can be used within broader RCA frameworks like the 8D process or Kepner-Tregoe\n- Bow-tie analysis explicitly maps barriers on both the prevention and mitigation sides\n\n**Best used when**: Investigating incidents involving physical safety, process safety, or security, where identifiable barriers should have prevented the event. Also applicable in software engineering for analyzing why safeguards (tests, reviews, monitoring) failed to catch a defect or outage.",
+    "tags": [
+        "safety",
+        "problem-solving",
+        "analysis",
+        "risk-management"
+    ],
+    "category": "Techniques",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Barrier analysis technique",
+        "Control failure analysis"
+    ],
+    "relatedConcepts": [
+        "root-cause-analysis",
+        "swiss-cheese-model",
+        "bow-tie-analysis",
+        "defense-in-depth",
+        "fault-tree-analysis",
+        "incident-management",
+        "failure-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Barrier analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Barrier_analysis",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-08",
+    "dateModified": "2026-02-08"
+}
