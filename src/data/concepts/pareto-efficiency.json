@@ -1,0 +1,62 @@
+{
+    "id": "pareto-efficiency",
+    "name": "Pareto Efficiency",
+    "summary": "A state of resource allocation where no individual can be made better off without making at least one other individual worse off.",
+    "explanation": "Named after Italian economist Vilfredo Pareto, Pareto efficiency (also called Pareto optimality) is a foundational concept in economics and decision science. An allocation is Pareto efficient when there is no way to improve one person's situation without worsening another's. Importantly, Pareto efficiency says nothing about fairness or equality. A distribution where one person has everything and everyone else has nothing can be Pareto efficient if any redistribution would reduce the total holder's welfare. The concept is useful as a minimum standard for evaluating outcomes. If a situation is not Pareto efficient, there exist improvements that could benefit someone without harming anyone, called Pareto improvements. Decision-makers should seek these win-win changes before confronting genuine trade-offs. In practice, most interesting decisions involve trade-offs beyond the Pareto frontier, where helping one party necessarily hurts another. In team negotiations, project prioritization, and resource allocation, identifying the Pareto frontier clarifies which changes are unambiguously good and which require value judgments. The concept connects to the welfare theorems of economics and is distinct from the Pareto Principle (80/20 rule), which describes the uneven distribution of causes and effects.",
+    "tags": [
+        "economics",
+        "decision-making",
+        "resource-allocation",
+        "game-theory",
+        "optimization"
+    ],
+    "category": "Decision Science",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Pareto optimality",
+        "Pareto optimal",
+        "Pareto improvement",
+        "Allocative efficiency"
+    ],
+    "relatedConcepts": [
+        "pareto-principle",
+        "game-theory",
+        "nash-equilibrium",
+        "opportunity-cost",
+        "win-win-method"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pareto efficiency - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pareto_efficiency",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-09",
+    "dateModified": "2026-02-09"
+}

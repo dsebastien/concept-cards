@@ -1,0 +1,69 @@
+{
+    "id": "minimax",
+    "name": "Minimax",
+    "summary": "A decision rule for minimizing the worst-case potential loss when facing uncertainty or adversarial conditions.",
+    "explanation": "Minimax is a foundational concept in decision theory and game theory, formalized by John von Neumann. The strategy involves choosing the action that minimizes the maximum possible loss. In two-player zero-sum games, it means assuming your opponent will play optimally against you and choosing your best response accordingly. The minimax theorem proves that in such games, there exists an optimal mixed strategy for each player. Beyond formal games, minimax thinking applies to any situation involving risk management and worst-case planning. A portfolio manager diversifying to limit downside exposure, a military commander planning for the enemy's best response, or an engineer designing systems to withstand maximum stress all use minimax reasoning. The related maximin strategy focuses on maximizing the minimum guaranteed payoff, choosing the option with the best worst-case outcome. While minimax is conservative and may sacrifice expected value for safety, it is appropriate when the consequences of the worst case are severe, when you face an intelligent adversary, or when you cannot afford catastrophic losses. It contrasts with expected value maximization, which accepts higher variance for better average outcomes.",
+    "tags": [
+        "game-theory",
+        "decision-making",
+        "risk-management",
+        "strategic-thinking",
+        "mathematics"
+    ],
+    "category": "Decision Science",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Minimax theorem",
+        "Maximin",
+        "Minimax strategy",
+        "Min-max"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "nash-equilibrium",
+        "risk-management",
+        "decision-under-uncertainty",
+        "expected-utility-theory",
+        "reversible-vs-irreversible-decisions",
+        "regret-minimization-framework"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Theory of Games and Economic Behavior by John von Neumann and Oskar Morgenstern",
+            "url": "https://www.amazon.com/dp/0691130612?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Minimax - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minimax",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-09",
+    "dateModified": "2026-02-09"
+}

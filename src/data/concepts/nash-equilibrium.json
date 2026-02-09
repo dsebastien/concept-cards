@@ -1,0 +1,65 @@
+{
+    "id": "nash-equilibrium",
+    "name": "Nash Equilibrium",
+    "summary": "A state in a strategic game where no player can improve their outcome by unilaterally changing their strategy.",
+    "explanation": "Named after mathematician John Nash, a Nash Equilibrium occurs when every participant in a game has chosen a strategy and no one can benefit by changing only their own strategy while others keep theirs unchanged. It does not mean the outcome is optimal for all players, just that it is stable. The concept is foundational in game theory and applies far beyond formal games. In business, it explains price wars where competitors settle into pricing patterns that neither wants to deviate from. In negotiations, it helps identify stable agreements. In organizational design, it reveals why certain dysfunctional patterns persist, because no single actor has an incentive to change unilaterally. Understanding Nash Equilibria helps decision-makers recognize when a situation is stuck in a suboptimal but stable state and when coordinated action, rather than individual initiative, is needed to reach a better outcome. It also highlights that rational individual decisions can lead to collectively irrational results.",
+    "tags": [
+        "game-theory",
+        "decision-making",
+        "strategic-thinking",
+        "mathematics",
+        "economics"
+    ],
+    "category": "Decision Science",
+    "icon": "FaChess",
+    "featured": false,
+    "aliases": [
+        "Nash equilibria",
+        "Strategic equilibrium"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "prisoners-dilemma",
+        "tragedy-of-the-commons",
+        "second-order-effects",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of Strategy by Avinash Dixit and Barry Nalebuff",
+            "url": "https://www.amazon.com/dp/0393337170?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Nash equilibrium - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-09",
+    "dateModified": "2026-02-09"
+}

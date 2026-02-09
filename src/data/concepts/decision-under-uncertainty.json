@@ -1,0 +1,69 @@
+{
+    "id": "decision-under-uncertainty",
+    "name": "Decision Under Uncertainty",
+    "summary": "Frameworks and strategies for making choices when the possible outcomes or their probabilities are unknown.",
+    "explanation": "Decision theory distinguishes three environments: certainty (outcomes are known), risk (outcomes are known with probabilities), and uncertainty (outcomes or probabilities are unknown). Decision under uncertainty is the most challenging because standard expected value calculations become impossible. Frank Knight formalized this distinction between risk and uncertainty in 1921. Several decision rules exist for this domain. Maximin chooses the option with the best worst-case outcome. Maximax chooses the option with the best best-case outcome. Minimax regret minimizes the maximum regret across all possible states of the world. The Laplace criterion assigns equal probability to all outcomes and maximizes expected value. The Hurwicz criterion blends optimism and pessimism through a weighted combination of best and worst outcomes. Beyond formal rules, practical strategies for handling uncertainty include building optionality to preserve future flexibility, making reversible decisions quickly, delaying irreversible decisions until more information emerges, running small experiments to reduce uncertainty before committing, and scenario planning to prepare for multiple futures. Understanding the type of uncertainty you face, whether it is reducible through research or fundamentally unknowable, is itself a crucial decision-making skill.",
+    "tags": [
+        "decision-making",
+        "risk-management",
+        "strategic-thinking",
+        "frameworks",
+        "uncertainty"
+    ],
+    "category": "Decision Science",
+    "icon": "FaQuestion",
+    "featured": false,
+    "aliases": [
+        "Knightian uncertainty",
+        "Decision-making under uncertainty",
+        "Ambiguity in decisions"
+    ],
+    "relatedConcepts": [
+        "minimax",
+        "reversible-vs-irreversible-decisions",
+        "optionality",
+        "cone-of-uncertainty",
+        "risk-management",
+        "expected-utility-theory",
+        "bounded-rationality",
+        "fog-of-war"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Risk, Uncertainty and Profit by Frank Knight",
+            "url": "https://www.amazon.com/dp/1614276390?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Decision-making - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision-making#Decision-making_under_uncertainty",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-09",
+    "dateModified": "2026-02-09"
+}

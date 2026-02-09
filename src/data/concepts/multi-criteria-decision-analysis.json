@@ -1,0 +1,64 @@
+{
+    "id": "multi-criteria-decision-analysis",
+    "name": "Multi-Criteria Decision Analysis",
+    "summary": "A structured framework for evaluating and ranking alternatives across multiple conflicting criteria with explicit trade-off assessment.",
+    "explanation": "Multi-Criteria Decision Analysis (MCDA) provides a systematic methodology for making decisions that involve trade-offs among multiple objectives. Unlike simple cost-benefit analysis which reduces everything to a single monetary metric, MCDA preserves the distinct dimensions of a decision. The process typically involves defining the decision problem and alternatives, identifying evaluation criteria and their relative weights, scoring each alternative against each criterion, and aggregating scores to produce a ranking. Common methods include Weighted Sum Model, TOPSIS, and the Analytic Hierarchy Process (AHP). MCDA is particularly valuable when decisions involve both quantitative and qualitative factors, when stakeholders have different priorities, or when no single alternative dominates across all criteria. In practice, the process of defining criteria and weights often provides more insight than the final ranking. It forces decision-makers to make their values explicit, reduces the influence of cognitive biases, and creates transparency in how choices are made. MCDA is widely used in public policy, environmental management, healthcare resource allocation, and strategic business decisions.",
+    "tags": [
+        "decision-making",
+        "frameworks",
+        "strategic-thinking",
+        "analysis",
+        "leadership"
+    ],
+    "category": "Decision Science",
+    "icon": "FaThList",
+    "featured": false,
+    "aliases": [
+        "MCDA",
+        "Multi-criteria analysis",
+        "MCA",
+        "Analytic Hierarchy Process",
+        "AHP"
+    ],
+    "relatedConcepts": [
+        "weighted-decision-matrix",
+        "decisional-balance",
+        "decision-making",
+        "effort-vs-impact",
+        "rice-framework",
+        "ice-scoring-model"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Multi-criteria decision analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Multi-criteria_decision_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-09",
+    "dateModified": "2026-02-09"
+}

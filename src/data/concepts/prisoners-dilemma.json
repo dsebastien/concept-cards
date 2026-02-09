@@ -1,0 +1,65 @@
+{
+    "id": "prisoners-dilemma",
+    "name": "Prisoner's Dilemma",
+    "summary": "A game theory scenario demonstrating why rational individuals might not cooperate even when cooperation would benefit everyone.",
+    "explanation": "The Prisoner's Dilemma is the most famous problem in game theory. Two suspects are interrogated separately. Each can either cooperate with the other by staying silent or defect by betraying. If both cooperate, both receive a light sentence. If both defect, both receive a heavy sentence. If one defects while the other cooperates, the defector goes free while the cooperator gets the heaviest sentence. The rational choice for each individual is to defect, yet mutual defection produces a worse outcome than mutual cooperation. This paradox appears everywhere: arms races between nations, price competition between firms, environmental resource depletion, and team dynamics where free-riding is tempting. The iterated version, where the game repeats, changes the calculus significantly. Robert Axelrod's tournaments showed that tit-for-tat, a strategy of starting with cooperation and then mirroring the opponent's previous move, consistently outperforms purely selfish strategies. This reveals that in repeated interactions, building trust and reciprocity leads to better long-term outcomes than short-sighted self-interest.",
+    "tags": [
+        "game-theory",
+        "decision-making",
+        "cooperation",
+        "strategic-thinking",
+        "psychology"
+    ],
+    "category": "Decision Science",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Prisoners dilemma",
+        "PD game",
+        "Iterated prisoner's dilemma"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "nash-equilibrium",
+        "tragedy-of-the-commons",
+        "reciprocity-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Evolution of Cooperation by Robert Axelrod",
+            "url": "https://www.amazon.com/dp/0465005640?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Prisoner's dilemma - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-09",
+    "dateModified": "2026-02-09"
+}
