@@ -1,3 +1,10 @@
+## [10.32.0](https://github.com/dsebastien/concept-cards/compare/10.31.0...10.32.0) (2026-02-11)
+
+### Features
+
+* **all:** added concepts ([02c2c7d](https://github.com/dsebastien/concept-cards/commit/02c2c7dea3732f66c1c9fca9b1bd1445d0f33151))
+* **all:** added new concepts ([74af6cb](https://github.com/dsebastien/concept-cards/commit/74af6cb584e32a9b72342b869edd72e50d12c48c))
+* **all:** unexplored page treats featured concepts like any other ([47fe23a](https://github.com/dsebastien/concept-cards/commit/47fe23ad25c267d260377dcda88925523b40d843))
 ## [10.31.0](https://github.com/dsebastien/concept-cards/compare/10.30.0...10.31.0) (2026-02-11)
 
 ### Features
