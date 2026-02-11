@@ -1,0 +1,63 @@
+{
+    "id": "the-mythical-man-month",
+    "name": "The Mythical Man-Month",
+    "summary": "The Mythical Man-Month is Fred Brooks's seminal 1975 book arguing that the man-month is a dangerous myth because people and time are not interchangeable in complex software projects.",
+    "explanation": "The Mythical Man-Month is a book on software engineering and project management written by Frederick P. Brooks Jr., first published in 1975. It draws on Brooks's experience managing the development of IBM's System/360 computer family and the OS/360 operating system, one of the largest software projects of its era. A 20th anniversary edition was published in 1995, adding several essays including the influential \"No Silver Bullet.\"\n\n## The Central Argument\n\nThe book's central thesis is that the \"man-month\" — the idea that a task requiring 12 person-months can be done by 12 people in one month — is a myth. This unit of measurement falsely implies that people and time are interchangeable. For complex intellectual work like software development, they are not. Tasks have sequential dependencies, communication overhead grows with team size, and new people need ramp-up time. This insight led to Brooks's Law: adding manpower to a late software project makes it later.\n\n## Key Ideas\n\nThe book introduced or popularized several influential concepts:\n\n- **Brooks's Law**: Adding people to a late project makes it later, due to training overhead, communication costs, and task indivisibility.\n- **The Tar Pit**: Large-system programming is like a tar pit where powerful creatures become trapped. Scaling from a program to a product, or from a program to a system, each multiplies effort roughly threefold.\n- **Conceptual Integrity**: The most important consideration in system design. A system should reflect a single coherent vision, which argues for a chief architect model.\n- **The Second-System Effect**: An architect's second system tends to be over-engineered, bloated with features deferred from the first system.\n- **The Surgical Team**: A proposal to organize teams around a chief programmer (the surgeon) supported by specialists, rather than using large democratic teams.\n- **Plan to Throw One Away**: The first version of a system is essentially a prototype that will need to be redesigned, so you should plan for it.\n- **No Silver Bullet**: Added in the 1995 edition, this essay argues that no single technology or technique will provide an order-of-magnitude improvement in software productivity, because the essential complexity of software resists such breakthroughs.\n\n## Why It Endures\n\nOften called \"the Bible of software engineering,\" the book remains relevant decades after publication because the fundamental challenges it addresses — coordinating human intellectual effort, managing complexity, maintaining conceptual integrity — have not changed. Technologies evolve, but the human and organizational dynamics of building complex systems remain remarkably constant.\n\n## Relevance Beyond Software\n\nWhile rooted in software engineering, many of the book's insights apply to any large-scale collaborative knowledge work. The dynamics of communication overhead, the myth of interchangeable effort, and the importance of conceptual integrity are universal challenges in complex projects.",
+    "tags": [
+        "software-engineering",
+        "project-management",
+        "books",
+        "classics"
+    ],
+    "category": "Software Development",
+    "icon": "FaBook",
+    "featured": false,
+    "aliases": [
+        "MMM",
+        "The Mythical Man Month"
+    ],
+    "relatedConcepts": [
+        "brooks-law",
+        "second-system-effect",
+        "no-silver-bullet",
+        "conceptual-integrity",
+        "surgical-team",
+        "plan-to-throw-one-away",
+        "the-tar-pit",
+        "essential-vs-accidental-complexity",
+        "coordination-costs"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mythical Man-Month by Frederick P. Brooks Jr.",
+            "url": "https://www.amazon.com/dp/0201835959?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Mythical Man-Month - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Mythical_Man-Month",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

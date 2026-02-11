@@ -1,0 +1,53 @@
+{
+    "id": "stigmergy",
+    "name": "Stigmergy",
+    "summary": "A coordination mechanism where agents communicate indirectly by modifying their shared environment, enabling complex collective behavior without central control.",
+    "explanation": "Stigmergy (from Greek: stigma 'mark' + ergon 'work') is a mechanism of indirect coordination where the trace left by an action in the environment stimulates subsequent actions, by the same or different agents. The concept was introduced by French biologist Pierre-Paul Grassé in 1959 to explain how termites coordinate their mound-building activities without direct communication or central planning.\n\n**How it works:**\n\nRather than communicating directly with each other, agents modify their shared environment. Other agents then perceive these modifications and respond accordingly, creating feedback loops that produce complex, coordinated behavior from simple individual rules.\n\n**Examples in nature:**\n\n- **Ant pheromone trails**: Ants deposit pheromones along paths to food sources. Other ants follow stronger trails, reinforcing successful routes. Shorter paths accumulate more pheromone (ants traverse them faster), naturally optimizing foraging routes.\n- **Termite mound building**: Termites deposit mud balls impregnated with pheromones. Other termites are attracted to deposits and add their own, creating pillars, arches, and complex ventilation systems.\n- **Spider web construction**: The existing web structure guides where the next strand is placed.\n\n**Digital stigmergy:**\n\n- **Wikipedia**: Edits to articles stimulate further edits, corrections, and expansions\n- **GitHub**: Issues, pull requests, and code changes guide other developers' contributions\n- **Stack Overflow**: Questions attract answers; upvotes signal quality\n- **Social media algorithms**: Engagement signals (likes, shares) amplify content, attracting more engagement\n- **Wiki-based knowledge management**: Notes and links create trails that guide future knowledge work\n\n**Properties of stigmergic systems:**\n\n- **Scalable**: Works with any number of agents\n- **Robust**: No single point of failure\n- **Flexible**: Adapts as the environment changes\n- **Self-organizing**: Complex patterns emerge without central planning\n- **Asynchronous**: Agents don't need to be present simultaneously\n\n**Applications for knowledge management:**\n\nStigmergy is the mechanism behind many collaborative knowledge systems. In a shared knowledge base (like a wiki or Obsidian vault), the structure of existing notes—their links, tags, and organization—guides where new knowledge gets placed and how it connects, creating increasingly useful knowledge structures over time.\n\nUnderstanding stigmergy helps in designing collaborative systems that harness distributed effort without requiring explicit coordination overhead.",
+    "tags": [
+        "collaboration",
+        "biology",
+        "systems-thinking",
+        "self-organization",
+        "emergence",
+        "coordination"
+    ],
+    "category": "Principles",
+    "icon": "FaRoute",
+    "featured": false,
+    "aliases": [
+        "Indirect Coordination",
+        "Environment-Mediated Communication"
+    ],
+    "relatedConcepts": [
+        "emergence",
+        "self-organization",
+        "hive-mind",
+        "superorganism",
+        "collective-intelligence",
+        "distributed-cognition",
+        "desire-path"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Stigmergy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Stigmergy",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

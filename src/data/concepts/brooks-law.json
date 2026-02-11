@@ -1,0 +1,60 @@
+{
+    "id": "brooks-law",
+    "name": "Brooks's Law",
+    "summary": "Brooks's Law states that adding manpower to a late software project makes it later, because of ramp-up time, communication overhead, and task indivisibility.",
+    "explanation": "Brooks's Law is one of the most well-known observations in software engineering, formulated by Fred Brooks in his 1975 book *The Mythical Man-Month*. The law states: \"Adding manpower to a late software project makes it later.\"\n\n## Why Adding People Slows Things Down\n\nThere are three fundamental reasons why adding people to a late project backfires:\n\n1. **Ramp-up time and training overhead**: New team members are not immediately productive. They need time to learn the codebase, understand the architecture, get familiar with tools and processes, and absorb domain knowledge. Worse, existing team members must spend time training and mentoring newcomers, which pulls them away from productive work. During this period, the project actually loses net productivity.\n\n2. **Communication overhead grows quadratically**: The number of communication channels in a team grows as n(n-1)/2, where n is the number of people. A team of 5 has 10 channels; a team of 10 has 45; a team of 15 has 105. Each channel represents potential for miscommunication, meetings, coordination, and synchronization. As teams grow, more and more time is consumed by communication rather than productive work.\n\n3. **Task indivisibility**: Some work simply cannot be divided among more people. Brooks's famous analogy is that \"nine women can't make a baby in one month.\" Many tasks in software development have sequential dependencies, shared state, or require deep individual understanding that prevents effective parallelization.\n\n## The Mythical Man-Month\n\nThe law directly challenges the \"man-month\" as a unit of measurement. Managers often assume that if a task takes 12 man-months, then 12 people can do it in one month. This assumption only holds for tasks that are perfectly partitionable with zero communication overhead — which almost never applies to complex knowledge work.\n\n## Broader Applications\n\nWhile Brooks formulated the law in the context of software projects, it applies broadly to any complex knowledge work. Adding people to a late research project, a complex writing effort, or an intricate design process often produces the same counterproductive results. The law is a reminder that coordination costs are real and often underestimated.\n\n## What to Do Instead\n\nRather than adding people to a late project, teams should consider: reducing scope, extending the deadline, improving processes, removing impediments, or restructuring the work to reduce dependencies. If people must be added, doing so early (before the project is late) and in small increments minimizes the negative effects.",
+    "tags": [
+        "software-engineering",
+        "project-management",
+        "laws",
+        "teams",
+        "complexity"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Brooks' Law",
+        "Brooks Law"
+    ],
+    "relatedConcepts": [
+        "the-mythical-man-month",
+        "coordination-costs",
+        "conways-law",
+        "surgical-team",
+        "the-tar-pit"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mythical Man-Month by Frederick P. Brooks Jr.",
+            "url": "https://www.amazon.com/dp/0201835959?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Brooks's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Brooks%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

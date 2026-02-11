@@ -1,0 +1,50 @@
+{
+    "id": "conceptual-integrity",
+    "name": "Conceptual Integrity",
+    "summary": "The principle that a system's design should reflect a unified, coherent set of ideas as if conceived by a single mind, which Brooks considered the most important consideration in system design.",
+    "explanation": "Conceptual integrity means that a system's design reflects a unified, coherent set of ideas — as if conceived by a single mind. Fred Brooks considered this the most important consideration in system design, arguing in The Mythical Man-Month that it is better to have a system that omits certain features and improvements but reflects one set of design ideas than to have one that contains many good but independent and uncoordinated ideas.\n\nA system with conceptual integrity is easier to learn, use, and extend because its parts follow consistent patterns and principles. Users can form a mental model of how the system works and predict its behavior in new situations. Without conceptual integrity, each part of the system may be individually well-designed but the whole becomes confusing and unpredictable.\n\nTo achieve conceptual integrity, Brooks advocated separating architecture from implementation. A small number of architects — or ideally one chief architect — define the system's design, its public interfaces, and its behavioral patterns. Implementers then build the system within those architectural guidelines. This separation does not diminish the role of implementers; they have enormous creative latitude within the architecture to choose data structures, algorithms, and implementation strategies.\n\nThe alternative — design by committee where everyone contributes their best ideas — produces systems that are internally inconsistent and harder to use. Democratic design may seem fair, but it sacrifices the coherence that makes a system truly usable. Brooks compared the architect's role to that of a movie director: many talented people contribute, but one person ensures the final product tells a coherent story.\n\nModern examples of conceptual integrity abound: the Unix philosophy of small composable tools, Apple products under Steve Jobs, well-designed APIs like Stripe, and programming languages like Go that deliberately limit features to maintain consistency. Conway's Law is the organizational counterpart — the structure of a system mirrors the structure of the organization that built it, so organizational structure must support the desired architectural integrity.\n\nConceptual integrity remains one of the most powerful and underappreciated principles in software design. It explains why some systems with fewer features feel better to use than systems with more features, and why successful rewrites often require a single strong architectural vision.",
+    "tags": [
+        "software-engineering",
+        "architecture",
+        "design",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Architectural Integrity",
+        "Design Coherence"
+    ],
+    "relatedConcepts": [
+        "the-mythical-man-month",
+        "surgical-team",
+        "conways-law",
+        "separation-of-concerns",
+        "clean-architecture",
+        "second-system-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mythical Man-Month by Frederick P. Brooks Jr.",
+            "url": "https://www.amazon.com/dp/0201835959?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Conceptual Integrity (The Mythical Man-Month) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Mythical_Man-Month#Conceptual_integrity",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

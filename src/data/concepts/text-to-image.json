@@ -1,0 +1,74 @@
+{
+    "id": "text-to-image",
+    "name": "Text-to-Image",
+    "summary": "AI technology that generates images from natural language descriptions, translating words into visual content.",
+    "explanation": "Text-to-image (T2I) is an AI capability that generates images from natural language text descriptions (prompts). The user describes what they want to see in words, and the model produces a corresponding image. This technology has advanced dramatically since 2021, with systems like DALL-E, Midjourney, Stable Diffusion, and Imagen producing increasingly photorealistic and artistically sophisticated results.\n\n**How it works:**\n\nModern T2I systems typically combine two key components:\n\n1. **Text encoder**: Converts the text prompt into a mathematical representation (embedding) that captures semantic meaning. Often uses CLIP or similar vision-language models.\n\n2. **Image generator**: Uses the text embedding to guide image creation. Most current systems use diffusion models that start with random noise and progressively denoise it into an image that matches the text description.\n\n**Key techniques:**\n\n- **Classifier-free guidance**: Balances prompt adherence against image quality\n- **Negative prompts**: Specifying what should NOT appear in the image\n- **ControlNet**: Adding spatial conditioning (poses, edges, depth maps) alongside text\n- **Prompt weighting**: Emphasizing certain elements of the description\n- **Seed control**: Reproducing or varying specific generations\n\n**Applications:**\n\n- Creative ideation and concept art\n- Marketing and advertising visuals\n- Product mockups and prototyping\n- Educational illustrations\n- Personal creative expression\n- Stock photography alternatives\n\n**Limitations:**\n\n- Difficulty with precise spatial relationships and counting\n- Text rendering within images remains challenging\n- Potential for bias reflecting training data\n- Copyright concerns regarding training data and outputs\n- Consistency across multiple related images\n\n**Major systems:**\n\n- **DALL-E** (OpenAI): Pioneered the field\n- **Midjourney**: Known for artistic quality\n- **Stable Diffusion** (Stability AI): Open-source, highly customizable\n- **Imagen/Gemini** (Google): State-of-the-art quality\n- **Flux** (Black Forest Labs): High-fidelity open model\n\nText-to-image is the most widely adopted form of generative AI in creative fields, fundamentally changing how visual content is conceived and produced.",
+    "tags": [
+        "ai",
+        "generative-ai",
+        "creativity",
+        "images",
+        "deep-learning"
+    ],
+    "category": "AI",
+    "icon": "FaImage",
+    "featured": false,
+    "aliases": [
+        "T2I",
+        "Text-to-Image Generation",
+        "AI Image Generation",
+        "Prompt-to-Image"
+    ],
+    "relatedConcepts": [
+        "generative-ai",
+        "diffusion-models",
+        "prompt-engineering",
+        "agentic-image-generation",
+        "inpainting",
+        "style-transfer",
+        "synthetic-media"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Text-to-image model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Text-to-image_model",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

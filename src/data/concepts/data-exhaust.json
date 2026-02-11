@@ -1,0 +1,42 @@
+{
+    "id": "data-exhaust",
+    "name": "Data Exhaust",
+    "summary": "The passive trail of data generated as a byproduct of digital activities, often captured and analyzed without explicit user awareness.",
+    "explanation": "Data exhaust refers to the ambient data trail that is passively generated as a byproduct of people's digital activities. Unlike data that users intentionally create (documents, posts, messages), data exhaust is produced automatically: click patterns, browsing history, location data, device telemetry, timestamp logs, search queries, and behavioral metadata.\n\n**Sources of data exhaust:**\n\n- **Web browsing**: Pages visited, time spent, scroll depth, click patterns\n- **Mobile devices**: Location history, app usage patterns, sensor data (accelerometer, gyroscope)\n- **Social media**: Engagement patterns, time of activity, connection graph behavior\n- **E-commerce**: Browse-to-buy ratios, cart abandonment patterns, price sensitivity signals\n- **IoT devices**: Usage patterns, environmental readings, operational telemetry\n- **Workplace tools**: Login times, application switching patterns, collaboration frequency\n\n**Why data exhaust matters:**\n\n**For organizations:**\n- Rich source of behavioral insights\n- Powers recommendation engines and personalization\n- Enables predictive analytics and trend detection\n- Valuable for advertising targeting\n\n**For individuals:**\n- Privacy implications (revealing patterns without consent)\n- Can be aggregated to create detailed behavioral profiles\n- Difficult to control or opt out of\n- Persists long after the generating activity ends\n\n**The asymmetry problem:**\n\nUsers often don't realize they're generating data exhaust or understand its value. Organizations capture and monetize this data, creating an information asymmetry where companies know more about users than users know about themselves.\n\n**Relation to knowledge management:**\n\nSome innovative approaches treat personal data exhaust as a resource: automatically logging activities, capturing context, and building personal analytics. Quantified self and life-logging movements deliberately harness data exhaust for self-improvement.\n\n**Mitigation strategies:**\n\n- Privacy-focused tools and browsers\n- Regular data audit and deletion\n- Awareness of what data activities generate\n- Data minimization principles\n- Encrypted and local-first alternatives",
+    "tags": [
+        "privacy",
+        "data-management",
+        "digital-hygiene",
+        "analytics",
+        "surveillance"
+    ],
+    "category": "Concepts",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Digital Exhaust",
+        "Data Trail",
+        "Digital Footprint"
+    ],
+    "relatedConcepts": [
+        "digital-dust",
+        "data-minimization",
+        "privacy-by-design",
+        "quantified-self",
+        "surveillance-capitalism",
+        "data-hoarding"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

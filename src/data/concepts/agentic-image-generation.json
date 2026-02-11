@@ -1,0 +1,83 @@
+{
+    "id": "agentic-image-generation",
+    "name": "Agentic Image Generation",
+    "summary": "AI agents that autonomously plan, create, iterate on, and refine images through multi-step reasoning and tool use.",
+    "explanation": "Agentic Image Generation represents the evolution from simple text-to-image prompting to autonomous AI agents that can plan, generate, evaluate, and iteratively refine visual content. Rather than producing a single image from a single prompt, agentic systems orchestrate multi-step workflows that may include analyzing requirements, selecting appropriate models, generating initial drafts, self-critiquing results, and refining outputs through multiple iterations.\n\n**How it differs from basic image generation:**\n\n- **Planning**: The agent analyzes the task and decomposes it into sub-goals (composition, style, subject, mood)\n- **Tool selection**: It chooses between generation models, editing tools, and post-processing techniques\n- **Self-evaluation**: It assesses its own output against criteria and identifies improvements\n- **Iteration**: It refines results through multiple rounds without human intervention\n- **Context awareness**: It considers the broader use case (social media post, product photo, illustration)\n\n**Capabilities of agentic image systems:**\n\n- Generating multiple variations and selecting the best\n- Combining multiple generation techniques (text-to-image, inpainting, style transfer)\n- Maintaining visual consistency across a series of images\n- Adapting style and composition to specific brand guidelines\n- Orchestrating complex scenes by generating and compositing elements\n\n**Applications:**\n\n- Automated product photography and marketing visuals\n- Dynamic content creation for social media\n- Game asset generation pipelines\n- Personalized illustration and design\n- Architectural visualization workflows\n\n**Challenges:**\n\n- Quality control and hallucination detection in visual outputs\n- Maintaining coherence across multi-step generation\n- Ethical concerns around autonomous creation of realistic imagery\n- Copyright and attribution in agent-generated works\n\nAgentic image generation is part of the broader trend toward AI agents that don't just respond to single prompts but autonomously pursue complex creative goals.",
+    "tags": [
+        "ai",
+        "generative-ai",
+        "agents",
+        "creativity",
+        "automation"
+    ],
+    "category": "AI",
+    "icon": "FaImage",
+    "featured": false,
+    "aliases": [
+        "AI Image Agents",
+        "Autonomous Image Generation",
+        "Agent-Based Image Creation"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "generative-ai",
+        "diffusion-models",
+        "text-to-image",
+        "inpainting",
+        "style-transfer",
+        "agentic-vision"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "AI-generated imagery - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/AI-generated_imagery",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

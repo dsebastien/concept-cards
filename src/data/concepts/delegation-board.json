@@ -1,0 +1,57 @@
+{
+    "id": "delegation-board",
+    "name": "Delegation Board",
+    "summary": "A visual management tool that maps delegation levels for different decision areas, making authority boundaries transparent.",
+    "explanation": "A Delegation Board is a visual management tool from Management 3.0 that displays the agreed-upon delegation levels for various decision areas within a team or organization. It typically takes the form of a matrix with decision areas listed on the vertical axis and the seven delegation levels on the horizontal axis.\n\n**Structure:**\n\nThe board has columns for each delegation level (Tell, Sell, Consult, Agree, Advise, Inquire, Delegate) and rows for each decision area (e.g., hiring, vacation scheduling, technology choices, deployment timing). A marker in each row indicates the agreed delegation level for that area.\n\n**How to create one:**\n\n1. Identify key decision areas relevant to the team\n2. Use Delegation Poker to determine the appropriate level for each\n3. Place markers on the board at the agreed levels\n4. Display the board visibly in the team space\n5. Review and adjust periodically\n\n**Benefits:**\n\n- Creates transparency about who decides what\n- Serves as a living reference document\n- Reduces friction from unclear authority\n- Shows the overall delegation pattern at a glance\n- Facilitates progressive empowerment as markers shift rightward over time\n- Helps new team members understand decision-making norms quickly\n\n**Common decision areas to map:**\n\n- Technical architecture choices\n- Hiring and team composition\n- Sprint/iteration planning\n- Budget allocation\n- Process and tool selection\n- Work scheduling and time off\n- Quality standards and release criteria\n\nThe board should be treated as a living document, regularly reviewed and updated as trust grows and circumstances change.",
+    "tags": [
+        "management",
+        "leadership",
+        "teams",
+        "empowerment",
+        "agile",
+        "visual-management"
+    ],
+    "category": "Techniques",
+    "icon": "FaColumns",
+    "featured": false,
+    "aliases": [
+        "Delegation Matrix",
+        "Authority Board"
+    ],
+    "relatedConcepts": [
+        "delegation",
+        "delegation-poker",
+        "visual-management",
+        "empowering-leadership",
+        "raci-matrix",
+        "working-agreements"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Management 3.0: Leading Agile Developers, Developing Agile Leaders by Jurgen Appelo",
+            "url": "https://www.amazon.com/dp/0321712471?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Delegation poker and delegation board - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Delegation_poker_and_delegation_board",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "surgical-team",
+    "name": "Surgical Team",
+    "summary": "The Surgical Team is Fred Brooks's proposed team organization where a chief programmer handles all design decisions, supported by specialists who amplify productivity while preserving conceptual integrity.",
+    "explanation": "The Surgical Team is a team organization model proposed by Fred Brooks in *The Mythical Man-Month* (1975), inspired by an earlier proposal from Harlan Mills. The core idea challenges the conventional approach of dividing a large programming task equally among many developers. Instead, Brooks proposed organizing a small team like a surgical team in an operating room: one chief programmer (the \"surgeon\") does all the creative design and core implementation, supported by a cast of specialists who handle everything else.\n\n## The Original Team Structure\n\nBrooks described a team of roughly ten people with clearly defined roles:\n\n- **The Surgeon (Chief Programmer)**: Defines the architecture, writes the critical code, and makes all design decisions. This person is the creative center of the team.\n- **The Copilot**: An alter ego who can discuss designs with the surgeon, knows all the code, and serves as a backup. The copilot may write code but the surgeon always has the final say.\n- **The Administrator**: Handles personnel, space, budget, and organizational interfaces so the surgeon can focus on technical work.\n- **The Editor**: Takes the surgeon's drafts of documentation and refines them for publication.\n- **Two Secretaries**: One for the administrator and one for the editor.\n- **The Program Clerk**: Maintains all technical records, runs builds, and manages the machine-readable files.\n- **The Toolsmith**: Builds and maintains specialized tools, utilities, and services that the surgeon needs.\n- **The Tester**: Designs test cases, plans testing sequences, and sets up test scaffolding.\n- **The Language Lawyer**: A specialist in the programming language who finds elegant ways to use it and advises the surgeon on tricky problems.\n\n## Why This Model Works\n\nThe surgical team solves a fundamental tension in software engineering: large systems require many people, but large teams produce poor conceptual integrity. By concentrating design authority in one person while providing a support structure that amplifies their effectiveness, the model achieves both scale and coherence.\n\nBrooks estimated that a team organized this way could be as productive as a conventional team of similar size, while producing software with far greater conceptual integrity. The surgeon's mind holds the entire design, eliminating the communication overhead that plagues democratic teams.\n\n## The Enduring Principle\n\nWhile the specific roles are dated (program clerks and secretaries have been replaced by version control and word processors), the underlying principle remains highly relevant: **small teams with clear ownership of design decisions consistently outperform large, democratic teams**. The key insight is that not everyone on a team needs to make design decisions. In fact, concentrating decision-making authority produces better results.\n\n## Modern Analogues\n\nSeveral contemporary team models echo the surgical team concept:\n\n- **Tech Lead Model**: A senior engineer owns the architecture and makes final technical decisions, while other team members implement under their guidance.\n- **Amazon's Two-Pizza Teams**: Small, autonomous teams (6-10 people) with a single technical leader who owns the design.\n- **Spotify's Squad Model**: Small, cross-functional teams with clear ownership boundaries.\n- **Open Source Maintainer Model**: A benevolent dictator (or small group of maintainers) makes final decisions on contributions from a larger community.\n\n## Criticisms and Limitations\n\nThe model has been criticized for creating a single point of failure (if the surgeon leaves) and for potentially underutilizing talented team members who are relegated to support roles. It also assumes you can identify and hire people with the necessary talent differential, which Brooks acknowledged varies by an order of magnitude among programmers. Despite these concerns, the core trade-off it highlights between team democracy and conceptual integrity remains one of the most important decisions in software team design.",
+    "tags": [
+        "software-engineering",
+        "teams",
+        "project-management",
+        "organizational-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "Chief Programmer Team",
+        "Mills's Proposal"
+    ],
+    "relatedConcepts": [
+        "the-mythical-man-month",
+        "conceptual-integrity",
+        "brooks-law",
+        "conways-law",
+        "coordination-costs",
+        "pair-programming"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mythical Man-Month by Frederick P. Brooks Jr.",
+            "url": "https://www.amazon.com/dp/0201835959?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Chief programmer team - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Chief_programmer_team",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

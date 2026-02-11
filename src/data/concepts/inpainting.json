@@ -1,0 +1,72 @@
+{
+    "id": "inpainting",
+    "name": "Inpainting",
+    "summary": "An AI technique for filling in, replacing, or editing selected regions of an image while maintaining visual coherence with the surrounding content.",
+    "explanation": "Inpainting is a technique for reconstructing or modifying selected regions of an image while maintaining visual coherence with the surrounding content. Originally a manual technique in art restoration and photo editing, AI-powered inpainting uses deep learning to intelligently fill masked areas with contextually appropriate content.\n\n**How it works:**\n\n1. The user selects a region of the image to modify (the mask)\n2. The AI model analyzes the surrounding context (colors, textures, objects, perspective)\n3. The model generates new content for the masked region that blends seamlessly with the rest\n\n**Types of inpainting:**\n\n- **Removal inpainting**: Erase unwanted objects and fill with plausible background\n- **Generative inpainting**: Replace a region with new AI-generated content\n- **Text-guided inpainting**: Use a text prompt to specify what should appear in the masked area\n- **Outpainting**: Extend an image beyond its original boundaries (a variant)\n\n**Technical approaches:**\n\n- **Traditional**: Patch-based methods that copy and blend nearby textures\n- **CNN-based**: Encoder-decoder networks trained on image completion tasks\n- **GAN-based**: Generative adversarial networks for realistic fill content\n- **Diffusion-based**: Modern approaches (Stable Diffusion, DALL-E) using diffusion models for highest quality results\n\n**Applications:**\n\n- Photo restoration (removing damage, scratches, unwanted objects)\n- Content-aware editing (changing backgrounds, adding/removing elements)\n- Medical imaging (reconstructing missing data)\n- Creative workflows (iterative image refinement)\n- Product photography (background replacement, object staging)\n- Archaeological and archival restoration\n\n**Challenges:**\n\n- Maintaining structural coherence (perspective, lighting, shadows)\n- Handling large masked regions with complex content\n- Preserving fine details at mask boundaries\n- Ethical concerns (manipulating photographs to misrepresent reality)\n\nInpainting is a core capability in modern AI image editing, making what once required hours of skilled Photoshop work accessible through simple masking and prompting.",
+    "tags": [
+        "ai",
+        "image-editing",
+        "deep-learning",
+        "generative-ai",
+        "creativity"
+    ],
+    "category": "AI",
+    "icon": "FaPaintBrush",
+    "featured": false,
+    "aliases": [
+        "AI Inpainting",
+        "Image Inpainting",
+        "Content-Aware Fill",
+        "Generative Fill"
+    ],
+    "relatedConcepts": [
+        "generative-ai",
+        "diffusion-models",
+        "text-to-image",
+        "agentic-image-generation",
+        "style-transfer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Inpainting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Inpainting",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

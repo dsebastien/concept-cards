@@ -1,0 +1,85 @@
+{
+    "id": "big-data",
+    "name": "Big Data",
+    "summary": "Datasets so large, fast-moving, or complex that traditional data processing methods cannot handle them effectively, characterized by volume, velocity, variety, veracity, and value.",
+    "explanation": "## What Is Big Data?\n\nBig data refers to datasets so large, fast-moving, or complex that traditional data processing methods cannot handle them effectively. The concept emerged as digital technologies began generating data at unprecedented scales, requiring fundamentally new approaches to storage, processing, and analysis.\n\n## The Five Vs\n\nBig data is characterized by five key dimensions:\n\n- **Volume** -- massive amounts of data, often measured in terabytes, petabytes, or exabytes\n- **Velocity** -- rapid generation and flow of data, often in real-time streams\n- **Variety** -- diverse formats including structured databases, unstructured text, images, video, sensor readings, and social media\n- **Veracity** -- the trustworthiness and quality of data, which varies enormously across sources\n- **Value** -- the actionable insight that can be extracted, which is the ultimate purpose of big data efforts\n\n## Transformative Applications\n\nBig data has transformed virtually every sector:\n\n- **Healthcare** -- genomics, patient outcome prediction, drug discovery, and epidemiological tracking\n- **Business** -- customer behavior analysis, market prediction, recommendation engines, and fraud detection\n- **Science** -- climate modeling, particle physics, astronomy, and materials science\n- **Government** -- census analytics, urban planning, and public health surveillance\n- **AI and Machine Learning** -- training large language models and neural networks requires enormous datasets\n\n## Key Technologies\n\nThe big data ecosystem includes distributed computing frameworks (such as Hadoop and Spark), cloud data platforms, NoSQL databases, stream processing systems, data lakes, and machine learning pipelines. These technologies enable organizations to store and process data at scales that would be impossible with traditional relational databases.\n\n## Challenges and Pitfalls\n\nCritical challenges include data privacy and ethics, algorithmic bias embedded in training data, the \"data lake vs. data swamp\" problem (where poorly governed data stores become unusable), skills gaps in data engineering and analysis, and the persistent tendency to confuse correlation with causation.\n\nBig data only creates genuine value when combined with good questions, sound methodology, and deep domain expertise. More data does not automatically mean better decisions -- it means more opportunities for both insight and error.",
+    "tags": [
+        "data",
+        "technology",
+        "analytics",
+        "ai",
+        "machine-learning"
+    ],
+    "category": "AI",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Large-Scale Data",
+        "Massive Data",
+        "Data at Scale"
+    ],
+    "relatedConcepts": [
+        "data-literacy",
+        "machine-learning",
+        "scaling-laws",
+        "data-security",
+        "data-integrity",
+        "distributed-systems"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Big Data by Viktor Mayer-Schonberger and Kenneth Cukier",
+            "url": "https://www.amazon.com/dp/0544002695?tag=dsebastien00-20"
+        },
+        {
+            "title": "Weapons of Math Destruction by Cathy O'Neil",
+            "url": "https://www.amazon.com/dp/0553418831?tag=dsebastien00-20"
+        },
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Big data - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Big_data",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

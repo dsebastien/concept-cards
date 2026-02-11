@@ -1,0 +1,72 @@
+{
+    "id": "style-transfer",
+    "name": "Style Transfer",
+    "summary": "A neural network technique that applies the visual style of one image to the content of another, blending artistic aesthetics with photographic content.",
+    "explanation": "Style transfer (or neural style transfer) is a deep learning technique that takes two images—a content image and a style reference—and blends them to produce an output that retains the structural content of the first image while adopting the artistic style of the second. First introduced by Gatys et al. in 2015, it demonstrated that convolutional neural networks could separate and recombine content and style representations.\n\n**How it works:**\n\nThe technique leverages the hierarchical nature of convolutional neural networks (typically VGG-19):\n\n- **Content representation**: Deeper layers of a CNN capture high-level content (objects, structures, spatial arrangements) while being invariant to exact pixel values\n- **Style representation**: Correlations between feature maps (Gram matrices) across multiple layers capture textures, colors, and patterns that define artistic style\n- **Optimization**: The output image is iteratively adjusted to simultaneously match the content representation of one image and the style representation of another\n\n**Types of style transfer:**\n\n- **Optimization-based**: Original approach; slow but flexible (minutes per image)\n- **Feed-forward**: Pre-trained networks for specific styles; fast (real-time) but limited to trained styles\n- **Arbitrary style transfer**: Networks that can transfer any style in a single forward pass\n- **Video style transfer**: Applying consistent style across video frames\n\n**Applications:**\n\n- Artistic photo filters (Prisma, DeepArt)\n- Creative content generation\n- Visual effects in film and animation\n- Data augmentation for training other AI models\n- Design exploration and mood boarding\n- Gaming and virtual environments\n\n**Evolution:**\n\nStyle transfer was a breakthrough that demonstrated neural networks could understand and manipulate artistic qualities. It paved the way for more advanced generative techniques like GANs and diffusion models, which now offer far more control over image generation and manipulation.\n\nWhile largely superseded by diffusion-based approaches for production use, style transfer remains an important concept in understanding how neural networks represent and manipulate visual information.",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "creativity",
+        "images",
+        "neural-networks",
+        "art"
+    ],
+    "category": "AI",
+    "icon": "FaPaintBrush",
+    "featured": false,
+    "aliases": [
+        "Neural Style Transfer",
+        "Artistic Style Transfer",
+        "NST"
+    ],
+    "relatedConcepts": [
+        "deep-learning",
+        "generative-ai",
+        "text-to-image",
+        "diffusion-models",
+        "agentic-image-generation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Neural style transfer - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neural_style_transfer",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

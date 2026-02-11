@@ -1,0 +1,59 @@
+{
+    "id": "plan-to-throw-one-away",
+    "name": "Plan to Throw One Away",
+    "summary": "Plan to Throw One Away is Brooks's advice that the first version of a system is essentially an experiment, so teams should explicitly plan for iteration rather than pretending the initial attempt will be the final product.",
+    "explanation": "\"Plan to throw one away; you will, anyhow\" is one of the most quoted pieces of advice from Fred Brooks's *The Mythical Man-Month* (1975). Appearing in Chapter 11, the idea asserts that the first version of any software system is fundamentally a learning exercise. You cannot fully understand a problem until you have built a solution to it, and by then, you inevitably discover that your initial assumptions were wrong in important ways.\n\n## The Core Argument\n\nBrooks observed that in project after project, the first system built was barely usable. It was too slow, too big, too awkward, or simply wrong in its fundamental assumptions about how users would interact with it. Teams that planned to deliver their first attempt as the final product invariably ended up throwing it away anyway, but at greater cost because they had invested in polish, documentation, and deployment of a flawed design.\n\nThe practical advice was therefore to accept this reality and plan for it: build a **pilot system** explicitly intended as a prototype for learning, then build the real system informed by everything the pilot taught you. This is more efficient than pretending the first attempt will succeed and then scrambling to redesign under pressure.\n\n## Brooks's Later Reconsideration\n\nIn the 20th anniversary edition of *The Mythical Man-Month* (1995), Brooks partially recanted this advice. He acknowledged that the framing was too binary: you don't necessarily need to throw the *entire* system away. Instead, Brooks endorsed **incremental development** and **iterative approaches** as better models. Rather than building a complete system, throwing it away, and building another complete system, you build the system in small increments, learning and adjusting as you go.\n\nBrooks noted that prototyping, iterative development, and what we now call agile methodologies provide a more nuanced and practical way to incorporate learning into the development process without the waste of discarding an entire system.\n\n## The Underlying Insight\n\nRegardless of whether you literally throw a system away, the deeper insight remains valid: **learning is inherent to software development**. You will discover things during implementation that you could not have known during planning. The cost of changing your mind grows with time, so the sooner you learn, the cheaper the changes.\n\nThis insight manifests in many modern practices:\n\n- **Prototyping**: Building quick, disposable versions to test assumptions before committing to a design.\n- **Minimum Viable Products (MVPs)**: Releasing the smallest useful version to learn from real user behavior.\n- **Spike Solutions**: In agile development, building a quick throwaway implementation to explore a technical question.\n- **The Lean Startup's Build-Measure-Learn Cycle**: Systematically building small experiments to validate hypotheses about what customers want.\n\n## When to Apply This Thinking\n\nThe principle is most valuable when facing genuine uncertainty: new problem domains, novel technologies, unfamiliar user populations, or unprecedented scale. In these situations, planning for iteration is not pessimism but realism. Conversely, when building well-understood systems with established patterns, the need to \"throw one away\" is reduced because prior knowledge substitutes for the learning that a pilot system would provide.\n\n## Relationship to Modern Software Practices\n\nModern software development has largely internalized this lesson, even if practitioners don't always trace it back to Brooks. Continuous integration, continuous deployment, feature flags, A/B testing, and the entire agile movement all reflect the understanding that software development is a process of discovery, not just construction. The question is no longer whether to plan for learning, but how to structure the learning process most efficiently.",
+    "tags": [
+        "software-engineering",
+        "project-management",
+        "prototyping",
+        "iterative-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Pilot System",
+        "Build One to Throw Away"
+    ],
+    "relatedConcepts": [
+        "the-mythical-man-month",
+        "iterative-development",
+        "release-early-release-often",
+        "essential-vs-accidental-complexity",
+        "second-system-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mythical Man-Month by Frederick P. Brooks Jr.",
+            "url": "https://www.amazon.com/dp/0201835959?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Mythical Man-Month - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Mythical_Man-Month",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

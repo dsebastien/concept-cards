@@ -1,0 +1,57 @@
+{
+    "id": "delegation-poker",
+    "name": "Delegation Poker",
+    "summary": "A Management 3.0 card game where teams collaboratively decide the appropriate delegation level for decisions and tasks.",
+    "explanation": "Delegation Poker is a gamified practice from Management 3.0, created by Jurgen Appelo, that helps teams align on who should make which decisions and to what degree. Each participant holds seven cards representing the seven levels of delegation:\n\n1. **Tell** - Manager decides and informs the team\n2. **Sell** - Manager decides but explains the reasoning\n3. **Consult** - Manager asks for input, then decides\n4. **Agree** - Manager and team decide together\n5. **Advise** - Team decides, manager offers input\n6. **Inquire** - Team decides and informs the manager\n7. **Delegate** - Team decides with full autonomy\n\n**How it works:**\n\nA facilitator presents a decision scenario (e.g., 'Who decides when to deploy to production?'). Each participant secretly selects a card representing their preferred delegation level. All cards are revealed simultaneously, preventing anchoring bias. Participants with the highest and lowest values explain their reasoning, and discussion follows until the group reaches consensus.\n\n**Benefits:**\n\n- Makes implicit expectations about authority explicit\n- Prevents misunderstandings about decision rights\n- Gives everyone a voice in defining delegation boundaries\n- Creates documented delegation agreements\n- Surfaces differing assumptions about responsibility\n\n**When to use:**\n\n- Onboarding new team members or managers\n- After organizational restructuring\n- When recurring conflicts arise about decision authority\n- During retrospectives focused on team autonomy\n- When transitioning teams toward self-organization\n\nThe game format makes a potentially sensitive conversation about power and authority feel safe and constructive.",
+    "tags": [
+        "management",
+        "leadership",
+        "teams",
+        "empowerment",
+        "agile",
+        "games"
+    ],
+    "category": "Techniques",
+    "icon": "FaGamepad",
+    "featured": false,
+    "aliases": [
+        "Management 3.0 Delegation Poker",
+        "Delegation Card Game"
+    ],
+    "relatedConcepts": [
+        "delegation",
+        "delegation-board",
+        "empowering-leadership",
+        "psychological-safety",
+        "shared-responsibility",
+        "autonomy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Management 3.0: Leading Agile Developers, Developing Agile Leaders by Jurgen Appelo",
+            "url": "https://www.amazon.com/dp/0321712471?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Delegation poker and delegation board - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Delegation_poker_and_delegation_board",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}

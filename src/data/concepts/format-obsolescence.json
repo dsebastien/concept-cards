@@ -1,0 +1,72 @@
+{
+    "id": "format-obsolescence",
+    "name": "Format Obsolescence",
+    "summary": "The process by which file formats become unusable as the software and systems needed to read them disappear.",
+    "explanation": "Format obsolescence occurs when a file format can no longer be read, rendered, or processed because the software, hardware, or ecosystem that supported it has been discontinued, superseded, or abandoned. It is one of the most significant threats to long-term digital preservation.\n\n**Examples of format obsolescence:**\n\n- **WordPerfect documents** (.wpd): Once dominant, now difficult to open\n- **Adobe Flash** (.swf): Entire era of web content rendered inaccessible after Flash's deprecation in 2020\n- **Lotus 1-2-3** (.wks): Early spreadsheet files largely unreadable today\n- **RealMedia** (.rm): Streaming format from the early web era\n- **HyperCard** stacks: Apple's early hypertext system with no modern equivalent\n- **Floppy disk images**: Even when the data is preserved, the format context may be lost\n\n**Why it happens:**\n\n- **Proprietary formats**: Companies go out of business or abandon products\n- **Technology evolution**: New formats replace old ones (JPEG 2000 → WebP, Flash → HTML5)\n- **Market consolidation**: Winning formats absorb users; losing formats die\n- **DRM and encryption**: Protected content becomes permanently locked when key servers shut down\n- **Undocumented formats**: Without specifications, reverse-engineering is difficult\n\n**Risk factors:**\n\n- Proprietary/closed formats (higher risk)\n- Small user base (less incentive to maintain support)\n- Complex formats dependent on specific rendering engines\n- Formats tied to specific hardware or operating systems\n- DRM-protected content\n\n**Mitigation strategies:**\n\n- **Use open standards**: Prefer formats with published specifications (PDF/A, PNG, Markdown, ODF)\n- **Format migration**: Regularly convert files to current formats\n- **Multiple formats**: Store critical content in both native and preservation formats\n- **Emulation**: Preserve the software environment alongside the data\n- **File-over-app philosophy**: Choose formats that outlive any single application\n- **Documentation**: Record what format versions are used and how to access them\n\nFormat obsolescence is a race against time. The best defense is choosing formats wisely today and maintaining active stewardship of important digital content.",
+    "tags": [
+        "digital-preservation",
+        "information-management",
+        "maintenance",
+        "software",
+        "formats"
+    ],
+    "category": "Concepts",
+    "icon": "FaFileAlt",
+    "featured": false,
+    "aliases": [
+        "File Format Obsolescence",
+        "Digital Format Decay",
+        "Format Deprecation"
+    ],
+    "relatedConcepts": [
+        "digital-preservation",
+        "bit-rot",
+        "link-rot",
+        "file-over-app",
+        "plain-text-productivity",
+        "markdown"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Digital obsolescence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Digital_obsolescence",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-11",
+    "dateModified": "2026-02-11"
+}
