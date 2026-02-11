@@ -19,12 +19,7 @@ const UnexploredPage: React.FC = () => {
     const unexploredConcepts = useMemo(() => {
         return conceptsData.concepts
             .filter((concept) => !isExplored(concept.id))
-            .sort((a, b) => {
-                // Featured first, then alphabetically
-                if (a.featured && !b.featured) return -1
-                if (!a.featured && b.featured) return 1
-                return a.name.localeCompare(b.name)
-            })
+            .sort((a, b) => a.name.localeCompare(b.name))
     }, [isExplored])
 
     const totalConcepts = conceptsData.concepts.length
