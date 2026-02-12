@@ -1,0 +1,46 @@
+{
+    "id": "canonical-url",
+    "name": "Canonical URL",
+    "summary": "An HTML element that tells search engines which version of a page is the preferred one to index when duplicate or similar content exists.",
+    "explanation": "A canonical URL (rel=\"canonical\") is an HTML link element placed in a page's head section that tells search engines which URL represents the master copy of a page. When the same or very similar content is accessible at multiple URLs, the canonical tag consolidates ranking signals to the preferred version.\n\nCommon duplicate content scenarios:\n\n- HTTP vs HTTPS versions\n- www vs non-www versions\n- URL parameters (sorting, tracking, session IDs)\n- Mobile vs desktop URLs\n- Paginated content\n- Syndicated or cross-posted content\n- Product pages accessible through multiple category paths\n\nHow it works:\n\n1. Page A and Page B have similar content\n2. Page B includes `<link rel=\"canonical\" href=\"https://example.com/page-a\" />`\n3. Search engines consolidate signals from B to A\n4. Only A appears in search results\n\nImplementation methods:\n\n- HTML link tag (most common)\n- HTTP header (for non-HTML files like PDFs)\n- Sitemap inclusion (implicitly suggests canonical status)\n\nKey rules:\n\n- Self-referencing canonicals are a best practice (every page points to itself)\n- Canonical tags are hints, not directives—search engines may ignore them\n- The canonical page should be the most useful, complete version\n- Don't canonical to pages blocked by robots.txt or marked noindex\n- Use absolute URLs, not relative ones\n\nCanonical tags directly impact crawl budget and SEO by preventing search engines from wasting resources on duplicate pages and ensuring link equity flows to the right pages.",
+    "tags": [
+        "seo",
+        "web",
+        "technical",
+        "indexing",
+        "html"
+    ],
+    "category": "Concepts",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "rel=canonical",
+        "Canonical Tag",
+        "Canonicalization"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "technical-seo",
+        "seo",
+        "indexability",
+        "xml-sitemap"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Canonical link element - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Canonical_link_element",
+            "type": "website"
+        },
+        {
+            "title": "Consolidate duplicate URLs - Google Search Central",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-12",
+    "dateModified": "2026-02-12"
+}

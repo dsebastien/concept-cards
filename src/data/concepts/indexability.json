@@ -1,0 +1,48 @@
+{
+    "id": "indexability",
+    "name": "Indexability",
+    "summary": "The ability of a web page to be processed, stored, and surfaced in a search engine's index so it can appear in search results.",
+    "explanation": "Indexability refers to whether a search engine can add a page to its index after crawling it. A page may be crawlable but not indexable—crawling is about discovery, indexing is about storage and retrieval. If a page isn't indexed, it won't appear in search results regardless of its content quality.\n\nFactors that prevent indexing:\n\n- noindex meta tag or X-Robots-Tag header\n- Blocked by robots.txt (prevents crawling, indirectly affects indexing)\n- Canonical tag pointing to a different page\n- Duplicate content (search engine chooses one version)\n- Low-quality or thin content\n- Soft 404 errors\n- Server errors (5xx responses)\n- Orphaned pages (no internal links pointing to them)\n\nThe indexing pipeline:\n\n1. Crawler discovers and fetches the page\n2. Content is parsed and rendered (including JavaScript)\n3. Search engine evaluates quality and uniqueness\n4. If approved, the page enters the index\n5. Page becomes eligible to appear in search results\n\nHow to check indexability:\n\n- Google Search Console's Index Coverage report\n- site: search operator (site:example.com/page)\n- URL Inspection tool in Search Console\n\nBest practices for indexability:\n\n- Ensure important pages return 200 status codes\n- Avoid noindex on pages you want ranked\n- Use self-referencing canonical tags\n- Build internal links to important pages\n- Provide unique, valuable content on each page\n- Submit pages via XML sitemaps\n- Monitor index coverage regularly\n\nIndexability is the bridge between crawling and ranking. Optimizing it ensures your valuable content actually reaches searchers.",
+    "tags": [
+        "seo",
+        "web",
+        "technical",
+        "indexing",
+        "search-engines"
+    ],
+    "category": "Concepts",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Indexation",
+        "Index Coverage",
+        "Search Index"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "web-crawler",
+        "canonical-url",
+        "robots-txt",
+        "xml-sitemap",
+        "technical-seo",
+        "seo"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Search engine indexing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Search_engine_indexing",
+            "type": "website"
+        },
+        {
+            "title": "How Google Search indexing works - Google Search Central",
+            "url": "https://developers.google.com/search/docs/crawling-indexing",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-12",
+    "dateModified": "2026-02-12"
+}

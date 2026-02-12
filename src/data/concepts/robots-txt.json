@@ -1,0 +1,46 @@
+{
+    "id": "robots-txt",
+    "name": "Robots.txt",
+    "summary": "A text file placed at the root of a website that tells web crawlers which pages or sections to crawl or skip.",
+    "explanation": "Robots.txt (the Robots Exclusion Protocol) is a plain text file at a site's root (e.g., example.com/robots.txt) that communicates crawling rules to web robots. It uses directives like User-agent (which crawler the rules apply to), Disallow (paths to skip), Allow (exceptions within disallowed directories), Crawl-delay (time between requests), and Sitemap (location of XML sitemaps).\n\nHow it works:\n\n1. A crawler visits a site and first checks for /robots.txt\n2. It reads the directives applicable to its User-agent\n3. It follows (or ignores, for non-compliant bots) the specified rules\n4. It proceeds to crawl allowed pages\n\nImportant limitations:\n\n- Robots.txt is advisory, not enforced—malicious bots can ignore it\n- It does not prevent indexing if other sites link to disallowed pages\n- Disallowing a page doesn't remove it from search results (use noindex for that)\n- Blocking CSS/JS files can hurt rendering and SEO\n\nCommon use cases:\n\n- Prevent crawling of admin areas, staging environments, or internal search results\n- Block crawling of duplicate content or low-value pages\n- Manage crawl budget by directing bots to important content\n- Point crawlers to the XML sitemap\n\nBest practices: keep it simple, test with Google Search Console's robots.txt tester, never use it to hide sensitive information (it's publicly readable), and combine it with meta robots tags for full control.",
+    "tags": [
+        "seo",
+        "web",
+        "technical",
+        "crawling",
+        "protocols"
+    ],
+    "category": "Concepts",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Robots Exclusion Protocol",
+        "robots.txt file"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "web-crawler",
+        "xml-sitemap",
+        "technical-seo",
+        "seo",
+        "indexability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Robots exclusion standard - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Robots_exclusion_standard",
+            "type": "website"
+        },
+        {
+            "title": "Introduction to robots.txt - Google Search Central",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-12",
+    "dateModified": "2026-02-12"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "web-crawler",
+    "name": "Web Crawler",
+    "summary": "An automated program that systematically browses the web to discover, fetch, and index content for search engines and other services.",
+    "explanation": "A web crawler (also called a spider or bot) is software that methodically browses the web by following links from page to page. Search engines like Google use crawlers (Googlebot) to discover new and updated content, which is then processed and added to their index.\n\nHow crawling works:\n\n1. The crawler starts with a list of known URLs (seed URLs)\n2. It fetches a page and parses its content\n3. It extracts all links from the page\n4. New URLs are added to the crawl queue\n5. The process repeats, expanding the frontier of discovered pages\n6. Scheduling algorithms prioritize which URLs to crawl next\n\nMajor web crawlers:\n\n- Googlebot (Google Search)\n- Bingbot (Microsoft Bing)\n- Applebot (Apple/Siri)\n- GPTBot (OpenAI)\n- ClaudeBot (Anthropic)\n- Yandex Bot, Baidu Spider\n\nCrawling challenges:\n\n- Scale: The web has billions of pages and changes constantly\n- Politeness: Crawlers must avoid overloading servers\n- Traps: Infinite URL spaces (calendars, filters) can trap crawlers\n- JavaScript rendering: Modern sites require executing JS to see content\n- Duplicate detection: Same content at different URLs wastes resources\n\nSite owners control crawler behavior through robots.txt (which areas to avoid), meta robots tags (indexing directives), crawl-delay headers, and XML sitemaps (URLs to prioritize). Understanding how crawlers work is essential for technical SEO—if a crawler can't reach your content, search engines can't index it.",
+    "tags": [
+        "seo",
+        "web",
+        "technical",
+        "crawling",
+        "search-engines"
+    ],
+    "category": "Concepts",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Spider",
+        "Bot",
+        "Web Spider",
+        "Googlebot",
+        "Search Bot"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "robots-txt",
+        "xml-sitemap",
+        "indexability",
+        "technical-seo",
+        "seo"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Web crawler - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Web_crawler",
+            "type": "website"
+        },
+        {
+            "title": "How Google Search works - Google Search Central",
+            "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-12",
+    "dateModified": "2026-02-12"
+}

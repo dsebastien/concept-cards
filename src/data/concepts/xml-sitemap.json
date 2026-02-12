@@ -1,0 +1,47 @@
+{
+    "id": "xml-sitemap",
+    "name": "XML Sitemap",
+    "summary": "A structured file listing important URLs on a website to help search engines discover and crawl content efficiently.",
+    "explanation": "An XML sitemap is a file (usually sitemap.xml) that lists the URLs you want search engines to know about. Each entry can include metadata: the URL itself, last modification date (lastmod), change frequency (changefreq), and priority relative to other pages. For large sites, sitemap index files can reference multiple individual sitemaps.\n\nWhy sitemaps matter:\n\n- Help search engines discover pages that might not be found through internal links alone\n- Signal which pages are most important and when they were last updated\n- Essential for new sites, large sites, sites with rich media, or sites with poor internal linking\n- Improve crawl efficiency by directing crawlers to valuable content\n\nSitemap types:\n\n- Standard XML sitemaps: List regular web pages\n- Image sitemaps: Help index images\n- Video sitemaps: Help index video content\n- News sitemaps: For Google News inclusion\n- Sitemap index: References multiple sitemaps (required when exceeding 50,000 URLs per file)\n\nBest practices:\n\n- Only include canonical, indexable URLs (200 status code)\n- Keep lastmod dates accurate—don't update them without real content changes\n- Submit via Google Search Console and reference in robots.txt\n- Remove URLs that return 404, redirect, or are noindexed\n- Auto-generate sitemaps using your CMS or build tools\n- Maximum 50,000 URLs and 50 MB per sitemap file\n\nSitemaps don't guarantee indexing—they're suggestions, not commands. They work best alongside good site architecture and internal linking.",
+    "tags": [
+        "seo",
+        "web",
+        "technical",
+        "crawling",
+        "indexing"
+    ],
+    "category": "Concepts",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Sitemap",
+        "sitemap.xml",
+        "Sitemap Index"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "robots-txt",
+        "web-crawler",
+        "technical-seo",
+        "seo",
+        "indexability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sitemaps - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sitemaps",
+            "type": "website"
+        },
+        {
+            "title": "Build and submit a sitemap - Google Search Central",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-12",
+    "dateModified": "2026-02-12"
+}

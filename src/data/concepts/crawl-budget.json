@@ -1,0 +1,53 @@
+{
+    "id": "crawl-budget",
+    "name": "Crawl Budget",
+    "summary": "The number of pages a search engine will crawl on a site within a given timeframe, influenced by crawl rate and crawl demand.",
+    "explanation": "Crawl budget is the combination of two factors: crawl rate limit (how many requests per second a search engine makes without overloading the server) and crawl demand (how much the engine wants to crawl based on page importance, freshness, and popularity). Together, these determine how many pages get crawled in a given period.\n\nFor small sites (under a few thousand pages), crawl budget rarely matters—search engines will find everything. It becomes critical for large sites (100k+ pages), sites with lots of dynamically generated URLs, or sites with significant duplicate content. If the budget runs out before important pages are reached, those pages won't be indexed.\n\nFactors that waste crawl budget include: duplicate content, faceted navigation generating infinite URL variations, soft 404 errors, session ID parameters in URLs, redirect chains, and low-quality pages. Factors that improve crawl efficiency include: clean site architecture, updated XML sitemaps, proper robots.txt directives, fast server response times, and internal linking to important pages.\n\nKey optimization strategies:\n\n- Block unimportant pages via robots.txt\n- Use canonical URLs to consolidate duplicate content\n- Fix or remove broken pages and redirect chains\n- Keep server response times fast\n- Maintain an accurate XML sitemap\n- Use internal links to signal page importance\n\nGoogle Search Console's Crawl Stats report shows how Googlebot interacts with your site, including pages crawled per day, response times, and crawl errors.",
+    "tags": [
+        "seo",
+        "web",
+        "technical",
+        "search-engines",
+        "crawling"
+    ],
+    "category": "Concepts",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Crawl Rate",
+        "Crawl Demand"
+    ],
+    "relatedConcepts": [
+        "technical-seo",
+        "seo",
+        "robots-txt",
+        "xml-sitemap",
+        "canonical-url",
+        "web-crawler",
+        "indexability",
+        "core-web-vitals"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Crawl budget - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Crawl_budget",
+            "type": "website"
+        },
+        {
+            "title": "What crawl budget means for Googlebot - Google Search Central",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-12",
+    "dateModified": "2026-02-12"
+}
