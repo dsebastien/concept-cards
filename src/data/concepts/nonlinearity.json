@@ -1,0 +1,45 @@
+{
+    "id": "nonlinearity",
+    "name": "Nonlinearity",
+    "summary": "When outputs are not proportional to inputs, and small changes can produce disproportionately large or small effects.",
+    "explanation": "Nonlinearity describes systems where the relationship between cause and effect is not proportional. Double the input does not produce double the output. Small causes can have enormous consequences, while large efforts can produce negligible results. This is the opposite of the linear thinking that dominates everyday intuition, where we expect proportional relationships between effort and outcome.\n\nNonlinearity is the norm in complex systems, not the exception. Most important phenomena in nature, society, and human life are fundamentally nonlinear: epidemics (one infected person can trigger a pandemic), compound interest (small rates produce enormous wealth over time), network effects (each additional user increases value for all users disproportionately), and learning curves (early progress is slow, then accelerates, then plateaus).\n\nKey types of nonlinear behavior include: threshold effects (nothing happens until a critical point, then everything changes at once), exponential growth (accelerating change where the rate of change itself increases), diminishing returns (each additional unit of input produces less output than the last), and feedback loops (outputs become inputs, amplifying or dampening effects).\n\nThe danger of linear thinking in a nonlinear world is profound. People consistently underestimate exponential growth, overestimate the effect of small efforts in threshold-based systems, and fail to account for feedback dynamics. Planning based on linear extrapolation in a nonlinear system leads to systematic errors: underestimating both risks and opportunities.\n\nPractical implications include: look for leverage points where small interventions have outsized effects rather than applying brute force; recognize that past trends may not continue linearly; understand that systems can appear stable right up until a sudden dramatic shift; and accept that prediction in nonlinear systems is inherently limited. Many of the most important mental models (tipping points, compound effects, network effects, feedback loops) are specific manifestations of nonlinearity.",
+    "tags": [
+        "systems-thinking",
+        "complexity",
+        "mathematics",
+        "patterns",
+        "mental-models"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Nonlinear dynamics",
+        "Nonlinear thinking",
+        "Nonlinear effects"
+    ],
+    "relatedConcepts": [
+        "tipping-point",
+        "butterfly-effect",
+        "exponential-change",
+        "feedback-loop",
+        "emergence",
+        "complexity-theory",
+        "compound-effect",
+        "punctuated-equilibrium",
+        "hysteresis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Nonlinear system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Nonlinear_system",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-13",
+    "dateModified": "2026-02-13"
+}

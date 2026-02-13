@@ -1,0 +1,71 @@
+{
+    "id": "eliza-effect",
+    "name": "ELIZA Effect",
+    "summary": "The tendency to unconsciously attribute human-like understanding and emotions to computer programs.",
+    "explanation": "The ELIZA effect is the tendency for people to unconsciously assume that computer programs possess human-like understanding, empathy, and intelligence, even when they know the system is just software. Named after ELIZA, the 1966 chatbot created by MIT computer scientist Joseph Weizenbaum, the effect was first observed when users of ELIZA's DOCTOR script (a simple pattern-matching program that mimicked a Rogerian therapist) began forming emotional attachments to the program and attributing genuine understanding to its responses.\n\nWeizenbaum was disturbed to find that even people who understood ELIZA was merely matching patterns and reflecting statements back would still confide in it, become emotionally invested in conversations, and resist the idea that the program did not truly understand them. His secretary reportedly asked him to leave the room so she could have a private conversation with the program.\n\nThe psychological mechanisms behind the ELIZA effect include: anthropomorphism (our evolved tendency to attribute human traits to non-human entities), the conversational contract (we assume conversation partners understand us), cognitive dissonance (knowing it is software but experiencing it as understanding), and projection (filling in gaps with our own expectations of what a good listener would think).\n\nIn the age of large language models, the ELIZA effect has become dramatically more potent. Modern AI systems produce far more convincing and contextually appropriate responses than ELIZA ever could, making the attribution of understanding even more compelling. This has practical consequences: users may over-trust AI outputs, share sensitive information inappropriately, form unhealthy emotional dependencies, or mistake fluent text generation for genuine comprehension.\n\nAwareness of the ELIZA effect is essential for responsible AI use. When interacting with AI, remembering that fluency is not understanding, that agreement is not validation, and that conversation is not connection helps maintain appropriate boundaries. The effect also has design implications: AI systems that encourage emotional attachment without safeguards risk exploiting a fundamental human cognitive tendency.",
+    "tags": [
+        "ai",
+        "psychology",
+        "cognitive-biases",
+        "human-computer-interaction"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Eliza effect",
+        "ELIZA illusion"
+    ],
+    "relatedConcepts": [
+        "ai-anthropomorphism",
+        "ai-psychosis",
+        "turing-test",
+        "chinese-room-argument",
+        "ai-hallucination",
+        "automation-bias",
+        "projection-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "ELIZA effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/ELIZA_effect",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-13",
+    "dateModified": "2026-02-13"
+}

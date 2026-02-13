@@ -1,0 +1,43 @@
+{
+    "id": "hysteresis",
+    "name": "Hysteresis",
+    "summary": "A system property where its current state depends on its history, not just current conditions.",
+    "explanation": "Hysteresis is the phenomenon where a system's output or state depends not only on its current input but also on its history of past states. The system follows different paths when conditions change in one direction versus the other, creating a 'memory' effect. The path to a state matters as much as the state itself.\n\nThe concept originates in physics (magnetism, materials science) but applies powerfully as a mental model across many domains. A simple example: when heating ice, it melts at 0 degrees Celsius, but supercooled water can remain liquid below 0 degrees. The transition point depends on which direction you're coming from.\n\nIn economics, hysteresis explains why recessions can have lasting effects: workers who lose skills during unemployment don't simply bounce back when the economy recovers. The damage persists even after the cause is removed. Similarly, once a market is lost to a competitor, recovering it requires far more effort than retaining it would have.\n\nIn psychology, hysteresis manifests in habit formation: it takes significant effort to form a new habit, but once established, the habit persists even when the original motivating conditions change. Breaking a habit requires more force than preventing its formation. Emotional states show hysteresis too: once you become angry, it takes more than removing the trigger to calm down.\n\nIn organizations, hysteresis explains why cultural changes are so difficult: organizations resist change up to a threshold, then shift rapidly, but reversing that change requires far more effort than the original shift did. Restructuring is easier than un-restructuring.\n\nThe practical implications are significant. Prevention is more efficient than cure because of hysteresis effects. Damage to trust, relationships, ecosystems, or organizational culture may not be reversible simply by removing the cause of damage. Understanding hysteresis helps explain why some problems seem disproportionately hard to fix and why maintaining good states is more efficient than recovering from bad ones.",
+    "tags": [
+        "systems-thinking",
+        "complexity",
+        "patterns",
+        "change",
+        "physics"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaHistory",
+    "featured": false,
+    "aliases": [
+        "Path dependence",
+        "History dependence",
+        "System memory"
+    ],
+    "relatedConcepts": [
+        "tipping-point",
+        "nonlinearity",
+        "feedback-loop",
+        "status-quo-bias",
+        "sunk-cost-fallacy",
+        "complexity-theory",
+        "punctuated-equilibrium"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Hysteresis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hysteresis",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-13",
+    "dateModified": "2026-02-13"
+}

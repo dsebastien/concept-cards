@@ -1,0 +1,67 @@
+{
+    "id": "fsrs",
+    "name": "FSRS",
+    "summary": "Free Spaced Repetition Scheduler, a modern open-source algorithm that optimizes flashcard review intervals using machine learning.",
+    "explanation": "FSRS (Free Spaced Repetition Scheduler) is a modern, open-source spaced repetition algorithm developed by Jarrett Ye that uses machine learning to optimize the timing of flashcard reviews. It represents a significant advancement over traditional scheduling algorithms like SM-2 (used in Anki's default scheduler) and SuperMemo's proprietary algorithms.\n\nFSRS models memory using a three-parameter approach: stability (how long a memory will last before needing review), difficulty (how inherently hard the material is to remember), and retrievability (the current probability of successfully recalling the information). By tracking these parameters for each card, FSRS can predict more accurately when a review is needed.\n\nKey advantages over traditional algorithms include: better prediction of memory states through a mathematical model based on the DSR (Difficulty, Stability, Retrievability) framework; personalized scheduling that adapts to individual learning patterns; reduced total review time through more efficient interval spacing; and open-source transparency allowing community verification and improvement.\n\nFSRS was integrated into Anki as an optional scheduler starting with version 23.10, making it accessible to millions of users. Studies comparing FSRS to SM-2 show that FSRS achieves the same retention rates with fewer reviews, or higher retention rates with the same number of reviews. The algorithm learns from a user's review history, becoming more accurate over time.\n\nPractical implications for learners: FSRS assigns longer intervals to easy material and shorter intervals to difficult material more precisely than traditional algorithms. It accounts for the fact that memory decay follows a power law rather than an exponential curve. Users who switch from SM-2 to FSRS typically see a reduction in daily review load while maintaining or improving retention.\n\nFSRS exemplifies how modern machine learning can improve fundamental learning tools. Its open-source nature ensures transparency and allows the spaced repetition community to verify, improve, and build upon the algorithm collaboratively.",
+    "tags": [
+        "learning",
+        "algorithms",
+        "education",
+        "memories",
+        "open-source"
+    ],
+    "category": "Techniques",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Free Spaced Repetition Scheduler"
+    ],
+    "relatedConcepts": [
+        "spaced-repetition",
+        "forgetting-curve",
+        "retrieval-practice",
+        "leitner-system",
+        "testing-effect",
+        "spacing-effect",
+        "active-recall",
+        "desirable-difficulties"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "FSRS (algorithm) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/FSRS_(algorithm)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-13",
+    "dateModified": "2026-02-13"
+}

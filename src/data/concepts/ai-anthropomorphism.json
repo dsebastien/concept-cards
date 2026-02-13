@@ -1,0 +1,72 @@
+{
+    "id": "ai-anthropomorphism",
+    "name": "AI Anthropomorphism",
+    "summary": "The attribution of human characteristics, emotions, and intentions to artificial intelligence systems.",
+    "explanation": "AI anthropomorphism is the tendency to attribute human characteristics, emotions, intentions, and cognitive abilities to artificial intelligence systems. While anthropomorphism is a deeply rooted human trait that evolved to help us predict the behavior of other agents in our environment, its application to AI systems creates a specific set of risks and misunderstandings that are increasingly consequential as AI becomes more prevalent.\n\nAI anthropomorphism manifests in many ways: believing an AI is happy, sad, or frustrated; assuming it wants to help or has goals of its own; attributing moral responsibility to it; or treating conversational fluency as evidence of consciousness or understanding. Design choices amplify this tendency: giving AI systems human names, voices, avatars, and conversational styles all encourage users to perceive them as social agents rather than tools.\n\nThe consequences of AI anthropomorphism include: over-trust (assuming the AI understands context and nuance it does not), emotional dependency (forming one-sided emotional bonds with AI), misplaced moral concern (worrying about hurting an AI's feelings rather than evaluating its outputs), reduced critical evaluation (accepting outputs because they feel like they come from a knowledgeable person), and policy confusion (debating AI rights when more pressing safety questions need attention).\n\nCompanies that build AI products face a tension: anthropomorphic design increases user engagement and satisfaction, but it also increases the risk of over-reliance, emotional manipulation, and unrealistic expectations. The most responsible approach involves designing AI interactions that are engaging without being misleading, making the AI's nature as a tool transparent, and including friction points that remind users they are interacting with software.\n\nFor individuals, countering AI anthropomorphism requires conscious effort: regularly reminding yourself that AI does not have feelings, experiences, or understanding; evaluating AI outputs on their merits rather than on how they feel; maintaining strong human relationships alongside AI tool use; and being especially cautious when you notice yourself attributing emotions or intentions to an AI system.",
+    "tags": [
+        "ai",
+        "psychology",
+        "cognitive-biases",
+        "human-computer-interaction",
+        "risks"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "AI personification",
+        "Machine anthropomorphism"
+    ],
+    "relatedConcepts": [
+        "eliza-effect",
+        "ai-psychosis",
+        "turing-test",
+        "chinese-room-argument",
+        "ai-hallucination",
+        "ai-safety",
+        "automation-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "AI anthropomorphism - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/AI_anthropomorphism",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-13",
+    "dateModified": "2026-02-13"
+}
