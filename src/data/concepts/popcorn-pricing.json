@@ -1,0 +1,45 @@
+{
+    "id": "popcorn-pricing",
+    "name": "Popcorn Pricing",
+    "summary": "A pricing strategy using a near-premium-priced middle option to make the largest option appear as the best value, nudging customers to spend more.",
+    "explanation": "Popcorn pricing is a pricing strategy commonly associated with movie theater concessions, where the middle-sized option is priced very close to the large, making the largest option appear to be the best deal. This technique leverages the decoy effect and compromise effect to systematically nudge customers toward spending more than they initially intended.\n\n**The Classic Example**:\n\n- Small popcorn: $4.00\n- Medium popcorn: $6.50\n- Large popcorn: $7.00\n\nThe medium serves as a decoy. Few people choose it because for just $0.50 more, they can get the large. The medium's purpose is not to be chosen but to make the large look like exceptional value. Without the medium, many customers would have chosen the small.\n\n**How It Works Psychologically**:\n\n1. **Price anchoring**: The medium establishes a high reference point near the large\n2. **Perceived value**: The small price gap between medium and large makes the large feel like a bargain\n3. **Compromise effect**: Some customers who might have chosen small now choose large as a 'reasonable middle ground' between small and what feels like the 'real' middle price point\n4. **Loss aversion**: Choosing the medium feels like losing value compared to the large\n\n**Beyond Movie Theaters**:\n\nPopcorn pricing appears across many industries:\n- **Software subscriptions**: Basic, Pro, and Enterprise tiers where Pro is priced to push toward Enterprise\n- **Retail**: Size options for drinks, meals, and products\n- **Services**: Package deals where the middle tier makes the premium look attractive\n- **SaaS pricing**: Feature-limited middle tiers that nudge toward the top tier\n\n**Defending Against It**:\n\n- Ask yourself what you actually need before looking at prices\n- Evaluate each option independently rather than comparatively\n- Calculate cost per unit to see through the framing\n- Recognize when a 'deal' is leading you to spend more than planned\n\nUnderstanding popcorn pricing helps both businesses design effective pricing strategies and consumers make more deliberate purchasing decisions.",
+    "tags": [
+        "pricing",
+        "businesses",
+        "marketing",
+        "behavioral-economics",
+        "persuasion"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaDollarSign",
+    "featured": false,
+    "aliases": [
+        "Movie theater pricing",
+        "Decoy pricing"
+    ],
+    "relatedConcepts": [
+        "decoy-effect",
+        "price-anchoring",
+        "psychological-pricing",
+        "tiered-pricing",
+        "compromise-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Predictably Irrational by Dan Ariely",
+            "url": "https://www.amazon.com/dp/0061353248?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Decoy effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decoy_effect",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

@@ -1,0 +1,69 @@
+{
+    "id": "compromise-effect",
+    "name": "Compromise Effect",
+    "summary": "The tendency for consumers to prefer middle options when presented with a set of choices ranging from low to high on key attributes.",
+    "explanation": "The compromise effect is a cognitive bias in which consumers disproportionately prefer options that represent a compromise or middle ground among the available choices. When faced with options that vary along dimensions like price and quality, people tend to avoid extremes and gravitate toward the middle option, even when the middle option was not their original preference.\n\n**How It Works**:\n\nConsider choosing a camera:\n- **Option A**: $200, 8 megapixels\n- **Option B**: $400, 16 megapixels\n\nAdding a third option changes everything:\n- **Option A**: $200, 8 megapixels\n- **Option B**: $400, 16 megapixels\n- **Option C**: $800, 24 megapixels\n\nWith Option C added, Option B becomes the compromise and its market share increases significantly, even though nothing about B itself has changed.\n\n**Psychological Mechanisms**:\n\n1. **Loss aversion**: Extreme options feel riskier—choosing the cheapest risks poor quality, while the most expensive risks overpaying\n2. **Reason-based choice**: The middle option is easiest to justify to yourself and others\n3. **Uncertainty reduction**: When unsure about preferences, the middle feels safest\n4. **Extremeness aversion**: People have a general tendency to avoid extremes in any dimension\n\n**Business Applications**:\n\n- **Product line design**: Companies deliberately create three-tier offerings knowing the middle will be most popular\n- **Menu engineering**: Restaurants place high-margin items in the middle price range\n- **Pricing strategy**: The compromise effect is a key driver behind good-better-best pricing\n- **Negotiations**: Opening with an extreme position makes a moderate demand seem more reasonable\n\n**Relationship to Other Biases**:\n\nThe compromise effect differs from the decoy effect in an important way. The decoy effect uses an asymmetrically dominated option to make a specific target look better. The compromise effect works through the mere positioning of an option as a middle ground, without requiring dominance relationships.\n\n**Defending Against It**:\n\n- Define your needs and budget before seeing options\n- Evaluate each option on its own merits, not relative to others\n- Ask whether the middle option actually meets your needs or just feels safe\n- Be especially skeptical when three options are presented—the framing may be designed to push you toward the middle\n\nUnderstanding the compromise effect reveals how the context of choice fundamentally shapes preferences, challenging the idea that we have fixed, stable preferences independent of how options are presented.",
+    "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "behavioral-economics",
+        "psychology",
+        "pricing"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Extremeness aversion",
+        "Center-stage effect"
+    ],
+    "relatedConcepts": [
+        "decoy-effect",
+        "goldilocks-principle",
+        "loss-aversion",
+        "paradox-of-choice",
+        "popcorn-pricing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Predictably Irrational by Dan Ariely",
+            "url": "https://www.amazon.com/dp/0061353248?tag=dsebastien00-20"
+        },
+        {
+            "title": "Priceless by William Poundstone",
+            "url": "https://www.amazon.com/dp/0809078813?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Compromise effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Compromise_effect",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}
