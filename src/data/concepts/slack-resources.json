@@ -1,0 +1,88 @@
+{
+    "id": "slack-resources",
+    "name": "Slack (Resources)",
+    "summary": "Intentionally maintaining unused capacity and buffer resources to handle unexpected demands and prevent scarcity spirals.",
+    "explanation": "Slack refers to the deliberate practice of maintaining unused capacity - whether in time, money, energy, or attention - as a buffer against the unexpected. Rather than optimizing every resource to 100% utilization, slack means intentionally leaving room for surprises, opportunities, and recovery.\n\nThe concept draws from multiple domains. In manufacturing, Toyota's production system demonstrated that some idle capacity actually increases total throughput by preventing cascading bottlenecks. In project management, buffer time prevents single delays from derailing entire timelines. In personal finance, an emergency fund prevents a single unexpected expense from triggering a debt spiral.\n\nMullainathan and Shafir's scarcity research reveals why slack matters so deeply: without slack, any unexpected demand triggers scarcity, which triggers tunneling and bandwidth tax, which leads to poor decisions, which creates more scarcity. Slack breaks this vicious cycle by ensuring that normal variability doesn't push you into a scarcity state.\n\nTypes of slack for knowledge workers include: time slack (not scheduling every hour, leaving buffer between commitments), financial slack (emergency reserves, not spending to the limit), cognitive slack (not taking on maximum mental load, leaving space for creative thinking), energy slack (not pushing to exhaustion, maintaining reserves for unexpected demands), and social slack (maintaining relationships before you urgently need them).\n\nThe counterintuitive insight is that slack often increases total productivity. A schedule at 85% capacity typically accomplishes more than one at 100% because the buffer absorbs disruptions, prevents stress-induced performance drops, and allows for serendipitous opportunities. The most productive people often appear to have the most free time - not because they do less, but because their slack makes them resilient and adaptive.",
+    "tags": [
+        "productivity",
+        "strategies",
+        "well-being",
+        "scarcity",
+        "resilience"
+    ],
+    "category": "Productivity",
+    "icon": "FaExpandArrowsAlt",
+    "featured": false,
+    "aliases": [
+        "Buffer Resources",
+        "Organizational Slack",
+        "Capacity Buffer",
+        "Margin"
+    ],
+    "relatedConcepts": [
+        "scarcity",
+        "scarcity-mindset",
+        "bandwidth-tax",
+        "tunneling",
+        "time-affluence",
+        "ruthless-prioritization",
+        "identifying-system-constraints"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Slack by Tom DeMarco",
+            "url": "https://www.amazon.com/dp/0767907698?tag=dsebastien00-20"
+        },
+        {
+            "title": "Scarcity by Sendhil Mullainathan and Eldar Shafir",
+            "url": "https://www.amazon.com/dp/125005611X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Slack (term) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Slack_(term)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

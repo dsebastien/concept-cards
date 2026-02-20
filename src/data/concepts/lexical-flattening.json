@@ -1,0 +1,88 @@
+{
+    "id": "lexical-flattening",
+    "name": "Lexical Flattening",
+    "summary": "The replacement of precise, domain-specific vocabulary with common generic synonyms, reducing semantic density and expressive range.",
+    "explanation": "Lexical flattening is the process by which precise, specialized, or uncommon words are systematically replaced with more common but less specific alternatives. In the context of AI-generated text, it is a key stage of semantic ablation: language models trained on massive corpora gravitate toward high-probability tokens, causing domain-specific jargon and carefully chosen vocabulary to be substituted with generic synonyms.\n\nConcrete examples illustrate the phenomenon: 'shun' becomes 'avoid,' 'divulge' becomes 'disclose,' 'ephemeral' becomes 'temporary,' 'conflagration' becomes 'fire.' Each substitution is technically correct but loses important connotations. 'Shun' carries social judgment that 'avoid' does not. 'Divulge' implies reluctance and secrecy that 'disclose' lacks. The cumulative effect is prose that reads as if passed through a filter that removes all flavor.\n\nLexical flattening is not exclusive to AI. It occurs in corporate communications (where jargon replaces precision), in journalism (where readability concerns override accuracy), and in education (where simplified vocabulary may obscure important distinctions). However, AI dramatically accelerates and systematizes the process because models inherently favor statistically common tokens.\n\nThe consequences extend beyond aesthetics. Vocabulary precision matters because: domain-specific terms encode specialized knowledge that generic synonyms cannot carry, precise word choice signals expertise and builds trust with knowledgeable audiences, subtle distinctions between near-synonyms often carry the most important information, and flattened vocabulary leads to flattened thinking as the available words shape available thoughts.\n\nFor knowledge workers, combating lexical flattening means: maintaining and expanding domain-specific vocabulary, reviewing AI-assisted text for silent synonym substitutions, valuing precision over readability when the audience warrants it, and recognizing that the 'right' word is often the unusual one.",
+    "tags": [
+        "ai",
+        "writing",
+        "language",
+        "communication",
+        "precision"
+    ],
+    "category": "AI",
+    "icon": "FaCompressAlt",
+    "featured": false,
+    "aliases": [
+        "Vocabulary Flattening",
+        "Lexical Homogenization",
+        "Synonym Dilution"
+    ],
+    "relatedConcepts": [
+        "semantic-ablation",
+        "model-collapse",
+        "ai-hallucination",
+        "generative-ai",
+        "large-language-models",
+        "signal-to-noise-ratio"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Semantic ablation and the slow death of meaning in AI-generated text - The Register",
+            "url": "https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

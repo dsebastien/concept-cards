@@ -1,0 +1,95 @@
+{
+    "id": "semantic-ablation",
+    "name": "Semantic Ablation",
+    "summary": "The algorithmic erosion of high-entropy information in AI-generated text, where rare and precise linguistic elements are systematically replaced with generic alternatives.",
+    "explanation": "Semantic ablation describes how AI language models systematically strip away the most distinctive, precise, and unconventional elements of language during text generation. Coined by Claudio Nastruzzi, the term draws an analogy to medical ablation (the removal of tissue): AI models perform a silent, unauthorized amputation of meaning by replacing rare, high-information tokens with statistically safer, more common alternatives.\n\nThe phenomenon emerges from how language models work. During training and fine-tuning, models learn to favor high-probability token sequences. Reinforcement Learning from Human Feedback (RLHF) and safety tuning further push outputs toward the center of statistical distributions, penalizing unusual or unconventional patterns. The result is text that is fluent and grammatically correct but stripped of the distinctive qualities that make human writing compelling.\n\nSemantic ablation progresses through three stages. First, metaphoric cleansing: unconventional imagery and original metaphors are identified as statistical outliers and replaced with safe cliches. Second, lexical flattening: domain-specific jargon and precise vocabulary are substituted with common synonyms, reducing semantic density. Third, structural collapse: complex reasoning and nuanced arguments are forced into predictable templates, eliminating subtlety.\n\nThe concept is the complement of AI hallucination. Where hallucination is an additive error (the model invents false information), semantic ablation is a subtractive one (the model destroys authentic meaning). Both stem from the same root cause: models optimizing for statistical probability rather than truth or precision.\n\nFor knowledge workers and writers, understanding semantic ablation is critical. AI writing assistants may silently degrade the most valuable parts of your prose: the unusual word choices that convey precise meaning, the original metaphors that create insight, the complex sentence structures that mirror complex ideas. Awareness of this tendency allows you to use AI tools while protecting the elements that make your writing distinctive and meaningful.",
+    "tags": [
+        "ai",
+        "writing",
+        "language",
+        "limitations",
+        "content-creation"
+    ],
+    "category": "AI",
+    "icon": "FaCut",
+    "featured": false,
+    "aliases": [
+        "AI Text Erosion",
+        "Algorithmic Meaning Loss",
+        "AI Semantic Decay"
+    ],
+    "relatedConcepts": [
+        "lexical-flattening",
+        "model-collapse",
+        "ai-hallucination",
+        "rlhf",
+        "generative-ai",
+        "large-language-models",
+        "dead-internet-theory",
+        "signal-to-noise-ratio"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Semantic ablation and the slow death of meaning in AI-generated text - The Register",
+            "url": "https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Hacker News discussion on Semantic Ablation",
+            "url": "https://news.ycombinator.com/item?id=47049088",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}
