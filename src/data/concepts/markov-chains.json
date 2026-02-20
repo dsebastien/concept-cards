@@ -1,0 +1,34 @@
+{
+    "id": "markov-chains",
+    "name": "Markov Chains",
+    "summary": "Mathematical systems that model sequences of events where the probability of each event depends only on the state of the previous event, not the full history.",
+    "explanation": "A Markov chain is a stochastic model that describes a sequence of possible events where the probability of transitioning to any particular state depends solely on the current state and not on the sequence of events that preceded it. This defining characteristic is known as the **Markov property** or **memorylessness**: the future is conditionally independent of the past, given the present.\n\nThe concept is named after the Russian mathematician **Andrey Markov**, who first studied these systems in the early 1900s while analyzing the alternation of vowels and consonants in literary texts. His work laid the foundation for an entire branch of probability theory that has become indispensable across science and engineering.\n\n## Transition Probabilities and Matrices\n\nA Markov chain is formally described by a set of states and a **transition matrix**, where each entry represents the probability of moving from one state to another in a single step. For a system with *n* states, this is an *n x n* matrix where each row sums to 1. The transition matrix makes it straightforward to compute the probability of being in any state after multiple steps by raising the matrix to the appropriate power.\n\n## Key Properties\n\nSeveral important properties characterize the behavior of Markov chains:\n\n- **Stationary distributions**: Many Markov chains converge to a long-run equilibrium where the probability of being in each state stabilizes regardless of the starting state. This stationary distribution satisfies the equation *pi = pi * P*, where *P* is the transition matrix.\n- **Ergodic chains**: A Markov chain is ergodic if it is possible to reach any state from any other state (irreducibility) and the chain is not periodic. Ergodic chains are guaranteed to have a unique stationary distribution.\n- **Absorbing states**: Some states, once entered, cannot be left. Chains with absorbing states are used to model processes that eventually terminate, such as gambler's ruin problems.\n\n## Applications\n\nMarkov chains appear across a remarkable range of fields:\n\n- **PageRank algorithm**: Google's original search ranking algorithm models a random web surfer as a Markov chain, where the stationary distribution determines page importance.\n- **Text generation and language models**: Early language models used Markov chains to generate text by predicting the next word based on the current word or short sequence. Modern large language models extend this principle with vastly more context.\n- **Weather prediction**: Simple weather models treat each day's weather as depending only on the previous day's conditions.\n- **Finance**: Stock price models, credit rating transitions, and portfolio risk analysis frequently employ Markov chain frameworks.\n- **Biology**: DNA sequence analysis, population genetics, and epidemiological models rely heavily on Markov chain theory.\n- **Board games**: Games like Snakes and Ladders and Monopoly can be analyzed as Markov chains, since the next position depends only on the current position and a dice roll.\n\n## Connection to Monte Carlo Methods\n\nOne of the most powerful modern applications of Markov chains is **Markov Chain Monte Carlo (MCMC)**, a family of algorithms that construct a Markov chain whose stationary distribution matches a desired target distribution. MCMC methods are essential in Bayesian statistics, allowing practitioners to sample from complex posterior distributions that would otherwise be computationally intractable. Algorithms like the Metropolis-Hastings algorithm and Gibbs sampling are cornerstones of modern computational statistics and machine learning.\n\nMarkov chains also underpin **Hidden Markov Models (HMMs)**, where the underlying states are not directly observable but influence observable outputs. HMMs have been instrumental in speech recognition, bioinformatics, and natural language processing.",
+    "tags": ["mathematics", "probabilities", "statistics", "modeling", "algorithms"],
+    "category": "Decision Science",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["Markov processes", "Markov models", "Discrete-time Markov chain"],
+    "relatedConcepts": ["stochastic-processes", "monte-carlo-methods", "random-walk", "probabilistic-thinking", "bayes-theorem"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Introduction to Probability Models by Sheldon Ross",
+            "url": "https://www.amazon.com/dp/0124079482?tag=dsebastien00-20"
+        },
+        {
+            "title": "Introduction to Probability by Charles Grinstead and J. Laurie Snell",
+            "url": "https://www.amazon.com/dp/0821807498?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Markov chain - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "conservation-laws",
+    "name": "Conservation Laws",
+    "summary": "Fundamental physical principles stating that certain measurable quantities in an isolated system remain constant over time regardless of processes occurring within.",
+    "explanation": "Conservation laws are among the most fundamental principles in all of physics. They state that specific measurable quantities in an isolated (closed) system do not change over time, no matter what processes take place within that system. These quantities are said to be conserved.\n\n## The Major Conservation Laws\n\nPhysics recognizes several key conservation laws:\n\n- **Conservation of energy**: Energy cannot be created or destroyed, only transformed from one form to another.\n- **Conservation of linear momentum**: The total momentum of an isolated system remains constant.\n- **Conservation of angular momentum**: The total angular momentum of an isolated system remains constant.\n- **Conservation of electric charge**: The net electric charge in an isolated system is constant.\n- **Conservation of baryon number and lepton number**: Quantities conserved in particle physics interactions.\n\n## Historical Development\n\nThe discovery of conservation laws unfolded over centuries. Momentum conservation traces back to Isaac Newton and René Descartes in the 17th century. Energy conservation was established in the 1840s and 1850s through the work of James Prescott Joule, Hermann von Helmholtz, and Julius Robert von Mayer, who demonstrated the equivalence of heat and mechanical work. Angular momentum conservation was formalized through classical mechanics and celestial observations.\n\n## Why Conservation Laws Exist\n\nFor much of history, conservation laws were treated as empirical facts — regularities observed in nature without deeper explanation. That changed with Noether's theorem, published by Emmy Noether in 1918, which revealed that each conservation law is a direct consequence of a specific symmetry in the laws of physics. Conservation laws exist because the universe has symmetries.\n\n## Symmetry Connections\n\n- **Energy conservation** arises from time-translation symmetry: the laws of physics don't change over time.\n- **Momentum conservation** arises from space-translation symmetry: the laws of physics are the same everywhere.\n- **Angular momentum conservation** arises from rotational symmetry: the laws of physics don't depend on orientation.\n\n## Everyday and Scientific Applications\n\nConservation laws have enormous practical importance. Momentum conservation explains why rockets work (exhaust momentum in one direction produces spacecraft momentum in the other) and governs billiard ball collisions. Angular momentum conservation explains why figure skaters spin faster when they pull their arms in, reducing their moment of inertia. Energy conservation underpins all of thermodynamics, engineering, chemistry, and astrophysics. In particle physics, conservation of charge, baryon number, and lepton number determine which reactions are allowed and which are forbidden.\n\n## Metaphorical Extensions\n\nThe concept of conservation has been extended metaphorically into other domains. In user experience design, Tesler's Law (the law of conservation of complexity) states that every system has inherent complexity that cannot be eliminated, only moved between the user and the developer. In attention economics, one might speak of a conservation of attention — focusing on one thing necessarily reduces attention available for others. These metaphorical uses, while not rigorous physics, capture the deep intuition that certain quantities are finite and cannot simply appear from nothing.",
+    "tags": ["physics", "principles", "energy", "symmetry", "fundamentals"],
+    "category": "Principles",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Laws of conservation", "Conservation principles"],
+    "relatedConcepts": ["noethers-theorem", "symmetry-in-physics", "first-principles", "emergence"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Feynman Lectures on Physics by Richard Feynman",
+            "url": "https://www.amazon.com/dp/0465023827?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Conservation law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Conservation_law",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

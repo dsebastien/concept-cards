@@ -1,0 +1,90 @@
+{
+    "id": "digital-hygiene",
+    "name": "Digital Hygiene",
+    "summary": "The routine practice of maintaining digital security, privacy, and organization through regular habits like updating software, managing passwords, cleaning data, and reviewing permissions.",
+    "explanation": "Digital hygiene is the set of routine practices people follow to maintain the health and security of their digital lives. The concept is directly analogous to personal hygiene for physical health: just as brushing teeth prevents cavities and washing hands prevents illness, digital hygiene practices prevent data breaches, identity theft, malware infections, and the gradual accumulation of digital clutter. The term has gained prominence as our lives have become increasingly dependent on digital infrastructure, making the consequences of neglect far more severe.\n\nDigital hygiene practices can be organized into several key areas:\n\n**Security hygiene** forms the foundation. This includes using strong, unique passwords managed through a dedicated password manager, enabling two-factor authentication (2FA) on all important accounts, keeping software and operating systems up to date with security patches, learning to recognize and avoid phishing attempts and suspicious links, and using encrypted connections such as HTTPS and VPNs when appropriate. These practices form the first line of defense against the most common attack vectors.\n\n**Privacy hygiene** focuses on controlling your digital footprint. Key practices include regularly reviewing and revoking app permissions you no longer need, managing cookie settings across browsers, using privacy-focused browsers and search engines, being mindful of the data you share on social media, and periodically auditing privacy settings on your accounts. In an era of surveillance capitalism, privacy hygiene is essential for maintaining autonomy over your personal information.\n\n**Data hygiene** ensures your information remains organized, backed up, and under control. The 3-2-1 backup rule is fundamental: maintain 3 copies of important data, on 2 different media types, with 1 copy stored offsite. Additional practices include deleting unused accounts and apps, cleaning old files and downloads, unsubscribing from unwanted emails, and organizing cloud storage. Good data hygiene reduces your attack surface while keeping your digital environment manageable.\n\n**Device hygiene** addresses the physical and software health of your hardware. This encompasses cleaning up storage, removing bloatware and unnecessary applications, managing startup programs to maintain performance, keeping devices physically clean, and following proper charging habits to extend battery life.\n\nDigital hygiene and digital wellbeing are deeply interconnected. Strong security and privacy practices reduce the anxiety and cognitive burden that comes with digital life. When you know your accounts are secure, your data is backed up, and your digital environment is organized, you experience less technostress and can engage with technology more confidently and intentionally.\n\nDespite its importance, many people neglect digital hygiene for understandable reasons. The benefits are invisible until something goes wrong, meaning there is no immediate reward for proactive effort. The constantly evolving threat landscape can make maintenance feel futile, as new vulnerabilities and attack methods emerge regularly. Additionally, the sheer number of accounts, devices, and services most people manage makes comprehensive hygiene feel overwhelming.\n\nThe compound effect of digital hygiene cannot be overstated. Small, regular maintenance practices prevent catastrophic failures. A data breach, ransomware attack, or lost device without backups is orders of magnitude more costly in time, money, and stress than the routine prevention that could have avoided it. This mirrors the compound effect seen in physical health, where daily habits yield enormous long-term benefits.\n\nIn organizational contexts, digital hygiene extends to employee security awareness training, comprehensive security policies, regular security audits, and incident response planning. Organizations that cultivate a culture of digital hygiene significantly reduce their vulnerability to both external attacks and internal errors.\n\nA practical approach to maintaining digital hygiene is to schedule a monthly \"digital hygiene day\" dedicated to reviewing passwords, updating software, cleaning files, checking permissions, and verifying backups. By making it a recurring calendar event rather than an ad hoc activity, you transform digital hygiene from an overwhelming to-do list into a manageable routine.",
+    "tags": [
+        "digital-wellness",
+        "security",
+        "privacy",
+        "habits",
+        "self-care"
+    ],
+    "category": "Techniques",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Cyber hygiene",
+        "Online hygiene",
+        "Digital maintenance"
+    ],
+    "relatedConcepts": [
+        "digital-wellbeing",
+        "digital-minimalism",
+        "digital-detox",
+        "data-exhaust",
+        "digital-clutter",
+        "sleep-hygiene",
+        "privacy-by-design",
+        "data-minimization",
+        "notification-fatigue",
+        "digital-sovereignty"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Digital Minimalism by Cal Newport",
+            "url": "https://www.amazon.com/dp/0525536515?tag=dsebastien00-20"
+        },
+        {
+            "title": "Extreme Privacy by Michael Bazzell",
+            "url": "https://www.amazon.com/dp/B0898YGR58?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Computer security - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_security",
+            "type": "website"
+        },
+        {
+            "title": "Cyber hygiene - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cyber_hygiene",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

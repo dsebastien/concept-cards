@@ -1,0 +1,65 @@
+{
+    "id": "moral-hazard",
+    "name": "Moral Hazard",
+    "summary": "The tendency for people to take greater risks when they are insulated from the consequences, often because someone else bears the cost.",
+    "explanation": "Moral hazard describes a situation where one party takes on more risk because they know that another party will bear the burden of any negative consequences. The concept originated in the insurance industry, where it was observed that insured individuals tend to behave differently than they would if they were fully exposed to risk.\n\nIn insurance, moral hazard manifests in straightforward ways. A person with comprehensive car insurance may drive less carefully than someone paying out of pocket for repairs. A homeowner with full fire coverage might be less diligent about fire prevention. The insurance changes the cost-benefit calculation of risky behavior, shifting the downside onto the insurer while the insured retains the upside.\n\nThe 2008 financial crisis provided a dramatic illustration of moral hazard at a systemic level. Financial institutions that were deemed **too big to fail** had an implicit guarantee of government bailout, which encouraged excessive risk-taking. Mortgage originators who could sell loans as mortgage-backed securities had little incentive to verify borrowers' ability to repay. At each link in the chain, the actors who made risk decisions were insulated from the consequences, and the accumulated risk eventually brought the global financial system to the brink of collapse.\n\nMoral hazard arises in employer-employee relationships when employees cannot be perfectly monitored. A worker paid a fixed salary regardless of effort may exert less effort than one whose compensation is tied to performance. In healthcare, patients with comprehensive insurance may overuse medical services or neglect preventive care, knowing that costs are covered.\n\nIt is important to distinguish moral hazard from **adverse selection**. Both stem from information asymmetry, but they operate differently. Adverse selection occurs before a transaction, when one party has hidden information about their type or risk level. Moral hazard occurs after a transaction, when one party's hidden actions change because the incentive structure has shifted. Adverse selection is about hidden information; moral hazard is about hidden action.\n\nThe root cause of moral hazard is **information asymmetry**: one party cannot fully observe or verify the other's behavior. Solutions generally aim to realign incentives or improve monitoring. In insurance, deductibles and co-pays ensure that the insured retains some skin in the game. Performance-based compensation ties employee rewards to outcomes. Monitoring and auditing reduce the scope for hidden action. The concept of **skin in the game**, popularized by Nassim Taleb, captures the principle that decision-makers should bear a meaningful share of the consequences of their decisions.",
+    "tags": [
+        "economics",
+        "incentives",
+        "risks",
+        "decision-making",
+        "game-theory"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Hidden action problem"
+    ],
+    "relatedConcepts": [
+        "information-asymmetry",
+        "adverse-selection",
+        "principal-agent-problem",
+        "game-theory",
+        "mechanism-design",
+        "risk-compensation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Misbehaving by Richard Thaler",
+            "url": "https://www.amazon.com/dp/039335279X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Moral hazard - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Moral_hazard",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

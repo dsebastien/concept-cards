@@ -1,0 +1,39 @@
+{
+    "id": "symmetry-breaking",
+    "name": "Symmetry Breaking",
+    "summary": "The process by which a system transitions from a symmetric state to one with less symmetry, giving rise to new structures, forces, and phenomena.",
+    "explanation": "Symmetry breaking is one of the most important concepts in modern physics and beyond. It describes the process by which a system that is symmetric under some transformation transitions to a state that is no longer symmetric. Paradoxically, it is the breaking of symmetry — not symmetry itself — that gives rise to the rich structure, diversity, and complexity of the world around us.\n\n## Spontaneous Symmetry Breaking\n\nIn spontaneous symmetry breaking, the underlying laws of a system remain perfectly symmetric, but the system's ground state (its lowest-energy configuration) does not. A classic analogy is a ball balanced at the top of a perfectly symmetric hill: the hill is symmetric in every direction, but the ball must fall to one particular side, breaking the symmetry. The laws governing the ball don't prefer any direction, yet the outcome is asymmetric. This is the essence of spontaneous symmetry breaking.\n\n## The Higgs Mechanism\n\nThe most celebrated example of spontaneous symmetry breaking in physics is the Higgs mechanism. In the Standard Model of particle physics, the Higgs field permeates all of space. Above a certain energy, the electroweak interaction is symmetric — the electromagnetic and weak nuclear forces are unified. Below that energy, the Higgs field acquires a nonzero value, breaking the electroweak symmetry and giving mass to the W and Z bosons (and, through their interactions, to other fundamental particles). The existence of the Higgs boson, the quantum excitation of this field, was confirmed experimentally at CERN in 2012.\n\n## Phase Transitions\n\nSymmetry breaking is intimately connected to phase transitions in everyday matter. When water freezes into ice, the continuous rotational and translational symmetry of the liquid state is broken into the discrete symmetry of a crystal lattice. When a ferromagnetic material is cooled below its Curie temperature, the random orientations of atomic magnetic moments spontaneously align, breaking rotational symmetry and producing a net magnetization.\n\n## Cosmological Symmetry Breaking\n\nIn the earliest moments after the Big Bang, the universe existed at extraordinarily high temperatures and energies. At that time, all four fundamental forces — gravity, electromagnetism, the strong nuclear force, and the weak nuclear force — are thought to have been unified as aspects of a single force. As the universe expanded and cooled, successive symmetry-breaking events separated these forces, one by one, into the distinct interactions we observe today. The structure of the universe as we know it is a product of these primordial symmetry-breaking transitions.\n\n## Beyond Physics\n\nThe concept of symmetry breaking extends well beyond physics. In biology, it explains how a symmetric fertilized egg develops into a highly asymmetric organism with distinct head, tail, left, and right. In economics, symmetric market equilibria can break into asymmetric outcomes where some firms dominate. In linguistics and social systems, initially symmetric choices (such as which side of the road to drive on) break into conventions that differ across cultures.\n\n## More Is Different\n\nPhysicist Philip Anderson's landmark 1972 paper \"More Is Different\" argued that symmetry breaking is the key mechanism behind emergence — the phenomenon whereby complex systems exhibit properties that cannot be predicted from their individual components. Anderson showed that at each level of complexity, new symmetry-breaking events create qualitatively new behaviors, and that this is why reductionism alone cannot explain the world. Understanding the parts does not automatically give you an understanding of the whole.\n\n## The Deep Insight\n\nThe profound lesson of symmetry breaking is that structure, diversity, and complexity in the universe arise not from symmetry but from its absence. A perfectly symmetric universe would be featureless and uniform — no particles with mass, no distinct forces, no atoms, no stars, no life. It is precisely because symmetries are broken that the universe is interesting.",
+    "tags": ["physics", "symmetry", "complexity", "emergence", "fundamentals"],
+    "category": "Principles",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Broken symmetry", "Spontaneous symmetry breaking", "SSB"],
+    "relatedConcepts": ["symmetry-in-physics", "noethers-theorem", "emergence", "conservation-laws", "first-principles"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Elegant Universe by Brian Greene",
+            "url": "https://www.amazon.com/dp/039333810X?tag=dsebastien00-20"
+        },
+        {
+            "title": "A Different Universe by Robert Laughlin",
+            "url": "https://www.amazon.com/dp/0465019277?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Symmetry breaking - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Symmetry_breaking",
+            "type": "website"
+        },
+        {
+            "title": "More Is Different (1972) - Philip Anderson",
+            "url": "https://en.wikipedia.org/wiki/More_is_Different",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

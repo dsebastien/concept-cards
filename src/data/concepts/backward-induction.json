@@ -1,0 +1,74 @@
+{
+    "id": "backward-induction",
+    "name": "Backward Induction",
+    "summary": "A reasoning method in sequential games where players think ahead to the final outcome and work backwards to determine optimal strategy at each decision point.",
+    "explanation": "Backward induction is a method of reasoning in sequential games where a player starts by considering what will happen at the very last decision point, determines the optimal action there, and then works backward through each preceding decision point to determine the best strategy at every stage. By reasoning from the end of the game to the beginning, players can identify the optimal path of play.\n\nThe method applies to **extensive-form games**, which are represented as game trees with nodes showing decision points, branches showing available actions, and terminal nodes showing payoffs. At each terminal node, the outcomes are known. Backward induction starts at these endpoints and traces back through the tree, selecting the optimal action at each node given what will happen in all subsequent nodes.\n\nThe solution concept associated with backward induction is the **subgame perfect equilibrium**, a refinement of Nash equilibrium that eliminates non-credible threats. A strategy profile is subgame perfect if it represents a Nash equilibrium in every subgame of the original game. This ensures that players' strategies are rational not just at the start but at every possible decision point they might reach.\n\nChess endgame analysis provides an intuitive illustration. Expert players routinely think backward from checkmate positions: if the board reaches a certain configuration, a specific sequence of moves guarantees victory. Working backward from these known outcomes, they determine which earlier positions lead to winning endgames and play to reach them.\n\nHowever, backward induction leads to some paradoxical results. The **centipede game** is a famous example. Two players alternate deciding whether to stop the game and take a slightly larger share or continue to grow the total pot. Backward induction predicts that the first player should stop immediately on the first move, but experimental evidence shows that real players frequently continue, achieving better outcomes through mutual cooperation. This highlights a key limitation: backward induction assumes perfect rationality and that all players believe in each other's perfect rationality.\n\nBackward induction is closely related to **dynamic programming** in computer science. Both involve solving complex problems by breaking them into simpler subproblems and solving from the end backward. This connection makes backward induction not just a game-theoretic concept but a general problem-solving paradigm.\n\nIn practical applications, backward induction informs negotiation strategy (anticipating the final offer and working backward to determine opening positions), business planning (starting with the desired end state and identifying the steps to get there), and legal strategy (anticipating trial outcomes to guide settlement decisions). The key insight is that effective strategic thinking often requires starting with the end in mind.",
+    "tags": [
+        "game-theory",
+        "strategies",
+        "decision-making",
+        "rationality",
+        "thinking"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Backward reasoning",
+        "Rollback analysis"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "dominant-strategy",
+        "nash-equilibrium",
+        "minimax",
+        "second-order-effects"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of Strategy by Avinash Dixit and Barry Nalebuff",
+            "url": "https://www.amazon.com/dp/0393337170?tag=dsebastien00-20"
+        },
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Backward induction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backward_induction",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

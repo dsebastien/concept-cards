@@ -1,0 +1,78 @@
+{
+    "id": "belief-revision",
+    "name": "Belief Revision",
+    "summary": "The process of changing one's beliefs when confronted with new evidence that contradicts prior assumptions.",
+    "explanation": "Belief revision is the process by which a person changes their beliefs in response to new evidence or information that conflicts with what they previously held to be true. It is a central topic in epistemology, philosophy of science, and cognitive psychology, and it describes both how people actually revise beliefs and how they ideally should.\n\nEvery person carries a set of prior beliefs, shaped by culture, education, personal experience, and cognitive tendencies. These priors serve as the starting point for interpreting new information. When new evidence arrives, belief revision is the mechanism by which the old view is weighed against the new data to form an updated belief. Bayes' theorem provides a formal mathematical model for this process: prior probability is combined with the likelihood of the new evidence to produce a posterior probability.\n\nIn practice, belief revision is rarely so clean. A single piece of evidence may not be sufficient to overturn a strongly held prior. But as evidence accumulates over time, the balance can shift. A person who believes smoking is safe might dismiss one study, but after dozens of rigorous studies all pointing the same direction, maintaining the original belief becomes increasingly untenable. The rational response is to revise the belief proportionally to the cumulative weight of evidence.\n\nSeveral psychological barriers make belief revision difficult. Belief perseverance causes people to cling to beliefs even after the evidence supporting them has been discredited. Confirmation bias leads people to seek and favor evidence that confirms existing beliefs. The backfire effect can cause contradicting evidence to actually strengthen the original belief. Motivated reasoning allows emotional investment to override dispassionate evaluation of evidence.\n\nUnderstanding belief revision helps in two ways. First, it provides a framework for how to update your own beliefs rationally: start with your priors, consider the quality and quantity of new evidence, and adjust accordingly. Second, it explains why disagreements persist: people with different priors, exposed to different evidence, or subject to different biases will reach different conclusions even when trying to be rational.",
+    "tags": [
+        "thinking",
+        "beliefs",
+        "epistemology",
+        "rationality",
+        "psychology"
+    ],
+    "category": "Thinking",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Belief change",
+        "Belief updating",
+        "Doxastic revision"
+    ],
+    "relatedConcepts": [
+        "bayes-theorem",
+        "belief-perseverance",
+        "confirmation-bias",
+        "backfire-effect",
+        "motivated-reasoning",
+        "conservatism-bias",
+        "epistemic-rationality",
+        "probabilistic-thinking",
+        "base-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Rationality: From AI to Zombies by Eliezer Yudkowsky",
+            "url": "https://www.amazon.com/dp/1939311217?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Scout Mindset by Julia Galef",
+            "url": "https://www.amazon.com/dp/0735217556?tag=dsebastien00-20"
+        },
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Belief revision - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "adverse-selection",
+    "name": "Adverse Selection",
+    "summary": "A market situation where information asymmetry causes the wrong type of participants to be disproportionately attracted to a transaction, degrading market quality.",
+    "explanation": "Adverse selection is a fundamental market failure that occurs when one party in a transaction has more information than the other, causing the composition of market participants to skew in a way that degrades overall market quality. The concept was formalized by economist George Akerlof in his seminal 1970 paper, which earned him a share of the 2001 Nobel Prize in Economics.\n\nAkerlof's **Market for Lemons** model illustrates the problem using the used car market. Sellers know whether their car is good or a lemon, but buyers cannot easily distinguish between them. Because buyers know that lemons exist, they are only willing to pay a price that reflects the average quality. At this average price, owners of good cars find the offer too low and withdraw from the market, while owners of lemons find it acceptable. As good cars exit, the average quality drops further, pushing the price down even more and driving out the next tier of quality. In the extreme case, this unraveling can cause the market to collapse entirely, with only the worst cars remaining.\n\nHealth insurance markets are particularly vulnerable to adverse selection. People who know they are sick or at high risk are more motivated to purchase insurance than healthy individuals. If insurers cannot distinguish risk levels, they must charge premiums based on the average risk of the insured pool. This makes insurance unattractive to healthier people, who leave the pool, driving up average risk and premiums in a self-reinforcing spiral. This dynamic is a central reason why many countries mandate health insurance participation.\n\nIn credit markets, adverse selection means that borrowers who are most eager to take loans at a given interest rate may be the riskiest. As lenders raise interest rates to compensate for risk, safer borrowers drop out, leaving a pool of increasingly risky borrowers. This can lead to credit rationing, where lenders prefer to limit the quantity of loans rather than raise prices.\n\nLabor markets face adverse selection as well. Employers offering below-market wages may attract primarily less capable workers, while talented candidates seek better opportunities elsewhere. Similarly, firms offering generous severance packages may find that their best employees, who have the most outside options, are the first to take the offer and leave.\n\nTwo primary mechanisms address adverse selection. **Signaling** involves the informed party taking costly actions to credibly reveal their type. Education serves as a signal in labor markets: obtaining a degree is more costly for less capable individuals, so a degree credibly signals ability. **Screening** involves the uninformed party designing choices that cause different types to self-select. Insurance companies offer menus of plans with different deductibles and premiums, allowing customers to reveal their risk level through their choice. Both mechanisms work by making it costly or impossible for the wrong types to mimic the right ones.\n\nAdverse selection is closely connected to moral hazard, though the two are distinct. Adverse selection is a problem of **hidden information** that occurs before a transaction (the insured person already knows their health status). Moral hazard is a problem of **hidden action** that occurs after a transaction (the insured person changes behavior because they are covered). Both arise from information asymmetry and both are central concerns in mechanism design.",
+    "tags": [
+        "economics",
+        "markets",
+        "information-asymmetry",
+        "decision-making",
+        "game-theory"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Anti-selection",
+        "The market for lemons problem"
+    ],
+    "relatedConcepts": [
+        "information-asymmetry",
+        "moral-hazard",
+        "principal-agent-problem",
+        "game-theory",
+        "mechanism-design",
+        "signaling"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Misbehaving by Richard Thaler",
+            "url": "https://www.amazon.com/dp/039335279X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Adverse selection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Adverse_selection",
+            "type": "website"
+        },
+        {
+            "title": "The Market for Lemons (1970) - George Akerlof",
+            "url": "https://en.wikipedia.org/wiki/The_Market_for_Lemons",
+            "type": "paper"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

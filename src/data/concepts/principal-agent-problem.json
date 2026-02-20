@@ -1,0 +1,67 @@
+{
+    "id": "principal-agent-problem",
+    "name": "Principal-Agent Problem",
+    "summary": "A conflict of interest that arises when one party (the agent) is empowered to act on behalf of another (the principal) but has different incentives and more information.",
+    "explanation": "The principal-agent problem is a fundamental concept in economics and organizational theory that describes the difficulties arising when one party (the **principal**) delegates work or decision-making authority to another party (the **agent**), but the two have divergent interests and asymmetric information. The principal cannot perfectly observe the agent's effort, competence, or intentions, creating opportunities for the agent to act in their own self-interest rather than in the principal's best interest.\n\n## Classic Examples\n\nThe principal-agent problem manifests across nearly every domain of human organization:\n\n- **Shareholders and managers**: Shareholders (principals) hire executives (agents) to run their company. Managers may pursue empire-building, excessive perks, or risk-averse strategies that protect their jobs rather than maximizing shareholder value.\n- **Voters and politicians**: Citizens (principals) elect representatives (agents) to govern on their behalf. Politicians may prioritize re-election, personal enrichment, or special interest groups over the public good.\n- **Patients and doctors**: Patients (principals) rely on physicians (agents) for medical advice. Doctors may recommend unnecessary procedures (over-treatment) or be influenced by pharmaceutical incentives.\n- **Clients and lawyers**: Clients (principals) hire attorneys (agents) who may have incentives to prolong cases or pursue strategies that generate more fees.\n\n## Root Cause: Information Asymmetry\n\nAt the heart of every principal-agent problem is **information asymmetry**: the agent typically knows more about their own actions, effort, and circumstances than the principal does. This asymmetry gives rise to two related problems:\n\n- **Moral hazard**: The agent takes **hidden actions** that the principal cannot fully observe or verify. For example, an employee may shirk when the boss is not watching, or an insured driver may drive recklessly because the insurance company bears the risk.\n- **Adverse selection**: The agent possesses **hidden information** that the principal lacks before entering the relationship. For example, a used car seller knows the true quality of the vehicle, while the buyer does not.\n\n## Solutions and Mechanisms\n\nOver centuries, institutions and organizations have developed a range of mechanisms to mitigate principal-agent problems:\n\n- **Monitoring**: Direct observation, audits, performance reviews, and reporting requirements help principals track agent behavior. However, monitoring is costly and often imperfect.\n- **Incentive alignment**: Tying the agent's compensation to outcomes the principal cares about reduces the divergence of interests. Stock options, profit sharing, performance bonuses, and commission-based pay are all designed to make the agent's rewards depend on results, not just effort.\n- **Contracts**: Well-designed contracts specify expectations, penalties for non-compliance, and reward structures. Contract theory, a major branch of economics, studies how to design optimal agreements under information asymmetry.\n- **Reputation mechanisms**: In repeated interactions, agents who perform well build reputations that attract future principals, creating incentives for good behavior. Online rating systems, professional certifications, and word-of-mouth all serve this function.\n- **Regulatory oversight**: Government regulations, industry standards, and professional licensing requirements constrain agent behavior and provide recourse for principals.\n\n## Corporate Governance and Beyond\n\nThe principal-agent problem is central to **corporate governance**, which encompasses the rules, practices, and processes by which companies are directed and controlled. Boards of directors, independent auditors, shareholder voting rights, and executive compensation design all exist to align management behavior with shareholder interests.\n\nIn political science, the concept informs theories of **political accountability**, constitutional design, and bureaucratic oversight. In healthcare, it shapes debates about fee-for-service versus value-based payment models. The principal-agent framework also connects to **mechanism design**, the field that studies how to construct rules and institutions that produce desirable outcomes even when participants act in their own self-interest.\n\nUnderstanding the principal-agent problem is essential for anyone navigating organizations, markets, or governance structures, because the tension between delegation and control is one of the most pervasive challenges in human cooperation.",
+    "tags": [
+        "economics",
+        "incentives",
+        "management",
+        "decision-making",
+        "game-theory"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Agency problem",
+        "Agency dilemma",
+        "Principal-agent theory"
+    ],
+    "relatedConcepts": [
+        "information-asymmetry",
+        "moral-hazard",
+        "adverse-selection",
+        "mechanism-design",
+        "game-theory",
+        "signaling"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Freakonomics by Steven Levitt and Stephen Dubner",
+            "url": "https://www.amazon.com/dp/0060731338?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Principal-agent problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

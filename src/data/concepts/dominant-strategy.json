@@ -1,0 +1,65 @@
+{
+    "id": "dominant-strategy",
+    "name": "Dominant Strategy",
+    "summary": "A strategy in game theory that yields a better outcome for a player regardless of what other players choose to do.",
+    "explanation": "A dominant strategy is one that produces a better payoff for a player no matter what strategies the other players employ. When a player has a dominant strategy, the decision becomes straightforward: play the dominant strategy, because it outperforms every alternative regardless of circumstances.\n\nGame theorists distinguish between **strictly dominant** and **weakly dominant** strategies. A strictly dominant strategy yields a strictly better outcome than any alternative for every possible combination of opponents' strategies. A weakly dominant strategy does at least as well as any alternative in all cases and strictly better in at least one case. This distinction matters because weakly dominant strategies may lead to different equilibrium predictions.\n\nThe existence of a dominant strategy dramatically simplifies decision-making. When one is available, a rational player does not need to predict or analyze opponents' behavior at all. This is powerful because most strategic situations require elaborate reasoning about what others will do. A **dominant strategy equilibrium** occurs when every player in a game has a dominant strategy, and the resulting combination of strategies forms a stable outcome.\n\nThe concept connects closely to Nash Equilibrium: every dominant strategy equilibrium is a Nash equilibrium, but the reverse is not true. Nash equilibria can exist in situations where no player has a dominant strategy. The technique of **iterated elimination of dominated strategies** takes this further by progressively removing strategies that are dominated, narrowing the set of plausible outcomes even when no single dominant strategy exists.\n\nThe Prisoner's Dilemma provides the most famous illustration of dominant strategy logic and its paradoxes. In a single round, defecting is the dominant strategy for both players: regardless of what the other player does, defecting yields a better individual payoff. Yet when both players follow their dominant strategy, the resulting mutual defection is worse for both than mutual cooperation. This demonstrates that individually rational decisions can lead to collectively suboptimal outcomes.\n\nIn practice, dominant strategy analysis is applied in auction design, voting systems, and business strategy. Mechanism designers specifically seek to create incentive structures where truthful behavior is a dominant strategy, a property known as strategy-proofness or incentive compatibility. Understanding when dominant strategies exist, and when they do not, helps decision-makers know when a problem is simple and when it requires deeper strategic thinking.",
+    "tags": [
+        "game-theory",
+        "strategies",
+        "decision-making",
+        "economics",
+        "rationality"
+    ],
+    "category": "Decision Science",
+    "icon": "FaChess",
+    "featured": false,
+    "aliases": [
+        "Strictly dominant strategy",
+        "Dominant action"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "nash-equilibrium",
+        "prisoners-dilemma",
+        "minimax",
+        "backward-induction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of Strategy by Avinash Dixit and Barry Nalebuff",
+            "url": "https://www.amazon.com/dp/0393337170?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Dominant strategy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dominant_strategy",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

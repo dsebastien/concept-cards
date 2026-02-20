@@ -1,0 +1,30 @@
+{
+    "id": "random-walk",
+    "name": "Random Walk",
+    "summary": "A mathematical model describing a path consisting of successive random steps, used to model stock prices, particle diffusion, and many natural and social phenomena.",
+    "explanation": "A random walk is a mathematical formalization of a path that consists of a succession of random steps. The simplest version is the **one-dimensional random walk**: starting at the origin, at each time step you flip a fair coin and move one unit to the right (heads) or one unit to the left (tails). Despite its simplicity, this model captures deep truths about randomness and appears throughout science, economics, and engineering.\n\n## The Drunkard's Walk\n\nThe concept is often introduced through the **\"drunkard's walk\"** metaphor: imagine an inebriated person stumbling randomly left or right from a lamppost. Where will they end up after *n* steps? On average, they return to the lamppost (the expected position is the starting point), but the expected *distance* from the starting point grows as the **square root of *n***. This means that while there is no systematic drift, the walker gradually wanders farther from the origin over time.\n\n## Mathematical Properties\n\nRandom walks exhibit several remarkable mathematical properties:\n\n- **Recurrence and transience**: In one and two dimensions, a simple random walk is **recurrent**, meaning it will return to its starting point infinitely often with probability 1. In three or more dimensions, it is **transient** and will eventually drift away forever. This surprising result is captured by **Polya's recurrence theorem** (1921), which George Polya famously summarized by noting that a drunk person will always find their way home in a flat city, but not in a three-dimensional one.\n- **Connection to Brownian motion**: As the step size shrinks and the number of steps grows, the random walk converges to **Brownian motion** (also called the Wiener process), a continuous-time stochastic process. This connection, established rigorously by Donsker's invariance principle, bridges discrete and continuous probability theory.\n- **Diffusion**: Random walks model the fundamental mechanism of **diffusion**, the process by which particles spread out from a concentrated source. The diffusion equation in physics can be derived from the random walk framework.\n\n## Applications in Finance\n\nOne of the most influential applications of random walks is in financial economics. The **random walk hypothesis** suggests that stock prices evolve according to a random walk and therefore cannot be predicted from past prices. **Burton Malkiel** popularized this idea in his classic book *A Random Walk Down Wall Street*, arguing that because markets are efficient, a blindfolded monkey throwing darts at a list of stocks would do as well as professional fund managers. While the pure random walk model has been refined over the decades, it remains a foundational concept in financial theory and the efficient market hypothesis.\n\n## Broader Applications\n\nRandom walks appear in an impressive variety of contexts:\n\n- **Physics**: Modeling molecular diffusion, polymer chain configurations, and heat conduction.\n- **Ecology**: Animal foraging patterns and the movement of organisms through heterogeneous landscapes follow random walk or related models.\n- **Computer science**: Randomized algorithms, graph exploration, and web crawling strategies are often analyzed through the lens of random walks.\n- **Network science**: Random walks on graphs are used to detect communities, rank nodes, and model information spreading.\n\nThe random walk is one of the most elegant examples of how a simple probabilistic model can generate rich, complex, and often counterintuitive behavior. It serves as a gateway to the broader theory of stochastic processes and remains an essential concept for anyone reasoning about randomness and uncertainty.",
+    "tags": ["mathematics", "probabilities", "statistics", "modeling", "randomness"],
+    "category": "Decision Science",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["Drunkard's walk"],
+    "relatedConcepts": ["stochastic-processes", "markov-chains", "monte-carlo-methods", "probabilistic-thinking", "regression-to-the-mean"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "A Random Walk Down Wall Street by Burton Malkiel",
+            "url": "https://www.amazon.com/dp/1324002182?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Random walk - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Random_walk",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

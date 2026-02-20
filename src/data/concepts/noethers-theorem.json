@@ -1,0 +1,34 @@
+{
+    "id": "noethers-theorem",
+    "name": "Noether's Theorem",
+    "summary": "The fundamental principle that every continuous symmetry in the laws of physics corresponds to a conserved physical quantity.",
+    "explanation": "Noether's theorem, published by the German mathematician Emmy Noether in 1918, is widely considered one of the most important theorems in both physics and mathematics. It establishes a profound and far-reaching connection between two seemingly distinct concepts: symmetry and conservation laws.\n\n## The Core Insight\n\nThe theorem states that if the laws of physics don't change under some continuous transformation — that is, if they possess a symmetry — then there must be a corresponding physical quantity that remains constant over time. This conserved quantity is not an accident or a lucky observation; it is a necessary, mathematical consequence of the symmetry itself.\n\n## Key Examples\n\nThree classical examples illustrate the power of the theorem:\n\n- **Time symmetry → Energy conservation**: The laws of physics are the same today as they were yesterday and will be tomorrow. This invariance under time translation directly implies that energy is conserved.\n- **Spatial translation symmetry → Momentum conservation**: The laws of physics are the same here as they are anywhere else in the universe. This invariance under spatial translation implies conservation of linear momentum.\n- **Rotational symmetry → Angular momentum conservation**: The laws of physics don't depend on the direction you're facing. This rotational invariance implies that angular momentum is conserved.\n\n## A Paradigm Shift\n\nBefore Noether's theorem, conservation laws were regarded as fundamental empirical facts discovered through observation and experiment. The theorem shifted our understanding profoundly: conservation laws are not independent axioms but rather necessary consequences of the symmetries of nature. This reframing unified two pillars of physics into a single, elegant framework.\n\n## Further Applications\n\nThe theorem extends well beyond the classical examples. Gauge symmetry — a local symmetry in quantum field theory — leads to the conservation of electric charge. Lorentz symmetry, the invariance of physical laws under changes of velocity in special relativity, connects to the conservation of relativistic four-momentum. Each new symmetry discovered in nature points to a new conserved quantity, and vice versa.\n\n## Impact on Modern Physics\n\nNoether's theorem is foundational to the Standard Model of particle physics, general relativity, and quantum field theory. Physicists routinely use symmetry arguments guided by the theorem to construct new theories, predict new particles, and understand the deep structure of the universe. Without it, much of modern theoretical physics would be unimaginable.\n\n## Broader Intellectual Significance\n\nThe theorem demonstrates a deep and unexpected connection between abstract mathematics and physical reality. It shows that the regularities we observe in the natural world are not arbitrary but are rooted in the mathematical structure of the laws themselves. Emmy Noether, one of the most important mathematicians of the 20th century — whom Einstein called the most important woman in the history of mathematics — gave us a lens through which the unity of nature becomes visible.",
+    "tags": ["physics", "mathematics", "symmetry", "conservation", "principles"],
+    "category": "Principles",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Noether's first theorem", "Emmy Noether's theorem"],
+    "relatedConcepts": ["conservation-laws", "symmetry-in-physics", "symmetry-breaking", "first-principles", "emergence"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Noether Theorems: Invariance and Conservation Laws in the Twentieth Century by Yvette Kosmann-Schwarzbach",
+            "url": "https://www.amazon.com/dp/1461427681?tag=dsebastien00-20"
+        },
+        {
+            "title": "Fearful Symmetry: The Search for Beauty in Modern Physics by A. Zee",
+            "url": "https://www.amazon.com/dp/0691173265?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Noether's theorem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Noether%27s_theorem",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

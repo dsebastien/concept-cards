@@ -1,0 +1,30 @@
+{
+    "id": "monte-carlo-methods",
+    "name": "Monte Carlo Methods",
+    "summary": "Computational algorithms that use repeated random sampling to estimate numerical results, model complex systems, and solve problems that are deterministically intractable.",
+    "explanation": "Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical estimates of quantities that may be difficult or impossible to compute analytically. The core idea is deceptively simple: if you can simulate a random process related to your problem, you can run that simulation many times and use the aggregate results to approximate the answer.\n\n## Origins\n\nThe modern formulation of Monte Carlo methods is attributed to **Stanislaw Ulam** and **John von Neumann**, who developed them during the 1940s while working on nuclear weapons research at Los Alamos as part of the Manhattan Project. Ulam conceived the approach while playing solitaire and wondering about the probability of winning. The name \"Monte Carlo\" was suggested by Nicholas Metropolis, a reference to the famous Monte Carlo Casino in Monaco, evoking the element of chance central to the method.\n\n## How It Works\n\nA classic introductory example is estimating the value of **pi**. Imagine a unit square with an inscribed quarter circle. By generating random points uniformly within the square and counting what fraction falls inside the quarter circle, you can approximate pi/4. As the number of random samples grows, the estimate converges to the true value. This convergence is guaranteed by the **law of large numbers**, which states that the average of a large number of independent random samples approaches the expected value.\n\n## Markov Chain Monte Carlo (MCMC)\n\nOne of the most significant extensions is **Markov Chain Monte Carlo (MCMC)**, which constructs a Markov chain whose stationary distribution matches a desired target distribution. MCMC is indispensable in **Bayesian statistics**, where it enables sampling from complex posterior distributions that cannot be computed in closed form. Key MCMC algorithms include the **Metropolis-Hastings algorithm** and **Gibbs sampling**, both of which have become standard tools in statistical inference, machine learning, and computational science.\n\n## Applications\n\nMonte Carlo methods are used across an extraordinary range of disciplines:\n\n- **Finance**: Risk modeling, option pricing, and Value at Risk (VaR) estimation rely heavily on Monte Carlo simulation to model the behavior of portfolios under uncertainty.\n- **Physics**: Simulating particle interactions, modeling thermodynamic systems, and lattice quantum chromodynamics all employ Monte Carlo techniques.\n- **Engineering**: Reliability analysis, tolerance analysis in manufacturing, and structural safety assessment use Monte Carlo methods to propagate uncertainty through complex models.\n- **AI and machine learning**: Reinforcement learning (e.g., Monte Carlo tree search in game-playing agents like AlphaGo), particle filters for tracking and state estimation, and variational inference methods all draw on Monte Carlo ideas.\n- **Drug discovery and biology**: Molecular dynamics simulations and protein folding studies use Monte Carlo sampling to explore vast configurational spaces.\n- **Weather and climate modeling**: Ensemble forecasting generates multiple Monte Carlo runs to quantify forecast uncertainty.\n\n## Advantages and Limitations\n\nMonte Carlo methods excel when dealing with **high-dimensional problems** where deterministic numerical methods (like grid-based integration) suffer from the curse of dimensionality. They are also naturally **parallelizable**, making them well-suited to modern computing architectures. However, they produce **approximate results** that come with statistical uncertainty, and convergence can be slow for some problems, requiring large numbers of samples to achieve high accuracy. Variance reduction techniques such as importance sampling, stratified sampling, and control variates have been developed to improve efficiency.",
+    "tags": ["mathematics", "algorithms", "statistics", "probabilities", "modeling"],
+    "category": "Decision Science",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": ["Monte Carlo simulation", "Monte Carlo sampling", "MCMC"],
+    "relatedConcepts": ["markov-chains", "stochastic-processes", "probabilistic-thinking", "bayes-theorem", "random-walk", "expected-value"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Theory That Would Not Die by Sharon Bertsch McGrayne",
+            "url": "https://www.amazon.com/dp/0300188226?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Monte Carlo method - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

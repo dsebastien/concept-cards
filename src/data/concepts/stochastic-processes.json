@@ -1,0 +1,30 @@
+{
+    "id": "stochastic-processes",
+    "name": "Stochastic Processes",
+    "summary": "Mathematical models describing collections of random variables that evolve over time, used to model uncertainty in systems from finance to physics.",
+    "explanation": "A stochastic process is a collection of random variables indexed by time or space, representing the evolution of a system subject to randomness. Unlike deterministic processes, where the outcome is fully determined by initial conditions and governing equations, stochastic processes incorporate inherent unpredictability. They provide the mathematical language for describing phenomena where uncertainty plays a fundamental role.\n\n## Classification\n\nStochastic processes are classified along two dimensions:\n\n- **Time**: The index set can be **discrete** (e.g., daily stock prices, steps in a random walk) or **continuous** (e.g., temperature fluctuations, particle trajectories measured at every instant).\n- **State space**: The values the random variables can take may be **discrete** (e.g., number of customers in a queue) or **continuous** (e.g., stock price levels).\n\nThis gives rise to four broad families, each with its own mathematical tools and characteristic behaviors.\n\n## Important Types\n\nSeveral families of stochastic processes appear repeatedly across disciplines:\n\n- **Markov chains**: Discrete-time processes where the future depends only on the present state, not the past. They are the workhorses of applied probability.\n- **Poisson processes**: Model the occurrence of events happening independently at a constant average rate, such as radioactive decay, customer arrivals, or website hits.\n- **Brownian motion (Wiener process)**: A continuous-time, continuous-state process that models the erratic motion of particles suspended in fluid. It is the mathematical foundation of modern financial theory and diffusion processes.\n- **Random walks**: Discrete-time paths formed by successive random steps, closely connected to Markov chains and serving as discrete analogs of Brownian motion.\n- **Birth-death processes**: Model populations where individuals are born and die at random rates, widely used in biology, queueing theory, and epidemiology.\n- **Martingales**: Processes where the expected future value, given all past information, equals the current value. They formalize the notion of a \"fair game\" and are central to mathematical finance.\n\n## Applications\n\nStochastic processes permeate modern science, engineering, and decision-making:\n\n- **Finance**: Stock prices are modeled as geometric Brownian motion in the **Black-Scholes framework**. Interest rate models, option pricing, and risk management all rest on stochastic process theory.\n- **Queueing theory**: Models of network traffic, call centers, hospital patient flow, and manufacturing lines use stochastic processes to analyze waiting times and system throughput.\n- **Physics**: Particle diffusion, thermodynamic fluctuations, and quantum mechanics all involve stochastic descriptions of nature.\n- **Biology and epidemiology**: Population dynamics, genetic drift, the spread of infectious diseases, and neural spike trains are modeled as stochastic processes.\n- **Engineering**: Signal processing, reliability analysis, and telecommunications rely on stochastic models to handle noise, failure rates, and channel capacity.\n\n## Role in AI and Machine Learning\n\nStochastic processes are deeply embedded in modern AI. Markov decision processes underpin reinforcement learning. Gaussian processes provide flexible nonparametric models for regression and Bayesian optimization. Diffusion models, which have revolutionized generative AI for images and other media, are directly inspired by stochastic diffusion processes that gradually add and then reverse noise. Understanding stochastic processes provides essential intuition for reasoning about uncertainty, randomness, and the limits of prediction.",
+    "tags": ["mathematics", "probabilities", "statistics", "modeling", "randomness"],
+    "category": "Decision Science",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["Random processes"],
+    "relatedConcepts": ["markov-chains", "random-walk", "monte-carlo-methods", "probabilistic-thinking", "regression-to-the-mean", "signal-vs-noise"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Adventures in Stochastic Processes by Sidney Resnick",
+            "url": "https://www.amazon.com/dp/0817635912?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Stochastic process - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Stochastic_process",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

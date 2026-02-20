@@ -1,0 +1,46 @@
+{
+    "id": "mechanism-design",
+    "name": "Mechanism Design",
+    "summary": "The field of economics that designs rules, incentives, and institutions to achieve desired outcomes when participants act in their own self-interest.",
+    "explanation": "Mechanism design is often described as **reverse game theory**. While traditional game theory takes the rules of a game as given and analyzes how rational players will behave, mechanism design starts with a desired outcome and works backward to engineer rules, incentives, and institutions that will produce that outcome when self-interested participants interact.\n\nThe field was recognized with the 2007 Nobel Prize in Economics, awarded to Leonid Hurwicz, Roger Myerson, and Eric Maskin. Hurwicz laid the foundations by formalizing the idea that institutions could be designed to align individual incentives with social goals. Myerson and Maskin extended the theory with powerful results about what is achievable through mechanism design and under what conditions.\n\nTwo central concepts underpin the field. The **revelation principle** states that for any mechanism that achieves a desired outcome, there exists an equivalent direct mechanism where participants truthfully report their private information. This dramatically simplifies analysis by allowing designers to focus on truth-telling mechanisms. **Incentive compatibility** means that the mechanism is designed so that each participant's best strategy is to act truthfully and follow the intended rules, rather than trying to game the system.\n\nAuction design is one of the most successful applications of mechanism design. The **Vickrey auction** (second-price sealed-bid auction) is a classic example: bidders submit sealed bids, the highest bidder wins but pays the second-highest bid price. This elegant mechanism makes truthful bidding a dominant strategy, solving the problem of strategic underbidding. Governments have used mechanism design principles to run spectrum auctions worth billions of dollars.\n\nMatching markets represent another major application area, pioneered by Alvin Roth (Nobel Prize 2012). The National Resident Matching Program pairs medical graduates with hospital residency programs. Similar mechanisms have been designed for school choice systems, where families rank schools and an algorithm produces stable, fair assignments. Kidney exchange programs use mechanism design to arrange donor swaps, saving lives that would otherwise be lost to incompatible donor-recipient pairs.\n\nMechanism design principles appear throughout the modern economy. Online advertising platforms use auction mechanisms to allocate ad space. Voting systems are mechanisms designed to aggregate preferences. Carbon trading schemes use market mechanisms to reduce emissions. In each case, the core challenge is the same: design rules so that when self-interested participants each pursue their own goals, the collective outcome serves the broader objective.",
+    "tags": [
+        "game-theory",
+        "economics",
+        "incentives",
+        "strategies",
+        "systems-thinking"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Reverse game theory",
+        "Incentive engineering",
+        "Market design"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "information-asymmetry",
+        "nash-equilibrium",
+        "principal-agent-problem",
+        "moral-hazard"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Who Gets What and Why by Alvin Roth",
+            "url": "https://www.amazon.com/dp/0544705289?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Mechanism design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mechanism_design",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

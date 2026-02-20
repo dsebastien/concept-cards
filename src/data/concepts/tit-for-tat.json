@@ -1,0 +1,65 @@
+{
+    "id": "tit-for-tat",
+    "name": "Tit for Tat",
+    "summary": "A game theory strategy that starts by cooperating and then mirrors the opponent's previous move in each subsequent round.",
+    "explanation": "Tit for Tat is one of the most celebrated strategies in game theory, made famous by Robert Axelrod's computer tournaments in the early 1980s. In these tournaments, Axelrod invited game theorists to submit strategies for the iterated Prisoner's Dilemma, where the same two players face each other repeatedly. The winning strategy, submitted by Anatol Rapoport, was remarkably simple: cooperate on the first move, then do whatever the opponent did on the previous move.\n\nThe strategy's success stems from four key properties. First, it is **nice**: it never defects first, which means it never initiates conflict. Second, it is **retaliatory**: it immediately punishes defection by defecting in the next round, discouraging exploitation. Third, it is **forgiving**: as soon as the opponent returns to cooperation, Tit for Tat cooperates as well, allowing relationships to recover from conflict. Fourth, it is **clear**: its behavior is transparent and predictable, making it easy for other strategies to understand and adapt to.\n\nIn the iterated Prisoner's Dilemma, Tit for Tat demonstrates how cooperation can emerge among self-interested agents without any central authority or pre-arranged agreement. When players interact repeatedly and the future casts a long enough shadow, the threat of retaliation and the reward of sustained cooperation create incentives that favor cooperative behavior over exploitation.\n\nThe simplicity of Tit for Tat is itself a strength. More complex strategies that attempt to exploit opponents or use elaborate conditional logic tend to perform worse on average because they introduce ambiguity and instability. Tit for Tat's transparent reciprocity builds trust and establishes stable cooperative relationships.\n\nSeveral variants have been developed to address specific weaknesses. **Generous Tit for Tat** occasionally cooperates even after the opponent defects, which helps break cycles of mutual retaliation caused by noise or misunderstandings. **Tit for Two Tats** only retaliates after two consecutive defections, making it more tolerant of occasional defection but potentially more exploitable.\n\nThe principles of Tit for Tat extend far beyond theoretical games. In diplomacy, nations often adopt reciprocal strategies where cooperation is met with cooperation and aggression with proportional response. In business, companies may match competitors' pricing moves or respond to partnership overtures in kind. In evolutionary biology, reciprocal altruism in animal populations mirrors the logic of Tit for Tat, explaining how cooperative behavior can evolve and persist through natural selection even among unrelated individuals.",
+    "tags": [
+        "strategies",
+        "game-theory",
+        "cooperation",
+        "decision-making",
+        "reciprocity"
+    ],
+    "category": "Decision Science",
+    "icon": "FaHandshake",
+    "featured": false,
+    "aliases": [
+        "Tit-for-tat strategy",
+        "Reciprocal altruism strategy"
+    ],
+    "relatedConcepts": [
+        "prisoners-dilemma",
+        "game-theory",
+        "nash-equilibrium",
+        "tragedy-of-the-commons",
+        "reciprocity-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Evolution of Cooperation by Robert Axelrod",
+            "url": "https://www.amazon.com/dp/0465005640?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Tit for tat - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tit_for_tat",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

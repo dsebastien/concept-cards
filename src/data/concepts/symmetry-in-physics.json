@@ -1,0 +1,34 @@
+{
+    "id": "symmetry-in-physics",
+    "name": "Symmetry in Physics",
+    "summary": "The property that the laws of physics remain unchanged under specific transformations such as translations in space or time, rotations, or reflections.",
+    "explanation": "In physics, a symmetry exists when a system or physical law remains unchanged — or invariant — under some transformation. Symmetry is not merely an aesthetic quality; it is the deepest organizing principle in modern physics, shaping our understanding of everything from mechanics to particle physics to cosmology.\n\n## Types of Symmetry\n\nPhysical symmetries fall into two broad categories:\n\n- **Continuous symmetries**: Transformations that can be applied in infinitesimally small increments. These include spatial translations, time translations, and rotations.\n- **Discrete symmetries**: Transformations that are all-or-nothing. These include reflection (parity, P), charge conjugation (C), and time reversal (T).\n\n## Classical Symmetries\n\nThe most familiar symmetries are those of everyday experience:\n\n- **Space translation symmetry**: The laws of physics are the same in Paris as they are in Tokyo. An experiment performed here will yield the same result if performed anywhere else, all other conditions being equal.\n- **Time translation symmetry**: The laws of physics are the same today as they were a billion years ago and will be a billion years from now. The rules don't change over time.\n- **Rotational symmetry**: The laws of physics don't depend on which direction you're facing. There is no preferred orientation in space.\n\n## Noether's Theorem\n\nThe profound significance of these symmetries was revealed by Emmy Noether's theorem (1918), which proved that every continuous symmetry of the laws of physics corresponds to a conserved quantity. Time symmetry gives energy conservation, spatial symmetry gives momentum conservation, and rotational symmetry gives angular momentum conservation. This connection between symmetry and conservation is one of the deepest results in all of science.\n\n## Gauge Symmetries\n\nIn quantum field theory, a more abstract class of symmetries called gauge symmetries plays a central role. These are local symmetries — transformations that can vary from point to point in space and time. The requirement that physical laws be invariant under gauge transformations leads directly to the existence of the fundamental forces. The electromagnetic force arises from U(1) gauge symmetry, the weak nuclear force from SU(2), and the strong nuclear force from SU(3). Together, these gauge symmetries underpin the Standard Model of particle physics.\n\n## Lorentz Symmetry\n\nLorentz symmetry is the invariance of physical laws under changes of velocity — the principle that the laws of physics are the same for all observers moving at constant speed relative to one another. This symmetry is the mathematical foundation of Einstein's special theory of relativity and has been confirmed to extraordinary precision.\n\n## CPT Symmetry\n\nOne of the most fundamental symmetries in quantum field theory is CPT symmetry: the combined operation of charge conjugation (replacing particles with antiparticles), parity (mirror reflection), and time reversal. The CPT theorem states that any Lorentz-invariant quantum field theory must be invariant under the combined CPT transformation, even if individual C, P, or T symmetries are violated.\n\n## Symmetry as a Guiding Principle\n\nIn modern theoretical physics, symmetry serves as a primary tool for discovering new theories. Rather than starting from specific equations, physicists often begin by identifying the symmetries a theory must possess and then derive the equations that satisfy those constraints. This approach has been extraordinarily fruitful, leading to the prediction and discovery of new particles, forces, and phenomena.\n\n## Philosophical Significance\n\nThe role of symmetry in physics carries deep philosophical implications. The regularities, patterns, and laws we observe in the universe are not arbitrary — they arise from its symmetries. In a sense, the universe is the way it is because of the symmetries it possesses, and the diversity and structure we see around us emerge precisely where those symmetries are broken.",
+    "tags": ["physics", "mathematics", "symmetry", "principles", "fundamentals"],
+    "category": "Principles",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Physical symmetry", "Invariance", "Symmetry principle"],
+    "relatedConcepts": ["noethers-theorem", "conservation-laws", "symmetry-breaking", "first-principles"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Fearful Symmetry: The Search for Beauty in Modern Physics by A. Zee",
+            "url": "https://www.amazon.com/dp/0691173265?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Elegant Universe by Brian Greene",
+            "url": "https://www.amazon.com/dp/039333810X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Symmetry (physics) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Symmetry_(physics)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}
