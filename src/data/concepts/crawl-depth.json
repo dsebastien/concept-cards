@@ -1,0 +1,48 @@
+{
+    "id": "crawl-depth",
+    "name": "Crawl Depth",
+    "summary": "The number of clicks required to reach a page from a website's homepage, affecting how search engines prioritize crawling.",
+    "explanation": "Crawl depth (also called click depth or page depth) measures how many clicks it takes to reach a page starting from the homepage. Pages closer to the homepage (lower depth) are typically crawled more frequently and considered more important by search engines.\n\nDepth levels:\n\n- **Depth 0**: The homepage itself\n- **Depth 1**: Pages directly linked from the homepage (main navigation, featured content)\n- **Depth 2**: Pages linked from depth 1 pages\n- **Depth 3+**: Progressively deeper pages, often buried in archives or subcategories\n\nWhy crawl depth matters:\n\n- **Crawl priority**: Search engines allocate more crawl budget to shallow pages\n- **Link equity distribution**: Equity diminishes with each click away from authoritative pages\n- **Freshness signals**: Shallow pages are recrawled more frequently, so updates are detected faster\n- **Perceived importance**: Search engines infer that pages linked prominently from the homepage are more important\n- **User experience**: Deep pages are harder for users to find organically\n\nImpact on crawl budget:\n\nFor large sites, pages at depth 4+ may not be crawled for weeks or months. If your crawl budget is limited, deep pages might not be crawled at all. This directly affects indexability and ranking potential.\n\nOptimization strategies:\n\n- Keep important pages within 3 clicks of the homepage\n- Use flat site architecture rather than deep hierarchies\n- Add internal links from shallow pages to important deep pages\n- Use breadcrumb navigation to create shorter paths\n- Implement hub pages or topic clusters to bring deep content closer to the surface\n- Submit deep pages in XML sitemaps as a secondary discovery method\n- Regularly audit crawl depth using tools like Screaming Frog or Sitebulb\n\nCrawl depth is closely tied to site architecture. A well-structured site keeps important content shallow while maintaining logical organization.",
+    "tags": [
+        "seo",
+        "crawling",
+        "site-architecture",
+        "technical",
+        "search-engines"
+    ],
+    "category": "Concepts",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Click Depth",
+        "Page Depth",
+        "Link Depth"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "internal-linking",
+        "orphan-pages",
+        "link-equity",
+        "technical-seo",
+        "web-crawler",
+        "indexability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Crawl depth and its impact on SEO - Ahrefs",
+            "url": "https://ahrefs.com/seo/glossary/crawl-depth",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

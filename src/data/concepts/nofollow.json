@@ -1,0 +1,52 @@
+{
+    "id": "nofollow",
+    "name": "Nofollow",
+    "summary": "An HTML attribute that tells search engines not to pass link equity through a hyperlink.",
+    "explanation": "Nofollow is a link attribute (rel=\"nofollow\") introduced by Google in 2005 to combat comment spam. When added to a hyperlink, it signals to search engines that the linking page does not vouch for the linked page. Originally, nofollow completely prevented link equity from passing; since 2019, Google treats it as a hint rather than a directive.\n\nThe three rel attribute values for links:\n\n- **rel=\"nofollow\"**: General signal not to pass equity (originally for spam prevention)\n- **rel=\"sponsored\"**: Identifies paid or sponsored links\n- **rel=\"ugc\"**: Identifies user-generated content links (comments, forum posts)\n\nThese can be combined (e.g., rel=\"nofollow ugc\") and all signal that equity should not flow through the link.\n\nCommon nofollow use cases:\n\n- Blog comments and forum posts (prevent spam manipulation)\n- Paid links and advertisements (required by Google's guidelines)\n- User-generated content (social media profiles, wikis)\n- Untrusted content (links you can't vouch for)\n- Login and registration pages (no SEO value in crawling these)\n\nThe 2019 evolution:\n\nGoogle changed nofollow from a directive (always obeyed) to a hint (may be ignored). This means Google may choose to crawl and even pass some equity through nofollow links if it believes the link is editorially valuable. For indexing, nofollow links are used as hints since March 2020.\n\nSEO implications:\n\n- Nofollow links still have value: they drive traffic, brand awareness, and diversify link profiles\n- Over-using nofollow internally (\"PageRank sculpting\") is no longer effective\n- A natural link profile contains a mix of follow and nofollow links\n- Search engines may still discover and index pages through nofollow links",
+    "tags": [
+        "seo",
+        "links",
+        "html",
+        "technical",
+        "search-engines"
+    ],
+    "category": "Concepts",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "rel=nofollow",
+        "No-follow",
+        "Nofollow attribute"
+    ],
+    "relatedConcepts": [
+        "link-equity",
+        "link-building",
+        "pagerank",
+        "seo",
+        "technical-seo",
+        "anchor-text"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Nofollow - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Nofollow",
+            "type": "website"
+        },
+        {
+            "title": "Qualify outbound links to Google - Google Search Central",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

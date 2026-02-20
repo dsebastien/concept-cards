@@ -1,0 +1,48 @@
+{
+    "id": "internal-linking",
+    "name": "Internal Linking",
+    "summary": "The practice of creating hyperlinks between pages on the same website to distribute link equity and improve navigation.",
+    "explanation": "Internal linking is the strategic practice of connecting pages within the same website through hyperlinks. Unlike external links (from other domains), internal links are entirely within your control, making them one of the most actionable SEO levers.\n\nWhy internal linking matters:\n\n- **Distributes link equity**: Pages that earn external links can pass authority to deeper pages through internal links\n- **Aids crawling**: Search engines discover new pages by following links; internal links ensure all pages are reachable\n- **Establishes hierarchy**: Link structure signals which pages are most important\n- **Provides context**: Anchor text in internal links helps search engines understand page topics\n- **Improves user experience**: Helps visitors find related content and navigate naturally\n\nInternal linking strategies:\n\n- **Hub and spoke**: A main topic page (hub) links to supporting subtopic pages (spokes), and spokes link back\n- **Contextual links**: Links placed naturally within body content, using descriptive anchor text\n- **Breadcrumbs**: Navigational links showing page hierarchy\n- **Related content sections**: Algorithmically or manually selected related pages\n- **Topic clusters**: Groups of related content linked through a pillar page\n\nBest practices:\n\n- Use descriptive, keyword-rich anchor text (avoid \"click here\")\n- Link deep: connect to important pages buried in site architecture\n- Fix orphan pages by adding internal links to them\n- Keep important pages within 3 clicks of the homepage\n- Regularly audit internal links for broken links and opportunities\n- Prioritize contextual links over navigational ones for SEO value\n\nInternal linking is where site architecture meets SEO strategy. A well-planned internal linking structure ensures that link equity flows to your most important pages and that search engines can efficiently crawl your entire site.",
+    "tags": [
+        "seo",
+        "links",
+        "site-architecture",
+        "navigation",
+        "strategies"
+    ],
+    "category": "Techniques",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Internal Links",
+        "Interlinking",
+        "Site Interlinking"
+    ],
+    "relatedConcepts": [
+        "link-equity",
+        "crawl-budget",
+        "crawl-depth",
+        "anchor-text",
+        "orphan-pages",
+        "seo",
+        "technical-seo"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Internal link - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Internal_link",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "orphan-pages",
+    "name": "Orphan Pages",
+    "summary": "Web pages that have no internal links pointing to them, making them difficult for search engines to discover and crawl.",
+    "explanation": "Orphan pages are web pages that exist on a site but have no internal links pointing to them from any other page. Since search engine crawlers discover pages primarily by following links, orphan pages are effectively invisible to crawlers unless submitted via XML sitemaps or discovered through external backlinks.\n\nWhy orphan pages are problematic:\n\n- **Crawling**: Crawlers can't find pages with no inbound internal links\n- **Indexing**: Undiscovered pages can't be indexed and won't appear in search results\n- **Link equity**: Orphan pages receive zero internal link equity, severely limiting ranking potential\n- **Wasted content**: Valuable content that nobody, neither users nor search engines, can find\n- **Crawl budget**: If discovered via sitemaps, they still consume crawl budget without the benefit of internal context\n\nCommon causes:\n\n- Pages removed from navigation during site redesigns\n- Blog posts not linked from category or archive pages\n- Product pages from discontinued categories\n- Landing pages created for campaigns and then forgotten\n- CMS-generated pages with no template-level linking\n- Pages created for testing that were never integrated\n\nHow to find orphan pages:\n\n- Compare pages in your XML sitemap with pages found by a site crawler (like Screaming Frog)\n- Pages in the sitemap but not found during crawling are orphans\n- Google Search Console's Index Coverage report shows indexed pages that may lack internal links\n- Log file analysis reveals pages Googlebot reaches only through sitemaps\n\nHow to fix orphan pages:\n\n- Add internal links from relevant, related pages\n- Include them in appropriate navigation, categories, or archives\n- Create hub pages or topic clusters that link to related orphan content\n- If the page is no longer needed, remove it or redirect it\n- Add breadcrumb navigation to ensure every page has at least one internal link path\n- Implement related content sections that automatically link to similar pages",
+    "tags": [
+        "seo",
+        "site-architecture",
+        "crawling",
+        "technical",
+        "content"
+    ],
+    "category": "Concepts",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Orphaned Pages",
+        "Dead-end Pages",
+        "Unlinked Pages"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "crawl-depth",
+        "internal-linking",
+        "link-equity",
+        "indexability",
+        "technical-seo",
+        "xml-sitemap"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Find and fix orphan pages - Ahrefs",
+            "url": "https://ahrefs.com/seo/glossary/orphan-page",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

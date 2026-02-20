@@ -1,0 +1,52 @@
+{
+    "id": "redirect-chains",
+    "name": "Redirect Chains",
+    "summary": "A series of multiple consecutive URL redirects that waste crawl budget and dilute link equity.",
+    "explanation": "A redirect chain occurs when a URL redirects to another URL, which redirects to yet another URL, creating a sequence of hops before reaching the final destination. Each hop wastes crawl budget, increases page load time, and can dilute the link equity passed to the final page.\n\nExample of a redirect chain:\n\nPage A (301) -> Page B (301) -> Page C (301) -> Page D (final)\n\nInstead, Page A should redirect directly to Page D.\n\nTypes of redirects and their impact:\n\n- **301 (Permanent)**: Passes most link equity (~90-99%). Tells search engines the move is permanent.\n- **302 (Temporary)**: May not pass full equity. Signals the original URL should remain indexed.\n- **Meta refresh**: Client-side redirect. Slower, passes less equity, poor user experience.\n- **JavaScript redirects**: May not be followed by all crawlers. Unreliable for SEO.\n\nWhy redirect chains are harmful:\n\n- **Crawl budget waste**: Each hop costs an additional server request; Google may stop following after 5+ hops\n- **Link equity loss**: Some equity is lost at each redirect step\n- **Slower page load**: Each redirect adds latency (typically 100-500ms per hop)\n- **Indexing confusion**: Search engines may index an intermediate URL instead of the final destination\n- **User experience**: Noticeable delays with long chains\n\nCommon causes:\n\n- Site migrations done incrementally over years\n- CMS URL changes without updating old redirects\n- HTTP to HTTPS migration layered on existing redirects\n- Domain changes without consolidating redirect rules\n- Trailing slash inconsistencies\n\nHow to fix:\n\n- Audit redirects with tools like Screaming Frog, Ahrefs, or Sitebulb\n- Replace chains with single direct redirects to the final destination\n- Update internal links to point to final URLs directly\n- Monitor server logs for redirect patterns\n- Implement redirects at the server level (not via JavaScript or meta tags)\n- Review redirect rules during site migrations",
+    "tags": [
+        "seo",
+        "technical",
+        "crawling",
+        "performance",
+        "web"
+    ],
+    "category": "Concepts",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Redirect Loops",
+        "301 Chains",
+        "Redirect Hops"
+    ],
+    "relatedConcepts": [
+        "crawl-budget",
+        "link-equity",
+        "technical-seo",
+        "web-crawler",
+        "indexability",
+        "core-web-vitals"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "URL redirection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/URL_redirection",
+            "type": "website"
+        },
+        {
+            "title": "Redirects and Google Search - Google Search Central",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

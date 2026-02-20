@@ -1,0 +1,50 @@
+{
+    "id": "pagerank",
+    "name": "PageRank",
+    "summary": "Google's foundational algorithm that ranks web pages based on the quantity and quality of links pointing to them.",
+    "explanation": "PageRank, developed by Larry Page and Sergey Brin at Stanford in 1996, is the algorithm that launched Google. It treats the web as a directed graph where pages are nodes and hyperlinks are edges. A page's importance is determined by how many pages link to it and how important those linking pages are.\n\nThe core idea: if many important pages link to a page, that page is also important. This recursive definition creates a mathematical model of web authority.\n\nHow PageRank works:\n\n1. Each page starts with an equal share of PageRank\n2. A page distributes its PageRank equally among its outbound links\n3. The algorithm iterates until values converge\n4. A damping factor (originally ~0.85) accounts for users who stop clicking links\n\nThe damping factor models the \"random surfer\" who follows links but occasionally jumps to a random page. This prevents pages with no outbound links (dangling nodes) from accumulating all the rank.\n\nKey properties:\n\n- **Recursive**: A page's score depends on the scores of pages linking to it\n- **Distributional**: A page divides its rank among all its outbound links\n- **Convergent**: The algorithm reaches a stable state after enough iterations\n- **Democratic but weighted**: More links help, but links from important pages help more\n\nWhile Google's modern ranking algorithm uses hundreds of signals, PageRank's fundamental insight, that links are votes of confidence and not all votes are equal, remains central to how search engines evaluate pages. The concept directly gave rise to link equity, domain authority, and the entire discipline of link building.",
+    "tags": [
+        "seo",
+        "algorithms",
+        "search-engines",
+        "links",
+        "rankings"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "PR",
+        "Google PageRank"
+    ],
+    "relatedConcepts": [
+        "link-equity",
+        "domain-authority",
+        "link-building",
+        "seo",
+        "web-crawler"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "PageRank - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/PageRank",
+            "type": "website"
+        },
+        {
+            "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine (Original Paper)",
+            "url": "http://infolab.stanford.edu/~backrub/google.html",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

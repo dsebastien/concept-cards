@@ -1,0 +1,46 @@
+{
+    "id": "anchor-text",
+    "name": "Anchor Text",
+    "summary": "The visible clickable text of a hyperlink that provides context to search engines about the linked page's content.",
+    "explanation": "Anchor text is the visible, clickable words in a hyperlink. Search engines use it as a signal to understand what the linked page is about. When many pages link to a page using similar anchor text, it strongly influences what that page ranks for.\n\nTypes of anchor text:\n\n- **Exact match**: Uses the target keyword exactly (e.g., \"link building\" linking to a link building guide)\n- **Partial match**: Contains the keyword with additional words (e.g., \"best link building strategies\")\n- **Branded**: Uses the brand name (e.g., \"Moz\")\n- **Naked URL**: The raw URL as anchor text (e.g., \"https://example.com\")\n- **Generic**: Non-descriptive text (e.g., \"click here\", \"read more\")\n- **Image anchor**: When an image is linked, the alt text serves as anchor text\n\nSEO implications:\n\n- Anchor text is one of the strongest relevance signals for search engines\n- Over-optimized anchor text (too many exact-match links) can trigger penalties\n- A natural anchor text profile contains a diverse mix of all types\n- Internal link anchor text is fully within your control and should be descriptive\n- External anchor text distribution should appear natural and varied\n\nBest practices:\n\n- Write descriptive anchor text that tells users and search engines what to expect\n- Vary anchor text across links pointing to the same page\n- Avoid generic anchors like \"click here\" when possible\n- Use exact-match anchors sparingly for external links\n- Be more liberal with keyword-rich anchors for internal links\n- Ensure anchor text accurately represents the linked content\n\nGoogle's original PageRank paper specifically identified anchor text as a valuable signal because it represents what other people say about a page, not what the page says about itself. This makes anchor text manipulation a key focus of both SEO strategy and search engine spam detection.",
+    "tags": [
+        "seo",
+        "links",
+        "html",
+        "content",
+        "search-engines"
+    ],
+    "category": "Concepts",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Link Text",
+        "Link Anchor"
+    ],
+    "relatedConcepts": [
+        "link-equity",
+        "link-building",
+        "nofollow",
+        "internal-linking",
+        "seo",
+        "pagerank"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of SEO by Eric Enge",
+            "url": "https://www.amazon.com/dp/1491948965?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Anchor text - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Anchor_text",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}
