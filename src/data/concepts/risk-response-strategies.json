@@ -1,0 +1,66 @@
+{
+    "id": "risk-response-strategies",
+    "name": "Risk Response Strategies",
+    "summary": "The four primary approaches to handling identified risks: avoid, transfer, mitigate, and accept.",
+    "explanation": "Risk response strategies are the fundamental approaches available for treating identified risks. After risks have been assessed and prioritized, decision-makers must choose how to handle each one. The four classic strategies—avoid, transfer, mitigate, and accept—provide a structured framework for these decisions.\n\n**The four strategies**:\n\n- **Avoid**: Eliminate the risk entirely by not engaging in the activity that creates it, or by changing plans to remove the threat. Example: canceling a project that carries unacceptable regulatory risk. Avoidance is appropriate when the risk clearly outweighs the potential benefit.\n\n- **Transfer**: Shift the risk to a third party who is better positioned to manage it. Common methods include insurance, outsourcing, contracts with indemnification clauses, and hedging. Transfer does not eliminate the risk but reassigns responsibility for it. Example: purchasing cyber liability insurance to transfer financial exposure from a data breach.\n\n- **Mitigate**: Reduce either the likelihood of the risk occurring or its potential impact. This is the most commonly used strategy and includes preventive controls, detective controls, and corrective controls. Example: implementing redundant systems to reduce the impact of hardware failure.\n\n- **Accept**: Acknowledge the risk and choose to bear it without additional action. Acceptance is appropriate when the cost of other strategies exceeds the expected loss, or when the risk is within the organization's risk appetite. Acceptance can be active (with a contingency plan) or passive (simply monitoring).\n\n**Choosing the right strategy**:\n\n- Compare the cost of response against the potential loss\n- Consider the organization's risk appetite and tolerance thresholds\n- Evaluate secondary risks that each strategy might introduce\n- Factor in stakeholder expectations and regulatory requirements\n- Combine strategies when appropriate (e.g., mitigate and transfer)\n\n**For opportunities (positive risks)**, the mirror strategies are: exploit, share, enhance, and accept.",
+    "tags": [
+        "risk-management",
+        "decision-making",
+        "strategy",
+        "frameworks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Risk treatment options",
+        "Risk handling strategies",
+        "Four Ts of risk"
+    ],
+    "relatedConcepts": [
+        "risk-mitigation",
+        "risk-management",
+        "risk-assessment",
+        "risk-appetite",
+        "risk-tolerance",
+        "risk-matrix",
+        "residual-risk",
+        "inherent-risk",
+        "risk-register",
+        "decision-tree",
+        "expected-value"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Risk management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_management",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

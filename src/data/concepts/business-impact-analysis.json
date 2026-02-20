@@ -1,0 +1,56 @@
+{
+    "id": "business-impact-analysis",
+    "name": "Business Impact Analysis",
+    "summary": "A systematic process for identifying and evaluating the potential effects of disruptions on critical business operations.",
+    "explanation": "Business Impact Analysis (BIA) is a systematic process used to determine and evaluate the potential effects of an interruption to critical business operations as a result of a disaster, accident, or emergency. It is a foundational component of business continuity planning and disaster recovery.\n\n**Purpose of BIA**:\n\n- Identify critical business functions and processes\n- Quantify the financial and operational impact of disruptions over time\n- Determine recovery time objectives (RTO) and recovery point objectives (RPO)\n- Prioritize recovery efforts based on criticality and impact\n- Justify investments in continuity and recovery capabilities\n\n**Key BIA outputs**:\n\n- **Recovery Time Objective (RTO)**: The maximum acceptable time a function can be unavailable\n- **Recovery Point Objective (RPO)**: The maximum acceptable data loss measured in time\n- **Maximum Tolerable Downtime (MTD)**: The absolute limit before the organization faces existential consequences\n- **Impact timeline**: How impacts escalate over hours, days, and weeks\n\n**BIA process**:\n\n1. Identify all business functions and processes\n2. Determine which are critical to the organization's survival and operations\n3. Assess the impact of disruption over time (financial, operational, legal, reputational)\n4. Identify dependencies between functions (people, technology, suppliers, facilities)\n5. Establish recovery priorities and timeframes\n6. Document findings and recommendations\n\n**Impact categories assessed**:\n\n- Financial losses (revenue, penalties, extra costs)\n- Customer and stakeholder impact\n- Legal and regulatory consequences\n- Reputational damage\n- Operational cascade effects\n\nBIA should be updated regularly as business conditions, dependencies, and risk landscapes evolve.",
+    "tags": [
+        "risk-management",
+        "business-continuity",
+        "planning",
+        "operations"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "BIA"
+    ],
+    "relatedConcepts": [
+        "business-continuity",
+        "disaster-recovery",
+        "risk-assessment",
+        "risk-management",
+        "risk-mitigation",
+        "risk-register",
+        "enterprise-risk-management",
+        "scenario-planning"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Business impact analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Business_impact_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

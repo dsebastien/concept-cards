@@ -1,0 +1,89 @@
+{
+    "id": "incremental-reading",
+    "name": "Incremental Reading",
+    "summary": "A learning technique where multiple texts are read in parallel with gradual extraction and consolidation of knowledge through spaced repetition.",
+    "explanation": "Incremental reading is a learning technique developed by Piotr Wozniak as part of the SuperMemo system. Instead of reading one text from beginning to end before moving to the next, incremental reading involves importing multiple sources into a spaced repetition system and reading them in small portions over time. The system schedules which texts to review and when, based on priority and spacing algorithms.\n\nThe process follows a pipeline: articles and texts are imported, then gradually processed. During each session, the learner reads a portion of a text, extracts key passages (called extracts), and eventually converts the most important information into question-answer pairs (cloze deletions or traditional flashcards) for long-term retention. This transforms passive reading into active knowledge construction.\n\nIncremental reading leverages several cognitive principles. The spacing effect ensures that revisiting material at intervals strengthens memory. Interleaving multiple topics prevents monotony and promotes transfer learning. The active extraction process forces deeper processing than passive reading alone. The prioritization system ensures that the most valuable information receives the most attention.\n\nThe technique is particularly powerful for knowledge workers, researchers, and lifelong learners who must process large volumes of information. It aligns naturally with the learn drive because learners can follow their curiosity across multiple topics rather than being forced to complete one text before starting another. While SuperMemo pioneered the approach, similar workflows can be approximated with tools like Anki, Readwise, and various note-taking systems combined with spaced repetition.",
+    "tags": [
+        "learning",
+        "spaced-repetition",
+        "reading",
+        "knowledge-management",
+        "techniques"
+    ],
+    "category": "Techniques",
+    "icon": "FaBookOpen",
+    "featured": false,
+    "aliases": [
+        "IR"
+    ],
+    "relatedConcepts": [
+        "spaced-repetition",
+        "active-recall",
+        "learn-drive",
+        "spacing-effect",
+        "desirable-difficulties",
+        "knowledge-retention",
+        "forgetting-curve",
+        "lifelong-learning",
+        "information-snacking",
+        "testing-effect"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Incremental reading - SuperMemo Guru",
+            "url": "https://supermemo.guru/wiki/Incremental_reading",
+            "type": "website"
+        },
+        {
+            "title": "Incremental reading - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Incremental_reading",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

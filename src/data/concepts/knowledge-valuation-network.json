@@ -1,0 +1,84 @@
+{
+    "id": "knowledge-valuation-network",
+    "name": "Knowledge Valuation Network",
+    "summary": "A neural mechanism that evaluates the perceived value and relevance of incoming information to guide learning priorities.",
+    "explanation": "The knowledge valuation network is a concept from Piotr Wozniak's learning theory that describes the brain's built-in system for assessing the value of new information. This network operates largely unconsciously, evaluating incoming stimuli based on novelty, relevance to existing knowledge, comprehensibility, and potential utility. When the network assigns high value to a piece of information, it triggers the learn drive and the associated pleasure of learning, motivating the individual to engage deeply with the material.\n\nThe knowledge valuation network acts as a filter and prioritization system. In any given moment, a learner is exposed to far more information than they can process. The network helps determine what deserves attention and what can be safely ignored. It considers factors such as how well new information connects to existing knowledge structures, whether the information is at an appropriate level of difficulty (the Goldilocks zone of desirable difficulty), and whether it relates to current goals or interests.\n\nThis mechanism explains why the same piece of information can feel fascinating to one person and boring to another—their knowledge valuation networks assess it differently based on their unique prior knowledge, interests, and current context. It also explains why forcing someone to study material they find irrelevant produces poor results: their knowledge valuation network rates the information as low-value, suppressing the learn drive and leading to the formation of toxic memories.\n\nUnderstanding the knowledge valuation network has practical implications for learning design. Effective curricula should present information in a way that activates the learner's valuation network—connecting new material to existing knowledge, maintaining appropriate challenge levels, and allowing learners enough autonomy to follow high-value signals. Tools like incremental reading work well because they let learners process information when their valuation network rates it most highly.",
+    "tags": [
+        "learning",
+        "neuroscience",
+        "knowledge-management",
+        "motivation",
+        "cognition"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "KVN"
+    ],
+    "relatedConcepts": [
+        "learn-drive",
+        "pleasure-of-learning",
+        "curiosity",
+        "intrinsic-motivation",
+        "desirable-difficulties",
+        "toxic-memory",
+        "encoding",
+        "attention-types",
+        "selective-attention",
+        "metacognition-of-attention"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Knowledge valuation network - SuperMemo Guru",
+            "url": "https://supermemo.guru/wiki/Knowledge_valuation_network",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

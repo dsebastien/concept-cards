@@ -1,0 +1,62 @@
+{
+    "id": "inherent-risk",
+    "name": "Inherent Risk",
+    "summary": "The level of risk present in an activity or process before any controls or mitigation measures are applied.",
+    "explanation": "Inherent risk (also called gross risk) represents the natural level of risk in an activity, process, or environment when no controls, safeguards, or mitigation measures are in place. It reflects the raw exposure to potential losses or negative outcomes and serves as the starting point for risk assessment and management.\n\n**Role in risk management**:\n\nInherent risk establishes the baseline against which the effectiveness of controls is measured. By comparing inherent risk to residual risk (the risk remaining after controls), organizations can quantify the value their risk management efforts provide. This comparison helps justify the cost of controls and identifies areas where additional investment may be needed.\n\n**Factors that determine inherent risk**:\n\n- **Complexity**: More complex processes have higher inherent risk\n- **Volume**: Higher transaction volumes increase inherent risk\n- **External environment**: Market volatility, regulatory changes, and competitive pressures\n- **Human factors**: The degree of manual intervention and judgment required\n- **Novelty**: New activities carry higher inherent risk than established ones\n\n**Inherent risk in different domains**:\n\n- **Financial auditing**: The susceptibility of financial statements to material misstatement before considering internal controls\n- **Information security**: The threat landscape and vulnerability exposure before security controls\n- **Project management**: The raw exposure to schedule, cost, and scope risks before mitigation planning\n- **Compliance**: The likelihood of regulatory violations before compliance programs are implemented\n\n**Best practices**:\n\n- Assess inherent risk before designing controls to ensure proportionate responses\n- Use inherent risk levels to prioritize where to invest in controls first\n- Revisit inherent risk assessments when business conditions change\n- Communicate inherent risk levels alongside residual risk to provide full context for decision-makers",
+    "tags": [
+        "risk-management",
+        "governance",
+        "decision-making",
+        "compliance"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Gross risk",
+        "Raw risk"
+    ],
+    "relatedConcepts": [
+        "residual-risk",
+        "risk-assessment",
+        "risk-mitigation",
+        "risk-management",
+        "risk-matrix",
+        "risk-appetite",
+        "risk-tolerance",
+        "enterprise-risk-management"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Inherent risk - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Inherent_risk",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

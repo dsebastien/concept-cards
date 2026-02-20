@@ -1,0 +1,42 @@
+{
+    "id": "key-risk-indicators",
+    "name": "Key Risk Indicators",
+    "summary": "Quantitative metrics used to monitor and provide early warning signals about changes in risk exposure.",
+    "explanation": "Key Risk Indicators (KRIs) are metrics that provide early warning signals about increasing risk exposure in various areas of an organization. They are forward-looking measures that help organizations anticipate potential problems before they materialize, enabling proactive rather than reactive risk management.\n\n**Characteristics of effective KRIs**:\n\n- **Measurable**: Based on quantifiable data rather than subjective assessments\n- **Predictive**: Provide advance warning of emerging risks, not just report past events\n- **Relevant**: Directly linked to specific risks and business objectives\n- **Timely**: Available frequently enough to allow action before risks materialize\n- **Comparable**: Consistent over time to enable trend analysis\n\n**KRIs vs. related metrics**:\n\n- **Key Performance Indicators (KPIs)**: Measure performance against objectives (backward-looking)\n- **Key Risk Indicators (KRIs)**: Signal changes in risk exposure (forward-looking)\n- **Key Control Indicators (KCIs)**: Measure the effectiveness of controls\n- In practice, these often overlap — a declining KPI can also be a rising KRI\n\n**Examples by domain**:\n\n- **Cybersecurity**: Number of unpatched vulnerabilities, phishing click rates, unauthorized access attempts\n- **Financial**: Market volatility indices, credit default rates, liquidity ratios\n- **Operational**: Employee turnover rate, supplier concentration, system downtime frequency\n- **Project management**: Percentage of tasks overdue, budget variance trends, scope change requests\n\n**Implementing a KRI program**:\n\n1. Map KRIs to the organization's top risks\n2. Define thresholds (green/yellow/red) aligned with risk appetite\n3. Establish data collection and reporting processes\n4. Set escalation procedures when thresholds are breached\n5. Review and recalibrate regularly as the risk profile evolves\n\nEffective KRI programs transform risk management from periodic assessment exercises into continuous monitoring systems.",
+    "tags": [
+        "risk-management",
+        "metrics",
+        "monitoring",
+        "governance"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "KRI",
+        "KRIs",
+        "Risk indicators"
+    ],
+    "relatedConcepts": [
+        "risk-management",
+        "risk-assessment",
+        "risk-register",
+        "risk-appetite",
+        "risk-tolerance",
+        "enterprise-risk-management",
+        "risk-matrix"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Risk indicator - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_indicator",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

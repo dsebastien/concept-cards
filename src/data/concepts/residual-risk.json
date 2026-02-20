@@ -1,0 +1,63 @@
+{
+    "id": "residual-risk",
+    "name": "Residual Risk",
+    "summary": "The level of risk that remains after risk mitigation controls and treatments have been applied.",
+    "explanation": "Residual risk is the risk that persists after an organization has implemented its risk mitigation strategies and controls. No matter how thorough a risk management program is, it is virtually impossible to eliminate all risk. Understanding and quantifying residual risk is essential for informed decision-making about whether additional controls are needed or whether the remaining risk level is acceptable.\n\n**Residual risk vs. inherent risk**:\n\n- **Inherent risk**: The raw level of risk before any controls are applied\n- **Residual risk**: The remaining risk after controls are in place\n- **Formula**: Residual Risk = Inherent Risk - Impact of Controls\n\n**Why residual risk matters**:\n\n- It determines whether a risk has been reduced to within the organization's risk appetite and risk tolerance\n- It drives decisions about whether additional controls are justified\n- It informs acceptance decisions — someone with appropriate authority must formally accept residual risks\n- Regulators and auditors evaluate whether residual risk levels are appropriate\n\n**Managing residual risk**:\n\n- Document all residual risks and their current levels\n- Assign risk owners responsible for monitoring each residual risk\n- Compare residual risk levels against risk appetite thresholds\n- Escalate residual risks that exceed tolerance to senior management\n- Reassess periodically, as both the risk environment and control effectiveness change over time\n\n**Common pitfalls**:\n\n- Assuming controls eliminate risk entirely rather than merely reducing it\n- Failing to reassess residual risk when circumstances change\n- Not formally documenting acceptance of residual risks\n- Ignoring secondary risks introduced by the controls themselves (secondary risk)",
+    "tags": [
+        "risk-management",
+        "governance",
+        "decision-making",
+        "compliance"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Remaining risk",
+        "Net risk"
+    ],
+    "relatedConcepts": [
+        "inherent-risk",
+        "risk-mitigation",
+        "risk-appetite",
+        "risk-tolerance",
+        "risk-management",
+        "risk-assessment",
+        "risk-matrix",
+        "risk-register",
+        "enterprise-risk-management"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Risk management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_management",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}
