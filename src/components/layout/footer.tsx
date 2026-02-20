@@ -18,7 +18,8 @@ import {
     FaCodeBranch,
     FaGithub,
     FaClipboardList,
-    FaSpinner
+    FaSpinner,
+    FaProjectDiagram
 } from 'react-icons/fa'
 import resourcesData from '@/data/resources.json'
 import socialsData from '@/data/socials.json'
@@ -249,6 +250,15 @@ const Footer: React.FC = () => {
                                 >
                                     <FaTag className='h-4 w-4' />
                                     Tags
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to='/explore'
+                                    className='text-primary/70 hover:text-secondary inline-flex cursor-pointer items-center gap-2 transition-colors'
+                                >
+                                    <FaProjectDiagram className='h-4 w-4' />
+                                    Explore Graph
                                 </Link>
                             </li>
                             <li>

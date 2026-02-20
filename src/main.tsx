@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import { ThemeProvider } from '@/contexts/theme-context'
@@ -20,6 +20,8 @@ import HistoryPage from './pages/history'
 import TagsPage from './pages/tags'
 import ContributingPage from './pages/contributing'
 import ChangelogPage from './pages/changelog'
+
+const ExplorePage = React.lazy(() => import('./pages/explore'))
 
 const rootElement = document.getElementById('root')
 
@@ -56,6 +58,22 @@ ReactDOM.createRoot(rootElement).render(
                         <Route path='/tags/:tagId' element={<TagsPage />} />
                         <Route path='/contributing' element={<ContributingPage />} />
                         <Route path='/changelog' element={<ChangelogPage />} />
+                        <Route
+                            path='/explore'
+                            element={
+                                <Suspense>
+                                    <ExplorePage />
+                                </Suspense>
+                            }
+                        />
+                        <Route
+                            path='/explore/:conceptId'
+                            element={
+                                <Suspense>
+                                    <ExplorePage />
+                                </Suspense>
+                            }
+                        />
                     </Route>
                 </Routes>
             </BrowserRouter>

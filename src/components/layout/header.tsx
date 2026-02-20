@@ -14,7 +14,8 @@ import {
     FaLink,
     FaStickyNote,
     FaHistory,
-    FaTag
+    FaTag,
+    FaProjectDiagram
 } from 'react-icons/fa'
 import type { NavLink } from '@/types/nav-link.intf'
 import ThemeToggle from '@/components/ui/theme-toggle'
@@ -37,6 +38,12 @@ const alwaysVisibleLinks: NavLink[] = [
 
 // Links that go into the hamburger menu on smaller screens
 const menuLinks: NavLink[] = [
+    {
+        to: '/explore',
+        label: 'Explore',
+        icon: <FaProjectDiagram className='h-5 w-5' />,
+        color: 'text-violet-400 bg-violet-500/10 hover:bg-violet-500/20'
+    },
     {
         to: '/random',
         label: 'Random',
