@@ -1,3 +1,8 @@
+## [10.43.0](https://github.com/dsebastien/concept-cards/compare/10.42.0...10.43.0) (2026-02-20)
+
+### Features
+
+* **all:** updated graph view ([42b807a](https://github.com/dsebastien/concept-cards/commit/42b807a16bd29a431d8fb0b41d0e76e7fbd2247b))
 ## [10.42.0](https://github.com/dsebastien/concept-cards/compare/10.41.0...10.42.0) (2026-02-20)
 
 ### Features
