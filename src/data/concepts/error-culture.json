@@ -1,0 +1,89 @@
+{
+    "id": "error-culture",
+    "name": "Error Culture",
+    "summary": "The set of organizational norms, attitudes, and practices that determine how mistakes, failures, and errors are handled, learned from, and communicated.",
+    "explanation": "## What Is Error Culture?\n\nError culture refers to the collective attitudes, norms, and practices within an organization that determine how errors and failures are perceived, reported, handled, and learned from. It exists on a spectrum from blame-oriented cultures (where errors are punished and hidden) to learning-oriented cultures (where errors are openly discussed and mined for improvement).\n\n## The Two Extremes\n\n### Blame Culture\n- Errors are seen as personal failures\n- People hide mistakes to avoid punishment\n- Root causes go unaddressed because incidents are unreported\n- Innovation is stifled by fear of failure\n- Post-incident focus is on finding who to blame\n- Problems escalate from SNAFU to FUBAR because early warnings are suppressed\n\n### Learning Culture\n- Errors are seen as system feedback\n- People report mistakes because they know the focus will be on learning\n- Root causes are addressed through blameless postmortems\n- Innovation thrives because failure is treated as an investment in learning\n- Post-incident focus is on what to improve\n- Problems are caught early because people feel safe raising concerns\n\n## Why Error Culture Matters\n\nOrganizations with healthy error cultures:\n- Detect problems earlier (people report instead of hide)\n- Learn faster (each failure generates actionable insights)\n- Innovate more (psychological safety enables experimentation)\n- Have fewer catastrophic failures (small errors are caught before cascading)\n- Retain talent better (people prefer blame-free environments)\n\n## Building a Healthy Error Culture\n\n### Leadership Practices\n- Model vulnerability by sharing your own mistakes\n- Respond to error reports with curiosity, not punishment\n- Celebrate learning from failures, not just successes\n- Distinguish between honest mistakes and negligence\n\n### Organizational Practices\n- Implement blameless postmortems / retrospectives\n- Create no-blame incident reporting systems\n- Share failure stories and lessons learned widely\n- Build redundancy and safety margins into systems\n- Reward early problem identification\n\n### Individual Practices\n- Own mistakes openly and promptly\n- Focus on what happened, not who caused it\n- Document lessons learned for future reference\n- Treat failures as data, not character judgments\n\n## Connection to Psychological Safety\n\nAmy Edmondson's research on psychological safety is foundational to error culture. Teams where members feel safe to take interpersonal risks -- admitting mistakes, asking questions, offering dissent -- consistently outperform teams where these behaviors feel risky.",
+    "tags": [
+        "organizations",
+        "leadership",
+        "learning",
+        "risk-management",
+        "culture"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Failure Culture",
+        "Blame Culture",
+        "Learning from Mistakes"
+    ],
+    "relatedConcepts": [
+        "blameless-postmortem",
+        "psychological-safety",
+        "fubar",
+        "snafu",
+        "intelligent-failure",
+        "failure-as-feedback",
+        "retrospective",
+        "lessons-learned",
+        "innovation-culture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Fearless Organization by Amy Edmondson",
+            "url": "https://www.amazon.com/dp/1119477247?tag=dsebastien00-20"
+        },
+        {
+            "title": "Black Box Thinking by Matthew Syed",
+            "url": "https://www.amazon.com/dp/1591848229?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Psychological safety - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

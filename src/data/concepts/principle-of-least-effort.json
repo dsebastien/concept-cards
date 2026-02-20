@@ -1,0 +1,94 @@
+{
+    "id": "principle-of-least-effort",
+    "name": "Principle of Least Effort",
+    "summary": "The theory that people naturally gravitate toward the course of action requiring the least amount of work, shaping behavior in communication, information seeking, and task completion.",
+    "explanation": "## What Is the Principle of Least Effort?\n\nThe Principle of Least Effort, formulated by linguist George Kingsley Zipf in 1949, states that animals, people, and even well-designed machines will naturally choose the path of least resistance or the least expenditure of effort. It is a fundamental behavioral tendency that shapes how we communicate, seek information, organize our environments, and make decisions.\n\n## Origins and Scope\n\nZipf originally observed this principle in language: people prefer shorter, more common words over longer, rarer ones. Speakers minimize articulatory effort while listeners need sufficient information to understand the message. This tension produces the characteristic distribution of word frequencies in all natural languages (Zipf's Law).\n\nBut the principle extends far beyond language. It appears in:\n\n- **Information seeking**: people prefer the most convenient source over the most authoritative one\n- **Navigation**: people take the shortest path, even when detours might be more scenic or rewarding\n- **Tool use**: people use familiar tools rather than learning better alternatives\n- **Learning**: people prefer passive consumption over effortful retrieval practice\n\n## Implications for Productivity\n\nThe principle has both positive and negative applications:\n\n**Positive (designing with the grain)**:\n- Reduce friction for desired behaviors (environment design)\n- Make good habits easy and bad habits hard\n- Simplify workflows to increase adoption\n- Design systems that require minimal effort to maintain\n\n**Negative (default to suboptimal paths)**:\n- People skip documentation because it's easier not to write it\n- Teams rely on tribal knowledge because asking is easier than searching\n- People satisfice with the first acceptable answer rather than seeking the best one\n\n## Relationship to Productive Laziness\n\nThe principle of least effort is the underlying psychology behind productive laziness. Where productive laziness is a deliberate strategy -- consciously choosing efficiency -- the principle of least effort describes the natural, often unconscious tendency. Productive laziness harnesses this tendency intentionally: if people will take the easiest path anyway, design systems where the easiest path is also the most effective one.\n\n## In System Design\n\nEffective system designers leverage this principle by making the right thing easy and the wrong thing hard. Default settings, pre-filled forms, one-click actions, and well-placed affordances all work because they align with humans' natural preference for minimal effort.",
+    "tags": [
+        "psychology",
+        "principles",
+        "productivity",
+        "behavior-change",
+        "decision-making"
+    ],
+    "category": "Principles",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Zipf's Principle of Least Effort",
+        "Path of Least Resistance",
+        "Law of Least Effort"
+    ],
+    "relatedConcepts": [
+        "productive-laziness",
+        "environment-design",
+        "default-effect",
+        "satisficing",
+        "friction",
+        "parkinson-law",
+        "atomic-habits",
+        "living-on-default"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Principle of least effort - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Principle_of_least_effort",
+            "type": "website"
+        },
+        {
+            "title": "Zipf's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Zipf%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

@@ -1,0 +1,93 @@
+{
+    "id": "seci-model",
+    "name": "SECI Model",
+    "summary": "Nonaka and Takeuchi's framework describing four modes of knowledge conversion: Socialization, Externalization, Combination, and Internalization.",
+    "explanation": "## What Is the SECI Model?\n\nThe SECI model, developed by Ikujiro Nonaka and Hirotaka Takeuchi in 1995, is a foundational framework in knowledge management that describes how knowledge is created and transformed within organizations. The model identifies four modes of knowledge conversion that form a continuous spiral of organizational learning.\n\n## The Four Modes\n\n### Socialization (Tacit → Tacit)\nKnowledge transfers between individuals through shared experience, observation, and practice. Examples include apprenticeships, pair programming, shadowing, and informal conversations. The knowledge remains tacit -- it is absorbed through participation rather than documentation.\n\n### Externalization (Tacit → Explicit)\nTacit knowledge is articulated into explicit concepts through metaphors, analogies, models, and documentation. This is often the most challenging and valuable conversion. Examples include writing down a process you perform intuitively, creating architecture decision records, or explaining your decision-making rationale.\n\n### Combination (Explicit → Explicit)\nExplicit knowledge is combined, reorganized, and synthesized to create new explicit knowledge. Examples include compiling a knowledge base from multiple documents, creating summaries and reports, integrating information from different sources, and building taxonomies.\n\n### Internalization (Explicit → Tacit)\nExplicit knowledge becomes tacit through practice and application. Reading documentation and then applying it until it becomes intuitive. This is \"learning by doing\" -- manuals become skills, procedures become habits.\n\n## The Knowledge Spiral\n\nThe four modes form a continuous spiral: knowledge created through socialization is externalized, combined with other knowledge, internalized through practice, and then shared again through socialization -- each cycle expanding the organization's knowledge base.\n\n## Application to PKM\n\nThe SECI model applies directly to personal knowledge management:\n- **Socialization**: learning from conversations, communities of practice\n- **Externalization**: writing notes, creating concept maps, journaling\n- **Combination**: linking notes, building maps of content, synthesizing ideas\n- **Internalization**: applying knowledge until it becomes intuition\n\nEffective PKM systems support all four modes of conversion.",
+    "tags": [
+        "knowledge-management",
+        "frameworks",
+        "organizations",
+        "learning"
+    ],
+    "category": "Frameworks",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Knowledge Spiral",
+        "Nonaka-Takeuchi Model",
+        "Knowledge Conversion Model"
+    ],
+    "relatedConcepts": [
+        "tacit-knowledge",
+        "explicit-knowledge",
+        "knowledge-creation",
+        "knowledge-transfer",
+        "tribal-knowledge",
+        "organizational-learning",
+        "knowledge-codification",
+        "communities-of-practice"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Knowledge-Creating Company by Nonaka and Takeuchi",
+            "url": "https://www.amazon.com/dp/0195092694?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "SECI model of knowledge dimensions - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/SECI_model_of_knowledge_dimensions",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

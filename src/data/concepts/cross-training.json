@@ -1,0 +1,85 @@
+{
+    "id": "cross-training",
+    "name": "Cross-Training",
+    "summary": "The practice of training team members in each other's roles and responsibilities to reduce knowledge concentration and increase organizational resilience.",
+    "explanation": "## What Is Cross-Training?\n\nCross-training is the deliberate practice of teaching team members skills, knowledge, and responsibilities that normally belong to other roles on the team. The goal is to create redundancy in capability so that no single person's absence can halt critical work. It directly addresses the risks of tribal knowledge and low bus factor.\n\n## Why Cross-Training Matters\n\nOrganizations face serious risks when knowledge is concentrated:\n\n- **Bus factor risk**: if the only person who knows how to deploy goes on vacation, deployments stop\n- **Bottlenecks**: single experts become overwhelmed as the only person who can handle certain tasks\n- **Knowledge loss**: when specialized individuals leave, their knowledge leaves with them\n- **Reduced innovation**: people stuck in narrow roles miss opportunities for cross-pollination of ideas\n\n## Methods of Cross-Training\n\n- **Pair work**: two people work together on tasks, with the less experienced person gradually taking more ownership\n- **Job rotation**: team members periodically switch roles or responsibilities\n- **Shadowing**: observing an expert perform their work to absorb tacit knowledge\n- **Documentation + practice**: creating runbooks and having others follow them independently\n- **Teaching sessions**: experts present their domain knowledge to the team\n- **Reverse mentoring**: junior members share their specialized knowledge with senior members\n\n## Cross-Training in Software Development\n\nIn software teams, cross-training commonly addresses: system architecture knowledge, deployment procedures, on-call responsibilities, code ownership of specific modules, customer-facing interactions, and tooling expertise. Practices like pair programming, code review, and mob programming serve as natural cross-training mechanisms.\n\n## Balancing Specialization and Generalization\n\nCross-training doesn't mean everyone needs to be equally expert in everything. The goal is T-shaped or comb-shaped skills: deep expertise in one area with working knowledge across adjacent areas. This provides resilience without sacrificing the benefits of specialization.",
+    "tags": [
+        "knowledge-management",
+        "teams",
+        "leadership",
+        "risk-management",
+        "learning"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "Cross Training",
+        "Knowledge Redundancy",
+        "Skill Sharing"
+    ],
+    "relatedConcepts": [
+        "tribal-knowledge",
+        "bus-factor",
+        "knowledge-transfer",
+        "knowledge-silos",
+        "t-shaped-skills",
+        "pair-programming",
+        "shared-responsibility",
+        "single-point-of-failure",
+        "onboarding"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Cross-training (business) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cross-training_(business)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

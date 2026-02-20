@@ -1,0 +1,72 @@
+{
+    "id": "snafu",
+    "name": "SNAFU",
+    "summary": "Military-origin acronym meaning Situation Normal, All Fouled Up, describing the expectation that things will always go wrong in predictable, routine ways.",
+    "explanation": "## What Is SNAFU?\n\nSNAFU is a military acronym from World War II meaning \"Situation Normal, All Fouled Up.\" It captures the sardonic recognition that dysfunction, confusion, and minor failures are the normal state of affairs in complex organizations. Rather than an expression of defeat, SNAFU reflects a pragmatic acceptance that imperfection is baseline reality.\n\n## The SNAFU Principle\n\nThe term embodies an important organizational insight: in any sufficiently complex system, something is always going wrong. Expecting perfection leads to frustration; expecting and planning for routine failures leads to resilience. This parallels Murphy's Law (\"anything that can go wrong will go wrong\") but adds the normalizing element -- these failures are not exceptional, they are the norm.\n\n## SNAFU in Context\n\nSNAFU sits at the mildest end of a military dysfunction scale:\n\n- **SNAFU**: routine problems, business as usual, manageable dysfunction\n- **TARFU** (Things Are Really Fouled Up): problems have escalated beyond routine\n- **FUBAR** (Fouled Up Beyond All Recognition): catastrophic failure, recovery extremely difficult\n\n## Organizational Applications\n\nThe SNAFU concept is useful in several ways:\n\n- **Setting realistic expectations**: new team members should understand that some level of friction is normal\n- **Preventing overreaction**: not every problem requires an emergency response\n- **Building resilience**: systems designed to handle routine failures gracefully are more robust\n- **Distinguishing severity**: knowing the difference between SNAFU (normal) and FUBAR (catastrophic) helps allocate appropriate resources\n\n## The SNAFU Communication Gap\n\nOrganizational theorist Kenneth Boulding described a related phenomenon: the tendency for communication to become distorted as it moves up hierarchies. Bad news gets filtered, softened, or suppressed, creating a gap between what leadership believes and what's actually happening on the ground. This \"SNAFU principle\" suggests that the people at the top often have the least accurate picture of operational reality.\n\n## In Software Development\n\nSNAFU resonates strongly in tech: servers go down, deployments fail, edge cases appear, and dependencies break. The best engineering cultures accept this reality and build accordingly -- monitoring, alerting, automated recovery, runbooks, and on-call rotations are all responses to the understanding that SNAFU is the default state.",
+    "tags": [
+        "problem-solving",
+        "risk-management",
+        "communication",
+        "organizations",
+        "software-development"
+    ],
+    "category": "Concepts",
+    "icon": "FaExclamationCircle",
+    "featured": false,
+    "aliases": [
+        "Situation Normal All Fouled Up",
+        "SNAFU Principle",
+        "Normal Dysfunction"
+    ],
+    "relatedConcepts": [
+        "fubar",
+        "murphys-law",
+        "error-culture",
+        "blameless-postmortem",
+        "resilience",
+        "antifragility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "SNAFU - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/SNAFU",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

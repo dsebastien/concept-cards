@@ -1,0 +1,74 @@
+{
+    "id": "fubar",
+    "name": "FUBAR",
+    "summary": "Military-origin acronym meaning Fouled Up Beyond All Recognition, describing situations so badly broken that recovery is extremely difficult or impossible.",
+    "explanation": "## What Is FUBAR?\n\nFUBAR is a military acronym originating from World War II, standing for \"Fouled Up Beyond All Recognition\" (or the more colorful variant). It describes a situation that has deteriorated so severely that it barely resembles its original or intended state. The term has since migrated from military slang into everyday use across business, technology, and project management.\n\n## The FUBAR Family\n\nFUBAR belongs to a family of military-origin acronyms that describe escalating levels of dysfunction:\n\n- **SNAFU** (Situation Normal, All Fouled Up): things are broken in expected, routine ways\n- **TARFU** (Things Are Really Fouled Up): the situation has escalated beyond normal dysfunction\n- **FUBAR**: the situation is so damaged that its original form is unrecognizable\n\nThis gradient is useful because it distinguishes between everyday friction (SNAFU), serious problems (TARFU), and catastrophic failure (FUBAR).\n\n## Recognizing FUBAR\n\nIn organizations and projects, FUBAR situations share common characteristics:\n\n- Multiple cascading failures have compounded\n- The root cause is no longer identifiable without deep investigation\n- Normal recovery procedures are insufficient\n- The gap between current state and desired state is enormous\n- Stakeholder trust has been severely damaged\n- Workarounds have accumulated layers of technical or organizational debt\n\n## How Things Become FUBAR\n\nSituations rarely become FUBAR overnight. Common escalation patterns include:\n\n- **Ignored warnings**: early signals of trouble dismissed or rationalized\n- **Cascading failures**: one failure triggering others in tightly coupled systems\n- **Normalization of deviance**: gradually accepting increasingly broken states as normal\n- **Sunk cost escalation**: continuing to invest in a failing approach because of past investment\n- **Communication breakdowns**: information about problems not reaching decision-makers\n\n## Recovery and Prevention\n\nRecovering from FUBAR requires different strategies than normal problem-solving:\n\n- **Accept the reality**: stop trying to incrementally fix and acknowledge the scale of the problem\n- **Triage ruthlessly**: identify what can be saved versus what must be rebuilt\n- **Start from first principles**: redesign rather than patch\n- **Conduct blameless postmortems**: understand how things got this bad\n- **Build in circuit breakers**: create mechanisms that halt cascading failures before reaching FUBAR\n\n## As a Communication Tool\n\nThe term's value lies in its blunt clarity. Calling something FUBAR communicates the severity immediately without euphemism. In organizations where problems are routinely minimized, having vocabulary for catastrophic failure is important -- it forces honest assessment and appropriate response.",
+    "tags": [
+        "problem-solving",
+        "risk-management",
+        "communication",
+        "organizations",
+        "software-development"
+    ],
+    "category": "Concepts",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Fouled Up Beyond All Recognition",
+        "Fucked Up Beyond All Recognition",
+        "Beyond Repair"
+    ],
+    "relatedConcepts": [
+        "snafu",
+        "murphys-law",
+        "cascading-failures",
+        "blameless-postmortem",
+        "swiss-cheese-model",
+        "error-culture",
+        "technical-debt",
+        "sunk-cost-fallacy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "FUBAR - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_military_slang_terms#FUBAR",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

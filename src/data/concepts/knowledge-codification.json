@@ -1,0 +1,90 @@
+{
+    "id": "knowledge-codification",
+    "name": "Knowledge Codification",
+    "summary": "The process of converting knowledge into structured, documented formats that can be stored, searched, and shared independently of the original knower.",
+    "explanation": "## What Is Knowledge Codification?\n\nKnowledge codification is the process of transforming knowledge -- particularly tacit, experiential knowledge -- into explicit, structured formats that can be stored, retrieved, and shared independently of the person who originally held it. It is the bridge between individual expertise and organizational capability.\n\n## Forms of Codification\n\nKnowledge can be codified at different levels of formality:\n\n- **Informal**: notes, emails, chat messages, comments in code\n- **Semi-structured**: wikis, knowledge bases, FAQs, tagged collections\n- **Structured**: databases, taxonomies, ontologies, decision trees\n- **Highly formal**: algorithms, standard operating procedures, mathematical models\n\nThe appropriate level depends on the audience, the complexity of the knowledge, and how frequently it needs to be accessed.\n\n## The Codification Challenge\n\nNot all knowledge codifies equally well:\n\n- **Easily codified**: facts, procedures, rules, specifications\n- **Partially codifiable**: heuristics, guidelines, best practices, patterns\n- **Difficult to codify**: intuition, judgment, aesthetic sense, social skills\n\nThe SECI model describes codification primarily in the Externalization phase (tacit to explicit) and Combination phase (explicit to explicit).\n\n## Strategies vs. Personalization\n\nHansen, Nohria, and Tierney identified two knowledge management strategies:\n\n- **Codification strategy**: invest in systems to capture and reuse documented knowledge (databases, repositories, templates)\n- **Personalization strategy**: invest in connecting people who hold knowledge (mentoring, communities of practice, social networks)\n\nMost organizations benefit from a blend, with emphasis depending on the nature of their work.\n\n## In PKM\n\nPersonal knowledge codification is the core activity of note-taking and knowledge management systems. Every time you write a note, create a concept map, or document a decision, you are codifying knowledge. Effective personal codification makes your future self (and collaborators) less dependent on memory and more capable of building on past insights.\n\n## Anti-Patterns\n\n- **Over-codification**: documenting everything creates noise that buries signal\n- **Under-codification**: relying on tribal knowledge and memory\n- **Stale codification**: documented knowledge that is never updated becomes misleading\n- **Codification without context**: capturing what was done without why it was done",
+    "tags": [
+        "knowledge-management",
+        "documentation",
+        "organizations",
+        "techniques"
+    ],
+    "category": "Techniques",
+    "icon": "FaBook",
+    "featured": false,
+    "aliases": [
+        "Knowledge Documentation",
+        "Knowledge Formalization",
+        "Knowledge Capture"
+    ],
+    "relatedConcepts": [
+        "tacit-knowledge",
+        "explicit-knowledge",
+        "tribal-knowledge",
+        "seci-model",
+        "knowledge-elicitation",
+        "documentation",
+        "knowledge-base",
+        "architecture-decision-records",
+        "institutional-memory",
+        "benefits-of-documenting-processes"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_management#Codification_vs._personalization",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

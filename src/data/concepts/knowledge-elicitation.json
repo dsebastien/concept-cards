@@ -1,0 +1,86 @@
+{
+    "id": "knowledge-elicitation",
+    "name": "Knowledge Elicitation",
+    "summary": "Systematic techniques for extracting tacit knowledge from domain experts and converting it into explicit, documentable form.",
+    "explanation": "## What Is Knowledge Elicitation?\n\nKnowledge elicitation is the set of methods and techniques used to extract knowledge -- especially tacit, experiential knowledge -- from domain experts and make it available in explicit form. It addresses the fundamental challenge that experts often cannot spontaneously articulate what they know; their expertise has become so deeply internalized that it operates below conscious awareness.\n\n## Why Knowledge Elicitation Is Difficult\n\nSeveral factors make extracting expert knowledge challenging:\n\n- **Tacit nature**: experts perform complex tasks \"automatically\" and struggle to explain their reasoning\n- **Curse of knowledge**: experts forget what it's like to not know, making them poor at identifying what needs to be explained\n- **Compilation effect**: with experience, complex chains of reasoning become compressed into seemingly instant judgments\n- **Context dependence**: expert knowledge is often deeply tied to specific situations and hard to generalize\n\n## Common Techniques\n\n### Interview-Based Methods\n- **Structured interviews**: predefined questions that systematically cover a domain\n- **Critical incident technique**: asking experts to describe specific past situations where their expertise was critical\n- **Think-aloud protocols**: experts narrate their reasoning while performing tasks\n\n### Observation-Based Methods\n- **Process tracing**: watching experts work and documenting their decisions and actions\n- **Apprenticeship/shadowing**: learning through prolonged observation and guided practice\n- **Video recording**: capturing expert performance for later analysis\n\n### Structured Methods\n- **Concept mapping**: collaboratively building visual maps of knowledge structures\n- **Card sorting**: having experts organize domain concepts into meaningful categories\n- **Repertory grid technique**: systematically uncovering how experts distinguish between cases\n\n## Applications\n\nKnowledge elicitation is used in: building expert systems and AI, creating training programs, documenting organizational processes, writing runbooks and standard operating procedures, succession planning, and building knowledge bases.\n\n## In PKM\n\nPersonal knowledge elicitation involves self-reflection techniques to surface your own tacit knowledge: journaling about decision processes, explaining your work to others (rubber duck debugging, Feynman technique), and systematically documenting the \"why\" behind your choices.",
+    "tags": [
+        "knowledge-management",
+        "expertise",
+        "documentation",
+        "techniques",
+        "learning"
+    ],
+    "category": "Techniques",
+    "icon": "FaSearch",
+    "featured": false,
+    "aliases": [
+        "Knowledge Extraction",
+        "Expert Knowledge Capture",
+        "Knowledge Acquisition"
+    ],
+    "relatedConcepts": [
+        "tacit-knowledge",
+        "explicit-knowledge",
+        "tribal-knowledge",
+        "curse-of-knowledge",
+        "seci-model",
+        "knowledge-codification",
+        "feynman-technique",
+        "requirements-elicitation",
+        "subject-matter-expert",
+        "cognitive-apprenticeship"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge elicitation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_elicitation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}

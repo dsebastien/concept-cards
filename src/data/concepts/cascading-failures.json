@@ -1,0 +1,44 @@
+{
+    "id": "cascading-failures",
+    "name": "Cascading Failures",
+    "summary": "A process where the failure of one component triggers sequential failures in dependent components, potentially leading to complete system collapse.",
+    "explanation": "## What Are Cascading Failures?\n\nA cascading failure occurs when the failure of one component in a system triggers the failure of other components, which in turn trigger further failures, creating a chain reaction that can bring down an entire system. The term originates from electrical engineering (power grid blackouts) but applies broadly to any interconnected system -- software, organizations, economies, and ecosystems.\n\n## How Cascades Happen\n\nCascading failures require two conditions:\n\n1. **Interdependence**: components rely on each other to function\n2. **Load redistribution**: when one component fails, its responsibilities shift to others, potentially overloading them\n\nThe typical sequence:\n- Component A fails\n- Components B and C, which depend on A, must compensate\n- The increased load causes B to fail\n- C, now handling the load of A and B, also fails\n- The cascade continues until the system is FUBAR\n\n## Examples Across Domains\n\n### Technology\n- A database server goes down, causing application servers to queue requests, exhausting memory, crashing the application layer, overwhelming the load balancer\n- A single microservice failure propagating through a service mesh\n\n### Organizations\n- A key employee leaves, overloading remaining team members, increasing their burnout, leading to more departures\n- Budget cuts in one department creating bottlenecks that reduce revenue across the organization\n\n### Infrastructure\n- Power grid cascading blackouts (the 2003 Northeast blackout affected 55 million people)\n- Supply chain disruptions amplifying through dependent industries\n\n## Prevention Strategies\n\n- **Circuit breakers**: mechanisms that detect overload and halt cascade propagation (from software to organizational processes)\n- **Redundancy**: backup components that can absorb failed load without becoming overloaded\n- **Loose coupling**: reducing dependencies between components so failures remain isolated\n- **Graceful degradation**: designing systems to lose functionality incrementally rather than catastrophically\n- **Load shedding**: deliberately dropping non-critical work to protect critical functions\n- **Bulkheads**: isolating failure domains so problems in one area cannot spread to others\n\n## The Swiss Cheese Model\n\nJames Reason's Swiss Cheese Model illustrates how cascading failures relate to safety: individual layers of defense each have holes (weaknesses), and catastrophe occurs when the holes align, allowing a failure to cascade through all layers.",
+    "tags": [
+        "systems-thinking",
+        "risk-management",
+        "software-engineering",
+        "resilience",
+        "problem-solving"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Cascade Failure",
+        "Domino Effect",
+        "Chain Reaction Failure"
+    ],
+    "relatedConcepts": [
+        "fubar",
+        "swiss-cheese-model",
+        "single-point-of-failure",
+        "redundancy",
+        "graceful-degradation",
+        "bus-factor",
+        "bottleneck",
+        "antifragility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Cascading failure - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cascading_failure",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-02-20"
+}
