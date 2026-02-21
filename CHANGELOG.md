@@ -1,3 +1,14 @@
+## [10.44.0](https://github.com/dsebastien/concept-cards/compare/10.43.0...10.44.0) (2026-02-21)
+
+### Features
+
+* **all:** adapt the url when changing the grah view ([4beda32](https://github.com/dsebastien/concept-cards/commit/4beda323c2d75239cc4866a505168446bd837068))
+* **all:** adapt url when changing categories or search query ([f7f973d](https://github.com/dsebastien/concept-cards/commit/f7f973de6d4ca3ec2dfa7f15b0afda72fe9cbc96))
+* **all:** added graph page to sitemap and llms.txt ([c825aa2](https://github.com/dsebastien/concept-cards/commit/c825aa2bc22a4a07c639127667070b1be5fdbff7))
+* **all:** added panning support on mobile ([4fd8e12](https://github.com/dsebastien/concept-cards/commit/4fd8e123061a3ab71c72d2ff235c8f1874935e94))
+* **all:** improved graph view on mobile ([4a9cff2](https://github.com/dsebastien/concept-cards/commit/4a9cff28ab96731a683f8e137ad8b4aed3917f3f))
+* **all:** scroll concept card to top when focusing on another concept ([01ce564](https://github.com/dsebastien/concept-cards/commit/01ce5642b4eb4a61edd69752400036bf86a6f836))
+* **all:** updated colors ([b748bf5](https://github.com/dsebastien/concept-cards/commit/b748bf5dc0aabde3587db92e834a76670269e83b))
 ## [10.43.0](https://github.com/dsebastien/concept-cards/compare/10.42.0...10.43.0) (2026-02-20)
 
 ### Features
