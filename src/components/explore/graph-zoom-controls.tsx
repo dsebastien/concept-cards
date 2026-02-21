@@ -26,7 +26,7 @@ const GraphZoomControls: React.FC<GraphZoomControlsProps> = ({ canvasRef }) => {
     return (
         <div
             className='absolute z-30 flex flex-col gap-1.5'
-            style={{ right: '1rem', bottom: '1rem' }}
+            style={{ right: '1rem', top: '50%', transform: 'translateY(-50%)' }}
         >
             <button
                 onClick={handleZoomIn}
