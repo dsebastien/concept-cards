@@ -597,7 +597,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
 
         // Calculate total height
         const accentBarHeight = 8
-        const titleBlockHeight = titleLines.length * titleFontSize * 1.5 + 24
+        const titleBlockHeight = titleLines.length * titleFontSize * 1.5 + 16
         const summaryBlockHeight = summaryLines.length * summaryFontSize * 1.5 + 32
         const explanationBlockHeight = explanationRendered.reduce((h, el) => {
             if (el.type === 'blank') return h + 8
@@ -634,7 +634,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
             renderTokenLine(line, padding, y, titleFontSize, '#FFFFFF')
             y += titleFontSize * 1.5
         }
-        y += 8
+        y -= 8 // Pull back trailing line-height gap
 
         // Divider
         ctx.strokeStyle = 'rgba(229, 0, 125, 0.4)'
@@ -643,7 +643,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
         ctx.moveTo(padding, y)
         ctx.lineTo(width - padding, y)
         ctx.stroke()
-        y += 16
+        y += 24
 
         // Summary
         for (const line of summaryLines) {
