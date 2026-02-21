@@ -1,0 +1,65 @@
+{
+    "id": "file-path",
+    "name": "File Path",
+    "summary": "A string that specifies the location of a file or directory within a file system, expressed as either an absolute path from the root or a relative path from the working directory.",
+    "explanation": "A file path is a string that specifies the unique location of a file or directory within a file system. Paths provide the addressing mechanism for navigating hierarchical file structures and are fundamental to how operating systems, programming languages, and tools locate resources.\n\nThere are two types of file paths. An absolute path specifies a location starting from the root of the file system. On Unix-like systems, absolute paths begin with `/` (e.g., `/home/user/documents/report.txt`). On Windows, they begin with a drive letter (e.g., `C:\\Users\\user\\Documents\\report.txt`). Absolute paths are unambiguous and always point to the same location regardless of the working directory.\n\nA relative path specifies a location relative to the current working directory. For example, if the working directory is `/home/user`, the relative path `documents/report.txt` resolves to `/home/user/documents/report.txt`. Relative paths are shorter and more portable but depend on context.\n\nPath separators differ between operating systems. Unix-like systems use forward slashes (`/`), while Windows traditionally uses backslashes (`\\`), though modern Windows also accepts forward slashes in many contexts. This difference is a common source of cross-platform compatibility issues.\n\nSpecial path components include `.` (current directory), `..` (parent directory), and `~` (home directory in Unix shells). These enable concise navigation: `../config` means 'go up one directory and into config', while `~/projects` means 'the projects directory in my home directory'.\n\nPath resolution is the process of converting a relative path to an absolute one. The operating system performs this by combining the working directory with the relative path and resolving any `.` or `..` components. Symbolic links (symlinks) add complexity, as they can redirect path resolution to different locations.\n\nProgramming languages provide path manipulation utilities to handle cross-platform differences. Python has `os.path` and `pathlib`, Node.js has the `path` module, and Java has `java.nio.file.Path`. Using these libraries instead of string concatenation prevents bugs related to separators, trailing slashes, and special characters.",
+    "tags": [
+        "software-engineering",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Path",
+        "Filepath",
+        "Pathname",
+        "Absolute Path",
+        "Relative Path"
+    ],
+    "relatedConcepts": [
+        "file-system",
+        "working-directory",
+        "home-directory",
+        "shell",
+        "unix"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Path (computing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Path_(computing)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

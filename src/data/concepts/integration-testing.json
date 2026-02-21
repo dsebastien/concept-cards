@@ -1,0 +1,50 @@
+{
+    "id": "integration-testing",
+    "name": "Integration Testing",
+    "summary": "A software testing practice where multiple components or modules are combined and tested together to verify they interact correctly as a group.",
+    "explanation": "Integration testing is a software testing practice that verifies the correct interaction between multiple components, modules, or systems when they are combined. While unit tests verify individual pieces in isolation, integration tests check that those pieces work together correctly, catching issues at the boundaries and interfaces between components.\n\nIntegration tests address a class of bugs that unit tests cannot: incorrect assumptions about interfaces, data format mismatches, network and I/O issues, configuration problems, race conditions in concurrent systems, and compatibility issues between versions of different components.\n\nThere are several approaches to integration testing. Big-bang integration tests all components together at once, which is simple but makes it hard to isolate failures. Top-down integration starts with high-level modules and progressively integrates lower-level ones, using stubs for components not yet integrated. Bottom-up integration starts with low-level modules and works upward, using drivers to simulate higher-level callers. Sandwich (hybrid) integration combines top-down and bottom-up approaches.\n\nIn modern software development, integration tests commonly cover: database interactions (verifying queries, migrations, and transactions work correctly), API integrations (testing that HTTP endpoints accept and return the right data), message queue interactions (producing and consuming messages correctly), file system operations, and interactions between microservices.\n\nIntegration tests are typically slower than unit tests because they involve real infrastructure (databases, networks, file systems). To manage this, teams often use test containers (like Testcontainers) to spin up lightweight, disposable instances of databases and services, or use fakes that provide realistic behavior without the full overhead.\n\nIn the testing pyramid model, integration tests form the middle layer: more numerous than end-to-end tests but fewer than unit tests. Some practitioners advocate for a 'testing trophy' or 'testing diamond' shape instead, with more integration tests than unit tests, arguing that integration tests provide more confidence per test because they exercise real interactions.\n\nContinuous integration (CI) pipelines typically run integration tests after unit tests pass, providing a second layer of confidence before code is merged or deployed.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "quality",
+        "methodologies"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Integration Tests",
+        "Integration Test"
+    ],
+    "relatedConcepts": [
+        "unit-testing",
+        "test-double",
+        "test-fake",
+        "test-driven-development",
+        "behavior-driven-development",
+        "continuous-integration"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Integration testing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Integration_testing",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Unit Testing Principles, Practices, and Patterns by Vladimir Khorikov",
+            "url": "https://www.amazon.com/dp/1617296279?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

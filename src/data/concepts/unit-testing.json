@@ -1,0 +1,56 @@
+{
+    "id": "unit-testing",
+    "name": "Unit Testing",
+    "summary": "A software testing practice where individual units of code are tested in isolation to verify they behave correctly and meet their specifications.",
+    "explanation": "Unit testing is a software testing practice where individual units of code, typically functions, methods, or classes, are tested in isolation to verify they produce the correct output for given inputs and behave according to their specification.\n\nA unit test follows the Arrange-Act-Assert (AAA) pattern: arrange the preconditions and inputs, act by calling the code under test, and assert that the results match expectations. Good unit tests are fast (milliseconds), isolated (no shared state or external dependencies), repeatable (same result every run), self-validating (pass or fail automatically), and timely (written close to the code they test). These properties are sometimes remembered by the acronym FIRST (Fast, Isolated, Repeatable, Self-validating, Timely).\n\nUnit tests serve multiple purposes beyond catching bugs. They act as living documentation, showing how code is intended to be used. They provide a safety net for refactoring, giving developers confidence to change internal implementations without breaking behavior. They expose design problems: code that is hard to test in isolation often has excessive coupling or unclear responsibilities.\n\nThe definition of a 'unit' varies by testing philosophy. In the classical (Detroit-school) approach, a unit may span multiple classes as long as they are fast and deterministic. In the mockist (London-school) approach, a unit is strictly a single class, with all collaborators replaced by test doubles. Both approaches have trade-offs: classical tests are more resilient to refactoring but may have larger failure blast radius, while mockist tests are more focused but more coupled to implementation.\n\nCommon unit testing frameworks include JUnit and TestNG (Java), pytest and unittest (Python), Jest, Vitest, and Mocha (JavaScript/TypeScript), xUnit.net and NUnit (.NET), and Google Test (C++). These frameworks provide test runners, assertion libraries, setup/teardown hooks, and test discovery mechanisms.\n\nUnit testing is a cornerstone of Test-Driven Development (TDD), where tests are written before the production code. The testing pyramid model suggests that unit tests should form the largest layer of a test suite, with fewer integration tests and even fewer end-to-end tests above them.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "quality",
+        "methodologies"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Unit Tests",
+        "Unit Test"
+    ],
+    "relatedConcepts": [
+        "test-driven-development",
+        "test-double",
+        "mock-object",
+        "test-stub",
+        "integration-testing",
+        "behavior-driven-development",
+        "pure-functions",
+        "determinism"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Unit testing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unit_testing",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Unit Testing Principles, Practices, and Patterns by Vladimir Khorikov",
+            "url": "https://www.amazon.com/dp/1617296279?tag=dsebastien00-20"
+        },
+        {
+            "title": "Test Driven Development: By Example by Kent Beck",
+            "url": "https://www.amazon.com/dp/0321146530?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

@@ -1,0 +1,58 @@
+{
+    "id": "mock-object",
+    "name": "Mock Object",
+    "summary": "A test double pre-programmed with expectations about calls it should receive, used to verify interaction behavior between objects under test.",
+    "explanation": "A mock object is a type of test double that is pre-programmed with expectations about which method calls it should receive during a test. Unlike stubs, which simply return canned values, mocks actively verify that the code under test interacts with its dependencies in the expected way. If a mock receives an unexpected call or does not receive an expected one, the test fails.\n\nMocks embody behavior verification (also called interaction testing), as opposed to the state verification approach used with stubs. With state verification, you check the final state of the system after the code runs. With behavior verification, you check that the correct sequence of interactions occurred. This distinction, explored in Martin Fowler's 'Mocks Aren't Stubs', is central to understanding different testing philosophies.\n\nA typical mock-based test follows three phases: arrange (set up the mock with expectations), act (run the code under test), and assert (verify the mock received the expected calls). Some frameworks use a record-replay model, while others use a more declarative setup.\n\nMock objects are particularly useful when testing code that produces side effects rather than return values. For example, when testing that a service correctly sends a notification, a mock notification service can verify that the send method was called with the right arguments, without actually sending anything.\n\nThe mockist (London-school) approach to TDD uses mocks extensively, mocking all collaborators to test each class in complete isolation. This leads to tests that closely mirror the internal design of the code. Critics argue this creates brittle tests coupled to implementation details. The classical (Detroit-school) approach uses mocks more sparingly, preferring real objects and reserving mocks for external boundaries.\n\nPopular mocking frameworks include Mockito and EasyMock (Java), Jest and Sinon.js (JavaScript), unittest.mock (Python), Moq and NSubstitute (.NET), and gomock (Go). Most modern frameworks blur the lines between mocks, stubs, and spies, providing a unified API that can serve all three purposes.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "patterns",
+        "quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Mock",
+        "Mocking",
+        "Mock Objects"
+    ],
+    "relatedConcepts": [
+        "test-double",
+        "test-stub",
+        "test-spy",
+        "test-fake",
+        "dummy-object",
+        "unit-testing",
+        "test-driven-development",
+        "behavior-driven-development"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Mock object - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mock_object",
+            "type": "website"
+        },
+        {
+            "title": "Mocks Aren't Stubs - Martin Fowler",
+            "url": "https://martinfowler.com/articles/mocksArentStubs.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "xUnit Test Patterns: Refactoring Test Code by Gerard Meszaros",
+            "url": "https://www.amazon.com/dp/0131495054?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

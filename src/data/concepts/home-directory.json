@@ -1,0 +1,65 @@
+{
+    "id": "home-directory",
+    "name": "Home Directory",
+    "summary": "A special directory assigned to a user account on a multi-user operating system, serving as the default location for personal files, configuration, and the starting point for shell sessions.",
+    "explanation": "A home directory is a dedicated directory assigned to each user account on a multi-user operating system. It serves as the primary location for a user's personal files, application configuration, and custom settings. When a user logs in or opens a new shell session, the working directory is typically set to their home directory.\n\nOn Unix-like systems, home directories are conventionally located under `/home/`, with each user getting a subdirectory matching their username (e.g., `/home/alice`). The root user's home directory is typically `/root`. On macOS, home directories are under `/Users/`. On Windows, they are under `C:\\Users\\`.\n\nThe home directory is accessible through several mechanisms. The `HOME` environment variable stores its path. In Unix shells, the tilde character `~` serves as a shorthand for the home directory, so `~/documents` expands to `/home/user/documents`. The `cd` command without arguments changes to the home directory.\n\nHome directories contain configuration files (often called dotfiles because their names start with a period to hide them from default directory listings). Examples include `~/.bashrc` or `~/.zshrc` (shell configuration), `~/.ssh/` (SSH keys and configuration), `~/.gitconfig` (Git settings), and `~/.config/` (application settings following the XDG Base Directory Specification).\n\nThe XDG Base Directory Specification standardizes where applications store different types of data within the home directory. `~/.config/` holds configuration files (XDG_CONFIG_HOME), `~/.local/share/` holds application data (XDG_DATA_HOME), `~/.cache/` holds cached data (XDG_CACHE_HOME), and `~/.local/state/` holds state data (XDG_STATE_HOME).\n\nIn multi-user systems, permissions on home directories ensure privacy. Typically, only the owning user (and the root/administrator) can read the contents of a home directory. This isolation is fundamental to Unix security, keeping each user's files, credentials, and configuration separate from others.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "cli"
+    ],
+    "category": "Software Development",
+    "icon": "FaHome",
+    "featured": false,
+    "aliases": [
+        "Home Folder",
+        "User Directory",
+        "Home Dir"
+    ],
+    "relatedConcepts": [
+        "file-system",
+        "file-path",
+        "working-directory",
+        "environment-variables",
+        "shell",
+        "unix"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Home directory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Home_directory",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

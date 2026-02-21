@@ -1,0 +1,74 @@
+{
+    "id": "working-directory",
+    "name": "Working Directory",
+    "summary": "The directory in a file system that a process or shell session is currently operating in, commonly referenced via PWD or CWD.",
+    "explanation": "A working directory (also called current working directory or CWD) is the directory within a file system that a process or shell session is currently operating in. It serves as the reference point for resolving relative file paths. When a user or program references a file without specifying a full path, the operating system looks for that file relative to the working directory.\n\nThe concept is central to command-line interfaces. In Unix-like systems, the `pwd` (print working directory) command displays the current working directory, while the `cd` (change directory) command changes it. The `PWD` environment variable stores the current working directory path, and `OLDPWD` stores the previous one, enabling `cd -` to toggle between directories.\n\nEvery running process has a working directory, not just interactive shells. When a program opens a file using a relative path like `data/config.json`, the operating system resolves it by prepending the process's working directory. This is why the same command can produce different results depending on where it is executed from.\n\nThe terms PWD (Present Working Directory or Print Working Directory) and CWD (Current Working Directory) are often used interchangeably, though they have slightly different origins. PWD typically refers to the shell command or environment variable, while CWD is the more general operating system concept referring to a process's current directory. In C programs, the `getcwd()` function retrieves the current working directory, and `chdir()` changes it.\n\nUnderstanding working directories is essential for shell scripting, build systems, and development workflows. Many tools behave differently based on the directory from which they are run. Build tools look for configuration files in the working directory, version control systems use it to determine the repository context, and package managers resolve dependencies relative to it.\n\nCommon pitfalls include assuming a script's working directory matches its file location (it may not), hardcoding absolute paths instead of using relative ones appropriately, and forgetting that child processes inherit the parent's working directory unless explicitly changed.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "cli"
+    ],
+    "category": "Software Development",
+    "icon": "FaFolder",
+    "featured": false,
+    "aliases": [
+        "Current Working Directory",
+        "CWD",
+        "PWD",
+        "Present Working Directory",
+        "Print Working Directory"
+    ],
+    "relatedConcepts": [
+        "shell",
+        "cli",
+        "bash",
+        "file-system",
+        "file-path",
+        "home-directory",
+        "environment-variables",
+        "unix"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Working directory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Working_directory",
+            "type": "website"
+        },
+        {
+            "title": "pwd (Unix) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pwd",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

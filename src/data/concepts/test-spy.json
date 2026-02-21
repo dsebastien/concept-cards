@@ -1,0 +1,56 @@
+{
+    "id": "test-spy",
+    "name": "Test Spy",
+    "summary": "A test double that records information about how it was called, allowing verification of interactions after the code under test has executed.",
+    "explanation": "A test spy is a type of test double that, like a stub, can provide canned responses, but additionally records information about how it was called. This recorded information, such as call counts, arguments passed, and invocation order, can be inspected after the code under test has finished executing.\n\nSpies occupy a middle ground between stubs and mocks. Like stubs, they provide controlled responses without throwing exceptions for unexpected calls. Like mocks, they enable verification of interactions. The key difference from mocks is timing: mocks verify expectations during execution (failing immediately on unexpected calls), while spies collect information for assertions after execution.\n\nThis 'record and verify later' approach gives spies several advantages. Tests using spies are often more readable because the arrange, act, and assert phases are clearly separated. Spies also produce better failure messages, since the assertion happens in the test code itself, not inside the test double. And they are more forgiving of incidental interactions that are not relevant to the test.\n\nA classic example from Meszaros's work is an email service spy. When testing a system that should send emails under certain conditions, a spy email service records all calls to its send method. After the code runs, the test asserts that send was called exactly once with the expected recipient and subject.\n\nIn practice, most modern testing frameworks implement spies as their primary test double mechanism. Jest's `jest.fn()`, Sinon.js's `sinon.spy()`, and Jasmine's `jasmine.createSpy()` all create spies that record calls and can optionally be configured with return values (making them stub-spy hybrids).\n\nSpies are particularly useful for testing event handlers, callbacks, and side effects. They answer questions like 'was this function called?', 'how many times?', 'with what arguments?', and 'in what order relative to other calls?' without requiring the strict upfront specification that mocks demand.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "patterns",
+        "quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Spy",
+        "Test Spies"
+    ],
+    "relatedConcepts": [
+        "test-double",
+        "mock-object",
+        "test-stub",
+        "test-fake",
+        "dummy-object",
+        "unit-testing",
+        "test-driven-development"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Test double - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Test_double",
+            "type": "website"
+        },
+        {
+            "title": "TestDouble - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/TestDouble.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "xUnit Test Patterns: Refactoring Test Code by Gerard Meszaros",
+            "url": "https://www.amazon.com/dp/0131495054?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

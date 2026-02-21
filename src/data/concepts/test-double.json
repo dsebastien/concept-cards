@@ -1,0 +1,63 @@
+{
+    "id": "test-double",
+    "name": "Test Double",
+    "summary": "A generic term for any object that replaces a production dependency during testing, including dummies, fakes, stubs, spies, and mocks.",
+    "explanation": "A test double is a generic term, coined by Gerard Meszaros in his book xUnit Test Patterns, for any object that stands in for a real production dependency during testing. The name is an analogy to stunt doubles in filmmaking: just as a stunt double replaces an actor for dangerous scenes, a test double replaces a real component to make tests safer, faster, or more controllable.\n\nTest doubles solve a fundamental problem in testing: how to test a unit of code in isolation when it depends on other components that are slow, unreliable, nondeterministic, or have side effects. By replacing these dependencies with controlled substitutes, developers can write tests that are fast, repeatable, and focused on the behavior of the code under test.\n\nMeszaros identified five categories of test doubles, each serving a different purpose:\n\n**Dummy objects** are passed around but never actually used. They exist only to fill parameter lists or satisfy type requirements. A null value or empty object often serves as a dummy.\n\n**Fake objects** have working implementations that take shortcuts unsuitable for production. An in-memory database replacing a real database is a classic example. Fakes are functional but simplified.\n\n**Stubs** provide canned answers to calls made during a test. They are pre-programmed to return specific values but do not respond to anything outside their programming. Stubs support state-based verification.\n\n**Spies** are stubs that also record information about how they were called. They capture call counts, arguments, and invocation order, enabling verification of interactions after execution.\n\n**Mocks** are pre-programmed with expectations about which calls they should receive. They verify that the code under test interacts correctly with its dependencies, throwing exceptions for unexpected calls. Mocks support behavior-based verification.\n\nMartin Fowler distinguishes between two schools of testing based on test double usage: classical (or Detroit-school) testing, which uses real objects when possible and test doubles only when necessary (for slow or side-effecting dependencies), and mockist (or London-school) testing, which mocks all dependencies to isolate each unit completely. This distinction is explored in depth in Fowler's article 'Mocks Aren't Stubs'.\n\nModern testing frameworks like Mockito (Java), Jest (JavaScript), unittest.mock (Python), and Moq (.NET) provide built-in support for creating test doubles, blurring the lines between the categories. Most frameworks combine stub and spy capabilities into a single 'mock' construct, which can lead to confusion about the terminology.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "patterns",
+        "quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Test Doubles",
+        "Test Stand-In"
+    ],
+    "relatedConcepts": [
+        "mock-object",
+        "test-stub",
+        "test-spy",
+        "test-fake",
+        "dummy-object",
+        "unit-testing",
+        "test-driven-development",
+        "integration-testing",
+        "behavior-driven-development"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Test double - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Test_double",
+            "type": "website"
+        },
+        {
+            "title": "TestDouble - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/TestDouble.html",
+            "type": "website"
+        },
+        {
+            "title": "Mocks Aren't Stubs - Martin Fowler",
+            "url": "https://martinfowler.com/articles/mocksArentStubs.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "xUnit Test Patterns: Refactoring Test Code by Gerard Meszaros",
+            "url": "https://www.amazon.com/dp/0131495054?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

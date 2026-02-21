@@ -1,0 +1,57 @@
+{
+    "id": "dummy-object",
+    "name": "Dummy Object",
+    "summary": "A test double passed around to fill parameter lists but never actually used, serving only to satisfy method signatures or constructor requirements.",
+    "explanation": "A dummy object is the simplest type of test double. It is an object that is passed to the code under test but is never actually used in any meaningful way. Dummies exist solely to satisfy parameter lists, constructor requirements, or interface contracts when the test does not care about that particular dependency.\n\nConsider a function that requires three parameters but your test only exercises logic related to the first one. The second and third parameters still need values to make the code compile and run, but their content is irrelevant. Dummy objects fill these slots. They might be null values, empty objects, default-constructed instances, or any value that satisfies the type system.\n\nDummies differ from other test doubles in that they are not expected to be called or interacted with. If the code under test does attempt to use a dummy in a meaningful way, it typically results in an error, which actually serves as a useful signal that the test's assumptions about dependency usage are wrong.\n\nIn languages with strong type systems, dummies are particularly common. A method might require a Logger, a Configuration, and a Database, but if the test only exercises pure computation, the Logger and Database parameters can be dummies. Some developers create dedicated dummy implementations that throw exceptions on any method call, making it explicit that the object should not be used.\n\nIn practice, many developers use null or default values as dummies without thinking of them as a specific test double category. Meszaros's categorization makes the concept explicit, helping teams communicate about testing intent. When a developer sees a null being passed in a test, understanding it as a 'dummy' conveys that the dependency is intentionally irrelevant to this test case.\n\nModern mocking frameworks can generate dummies automatically. For example, Mockito's default behavior creates a dummy-like object that returns sensible defaults (null for objects, 0 for numbers, empty collections) without any explicit setup.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "patterns",
+        "quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Dummy",
+        "Dummy Parameter",
+        "Dummy Objects"
+    ],
+    "relatedConcepts": [
+        "test-double",
+        "mock-object",
+        "test-stub",
+        "test-spy",
+        "test-fake",
+        "unit-testing",
+        "test-driven-development"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Test double - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Test_double",
+            "type": "website"
+        },
+        {
+            "title": "TestDouble - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/TestDouble.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "xUnit Test Patterns: Refactoring Test Code by Gerard Meszaros",
+            "url": "https://www.amazon.com/dp/0131495054?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

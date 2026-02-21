@@ -1,0 +1,64 @@
+{
+    "id": "environment-variables",
+    "name": "Environment Variables",
+    "summary": "Named values maintained by the operating system or shell that configure process behavior, store system settings, and pass information between programs.",
+    "explanation": "Environment variables are named key-value pairs maintained by the operating system or shell that influence the behavior of running processes. They provide a mechanism for configuring software without modifying code, passing information between parent and child processes, and storing system-wide or user-specific settings.\n\nIn Unix-like systems, environment variables are set using `export VAR=value` in the shell and accessed with `$VAR` or `${VAR}`. In Windows, they are set with `set VAR=value` in cmd or `$env:VAR = 'value'` in PowerShell. Programs access them through system calls like `getenv()` in C, `os.environ` in Python, or `process.env` in Node.js.\n\nSeveral environment variables are nearly universal across Unix systems. `PATH` lists directories the shell searches for executable commands, separated by colons. `HOME` contains the path to the user's home directory. `PWD` stores the current working directory. `USER` or `LOGNAME` holds the current username. `SHELL` identifies the user's default shell. `LANG` and `LC_*` variables control locale and language settings. `TERM` specifies the terminal type.\n\nEnvironment variables follow an inheritance model: when a process creates a child process, the child inherits a copy of the parent's environment. Changes made in the child do not affect the parent. This is why setting a variable in a subshell or script does not change it in the calling shell unless the script is sourced (executed in the current shell context).\n\nIn modern software development, environment variables play a crucial role in configuration management. The Twelve-Factor App methodology recommends storing configuration in environment variables to keep it separate from code. This practice enables the same application code to run in different environments (development, staging, production) with different configurations. Tools like `.env` files (loaded by libraries like dotenv) provide a convenient way to manage environment variables during development.\n\nSecurity considerations are important when using environment variables. They should not be used for highly sensitive secrets in production environments, as they can leak through process listings, crash dumps, or child processes. Secret management tools and encrypted configuration stores are preferred for production credentials.",
+    "tags": [
+        "software-engineering",
+        "tools",
+        "cli"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Env Vars",
+        "ENV"
+    ],
+    "relatedConcepts": [
+        "shell",
+        "bash",
+        "cli",
+        "unix",
+        "working-directory",
+        "home-directory"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Environment variable - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Environment_variable",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

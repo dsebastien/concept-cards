@@ -1,0 +1,62 @@
+{
+    "id": "behavior-driven-development",
+    "name": "Behavior-Driven Development",
+    "summary": "A software development methodology that extends TDD by writing tests as human-readable specifications describing expected behavior from the user's perspective.",
+    "explanation": "Behavior-Driven Development (BDD) is a software development methodology that extends Test-Driven Development (TDD) by shifting the focus from testing implementation details to specifying expected behavior in a language that all stakeholders can understand. Created by Dan North in 2003, BDD emerged from his frustration with TDD's terminology and the difficulty non-developers had engaging with test-first practices.\n\nBDD uses a structured natural language format to describe behavior, most commonly the Given-When-Then syntax: Given (a precondition or context), When (an action or event occurs), Then (an expected outcome or result). This format, formalized in the Gherkin language, serves as both a specification and an automated test.\n\nFor example: 'Given a user with a valid account, When they enter correct credentials and click login, Then they should be redirected to the dashboard.' This scenario is readable by product owners, testers, and developers, bridging the communication gap between technical and non-technical team members.\n\nBDD operates at multiple levels. At the story level, it defines acceptance criteria using scenarios that describe how the system should behave from the user's perspective. At the specification level, it describes how individual components should behave, similar to traditional unit tests but using behavior-oriented language ('it should calculate the total' rather than 'testCalculateTotal').\n\nPopular BDD frameworks include Cucumber (multi-language, uses Gherkin files), SpecFlow (.NET), Behave (Python), RSpec (Ruby, specification-level BDD), Jasmine and Jest (JavaScript, with describe/it syntax), and JBehave (Java). These frameworks parse natural language scenarios and map them to executable test code through step definitions.\n\nBDD's core benefit is creating a shared understanding between developers, testers, and business stakeholders through 'living documentation': specifications that are always up to date because they are executable tests. This reduces miscommunication, catches requirement ambiguities early, and ensures the software actually delivers the behavior users need.\n\nCritics note that BDD adds overhead in maintaining Gherkin files and step definitions, can lead to slow test suites if overused for low-level tests, and requires organizational buy-in to be effective. BDD works best when the scenarios are authored collaboratively in 'three amigos' sessions (developer, tester, product owner) rather than written by a single role.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "methodologies",
+        "quality",
+        "agile"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "BDD",
+        "Behaviour-Driven Development"
+    ],
+    "relatedConcepts": [
+        "test-driven-development",
+        "unit-testing",
+        "integration-testing",
+        "test-double",
+        "mock-object",
+        "agile-manifesto",
+        "user-stories"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Behavior-driven development - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Behavior-driven_development",
+            "type": "website"
+        },
+        {
+            "title": "Introducing BDD - Dan North",
+            "url": "https://dannorth.net/introducing-bdd/",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "BDD in Action: Behavior-Driven Development for the Whole Software Lifecycle by John Ferguson Smart",
+            "url": "https://www.amazon.com/dp/1617291654?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

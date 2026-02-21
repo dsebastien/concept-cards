@@ -1,0 +1,62 @@
+{
+    "id": "file-system",
+    "name": "File System",
+    "summary": "A method and data structure used by operating systems to organize, store, retrieve, and manage files and directories on storage devices.",
+    "explanation": "A file system is a method and data structure that an operating system uses to organize, store, retrieve, and manage data on storage devices such as hard drives, SSDs, and USB drives. It provides the logical structure that allows users and programs to create, read, update, and delete files and directories in a predictable way.\n\nFile systems define how data is stored on disk and how metadata (file names, sizes, permissions, timestamps) is tracked. They organize data into a hierarchical tree structure of directories (also called folders) and files. In Unix-like systems, this hierarchy starts at the root directory `/`, while Windows uses drive letters like `C:\\` as root nodes.\n\nCommon file system types include ext4 (the default Linux file system), NTFS (Windows), APFS (macOS), XFS (high-performance Linux), Btrfs (copy-on-write Linux file system), FAT32 and exFAT (cross-platform portable storage), and ZFS (advanced with built-in volume management and checksumming).\n\nFile systems provide several critical features: naming (assigning human-readable names to data), organization (grouping files into directories), access control (permissions determining who can read, write, or execute files), metadata management (tracking timestamps, ownership, and attributes), space management (allocating and freeing storage blocks), and journaling (recording changes to recover from crashes).\n\nThe Unix philosophy of 'everything is a file' extends the file system metaphor to devices, processes, and network connections. Device files in `/dev`, process information in `/proc`, and system information in `/sys` all use the file system interface, creating a uniform way to interact with diverse system resources.\n\nVirtual file systems (VFS) provide an abstraction layer that allows operating systems to support multiple file system types simultaneously. Network file systems like NFS and SMB/CIFS extend file access across networks, while distributed file systems like HDFS and GlusterFS spread data across multiple machines for scalability and redundancy.",
+    "tags": [
+        "software-engineering",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Filesystem",
+        "FS"
+    ],
+    "relatedConcepts": [
+        "unix",
+        "linux",
+        "file-path",
+        "working-directory",
+        "home-directory"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "File system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/File_system",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

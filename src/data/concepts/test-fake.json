@@ -1,0 +1,58 @@
+{
+    "id": "test-fake",
+    "name": "Test Fake",
+    "summary": "A test double with a working but simplified implementation that takes shortcuts unsuitable for production, such as an in-memory database.",
+    "explanation": "A test fake is a type of test double that has a working implementation, but takes shortcuts that make it unsuitable for production use. Unlike stubs, which return canned answers, fakes actually process inputs and produce outputs through real logic, just in a simplified way.\n\nThe canonical example of a fake is an in-memory database. A production system might use PostgreSQL, but tests can use a simple in-memory data structure (like a HashMap or dictionary) that implements the same repository interface. The fake stores and retrieves data correctly, supports queries, and maintains consistency, but it does not persist data to disk, handle concurrent access, or optimize queries the way a real database would.\n\nOther common examples of fakes include: in-memory message queues replacing production message brokers, local file-based storage replacing cloud storage services, simplified authentication services that accept any credentials, fake email services that store messages in a list instead of sending them, and fake payment processors that always succeed.\n\nFakes sit at a unique position among test doubles. They require more effort to create than stubs or mocks because they need a working (if simplified) implementation. However, they provide higher-fidelity testing because they process real logic rather than returning pre-programmed responses. This makes them particularly valuable for integration-style tests that need realistic behavior without the overhead of real external systems.\n\nA key consideration with fakes is correctness: the fake must behave consistently with the real implementation for the scenarios under test, or the tests will give false confidence. Some teams maintain a contract test suite that runs against both the fake and the real implementation to ensure behavioral equivalence.\n\nFakes are sometimes shared across an entire project or organization. A well-maintained fake for a commonly used service (like a database or HTTP client) can eliminate the need for individual tests to create their own stubs and mocks, reducing duplication and improving test reliability.",
+    "tags": [
+        "testing",
+        "software-engineering",
+        "patterns",
+        "quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Fake",
+        "Fake Object",
+        "Test Fakes"
+    ],
+    "relatedConcepts": [
+        "test-double",
+        "mock-object",
+        "test-stub",
+        "test-spy",
+        "dummy-object",
+        "unit-testing",
+        "integration-testing",
+        "test-driven-development"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Test double - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Test_double",
+            "type": "website"
+        },
+        {
+            "title": "TestDouble - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/TestDouble.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "xUnit Test Patterns: Refactoring Test Code by Gerard Meszaros",
+            "url": "https://www.amazon.com/dp/0131495054?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}
