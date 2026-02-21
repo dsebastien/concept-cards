@@ -42,7 +42,7 @@ const menuLinks: NavLink[] = [
         to: '/explore',
         label: 'Explore',
         icon: <FaProjectDiagram className='h-5 w-5' />,
-        color: 'text-violet-400 bg-violet-500/10 hover:bg-violet-500/20'
+        color: 'text-purple-400 bg-purple-500/10 hover:bg-purple-500/20'
     },
     {
         to: '/random',

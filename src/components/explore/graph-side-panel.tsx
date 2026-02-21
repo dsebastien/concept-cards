@@ -196,7 +196,7 @@ function PanelContent({
                 <div className='mt-4 flex flex-col gap-2'>
                     <button
                         onClick={() => onExploreNeighbors(concept.id)}
-                        className='flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-violet-500/10 px-3 py-2 text-sm font-medium text-violet-400 transition-colors hover:bg-violet-500/20'
+                        className='flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-purple-500/10 px-3 py-2 text-sm font-medium text-purple-400 transition-colors hover:bg-purple-500/20'
                     >
                         <FaProjectDiagram className='h-3.5 w-3.5' />
                         Explore Neighbors

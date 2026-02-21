@@ -83,7 +83,7 @@ const GraphControls: React.FC<GraphControlsProps> = ({
             <div className='border-primary/10 text-primary/60 flex items-center justify-between border-t px-3 py-2 text-xs'>
                 <div className='flex items-center gap-2'>
                     {isLocalView ? (
-                        <FaProjectDiagram className='h-3 w-3 text-violet-400' />
+                        <FaProjectDiagram className='h-3 w-3 text-purple-400' />
                     ) : (
                         <FaGlobe className='h-3 w-3 text-blue-400' />
                     )}
