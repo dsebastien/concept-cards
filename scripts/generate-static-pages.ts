@@ -1673,11 +1673,137 @@ mkdirSync(tagsListingDir, { recursive: true })
 writeFileSync(join(tagsListingDir, 'index.html'), generateTagsListingPageHtml())
 console.log('  ✓ Created tags listing page')
 
+// Generate explore page
+console.log('Generating explore page...')
+function generateExplorePageHtml(): string {
+    const exploreUrl = `${BASE_URL}/explore`
+    const title = 'Explore Graph - Concepts'
+    const description =
+        'Explore the concept graph. Visualize connections between concepts, methods, and principles.'
+    const socialImage = `${BASE_URL}/assets/images/social-cards/pages/explore.png`
+
+    let html = indexHtml
+
+    // Update <title>
+    html = html.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
+
+    // Update canonical URL
+    html = html.replace(
+        /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+        `<link rel="canonical" href="${exploreUrl}" />`
+    )
+
+    // Update meta description
+    html = html.replace(
+        /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="description" content="${escapeHtml(description)}" />`
+    )
+
+    // Update Open Graph tags
+    html = html.replace(
+        /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:url" content="${exploreUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:description" content="${escapeHtml(description)}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:image" content="${socialImage}" />`
+    )
+    html = html.replace(
+        /<meta\s+property="og:image:alt"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:image:alt" content="${escapeHtml(title)}" />`
+    )
+
+    // Update Twitter tags
+    html = html.replace(
+        /<meta\s+name="twitter:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:url" content="${exploreUrl}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:title" content="${escapeHtml(title)}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:description" content="${escapeHtml(description)}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:image" content="${socialImage}" />`
+    )
+    html = html.replace(
+        /<meta\s+name="twitter:image:alt"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:image:alt" content="${escapeHtml(title)}" />`
+    )
+
+    // Generate explore page schema
+    const exploreSchema = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'WebPage',
+                '@id': `${exploreUrl}#webpage`,
+                'name': title,
+                'description': description,
+                'url': exploreUrl,
+                'creator': { '@id': `${BASE_URL}/#person` },
+                'publisher': { '@id': `${BASE_URL}/#organization` },
+                'isPartOf': {
+                    '@type': 'WebSite',
+                    '@id': `${BASE_URL}/#website`,
+                    'name': 'Concepts',
+                    'url': BASE_URL
+                },
+                'inLanguage': 'en'
+            },
+            authorSchema,
+            publisherSchema,
+            {
+                '@type': 'BreadcrumbList',
+                '@id': `${exploreUrl}#breadcrumb`,
+                'itemListElement': [
+                    {
+                        '@type': 'ListItem',
+                        'position': 1,
+                        'name': 'Home',
+                        'item': BASE_URL
+                    },
+                    {
+                        '@type': 'ListItem',
+                        'position': 2,
+                        'name': 'Explore',
+                        'item': exploreUrl
+                    }
+                ]
+            }
+        ]
+    }
+
+    html = html.replace(
+        /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
+        `<script type="application/ld+json">\n${JSON.stringify(exploreSchema, null, 12)}\n        </script>`
+    )
+
+    return html
+}
+
+const exploreDir = join(distDir, 'explore')
+mkdirSync(exploreDir, { recursive: true })
+writeFileSync(join(exploreDir, 'index.html'), generateExplorePageHtml())
+console.log('  ✓ Created explore page')
+
 // Create 404.html for GitHub Pages fallback (copy of index.html)
 writeFileSync(join(distDir, '404.html'), indexHtml)
 console.log('  ✓ Created 404.html fallback')
 
-console.log(`\n✓ Static pages generated: ${conceptCount + tagCount + categoryCount + 8} total`)
+console.log(`\n✓ Static pages generated: ${conceptCount + tagCount + categoryCount + 9} total`)
 console.log(`  - Homepage: 1`)
 console.log(`  - Statistics: 1`)
 console.log(`  - Random: 1`)
@@ -1685,6 +1811,7 @@ console.log(`  - Categories listing: 1`)
 console.log(`  - Tags listing: 1`)
 console.log(`  - Featured: 1`)
 console.log(`  - History: 1`)
+console.log(`  - Explore: 1`)
 console.log(`  - Concepts: ${conceptCount}`)
 console.log(`  - Tags: ${tagCount}`)
 console.log(`  - Category pages: ${categoryCount}`)
