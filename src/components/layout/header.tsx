@@ -23,10 +23,10 @@ import ThemeToggle from '@/components/ui/theme-toggle'
 // Links that are always visible (even on mobile, as icons)
 const alwaysVisibleLinks: NavLink[] = [
     {
-        to: '/featured',
-        label: 'Featured',
-        icon: <FaStar className='h-5 w-5' />,
-        color: 'text-amber-400 bg-amber-500/10 hover:bg-amber-500/20'
+        to: '/explore',
+        label: 'Explore',
+        icon: <FaProjectDiagram className='h-5 w-5' />,
+        color: 'text-purple-400 bg-purple-500/10 hover:bg-purple-500/20'
     },
     {
         to: '/unexplored',
@@ -39,10 +39,10 @@ const alwaysVisibleLinks: NavLink[] = [
 // Links that go into the hamburger menu on smaller screens
 const menuLinks: NavLink[] = [
     {
-        to: '/explore',
-        label: 'Explore',
-        icon: <FaProjectDiagram className='h-5 w-5' />,
-        color: 'text-purple-400 bg-purple-500/10 hover:bg-purple-500/20'
+        to: '/featured',
+        label: 'Featured',
+        icon: <FaStar className='h-5 w-5' />,
+        color: 'text-amber-400 bg-amber-500/10 hover:bg-amber-500/20'
     },
     {
         to: '/random',
