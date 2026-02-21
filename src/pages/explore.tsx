@@ -97,9 +97,12 @@ const ExplorePage: React.FC = () => {
         setSelectedConceptId(urlConceptId || null)
     }, [urlConceptId])
 
-    const handleNodeClick = useCallback((nodeId: string) => {
-        setSelectedConceptId(nodeId)
-    }, [])
+    const handleNodeClick = useCallback(
+        (nodeId: string) => {
+            navigate(`/explore/${nodeId}`)
+        },
+        [navigate]
+    )
 
     const handleNodeHover = useCallback((nodeId: string | null) => {
         setHoveredNodeId(nodeId)
