@@ -1,3 +1,9 @@
+## [10.45.0](https://github.com/dsebastien/concept-cards/compare/10.44.0...10.45.0) (2026-02-21)
+
+### Features
+
+* **all:** added more filters ([149e497](https://github.com/dsebastien/concept-cards/commit/149e497ac0643560849679f672b5bb23669cd264))
+* **all:** centered graph controls on the right ([a7b0d4d](https://github.com/dsebastien/concept-cards/commit/a7b0d4d57b4b6728dbb57e2f6325f4cd71f981c6))
 ## [10.44.0](https://github.com/dsebastien/concept-cards/compare/10.43.0...10.44.0) (2026-02-21)
 
 ### Features
