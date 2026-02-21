@@ -124,11 +124,11 @@ const GraphControls: React.FC<GraphControlsProps> = ({
 
     return (
         <div
-            className='border-primary/10 bg-surface/90 absolute z-10 flex w-48 flex-col rounded-xl border shadow-lg backdrop-blur-sm sm:w-72'
-            style={{ top: '1rem', left: '1rem', maxHeight: 'calc(100% - 2rem)' }}
+            className='border-primary/10 bg-surface/90 absolute z-10 flex w-60 flex-col rounded-xl border shadow-lg backdrop-blur-sm sm:w-72'
+            style={{ top: '0.5rem', left: '0.5rem', maxHeight: 'calc(100% - 1rem)' }}
         >
             {/* Search */}
-            <div className='p-3'>
+            <div className='p-2 sm:p-3'>
                 <div className='relative'>
                     <FaSearch
                         className='text-primary/40 absolute top-1/2 h-3.5 w-3.5 -translate-y-1/2'
@@ -189,7 +189,7 @@ const GraphControls: React.FC<GraphControlsProps> = ({
                 </button>
 
                 {/* Explored filter */}
-                <div className='border-primary/10 flex items-center justify-between border-t px-3 py-2'>
+                <div className='border-primary/10 flex flex-wrap items-center justify-between gap-1.5 border-t px-3 py-2'>
                     <span className='text-primary/70 flex items-center gap-1.5 text-xs font-medium'>
                         <FaCheckCircle
                             className={`h-3 w-3 ${exploredFilter !== 'all' ? 'text-emerald-400' : 'text-primary/30'}`}
@@ -202,7 +202,7 @@ const GraphControls: React.FC<GraphControlsProps> = ({
                             <button
                                 key={value}
                                 onClick={() => onSetExploredFilter(value)}
-                                className={`cursor-pointer rounded-md px-2 py-0.5 text-[11px] font-medium transition-colors ${
+                                className={`cursor-pointer rounded-md px-2 py-1 text-[11px] font-medium transition-colors ${
                                     exploredFilter === value
                                         ? 'bg-secondary/20 text-secondary-text'
                                         : 'bg-primary/5 text-primary/50 hover:bg-primary/10 hover:text-primary/70'
@@ -308,12 +308,12 @@ const GraphControls: React.FC<GraphControlsProps> = ({
                     <div className='border-primary/10 flex flex-col border-t'>
                         {/* Selected tags */}
                         {selectedTags.size > 0 && (
-                            <div className='flex flex-wrap gap-1 px-3 pt-2'>
+                            <div className='flex flex-wrap gap-1.5 px-3 pt-2 sm:gap-1'>
                                 {[...selectedTags].map((tag) => (
                                     <button
                                         key={tag}
                                         onClick={() => onToggleTag(tag)}
-                                        className='bg-secondary/20 text-secondary-text hover:bg-secondary/30 flex cursor-pointer items-center gap-1 rounded-full px-2 py-0.5 text-[11px] transition-colors'
+                                        className='bg-secondary/20 text-secondary-text hover:bg-secondary/30 flex cursor-pointer items-center gap-1 rounded-full px-2.5 py-1 text-[11px] transition-colors sm:px-2 sm:py-0.5'
                                     >
                                         {tag}
                                         <FaTimes className='h-2 w-2' />
@@ -341,14 +341,14 @@ const GraphControls: React.FC<GraphControlsProps> = ({
 
                         {/* Tag list */}
                         <div className='max-h-48 overflow-y-auto px-3 pt-2.5 pb-3'>
-                            <div className='flex flex-wrap gap-1'>
+                            <div className='flex flex-wrap gap-1.5 sm:gap-1'>
                                 {filteredTags.slice(0, 100).map(([tag, count]) => {
                                     const isSelected = selectedTags.has(tag)
                                     return (
                                         <button
                                             key={tag}
                                             onClick={() => onToggleTag(tag)}
-                                            className={`cursor-pointer rounded-full px-2 py-0.5 text-[11px] transition-colors ${
+                                            className={`cursor-pointer rounded-full px-2.5 py-1 text-[11px] transition-colors sm:px-2 sm:py-0.5 ${
                                                 isSelected
                                                     ? 'bg-secondary/20 text-secondary-text'
                                                     : 'bg-primary/5 text-primary/50 hover:bg-primary/10 hover:text-primary/70'
@@ -392,12 +392,12 @@ const GraphControls: React.FC<GraphControlsProps> = ({
                 {/* Connection density content */}
                 {isConnectionsExpanded && (
                     <div className='border-primary/10 border-t px-3 py-2'>
-                        <div className='flex flex-wrap gap-1'>
+                        <div className='flex flex-wrap gap-1.5 sm:gap-1'>
                             {CONNECTION_PRESETS.map(({ label, value }) => (
                                 <button
                                     key={value}
                                     onClick={() => onSetMinConnections(value)}
-                                    className={`cursor-pointer rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
+                                    className={`cursor-pointer rounded-md px-3 py-1.5 text-xs font-medium transition-colors sm:px-2.5 sm:py-1 ${
                                         minConnections === value
                                             ? 'bg-secondary/20 text-secondary-text'
                                             : 'bg-primary/5 text-primary/50 hover:bg-primary/10 hover:text-primary/70'
