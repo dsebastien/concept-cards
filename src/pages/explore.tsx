@@ -429,7 +429,7 @@ const ExplorePage: React.FC = () => {
                 onSetExploredFilter={handleSetExploredFilter}
             />
 
-            <GraphZoomControls canvasRef={canvasRef} />
+            <GraphZoomControls canvasRef={canvasRef} sidePanelOpen={!!selectedConcept} />
 
             <GraphSidePanel
                 concept={selectedConcept}

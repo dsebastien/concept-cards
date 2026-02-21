@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react'
-import { Link } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 import {
     FaTimes,
     FaProjectDiagram,
@@ -31,10 +31,20 @@ const GraphSidePanel: React.FC<GraphSidePanelProps> = ({
     onExploreNeighbors,
     onNavigateToConcept
 }) => {
+    const navigate = useNavigate()
+
     if (!concept || !isOpen) return null
 
     const categoryColor = CATEGORY_COLORS[concept.category] || '#94a3b8'
     const explored = isExplored(concept.id)
+
+    const handleCategoryClick = (category: string) => {
+        navigate(`/category/${encodeURIComponent(category)}`)
+    }
+
+    const handleTagClick = (tag: string) => {
+        navigate(`/tag/${encodeURIComponent(tag)}`)
+    }
 
     return (
         <>
@@ -56,6 +66,8 @@ const GraphSidePanel: React.FC<GraphSidePanelProps> = ({
                     onClose={onClose}
                     onExploreNeighbors={onExploreNeighbors}
                     onNavigateToConcept={onNavigateToConcept}
+                    onCategoryClick={handleCategoryClick}
+                    onTagClick={handleTagClick}
                 />
             </div>
 
@@ -70,6 +82,8 @@ const GraphSidePanel: React.FC<GraphSidePanelProps> = ({
                     onClose={onClose}
                     onExploreNeighbors={onExploreNeighbors}
                     onNavigateToConcept={onNavigateToConcept}
+                    onCategoryClick={handleCategoryClick}
+                    onTagClick={handleTagClick}
                 />
             </div>
         </>
@@ -84,7 +98,9 @@ function PanelContent({
     conceptMap,
     onClose,
     onExploreNeighbors,
-    onNavigateToConcept
+    onNavigateToConcept,
+    onCategoryClick,
+    onTagClick
 }: {
     concept: Concept
     categoryColor: string
@@ -94,6 +110,8 @@ function PanelContent({
     onClose: () => void
     onExploreNeighbors: (conceptId: string) => void
     onNavigateToConcept: (conceptId: string) => void
+    onCategoryClick: (category: string) => void
+    onTagClick: (tag: string) => void
 }) {
     const scrollRef = useRef<HTMLDivElement>(null)
 
@@ -130,12 +148,13 @@ function PanelContent({
                                 </span>
                             )}
                         </div>
-                        <span
-                            className='mt-0.5 inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white'
+                        <button
+                            onClick={() => onCategoryClick(concept.category)}
+                            className='mt-0.5 inline-block cursor-pointer rounded-full px-2 py-0.5 text-xs font-medium text-white transition-opacity hover:opacity-80'
                             style={{ backgroundColor: categoryColor }}
                         >
                             {concept.category}
-                        </span>
+                        </button>
                     </div>
                 </div>
                 <button
@@ -171,12 +190,13 @@ function PanelContent({
                     <div className='mt-3'>
                         <div className='flex flex-wrap gap-1.5'>
                             {concept.tags.map((tag) => (
-                                <span
+                                <button
                                     key={tag}
-                                    className='bg-primary/5 text-primary/60 rounded-full px-2 py-0.5 text-xs'
+                                    onClick={() => onTagClick(tag)}
+                                    className='bg-primary/5 text-primary/60 hover:bg-primary/10 hover:text-primary/80 cursor-pointer rounded-full px-2 py-0.5 text-xs transition-colors'
                                 >
                                     {tag}
-                                </span>
+                                </button>
                             ))}
                         </div>
                     </div>

@@ -3,9 +3,13 @@ import type { GraphCanvasHandle } from './graph-canvas'
 
 interface GraphZoomControlsProps {
     canvasRef: React.RefObject<GraphCanvasHandle | null>
+    sidePanelOpen?: boolean
 }
 
-const GraphZoomControls: React.FC<GraphZoomControlsProps> = ({ canvasRef }) => {
+const GraphZoomControls: React.FC<GraphZoomControlsProps> = ({
+    canvasRef,
+    sidePanelOpen = false
+}) => {
     const handleZoomIn = () => {
         canvasRef.current?.zoom(2, 300)
     }
@@ -25,8 +29,8 @@ const GraphZoomControls: React.FC<GraphZoomControlsProps> = ({ canvasRef }) => {
 
     return (
         <div
-            className='absolute z-30 flex flex-col gap-1.5'
-            style={{ right: '0.5rem', top: '50%', transform: 'translateY(-50%)' }}
+            className={`absolute right-2 z-30 flex flex-col gap-1.5 transition-all duration-300 ${sidePanelOpen ? 'sm:right-[21rem] lg:right-[25rem]' : ''}`}
+            style={{ top: '50%', transform: 'translateY(-50%)' }}
         >
             <button
                 onClick={handleZoomIn}
