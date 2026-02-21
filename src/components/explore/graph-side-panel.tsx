@@ -88,6 +88,12 @@ function PanelContent({
     onExploreNeighbors: (conceptId: string) => void
     onNavigateToConcept: (conceptId: string) => void
 }) {
+    const scrollRef = useRef<HTMLDivElement>(null)
+
+    useEffect(() => {
+        scrollRef.current?.scrollTo(0, 0)
+    }, [concept.id])
+
     return (
         <>
             {/* Header */}
@@ -135,7 +141,7 @@ function PanelContent({
             </div>
 
             {/* Scrollable content */}
-            <div className='flex-1 overflow-y-auto px-3 pb-3 sm:px-4 sm:pb-4'>
+            <div ref={scrollRef} className='flex-1 overflow-y-auto px-3 pb-3 sm:px-4 sm:pb-4'>
                 {/* Summary */}
                 <p className='text-primary/70 mt-2 text-sm leading-relaxed'>{concept.summary}</p>
 
