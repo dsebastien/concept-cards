@@ -75,6 +75,8 @@ License: Content may be cited with attribution
 - / - Homepage with searchable concept grid
 - /concept/{id} - Individual concept pages with detailed explanations
 - /tag/{name} - Tag-filtered views showing related concepts
+- /explore - Interactive graph visualization of all concepts and their relationships
+- /explore/{id} - Local graph view showing a concept and its neighbors
 
 ## Categories
 ${categories
