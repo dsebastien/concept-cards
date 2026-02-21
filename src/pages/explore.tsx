@@ -1,5 +1,5 @@
 import { useState, useMemo, useCallback, useRef, useEffect } from 'react'
-import { useParams, useNavigate } from 'react-router'
+import { useParams, useNavigate, useSearchParams } from 'react-router'
 import { concepts, categories } from '@/data/index'
 import { buildGraphData, getNeighborhood, findConceptNodes } from '@/lib/graph-utils'
 import { useExploredConcepts } from '@/hooks/use-explored-concepts'
@@ -13,19 +13,76 @@ import GraphSidePanel from '@/components/explore/graph-side-panel'
 const ExplorePage: React.FC = () => {
     const { conceptId: urlConceptId } = useParams<{ conceptId?: string }>()
     const navigate = useNavigate()
+    const [searchParams, setSearchParams] = useSearchParams()
     const canvasRef = useRef<GraphCanvasHandle>(null)
+    const searchDebounceRef = useRef<ReturnType<typeof setTimeout>>(null)
+
+    // All categories except "All"
+    const allCategories = useMemo(() => (categories as string[]).filter((c) => c !== 'All'), [])
 
     const [selectedConceptId, setSelectedConceptId] = useState<string | null>(urlConceptId || null)
     const [hoveredNodeId, setHoveredNodeId] = useState<string | null>(null)
-    const [searchQuery, setSearchQuery] = useState('')
+
+    // Initialize search and categories from URL params
+    const [searchQuery, setSearchQuery] = useState(() => searchParams.get('q') || '')
     const [visibleCategories, setVisibleCategories] = useState<Set<string>>(() => {
-        const allCats = (categories as string[]).filter((c) => c !== 'All')
-        return new Set(allCats)
+        const hideParam = searchParams.get('hide')
+        if (hideParam) {
+            const hidden = new Set(hideParam.split(','))
+            return new Set(allCategories.filter((c) => !hidden.has(c)))
+        }
+        return new Set(allCategories)
     })
+
+    // Refs to track latest values for use in callbacks without stale closures
+    const latestSearchRef = useRef(searchQuery)
+    const latestCategoriesRef = useRef(visibleCategories)
+    latestSearchRef.current = searchQuery
+    latestCategoriesRef.current = visibleCategories
 
     const { markAsExplored, isExplored } = useExploredConcepts()
 
     const isLocalView = !!urlConceptId
+
+    // Build URL search string from given state
+    const buildSearch = useCallback(
+        (query: string, cats: Set<string>) => {
+            const params = new URLSearchParams()
+            const q = query.trim()
+            if (q) params.set('q', q)
+            if (cats.size < allCategories.length) {
+                const hidden = allCategories.filter((c) => !cats.has(c))
+                if (hidden.length > 0) params.set('hide', hidden.join(','))
+            }
+            return params
+        },
+        [allCategories]
+    )
+
+    // Update only the search params portion of the URL
+    const syncUrlParams = useCallback(
+        (query: string, cats: Set<string>) => {
+            setSearchParams(buildSearch(query, cats), { replace: true })
+        },
+        [buildSearch, setSearchParams]
+    )
+
+    // Build a full path string preserving search params
+    const buildPath = useCallback(
+        (path: string) => {
+            const params = buildSearch(latestSearchRef.current, latestCategoriesRef.current)
+            const str = params.toString()
+            return str ? `${path}?${str}` : path
+        },
+        [buildSearch]
+    )
+
+    // Cleanup debounce on unmount
+    useEffect(() => {
+        return () => {
+            if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+        }
+    }, [])
 
     // Mark concept as explored when selected
     useEffect(() => {
@@ -50,9 +107,6 @@ const ExplorePage: React.FC = () => {
         }
         return map
     }, [])
-
-    // All categories except "All"
-    const allCategories = useMemo(() => (categories as string[]).filter((c) => c !== 'All'), [])
 
     // Build full graph data
     const fullGraphData = useMemo(
@@ -81,7 +135,6 @@ const ExplorePage: React.FC = () => {
             const firstId = highlightedNodeIds.values().next().value
             const node = displayedGraphData.nodes.find((n) => n.id === firstId)
             if (node) {
-                // The node object will have x/y after simulation
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 const n = node as any
                 if (n.x != null && n.y != null) {
@@ -99,9 +152,9 @@ const ExplorePage: React.FC = () => {
 
     const handleNodeClick = useCallback(
         (nodeId: string) => {
-            navigate(`/explore/${nodeId}`)
+            navigate(buildPath(`/explore/${nodeId}`))
         },
-        [navigate]
+        [navigate, buildPath]
     )
 
     const handleNodeHover = useCallback((nodeId: string | null) => {
@@ -114,41 +167,65 @@ const ExplorePage: React.FC = () => {
 
     const handleExploreNeighbors = useCallback(
         (conceptId: string) => {
-            navigate(`/explore/${conceptId}`)
+            navigate(buildPath(`/explore/${conceptId}`))
         },
-        [navigate]
+        [navigate, buildPath]
     )
 
     const handleNavigateToConcept = useCallback(
         (conceptId: string) => {
-            navigate(`/explore/${conceptId}`)
+            navigate(buildPath(`/explore/${conceptId}`))
         },
-        [navigate]
+        [navigate, buildPath]
     )
 
-    const handleToggleCategory = useCallback((category: string) => {
-        setVisibleCategories((prev) => {
-            const next = new Set(prev)
-            if (next.has(category)) {
-                next.delete(category)
-            } else {
-                next.add(category)
-            }
-            return next
-        })
-    }, [])
+    const handleToggleCategory = useCallback(
+        (category: string) => {
+            setVisibleCategories((prev) => {
+                const next = new Set(prev)
+                if (next.has(category)) {
+                    next.delete(category)
+                } else {
+                    next.add(category)
+                }
+                // Clear pending search debounce and sync immediately
+                if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+                syncUrlParams(latestSearchRef.current, next)
+                return next
+            })
+        },
+        [syncUrlParams]
+    )
 
     const handleShowAll = useCallback(() => {
-        setVisibleCategories(new Set(allCategories))
-    }, [allCategories])
+        const all = new Set(allCategories)
+        setVisibleCategories(all)
+        if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+        syncUrlParams(latestSearchRef.current, all)
+    }, [allCategories, syncUrlParams])
 
     const handleHideAll = useCallback(() => {
-        setVisibleCategories(new Set())
-    }, [])
+        const none = new Set<string>()
+        setVisibleCategories(none)
+        if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+        syncUrlParams(latestSearchRef.current, none)
+    }, [syncUrlParams])
 
-    const handleSearchChange = useCallback((query: string) => {
-        setSearchQuery(query)
-    }, [])
+    const handleSearchChange = useCallback(
+        (query: string) => {
+            setSearchQuery(query)
+            // Debounced URL update
+            if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+            searchDebounceRef.current = setTimeout(() => {
+                syncUrlParams(query, latestCategoriesRef.current)
+            }, 300)
+        },
+        [syncUrlParams]
+    )
+
+    const handleBackToGlobal = useCallback(() => {
+        navigate(buildPath('/explore'))
+    }, [navigate, buildPath])
 
     const selectedConcept = selectedConceptId ? conceptMap.get(selectedConceptId) || null : null
 
@@ -157,7 +234,7 @@ const ExplorePage: React.FC = () => {
             {/* Back to global view button when in local view */}
             {isLocalView && (
                 <button
-                    onClick={() => navigate('/explore')}
+                    onClick={handleBackToGlobal}
                     className='bg-surface/90 text-primary/70 border-primary/10 hover:text-primary absolute z-20 cursor-pointer rounded-full border px-3 py-1.5 text-xs font-medium shadow-lg backdrop-blur-sm transition-colors'
                     style={{ top: '0.75rem', left: '50%', transform: 'translateX(-50%)' }}
                 >
