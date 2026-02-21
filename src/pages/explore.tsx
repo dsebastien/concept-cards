@@ -150,14 +150,15 @@ const ExplorePage: React.FC = () => {
     const selectedConcept = selectedConceptId ? conceptMap.get(selectedConceptId) || null : null
 
     return (
-        <div className='relative h-[calc(100vh-64px)] w-full overflow-hidden sm:h-[calc(100vh-80px)]'>
+        <div className='relative w-full overflow-hidden' style={{ height: 'calc(100vh - 64px)' }}>
             {/* Back to global view button when in local view */}
             {isLocalView && (
                 <button
                     onClick={() => navigate('/explore')}
-                    className='bg-surface/90 text-primary/70 border-primary/10 hover:text-primary absolute top-4 left-1/2 z-20 -translate-x-1/2 cursor-pointer rounded-full border px-4 py-1.5 text-xs font-medium shadow-lg backdrop-blur-sm transition-colors'
+                    className='bg-surface/90 text-primary/70 border-primary/10 hover:text-primary absolute z-20 cursor-pointer rounded-full border px-3 py-1.5 text-xs font-medium shadow-lg backdrop-blur-sm transition-colors'
+                    style={{ top: '0.75rem', left: '50%', transform: 'translateX(-50%)' }}
                 >
-                    Back to Global View
+                    Global View
                 </button>
             )}
 

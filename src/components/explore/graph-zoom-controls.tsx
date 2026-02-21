@@ -21,10 +21,13 @@ const GraphZoomControls: React.FC<GraphZoomControlsProps> = ({ canvasRef }) => {
     }
 
     const btnClass =
-        'flex h-9 w-9 cursor-pointer items-center justify-center rounded-lg bg-surface/90 backdrop-blur-sm border border-primary/10 text-primary/70 hover:text-primary hover:bg-surface transition-colors shadow-sm'
+        'flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg bg-surface/90 backdrop-blur-sm border border-primary/10 text-primary/70 hover:text-primary hover:bg-surface transition-colors shadow-sm'
 
     return (
-        <div className='absolute right-4 bottom-4 z-10 flex flex-col gap-1.5'>
+        <div
+            className='absolute z-30 flex flex-col gap-1.5'
+            style={{ right: '1rem', bottom: '1rem' }}
+        >
             <button
                 onClick={handleZoomIn}
                 className={btnClass}

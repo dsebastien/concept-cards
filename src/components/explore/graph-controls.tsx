@@ -58,14 +58,20 @@ const GraphControls: React.FC<GraphControlsProps> = ({
     const categories = allCategories.filter((c) => c !== 'All')
 
     return (
-        <div className='border-primary/10 bg-surface/90 absolute top-4 left-4 z-10 flex max-h-[calc(100%-2rem)] w-64 flex-col rounded-xl border shadow-lg backdrop-blur-sm sm:w-72'>
+        <div
+            className='border-primary/10 bg-surface/90 absolute z-10 flex w-48 flex-col rounded-xl border shadow-lg backdrop-blur-sm sm:w-72'
+            style={{ top: '1rem', left: '1rem', maxHeight: 'calc(100% - 2rem)' }}
+        >
             {/* Search */}
             <div className='p-3'>
                 <div className='relative'>
-                    <FaSearch className='text-primary/40 absolute top-1/2 left-3 h-3.5 w-3.5 -translate-y-1/2' />
+                    <FaSearch
+                        className='text-primary/40 absolute top-1/2 h-3.5 w-3.5 -translate-y-1/2'
+                        style={{ left: '0.75rem' }}
+                    />
                     <input
                         type='text'
-                        placeholder='Search concepts...'
+                        placeholder='Search...'
                         defaultValue={searchQuery}
                         onChange={(e) => handleSearch(e.target.value)}
                         className='border-primary/10 bg-primary/5 text-primary placeholder:text-primary/40 focus:border-secondary/50 w-full rounded-lg border py-2 pr-3 pl-9 text-sm outline-none'
@@ -84,7 +90,7 @@ const GraphControls: React.FC<GraphControlsProps> = ({
                     <span>{isLocalView ? 'Local' : 'Global'}</span>
                 </div>
                 <span>
-                    {nodeCount.toLocaleString()} nodes &middot; {linkCount.toLocaleString()} links
+                    {nodeCount.toLocaleString()} &middot; {linkCount.toLocaleString()}
                 </span>
             </div>
 

@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react'
 import { Link } from 'react-router'
 import { FaTimes, FaProjectDiagram, FaExternalLinkAlt, FaCheckCircle } from 'react-icons/fa'
 import { CATEGORY_COLORS } from '@/lib/graph-utils'
@@ -31,7 +32,10 @@ const GraphSidePanel: React.FC<GraphSidePanelProps> = ({
     return (
         <>
             {/* Mobile: bottom sheet */}
-            <div className='border-primary/10 bg-surface/95 absolute right-0 bottom-0 left-0 z-20 flex max-h-[60vh] flex-col rounded-t-2xl border-t shadow-2xl backdrop-blur-md sm:hidden'>
+            <div
+                className='border-primary/10 bg-surface/95 absolute right-0 bottom-0 left-0 z-20 flex flex-col overflow-hidden rounded-t-2xl border-t shadow-2xl backdrop-blur-md sm:hidden'
+                style={{ maxHeight: '45vh' }}
+            >
                 {/* Drag handle */}
                 <div className='flex justify-center pt-2 pb-1'>
                     <div className='bg-primary/20 h-1 w-8 rounded-full' />
@@ -88,13 +92,13 @@ function PanelContent({
         <>
             {/* Header */}
             <div
-                className={`flex items-start justify-between gap-2 p-4 pb-2 ${
+                className={`flex items-start justify-between gap-2 p-3 pb-1 sm:p-4 sm:pb-2 ${
                     explored ? 'bg-success-subtle' : ''
                 }`}
             >
-                <div className='flex items-center gap-3'>
+                <div className='flex items-center gap-2 sm:gap-3'>
                     <div
-                        className={`relative flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ${
+                        className={`relative flex h-8 w-8 shrink-0 items-center justify-center rounded-lg sm:h-10 sm:w-10 sm:rounded-xl ${
                             explored ? 'bg-success' : 'bg-primary/10'
                         }`}
                     >
@@ -131,7 +135,7 @@ function PanelContent({
             </div>
 
             {/* Scrollable content */}
-            <div className='flex-1 overflow-y-auto px-4 pb-4'>
+            <div className='flex-1 overflow-y-auto px-3 pb-3 sm:px-4 sm:pb-4'>
                 {/* Summary */}
                 <p className='text-primary/70 mt-2 text-sm leading-relaxed'>{concept.summary}</p>
 
