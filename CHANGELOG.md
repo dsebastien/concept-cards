@@ -1,3 +1,11 @@
+## [10.46.0](https://github.com/dsebastien/concept-cards/compare/10.45.0...10.46.0) (2026-02-21)
+
+### Features
+
+* **all:** added social image for the explore page ([f3983c1](https://github.com/dsebastien/concept-cards/commit/f3983c1d05dc6be12198553a66f2e08f7c1d84fe))
+* **all:** improved copy to image ([fa7d0b2](https://github.com/dsebastien/concept-cards/commit/fa7d0b25ef3639234b396005a008ee3b1ed6aa12))
+* **all:** improved copy ux and copy to image (markdown table support) ([f9e335f](https://github.com/dsebastien/concept-cards/commit/f9e335fb988a68404a4a1f1ad3e0536e12179954))
+* **all:** improved table rendering ([a27dc11](https://github.com/dsebastien/concept-cards/commit/a27dc114caa580ddc11ff2165a9737c112078adc))
 ## [10.45.0](https://github.com/dsebastien/concept-cards/compare/10.44.0...10.45.0) (2026-02-21)
 
 ### Features
