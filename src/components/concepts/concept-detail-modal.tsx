@@ -149,6 +149,9 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
     const modalRef = useRef<HTMLDivElement>(null)
     const [slideDirection, setSlideDirection] = useState<'left' | 'right' | null>(null)
     const [copied, setCopied] = useState(false)
+    const [copiedImage, setCopiedImage] = useState(false)
+    const [copyMenuOpen, setCopyMenuOpen] = useState(false)
+    const copyMenuRef = useRef<HTMLDivElement>(null)
     const scrollPositionRef = useRef<number>(0)
 
     // Sort concepts the same way as displayed (featured first, then alphabetically)
@@ -247,6 +250,25 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
         }
     }
 
+    // Close copy menu on click outside
+    useEffect(() => {
+        if (!copyMenuOpen) return
+        const handleClickOutside = (e: MouseEvent) => {
+            if (copyMenuRef.current && !copyMenuRef.current.contains(e.target as Node)) {
+                setCopyMenuOpen(false)
+            }
+        }
+        document.addEventListener('mousedown', handleClickOutside)
+        return () => document.removeEventListener('mousedown', handleClickOutside)
+    }, [copyMenuOpen])
+
+    // Close copy menu when concept changes
+    useEffect(() => {
+        setCopyMenuOpen(false)
+        setCopied(false)
+        setCopiedImage(false)
+    }, [concept?.id])
+
     const handleCopy = async () => {
         if (!concept) return
 
@@ -256,9 +278,506 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
         try {
             await navigator.clipboard.writeText(textToCopy)
             setCopied(true)
+            setCopyMenuOpen(false)
             setTimeout(() => setCopied(false), 2000)
         } catch (err) {
             console.error('Failed to copy text:', err)
+        }
+    }
+
+    const handleCopyAsImage = async () => {
+        if (!concept) return
+
+        const conceptUrl = `https://concepts.dsebastien.net/#/concept/${concept.id}`
+        const canvas = document.createElement('canvas')
+        const ctx = canvas.getContext('2d')
+        if (!ctx) return
+
+        const width = 800
+        const padding = 48
+        const contentWidth = width - padding * 2
+        const listIndent = 24
+        const fontFamily = 'system-ui, -apple-system, sans-serif'
+
+        // Font helper
+        const getFont = (size: number, bold: boolean, italic: boolean): string => {
+            const style = italic ? 'italic ' : ''
+            const weight = bold ? 'bold ' : ''
+            return `${style}${weight}${size}px ${fontFamily}`
+        }
+
+        // Inline markdown types
+        type WordToken = { word: string; bold: boolean; italic: boolean }
+
+        // Parse inline markdown into segments, then split into word tokens
+        const parseToWords = (text: string): WordToken[] => {
+            type Segment = { text: string; bold: boolean; italic: boolean }
+            const segments: Segment[] = []
+            const regex = /\*\*(.+?)\*\*|\*(.+?)\*|_(.+?)_|\[([^\]]+)\]\([^)]+\)/g
+            let lastIndex = 0
+            let match
+            while ((match = regex.exec(text)) !== null) {
+                if (match.index > lastIndex) {
+                    segments.push({
+                        text: text.slice(lastIndex, match.index),
+                        bold: false,
+                        italic: false
+                    })
+                }
+                if (match[1] !== undefined)
+                    segments.push({ text: match[1], bold: true, italic: false })
+                else if (match[2] !== undefined)
+                    segments.push({ text: match[2], bold: false, italic: true })
+                else if (match[3] !== undefined)
+                    segments.push({ text: match[3], bold: false, italic: true })
+                else if (match[4] !== undefined)
+                    segments.push({ text: match[4], bold: false, italic: false })
+                lastIndex = match.index + match[0].length
+            }
+            if (lastIndex < text.length) {
+                segments.push({ text: text.slice(lastIndex), bold: false, italic: false })
+            }
+            if (segments.length === 0) {
+                segments.push({ text, bold: false, italic: false })
+            }
+
+            const tokens: WordToken[] = []
+            for (const seg of segments) {
+                for (const word of seg.text.split(/\s+/).filter((w) => w)) {
+                    tokens.push({ word, bold: seg.bold, italic: seg.italic })
+                }
+            }
+            return tokens
+        }
+
+        // Wrap word tokens into lines that fit maxWidth, respecting per-word fonts
+        const wrapWords = (
+            tokens: WordToken[],
+            fontSize: number,
+            maxWidth: number
+        ): WordToken[][] => {
+            const lines: WordToken[][] = []
+            let line: WordToken[] = []
+            let lineWidth = 0
+            ctx.font = getFont(fontSize, false, false)
+            const spaceWidth = ctx.measureText(' ').width
+
+            for (const token of tokens) {
+                ctx.font = getFont(fontSize, token.bold, token.italic)
+                const wordWidth = ctx.measureText(token.word).width
+                const needed = line.length > 0 ? spaceWidth + wordWidth : wordWidth
+                if (lineWidth + needed > maxWidth && line.length > 0) {
+                    lines.push(line)
+                    line = [token]
+                    lineWidth = wordWidth
+                } else {
+                    line.push(token)
+                    lineWidth += needed
+                }
+            }
+            if (line.length > 0) lines.push(line)
+            return lines
+        }
+
+        // Render a line of word tokens with per-word font styling
+        const renderTokenLine = (
+            tokens: WordToken[],
+            x: number,
+            y: number,
+            fontSize: number,
+            color: string,
+            boldColor?: string
+        ) => {
+            let curX = x
+            ctx.font = getFont(fontSize, false, false)
+            const spaceWidth = ctx.measureText(' ').width
+
+            for (let i = 0; i < tokens.length; i++) {
+                const token = tokens[i]!
+                ctx.font = getFont(fontSize, token.bold, token.italic)
+                ctx.fillStyle = token.bold && boldColor ? boldColor : color
+                ctx.fillText(token.word, curX, y)
+                curX += ctx.measureText(token.word).width
+                if (i < tokens.length - 1) curX += spaceWidth
+            }
+        }
+
+        // Parse markdown into blocks
+        type Block =
+            | { type: 'paragraph'; text: string }
+            | { type: 'bullet'; text: string }
+            | { type: 'numbered'; num: string; text: string }
+            | { type: 'table'; headers: string[]; rows: string[][] }
+            | { type: 'blank' }
+
+        const parseTableRow = (line: string): string[] =>
+            line
+                .split('|')
+                .slice(1, -1)
+                .map((cell) => cell.trim())
+
+        const isTableSeparator = (line: string): boolean => /^\|[\s:-]+\|/.test(line.trim())
+
+        const parseBlocks = (markdown: string): Block[] => {
+            const blocks: Block[] = []
+            const lines = markdown.split('\n')
+            let i = 0
+            while (i < lines.length) {
+                const line = lines[i]!
+                if (line.trim() === '') {
+                    blocks.push({ type: 'blank' })
+                    i++
+                    continue
+                }
+                // Detect table: line starts with |
+                if (line.trim().startsWith('|')) {
+                    const headers = parseTableRow(line)
+                    i++
+                    // Skip separator row
+                    if (i < lines.length && isTableSeparator(lines[i]!)) i++
+                    const rows: string[][] = []
+                    while (
+                        i < lines.length &&
+                        lines[i]!.trim().startsWith('|') &&
+                        !isTableSeparator(lines[i]!)
+                    ) {
+                        rows.push(parseTableRow(lines[i]!))
+                        i++
+                    }
+                    blocks.push({ type: 'table', headers, rows })
+                    continue
+                }
+                const bulletMatch = line.match(/^[-*]\s+(.*)/)
+                if (bulletMatch) {
+                    blocks.push({ type: 'bullet', text: bulletMatch[1]! })
+                    i++
+                    continue
+                }
+                const numberedMatch = line.match(/^(\d+)\.\s+(.*)/)
+                if (numberedMatch) {
+                    blocks.push({
+                        type: 'numbered',
+                        num: numberedMatch[1]!,
+                        text: numberedMatch[2]!
+                    })
+                    i++
+                    continue
+                }
+                // Strip header markers but keep the text
+                const headerMatch = line.match(/^#{1,6}\s+(.*)/)
+                blocks.push({ type: 'paragraph', text: headerMatch ? headerMatch[1]! : line })
+                i++
+            }
+            return blocks
+        }
+
+        // Pre-calculate layout
+        const titleFontSize = 32
+        const summaryFontSize = 18
+        const explanationFontSize = 16
+
+        const titleLines = wrapWords(parseToWords(concept.name), titleFontSize, contentWidth)
+        const summaryLines = wrapWords(parseToWords(concept.summary), summaryFontSize, contentWidth)
+
+        // Build explanation rendered elements
+        const tableCellPadding = 10
+        const tableRowHeight = explanationFontSize * 1.5 + tableCellPadding * 2
+
+        type RenderedTextLine = {
+            type: 'line'
+            tokens: WordToken[]
+            indent: number
+            bullet?: string
+        }
+        type RenderedTable = {
+            type: 'table'
+            headers: WordToken[][]
+            rows: WordToken[][][]
+            colWidths: number[]
+        }
+        type RenderedBlank = { type: 'blank' }
+        type RenderedElement = RenderedTextLine | RenderedTable | RenderedBlank
+
+        const explanationRendered: RenderedElement[] = []
+        const maxLines = 20
+        let lineCount = 0
+        let truncated = false
+
+        for (const block of parseBlocks(concept.explanation)) {
+            if (truncated) break
+
+            if (block.type === 'blank') {
+                if (lineCount >= maxLines) {
+                    truncated = true
+                    break
+                }
+                explanationRendered.push({ type: 'blank' })
+                lineCount++
+                continue
+            }
+
+            if (block.type === 'table') {
+                const totalRows = 1 + block.rows.length
+                if (lineCount + totalRows > maxLines) {
+                    truncated = true
+                    break
+                }
+                // Parse cells into word tokens
+                const headerTokens = block.headers.map((cell) => parseToWords(cell))
+                const rowTokens = block.rows.map((row) => row.map((cell) => parseToWords(cell)))
+
+                // Calculate column widths based on content
+                const colCount = block.headers.length
+                const colWidths: number[] = new Array(colCount).fill(0) as number[]
+                for (let c = 0; c < colCount; c++) {
+                    // Measure header
+                    ctx.font = getFont(explanationFontSize, true, false)
+                    const headerText = block.headers[c] ?? ''
+                    colWidths[c] = Math.max(colWidths[c]!, ctx.measureText(headerText).width)
+                    // Measure data cells
+                    for (const row of block.rows) {
+                        ctx.font = getFont(explanationFontSize, false, false)
+                        const cellText = row[c] ?? ''
+                        colWidths[c] = Math.max(colWidths[c]!, ctx.measureText(cellText).width)
+                    }
+                    colWidths[c] = colWidths[c]! + tableCellPadding * 2
+                }
+
+                // Scale columns to fit content width if they overflow
+                const totalColWidth = colWidths.reduce((a, b) => a + b, 0)
+                if (totalColWidth > contentWidth) {
+                    const scale = contentWidth / totalColWidth
+                    for (let c = 0; c < colCount; c++) {
+                        colWidths[c] = colWidths[c]! * scale
+                    }
+                }
+
+                explanationRendered.push({
+                    type: 'table',
+                    headers: headerTokens,
+                    rows: rowTokens,
+                    colWidths
+                })
+                lineCount += totalRows
+                continue
+            }
+
+            const isList = block.type === 'bullet' || block.type === 'numbered'
+            const indent = isList ? listIndent : 0
+            const words = parseToWords(block.text)
+            const wrapped = wrapWords(words, explanationFontSize, contentWidth - indent)
+
+            for (let i = 0; i < wrapped.length; i++) {
+                if (lineCount >= maxLines) {
+                    truncated = true
+                    const lastEl = explanationRendered[explanationRendered.length - 1]
+                    if (lastEl && lastEl.type === 'line' && lastEl.tokens.length > 0) {
+                        const lastToken = lastEl.tokens[lastEl.tokens.length - 1]
+                        if (lastToken) {
+                            lastEl.tokens[lastEl.tokens.length - 1] = {
+                                ...lastToken,
+                                word: lastToken.word + '...'
+                            }
+                        }
+                    }
+                    break
+                }
+                const bullet =
+                    i === 0
+                        ? block.type === 'bullet'
+                            ? '\u2022'
+                            : block.type === 'numbered'
+                              ? `${block.num}.`
+                              : undefined
+                        : undefined
+                explanationRendered.push({ type: 'line', tokens: wrapped[i]!, indent, bullet })
+                lineCount++
+            }
+        }
+
+        // Calculate total height
+        const accentBarHeight = 8
+        const titleBlockHeight = titleLines.length * titleFontSize * 1.5 + 24
+        const summaryBlockHeight = summaryLines.length * summaryFontSize * 1.5 + 32
+        const explanationBlockHeight = explanationRendered.reduce((h, el) => {
+            if (el.type === 'blank') return h + 8
+            if (el.type === 'table') return h + (1 + el.rows.length) * tableRowHeight + 8
+            return h + explanationFontSize * 1.5
+        }, 24)
+        const urlBlockHeight = 48
+        const height =
+            accentBarHeight +
+            padding +
+            titleBlockHeight +
+            summaryBlockHeight +
+            explanationBlockHeight +
+            urlBlockHeight +
+            padding
+
+        canvas.width = width
+        canvas.height = height
+
+        // -- Render --
+
+        // Background
+        ctx.fillStyle = '#37404C'
+        ctx.fillRect(0, 0, width, height)
+
+        // Top accent bar
+        ctx.fillStyle = '#E5007D'
+        ctx.fillRect(0, 0, width, accentBarHeight)
+
+        let y = accentBarHeight + padding
+
+        // Title
+        for (const line of titleLines) {
+            renderTokenLine(line, padding, y, titleFontSize, '#FFFFFF')
+            y += titleFontSize * 1.5
+        }
+        y += 8
+
+        // Divider
+        ctx.strokeStyle = 'rgba(229, 0, 125, 0.4)'
+        ctx.lineWidth = 2
+        ctx.beginPath()
+        ctx.moveTo(padding, y)
+        ctx.lineTo(width - padding, y)
+        ctx.stroke()
+        y += 16
+
+        // Summary
+        for (const line of summaryLines) {
+            renderTokenLine(line, padding, y, summaryFontSize, '#FF1493')
+            y += summaryFontSize * 1.5
+        }
+        y += 16
+
+        // Explanation
+        for (const rendered of explanationRendered) {
+            if (rendered.type === 'blank') {
+                y += 8
+                continue
+            }
+
+            if (rendered.type === 'table') {
+                const { headers, rows, colWidths } = rendered
+                const totalRows = 1 + rows.length
+                const tableWidth = colWidths.reduce((a, b) => a + b, 0)
+
+                // Table background
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.05)'
+                ctx.fillRect(padding, y, tableWidth, totalRows * tableRowHeight)
+
+                // Header row background
+                ctx.fillStyle = 'rgba(229, 0, 125, 0.15)'
+                ctx.fillRect(padding, y, tableWidth, tableRowHeight)
+
+                // Draw header cells
+                let cellX = padding
+                for (let c = 0; c < headers.length; c++) {
+                    const cellWidth = colWidths[c]!
+                    renderTokenLine(
+                        headers[c]!,
+                        cellX + tableCellPadding,
+                        y + tableCellPadding + explanationFontSize,
+                        explanationFontSize,
+                        '#FFFFFF'
+                    )
+                    cellX += cellWidth
+                }
+                y += tableRowHeight
+
+                // Header bottom border
+                ctx.strokeStyle = 'rgba(229, 0, 125, 0.4)'
+                ctx.lineWidth = 1.5
+                ctx.beginPath()
+                ctx.moveTo(padding, y)
+                ctx.lineTo(padding + tableWidth, y)
+                ctx.stroke()
+
+                // Draw data rows
+                for (let r = 0; r < rows.length; r++) {
+                    const row = rows[r]!
+                    // Alternating row background
+                    if (r % 2 === 1) {
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.03)'
+                        ctx.fillRect(padding, y, tableWidth, tableRowHeight)
+                    }
+                    cellX = padding
+                    for (let c = 0; c < row.length; c++) {
+                        const cellWidth = colWidths[c]!
+                        renderTokenLine(
+                            row[c]!,
+                            cellX + tableCellPadding,
+                            y + tableCellPadding + explanationFontSize,
+                            explanationFontSize,
+                            'rgba(255, 255, 255, 0.8)',
+                            '#FFFFFF'
+                        )
+                        cellX += cellWidth
+                    }
+                    y += tableRowHeight
+                }
+
+                // Table border
+                ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)'
+                ctx.lineWidth = 1
+                ctx.strokeRect(
+                    padding,
+                    y - totalRows * tableRowHeight,
+                    tableWidth,
+                    totalRows * tableRowHeight
+                )
+
+                // Vertical column separators
+                cellX = padding
+                for (let c = 0; c < colWidths.length - 1; c++) {
+                    cellX += colWidths[c]!
+                    ctx.beginPath()
+                    ctx.moveTo(cellX, y - totalRows * tableRowHeight)
+                    ctx.lineTo(cellX, y)
+                    ctx.stroke()
+                }
+
+                y += 8
+                continue
+            }
+
+            // Regular text line
+            if (rendered.bullet) {
+                ctx.fillStyle = '#E5007D'
+                ctx.font = getFont(explanationFontSize, false, false)
+                ctx.fillText(rendered.bullet, padding, y)
+            }
+            renderTokenLine(
+                rendered.tokens,
+                padding + rendered.indent,
+                y,
+                explanationFontSize,
+                'rgba(255, 255, 255, 0.8)',
+                '#FFFFFF'
+            )
+            y += explanationFontSize * 1.5
+        }
+
+        // URL at bottom
+        y = height - padding
+        ctx.fillStyle = '#E5007D'
+        ctx.font = getFont(16, false, false)
+        ctx.fillText(conceptUrl, padding, y)
+
+        // Copy to clipboard
+        try {
+            const blob = await new Promise<Blob | null>((resolve) =>
+                canvas.toBlob(resolve, 'image/png')
+            )
+            if (!blob) throw new Error('Failed to create image blob')
+            await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })])
+            setCopiedImage(true)
+            setCopyMenuOpen(false)
+            setTimeout(() => setCopiedImage(false), 2000)
+        } catch (err) {
+            console.error('Failed to copy image:', err)
         }
     }
 
@@ -431,18 +950,40 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                                             >
                                                 <FaTimes className='h-5 w-5' />
                                             </button>
-                                            <button
-                                                onClick={handleCopy}
-                                                className='text-primary/60 hover:text-primary hover:bg-primary/10 cursor-pointer rounded-lg p-2 transition-colors'
-                                                aria-label='Copy concept details'
-                                                title='Copy title, summary, and explanation'
-                                            >
-                                                {copied ? (
-                                                    <FaCheck className='text-success-muted h-5 w-5' />
-                                                ) : (
-                                                    <FaCopy className='h-5 w-5' />
+                                            <div className='relative' ref={copyMenuRef}>
+                                                <button
+                                                    onClick={() => setCopyMenuOpen((prev) => !prev)}
+                                                    className='text-primary/60 hover:text-primary hover:bg-primary/10 cursor-pointer rounded-lg p-2 transition-colors'
+                                                    aria-label='Copy concept'
+                                                    title='Copy concept'
+                                                >
+                                                    {copied || copiedImage ? (
+                                                        <FaCheck className='text-success-muted h-5 w-5' />
+                                                    ) : (
+                                                        <FaCopy className='h-5 w-5' />
+                                                    )}
+                                                </button>
+                                                {copyMenuOpen && (
+                                                    <div className='bg-background border-primary/20 absolute right-0 z-50 mt-1 min-w-[170px] overflow-hidden rounded-lg border shadow-lg'>
+                                                        <button
+                                                            onClick={handleCopy}
+                                                            className='text-primary/80 hover:bg-primary/10 flex w-full cursor-pointer items-center gap-2 px-3 py-2 text-sm transition-colors'
+                                                        >
+                                                            <FaCopy className='h-3.5 w-3.5 shrink-0' />
+                                                            Copy as text
+                                                        </button>
+                                                        <button
+                                                            onClick={handleCopyAsImage}
+                                                            className='text-primary/80 hover:bg-primary/10 flex w-full cursor-pointer items-center gap-2 px-3 py-2 text-sm transition-colors'
+                                                        >
+                                                            <span className='text-sm leading-none'>
+                                                                📷
+                                                            </span>
+                                                            Copy as image
+                                                        </button>
+                                                    </div>
                                                 )}
-                                            </button>
+                                            </div>
                                         </div>
                                     </div>
 
