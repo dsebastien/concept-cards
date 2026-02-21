@@ -10,6 +10,7 @@ import GraphCanvas, { type GraphCanvasHandle } from '@/components/explore/graph-
 import GraphControls from '@/components/explore/graph-controls'
 import GraphZoomControls from '@/components/explore/graph-zoom-controls'
 import GraphSidePanel from '@/components/explore/graph-side-panel'
+import { MetaTags, getPageSocialImage } from '@/components/layout/meta-tags'
 
 const ExplorePage: React.FC = () => {
     const { conceptId: urlConceptId } = useParams<{ conceptId?: string }>()
@@ -374,6 +375,12 @@ const ExplorePage: React.FC = () => {
 
     return (
         <div className='relative w-full overflow-hidden' style={{ height: 'calc(100vh - 64px)' }}>
+            <MetaTags
+                title='Explore Graph - Concepts'
+                description='Explore the concept graph. Visualize connections between concepts, methods, and principles.'
+                image={getPageSocialImage('explore')}
+            />
+
             {/* Back to global view button when in local view */}
             {isLocalView && (
                 <button

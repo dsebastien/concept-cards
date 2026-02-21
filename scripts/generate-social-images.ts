@@ -197,7 +197,8 @@ const pages = [
     { name: 'Books', filename: 'books' },
     { name: 'Articles', filename: 'articles' },
     { name: 'References', filename: 'references' },
-    { name: 'Notes', filename: 'notes' }
+    { name: 'Notes', filename: 'notes' },
+    { name: 'Explore Graph', filename: 'explore' }
 ]
 
 let pageGenerated = 0
