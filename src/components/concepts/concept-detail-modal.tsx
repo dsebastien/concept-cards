@@ -288,7 +288,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
     const handleCopyAsImage = async () => {
         if (!concept) return
 
-        const conceptUrl = `https://concepts.dsebastien.net/#/concept/${concept.id}`
+        const conceptUrl = `https://concepts.dsebastien.net/concept/${concept.id}`
         const canvas = document.createElement('canvas')
         const ctx = canvas.getContext('2d')
         if (!ctx) return
@@ -601,7 +601,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
         const summaryBlockHeight = summaryLines.length * summaryFontSize * 1.5 + 32
         const explanationBlockHeight = explanationRendered.reduce((h, el) => {
             if (el.type === 'blank') return h + 8
-            if (el.type === 'table') return h + (1 + el.rows.length) * tableRowHeight + 8
+            if (el.type === 'table') return h + (1 + el.rows.length) * tableRowHeight + 16
             return h + explanationFontSize * 1.5
         }, 24)
         const urlBlockHeight = 48
@@ -739,7 +739,7 @@ const ConceptDetailModal: React.FC<ConceptDetailModalProps> = ({
                     ctx.stroke()
                 }
 
-                y += 8
+                y += 16
                 continue
             }
 

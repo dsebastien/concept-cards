@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { cn } from '@/lib/utils'
 
 interface MarkdownProps {
@@ -15,6 +16,7 @@ interface MarkdownProps {
 const Markdown: React.FC<MarkdownProps> = ({ children, className, compact = false }) => {
     const content = (
         <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
             components={{
                 // Headings
                 h1: ({ children }) => <h1 className='mb-4 text-2xl font-bold'>{children}</h1>,
@@ -56,6 +58,31 @@ const Markdown: React.FC<MarkdownProps> = ({ children, className, compact = fals
                     </ol>
                 ),
                 li: ({ children }) => <li className='text-primary/80'>{children}</li>,
+                // Tables
+                table: ({ children }) => (
+                    <div className='mb-4 overflow-x-auto rounded-lg last:mb-0'>
+                        <table className='border-primary/20 w-full border-collapse border text-sm'>
+                            {children}
+                        </table>
+                    </div>
+                ),
+                thead: ({ children }) => <thead className='bg-secondary/10'>{children}</thead>,
+                tbody: ({ children }) => <tbody>{children}</tbody>,
+                tr: ({ children }) => (
+                    <tr className='border-primary/10 even:bg-primary/5 border-b last:border-b-0'>
+                        {children}
+                    </tr>
+                ),
+                th: ({ children }) => (
+                    <th className='border-primary/20 text-primary/90 border-r px-3 py-2 text-left font-semibold last:border-r-0'>
+                        {children}
+                    </th>
+                ),
+                td: ({ children }) => (
+                    <td className='border-primary/20 text-primary/80 border-r px-3 py-2 last:border-r-0'>
+                        {children}
+                    </td>
+                ),
                 // Block elements
                 blockquote: ({ children }) => (
                     <blockquote className='border-secondary/50 bg-primary/5 my-4 border-l-4 py-2 pr-4 pl-4 italic'>
