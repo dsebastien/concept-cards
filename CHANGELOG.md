@@ -1,3 +1,11 @@
+## [11.1.0](https://github.com/dsebastien/concept-cards/compare/11.0.0...11.1.0) (2026-02-21)
+
+### Features
+
+* **all:** added sw dev concepts ([d1340d4](https://github.com/dsebastien/concept-cards/commit/d1340d4a451b134dd6ab75924c095f7e452a6997))
+* **all:** fixed og meta for explore page ([90587c3](https://github.com/dsebastien/concept-cards/commit/90587c362931b76ef3bf856ba5f37a71b0fb287f))
+* **all:** graph view page always visible link ([f2542f6](https://github.com/dsebastien/concept-cards/commit/f2542f6562927f841bcf031c4c5d23bcb8789aa1))
+* **all:** improved graph view ([7cc4b48](https://github.com/dsebastien/concept-cards/commit/7cc4b4821ea87b2b96b4a709788551352e5a09a7))
 ## [11.0.0](https://github.com/dsebastien/concept-cards/compare/10.46.0...11.0.0) (2026-02-21)
 
 ### Features
