@@ -1,6 +1,13 @@
 import { useRef, useEffect } from 'react'
 import { Link } from 'react-router'
-import { FaTimes, FaProjectDiagram, FaExternalLinkAlt, FaCheckCircle } from 'react-icons/fa'
+import {
+    FaTimes,
+    FaProjectDiagram,
+    FaExternalLinkAlt,
+    FaCheckCircle,
+    FaStar,
+    FaLink
+} from 'react-icons/fa'
 import { CATEGORY_COLORS } from '@/lib/graph-utils'
 import ConceptIcon from '@/components/concepts/concept-icon'
 import type { Concept } from '@/types/concept'
@@ -144,6 +151,20 @@ function PanelContent({
             <div ref={scrollRef} className='flex-1 overflow-y-auto px-3 pb-3 sm:px-4 sm:pb-4'>
                 {/* Summary */}
                 <p className='text-primary/70 mt-2 text-sm leading-relaxed'>{concept.summary}</p>
+
+                {/* Metadata badges */}
+                <div className='mt-3 flex flex-wrap items-center gap-2'>
+                    {concept.featured && (
+                        <span className='flex items-center gap-1 rounded-full bg-amber-400/10 px-2 py-0.5 text-xs font-medium text-amber-400'>
+                            <FaStar className='h-2.5 w-2.5' />
+                            Featured
+                        </span>
+                    )}
+                    <span className='text-primary/50 flex items-center gap-1 rounded-full px-2 py-0.5 text-xs'>
+                        <FaLink className='h-2.5 w-2.5' />
+                        {concept.relatedConcepts?.length || 0} connections
+                    </span>
+                </div>
 
                 {/* Tags */}
                 {concept.tags && concept.tags.length > 0 && (

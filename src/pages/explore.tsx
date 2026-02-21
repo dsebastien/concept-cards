@@ -4,6 +4,7 @@ import { concepts, categories } from '@/data/index'
 import { buildGraphData, getNeighborhood, findConceptNodes } from '@/lib/graph-utils'
 import { useExploredConcepts } from '@/hooks/use-explored-concepts'
 import type { Concept } from '@/types/concept'
+import type { ExploredFilter } from '@/types/explored-filter.intf'
 
 import GraphCanvas, { type GraphCanvasHandle } from '@/components/explore/graph-canvas'
 import GraphControls from '@/components/explore/graph-controls'
@@ -33,20 +34,61 @@ const ExplorePage: React.FC = () => {
         }
         return new Set(allCategories)
     })
+    const [selectedTags, setSelectedTags] = useState<Set<string>>(() => {
+        const param = searchParams.get('tags')
+        return param ? new Set(param.split(',')) : new Set()
+    })
+    const [featuredOnly, setFeaturedOnly] = useState(() => searchParams.get('featured') === '1')
+    const [minConnections, setMinConnections] = useState(() => {
+        const param = searchParams.get('minDeg')
+        return param ? parseInt(param, 10) || 0 : 0
+    })
+    const [exploredFilter, setExploredFilter] = useState<ExploredFilter>(() => {
+        const param = searchParams.get('explored')
+        if (param === '1') return 'explored'
+        if (param === '0') return 'not-explored'
+        return 'all'
+    })
 
     // Refs to track latest values for use in callbacks without stale closures
     const latestSearchRef = useRef(searchQuery)
     const latestCategoriesRef = useRef(visibleCategories)
+    const latestTagsRef = useRef(selectedTags)
+    const latestFeaturedRef = useRef(featuredOnly)
+    const latestMinConnectionsRef = useRef(minConnections)
+    const latestExploredFilterRef = useRef(exploredFilter)
     latestSearchRef.current = searchQuery
     latestCategoriesRef.current = visibleCategories
+    latestTagsRef.current = selectedTags
+    latestFeaturedRef.current = featuredOnly
+    latestMinConnectionsRef.current = minConnections
+    latestExploredFilterRef.current = exploredFilter
 
-    const { markAsExplored, isExplored } = useExploredConcepts()
+    const { exploredIds, markAsExplored, isExplored, exploredCount } = useExploredConcepts()
 
     const isLocalView = !!urlConceptId
 
+    // Precomputed data for filters
+    const allTagsWithCounts = useMemo(() => {
+        const map = new Map<string, number>()
+        for (const c of concepts) {
+            for (const t of (c as Concept).tags || []) map.set(t, (map.get(t) || 0) + 1)
+        }
+        return map
+    }, [])
+
+    const featuredCount = useMemo(() => concepts.filter((c) => (c as Concept).featured).length, [])
+
     // Build URL search string from given state
     const buildSearch = useCallback(
-        (query: string, cats: Set<string>) => {
+        (
+            query: string,
+            cats: Set<string>,
+            tags: Set<string>,
+            featured: boolean,
+            minDeg: number,
+            explored: ExploredFilter
+        ) => {
             const params = new URLSearchParams()
             const q = query.trim()
             if (q) params.set('q', q)
@@ -54,6 +96,11 @@ const ExplorePage: React.FC = () => {
                 const hidden = allCategories.filter((c) => !cats.has(c))
                 if (hidden.length > 0) params.set('hide', hidden.join(','))
             }
+            if (tags.size > 0) params.set('tags', [...tags].join(','))
+            if (featured) params.set('featured', '1')
+            if (minDeg > 0) params.set('minDeg', String(minDeg))
+            if (explored === 'explored') params.set('explored', '1')
+            else if (explored === 'not-explored') params.set('explored', '0')
             return params
         },
         [allCategories]
@@ -61,16 +108,44 @@ const ExplorePage: React.FC = () => {
 
     // Update only the search params portion of the URL
     const syncUrlParams = useCallback(
-        (query: string, cats: Set<string>) => {
-            setSearchParams(buildSearch(query, cats), { replace: true })
+        (
+            query: string,
+            cats: Set<string>,
+            tags: Set<string>,
+            featured: boolean,
+            minDeg: number,
+            explored: ExploredFilter
+        ) => {
+            setSearchParams(buildSearch(query, cats, tags, featured, minDeg, explored), {
+                replace: true
+            })
         },
         [buildSearch, setSearchParams]
     )
 
+    // Convenience to sync with latest ref values
+    const syncAllParams = useCallback(() => {
+        syncUrlParams(
+            latestSearchRef.current,
+            latestCategoriesRef.current,
+            latestTagsRef.current,
+            latestFeaturedRef.current,
+            latestMinConnectionsRef.current,
+            latestExploredFilterRef.current
+        )
+    }, [syncUrlParams])
+
     // Build a full path string preserving search params
     const buildPath = useCallback(
         (path: string) => {
-            const params = buildSearch(latestSearchRef.current, latestCategoriesRef.current)
+            const params = buildSearch(
+                latestSearchRef.current,
+                latestCategoriesRef.current,
+                latestTagsRef.current,
+                latestFeaturedRef.current,
+                latestMinConnectionsRef.current,
+                latestExploredFilterRef.current
+            )
             const str = params.toString()
             return str ? `${path}?${str}` : path
         },
@@ -110,8 +185,16 @@ const ExplorePage: React.FC = () => {
 
     // Build full graph data
     const fullGraphData = useMemo(
-        () => buildGraphData(concepts as Concept[], visibleCategories),
-        [visibleCategories]
+        () =>
+            buildGraphData(concepts as Concept[], {
+                visibleCategories,
+                selectedTags: selectedTags.size > 0 ? selectedTags : undefined,
+                featuredOnly: featuredOnly || undefined,
+                minConnections: minConnections || undefined,
+                exploredFilter: exploredFilter !== 'all' ? exploredFilter : undefined,
+                exploredIds: exploredFilter !== 'all' ? exploredIds : undefined
+            }),
+        [visibleCategories, selectedTags, featuredOnly, minConnections, exploredFilter, exploredIds]
     )
 
     // Compute displayed graph: full or neighborhood
@@ -190,37 +273,97 @@ const ExplorePage: React.FC = () => {
                 }
                 // Clear pending search debounce and sync immediately
                 if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
-                syncUrlParams(latestSearchRef.current, next)
+                latestCategoriesRef.current = next
+                syncAllParams()
                 return next
             })
         },
-        [syncUrlParams]
+        [syncAllParams]
     )
 
     const handleShowAll = useCallback(() => {
         const all = new Set(allCategories)
         setVisibleCategories(all)
         if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
-        syncUrlParams(latestSearchRef.current, all)
-    }, [allCategories, syncUrlParams])
+        latestCategoriesRef.current = all
+        syncAllParams()
+    }, [allCategories, syncAllParams])
 
     const handleHideAll = useCallback(() => {
         const none = new Set<string>()
         setVisibleCategories(none)
         if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
-        syncUrlParams(latestSearchRef.current, none)
-    }, [syncUrlParams])
+        latestCategoriesRef.current = none
+        syncAllParams()
+    }, [syncAllParams])
 
     const handleSearchChange = useCallback(
         (query: string) => {
             setSearchQuery(query)
+            latestSearchRef.current = query
             // Debounced URL update
             if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
             searchDebounceRef.current = setTimeout(() => {
-                syncUrlParams(query, latestCategoriesRef.current)
+                syncAllParams()
             }, 300)
         },
-        [syncUrlParams]
+        [syncAllParams]
+    )
+
+    const handleToggleTag = useCallback(
+        (tag: string) => {
+            setSelectedTags((prev) => {
+                const next = new Set(prev)
+                if (next.has(tag)) {
+                    next.delete(tag)
+                } else {
+                    next.add(tag)
+                }
+                latestTagsRef.current = next
+                if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+                syncAllParams()
+                return next
+            })
+        },
+        [syncAllParams]
+    )
+
+    const handleClearTags = useCallback(() => {
+        const empty = new Set<string>()
+        setSelectedTags(empty)
+        latestTagsRef.current = empty
+        if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+        syncAllParams()
+    }, [syncAllParams])
+
+    const handleToggleFeatured = useCallback(() => {
+        setFeaturedOnly((prev) => {
+            const next = !prev
+            latestFeaturedRef.current = next
+            if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+            syncAllParams()
+            return next
+        })
+    }, [syncAllParams])
+
+    const handleSetMinConnections = useCallback(
+        (min: number) => {
+            setMinConnections(min)
+            latestMinConnectionsRef.current = min
+            if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+            syncAllParams()
+        },
+        [syncAllParams]
+    )
+
+    const handleSetExploredFilter = useCallback(
+        (filter: ExploredFilter) => {
+            setExploredFilter(filter)
+            latestExploredFilterRef.current = filter
+            if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+            syncAllParams()
+        },
+        [syncAllParams]
     )
 
     const handleBackToGlobal = useCallback(() => {
@@ -265,6 +408,18 @@ const ExplorePage: React.FC = () => {
                 onToggleCategory={handleToggleCategory}
                 onShowAll={handleShowAll}
                 onHideAll={handleHideAll}
+                selectedTags={selectedTags}
+                allTagsWithCounts={allTagsWithCounts}
+                onToggleTag={handleToggleTag}
+                onClearTags={handleClearTags}
+                featuredOnly={featuredOnly}
+                featuredCount={featuredCount}
+                onToggleFeatured={handleToggleFeatured}
+                minConnections={minConnections}
+                onSetMinConnections={handleSetMinConnections}
+                exploredFilter={exploredFilter}
+                exploredCount={exploredCount}
+                onSetExploredFilter={handleSetExploredFilter}
             />
 
             <GraphZoomControls canvasRef={canvasRef} />

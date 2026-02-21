@@ -1,4 +1,5 @@
 import type { Concept } from '@/types/concept'
+import type { ExploredFilter } from '@/types/explored-filter.intf'
 
 export interface GraphNode {
     id: string
@@ -10,6 +11,17 @@ export interface GraphNode {
     summary?: string
     tags?: string[]
     icon?: string
+    featured?: boolean
+    connectionCount: number
+}
+
+export interface GraphFilterOptions {
+    visibleCategories?: Set<string>
+    selectedTags?: Set<string>
+    featuredOnly?: boolean
+    minConnections?: number
+    exploredFilter?: ExploredFilter
+    exploredIds?: Set<string>
 }
 
 export interface GraphLink {
@@ -58,16 +70,45 @@ const DEFAULT_COLOR = '#94a3b8'
  * Builds graph data from an array of concepts.
  * Deduplicates bidirectional edges and sizes nodes by degree.
  */
-export function buildGraphData(concepts: Concept[], visibleCategories?: Set<string>): GraphData {
+export function buildGraphData(concepts: Concept[], filters: GraphFilterOptions = {}): GraphData {
+    const {
+        visibleCategories,
+        selectedTags,
+        featuredOnly,
+        minConnections,
+        exploredFilter,
+        exploredIds
+    } = filters
+
     const conceptMap = new Map<string, Concept>()
     for (const c of concepts) {
         conceptMap.set(c.id, c)
     }
 
-    // Filter by visible categories
-    const filtered = visibleCategories
+    // Apply filters sequentially
+    let filtered = visibleCategories
         ? concepts.filter((c) => visibleCategories.has(c.category))
         : concepts
+
+    if (selectedTags && selectedTags.size > 0) {
+        filtered = filtered.filter((c) => [...selectedTags].every((tag) => c.tags?.includes(tag)))
+    }
+
+    if (featuredOnly) {
+        filtered = filtered.filter((c) => c.featured === true)
+    }
+
+    if (minConnections && minConnections > 0) {
+        filtered = filtered.filter((c) => (c.relatedConcepts?.length || 0) >= minConnections)
+    }
+
+    if (exploredFilter && exploredFilter !== 'all' && exploredIds) {
+        if (exploredFilter === 'explored') {
+            filtered = filtered.filter((c) => exploredIds.has(c.id))
+        } else if (exploredFilter === 'not-explored') {
+            filtered = filtered.filter((c) => !exploredIds.has(c.id))
+        }
+    }
 
     const filteredIds = new Set(filtered.map((c) => c.id))
 
@@ -105,7 +146,9 @@ export function buildGraphData(concepts: Concept[], visibleCategories?: Set<stri
         aliases: c.aliases,
         summary: c.summary,
         tags: c.tags,
-        icon: c.icon
+        icon: c.icon,
+        featured: c.featured,
+        connectionCount: c.relatedConcepts?.length || 0
     }))
 
     return { nodes, links }
