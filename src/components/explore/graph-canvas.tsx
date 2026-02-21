@@ -190,7 +190,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, GraphCanvasProps>(
         )
 
         return (
-            <div ref={containerRef} className='h-full w-full'>
+            <div ref={containerRef} className='h-full w-full' style={{ touchAction: 'none' }}>
                 <ForceGraph2D
                     ref={fgRef}
                     graphData={graphData}
