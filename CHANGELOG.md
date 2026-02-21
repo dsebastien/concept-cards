@@ -1,3 +1,8 @@
+## [11.0.0](https://github.com/dsebastien/concept-cards/compare/10.46.0...11.0.0) (2026-02-21)
+
+### Features
+
+* **all:** improved graph controls on mobile ([2560fe8](https://github.com/dsebastien/concept-cards/commit/2560fe8c7d934dd0342fb85812311c0d75e8f97a))
 ## [10.46.0](https://github.com/dsebastien/concept-cards/compare/10.45.0...10.46.0) (2026-02-21)
 
 ### Features
