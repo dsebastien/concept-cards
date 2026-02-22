@@ -1,3 +1,8 @@
+## [11.5.0](https://github.com/dsebastien/concept-cards/compare/11.4.0...11.5.0) (2026-02-22)
+
+### Features
+
+* **all:** added pkm concepts ([578143f](https://github.com/dsebastien/concept-cards/commit/578143fb31f452ac9ec2770805d48c1e33150eb2))
 ## [11.4.0](https://github.com/dsebastien/concept-cards/compare/11.3.0...11.4.0) (2026-02-22)
 
 ### Features
