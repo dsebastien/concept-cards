@@ -1,0 +1,80 @@
+{
+    "id": "note-naming-conventions",
+    "name": "Note Naming Conventions",
+    "summary": "Consistent rules for naming notes that improve findability, scanning, and organization within a knowledge management system.",
+    "explanation": "Note Naming Conventions are the deliberate rules and patterns you establish for titling notes in a Personal Knowledge Management system. Good naming conventions are one of the simplest yet most impactful decisions you can make for the long-term usability of your knowledge base.\n\nThere are several common approaches to naming notes:\n\n- **Descriptive names**: The title describes the topic or subject of the note (e.g., \"Cognitive Load Theory\"). This is the most intuitive approach and works well for reference notes and concept notes.\n- **Claim-based names**: The title states the main idea as a declarative sentence (e.g., \"Working memory has limited capacity\"). This approach, often associated with Zettelkasten-style note-making, forces you to distill the core insight and makes it immediately clear what the note argues.\n- **Question-based names**: The title poses a question the note answers (e.g., \"How does spaced repetition improve retention?\"). This works well for inquiry-driven research and Evergreen note systems.\n- **Prefix systems**: Titles include structured prefixes such as dates (\"2026-02-22 Meeting notes\"), categories (\"REF - Cognitive Load Theory\"), or types (\"MOC - Psychology\"). Prefixes help with sorting and quick visual scanning.\n\nThe benefits of thoughtful naming conventions include:\n\n- **Findability**: Well-named notes surface easily through search. A descriptive, specific title is far more searchable than a vague or generic one.\n- **Quick scanning**: When browsing a list of notes, clear titles let you identify relevant notes at a glance without opening each one.\n- **Disambiguation**: Specific names prevent confusion between similar topics. \"Cognitive Load Theory\" is far better than \"Learning Theory\" when you have multiple notes on different learning theories.\n- **Linking confidence**: When creating links between notes, clear names make it easy to find and select the right target.\n\nCommon conventions and best practices include using lowercase for consistency, choosing a separator style (hyphens, spaces, or underscores) and sticking with it, adopting a consistent date format (ISO 8601: YYYY-MM-DD) for any temporal prefixes, and avoiding overly generic names like \"Ideas\" or \"Notes\" that become meaningless as a collection grows.\n\nNaming conventions are closely related to the principle of atomicity. When each note captures a single idea, naming it becomes straightforward because there is only one thing to describe. Conversely, if you struggle to name a note, it may be a sign that the note tries to cover too much ground and should be split.\n\nThe most important rule is consistency. Whatever conventions you choose, applying them uniformly across your entire knowledge base reduces cognitive friction in your daily practice. You should not have to think about how to name each note; the convention should make the decision automatic.",
+    "tags": [
+        "techniques",
+        "knowledge-management",
+        "organizations",
+        "best-practices"
+    ],
+    "category": "Techniques",
+    "icon": "FaTags",
+    "featured": false,
+    "aliases": [
+        "Note naming",
+        "Naming scheme",
+        "Note title conventions"
+    ],
+    "relatedConcepts": [
+        "atomic-notes",
+        "metadata",
+        "knowledge-organization",
+        "characteristics-of-good-notes",
+        "tagging"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}
