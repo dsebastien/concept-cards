@@ -1,3 +1,8 @@
+## [11.3.0](https://github.com/dsebastien/concept-cards/compare/11.2.0...11.3.0) (2026-02-22)
+
+### Features
+
+* **all:** added ring around explored concepts in the graph view ([87fa288](https://github.com/dsebastien/concept-cards/commit/87fa2885e4e255ad2d7e43d9636cc7e3ca3ee46d))
 ## [11.2.0](https://github.com/dsebastien/concept-cards/compare/11.1.0...11.2.0) (2026-02-22)
 
 ### Features
