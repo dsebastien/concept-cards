@@ -1,0 +1,40 @@
+{
+    "id": "graphql",
+    "name": "GraphQL",
+    "summary": "A query language for APIs that lets clients request exactly the data they need.",
+    "explanation": "GraphQL is a query language and runtime for APIs developed by Facebook (now Meta) in 2012 and open-sourced in 2015. It provides a more flexible and efficient alternative to REST by allowing clients to specify precisely what data they need in a single request.\n\nAt the core of GraphQL is the schema, which defines the types of data available and the relationships between them using a strongly typed system. Clients interact with the API through three operation types: queries for reading data, mutations for writing data, and subscriptions for receiving real-time updates. The schema serves as a contract between the client and server, and its strong typing enables powerful tooling and introspection, allowing clients to discover the API's capabilities programmatically.\n\nOne of GraphQL's primary advantages over REST is solving the over-fetching and under-fetching problem. With REST, endpoints return fixed data structures that may include too much or too little data for a given use case. GraphQL allows clients to request exactly the fields they need, reducing bandwidth usage and improving performance, particularly for mobile applications.\n\nA common challenge in GraphQL implementations is the N+1 problem, where resolving nested relationships can trigger many database queries. The DataLoader pattern addresses this by batching and caching database requests within a single query execution.\n\nGraphQL is not always the right choice. It adds complexity compared to REST, can make caching more difficult since requests go to a single endpoint, and may be overkill for simple APIs with predictable access patterns. REST remains a better fit for file uploads, simple CRUD operations, and scenarios where HTTP caching is critical.\n\nThe GraphQL ecosystem includes tools like Apollo (client and server libraries), Relay (Facebook's GraphQL client optimized for React), and Hasura (instant GraphQL APIs over databases). These tools simplify building and consuming GraphQL APIs.",
+    "tags": [
+        "software-development",
+        "apis",
+        "web-development",
+        "architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "GQL"
+    ],
+    "relatedConcepts": [
+        "api",
+        "rest"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "GraphQL - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GraphQL",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

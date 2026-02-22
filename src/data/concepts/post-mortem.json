@@ -1,0 +1,74 @@
+{
+    "id": "post-mortem",
+    "name": "Post-Mortem",
+    "summary": "A structured analysis conducted after a project or event to evaluate what happened and extract lessons for future improvement.",
+    "explanation": "A post-mortem is a retrospective examination conducted after a project, event, or incident has concluded. Its purpose is to understand what went well, what went wrong, and what can be improved for future endeavors. The term originates from medical practice, where it refers to examining a body after death to determine the cause, and has been widely adopted in business, technology, and project management.\n\nThe structure of a post-mortem typically includes establishing a timeline of events, identifying contributing factors that led to outcomes (both positive and negative), documenting key findings, and defining concrete action items for improvement. Effective post-mortems go beyond surface-level observations to uncover root causes, asking \"why\" repeatedly until fundamental issues are identified.\n\nOne of the most important advances in post-mortem practice is the concept of the blameless post-mortem, pioneered by organizations like Google and Etsy. In a blameless post-mortem, the focus is on systemic factors and processes rather than individual mistakes. This approach recognizes that errors are usually symptoms of deeper organizational or procedural issues, and that blaming individuals discourages honest reporting and learning.\n\nCreating psychological safety is essential for honest assessment during post-mortems. When team members fear punishment or judgment, they withhold critical information, rendering the exercise superficial. Leaders must actively encourage candor, model vulnerability, and demonstrate that the goal is learning rather than assigning blame.\n\nPost-mortems differ from retrospectives in scope and timing. While retrospectives are typically shorter, recurring reviews conducted at regular intervals (such as sprint retrospectives in Agile), post-mortems are more comprehensive analyses triggered by specific events, usually project completions or significant incidents. Both serve the broader goal of continuous improvement, but post-mortems tend to be deeper and more formal.\n\nTo maximize value from post-mortems, organizations should document findings in an accessible format, track action items to completion, and periodically review past post-mortems to identify recurring patterns across projects.",
+    "tags": [
+        "decision-making",
+        "learning",
+        "improvement",
+        "project-management"
+    ],
+    "category": "Decision Science",
+    "icon": "FaSearchPlus",
+    "featured": false,
+    "aliases": [
+        "Post-mortem review",
+        "After-action review",
+        "Retrospective analysis"
+    ],
+    "relatedConcepts": [
+        "pre-mortem-analysis",
+        "retrospective",
+        "lessons-learned",
+        "feedback-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Postmortem documentation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Postmortem_documentation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

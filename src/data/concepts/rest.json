@@ -1,0 +1,43 @@
+{
+    "id": "rest",
+    "name": "REST",
+    "summary": "An architectural style for web services that uses standard HTTP methods and stateless communication.",
+    "explanation": "REST (Representational State Transfer) is an architectural style for designing networked applications, originally defined by Roy Fielding in his 2000 doctoral dissertation. It has become the dominant approach for building web APIs due to its simplicity and alignment with the existing infrastructure of the web.\n\nREST is defined by six constraints. The client-server constraint separates user interface concerns from data storage concerns. Statelessness requires that each request contains all the information needed to process it, with no session state stored on the server. Cacheability allows responses to be marked as cacheable or non-cacheable, improving performance. The uniform interface constraint simplifies the architecture through consistent resource identification, manipulation through representations, self-descriptive messages, and hypermedia as the engine of application state (HATEOAS). The layered system constraint allows intermediaries like load balancers and proxies. Code on demand is an optional constraint that allows servers to extend client functionality by sending executable code.\n\nRESTful APIs use standard HTTP methods to operate on resources. GET retrieves a resource, POST creates a new resource, PUT replaces a resource entirely, PATCH partially updates a resource, and DELETE removes a resource. Resources are identified by URIs, and HTTP status codes communicate the result of operations (2xx for success, 4xx for client errors, 5xx for server errors).\n\nCommon patterns in REST API design include pagination for large collections, filtering and sorting via query parameters, and content negotiation through HTTP headers. Resource-oriented design focuses on modeling the domain as resources rather than actions.\n\nCompared to alternatives like GraphQL and gRPC, REST is simpler to implement and leverages existing web infrastructure. However, it can lead to over-fetching or under-fetching of data, and managing complex relationships between resources can require multiple round trips.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "web-development",
+        "apis"
+    ],
+    "category": "Software Development",
+    "icon": "FaGlobe",
+    "featured": false,
+    "aliases": [
+        "RESTful",
+        "Representational State Transfer",
+        "REST API"
+    ],
+    "relatedConcepts": [
+        "api",
+        "graphql",
+        "http"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "REST - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/REST",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

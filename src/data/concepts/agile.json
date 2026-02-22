@@ -1,0 +1,73 @@
+{
+    "id": "agile",
+    "name": "Agile",
+    "summary": "An iterative and collaborative approach to project management that emphasizes flexibility, customer feedback, and continuous improvement.",
+    "explanation": "Agile is a philosophy and set of practices for iterative, incremental development that emerged as a response to the rigidity of traditional waterfall methodologies. The Agile Manifesto, published in 2001, articulates four core values: individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan. Twelve supporting principles further guide agile practice.\n\nPopular frameworks include Scrum (with its sprints, roles, and ceremonies), Kanban (focused on flow and work-in-progress limits), and Extreme Programming (emphasizing engineering practices like pair programming and test-driven development). Key practices shared across frameworks include short iterations, daily standups, retrospectives for continuous improvement, and user stories that capture requirements from the end-user perspective.\n\nThe shift from waterfall to agile represents a fundamental change in how teams think about planning and delivery: instead of attempting to predict everything upfront, agile teams embrace uncertainty and use rapid feedback loops to course-correct. Common pitfalls include cargo cult agile, where teams adopt ceremonies and terminology without internalizing the underlying mindset. Beyond software development, agile principles have been applied to marketing, education, and organizational management.",
+    "tags": [
+        "systems",
+        "project-management",
+        "collaboration",
+        "software-development"
+    ],
+    "category": "Systems",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Agile methodology",
+        "Agile development"
+    ],
+    "relatedConcepts": [
+        "scrum",
+        "kanban",
+        "iterative-note-taking",
+        "retrospective"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Agile software development - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Agile_software_development",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

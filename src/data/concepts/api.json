@@ -1,0 +1,48 @@
+{
+    "id": "api",
+    "name": "API",
+    "summary": "A set of rules and protocols that allows different software applications to communicate with each other.",
+    "explanation": "An API (Application Programming Interface) is a contract that defines how software components interact with each other. APIs specify the inputs, outputs, and behaviors that one system exposes to others, enabling integration without requiring knowledge of internal implementation details.\n\nThere are several types of APIs commonly used in modern software development. REST (Representational State Transfer) is the most widespread style for web APIs, using standard HTTP methods and resource-oriented URLs. GraphQL provides a query language that lets clients request exactly the data they need. SOAP (Simple Object Access Protocol) uses XML-based messaging and is common in enterprise environments. gRPC leverages HTTP/2 and Protocol Buffers for high-performance communication between services. WebSocket APIs enable real-time, bidirectional communication.\n\nGood API design follows key principles: consistency in naming and structure, clear versioning strategies to manage changes without breaking existing consumers, and thorough documentation that helps developers understand how to use the API effectively. Authentication and authorization are critical concerns, with common approaches including API keys, OAuth 2.0, and JSON Web Tokens (JWT).\n\nAPIs play a central role in modern software architecture. In microservices architectures, APIs define the boundaries between services. Third-party APIs enable integration with external platforms and services, from payment processing to social media. The API-first design approach treats the API as a first-class product, designing it before implementation to ensure it meets consumer needs.\n\nDeveloper experience (DX) is increasingly recognized as a key factor in API success. This includes intuitive design, comprehensive documentation, clear error messages, SDKs, and sandbox environments for testing. A well-designed API reduces integration time and improves adoption.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "integration",
+        "web-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaPlug",
+    "featured": false,
+    "aliases": [
+        "Application Programming Interface",
+        "Web API"
+    ],
+    "relatedConcepts": [
+        "rest",
+        "graphql",
+        "abstraction",
+        "separation-of-concerns"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "API - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/API",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

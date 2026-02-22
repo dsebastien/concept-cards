@@ -1,29 +1,40 @@
 {
     "id": "decision-fatigue",
     "name": "Decision Fatigue",
-    "summary": "The deteriorating quality of decisions after making many decisions.",
-    "explanation": "Decision Fatigue is the phenomenon where the quality of decisions deteriorates after a long session of decision-making. Each decision depletes a finite pool of mental resources, leading to poorer choices, impulsivity, or decision avoidance later in the day. PKM helps combat decision fatigue by reducing daily decisions through templates, established workflows, consistent conventions, and by capturing decisions so they don't need to be remade. Automate and systematize where possible.",
+    "summary": "The deterioration of decision quality that occurs after making many consecutive decisions over a prolonged period.",
+    "explanation": "Decision fatigue is the phenomenon where the quality of decisions deteriorates after a long session of decision-making. As people make more choices throughout the day, their ability to make thoughtful, well-reasoned decisions progressively declines, leading to poorer outcomes.\n\nThe concept is closely tied to Roy Baumeister's ego depletion theory, which proposes that self-control and decision-making draw from a limited pool of mental energy. As this resource is depleted through repeated use, subsequent decisions suffer. One of the most cited studies illustrating decision fatigue examined Israeli judges making parole decisions: judges were significantly more likely to grant parole early in the morning or right after a meal break, and increasingly defaulted to denying parole as the session progressed, regardless of case merit.\n\nDecision fatigue manifests in several predictable ways. People experiencing it tend to make impulsive choices, opting for immediate gratification over long-term benefit. They may engage in decision avoidance, postponing choices or defaulting to the status quo rather than actively deciding. They also become more susceptible to cognitive biases and are more likely to take shortcuts in reasoning.\n\nSeveral practical strategies can help combat decision fatigue. Making the most important decisions early in the day, when mental energy is highest, ensures critical choices receive full cognitive attention. Reducing the number of daily decisions through routines and habits (such as having a standard breakfast or a capsule wardrobe) conserves decision-making capacity for what matters most. Decision batching, grouping similar decisions together to handle them in a single session, reduces the cognitive overhead of context-switching between different types of choices.\n\nPre-commitment is another powerful strategy: making decisions in advance about how to handle recurring situations eliminates the need to decide in the moment. Setting rules like \"I exercise every weekday morning\" or \"I review email only twice a day\" removes these items from the daily decision queue entirely.\n\nUnderstanding decision fatigue has practical implications for organizations as well. Meeting-heavy cultures, approval-laden processes, and constant interruptions all accelerate decision fatigue among employees, reducing the quality of their work and judgment over time.",
     "tags": [
-        "cognition",
-        "concepts",
+        "decision-making",
+        "psychology",
         "productivity",
-        "psychology"
+        "cognitive-science"
     ],
-    "category": "Psychology & Mental Models",
-    "icon": "FaBatteryQuarter",
+    "category": "Decision Science",
+    "icon": "FaBrain",
     "featured": false,
     "aliases": [
-        "Ego depletion"
+        "Ego depletion",
+        "Choice fatigue"
     ],
     "relatedConcepts": [
+        "analysis-paralysis",
+        "satisficing",
+        "decision-making",
         "cognitive-load",
-        "effort-vs-impact",
-        "habit-loop",
-        "mise-en-place",
-        "templates"
+        "work-routine"
     ],
     "relatedNotes": [],
     "articles": [],
+    "books": [
+        {
+            "title": "Willpower by Roy Baumeister",
+            "url": "https://www.amazon.com/dp/0143122231?tag=dsebastien00-20"
+        },
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
     "references": [
         {
             "title": "Decision fatigue - Wikipedia",
@@ -69,16 +80,16 @@
             "title": "AI Master Prompt Workshop",
             "url": "https://store.dsebastien.net/product/ai-master-prompt",
             "type": "other"
-        }
-    ],
-    "books": [
-        {
-            "title": "Willpower by Roy Baumeister",
-            "url": "https://www.amazon.com/dp/0143122231?tag=dsebastien00-20"
         },
         {
-            "title": "Thinking, Fast and Slow by Daniel Kahneman",
-            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
         }
     ],
     "tutorials": [],

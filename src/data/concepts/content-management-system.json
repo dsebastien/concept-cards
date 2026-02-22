@@ -1,0 +1,94 @@
+{
+    "id": "content-management-system",
+    "name": "Content Management System",
+    "summary": "Software platforms that enable creating, managing, and publishing digital content without requiring specialized technical knowledge.",
+    "explanation": "A Content Management System is software that manages the complete lifecycle of digital content, from creation and editing through publication and archival. CMS platforms democratize web publishing by providing interfaces that allow non-technical users to create and maintain websites, blogs, and other digital properties.\n\nCMS architectures fall into several categories. Traditional or coupled systems (such as WordPress and Drupal) bundle the content management backend with the frontend presentation layer. Headless or decoupled systems (such as Contentful and Strapi) separate content storage and management from presentation, delivering content via APIs to any frontend. Static site generators (such as Hugo and Eleventy) compile content into static files at build time, offering performance and security advantages.\n\nKey features across CMS types include WYSIWYG editing, version control for content revisions, access management with role-based permissions, and workflow capabilities for review and approval processes. The evolution toward headless CMS and JAMstack architectures reflects the need to deliver content across multiple channels, from websites and mobile apps to smart devices and digital signage.\n\nCMS platforms relate closely to knowledge management by providing structured ways to organize and retrieve information, and to content strategy by enabling the governance frameworks that ensure content remains consistent, current, and effective.",
+    "tags": [
+        "systems",
+        "technology",
+        "content-creation",
+        "tools"
+    ],
+    "category": "Systems",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "CMS",
+        "Content platform"
+    ],
+    "relatedConcepts": [
+        "content-strategy",
+        "blogging",
+        "digital-garden",
+        "knowledge-management",
+        "wiki"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Content management system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Content_management_system",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

@@ -1,0 +1,68 @@
+{
+    "id": "technical-writing",
+    "name": "Technical Writing",
+    "summary": "The practice of creating clear and precise documentation that explains complex information to specific audiences.",
+    "explanation": "Technical writing is the discipline of conveying complex, specialized information in a clear, accurate, and accessible manner. It serves as a bridge between subject matter expertise and the people who need to understand or use that knowledge. Key principles include clarity, conciseness, accuracy, and deep audience awareness, ensuring that the right level of detail reaches the right reader.\n\nCommon deliverables span a wide range: user manuals, API documentation, tutorials, knowledge base articles, release notes, and internal process documentation. Information architecture plays a central role, organizing content so readers can quickly find what they need through logical structure, navigation, and cross-referencing.\n\nThe plain language movement has influenced modern technical writing, pushing for simpler sentence structures and everyday vocabulary wherever possible. The docs-as-code approach treats documentation like software, using version control, pull requests, and continuous integration to maintain quality. As software becomes more prevalent, developer documentation has grown in importance, with clear API references and getting-started guides often determining the adoption of tools and platforms.",
+    "tags": [
+        "writing",
+        "documentation",
+        "communication",
+        "software-development"
+    ],
+    "category": "Writing & Content Creation",
+    "icon": "FaFileAlt",
+    "featured": false,
+    "aliases": [
+        "Tech writing",
+        "Documentation writing"
+    ],
+    "relatedConcepts": [
+        "writing-process",
+        "documentation",
+        "api",
+        "knowledge-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Technical writing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Technical_writing",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}

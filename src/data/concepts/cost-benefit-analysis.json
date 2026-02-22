@@ -1,0 +1,64 @@
+{
+    "id": "cost-benefit-analysis",
+    "name": "Cost-Benefit Analysis",
+    "summary": "A systematic approach to comparing the costs and benefits of a decision to determine its overall value and feasibility.",
+    "explanation": "Cost-Benefit Analysis (CBA) is a systematic method for evaluating decisions by comparing the total expected costs against the total expected benefits. The process involves identifying all relevant costs and benefits, quantifying them in monetary terms where possible, and calculating whether the benefits outweigh the costs.\n\nA thorough CBA considers both tangible factors (direct financial costs, measurable returns) and intangible factors (employee morale, brand reputation, environmental impact). One key concept in CBA is Net Present Value (NPV), which discounts future costs and benefits to their present-day value, recognizing that money today is worth more than the same amount in the future.\n\nOpportunity costs play a critical role in CBA. Every decision to pursue one option means forgoing alternatives, so a complete analysis must account for the value of the next best option not chosen. This ensures decision-makers consider the full picture rather than just the direct costs and benefits.\n\nHowever, CBA has important limitations. Estimation biases, particularly optimism bias and the planning fallacy, often lead people to overestimate benefits and underestimate costs. Quantifying intangible factors like quality of life, environmental damage, or social cohesion introduces subjectivity that can skew results. Different stakeholders may also assign different values to the same outcomes.\n\nDespite these limitations, CBA remains one of the most widely used decision-making tools. For major decisions with significant resources at stake, a formal CBA with detailed quantification is warranted. For everyday decisions, an informal mental CBA (quickly weighing pros and cons) can still improve decision quality. The key is to be explicit about assumptions, acknowledge uncertainty, and complement CBA with other decision-making frameworks when appropriate.",
+    "tags": [
+        "decision-making",
+        "analysis",
+        "economics",
+        "planning"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "CBA",
+        "Benefit-cost analysis"
+    ],
+    "relatedConcepts": [
+        "opportunity-cost",
+        "trade-off",
+        "weighted-decision-matrix",
+        "risk-assessment",
+        "expected-value"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Cost-benefit analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-21",
+    "dateModified": "2026-02-21"
+}
