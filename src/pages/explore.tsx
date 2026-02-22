@@ -398,6 +398,7 @@ const ExplorePage: React.FC = () => {
                 selectedNodeId={selectedConceptId}
                 hoveredNodeId={hoveredNodeId}
                 highlightedNodeIds={highlightedNodeIds}
+                exploredIds={exploredIds}
                 isLocalView={isLocalView}
                 onNodeClick={handleNodeClick}
                 onNodeHover={handleNodeHover}

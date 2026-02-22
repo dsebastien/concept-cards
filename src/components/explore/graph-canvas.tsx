@@ -15,6 +15,7 @@ interface GraphCanvasProps {
     selectedNodeId: string | null
     hoveredNodeId: string | null
     highlightedNodeIds: Set<string>
+    exploredIds: Set<string>
     isLocalView: boolean
     onNodeClick: (nodeId: string) => void
     onNodeHover: (nodeId: string | null) => void
@@ -28,6 +29,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, GraphCanvasProps>(
             selectedNodeId,
             hoveredNodeId,
             highlightedNodeIds,
+            exploredIds,
             isLocalView,
             onNodeClick,
             onNodeHover,
@@ -137,6 +139,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, GraphCanvasProps>(
                     (highlightedNodeIds.size > 0 && !isSearchHighlighted)
 
                 const radius = size
+                const isNodeExplored = exploredIds.has(id)
 
                 // Glow for hovered node
                 if (isHovered) {
@@ -144,6 +147,15 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, GraphCanvasProps>(
                     ctx.arc(x, y, radius + 4, 0, 2 * Math.PI)
                     ctx.fillStyle = color + '40'
                     ctx.fill()
+                }
+
+                // Explored ring
+                if (isNodeExplored && !isSelected) {
+                    ctx.beginPath()
+                    ctx.arc(x, y, radius + 2, 0, 2 * Math.PI)
+                    ctx.strokeStyle = isDimmed ? 'rgba(34,197,94,0.2)' : 'rgba(34,197,94,0.6)'
+                    ctx.lineWidth = 1.5 / globalScale
+                    ctx.stroke()
                 }
 
                 // Highlight ring for selected node
@@ -172,7 +184,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, GraphCanvasProps>(
                     ctx.fillText(name, x, y + radius + 2)
                 }
             },
-            [selectedNodeId, hoveredNodeId, highlightedNodeIds, theme]
+            [selectedNodeId, hoveredNodeId, highlightedNodeIds, exploredIds, theme]
         )
 
         const nodePointerAreaPaint = useCallback(
