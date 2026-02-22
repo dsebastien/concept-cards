@@ -1,0 +1,45 @@
+{
+    "id": "client-server-architecture",
+    "name": "Client-Server Architecture",
+    "summary": "A distributed computing model where client applications request services and resources from centralized servers over a network.",
+    "explanation": "Client-server architecture is a distributed application structure that partitions tasks between providers of resources or services, called servers, and requesters of those services, called clients. This model forms the foundation of most modern networked applications, from web browsing to email to enterprise software.\n\nThe architecture consists of three core components. Clients are applications or devices that initiate requests for services, such as web browsers, mobile apps, or desktop applications. Servers are programs or machines that listen for and respond to client requests, providing resources like data, computation, or file storage. The network connects clients and servers, enabling communication through standardized protocols.\n\nThe fundamental interaction pattern is request-response: a client sends a request to a server, the server processes it, and returns a response. This pattern is evident in HTTP, where a browser (client) requests a web page from a web server, which responds with HTML, CSS, and JavaScript.\n\nClient-server architecture offers several advantages. Centralized data management ensures consistency and simplifies backup and security. Scalability is achieved by upgrading server hardware or adding more servers. Security is improved because sensitive data and business logic can remain on the server, protected from direct client access. Maintenance is simplified since updates to server-side logic are immediately available to all clients.\n\nThe model has evolved significantly over time. Early mainframe computing used dumb terminals connected to central computers. The rise of personal computers introduced two-tier architectures with desktop clients and database servers. Three-tier architecture separated presentation, business logic, and data layers. Modern web applications further refined this with client-side rendering (SPAs) and server-side rendering (SSR) approaches.\n\nClient-server architecture is closely related to REST and APIs, which standardize how clients and servers communicate over HTTP. The principles of separation of concerns apply directly, as the architecture cleanly divides the user interface from data processing and storage.\n\nModern variations and alternatives continue to evolve. Microservices decompose the server side into independently deployable services. Serverless computing abstracts server management entirely, letting developers focus on functions. Edge computing moves processing closer to clients for lower latency. Peer-to-peer architectures distribute both client and server roles across all participants, eliminating the need for centralized servers.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "web-development",
+        "distributed-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaServer",
+    "featured": false,
+    "aliases": [
+        "Client-server model",
+        "Client-server",
+        "Server architecture"
+    ],
+    "relatedConcepts": [
+        "rest",
+        "api",
+        "microservices-architecture",
+        "separation-of-concerns",
+        "http"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Client-server model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Client%E2%80%93server_model",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

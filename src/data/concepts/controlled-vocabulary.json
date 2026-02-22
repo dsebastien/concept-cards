@@ -1,0 +1,85 @@
+{
+    "id": "controlled-vocabulary",
+    "name": "Controlled Vocabulary",
+    "summary": "A standardized set of terms used consistently for organizing, indexing, and retrieving information.",
+    "explanation": "A controlled vocabulary is a carefully curated list of standardized terms that are used consistently to organize, index, and retrieve information. Instead of allowing free-form descriptions, a controlled vocabulary constrains the language used for categorization, ensuring that everyone - or every part of a system - refers to the same concept using the same term.\n\nControlled vocabularies exist along a spectrum of complexity. **Flat lists** are the simplest form - a predefined set of terms with no hierarchical relationships, such as a list of approved tags. **Hierarchical taxonomies** organize terms into parent-child relationships, creating tree-like structures (e.g., Science > Biology > Genetics). **Thesauri** add richer relationships between terms, including synonyms (preferred and non-preferred terms), broader/narrower terms, and related terms. **Ontologies** represent the most sophisticated form, defining formal relationships and rules between concepts within a domain.\n\nThe primary benefits of controlled vocabularies are consistency, precision, and reduced ambiguity. When everyone uses 'machine learning' instead of a mix of 'ML', 'machine-learning', and 'Machine Learning', search becomes reliable and filtering becomes meaningful. Without controlled vocabularies, information systems suffer from synonym problems (different words for the same concept) and polysemy problems (the same word meaning different things).\n\nThere is an inherent tension between controlled vocabularies and folksonomies (free-form tagging by users). Controlled vocabularies provide order and precision but require upfront design and ongoing maintenance. Folksonomies are flexible and democratic but can become messy and inconsistent over time. Many effective systems combine both approaches - using a controlled core vocabulary while allowing some freedom for emergent terms.\n\nIn PKM systems, controlled vocabularies manifest as consistent tag naming conventions, predefined categories, standardized status labels, and agreed-upon property values. Maintaining a controlled vocabulary for your personal knowledge base - even an informal one - significantly improves your ability to find and connect information across your collection.",
+    "tags": [
+        "knowledge-management",
+        "organizations",
+        "information-management",
+        "tagging"
+    ],
+    "category": "Methods",
+    "icon": "FaListOl",
+    "featured": false,
+    "aliases": [
+        "Controlled terms",
+        "Standard vocabulary",
+        "Authority file"
+    ],
+    "relatedConcepts": [
+        "taxonomy",
+        "folksonomy",
+        "tagging",
+        "metadata",
+        "ontology-knowledge-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Controlled vocabulary - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Controlled_vocabulary",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

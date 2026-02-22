@@ -1,0 +1,95 @@
+{
+    "id": "bookmark-management",
+    "name": "Bookmark Management",
+    "summary": "The practice of systematically organizing and maintaining saved web links for future retrieval and reference.",
+    "explanation": "Bookmark Management is the intentional practice of saving, organizing, and maintaining web links so they can be reliably retrieved when needed. While saving bookmarks is trivially easy in any browser, managing them effectively is a skill that most people neglect, leading to what might be called bookmark chaos.\n\nThe bookmark chaos problem is familiar to nearly every internet user: hundreds or even thousands of unsorted bookmarks accumulate over time, making it nearly impossible to find anything. Links go stale, duplicates pile up, and the collection becomes more of a digital junk drawer than a useful reference system.\n\nSeveral organizational strategies can tame this chaos. Hierarchical folder structures provide a traditional approach, grouping bookmarks by topic or project. Tag-based systems allow a single bookmark to belong to multiple categories, reflecting the reality that most resources are relevant to more than one context. Adding descriptions or notes to bookmarks preserves the context of why something was saved, which is often lost weeks or months later.\n\nDedicated tools have emerged to address bookmark management. Raindrop.io offers a visually rich bookmark manager with tagging, collections, and full-text search of saved pages. Pinboard provides a minimalist, fast, and reliable bookmarking service favored by many knowledge workers. Browser built-in bookmarks work for basic needs but lack advanced features. Some users manage bookmarks within their PKM tools like Obsidian or Notion, integrating saved links directly into their knowledge base.\n\nAn important distinction exists between bookmarking and read-later services. Bookmarks save links for long-term reference, while read-later tools like Pocket or Instapaper focus on queuing content for near-term consumption. The two practices complement each other but serve different purposes.\n\nRegular pruning and maintenance is essential. Periodically reviewing bookmarks to remove dead links, archive outdated resources, and reorganize collections keeps the system useful. The broader trend in bookmark management has shifted from rigid hierarchical folders toward flexible tag-based and search-based retrieval, reflecting how people actually look for information.",
+    "tags": [
+        "techniques",
+        "organizations",
+        "knowledge-management",
+        "tools"
+    ],
+    "category": "Techniques",
+    "icon": "FaBookmark",
+    "featured": false,
+    "aliases": [
+        "Link management",
+        "Bookmark organization",
+        "Link curation"
+    ],
+    "relatedConcepts": [
+        "read-later",
+        "web-clipping",
+        "information-hoarding",
+        "tagging",
+        "knowledge-curation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

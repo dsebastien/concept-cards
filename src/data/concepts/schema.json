@@ -1,0 +1,44 @@
+{
+    "id": "schema",
+    "name": "Schema",
+    "summary": "A formal structure that defines the organization, constraints, and relationships of data within a system.",
+    "explanation": "A schema is a structural blueprint that defines how data is organized, validated, and related within a system. It serves as a contract that specifies the shape, types, constraints, and relationships of data, enabling consistency and interoperability across applications and teams.\n\nThere are many types of schemas used in software development. Database schemas define tables, columns, data types, primary keys, foreign keys, and constraints in relational databases. JSON Schema provides a vocabulary for annotating and validating JSON documents. XML Schema (XSD) defines the structure and data types for XML documents. GraphQL schemas describe the types and relationships available in a GraphQL API. API schemas, such as OpenAPI/Swagger specifications, define the endpoints, request/response formats, and authentication requirements of web APIs.\n\nSchema design involves important trade-offs. Normalization reduces data redundancy by organizing data into related tables, improving data integrity but potentially requiring complex joins for queries. Denormalization intentionally introduces redundancy to optimize read performance, which is common in data warehousing and NoSQL databases. The choice between these approaches depends on the specific access patterns and performance requirements of the application.\n\nSchemas play a critical role in data integrity and validation. By defining constraints such as required fields, data types, value ranges, and uniqueness requirements, schemas prevent invalid data from entering a system. This validation can occur at multiple layers: the database level, the application level, and the API boundary.\n\nSchema evolution and migration are ongoing challenges in software development. As requirements change, schemas must evolve while maintaining backward compatibility with existing data and consumers. Strategies include additive-only changes, versioning, migration scripts, and tools like schema registries that track and enforce compatibility rules.\n\nThe schema-first (or design-first) approach advocates defining the schema before writing implementation code. This enables parallel development, better documentation, and automatic code generation. In contrast, code-first approaches generate schemas from existing code or models, which can be faster initially but may lead to less intentional API design.\n\nUltimately, schemas serve as contracts between systems and teams. They provide a shared language for discussing data structures, enable automated tooling for validation and code generation, and help maintain consistency as systems grow in complexity.",
+    "tags": [
+        "software-development",
+        "data",
+        "architecture",
+        "design"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Data schema",
+        "Database schema",
+        "Schema definition"
+    ],
+    "relatedConcepts": [
+        "graphql",
+        "api",
+        "database",
+        "abstraction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Database schema - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Database_schema",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

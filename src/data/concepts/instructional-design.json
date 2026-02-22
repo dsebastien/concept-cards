@@ -1,0 +1,65 @@
+{
+    "id": "instructional-design",
+    "name": "Instructional Design",
+    "summary": "The systematic process of creating effective learning experiences and educational materials through analysis, design, development, and evaluation.",
+    "explanation": "Instructional design (ID) is the practice of systematically designing, developing, and delivering learning experiences that are effective, efficient, and engaging. It draws on learning science, cognitive psychology, and educational theory to create materials and experiences that help learners achieve specific outcomes.\n\nThe most widely known model in instructional design is ADDIE, which provides a structured framework with five phases. Analysis identifies the learning needs, target audience, and constraints. Design defines learning objectives, assessment strategies, and content structure. Development creates the actual learning materials and activities. Implementation delivers the instruction to learners. Evaluation assesses the effectiveness of the instruction and identifies areas for improvement. While ADDIE is often presented as a linear process, practitioners typically iterate across phases.\n\nSeveral learning theories inform instructional design practice. Behaviorism focuses on observable behaviors and reinforcement, influencing drill-and-practice approaches. Cognitivism emphasizes mental processes like memory, attention, and schema formation, leading to strategies that manage cognitive load and organize information meaningfully. Constructivism holds that learners actively build knowledge through experience and social interaction, supporting approaches like problem-based learning and collaborative activities.\n\nMerrill's First Principles of Instruction identify five conditions that promote effective learning: learning is promoted when it is centered on real-world problems, when existing knowledge is activated, when new knowledge is demonstrated, when learners apply new knowledge, and when new knowledge is integrated into the learner's world. These principles are supported by research across multiple instructional contexts.\n\nRichard Mayer's multimedia learning principles provide evidence-based guidelines for combining text, images, audio, and video. Key principles include the coherence principle (remove extraneous material), the signaling principle (highlight essential material), and the segmenting principle (break complex lessons into manageable parts). These principles help designers avoid overwhelming learners while maximizing the benefits of multimedia.\n\nAssessment design is integral to instructional design. Formative assessments provide ongoing feedback during learning, while summative assessments evaluate achievement at the end. Authentic assessments require learners to apply knowledge in realistic contexts, bridging the gap between learning and performance.\n\nThe field has shifted significantly with the rise of digital and self-paced learning. E-learning, learning management systems (LMS), microlearning, and adaptive learning technologies have expanded the toolkit available to instructional designers. These technologies enable personalization at scale, allowing learners to progress at their own pace through content tailored to their needs.\n\nInstructional design principles extend beyond formal education. They apply directly to creating effective documentation, tutorials, onboarding programs, and any context where knowledge transfer is the goal. Understanding how people learn helps creators of all kinds build more effective and engaging content.",
+    "tags": [
+        "learning",
+        "education",
+        "design",
+        "teaching"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaChalkboardTeacher",
+    "featured": false,
+    "aliases": [
+        "Learning design",
+        "ID",
+        "Curriculum design"
+    ],
+    "relatedConcepts": [
+        "blooms-taxonomy",
+        "scaffolding-learning",
+        "differentiated-instruction",
+        "mastery-learning",
+        "active-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Instructional design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Instructional_design",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

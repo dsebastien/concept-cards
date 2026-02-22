@@ -1,0 +1,85 @@
+{
+    "id": "knowledge-lifecycle",
+    "name": "Knowledge Lifecycle",
+    "summary": "The stages knowledge passes through from creation and capture to application, sharing, and eventual archival or retirement.",
+    "explanation": "The knowledge lifecycle is a framework describing how knowledge flows through distinct stages within organizations and personal knowledge systems. Understanding these stages helps knowledge workers design effective systems and identify where breakdowns occur in their information workflows.\n\nThe core stages of the knowledge lifecycle include: creation and discovery (generating new knowledge through research, experience, or insight), capture and documentation (recording knowledge in a retrievable format), organization and classification (structuring knowledge for findability using categories, tags, and hierarchies), storage and preservation (maintaining knowledge in reliable systems over time), sharing and distribution (making knowledge available to others who need it), application and use (putting knowledge into practice to solve problems or make decisions), and evaluation and retirement (assessing knowledge for relevance and archiving or removing outdated content).\n\nSeveral influential models describe this cycle. Nonaka and Takeuchi's SECI model focuses on how knowledge converts between tacit and explicit forms through socialization, externalization, combination, and internalization. Karl Wiig's KM cycle emphasizes building, holding, pooling, and applying knowledge. Each model highlights different aspects of how knowledge moves and transforms.\n\nPersonal Knowledge Management mirrors these organizational lifecycles at an individual level. A PKM practitioner creates knowledge through learning and thinking, captures it in notes and documents, organizes it in their knowledge base, stores it in tools like Obsidian or Notion, shares it through writing or conversation, applies it in their work, and periodically reviews and prunes their collection.\n\nCommon failure points in the knowledge lifecycle include: capturing without processing (accumulating raw information that never gets organized or connected), storing without sharing (creating personal silos that benefit no one else), applying without documenting (solving problems without recording solutions for future reference), and neglecting evaluation (allowing outdated or incorrect knowledge to persist unchallenged). Recognizing these failure points helps knowledge workers build more effective and complete knowledge management practices.",
+    "tags": [
+        "frameworks",
+        "knowledge-management",
+        "processes",
+        "organizations"
+    ],
+    "category": "Frameworks",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Knowledge management cycle",
+        "KM lifecycle",
+        "Knowledge flow"
+    ],
+    "relatedConcepts": [
+        "knowledge-management",
+        "knowledge-creation",
+        "knowledge-capture-framework",
+        "knowledge-sharing",
+        "knowledge-retention"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowledge management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_management",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

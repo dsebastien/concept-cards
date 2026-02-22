@@ -1,0 +1,94 @@
+{
+    "id": "reference-management",
+    "name": "Reference Management",
+    "summary": "The practice of systematically collecting, organizing, and citing sources of information.",
+    "explanation": "Reference management is the practice of tracking bibliographic information, PDFs, annotations, and citations across research and knowledge work. It encompasses the entire lifecycle of working with sources - from discovering and saving them, to organizing and annotating them, to citing them in your own writing and connecting them to your broader knowledge base.\n\nDedicated reference managers have become essential tools for anyone who works extensively with sources. **Zotero** is a free, open-source tool widely used in academia and increasingly by non-academic knowledge workers. **Mendeley** combines reference management with a social research network. **EndNote** is a longstanding commercial option popular in certain academic disciplines. **Paperpile** offers tight integration with Google Docs and a clean interface. Each tool provides core capabilities like importing references from the web, storing and organizing PDFs, generating citations, and producing bibliographies in various citation styles.\n\nIntegration with PKM tools has become an important consideration. The Zotero-Obsidian workflow, for example, allows users to import annotations and highlights from Zotero into their Obsidian vault, creating literature notes that connect research sources to their broader network of ideas. Similar integrations exist for other reference manager and PKM tool combinations, bridging the gap between source management and knowledge development.\n\nCitation styles (APA, MLA, Chicago, IEEE, and hundreds of others) define how references appear in written work. Reference managers handle the complexity of formatting citations correctly, freeing you to focus on content rather than style rules. Persistent identifiers like DOIs (Digital Object Identifiers) play a crucial role in unambiguously identifying scholarly works and ensuring that references remain stable over time.\n\nBeyond academic contexts, good reference management supports any knowledge-intensive work. Maintaining a reading pipeline - tracking what you want to read, what you are reading, and what you have read along with your notes - is a form of reference management. Curating collections of articles, reports, and resources for professional projects benefits from the same systematic approach. Whether you are writing a dissertation or building a personal knowledge base, treating your sources as first-class objects worthy of careful organization pays dividends in the quality and reliability of your thinking.",
+    "tags": [
+        "tools",
+        "knowledge-management",
+        "research",
+        "organizations"
+    ],
+    "category": "Tools",
+    "icon": "FaBookmark",
+    "featured": false,
+    "aliases": [
+        "Citation management",
+        "Bibliography management",
+        "Reference manager"
+    ],
+    "relatedConcepts": [
+        "annotation",
+        "literature-notes",
+        "citation",
+        "bibliography"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

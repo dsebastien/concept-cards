@@ -1,0 +1,80 @@
+{
+    "id": "provenance",
+    "name": "Provenance",
+    "summary": "The practice of tracking the origin, history, and chain of custody of information or artifacts to establish authenticity and trustworthiness.",
+    "explanation": "Provenance refers to the documented history of origin, ownership, and transmission of information, data, or artifacts. Knowing where something came from, who handled it along the way, and how it has been transformed is essential for establishing trust, verifying authenticity, and making informed decisions about how to use it.\n\nIn knowledge management, provenance answers fundamental questions: Where did this information originate? Who created it? Has it been modified, and if so, by whom and when? What was the original context? These questions matter because information stripped of its provenance loses much of its interpretive value. A statistic without its source, a claim without its context, or a quote without its author becomes unreliable and potentially misleading.\n\nThe concept has deep roots in art history and archaeology, where provenance refers to the documented chain of ownership of an artwork or artifact from its creation to the present day. A painting with unbroken provenance from a reputable collection commands greater trust (and higher value) than one with gaps in its ownership history. The same principle applies to information: data with clear, traceable origins is more trustworthy than data of unknown provenance.\n\nIn data science and software engineering, provenance is often called data lineage. It tracks how data flows through systems, what transformations are applied, and how derived datasets relate to their source data. This is critical for debugging, compliance, reproducibility, and maintaining data quality. When an anomaly appears in a report, data lineage allows you to trace it back to its root cause.\n\nIn personal knowledge management, provenance manifests as the practice of maintaining reference trails. When you capture a note, recording where the idea came from - the book, article, conversation, or personal reflection that generated it - preserves essential context. Literature notes that cite their sources, permanent notes that link to their origins, and bibliographic metadata all serve the provenance function. Without this trail, your future self cannot distinguish between well-sourced insights and unverified hunches.\n\nDigital provenance extends these ideas to version history, audit trails, timestamps, and authorship records. Tools like Git track every change to a codebase along with who made it and why. Document versioning systems preserve the evolution of written work. Blockchain technology provides tamper-resistant provenance records. These mechanisms support accountability, enable collaboration, and make it possible to understand not just what exists now but how it came to be.\n\nProvenance ultimately supports intellectual honesty and proper attribution. By maintaining clear records of where ideas and information come from, we respect the contributions of others, enable verification, and build a foundation of trust in our knowledge systems.",
+    "tags": [
+        "knowledge-management",
+        "research",
+        "trust",
+        "data"
+    ],
+    "category": "Concepts",
+    "icon": "FaRoute",
+    "featured": false,
+    "aliases": [
+        "Data lineage",
+        "Information provenance",
+        "Chain of custody"
+    ],
+    "relatedConcepts": [
+        "citation",
+        "source-criticism",
+        "metadata",
+        "annotation",
+        "literature-notes"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Provenance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Provenance",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

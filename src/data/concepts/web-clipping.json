@@ -1,0 +1,91 @@
+{
+    "id": "web-clipping",
+    "name": "Web Clipping",
+    "summary": "The practice of saving web content such as articles, pages, or selections into a personal knowledge system for future reference and processing.",
+    "explanation": "Web clipping is the practice of capturing web pages, articles, or selected portions of online content into a personal knowledge management system. It serves as a bridge between the ephemeral nature of web content and the permanence of a curated knowledge base, ensuring that valuable information is preserved and accessible for future use.\n\nA variety of tools enable web clipping across different platforms and workflows. Browser extensions like Obsidian Web Clipper, Evernote Web Clipper, and MarkDownload capture content directly into knowledge management tools. Readwise Reader and similar services can save and sync highlights from web articles. Each tool offers different capabilities in terms of format conversion, metadata preservation, and integration with downstream systems.\n\nWeb content can be clipped in several formats depending on the use case: full page capture (preserving the entire page including images and layout), simplified reader view (extracting just the article text), selected text (clipping only a specific passage), and markdown conversion (transforming HTML into a portable, editable format). Markdown conversion is particularly popular in the PKM community because it produces clean, tool-agnostic files that work well in systems like Obsidian, Logseq, or any text editor.\n\nA critical aspect of effective web clipping is processing clipped content rather than simply hoarding it. Saving a web page is only the first step. The real value comes from reading the clipped content, highlighting key ideas, writing notes in your own words, connecting insights to existing knowledge, and deciding what to keep permanently versus what to archive or discard. Without this processing step, web clipping becomes digital hoarding.\n\nMetadata preservation is another important consideration. Good web clipping captures not just the content but also the source URL, author, publication date, and the date of clipping. This metadata supports proper attribution, helps with future retrieval, and maintains the provenance of information in your knowledge base.\n\nWeb clipping fits into the broader capture-process-synthesize workflow as the primary mechanism for bringing external web content into your personal system. It works alongside other capture methods like read-later queues, manual note-taking, and email forwarding to ensure that valuable information from any source can enter your knowledge management pipeline.",
+    "tags": [
+        "techniques",
+        "knowledge-management",
+        "capture",
+        "tools"
+    ],
+    "category": "Techniques",
+    "icon": "FaCloudUploadAlt",
+    "featured": false,
+    "aliases": [
+        "Web capture",
+        "Page clipping",
+        "Article saving"
+    ],
+    "relatedConcepts": [
+        "obsidian-web-clipper",
+        "capture-system",
+        "capture-habit",
+        "read-later",
+        "information-hoarding",
+        "bookmark-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

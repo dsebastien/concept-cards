@@ -1,0 +1,94 @@
+{
+    "id": "personal-wiki",
+    "name": "Personal Wiki",
+    "summary": "A privately maintained wiki used as a personal knowledge management system for organizing interconnected notes and ideas.",
+    "explanation": "A Personal Wiki is a self-managed, interlinked knowledge base designed for individual use. It applies the wiki concept, originally created by Ward Cunningham in 1995, to personal knowledge management, allowing individuals to build a web of interconnected notes, ideas, and references.\n\nThe history of personal wikis traces back from Cunningham's original WikiWikiWeb, which was designed for collaborative use, to the realization that the same principles of easy editing and interlinking could serve individuals managing their own knowledge. Early adopters used tools like TiddlyWiki, a single-file wiki that runs in a browser, and personal installations of MediaWiki.\n\nModern personal wiki tools have evolved significantly. Obsidian, Notion, Logseq, and similar applications offer wiki-like functionality with enhanced features such as bidirectional links, graph views, easy editing with Markdown, powerful search, and flexible categorization through tags and folders.\n\nKey features that distinguish personal wikis from traditional note-taking include bidirectional linking (where connections between notes are automatically tracked in both directions), non-linear organization (notes can belong to multiple contexts simultaneously), easy editing (low friction to create and modify entries), and powerful search capabilities that help surface relevant information quickly.\n\nPersonal wikis share significant overlap with digital gardens and the Zettelkasten method. Like digital gardens, they emphasize interconnection and organic growth over rigid structure. Like Zettelkasten, they support the emergence of new ideas through the linking of atomic notes.\n\nThe advantage of a personal wiki over linear note-taking is that it mirrors how human memory and thinking actually work: through associations and connections rather than sequential lists. A well-maintained personal wiki functions as a second brain, an external thinking partner that grows more valuable over time as connections multiply and knowledge compounds.",
+    "tags": [
+        "tools",
+        "knowledge-management",
+        "note-taking",
+        "personal-knowledge-management"
+    ],
+    "category": "Tools",
+    "icon": "FaBook",
+    "featured": false,
+    "aliases": [
+        "Private wiki",
+        "Personal knowledge base"
+    ],
+    "relatedConcepts": [
+        "wiki",
+        "digital-garden",
+        "second-brain",
+        "obsidian",
+        "zettelkasten"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Personal wiki - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Personal_wiki",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

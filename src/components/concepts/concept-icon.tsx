@@ -177,7 +177,10 @@ import {
     FaTrash,
     FaVideo,
     FaFolder,
-    FaDesktop
+    FaDesktop,
+    FaBookmark,
+    FaGlobeAmericas,
+    FaQuoteRight
 } from 'react-icons/fa'
 import { SiObsidian, SiSubstack, SiBluesky } from 'react-icons/si'
 import { FaXTwitter, FaThreads } from 'react-icons/fa6'
@@ -361,6 +364,9 @@ const iconMap: Record<string, IconType> = {
     FaVideo,
     FaFolder,
     FaDesktop,
+    FaBookmark,
+    FaGlobeAmericas,
+    FaQuoteRight,
     SiObsidian,
     SiSubstack,
     SiBluesky,
@@ -551,7 +557,10 @@ const iconColors: Record<string, string> = {
     FaTrash: 'text-red-400',
     FaVideo: 'text-red-400',
     FaFolder: 'text-yellow-400',
-    FaDesktop: 'text-blue-400'
+    FaDesktop: 'text-blue-400',
+    FaBookmark: 'text-amber-400',
+    FaGlobeAmericas: 'text-blue-400',
+    FaQuoteRight: 'text-violet-400'
 }
 
 // Category fallback icons (emojis)

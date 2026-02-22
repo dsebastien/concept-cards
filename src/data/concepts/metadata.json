@@ -1,0 +1,85 @@
+{
+    "id": "metadata",
+    "name": "Metadata",
+    "summary": "Structured data that describes, explains, and makes it easier to find and manage other data or content.",
+    "explanation": "Metadata is often described as 'data about data' - it is information that describes the characteristics, context, and attributes of other information or content. Rather than being the content itself, metadata provides the scaffolding that makes content discoverable, understandable, and manageable.\n\nThere are three main types of metadata. **Descriptive metadata** helps identify and discover resources - think titles, authors, keywords, and summaries. **Structural metadata** describes how content is organized and relates to other content, such as chapter ordering in a book or relationships between database tables. **Administrative metadata** supports the management of resources, including creation dates, file types, access permissions, and preservation information.\n\nIn Personal Knowledge Management (PKM), metadata plays a central role. Tags, creation dates, authors, source links, status indicators, and custom properties are all forms of metadata that make notes and documents easier to find, filter, and connect. Tools like Obsidian use YAML frontmatter to store metadata directly within notes, while Notion provides structured property fields for database entries. These metadata schemas allow users to build powerful views, filters, and queries across their knowledge bases.\n\nMetadata is essential for effective search and retrieval. Without it, finding specific information in a large knowledge base becomes a matter of remembering exact words or browsing through folders. With well-structured metadata, you can filter by topic, date, status, source type, or any other dimension that matters to your workflow.\n\nOne important consideration is the balance between too much and too little metadata. Over-engineering metadata schemas creates friction - if adding a note requires filling in ten fields, you will resist capturing information. Under-investing in metadata leads to a disorganized collection that becomes harder to navigate over time. The best approach is to start with a minimal set of metadata fields and expand only when you have a clear need. Let your metadata schema evolve alongside your knowledge practice.",
+    "tags": [
+        "knowledge-management",
+        "organizations",
+        "information-management",
+        "data"
+    ],
+    "category": "Methods",
+    "icon": "FaTags",
+    "featured": false,
+    "aliases": [
+        "Data about data",
+        "Meta-information"
+    ],
+    "relatedConcepts": [
+        "tagging",
+        "taxonomy",
+        "folksonomy",
+        "information-architecture",
+        "knowledge-organization",
+        "provenance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Metadata - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Metadata",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}

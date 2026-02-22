@@ -1,0 +1,99 @@
+{
+    "id": "knowledge-map",
+    "name": "Knowledge Map",
+    "summary": "A visual representation of knowledge domains, their relationships, and gaps within a knowledge system.",
+    "explanation": "A knowledge map is a visual tool that represents the landscape of knowledge within a domain, organization, or personal system. It shows what knowledge exists, where it resides, how different areas relate to one another, and where significant gaps remain. Unlike a simple list or hierarchy, a knowledge map captures the spatial and relational nature of knowledge, making it easier to see the big picture.\n\nThere are several types of knowledge maps. **Topic maps** visualize the subjects covered within a knowledge base and how they relate. **Expertise maps** show who knows what within an organization, making it easier to locate the right person for a given question. **Knowledge domain maps** chart the major areas of knowledge within a field and their boundaries, overlaps, and dependencies.\n\nKnowledge maps differ from related visual tools like mind maps and concept maps in important ways. Mind maps typically radiate from a central topic and capture brainstorming or note-taking for a single subject. Concept maps show relationships between specific concepts with labeled connections. Knowledge maps operate at a broader scope, focusing on the distribution and coverage of knowledge assets rather than the detailed relationships between individual ideas.\n\nIn PKM, knowledge maps help you understand the coverage and balance of your personal knowledge base. You might create a knowledge map of your vault to see which topics are well-developed, which are sparse, and where connections are missing. This bird's-eye view can guide your learning priorities and note-taking focus. Maps of Content (MOCs) in tools like Obsidian serve a similar purpose, acting as navigational hubs that provide structured overviews of knowledge domains within your vault.\n\nOrganizations use knowledge maps to locate expertise, plan knowledge transfer, identify single points of failure in institutional knowledge, and guide training and hiring decisions. Whether personal or organizational, knowledge maps transform an invisible landscape of knowledge into something you can see, discuss, and act upon.",
+    "tags": [
+        "knowledge-management",
+        "visualization",
+        "organizations",
+        "tools"
+    ],
+    "category": "Techniques",
+    "icon": "FaMapMarkedAlt",
+    "featured": false,
+    "aliases": [
+        "Knowledge cartography",
+        "Knowledge landscape"
+    ],
+    "relatedConcepts": [
+        "concept-maps",
+        "mind-maps",
+        "moc",
+        "knowledge-graph",
+        "personal-knowledge-graph"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge mapping - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_mapping",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-22",
+    "dateModified": "2026-02-22"
+}
