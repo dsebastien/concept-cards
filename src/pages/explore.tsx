@@ -236,9 +236,14 @@ const ExplorePage: React.FC = () => {
 
     const handleNodeClick = useCallback(
         (nodeId: string) => {
-            navigate(buildPath(`/explore/${nodeId}`))
+            if (isLocalView) {
+                // In local view, just select the concept without navigating to its sub-graph
+                setSelectedConceptId(nodeId)
+            } else {
+                navigate(buildPath(`/explore/${nodeId}`))
+            }
         },
-        [navigate, buildPath]
+        [isLocalView, navigate, buildPath]
     )
 
     const handleNodeHover = useCallback((nodeId: string | null) => {
@@ -258,9 +263,14 @@ const ExplorePage: React.FC = () => {
 
     const handleNavigateToConcept = useCallback(
         (conceptId: string) => {
-            navigate(buildPath(`/explore/${conceptId}`))
+            if (isLocalView) {
+                // In local view, just select the concept without navigating to its sub-graph
+                setSelectedConceptId(conceptId)
+            } else {
+                navigate(buildPath(`/explore/${conceptId}`))
+            }
         },
-        [navigate, buildPath]
+        [isLocalView, navigate, buildPath]
     )
 
     const handleToggleCategory = useCallback(
