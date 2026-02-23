@@ -1,3 +1,9 @@
+## [11.6.0](https://github.com/dsebastien/concept-cards/compare/11.5.0...11.6.0) (2026-02-23)
+
+### Features
+
+* **all:** improved behavior of clicks on nodes in sub graphs ([8cdb666](https://github.com/dsebastien/concept-cards/commit/8cdb6665b19be8efd3db17136be7853ffd2b9b7d))
+* **all:** updated ([d9b0d97](https://github.com/dsebastien/concept-cards/commit/d9b0d97789563a440fa3dbdc8265be5c96cb75de))
 ## [11.5.0](https://github.com/dsebastien/concept-cards/compare/11.4.0...11.5.0) (2026-02-22)
 
 ### Features
