@@ -1,0 +1,37 @@
+{
+    "id": "swbats",
+    "name": "SWBATS",
+    "summary": "A framework for writing learning objectives using the stem 'Students Will Be Able To' followed by a measurable action verb.",
+    "explanation": "SWBATS (Students Will Be Able To) is a widely used format for writing clear, measurable learning objectives. Each objective starts with the phrase \"Students will be able to...\" followed by an observable action verb and the specific skill or knowledge to be demonstrated.\n\n## The format\n\n**Students Will Be Able To** + **action verb** + **specific content/skill** + **context/conditions** (optional)\n\nExamples:\n- Students will be able to **identify** the three branches of government\n- Students will be able to **analyze** a dataset using regression techniques\n- Students will be able to **design** a REST API following best practices\n- Students will be able to **evaluate** the trade-offs between different architectural patterns\n\n## Why SWBATS works\n\n- **Forces measurability**: the action verb requirement prevents vague objectives like \"understand\" or \"know\"\n- **Student-centered**: focuses on what the learner achieves, not what the instructor covers\n- **Assessment-aligned**: each SWBAT naturally suggests how to assess it (if they can \"analyze,\" give them something to analyze)\n- **Bloom's-compatible**: action verbs map directly to Bloom's Taxonomy levels, helping ensure cognitive variety\n\n## Using SWBATS for course creation\n\n1. **Start with the end**: what should graduates of your course be able to do that they couldn't before?\n2. **Write SWBATS at multiple levels**: module-level objectives feed into course-level objectives\n3. **Use varied cognitive levels**: don't write all objectives at the \"remember\" level—include application, analysis, and creation\n4. **Limit per module**: 3-5 SWBATS per module keeps focus sharp\n5. **Test each one**: for every SWBAT, ask \"how would I verify this?\" If you can't, rewrite it\n\n## SWBATS hierarchy for courses\n\n- **Course-level SWBATS**: broad capabilities (\"design and deploy a full-stack web application\")\n- **Module-level SWBATS**: intermediate skills (\"implement user authentication using JWT tokens\")\n- **Lesson-level SWBATS**: specific, granular abilities (\"write middleware that validates JWT tokens\")\n\n## Common pitfalls\n\n- Using \"understand\" or \"learn\" instead of measurable verbs\n- Writing objectives that are really topics (\"Students will be able to: databases\" is not a SWBAT)\n- Making objectives too broad (\"Students will be able to program\") or too narrow (\"Students will be able to write a for loop in Python 3.11\")\n- Forgetting to align assessment with the stated SWBATS",
+    "tags": [
+        "education",
+        "teaching",
+        "curriculum",
+        "instructional-design",
+        "frameworks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaClipboardCheck",
+    "featured": false,
+    "aliases": [
+        "Students Will Be Able To",
+        "SWBAT",
+        "Learning objective format"
+    ],
+    "relatedConcepts": [
+        "learning-objectives",
+        "blooms-taxonomy",
+        "backward-design",
+        "instructional-design",
+        "constructive-alignment",
+        "addie-model",
+        "competency-based-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

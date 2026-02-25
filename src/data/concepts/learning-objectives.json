@@ -1,0 +1,47 @@
+{
+    "id": "learning-objectives",
+    "name": "Learning Objectives",
+    "summary": "Clear statements defining what learners should know, understand, or be able to do after instruction.",
+    "explanation": "Learning objectives are specific, measurable statements that describe what a learner will be able to do upon completing a learning experience. They form the foundation of effective course design, providing clarity for both instructors and students about what success looks like.\n\n## Why they matter\n\nWithout clear learning objectives, courses become unfocused collections of content. Objectives provide:\n\n- **Direction for design**: every activity, reading, and assignment should map to at least one objective\n- **Clear expectations**: students know exactly what they're working toward\n- **Assessment criteria**: objectives define what to test and how to evaluate mastery\n- **Scope control**: they prevent scope creep by defining boundaries of what's included\n\n## Characteristics of good objectives\n\nEffective learning objectives are **SMART-like**:\n\n- **Specific**: describe a concrete behavior or skill, not a vague aspiration\n- **Measurable**: use action verbs that can be observed and assessed\n- **Achievable**: realistic given the time and prerequisites\n- **Relevant**: connected to real-world application or prerequisite for further learning\n- **Time-bound**: achievable within the scope of the course or module\n\n## Common formats\n\n- **SWBATS**: \"Students Will Be Able To...\" followed by an action verb and context\n- **ABCD**: Audience, Behavior, Condition, Degree (\"Given a dataset, the student will be able to perform linear regression with 90% accuracy\")\n- **Mager's format**: Performance + Conditions + Criteria\n\n## Action verb hierarchy (Bloom's Taxonomy)\n\n- **Remember**: list, define, recall, identify\n- **Understand**: explain, summarize, paraphrase, compare\n- **Apply**: solve, demonstrate, use, implement\n- **Analyze**: differentiate, organize, compare, deconstruct\n- **Evaluate**: judge, critique, justify, defend\n- **Create**: design, construct, produce, formulate\n\nAvoid vague verbs like \"understand,\" \"know,\" or \"appreciate\" — these can't be observed or measured. Instead use verbs that describe visible performance.\n\n## Common mistakes\n\n- Writing objectives about what the instructor will do (\"I will teach...\") rather than what the learner will achieve\n- Using unmeasurable language (\"Students will understand...\")\n- Writing too many objectives (5-8 per module is typical)\n- Confusing learning objectives with learning activities\n- Setting objectives at only one cognitive level (usually Remember)",
+    "tags": [
+        "education",
+        "teaching",
+        "curriculum",
+        "instructional-design"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaBullseye",
+    "featured": false,
+    "aliases": [
+        "Learning outcomes",
+        "Instructional objectives",
+        "Performance objectives"
+    ],
+    "relatedConcepts": [
+        "swbats",
+        "blooms-taxonomy",
+        "backward-design",
+        "instructional-design",
+        "constructive-alignment",
+        "competency-based-learning",
+        "mastery-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Understanding by Design by Wiggins & McTighe",
+            "url": "https://www.amazon.com/dp/1416600353?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Learning objective - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Learning_objective",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

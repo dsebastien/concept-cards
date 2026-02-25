@@ -1,0 +1,77 @@
+{
+    "id": "inside-view-outside-view",
+    "name": "Inside View vs Outside View",
+    "summary": "Kahneman's distinction between planning based on project-specific details versus using base rates from similar past situations.",
+    "explanation": "The Inside View and Outside View are two fundamentally different approaches to making predictions, described by Daniel Kahneman and Amos Tversky. Understanding this distinction is central to overcoming the planning fallacy.\n\n## The Inside View\n\nThe inside view focuses on the specific case at hand. When estimating a project, you think about:\n- The particular tasks involved\n- The unique circumstances of this project\n- Your team's specific strengths\n- The detailed plan you've constructed\n\nThis feels thorough and rational, but it systematically produces overoptimistic estimates because it neglects base rates - how similar projects actually turned out.\n\n## The Outside View\n\nThe outside view (also called reference class forecasting) steps back and asks: what happened when other people attempted similar things? Instead of reasoning from the inside out, you look at the statistical distribution of outcomes for comparable projects.\n\n## Why the inside view dominates\n\n- It feels more relevant and specific\n- We naturally focus on what makes our situation unique\n- It engages System 2 (deliberate thinking) which gives a sense of rigor\n- We have more information about our own project than about others\n- Anchoring on our detailed plan makes the outside view feel abstract\n\n## The key insight\n\nKahneman discovered this distinction when his own team estimated a curriculum project would take 18 months. When he asked a colleague about similar past projects, the colleague reported most took 7-10 years, and 40% were never completed. The team finished in 8 years. Despite knowing the base rate, they couldn't bring themselves to apply it to their own project.\n\n## How to use the outside view\n\n1. **Identify the reference class**: what category does your project belong to?\n2. **Get the base rate**: how long did similar projects actually take?\n3. **Adjust sparingly**: only deviate from the base rate if you have strong evidence your case is genuinely different\n4. **Use both views**: the inside view provides useful detail, but the outside view provides the reality check",
+    "tags": [
+        "cognitive-biases",
+        "planning",
+        "decision-making",
+        "psychology",
+        "estimation"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Inside view",
+        "Outside view",
+        "Internal vs external perspective"
+    ],
+    "relatedConcepts": [
+        "planning-fallacy",
+        "reference-class-forecasting",
+        "planning-fallacy-mitigation",
+        "optimism-bias",
+        "anchoring",
+        "base-rate-neglect",
+        "overconfidence-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        },
+        {
+            "title": "Superforecasting by Philip E. Tetlock",
+            "url": "https://www.amazon.com/dp/0804136718?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Reference class forecasting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reference_class_forecasting",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

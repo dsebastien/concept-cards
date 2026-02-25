@@ -1,0 +1,43 @@
+{
+    "id": "addie-model",
+    "name": "ADDIE Model",
+    "summary": "A five-phase instructional design framework: Analyze, Design, Develop, Implement, and Evaluate.",
+    "explanation": "The ADDIE model is the most widely recognized framework in instructional design, providing a systematic five-phase process for creating effective learning experiences. Originally developed for the U.S. military in the 1970s, it has become the foundational methodology across education, corporate training, and online course creation.\n\n## The five phases\n\n### 1. Analyze\n- Identify the learning problem or opportunity\n- Define the target audience (prior knowledge, motivation, constraints)\n- Determine learning goals and performance gaps\n- Assess available resources, timeline, and delivery constraints\n- Output: needs analysis document\n\n### 2. Design\n- Write specific, measurable learning objectives (SWBATS)\n- Plan the assessment strategy (how will you know learners achieved the objectives?)\n- Select instructional strategies and media\n- Sequence content and create a course outline\n- Output: design document / course blueprint\n\n### 3. Develop\n- Create the actual learning materials: content, activities, assessments\n- Build or configure the delivery platform\n- Produce media assets (videos, graphics, interactive elements)\n- Conduct internal review and quality assurance\n- Output: complete course materials ready for pilot\n\n### 4. Implement\n- Deliver the instruction to learners\n- Train facilitators or set up self-paced systems\n- Provide learner support and troubleshooting\n- Monitor engagement and collect initial feedback\n- Output: delivered learning experience\n\n### 5. Evaluate\n- **Formative evaluation**: ongoing assessment during development and delivery to improve the course\n- **Summative evaluation**: post-delivery assessment of whether learning objectives were met\n- Gather data on learner satisfaction, knowledge gain, and behavior change\n- Use findings to revise and improve (feeds back into Analyze)\n- Output: evaluation report and improvement plan\n\n## Iterative vs. linear\n\nWhile often presented as a linear sequence, effective practitioners treat ADDIE as iterative. Each phase can feed back to previous phases, and rapid prototyping approaches (like SAM — Successive Approximation Model) accelerate the cycle by building quick drafts early.\n\n## Criticisms and alternatives\n\n- Can be slow and waterfall-like if applied rigidly\n- SAM (Successive Approximation Model) offers a more agile alternative\n- Action Mapping (Cathy Moore) focuses on performance outcomes rather than content coverage\n- Despite criticisms, ADDIE's phases remain relevant even when using alternative methodologies",
+    "tags": [
+        "education",
+        "instructional-design",
+        "frameworks",
+        "teaching",
+        "curriculum"
+    ],
+    "category": "Frameworks",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "ADDIE",
+        "ADDIE framework",
+        "Analyze Design Develop Implement Evaluate"
+    ],
+    "relatedConcepts": [
+        "instructional-design",
+        "learning-objectives",
+        "swbats",
+        "backward-design",
+        "blooms-taxonomy",
+        "constructive-alignment",
+        "knowledge-transfer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "ADDIE model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/ADDIE_model",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

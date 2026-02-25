@@ -1,0 +1,83 @@
+{
+    "id": "student-syndrome",
+    "name": "Student Syndrome",
+    "summary": "The tendency to delay starting work until the last possible moment before a deadline, even when given extra buffer time.",
+    "explanation": "Student Syndrome describes the human tendency to procrastinate and only begin working on a task at the last possible moment, even when ample time or buffer has been provided. The term was popularized by Eliyahu Goldratt in his work on Critical Chain Project Management.\n\n## How it manifests\n\nWhen a task is estimated at 5 days but given a 10-day buffer for safety, a person with Student Syndrome won't start until day 5 or later. The buffer that was meant to absorb unexpected problems instead gets consumed by delayed starts. If anything goes wrong in the remaining time, the task still runs late - making the safety buffer entirely pointless.\n\n## Why it matters for planning\n\nStudent Syndrome is a key reason why adding buffer time to project estimates often fails to prevent delays. It creates a one-way ratchet: if a task finishes early, the saved time is rarely passed on to the next task. But if a task runs late, the delay cascades through the project. This means individual task buffers tend to be wasted rather than providing genuine protection.\n\n## Root causes\n\n- **Parkinson's Law**: work expands to fill the time available\n- **Present bias**: future deadlines feel less urgent than immediate distractions\n- **Optimism about future self**: we believe our future self will be more disciplined\n- **Multiple commitments**: people juggle many tasks and prioritize the most urgent\n\n## Countermeasures\n\n- **Critical Chain**: remove individual task buffers and pool them into project-level buffers that management controls\n- **Intermediate milestones**: create earlier checkpoints that force work to start sooner\n- **Work-in-progress limits**: reduce multitasking so people focus on fewer tasks\n- **Daily standups**: create social accountability for progress\n- **Time tracking**: make delay patterns visible",
+    "tags": [
+        "cognitive-biases",
+        "planning",
+        "productivity",
+        "psychology",
+        "project-management"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaClock",
+    "featured": false,
+    "aliases": [
+        "Last-minute syndrome",
+        "Deadline procrastination"
+    ],
+    "relatedConcepts": [
+        "planning-fallacy",
+        "parkinson-law",
+        "present-bias",
+        "deadline-effect",
+        "hofstadter-law",
+        "scope-creep",
+        "time-optimism",
+        "procrastination"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Critical Chain by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271536?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Student syndrome - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Student_syndrome",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

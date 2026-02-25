@@ -1,0 +1,46 @@
+{
+    "id": "profit-first",
+    "name": "Profit First",
+    "summary": "A cash management system for businesses that allocates profit before expenses, reversing the traditional formula.",
+    "explanation": "Profit First, developed by Mike Michalowicz, flips the traditional accounting formula on its head. Instead of Sales - Expenses = Profit, it proposes Sales - Profit = Expenses. By taking profit first—before paying expenses—businesses are forced to operate within what remains, naturally controlling costs.\n\n## The core idea\n\nTraditional business accounting treats profit as whatever's left over after expenses. The problem: expenses always expand to consume available revenue (Parkinson's Law applied to money). Profit First reverses this by making profit a non-negotiable allocation that comes off the top.\n\n## The system\n\n1. **Set up multiple bank accounts**: Income, Profit, Owner's Pay, Tax, and Operating Expenses\n2. **Allocate percentages**: every time revenue comes in, distribute it across accounts using predetermined percentages\n3. **Run the business on what's left**: Operating Expenses gets what remains after Profit, Owner's Pay, and Tax are funded\n4. **Quarterly profit distributions**: take 50% of the Profit account as a reward; leave 50% as a cash reserve\n\n## Target Allocation Percentages (TAPs)\n\nMichalowicz provides target percentages based on revenue range. For a small business:\n- Profit: 5-20%\n- Owner's Pay: 50%\n- Tax: 15%\n- Operating Expenses: 30%\n\nBusinesses start with their current actual percentages and gradually adjust toward targets.\n\n## Why it works\n\n- **Uses behavioral psychology**: small plates make you eat less; small operating accounts make you spend less\n- **Parkinson's Law**: expenses contract to fit the available budget\n- **Removes temptation**: profit is in a separate account, out of sight and out of reach\n- **Forces prioritization**: with less operating budget, you must focus on what actually drives revenue\n- **Creates a safety net**: accumulated profit provides a buffer against downturns\n\n## For solopreneurs and knowledge workers\n\nProfit First is especially powerful for solopreneurs and lifestyle businesses where the line between personal and business finances is blurred. It ensures the business serves the owner (profit and pay first) rather than the owner serving the business (paying themselves whatever's left).",
+    "tags": [
+        "entrepreneurship",
+        "finances",
+        "businesses",
+        "solopreneurship",
+        "practices"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaDollarSign",
+    "featured": false,
+    "aliases": [
+        "Profit First method",
+        "Reverse accounting"
+    ],
+    "relatedConcepts": [
+        "calm-business",
+        "solopreneurship",
+        "bootstrapping",
+        "parkinson-law",
+        "financial-independence",
+        "ramen-profitability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Profit First by Mike Michalowicz",
+            "url": "https://www.amazon.com/dp/073521414X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Profit First - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Profit_First",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

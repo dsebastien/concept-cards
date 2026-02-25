@@ -1,0 +1,71 @@
+{
+    "id": "uniqueness-bias",
+    "name": "Uniqueness Bias",
+    "summary": "The tendency to believe that oneself or one's situation is more special or unique than it actually is.",
+    "explanation": "Uniqueness Bias is the cognitive tendency to overestimate how different or special one's own situation, project, or experience is compared to others. This bias is a key mechanism driving the planning fallacy: people dismiss base rates and historical data because they believe their case is fundamentally different.\n\n## How it relates to the planning fallacy\n\nWhen told that 90% of similar projects ran over budget, a project manager thinks: 'Yes, but those projects had different teams, different technology, different circumstances. Our situation is unique.' This reasoning allows people to ignore statistical evidence and rely on optimistic inside-view estimates instead.\n\n## Common manifestations\n\n- **Project planning**: 'Our team is different - we won't have the same problems other teams had'\n- **Startups**: 'We know most startups fail, but our idea is genuinely different'\n- **Personal finance**: 'The average person can't afford this, but my situation is special'\n- **Health**: 'Those statistics don't apply to me because I'm different'\n- **Relationships**: 'Other couples have that problem, but we won't'\n\n## Why it persists\n\n- We have detailed knowledge of our own situation but only surface knowledge of others\n- Every situation genuinely does have unique features, making the bias feel justified\n- Acknowledging similarity to failed cases is psychologically threatening\n- The better-than-average effect makes us believe we're more capable than the reference class\n- Confirmation bias helps us notice the unique aspects while ignoring the common ones\n\n## The paradox\n\nEvery situation is unique in some ways. But the planning-relevant question isn't whether your situation has unique features - it always does. The question is whether those unique features will lead to meaningfully different outcomes. Usually they don't, which is why base rates are so predictive.\n\n## Countermeasures\n\n- **Reference class forecasting**: force comparison with similar past cases\n- **Pre-mortem analysis**: identify how your 'unique' advantages could fail\n- **Devil's advocate**: assign someone to argue why this case is NOT special\n- **Track record review**: honestly assess whether your past 'unique' situations actually produced unique outcomes",
+    "tags": [
+        "cognitive-biases",
+        "psychology",
+        "planning",
+        "decision-making"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaSnowflake",
+    "featured": false,
+    "aliases": [
+        "Exceptionalism bias",
+        "Special case thinking"
+    ],
+    "relatedConcepts": [
+        "planning-fallacy",
+        "inside-view-outside-view",
+        "reference-class-forecasting",
+        "optimism-bias",
+        "better-than-average-effect",
+        "overconfidence-effect",
+        "base-rate-neglect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Uniqueness bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Uniqueness_bias",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

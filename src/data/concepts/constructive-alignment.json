@@ -1,0 +1,48 @@
+{
+    "id": "constructive-alignment",
+    "name": "Constructive Alignment",
+    "summary": "An educational design framework where learning objectives, teaching activities, and assessment tasks are deliberately aligned.",
+    "explanation": "Constructive Alignment is a principle of course design developed by John Biggs, stating that the three pillars of education—learning objectives, teaching/learning activities, and assessment—must be deliberately and coherently aligned. When all three point in the same direction, learning is maximized.\n\n## The three components\n\n1. **Intended Learning Outcomes (ILOs)**: what students should be able to do after the learning experience (expressed as SWBATS or similar)\n2. **Teaching and Learning Activities (TLAs)**: what students actually do during instruction (lectures, exercises, projects, discussions)\n3. **Assessment Tasks (ATs)**: how students demonstrate they've achieved the outcomes\n\n## The alignment principle\n\nAll three must use the same verbs and target the same cognitive level:\n\n- If the objective says students will **analyze** case studies, the activities should involve **analyzing** case studies, and the assessment should require **analyzing** a case study\n- Misalignment: objective says \"analyze\" but activities only involve reading, and assessment only tests recall\n\n## Why misalignment is common\n\n- Assessments are designed independently of objectives (testing what's easy to test, not what matters)\n- Activities default to lectures even when objectives require application or creation\n- Objectives are written at a high cognitive level but assessments test at a low level\n- Time pressure leads to activities that cover content rather than developing capabilities\n\n## The constructive part\n\nThe \"constructive\" in Constructive Alignment refers to constructivism: the idea that learners construct meaning through their own activity. Students learn by doing, not by passively receiving. Therefore, the teaching activities must require students to perform the kind of thinking specified in the objectives.\n\n## Practical application\n\n1. **Start with objectives**: define what learners should be able to do (backward design)\n2. **Design assessment**: create tasks that directly measure whether objectives are met\n3. **Design activities**: create experiences where students practice exactly what they'll be assessed on\n4. **Check alignment**: review all three together to ensure coherence\n\n## For course creators\n\nConstructive Alignment prevents the common trap of building a course that covers topics but doesn't develop skills. Every minute of the learner's time should connect to a stated objective, and every assessment should measure an objective—not something unrelated.",
+    "tags": [
+        "education",
+        "curriculum",
+        "instructional-design",
+        "teaching",
+        "assessments"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Biggs' alignment",
+        "Curriculum alignment",
+        "Outcome-based alignment"
+    ],
+    "relatedConcepts": [
+        "backward-design",
+        "learning-objectives",
+        "swbats",
+        "blooms-taxonomy",
+        "instructional-design",
+        "addie-model",
+        "understanding-by-design"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Teaching for Quality Learning at University by John Biggs",
+            "url": "https://www.amazon.com/dp/0335242758?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Constructive alignment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Constructive_alignment",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}

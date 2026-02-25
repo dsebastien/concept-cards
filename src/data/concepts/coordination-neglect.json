@@ -1,0 +1,67 @@
+{
+    "id": "coordination-neglect",
+    "name": "Coordination Neglect",
+    "summary": "The tendency to underestimate the time and effort required for coordination when planning multi-person projects.",
+    "explanation": "Coordination Neglect is a cognitive bias where people systematically underestimate the overhead required to coordinate work across multiple people, teams, or organizations. When planning projects, we tend to estimate task durations as if each person works independently, forgetting the significant time consumed by communication, synchronization, conflict resolution, and handoffs.\n\n## How it manifests\n\n- A manager estimates a project by summing individual task durations without accounting for meetings, email chains, and alignment sessions\n- A team leader adds more people to a late project, not realizing the coordination costs will initially slow things down (Brooks's Law)\n- Planning assumes smooth handoffs between teams when real handoffs require extensive communication\n- Estimates treat parallel work as truly parallel, ignoring dependencies and blocking waits\n\n## Why we fall for it\n\n- **Task focus**: we think in terms of individual tasks, not the glue between them\n- **Invisible work**: coordination activities feel like overhead, not 'real work', so they get omitted from plans\n- **Small team experience**: our intuitions about coordination come from small groups where it's cheap, but costs grow nonlinearly with team size\n- **Component bias**: we estimate components in isolation, then sum them without integration costs\n\n## The math behind it\n\nBrooks observed that communication channels grow as n(n-1)/2 where n is the number of people. A team of 5 has 10 channels; a team of 10 has 45; a team of 20 has 190. Each channel represents potential coordination cost.\n\n## Countermeasures\n\n- **Explicitly budget coordination time**: add 15-30% for multi-person projects\n- **Reduce coordination needs**: design work to minimize dependencies through modular architecture and clear interfaces\n- **Track coordination costs**: measure time spent in meetings, on email, and waiting for others\n- **Small, autonomous teams**: keep teams small to limit communication channels\n- **Clear ownership**: reduce ambiguity about who decides what",
+    "tags": [
+        "cognitive-biases",
+        "planning",
+        "collaboration",
+        "project-management",
+        "teams"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "Collaboration overhead bias",
+        "Integration neglect"
+    ],
+    "relatedConcepts": [
+        "planning-fallacy",
+        "coordination-costs",
+        "brooks-law",
+        "the-mythical-man-month",
+        "conways-law",
+        "scope-creep",
+        "software-estimation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Mythical Man-Month by Frederick P. Brooks Jr.",
+            "url": "https://www.amazon.com/dp/0201835959?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Coordination neglect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Coordination_neglect",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-25",
+    "dateModified": "2026-02-25"
+}
