@@ -1,0 +1,74 @@
+{
+    "id": "ai-washing",
+    "name": "AI Washing",
+    "summary": "The practice of exaggerating or fabricating the role of artificial intelligence in products and services for marketing advantage.",
+    "explanation": "AI washing refers to the practice of companies overstating, misrepresenting, or outright fabricating the use of artificial intelligence in their products, services, or operations. Analogous to greenwashing in the environmental space, AI washing exploits the hype and perceived value of AI to attract customers, investors, and media attention, even when the underlying technology relies on simple automation, rule-based systems, manual human labor, or no meaningful AI at all.\n\nThe phenomenon emerged as AI became a dominant marketing buzzword in the late 2010s and accelerated dramatically after the launch of ChatGPT in late 2022. Venture capital firms began requiring AI narratives in pitch decks, stock prices surged for companies with AI claims, and consumers began expecting AI features in everyday products. This created powerful financial incentives for exaggeration. Studies have found that startups claiming to use AI receive significantly more funding than comparable companies without such claims, regardless of whether the AI claims are substantiated.\n\nAI washing takes several forms. Some companies relabel existing software features as AI-powered without any architectural change. Others use the term AI for basic if-then rules, simple statistics, or conventional database queries. Some claim AI automates a process that actually relies on human workers behind the scenes, a practice sometimes called fauxtomation. More sophisticated forms involve using genuine but trivial AI components (like basic sentiment analysis) while implying much more advanced capabilities.\n\nRegulators have begun to take action. The US Securities and Exchange Commission (SEC) has charged companies with making misleading AI claims to investors, treating AI washing as a form of securities fraud. The European Union's AI Act includes transparency requirements that may help combat AI washing by requiring companies to disclose when AI is being used and how it works. The Federal Trade Commission (FTC) has warned companies against making deceptive AI claims in marketing.\n\nThe consequences of AI washing extend beyond individual consumer deception. It erodes public trust in genuine AI capabilities, creates unrealistic expectations that lead to disappointment, diverts investment from truly innovative companies to marketing-savvy imposters, and makes it harder for buyers to make informed decisions about AI products. It also contributes to AI fatigue, where people become skeptical of all AI claims regardless of their validity.\n\nCombating AI washing requires a combination of regulatory enforcement, industry standards for AI claims, technical literacy among buyers and investors, and demand for transparency about what AI actually does in a product. Questions like what specific AI technique is used, what data it was trained on, and what measurable improvement it provides over non-AI alternatives can help separate genuine AI innovation from marketing spin.",
+    "tags": [
+        "ai",
+        "ethics",
+        "marketing",
+        "trust",
+        "critical-thinking"
+    ],
+    "category": "AI",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "AI Hype Washing",
+        "Artificial Intelligence Washing"
+    ],
+    "relatedConcepts": [
+        "greenwashing",
+        "ai-ethics",
+        "ai-governance",
+        "hype-cycle",
+        "techno-solutionism",
+        "algorithmic-bias",
+        "ai-anthropomorphism",
+        "explainable-ai",
+        "ai-guardrails"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "AI washing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/AI_washing",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

@@ -1,0 +1,74 @@
+{
+    "id": "instruction-tuning",
+    "name": "Instruction Tuning",
+    "summary": "A fine-tuning technique that trains language models to follow natural language instructions by learning from examples of instruction-response pairs.",
+    "explanation": "Instruction tuning is a supervised fine-tuning technique that teaches pretrained language models to understand and follow natural language instructions. While a base language model is trained to predict the next token and can generate fluent text, it does not inherently know how to respond helpfully to user requests. Instruction tuning bridges this gap by training the model on datasets of instruction-response pairs, transforming a text completion engine into a useful assistant.\n\nThe technique was pioneered in several influential works. Google's FLAN (Fine-tuned Language Net) in 2021 showed that training on a diverse collection of NLP tasks framed as instructions dramatically improved zero-shot performance on unseen tasks. The key finding was that instruction tuning on a broad mixture of tasks generalized to entirely new instructions the model had never seen during training.\n\nInstruction tuning datasets typically include a wide variety of task types: question answering, summarization, translation, code generation, creative writing, reasoning, and conversation. Each example consists of an instruction (describing what the model should do), optional input context, and the desired output. High-quality datasets like Alpaca, Dolly, OpenAssistant, and FLAN collections have been crucial to the development of instruction-following models.\n\nThe relationship between instruction tuning and RLHF is complementary and sequential. Instruction tuning through supervised fine-tuning (SFT) is typically the first stage after pretraining, creating a model that can follow instructions at a basic level. RLHF or DPO then builds on this foundation, further refining the model's responses to better match human preferences in terms of helpfulness, safety, and quality. Some researchers have found that high-quality instruction tuning data can reduce the need for extensive RLHF.\n\nData quality has proven more important than data quantity in instruction tuning. Research by the LIMA team (Less Is More for Alignment) demonstrated that fine-tuning on just 1,000 carefully curated instruction-response pairs could produce a model competitive with those trained on much larger datasets. This suggests that the diversity and quality of instructions matter more than sheer volume.\n\nInstruction tuning has also been applied to multimodal models (training vision-language models to follow instructions about images), code models (teaching models to follow programming instructions), and specialized domain models (adapting models for medical, legal, or scientific instruction following). The technique is fundamental to creating the aligned, instruction-following AI assistants that have become mainstream.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "training",
+        "alignment",
+        "nlp"
+    ],
+    "category": "Techniques",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "SFT",
+        "Supervised Fine-Tuning",
+        "FLAN-style Tuning"
+    ],
+    "relatedConcepts": [
+        "rlhf",
+        "fine-tuning",
+        "large-language-models",
+        "direct-preference-optimization",
+        "few-shot-learning",
+        "zero-shot-learning",
+        "transfer-learning",
+        "ai-alignment"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Instruction tuning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Instruction_tuning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

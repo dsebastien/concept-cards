@@ -1,0 +1,73 @@
+{
+    "id": "ai-governance",
+    "name": "AI Governance",
+    "summary": "The frameworks, policies, and oversight mechanisms that guide the responsible development, deployment, and regulation of artificial intelligence systems.",
+    "explanation": "AI governance encompasses the rules, practices, institutions, and oversight mechanisms designed to ensure that artificial intelligence is developed and used responsibly. It bridges the gap between abstract ethical principles and concrete, enforceable practices, providing the structure through which AI ethics are translated into organizational policies, industry standards, and legal regulations.\n\nAI governance operates at multiple levels. At the organizational level, it includes internal policies for AI development, review boards that assess AI systems before deployment, model risk management frameworks, documentation requirements, and incident response procedures. Companies like Google, Microsoft, and Meta have established AI governance structures, though their effectiveness and independence vary significantly.\n\nAt the national level, governments are developing regulatory frameworks for AI. The European Union's AI Act, which came into effect in 2024, is the most comprehensive AI regulation to date, categorizing AI systems by risk level and imposing corresponding requirements for transparency, testing, and human oversight. The United States has pursued a more sector-specific approach through executive orders and existing regulatory authorities. China has implemented regulations targeting specific AI applications like recommendation algorithms and generative AI.\n\nAt the international level, organizations like the OECD, UNESCO, and the G7 have developed AI principles and guidelines. The challenge of international AI governance is balancing the need for global coordination with different national values, economic interests, and regulatory traditions. The risk of regulatory fragmentation, where companies must comply with conflicting requirements across jurisdictions, is a major concern.\n\nKey governance mechanisms include algorithmic impact assessments (evaluating potential harms before deployment), model cards and datasheets (standardized documentation of AI systems and training data), audit requirements (independent review of AI system behavior), sandboxes (controlled environments for testing AI regulations), and certification schemes (third-party validation of AI system properties).\n\nChallenges in AI governance include the pace problem (technology evolves faster than regulation), the expertise gap (regulators often lack technical understanding), the measurement problem (difficulty quantifying concepts like fairness and bias), the innovation concern (overly restrictive regulation may stifle beneficial AI development), and enforcement difficulties (monitoring compliance across diverse AI applications). Effective AI governance must be adaptive, technically informed, and balanced between precaution and innovation.",
+    "tags": [
+        "ai",
+        "governance",
+        "ethics",
+        "regulation",
+        "frameworks"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "AI Regulation",
+        "AI Policy",
+        "Responsible AI Governance"
+    ],
+    "relatedConcepts": [
+        "ai-ethics",
+        "ai-washing",
+        "explainable-ai",
+        "ai-guardrails",
+        "ai-safety",
+        "algorithmic-bias",
+        "constitutional-ai"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Regulation of artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

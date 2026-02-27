@@ -1,0 +1,71 @@
+{
+    "id": "gating-network",
+    "name": "Gating Network",
+    "summary": "A neural network component that learns to route inputs to the most appropriate expert sub-networks in mixture of experts architectures.",
+    "explanation": "A gating network, also known as a router, is a learned component in mixture of experts (MoE) architectures that determines which expert sub-networks should process a given input. It acts as a traffic controller, examining each input and producing a probability distribution or selection over the available experts. This routing mechanism is what enables MoE models to achieve conditional computation, activating only relevant experts rather than the entire model for each input.\n\nIn its simplest form, a gating network is a linear layer followed by a softmax function. Given an input token representation, it produces a probability distribution across all experts. In top-k routing, the k experts with the highest gating scores are selected, and their outputs are weighted by the corresponding gate values. Most modern implementations use top-1 or top-2 routing, meaning each token is processed by just one or two experts out of potentially hundreds.\n\nThe design of the gating network has profound implications for model behavior. A well-functioning router learns to specialize experts on different types of inputs, creating a natural division of labor. Research has shown that experts in language models often specialize by topic, syntax type, or language, though the specialization patterns are not always interpretable.\n\nLoad balancing is the central challenge in gating network design. Without intervention, routers tend to exhibit a rich-get-richer dynamic where a few experts receive most tokens while others are underutilized. This expert collapse wastes model capacity. Solutions include auxiliary load-balancing losses that penalize uneven expert utilization, capacity factors that limit how many tokens each expert can process, and noise injection during training to encourage exploration.\n\nVariants of gating networks include hash-based routing (which uses fixed hash functions instead of learned routing), expert choice routing (where experts select tokens rather than tokens selecting experts), and soft routing (where all experts contribute but with learned weights). Each approach offers different tradeoffs between routing quality, training stability, and computational efficiency.\n\nThe gating network concept extends beyond MoE to any architecture requiring learned conditional computation, including adaptive computation models, early exit networks, and dynamic neural networks that adjust their computation based on input complexity.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "deep-learning",
+        "architecture",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Router Network",
+        "Expert Router",
+        "Routing Network"
+    ],
+    "relatedConcepts": [
+        "mixture-of-experts",
+        "neural-networks",
+        "transformer",
+        "attention-mechanism",
+        "sparse-models"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

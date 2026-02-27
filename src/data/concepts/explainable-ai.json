@@ -1,0 +1,75 @@
+{
+    "id": "explainable-ai",
+    "name": "Explainable AI",
+    "summary": "A set of methods and techniques that make AI system outputs understandable and interpretable to humans.",
+    "explanation": "Explainable AI (XAI) encompasses the methods, techniques, and design principles that make the behavior and outputs of artificial intelligence systems understandable to humans. As AI systems increasingly make or influence high-stakes decisions in healthcare, criminal justice, finance, and hiring, the ability to understand why an AI reached a particular conclusion has become both a practical necessity and a regulatory requirement.\n\nThe need for explainability arises from the opacity of modern machine learning models. Deep neural networks with millions or billions of parameters function as black boxes: they produce outputs without revealing their reasoning process. While simpler models like decision trees and linear regressions are inherently interpretable, the most powerful AI systems sacrifice transparency for performance. XAI seeks to bridge this gap without significantly compromising model capability.\n\nXAI approaches fall into two broad categories. Intrinsic interpretability involves designing models that are inherently transparent, such as attention mechanisms that reveal which input features the model focuses on, or rule-based systems that make their logic explicit. Post-hoc explainability applies explanation techniques to already-trained black-box models, generating explanations after the fact without modifying the model itself.\n\nKey post-hoc techniques include LIME (Local Interpretable Model-agnostic Explanations), which approximates any model's behavior locally with a simple interpretable model; SHAP (SHapley Additive exPlanations), which uses game theory to assign importance values to each feature; saliency maps and attention visualization in neural networks; counterfactual explanations that show what would need to change for a different outcome; and concept-based explanations that map model reasoning to human-understandable concepts.\n\nRegulatory frameworks increasingly mandate explainability. The European Union's General Data Protection Regulation (GDPR) includes provisions for a right to explanation for automated decisions. The EU AI Act requires transparency for high-risk AI systems. The US has various sector-specific requirements, such as fair lending laws that require explanations for credit decisions. These regulations have transformed XAI from an academic pursuit into a compliance requirement.\n\nChallenges in XAI include the accuracy-interpretability tradeoff (simpler models are more explainable but often less accurate), the difficulty of explaining complex emergent behaviors in large models, the risk that explanations may be misleading or oversimplified, and the fact that different stakeholders (developers, regulators, end users) need different types and levels of explanation. There is also tension between providing enough detail to be meaningful and keeping explanations simple enough to be useful.",
+    "tags": [
+        "ai",
+        "ethics",
+        "trust",
+        "transparency",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "XAI",
+        "Interpretable AI",
+        "AI Explainability"
+    ],
+    "relatedConcepts": [
+        "ai-ethics",
+        "ai-governance",
+        "ai-washing",
+        "algorithmic-bias",
+        "ai-guardrails",
+        "constitutional-ai",
+        "ai-safety",
+        "deep-learning",
+        "neural-networks"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Explainable artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

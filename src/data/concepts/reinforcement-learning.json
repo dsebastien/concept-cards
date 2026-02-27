@@ -1,0 +1,72 @@
+{
+    "id": "reinforcement-learning",
+    "name": "Reinforcement Learning",
+    "summary": "A machine learning paradigm where an agent learns to make decisions by taking actions in an environment and receiving rewards or penalties as feedback.",
+    "explanation": "Reinforcement learning (RL) is one of the three fundamental paradigms of machine learning, alongside supervised and unsupervised learning. In RL, an agent learns to behave in an environment by performing actions and observing the results. Rather than being told the correct answer (as in supervised learning), the agent receives reward signals that indicate how good or bad its actions were, and it must discover which actions yield the most reward through trial and error.\n\nThe mathematical foundation of RL is the Markov Decision Process (MDP), which formalizes the interaction between agent and environment. At each time step, the agent observes a state, takes an action, receives a reward, and transitions to a new state. The agent's goal is to learn a policy, a mapping from states to actions, that maximizes the cumulative reward over time. The discount factor controls how much the agent values immediate versus future rewards.\n\nRL algorithms fall into several categories. Value-based methods like Q-learning and Deep Q-Networks (DQN) learn a value function that estimates the expected cumulative reward for each state-action pair. Policy-based methods like REINFORCE directly optimize the policy without learning a value function. Actor-critic methods combine both approaches, using a value function (critic) to reduce the variance of policy gradient estimates (actor). Proximal Policy Optimization (PPO) and Trust Region Policy Optimization (TRPO) are popular actor-critic algorithms that ensure stable policy updates.\n\nModel-based RL methods learn a model of the environment's dynamics and use it to plan ahead, while model-free methods learn directly from experience without modeling the environment. Model-based approaches are more sample efficient but require accurate environment models, which can be difficult to learn for complex environments.\n\nRL has produced some of AI's most impressive achievements. DeepMind's AlphaGo defeated the world champion at Go in 2016, a feat previously thought decades away. AlphaFold used RL components to predict protein structures. OpenAI Five competed at professional-level Dota 2. In robotics, RL enables agents to learn complex manipulation and locomotion skills.\n\nThe application of RL to language models through RLHF (Reinforcement Learning from Human Feedback) has been transformative for AI assistants. In this setting, a reward model trained on human preferences provides the reward signal, and PPO is used to fine-tune the language model to generate outputs that humans prefer. This technique is central to how modern AI assistants like ChatGPT and Claude are trained.\n\nKey challenges in RL include sample efficiency (requiring millions of interactions to learn), exploration versus exploitation (balancing trying new actions versus using known good ones), reward design (poorly designed rewards lead to reward hacking), credit assignment (determining which actions were responsible for delayed rewards), and sim-to-real transfer (policies learned in simulation may not work in the real world).",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "training",
+        "fundamentals",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "RL"
+    ],
+    "relatedConcepts": [
+        "machine-learning",
+        "rlhf",
+        "reward-model",
+        "reward-hacking",
+        "deep-learning",
+        "neural-networks",
+        "ai-alignment",
+        "direct-preference-optimization"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Reinforcement learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

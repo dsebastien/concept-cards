@@ -1,0 +1,75 @@
+{
+    "id": "model-scaling",
+    "name": "Model Scaling",
+    "summary": "The study and practice of increasing neural network size, data, or compute to improve model performance, guided by empirical scaling laws.",
+    "explanation": "Model scaling refers to the systematic approach of increasing the size of neural networks, their training data, or the computational resources used during training to achieve better performance. It is one of the most important concepts in modern AI, as empirical evidence has shown that larger models trained on more data with more compute tend to perform predictably better across a wide range of tasks.\n\nThe foundation of model scaling is the discovery of scaling laws, which describe mathematical relationships between model size, dataset size, compute budget, and performance. The most influential work in this area came from researchers at OpenAI (Kaplan et al., 2020) and later from Google DeepMind's Chinchilla paper (Hoffmann et al., 2022). These studies revealed that model performance improves as a power law with increases in parameters, data, and compute, and that there are optimal ratios for allocating a fixed compute budget between model size and training data.\n\nScaling can happen along several dimensions. Parameter scaling increases the number of weights in the model by adding more layers (depth), widening existing layers, or adding more attention heads. Data scaling involves training on larger and more diverse datasets. Compute scaling means using more GPU/TPU hours for training. The Chinchilla scaling laws suggest that many early large language models were undertrained relative to their size, and that a smaller model trained on more data can outperform a larger model trained on less data for the same compute budget.\n\nEfficient scaling techniques have emerged to manage the prohibitive costs of simply making everything bigger. Mixture of experts enables parameter scaling without proportional compute increases. Knowledge distillation transfers capabilities from large models to smaller ones. Model pruning and quantization reduce the resource requirements of already-trained large models. These techniques allow practitioners to achieve scaling benefits while managing practical constraints.\n\nThe implications of scaling laws are profound for the AI industry. They enable researchers to predict model performance before expensive training runs, plan compute investments, and make informed architecture choices. However, scaling also raises concerns about environmental impact, resource concentration among well-funded labs, and the question of whether scaling alone can lead to artificial general intelligence or whether fundamental architectural innovations are also needed.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "deep-learning",
+        "optimization",
+        "performance",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Neural Scaling",
+        "Compute Scaling"
+    ],
+    "relatedConcepts": [
+        "scaling-laws",
+        "large-language-models",
+        "mixture-of-experts",
+        "sparse-models",
+        "knowledge-distillation",
+        "model-pruning",
+        "model-quantization",
+        "deep-learning",
+        "transformer"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Neural scaling law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neural_scaling_law",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

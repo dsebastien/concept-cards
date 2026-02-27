@@ -1,0 +1,78 @@
+{
+    "id": "red-teaming",
+    "name": "Red Teaming",
+    "summary": "An adversarial testing practice where a dedicated team attempts to find vulnerabilities, flaws, or failure modes in a system by simulating attacks or misuse scenarios.",
+    "explanation": "Red teaming is an adversarial evaluation methodology where a group of testers (the red team) deliberately attempts to find weaknesses, vulnerabilities, and failure modes in a system by thinking and acting like potential adversaries. Originating in military strategy and later adopted by cybersecurity, the practice has become a critical component of AI safety and is now widely used to evaluate and improve large language models before and after deployment.\n\nThe term comes from Cold War military exercises where a red team would simulate Soviet forces to test US military readiness, while the blue team represented the defending forces. In cybersecurity, red teams conduct authorized attacks on organizations to identify security weaknesses. The core principle across all domains is the same: you cannot know how robust your system is until someone actively tries to break it.\n\nIn the AI context, red teaming involves systematically probing language models to discover harmful outputs, biases, security vulnerabilities, and other failure modes. Red teamers craft adversarial prompts designed to elicit problematic behavior such as generating dangerous information, exhibiting biases, revealing private training data, bypassing safety guardrails, or producing confidently incorrect statements. This process has become standard practice at major AI labs including Anthropic, OpenAI, Google DeepMind, and Meta.\n\nAI red teaming typically covers several categories of risk. Safety testing probes for generation of harmful content like instructions for violence or illegal activities. Bias testing examines whether the model treats different demographic groups differently. Robustness testing checks whether the model can be manipulated through jailbreaks, prompt injection, or other adversarial techniques. Factuality testing evaluates the model's tendency to hallucinate or present false information confidently. Privacy testing looks for memorization and regurgitation of training data.\n\nThe practice has evolved from purely manual testing by human experts to include automated red teaming, where AI systems generate adversarial prompts at scale. Anthropic's Constitutional AI approach uses AI self-critique as a form of automated red teaming. Other approaches use reinforcement learning to train adversarial prompt generators, or use one language model to find weaknesses in another.\n\nRed teaming's effectiveness depends on the diversity and creativity of the red team. Effective red teams include people with different backgrounds, perspectives, and areas of expertise, including domain experts, security researchers, ethicists, and members of communities that might be disproportionately affected by AI failures. The findings from red teaming exercises directly inform improvements to model training, safety filters, and deployment policies.",
+    "tags": [
+        "ai",
+        "security",
+        "testing",
+        "safety",
+        "strategies"
+    ],
+    "category": "AI",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "AI Red Teaming",
+        "Adversarial Testing"
+    ],
+    "relatedConcepts": [
+        "ai-safety",
+        "ai-guardrails",
+        "ai-ethics",
+        "rlhf",
+        "constitutional-ai",
+        "ai-alignment",
+        "threat-modeling",
+        "reward-hacking"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Red team - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Red_team",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

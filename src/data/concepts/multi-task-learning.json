@@ -1,0 +1,72 @@
+{
+    "id": "multi-task-learning",
+    "name": "Multi-Task Learning",
+    "summary": "A machine learning approach where a single model is trained on multiple related tasks simultaneously, leveraging shared representations to improve generalization.",
+    "explanation": "Multi-task learning (MTL) is an approach to machine learning where a model is trained to perform multiple related tasks at the same time, sharing representations between tasks to improve learning efficiency and generalization. Rather than training separate models for each task, MTL exploits the commonalities and differences across tasks, using the inductive bias from related tasks as a form of implicit regularization that helps the model generalize better on each individual task.\n\nThe concept was formalized by Rich Caruana in 1997, who demonstrated that training a neural network on multiple related tasks simultaneously improved performance compared to training on each task independently. The key insight is that related tasks share underlying structure, and learning this shared structure acts as an inductive bias that guides the model toward representations that capture the true underlying relationships in the data rather than task-specific noise.\n\nMTL architectures typically follow one of two patterns. Hard parameter sharing uses a common set of hidden layers shared across all tasks, with task-specific output layers branching off from the shared representation. This is the most common approach and provides strong regularization by forcing the shared layers to learn representations useful for all tasks. Soft parameter sharing gives each task its own model but regularizes the parameters to encourage similarity between related task models.\n\nIn natural language processing, multi-task learning has been transformative. Modern language models like T5, BART, and GPT are inherently multi-task learners, trained on diverse objectives including language modeling, translation, summarization, and question answering. The shared transformer backbone learns rich linguistic representations that transfer across tasks. Instruction tuning and RLHF can also be viewed as multi-task training that teaches models to follow diverse human intentions.\n\nIn computer vision, multi-task learning is used for joint detection, segmentation, and depth estimation from images. Autonomous driving systems use MTL to simultaneously predict lane markings, detect objects, estimate distances, and predict trajectories from camera inputs, sharing a common visual backbone.\n\nThe main challenges in MTL include negative transfer (when dissimilar tasks hurt each other's performance), task balancing (deciding how to weight losses from different tasks), and task selection (choosing which tasks to train together). Gradient-based methods like GradNorm and PCGrad have been developed to dynamically balance task contributions during training. The relationship between multi-task learning and mixture of experts is also notable, as MoE architectures can naturally handle multi-task settings by routing different tasks to different experts.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "deep-learning",
+        "training",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "MTL",
+        "Joint Learning"
+    ],
+    "relatedConcepts": [
+        "machine-learning",
+        "deep-learning",
+        "transfer-learning",
+        "mixture-of-experts",
+        "large-language-models",
+        "fine-tuning",
+        "ensemble-learning"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Multi-task learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Multi-task_learning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

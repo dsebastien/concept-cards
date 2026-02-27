@@ -1,0 +1,74 @@
+{
+    "id": "ai-ethics",
+    "name": "AI Ethics",
+    "summary": "The field concerned with the moral principles, values, and guidelines that should govern the development and use of artificial intelligence systems.",
+    "explanation": "AI ethics is the branch of ethics that examines the moral questions raised by the development, deployment, and use of artificial intelligence systems. It addresses how AI should be designed, who should be responsible for its outcomes, what values it should embody, and how to prevent it from causing harm. As AI systems become more powerful and pervasive, ethical considerations have moved from academic philosophy to practical necessity for developers, companies, and policymakers.\n\nThe field is organized around several core principles that appear across most AI ethics frameworks. Fairness demands that AI systems do not discriminate against individuals or groups based on protected characteristics like race, gender, or age. Transparency requires that AI systems' workings and decision processes be open to scrutiny. Accountability means that clear responsibility exists for AI system outcomes. Privacy concerns how AI systems collect, use, and protect personal data. Beneficence asks that AI be developed for the benefit of humanity, while non-maleficence demands it avoid causing harm.\n\nPractical AI ethics challenges span the entire AI lifecycle. In data collection, ethical issues include consent, representation, and bias in training datasets. In model development, concerns include the amplification of existing biases, the creation of discriminatory systems, and the environmental cost of training large models. In deployment, issues include appropriate use contexts, informed consent from affected individuals, and the displacement of human workers. In monitoring, challenges include detecting drift, maintaining fairness over time, and handling edge cases.\n\nMajor AI ethics incidents have shaped the field. Biased facial recognition systems that performed poorly on darker-skinned faces highlighted fairness failures. Automated hiring tools that discriminated against women demonstrated how historical data embeds societal biases. Social media recommendation algorithms that amplified extremist content showed how optimization for engagement can conflict with societal well-being. Each incident has prompted both regulatory responses and industry self-reflection.\n\nOrganizations have responded by creating AI ethics boards, publishing AI principles, developing internal review processes, and hiring ethicists. However, critics argue that many corporate AI ethics initiatives amount to ethics washing, providing the appearance of ethical concern without meaningful constraints on harmful practices. The tension between profit motives and ethical constraints remains one of the central challenges in the field.\n\nThe relationship between AI ethics and AI governance is complementary. Ethics provides the moral framework and principles, while governance translates those principles into enforceable policies, regulations, and oversight mechanisms. Both are necessary for responsible AI development.",
+    "tags": [
+        "ai",
+        "ethics",
+        "philosophy",
+        "trust",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Ethics of AI",
+        "Ethical AI",
+        "Responsible AI Ethics"
+    ],
+    "relatedConcepts": [
+        "ai-governance",
+        "ai-washing",
+        "explainable-ai",
+        "algorithmic-bias",
+        "ai-safety",
+        "ai-guardrails",
+        "constitutional-ai",
+        "ai-anthropomorphism"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Ethics of artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

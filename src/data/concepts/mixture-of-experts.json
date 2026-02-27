@@ -1,0 +1,84 @@
+{
+    "id": "mixture-of-experts",
+    "name": "Mixture of Experts",
+    "summary": "A neural network architecture that uses a gating network to route inputs to specialized sub-networks called experts, enabling efficient scaling by activating only a subset of parameters for each input.",
+    "explanation": "Mixture of Experts (MoE) is a machine learning architecture that divides a complex problem into smaller sub-problems, each handled by a specialized sub-network called an expert. A learned gating network examines each input and decides which experts should process it, enabling the model to activate only a fraction of its total parameters for any given input. This conditional computation makes MoE models significantly more efficient than dense models of equivalent capacity.\n\nThe concept was first introduced by Robert Jacobs, Michael Jordan, Steven Nowlan, and Geoffrey Hinton in 1991. The original formulation used a competitive learning framework where experts specialized on different regions of the input space, coordinated by a gating network that produced a soft assignment over experts. This early work laid the groundwork for decades of research into modular and conditional computation.\n\nModern MoE architectures, particularly in large language models, typically replace the feed-forward layers in transformer blocks with MoE layers. Each MoE layer contains multiple expert feed-forward networks and a router (gating network) that selects a small number of experts (often 1 or 2) for each input token. This sparse activation pattern means that while the model may have hundreds of billions of total parameters, only a fraction are used for any single forward pass, dramatically reducing computational cost.\n\nGoogle's Switch Transformer (2021) demonstrated that scaling to thousands of experts was feasible, achieving significant speedups over dense models. Mixtral 8x7B by Mistral AI showed that open-source MoE models could match or exceed much larger dense models. DeepSeek's MoE models further pushed the boundaries of efficient scaling. These implementations proved that MoE is one of the most practical approaches to building very large models without proportionally increasing inference cost.\n\nA key challenge in MoE training is load balancing. Without careful design, the gating network may collapse to routing most tokens to a small number of experts, leaving others underutilized. Auxiliary loss functions and capacity constraints are commonly used to encourage balanced expert utilization. Other challenges include communication overhead in distributed training, difficulty in fine-tuning, and the large memory footprint despite sparse computation.\n\nMoE represents a fundamental shift in how we think about model scaling. Rather than making every parameter participate in every computation, MoE enables conditional computation where model capacity can grow while keeping inference cost manageable. This principle is central to building the next generation of efficient, high-capability AI systems.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "deep-learning",
+        "architecture",
+        "optimization",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "MoE",
+        "Sparse Mixture of Experts",
+        "SMoE"
+    ],
+    "relatedConcepts": [
+        "transformer",
+        "neural-networks",
+        "deep-learning",
+        "large-language-models",
+        "gating-network",
+        "sparse-models",
+        "knowledge-distillation",
+        "model-scaling",
+        "ensemble-learning",
+        "attention-mechanism",
+        "model-pruning",
+        "speculative-decoding"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Mixture of experts - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mixture_of_experts",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

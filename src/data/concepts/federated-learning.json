@@ -1,0 +1,70 @@
+{
+    "id": "federated-learning",
+    "name": "Federated Learning",
+    "summary": "A distributed machine learning approach where models are trained across multiple decentralized devices or servers holding local data, without exchanging raw data.",
+    "explanation": "Federated learning is a machine learning paradigm where a model is trained collaboratively across multiple participants (devices, organizations, or servers) without centralizing their data. Instead of sending raw data to a central server, each participant trains a local copy of the model on their own data and shares only the model updates (gradients or parameters) with a central coordinator. This approach preserves data privacy while still enabling the creation of powerful shared models.\n\nThe concept was introduced by Google researchers McMahan et al. in 2017, initially motivated by the need to improve mobile keyboard predictions without collecting users' typing data on central servers. The foundational algorithm, Federated Averaging (FedAvg), works by distributing the current global model to participating clients, having each client perform local training on their data, collecting the updated model parameters, and averaging them to produce a new global model. This process repeats over multiple rounds.\n\nFederated learning comes in two main flavors. Cross-device federated learning involves training across many consumer devices like smartphones or IoT sensors, with potentially millions of participants, each holding small amounts of data. Cross-silo federated learning involves training across a smaller number of organizations (hospitals, banks, companies) that each hold substantial datasets but cannot share them due to privacy regulations, competitive concerns, or data sovereignty requirements.\n\nKey challenges in federated learning include statistical heterogeneity (non-IID data across participants), systems heterogeneity (devices with different computational capabilities and network conditions), communication efficiency (reducing the bandwidth needed to share model updates), and security (defending against malicious participants who might try to poison the model or infer others' data from shared gradients).\n\nPrivacy-preserving techniques often complement federated learning. Differential privacy adds calibrated noise to model updates to prevent information leakage about individual data points. Secure aggregation uses cryptographic protocols so the server can only see the aggregated update, not individual contributions. Homomorphic encryption allows computation on encrypted data. Together, these techniques provide strong formal privacy guarantees.\n\nFederated learning has found applications in healthcare (training diagnostic models across hospitals without sharing patient records), finance (fraud detection across banks), mobile computing (next-word prediction, voice recognition), and autonomous vehicles (sharing driving experiences without centralizing sensitive location data).",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "privacy",
+        "distributed-systems",
+        "training"
+    ],
+    "category": "AI",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "FL",
+        "Collaborative Learning"
+    ],
+    "relatedConcepts": [
+        "machine-learning",
+        "deep-learning",
+        "differential-privacy",
+        "neural-networks",
+        "multi-task-learning"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Federated learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Federated_learning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

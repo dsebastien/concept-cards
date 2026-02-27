@@ -1,0 +1,70 @@
+{
+    "id": "ensemble-learning",
+    "name": "Ensemble Learning",
+    "summary": "A machine learning paradigm that combines predictions from multiple models to produce more accurate and robust results than any single model alone.",
+    "explanation": "Ensemble learning is a fundamental machine learning strategy that improves predictive performance by combining the outputs of multiple individual models, often called base learners or weak learners. The core insight is that a collection of diverse models, each capturing different aspects of the data, can collectively make better predictions than any single model. This principle is sometimes called the wisdom of crowds applied to algorithms.\n\nThe three main ensemble strategies are bagging, boosting, and stacking. Bagging (Bootstrap Aggregating), introduced by Leo Breiman in 1996, trains multiple models on different random subsets of the training data and aggregates their predictions through voting or averaging. Random Forest is the most well-known bagging method, combining hundreds of decision trees trained on random data subsets with random feature selection. Bagging primarily reduces variance and helps prevent overfitting.\n\nBoosting trains models sequentially, with each new model focusing on the errors made by previous ones. AdaBoost (1997) was the first successful boosting algorithm, followed by Gradient Boosting and its modern implementations like XGBoost, LightGBM, and CatBoost. These gradient boosting frameworks have dominated structured data competitions and remain among the most effective algorithms for tabular data. Boosting primarily reduces bias.\n\nStacking (stacked generalization) uses a meta-learner to combine the predictions of multiple diverse base models. Rather than simple voting or averaging, the meta-learner learns the optimal way to weight and combine base model outputs. This allows the ensemble to leverage the complementary strengths of very different model types.\n\nEnsemble methods succeed because of the diversity-accuracy tradeoff. Individual models make different errors on different inputs. When these errors are sufficiently uncorrelated, combining predictions cancels out individual mistakes. This is formalized in Condorcet's jury theorem and the bias-variance decomposition. The key requirement is that base models must be both reasonably accurate and diverse in their error patterns.\n\nIn the deep learning era, ensemble principles appear in techniques like dropout (which implicitly trains an ensemble of sub-networks), mixture of experts (which routes inputs to specialized sub-models), and model averaging. Even modern large language models benefit from ensemble-like approaches through techniques like self-consistency prompting and committee-based evaluation.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "optimization",
+        "models",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Ensemble Methods",
+        "Model Ensembling"
+    ],
+    "relatedConcepts": [
+        "machine-learning",
+        "deep-learning",
+        "mixture-of-experts",
+        "neural-networks",
+        "knowledge-distillation"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Ensemble learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ensemble_learning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

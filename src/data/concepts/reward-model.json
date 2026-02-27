@@ -1,0 +1,68 @@
+{
+    "id": "reward-model",
+    "name": "Reward Model",
+    "summary": "A neural network trained to predict human preferences, used to provide a scalar reward signal for optimizing language model behavior in RLHF.",
+    "explanation": "A reward model is a neural network that learns to predict how humans would evaluate AI-generated outputs, producing a scalar score that serves as a proxy for human judgment. It is a critical component in Reinforcement Learning from Human Feedback (RLHF), where it replaces the need for continuous human evaluation during the policy optimization phase by providing an automated, scalable reward signal.\n\nReward models are trained on comparison data collected from human evaluators. Annotators are presented with pairs of model outputs for the same prompt and asked to indicate which response they prefer. These preference comparisons are used to train the reward model via the Bradley-Terry model or similar ranking frameworks. The trained reward model can then score any model output, enabling the RL optimization loop to run without requiring a human in the loop for every generated response.\n\nThe architecture of a reward model is typically based on the same transformer foundation as the language model it evaluates. A common approach takes a pretrained language model, removes the language modeling head, and adds a scalar output head that produces a single reward score. The model processes the prompt and response together and outputs a score reflecting the predicted quality of the response.\n\nReward model quality is perhaps the single most important factor in RLHF success. A reward model that accurately captures human preferences enables the language model to improve meaningfully. A flawed reward model, however, can lead to reward hacking, where the language model learns to produce outputs that score highly on the reward model without actually being good responses. Common failure modes include rewarding verbosity over substance, favoring confident-sounding but incorrect answers, or being gamed through specific stylistic patterns.\n\nTo improve reward model robustness, researchers use techniques like ensembling multiple reward models, training on diverse annotator pools, iteratively updating the reward model as the policy improves (to prevent distribution shift), and using process-based reward models that evaluate each step of reasoning rather than just the final output.\n\nThe reward model concept extends beyond RLHF. Constitutional AI uses reward models that evaluate outputs against a set of principles. Reward models are also used in best-of-n sampling (generating multiple outputs and selecting the highest-scoring one), automated evaluation of AI systems, and as classifiers for content safety filtering. The development of more accurate and robust reward models remains a key research direction in AI alignment.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "alignment",
+        "training",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "RM",
+        "Preference Model"
+    ],
+    "relatedConcepts": [
+        "rlhf",
+        "reinforcement-learning",
+        "reward-hacking",
+        "direct-preference-optimization",
+        "constitutional-ai",
+        "ai-alignment",
+        "large-language-models",
+        "fine-tuning"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}

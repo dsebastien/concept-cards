@@ -1,0 +1,73 @@
+{
+    "id": "sparse-models",
+    "name": "Sparse Models",
+    "summary": "Neural network architectures where only a fraction of parameters are activated for any given input, enabling larger model capacity with lower computational cost.",
+    "explanation": "Sparse models are neural network architectures designed so that only a subset of the model's parameters participate in processing any given input. Unlike dense models where every parameter is used for every forward pass, sparse models achieve conditional computation by selectively activating different parts of the network based on the input. This enables building models with enormous total parameter counts while keeping per-input computational cost manageable.\n\nSparsity in neural networks takes several forms. Structured sparsity involves activating entire sub-networks or layers conditionally, as in mixture of experts architectures where only selected expert modules process each token. Unstructured sparsity involves zeroing out individual weights throughout the network, often achieved through pruning. Activation sparsity means that many neurons produce zero outputs for a given input, as naturally occurs with ReLU activation functions.\n\nThe motivation for sparse models comes from a fundamental tension in deep learning: larger models generally perform better, but computational cost grows with model size. Sparse models resolve this by decoupling total model capacity (the number of parameters) from computational cost (the number of operations per input). A sparse model with 100 billion total parameters but 10% activation rate uses roughly the same compute per input as a 10 billion parameter dense model, while potentially capturing much richer representations.\n\nMixture of experts is the most prominent sparse architecture in modern AI. In MoE transformer models, each transformer layer's feed-forward network is replaced by multiple expert networks, with a router selecting which experts process each token. Google's Switch Transformer, GLaM, and Mixtral models have demonstrated that this approach can match dense model performance at a fraction of the training and inference cost.\n\nOther approaches to achieving sparsity include magnitude-based pruning (removing weights below a threshold), lottery ticket hypothesis-based methods (finding sparse subnetworks that train well), and dynamic sparse training (allowing the sparsity pattern to evolve during training). Hardware-aware sparsity techniques also exist, designed to exploit the specific capabilities of modern accelerators.\n\nThe trade-offs of sparse models include increased memory requirements (all parameters must be stored even if not all are used), communication overhead in distributed settings, potential training instability, and the challenge of ensuring balanced utilization across sparse components. Despite these challenges, sparsity is widely regarded as one of the most promising directions for scaling AI systems efficiently.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "deep-learning",
+        "architecture",
+        "optimization",
+        "performance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Sparse Neural Networks",
+        "Conditional Computation"
+    ],
+    "relatedConcepts": [
+        "mixture-of-experts",
+        "gating-network",
+        "model-pruning",
+        "neural-networks",
+        "deep-learning",
+        "model-scaling",
+        "model-quantization"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-02-27",
+    "dateModified": "2026-02-27"
+}
