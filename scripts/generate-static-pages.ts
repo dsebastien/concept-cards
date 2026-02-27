@@ -239,7 +239,7 @@ function generateMentions(concept: Concept): Array<Record<string, unknown>> {
             return {
                 '@type': 'Thing',
                 'name': related.name,
-                'url': `${BASE_URL}/concept/${id}`
+                'url': `${BASE_URL}/concept/${id}/`
             }
         })
         .filter((m): m is Record<string, unknown> => m !== null)
@@ -257,7 +257,7 @@ function generateRelatedLinks(concept: Concept): string[] {
         concept.relatedConcepts.forEach((id) => {
             const related = concepts.find((c) => c.id === id)
             if (related) {
-                links.push(`${BASE_URL}/concept/${id}`)
+                links.push(`${BASE_URL}/concept/${id}/`)
             }
         })
     }
@@ -297,7 +297,7 @@ function generateRelatedLinks(concept: Concept): string[] {
  * Generate Article JSON-LD schema for a concept
  */
 function generateConceptSchema(concept: Concept): string {
-    const conceptUrl = `${BASE_URL}/concept/${concept.id}`
+    const conceptUrl = `${BASE_URL}/concept/${concept.id}/`
 
     // Calculate word count from explanation
     const wordCount = concept.explanation.split(/\s+/).filter((w) => w.length > 0).length
@@ -413,7 +413,7 @@ function generateConceptSchema(concept: Concept): string {
  * Generate CollectionPage JSON-LD schema for a tag page
  */
 function generateTagSchema(tag: string, encodedTag: string): string {
-    const tagUrl = `${BASE_URL}/tag/${encodedTag}`
+    const tagUrl = `${BASE_URL}/tag/${encodedTag}/`
 
     const schema = {
         '@context': 'https://schema.org',
@@ -468,7 +468,7 @@ function generateTagSchema(tag: string, encodedTag: string): string {
  * Generate CollectionPage JSON-LD schema for a category page
  */
 function generateCategorySchema(category: string, encodedCategory: string): string {
-    const categoryUrl = `${BASE_URL}/category/${encodedCategory}`
+    const categoryUrl = `${BASE_URL}/category/${encodedCategory}/`
 
     const schema = {
         '@context': 'https://schema.org',
@@ -536,7 +536,7 @@ function generateTagNoscript(tag: string): string {
 ${taggedConcepts
     .map(
         (c) =>
-            `                <li><a href="/concept/${c.id}">${escapeHtml(c.name)}</a> - ${escapeHtml(c.summary)}</li>`
+            `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a> - ${escapeHtml(c.summary)}</li>`
     )
     .join('\n')}
             </ul>
@@ -549,7 +549,7 @@ ${taggedConcepts
  * Generate customized HTML for a tag page with appropriate meta tags
  */
 function generateTagPageHtml(tag: string, encodedTag: string): string {
-    const tagUrl = `${BASE_URL}/tag/${encodedTag}`
+    const tagUrl = `${BASE_URL}/tag/${encodedTag}/`
     const title = `${tag} - Concepts`
     const description = `Explore concepts tagged with "${tag}"`
     const sanitizedTag = tag
@@ -651,7 +651,7 @@ function generateCategoryNoscript(category: string): string {
 ${categoryConcepts
     .map(
         (c) =>
-            `                <li><a href="/concept/${c.id}">${escapeHtml(c.name)}</a> - ${escapeHtml(c.summary)}</li>`
+            `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a> - ${escapeHtml(c.summary)}</li>`
     )
     .join('\n')}
             </ul>
@@ -664,7 +664,7 @@ ${categoryConcepts
  * Generate customized HTML for a category page with appropriate meta tags
  */
 function generateCategoryPageHtml(category: string, encodedCategory: string): string {
-    const categoryUrl = `${BASE_URL}/category/${encodedCategory}`
+    const categoryUrl = `${BASE_URL}/category/${encodedCategory}/`
     const title = `${category} - Concepts`
     const description = `Explore concepts in the "${category}" category`
     const sanitizedCategory = category
@@ -758,7 +758,7 @@ function generateConceptNoscript(concept: Concept): string {
               .map((id) => {
                   const related = concepts.find((c) => c.id === id)
                   return related
-                      ? `<li><a href="/concept/${id}">${escapeHtml(related.name)}</a></li>`
+                      ? `<li><a href="/concept/${id}/">${escapeHtml(related.name)}</a></li>`
                       : null
               })
               .filter(Boolean)
@@ -772,7 +772,7 @@ function generateConceptNoscript(concept: Concept): string {
             <p><em>${escapeHtml(concept.summary)}</em></p>
             ${concept.aliases && concept.aliases.length > 0 ? `<p><strong>Also known as:</strong> ${concept.aliases.map(escapeHtml).join(', ')}</p>` : ''}
             <p><strong>Category:</strong> ${escapeHtml(concept.category)}</p>
-            <p><strong>Tags:</strong> ${concept.tags.map((t) => `<a href="/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join(', ')}</p>
+            <p><strong>Tags:</strong> ${concept.tags.map((t) => `<a href="/tag/${encodeURIComponent(t)}/">${escapeHtml(t)}</a>`).join(', ')}</p>
             <h2>Explanation</h2>
             <div>${escapeHtml(concept.explanation).replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>')}</div>
             ${
@@ -792,7 +792,7 @@ function generateConceptNoscript(concept: Concept): string {
  * Generate customized HTML for a concept page with appropriate meta tags
  */
 function generateConceptPageHtml(concept: Concept): string {
-    const conceptUrl = `${BASE_URL}/concept/${concept.id}`
+    const conceptUrl = `${BASE_URL}/concept/${concept.id}/`
     const title = `${concept.name} - Concepts`
     const description = concept.summary
     const socialImage = `${BASE_URL}/assets/images/social-cards/concepts/${concept.id}.png`
@@ -919,7 +919,7 @@ console.log(`  ✓ Created ${categoryCount} category pages`)
 // Generate statistics page
 console.log('Generating statistics page...')
 function generateStatisticsPageHtml(): string {
-    const statsUrl = `${BASE_URL}/statistics`
+    const statsUrl = `${BASE_URL}/statistics/`
     const title = 'Statistics - Concepts'
     const description =
         'Explore insights and analytics about the concepts collection, including category distribution, tag statistics, and content metrics.'
@@ -1058,7 +1058,7 @@ console.log('  ✓ Created statistics page')
 // Generate random page (simple redirect page for SEO)
 console.log('Generating random page...')
 function generateRandomPageHtml(): string {
-    const randomUrl = `${BASE_URL}/random`
+    const randomUrl = `${BASE_URL}/random/`
     const title = 'Random Concept - Concepts'
     const description = 'Discover a random concept from the collection'
 
@@ -1118,7 +1118,7 @@ console.log('  ✓ Created random page')
 // Generate categories listing page
 console.log('Generating categories listing page...')
 function generateCategoriesListingPageHtml(): string {
-    const categoriesUrl = `${BASE_URL}/categories`
+    const categoriesUrl = `${BASE_URL}/categories/`
     const title = 'Categories - Concepts'
     const description =
         'Browse all concept categories. Explore methods, systems, principles, techniques, and more.'
@@ -1232,7 +1232,7 @@ function generateCategoriesListingPageHtml(): string {
             <p>Browse all concept categories</p>
             <h2>All Categories</h2>
             <ul>
-${categoryStats.map((c) => `                <li><a href="/category/${encodeURIComponent(c.name)}">${escapeHtml(c.name)}</a> - ${c.count} concepts</li>`).join('\n')}
+${categoryStats.map((c) => `                <li><a href="/category/${encodeURIComponent(c.name)}/">${escapeHtml(c.name)}</a> - ${c.count} concepts</li>`).join('\n')}
             </ul>
             <p><a href="/">← Back to all concepts</a></p>
         </article>
@@ -1251,7 +1251,7 @@ console.log('  ✓ Created categories listing page')
 // Generate featured concepts page
 console.log('Generating featured concepts page...')
 function generateFeaturedPageHtml(): string {
-    const featuredUrl = `${BASE_URL}/featured`
+    const featuredUrl = `${BASE_URL}/featured/`
     const title = 'Featured Concepts - Concepts'
     const featuredConcepts = concepts.filter((c) => c.featured)
     const description = `Explore ${featuredConcepts.length} featured concepts. Highlighted concepts worth exploring first.`
@@ -1362,7 +1362,7 @@ ${featuredConcepts
     .sort((a, b) => a.name.localeCompare(b.name))
     .map(
         (c) =>
-            `                <li><a href="/concept/${c.id}">${escapeHtml(c.name)}</a> - ${escapeHtml(c.summary)}</li>`
+            `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a> - ${escapeHtml(c.summary)}</li>`
     )
     .join('\n')}
             </ul>
@@ -1383,7 +1383,7 @@ console.log('  ✓ Created featured concepts page')
 // Generate history page
 console.log('Generating history page...')
 function generateHistoryPageHtml(): string {
-    const historyUrl = `${BASE_URL}/history`
+    const historyUrl = `${BASE_URL}/history/`
     const title = 'History - Concepts'
     const description = `Explore the timeline of ${concepts.length} concepts added to the collection, from newest to oldest.`
 
@@ -1517,7 +1517,7 @@ ${sortedDates
             <ul>
 ${dateConcepts
     .sort((a, b) => a.name.localeCompare(b.name))
-    .map((c) => `                <li><a href="/concept/${c.id}">${escapeHtml(c.name)}</a></li>`)
+    .map((c) => `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a></li>`)
     .join('\n')}
             </ul>`
     })
@@ -1539,7 +1539,7 @@ console.log('  ✓ Created history page')
 // Generate tags listing page
 console.log('Generating tags listing page...')
 function generateTagsListingPageHtml(): string {
-    const tagsListingUrl = `${BASE_URL}/tags`
+    const tagsListingUrl = `${BASE_URL}/tags/`
     const title = 'Tags - Concepts'
     const description = `Browse ${allTags.length} tags across ${concepts.length} concepts. Find concepts organized by topic.`
 
@@ -1657,7 +1657,7 @@ function generateTagsListingPageHtml(): string {
             <p>Browse concepts by tag</p>
             <p><strong>Total tags:</strong> ${sortedTags.length}</p>
             <ul>
-${sortedTags.map((t) => `                <li><a href="/tag/${encodeURIComponent(t.name)}">${escapeHtml(t.name)}</a> (${t.count} concepts)</li>`).join('\n')}
+${sortedTags.map((t) => `                <li><a href="/tag/${encodeURIComponent(t.name)}/">${escapeHtml(t.name)}</a> (${t.count} concepts)</li>`).join('\n')}
             </ul>
             <p><a href="/">← Back to all concepts</a></p>
         </article>
@@ -1676,7 +1676,7 @@ console.log('  ✓ Created tags listing page')
 // Generate explore page
 console.log('Generating explore page...')
 function generateExplorePageHtml(): string {
-    const exploreUrl = `${BASE_URL}/explore`
+    const exploreUrl = `${BASE_URL}/explore/`
     const title = 'Explore Graph - Concepts'
     const description =
         'Explore the concept graph. Visualize connections between concepts, methods, and principles.'
