@@ -1,0 +1,75 @@
+{
+    "id": "lock-in-effect",
+    "name": "Lock-In Effect",
+    "summary": "When switching costs become so high that changing to a better alternative is prohibitively expensive, trapping users, organizations, or societies in suboptimal systems.",
+    "explanation": "The lock-in effect occurs when the accumulated costs of switching to an alternative system become so high that change is effectively impossible, even when objectively better options exist. Lock-in is a key mechanism behind both path dependence and societal inertia.\n\n**Types of Lock-In:**\n\n- **Technological lock-in**: Adoption of a technology standard creates an ecosystem of complementary products, trained users, and infrastructure that makes switching enormously costly (e.g., the QWERTY keyboard, x86 processor architecture, USB standards)\n- **Vendor lock-in**: Proprietary formats, APIs, and ecosystems make it difficult to move data and workflows to competing products (e.g., switching from one cloud provider to another, migrating from proprietary note-taking apps)\n- **Institutional lock-in**: Organizations build processes, training programs, and cultures around specific tools and methods; changing requires restructuring everything simultaneously\n- **Network lock-in**: The value of a platform depends on other users being on it, making it nearly impossible for individuals to leave without losing connections (e.g., social media platforms, messaging apps)\n- **Contractual lock-in**: Long-term contracts, licensing agreements, and regulatory compliance requirements create legal barriers to switching\n\n**How Lock-In Develops:**\n\n1. **Initial adoption**: A system is chosen, often for good reasons at the time\n2. **Investment accumulation**: Users invest time learning, create data in proprietary formats, build workflows, and develop complementary assets\n3. **Switching cost escalation**: The longer the system is used, the more costly switching becomes\n4. **Alternatives disadvantaged**: Competing systems can't match the incumbent's ecosystem advantages, even if they're technically superior\n5. **Lock-in complete**: Switching is theoretically possible but practically prohibitive\n\n**Defending Against Lock-In:**\n\n- **Open standards**: Prefer systems that use open, interoperable data formats\n- **Data portability**: Ensure you can always export your data in standard formats\n- **Modular architecture**: Design systems so components can be replaced independently\n- **Multi-vendor strategies**: Avoid concentrating all operations with a single provider\n- **Regular evaluation**: Periodically assess switching costs before they become prohibitive\n\nFor knowledge workers, lock-in is a critical concern. Choosing note-taking tools, cloud providers, and organizational systems with open formats and data portability protects against future lock-in. This is why plain text, Markdown, and open-source tools remain compelling despite sometimes lacking the polish of proprietary alternatives.",
+    "tags": [
+        "systems-thinking",
+        "economics",
+        "technologies",
+        "strategies",
+        "decision-making"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Vendor Lock-In",
+        "Technology Lock-In",
+        "Switching Cost Trap",
+        "Lock-In"
+    ],
+    "relatedConcepts": [
+        "path-dependence",
+        "switching-costs",
+        "network-effects",
+        "societal-inertia",
+        "institutional-inertia",
+        "sunk-cost-fallacy",
+        "digital-sovereignty",
+        "enshittification"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Information Rules by Carl Shapiro and Hal Varian",
+            "url": "https://www.amazon.com/dp/087584863X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Vendor lock-in - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vendor_lock-in",
+            "type": "website"
+        },
+        {
+            "title": "Lock-in (decision-making) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lock-in_(decision-making)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-02-28",
+    "dateModified": "2026-02-28"
+}
