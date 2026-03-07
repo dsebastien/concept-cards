@@ -1,0 +1,67 @@
+{
+    "id": "solution-space",
+    "name": "Solution Space",
+    "summary": "The set of all possible solutions, approaches, and implementations that could address a given problem.",
+    "explanation": "The Solution Space encompasses all possible ways a problem could be solved — every design, approach, technology, method, or combination thereof that could address the defined problem. It is the complement to the problem space: where the problem space asks 'what needs to be solved?', the solution space asks 'how could it be solved?'\n\nKey characteristics:\n\n1. **Bounded by the problem space** — The solution space is shaped by how the problem is defined. Redefine the problem, and different solutions become possible\n2. **Larger than expected** — For most problems, the solution space is far larger than initially apparent. Early ideas represent a tiny fraction of possibilities\n3. **Multi-dimensional** — Solutions vary along many axes: cost, complexity, speed, elegance, scalability, risk\n4. **Contains trade-offs** — No solution is optimal along all dimensions; exploring the solution space means understanding trade-offs\n\nHow to navigate the solution space effectively:\n\n- **Diverge before converging** — Generate many possible solutions before evaluating any of them\n- **Prototype to explore** — Build rough versions to discover regions of the solution space that are hard to imagine abstractly\n- **Challenge assumptions** — Many areas of the solution space are invisible because of unexamined assumptions about what's possible\n- **Cross-domain inspiration** — Solutions from other fields often open unexplored regions of the solution space\n- **Constraint manipulation** — Deliberately adding or removing constraints reveals different solution territories\n\nCommon pitfalls:\n\n- **Premature convergence** — Settling on the first workable solution without exploring alternatives\n- **Anchoring** — Letting an early idea dominate thinking, preventing exploration of distant regions\n- **Conflation with problem space** — Defining problems in terms of solutions (\"we need a mobile app\" instead of \"users need access on the go\")\n\nFor knowledge workers and designers, the solution space concept is a reminder to resist the pull of the first good idea and invest in broader exploration before committing.",
+    "tags": [
+        "thinking",
+        "problem-solving",
+        "design",
+        "creativity",
+        "decision-making"
+    ],
+    "category": "Thinking",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Solution domain",
+        "Solution landscape"
+    ],
+    "relatedConcepts": [
+        "problem-space",
+        "idea-space",
+        "design-space",
+        "design-thinking-process",
+        "divergent-thinking",
+        "convergent-thinking",
+        "morphological-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Design space - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Design_space",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

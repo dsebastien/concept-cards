@@ -1,0 +1,67 @@
+{
+    "id": "problem-space",
+    "name": "Problem Space",
+    "summary": "The set of all possible states, conditions, and constraints that define a problem before any solution is applied.",
+    "explanation": "The Problem Space is a concept from cognitive science, computer science, and design thinking that describes the full landscape of a problem — including all possible states, the initial state, the goal state, and the operators (actions) available to move between states.\n\nOriginally formalized by Allen Newell and Herbert Simon in their work on human problem solving, the concept has become fundamental across many fields:\n\n1. **In cognitive science** — The problem space is the mental representation a person constructs of a problem, including what they know, what they don't know, and what actions they believe are available\n2. **In computer science** — The problem space defines the search space an algorithm must navigate to find a solution (e.g., all possible board states in chess)\n3. **In design thinking** — The problem space is explored before jumping to solutions, ensuring the right problem is being solved\n4. **In product development** — Understanding the problem space means deeply understanding user needs, pain points, and constraints before building anything\n\nKey principles:\n\n- **Explore before solving** — Premature narrowing of the problem space leads to solving the wrong problem or missing better solutions\n- **Problem space vs solution space** — These are distinct territories; conflating them leads to solution-first thinking\n- **Problem framing** — How you define the boundaries of the problem space determines which solutions become visible\n- **Constraints shape the space** — Adding or removing constraints changes the problem space dramatically\n\nCommon mistakes:\n\n- Jumping to solutions before understanding the problem space\n- Confusing symptoms with root causes\n- Defining the problem space too narrowly (missing better approaches) or too broadly (analysis paralysis)\n\nFor knowledge workers, understanding problem space means investing time in problem definition before solution generation — the quality of solutions is bounded by the quality of problem understanding.",
+    "tags": [
+        "thinking",
+        "problem-solving",
+        "design",
+        "frameworks",
+        "decision-making"
+    ],
+    "category": "Thinking",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Problem domain",
+        "Problem landscape"
+    ],
+    "relatedConcepts": [
+        "solution-space",
+        "idea-space",
+        "design-space",
+        "problem-framing",
+        "design-thinking-process",
+        "first-principles",
+        "root-cause-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Problem solving - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Problem_solving",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}
