@@ -1,0 +1,51 @@
+{
+    "id": "open-standards",
+    "name": "Open Standards",
+    "summary": "Publicly available technical specifications that enable interoperability and prevent vendor lock-in.",
+    "explanation": "Open Standards are technical specifications that are publicly available, developed through collaborative processes, and freely implementable by anyone. They are the foundation of interoperability, digital sovereignty, and a healthy technology ecosystem.\n\n## Characteristics of Open Standards\n\n1. **Publicly available** - the specification is freely accessible to anyone\n2. **Collaboratively developed** - created through transparent, multi-stakeholder processes\n3. **Freely implementable** - no licensing fees or royalties required to implement\n4. **Vendor-neutral** - not controlled by any single company\n5. **Well-documented** - clear enough that independent implementations can interoperate\n\n## Examples\n\n- **Web**: HTML, CSS, HTTP, WebSocket\n- **Data**: JSON, XML, CSV, SQLite\n- **Documents**: Markdown, ODF (OpenDocument Format), PDF\n- **Communication**: SMTP (email), XMPP, ActivityPub (Fediverse)\n- **Syndication**: RSS, Atom\n- **Identity**: OAuth, OpenID Connect\n- **Knowledge Management**: Markdown files, iCalendar, vCard\n\n## Why Open Standards Matter\n\n- **Prevent lock-in** - data in open formats can be used by any compliant tool\n- **Enable competition** - anyone can build software that implements the standard\n- **Ensure longevity** - open formats survive individual companies and products\n- **Foster innovation** - developers can build on shared foundations\n- **Protect users** - choice and portability remain in users' hands\n\n## Open Standards vs. Proprietary Formats\n\n| Aspect | Open Standards | Proprietary Formats |\n|--------|---------------|--------------------|\n| Access | Free | Restricted or licensed |\n| Control | Community | Single vendor |\n| Portability | High | Low |\n| Longevity | Outlives products | Dies with product |\n| Innovation | Shared | Captured |\n\n## The Role of Standards Bodies\n\nOrganizations like W3C (web standards), IETF (internet protocols), ISO (international standards), and OASIS (enterprise standards) provide governance structures for developing and maintaining open standards.\n\n## In Knowledge Management\n\nOpen standards are critical for PKM practitioners:\n- **Markdown** ensures notes are readable without any specific tool\n- **Plain text** files are universally accessible and future-proof\n- **RSS** enables following content without platform dependence\n- **iCalendar** allows calendar data to move between apps\n\nFor knowledge workers, preferring open standards means: your data outlives your tools, you can always switch to better alternatives, and you maintain sovereignty over your digital work.",
+    "tags": [
+        "technologies",
+        "standards",
+        "interoperability",
+        "principles",
+        "data-portability"
+    ],
+    "category": "Principles",
+    "icon": "FaUnlock",
+    "featured": false,
+    "aliases": [
+        "Open formats",
+        "Open specifications",
+        "Public standards"
+    ],
+    "relatedConcepts": [
+        "interoperability",
+        "digital-sovereignty",
+        "vendor-lock-in",
+        "data-portability",
+        "open-source",
+        "platform-dependence",
+        "walled-gardens",
+        "local-first",
+        "digital-rights",
+        "markdown"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Open standard - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open_standard",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

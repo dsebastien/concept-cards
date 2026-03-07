@@ -1,0 +1,46 @@
+{
+    "id": "platform-dependence",
+    "name": "Platform Dependence",
+    "summary": "The growing reliance on centralized platforms for essential digital activities, creating vulnerability to their policies and decisions.",
+    "explanation": "Platform Dependence describes the condition where individuals, businesses, or entire communities become critically reliant on centralized digital platforms for essential activities - communication, commerce, content distribution, data storage, or professional identity. Unlike simple tool usage, platform dependence creates vulnerability because the platform's decisions directly affect your capabilities.\n\n## How Platform Dependence Develops\n\n1. **Convenience** - platforms offer frictionless experiences that are hard to replicate independently\n2. **Network effects** - value increases as more people use the platform, making alternatives less attractive\n3. **Ecosystem lock-in** - deep integration with complementary services makes switching costly\n4. **Skill investment** - time spent learning platform-specific tools creates switching costs\n5. **Social graph** - relationships and reputation built on a platform don't transfer\n6. **Data accumulation** - years of content, history, and metadata become hostage\n\n## Risks of Platform Dependence\n\n- **Policy changes** - platforms can change rules, pricing, or features unilaterally\n- **Deplatforming** - access can be revoked without recourse\n- **Enshittification** - platforms degrade user experience to extract more value\n- **Privacy erosion** - dependent users accept increasingly invasive data practices\n- **Single point of failure** - outages can halt critical business operations\n- **Algorithmic control** - platforms decide what you see, who sees you, and how you're ranked\n\n## Examples\n\n- **Creators** depending on YouTube, TikTok, or Instagram for distribution and income\n- **Businesses** built entirely on Amazon Marketplace or Shopify\n- **Professionals** whose career identity exists primarily on LinkedIn\n- **Developers** relying on a single cloud provider for all infrastructure\n- **Communicators** using only one messaging platform for all relationships\n\n## Reducing Platform Dependence\n\n- **Diversify** - maintain presence across multiple platforms and channels\n- **Own your hub** - use a personal website, newsletter, or self-hosted platform as your primary base\n- **Export regularly** - back up your data and content from every platform\n- **Build portable skills** - invest in capabilities that transfer across platforms\n- **Evaluate exit costs** - before adopting a platform, understand what it would take to leave\n- **Use interoperable tools** - prefer tools built on open standards\n\nFor knowledge workers, recognizing platform dependence helps: make strategic choices about where to invest time and content, build resilient professional identities, and maintain digital sovereignty in an increasingly platform-mediated world.",
+    "tags": [
+        "technologies",
+        "risks",
+        "platforms",
+        "autonomy",
+        "strategies"
+    ],
+    "category": "Concepts",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Platform risk",
+        "Platform lock-in",
+        "Digital dependence"
+    ],
+    "relatedConcepts": [
+        "digital-sovereignty",
+        "vendor-lock-in",
+        "walled-gardens",
+        "enshittification",
+        "surveillance-capitalism",
+        "network-effects",
+        "interoperability",
+        "data-portability",
+        "open-standards",
+        "self-hosted"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Platform economy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Platform_economy",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

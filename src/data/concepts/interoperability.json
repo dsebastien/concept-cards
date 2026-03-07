@@ -1,0 +1,49 @@
+{
+    "id": "interoperability",
+    "name": "Interoperability",
+    "summary": "The ability of different systems, tools, and platforms to work together and exchange data seamlessly.",
+    "explanation": "Interoperability is the ability of different systems, applications, and services to communicate, exchange data, and use information effectively across boundaries. It is a foundational requirement for digital sovereignty and user freedom.\n\n## Levels of Interoperability\n\n1. **Technical interoperability** - systems can exchange data at the transport level (protocols, APIs, file formats)\n2. **Syntactic interoperability** - systems agree on data formats and encoding (JSON, XML, Markdown)\n3. **Semantic interoperability** - systems interpret exchanged data in the same way (shared vocabularies, ontologies)\n4. **Organizational interoperability** - institutions agree on policies, processes, and governance for data exchange\n\n## Why Interoperability Matters\n\n- **User freedom** - ability to switch between tools without losing data or functionality\n- **Innovation** - new products can build on existing platforms rather than starting from scratch\n- **Competition** - prevents monopolistic lock-in by enabling alternatives\n- **Resilience** - reduces single points of failure in critical systems\n- **Composability** - tools that interoperate can be combined in powerful ways\n\n## Interoperability in Knowledge Management\n\nFor PKM practitioners, interoperability is critical:\n- **Plain text formats** (Markdown) ensure notes are readable by any tool\n- **Standard protocols** (WebDAV, CalDAV) enable syncing across platforms\n- **Open APIs** allow tools to exchange data and extend functionality\n- **Export capabilities** ensure you can always take your data with you\n- **Linking standards** (URIs, wikilinks) enable cross-tool references\n\n## Barriers to Interoperability\n\n- **Proprietary formats** - deliberate incompatibility to create lock-in\n- **Walled gardens** - platforms that restrict data flow to maintain competitive advantage\n- **Complexity** - genuine technical challenges in making diverse systems work together\n- **Incentive misalignment** - dominant platforms benefit from non-interoperability\n- **Standards fragmentation** - competing standards that defeat the purpose\n\n## Approaches to Achieving Interoperability\n\n- **Open standards** - publicly available specifications everyone can implement\n- **Regulation** - laws requiring platforms to enable data portability and interoperability (e.g., EU Digital Markets Act)\n- **Open-source implementations** - reference implementations that demonstrate compatibility\n- **Bridge tools** - middleware and adapters that connect incompatible systems\n\nFor knowledge workers, prioritizing interoperable tools means: your data survives tool changes, you can compose best-of-breed workflows, and you maintain sovereignty over your digital life.",
+    "tags": [
+        "technologies",
+        "standards",
+        "data-portability",
+        "systems-thinking",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Interop",
+        "System compatibility",
+        "Cross-platform compatibility"
+    ],
+    "relatedConcepts": [
+        "digital-sovereignty",
+        "data-portability",
+        "vendor-lock-in",
+        "open-standards",
+        "open-source",
+        "local-first",
+        "walled-gardens",
+        "platform-dependence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Interoperability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Interoperability",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}
