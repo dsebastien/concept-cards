@@ -1,0 +1,84 @@
+{
+    "id": "topic-map",
+    "name": "Topic Map",
+    "summary": "An ISO standard for knowledge organization that represents topics, their associations, and occurrences to create navigable knowledge structures.",
+    "explanation": "Topic Maps are an ISO standard (ISO/IEC 13250) for representing and organizing knowledge. They model information through three core constructs: topics (subjects of discourse), associations (relationships between topics), and occurrences (links to relevant information resources). This TAO (Topics, Associations, Occurrences) model provides a formal way to overlay navigational structures on top of existing information.\n\nTopic Maps were designed to solve the problem of information findability — how to help people navigate large bodies of interconnected knowledge. They originated from work on back-of-the-book indexes and merged indexes for multiple documents, evolving into a general-purpose knowledge organization standard.\n\nKey features include identity management (merging topics that refer to the same subject), scope (qualifying statements by context), and faceted classification. Topic Maps support multiple overlapping classification schemes on the same body of knowledge, making them powerful for creating flexible navigation structures.\n\nIn PKM, Maps of Content (MoCs) and tags serve similar purposes at a simpler level. Topic Maps formalize what many note-takers do intuitively: create index notes, tag content by topic, and establish navigational paths through knowledge. The standard influenced modern knowledge management tools and ontology engineering.",
+    "tags": [
+        "knowledge-management",
+        "standards",
+        "organizations"
+    ],
+    "category": "Methods",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Topic Maps",
+        "ISO 13250"
+    ],
+    "relatedConcepts": [
+        "concept-maps",
+        "knowledge-map",
+        "knowledge-graph",
+        "moc",
+        "ontology-knowledge-management",
+        "taxonomy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Topic map - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Topic_map",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

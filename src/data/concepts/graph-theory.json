@@ -1,0 +1,66 @@
+{
+    "id": "graph-theory",
+    "name": "Graph Theory",
+    "summary": "The mathematical study of graphs as structures of nodes connected by edges, providing the foundation for network analysis and knowledge representation.",
+    "explanation": "Graph Theory is the branch of mathematics that studies graphs — abstract structures consisting of vertices (nodes) connected by edges (links). Originating with Leonhard Euler's solution to the Seven Bridges of Konigsberg problem in 1736, it has become fundamental to computer science, network science, and knowledge management.\n\nKey concepts include directed vs. undirected graphs, weighted edges, paths, cycles, connectivity, and graph traversal algorithms. Graph properties like centrality (which nodes are most connected), clustering (how densely connected neighborhoods are), and shortest paths enable powerful analysis of complex systems.\n\nIn knowledge management, graph theory underpins knowledge graphs, concept maps, semantic networks, and linked note systems. When you create bidirectional links between notes in Obsidian, you're building a graph. Metrics from graph theory — such as degree centrality (how many links a note has) or betweenness centrality (how often a note lies on the shortest path between others) — can reveal which ideas are most central to your knowledge base.\n\nGraph databases like Neo4j apply graph theory to store and query interconnected data efficiently. Social network analysis, recommendation systems, and web search algorithms (like PageRank) all rely on graph-theoretic foundations.",
+    "tags": [
+        "mathematics",
+        "data-structures",
+        "software",
+        "thinking"
+    ],
+    "category": "Concepts",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Graph Theory",
+        "Network Theory"
+    ],
+    "relatedConcepts": [
+        "dag",
+        "knowledge-graph",
+        "concept-graph",
+        "semantic-network",
+        "concept-network",
+        "systems-thinking",
+        "networked-thought"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Graph theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Graph_theory",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

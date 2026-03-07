@@ -1,0 +1,104 @@
+{
+    "id": "semantic-network",
+    "name": "Semantic Network",
+    "summary": "A knowledge representation structure that uses nodes for concepts and labeled edges for semantic relations between them.",
+    "explanation": "A Semantic Network is a knowledge representation model where concepts are represented as nodes and the semantic relationships between them as labeled directed edges. Developed in the early 1960s by Ross Quillian for natural language understanding, semantic networks became foundational in artificial intelligence and cognitive science.\n\nThe key insight of semantic networks is that meaning arises from relationships. A concept's meaning is defined by its connections to other concepts — 'a dog is-a animal,' 'a dog has fur,' 'a dog can bark.' This mirrors how human semantic memory organizes knowledge through associative networks rather than isolated definitions.\n\nCommon relationship types include taxonomic relations (is-a, kind-of), meronymic relations (part-of, has-part), and attributive relations (has-property, has-value). More complex semantic networks support inheritance — properties of a parent concept automatically apply to child concepts unless overridden.\n\nSemantic networks influenced many modern technologies: knowledge graphs (like Google's Knowledge Graph), ontology languages (RDF, OWL), and the Semantic Web. In PKM, tools that support typed or labeled links between notes essentially create personal semantic networks, enabling richer navigation and reasoning than simple hyperlinks.",
+    "tags": [
+        "knowledge-management",
+        "ai",
+        "cognitive-science",
+        "knowledge-representation"
+    ],
+    "category": "AI",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Semantic Net",
+        "Semantic Networks",
+        "Associative Network"
+    ],
+    "relatedConcepts": [
+        "knowledge-graph",
+        "concept-graph",
+        "concept-network",
+        "semantic-links",
+        "semantic-memory",
+        "ontology-knowledge-management",
+        "concept-maps"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/31+Fleeting+notes/Semantic+Network"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Semantic network - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Semantic_network",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

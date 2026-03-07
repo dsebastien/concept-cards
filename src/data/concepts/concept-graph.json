@@ -1,0 +1,91 @@
+{
+    "id": "concept-graph",
+    "name": "Concept Graph",
+    "summary": "A formal graph-theoretic representation of concepts as nodes and their relationships as edges, used to model and navigate knowledge structures.",
+    "explanation": "A Concept Graph is a formal representation of knowledge where concepts are modeled as nodes and their relationships as edges in a graph structure. Unlike concept maps (which are primarily a visual learning technique developed by Joseph Novak), concept graphs emphasize the underlying mathematical and computational structure. They draw from graph theory and are closely related to semantic networks and knowledge graphs.\n\nIn a concept graph, nodes represent distinct concepts and edges encode specific types of relationships such as 'is-a,' 'part-of,' 'causes,' or 'related-to.' This formalism enables computational reasoning, automated traversal, and algorithmic analysis of knowledge structures. Concept graphs can be directed (showing asymmetric relationships like 'is-a') or undirected (showing symmetric relationships like 'related-to'), weighted (showing strength of association) or unweighted.\n\nJohn Sowa's Conceptual Graphs (1984) formalized this approach as a knowledge representation system combining logic and graph theory. Modern applications include ontology engineering, natural language understanding, and PKM tools that use graph databases to store and query interconnected notes. Tools like Obsidian's graph view provide a visual representation of the underlying concept graph formed by linked notes.",
+    "tags": [
+        "knowledge-management",
+        "data-structures",
+        "thinking",
+        "visualization"
+    ],
+    "category": "Concepts",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Conceptual Graph",
+        "Concept Graphs"
+    ],
+    "relatedConcepts": [
+        "concept-maps",
+        "knowledge-graph",
+        "concept-network",
+        "semantic-network",
+        "semantic-links",
+        "dag",
+        "graph-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Conceptual Structures: Information Processing in Mind and Machine by John F. Sowa",
+            "url": "https://www.amazon.com/dp/0201144727?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Conceptual graph - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Conceptual_graph",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}
