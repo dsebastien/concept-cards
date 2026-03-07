@@ -1,0 +1,21 @@
+{
+    "id": "hilberts-bus",
+    "name": "Hilbert's Bus",
+    "summary": "An extension of Hilbert's Hotel paradox where infinitely many buses each carrying infinitely many passengers can all be accommodated in an already full infinite hotel.",
+    "explanation": "Hilbert's Bus is an extension of Hilbert's Hotel thought experiment that pushes the paradox of infinity even further. While Hilbert's Hotel shows that one infinite hotel can accommodate finitely many or even countably infinitely many new guests, Hilbert's Bus demonstrates that even infinitely many groups of infinitely many passengers can be housed.\n\n**The scenario**:\nHilbert's Hotel is fully occupied with its infinite rooms. Then infinitely many buses arrive, each containing infinitely many passengers. Can everyone be accommodated?\n\n**The solution**:\nYes, using a clever mapping. One approach uses the fact that prime numbers are infinite:\n- Current guests in room N move to room 2^N\n- Passengers from bus 1 go to rooms based on powers of 3 (3^1, 3^2, 3^3, ...)\n- Passengers from bus 2 go to rooms based on powers of 5 (5^1, 5^2, 5^3, ...)\n- Passengers from bus K go to rooms based on powers of the K-th prime number\n\nSince prime factorization is unique (the fundamental theorem of arithmetic), no two people end up in the same room.\n\n**Alternative approach - Cantor's pairing function**:\nAnother elegant solution uses the fact that the rational numbers (pairs of natural numbers) are countable. Each passenger can be identified by a pair (bus number, seat number), and Cantor's pairing function maps all such pairs to unique natural numbers.\n\n**What this demonstrates**:\n- Countable infinity times countable infinity is still countable infinity\n- The set of pairs of natural numbers has the same cardinality as the natural numbers\n- This is the same principle that proves the rational numbers are countable\n- Mathematical ingenuity can tame even seemingly overwhelming infinities\n\n**The limit**:\nHilbert's Hotel can accommodate any countably infinite collection of guests. However, it cannot accommodate an uncountably infinite number of guests — as Cantor's diagonal argument proves, uncountable infinity is genuinely larger than countable infinity.",
+    "tags": ["mathematics", "thought-experiments", "paradoxes", "infinity", "set-theory"],
+    "category": "Concepts",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": ["Hilbert's Bus Paradox"],
+    "relatedConcepts": ["hilberts-hotel", "infinite-sets", "thought-experiment", "cantors-diagonal-argument", "countable-infinity", "set-theory"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {"title": "Hilbert's paradox of the Grand Hotel - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

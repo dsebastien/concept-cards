@@ -1,0 +1,78 @@
+{
+    "id": "faq",
+    "name": "FAQ",
+    "summary": "A curated list of frequently asked questions and answers designed to provide quick, self-service access to common information.",
+    "explanation": "A Frequently Asked Questions (FAQ) document is a structured knowledge format that pairs common questions with clear, concise answers. FAQs are one of the oldest and most widely used patterns for organizing and sharing knowledge.\n\n**Why FAQs work**:\n- **Question-driven**: Organized around the reader's actual needs rather than the author's structure\n- **Scannable**: Easy to browse and find relevant information quickly\n- **Self-service**: Reduces repetitive inquiries by anticipating common needs\n- **Low friction**: Simple format that's easy to create and maintain\n\n**Effective FAQ design**:\n- Group questions by topic or category\n- Use the actual language people use when asking\n- Keep answers concise but complete\n- Link to detailed resources for deeper exploration\n- Update regularly based on new questions that emerge\n- Remove or archive questions that become irrelevant\n\n**Beyond customer support**:\nWhile FAQs are commonly associated with customer-facing documentation, the pattern applies broadly:\n- **Team FAQs**: Common questions new team members ask\n- **Project FAQs**: Decisions, rationale, and context for recurring questions\n- **Personal FAQs**: Your own reference for things you repeatedly look up\n- **Learning FAQs**: Questions and answers as a study technique\n\n**Limitations**:\nFAQs can become dumping grounds for miscellaneous information. They work best as a complement to well-structured documentation, not a replacement for it. If your FAQ grows very large, it may signal the need for better knowledge organization.",
+    "tags": [
+        "knowledge-management",
+        "documentation",
+        "communication",
+        "self-service"
+    ],
+    "category": "Techniques",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Frequently Asked Questions"
+    ],
+    "relatedConcepts": [
+        "knowledge-base",
+        "documentation",
+        "knowledge-sharing",
+        "self-service-knowledge",
+        "information-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "FAQ - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/FAQ",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

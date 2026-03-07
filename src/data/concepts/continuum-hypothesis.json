@@ -1,0 +1,21 @@
+{
+    "id": "continuum-hypothesis",
+    "name": "Continuum Hypothesis",
+    "summary": "The unresolved conjecture that there is no infinite set with cardinality strictly between that of the natural numbers and the real numbers.",
+    "explanation": "The Continuum Hypothesis (CH) is one of the most famous unsolved problems in mathematics. Proposed by Georg Cantor in 1878, it asks a deceptively simple question: is there a set larger than the natural numbers but smaller than the real numbers?\n\n**The question**:\nCantor proved that the real numbers (the continuum) are uncountably infinite — strictly larger than the countably infinite natural numbers. But are they the 'next' infinity, or are there infinities in between?\n\nThe Continuum Hypothesis states: there is no set whose cardinality is strictly between that of the integers and the real numbers. In other words, the reals are the smallest uncountable infinity.\n\n**The shocking resolution**:\nThe Continuum Hypothesis turned out to be undecidable — it can neither be proved nor disproved from the standard axioms of mathematics (ZFC):\n- **Kurt Godel (1940)**: Proved CH is consistent with ZFC (cannot be disproven)\n- **Paul Cohen (1963)**: Proved the negation of CH is also consistent with ZFC (cannot be proven)\n\nThis means mathematics itself doesn't determine whether CH is true or false. Different mathematical universes can have different answers.\n\n**Implications**:\n- Some mathematical questions have no definitive answer within our standard framework\n- Mathematics is not a single monolithic truth but admits multiple consistent realities\n- The foundations of mathematics are inherently incomplete (connecting to Godel's incompleteness theorems)\n- Mathematicians must choose which axioms to adopt, much like choosing which geometry to use\n\n**Why it matters beyond mathematics**:\nThe Continuum Hypothesis is a profound example of the limits of formal reasoning. It shows that even in mathematics — the most rigorous discipline — there are questions that transcend our ability to decide. This has deep implications for epistemology, philosophy of mathematics, and our understanding of truth itself.",
+    "tags": ["mathematics", "set-theory", "infinity", "logic", "philosophy"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["CH", "Cantor's Continuum Hypothesis"],
+    "relatedConcepts": ["infinite-sets", "uncountable-infinity", "countable-infinity", "cantors-diagonal-argument", "set-theory"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {"title": "Continuum hypothesis - Wikipedia", "url": "https://en.wikipedia.org/wiki/Continuum_hypothesis", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "hilberts-hotel",
+    "name": "Hilbert's Hotel",
+    "summary": "A thought experiment illustrating the counterintuitive properties of infinity, where a fully occupied hotel with infinitely many rooms can always accommodate more guests.",
+    "explanation": "Hilbert's Hotel (also known as Hilbert's Grand Hotel or Hilbert's Paradox of the Grand Hotel) is a thought experiment proposed by German mathematician David Hilbert in 1924 to illustrate the strange and counterintuitive properties of infinite sets.\n\n**The setup**:\nImagine a hotel with infinitely many rooms, numbered 1, 2, 3, and so on forever. Every room is occupied.\n\n**Scenario 1 - One new guest arrives**:\nDespite being fully occupied, the hotel can accommodate a new guest. Simply ask every current guest to move from room N to room N+1. Room 1 is now empty for the new guest. This works because infinity plus one equals infinity.\n\n**Scenario 2 - Infinitely many new guests arrive**:\nEven an infinite number of new guests can be accommodated. Ask every current guest to move from room N to room 2N (doubling their room number). This frees up all odd-numbered rooms (1, 3, 5, ...) for the infinite new guests.\n\n**Scenario 3 - Infinitely many buses arrive (Hilbert's Bus)**:\nInfinitely many buses, each carrying infinitely many passengers, can still be accommodated using more sophisticated mappings.\n\n**Why it matters**:\n- Demonstrates that infinity is not just a 'very large number' but a fundamentally different concept\n- Shows that infinite sets can be put into one-to-one correspondence with proper subsets of themselves\n- Illustrates the concept of countable infinity (aleph-null)\n- Reveals that our finite intuitions break down when applied to the infinite\n\n**Key insight**:\nThe paradox arises because we apply finite reasoning (a full hotel cannot accept more guests) to an infinite scenario. In mathematics, a set is infinite precisely when it can be put into a one-to-one correspondence with a proper subset of itself — the exact property that makes Hilbert's Hotel work.\n\n**Broader implications**:\nHilbert's Hotel is a gateway to understanding deeper concepts in set theory, including different sizes of infinity (countable vs uncountable), Cantor's diagonal argument, and the continuum hypothesis. It demonstrates that mathematical truth can be deeply counterintuitive.",
+    "tags": ["mathematics", "thought-experiments", "paradoxes", "infinity", "set-theory"],
+    "category": "Concepts",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": ["Hilbert's Grand Hotel", "Hilbert's Paradox of the Grand Hotel", "Hilbert's Hotel Paradox"],
+    "relatedConcepts": ["hilberts-bus", "infinite-sets", "thought-experiment", "cantors-diagonal-argument", "countable-infinity", "set-theory"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {"title": "Hilbert's paradox of the Grand Hotel - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

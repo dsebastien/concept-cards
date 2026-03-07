@@ -1,0 +1,22 @@
+{
+    "id": "countable-infinity",
+    "name": "Countable Infinity",
+    "summary": "The smallest type of infinity, representing sets whose elements can be listed in a sequence and matched one-to-one with the natural numbers.",
+    "explanation": "Countable Infinity (denoted aleph-null or aleph-naught) is the cardinality (size) of the set of natural numbers {1, 2, 3, ...}. A set is countably infinite if its elements can be arranged in a sequence — even if that sequence is infinite, every element eventually gets a turn.\n\n**Formally**:\nA set S is countably infinite if there exists a bijection (one-to-one correspondence) between S and the natural numbers. This means every element in S can be 'counted' — assigned a unique natural number.\n\n**Surprisingly countable sets**:\n- **Integers**: {..., -2, -1, 0, 1, 2, ...} — despite extending in both directions, they can be listed: 0, 1, -1, 2, -2, 3, -3, ...\n- **Rational numbers**: All fractions p/q — despite being dense (between any two rationals lies another), they can be enumerated using Cantor's zigzag argument\n- **Algebraic numbers**: All roots of polynomial equations with integer coefficients\n- **Pairs of natural numbers**: All (m, n) pairs — countable via Cantor's pairing function\n\n**Properties**:\n- The union of countably many countable sets is countable\n- Any subset of a countable set is countable (or finite)\n- Countable infinity plus countable infinity equals countable infinity\n- Countable infinity times countable infinity equals countable infinity\n\n**The boundary**:\nCountable infinity is the smallest infinity. Cantor proved that the real numbers are uncountably infinite — strictly larger. This was a revolutionary discovery: not all infinities are the same size.\n\n**Connection to computability**:\nCountable infinity appears throughout computer science. The set of all possible programs is countably infinite, but the set of all possible functions is uncountably infinite. This means most functions cannot be computed — a fundamental result in the theory of computation.",
+    "tags": ["mathematics", "set-theory", "infinity", "abstraction"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Aleph-Null", "Aleph-Naught", "Countable Set", "Denumerable Set"],
+    "relatedConcepts": ["infinite-sets", "uncountable-infinity", "hilberts-hotel", "cantors-diagonal-argument", "set-theory"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {"title": "Countable set - Wikipedia", "url": "https://en.wikipedia.org/wiki/Countable_set", "type": "website"},
+        {"title": "Aleph number - Wikipedia", "url": "https://en.wikipedia.org/wiki/Aleph_number", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "infinite-sets",
+    "name": "Infinite Sets",
+    "summary": "Mathematical collections containing unlimited elements that exhibit counterintuitive properties fundamentally different from finite collections.",
+    "explanation": "An Infinite Set is a set that is not finite — it contains elements that cannot be exhausted by counting. While this seems straightforward, infinite sets exhibit deeply counterintuitive properties that challenged mathematicians for centuries and revolutionized our understanding of mathematics.\n\n**Defining infinity**:\nA set is infinite if it can be put into a one-to-one correspondence with a proper subset of itself. For example, the natural numbers {1, 2, 3, ...} can be matched with the even numbers {2, 4, 6, ...} by the mapping N -> 2N, even though the even numbers are a 'subset' of the naturals.\n\n**Not all infinities are equal**:\nGeorg Cantor's groundbreaking discovery was that there are different sizes of infinity:\n- **Countably infinite**: Sets that can be listed in a sequence (natural numbers, integers, rationals). Their cardinality is aleph-null.\n- **Uncountably infinite**: Sets too large to be listed (real numbers, points on a line). Their cardinality is strictly greater than aleph-null.\n\n**Key properties**:\n- An infinite set can have the same size as one of its proper subsets\n- The union of countably many countable sets is still countable\n- The power set (set of all subsets) of any set is strictly larger than the set itself\n- There is no largest infinite set — for any infinite set, its power set is larger\n\n**Examples of infinite sets**:\n- Natural numbers: {1, 2, 3, ...} — countably infinite\n- Integers: {..., -2, -1, 0, 1, 2, ...} — countably infinite\n- Rational numbers: all fractions — countably infinite (surprisingly!)\n- Real numbers: all points on a number line — uncountably infinite\n- Power set of naturals: set of all subsets of natural numbers — uncountably infinite\n\n**Why it matters beyond mathematics**:\nInfinite sets teach us that intuition built from finite experience can be profoundly misleading. This lesson applies broadly: in complex systems, in philosophy, and in any domain where we must reason about things beyond our direct experience. The study of infinity is a masterclass in intellectual humility.",
+    "tags": ["mathematics", "set-theory", "infinity", "abstraction"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Infinite Collections", "Infinity in Mathematics"],
+    "relatedConcepts": ["hilberts-hotel", "hilberts-bus", "countable-infinity", "uncountable-infinity", "cantors-diagonal-argument", "set-theory", "thought-experiment"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {"title": "Infinite set - Wikipedia", "url": "https://en.wikipedia.org/wiki/Infinite_set", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}

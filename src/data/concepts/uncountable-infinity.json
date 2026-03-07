@@ -1,0 +1,21 @@
+{
+    "id": "uncountable-infinity",
+    "name": "Uncountable Infinity",
+    "summary": "A type of infinity strictly larger than countable infinity, representing sets too vast to be listed in any sequence.",
+    "explanation": "Uncountable Infinity refers to the cardinality of sets that are strictly larger than the set of natural numbers. These sets are so vast that their elements cannot be arranged in any sequence — no matter how cleverly you try, some elements will always be left out.\n\n**The discovery**:\nGeorg Cantor proved in 1874 that the real numbers are uncountable, shattering the assumption that all infinite sets are the same size. His diagonal argument (1891) provided an elegant proof: any proposed listing of real numbers can be shown to be incomplete by constructing a number not on the list.\n\n**Examples of uncountable sets**:\n- **Real numbers**: All points on a number line, including irrationals\n- **Interval (0,1)**: Just the real numbers between 0 and 1 — already uncountable\n- **Power set of natural numbers**: The set of all possible subsets of {1, 2, 3, ...}\n- **Set of all functions from naturals to {0,1}**: Equivalent to binary sequences\n- **Points in a plane**: All (x,y) coordinate pairs (same cardinality as the real line!)\n\n**The continuum**:\nThe cardinality of the real numbers is called the cardinality of the continuum, denoted c or 2^(aleph-null). Whether there exists an infinity between aleph-null and c is the famous continuum hypothesis — proven to be independent of standard set theory axioms.\n\n**Implications**:\n- There are fundamentally different 'sizes' of infinity\n- The hierarchy of infinities is itself infinite (there is no largest infinity)\n- Most real numbers are 'unreachable' by any finite description\n- In computer science: most functions are uncomputable, most real numbers are undefinable\n\n**Philosophical significance**:\nUncountable infinity challenges our deepest intuitions about quantity and size. It shows that the mathematical universe is far richer and stranger than finite experience suggests — a powerful reminder that reality can exceed imagination.",
+    "tags": ["mathematics", "set-theory", "infinity", "abstraction"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Uncountable Set", "Continuum"],
+    "relatedConcepts": ["infinite-sets", "countable-infinity", "cantors-diagonal-argument", "continuum-hypothesis", "set-theory"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {"title": "Uncountable set - Wikipedia", "url": "https://en.wikipedia.org/wiki/Uncountable_set", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-07",
+    "dateModified": "2026-03-07"
+}
