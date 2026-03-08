@@ -1,5 +1,6 @@
 import type { Concept } from '@/types/concept'
 import type { ExploredFilter } from '@/types/explored-filter.intf'
+import { fuzzyMatch } from '@/lib/fuzzy-search'
 
 export interface GraphNode {
     id: string
@@ -212,10 +213,7 @@ export function getNeighborhood(
  */
 export function findConceptNodes(nodes: GraphNode[], query: string): GraphNode[] {
     if (!query.trim()) return []
-    const lower = query.toLowerCase()
     return nodes.filter(
-        (n) =>
-            n.name.toLowerCase().includes(lower) ||
-            n.aliases?.some((a) => a.toLowerCase().includes(lower))
+        (n) => fuzzyMatch(query, n.name) || n.aliases?.some((a) => fuzzyMatch(query, a))
     )
 }

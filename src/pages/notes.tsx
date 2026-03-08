@@ -9,6 +9,7 @@ import ResourceDetailModal from '@/components/resources/resource-detail-modal'
 import ResourceFilter from '@/components/resources/resource-filter'
 import { conceptsData } from '@/data'
 import { extractNotes } from '@/lib/extract-resources'
+import { simpleFuzzySearch } from '@/lib/fuzzy-search'
 import type { ExtractedResource } from '@/types/extracted-resource.intf'
 
 // Colors for resource cards
@@ -41,8 +42,7 @@ const NotesPage: React.FC = () => {
     // Filter notes based on search
     const filteredNotes = useMemo(() => {
         if (!searchQuery) return allNotes
-        const query = searchQuery.toLowerCase()
-        return allNotes.filter((note) => note.title.toLowerCase().includes(query))
+        return simpleFuzzySearch(allNotes, searchQuery, (note) => note.title)
     }, [allNotes, searchQuery])
 
     // Find selected resource from URL param

@@ -9,6 +9,7 @@ import {
     FaCheckCircle
 } from 'react-icons/fa'
 import { cn } from '@/lib/utils'
+import { fuzzyMatch } from '@/lib/fuzzy-search'
 import ConceptIcon from '@/components/concepts/concept-icon'
 import type { CommandPaletteProps } from '@/types/command-palette-props.intf'
 import type { Command } from '@/types/command.intf'
@@ -97,14 +98,11 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({
             return commands
         }
 
-        const lowerQuery = query.toLowerCase()
         return commands.filter((cmd) => {
-            const titleMatch = cmd.title.toLowerCase().includes(lowerQuery)
-            const subtitleMatch = cmd.subtitle?.toLowerCase().includes(lowerQuery)
-            const conceptTags = cmd.concept?.tags.some((t) => t.toLowerCase().includes(lowerQuery))
-            const conceptAliases = cmd.concept?.aliases?.some((a) =>
-                a.toLowerCase().includes(lowerQuery)
-            )
+            const titleMatch = fuzzyMatch(query, cmd.title)
+            const subtitleMatch = cmd.subtitle ? fuzzyMatch(query, cmd.subtitle) : false
+            const conceptTags = cmd.concept?.tags.some((t) => fuzzyMatch(query, t))
+            const conceptAliases = cmd.concept?.aliases?.some((a) => fuzzyMatch(query, a))
             return titleMatch || subtitleMatch || conceptTags || conceptAliases
         })
     }, [commands, query])

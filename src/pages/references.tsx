@@ -9,6 +9,7 @@ import ResourceDetailModal from '@/components/resources/resource-detail-modal'
 import ResourceFilter from '@/components/resources/resource-filter'
 import { conceptsData } from '@/data'
 import { extractReferences } from '@/lib/extract-resources'
+import { simpleFuzzySearch } from '@/lib/fuzzy-search'
 import type { ExtractedResource } from '@/types/extracted-resource.intf'
 
 // Colors for resource cards
@@ -44,8 +45,7 @@ const ReferencesPage: React.FC = () => {
         let filtered = allReferences
 
         if (searchQuery) {
-            const query = searchQuery.toLowerCase()
-            filtered = filtered.filter((reference) => reference.title.toLowerCase().includes(query))
+            filtered = simpleFuzzySearch(filtered, searchQuery, (reference) => reference.title)
         }
 
         if (selectedType !== 'all') {

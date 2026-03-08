@@ -6,6 +6,7 @@ import { AnimatedPage, AnimatedHero, motion } from '@/components/ui/animated'
 import AnimatedCounter from '@/components/ui/animated-counter'
 import TagDetailModal, { type TagData } from '@/components/tags/tag-detail-modal'
 import { conceptsData } from '@/data'
+import { simpleFuzzySearch } from '@/lib/fuzzy-search'
 
 // Colors for tag cards
 const cardColors = [
@@ -91,8 +92,7 @@ const TagsPage: React.FC = () => {
     // Filter tags based on search
     const filteredTags = useMemo(() => {
         if (!searchQuery) return tagData.allTags
-        const query = searchQuery.toLowerCase()
-        return tagData.allTags.filter((tag) => tag.name.toLowerCase().includes(query))
+        return simpleFuzzySearch(tagData.allTags, searchQuery, (tag) => tag.name)
     }, [tagData.allTags, searchQuery])
 
     // Find selected tag from URL param

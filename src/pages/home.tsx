@@ -18,6 +18,7 @@ import CommandPalette from '@/components/concepts/command-palette'
 import CompactNewsletter from '@/components/ui/compact-newsletter'
 import { conceptsData } from '@/data'
 import { useExploredConcepts, type ExploredFilter } from '@/hooks/use-explored-concepts'
+import { fuzzyMatch } from '@/lib/fuzzy-search'
 import type { Concept } from '@/types/concept'
 import {
     MetaTags,
@@ -200,13 +201,12 @@ const HomePage: React.FC = () => {
         return conceptsData.concepts.filter((concept) => {
             // Search query
             if (searchQuery) {
-                const query = searchQuery.toLowerCase()
                 const matchesSearch =
-                    concept.name.toLowerCase().includes(query) ||
-                    concept.summary.toLowerCase().includes(query) ||
-                    concept.explanation.toLowerCase().includes(query) ||
-                    concept.tags.some((t) => t.toLowerCase().includes(query)) ||
-                    concept.aliases?.some((a) => a.toLowerCase().includes(query))
+                    fuzzyMatch(searchQuery, concept.name) ||
+                    fuzzyMatch(searchQuery, concept.summary) ||
+                    fuzzyMatch(searchQuery, concept.explanation) ||
+                    concept.tags.some((t) => fuzzyMatch(searchQuery, t)) ||
+                    concept.aliases?.some((a) => fuzzyMatch(searchQuery, a))
                 if (!matchesSearch) return false
             }
 

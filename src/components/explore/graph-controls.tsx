@@ -12,6 +12,7 @@ import {
     FaCheckCircle
 } from 'react-icons/fa'
 import { CATEGORY_COLORS } from '@/lib/graph-utils'
+import { fuzzyMatch } from '@/lib/fuzzy-search'
 import type { ExploredFilter } from '@/types/explored-filter.intf'
 
 interface GraphControlsProps {
@@ -108,11 +109,8 @@ const GraphControls: React.FC<GraphControlsProps> = ({
 
     // Sort tags: selected first, then alphabetically; filter by search
     const filteredTags = useMemo(() => {
-        const lower = tagSearch.toLowerCase()
         const entries = [...allTagsWithCounts.entries()]
-        const filtered = lower
-            ? entries.filter(([tag]) => tag.toLowerCase().includes(lower))
-            : entries
+        const filtered = tagSearch ? entries.filter(([tag]) => fuzzyMatch(tagSearch, tag)) : entries
         filtered.sort((a, b) => {
             const aSelected = selectedTags.has(a[0])
             const bSelected = selectedTags.has(b[0])
