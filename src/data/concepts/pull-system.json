@@ -1,0 +1,99 @@
+{
+    "id": "pull-system",
+    "name": "Pull System",
+    "summary": "A workflow method where new work is started only when there is downstream capacity, rather than being pushed based on forecasts or schedules.",
+    "explanation": "A pull system is a production or workflow control method where work is initiated by downstream demand rather than upstream supply. Instead of pushing work into the system based on plans, forecasts, or schedules, work is \"pulled\" only when the next stage has capacity to handle it.\n\n**Push vs. Pull**:\n\n| Aspect | Push System | Pull System |\n|--------|-------------|-------------|\n| **Trigger** | Forecast/schedule | Actual demand/capacity |\n| **WIP** | Uncontrolled, often high | Limited and controlled |\n| **Inventory/queues** | Large buffers between stages | Minimal buffers |\n| **Responsiveness** | Slow (committed to plan) | Fast (responds to reality) |\n| **Overproduction** | Common | Rare |\n| **Example** | Mass production scheduling | Kanban, Just-in-Time |\n\n**How Pull Systems Work**:\n\n1. A downstream stage completes an item and gains capacity\n2. This creates a \"signal\" (literally a Kanban card in Toyota's system) that pulls the next item from the upstream stage\n3. The upstream stage only produces when it receives this signal\n4. This cascades backward through the entire system\n\n**Pull in Software Development**:\n\nKanban boards implement pull systems through WIP limits:\n- Each column has a maximum WIP limit\n- A developer only pulls a new item from the backlog when they finish their current work and their column is below its limit\n- If a downstream column is full, upstream work stops — making bottlenecks immediately visible\n- This prevents the common problem of developers starting many items that then sit waiting for review, testing, or deployment\n\n**Benefits of Pull Systems**:\n\n- **Reduced lead time**: Less WIP means items flow through faster (Little's Law)\n- **Better quality**: Less multitasking and rushing means fewer defects\n- **Visible bottlenecks**: When a stage is full, the problem is immediately apparent\n- **Sustainable pace**: Teams work at a natural rhythm instead of being overloaded\n- **Less waste**: No overproduction, less inventory, fewer items abandoned mid-process\n\n**Pull in Personal Productivity**:\n\nThe pull principle applies to individual work too:\n- Don't start new tasks until you finish current ones\n- Maintain a personal WIP limit (e.g., maximum 3 items in progress)\n- Resist the urge to \"get a head start\" on future work when current work needs finishing\n- Focus on completion over initiation\n\n**Origins**:\n\nThe pull system originated at Toyota as part of the Toyota Production System (TPS) in the 1950s. Taiichi Ohno, inspired by American supermarkets (where shelves are restocked only when items are purchased), created the Kanban system to implement pull-based manufacturing.",
+    "tags": [
+        "lean",
+        "kanban",
+        "operations",
+        "agile",
+        "productivity",
+        "manufacturing"
+    ],
+    "category": "Principles",
+    "icon": "FaArrowLeft",
+    "featured": false,
+    "aliases": [
+        "Pull-Based System",
+        "Pull Production",
+        "Just-in-Time Production"
+    ],
+    "relatedConcepts": [
+        "kanban",
+        "limit-work-in-progress",
+        "lean-manufacturing",
+        "littles-law",
+        "lead-time",
+        "throughput",
+        "bottleneck",
+        "theory-of-constraints",
+        "cumulative-flow-diagram",
+        "flow-efficiency",
+        "muda",
+        "personal-kanban",
+        "continuous-improvement"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Toyota Production System by Taiichi Ohno",
+            "url": "https://www.amazon.com/dp/0915299143?tag=dsebastien00-20"
+        },
+        {
+            "title": "Kanban by David J. Anderson",
+            "url": "https://www.amazon.com/dp/0984521402?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Push–pull strategy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Push%E2%80%93pull_strategy",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

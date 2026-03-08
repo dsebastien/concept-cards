@@ -1,0 +1,73 @@
+{
+    "id": "hook-model",
+    "name": "Hook Model",
+    "summary": "Nir Eyal's four-phase framework for building habit-forming products through triggers, actions, variable rewards, and investment.",
+    "explanation": "The Hook Model is a product design framework created by Nir Eyal, described in his book *Hooked*. It explains how products create habits by cycling users through four phases repeatedly until the behavior becomes automatic.\n\n**The Four Phases**:\n\n1. **Trigger** — What initiates the behavior\n   - *External triggers*: Notifications, emails, ads, word of mouth, app icon on home screen\n   - *Internal triggers*: Emotions (boredom, loneliness, anxiety, FOMO) that the user learns to associate with the product\n   - The goal is to transition users from external to internal triggers\n\n2. **Action** — The simplest behavior done in anticipation of a reward\n   - Must be easy enough to do without thinking (Fogg Behavior Model: Motivation + Ability + Trigger)\n   - Examples: Opening the app, scrolling, typing a search query, tapping a button\n   - Reduce friction: fewer clicks, faster loading, simpler interface\n\n3. **Variable Reward** — The payoff that satisfies the user's need while leaving them wanting more\n   - Rewards of the Tribe (social): Likes, comments, recognition\n   - Rewards of the Hunt (resources): Content, information, deals\n   - Rewards of the Self (mastery): Completion, achievement, competence\n   - Variability is key — predictable rewards lose their power\n\n4. **Investment** — User puts something into the product that improves future experience\n   - Data (preferences, content, connections)\n   - Time (learning the interface, building history)\n   - Social capital (followers, reputation, relationships)\n   - Investment increases switching costs and loads the next trigger\n\n**The Habit Zone**:\n\nProducts become habits when they achieve sufficient frequency and perceived utility. Products used daily with moderate utility (like social media) can be as habit-forming as products used rarely with high utility (like emergency services).\n\n**Manipulation Matrix**:\n\nEyal proposes an ethical framework for evaluating hook-building:\n\n| | Builder uses product | Builder doesn't use product |\n|---|---|---|\n| **Materially improves user's life** | Facilitator (ethical) | Peddler (risky) |\n| **Doesn't improve user's life** | Entertainer (okay) | Dealer (exploitative) |\n\n**Applications Beyond Tech**:\n\nThe Hook Model applies to any habit-forming experience: fitness routines, learning platforms, journaling apps, community building, or personal knowledge management systems.",
+    "tags": [
+        "product-design",
+        "behavioral-design",
+        "psychology",
+        "habits",
+        "frameworks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaFish",
+    "featured": false,
+    "aliases": [
+        "Hook Canvas",
+        "Hooked Model",
+        "Eyal's Hook Model"
+    ],
+    "relatedConcepts": [
+        "engagement-loop",
+        "variable-rewards",
+        "habit-loop",
+        "gamification",
+        "dark-patterns",
+        "dopamine",
+        "attention-economy",
+        "feedback-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Hooked by Nir Eyal",
+            "url": "https://www.amazon.com/dp/1591847788?tag=dsebastien00-20"
+        },
+        {
+            "title": "Indistractable by Nir Eyal",
+            "url": "https://www.amazon.com/dp/194883653X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Hook model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hooked:_How_to_Build_Habit-Forming_Products",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "cumulative-flow-diagram",
+    "name": "Cumulative Flow Diagram",
+    "summary": "A stacked area chart that visualizes workflow states over time, revealing bottlenecks, WIP trends, and flow efficiency in Kanban and Lean systems.",
+    "explanation": "A Cumulative Flow Diagram (CFD) is a stacked area chart where the x-axis represents time and the y-axis represents the cumulative number of work items. Each colored band represents a workflow state (e.g., Backlog, In Progress, Done), and the bands stack on top of each other.\n\n**How to Read a CFD**:\n\n- **Vertical distance** between bands shows the **Work in Progress (WIP)** for that state at any point in time\n- **Horizontal distance** between bands shows the **Lead Time** (how long items spend between two states)\n- **Slope of the top line** indicates the **arrival rate** (how fast new work enters the system)\n- **Slope of the bottom line** indicates the **throughput** (how fast work is completed)\n- **Parallel bands** indicate a stable, predictable flow\n\n**What CFD Patterns Reveal**:\n\n| Pattern | Meaning |\n|---------|----------|\n| Bands widening | WIP is growing — work is entering faster than it's leaving |\n| Bands narrowing | WIP is shrinking — the system is catching up |\n| Flat bottom line | No items being completed — a blockage exists |\n| Bulging in one band | A bottleneck at that workflow stage |\n| Parallel, evenly spaced bands | Healthy, stable flow |\n| Top line steeper than bottom | Demand exceeds capacity — unsustainable |\n\n**CFD vs. Other Charts**:\n\n- **Burndown charts** show remaining work in a sprint — CFDs show flow across the entire system continuously\n- **Burnup charts** show completed work — CFDs additionally show WIP distribution across states\n- **Kanban boards** show current state — CFDs show the historical trend, making patterns visible\n\n**Using CFDs Effectively**:\n\n1. **Detect bottlenecks early**: When a band widens, that stage is accumulating work faster than it processes it\n2. **Validate WIP limits**: If WIP bands stay consistent, your limits are working; if they bulge, limits need tightening\n3. **Predict delivery**: Use the current throughput slope to forecast when remaining work will be completed\n4. **Spot systemic issues**: A gradually widening overall WIP suggests the team is starting more than it finishes\n5. **Measure improvement**: After process changes, the CFD shows whether flow has actually improved\n\n**Connection to Little's Law**:\n\nCFDs make Little's Law (Lead Time = WIP ÷ Throughput) visually intuitive. You can literally see that reducing WIP (narrowing the bands) reduces lead time (the horizontal distance between bands), assuming throughput stays constant.\n\n**Common Mistakes**:\n\n- Not including all workflow states (hiding queues between stages)\n- Using it without WIP limits (the CFD will just show growing chaos)\n- Ignoring the arrival rate — even perfect flow breaks down if demand exceeds capacity",
+    "tags": [
+        "lean",
+        "kanban",
+        "metrics",
+        "visualization",
+        "agile",
+        "project-management"
+    ],
+    "category": "Techniques",
+    "icon": "FaChartArea",
+    "featured": false,
+    "aliases": [
+        "CFD",
+        "Cumulative Flow Chart"
+    ],
+    "relatedConcepts": [
+        "kanban",
+        "lead-time",
+        "cycle-time",
+        "throughput",
+        "littles-law",
+        "flow-efficiency",
+        "limit-work-in-progress",
+        "bottleneck",
+        "burndown-chart",
+        "value-stream-mapping",
+        "visual-management",
+        "information-radiators",
+        "pull-system",
+        "lean-manufacturing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Kanban by David J. Anderson",
+            "url": "https://www.amazon.com/dp/0984521402?tag=dsebastien00-20"
+        },
+        {
+            "title": "Actionable Agile Metrics for Predictability by Daniel S. Vacanti",
+            "url": "https://www.amazon.com/dp/098643633X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cumulative flow diagram - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cumulative_flow_diagram",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

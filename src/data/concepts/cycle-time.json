@@ -1,0 +1,91 @@
+{
+    "id": "cycle-time",
+    "name": "Cycle Time",
+    "summary": "The elapsed time from when work actively begins on an item until it is completed, serving as a key flow metric in Lean and Kanban.",
+    "explanation": "Cycle time measures how long it takes to complete a single work item once active work has started. Unlike lead time, which includes the full waiting period from request to delivery, cycle time begins when someone actually picks up the work.\n\n**Cycle Time vs. Lead Time**:\n\n| Metric | Starts When | Ends When |\n|--------|-------------|----------|\n| **Lead Time** | Work is requested/enters the system | Work is delivered |\n| **Cycle Time** | Active work begins | Work is completed |\n| **Processing Time** | Hands-on work starts | Hands-on work stops (excludes internal waits) |\n\nLead time is always greater than or equal to cycle time, because it includes the queue time before work starts.\n\n**Why Cycle Time Matters**:\n\n- **Predictability**: Consistent cycle times allow reliable delivery forecasting\n- **Process health indicator**: Rising cycle times signal growing problems (scope creep, dependencies, blockers)\n- **Right-sizing work**: Helps teams break work into items that flow predictably\n- **SLA/commitment basis**: Teams can make data-driven promises like \"95% of items complete within X days\"\n\n**Cycle Time Distribution**:\n\nRather than focusing on averages, mature teams use cycle time distribution (histograms or scatter plots):\n\n- **Median**: The typical experience — 50% of items finish faster\n- **85th percentile**: A reliable commitment — 85% of items finish within this time\n- **Outliers**: Items that took much longer reveal systemic issues (external dependencies, unclear requirements, etc.)\n\n**How to Reduce Cycle Time**:\n\n1. **Limit WIP**: Fewer items in progress means less context switching and faster completion\n2. **Reduce batch size**: Smaller items flow faster through the system\n3. **Eliminate blockers**: Proactively remove dependencies and waiting states\n4. **Reduce handoffs**: Each handoff adds queue time\n5. **Automate repetitive steps**: CI/CD, automated testing, and auto-deployments remove manual delays\n\n**In Software Development**:\n\nCycle time is a critical metric in DevOps and Agile. It's one of the four DORA metrics (as \"Lead Time for Changes\") and is central to Kanban flow management. Teams that track and optimize cycle time consistently deliver faster and more predictably.",
+    "tags": [
+        "lean",
+        "kanban",
+        "metrics",
+        "agile",
+        "operations",
+        "productivity"
+    ],
+    "category": "Software Development",
+    "icon": "FaStopwatch",
+    "featured": false,
+    "aliases": [
+        "Process Cycle Time",
+        "Touch Time"
+    ],
+    "relatedConcepts": [
+        "lead-time",
+        "throughput",
+        "littles-law",
+        "cumulative-flow-diagram",
+        "flow-efficiency",
+        "kanban",
+        "limit-work-in-progress",
+        "bottleneck",
+        "lean-manufacturing",
+        "continuous-improvement"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Actionable Agile Metrics for Predictability by Daniel S. Vacanti",
+            "url": "https://www.amazon.com/dp/098643633X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cycle time - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cycle_time",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

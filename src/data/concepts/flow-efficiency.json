@@ -1,0 +1,97 @@
+{
+    "id": "flow-efficiency",
+    "name": "Flow Efficiency",
+    "summary": "The ratio of active work time to total lead time, revealing how much time work items spend waiting versus being actively worked on.",
+    "explanation": "Flow efficiency measures what percentage of an item's total lead time is spent in active work versus waiting in queues. It's calculated as:\n\n**Flow Efficiency = (Active Work Time ÷ Total Lead Time) × 100%**\n\n**Typical Values**:\n\n| Context | Flow Efficiency |\n|---------|----------------|\n| Most organizations | 1–5% |\n| Good performers | 15–25% |\n| World-class | 40%+ |\n| Theoretical maximum | ~85% (some wait is unavoidable) |\n\nThe fact that most organizations have flow efficiency below 5% is striking: for every hour of actual work, items sit idle for 19+ hours. A task with 8 hours of active work and a 4-week lead time has a flow efficiency of just 5%.\n\n**Why It Matters**:\n\n- **Reveals hidden waste**: Flow efficiency exposes the enormous amount of time items spend in queues, handoff buffers, and approval gates\n- **Reframes improvement**: Instead of asking \"how can we work faster?\" (optimizing the 5%), teams ask \"how can we reduce waiting?\" (attacking the 95%)\n- **Challenges assumptions**: Managers often focus on keeping people busy (resource efficiency), but this usually harms flow efficiency by creating queues\n\n**Flow Efficiency vs. Resource Efficiency**:\n\nThis is a fundamental tension in process design:\n\n- **Resource efficiency**: Maximize utilization of people/machines (keep everyone busy)\n- **Flow efficiency**: Minimize the time items spend in the system (keep work moving)\n\nYou cannot maximize both simultaneously. High resource utilization creates queues (because when everyone is 100% busy, any new work must wait). These queues destroy flow efficiency. The sweet spot for most knowledge work is moderate resource utilization (70–80%) which allows good flow efficiency.\n\n**How to Improve Flow Efficiency**:\n\n1. **Reduce queue sizes**: Limit WIP at each stage so items don't pile up\n2. **Eliminate handoffs**: Each handoff creates a queue. Cross-functional teams reduce handoffs\n3. **Remove approval gates**: Replace sequential approvals with trust-based or automated checks\n4. **Reduce batch sizes**: Smaller batches flow through faster with less waiting\n5. **Visualize wait states**: Make queues explicit on your Kanban board (separate \"waiting\" from \"working\" columns)\n6. **Address blockers immediately**: Don't let blocked items sit — escalate and resolve\n\n**Measuring Flow Efficiency**:\n\nTo measure it, you need to track both:\n- When work is actively being done (hands on keyboard, in discussion, etc.)\n- When work is waiting (in a queue, waiting for review, blocked, etc.)\n\nSome teams add \"waiting\" columns to their Kanban boards to make this visible. Others timestamp state transitions in their work tracking tools.",
+    "tags": [
+        "lean",
+        "kanban",
+        "metrics",
+        "operations",
+        "agile",
+        "productivity"
+    ],
+    "category": "Software Development",
+    "icon": "FaPercentage",
+    "featured": false,
+    "aliases": [
+        "Process Efficiency",
+        "Flow Time Efficiency"
+    ],
+    "relatedConcepts": [
+        "lead-time",
+        "cycle-time",
+        "throughput",
+        "littles-law",
+        "cumulative-flow-diagram",
+        "limit-work-in-progress",
+        "kanban",
+        "bottleneck",
+        "muda",
+        "lean-manufacturing",
+        "pull-system",
+        "slack-resources"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "This is Lean by Niklas Modig and Par Ahlstrom",
+            "url": "https://www.amazon.com/dp/919803930X?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Principles of Product Development Flow by Donald G. Reinertsen",
+            "url": "https://www.amazon.com/dp/1935401009?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Flow efficiency - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Flow_(lean)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

@@ -1,0 +1,96 @@
+{
+    "id": "throughput",
+    "name": "Throughput",
+    "summary": "The number of work items completed per unit of time, measuring a system's delivery rate in Lean, Kanban, and operations management.",
+    "explanation": "Throughput is the rate at which a system produces completed output. In software development, it's typically measured as the number of work items (stories, tasks, tickets) completed per time period (day, week, sprint). In manufacturing, it's units produced per hour or day.\n\n**Throughput vs. Related Metrics**:\n\n| Metric | What It Measures |\n|--------|------------------|\n| **Throughput** | Items completed per time period (output rate) |\n| **Velocity** | Story points completed per sprint (Scrum-specific) |\n| **Cycle Time** | Time to complete one item (per-item duration) |\n| **Lead Time** | Total time from request to delivery |\n| **Capacity** | Maximum possible throughput under ideal conditions |\n\n**Why Throughput Matters**:\n\n- **Forecasting**: If you know your throughput, you can predict when a backlog of N items will be completed\n- **Bottleneck detection**: The system's throughput equals the throughput of its bottleneck (Theory of Constraints)\n- **Process improvement**: Throughput is the ultimate measure of whether process changes actually work\n- **Right-sizing teams**: Throughput data helps determine optimal team size and structure\n\n**Little's Law Connection**:\n\nThroughput is one of three variables in Little's Law:\n\n**WIP = Throughput x Lead Time**\n\nOr equivalently: **Throughput = WIP ÷ Lead Time**\n\nThis means throughput increases when you either process items faster (reduce lead time) or maintain the same lead time while handling more concurrent work (though increasing WIP often backfires by increasing lead time).\n\n**Maximizing Throughput**:\n\n1. **Find and address the bottleneck**: The constraint determines system throughput (Theory of Constraints)\n2. **Limit WIP**: Counter-intuitively, doing fewer things at once often increases throughput by reducing context switching and wait times\n3. **Reduce variability**: Consistent item sizes and stable processes produce more predictable throughput\n4. **Eliminate waste**: Remove steps that don't add value (Lean/Muda)\n5. **Optimize the constraint**: Only invest in improving the bottleneck — improving non-constraints won't increase system throughput\n\n**Throughput Accounting**:\n\nIn the Theory of Constraints, throughput accounting replaces traditional cost accounting. It focuses on three measures:\n- **Throughput**: Rate at which the system generates money (or value)\n- **Investment/Inventory**: Money tied up in the system\n- **Operating Expense**: Money spent to turn inventory into throughput\n\nThe goal is to increase throughput while reducing inventory and operating expense.",
+    "tags": [
+        "lean",
+        "kanban",
+        "metrics",
+        "operations",
+        "agile",
+        "productivity"
+    ],
+    "category": "Software Development",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "Delivery Rate",
+        "Completion Rate"
+    ],
+    "relatedConcepts": [
+        "lead-time",
+        "cycle-time",
+        "littles-law",
+        "cumulative-flow-diagram",
+        "bottleneck",
+        "theory-of-constraints",
+        "kanban",
+        "limit-work-in-progress",
+        "lean-manufacturing",
+        "flow-efficiency",
+        "muda"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        },
+        {
+            "title": "Actionable Agile Metrics for Predictability by Daniel S. Vacanti",
+            "url": "https://www.amazon.com/dp/098643633X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Throughput (business) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Throughput_(business)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

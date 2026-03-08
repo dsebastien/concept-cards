@@ -1,0 +1,89 @@
+{
+    "id": "frecency",
+    "name": "Frecency",
+    "summary": "A scoring algorithm that combines frequency and recency of interactions to rank items by relevance, widely used in browsers, search, and knowledge management.",
+    "explanation": "Frecency is a portmanteau of 'frequency' and 'recency' — a scoring algorithm that ranks items based on both how often and how recently they've been accessed. Items that are both frequently used and recently accessed score highest, while items that were once popular but haven't been used lately gradually decay in rank.\n\n**The Basic Formula**:\n\nWhile implementations vary, the core idea is:\n\n**Frecency Score = Σ (weight × recency_bonus)**\n\nEach access adds to the score, with a bonus that decays over time. Recent accesses contribute more than older ones, and more total accesses contribute more than fewer.\n\n**Typical Decay Weights** (Mozilla Firefox model):\n\n| Time Since Access | Weight |\n|-------------------|--------|\n| Last 4 hours | 100 |\n| Last day | 70 |\n| Last week | 50 |\n| Last month | 30 |\n| Older | 10 |\n\n**Applications**:\n\n- **Browser address bars**: Firefox pioneered frecency for URL suggestions — recently and frequently visited pages rank higher\n- **Search engines**: Personalizing results based on user's access patterns\n- **Email clients**: Sorting contacts or threads by relevance\n- **Knowledge management**: Surfacing notes or documents you're likely to need\n- **Command palettes**: Ranking commands by usage patterns\n- **Application launchers**: Ordering apps by predicted need\n- **File managers**: Suggesting recently and frequently accessed files\n\n**Why Frecency Beats Frequency Alone**:\n\nPure frequency rankings suffer from the 'historical popularity' problem — something you used heavily six months ago but never use now would still rank high. Frecency solves this by allowing old activity to decay, keeping rankings current.\n\n**Why Frecency Beats Recency Alone**:\n\nPure recency rankings (most recently used) are unstable — a one-time visit to an obscure page pushes it to the top. Frecency solves this by requiring both recency and repetition to rank highly.\n\n**Connection to Power Laws**:\n\nFrecency scores in practice tend to follow power law distributions — a small number of items dominate usage while a long tail of items is rarely accessed. This makes frecency particularly efficient: the algorithm quickly identifies the vital few items that matter most.\n\n**In Personal Knowledge Management**:\n\nFrecency is valuable for PKM tools that need to surface relevant notes. Instead of showing all notes alphabetically or by creation date, frecency-based systems learn which notes you actually use and surface them when needed. This mimics how human memory works — we remember things that are both frequent and recent.",
+    "tags": [
+        "algorithms",
+        "information-retrieval",
+        "productivity",
+        "knowledge-management",
+        "ranking"
+    ],
+    "category": "Techniques",
+    "icon": "FaSortNumericUp",
+    "featured": false,
+    "aliases": [
+        "Frecency Score",
+        "Frecency Algorithm",
+        "Frecency Ranking"
+    ],
+    "relatedConcepts": [
+        "power-law",
+        "spaced-repetition",
+        "attention-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Frecency - Mozilla Wiki",
+            "url": "https://wiki.mozilla.org/User:Jesse/NewFrecency",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

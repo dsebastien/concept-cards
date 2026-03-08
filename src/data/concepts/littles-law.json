@@ -1,0 +1,92 @@
+{
+    "id": "littles-law",
+    "name": "Little's Law",
+    "summary": "A mathematical theorem stating that the average number of items in a system equals the average arrival rate multiplied by the average time each item spends in the system.",
+    "explanation": "Little's Law is a fundamental theorem in queueing theory, proven by John Little in 1961. It states:\n\n**L = λ × W**\n\nWhere:\n- **L** = Average number of items in the system (WIP)\n- **λ** (lambda) = Average arrival rate (throughput, when the system is stable)\n- **W** = Average time an item spends in the system (lead time)\n\nIn workflow terms: **WIP = Throughput × Lead Time**\n\n**Why It's Powerful**:\n\nLittle's Law is remarkably general. It applies to any stable system — manufacturing lines, software development queues, hospital emergency rooms, supermarket checkout lines, or email inboxes. The only requirement is that the system is in a steady state (arrivals roughly equal departures over time).\n\n**Practical Implications**:\n\nRearranging the formula reveals actionable insights:\n\n| Formula | Insight |\n|---------|---------|\n| **Lead Time = WIP ÷ Throughput** | To reduce lead time, either reduce WIP or increase throughput |\n| **Throughput = WIP ÷ Lead Time** | Throughput depends on how much is in progress and how fast it moves |\n| **WIP = Throughput × Lead Time** | More WIP means longer lead times (at constant throughput) |\n\n**The WIP Trap**:\n\nMany teams try to increase throughput by starting more work (increasing WIP). Little's Law shows why this backfires: if throughput stays the same (because the bottleneck hasn't changed), adding WIP directly increases lead time. Each item takes longer, and customers wait more.\n\n**Applications in Knowledge Work**:\n\n1. **Kanban WIP limits**: Justified mathematically by Little's Law — limiting WIP reduces lead time\n2. **Sprint planning**: If a Scrum team's throughput is 10 items/sprint, committing to 15 items means lead time exceeds one sprint\n3. **Personal productivity**: If you have 30 tasks (WIP) and complete 5 per week (throughput), your average lead time is 6 weeks\n4. **Hiring decisions**: Adding people doesn't immediately increase throughput, so it doesn't immediately reduce lead time\n\n**Assumptions for Validity**:\n\n- The system is in **steady state** (average arrival rate ≈ average departure rate)\n- All items that enter the system eventually leave\n- WIP is measured consistently\n- Averages are calculated over the same time period\n\nWhen these assumptions hold, Little's Law is exact — not an approximation. It's one of the few mathematical certainties in process management.",
+    "tags": [
+        "lean",
+        "kanban",
+        "metrics",
+        "operations",
+        "mathematics",
+        "productivity"
+    ],
+    "category": "Principles",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Little's Theorem",
+        "Little's Formula",
+        "L = λW"
+    ],
+    "relatedConcepts": [
+        "lead-time",
+        "cycle-time",
+        "throughput",
+        "limit-work-in-progress",
+        "kanban",
+        "bottleneck",
+        "theory-of-constraints",
+        "cumulative-flow-diagram",
+        "flow-efficiency",
+        "lean-manufacturing",
+        "pull-system"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Principles of Product Development Flow by Donald G. Reinertsen",
+            "url": "https://www.amazon.com/dp/1935401009?tag=dsebastien00-20"
+        },
+        {
+            "title": "Actionable Agile Metrics for Predictability by Daniel S. Vacanti",
+            "url": "https://www.amazon.com/dp/098643633X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Little's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Little%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

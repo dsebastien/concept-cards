@@ -1,0 +1,19 @@
+{
+    "id": "engagement-loop",
+    "name": "Engagement Loop",
+    "summary": "A self-reinforcing cycle in product design where a trigger leads to action, reward, and re-engagement, driving repeated user behavior.",
+    "explanation": "An engagement loop is a cyclical pattern designed into products and experiences that drives repeated user interaction. The basic structure follows: a **trigger** prompts the user, the user takes an **action**, the action produces a **reward**, and the reward motivates the user to re-engage, closing the loop.\n\n**The Core Loop**:\n\n1. **Trigger** — Something prompts the user to engage (notification, email, habit, boredom)\n2. **Action** — The user performs a behavior (open app, scroll, post, check)\n3. **Reward** — The user receives something valuable (content, social validation, information, progress)\n4. **Re-engagement** — The reward creates motivation or obligation to return\n\n**Types of Engagement Loops**:\n\n| Type | Example | Mechanism |\n|------|---------|----------|\n| **Social loops** | Like → notification → check → like back | Social reciprocity |\n| **Content loops** | Scroll → interesting content → scroll more | Variable rewards |\n| **Progress loops** | Complete task → earn badge → new challenge | Achievement motivation |\n| **Creation loops** | Post → get feedback → post again | Self-expression + validation |\n\n**Engagement Loops vs. Growth Loops**:\n\n- **Engagement loops** retain existing users by keeping them active\n- **Growth loops** acquire new users — each user's action brings in more users (viral loops, referral programs)\n\nThe most powerful products combine both: users engage (engagement loop) in ways that attract new users (growth loop).\n\n**Ethical Considerations**:\n\nEngagement loops can be designed to serve users (helping them build healthy habits, learn, stay connected) or to exploit them (maximizing screen time, creating anxiety, driving compulsive checking). The difference often lies in whether the reward genuinely serves the user's goals or only the platform's metrics.\n\n**Designing Healthy Engagement Loops**:\n\n- Align rewards with user goals, not just platform metrics\n- Include natural stopping points rather than infinite loops\n- Make the value exchange transparent\n- Support user autonomy rather than creating dependency\n\nUnderstanding engagement loops is essential both for product designers (to build compelling experiences) and for individuals (to recognize and resist manipulative patterns).",
+    "tags": ["product-design", "gamification", "psychology", "behavioral-design", "engagement"],
+    "category": "Techniques",
+    "icon": "FaRedo",
+    "featured": false,
+    "aliases": ["Engagement Cycle", "Core Loop", "Retention Loop"],
+    "relatedConcepts": ["habit-loop", "gamification", "variable-rewards", "hook-model", "dark-patterns", "attention-economy", "dopamine", "feedback-loop", "engagement-rate"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [{"title": "Hooked by Nir Eyal", "url": "https://www.amazon.com/dp/1591847788?tag=dsebastien00-20"}],
+    "references": [{"title": "Compulsion loop - Wikipedia", "url": "https://en.wikipedia.org/wiki/Compulsion_loop", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}
