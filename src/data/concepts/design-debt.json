@@ -1,0 +1,42 @@
+{
+    "id": "design-debt",
+    "name": "Design Debt",
+    "summary": "The accumulated cost of design shortcuts, inconsistencies, and deferred UX improvements that degrade user experience over time.",
+    "explanation": "Design debt is the accumulation of design compromises, inconsistencies, and shortcuts that build up in a product over time. Like technical debt, it results from prioritizing speed over quality, and compounds as each new feature inherits and extends existing design problems.\n\n**How design debt accumulates**:\n\n- **Inconsistent patterns**: Different UI patterns for similar interactions across the product\n- **Skipped research**: Building features without user research or validation\n- **Band-aid solutions**: Quick UI fixes that don't address underlying usability issues\n- **Style drift**: Visual design diverging from the design system over time\n- **Accessibility gaps**: Deferring accessibility improvements for 'later'\n- **Feature creep**: Adding features without redesigning information architecture\n- **Platform fragmentation**: Different design languages across web, mobile, and other platforms\n- **Legacy components**: Outdated UI elements coexisting with modern ones\n\n**Symptoms**:\n\n- Users need documentation or training for basic tasks\n- Support tickets for the same usability issues recur\n- Designers spend more time working around constraints than creating solutions\n- Onboarding new designers requires explaining numerous exceptions and edge cases\n- A/B tests show inconsistent results because baseline experience is poor\n- Users develop workarounds for unintuitive workflows\n\n**The compound effect**:\n\nEach design shortcut creates a precedent. New features built on top of flawed patterns inherit those flaws and add new ones. Users develop learned helplessness around poor UX, making it harder to know what to fix because complaints stop coming. Meanwhile, the cost of a comprehensive redesign grows with each release.\n\n**Addressing design debt**:\n\n- **Design system investment**: Create and maintain a shared design system as the single source of truth\n- **UX audits**: Regularly audit the product for inconsistencies and usability issues\n- **Dedicated debt sprints**: Allocate time specifically for design debt reduction\n- **Pattern libraries**: Document and enforce consistent interaction patterns\n- **User research loops**: Continuously validate designs with real users\n- **Accessibility reviews**: Treat accessibility as a first-class design requirement\n- **Cross-platform alignment**: Ensure consistent experience across platforms\n\nDesign debt is often less visible than technical debt because its costs manifest as user frustration, churn, and support burden rather than system crashes. This invisibility makes it particularly insidious—by the time it's acknowledged, remediation is expensive.",
+    "tags": [
+        "design",
+        "user-experience",
+        "software-development",
+        "product-development",
+        "debt"
+    ],
+    "category": "Software Development",
+    "icon": "FaPaintBrush",
+    "featured": false,
+    "aliases": [
+        "UX debt",
+        "User experience debt",
+        "UI debt"
+    ],
+    "relatedConcepts": [
+        "technical-debt",
+        "design-systems",
+        "design-thinking",
+        "documentation-debt",
+        "security-debt",
+        "accessibility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

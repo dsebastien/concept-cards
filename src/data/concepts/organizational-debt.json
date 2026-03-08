@@ -1,0 +1,68 @@
+{
+    "id": "organizational-debt",
+    "name": "Organizational Debt",
+    "summary": "The accumulated cost of deferred organizational decisions, outdated structures, and process workarounds that reduce effectiveness.",
+    "explanation": "Organizational debt is the accumulation of outdated structures, deferred decisions, legacy processes, and workarounds that a company or team carries forward because changing them was never prioritized. Like technical debt in software, it builds up gradually and compounds, making the organization increasingly slow, rigid, and inefficient.\n\n**Sources of organizational debt**:\n\n- **Structural lag**: Org charts and reporting lines that reflect past strategies, not current needs\n- **Process cruft**: Procedures created for problems that no longer exist but nobody removes\n- **Decision deferral**: Hard choices postponed repeatedly, creating ambiguity and paralysis\n- **Role confusion**: Overlapping or unclear responsibilities accumulated through ad-hoc growth\n- **Policy barnacles**: Rules added reactively to address one-off incidents, never reviewed\n- **Communication overhead**: Too many meetings, channels, and approval chains from unchecked growth\n- **Hiring compromises**: Wrong-fit hires made under pressure that create ongoing friction\n\n**How it compounds**:\n\n- Each workaround spawns new workarounds\n- New employees inherit and perpetuate outdated practices\n- Energy spent navigating dysfunction is unavailable for value creation\n- Good people leave, making problems harder to fix\n- Institutional memory of why things are the way they are fades\n\n**Symptoms**:\n\n- Simple changes require disproportionate effort\n- Nobody can explain why certain processes exist\n- Teams duplicate work because boundaries are unclear\n- Decision-making is slow despite urgency\n- New initiatives fail because they conflict with legacy structures\n\n**Addressing organizational debt**:\n\n- **Audit regularly**: Review structures, processes, and roles for relevance\n- **Sunset aggressively**: Kill processes and meetings that no longer serve their purpose\n- **Make hard decisions**: Address deferred choices before they compound further\n- **Reorganize intentionally**: Align structure with current strategy, not historical accidents\n- **Empower removal**: Give people permission to stop doing things that don't add value\n\nOrganizational debt is inevitable in any growing entity, but like technical debt, it must be consciously managed. Organizations that treat restructuring as ongoing maintenance rather than periodic upheaval tend to stay healthier and more adaptive.",
+    "tags": [
+        "organizations",
+        "leadership",
+        "management",
+        "processes",
+        "debt"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Org debt",
+        "Structural debt",
+        "Process debt"
+    ],
+    "relatedConcepts": [
+        "technical-debt",
+        "cultural-debt",
+        "community-debt",
+        "social-debt",
+        "organizational-learning",
+        "conways-law",
+        "second-order-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Hard Thing About Hard Things by Ben Horowitz",
+            "url": "https://www.amazon.com/dp/0062273205"
+        }
+    ],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

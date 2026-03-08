@@ -1,0 +1,42 @@
+{
+    "id": "security-debt",
+    "name": "Security Debt",
+    "summary": "The accumulated risk from deferred security practices, unpatched vulnerabilities, and shortcuts in security implementation.",
+    "explanation": "Security debt is the accumulation of security risks that results from consistently deferring security work in favor of feature development, speed, or cost savings. Like technical debt, it compounds over time—each deferred patch, skipped security review, or ignored vulnerability increases the attack surface and the eventual cost of remediation.\n\n**How security debt accumulates**:\n\n- **Deferred patching**: Postponing security updates because they might break functionality\n- **Skipped reviews**: Not performing security code reviews or penetration testing\n- **Legacy dependencies**: Using outdated libraries with known vulnerabilities\n- **Hardcoded secrets**: Embedding credentials and API keys in code\n- **Insufficient access controls**: Overly permissive permissions that nobody restricts\n- **Missing encryption**: Storing or transmitting sensitive data without encryption\n- **Absent monitoring**: No logging, alerting, or incident response capability\n- **Compliance gaps**: Falling behind on regulatory requirements\n\n**Why security debt is uniquely dangerous**:\n\nUnlike other forms of debt where costs are predictable and gradual, security debt can come due all at once through a breach. A single exploited vulnerability can result in data loss, financial damage, regulatory penalties, and reputational harm that far exceeds the cost of prevention. The asymmetry between attack and defense means that accumulated security debt gives adversaries a growing advantage.\n\n**Symptoms**:\n\n- Dependency scanners reporting hundreds of known vulnerabilities\n- Security patches that are months or years behind\n- No one knows what services are exposed or what data they hold\n- Security is treated as a gate at the end rather than integrated into development\n- Incident response is ad-hoc because there's no documented plan\n- Audit findings that recur year after year\n\n**Addressing security debt**:\n\n- **Prioritize by risk**: Focus on vulnerabilities with highest exploitability and impact\n- **Shift left**: Integrate security into the development lifecycle, not just deployment\n- **Automate scanning**: Use automated tools to continuously identify vulnerabilities\n- **Patch cadence**: Establish regular patching schedules and stick to them\n- **Threat modeling**: Understand what you're protecting and from whom\n- **Security champions**: Embed security-aware developers in each team\n- **Budget for maintenance**: Treat security upkeep as essential, not optional\n\nSecurity debt is arguably the most consequential form of technical debt because its costs are catastrophic when realized. Prevention is orders of magnitude cheaper than remediation after a breach.",
+    "tags": [
+        "security",
+        "software-development",
+        "risk-management",
+        "vulnerabilities",
+        "debt"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Cybersecurity debt",
+        "Infosec debt",
+        "Vulnerability debt"
+    ],
+    "relatedConcepts": [
+        "technical-debt",
+        "design-debt",
+        "documentation-debt",
+        "security-audit",
+        "risk-management",
+        "defense-in-depth"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}
