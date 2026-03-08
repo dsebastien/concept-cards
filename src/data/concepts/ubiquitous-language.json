@@ -1,0 +1,54 @@
+{
+    "id": "ubiquitous-language",
+    "name": "Ubiquitous Language",
+    "summary": "A shared, rigorous vocabulary between developers and domain experts used consistently throughout code, documentation, and conversation in Domain-Driven Design.",
+    "explanation": "Ubiquitous Language is a cornerstone concept of Domain-Driven Design (DDD) introduced by Eric Evans. It is the practice of building a common, rigorous language between developers and domain experts that is used consistently in all communication—conversations, documentation, code, tests, and diagrams. The language is not a compromise or glossary bolted on after the fact; it is the language of the domain model itself.\n\n**Why it matters:**\n\nThe single greatest source of project failure is miscommunication between technical and business teams. When developers use different terms than domain experts, or when the same word means different things to different people, errors compound silently through the system. Ubiquitous Language eliminates this gap by insisting on one shared vocabulary.\n\n**Key principles:**\n\n- **Shared ownership**: The language is developed collaboratively by developers and domain experts—neither side dictates it\n- **Used everywhere**: The same terms appear in conversations, user stories, code (class names, method names, variable names), tests, and documentation\n- **Precise and unambiguous**: Each term has one clear meaning within its bounded context\n- **Evolving**: The language changes as understanding of the domain deepens—refactoring the language means refactoring the model and the code\n\n**Bounded by context:**\n\nUbiquitous Language is always scoped to a bounded context. The term 'Account' might mean something different in the Billing context versus the Authentication context, and that's perfectly fine. What matters is that within each context, the language is consistent.\n\n**Practical benefits:**\n\n- **Reduced translation overhead**: No mental mapping between 'what the business calls it' and 'what the code calls it'\n- **Faster onboarding**: New team members learn the domain through the code itself\n- **Better requirements**: Domain experts can read and validate code behavior because the language matches their mental model\n- **Fewer bugs**: Misunderstandings caught at the language level prevent costly implementation errors\n\n**Anti-patterns:**\n\n- Technical jargon in the domain model (using 'Entity,' 'Manager,' 'Handler' instead of domain terms)\n- Synonyms for the same concept (calling it 'Client' in code but 'Customer' in conversation)\n- Silent divergence (language drifting apart over time without explicit reconciliation)",
+    "tags": [
+        "domain-driven-design",
+        "software-design",
+        "software-engineering",
+        "communication",
+        "modeling"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "UL",
+        "Domain Language",
+        "Common Language"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "bounded-context",
+        "context-mapping",
+        "conways-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        },
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Ubiquitous Language - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/UbiquitousLanguage.html",
+            "type": "website"
+        },
+        {
+            "title": "Domain-driven design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Domain-driven_design",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

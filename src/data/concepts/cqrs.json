@@ -1,0 +1,57 @@
+{
+    "id": "cqrs",
+    "name": "CQRS",
+    "summary": "A pattern that separates read and write operations into distinct models, allowing each to be optimized, scaled, and evolved independently.",
+    "explanation": "Command Query Responsibility Segregation (CQRS) is an architectural pattern that separates the read (query) and write (command) sides of an application into distinct models. Instead of using the same data model for both reading and writing, CQRS uses one model optimized for updates and another optimized for queries.\n\n**Origins:**\n\nCQRS evolved from Bertrand Meyer's Command-Query Separation (CQS) principle, which states that a method should either change state (command) or return data (query), never both. Greg Young extended this from the method level to the architectural level, creating CQRS as a pattern for entire systems.\n\n**How it works:**\n\n- **Command side (write model)**: Handles commands that change state. The model is optimized for enforcing business rules and maintaining consistency. Often uses domain-driven design patterns (aggregates, entities, value objects)\n- **Query side (read model)**: Handles queries that return data. The model is optimized for read performance—denormalized views, materialized projections, or search indexes tailored to specific UI needs\n- **Synchronization**: The read model is kept in sync with the write model, typically through domain events (eventually consistent) or database-level mechanisms\n\n**Benefits:**\n\n- **Independent optimization**: Read and write models can use different data stores, schemas, and scaling strategies\n- **Simplified models**: Each side focuses on its specific concern, reducing complexity\n- **Scalability**: Reads typically outnumber writes 10:1 or more; CQRS allows scaling each independently\n- **Performance**: Read models can be pre-computed and denormalized for fast queries\n- **Security**: Finer-grained control over who can read versus who can write\n\n**CQRS + Event Sourcing:**\n\nCQRS pairs naturally with event sourcing. The write side produces events, and the read side builds projections from those events. This combination provides both a complete audit trail and optimized read performance, but adds significant complexity.\n\n**When to use:**\n\nCQRS is most valuable when read and write workloads have very different characteristics, when you need different read models for different consumers, or when combined with event sourcing for complex domains. Avoid it for simple CRUD applications where a single model suffices.",
+    "tags": [
+        "architecture",
+        "software-design",
+        "patterns",
+        "domain-driven-design",
+        "scalability"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Command Query Responsibility Segregation",
+        "Command-Query Separation Architecture"
+    ],
+    "relatedConcepts": [
+        "event-sourcing",
+        "domain-event",
+        "domain-driven-design",
+        "aggregate",
+        "microservices-architecture",
+        "bounded-context",
+        "clean-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "CQRS - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/CQRS.html",
+            "type": "website"
+        },
+        {
+            "title": "Command Query Responsibility Segregation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

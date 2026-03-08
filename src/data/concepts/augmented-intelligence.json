@@ -1,0 +1,94 @@
+{
+    "id": "augmented-intelligence",
+    "name": "Augmented Intelligence",
+    "summary": "An approach to AI that emphasizes technology as an enhancement to human intelligence rather than a replacement, keeping humans at the center of decision-making.",
+    "explanation": "Augmented intelligence is an alternative framing of artificial intelligence that emphasizes the role of AI as a tool for enhancing human cognitive abilities rather than replacing human judgment. The term was deliberately chosen to shift focus from 'artificial' (suggesting replacement) to 'augmented' (suggesting enhancement), reflecting the view that the most valuable AI applications amplify human capabilities rather than automate humans away.\n\n**The core philosophy:**\n\nWhere artificial intelligence asks 'How can machines think like humans?', augmented intelligence asks 'How can machines make humans think better?' The distinction is not just semantic—it drives fundamentally different design decisions:\n\n- **AI-centric**: Automate the human out of the loop. Optimize for full autonomy\n- **Augmented intelligence**: Keep the human in the loop. Optimize for human+machine performance\n\n**How augmented intelligence works:**\n\n- **Information synthesis**: AI processes vast amounts of data and presents relevant patterns, leaving interpretation and judgment to humans\n- **Decision support**: AI generates options and predictions, but humans make the final call\n- **Cognitive offloading**: AI handles routine cognitive tasks (data retrieval, formatting, scheduling), freeing human attention for higher-order thinking\n- **Pattern recognition**: AI identifies patterns across scales too large for human perception, which humans then validate and act on\n- **Creative amplification**: AI generates drafts, variations, and suggestions that humans refine and curate\n\n**Real-world applications:**\n\n- **Medicine**: AI analyzing medical images to flag potential issues for doctor review (not replacing the doctor)\n- **Legal**: AI reviewing thousands of documents for relevance, with lawyers making judgment calls\n- **Knowledge work**: AI assistants that help draft, research, and organize, with humans providing direction and quality control\n- **Creative work**: AI tools that generate options and variations, with humans making aesthetic and strategic choices\n\n**Why augmented over artificial:**\n\n- **Accountability**: Humans remain responsible for decisions, maintaining ethical and legal accountability\n- **Contextual judgment**: Humans excel at understanding nuance, context, and edge cases that AI may miss\n- **Trust**: Stakeholders trust human-in-the-loop systems more than fully automated ones\n- **Complementary strengths**: Humans and AI have different cognitive strengths—combining them outperforms either alone (the centaur model)\n\n**The augmented intelligence spectrum:**\n\nFrom minimal to deep integration:\n1. **Tool use**: AI as a discrete tool (search engine, calculator)\n2. **Assistant**: AI as a conversational partner (chatbots, copilots)\n3. **Centaur model**: Human and AI as equal partners with distinct roles\n4. **Cyborg model**: Deep integration where AI augments cognition in real-time",
+    "tags": [
+        "ai",
+        "human-ai-interaction",
+        "cognition",
+        "technology",
+        "thinking"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "IA",
+        "AI Augmentation",
+        "Human-Centered AI"
+    ],
+    "relatedConcepts": [
+        "intelligence-amplification",
+        "cognitive-augmentation",
+        "centaur-model",
+        "cyborg-model",
+        "human-in-the-loop",
+        "extended-mind-thesis",
+        "exocortex",
+        "cognitive-offloading"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Augmented intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Augmented_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Intelligence amplification - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Intelligence_amplification",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

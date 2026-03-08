@@ -1,0 +1,57 @@
+{
+    "id": "domain-event",
+    "name": "Domain Event",
+    "summary": "A record of something significant that happened in the business domain, used to communicate state changes and trigger side effects across system boundaries.",
+    "explanation": "A Domain Event is a DDD pattern that captures something meaningful that happened in the domain—a fact that domain experts care about. Unlike technical events (button clicks, HTTP requests), domain events express business-significant occurrences in the ubiquitous language: 'OrderPlaced,' 'PaymentReceived,' 'InventoryDepleted,' 'CustomerUpgraded.'\n\n**Key characteristics:**\n\n- **Immutable**: Events represent things that already happened—they cannot be changed or undone, only compensated for\n- **Past tense**: Named in past tense to emphasize they are facts ('OrderShipped,' not 'ShipOrder')\n- **Self-contained**: Carry enough information for consumers to act without querying back to the source\n- **Domain-meaningful**: Express business concepts, not technical implementation details\n\n**Why domain events matter:**\n\n- **Decoupling**: Bounded contexts can communicate through events without direct dependencies. The publishing context doesn't need to know who listens\n- **Audit trail**: Events provide a natural history of what happened in the system\n- **Eventual consistency**: Enable asynchronous processing across aggregate boundaries and bounded contexts\n- **Extensibility**: New behaviors can be added by subscribing to existing events without modifying the publisher\n\n**Patterns and usage:**\n\n- **Internal events**: Raised within a bounded context to coordinate between aggregates (e.g., after saving an Order, notify Inventory)\n- **Integration events**: Published across bounded contexts or services via message brokers (Kafka, RabbitMQ, etc.)\n- **Event sourcing**: When domain events become the primary source of truth—state is derived by replaying events\n- **Event-driven architecture**: Building entire systems around the flow of domain events\n\n**Design considerations:**\n\n- Include a timestamp, event type, aggregate ID, and relevant data\n- Version events to handle schema evolution\n- Design for idempotent handling (consumers should handle duplicate events gracefully)\n- Consider event ordering guarantees required by your domain",
+    "tags": [
+        "domain-driven-design",
+        "software-design",
+        "architecture",
+        "patterns",
+        "event-driven"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Domain Events",
+        "Business Event"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "event-sourcing",
+        "cqrs",
+        "aggregate",
+        "bounded-context",
+        "saga-pattern",
+        "event-storming",
+        "microservices-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        },
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Domain event - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Domain_event",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

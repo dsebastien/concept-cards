@@ -1,0 +1,55 @@
+{
+    "id": "event-storming",
+    "name": "Event Storming",
+    "summary": "A collaborative workshop technique for rapidly exploring and modeling complex business domains by discovering domain events on sticky notes.",
+    "explanation": "Event Storming is a workshop-based method invented by Alberto Brandolini for rapidly exploring complex business domains. Participants—developers, domain experts, and stakeholders—collaboratively map out a business process by identifying domain events (orange sticky notes), commands that trigger them (blue), aggregates that handle them (yellow), and external systems, policies, and read models involved.\n\n**How it works:**\n\n1. **Big Picture**: Everyone writes domain events on orange sticky notes and places them on a long wall in rough chronological order. This creates a timeline of the business process\n2. **Hotspots**: Mark areas of confusion, disagreement, or complexity with pink/red stickies for later discussion\n3. **Commands and actors**: Add blue stickies for the commands that trigger events, and small yellow stickies for the actors (people or systems) that issue commands\n4. **Aggregates**: Group related events and commands under yellow aggregates that enforce business rules\n5. **Bounded contexts**: Identify natural boundaries where language or rules change, revealing bounded context boundaries\n6. **Policies**: Add lilac stickies for business rules that react to events ('When OrderPlaced, then ReserveInventory')\n\n**Why it works:**\n\n- **Inclusive**: Non-technical stakeholders can participate meaningfully—no UML or technical notation required\n- **Fast**: A few hours of Event Storming can reveal domain insights that months of traditional analysis might miss\n- **Visual**: The physical wall creates a shared mental model that everyone can see and discuss\n- **Conflict-surfacing**: Disagreements about how the business works become visible immediately, preventing costly misunderstandings later\n\n**Variants:**\n\n- **Big Picture Event Storming**: High-level exploration of an entire business domain\n- **Process Modeling**: Detailed modeling of a specific business process\n- **Software Design**: Drilling into aggregate design and bounded context boundaries for implementation\n\n**Practical tips:**\n\n- Use a very long wall (8+ meters) with unlimited sticky notes\n- Include both developers and domain experts—the magic happens at the intersection\n- Start with events, not entities or data models\n- Embrace chaos initially; structure emerges through discussion\n- Photograph the result and translate it into a more permanent format afterward",
+    "tags": [
+        "domain-driven-design",
+        "software-design",
+        "modeling",
+        "collaboration",
+        "methodologies"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "EventStorming"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "domain-event",
+        "bounded-context",
+        "aggregate",
+        "ubiquitous-language",
+        "context-mapping"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Introducing EventStorming by Alberto Brandolini",
+            "url": "https://www.amazon.com/dp/B09H5JDQN8?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Event storming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Event_storming",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

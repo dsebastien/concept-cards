@@ -1,0 +1,99 @@
+{
+    "id": "limiting-factor",
+    "name": "Limiting Factor",
+    "summary": "The single constraint that most restricts the performance, growth, or output of a system at any given time.",
+    "explanation": "A limiting factor is the one constraint that, more than any other, restricts the overall performance of a system. The concept originates from Liebig's Law of the Minimum in agriculture (1840), which states that plant growth is determined not by total available resources but by the scarcest resource—the limiting factor. A plant with abundant water, sunlight, and most nutrients will still fail to grow if it lacks a single essential mineral.\n\n**The principle generalizes:**\n\nThis principle applies far beyond agriculture:\n\n- **Manufacturing**: The slowest machine in a production line limits the entire line's throughput (the bottleneck)\n- **Software**: The slowest component in a system determines overall response time\n- **Personal productivity**: Your output is constrained by your most limited resource—time, energy, focus, or skill\n- **Business growth**: A company's growth is limited by its tightest constraint—capital, talent, market size, or operational capacity\n- **Learning**: Knowledge gaps in foundational areas limit the ability to learn advanced topics\n\n**Key insight—it shifts:**\n\nOnce you address the current limiting factor, a new one emerges. This is the central insight of the Theory of Constraints: improvement is an ongoing process of identifying and addressing the current constraint, not a one-time fix. After you fix the bottleneck in production, perhaps sales becomes the constraint. After you hire more talent, perhaps onboarding capacity limits growth.\n\n**How to identify the limiting factor:**\n\n- **Look for queues**: Work piling up before a step indicates that step is the constraint\n- **Measure throughput**: The step with the lowest throughput rate is likely the limiting factor\n- **Ask 'what if?'**: If we doubled capacity at this step, would overall output increase? If yes, it's the constraint\n- **Trace dependencies**: What does everything else depend on?\n\n**Relationship to other concepts:**\n\n- **Theory of Constraints (TOC)**: Formalizes the process of identifying and exploiting limiting factors\n- **Bottleneck**: The physical or operational manifestation of a limiting factor\n- **Pareto Principle**: The limiting factor is often the '20%' that determines 80% of the result\n- **Leverage points**: Addressing the limiting factor is the highest-leverage intervention in a system",
+    "tags": [
+        "systems-thinking",
+        "productivity",
+        "strategy",
+        "optimization",
+        "thinking"
+    ],
+    "category": "Thinking",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Liebig's Law of the Minimum",
+        "Rate-Limiting Factor",
+        "Binding Constraint"
+    ],
+    "relatedConcepts": [
+        "defining-factor",
+        "theory-of-constraints",
+        "bottleneck",
+        "leverage-points",
+        "pareto-principle",
+        "identifying-system-constraints",
+        "critical-success-factor",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Liebig's law of the minimum - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Liebig%27s_law_of_the_minimum",
+            "type": "website"
+        },
+        {
+            "title": "Limiting factor - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Limiting_factor",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

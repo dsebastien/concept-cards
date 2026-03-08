@@ -1,0 +1,58 @@
+{
+    "id": "saga-pattern",
+    "name": "Saga Pattern",
+    "summary": "A pattern for managing distributed transactions across multiple services by coordinating a sequence of local transactions with compensating actions for failures.",
+    "explanation": "The Saga Pattern is a design pattern for managing data consistency across multiple services in a distributed system without using traditional distributed transactions (two-phase commit). Instead of a single atomic transaction spanning multiple services, a saga breaks the operation into a sequence of local transactions, each updating a single service. If any step fails, compensating transactions are executed to undo the preceding steps.\n\n**The problem it solves:**\n\nIn a microservices architecture, each service owns its own database. A business operation that spans multiple services (e.g., placing an order that involves inventory, payment, and shipping) cannot use a single database transaction. Traditional distributed transactions (2PC) are too slow, brittle, and create tight coupling. Sagas provide eventual consistency without these drawbacks.\n\n**Two coordination approaches:**\n\n- **Choreography**: Each service publishes events that trigger the next step. No central coordinator—services react to events independently. Simpler for small sagas but can become hard to follow as complexity grows\n- **Orchestration**: A central saga orchestrator directs each step, telling services what to do and handling responses. More explicit control flow but introduces a single point of coordination\n\n**How it works (example: Order Placement):**\n\n1. Order Service creates order (status: PENDING)\n2. Payment Service charges customer\n3. Inventory Service reserves items\n4. Shipping Service schedules delivery\n5. Order Service confirms order (status: CONFIRMED)\n\n**If step 3 fails:**\n\n1. Inventory Service reports failure\n2. Compensating transaction: Payment Service refunds customer\n3. Compensating transaction: Order Service cancels order (status: CANCELLED)\n\n**Key principles:**\n\n- **Compensating transactions**: Every step that can fail must have a corresponding undo operation\n- **Idempotency**: Each step must be idempotent—safe to retry without side effects\n- **Eventual consistency**: The system may be temporarily inconsistent during saga execution\n- **Isolation concerns**: Concurrent sagas may see intermediate states; semantic locks or countermeasures may be needed\n\n**When to use:**\n\nSagas are essential in microservices architectures where business operations span multiple services. They're the standard approach to distributed data consistency in event-driven systems. For monolithic applications or operations within a single database, traditional ACID transactions remain simpler and more appropriate.",
+    "tags": [
+        "architecture",
+        "software-design",
+        "patterns",
+        "distributed-systems",
+        "domain-driven-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Saga",
+        "Long-Running Transaction",
+        "Distributed Saga"
+    ],
+    "relatedConcepts": [
+        "domain-event",
+        "event-sourcing",
+        "microservices-architecture",
+        "aggregate",
+        "cqrs",
+        "domain-driven-design",
+        "idempotency"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Microservices Patterns by Chris Richardson",
+            "url": "https://www.amazon.com/dp/1617294543?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Saga pattern - Azure Architecture Center",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga",
+            "type": "website"
+        },
+        {
+            "title": "Compensating transaction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Compensating_transaction",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

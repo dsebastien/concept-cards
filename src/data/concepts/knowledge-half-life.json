@@ -1,0 +1,89 @@
+{
+    "id": "knowledge-half-life",
+    "name": "Knowledge Half-Life",
+    "summary": "The time it takes for half of the knowledge in a given field to become outdated, superseded, or proven incorrect.",
+    "explanation": "Knowledge half-life is a concept borrowed from nuclear physics and applied to epistemology and knowledge management. Just as radioactive isotopes decay at predictable rates, knowledge in various fields becomes obsolete at measurable rates. The concept was popularized by Samuel Arbesman in 'The Half-Life of Facts' (2012), where he demonstrated that factual knowledge has a quantifiable shelf life.\n\n**Half-lives across fields:**\n\n- **Medicine**: Roughly 5-7 years. A significant portion of what medical students learn will be superseded before mid-career\n- **Engineering**: Approximately 5-10 years, varying by sub-field. Software engineering has shorter half-lives than civil engineering\n- **Physics**: Core principles are very stable, but applied knowledge changes faster\n- **Technology/Software**: Often 2-5 years. Specific tools and frameworks can become obsolete in months\n- **Psychology**: Ongoing replication crisis is actively shortening the half-life of many findings\n- **Mathematics**: Extremely long half-life—theorems, once proven, remain valid indefinitely\n\n**The hierarchy of knowledge durability:**\n\nNot all knowledge decays at the same rate:\n- **Principles and mental models**: Very durable (decades to centuries). First principles, logical reasoning, systems thinking\n- **Domain frameworks**: Moderately durable (10-20 years). Theoretical models, methodologies\n- **Applied knowledge**: Less durable (3-10 years). Best practices, professional standards\n- **Technical specifics**: Perishable (1-5 years). Tools, APIs, platform features, configuration details\n- **Current events**: Ephemeral (days to months). News, trends, market conditions\n\n**Implications for knowledge workers:**\n\n- **Invest wisely**: Prioritize learning durable knowledge (principles, mental models) over perishable knowledge (specific tools)\n- **Build systems for updating**: Knowledge management systems should facilitate revision and archiving, not just accumulation\n- **Plan for obsolescence**: Budget time for continual learning and expect that current expertise will need refreshing\n- **Date your knowledge**: Recording when you learned something helps assess its likely validity\n\n**Relationship to other concepts:**\n\nKnowledge half-life provides the quantitative backbone for concepts like knowledge obsolescence, continual learning, and intentional forgetting. It explains why spaced repetition alone is insufficient—you must also verify and update what you're retaining, not just strengthen recall of potentially outdated information.",
+    "tags": [
+        "knowledge-management",
+        "learning",
+        "changes",
+        "epistemology"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Half-Life of Facts",
+        "Information Half-Life",
+        "Fact Decay Rate"
+    ],
+    "relatedConcepts": [
+        "knowledge-obsolescence",
+        "continual-learning",
+        "intentional-forgetting",
+        "forgetting-curve",
+        "lifelong-learning",
+        "spaced-repetition",
+        "compound-learning",
+        "skill-atrophy",
+        "unlearning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Half-Life of Facts by Samuel Arbesman",
+            "url": "https://www.amazon.com/dp/159184651X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Half-life of knowledge - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Half-life_of_knowledge",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

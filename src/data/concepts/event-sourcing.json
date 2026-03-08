@@ -1,0 +1,57 @@
+{
+    "id": "event-sourcing",
+    "name": "Event Sourcing",
+    "summary": "A pattern that persists the state of an entity as a sequence of immutable events rather than storing only the current state.",
+    "explanation": "Event Sourcing is an architectural pattern where the state of an application is determined by a sequence of events rather than by storing the current state directly. Instead of updating a row in a database, every state change is captured as an immutable event appended to an event store. The current state is reconstructed by replaying all events from the beginning (or from a snapshot).\n\n**How it works:**\n\n1. A command triggers a domain operation (e.g., 'Place Order')\n2. The aggregate validates the command against current state\n3. If valid, one or more domain events are produced ('OrderPlaced,' 'InventoryReserved')\n4. Events are appended to the event store (append-only, immutable)\n5. Current state is derived by replaying events\n\n**Benefits:**\n\n- **Complete audit trail**: Every change is recorded—you can answer 'what happened and when' for any point in time\n- **Temporal queries**: Reconstruct the state at any historical point by replaying events up to that moment\n- **Debugging**: Reproduce bugs by replaying the exact sequence of events that led to the issue\n- **Event-driven integration**: Events naturally feed other systems, projections, and read models\n- **No data loss**: Since events are never deleted or modified, no business information is lost\n\n**Challenges:**\n\n- **Event schema evolution**: As the domain model changes, older events may need migration or upcasting\n- **Eventual consistency**: Read models are updated asynchronously, creating a delay between write and read\n- **Complexity**: Significantly more complex than CRUD for simple domains\n- **Storage growth**: Event stores grow indefinitely; snapshots help but add complexity\n- **Learning curve**: Requires a fundamental shift in how developers think about persistence\n\n**When to use:**\n\nEvent sourcing shines in domains with complex business logic, audit requirements, temporal queries, or event-driven architectures. It pairs naturally with CQRS (Command Query Responsibility Segregation), where the write model uses events and the read model uses optimized projections.\n\n**When NOT to use:**\n\nSimple CRUD applications, domains without audit requirements, or teams without experience in event-driven systems. The added complexity must be justified by genuine business needs.",
+    "tags": [
+        "architecture",
+        "software-design",
+        "patterns",
+        "domain-driven-design",
+        "event-driven"
+    ],
+    "category": "Software Development",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "ES",
+        "Event Store Pattern"
+    ],
+    "relatedConcepts": [
+        "domain-event",
+        "cqrs",
+        "domain-driven-design",
+        "aggregate",
+        "saga-pattern",
+        "microservices-architecture",
+        "event-storming"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Event sourcing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Event_sourcing",
+            "type": "website"
+        },
+        {
+            "title": "Event Sourcing - Martin Fowler",
+            "url": "https://martinfowler.com/eaaDev/EventSourcing.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

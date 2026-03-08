@@ -1,0 +1,65 @@
+{
+    "id": "anti-corruption-layer",
+    "name": "Anti-Corruption Layer",
+    "summary": "A translation layer that isolates a bounded context from external or legacy systems, preventing their models from contaminating the internal domain model.",
+    "explanation": "The Anti-Corruption Layer (ACL) is a strategic Domain-Driven Design pattern that creates an isolating layer between a bounded context and an external system whose model differs from or would negatively influence the internal domain model. It translates between the two models, ensuring that the clean domain model remains uncontaminated by external concerns.\n\n**When to use:**\n\n- Integrating with legacy systems that have a different (often messier) domain model\n- Consuming third-party APIs whose data structures don't match your domain\n- Migrating from an old system to a new one incrementally\n- Protecting your domain model from an upstream system you don't control\n\n**How it works:**\n\nThe ACL sits at the boundary of a bounded context and performs three functions:\n\n1. **Translation**: Converts data from the external model to the internal model and vice versa (e.g., mapping a legacy 'CUST_REC' to a domain 'Customer' entity)\n2. **Facade**: Presents a clean, domain-appropriate interface that hides the complexity of the external system\n3. **Adapter**: Handles protocol and format differences (REST to SOAP, XML to JSON, synchronous to asynchronous)\n\n**Implementation patterns:**\n\n- **Service layer**: A set of services that wrap external system calls and return domain objects\n- **Translators/Mappers**: Dedicated classes that convert between external and internal representations\n- **Gateway pattern**: An object that encapsulates access to an external system or resource\n- **Event translation**: Converting external events into internal domain events\n\n**Benefits:**\n\n- **Model integrity**: Your domain model stays clean and focused on your business needs\n- **Change isolation**: When the external system changes, only the ACL needs updating\n- **Testability**: The ACL provides a natural seam for testing—you can mock the external system at the ACL boundary\n- **Incremental migration**: When replacing a legacy system, the ACL allows gradual transition\n\n**The cost of NOT having an ACL:**\n\nWithout an anti-corruption layer, external models leak into your domain code. Over time, your domain model becomes a hybrid that serves no context well—cluttered with fields, translations, and workarounds for external system quirks. This is a form of technical debt that compounds rapidly.",
+    "tags": [
+        "domain-driven-design",
+        "software-design",
+        "architecture",
+        "patterns",
+        "integration"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "ACL",
+        "Translation Layer",
+        "Isolation Layer"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "bounded-context",
+        "context-mapping",
+        "clean-architecture",
+        "microservices-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        },
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Anti-corruption layer - Azure Architecture Center",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer",
+            "type": "website"
+        },
+        {
+            "title": "Domain-driven design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Domain-driven_design",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

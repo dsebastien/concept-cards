@@ -1,0 +1,24 @@
+{
+    "id": "entity",
+    "name": "Entity",
+    "summary": "A domain object defined by its unique identity that persists through time and state changes, rather than being defined by its attributes.",
+    "explanation": "An Entity in Domain-Driven Design is a domain object that is fundamentally defined by its identity rather than its attributes. While a value object is interchangeable with any other instance that has the same values, an entity has a unique identity that distinguishes it from all other objects—even those with identical attributes.\n\n**The identity principle:**\n\nConsider two people named 'John Smith' living at the same address. They have identical attributes, but they are clearly different people. Each has a persistent identity (perhaps a Social Security Number, employee ID, or database primary key) that distinguishes them. This is the essence of an entity: identity matters more than attributes.\n\n**Key characteristics:**\n\n- **Unique identity**: Each entity has an identifier that distinguishes it from all others of the same type\n- **Continuity over time**: An entity maintains its identity even as its attributes change (a Customer who changes their name or address is still the same Customer)\n- **Mutable state**: Unlike value objects, entities can and do change their attributes over time\n- **Lifecycle**: Entities are created, modified, and eventually archived or deleted—they have a meaningful lifecycle\n\n**Common examples:**\n\n- **Customer**: Identified by customer ID, even if name, email, or address changes\n- **Order**: Identified by order number, persists through status changes (Pending → Confirmed → Shipped → Delivered)\n- **BankAccount**: Identified by account number, balance changes over time\n- **Employee**: Identified by employee ID, role and department may change\n\n**Design guidelines:**\n\n- **Focus on identity**: Define what makes each entity unique and ensure that identity is immutable\n- **Minimize attributes**: Keep entities lean. Move descriptive attributes into value objects where possible\n- **Encapsulate behavior**: Entities should contain the business logic that governs their state transitions\n- **Aggregate membership**: Entities are typically part of an aggregate, with one entity serving as the aggregate root\n\n**Entity vs. Value Object:**\n\nChoosing between entity and value object is one of the most important modeling decisions in DDD. Ask: 'Do I need to track this specific instance over time?' If yes, it's an entity. If two instances with the same attributes are interchangeable, it's a value object.",
+    "tags": ["domain-driven-design", "software-design", "patterns", "modeling", "software-engineering"],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": ["Domain Entity", "DDD Entity"],
+    "relatedConcepts": ["domain-driven-design", "value-object", "aggregate", "domain-event", "bounded-context", "design-patterns"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {"title": "Domain-Driven Design by Eric Evans", "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"},
+        {"title": "Implementing Domain-Driven Design by Vaughn Vernon", "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"}
+    ],
+    "references": [
+        {"title": "Domain-driven design - Wikipedia", "url": "https://en.wikipedia.org/wiki/Domain-driven_design#Building_blocks", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

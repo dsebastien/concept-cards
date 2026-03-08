@@ -1,0 +1,53 @@
+{
+    "id": "value-object",
+    "name": "Value Object",
+    "summary": "An immutable domain object defined entirely by its attributes rather than by a unique identity, where two instances with the same values are considered equal.",
+    "explanation": "A Value Object is a fundamental building block in Domain-Driven Design (DDD) that represents a descriptive aspect of the domain with no conceptual identity. Unlike entities, which are defined by their unique identity (an Order with ID #12345), value objects are defined entirely by their attributes—two Money objects with the same amount and currency are interchangeable.\n\n**Key characteristics:**\n\n- **Immutability**: Once created, a value object cannot be changed. Operations return new instances rather than modifying existing ones\n- **Equality by value**: Two value objects are equal if all their attributes are equal, regardless of reference identity\n- **Self-validating**: A value object validates its attributes at construction time—it cannot exist in an invalid state\n- **Side-effect free**: Methods on value objects compute and return results without modifying state\n- **Replaceable**: Instead of changing a value object, you replace it with a new one\n\n**Common examples:**\n\n- **Money**: Amount + Currency (not just a raw number)\n- **Address**: Street + City + PostalCode + Country\n- **DateRange**: StartDate + EndDate (with validation that start <= end)\n- **EmailAddress**: A string wrapper that enforces email format\n- **Color**: RGB values\n- **Coordinates**: Latitude + Longitude\n\n**Why value objects matter:**\n\n- **Expressiveness**: `Money(100, 'USD')` is far more meaningful than a raw `float` or `int`\n- **Type safety**: You can't accidentally add Money to a Temperature or pass a street address where a ZIP code is expected\n- **Encapsulated validation**: Business rules about valid values live in one place\n- **Reduced primitive obsession**: Replace scattered primitive types with rich, meaningful domain types\n- **Simplified testing**: Immutability and value equality make value objects easy to test and reason about\n\n**Value Object vs. Entity:**\n\nThe key question is: does identity matter? If two objects with identical attributes are interchangeable, it's a value object. If you need to track a specific instance across time (this particular customer, that specific order), it's an entity.",
+    "tags": [
+        "domain-driven-design",
+        "software-design",
+        "patterns",
+        "modeling",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "VO",
+        "Value Type"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "entity",
+        "aggregate",
+        "design-patterns"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        },
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Value object - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Value_object",
+            "type": "website"
+        },
+        {
+            "title": "ValueObject - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/ValueObject.html",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

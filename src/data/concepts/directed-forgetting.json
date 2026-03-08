@@ -1,0 +1,21 @@
+{
+    "id": "directed-forgetting",
+    "name": "Directed Forgetting",
+    "summary": "An experimental paradigm and cognitive strategy where specific information is deliberately targeted for forgetting, demonstrating voluntary control over memory.",
+    "explanation": "Directed forgetting refers to the ability to intentionally forget specific information when instructed or motivated to do so. Originally studied as an experimental paradigm in cognitive psychology, it has broader implications for understanding how we manage our mental contents and for practical strategies in knowledge work and well-being.\n\n**The experimental paradigm:**\n\nIn directed forgetting experiments, participants study a list of items and are told to remember some (R items) and forget others (F items). Two main methods are used:\n\n- **Item method**: After each item, participants receive a 'remember' or 'forget' cue. Forget-cued items are recalled less often, suggesting people can selectively encode information\n- **List method**: After studying an initial list, participants are told to forget it and study a new list. The first list shows reduced recall, suggesting people can inhibit access to already-encoded memories\n\n**Mechanisms:**\n\n- **Selective rehearsal**: People simply stop rehearsing forget-cued items, preventing consolidation\n- **Retrieval inhibition**: Already-stored memories are actively suppressed, making them harder to access\n- **Context change**: Mental context shifts between remember and forget sets, making forget items harder to retrieve\n\n**Practical applications:**\n\n- **Updating knowledge**: When information changes (new procedures, corrected facts), directed forgetting helps replace outdated knowledge\n- **Emotional regulation**: Deliberately letting go of rumination about negative events\n- **Focus management**: Clearing irrelevant information to concentrate on current tasks\n- **PKM maintenance**: Archiving or deleting outdated notes mirrors directed forgetting at the system level\n\n**Limitations:**\n\nDirected forgetting is not absolute—'forgotten' items often show implicit memory effects and can be recovered under certain conditions. Emotional or highly distinctive items are harder to intentionally forget. This suggests that while we have meaningful control over memory, that control has boundaries.",
+    "tags": ["cognition", "memories", "psychology", "neuroscience"],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": ["Instructed Forgetting"],
+    "relatedConcepts": ["intentional-forgetting", "motivated-forgetting", "forgetting-as-learning", "forgetting-curve", "retrieval-induced-forgetting", "memory", "selective-attention", "working-memory", "interference-theory"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {"title": "Directed forgetting - Wikipedia", "url": "https://en.wikipedia.org/wiki/Directed_forgetting", "type": "website"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

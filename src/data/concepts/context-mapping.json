@@ -1,0 +1,60 @@
+{
+    "id": "context-mapping",
+    "name": "Context Mapping",
+    "summary": "A strategic DDD technique for visualizing and managing the relationships and integration patterns between bounded contexts.",
+    "explanation": "Context Mapping is a strategic Domain-Driven Design practice for identifying, documenting, and managing the relationships between bounded contexts. A context map is a visual representation showing how different parts of a system (or organization) relate to each other—where they share models, where they diverge, and how they communicate.\n\n**Why context mapping matters:**\n\nIn any non-trivial system, multiple bounded contexts must interact. Without explicit mapping, these interactions become implicit, leading to hidden coupling, conflicting models, and integration nightmares. Context mapping makes these relationships visible and intentional.\n\n**Relationship patterns:**\n\n- **Shared Kernel**: Two contexts share a small subset of the domain model. Changes require coordination between both teams. Use sparingly—it creates tight coupling\n- **Customer-Supplier**: Upstream context (supplier) provides data or services to the downstream context (customer). The downstream team can negotiate requirements, but the upstream team prioritizes\n- **Conformist**: The downstream context adopts the upstream context's model as-is, with no negotiation power. Common when integrating with external systems or dominant platforms\n- **Anti-Corruption Layer (ACL)**: The downstream context creates a translation layer to protect its model from the upstream context's influence. Essential when integrating with legacy systems\n- **Open Host Service (OHS)**: A context provides a well-defined, versioned API for multiple consumers. The protocol is designed to serve a broad range of needs\n- **Published Language**: A shared language (e.g., a standard data format like JSON Schema, Protocol Buffers, or industry standards) used for inter-context communication\n- **Separate Ways**: Two contexts have no integration at all—they operate independently. Sometimes the best relationship is no relationship\n- **Partnership**: Two contexts evolve together with mutual dependencies. Both teams coordinate closely on changes\n\n**Creating a context map:**\n\n1. Identify all bounded contexts in your system\n2. Map the relationships between each pair that interacts\n3. Label each relationship with the appropriate pattern\n4. Identify team ownership and communication patterns\n5. Highlight areas of risk, friction, or misalignment\n\n**Organizational alignment:**\n\nContext maps often mirror organizational structures (Conway's Law). They reveal not just technical relationships but team dynamics, power asymmetries, and communication patterns.",
+    "tags": [
+        "domain-driven-design",
+        "software-design",
+        "architecture",
+        "modeling",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Context Map",
+        "Strategic Design Map"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "bounded-context",
+        "anti-corruption-layer",
+        "ubiquitous-language",
+        "conways-law",
+        "microservices-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        },
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Context Mapping - DDD Community",
+            "url": "https://www.ddd-community.com",
+            "type": "website"
+        },
+        {
+            "title": "Domain-driven design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Domain-driven_design",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

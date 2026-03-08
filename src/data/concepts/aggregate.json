@@ -1,0 +1,57 @@
+{
+    "id": "aggregate",
+    "name": "Aggregate",
+    "summary": "A cluster of domain objects treated as a single unit for data changes, with a root entity that controls all access and enforces invariants.",
+    "explanation": "An Aggregate is a tactical pattern in Domain-Driven Design (DDD) that defines a cluster of closely related domain objects—entities and value objects—that are treated as a single unit for the purpose of data changes. Every aggregate has a root entity (the Aggregate Root) that serves as the sole entry point for external access and is responsible for enforcing all business rules (invariants) within the cluster.\n\n**Core rules:**\n\n- **Single root**: Each aggregate has exactly one root entity with a globally unique identity\n- **External references**: Outside objects may only hold references to the aggregate root, never to internal objects\n- **Transactional boundary**: All changes within an aggregate must be committed atomically in a single transaction\n- **Invariant enforcement**: The aggregate root ensures that all business rules are satisfied before and after any operation\n- **Internal object access**: Internal entities and value objects are accessed only through the root\n\n**Why aggregates matter:**\n\n- **Consistency boundaries**: They define where strong consistency is required, simplifying reasoning about correctness\n- **Concurrency control**: By limiting the scope of transactions to a single aggregate, you reduce contention and improve scalability\n- **Encapsulation**: Business logic is concentrated in the aggregate, preventing domain rules from leaking across the system\n- **Design guidance**: They force you to think carefully about which objects truly belong together\n\n**Design guidelines:**\n\n- **Keep them small**: Large aggregates create performance and concurrency problems. Prefer small aggregates with just the root entity and essential value objects\n- **Reference by identity**: Aggregates should reference other aggregates by ID, not by direct object reference\n- **One aggregate per transaction**: Modify only one aggregate per transaction. Use domain events and eventual consistency for cross-aggregate coordination\n- **Design around invariants**: The aggregate boundary should enclose exactly the objects needed to enforce a business rule\n\n**Common examples:**\n\n- **Order aggregate**: Order (root) contains OrderLines (internal entities) and ShippingAddress (value object). Adding an item goes through the Order root, which enforces rules like minimum order value\n- **Account aggregate**: BankAccount (root) contains Transaction history. All deposits and withdrawals go through the account, which enforces balance invariants",
+    "tags": [
+        "domain-driven-design",
+        "software-design",
+        "patterns",
+        "architecture",
+        "modeling"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Aggregate Root",
+        "DDD Aggregate",
+        "Aggregate Pattern"
+    ],
+    "relatedConcepts": [
+        "domain-driven-design",
+        "bounded-context",
+        "entity",
+        "value-object",
+        "domain-event",
+        "event-sourcing",
+        "saga-pattern"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        },
+        {
+            "title": "Implementing Domain-Driven Design by Vaughn Vernon",
+            "url": "https://www.amazon.com/dp/0321834577?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Domain-driven design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Domain-driven_design#Building_blocks",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}
