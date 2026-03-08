@@ -1,0 +1,47 @@
+{
+    "id": "recursion",
+    "name": "Recursion",
+    "summary": "A problem-solving approach where a function calls itself to break complex problems into smaller, self-similar subproblems.",
+    "explanation": "Recursion is a method of solving problems by defining a solution in terms of itself. A recursive function calls itself with a simpler version of the original problem until it reaches a base case—a condition simple enough to solve directly. This self-referential approach is both a programming technique and a fundamental mathematical concept that appears throughout nature and abstract thought.\n\n**The two essential components:**\n\n- **Base case**: The simplest instance of the problem, solved directly without further recursion. Without it, recursion runs forever (stack overflow).\n- **Recursive case**: The problem is broken into smaller instances of itself, each moving closer to the base case.\n\n**Classic examples:**\n\n- **Factorial**: n! = n × (n-1)!, with 0! = 1\n- **Fibonacci sequence**: F(n) = F(n-1) + F(n-2), with F(0) = 0, F(1) = 1\n- **Binary search**: Search the left or right half of a sorted array\n- **Tree traversal**: Process a node, then recursively process its children\n- **Merge sort**: Split, recursively sort halves, merge results\n- **Tower of Hanoi**: Move n-1 disks, move the largest, move n-1 disks again\n\n**Why recursion matters:**\n\nSome problems are naturally recursive—their structure mirrors the recursive approach. Trees, graphs, nested structures, and divide-and-conquer algorithms are elegantly expressed through recursion. What might require complex loops and explicit stack management becomes clear and concise when expressed recursively.\n\n**Recursion vs. iteration:**\n\nAnything expressible recursively can be rewritten iteratively (and vice versa). Recursion often yields clearer, more concise code for naturally hierarchical problems. Iteration is typically more memory-efficient since it avoids the overhead of maintaining a call stack. Tail-call optimization bridges this gap by allowing certain recursive calls to reuse the current stack frame.\n\n**Beyond programming:**\n\nRecursion appears everywhere:\n- **Mathematics**: Recursive definitions, inductive proofs, fractals\n- **Language**: Sentences containing clauses that contain sentences ('The cat that the dog that the man owned chased ran away')\n- **Nature**: Fractal patterns in ferns, broccoli, coastlines, and river networks\n- **Art**: Droste effect, mise en abyme, Russian nesting dolls\n- **Philosophy**: Strange loops, self-reference, Gödel's incompleteness theorems\n\n**Common pitfalls:**\n\n- **Missing base case**: Infinite recursion and stack overflow\n- **Redundant computation**: Naive recursive Fibonacci recalculates subproblems exponentially; memoization or dynamic programming fixes this\n- **Stack depth limits**: Very deep recursion can exhaust memory\n\nRecursion teaches a powerful cognitive strategy: if a problem seems overwhelming, find a way to reduce it to a smaller version of itself and trust the process.",
+    "tags": [
+        "computer-science",
+        "algorithms",
+        "programming",
+        "mathematics",
+        "problem-solving"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Recursive Function",
+        "Recursive Algorithm"
+    ],
+    "relatedConcepts": [
+        "fractal",
+        "data-structures",
+        "divide-and-conquer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Gödel, Escher, Bach: An Eternal Golden Braid by Douglas Hofstadter",
+            "url": "https://www.amazon.com/dp/0465026567?tag=dsebastien00-20"
+        },
+        {
+            "title": "Structure and Interpretation of Computer Programs by Abelson and Sussman",
+            "url": "https://www.amazon.com/dp/0262510871?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Recursion (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

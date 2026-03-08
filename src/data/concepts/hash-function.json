@@ -1,0 +1,50 @@
+{
+    "id": "hash-function",
+    "name": "Hash Function",
+    "summary": "A function that maps data of arbitrary size to fixed-size values, used for fast data retrieval, integrity verification, and cryptography.",
+    "explanation": "A hash function takes an input (or 'key') of any size and produces a fixed-size output called a hash value, hash code, or digest. This deterministic mapping—the same input always produces the same output—is one of the most versatile tools in computer science, underpinning data structures, security, and distributed systems.\n\n**Core properties:**\n\n- **Deterministic**: The same input always produces the same output.\n- **Fixed output size**: Regardless of input size, the output has a fixed length (e.g., SHA-256 always produces 256 bits).\n- **Efficiency**: Computing the hash should be fast.\n- **Uniform distribution**: Good hash functions spread outputs evenly across the output space, minimizing collisions.\n\n**Types and their uses:**\n\n**Non-cryptographic hash functions** (e.g., MurmurHash, xxHash, CityHash) are optimized for speed and distribution. They power:\n- **Hash tables**: O(1) average-case lookup by mapping keys to array indices\n- **Load balancing**: Consistent hashing distributes requests across servers\n- **Bloom filters**: Multiple hash functions enable space-efficient set membership testing\n- **Checksums**: Quick data integrity checks\n\n**Cryptographic hash functions** (e.g., SHA-256, SHA-3, BLAKE3) add security properties:\n- **Pre-image resistance**: Given a hash, it is computationally infeasible to find the original input\n- **Collision resistance**: It is infeasible to find two inputs that produce the same hash\n- **Avalanche effect**: A tiny change in input produces a drastically different output\n\nThese enable:\n- **Digital signatures**: Signing a hash of a document rather than the entire document\n- **Password storage**: Storing hashed passwords (with salting) instead of plaintext\n- **Blockchain**: Bitcoin's proof-of-work relies on SHA-256\n- **Data integrity**: Verifying file downloads and software packages\n\n**The collision problem:**\n\nSince hash functions map an infinite input space to a finite output space, collisions (different inputs producing the same hash) are mathematically inevitable. The birthday paradox shows that collisions occur sooner than intuition suggests. Good hash functions make collisions rare and unpredictable, and good systems handle them gracefully.\n\n**Broader insight:**\n\nHash functions embody the power of lossy compression—deliberately discarding information to gain speed, space, or security. They are a fundamental example of how strategic information loss can be more valuable than perfect preservation.",
+    "tags": [
+        "computer-science",
+        "algorithms",
+        "cryptography",
+        "data-structures",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Hash Functions",
+        "Hashing",
+        "Hash Algorithm"
+    ],
+    "relatedConcepts": [
+        "bloom-filter",
+        "data-structures",
+        "trade-off",
+        "set-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein",
+            "url": "https://www.amazon.com/dp/026204630X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Hash function - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hash_function",
+            "type": "website"
+        },
+        {
+            "title": "Cryptographic hash function - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cryptographic_hash_function",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

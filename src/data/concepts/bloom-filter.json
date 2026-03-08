@@ -1,0 +1,49 @@
+{
+    "id": "bloom-filter",
+    "name": "Bloom Filter",
+    "summary": "A space-efficient probabilistic data structure that tests whether an element is a member of a set, allowing false positives but never false negatives.",
+    "explanation": "A Bloom filter is a probabilistic data structure conceived by Burton Howard Bloom in 1970. It answers the question 'Is this element in the set?' with either 'possibly yes' or 'definitely no.' This tradeoff—accepting a small chance of false positives in exchange for dramatic space savings—makes it one of the most elegant solutions in computer science.\n\n**How it works:**\n\nA Bloom filter uses a bit array of *m* bits, all initially set to 0, and *k* independent hash functions. To add an element, you hash it with each of the *k* functions and set the corresponding bits to 1. To query, you hash the element and check if all *k* bits are set. If any bit is 0, the element is definitely not in the set. If all bits are 1, the element is probably in the set—but there is a chance of a false positive, because other elements may have set those same bits.\n\n**Key properties:**\n\n- **No false negatives**: If the filter says an element is absent, it is guaranteed to be absent.\n- **False positives possible**: The filter may incorrectly report an element as present. The rate depends on the bit array size, number of hash functions, and number of inserted elements.\n- **No deletion**: Standard Bloom filters do not support removing elements (counting Bloom filters address this).\n- **Space efficiency**: Far more compact than storing the actual elements or using a hash table.\n\n**Practical applications:**\n\n- **Web browsers**: Google Chrome used Bloom filters to check URLs against a list of malicious sites before downloading the full list.\n- **Databases**: Cassandra, HBase, and LevelDB use Bloom filters to avoid expensive disk lookups for nonexistent keys.\n- **Caching**: CDNs use them to avoid caching one-hit wonders—only cache items that have been requested at least twice.\n- **Spell checkers**: Early spell checkers used Bloom filters to quickly reject words not in the dictionary.\n- **Network routing**: Routers use them to track which content is available on which path.\n\n**Variants:**\n\n- **Counting Bloom filter**: Replaces bits with counters to support deletion.\n- **Cuckoo filter**: Supports deletion and can be more space-efficient for low false positive rates.\n- **Scalable Bloom filter**: Dynamically grows as elements are added.\n\nThe Bloom filter embodies a powerful design principle: sometimes an approximate answer delivered instantly is far more valuable than an exact answer delivered slowly. This tradeoff between precision and efficiency appears throughout engineering and decision-making.",
+    "tags": [
+        "data-structures",
+        "algorithms",
+        "computer-science",
+        "probabilistic-methods",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Bloom's Filter"
+    ],
+    "relatedConcepts": [
+        "hash-function",
+        "data-structures",
+        "probabilistic-thinking",
+        "trade-off",
+        "set-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein",
+            "url": "https://www.amazon.com/dp/026204630X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Bloom filter - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bloom_filter",
+            "type": "website"
+        },
+        {
+            "title": "Space/Time Trade-offs in Hash Coding with Allowable Errors - Burton H. Bloom (1970)",
+            "url": "https://doi.org/10.1145/362686.362692",
+            "type": "paper"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}
