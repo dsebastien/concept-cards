@@ -1,0 +1,83 @@
+{
+    "id": "neural-scaling-laws",
+    "name": "Neural Scaling Laws",
+    "summary": "Empirical power-law relationships predicting how AI model performance improves as a function of model size, dataset size, and compute budget.",
+    "explanation": "Neural scaling laws are empirical relationships that describe how the performance of neural networks—measured by loss on held-out data—improves predictably as model size (parameters), dataset size (tokens), and compute budget (FLOPs) increase. These laws follow power-law relationships, meaning that performance improves as a straight line on a log-log plot.\n\n**Key findings:**\n\n**Kaplan et al. (2020) - OpenAI:**\n- Loss scales as a power law with model size, dataset size, and compute\n- Larger models are more sample-efficient (learn more per data point)\n- Optimal allocation: scale model size faster than dataset size\n- Performance is predictable across many orders of magnitude\n\n**Hoffmann et al. (2022) - 'Chinchilla' (DeepMind):**\n- Revised optimal compute allocation: model size and training data should be scaled equally\n- Many existing large models were 'over-parameterized and under-trained'\n- The 70B-parameter Chinchilla model trained on more data outperformed the 280B-parameter Gopher\n- Rule of thumb: ~20 tokens of training data per parameter\n\n**What the laws predict:**\n\n- **Smooth improvement**: For most benchmarks, performance improves smoothly and predictably with scale\n- **Diminishing returns**: Each doubling of compute yields a smaller absolute improvement (though still predictable)\n- **No ceiling in sight**: Within observed ranges, no plateaus have been found—though the rate of improvement decreases\n- **Cross-task generality**: Scaling laws hold across different tasks, languages, and modalities\n\n**Implications:**\n\n- **Resource planning**: Organizations can predict performance improvements before investing in expensive training runs\n- **Architecture decisions**: Scaling laws help choose between larger models vs. more data vs. more compute\n- **Competitive dynamics**: They explain why AI development is increasingly concentrated among organizations with massive compute budgets\n- **Research direction**: The 'bitter lesson' (Rich Sutton)—general methods that leverage computation tend to win over clever, human-engineered approaches\n\n**Limitations:**\n\n- Laws describe loss reduction, not necessarily task-specific performance or safety\n- Emergent abilities may not follow smooth scaling predictions\n- Data quality matters as much as quantity, which scaling laws don't fully capture\n- Environmental and economic costs of scaling are not addressed by the laws themselves",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "large-language-models",
+        "research",
+        "scaling"
+    ],
+    "category": "AI",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Chinchilla Scaling Laws",
+        "Kaplan Scaling Laws",
+        "AI Scaling Laws",
+        "Compute Scaling Laws"
+    ],
+    "relatedConcepts": [
+        "scaling-laws",
+        "model-scaling",
+        "emergent-abilities",
+        "large-language-models",
+        "deep-learning",
+        "transformer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Scaling Laws for Neural Language Models - OpenAI",
+            "url": "https://arxiv.org/abs/2001.08361",
+            "type": "paper"
+        },
+        {
+            "title": "Training Compute-Optimal Large Language Models (Chinchilla)",
+            "url": "https://arxiv.org/abs/2203.15556",
+            "type": "paper"
+        },
+        {
+            "title": "Neural scaling law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neural_scaling_law",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

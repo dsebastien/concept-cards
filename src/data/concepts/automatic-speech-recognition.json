@@ -1,0 +1,73 @@
+{
+    "id": "automatic-speech-recognition",
+    "name": "Automatic Speech Recognition",
+    "summary": "Technology that converts spoken language into text, enabling machines to understand and transcribe human speech.",
+    "explanation": "Automatic Speech Recognition (ASR), also known as speech-to-text, is the technology that converts spoken language into written text. It is one of the foundational technologies enabling voice interfaces, transcription services, and human-computer interaction through natural speech.\n\n**How modern ASR works:**\n\nContemporary ASR systems typically use deep learning approaches:\n\n1. **Audio preprocessing**: Raw audio is converted into spectrograms or mel-frequency cepstral coefficients (MFCCs)\n2. **Acoustic model**: A neural network (often a transformer or conformer architecture) maps audio features to phonetic representations\n3. **Language model**: Provides linguistic context to disambiguate similar-sounding words and phrases\n4. **Decoder**: Combines acoustic and language model outputs to produce the most likely text transcription\n\n**Key milestones:**\n\n- **1952**: Audrey system (Bell Labs) recognized spoken digits\n- **1970s-1990s**: Hidden Markov Models dominated ASR research\n- **2012**: Deep neural networks dramatically improved accuracy\n- **2020**: OpenAI's Whisper achieved near-human performance across many languages\n- **2023+**: Multimodal models handle speech alongside text and images\n\n**Challenges:**\n\n- **Accents and dialects**: Performance varies significantly across speech varieties\n- **Noisy environments**: Background noise degrades recognition accuracy\n- **Domain-specific vocabulary**: Technical jargon, proper nouns, and neologisms are often misrecognized\n- **Code-switching**: Speakers who switch between languages mid-sentence\n- **Real-time constraints**: Streaming ASR must balance latency with accuracy\n\n**Applications:**\n\n- **Voice assistants**: Siri, Alexa, Google Assistant\n- **Transcription services**: Meeting notes, medical dictation, legal proceedings\n- **Accessibility**: Real-time captioning for hearing-impaired individuals\n- **Voice search**: Hands-free information retrieval\n- **Content creation**: Voice-to-text for writing, note-taking, and documentation\n- **Call center analytics**: Automated analysis of customer service interactions\n\n**Relationship to other technologies:**\n\nASR is often combined with speaker diarization (who said what), natural language understanding (what it means), and text-to-speech (responding verbally) to create complete voice-powered applications.",
+    "tags": [
+        "ai",
+        "speech-processing",
+        "machine-learning",
+        "natural-language-processing",
+        "technology"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "ASR",
+        "Speech-to-Text",
+        "STT",
+        "Speech Recognition",
+        "Voice Recognition"
+    ],
+    "relatedConcepts": [
+        "speaker-diarization",
+        "natural-language-processing",
+        "deep-learning",
+        "transformer",
+        "machine-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Speech recognition - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Speech_recognition",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

@@ -1,0 +1,82 @@
+{
+    "id": "retention-rate",
+    "name": "Retention Rate",
+    "summary": "The percentage of users, customers, knowledge, or information that is successfully retained over a specific period of time.",
+    "explanation": "Retention rate measures the proportion of something—customers, users, employees, knowledge, or information—that persists over a given period. It is the inverse of churn: if 90% of customers remain after a month, the retention rate is 90% and the churn rate is 10%.\n\n**Applications across domains:**\n\n**Business:**\n- **Customer retention rate**: The percentage of customers who continue using a product or service. A 5% increase in customer retention can increase profits by 25-95% (Bain & Company)\n- **Employee retention rate**: The percentage of employees who remain with an organization. High retention reduces hiring and training costs\n- **Revenue retention rate**: Net revenue retained from existing customers, including expansions and contractions\n\n**Learning and memory:**\n- **Knowledge retention rate**: How much learned information is remembered over time, governed by the forgetting curve\n- **Training retention**: Percentage of training content that employees can apply on the job (typically only 10-20% without reinforcement)\n- **Spaced repetition**: Optimizes retention rates by timing reviews at the point of forgetting\n\n**Information systems:**\n- **Data retention**: How long data is kept in systems before archival or deletion\n- **Content retention**: How much of consumed content (articles, videos, podcasts) is remembered and usable\n\n**Measuring retention:**\n\n- **Cohort analysis**: Track groups of users/customers who started at the same time to see how retention changes over time\n- **Retention curves**: Plot retention rate against time to visualize decay patterns\n- **Rolling retention**: Percentage of users active on or after a specific day post-acquisition\n- **Bracket retention**: Percentage of users active during a specific time window\n\n**Improving retention:**\n\n- **Business**: Improve onboarding, increase engagement, build switching costs, deliver continuous value\n- **Learning**: Use spaced repetition, active recall, elaborative encoding, and real-world application\n- **Information**: Build PKM systems, take notes, teach others, connect new knowledge to existing knowledge",
+    "tags": [
+        "metrics",
+        "business",
+        "learning",
+        "knowledge-management",
+        "psychology"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Customer Retention Rate",
+        "User Retention",
+        "Knowledge Retention Rate"
+    ],
+    "relatedConcepts": [
+        "churn-rate",
+        "customer-retention",
+        "knowledge-retention",
+        "forgetting-curve",
+        "spaced-repetition",
+        "lifetime-value"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Customer retention - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Customer_retention",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

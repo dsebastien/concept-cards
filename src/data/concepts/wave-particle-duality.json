@@ -1,0 +1,63 @@
+{
+    "id": "wave-particle-duality",
+    "name": "Wave-Particle Duality",
+    "summary": "The quantum mechanical principle that every particle or quantum entity exhibits both wave-like and particle-like properties depending on the experimental context.",
+    "explanation": "Wave-particle duality is a fundamental concept of quantum mechanics stating that all quantum entities—photons, electrons, atoms, and even molecules—exhibit both wave-like and particle-like properties. Which behavior manifests depends on the type of experiment or observation being performed. This is not a limitation of our instruments but a fundamental feature of nature.\n\n**The historical puzzle:**\n\n- **Light as wave**: Christian Huygens (1678) proposed light was a wave. Thomas Young's double-slit experiment (1801) and Maxwell's electromagnetic theory (1865) confirmed wave behavior\n- **Light as particle**: Max Planck (1900) showed light energy comes in discrete quanta. Einstein (1905) explained the photoelectric effect by treating light as particles (photons)\n- **Matter as wave**: Louis de Broglie (1924) proposed that all matter has wave properties. Davisson and Germer (1927) confirmed electron diffraction\n\n**De Broglie's equation:**\n\nEvery particle has an associated wavelength: λ = h/p, where h is Planck's constant and p is the particle's momentum. For everyday objects, this wavelength is immeasurably small. For subatomic particles, it is significant and produces observable effects.\n\n**Key manifestations:**\n\n- **Interference**: Particles create interference patterns (wave behavior) in the double-slit experiment\n- **Photoelectric effect**: Light ejects electrons from metals in discrete quanta (particle behavior)\n- **Electron diffraction**: Electrons create diffraction patterns when passing through crystal lattices (wave behavior)\n- **Compton scattering**: Photons bounce off electrons like billiard balls (particle behavior)\n\n**Complementarity:**\n\nNiels Bohr's principle of complementarity states that wave and particle descriptions are complementary—both are needed for a complete description, but they cannot be observed simultaneously. The experimental setup determines which aspect is revealed.\n\n**Why it matters beyond physics:**\n\nWave-particle duality challenges the classical assumption that things must be one thing or another. This has philosophical implications:\n- **Both/and thinking**: Reality can be genuinely dual-natured, not either/or\n- **Observer dependence**: The framework we use to observe shapes what we observe\n- **Limits of classical intuition**: Our everyday experience does not prepare us for all of reality\n\n**Modern extensions:**\n\nThe temporal double-slit experiment extends duality into the time domain, showing that light can interfere with itself across time, not just space—opening new frontiers in our understanding of quantum behavior.",
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "philosophy",
+        "thinking"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Particle-Wave Duality",
+        "Quantum Duality",
+        "De Broglie Duality"
+    ],
+    "relatedConcepts": [
+        "double-slit-experiment",
+        "temporal-double-slit-experiment"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "QED: The Strange Theory of Light and Matter by Richard P. Feynman",
+            "url": "https://www.amazon.com/dp/0691164096?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Wave-particle duality - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

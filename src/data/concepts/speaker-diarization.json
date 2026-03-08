@@ -1,0 +1,70 @@
+{
+    "id": "speaker-diarization",
+    "name": "Speaker Diarization",
+    "summary": "The process of partitioning an audio stream into segments according to speaker identity, answering the question of 'who spoke when.'",
+    "explanation": "Speaker diarization is the computational task of determining 'who spoke when' in an audio recording containing multiple speakers. It segments an audio stream into homogeneous regions associated with individual speakers, without necessarily knowing who the speakers are in advance (unsupervised) or with prior voice samples (supervised).\n\n**How it works:**\n\nA typical diarization pipeline involves several stages:\n\n1. **Voice Activity Detection (VAD)**: Identify which portions of the audio contain speech versus silence, music, or noise\n2. **Feature extraction**: Convert speech segments into speaker-discriminative representations (embeddings) using models like x-vectors or ECAPA-TDNN\n3. **Segmentation**: Divide the audio into short, uniform segments\n4. **Clustering**: Group segments by speaker similarity using algorithms like spectral clustering, agglomerative clustering, or Bayesian methods\n5. **Resegmentation**: Refine boundaries between speakers for greater precision\n\n**Key challenges:**\n\n- **Overlapping speech**: Multiple speakers talking simultaneously is common in natural conversation\n- **Unknown number of speakers**: The system often must determine how many speakers are present\n- **Short utterances**: Brief interjections are hard to attribute correctly\n- **Domain variability**: Performance varies across meeting recordings, phone calls, broadcasts, and podcasts\n- **Speaker similarity**: Speakers with similar vocal characteristics are harder to distinguish\n\n**Modern approaches:**\n\nRecent advances use end-to-end neural models that jointly handle segmentation and clustering, including:\n- **EEND (End-to-End Neural Diarization)**: Treats diarization as a multi-label classification problem\n- **Pyannote**: Popular open-source toolkit using neural speaker embeddings\n- **Whisper + diarization**: Combining OpenAI's Whisper ASR with diarization for full transcription with speaker labels\n\n**Applications:**\n\n- **Meeting transcription**: Attributing statements to specific participants in meeting notes\n- **Podcast and media production**: Automated speaker labeling for editing and indexing\n- **Call center analytics**: Identifying agent vs. customer speech for quality analysis\n- **Legal and medical**: Court proceedings, medical dictation with multiple speakers\n- **Accessibility**: Captioning that identifies speakers for hearing-impaired viewers",
+    "tags": [
+        "ai",
+        "audio",
+        "speech-processing",
+        "machine-learning",
+        "natural-language-processing"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Speaker Segmentation",
+        "Who Spoke When",
+        "Speaker Identification"
+    ],
+    "relatedConcepts": [
+        "automatic-speech-recognition",
+        "natural-language-processing",
+        "machine-learning",
+        "deep-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Speaker diarisation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Speaker_diarisation",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

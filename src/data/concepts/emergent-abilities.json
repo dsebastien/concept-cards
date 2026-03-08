@@ -1,0 +1,77 @@
+{
+    "id": "emergent-abilities",
+    "name": "Emergent Abilities",
+    "summary": "Capabilities that appear in large AI models only beyond a critical scale threshold, absent or near-random in smaller models.",
+    "explanation": "Emergent abilities are capabilities that manifest in large language models (LLMs) only when they reach a sufficient scale of parameters, training data, or compute—capabilities that are absent or near-random performance in smaller models. The term was popularized by a 2022 paper from Google Research ('Emergent Abilities of Large Language Models' by Wei et al.).\n\n**What makes them 'emergent':**\n\nIn the sense used here, emergence means that performance on certain tasks does not improve gradually with scale but instead shows a sharp phase transition. Below a certain threshold, the model performs at chance level. Above it, performance jumps dramatically. This unpredictability is what makes emergent abilities both exciting and concerning.\n\n**Examples of emergent abilities:**\n\n- **Chain-of-thought reasoning**: Smaller models cannot follow multi-step logical reasoning, but large models can when prompted to 'think step by step'\n- **Arithmetic**: Models below ~100B parameters struggle with multi-digit arithmetic; larger models handle it reliably\n- **Code generation**: Producing correct, functional code emerges at scale\n- **Translation of rare languages**: Only large models achieve useful quality for low-resource languages\n- **Instruction following**: The ability to follow complex, multi-part instructions appears at scale\n\n**The debate:**\n\nThe concept of emergent abilities is contested:\n\n- **Supporters** argue that emergence is a genuine phenomenon reflecting qualitative changes in model capabilities, possibly related to the model learning new computational strategies at scale\n- **Critics** (notably Schaeffer et al., 2023) argue that apparent emergence is an artifact of measurement—when using continuous metrics instead of threshold-based ones, performance improvements appear smooth rather than sudden\n\n**Implications:**\n\n- **Unpredictability**: If abilities emerge unpredictably at scale, we cannot fully anticipate what larger models will be capable of\n- **Safety**: Emergent abilities may include undesired behaviors (deception, manipulation) that appear without warning\n- **Investment**: The possibility of emergence incentivizes building ever-larger models in hopes of unlocking new capabilities\n- **Evaluation**: We need better benchmarks that test for capabilities we don't yet know to look for\n\n**Connection to scaling laws:**\n\nEmergent abilities complicate neural scaling laws, which predict smooth, predictable improvement. Emergence suggests that scaling can produce qualitative jumps, not just quantitative improvements.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "large-language-models",
+        "emergence",
+        "research"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Emergent Capabilities",
+        "Phase Transitions in AI",
+        "Emergent Properties of LLMs"
+    ],
+    "relatedConcepts": [
+        "neural-scaling-laws",
+        "scaling-laws",
+        "model-scaling",
+        "large-language-models",
+        "emergence",
+        "ai-safety"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Emergent abilities of large language models - Google Research",
+            "url": "https://arxiv.org/abs/2206.07682",
+            "type": "paper"
+        },
+        {
+            "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+            "url": "https://arxiv.org/abs/2304.15004",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "double-slit-experiment",
+    "name": "Double-Slit Experiment",
+    "summary": "A foundational quantum mechanics experiment demonstrating that particles like electrons and photons exhibit both wave and particle behavior depending on how they are observed.",
+    "explanation": "The double-slit experiment is one of the most famous and consequential experiments in physics. It demonstrates the fundamental wave-particle duality of quantum mechanics: particles such as photons and electrons can behave as both waves and particles, and the act of observation itself affects which behavior manifests.\n\n**The experiment:**\n\n1. A source emits particles (photons, electrons, or even molecules) toward a barrier with two narrow parallel slits\n2. Behind the barrier, a detector screen records where particles land\n3. When both slits are open and no measurement is made at the slits, an interference pattern appears on the screen—alternating bands of high and low intensity, characteristic of waves\n4. When a detector is placed at the slits to determine which slit each particle passes through, the interference pattern disappears, and two simple bands appear—as expected for particles\n\n**Why it matters:**\n\n- **Wave-particle duality**: Quantum entities don't fit neatly into classical categories of 'wave' or 'particle'—they exhibit both behaviors\n- **The measurement problem**: The act of observation appears to change the outcome, raising deep questions about the role of measurement in physics\n- **Superposition**: Before measurement, a particle exists in a superposition of passing through both slits simultaneously\n- **Quantum weirdness**: Richard Feynman called it 'the only mystery' of quantum mechanics—understanding this experiment means understanding the core puzzle of quantum physics\n\n**Historical development:**\n\n- **1801**: Thomas Young first demonstrated wave interference of light using two slits\n- **1927**: Davisson and Germer showed electrons exhibit wave behavior\n- **1961**: Claus Jönsson performed the double-slit experiment with electrons\n- **1974**: Single-electron double-slit experiment confirmed individual particles create interference patterns over time\n- **2012**: Double-slit performed with molecules of 810 atoms, showing quantum behavior at ever-larger scales\n\n**Interpretations:**\n\n- **Copenhagen interpretation**: The particle has no definite path until measured; the wave function 'collapses' upon observation\n- **Many-worlds**: The particle passes through both slits in different branches of reality\n- **Pilot wave theory**: A real particle is guided by a real wave that passes through both slits\n- **Decoherence**: Interaction with the environment (including measurement devices) destroys interference",
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "experiments",
+        "philosophy"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Two-Slit Experiment",
+        "Young's Experiment"
+    ],
+    "relatedConcepts": ["wave-particle-duality", "temporal-double-slit-experiment"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "QED: The Strange Theory of Light and Matter by Richard P. Feynman",
+            "url": "https://www.amazon.com/dp/0691164096?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Double-slit experiment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Double-slit_experiment",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}
