@@ -1,0 +1,25 @@
+{
+    "id": "virtual-reality",
+    "name": "Virtual Reality",
+    "summary": "Technology that creates fully immersive, computer-generated environments that replace the user's real-world surroundings with a simulated experience.",
+    "explanation": "Virtual Reality (VR) is a technology that immerses users in a fully computer-generated environment, replacing their real-world surroundings entirely. Through head-mounted displays, spatial audio, and motion tracking, VR creates the sensation of being physically present in a digital world — a quality known as 'presence.'\n\n**Core Components**:\n\n- **Head-mounted display (HMD)**: Screens positioned close to the eyes with lenses that create a wide field of view, filling peripheral vision to block out the real world\n- **Motion tracking**: Sensors that detect head movement (6 degrees of freedom: position + rotation) so the virtual view updates naturally as you look around\n- **Input devices**: Controllers, hand tracking, or full-body tracking for interacting with the virtual environment\n- **Spatial audio**: 3D sound that shifts based on head orientation, enhancing the sense of presence\n- **Rendering engine**: Software that generates the virtual environment at high frame rates (90+ FPS) to prevent motion sickness\n\n**The Sense of Presence**:\n\nVR's defining quality is 'presence' — the subjective feeling of actually being in the virtual environment. Presence depends on:\n- **Visual fidelity**: Resolution, field of view, and rendering quality\n- **Low latency**: The delay between head movement and visual update must be under 20ms\n- **Consistent physics**: Objects behave as expected (gravity, collisions, scale)\n- **Embodiment**: Having a virtual body that responds to your movements\n\n**Applications**:\n\n- **Gaming and entertainment**: Immersive games, virtual concerts, social spaces (VRChat, Rec Room)\n- **Training and simulation**: Flight simulators, military training, surgical practice, hazardous environment training — practice dangerous scenarios safely\n- **Therapy**: Exposure therapy for phobias and PTSD, pain management through distraction, rehabilitation exercises\n- **Education**: Virtual field trips, molecular visualization, historical recreations\n- **Design and prototyping**: Architects walking through unbuilt buildings, automotive designers sitting in virtual car interiors\n- **Remote collaboration**: Virtual meeting rooms, shared design spaces, telepresence\n- **Fitness**: Exercise games (Beat Saber, Supernatural), virtual cycling/rowing\n\n**VR Hardware Landscape**:\n\n- **Standalone**: Meta Quest series — self-contained, no PC required\n- **PC-tethered**: Valve Index, HP Reverb — higher fidelity, requires powerful PC\n- **Console**: PlayStation VR2 — connected to PlayStation 5\n- **Enterprise**: Varjo — ultra-high resolution for professional use\n\n**Challenges**:\n\n- **Motion sickness (cybersickness)**: Mismatch between visual motion and vestibular (inner ear) signals\n- **Isolation**: Fully occluded headsets disconnect users from physical surroundings and people nearby\n- **Comfort**: Weight, heat, and facial pressure limit session duration\n- **Content quality**: Many VR experiences are short demos rather than deep, sustained applications\n- **The 'VR legs' problem**: Some users never fully adapt to locomotion in VR\n\n**VR vs. AR**:\n\nVR replaces reality; AR enhances it. VR excels at experiences impossible in the real world (flying, shrinking to molecular scale, visiting distant places). AR excels at enhancing real-world tasks with contextual information. The trend is toward devices that can do both — spatial computers that transition fluidly between AR and VR.",
+    "tags": ["technologies", "computing", "immersion", "simulation", "user-experience"],
+    "category": "Tools",
+    "icon": "FaVrCardboard",
+    "featured": false,
+    "aliases": ["VR", "Virtual Reality Technology", "Immersive VR"],
+    "relatedConcepts": ["extended-reality", "augmented-reality", "mixed-reality", "spatial-computing", "haptic-feedback", "computer-vision"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Virtual reality - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Virtual_reality",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

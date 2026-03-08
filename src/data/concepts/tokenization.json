@@ -10,7 +10,7 @@
     "fundamentals",
     "languages"
   ],
-  "category": "Concepts",
+  "category": "AI",
   "icon": "FaCut",
   "featured": false,
   "aliases": [
@@ -21,7 +21,10 @@
   "relatedConcepts": [
     "large-language-models",
     "context-window",
-    "embedding"
+    "embedding",
+    "token",
+    "next-token-prediction",
+    "natural-language-processing"
   ],
   "relatedNotes": [],
   "articles": [],

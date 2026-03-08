@@ -1,0 +1,46 @@
+{
+    "id": "haptic-feedback",
+    "name": "Haptic Feedback",
+    "summary": "Technology that communicates with users through touch sensations such as vibrations, forces, and motions, adding a tactile dimension to digital interactions.",
+    "explanation": "Haptic feedback (from the Greek 'haptikos,' meaning 'able to touch') is technology that creates touch sensations to convey information or enhance digital experiences. It bridges the gap between the digital and physical worlds by engaging the sense of touch — the most fundamental human sense for understanding and interacting with the environment.\n\n**Types of Haptic Feedback**:\n\n- **Vibrotactile**: Vibration patterns of varying frequency, amplitude, and duration. The most common form — found in smartphones, game controllers, and smartwatches.\n- **Force feedback**: Resistance or active forces that push back against the user. Steering wheels that resist turning, surgical simulators that simulate tissue resistance.\n- **Thermal**: Temperature changes to convey information or enhance immersion.\n- **Surface haptics**: Changing the texture or friction of a surface. Ultrasonic vibrations can make a flat screen feel textured.\n- **Mid-air haptics**: Focused ultrasound waves that create touch sensations in open air without physical contact.\n- **Electrotactile**: Electrical stimulation of the skin to create touch sensations.\n\n**How Haptics Work in Common Devices**:\n\n- **Smartphones**: Linear resonant actuators (LRAs) create precise vibration patterns — the subtle click when using 3D Touch/Haptic Touch, keyboard taps, notifications\n- **Game controllers**: Eccentric rotating mass (ERM) motors and LRAs simulate explosions, terrain, and collisions. Sony's DualSense uses adaptive triggers with variable resistance.\n- **VR controllers**: Vibration motors in handheld controllers provide feedback for virtual interactions (grabbing, touching, hitting)\n- **Haptic gloves**: Mechanical actuators on each finger provide per-finger force feedback for grasping virtual objects\n- **Wearables**: Smartwatches use haptics for notifications, navigation (tap patterns), and health alerts\n\n**Why Haptics Matter**:\n\n- **Confirmation**: Tactile feedback confirms that an action was registered (button press, toggle switch) without requiring visual attention\n- **Immersion**: Touch feedback makes virtual experiences feel more real and physical\n- **Accessibility**: Haptic cues convey information for users with visual or auditory impairments\n- **Safety**: Drivers can receive navigation cues through steering wheel vibrations without looking away from the road\n- **Skill transfer**: Surgical and industrial training simulators with haptic feedback transfer skills to real-world performance better than visual-only training\n\n**Haptics in XR**:\n\nHaptic feedback is considered the 'missing sense' in current XR experiences:\n- **Current state**: Most VR/AR systems only provide basic vibration in controllers\n- **Emerging**: Haptic gloves (Meta, HaptX), haptic vests (bHaptics), and full-body suits\n- **Future**: Combining force feedback, thermal, and texture sensation for convincing touch in virtual environments\n\n**Challenges**:\n\n- **Fidelity gap**: Current haptics are far from replicating real touch sensation\n- **Bulkiness**: Force feedback systems require mechanical components that add weight and complexity\n- **Power consumption**: Active haptic systems drain batteries quickly\n- **Standardization**: No universal haptic language or format across platforms\n- **Latency**: Touch is extremely sensitive to delay — haptic feedback must be nearly instantaneous to feel natural",
+    "tags": [
+        "technologies",
+        "user-experience",
+        "interfaces",
+        "immersion",
+        "interaction"
+    ],
+    "category": "Tools",
+    "icon": "FaHandPointer",
+    "featured": false,
+    "aliases": [
+        "Haptics",
+        "Tactile Feedback",
+        "Touch Feedback",
+        "Haptic Technology"
+    ],
+    "relatedConcepts": [
+        "augmented-reality",
+        "virtual-reality",
+        "extended-reality",
+        "spatial-computing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Haptic technology - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Haptic_technology",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

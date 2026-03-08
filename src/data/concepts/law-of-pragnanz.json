@@ -1,0 +1,25 @@
+{
+    "id": "law-of-pragnanz",
+    "name": "Law of Pragnanz",
+    "summary": "The overarching Gestalt principle stating that the brain tends to perceive and organize visual information in the simplest, most regular, and most orderly form possible.",
+    "explanation": "The Law of Prägnanz (German for 'pithiness' or 'precision'), also known as the law of good form or the law of simplicity, is the foundational principle of Gestalt psychology from which all other Gestalt laws derive. It states that when confronted with ambiguous or complex visual stimuli, the brain will organize perception into the simplest, most stable, most regular, and most complete configuration possible.\n\n**The Principle in Action**:\n\n- An overlapping circle and square are perceived as two simple shapes, not as a complex irregular polygon\n- A blurry photograph is perceived as a recognizable scene, not as a random collection of color patches\n- The Olympic rings are seen as five overlapping circles, not nine separate shapes\n- A partially hidden object is perceived as a complete object behind an occluder, not as a strange fragment\n\n**Why the Brain Prefers Simplicity**:\n\nSeveral complementary explanations exist:\n\n1. **Efficiency**: Simpler interpretations require less neural processing. The brain optimizes its limited resources by favoring interpretations that minimize complexity.\n2. **Predictive coding**: The brain constantly predicts incoming sensory information. Simpler models generate better predictions with fewer surprises.\n3. **Statistical regularity**: In the natural world, simple interpretations (a complete object behind an occluder) are more often correct than complex ones (a bizarre fragment).\n4. **Minimum principle**: The visual system tends toward organizations that minimize the descriptive information needed to represent a scene.\n\n**Relationship to Other Gestalt Laws**:\n\nThe Law of Prägnanz is the 'super-law' — other Gestalt principles are specific manifestations of it:\n- **Closure**: Completing shapes is simpler than perceiving fragments\n- **Continuity**: Smooth lines are simpler than sudden directional changes\n- **Similarity**: Grouping similar items is simpler than treating each uniquely\n- **Proximity**: Grouping nearby items is simpler than relating distant ones\n- **Symmetry**: Symmetrical forms are simpler than asymmetrical ones\n- **Figure-ground**: Separating scene into object + background is simpler than treating everything as undifferentiated\n\n**Applications in Design**:\n\n- **Simplicity wins**: Users prefer and understand simpler designs — not because they're lazy, but because their brains are wired for it\n- **Consistency**: Consistent visual patterns let the brain apply a single simple model across an interface\n- **Alignment and grids**: Regular structures satisfy Prägnanz — misaligned elements create cognitive friction\n- **Reduction**: Removing unnecessary visual elements lets the brain find the simplest interpretation faster\n- **Information architecture**: Organizing content into clear, regular hierarchies leverages the brain's preference for orderly structure\n\n**Beyond Vision**:\n\n- **Explanation and understanding**: Occam's Razor (prefer the simplest explanation) parallels Prägnanz in the domain of reasoning\n- **Music**: Listeners prefer melodies and harmonies that resolve to stable, 'simple' forms\n- **Narrative**: Stories that resolve into coherent, orderly patterns feel more satisfying than those that remain ambiguous\n- **Science**: Elegant theories that explain phenomena with minimal assumptions are preferred over complex ones — a scientific expression of Prägnanz\n\n**Limitations**:\n\nThe preference for simplicity can mislead:\n- Complex situations may be oversimplified\n- Ambiguity and nuance may be prematurely resolved\n- The 'simplest' interpretation isn't always the correct one\n\nAwareness of Prägnanz helps recognize when our minds are imposing order that may not exist in the data.",
+    "tags": ["psychology", "perception", "design", "cognitive-science", "fundamentals"],
+    "category": "Psychology & Mental Models",
+    "icon": "FaShapes",
+    "featured": false,
+    "aliases": ["Prägnanz", "Law of Good Form", "Law of Simplicity", "Principle of Good Gestalt"],
+    "relatedConcepts": ["gestalt-psychology", "gestalt", "closure-principle", "figure-ground-perception", "visual-perception", "occams-razor", "cognitive-load", "pattern-recognition"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Gestalt psychology - Prägnanz - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Gestalt_psychology#Pr%C3%A4gnanz",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

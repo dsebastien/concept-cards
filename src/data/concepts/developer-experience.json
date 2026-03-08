@@ -1,0 +1,98 @@
+{
+    "id": "developer-experience",
+    "name": "Developer Experience",
+    "summary": "The overall experience developers have when using tools, APIs, frameworks, and platforms, encompassing ease of use, documentation quality, and productivity impact.",
+    "explanation": "Developer Experience (DX) encompasses every interaction a developer has with a tool, API, library, framework, platform, or development environment. Just as User Experience (UX) focuses on end users, DX focuses on the specific needs, frustrations, and workflows of software developers — who are both highly capable and deeply impatient with poor design.\n\n**Why DX Matters**:\n\n- **Developer productivity**: Poor DX means developers spend time fighting tools instead of building products\n- **Adoption and retention**: Developers choose tools based on experience. Bad DX kills adoption regardless of feature superiority\n- **Ecosystem health**: Good DX attracts contributors to open-source projects and third-party integrations\n- **Business impact**: Developer time is expensive. Every friction point in DX costs money\n- **Competitive advantage**: In a market with comparable features, DX is the differentiator\n\n**Components of DX**:\n\n1. **Getting started**: How quickly can a developer go from zero to 'hello world'? First impressions matter enormously.\n   - Installation and setup simplicity\n   - Quick start guides and tutorials\n   - Working examples and templates\n\n2. **Documentation**: The single most impactful DX factor.\n   - Accuracy, completeness, and currency\n   - Clear examples for every concept\n   - Searchability and navigation\n   - API reference with type information\n\n3. **API design**: The interface developers interact with daily.\n   - Consistency and predictability\n   - Sensible defaults with escape hatches\n   - Clear error messages that suggest solutions\n   - Progressive disclosure of complexity\n\n4. **Tooling**: The development environment.\n   - CLI tools that follow conventions\n   - IDE integrations (autocomplete, type checking)\n   - Debugging and profiling tools\n   - Build speed and hot reload\n\n5. **Error handling**: When things go wrong.\n   - Error messages that explain what happened and what to do\n   - Stack traces that point to user code, not framework internals\n   - Warnings that catch mistakes early\n\n6. **Community and support**:\n   - Responsive issue tracking\n   - Active community forums/Discord/Stack Overflow\n   - Migration guides for breaking changes\n   - Transparent roadmaps\n\n**DX Anti-Patterns**:\n\n- **RTFM attitude**: Blaming developers for not reading docs instead of making things intuitive\n- **Magic**: Things that 'just work' until they don't, with no way to understand or debug\n- **Configuration hell**: Requiring extensive setup before anything works\n- **Breaking changes without migration paths**: Forcing painful upgrades\n- **Outdated examples**: Documentation showing code that no longer works\n- **Inconsistent APIs**: Different conventions across endpoints or modules\n\n**DX in Practice**:\n\n| Good DX | Poor DX |\n|---------|--------|\n| `bun install && bun dev` | 15-step setup guide with OS-specific caveats |\n| Clear error: 'API key missing. Set ACME_KEY env variable' | Cryptic: 'Error: 401 Unauthorized' |\n| Types that guide you to correct usage | Stringly-typed APIs where anything goes |\n| 5-minute quick start | 'Read the 200-page manual first' |\n| Changelog with migration guide | 'Breaking changes: see commit history' |\n\n**Measuring DX**:\n\n- Time to first successful API call\n- Support ticket volume and themes\n- Developer satisfaction surveys (e.g., Developer Experience Score)\n- Documentation page engagement and search failures\n- Onboarding completion rates\n- Community growth and contribution rates\n\n**DX as Competitive Advantage**:\n\nStripe, Vercel, Tailwind CSS, and Supabase are examples of products that won market share largely through superior DX. Their success demonstrates that developers — who have enormous influence on technology decisions — will choose and advocate for tools that respect their time and intelligence.",
+    "tags": [
+        "software-development",
+        "design",
+        "tools",
+        "productivity",
+        "apis"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "DX",
+        "DevEx",
+        "Dev Experience"
+    ],
+    "relatedConcepts": [
+        "user-experience",
+        "customer-experience",
+        "agentic-experience",
+        "usability",
+        "human-computer-interaction",
+        "affordances",
+        "cognitive-load"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "User experience - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/User_experience",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "figure-ground-perception",
+    "name": "Figure-Ground Perception",
+    "summary": "The perceptual tendency to separate visual fields into a prominent object (figure) and its surrounding context (ground), fundamental to how we make sense of complex scenes.",
+    "explanation": "Figure-ground perception is one of the most fundamental Gestalt principles — the automatic, pre-conscious process by which the brain separates a visual scene into a focal object (the figure) and its background (the ground). This division happens before conscious recognition and is the foundation upon which all other visual processing builds.\n\n**How Figure-Ground Works**:\n\nThe brain uses several cues to determine what is figure and what is ground:\n- **Size**: Smaller regions tend to be seen as figures\n- **Enclosure**: Enclosed regions are more likely perceived as figures\n- **Contrast**: Higher-contrast areas tend to be seen as figures\n- **Convexity**: Convex shapes are favored as figures over concave ones\n- **Symmetry**: Symmetrical regions tend to be perceived as figures\n- **Lower region**: In ambiguous scenes, the lower region tends to be seen as figure\n- **Meaningfulness**: Regions that form recognizable shapes are favored as figures\n\n**Properties of Figure vs. Ground**:\n\n| Figure | Ground |\n|--------|--------|\n| Has definite shape | Shapeless, extends behind figure |\n| Appears in front | Appears behind |\n| More vivid and memorable | Less distinct |\n| Has clear contours | Shares contours with figure |\n| Attracts attention | Recedes from attention |\n\n**Classic Demonstrations**:\n\n- **Rubin's Vase**: The famous illusion where you see either a white vase or two dark face profiles — but never both simultaneously. This demonstrates that the same contour can define either figure or ground.\n- **Escher's art**: M.C. Escher masterfully exploited figure-ground ambiguity in works where foreground and background continuously exchange roles.\n- **Dalmatian dog**: A photograph where a Dalmatian dog is nearly invisible until the brain successfully separates figure from ground.\n\n**Beyond Visual Perception**:\n\nFigure-ground organization extends metaphorically to many domains:\n\n- **Attention**: We mentally select what to focus on (figure) from the stream of sensory input (ground). Selective attention is a form of figure-ground separation.\n- **Music**: A melody (figure) is heard against the accompaniment (ground). Skilled listeners can switch what they treat as figure.\n- **Communication**: Important information (figure) must stand out from context and background noise (ground).\n- **Problem-solving**: Reframing a problem often involves changing what is treated as figure and what recedes into ground.\n\n**Applications in Design**:\n\n- **UI/UX**: Modal dialogs (figure) over dimmed backgrounds (ground), card-based layouts, hover effects that bring elements forward\n- **Typography**: Text readability depends on sufficient contrast between letterforms (figure) and background (ground)\n- **Data visualization**: Key data points must be distinguishable from supporting information\n- **Branding**: Logos leverage figure-ground relationships — the FedEx arrow, the negative-space bear in the Toblerone mountain\n- **Photography**: Shallow depth of field separates subject from background\n\n**Cognitive Implications**:\n\nOur tendency to divide experience into figure and ground has deeper cognitive significance. It reflects how attention works: we can only consciously process a limited amount of information, so the brain must constantly decide what deserves focal attention (figure) and what can safely remain in the background (ground). Learning to intentionally shift what you treat as figure — attending to what you usually ignore — is a valuable skill for creativity, problem-solving, and empathy.",
+    "tags": ["psychology", "perception", "design", "cognitive-science", "user-experience"],
+    "category": "Psychology & Mental Models",
+    "icon": "FaAdjust",
+    "featured": false,
+    "aliases": ["Figure-Ground", "Figure-Ground Segregation", "Figure-Ground Organization", "Rubin's Vase Principle"],
+    "relatedConcepts": ["gestalt-psychology", "gestalt", "visual-perception", "closure-principle", "law-of-pragnanz", "selective-attention", "pattern-recognition"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Figure–ground (perception) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Figure%E2%80%93ground_(perception)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

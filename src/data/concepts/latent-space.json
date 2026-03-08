@@ -1,0 +1,75 @@
+{
+    "id": "latent-space",
+    "name": "Latent Space",
+    "summary": "A compressed, multi-dimensional representation space where a model encodes the essential features of its input data.",
+    "explanation": "Latent space is the internal, compressed representation that a model creates to capture the essential structure of its input data. When a neural network processes text, images, or other data, it transforms the raw input into points in a high-dimensional space where similar concepts are near each other and meaningful operations become possible.\n\n**What 'Latent' Means**:\n\nThe word 'latent' means hidden or concealed. Latent space captures hidden structure — the underlying factors and relationships that aren't directly visible in the raw data but explain how data is organized.\n\n**How Latent Space Works**:\n\nConsider how a language model processes the word \"king\":\n1. The raw input is a token ID (just a number)\n2. This maps to an embedding vector (e.g., 4,096 numbers)\n3. Through layers of processing, this vector moves through latent space\n4. In this space, \"king\" is near \"queen\", \"monarch\", \"ruler\"\n5. The famous example: king - man + woman ≈ queen works because of latent space structure\n\n**Properties of Latent Spaces**:\n\n- **Dimensionality reduction**: Raw data (e.g., a 100K-token document) is compressed into a compact representation\n- **Semantic similarity**: Similar meanings cluster together\n- **Interpolation**: Moving smoothly between points generates meaningful intermediates\n- **Arithmetic**: Vector operations can capture semantic relationships\n- **Disentanglement**: Ideally, different dimensions capture different independent factors\n\n**Latent Space in Different Models**:\n\n| Model Type | Latent Space Role |\n|-----------|------------------|\n| LLMs | Hidden states represent meaning at each layer, evolving as the model \"thinks\" |\n| Autoencoders | Encode input to latent space, then decode back — the bottleneck forces useful compression |\n| VAEs | Learn a structured latent space where sampling produces valid new data |\n| Diffusion models | Start from noise in latent space and gradually denoise to produce images |\n| GANs | Generator maps random points in latent space to realistic outputs |\n\n**Latent Space in LLMs**:\n\nIn transformer-based language models, each token is represented as a vector that moves through latent space as it passes through the model's layers. Early layers capture surface-level features (syntax, local patterns), while deeper layers capture abstract features (meaning, relationships, reasoning). The model's 'understanding' lives in these latent representations.\n\n**Practical Applications**:\n\n- **Embeddings and semantic search**: Representing text as vectors in latent space enables finding semantically similar documents\n- **Image generation**: Navigating latent space to create or modify images\n- **Anomaly detection**: Unusual inputs map to unusual regions of latent space\n- **Transfer learning**: Latent representations learned for one task transfer to related tasks\n- **Interpretability research**: Analyzing latent space structure to understand what models have learned",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "neural-networks",
+        "representations",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Representation Space",
+        "Embedding Space",
+        "Hidden Space",
+        "Feature Space"
+    ],
+    "relatedConcepts": [
+        "embedding",
+        "neural-networks",
+        "large-language-models",
+        "diffusion-models",
+        "transformer",
+        "model-parameters",
+        "semantic-search",
+        "vector-store"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Latent space - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Latent_space",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

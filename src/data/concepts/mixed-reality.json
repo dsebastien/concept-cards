@@ -1,0 +1,25 @@
+{
+    "id": "mixed-reality",
+    "name": "Mixed Reality",
+    "summary": "Technology that blends physical and digital worlds so that real and virtual objects coexist and interact in real time, going beyond simple overlay.",
+    "explanation": "Mixed Reality (MR) sits between augmented reality and virtual reality on the immersive technology spectrum. Unlike basic AR which simply overlays digital content on top of the real world, MR creates environments where physical and digital objects coexist and interact meaningfully — virtual objects can be occluded by real furniture, bounce off real surfaces, and respond to real-world lighting.\n\n**What Distinguishes MR from AR**:\n\n| Feature | Basic AR | Mixed Reality |\n|---------|---------|---------------|\n| Digital content | Floats on top of reality | Anchored in and interacting with reality |\n| Occlusion | Digital always in front | Real objects can hide virtual ones |\n| Physics | None | Virtual objects respect real surfaces |\n| Lighting | Independent | Matches real-world illumination |\n| Persistence | Session-based | Content stays when you look away |\n| Interaction | 2D touch on screen | 3D gesture, gaze, voice |\n\n**Key Capabilities**:\n\n- **Spatial mapping**: The device builds a detailed 3D model of the room, understanding walls, floors, furniture, and surfaces\n- **Occlusion**: Virtual objects are correctly hidden behind real ones, creating convincing spatial integration\n- **Lighting estimation**: Digital objects cast shadows and reflect light consistent with the real environment\n- **Scene understanding**: The system recognizes semantic elements (tables, walls, floors) and can place content intelligently\n- **Shared spaces**: Multiple users can see and interact with the same virtual content anchored to the same physical location\n\n**The Reality-Virtuality Continuum**:\n\nPaul Milgram's 1994 framework describes a spectrum:\n\n```\nReal Environment ←→ AR ←→ MR ←→ AV ←→ Virtual Environment\n```\n\n- **Augmented Reality**: Real world with digital overlays\n- **Mixed Reality**: Seamless blending where digital and physical interact\n- **Augmented Virtuality (AV)**: Mostly virtual with real-world elements pulled in\n- **Virtual Reality**: Fully digital environment\n\nMR occupies the middle ground where the blend is most sophisticated.\n\n**Applications**:\n\n- **Enterprise collaboration**: Shared holographic models for design review — a 3D car engine that multiple people can walk around and annotate\n- **Remote assistance**: An expert sees what a field worker sees and can draw 3D annotations anchored to equipment\n- **Surgical planning**: 3D patient scans overlaid on the actual patient during procedures\n- **Architecture**: Walking through a building that doesn't exist yet, overlaid on the actual construction site\n- **Training**: Practicing procedures on virtual equipment placed in real workspaces\n- **Retail**: Interactive product demonstrations that respond to the physical environment\n\n**Major MR Platforms**:\n\n- **Apple Vision Pro**: High-end spatial computer with photorealistic passthrough\n- **Meta Quest (passthrough mode)**: Consumer MR with color passthrough cameras\n- **Microsoft HoloLens 2**: Enterprise-focused see-through holographic display\n- **Magic Leap 2**: Enterprise AR/MR glasses\n\n**Challenges**:\n\n- Display technology that can seamlessly blend digital and physical light\n- Processing power for real-time spatial mapping and rendering\n- Accurate hand and eye tracking for natural interaction\n- Creating content that adapts to any physical environment\n- Balancing digital density with real-world visibility",
+    "tags": ["technologies", "computing", "immersion", "innovation", "user-experience"],
+    "category": "Tools",
+    "icon": "FaVrCardboard",
+    "featured": false,
+    "aliases": ["MR", "Mixed Reality Technology", "Hybrid Reality"],
+    "relatedConcepts": ["extended-reality", "augmented-reality", "virtual-reality", "spatial-computing", "computer-vision", "digital-twin"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Mixed reality - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mixed_reality",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

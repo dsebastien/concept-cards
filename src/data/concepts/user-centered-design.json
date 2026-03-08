@@ -1,0 +1,67 @@
+{
+    "id": "user-centered-design",
+    "name": "User-Centered Design",
+    "summary": "A design philosophy and process that grounds every stage of product development in the needs, behaviors, and limitations of the end users.",
+    "explanation": "User-Centered Design (UCD) is an iterative design philosophy and process in which the needs, wants, and limitations of end users are given extensive attention at each stage of the design process. Rather than requiring users to adapt to a design, UCD adapts the design to the users. Formalized in ISO 9241-210, it is the foundation of modern UX practice.\n\n**Core Principles**:\n\n1. **Early focus on users and tasks**: Understand who the users are, what they're trying to accomplish, and in what context — before designing anything\n2. **Empirical measurement**: Observe and measure how real users interact with designs, rather than relying on assumptions or expert opinion\n3. **Iterative design**: Design, test, measure, redesign. No design is right the first time.\n4. **Participatory design**: Include users as active participants in the design process, not just test subjects\n\n**The UCD Process (ISO 9241-210)**:\n\n1. **Understand the context of use**: Who are the users? What are their goals? What environment do they work in? What constraints exist?\n2. **Specify user requirements**: Based on context analysis, define what the product must do for users\n3. **Produce design solutions**: Create designs that address the requirements — from concepts to prototypes\n4. **Evaluate against requirements**: Test designs with real users and measure against requirements\n5. **Iterate**: Return to any earlier step based on what evaluation reveals\n\n**UCD Methods by Phase**:\n\n| Phase | Methods |\n|-------|--------|\n| Research | User interviews, contextual inquiry, surveys, diary studies, analytics review |\n| Define | Personas, scenarios, user stories, journey maps, requirements workshops |\n| Design | Sketching, wireframing, prototyping, design patterns, card sorting |\n| Evaluate | Usability testing, A/B testing, heuristic evaluation, accessibility audits |\n\n**UCD vs. Other Design Approaches**:\n\n- **Technology-centered**: 'What can the technology do?' → build features → hope users adapt\n- **Business-centered**: 'What will make money?' → optimize for revenue → may sacrifice user value\n- **User-centered**: 'What do users need?' → design for their goals → find sustainable business models\n- **Activity-centered**: Similar to UCD but focuses on activities/tasks rather than specific users\n- **Participatory design**: Users as co-designers, not just research subjects — a more radical form of UCD\n\n**Why UCD Works**:\n\n- Products designed with UCD have higher adoption rates and user satisfaction\n- Fewer support requests and training needs when interfaces match user mental models\n- Earlier detection of design problems reduces costly late-stage changes\n- User research prevents building features nobody wants\n- Iterative testing reduces risk by validating assumptions before full development\n\n**Common Pitfalls**:\n\n- **Design by committee**: Including too many stakeholders dilutes user focus\n- **Survey-only research**: Surveys reveal what users say, not what they do — observation is essential\n- **Testing too late**: Usability testing after development is complete limits the ability to act on findings\n- **Ignoring edge cases**: Designing only for the 'average' user excludes people with disabilities, different contexts, or unusual needs\n- **User-centered ≠ user-driven**: Users know their problems well but aren't necessarily good at designing solutions. UCD seeks to understand problems deeply, then applies design expertise to solve them.\n\n**UCD and Accessibility**:\n\nUCD naturally promotes accessibility because it requires understanding diverse users. Inclusive design — designing for the full range of human diversity from the start — is UCD's logical extension. When you design for users with disabilities, you often improve the experience for everyone (curb cuts, captions, keyboard navigation).",
+    "tags": [
+        "design",
+        "user-experience",
+        "methods",
+        "products",
+        "accessibility"
+    ],
+    "category": "Techniques",
+    "icon": "FaUserCheck",
+    "featured": false,
+    "aliases": [
+        "UCD",
+        "Human-Centered Design",
+        "HCD",
+        "User-Centred Design"
+    ],
+    "relatedConcepts": [
+        "user-experience",
+        "design-thinking",
+        "usability",
+        "heuristic-evaluation",
+        "accessibility",
+        "interaction-design",
+        "affordances",
+        "service-design",
+        "customer-experience",
+        "human-computer-interaction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Design of Everyday Things by Don Norman",
+            "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "User-centered design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/User-centered_design",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

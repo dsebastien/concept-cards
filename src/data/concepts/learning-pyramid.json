@@ -1,0 +1,69 @@
+{
+    "id": "learning-pyramid",
+    "name": "Learning Pyramid",
+    "summary": "A model illustrating that retention rates vary dramatically based on the learning method, with active methods producing far better results than passive ones.",
+    "explanation": "The Learning Pyramid (also called the Cone of Learning or Retention Pyramid) is a widely referenced model that ranks learning methods by their effectiveness, typically measured by average retention rates. While the specific percentages often cited are not scientifically validated, the core insight — that active learning methods outperform passive ones — is strongly supported by educational research.\n\n**The Commonly Cited Model**:\n\n| Method | Retention Rate | Type |\n|--------|---------------|------|\n| Lecture | 5% | Passive |\n| Reading | 10% | Passive |\n| Audio-Visual | 20% | Passive |\n| Demonstration | 30% | Passive |\n| Discussion | 50% | Active |\n| Practice by Doing | 75% | Active |\n| Teaching Others | 90% | Active |\n\n**Important Caveats**:\n\nThe specific percentages are frequently attributed to the National Training Laboratories (NTL) in the 1960s, but no original research has been found to support these exact numbers. The model should be understood as a useful heuristic rather than precise science.\n\n**What Research Does Support**:\n\nWhile the exact numbers are debatable, robust evidence confirms the underlying principles:\n\n- **Active > Passive**: Engaging with material through practice, discussion, and application consistently produces better learning outcomes than passive reception\n- **Generation effect**: Producing information (through recall, explanation, or creation) strengthens memory more than simply reviewing it\n- **Testing effect**: Retrieval practice (actively recalling information) is more effective than re-reading or re-watching\n- **Teaching effect (protégé effect)**: Preparing to teach and actually teaching material deepens understanding\n- **Elaboration**: Connecting new information to existing knowledge through discussion and reflection enhances retention\n\n**Practical Applications**:\n\n- **For trainers**: Design sessions that move learners from passive reception to active engagement — lectures should be short, followed by discussion, practice, and teaching exercises\n- **For self-learners**: Don't just read or watch — summarize in your own words, practice applying concepts, explain to others, create examples\n- **For organizations**: Invest in hands-on training, mentoring, and communities of practice rather than relying solely on presentations and e-learning\n- **For knowledge management**: Writing notes in your own words (elaborative encoding) is more effective than highlighting or copying\n\n**Connection to Other Learning Principles**:\n\nThe pyramid aligns with several established learning theories:\n- **Bloom's Taxonomy**: Higher-order thinking (analyzing, evaluating, creating) maps to the active methods\n- **Constructivism**: Learners construct understanding through active engagement, not passive reception\n- **Experiential learning**: Direct experience and reflection produce deeper learning\n- **Feynman Technique**: Teaching a concept simply reveals and fills gaps in understanding",
+    "tags": [
+        "learning",
+        "education",
+        "training",
+        "retention",
+        "teaching"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Cone of Learning",
+        "Retention Pyramid",
+        "Dale's Cone of Experience",
+        "NTL Learning Pyramid"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "blooms-taxonomy",
+        "experiential-learning",
+        "feynman-technique",
+        "train-the-trainer",
+        "spaced-repetition",
+        "learning-transfer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Learning pyramid - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Learning_pyramid",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

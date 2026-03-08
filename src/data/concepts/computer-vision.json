@@ -1,0 +1,74 @@
+{
+    "id": "computer-vision",
+    "name": "Computer Vision",
+    "summary": "A field of AI that enables computers to interpret and understand visual information from the world, including images and video.",
+    "explanation": "Computer vision is the field of artificial intelligence that enables machines to extract meaningful information from images, videos, and other visual inputs — and take actions or make decisions based on that understanding. It aims to replicate and extend the capabilities of human visual perception using algorithms, neural networks, and cameras.\n\n**Core Tasks**:\n\n- **Image classification**: What is in this image? (cat, dog, car, tumor)\n- **Object detection**: Where are the objects in this image? (bounding boxes around each)\n- **Semantic segmentation**: What category does each pixel belong to? (road, sidewalk, sky)\n- **Instance segmentation**: Distinguishing individual instances of the same class (this car vs. that car)\n- **Pose estimation**: Where are the joints and limbs of a human body?\n- **Depth estimation**: How far away is each point in the scene?\n- **Optical flow**: How are things moving between frames?\n- **3D reconstruction**: Building a 3D model from 2D images\n- **Visual question answering**: Answering natural language questions about image content\n\n**How Modern Computer Vision Works**:\n\nModern computer vision is dominated by deep learning, particularly Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs):\n\n1. **Data collection**: Large datasets of labeled images (ImageNet, COCO, LAION)\n2. **Feature learning**: Neural networks automatically learn to detect visual features — edges, textures, shapes, objects — through training\n3. **Hierarchical representation**: Early layers detect simple features (edges, corners); deeper layers detect complex concepts (faces, objects, scenes)\n4. **Task-specific heads**: The same backbone network can be adapted for classification, detection, segmentation, etc.\n\n**Key Architectures**:\n\n- **CNNs**: ResNet, EfficientNet — excel at local pattern recognition\n- **Vision Transformers**: ViT, Swin — apply attention mechanisms to image patches\n- **Diffusion models**: Stable Diffusion, DALL-E — generate images from text\n- **Multimodal models**: CLIP, GPT-4V — understand both text and images together\n\n**Applications**:\n\n- **Autonomous vehicles**: Detecting pedestrians, vehicles, lane markings, traffic signs\n- **Medical imaging**: Detecting tumors, analyzing X-rays, screening retinal diseases\n- **Manufacturing**: Quality inspection, defect detection on production lines\n- **AR/XR**: Scene understanding, object tracking, SLAM for spatial computing\n- **Agriculture**: Crop health monitoring, yield estimation, weed detection from drone imagery\n- **Security**: Facial recognition, anomaly detection in surveillance\n- **Retail**: Automated checkout, inventory tracking, visual search\n- **Content creation**: Image generation, style transfer, video editing, background removal\n\n**Computer Vision + Large Language Models**:\n\nThe frontier is multimodal AI that combines vision and language:\n- Vision-language models (GPT-4V, Claude's vision, Gemini) can describe, analyze, and reason about images\n- These models enable visual question answering, image-based coding, document understanding, and more\n\n**Challenges**:\n\n- **Robustness**: Models can be fooled by adversarial examples, unusual lighting, or unfamiliar viewpoints\n- **Bias**: Training data biases lead to disparate performance across demographics\n- **Privacy**: Facial recognition and surveillance raise ethical concerns\n- **Domain shift**: Models trained on one dataset may fail on data from different contexts\n- **Explainability**: Understanding why a model made a particular visual judgment",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "technologies",
+        "perception",
+        "neural-networks"
+    ],
+    "category": "AI",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "CV",
+        "Machine Vision",
+        "Image Recognition"
+    ],
+    "relatedConcepts": [
+        "augmented-reality",
+        "extended-reality",
+        "neural-networks",
+        "deep-learning",
+        "machine-learning",
+        "agentic-vision",
+        "natural-language-processing",
+        "spatial-computing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Computer vision - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_vision",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

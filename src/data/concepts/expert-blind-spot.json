@@ -1,0 +1,75 @@
+{
+    "id": "expert-blind-spot",
+    "name": "Expert Blind Spot",
+    "summary": "The tendency of experts to overlook fundamental concepts or skip steps in explanations because their deep knowledge makes basics feel obvious and invisible.",
+    "explanation": "The expert blind spot is the phenomenon where deep expertise in a subject makes it difficult to recognize what aspects of that knowledge are non-obvious to others. Experts have internalized so much foundational knowledge that they literally cannot see what beginners don't know — the basics have become invisible through years of automaticity.\n\n**How Expert Blind Spots Form**:\n\nAs expertise develops, knowledge transforms through stages:\n1. **Conscious incompetence**: You know what you don't know\n2. **Conscious competence**: You can do it, but it requires effort and attention\n3. **Unconscious competence**: Skills become automatic — and this is where blind spots emerge\n4. **Unconscious expertise**: You can't even articulate what you know or how you do it\n\nAt stages 3 and 4, the expert has chunked and automated so much knowledge that the individual steps, assumptions, and prerequisites have disappeared from conscious awareness.\n\n**Expert Blind Spot vs. Curse of Knowledge**:\n\nThese concepts are closely related but distinct:\n- **Curse of knowledge**: Knowing something makes it hard to imagine not knowing it (a cognitive bias about prediction)\n- **Expert blind spot**: Deep expertise makes foundational knowledge invisible (a structural gap in awareness)\n\nThe curse of knowledge is about failing to model others' ignorance. The expert blind spot is about failing to see one's own implicit knowledge.\n\n**Where Expert Blind Spots Appear**:\n\n- **Teaching**: Professors skip 'obvious' steps in derivations, leaving students lost. Software tutorials assume knowledge of prerequisites without stating them.\n- **Documentation**: API documentation that makes sense to the developers but bewilders newcomers. Instructions that omit steps the writer performs automatically.\n- **Communication**: Jargon used without definition. Acronyms assumed to be universal. Context that feels self-evident to insiders.\n- **Product design**: Engineers building interfaces that make perfect sense to them but confuse users. Features that assume knowledge the user doesn't have.\n- **Hiring**: Interview questions that test insider knowledge rather than actual ability.\n\n**The Paradox of Expertise**:\n\nThe more expert you become, the worse you typically get at explaining fundamentals. This is not a character flaw — it's a structural consequence of how expertise restructures knowledge. The expert's knowledge is organized in sophisticated schemas that are qualitatively different from a beginner's understanding, making it genuinely difficult to reconstruct the novice's perspective.\n\n**Mitigation Strategies**:\n\n- **Teach beginners regularly**: Nothing reveals blind spots faster than a confused learner asking 'but why?'\n- **Watch beginners work**: Observe where they stumble — those are your blind spots\n- **Use the Feynman Technique**: Explain concepts in simple language; gaps in your explanation reveal blind spots\n- **Get feedback from non-experts**: Have beginners review your documentation, presentations, or instructions\n- **Maintain a 'beginner's log'**: When learning something new yourself, document every assumption and prerequisite — then apply this awareness to your expert domain\n- **Pair with intermediates**: People who recently learned a topic remember the stumbling blocks better than long-time experts\n- **Make the implicit explicit**: Deliberately inventory the assumptions, prerequisites, and vocabulary you take for granted",
+    "tags": [
+        "cognitive-biases",
+        "teaching",
+        "expertise",
+        "communications",
+        "learning"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaEyeSlash",
+    "featured": false,
+    "aliases": [
+        "Expert's Blind Spot",
+        "Expert Blindness",
+        "Expertise Bias"
+    ],
+    "relatedConcepts": [
+        "curse-of-knowledge",
+        "dunning-kruger-effect",
+        "beginners-mind",
+        "feynman-technique",
+        "illusion-of-explanatory-depth",
+        "knowledge-asymmetry",
+        "illusion-of-transparency",
+        "tacit-knowledge",
+        "functional-fixedness"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Made to Stick by Chip Heath & Dan Heath",
+            "url": "https://www.amazon.com/dp/1400064287?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Curse of knowledge - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Curse_of_knowledge",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "perplexity",
+    "name": "Perplexity",
+    "summary": "A measurement of how well a language model predicts text, with lower values indicating better performance and more confident predictions.",
+    "explanation": "Perplexity is one of the most fundamental metrics for evaluating language models. It measures how 'surprised' or 'confused' a model is when encountering text — a model with lower perplexity is better at predicting what comes next.\n\n**Intuitive Understanding**:\n\nPerplexity can be thought of as the effective number of equally likely choices the model considers for each token:\n- Perplexity of 10 → the model is as uncertain as if choosing uniformly among 10 options\n- Perplexity of 100 → the model is as uncertain as choosing among 100 options\n- Perplexity of 1 → the model is perfectly certain about every prediction\n\nLower perplexity = the model better understands the patterns in the text.\n\n**Mathematical Definition**:\n\nPerplexity is the exponential of the average cross-entropy loss:\n\nPPL = exp(-1/N × Σ log P(token_i | context_i))\n\nWhere P(token_i | context_i) is the probability the model assigns to each actual token given the preceding context.\n\n**What Affects Perplexity**:\n\n- **Model quality**: Better models achieve lower perplexity\n- **Model size**: Larger models generally have lower perplexity\n- **Training data**: More and better training data reduces perplexity\n- **Text difficulty**: Technical, rare, or creative text has higher perplexity than common prose\n- **Domain match**: Models achieve lower perplexity on text similar to their training data\n\n**Perplexity Benchmarks**:\n\nTypical perplexity values on standard benchmarks:\n- State-of-the-art LLMs: 5–15 on common benchmarks\n- Smaller models: 20–50\n- Random prediction over a 50K vocabulary: ~50,000\n\n**Limitations**:\n\n- **Not a complete measure**: Low perplexity doesn't guarantee useful, truthful, or safe outputs\n- **Vocabulary-dependent**: Perplexity values aren't directly comparable across models with different tokenizers\n- **Dataset-dependent**: Only meaningful when compared on the same evaluation data\n- **Doesn't capture generation quality**: A model can have good perplexity but poor generation (or vice versa)\n- **Not human-interpretable**: Perplexity doesn't directly translate to user-perceived quality\n\n**Relation to Other Metrics**:\n\nPerplexity complements other evaluation approaches:\n- **Human evaluation**: Direct assessment of output quality\n- **Benchmark tasks**: Performance on specific reasoning, knowledge, and coding tasks\n- **Bits per character/byte**: A tokenizer-independent alternative to perplexity\n- **BLEU/ROUGE**: Metrics for specific tasks like translation and summarization",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "metrics",
+        "evaluation",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "PPL",
+        "Language Model Perplexity"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "next-token-prediction",
+        "token",
+        "pre-training",
+        "model-parameters",
+        "training-data"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Perplexity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Perplexity",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

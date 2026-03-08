@@ -1,0 +1,25 @@
+{
+    "id": "augmented-reality",
+    "name": "Augmented Reality",
+    "summary": "Technology that overlays digital information — images, sounds, text — onto the real-world environment in real time, enhancing perception without replacing reality.",
+    "explanation": "Augmented Reality (AR) is a technology that superimposes computer-generated content onto the user's view of the real world, creating a composite experience where digital and physical elements coexist. Unlike virtual reality which replaces the real world entirely, AR enhances it — adding layers of information, visualization, and interactivity on top of what you already see.\n\n**How AR Works**:\n\n1. **Sensing**: Cameras, depth sensors, GPS, accelerometers, and gyroscopes capture information about the real environment\n2. **Processing**: Computer vision algorithms analyze the environment — identifying surfaces, objects, lighting conditions, and spatial geometry\n3. **Rendering**: Digital content is generated and positioned to align correctly with the real world\n4. **Display**: The composite view is presented through a screen (phone/tablet), head-mounted display (glasses/headset), or projection\n\n**Types of AR**:\n\n- **Marker-based AR**: Recognizes specific visual markers (QR codes, images) and anchors digital content to them\n- **Markerless AR**: Uses environmental features (surfaces, edges, planes) to place content without predefined markers\n- **Location-based AR**: Uses GPS and compass data to overlay information tied to geographic coordinates\n- **Projection-based AR**: Projects digital content directly onto physical surfaces\n- **Superimposition AR**: Replaces part of the real-world view with an augmented version (e.g., virtual furniture in a real room)\n\n**Key Technologies Enabling AR**:\n\n- **SLAM (Simultaneous Localization and Mapping)**: Builds a 3D map of the environment in real time while tracking the device's position within it\n- **Computer vision**: Object recognition, scene understanding, and visual tracking\n- **Depth sensing**: LiDAR, structured light, and stereo cameras measure distances to place virtual objects convincingly\n- **Spatial anchors**: Persistent digital content tied to physical locations\n- **Occlusion**: Rendering virtual objects behind real ones for realistic depth\n\n**Major AR Platforms**:\n\n- **Apple ARKit / Vision Pro**: AR framework for iOS and spatial computing headset\n- **Google ARCore**: AR framework for Android\n- **Meta Quest**: Mixed reality headset platform\n- **Microsoft HoloLens**: Enterprise-focused mixed reality headset\n- **Snap AR / Niantic Lightship**: Social and gaming AR platforms\n\n**Applications**:\n\n- **Navigation**: Overlaying directions onto the real-world view (Google Maps Live View)\n- **Retail**: Virtual try-on for clothing, accessories, and makeup; previewing furniture in rooms\n- **Education**: Interactive 3D models of anatomy, molecules, historical sites\n- **Manufacturing**: Step-by-step assembly instructions overlaid on equipment; remote expert assistance\n- **Healthcare**: Surgical guidance, vein visualization, medical training\n- **Gaming**: Location-based games (Pokémon GO), tabletop AR games\n- **Architecture and construction**: Visualizing buildings before they're built, comparing as-built to plans\n\n**AR vs. VR vs. MR**:\n\n| | AR | VR | MR |\n|---|---|---|---|\n| Real world | Visible | Hidden | Visible |\n| Digital content | Overlaid | Immersive | Integrated |\n| Awareness | Full | None | Full |\n| Interaction | Limited | Full | Full |\n| Mobility | Free | Restricted | Free |\n\n**Challenges**:\n\n- Field of view limitations in current headsets\n- Battery life and thermal management in mobile devices\n- Accurate occlusion and lighting matching for photorealism\n- Social acceptance of AR glasses in public\n- Privacy concerns around persistent environmental scanning\n- Content creation complexity compared to traditional media",
+    "tags": ["technologies", "computing", "design", "user-experience", "innovation"],
+    "category": "Tools",
+    "icon": "FaVrCardboard",
+    "featured": false,
+    "aliases": ["AR", "Augmented Reality Technology"],
+    "relatedConcepts": ["extended-reality", "virtual-reality", "mixed-reality", "spatial-computing", "computer-vision", "digital-twin", "haptic-feedback"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Augmented reality - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Augmented_reality",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

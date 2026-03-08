@@ -1,0 +1,74 @@
+{
+    "id": "next-token-prediction",
+    "name": "Next-Token Prediction",
+    "summary": "The core mechanism of autoregressive language models that generates text by predicting the most likely next token given all preceding tokens.",
+    "explanation": "Next-token prediction is the fundamental task that underpins modern large language models. The model is trained to answer one deceptively simple question: given a sequence of tokens, what token is most likely to come next?\n\n**The Core Idea**:\n\nGiven the sequence: \"The cat sat on the\"\nThe model assigns probabilities to every token in its vocabulary:\n- \"mat\" → 15%\n- \"floor\" → 12%\n- \"bed\" → 8%\n- \"roof\" → 3%\n- ... (thousands more with smaller probabilities)\n\nThis probability distribution is computed using the model's learned parameters, which encode patterns from its training data.\n\n**Why It Works So Well**:\n\nNext-token prediction seems like a narrow task, but learning to do it well requires the model to develop rich internal representations of:\n- **Grammar and syntax**: Understanding sentence structure to predict grammatically correct continuations\n- **Semantics**: Understanding meaning to predict contextually appropriate words\n- **World knowledge**: Knowing facts about the world to predict accurate statements\n- **Reasoning**: Following logical chains to predict correct conclusions\n- **Style and tone**: Matching the register and voice of the preceding text\n\nAs Ilya Sutskever noted, predicting the next token well enough requires understanding the processes that generated the text — effectively requiring the model to build a world model.\n\n**From Prediction to Generation**:\n\nText generation is simply repeated next-token prediction:\n1. Process the prompt\n2. Predict the probability of each possible next token\n3. Sample a token from this distribution\n4. Add it to the sequence\n5. Repeat from step 2 with the extended sequence\n\n**Training Objective**:\n\nDuring pre-training, the model learns by:\n1. Reading a sequence of tokens from training data\n2. Predicting the next token at each position\n3. Computing the loss (how wrong the prediction was)\n4. Adjusting parameters via backpropagation to improve predictions\n\nThis is called **causal language modeling** — the model only sees tokens that come before the current position (no peeking ahead).\n\n**Limitations**:\n\n- Next-token prediction optimizes for statistical plausibility, not truth — leading to hallucinations\n- The model has no inherent notion of correctness, only likelihood\n- Performance depends entirely on the quality and breadth of training data\n- The autoregressive nature means errors can compound (each token conditions all future tokens)",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "fundamentals",
+        "generation",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Next Word Prediction",
+        "Causal Language Modeling",
+        "Autoregressive Prediction"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "autoregressive-model",
+        "token",
+        "text-generation",
+        "pre-training",
+        "transformer",
+        "ai-inference",
+        "ai-hallucination"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Language model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

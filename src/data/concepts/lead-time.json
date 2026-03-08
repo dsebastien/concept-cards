@@ -1,0 +1,83 @@
+{
+    "id": "lead-time",
+    "name": "Lead Time",
+    "summary": "The total elapsed time from when a request or order is placed until it is fulfilled, serving as a key metric in lean, agile, and supply chain management.",
+    "explanation": "Lead time is the total duration between the initiation of a process and its completion. In manufacturing, it's the time from order placement to delivery. In software development, it's the time from committing code to running in production (or from idea to deployed feature). In any workflow, it measures how long customers or stakeholders wait.\n\n**Types of Lead Time**:\n\n| Type | Measured From → To |\n|------|--------------------|\n| **Customer lead time** | Customer order → delivery received |\n| **Manufacturing lead time** | Production start → finished goods |\n| **Delivery lead time** | Order shipped → customer receives |\n| **Development lead time** | Feature requested → deployed to production |\n| **Procurement lead time** | Purchase order → materials received |\n\n**Lead Time vs. Related Metrics**:\n\n- **Lead time**: Total elapsed time (includes waiting)\n- **Cycle time**: Time actively spent working on one unit\n- **Processing time**: Pure hands-on work time (subset of cycle time)\n- **Takt time**: Available production time ÷ customer demand (the pace you need to match)\n- **Throughput**: Number of items completed per time period\n\n**Little's Law**:\n\nThe fundamental relationship between lead time, throughput, and work in progress:\n\n**Lead Time = Work in Progress ÷ Throughput**\n\nThis means you can reduce lead time by:\n1. Reducing WIP (taking on less at once)\n2. Increasing throughput (working faster or more efficiently)\n\n**Why Lead Time Matters**:\n\n- **Customer satisfaction**: Shorter lead times mean faster delivery of value\n- **Cash flow**: Shorter lead times mean faster revenue realization\n- **Flexibility**: Short lead times allow faster response to market changes\n- **Quality signal**: Long lead times often indicate process problems, bottlenecks, or excessive queuing\n- **Competitive advantage**: Companies with shorter lead times can outmaneuver slower competitors\n\n**Reducing Lead Time**:\n\n1. **Limit WIP**: Stop starting and start finishing — fewer items in progress means each moves faster\n2. **Eliminate queues**: Most lead time is waiting time, not working time. Identify and reduce queues\n3. **Reduce batch sizes**: Smaller batches flow through faster than large ones\n4. **Automate handoffs**: Reduce delays between process stages\n5. **Remove bottlenecks**: Address the constraint that limits overall flow\n6. **Parallelize**: Where possible, perform activities concurrently rather than sequentially\n7. **Simplify approvals**: Reduce the number of gates and decision points\n\n**In Software Development (DORA Metrics)**:\n\nLead time for changes is one of the four DORA metrics (DevOps Research and Assessment):\n- **Elite performers**: Less than 1 hour from commit to production\n- **High performers**: Between 1 day and 1 week\n- **Medium performers**: Between 1 week and 1 month\n- **Low performers**: More than 6 months\n\n**The 95% Rule**:\n\nIn most knowledge work processes, items spend 95% of their lead time waiting in queues and only 5% being actively worked on. This means the biggest improvements come from reducing wait times, not working faster.",
+    "tags": [
+        "lean",
+        "agile",
+        "metrics",
+        "operations",
+        "productivity"
+    ],
+    "category": "Software Development",
+    "icon": "FaClock",
+    "featured": false,
+    "aliases": [
+        "Cycle Lead Time",
+        "Delivery Lead Time",
+        "Time to Delivery"
+    ],
+    "relatedConcepts": [
+        "value-stream",
+        "kanban",
+        "bottleneck",
+        "theory-of-constraints",
+        "lean-manufacturing",
+        "continuous-improvement",
+        "supply-chain"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Lead time - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lead_time",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

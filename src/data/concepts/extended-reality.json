@@ -1,0 +1,25 @@
+{
+    "id": "extended-reality",
+    "name": "Extended Reality",
+    "summary": "An umbrella term encompassing all immersive technologies that blend physical and digital worlds, including augmented reality, virtual reality, and mixed reality.",
+    "explanation": "Extended Reality (XR) is the umbrella term that covers the entire spectrum of immersive technologies — from environments that add digital elements to the real world (AR) to fully immersive digital environments (VR), and everything in between (MR). XR represents the convergence of physical and digital worlds along what's known as the reality-virtuality continuum.\n\n**The XR Spectrum**:\n\n| Technology | Real World | Digital Content | Example |\n|-----------|-----------|----------------|--------|\n| **Reality** | 100% | 0% | Looking around normally |\n| **AR** | Dominant | Overlaid | Pokémon GO, Google Maps AR |\n| **MR** | Blended | Interactive, anchored | HoloLens, Quest passthrough |\n| **VR** | 0% | 100% | Beat Saber, VRChat |\n\nThe boundaries between these categories are increasingly blurred. Modern headsets like Meta Quest and Apple Vision Pro can move fluidly between AR and VR modes, making XR the more accurate descriptor.\n\n**Why XR Matters**:\n\n- **Beyond screens**: XR represents a fundamental shift from 2D interfaces (screens) to 3D spatial interfaces where digital content exists in physical space\n- **Natural interaction**: Instead of mice, keyboards, and touchscreens, XR enables interaction through gaze, gesture, voice, and body movement\n- **Presence and immersion**: XR can create a sense of 'being there' that flat media cannot achieve\n- **Spatial understanding**: 3D visualization of complex data, designs, and concepts\n\n**Key Enabling Technologies**:\n\n- **Display technology**: Micro-OLED, waveguides, light field displays for lightweight, high-resolution headsets\n- **Tracking systems**: Inside-out tracking, eye tracking, hand tracking, body tracking\n- **Spatial audio**: 3D sound that changes based on head position, creating believable auditory environments\n- **Haptics**: Touch feedback through controllers, gloves, or bodysuits\n- **AI and computer vision**: Scene understanding, object recognition, gesture interpretation\n- **5G/Edge computing**: Low-latency networking for cloud-rendered XR experiences\n\n**XR Industry Segments**:\n\n- **Enterprise**: Training, remote collaboration, design review, digital twins, field service\n- **Healthcare**: Surgical planning, medical training, therapy (exposure therapy, pain management)\n- **Education**: Immersive learning experiences, virtual field trips, 3D anatomy\n- **Entertainment**: Gaming, immersive cinema, virtual concerts, social VR\n- **Retail**: Virtual try-on, spatial commerce, showroom experiences\n- **Architecture and real estate**: Walkthroughs of unbuilt spaces, renovation visualization\n\n**The Spatial Computing Era**:\n\nXR is increasingly reframed as 'spatial computing' — a paradigm where computing moves from flat screens into the three-dimensional world around us. Apple's Vision Pro, Meta's Quest, and others signal a shift where XR devices may eventually replace smartphones and laptops for many tasks, placing apps, windows, and media anywhere in physical space.\n\n**Challenges Facing XR**:\n\n- **Hardware maturity**: Weight, battery life, field of view, and resolution still limit comfort for extended use\n- **Content creation**: Building 3D spatial content is harder and more expensive than 2D content\n- **Motion sickness**: Vestibular conflicts in VR cause discomfort for some users\n- **Social norms**: Public acceptance of headsets and glasses remains uncertain\n- **Privacy**: Environmental scanning and eye tracking raise surveillance concerns\n- **Accessibility**: Ensuring XR experiences work for users with disabilities\n- **Standards**: Fragmented ecosystem with competing platforms and formats",
+    "tags": ["technologies", "computing", "innovation", "immersion", "user-experience"],
+    "category": "Tools",
+    "icon": "FaVrCardboard",
+    "featured": false,
+    "aliases": ["XR", "Cross Reality", "X Reality"],
+    "relatedConcepts": ["augmented-reality", "virtual-reality", "mixed-reality", "spatial-computing", "digital-twin", "computer-vision", "haptic-feedback"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Extended reality - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extended_reality",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

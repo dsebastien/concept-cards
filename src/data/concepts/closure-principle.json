@@ -1,0 +1,64 @@
+{
+    "id": "closure-principle",
+    "name": "Closure Principle",
+    "summary": "The cognitive tendency to perceive incomplete shapes, patterns, or information as complete wholes by mentally filling in the missing elements.",
+    "explanation": "The closure principle (also called the law of closure) is a Gestalt principle describing the mind's automatic tendency to complete incomplete shapes, patterns, and information. When presented with fragments, the brain fills in the gaps to perceive a unified whole — even when that whole isn't physically present.\n\n**How Closure Works**:\n\nThe brain actively constructs completeness from incomplete data:\n- A circle with a gap is still perceived as a circle, not an arc\n- A triangle with missing corners is seen as a complete triangle\n- Partially obscured text can still be read\n- A conversation with dropped words is understood in full\n\nThis isn't a flaw — it's an incredibly efficient feature. The world is full of occluded, partial, and noisy information. Without closure, we'd be overwhelmed by fragmented sensory data.\n\n**The Neuroscience**:\n\nClosure involves neural interpolation — the visual cortex generates activity corresponding to the missing portions of a shape, effectively 'seeing' what isn't there. Brain imaging studies show that the same neural regions activate whether a contour is physically present or merely implied.\n\n**Closure in Design**:\n\nDesigners deliberately leverage closure:\n- **Logos**: The WWF panda, IBM stripes, and NBC peacock all rely on closure — viewers complete the shapes from minimal cues\n- **Icons**: Simplified interface icons work because users' minds complete the abstraction into a recognizable object\n- **Negative space**: Designs that use empty space to imply shapes (like the FedEx arrow) create memorable, elegant visuals\n- **Progress indicators**: Partially filled circles or bars trigger closure, creating a sense of 'almost complete' that motivates users\n\n**Closure Beyond Vision**:\n\nThe principle operates across modalities and cognitive domains:\n\n- **Music**: A melody that stops one note before resolution creates tension — the listener mentally supplies the missing note\n- **Narrative**: Stories that leave gaps invite the audience to fill them in, creating engagement. The best mysteries reveal just enough for the reader's closure instinct to build suspense.\n- **Conversation**: We understand sentences even when words are mumbled or missing, because context lets us close the gaps\n- **Learning**: The testing effect works partly through closure — being forced to recall (fill in) information strengthens memory more than passive review\n- **Problem-solving**: Insight moments often involve suddenly perceiving how disparate pieces form a complete pattern\n\n**The Zeigarnik Effect Connection**:\n\nThe Zeigarnik effect — the tendency to remember unfinished tasks better than completed ones — is related to closure. An incomplete task is an 'open gestalt' that creates psychological tension, keeping it active in memory until the task (and the gestalt) is closed.\n\n**When Closure Misleads**:\n\n- **Premature closure**: Jumping to conclusions by completing a pattern before gathering sufficient evidence. This is a recognized hazard in medical diagnosis, criminal investigation, and decision-making.\n- **Pareidolia**: Seeing faces in random patterns (clouds, toast, tree bark) is closure applied to noise\n- **Confirmation bias**: Closing patterns with evidence that fits expectations rather than what's actually there\n\nAwareness of the closure tendency helps: recognize when you're filling in gaps with assumptions rather than evidence, and deliberately seek the missing information before concluding.",
+    "tags": [
+        "psychology",
+        "perception",
+        "design",
+        "cognitive-science",
+        "thinking"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaCircleNotch",
+    "featured": false,
+    "aliases": [
+        "Law of Closure",
+        "Gestalt Closure",
+        "Perceptual Closure",
+        "Reification"
+    ],
+    "relatedConcepts": [
+        "gestalt-psychology",
+        "gestalt",
+        "figure-ground-perception",
+        "law-of-pragnanz",
+        "zeigarnik-effect",
+        "pattern-recognition",
+        "visual-perception"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Closure (psychology) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Closure_(psychology)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

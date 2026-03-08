@@ -1,0 +1,43 @@
+{
+    "id": "supply-chain",
+    "name": "Supply Chain",
+    "summary": "The interconnected network of organizations, people, activities, information, and resources involved in producing and delivering a product from raw materials to the end customer.",
+    "explanation": "A supply chain is the entire system of organizations, people, activities, information, and resources involved in moving a product or service from supplier to customer. It encompasses sourcing raw materials, manufacturing, warehousing, transportation, distribution, and final delivery.\n\n**Supply Chain Components**:\n\n1. **Sourcing/Procurement**: Identifying and acquiring raw materials, components, and services\n2. **Manufacturing/Production**: Transforming inputs into finished products\n3. **Warehousing/Inventory**: Storing goods at various stages\n4. **Logistics/Transportation**: Moving goods between locations\n5. **Distribution**: Getting products to retail or directly to customers\n6. **Returns/Reverse logistics**: Handling returns, recycling, and disposal\n\n**Supply Chain vs. Value Chain**:\n\n| Supply Chain | Value Chain |\n|-------------|-------------|\n| External focus (inter-organizational) | Internal focus (within organization) |\n| Physical flow of materials/products | Activities that add value |\n| Efficiency and cost optimization | Competitive advantage |\n| Operations perspective | Strategic perspective |\n\n**Supply Chain Management (SCM)**:\n\nSCM involves coordinating and optimizing all supply chain activities to:\n- Minimize total costs while maintaining service levels\n- Reduce lead times and inventory\n- Improve quality and reliability\n- Increase flexibility and responsiveness\n- Manage risk across the chain\n\n**Key Supply Chain Strategies**:\n\n- **Just-in-Time (JIT)**: Minimize inventory by receiving goods only when needed for production\n- **Lean supply chain**: Eliminate waste throughout the chain\n- **Agile supply chain**: Prioritize flexibility and responsiveness over pure efficiency\n- **Resilient supply chain**: Build redundancy and alternatives to handle disruptions\n- **Sustainable supply chain**: Consider environmental and social impact alongside economic performance\n\n**The Bullwhip Effect**:\n\nSmall fluctuations in customer demand get amplified as they move upstream through the supply chain — a small change in retail sales can cause massive swings in raw material orders. This is caused by:\n- Demand forecast updating\n- Order batching\n- Price fluctuations\n- Rationing and shortage gaming\n\nMitigation strategies include information sharing, collaborative forecasting, and reducing lead times.\n\n**Modern Supply Chain Challenges**:\n\n- **Globalization complexity**: Multi-tier suppliers across countries with different regulations, risks, and lead times\n- **Disruption vulnerability**: Pandemics, geopolitical conflicts, natural disasters, and cyberattacks\n- **Sustainability pressure**: Reducing carbon footprint, ethical sourcing, circular economy requirements\n- **Digital transformation**: AI-driven demand forecasting, IoT-enabled tracking, blockchain for provenance\n- **Customer expectations**: Same-day delivery, full transparency, personalization at scale",
+    "tags": [
+        "businesses",
+        "operations",
+        "logistics",
+        "strategy",
+        "management"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaTruck",
+    "featured": false,
+    "aliases": [
+        "SCM",
+        "Supply Chain Management"
+    ],
+    "relatedConcepts": [
+        "value-chain",
+        "value-stream",
+        "lean-manufacturing",
+        "bottleneck",
+        "kanban",
+        "theory-of-constraints",
+        "supply-chain-attack",
+        "lead-time"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Supply chain - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Supply_chain",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

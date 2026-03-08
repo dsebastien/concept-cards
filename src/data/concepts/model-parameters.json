@@ -1,0 +1,76 @@
+{
+    "id": "model-parameters",
+    "name": "Model Parameters",
+    "summary": "The learned numerical values (weights and biases) within a neural network that determine how the model transforms inputs into outputs.",
+    "explanation": "Model parameters are the internal numerical values that a neural network learns during training. They are the 'knowledge' of the model — encoding everything it has learned about language, reasoning, and the world into billions of numbers.\n\n**What Parameters Are**:\n\nParameters are the adjustable values in a neural network:\n- **Weights**: Numbers that determine how strongly one neuron's output influences another. They control what information flows through the network and how it's transformed.\n- **Biases**: Offset values that shift the activation of neurons, allowing the model to better fit the data.\n\nEvery connection between neurons in the network has an associated weight. A model with 70 billion parameters has 70 billion of these learned values.\n\n**Parameter Count and Model Scale**:\n\n| Model | Parameters | Approximate Size |\n|-------|-----------|------------------|\n| GPT-2 | 1.5B | 3 GB |\n| LLaMA 2 | 7B–70B | 14–140 GB |\n| GPT-4 | Estimated 1.7T (MoE) | Not disclosed |\n| Claude | Not disclosed | Not disclosed |\n\nMore parameters generally means:\n- Greater capacity to learn and represent complex patterns\n- Better performance on diverse tasks\n- Higher computational cost for both training and inference\n- More memory required to store and run the model\n\n**How Parameters Are Learned**:\n\n1. **Initialize**: Parameters start as small random values\n2. **Forward pass**: Input flows through the network, transformed by parameters at each layer\n3. **Loss computation**: Compare the model's output to the expected output\n4. **Backpropagation**: Calculate how each parameter contributed to the error\n5. **Update**: Adjust parameters slightly to reduce the error (using an optimizer like Adam)\n6. **Repeat**: Process billions of training examples, gradually refining all parameters\n\n**Parameters vs. Hyperparameters**:\n\n- **Parameters**: Learned automatically during training (weights, biases)\n- **Hyperparameters**: Set manually before training (learning rate, number of layers, batch size, context window size)\n\n**Parameter Efficiency**:\n\nNot all parameters contribute equally. Techniques to manage parameter count include:\n- **Model pruning**: Removing parameters that contribute little to performance\n- **Quantization**: Representing parameters with fewer bits (e.g., 16-bit or 4-bit instead of 32-bit)\n- **Mixture of Experts (MoE)**: Only activating a subset of parameters for each input\n- **LoRA/QLoRA**: Fine-tuning only a small number of additional parameters instead of all of them\n\n**Why Parameter Count Matters to Users**:\n\n- Indicates approximate model capability (though architecture and training data matter more)\n- Determines hardware requirements for running the model locally\n- Affects inference speed and cost\n- Larger isn't always better — a well-trained smaller model can outperform a poorly trained larger one",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "neural-networks",
+        "fundamentals",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Weights",
+        "Model Weights",
+        "Neural Network Parameters",
+        "Learned Parameters"
+    ],
+    "relatedConcepts": [
+        "neural-networks",
+        "large-language-models",
+        "pre-training",
+        "fine-tuning",
+        "model-quantization",
+        "model-pruning",
+        "model-scaling",
+        "mixture-of-experts",
+        "deep-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Artificial neural network - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artificial_neural_network#Organization",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

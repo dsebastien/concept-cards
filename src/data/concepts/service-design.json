@@ -1,0 +1,30 @@
+{
+    "id": "service-design",
+    "name": "Service Design",
+    "summary": "The practice of planning and organizing people, infrastructure, communication, and material components of a service to improve its quality and the interaction between provider and users.",
+    "explanation": "Service design is the activity of planning and arranging people, infrastructure, communication, and material components of a service in order to improve its quality, the interaction between the service provider and its users, and the user's overall experience. While UX focuses on product interfaces and CX on customer perceptions, service design looks at the entire system — including what happens behind the scenes.\n\n**The Frontstage-Backstage Model**:\n\nService design distinguishes between:\n- **Frontstage**: Everything the customer sees and interacts with (website, staff, physical space, communications)\n- **Backstage**: Everything that supports the frontstage but is invisible to the customer (internal processes, supply chain, employee training, technology systems)\n- **Support processes**: Infrastructure that enables everything (IT systems, policies, partner relationships)\n\nGreat service design ensures that backstage operations seamlessly support frontstage experiences.\n\n**Core Principles**:\n\n1. **Human-centered**: Design based on genuine understanding of all people involved — customers and employees\n2. **Collaborative**: Co-create with stakeholders from across the organization and with customers\n3. **Iterative**: Prototype, test, learn, and refine service concepts before full implementation\n4. **Sequential**: Visualize and orchestrate the service as a series of interrelated actions over time\n5. **Holistic**: Consider the entire ecosystem — the service within its broader context of business, culture, and society\n\n**Key Service Design Tools**:\n\n- **Service blueprint**: A diagram showing the customer journey, frontstage actions, backstage actions, and support processes in aligned rows\n- **Customer journey map**: Visualizing the customer's experience across touchpoints with emotions, pain points, and opportunities\n- **Stakeholder map**: Identifying all parties involved in or affected by the service\n- **Personas**: Representative user archetypes that guide design decisions\n- **Service prototyping**: Simulating service experiences through role-play, physical mockups, or Wizard of Oz techniques\n- **Touchpoint inventory**: Cataloging every point of interaction between the service and its users\n\n**Service Design vs. UX Design**:\n\n| Service Design | UX Design |\n|---|---|\n| Entire service ecosystem | Digital product interface |\n| People, processes, and physical elements | Screens and interactions |\n| Multiple channels and touchpoints | Usually one product/platform |\n| Includes employee experience | Focuses on end user |\n| Orchestrates over time | Often focused on moments |\n\n**Applications**:\n\n- **Healthcare**: Redesigning patient journeys from appointment booking through treatment and follow-up\n- **Banking**: Creating seamless experiences across branches, apps, and phone support\n- **Government**: Simplifying citizen interactions with public services\n- **Retail**: Connecting online browsing, in-store experience, and delivery\n- **Education**: Designing learning experiences that span classroom, online, and self-directed study\n\n**Why Service Design Matters**:\n\n- Services are increasingly complex, spanning multiple channels, technologies, and human interactions\n- Customer expectations are set by the best experiences they've had anywhere, not just within your industry\n- Digital transformation without service design produces digitized bad processes, not better services\n- The employee experience and customer experience are inseparable — designing one without the other creates dysfunction",
+    "tags": ["design", "businesses", "strategy", "user-experience", "services"],
+    "category": "Business & Economics",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": ["Service Design Thinking", "Service Experience Design"],
+    "relatedConcepts": ["user-experience", "customer-experience", "employee-experience", "design-thinking", "customer-journey", "user-centered-design", "human-computer-interaction", "jobs-to-be-done"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "This Is Service Design Doing by Marc Stickdorn",
+            "url": "https://www.amazon.com/dp/1491927186?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Service design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Service_design",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

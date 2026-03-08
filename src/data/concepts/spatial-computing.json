@@ -1,0 +1,46 @@
+{
+    "id": "spatial-computing",
+    "name": "Spatial Computing",
+    "summary": "A computing paradigm where digital interactions occur in and around three-dimensional physical space, using the real world as the interface.",
+    "explanation": "Spatial computing is a paradigm shift in how humans interact with computers. Instead of being confined to flat screens, keyboards, and mice, spatial computing places digital content in the three-dimensional space around you — apps become windows floating in your room, data becomes objects you can walk around, and interaction happens through gaze, gesture, and voice.\n\n**The Evolution of Computing Interfaces**:\n\n| Era | Interface | Interaction |\n|-----|----------|------------|\n| Mainframes | Punch cards, terminals | Batch processing |\n| PCs | Mouse, keyboard, 2D windows | Click, type |\n| Mobile | Touchscreen | Tap, swipe |\n| Spatial | 3D space around you | Gaze, gesture, voice |\n\nEach transition made computing more natural and intuitive. Spatial computing is the next step — using the physical world itself as the computing environment.\n\n**Core Capabilities**:\n\n- **World understanding**: The device continuously maps and understands the 3D geometry of the environment\n- **Spatial anchoring**: Digital content is placed at specific physical locations and stays there\n- **Multi-modal input**: Combining eye tracking, hand tracking, voice, and head tracking for natural interaction\n- **Passthrough**: Cameras capture the real world and display it alongside digital content\n- **Spatial persistence**: Content remains where you placed it across sessions\n- **Shared experiences**: Multiple users can interact with the same spatial content\n\n**What Makes It Different from XR**:\n\nWhile XR focuses on immersion along the reality-virtuality spectrum, spatial computing is a broader concept about how computing integrates with physical space. A spatial computer might show you:\n- Email floating next to your desk\n- A virtual monitor mounted on a wall\n- 3D data visualizations you can walk through\n- Video calls where participants appear life-sized in your room\n\nThese aren't 'immersive experiences' — they're everyday computing tasks done spatially.\n\n**Key Devices**:\n\n- **Apple Vision Pro**: Positioned as a spatial computer rather than a VR headset — emphasizes productivity, media, and daily computing\n- **Meta Quest**: Increasingly marketed as a spatial computing platform alongside gaming\n- **Microsoft HoloLens**: Enterprise spatial computing for manufacturing, healthcare, and design\n\n**Applications**:\n\n- **Productivity**: Infinite virtual monitors arranged anywhere, 3D document review, spatial file management\n- **Design**: Architects and industrial designers working with full-scale 3D models in physical space\n- **Data visualization**: Walking through datasets, manipulating 3D charts and models\n- **Collaboration**: Shared spatial workspaces where remote participants have virtual presence\n- **Healthcare**: 3D medical imaging reviewed at life scale, surgical planning with spatial models\n- **Education**: Learning through spatial interaction with 3D content\n\n**Challenges**:\n\n- **Input precision**: Hand tracking and eye tracking must match the precision of mouse and keyboard for productivity\n- **Text input**: Typing on virtual keyboards is significantly slower than physical ones\n- **Social acceptability**: Wearing a headset in shared spaces or public remains awkward\n- **Fatigue**: Holding arms up for gesture input, eye strain from near-eye displays\n- **Ergonomics**: Extended wear comfort for devices that must sit on your face\n- **Ecosystem maturity**: App libraries for spatial computing are still nascent compared to mobile",
+    "tags": [
+        "technologies",
+        "computing",
+        "innovation",
+        "user-experience",
+        "interfaces"
+    ],
+    "category": "Tools",
+    "icon": "FaCube",
+    "featured": false,
+    "aliases": [
+        "Spatial Computing Platform",
+        "3D Computing"
+    ],
+    "relatedConcepts": [
+        "extended-reality",
+        "augmented-reality",
+        "mixed-reality",
+        "virtual-reality",
+        "computer-vision",
+        "haptic-feedback"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Spatial computing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Spatial_computing",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

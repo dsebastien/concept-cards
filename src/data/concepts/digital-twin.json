@@ -1,0 +1,52 @@
+{
+    "id": "digital-twin",
+    "name": "Digital Twin",
+    "summary": "A virtual replica of a physical object, process, or system that is continuously updated with real-world data to mirror its real counterpart for simulation and analysis.",
+    "explanation": "A digital twin is a dynamic virtual representation of a physical entity — a product, process, system, or environment — that is continuously synchronized with its real-world counterpart through sensor data and IoT connectivity. Unlike a static 3D model, a digital twin lives and breathes: it reflects the current state of its physical twin and can simulate future states.\n\n**Key Properties**:\n\n- **Real-time synchronization**: Data flows continuously from the physical entity to its digital twin via sensors and IoT\n- **Bidirectional**: Changes can be simulated in the digital twin and then applied to the physical counterpart\n- **Simulation capability**: What-if scenarios can be tested virtually before physical implementation\n- **Historical data**: The twin accumulates data over time, enabling trend analysis and predictive modeling\n- **AI integration**: Machine learning models process twin data for anomaly detection, prediction, and optimization\n\n**Types of Digital Twins**:\n\n- **Component twins**: Individual parts (a single engine, a pump, a sensor)\n- **Asset twins**: Complete systems (a wind turbine, a vehicle, a building)\n- **System twins**: Collections of assets working together (a factory floor, a supply chain)\n- **Process twins**: Workflows and operations (manufacturing processes, logistics flows)\n- **Environment twins**: Physical spaces (smart cities, campuses, ecosystems)\n\n**How Digital Twins Work**:\n\n1. **Physical entity** is instrumented with sensors (temperature, vibration, pressure, flow, etc.)\n2. **Data pipeline** collects, transmits, and processes sensor data in real time\n3. **Digital model** receives data and updates its state to match the physical entity\n4. **Analytics layer** applies AI/ML for pattern detection, prediction, and optimization\n5. **Visualization** presents the twin's state and insights through dashboards, 3D models, or AR/VR\n6. **Action** feeds insights back to operators or automated control systems\n\n**Applications**:\n\n- **Manufacturing**: Simulating production line changes before implementation, predicting equipment failure (predictive maintenance)\n- **Healthcare**: Digital twins of individual patients for personalized treatment simulation\n- **Urban planning**: City-scale twins (Singapore's Virtual Singapore) for traffic, energy, and infrastructure planning\n- **Aerospace**: NASA uses digital twins of spacecraft for mission planning and anomaly resolution\n- **Energy**: Wind farm optimization, grid management, renewable energy forecasting\n- **Construction**: Monitoring structural health of bridges, buildings, and infrastructure\n- **Automotive**: Virtual crash testing, autonomous vehicle simulation, fleet management\n\n**Digital Twin vs. Simulation vs. 3D Model**:\n\n| | 3D Model | Simulation | Digital Twin |\n|---|---------|-----------|-------------|\n| Data connection | None | Historical | Real-time |\n| Updates | Manual | Periodic | Continuous |\n| State | Static | Scenario-based | Reflects current reality |\n| Prediction | No | Yes | Yes, with live data |\n\n**Challenges**:\n\n- **Data quality**: Twins are only as good as their sensor data\n- **Complexity**: Modeling complex systems with sufficient fidelity is extremely difficult\n- **Integration**: Connecting legacy equipment and diverse data sources\n- **Cost**: Sensor instrumentation, data infrastructure, and modeling expertise\n- **Scale**: Managing thousands of twins across an organization\n- **Security**: Twins contain detailed operational data that could be exploited",
+    "tags": [
+        "technologies",
+        "simulation",
+        "data",
+        "innovation",
+        "engineering"
+    ],
+    "category": "Tools",
+    "icon": "FaClone",
+    "featured": false,
+    "aliases": [
+        "Digital Twin Technology",
+        "Virtual Twin",
+        "Cyber-Physical Twin"
+    ],
+    "relatedConcepts": [
+        "augmented-reality",
+        "extended-reality",
+        "mixed-reality",
+        "spatial-computing",
+        "computer-vision",
+        "big-data"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Digital twin - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Digital_twin",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

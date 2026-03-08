@@ -1,0 +1,65 @@
+{
+    "id": "value-stream",
+    "name": "Value Stream",
+    "summary": "The complete sequence of activities required to deliver a product or service from initial concept or customer request through to delivery of value.",
+    "explanation": "A value stream encompasses all the actions — both value-adding and non-value-adding — required to bring a product or service from concept to customer delivery (or from order to cash). The concept originated in lean manufacturing, popularized by James Womack and Daniel Jones in 'Lean Thinking,' and has since been applied extensively in software development, service design, and business process improvement.\n\n**Value Stream Components**:\n\nEvery value stream includes:\n- **Value-adding activities**: Steps that directly transform the product or service in ways the customer is willing to pay for\n- **Necessary non-value-adding activities**: Steps that don't add value but are currently required (compliance, approvals, setup)\n- **Waste (muda)**: Activities that add no value and are not necessary — the primary target for elimination\n\n**Value Stream vs. Process vs. Value Chain**:\n\n| Concept | Scope | Focus |\n|---------|-------|-------|\n| **Value Stream** | End-to-end flow for one product/service family | Flow of value to customer |\n| **Process** | Individual set of steps within a value stream | Task completion |\n| **Value Chain** | All activities across the entire organization | Competitive advantage |\n| **Supply Chain** | Material and product flow across organizations | Logistics and procurement |\n\n**Value Stream Mapping (VSM)**:\n\nThe primary tool for analyzing value streams, VSM creates a visual representation of:\n- Material and information flows\n- Process steps with cycle times, wait times, and quality metrics\n- Inventory or work-in-progress at each stage\n- Push vs. pull dynamics\n- Current state (as-is) and future state (to-be)\n\n**In Software Development**:\n\nValue streams have been adapted for knowledge work through frameworks like SAFe (Scaled Agile Framework):\n- **Development value stream**: From concept to release (idea → code → deploy → operate)\n- **Operational value stream**: From customer trigger to value delivery\n- Flow metrics: flow time, flow efficiency, flow load, flow velocity, flow distribution\n\n**Key Metrics**:\n\n- **Lead time**: Total time from request to delivery\n- **Process time**: Time actually spent working on the item\n- **Flow efficiency**: Process time ÷ Lead time (typically 5-15% in most organizations)\n- **Throughput**: Number of items completed per time period\n- **Work in progress (WIP)**: Items currently in the stream\n\n**Optimizing Value Streams**:\n\n1. **Map the current state**: Understand where value is created and where waste exists\n2. **Identify bottlenecks**: Find constraints that limit overall throughput\n3. **Reduce batch sizes**: Smaller batches flow faster and reveal problems sooner\n4. **Limit WIP**: Reduce work-in-progress to improve flow (Little's Law)\n5. **Automate non-value steps**: Use technology to speed or eliminate necessary but non-value-adding activities\n6. **Design the future state**: Create a vision for an improved flow\n7. **Implement incrementally**: Make changes in manageable steps, measuring impact",
+    "tags": [
+        "lean",
+        "processes",
+        "operations",
+        "agile",
+        "businesses"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Value Flow",
+        "End-to-End Value Flow"
+    ],
+    "relatedConcepts": [
+        "value-stream-mapping",
+        "value-chain",
+        "lean-manufacturing",
+        "muda",
+        "kaizen",
+        "bottleneck",
+        "theory-of-constraints",
+        "kanban",
+        "lead-time",
+        "continuous-improvement",
+        "value-creation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Lean Thinking by James P. Womack and Daniel T. Jones",
+            "url": "https://www.amazon.com/dp/1982196351?tag=dsebastien00-20"
+        },
+        {
+            "title": "Value Stream Mapping by Karen Martin and Mike Osterling",
+            "url": "https://www.amazon.com/dp/0071828915?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Value stream - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Value_stream",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

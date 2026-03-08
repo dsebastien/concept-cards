@@ -1,0 +1,25 @@
+{
+    "id": "visual-perception",
+    "name": "Visual Perception",
+    "summary": "The ability to interpret and make meaning from visual information through the interplay of the eyes and brain, shaped by both sensory input and cognitive processes.",
+    "explanation": "Visual perception is the process by which the brain interprets and organizes visual information from the eyes to create a meaningful understanding of the environment. Far from being a passive camera-like recording, vision is an active, constructive process where the brain continuously interprets, predicts, and fills in information.\n\n**The Perception Pipeline**:\n\n1. **Sensation**: Light enters the eye, hits the retina, and is converted to neural signals\n2. **Early processing**: The visual cortex detects basic features — edges, colors, motion, depth\n3. **Organization**: Features are grouped into objects and surfaces using Gestalt principles\n4. **Recognition**: Objects are matched to stored representations in memory\n5. **Interpretation**: Meaning and context are assigned based on knowledge and expectations\n\nEach stage involves active construction, not passive reception.\n\n**Key Properties**:\n\n- **Constructive**: The brain builds a visual experience from fragmentary data. We have a blind spot where the optic nerve exits, yet we never notice it because the brain fills it in.\n- **Selective**: We see far less than we think. Change blindness and inattentional blindness demonstrate that we can miss major changes in a scene when attention is directed elsewhere.\n- **Contextual**: The same physical stimulus is perceived differently depending on context. A gray patch looks light on a dark background and dark on a light background.\n- **Predictive**: The brain uses prior experience to predict what it expects to see, then checks incoming data against those predictions. Perception is partly a controlled hallucination.\n- **Biased**: Visual perception is influenced by expectations, emotions, culture, and goals.\n\n**Visual Perception Phenomena**:\n\n- **Optical illusions**: Reveal the assumptions and shortcuts the visual system uses (Müller-Lyer, Ponzo, Ebbinghaus illusions)\n- **Color constancy**: Objects appear the same color under different lighting conditions because the brain adjusts for illumination\n- **Depth perception**: The brain constructs 3D understanding from 2D retinal images using binocular disparity, perspective, occlusion, and other cues\n- **Motion perception**: The brain detects motion from changes in retinal images and can perceive apparent motion from static frames (the basis of film and animation)\n\n**Top-Down vs. Bottom-Up Processing**:\n\n| Bottom-Up (Data-Driven) | Top-Down (Concept-Driven) |\n|------------------------|-------------------------|\n| Driven by sensory input | Driven by expectations and knowledge |\n| Feature detection → object recognition | Context → predictions → interpretation |\n| 'What is this pattern?' | 'Given what I expect, what am I seeing?' |\n\nPerception involves constant interplay between both. A radiologist's expertise (top-down) helps them see tumors in X-rays that novices miss, even though the sensory data (bottom-up) is identical.\n\n**Implications for Design**:\n\n- Leverage how perception naturally works (Gestalt principles, contrast, hierarchy)\n- Account for perceptual limitations (color blindness affects ~8% of men)\n- Use pre-attentive features (color, size, orientation) for elements that need to pop out instantly\n- Design for scanning, not reading — users perceive visual patterns before processing text\n\n**Implications for Thinking**:\n\nUnderstanding that perception is constructive and biased is intellectually humbling. We don't see the world as it is — we see a model the brain constructs. This insight extends to all forms of cognition: our understanding of any complex situation is always a construction, never a direct readout of reality.",
+    "tags": ["psychology", "perception", "cognitive-science", "design", "neuroscience"],
+    "category": "Psychology & Mental Models",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": ["Vision", "Visual Processing", "Sight Perception"],
+    "relatedConcepts": ["gestalt-psychology", "gestalt", "figure-ground-perception", "closure-principle", "pattern-recognition", "selective-attention", "inattentional-blindness", "cognitive-load"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Visual perception - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Visual_perception",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

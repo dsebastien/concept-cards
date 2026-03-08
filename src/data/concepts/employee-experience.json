@@ -1,0 +1,67 @@
+{
+    "id": "employee-experience",
+    "name": "Employee Experience",
+    "summary": "The sum of all interactions and perceptions an employee has throughout their journey with an organization, from recruitment to departure.",
+    "explanation": "Employee Experience (EX) encompasses everything an employee encounters, observes, and feels during their time with an organization — the physical workspace, digital tools, culture, management, growth opportunities, well-being support, and sense of purpose. Just as CX maps the customer journey, EX maps the employee journey.\n\n**The Employee Experience Lifecycle**:\n\n1. **Attract**: Employer brand, job postings, career site, social presence\n2. **Recruit**: Application process, interviews, communication, candidate experience\n3. **Onboard**: First days/weeks, orientation, setup, welcome, role clarity\n4. **Develop**: Learning, training, career pathing, stretch assignments, mentoring\n5. **Perform**: Day-to-day work, tools, processes, feedback, recognition\n6. **Retain**: Engagement, compensation, growth, work-life balance, belonging\n7. **Transition**: Role changes, promotions, internal mobility\n8. **Exit**: Offboarding, exit interviews, alumni relationships\n\n**The Three EX Environments (Jacob Morgan)**:\n\n1. **Physical environment**: Office design, remote work setup, equipment, commute, amenities\n2. **Technological environment**: Tools, platforms, systems, automation, integration — how easy or frustrating the tech stack is to use\n3. **Cultural environment**: Values, leadership style, psychological safety, diversity, recognition, purpose, autonomy\n\n**Why EX Matters**:\n\n- **EX drives CX**: Happy, engaged employees deliver better customer experiences. The correlation is well-documented.\n- **Productivity**: Engaged employees are 17% more productive (Gallup)\n- **Retention**: Strong EX reduces turnover, saving significant recruitment and training costs\n- **Innovation**: Employees who feel safe and valued are more likely to take creative risks\n- **Employer brand**: EX shapes how employees talk about the company, affecting talent attraction\n\n**EX vs. Employee Engagement**:\n\n| Employee Engagement | Employee Experience |\n|---|---|\n| Outcome (how employees feel) | Input (what shapes how they feel) |\n| Measured through surveys | Designed through intentional practices |\n| 'Are employees engaged?' | 'What conditions create engagement?' |\n\nEngagement is the result; experience is the cause.\n\n**Measuring EX**:\n\n- **eNPS (Employee Net Promoter Score)**: 'Would you recommend this company as a place to work?'\n- **Engagement surveys**: Regular pulse checks on satisfaction, belonging, and motivation\n- **Retention/turnover rates**: Especially voluntary turnover and regrettable attrition\n- **Time to productivity**: How quickly new hires become effective\n- **Internal mobility rate**: Are people growing within the organization or leaving to grow?\n- **Glassdoor/employer review scores**: External perception of internal experience\n\n**EX Design Principles**:\n\n- **Moments that matter**: Focus design effort on high-impact moments (first day, first project, first promotion, difficult feedback) rather than trying to optimize everything\n- **Employee-centricity**: Apply the same design thinking used for customers to internal processes\n- **Consistency across touchpoints**: HR, IT, management, and facilities should deliver a coherent experience\n- **Personalization**: Different employees need different things at different career stages\n- **Reduce friction**: Every unnecessary process, approval, or tool switch degrades EX\n\n**The Developer Experience Connection**:\n\nFor technology companies, developer experience (DX) is a critical subset of EX. Developers' daily experience is heavily shaped by their tools, codebase quality, deployment processes, and technical culture. Poor internal DX — slow builds, painful deployments, unclear documentation — directly degrades both EX and productivity.",
+    "tags": [
+        "leadership",
+        "culture",
+        "well-being",
+        "organizations",
+        "human-resources"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "EX",
+        "Employee Experience Management",
+        "Workplace Experience"
+    ],
+    "relatedConcepts": [
+        "customer-experience",
+        "user-experience",
+        "developer-experience",
+        "psychological-safety",
+        "onboarding",
+        "burnout"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Employee experience - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Employee_experience_design",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

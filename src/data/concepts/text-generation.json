@@ -1,0 +1,74 @@
+{
+    "id": "text-generation",
+    "name": "Text Generation",
+    "summary": "The process by which language models produce coherent text by predicting and outputting sequences of tokens.",
+    "explanation": "Text generation is the process through which language models produce human-readable text. Modern LLMs generate text one token at a time, using the preceding context to predict each successive token until a complete response is formed.\n\n**How Text Generation Works**:\n\n1. The model receives an input prompt (tokenized into a sequence of tokens)\n2. It processes the input through its neural network layers\n3. The final layer produces a probability distribution over the entire vocabulary\n4. A token is selected from this distribution (via a sampling strategy)\n5. The selected token is appended to the sequence\n6. Steps 2–5 repeat until a stop condition is met (max length, end-of-sequence token, or stop sequence)\n\n**Sampling Strategies**:\n\nHow the model picks from the probability distribution significantly affects output quality:\n\n- **Greedy Decoding**: Always pick the highest-probability token. Fast but repetitive and uncreative.\n- **Temperature Sampling**: Scale probabilities before sampling. Low temperature (0.1–0.3) = more deterministic; high temperature (0.8–1.5) = more creative and diverse.\n- **Top-k Sampling**: Only consider the k most likely tokens. Prevents very unlikely tokens from being selected.\n- **Top-p (Nucleus) Sampling**: Consider the smallest set of tokens whose cumulative probability exceeds p. Dynamically adjusts the candidate pool size.\n- **Beam Search**: Maintain multiple candidate sequences and select the overall best one. Used more in translation than in conversational AI.\n\n**Key Parameters**:\n\n- **Temperature**: Controls randomness (0 = deterministic, higher = more random)\n- **Max tokens**: Limits response length\n- **Stop sequences**: Strings that signal the model to stop generating\n- **Frequency/presence penalties**: Discourage repetition\n\n**Types of Text Generation**:\n\n- **Open-ended generation**: Creative writing, brainstorming, storytelling\n- **Conditional generation**: Summarization, translation, code generation\n- **Structured generation**: JSON output, form filling, data extraction\n- **Interactive generation**: Conversational AI, chatbots, assistants\n\n**Challenges**:\n\n- **Hallucination**: Generating plausible but factually incorrect content\n- **Repetition**: Getting stuck in loops without proper penalties\n- **Coherence over length**: Maintaining consistency in long outputs\n- **Controllability**: Steering generation toward desired style, tone, or content",
+    "tags": [
+        "ai",
+        "nlp",
+        "generation",
+        "tokens",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Natural Language Generation",
+        "NLG",
+        "Language Generation"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "next-token-prediction",
+        "token",
+        "ai-inference",
+        "ai-temperature",
+        "ai-hallucination",
+        "autoregressive-model",
+        "context-window"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Natural language generation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Natural_language_generation",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

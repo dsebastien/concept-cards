@@ -1,0 +1,70 @@
+{
+    "id": "agentic-experience",
+    "name": "Agentic Experience",
+    "summary": "The quality of interaction between humans and AI agents, encompassing how effectively, transparently, and trustworthily AI agents collaborate with users to accomplish goals.",
+    "explanation": "Agentic Experience (AX) is an emerging discipline focused on the design and quality of interactions between humans and AI agents — autonomous or semi-autonomous systems that take actions on behalf of users. As AI shifts from passive tools (you ask, it answers) to active agents (it plans, executes, and adapts), AX addresses the unique design challenges this transition creates.\n\n**Why AX Is Distinct**:\n\nTraditional UX assumes a human is in the driver's seat. AX must account for a fundamentally different dynamic:\n\n| UX | AX |\n|---|---|\n| User initiates every action | Agent acts autonomously |\n| Predictable interface | Variable, emergent behavior |\n| User controls the flow | Agent and user share control |\n| Clear cause and effect | Non-deterministic outcomes |\n| Interface is static | Agent adapts over time |\n| Error = broken UI | Error = wrong autonomous action |\n\n**Core AX Design Principles**:\n\n1. **Transparency**: Users must understand what the agent is doing, why, and what it plans to do next. Opaque agents erode trust quickly.\n\n2. **Controllability**: Users need clear mechanisms to guide, correct, pause, or override agent behavior. Autonomy without control creates anxiety.\n\n3. **Predictability**: Agents should behave consistently enough that users can build accurate mental models of their capabilities and limitations.\n\n4. **Calibrated trust**: The experience should help users develop appropriate trust — neither blind over-reliance nor unnecessary skepticism.\n\n5. **Graceful failure**: When agents make mistakes (and they will), the experience should make errors visible, reversible, and learning opportunities.\n\n6. **Progressive autonomy**: Start with more human oversight and gradually increase agent independence as trust is earned through demonstrated competence.\n\n7. **Explainability**: Agents should be able to explain their reasoning and decisions in terms the user can understand.\n\n**AX Challenges**:\n\n- **The autonomy paradox**: Too much autonomy feels dangerous; too little defeats the purpose of having an agent\n- **Attention management**: How much should agents interrupt vs. work silently? When should they ask for permission vs. act?\n- **Error attribution**: When an agent fails, is it the agent's fault, the user's instructions, or the tool's limitations?\n- **Skill degradation**: As agents take over tasks, users may lose the skills to perform or evaluate those tasks\n- **Context handoff**: Agents need to understand context deeply, and transferring context between human and agent is lossy\n- **Multi-agent coordination**: When multiple agents work together, how does the user maintain oversight?\n\n**AX Patterns**:\n\n- **Plan-then-execute**: Agent proposes a plan, user approves, agent executes (Claude Code's approach)\n- **Ambient awareness**: Agent monitors and surfaces relevant information without being asked\n- **Supervised autonomy**: Agent acts freely within defined guardrails, escalating edge cases\n- **Collaborative drafting**: Agent produces drafts that humans refine (AI writing assistants)\n- **Proactive suggestions**: Agent notices opportunities and suggests actions without taking them\n\n**AX Metrics**:\n\n- Task completion rate and quality\n- Trust calibration accuracy (do users trust the agent appropriately?)\n- Intervention frequency (how often users need to correct the agent)\n- Time to value (how quickly the agent delivers useful results)\n- User confidence in agent outputs\n- Recovery from errors (how easily mistakes are detected and fixed)\n\n**The Future of AX**:\n\nAs AI agents become more capable and prevalent — managing calendars, writing code, conducting research, coordinating workflows — AX will become as important as UX was for the web era. The organizations that design the best agentic experiences will have a significant competitive advantage.",
+    "tags": [
+        "ai",
+        "user-experience",
+        "design",
+        "agents",
+        "interaction"
+    ],
+    "category": "AI",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": [
+        "AX",
+        "Agent Experience",
+        "AI Agent Experience",
+        "Agentic UX"
+    ],
+    "relatedConcepts": [
+        "user-experience",
+        "developer-experience",
+        "ai-agent",
+        "ai-assistants",
+        "tool-use",
+        "ai-guardrails",
+        "human-computer-interaction",
+        "agent-orchestration"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

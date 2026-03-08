@@ -1,0 +1,73 @@
+{
+    "id": "pre-training",
+    "name": "Pre-training",
+    "summary": "The initial phase of training a language model on large-scale text data to learn general language understanding before task-specific fine-tuning.",
+    "explanation": "Pre-training is the foundational training phase where a language model learns the statistical patterns, grammar, facts, and reasoning abilities from vast amounts of text data. This phase produces a general-purpose model that can later be adapted to specific tasks through fine-tuning.\n\n**How Pre-training Works**:\n\nDuring pre-training, the model processes enormous text corpora (often trillions of tokens from books, websites, code, and other sources) and learns to predict text. The most common approach for modern LLMs is **next-token prediction**: given a sequence of tokens, predict the most likely next token. Through billions of these predictions, the model internalizes language structure, world knowledge, and reasoning patterns.\n\n**Scale of Pre-training**:\n\n- **Data**: Trillions of tokens from diverse sources\n- **Compute**: Thousands of GPUs/TPUs running for weeks or months\n- **Cost**: Millions of dollars for frontier models\n- **Parameters**: Billions of model parameters being optimized\n\n**Pre-training Objectives**:\n\n- **Causal Language Modeling (CLM)**: Predict the next token (used by GPT, Claude, LLaMA). This produces models naturally suited for text generation.\n- **Masked Language Modeling (MLM)**: Predict masked tokens within a sentence (used by BERT). This produces models suited for understanding and classification.\n- **Denoising**: Reconstruct corrupted text (used by T5). Combines benefits of both approaches.\n\n**The Pre-training → Fine-tuning Pipeline**:\n\n1. **Pre-training**: Learn general language and world knowledge from broad data\n2. **Supervised Fine-tuning (SFT)**: Train on curated instruction-following examples\n3. **RLHF/DPO**: Align model behavior with human preferences\n4. **Task-specific Fine-tuning**: Optional further specialization for particular domains\n\n**Why Pre-training Matters**:\n\n- It determines the model's foundational capabilities and knowledge cutoff\n- Biases and gaps in pre-training data directly affect model behavior\n- The quality and diversity of pre-training data are more important than sheer quantity\n- Pre-training is the most computationally expensive phase, making it a significant barrier to entry\n\n**Emergent Abilities**:\n\nAs pre-training scale increases, models exhibit emergent capabilities not present at smaller scales — including in-context learning, chain-of-thought reasoning, and few-shot generalization. These abilities arise from the sheer volume and diversity of patterns learned during pre-training.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "training",
+        "fundamentals",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Pretraining",
+        "Foundation Model Training",
+        "Initial Training"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "fine-tuning",
+        "training-data",
+        "next-token-prediction",
+        "transformer",
+        "model-parameters",
+        "transfer-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pre-training (machine learning) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pre-training_(machine_learning)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

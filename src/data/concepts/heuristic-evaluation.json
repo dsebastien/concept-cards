@@ -1,0 +1,60 @@
+{
+    "id": "heuristic-evaluation",
+    "name": "Heuristic Evaluation",
+    "summary": "A usability inspection method where experts evaluate an interface against established design principles to identify potential usability problems.",
+    "explanation": "Heuristic evaluation is a usability inspection method developed by Jakob Nielsen and Rolf Molich in the early 1990s. A small group of evaluators (typically 3–5) independently examine an interface and judge its compliance with recognized usability principles (heuristics). It's one of the most cost-effective methods for finding usability problems.\n\n**Nielsen's 10 Usability Heuristics**:\n\n1. **Visibility of system status**: Keep users informed about what's happening through timely feedback\n2. **Match between system and real world**: Use familiar language, concepts, and conventions from the user's world\n3. **User control and freedom**: Provide undo, redo, and easy exit from unwanted states\n4. **Consistency and standards**: Follow platform and industry conventions; same words/actions should mean the same things\n5. **Error prevention**: Design to prevent errors from occurring in the first place\n6. **Recognition rather than recall**: Minimize memory load by making options, actions, and information visible\n7. **Flexibility and efficiency of use**: Provide shortcuts for expert users without confusing novices\n8. **Aesthetic and minimalist design**: Remove irrelevant or rarely needed information that competes with relevant content\n9. **Help users recognize, diagnose, and recover from errors**: Express error messages in plain language, indicate the problem, and suggest solutions\n10. **Help and documentation**: Provide searchable, task-focused, concise documentation when needed\n\n**The Evaluation Process**:\n\n1. **Preparation**: Define scope, select evaluators (3–5 usability experts), brief them on the product and user context\n2. **Individual evaluation**: Each evaluator independently inspects the interface, noting violations of each heuristic\n3. **Severity rating**: Each problem is rated on severity (1 = cosmetic, 2 = minor, 3 = major, 4 = catastrophe)\n4. **Aggregation**: Findings from all evaluators are combined, removing duplicates\n5. **Prioritization**: Problems are ranked by severity and frequency\n6. **Reporting**: Consolidated report with specific problems, affected heuristics, severity, and recommendations\n\n**Why 3–5 Evaluators**:\n\nNielsen's research showed that a single evaluator typically finds only 35% of usability problems. Five evaluators collectively find about 75%. Adding more evaluators yields diminishing returns — the cost increases linearly while the discovery rate plateaus.\n\n**Strengths**:\n\n- **Fast and cheap**: Can be done in hours, not weeks\n- **No users needed**: Doesn't require recruiting participants\n- **Early applicability**: Can evaluate wireframes, prototypes, or finished products\n- **Structured**: Heuristics provide a systematic checklist\n- **Complements user testing**: Catches different types of issues\n\n**Limitations**:\n\n- **Expert dependent**: Quality varies with evaluator expertise\n- **False positives**: Experts may flag issues that don't affect real users\n- **Misses context**: Doesn't reveal whether users actually struggle with specific tasks\n- **Not comprehensive**: Won't catch all usability issues — user testing finds things heuristic evaluation misses (and vice versa)\n- **Subjective**: Different evaluators may interpret heuristics differently\n\n**Beyond Nielsen's Heuristics**:\n\nWhile Nielsen's 10 are the most widely used, other heuristic sets exist:\n- **Shneiderman's Eight Golden Rules** of interface design\n- **Gerhardt-Powals' Cognitive Engineering Principles**\n- **ISO 9241-110** dialogue principles\n- Domain-specific heuristics for mobile, gaming, accessibility, or AI interfaces\n\nThe best practice is often to adapt heuristics to the specific domain and context being evaluated.",
+    "tags": [
+        "design",
+        "usability",
+        "evaluation",
+        "user-experience",
+        "methods"
+    ],
+    "category": "Techniques",
+    "icon": "FaClipboardCheck",
+    "featured": false,
+    "aliases": [
+        "Heuristic Review",
+        "Expert Review",
+        "Usability Inspection",
+        "Nielsen's Heuristics"
+    ],
+    "relatedConcepts": [
+        "user-experience",
+        "usability",
+        "user-centered-design",
+        "cognitive-load",
+        "affordances",
+        "accessibility",
+        "human-computer-interaction",
+        "interaction-design"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Heuristic evaluation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Heuristic_evaluation",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}

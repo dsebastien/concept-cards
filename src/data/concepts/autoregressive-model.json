@@ -1,0 +1,74 @@
+{
+    "id": "autoregressive-model",
+    "name": "Autoregressive Model",
+    "summary": "A type of generative model that produces output sequentially, using each generated element as input for predicting the next one.",
+    "explanation": "An autoregressive model generates sequences one element at a time, where each new element is conditioned on all previously generated elements. This sequential, left-to-right generation is the dominant paradigm for modern large language models.\n\n**How Autoregressive Generation Works**:\n\nThe term 'autoregressive' comes from statistics: the model 'regresses' on its own previous outputs. For text:\n\n1. Given a prompt, generate token 1\n2. Given prompt + token 1, generate token 2\n3. Given prompt + token 1 + token 2, generate token 3\n4. Continue until a stopping condition\n\nEach step uses the full preceding context, meaning the model's output at step n depends on all tokens from steps 1 through n-1.\n\n**Autoregressive vs. Other Architectures**:\n\n| Model Type | Generation | Example Models |\n|------------|-----------|----------------|\n| Autoregressive | Sequential, left-to-right | GPT, Claude, LLaMA |\n| Masked Language Model | Fills in blanks | BERT, RoBERTa |\n| Encoder-Decoder | Encode input, then decode output | T5, BART |\n| Diffusion | Iterative denoising | Stable Diffusion, DALL-E 3 |\n\n**Strengths**:\n\n- **Natural for generation**: The sequential process mirrors how humans write and speak\n- **Flexible output length**: Can generate any length of text up to the context window limit\n- **Strong coherence**: Each token considers all previous context\n- **Scalable**: The transformer architecture makes autoregressive models highly parallelizable during training\n- **Emergent abilities**: Larger autoregressive models develop capabilities like in-context learning and reasoning\n\n**Limitations**:\n\n- **Sequential generation is slow**: Each token requires a full forward pass through the model — cannot be parallelized during inference\n- **Error accumulation**: A poor early token can cascade, affecting all subsequent tokens\n- **Exposure bias**: During training, the model sees ground-truth previous tokens; during inference, it sees its own (potentially flawed) outputs\n- **Left-to-right constraint**: The model cannot revise earlier tokens based on later context (though techniques like self-consistency and chain-of-thought help mitigate this)\n\n**Optimization Techniques**:\n\n- **KV-cache**: Stores intermediate computations to avoid redundant work across generation steps\n- **Speculative decoding**: Uses a smaller draft model to propose multiple tokens, verified by the main model\n- **Batching**: Groups multiple requests to amortize the cost of model computation\n- **Quantization**: Reduces numerical precision to speed up each forward pass\n\n**Beyond Text**:\n\nAutoregressive models are used beyond language — for music generation (treating notes as tokens), code completion, protein sequence design, and even image generation (treating image patches as a sequence).",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "generation",
+        "architectures"
+    ],
+    "category": "AI",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Autoregressive Language Model",
+        "AR Model",
+        "Causal Model"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "next-token-prediction",
+        "transformer",
+        "text-generation",
+        "token",
+        "ai-inference",
+        "speculative-decoding",
+        "context-window"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Autoregressive model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Autoregressive_model",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-08",
+    "dateModified": "2026-03-08"
+}
