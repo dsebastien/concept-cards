@@ -1,3 +1,9 @@
+## [11.11.0](https://github.com/dsebastien/concept-cards/compare/11.10.0...11.11.0) (2026-03-08)
+
+### Features
+
+* **all:** added concepts ([3bd6b30](https://github.com/dsebastien/concept-cards/commit/3bd6b305db46a1092839d5e9a9b6c4cf595872e2))
+* **all:** added fuzzy search ([8f917f6](https://github.com/dsebastien/concept-cards/commit/8f917f68c3ac78d013f3a0633089250a7492c653))
 ## [11.10.0](https://github.com/dsebastien/concept-cards/compare/11.9.0...11.10.0) (2026-03-07)
 
 ### Features
