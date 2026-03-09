@@ -1,3 +1,8 @@
+## [11.15.0](https://github.com/dsebastien/concept-cards/compare/11.14.0...11.15.0) (2026-03-09)
+
+### Features
+
+* **all:** added new concepts ([5898b96](https://github.com/dsebastien/concept-cards/commit/5898b9643e733d90d7e84d0963a39836c714ddd5))
 ## [11.14.0](https://github.com/dsebastien/concept-cards/compare/11.13.0...11.14.0) (2026-03-08)
 
 ### Features
