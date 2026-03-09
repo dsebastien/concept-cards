@@ -1,0 +1,71 @@
+{
+    "id": "regression-fallacy",
+    "name": "Regression Fallacy",
+    "summary": "The error of attributing a natural regression to the mean to a specific cause, mistaking statistical inevitability for the effect of an intervention.",
+    "explanation": "The regression fallacy occurs when someone observes regression to the mean but incorrectly attributes the change to a causal factor rather than recognizing it as a statistical artifact. It is the specific misinterpretation that turns a well-known statistical phenomenon into a persistent source of bad decisions.\n\nThe classic example comes from Daniel Kahneman's work with Israeli flight instructors. Instructors noticed that when they praised cadets for an exceptionally good landing, the next landing was usually worse. When they criticized cadets for a bad landing, the next landing was usually better. They concluded that criticism works and praise is counterproductive. In reality, both exceptionally good and bad performances were likely to be followed by more average ones regardless of feedback. The instructors were attributing regression to the mean to their own interventions.\n\nThis fallacy is alarmingly common. In medicine, patients often seek treatment when symptoms are at their worst, then improve due to regression - leading them to credit the treatment. In business, leaders implement changes after poor quarters and take credit when performance naturally rebounds. In education, remedial programs introduced after low test scores appear to work when scores improve. In each case, doing nothing might have produced the same result.\n\nTo avoid the regression fallacy: always consider regression to the mean as an alternative explanation when evaluating changes following extreme outcomes, use control groups whenever possible to isolate genuine causal effects, track long-term trends rather than reacting to individual data points, and remember that the more extreme an outcome, the more likely it reflects temporary factors that will not persist.",
+    "tags": [
+        "logical-fallacies",
+        "cognitive-biases",
+        "statistics",
+        "thinking",
+        "decision-making"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Regression to the mean fallacy",
+        "Misattributed regression",
+        "Galton's error"
+    ],
+    "relatedConcepts": [
+        "regression-to-the-mean",
+        "post-hoc-fallacy",
+        "correlation-vs-causation",
+        "luck-vs-skill",
+        "statistical-thinking",
+        "narrative-fallacy",
+        "confirmation-bias",
+        "causal-inference",
+        "illusory-correlation",
+        "hot-hand-fallacy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Regression fallacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Regression_fallacy",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

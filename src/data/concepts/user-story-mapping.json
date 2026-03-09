@@ -1,0 +1,69 @@
+{
+    "id": "user-story-mapping",
+    "name": "User Story Mapping",
+    "summary": "A visual technique for organizing user stories into a two-dimensional map that shows the big picture of a product from the user's perspective.",
+    "explanation": "User story mapping, created by Jeff Patton, is a collaborative technique for arranging user stories into a useful model that helps understand the functionality of a system, identify gaps and omissions, and plan releases that deliver value incrementally.\n\nA story map has two dimensions. The horizontal axis represents the user's journey through the product, organized as a narrative flow of activities. The vertical axis represents priority, with the most essential stories at the top and nice-to-haves at the bottom. This creates a map where you can draw horizontal lines to define release slices - each slice delivering a complete, if thin, version of the user experience.\n\nStory mapping solves a fundamental problem with flat backlogs: they lose context. A prioritized list of 200 user stories tells you what to build next but not how the pieces fit together or what a coherent release looks like. The story map preserves the narrative structure of the user experience, making it visible when a release would leave critical gaps in the user journey.\n\nThe technique is particularly valuable during backlog refinement and release planning. By visualizing the entire product surface, teams can identify the minimum viable slice that delivers end-to-end value, spot missing stories that would break the user experience, and have productive conversations about scope and priority. It transforms backlog management from a list-ordering exercise into a collaborative product design activity.",
+    "tags": [
+        "agile",
+        "product-management",
+        "planning",
+        "techniques",
+        "user-experience"
+    ],
+    "category": "Techniques",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Story mapping",
+        "User journey mapping",
+        "Patton story map"
+    ],
+    "relatedConcepts": [
+        "user-stories",
+        "backlog",
+        "backlog-refinement",
+        "minimum-viable-product",
+        "product-owner",
+        "sprint-planning",
+        "user-centered-design",
+        "hypothesis-driven-development"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "User story mapping - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/User_story#Story_map",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "User Story Mapping by Jeff Patton",
+            "url": "https://www.amazon.com/dp/1491904909?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

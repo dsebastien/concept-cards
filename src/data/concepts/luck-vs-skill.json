@@ -1,0 +1,75 @@
+{
+    "id": "luck-vs-skill",
+    "name": "Luck vs Skill",
+    "summary": "The challenge of distinguishing genuine ability from random variation in outcomes, critical for accurate performance evaluation and learning.",
+    "explanation": "The luck-skill distinction is one of the most important and most frequently overlooked concepts in decision-making. In any domain where outcomes depend on both skill and chance, it is surprisingly difficult to determine how much of a result was earned and how much was lucky. Getting this wrong leads to rewarding the wrong behaviors, learning the wrong lessons, and making poor predictions.\n\nMichael Mauboussin proposed the 'luck-skill continuum' to map activities by how much each factor contributes to outcomes. Pure skill activities (like chess or running) produce outcomes almost entirely determined by ability. Pure luck activities (like roulette) are entirely random. Most real-world activities - investing, business strategy, hiring, sports - fall somewhere in between, with both skill and luck playing significant roles.\n\nRegression to the mean is the key diagnostic tool. In activities dominated by luck, extreme outcomes regress strongly toward the average. In skill-dominated activities, extreme performers tend to remain extreme. If last year's top performers are roughly average this year, luck plays a large role. If they remain at the top, skill dominates.\n\nThe practical implications are profound. In luck-heavy domains: focus on process quality rather than outcome quality, evaluate decisions independent of results, maintain humility after success and resilience after failure, and use large sample sizes before drawing conclusions. In skill-heavy domains: invest heavily in developing expertise, study top performers for learnable techniques, and trust that deliberate practice will reliably improve outcomes. The worst mistake is treating a luck-heavy domain as if it were skill-heavy - leading to overconfidence, narrative fallacies, and chronic misattribution of causes.",
+    "tags": [
+        "mental-models",
+        "thinking",
+        "decision-making",
+        "statistics",
+        "probabilities"
+    ],
+    "category": "Thinking",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Skill-luck continuum",
+        "Luck-skill spectrum",
+        "Outcome vs process"
+    ],
+    "relatedConcepts": [
+        "regression-to-the-mean",
+        "regression-fallacy",
+        "narrative-fallacy",
+        "survivorship-bias",
+        "hot-hand-fallacy",
+        "base-rate-neglect",
+        "probabilistic-thinking",
+        "outcome-bias",
+        "fundamental-attribution-error"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Luck - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Luck",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Success Equation by Michael J. Mauboussin",
+            "url": "https://www.amazon.com/dp/1422184234?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

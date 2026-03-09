@@ -1,0 +1,86 @@
+{
+    "id": "interruption-cost",
+    "name": "Interruption Cost",
+    "summary": "The total productivity loss from an interruption, including the time to handle it plus the much larger time needed to regain context and re-enter flow.",
+    "explanation": "Interruption cost is the full economic and cognitive price of breaking someone's focus. Research by Gloria Mark at UC Irvine found that it takes an average of 23 minutes and 15 seconds to fully return to a task after an interruption. But the cost extends beyond time: the quality of work degrades, error rates increase, stress levels rise, and the interrupted person often does not return to the original task at all, getting sidetracked into other work.\n\nThe cost is asymmetric and often invisible. The person initiating the interruption experiences only the brief cost of asking their question (seconds to minutes). The person being interrupted bears the full recovery cost (15-30 minutes of regaining context, plus lost flow state that may have taken 30+ minutes to build). This asymmetry means that interruptions are systematically undervalued by the interrupter and devastating to the interrupted.\n\nInterruption costs compound in environments where they are frequent. If a knowledge worker is interrupted every 11 minutes (the average in open offices, per Mark's research), they never reach deep focus at all. The cumulative effect is not just lost time but a qualitative shift in the type of work that is possible - only shallow, interrupt-tolerant tasks can be completed.\n\nReducing interruption costs requires both individual and organizational strategies. Individual strategies include: batching communication checks, using 'do not disturb' signals, wearing headphones, and establishing 'office hours' for questions. Organizational strategies include: no-meeting days, async-first communication norms, dedicated quiet spaces, and cultural respect for focused work time. The key insight is that protecting focus is not antisocial - it is a prerequisite for the deep work that creates the most value.",
+    "tags": [
+        "productivity",
+        "focus",
+        "time-management",
+        "psychology",
+        "pitfalls"
+    ],
+    "category": "Productivity",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Cost of interruption",
+        "Interruption recovery time",
+        "Context reload cost"
+    ],
+    "relatedConcepts": [
+        "makers-schedule-managers-schedule",
+        "context-switching",
+        "cognitive-switching-penalty",
+        "attention-residue",
+        "deep-work",
+        "flow-state",
+        "no-meeting-days",
+        "focus-protection",
+        "continuous-partial-attention",
+        "digital-distraction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Interruption science - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Interruption_science",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

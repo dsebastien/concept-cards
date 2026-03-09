@@ -1,0 +1,98 @@
+{
+    "id": "cost-of-delay",
+    "name": "Cost of Delay",
+    "summary": "The economic impact of postponing a decision or action, quantifying the value lost per unit of time a task remains undone.",
+    "explanation": "Cost of Delay (CoD) is a concept from lean product development that quantifies the economic impact of not doing something now. It answers the question: 'What is it costing us to wait?' By putting a number on delay, it transforms vague urgency into concrete prioritization.\n\nThe concept was popularized by Don Reinertsen in his work on product development flow. He argued that most organizations are terrible at prioritization because they focus on the cost of doing things (effort, resources) while ignoring the cost of not doing them (lost revenue, missed opportunities, compounding problems). Cost of Delay captures the time-value of work.\n\nCoD is particularly powerful when combined with effort estimates to calculate CD3 (Cost of Delay Divided by Duration) - also known as Weighted Shortest Job First (WSJF). This metric helps identify which items should be done first: those with the highest cost of delay relative to their implementation time. This naturally surfaces low-hanging fruit - items that are quick to do and expensive to delay.\n\nIn personal productivity, cost of delay thinking helps overcome procrastination by making the consequences of inaction tangible. A task that seems low-priority today may have a compounding cost of delay: unfiled taxes incur penalties, unaddressed health issues worsen, delayed learning means years of lower capability. Recognizing these hidden costs can shift priorities dramatically.",
+    "tags": [
+        "decision-making",
+        "prioritization",
+        "productivity",
+        "economics",
+        "strategies"
+    ],
+    "category": "Decision Science",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "CoD",
+        "Time cost of delay",
+        "Delay cost",
+        "WSJF"
+    ],
+    "relatedConcepts": [
+        "low-hanging-fruit",
+        "opportunity-cost",
+        "ruthless-prioritization",
+        "effort-vs-impact",
+        "eisenhower-matrix",
+        "procrastination",
+        "time-value-of-money",
+        "compound-effect",
+        "eat-the-frog",
+        "most-important-task",
+        "diminishing-returns"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Cost of delay - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cost_of_delay",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Principles of Product Development Flow by Donald G. Reinertsen",
+            "url": "https://www.amazon.com/dp/1935401009?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

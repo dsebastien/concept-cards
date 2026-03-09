@@ -1,0 +1,43 @@
+{
+    "id": "just-in-time",
+    "name": "Just-in-Time",
+    "summary": "A production and workflow philosophy of delivering work or materials at the exact moment they are needed, minimizing inventory, waste, and waiting.",
+    "explanation": "Just-in-Time (JIT) is a production philosophy originating from the Toyota Production System that aims to produce and deliver items exactly when they are needed - not before (which creates inventory waste) and not after (which creates delays). It fundamentally rethinks the relationship between production and demand.\n\nIn manufacturing, JIT means parts arrive at the assembly line precisely when needed rather than being stockpiled in warehouses. This eliminates inventory costs, reduces waste from obsolescence, and exposes quality problems immediately (since there is no buffer stock to mask defects). Toyota demonstrated that this approach, while requiring more coordination, dramatically reduces total cost and improves quality.\n\nThe JIT principle extends far beyond manufacturing. In software development, it manifests as refining backlog items just before they are needed rather than writing detailed specifications months in advance. In knowledge work, it means researching just enough to make the current decision rather than exhaustively studying every possibility. In learning, it connects to just-in-time learning - acquiring knowledge at the point of need rather than stockpiling it speculatively.\n\nJIT requires a pull-based system where downstream demand signals what upstream should produce. This contrasts with push-based systems where production is driven by forecasts and plans. The pull approach is more responsive to actual needs but requires reliable communication channels, flexible capacity, and trust that the system will deliver when asked. When it works, JIT creates lean, responsive systems with minimal waste.",
+    "tags": [
+        "lean",
+        "production",
+        "strategies",
+        "efficiency",
+        "systems-thinking"
+    ],
+    "category": "Principles",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "JIT",
+        "JIT production",
+        "Toyota Production System principle"
+    ],
+    "relatedConcepts": [
+        "pull-system",
+        "kanban",
+        "limit-work-in-progress",
+        "just-in-time-learning",
+        "just-in-time-process",
+        "backlog-refinement",
+        "theory-of-constraints"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Just-in-time manufacturing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Just-in-time_manufacturing",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

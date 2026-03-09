@@ -1,0 +1,71 @@
+{
+    "id": "post-hoc-fallacy",
+    "name": "Post Hoc Fallacy",
+    "summary": "The logical error of assuming that because one event followed another, the first event caused the second.",
+    "explanation": "The post hoc fallacy (from the Latin 'post hoc ergo propter hoc' - after this, therefore because of this) is the mistaken belief that temporal sequence implies causation. Just because event B happened after event A does not mean A caused B. This is one of the most common reasoning errors in everyday life, and it is closely related to regression to the mean.\n\nThe connection to regression to the mean is particularly insidious. When someone performs extremely well or poorly, regression predicts their next performance will be closer to average. If an intervention happens between the two performances, the post hoc fallacy leads people to credit (or blame) the intervention for what was simply a statistical inevitability. A manager scolds an employee after a terrible week; the next week is better, and the manager concludes that criticism works. In reality, performance would likely have improved anyway.\n\nThis fallacy pervades medicine (I took this supplement and felt better), business (we changed our strategy and sales improved), education (we implemented this program and test scores rose), and personal development (I started this routine and my productivity increased). In each case, the improvement may be genuine, coincidental, or simply regression to the mean. Without a control group or careful experimental design, it is nearly impossible to distinguish these explanations.\n\nTo guard against the post hoc fallacy: look for plausible mechanisms linking cause and effect, consider alternative explanations, ask whether the outcome would have changed without the intervention, seek evidence from controlled experiments rather than anecdotes, and remember that correlation in time does not establish causation.",
+    "tags": [
+        "logical-fallacies",
+        "thinking",
+        "cognitive-biases",
+        "decision-making",
+        "critical-thinking"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Post hoc ergo propter hoc",
+        "After this therefore because of this",
+        "False cause fallacy",
+        "Temporal causation fallacy"
+    ],
+    "relatedConcepts": [
+        "regression-to-the-mean",
+        "regression-fallacy",
+        "correlation-vs-causation",
+        "illusory-correlation",
+        "confirmation-bias",
+        "narrative-fallacy",
+        "causal-inference",
+        "statistical-thinking",
+        "luck-vs-skill"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Post hoc ergo propter hoc - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

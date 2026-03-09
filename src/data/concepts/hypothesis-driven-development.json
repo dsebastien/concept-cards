@@ -1,0 +1,51 @@
+{
+    "id": "hypothesis-driven-development",
+    "name": "Hypothesis-Driven Development",
+    "summary": "An approach to product development where features are framed as testable hypotheses with clear success criteria, shifting from output to outcomes.",
+    "explanation": "Hypothesis-driven development (HDD) reframes the product backlog from a list of features to build into a list of hypotheses to test. Instead of saying 'build feature X,' you say 'we believe that building feature X will cause outcome Y for user segment Z, and we will know we are right when we see metric M change by N%.'\n\nThis shift has profound implications for how teams work. A traditional backlog treats items as tasks to complete - success means shipping. A hypothesis-driven backlog treats items as experiments to run - success means learning whether your assumption was correct. This changes what 'done' means: not just deployed, but validated.\n\nThe approach draws from the scientific method and the Lean Startup's build-measure-learn loop. Each backlog item becomes a structured hypothesis: the belief (what you think will happen), the test (what you will build or change), the metric (how you will measure), and the threshold (what constitutes success or failure). This forces teams to articulate their assumptions explicitly, making it possible to learn from both successes and failures.\n\nHDD is particularly valuable because it combats two common product development failures: building features nobody uses (by requiring upfront thinking about who benefits and how), and never knowing whether features worked (by requiring measurable success criteria). When applied to backlog management, it transforms the backlog from a queue of output into a pipeline of learning opportunities.",
+    "tags": [
+        "agile",
+        "product-management",
+        "strategies",
+        "lean",
+        "experimentation"
+    ],
+    "category": "Techniques",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "HDD",
+        "Experiment-driven development",
+        "Hypothesis backlog"
+    ],
+    "relatedConcepts": [
+        "build-measure-learn",
+        "backlog",
+        "lean-startup",
+        "minimum-viable-product",
+        "a-b-testing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Hypothesis-driven development - ThoughtWorks",
+            "url": "https://www.thoughtworks.com/insights/articles/hypothesis-driven-development",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

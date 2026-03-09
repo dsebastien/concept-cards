@@ -1,0 +1,77 @@
+{
+    "id": "statistical-thinking",
+    "name": "Statistical Thinking",
+    "summary": "The habit of reasoning about the world through probabilities, distributions, and variation rather than deterministic cause-and-effect narratives.",
+    "explanation": "Statistical thinking is the cognitive discipline of interpreting events and data through the lens of probability, variation, and uncertainty rather than jumping to deterministic explanations. It means recognizing that most outcomes in complex systems result from a combination of signal and noise, and that disentangling the two requires careful reasoning.\n\nAt its core, statistical thinking involves several key habits: expecting variation rather than being surprised by it, distinguishing between common-cause variation (inherent to the system) and special-cause variation (due to specific identifiable factors), thinking in distributions rather than point estimates, considering sample sizes before drawing conclusions, and asking 'compared to what?' before evaluating any result.\n\nStatistical thinking protects against many cognitive biases. It counters the narrative fallacy by reminding you that not every pattern has a meaningful cause. It guards against regression fallacy by helping you expect extreme outcomes to moderate. It weakens confirmation bias by demanding representative evidence rather than cherry-picked examples. And it undermines the availability heuristic by encouraging base rate thinking over vivid anecdotes.\n\nThis mindset does not require advanced mathematics. The most valuable statistical thinking is qualitative: understanding that your sample might not be representative, that extreme results often regress, that anecdotes are not data, that multiple comparisons produce spurious patterns, and that any single data point is a combination of signal and noise. Daniel Kahneman argued that statistical thinking should be taught as a fundamental reasoning skill, as important as literacy, because the modern world increasingly demands reasoning under uncertainty.",
+    "tags": [
+        "mental-models",
+        "thinking",
+        "statistics",
+        "decision-making",
+        "critical-thinking"
+    ],
+    "category": "Thinking",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Probabilistic reasoning",
+        "Thinking in distributions",
+        "Statistical literacy"
+    ],
+    "relatedConcepts": [
+        "probabilistic-thinking",
+        "regression-to-the-mean",
+        "base-rate-neglect",
+        "law-of-large-numbers",
+        "normal-distribution",
+        "signal-vs-noise",
+        "variance",
+        "narrative-fallacy",
+        "luck-vs-skill",
+        "post-hoc-fallacy",
+        "survivorship-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Statistical thinking - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Statistical_thinking",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

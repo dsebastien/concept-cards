@@ -1,0 +1,76 @@
+{
+    "id": "backlog-refinement",
+    "name": "Backlog Refinement",
+    "summary": "The ongoing process of reviewing, re-prioritizing, and adding detail to backlog items so they are ready for future work cycles.",
+    "explanation": "Backlog refinement (formerly called backlog grooming) is the continuous activity of keeping a backlog healthy, actionable, and aligned with current priorities. It involves reviewing existing items, breaking large items into smaller ones, adding acceptance criteria, estimating effort, removing obsolete entries, and reordering based on new information.\n\nWithout regular refinement, backlogs decay rapidly. Items accumulate faster than they are completed, descriptions become stale, priorities shift but the order does not reflect it, and the backlog becomes a graveyard of forgotten ideas rather than a useful planning tool. A well-refined backlog has a clear top (items ready to work on immediately), a defined middle (items that need more detail), and an acknowledged bottom (items that may never be done).\n\nIn Scrum, backlog refinement is recommended to consume about 10% of a team's capacity. The product owner leads the activity, but the whole team participates to ensure shared understanding. The goal is to have enough items refined and ready for the next sprint without over-investing in detailing items that may never be prioritized.\n\nThe same principle applies to personal productivity. Your task lists, idea backlogs, and reading queues all need periodic refinement. Without it, they grow into overwhelming lists that create anxiety rather than clarity. Regular review - deleting what no longer matters, re-prioritizing what does, and breaking down what's next - keeps your personal backlog a source of focus rather than stress.",
+    "tags": [
+        "agile",
+        "scrum",
+        "project-management",
+        "planning",
+        "prioritization"
+    ],
+    "category": "Techniques",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Backlog grooming",
+        "Refinement session",
+        "Grooming"
+    ],
+    "relatedConcepts": [
+        "backlog",
+        "scrum",
+        "sprint-planning",
+        "product-owner",
+        "user-stories",
+        "definition-of-ready",
+        "ruthless-prioritization",
+        "periodic-reviews",
+        "cost-of-delay",
+        "weighted-shortest-job-first"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Scrum (software development) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_backlog",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

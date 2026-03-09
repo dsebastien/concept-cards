@@ -1,0 +1,71 @@
+{
+    "id": "weighted-shortest-job-first",
+    "name": "Weighted Shortest Job First",
+    "summary": "A prioritization framework that ranks work items by their cost of delay divided by job duration, optimizing for maximum economic value delivery.",
+    "explanation": "Weighted Shortest Job First (WSJF) is a prioritization model used in lean and agile product development to sequence work for maximum economic benefit. It was popularized by Don Reinertsen and adopted by the Scaled Agile Framework (SAFe). The formula is simple: WSJF = Cost of Delay / Job Duration.\n\nCost of Delay captures the economic impact of not doing something now - combining user/business value, time criticality, and risk reduction or opportunity enablement. Job Duration (or job size) represents how long the item will take to complete. Dividing cost of delay by duration naturally prioritizes items that are both valuable and quick to deliver - the true low-hanging fruit.\n\nWSJF produces counterintuitive but economically sound results. A moderately valuable item that takes one day outranks a highly valuable item that takes three weeks, because the short item unlocks its value faster and frees the team to start the next item sooner. This is the same logic behind the shortest job first scheduling algorithm in computer science, extended with the economic dimension of cost of delay.\n\nIn practice, teams often estimate WSJF components using relative sizing rather than absolute numbers. Each item is scored relative to the others in the backlog on a Fibonacci scale for each cost-of-delay component and for job size. This makes the estimation faster and avoids false precision. WSJF works best for prioritizing items of similar type - it is most useful for ordering a product backlog, not for comparing fundamentally different kinds of work.",
+    "tags": [
+        "agile",
+        "prioritization",
+        "lean",
+        "product-management",
+        "frameworks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "WSJF",
+        "CD3",
+        "Cost of Delay Divided by Duration"
+    ],
+    "relatedConcepts": [
+        "cost-of-delay",
+        "backlog",
+        "backlog-refinement",
+        "low-hanging-fruit",
+        "effort-vs-impact",
+        "ruthless-prioritization",
+        "rice-framework",
+        "moscow-method",
+        "lean-startup",
+        "pull-system"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Weighted shortest job first - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Weighted_shortest_job_first",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Principles of Product Development Flow by Donald G. Reinertsen",
+            "url": "https://www.amazon.com/dp/1935401009?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

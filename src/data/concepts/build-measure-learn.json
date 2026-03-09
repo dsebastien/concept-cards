@@ -1,0 +1,59 @@
+{
+    "id": "build-measure-learn",
+    "name": "Build-Measure-Learn",
+    "summary": "The core feedback loop of the Lean Startup methodology where ideas are quickly built into experiments, measured against hypotheses, and used to learn what works.",
+    "explanation": "Build-Measure-Learn is the fundamental feedback loop at the heart of Eric Ries's Lean Startup methodology. It describes the cycle that startups and product teams should follow: turn ideas into products (Build), measure how customers respond (Measure), and learn whether to pivot or persevere (Learn). The goal is to minimize the total time through the loop.\n\nThe counterintuitive insight is that the loop should be planned in reverse. Start with what you want to learn (which hypothesis to test), then determine what to measure (which metrics will confirm or refute the hypothesis), and finally figure out the minimum thing to build that will generate those measurements. This prevents the common mistake of building elaborate features before understanding whether anyone wants them.\n\nEach pass through the loop generates validated learning - evidence-based insight about what customers actually want versus what you assumed they wanted. This learning is the true unit of progress for a startup, more valuable than lines of code written or features shipped. A team that completes many fast loops learns faster than a team that completes one slow, elaborate loop.\n\nThe Build-Measure-Learn loop directly shapes how product backlogs should work. Rather than a backlog of features ordered by stakeholder enthusiasm, it suggests a backlog of experiments ordered by learning value and cost of delay. The highest-priority items are not the biggest features but the fastest experiments that resolve the riskiest assumptions.",
+    "tags": [
+        "lean",
+        "agile",
+        "product-management",
+        "strategies",
+        "experimentation"
+    ],
+    "category": "Frameworks",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "BML loop",
+        "Lean Startup loop",
+        "Build Measure Learn cycle"
+    ],
+    "relatedConcepts": [
+        "lean-startup",
+        "minimum-viable-product",
+        "hypothesis-driven-development",
+        "a-b-testing",
+        "feedback-loop",
+        "iterative-note-taking",
+        "pivot-or-persevere",
+        "backlog"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Lean startup - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lean_startup#Build%E2%80%93Measure%E2%80%93Learn",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Lean Startup by Eric Ries",
+            "url": "https://www.amazon.com/dp/0307887898?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}

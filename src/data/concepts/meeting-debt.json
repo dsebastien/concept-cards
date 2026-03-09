@@ -1,0 +1,76 @@
+{
+    "id": "meeting-debt",
+    "name": "Meeting Debt",
+    "summary": "The accumulated productivity loss from excessive meetings that displaces actual work, forcing people to work evenings and weekends to compensate.",
+    "explanation": "Meeting debt is the accumulated deficit of productive work caused by meetings consuming too much of the workday. Like technical debt, it builds silently and compounds over time. When meetings fill 60-80% of a knowledge worker's calendar - increasingly common in large organizations - the actual work gets pushed to early mornings, late evenings, and weekends, leading to burnout and declining quality.\n\nThe mechanism is straightforward: every hour spent in a meeting is an hour not spent doing the work that meetings are supposedly coordinating. When meeting load exceeds a tipping point (roughly 40% of work time, per various studies), people can no longer complete their actual work during business hours. They accumulate a 'debt' of undone work that must be repaid on personal time. This is meeting debt.\n\nMeeting debt is particularly insidious because it is socially reinforced. Declining meetings feels like being uncooperative. Scheduling meetings feels productive (we're addressing the issue!). The costs are diffuse and delayed while the benefits are immediate and visible. This creates a ratchet effect where meeting load only increases unless actively resisted.\n\nAddressing meeting debt requires both individual and organizational discipline. Individual tactics include: auditing your calendar weekly, declining meetings without clear agendas, leaving meetings that no longer need you, and suggesting async alternatives. Organizational tactics include: implementing no-meeting days, requiring agendas and time limits, defaulting to 25-minute meetings instead of 30, and regularly culling recurring meetings. The most important shift is cultural: treating someone's time as a scarce resource that costs something, not a free commodity to be claimed at will.",
+    "tags": [
+        "productivity",
+        "meetings",
+        "time-management",
+        "pitfalls",
+        "leadership"
+    ],
+    "category": "Productivity",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Meeting overload",
+        "Calendar bloat",
+        "Meeting fatigue"
+    ],
+    "relatedConcepts": [
+        "makers-schedule-managers-schedule",
+        "no-meeting-days",
+        "interruption-cost",
+        "coordination-costs",
+        "time-blocking",
+        "asynchronous-communication",
+        "burnout",
+        "deep-work",
+        "technical-debt",
+        "zoom-fatigue"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-09",
+    "dateModified": "2026-03-09"
+}
