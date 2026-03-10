@@ -1,0 +1,83 @@
+{
+    "id": "open-source-ai",
+    "name": "Open-Source AI",
+    "summary": "Artificial intelligence systems released with open access to model weights, training code, data, and documentation, enabling community use, modification, and redistribution.",
+    "explanation": "Open-Source AI refers to artificial intelligence systems that are developed and released following open-source principles — providing access to model weights, training code, training data, and documentation so that anyone can use, study, modify, and redistribute them. It extends the ethos of open-source software into the domain of machine learning and AI.\n\nThe concept has become increasingly important as AI systems have grown more powerful and influential. Unlike traditional software where source code is the primary artifact, AI systems involve multiple components: the model architecture, training code, trained weights, training data, evaluation benchmarks, and deployment infrastructure. True open-source AI ideally makes all of these available.\n\nIn practice, the term is used with varying degrees of rigor. Some organizations release only model weights (open weights) and call their models 'open source,' while others provide the full training pipeline (open training). The Open Source Initiative published its formal Open Source AI Definition (OSAID) in 2024, requiring that open-source AI systems provide access to model parameters, training code, and sufficient information about training data to enable a skilled person to substantially recreate the system.\n\nKey players in the open-source AI ecosystem include Meta (LLaMA series), Mistral, Stability AI, EleutherAI, Hugging Face, and the Allen Institute for AI. Hugging Face has become a central hub for open-source AI, hosting models, datasets, and collaborative tools. The community has produced thousands of fine-tuned variants and applications built on top of openly released base models.\n\nThe debate around open-source AI involves trade-offs between democratization, safety, and competitive dynamics. Proponents argue that openness enables innovation, distributes power, allows independent safety research, and prevents vendor lock-in. Critics worry that unrestricted access to powerful models could enable misuse, from disinformation to bioweapons research. Some advocate for structured access approaches that provide openness to vetted researchers while limiting public availability of the most capable systems.\n\nOpen-source AI has proven to be a powerful force for democratization, enabling startups, researchers, and developing nations to access state-of-the-art AI capabilities that would otherwise require billions of dollars in investment to develop independently.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "open-source",
+        "models",
+        "ethics",
+        "transparency"
+    ],
+    "category": "AI",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Open Source AI",
+        "OSAI"
+    ],
+    "relatedConcepts": [
+        "open-source",
+        "open-weights",
+        "open-training",
+        "large-language-models",
+        "fine-tuning",
+        "pre-training",
+        "ai-transparency",
+        "ai-ethics",
+        "ai-governance",
+        "responsible-ai",
+        "artificial-intelligence"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Open Source AI Definition",
+            "url": "https://opensource.org/ai/open-source-ai-definition",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Open-source artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

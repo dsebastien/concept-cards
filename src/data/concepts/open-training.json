@@ -1,0 +1,75 @@
+{
+    "id": "open-training",
+    "name": "Open Training",
+    "summary": "Practice of making the entire AI model training process transparent and reproducible, including training data, code, hyperparameters, and methodology.",
+    "explanation": "Open Training refers to the practice of making the complete training pipeline of an AI model publicly available and reproducible. This goes beyond releasing model weights by also sharing the training data, training code, hyperparameters, compute infrastructure details, and evaluation methodology used to produce the model.\n\nOpen training represents the highest level of openness in AI development. When a model is trained openly, the community can reproduce results, verify claims, audit for data contamination or bias, and build upon the methodology itself — not just the final artifact. This level of transparency is essential for scientific reproducibility and for building genuine trust in AI systems.\n\nNotable examples of open training efforts include EleutherAI's GPT-NeoX and Pythia model suites, which were trained with fully documented processes and publicly available data. The BigScience project's BLOOM model was another landmark effort, involving hundreds of researchers collaborating on a transparently trained large language model. More recently, projects like OLMo by the Allen Institute for AI have pushed open training further by releasing every component of the training process.\n\nOpen training faces significant challenges. Training data often contains copyrighted material or personal information, making full release legally and ethically complex. The compute costs of training are enormous, making true replication impractical for most organizations even with full access to the methodology. There are also concerns that full openness could enable misuse by making it easier to train harmful models.\n\nThe distinction between open weights and open training has become a central point of debate in AI governance. The Open Source Initiative's Open Source AI Definition explicitly requires access to training data and code, arguing that weight-only releases are insufficient for the freedoms that open source traditionally guarantees. This has created tension with organizations that release weights under permissive terms but keep training details proprietary.\n\nOpen training contributes to AI safety by enabling independent auditing, bias detection, and alignment research. It also advances scientific understanding by allowing the research community to study how training choices affect model behavior, capabilities, and failure modes.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "training",
+        "transparency",
+        "open-source",
+        "reproducibility"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Open AI Training",
+        "Transparent Training"
+    ],
+    "relatedConcepts": [
+        "open-weights",
+        "open-source-ai",
+        "open-source",
+        "pre-training",
+        "training-data",
+        "fine-tuning",
+        "ai-transparency",
+        "ai-ethics",
+        "responsible-ai"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Open-source artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

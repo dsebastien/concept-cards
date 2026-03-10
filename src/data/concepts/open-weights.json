@@ -1,0 +1,74 @@
+{
+    "id": "open-weights",
+    "name": "Open Weights",
+    "summary": "AI models distributed with their trained parameters publicly available for download and use, without necessarily including the training data or full training code.",
+    "explanation": "Open Weights refers to the practice of releasing the trained parameters (weights) of an AI model for public download and use. When a model's weights are open, anyone can run inference, fine-tune the model for specific tasks, or study its behavior — without needing to reproduce the expensive training process from scratch.\n\nThe term emerged to distinguish a common middle ground in AI openness: many organizations release model weights while keeping training data, training code, or both proprietary. For example, Meta's LLaMA family, Mistral's models, and Google's Gemma are open-weight models — you can download and use them, but you don't necessarily have access to the exact data or full pipeline used to create them.\n\nOpen weights provide significant practical value. Researchers and developers can build on state-of-the-art models without the enormous compute costs of training from scratch. Organizations can run models on their own infrastructure for privacy, compliance, or latency reasons. The community can audit model behavior, discover biases, and develop safety techniques.\n\nHowever, open weights alone do not constitute fully open-source AI. Without access to training data and training code, results cannot be fully reproduced, and the community cannot verify claims about training methodology. This has sparked debate about what 'open' truly means in AI, with the Open Source Initiative (OSI) developing a formal Open Source AI Definition that goes beyond just weight availability.\n\nThe degree of openness in weight releases also varies. Some come with permissive licenses (Apache 2.0), while others use restrictive licenses that limit commercial use, modification, or redistribution. The licensing terms significantly affect how open weights can be used in practice.\n\nOpen weights have accelerated AI democratization by lowering barriers to entry, enabling smaller organizations and researchers to work with powerful models, and fostering a vibrant ecosystem of fine-tuned variants and applications built on top of base models.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "open-source",
+        "transparency"
+    ],
+    "category": "AI",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Open Weight Models",
+        "Open Model Weights"
+    ],
+    "relatedConcepts": [
+        "open-source",
+        "open-source-ai",
+        "open-training",
+        "fine-tuning",
+        "large-language-models",
+        "pre-training",
+        "model-parameters",
+        "transfer-learning",
+        "ai-transparency"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Open-source artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}
