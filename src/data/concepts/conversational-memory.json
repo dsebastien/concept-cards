@@ -1,0 +1,99 @@
+{
+    "id": "conversational-memory",
+    "name": "Conversational Memory",
+    "summary": "An AI system's ability to retain and reference information from earlier in a conversation or across multiple conversations to maintain coherent dialogue.",
+    "explanation": "Conversational memory is the ability of an AI system to maintain awareness of what has been discussed — both within the current conversation and, increasingly, across separate sessions. It's what makes the difference between a stateless question-answering tool and a dialogue partner that understands ongoing context.\n\n## Within-Session Memory\n\nThe simplest form: the AI remembers what was said earlier in the current chat. This is technically just the conversation history being included in the context window. It enables:\n- Following up on earlier points without restating them\n- Maintaining coherent multi-turn reasoning\n- Referring back to decisions made earlier ('As we discussed...')\n- Building on previous outputs iteratively\n\nLimitation: once the conversation exceeds the context window, older messages are dropped or compressed, and the AI 'forgets' the beginning of long conversations.\n\n## Cross-Session Memory\n\nMore advanced: retaining information between separate conversations. Implementations include:\n\n**Platform-level memory**: ChatGPT's Memory feature, Claude's project knowledge — the platform automatically extracts and stores key facts about the user.\n\n**User-provided context**: Custom instructions, system prompts, CLAUDE.md files that users maintain to give the AI persistent context.\n\n**External retrieval**: RAG systems that search past conversations to find relevant context for the current query.\n\n## Memory Management Challenges\n\n**What to remember**: Not everything said in conversation is worth persisting. Effective memory requires filtering signal from noise — preferences matter, but throwaway remarks don't.\n\n**When to forget**: Information becomes outdated. A user's tech stack may change, their project may be completed, their preferences may evolve. Stale memory can be worse than no memory.\n\n**Contradictions**: Users may say different things at different times. Memory systems must handle updates and contradictions gracefully.\n\n**Privacy**: Conversational memory inherently stores personal information. Users need control over what's stored, how long it persists, and the ability to delete it.\n\n**Accuracy**: Extracting reliable facts from natural conversation is error-prone. Misremembered details compound over time.\n\n## Impact on User Experience\n\nGood conversational memory:\n- Reduces repetitive context-setting\n- Enables more natural, building-on-previous-work interactions\n- Creates a sense of continuity and partnership\n- Allows the AI to proactively apply past context\n\nPoor conversational memory:\n- Forces users to re-explain constantly\n- Breaks immersion in long-running projects\n- Creates frustration when the AI 'forgets' important details\n- Undermines trust in the AI as a reliable collaborator",
+    "tags": [
+        "ai",
+        "memories",
+        "conversations",
+        "user-experience",
+        "knowledge-management"
+    ],
+    "category": "AI",
+    "icon": "FaComments",
+    "featured": false,
+    "aliases": [
+        "Chat memory",
+        "Dialogue memory",
+        "Conversation history management"
+    ],
+    "relatedConcepts": [
+        "ai-agent-memory",
+        "ai-memory-silo-problem",
+        "ai-context-management",
+        "context-window",
+        "retrieval-augmented-generation",
+        "ai-hallucination",
+        "knowledge-cutoff",
+        "model-context-protocol"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

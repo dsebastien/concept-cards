@@ -1,0 +1,87 @@
+{
+    "id": "just-culture",
+    "name": "Just Culture",
+    "summary": "An organizational approach that balances accountability with learning by distinguishing between human error, at-risk behavior, and reckless conduct.",
+    "explanation": "Just culture is a framework developed by David Marx and widely adopted in healthcare, aviation, and technology that creates a fair and consistent approach to handling mistakes and failures. Rather than defaulting to blame or to blanket no-blame policies, it provides a principled way to distinguish between different types of failures and respond appropriately to each.\n\n## The Three Behaviors\n\nJust culture classifies behaviors into three categories, each warranting a different response:\n\n**Human error** — inadvertent mistakes made despite best intentions. A nurse miscalculates a dosage despite following proper procedures. Response: **Console** the individual and fix the system that allowed the error.\n\n**At-risk behavior** — taking shortcuts or drifting from best practices, often because the risk seems worth it or has been normalized. A developer skips code review because of deadline pressure. Response: **Coach** the individual and examine why the drift occurred.\n\n**Reckless conduct** — consciously disregarding substantial and unjustifiable risk. A pilot flying under the influence of alcohol. Response: **Disciplinary action** appropriate to the severity.\n\n## Why It Matters\n\nOrganizations often default to one extreme or the other:\n\n- **Blame culture**: Punishes all failures equally, which drives errors underground, reduces reporting, and prevents learning. People hide mistakes instead of learning from them.\n- **No-blame culture**: Avoids all accountability, which can enable genuinely reckless behavior and erode trust among those who follow the rules.\n\nJust culture threads the needle between these extremes by being fair and proportionate.\n\n## Key Principles\n\n- Reporting errors and near-misses is encouraged and protected\n- System design is examined before individual behavior\n- Accountability exists but is proportionate to the type of behavior\n- The focus is on learning and improvement, not punishment\n- Consistency builds trust — people know what to expect\n\n## Application Beyond Safety-Critical Industries\n\nJust culture applies powerfully to software teams (incident response, post-mortems), healthcare (medical error reporting), education (student assessment), and any organization that wants to learn from failure while maintaining accountability. It is closely related to blameless postmortems but adds the nuance of distinguishing between types of failure.",
+    "tags": [
+        "cultures",
+        "leadership",
+        "organizations",
+        "accountability",
+        "learning"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Fair culture",
+        "Just culture framework",
+        "Marx just culture model"
+    ],
+    "relatedConcepts": [
+        "blameless-postmortem",
+        "error-culture",
+        "psychological-safety",
+        "learning-culture",
+        "learning-from-failure",
+        "intelligent-failure",
+        "incident-management",
+        "after-action-review",
+        "post-mortem",
+        "swiss-cheese-model",
+        "accountability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Whack a Mole: The Price We Pay for Expecting Perfection by David Marx",
+            "url": "https://www.amazon.com/dp/0615283012?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Just culture - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Just_culture",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

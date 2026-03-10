@@ -1,0 +1,68 @@
+{
+    "id": "negative-sum-game",
+    "name": "Negative-Sum Game",
+    "summary": "A situation where the total losses exceed the total gains, leaving participants collectively worse off than before.",
+    "explanation": "A negative-sum game is a situation where the total payoffs to all participants are negative — the act of playing the game itself destroys value. Unlike zero-sum games where value is merely redistributed, negative-sum games leave everyone collectively worse off.\n\nExamples of negative-sum dynamics:\n\n**Wars and armed conflicts**: Both sides suffer casualties, infrastructure destruction, and economic costs that far exceed any territorial or political gains. Even the 'winner' often ends up worse off than before the conflict began.\n\n**Litigation**: Legal battles can cost both parties more in attorney fees, time, and stress than the disputed amount is worth. The only guaranteed winners are the lawyers.\n\n**Price wars**: When competitors aggressively undercut each other, they can destroy industry profitability for all participants. Airlines and retail frequently experience this.\n\n**Arms races**: Escalating investment in weapons or competitive capabilities where both sides spend enormous resources just to maintain the status quo relative to each other.\n\n**Revenge cycles**: Retaliatory behavior where each act of revenge provokes further retaliation, with mounting costs for everyone involved.\n\n**Corruption and rent-seeking**: Resources spent on bribes, lobbying for special treatment, and circumventing rules are pure waste from society's perspective.\n\nRecognizing negative-sum dynamics is crucial because the optimal strategy is fundamentally different from zero-sum or positive-sum situations. In a negative-sum game, the best move is often not to play at all, or to find ways to transform the game into a zero-sum or positive-sum one through negotiation, treaties, or rule changes.\n\nFor knowledge workers and leaders, identifying negative-sum dynamics early — office politics, turf wars, bureaucratic battles — allows you to redirect energy toward value-creating activities instead. The question to ask is: are we all losing more than anyone is gaining?",
+    "tags": [
+        "game-theory",
+        "economics",
+        "decision-making",
+        "strategies",
+        "conflicts"
+    ],
+    "category": "Decision Science",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Lose-lose game",
+        "Destructive competition",
+        "Value-destroying game"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "zero-sum-game",
+        "positive-sum-game",
+        "zero-sum-positive-sum",
+        "prisoners-dilemma",
+        "tragedy-of-the-commons",
+        "nash-equilibrium"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Nonzero: The Logic of Human Destiny by Robert Wright",
+            "url": "https://www.amazon.com/dp/0679758941?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Zero-sum game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Zero-sum_game",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

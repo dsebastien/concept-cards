@@ -1,0 +1,102 @@
+{
+    "id": "ai-context-management",
+    "name": "AI Context Management",
+    "summary": "Strategies and techniques for effectively managing the limited context window of large language models to maximize relevance and response quality.",
+    "explanation": "AI context management is the practice of strategically controlling what information goes into an AI model's context window to get the best possible outputs. Because context windows are finite — even large ones — what you include (and exclude) directly determines the quality, relevance, and accuracy of the AI's responses.\n\n## Why It Matters\n\nThe context window is the AI's working memory. Everything it knows about your request, your project, your preferences, and the relevant background must fit within this window. Poor context management leads to:\n- Irrelevant or generic responses\n- Lost important details from earlier in the conversation\n- Wasted tokens on unnecessary information\n- Hallucinations when the model lacks needed context\n- Degraded performance as conversations grow long\n\n## Key Strategies\n\n### Context Prioritization\nNot all information is equally important. Effective management means:\n- Front-loading the most critical context (instructions, constraints, key facts)\n- Placing less critical details later where attention may be weaker\n- Removing obsolete or redundant information as the conversation evolves\n\n### Context Compression\nTechniques to fit more meaningful information into fewer tokens:\n- **Summarization**: Condensing long conversation histories into key points\n- **Hierarchical context**: Maintaining detailed recent context and summarized older context\n- **Selective retrieval**: Using RAG to pull in only relevant documents rather than everything\n- **Structured formats**: Using concise structured data (JSON, tables) instead of verbose prose\n\n### Context Architecture\nDesigning how information flows into the context:\n- **System prompts**: Persistent instructions that frame every interaction\n- **User context files**: CLAUDE.md, custom instructions, project descriptions\n- **Dynamic retrieval**: RAG systems that inject relevant knowledge on demand\n- **Memory systems**: Extracting and storing key facts for future retrieval\n- **Tool results**: Bringing in external data only when needed\n\n### Context Window Optimization\n- Monitor token usage to avoid hitting limits unexpectedly\n- Use conversation compaction or rolling summaries for long sessions\n- Split complex tasks across multiple focused conversations rather than one sprawling thread\n- Leverage model-specific features (e.g., extended thinking, artifacts) that manage context efficiently\n\n## The Attention Budget\n\nModels don't attend equally to all tokens. Research shows that information at the beginning and end of the context receives more attention than information in the middle (the 'lost in the middle' problem). Effective context management accounts for these attention patterns.\n\n## Connection to Memory\n\nContext management and AI memory are deeply linked. Memory systems (conversational memory, agent memory, RAG) are essentially context management tools — they decide what past information is relevant enough to include in the current context window. The AI memory silo problem is partly a context management problem at the cross-tool level.",
+    "tags": [
+        "ai",
+        "knowledge-management",
+        "optimization",
+        "prompt-engineering",
+        "strategies"
+    ],
+    "category": "AI",
+    "icon": "FaSlidersH",
+    "featured": false,
+    "aliases": [
+        "Context engineering",
+        "Context window management",
+        "Prompt context optimization"
+    ],
+    "relatedConcepts": [
+        "context-window",
+        "ai-attention-budget",
+        "ai-agent-memory",
+        "conversational-memory",
+        "ai-memory-silo-problem",
+        "retrieval-augmented-generation",
+        "prompt-engineering",
+        "ai-mega-prompts",
+        "ai-grounding",
+        "model-context-protocol",
+        "knowledge-cutoff"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

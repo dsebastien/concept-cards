@@ -1,0 +1,103 @@
+{
+    "id": "ai-agent-memory",
+    "name": "AI Agent Memory",
+    "summary": "The mechanisms by which AI agents persist, organize, and recall information across interactions to maintain continuity and improve over time.",
+    "explanation": "AI agent memory refers to the systems and architectures that allow AI agents to retain and use information beyond a single interaction. While large language models are fundamentally stateless — each request is processed independently — memory systems add persistence, enabling agents to learn from past interactions, maintain context, and build up knowledge over time.\n\n## Types of Memory\n\n### Short-Term (Working) Memory\nThe conversation context within a single session. Limited by the context window, it holds the current dialogue, instructions, and any retrieved information. This is what most users experience as the AI 'remembering' what was said earlier in a chat.\n\n### Long-Term Memory\nPersistent storage that survives across sessions. This includes:\n- **Episodic memory**: Specific past interactions and their outcomes ('Last time we discussed X, you decided Y')\n- **Semantic memory**: General knowledge and facts learned from interactions ('User prefers TypeScript over JavaScript')\n- **Procedural memory**: Learned patterns for how to accomplish tasks ('When deploying, always run tests first')\n\n### External Memory\nInformation stored outside the model that can be retrieved on demand:\n- Vector databases for semantic search over documents\n- Knowledge graphs for structured relationships\n- File systems and databases\n- User-maintained context files (e.g., CLAUDE.md, custom instructions)\n\n## Memory Architectures\n\n**Buffer memory**: Simply appends conversation history to the prompt. Simple but quickly hits context limits.\n\n**Summary memory**: Periodically summarizes older conversation history to compress it. Preserves key points while saving tokens.\n\n**Entity memory**: Extracts and tracks information about specific entities (people, projects, preferences) mentioned in conversations.\n\n**RAG-based memory**: Stores interactions in a vector database and retrieves relevant past context when needed for new queries.\n\n**Hybrid approaches**: Combine multiple strategies — recent history in buffer, older history summarized, key facts in entity store, documents in RAG.\n\n## Challenges\n\n- **Memory accuracy**: Stored information may become outdated or incorrect\n- **Relevance retrieval**: Finding the right memory at the right time is non-trivial\n- **Privacy and consent**: What should be remembered, and who controls deletion?\n- **Memory conflicts**: When different memories contradict each other\n- **Scalability**: Managing growing memory stores efficiently\n- **The silo problem**: Memory trapped in individual tools rather than portable across them\n\n## Why It Matters\n\nEffective memory transforms an AI from a clever text generator into a genuine assistant that knows your preferences, understands your projects, learns from past mistakes, and builds on previous work. It's the difference between starting every conversation from scratch and having a collaborator who grows more helpful over time.",
+    "tags": [
+        "ai",
+        "memories",
+        "knowledge-management",
+        "agents",
+        "architectures"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "LLM memory",
+        "Agent memory systems",
+        "AI persistent memory"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-memory-silo-problem",
+        "conversational-memory",
+        "ai-context-management",
+        "context-window",
+        "retrieval-augmented-generation",
+        "vector-store",
+        "embedding",
+        "semantic-search",
+        "knowledge-graph",
+        "model-context-protocol",
+        "agentic-knowledge-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

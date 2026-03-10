@@ -1,0 +1,80 @@
+{
+    "id": "single-loop-learning",
+    "name": "Single-Loop Learning",
+    "summary": "A learning process that corrects errors by adjusting actions within existing rules and assumptions without questioning the underlying framework.",
+    "explanation": "Single-loop learning, defined by Chris Argyris and Donald Schön, is the most common form of learning in organizations and daily life. It involves detecting errors and correcting them by modifying actions while keeping underlying assumptions, goals, and mental models unchanged.\n\nThe classic analogy is a thermostat: when the temperature drops below the set point, the thermostat turns on the heating. It corrects the error (temperature too low) within its existing framework (the set point) without ever questioning whether the set point itself is appropriate.\n\n## How It Works\n\nSingle-loop learning follows a straightforward cycle:\n1. Take action based on existing rules or strategies\n2. Observe the results\n3. If results don't match expectations, adjust the action\n4. Repeat\n\nThe key characteristic is that only the action changes — the governing variables (goals, values, assumptions) remain fixed.\n\n## Examples\n\n- A sales team misses its quota and responds by making more calls (adjusting effort within the same strategy)\n- A student gets a poor grade and studies more hours (without questioning study methods)\n- A manager receives complaints about meetings and makes them shorter (without questioning whether meetings are needed)\n- A developer fixes a bug without examining the design patterns that made the bug possible\n\n## When It's Sufficient\n\nSingle-loop learning is efficient and appropriate when:\n- The underlying assumptions and goals are sound\n- The problem is genuinely one of execution, not strategy\n- Quick corrections are needed in stable environments\n- The rules and frameworks have been validated\n\n## When It Falls Short\n\nSingle-loop learning becomes problematic when:\n- Persistent problems recur despite repeated corrections\n- The environment has fundamentally changed\n- The governing assumptions themselves are flawed\n- Incremental adjustments cannot address root causes\n\nIn these cases, double-loop learning — which questions the assumptions themselves — is needed. Recognizing when single-loop learning is insufficient is itself a critical meta-skill.",
+    "tags": [
+        "learning",
+        "organizational-behavior",
+        "change-management",
+        "reflection",
+        "mental-models"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "First-order learning",
+        "Adaptive learning",
+        "Error correction"
+    ],
+    "relatedConcepts": [
+        "double-loop-learning",
+        "triple-loop-learning",
+        "organizational-learning",
+        "learning-organization",
+        "reflective-practice",
+        "mental-models",
+        "continuous-improvement",
+        "pdca-cycle",
+        "feedback-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Organizational Learning II by Chris Argyris and Donald Schon",
+            "url": "https://www.amazon.com/dp/0201629836?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Double-loop learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Double-loop_learning",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

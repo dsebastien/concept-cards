@@ -1,0 +1,71 @@
+{
+    "id": "zero-sum-game",
+    "name": "Zero-Sum Game",
+    "summary": "A situation where one participant's gain is exactly balanced by another's loss, resulting in a fixed total payoff.",
+    "explanation": "A zero-sum game is a mathematical representation of a situation where each participant's gain or loss is exactly balanced by the losses or gains of the other participants. The total 'pie' is fixed — it can be redistributed but never expanded. If one player wins, another must lose by the same amount.\n\nClassic examples include poker (chips won by one player come from other players), chess (one winner, one loser), currency trading (every profitable trade has a counterparty who lost), and competitive sports (one team's victory is another's defeat).\n\nThe concept originates from game theory, formalized by John von Neumann and Oskar Morgenstern in 'Theory of Games and Economic Behavior' (1944). In a zero-sum game with two players, the minimax theorem guarantees an optimal strategy exists — each player can minimize their maximum possible loss.\n\nWhy this matters for decision-making:\n\n**Recognizing zero-sum situations**: Some negotiations truly are zero-sum — splitting a fixed bonus pool, dividing an inheritance, or competing for a single promotion. In these cases, competitive strategies are appropriate.\n\n**The zero-sum trap**: The bigger danger is mistakenly treating positive-sum situations as zero-sum. Most business, collaboration, and relationship contexts allow value creation, yet people often default to zero-sum thinking — assuming that for them to win, someone else must lose. This 'fixed pie bias' prevents them from seeking creative solutions that expand the pie.\n\n**Near-zero-sum dynamics**: Many real-world situations are approximately zero-sum in the short term but positive-sum in the long term. Market share competition within a growing industry, for example, has zero-sum elements (share of current market) layered on positive-sum ones (market growth).\n\nFor knowledge workers, understanding zero-sum games helps distinguish when competition is genuinely necessary from when collaboration could create more value for everyone. The key question is always: is the pie truly fixed, or can it be expanded?",
+    "tags": [
+        "game-theory",
+        "economics",
+        "decision-making",
+        "strategies",
+        "competitions"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Zero sum",
+        "Fixed pie",
+        "Constant-sum game"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "positive-sum-game",
+        "negative-sum-game",
+        "zero-sum-positive-sum",
+        "minimax",
+        "nash-equilibrium",
+        "prisoners-dilemma",
+        "finite-games",
+        "tragedy-of-the-commons",
+        "pareto-efficiency"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Theory of Games and Economic Behavior by John von Neumann and Oskar Morgenstern",
+            "url": "https://www.amazon.com/dp/0691130612?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Zero-sum game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Zero-sum_game",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}
