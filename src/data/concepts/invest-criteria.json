@@ -1,0 +1,68 @@
+{
+    "id": "invest-criteria",
+    "name": "INVEST Criteria",
+    "summary": "A set of six qualities that make a good user story: Independent, Negotiable, Valuable, Estimable, Small, and Testable.",
+    "explanation": "INVEST is a mnemonic for six qualities that help teams write effective user stories. Coined by Bill Wake in 2003, it provides a checklist for evaluating whether a user story is well-formed and ready for development.\n\n**The six criteria:**\n\n**I - Independent**\nStories should be self-contained and not depend on other stories. Dependencies create scheduling constraints and make prioritization difficult. When stories are independent, the product owner can freely reorder the backlog based on business value.\n\n*Anti-pattern*: \"As a user, I can search (but only after the login story is done)\"\n*Better*: Design stories so they can be implemented in any order\n\n**N - Negotiable**\nStories are not contracts or detailed specifications. They are placeholders for conversations between the product owner, developers, and testers. The details should emerge through discussion, not be locked in advance. The story captures the intent; the implementation details are negotiated.\n\n*Anti-pattern*: A story with 30 detailed requirements leaving no room for discussion\n*Better*: A story with acceptance criteria that leave room for the team to find the best approach\n\n**V - Valuable**\nEvery story must deliver value to the end user or customer. Technical tasks, refactoring, and infrastructure work should be expressed in terms of the user value they enable. If a story has no clear value proposition, question whether it should exist.\n\n*Anti-pattern*: \"As a developer, I want to refactor the database layer\"\n*Better*: \"As a user, I can load my dashboard in under 2 seconds\" (which requires the refactoring)\n\n**E - Estimable**\nThe team must be able to estimate the effort required for a story. If they cannot, it usually means the story is too vague, too large, or involves unfamiliar technology. The solution is to break it down, spike the unknowns, or have a conversation to clarify scope.\n\n*Anti-pattern*: \"As a user, I want the system to be fast\"\n*Better*: \"As a user, I can search and see results in under 1 second\"\n\n**S - Small**\nStories should be small enough to be completed within a single iteration (sprint). Large stories (epics) should be split into smaller, independently valuable pieces. Small stories enable better estimation, more predictable delivery, and faster feedback.\n\n*Anti-pattern*: An epic that takes an entire quarter\n*Better*: Stories that each take 1-3 days of work\n\n**T - Testable**\nStories must have clear acceptance criteria that allow the team to verify when the story is done. If a story cannot be tested, it cannot be verified as complete. Testability drives clarity: if you cannot write a test for it, you do not understand it well enough.\n\n*Anti-pattern*: \"As a user, I want the system to be user-friendly\"\n*Better*: \"As a user, I can complete checkout in 3 steps or fewer\"\n\n**Using INVEST in practice:**\n\nINVEST is most useful during backlog refinement and sprint planning. When a story feels wrong but the team cannot articulate why, running it through the INVEST checklist usually identifies the problem. It is a diagnostic tool, not a rigid rule - not every story will perfectly satisfy all six criteria, but awareness of the criteria improves story quality over time.",
+    "tags": [
+        "agile",
+        "user-stories",
+        "requirements",
+        "software-development",
+        "planning"
+    ],
+    "category": "Frameworks",
+    "icon": "FaClipboardCheck",
+    "featured": false,
+    "aliases": [
+        "INVEST",
+        "INVEST Principle",
+        "Good User Story Criteria"
+    ],
+    "relatedConcepts": [
+        "user-stories",
+        "acceptance-criteria",
+        "definition-of-ready",
+        "backlog",
+        "story-points",
+        "sprint-planning",
+        "user-story-mapping"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "User Stories Applied by Mike Cohn",
+            "url": "https://www.amazon.com/dp/0321205685?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "INVEST (mnemonic) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/INVEST_(mnemonic)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

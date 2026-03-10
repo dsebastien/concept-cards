@@ -1,0 +1,83 @@
+{
+    "id": "agent-harness",
+    "name": "Agent Harness",
+    "summary": "The infrastructure layer that manages an AI agent's lifecycle, execution loop, tool access, memory, and safety constraints.",
+    "explanation": "An Agent Harness is the runtime infrastructure that wraps around a language model to transform it from a passive text generator into an autonomous agent. While the LLM provides reasoning and language capabilities, the harness provides everything else: the execution loop, tool integration, memory management, context handling, error recovery, and safety guardrails.\n\nThe harness implements the agent loop—the iterative cycle of observe, think, act, and evaluate that drives agent behavior. In each iteration, the harness assembles the prompt (including system instructions, conversation history, tool results, and memory), sends it to the model, parses the model's response to identify requested actions, executes those actions (tool calls, code execution, API requests), captures results, and feeds them back into the next iteration. This loop continues until the agent completes its task or hits a termination condition.\n\nKey harness responsibilities include: tool registration and execution (providing the agent with capabilities like file access, web search, or code execution), context window management (summarizing or compressing history to stay within token limits), memory systems (short-term working memory and long-term persistent memory), safety guardrails (preventing harmful actions, enforcing permissions, rate limiting), error handling and recovery (retrying failed operations, graceful degradation), and observability (logging, tracing, and monitoring agent behavior).\n\nExamples of agent harnesses include frameworks like LangChain, AutoGPT, CrewAI, and Claude's own agent infrastructure. The quality of the harness often matters as much as the underlying model—a well-designed harness can make a smaller model more effective than a larger model with poor scaffolding. As AI agents become more capable, harness design increasingly focuses on reliability, safety, and human oversight rather than raw capability.",
+    "tags": [
+        "ai",
+        "agents",
+        "software-development",
+        "infrastructure",
+        "frameworks"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Agent Runtime",
+        "Agent Framework",
+        "Agent Scaffold"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "agent-loop",
+        "agent-skills",
+        "agent-orchestration",
+        "tool-use",
+        "guardrails",
+        "multi-agent-system",
+        "human-in-the-loop",
+        "prompt-engineering",
+        "chain-of-thought",
+        "retrieval-augmented-generation",
+        "scaffolding-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Intelligent agent - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Intelligent_agent",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

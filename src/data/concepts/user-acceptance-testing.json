@@ -1,0 +1,55 @@
+{
+    "id": "user-acceptance-testing",
+    "name": "User Acceptance Testing",
+    "summary": "The final phase of testing where actual users or stakeholders verify that a system meets their requirements and is ready for deployment.",
+    "explanation": "User Acceptance Testing (UAT) is the last stage of the software testing process before a system goes live. It involves actual end users or their representatives testing the system against real-world scenarios to confirm it meets their needs, works as expected, and is ready for production deployment.\n\n**Purpose of UAT:**\n\n- **Validate business requirements**: Confirm the system does what users actually need, not just what was specified in technical documents\n- **Catch gaps**: Identify issues that unit tests, integration tests, and QA testing miss because they lack real-world context\n- **Build confidence**: Give stakeholders confidence that the system is ready for deployment\n- **Contractual fulfillment**: In many projects, UAT sign-off is a formal milestone for payment or go-live approval\n- **User buy-in**: Users who participate in testing feel ownership and are more likely to adopt the system\n\n**UAT vs. other testing:**\n\n- **Unit/integration tests**: Verify technical correctness. Written by developers\n- **QA/system testing**: Verify the system works as specified. Done by testers\n- **UAT**: Verify the system meets business needs. Done by actual users or business representatives\n\n**The UAT process:**\n\n1. **Plan**: Define scope, schedule, participants, test scenarios, and acceptance criteria\n2. **Prepare test cases**: Based on acceptance criteria and real-world workflows, not technical specifications\n3. **Set up environment**: A production-like environment with realistic data\n4. **Execute tests**: Users work through scenarios, documenting results and issues\n5. **Log defects**: Issues are categorized by severity and tracked to resolution\n6. **Retest**: Fixed issues are retested by the same users\n7. **Sign off**: Formal acceptance that the system is ready for deployment\n\n**Common UAT approaches:**\n\n- **Alpha testing**: Done by internal users in a controlled environment\n- **Beta testing**: Done by external users in their own environment\n- **Contract acceptance testing**: Verifies contractual requirements are met\n- **Regulation acceptance testing**: Verifies compliance with regulatory requirements\n\n**Common pitfalls:**\n\n- Users who are too busy to test properly\n- Test scenarios that don't reflect real workflows\n- UAT happening too late to address significant issues\n- Treating UAT as a rubber stamp rather than genuine validation\n- No clear acceptance criteria defined before testing begins\n\nEffective UAT requires well-defined acceptance criteria established early, dedicated time from real users, and organizational commitment to acting on findings.",
+    "tags": [
+        "software-development",
+        "testing",
+        "quality",
+        "requirements",
+        "agile"
+    ],
+    "category": "Software Development",
+    "icon": "FaUserCheck",
+    "featured": false,
+    "aliases": [
+        "UAT",
+        "Acceptance Testing",
+        "Business Acceptance Testing",
+        "End User Testing"
+    ],
+    "relatedConcepts": [
+        "acceptance-criteria",
+        "definition-of-done",
+        "user-stories",
+        "requirements-engineering",
+        "behavior-driven-development",
+        "test-driven-development",
+        "given-when-then",
+        "specification-by-example"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Acceptance testing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Acceptance_testing",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

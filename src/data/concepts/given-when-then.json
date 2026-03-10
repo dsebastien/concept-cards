@@ -1,0 +1,63 @@
+{
+    "id": "given-when-then",
+    "name": "Given-When-Then",
+    "summary": "A structured format for writing acceptance criteria and test scenarios that specifies context, action, and expected outcome in plain language.",
+    "explanation": "Given-When-Then (GWT) is a semi-structured format for writing acceptance criteria, test scenarios, and behavioral specifications. It originates from Behavior-Driven Development (BDD) and the Gherkin language used by tools like Cucumber, SpecFlow, and Behave.\n\n**The structure:**\n\n- **Given**: The precondition or context. What state is the system in before the action?\n- **When**: The action or event. What does the user or system do?\n- **Then**: The expected outcome. What should happen as a result?\n\n**Example:**\n\n```\nGiven a registered user is on the login page\nWhen they enter valid credentials and click \"Sign In\"\nThen they are redirected to their dashboard\nAnd a welcome message is displayed\n```\n\n**Extended keywords:**\n\n- **And**: Adds additional conditions to Given, When, or Then\n- **But**: Adds a negative condition (\"But no error message is shown\")\n- **Background**: Shared preconditions for multiple scenarios\n- **Scenario Outline**: Parameterized scenarios with multiple data sets\n\n**Why Given-When-Then works:**\n\n- **Shared language**: Business people, developers, and testers can all read and write GWT scenarios. It bridges the communication gap between technical and non-technical stakeholders\n- **Testable by design**: Every GWT scenario is inherently a test case. It specifies what to set up (Given), what to do (When), and what to verify (Then)\n- **Forces clarity**: The structure prevents vague requirements. You cannot write a GWT scenario without thinking through the specific context, action, and expected result\n- **Living documentation**: When automated, GWT scenarios serve as both tests and documentation that stays current with the codebase\n- **Consistent format**: Teams adopt a uniform way of expressing requirements, making backlogs more readable and reducing ambiguity\n\n**Common mistakes:**\n\n- **Too technical**: GWT should use business language, not implementation details (\"Given the user table has a row\" vs. \"Given a registered user exists\")\n- **Multiple actions in When**: Each scenario should test one behavior. Multiple When clauses suggest the scenario should be split\n- **Vague Then clauses**: \"Then it works correctly\" is useless. Be specific about observable outcomes\n- **Testing implementation, not behavior**: Focus on what the system does, not how it does it internally\n\n**GWT beyond software:**\n\nThe Given-When-Then pattern is useful beyond software testing. It can structure any expected behavior or process: project plans, operational procedures, decision criteria, and even personal goals. Any time you need to define \"when X happens, Y should result, assuming Z conditions,\" GWT provides a clear template.",
+    "tags": [
+        "software-development",
+        "testing",
+        "agile",
+        "requirements",
+        "communications"
+    ],
+    "category": "Techniques",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "GWT",
+        "Gherkin Syntax",
+        "BDD Scenarios"
+    ],
+    "relatedConcepts": [
+        "acceptance-criteria",
+        "behavior-driven-development",
+        "test-driven-development",
+        "user-acceptance-testing",
+        "specification-by-example",
+        "user-stories",
+        "three-amigos"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Specification by Example by Gojko Adzic",
+            "url": "https://www.amazon.com/dp/1617290084?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Given-When-Then - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/GivenWhenThen.html",
+            "type": "website"
+        },
+        {
+            "title": "Behavior-driven development - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Behavior-driven_development",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

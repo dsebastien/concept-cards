@@ -1,0 +1,45 @@
+{
+    "id": "business-process-management",
+    "name": "Business Process Management",
+    "summary": "A systematic approach to improving an organization's workflows by analyzing, modeling, optimizing, and automating business processes.",
+    "explanation": "Business Process Management (BPM) is a discipline that combines management practices, technology, and methodology to discover, analyze, model, improve, and monitor end-to-end business processes. It treats processes as strategic assets that can be designed, measured, and continuously refined to deliver value.\n\n**The BPM lifecycle:**\n\n1. **Design**: Identify existing processes and design new or improved ones. This involves process mapping, stakeholder analysis, and defining process goals\n2. **Model**: Create detailed representations of how the process should work, including variations, exceptions, and decision rules\n3. **Execute**: Implement the process, whether manually through SOPs, with software automation, or a combination of both\n4. **Monitor**: Track process performance using key metrics (cycle time, throughput, error rates, cost per transaction)\n5. **Optimize**: Analyze performance data to identify bottlenecks, waste, and improvement opportunities, then refine the process\n\n**Core principles:**\n\n- **Process orientation**: Think in terms of end-to-end processes that cross departmental boundaries, not isolated tasks\n- **Customer focus**: Every process should ultimately serve the customer, whether internal or external\n- **Measurement**: What gets measured gets managed. Define and track meaningful process metrics\n- **Continuous improvement**: BPM is not a one-time project but an ongoing discipline\n- **Technology enablement**: Use tools and automation where they add value, but don't automate a broken process\n\n**BPM vs. related approaches:**\n\n- **Lean**: Focuses on eliminating waste (muda). BPM provides the framework; Lean provides specific techniques\n- **Six Sigma**: Focuses on reducing variation and defects. Complements BPM's broader scope\n- **Total Quality Management**: Shares the continuous improvement philosophy but TQM is broader, encompassing culture and people\n\n**BPM in knowledge work:**\n\nWhile BPM originated in manufacturing and transactional processes, it applies equally to knowledge work. Content creation workflows, decision-making processes, onboarding procedures, and project management all benefit from systematic process thinking. The key is finding the right level of structure: enough to ensure consistency and quality, but not so much that it stifles creativity and adaptation.",
+    "tags": [
+        "processes",
+        "management",
+        "operations",
+        "improvement",
+        "businesses"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "BPM",
+        "Process Management",
+        "Business Process Improvement"
+    ],
+    "relatedConcepts": [
+        "standard-operating-procedure",
+        "process-mapping",
+        "process-optimization",
+        "total-quality-management",
+        "lean-manufacturing",
+        "six-sigma",
+        "kaizen",
+        "automating-processes",
+        "benefits-of-documenting-processes"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Business process management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Business_process_management",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

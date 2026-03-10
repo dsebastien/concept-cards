@@ -1,0 +1,66 @@
+{
+    "id": "innovation-tokens",
+    "name": "Innovation Tokens",
+    "summary": "The idea that every organization has a limited budget for adopting novel technologies and should spend it only on things that truly differentiate.",
+    "explanation": "Innovation Tokens is a metaphor introduced by Dan McKinley as part of his 'Choose Boring Technology' philosophy. The concept frames technological novelty as a scarce resource: every team or organization can only absorb so much complexity from new, unproven tools before operational risk becomes unmanageable.\n\nImagine each team starts with roughly three innovation tokens. Each time you adopt a technology that isn't boring and well-understood—a new database, a cutting-edge framework, a novel deployment paradigm—you spend a token. Once your tokens are gone, every additional novelty compounds risk exponentially. Unknown failure modes interact with other unknown failure modes, debugging becomes archeological excavation, and the team spends more time fighting infrastructure than building product.\n\nThe strategic implication is clear: spend your innovation tokens where they create competitive advantage. If you're building a real-time bidding platform, spending a token on a high-performance event streaming system might be justified. But pairing that with a novel database, an experimental programming language, and a bleeding-edge orchestration tool means you've spent all your tokens on infrastructure rather than on the product features that differentiate your business.\n\nThis framework helps teams make deliberate technology choices. Before adopting something new, ask: 'Is this where we want to spend an innovation token? Does this novelty directly serve our core mission, or are we just attracted to the shiny new thing?' The discipline of treating innovation capacity as finite and precious leads to more reliable systems and faster delivery of actual business value.",
+    "tags": [
+        "software-development",
+        "strategies",
+        "decision-making",
+        "engineering",
+        "mental-models"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Innovation Budget"
+    ],
+    "relatedConcepts": [
+        "boring-technology",
+        "shiny-object-syndrome",
+        "tool-fatigue",
+        "technical-debt",
+        "opportunity-cost",
+        "yagni",
+        "kiss-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Choose Boring Technology - Dan McKinley",
+            "url": "https://mcfunley.com/choose-boring-technology",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

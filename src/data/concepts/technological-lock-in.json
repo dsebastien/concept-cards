@@ -1,0 +1,51 @@
+{
+    "id": "technological-lock-in",
+    "name": "Technological Lock-in",
+    "summary": "A situation where adopting a technology creates self-reinforcing dependencies that make switching to alternatives prohibitively costly or impractical.",
+    "explanation": "Technological lock-in occurs when the adoption of a particular technology creates dependencies, investments, and network effects that make switching to an alternative increasingly difficult over time, even when superior alternatives exist. It is a specific form of path dependence applied to technology.\n\n**How lock-in develops:**\n\n1. **Initial adoption**: A technology is chosen, often for good reasons at the time\n2. **Investment accumulation**: Users invest in learning, customization, complementary tools, and data migration into the technology\n3. **Network effects**: As more people adopt the technology, its value increases (more plugins, more integrations, more trained users)\n4. **Switching costs rise**: The longer you use a technology, the more expensive it becomes to leave (data migration, retraining, workflow disruption)\n5. **Lock-in solidifies**: Eventually, the cost of switching exceeds the benefit of alternatives, even clearly superior ones\n\n**Classic examples:**\n\n- **QWERTY keyboard**: Designed in 1873 to prevent typewriter jams, it persists despite the Dvorak layout being potentially faster, because billions of people have learned to type on QWERTY\n- **VHS over Betamax**: VHS won not because it was technically superior but because of greater market penetration and content availability\n- **x86 architecture**: Intel's instruction set dominates computing despite more elegant alternatives because of the vast ecosystem of software built for it\n- **JavaScript**: Became the language of the web by being in the right place at the right time, and now dominates because of its ecosystem\n\n**Mechanisms of lock-in:**\n\n- **Switching costs**: Direct costs of migration (time, money, data conversion)\n- **Learning costs**: Retraining users on new systems\n- **Network externalities**: Loss of compatibility with others using the incumbent technology\n- **Complementary investments**: Tools, plugins, integrations built around the technology become worthless\n- **Contractual obligations**: Licensing agreements and long-term contracts\n\n**Strategies to avoid or mitigate lock-in:**\n\n- Favor open standards and interoperable formats\n- Maintain data portability (export capabilities, open formats)\n- Use abstraction layers that decouple your work from specific implementations\n- Evaluate switching costs before adoption, not after\n- Invest in multi-platform skills and knowledge\n- Regularly assess whether your current technology still serves your needs\n\nTechnological lock-in is neither inherently good nor bad. Some lock-in is the natural consequence of deep integration and mastery. The danger lies in unconscious lock-in where you do not realize you have lost the freedom to choose.",
+    "tags": [
+        "technology",
+        "systems-thinking",
+        "risk-management",
+        "economics",
+        "strategies"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Technology Lock-in",
+        "Tech Lock-in",
+        "Technological Entrapment"
+    ],
+    "relatedConcepts": [
+        "vendor-lock-in",
+        "path-dependence",
+        "network-effects",
+        "switching-costs",
+        "monoculture",
+        "winner-takes-all",
+        "sunk-cost-fallacy",
+        "data-portability",
+        "open-standards",
+        "interoperability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Lock-in (decision-making) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lock-in_(decision-making)",
+            "type": "website"
+        },
+        {
+            "title": "Path dependence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Path_dependence",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

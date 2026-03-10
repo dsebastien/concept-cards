@@ -1,0 +1,73 @@
+{
+    "id": "justified-true-belief",
+    "name": "Justified True Belief",
+    "summary": "The classical definition of knowledge as a belief that is both true and supported by adequate justification or evidence.",
+    "explanation": "Justified True Belief (JTB) is the classical account of knowledge dating back to Plato's dialogue 'Theaetetus.' According to this analysis, a person knows a proposition if and only if three conditions are met: the proposition is true, the person believes it, and the person has adequate justification for that belief. Each condition is necessary, and together they are traditionally considered sufficient.\n\nThe three components each eliminate different failures of knowledge. Truth eliminates lucky false beliefs—you can't 'know' something that isn't actually the case, no matter how confident you are. Belief eliminates accidental truths—if something is true but you don't believe it, you don't know it. Justification eliminates lucky true beliefs—if you believe something true but for the wrong reasons (like guessing correctly), that's not knowledge but mere luck.\n\nIn 1963, Edmund Gettier published a landmark three-page paper showing that justified true belief is not sufficient for knowledge. His counterexamples describe cases where someone has a justified true belief, but only by coincidence—the justification connects to the truth through luck rather than in the right way. For example, you might believe your colleague is in the office because you see what looks like them through the window (justified), and they are indeed in the office (true), but what you actually saw was a life-sized cardboard cutout while the real colleague entered through the back door.\n\nThe Gettier problem has generated decades of philosophical work attempting to find the missing fourth condition. Proposals include: reliabilism (the belief must be produced by a reliable cognitive process), the no-false-lemma condition (the justification must not depend on any false beliefs), and virtue epistemology (the truth must be attributable to the agent's cognitive virtues). While no consensus solution has emerged, the JTB framework remains foundational—it identifies the core components of knowledge even if their interaction is more complex than originally thought.",
+    "tags": [
+        "philosophy",
+        "epistemology",
+        "knowledge",
+        "thinking",
+        "definitions"
+    ],
+    "category": "Philosophy & Wisdom",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "JTB",
+        "Gettier Problem",
+        "Classical Theory of Knowledge"
+    ],
+    "relatedConcepts": [
+        "epistemology",
+        "rationalism",
+        "empiricism",
+        "skepticism",
+        "epistemic-humility",
+        "epistemic-rationality",
+        "cogito-ergo-sum"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Knowledge and Its Limits by Timothy Williamson",
+            "url": "https://www.amazon.com/dp/019925656X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Gettier problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Gettier_problem",
+            "type": "website"
+        },
+        {
+            "title": "The Analysis of Knowledge - Stanford Encyclopedia of Philosophy",
+            "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

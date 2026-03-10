@@ -1,0 +1,94 @@
+{
+    "id": "agent-loop",
+    "name": "Agent Loop",
+    "summary": "The iterative cycle of perception, reasoning, action, and observation that drives an AI agent's autonomous behavior.",
+    "explanation": "The Agent Loop is the fundamental execution pattern of AI agents—a continuous cycle where the agent perceives its environment, reasons about what to do, takes an action, observes the result, and repeats. This loop transforms a language model from a one-shot text generator into a persistent, goal-directed system capable of multi-step problem-solving.\n\nThe basic loop follows a consistent pattern across implementations. First, the agent receives or recalls its goal and current context. Second, it reasons about the situation—analyzing available information, identifying what's missing, and planning next steps. Third, it selects and executes an action—calling a tool, writing code, asking a question, or producing a final answer. Fourth, it observes the result of that action and integrates the new information. Then the cycle repeats with updated context until the goal is achieved or a stopping condition is met.\n\nVariations of this pattern appear throughout AI and decision-making literature. The ReAct (Reasoning + Acting) paradigm explicitly interleaves reasoning traces with actions. The OODA loop (Observe, Orient, Decide, Act) from military strategy follows the same structure. Even the scientific method—observe, hypothesize, experiment, analyze—is an agent loop applied to knowledge generation.\n\nThe design of the agent loop profoundly affects agent behavior. Key decisions include: how much reasoning to require before acting (too little leads to impulsive errors; too much leads to analysis paralysis), when to stop iterating (avoiding both premature termination and infinite loops), how to handle failures (retry, try alternative approach, or escalate to human), and how to manage the growing context as the conversation history expands. Well-designed agent loops include reflection steps where the agent evaluates its own progress and adjusts strategy, creating a meta-cognitive layer that improves reliability.",
+    "tags": [
+        "ai",
+        "agents",
+        "patterns",
+        "software-development",
+        "decision-making"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Agentic Loop",
+        "ReAct Loop",
+        "Observe-Think-Act Loop"
+    ],
+    "relatedConcepts": [
+        "agent-harness",
+        "ai-agent",
+        "ooda-loop",
+        "feedback-loop",
+        "chain-of-thought",
+        "tool-use",
+        "agent-orchestration",
+        "agent-skills"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "url": "https://arxiv.org/abs/2210.03629",
+            "type": "paper"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

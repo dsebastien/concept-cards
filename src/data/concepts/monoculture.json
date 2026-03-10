@@ -1,0 +1,55 @@
+{
+    "id": "monoculture",
+    "name": "Monoculture",
+    "summary": "The dominance of a single approach, technology, species, or way of thinking within a system, offering efficiency gains but creating systemic fragility.",
+    "explanation": "Monoculture refers to the dominance of a single variety, approach, technology, or mindset within a system. Originally an agricultural term describing the cultivation of a single crop over a large area, the concept has powerful metaphorical applications across technology, business, organizations, and thought.\n\n## The positive case for monoculture\n\nMonoculture is not inherently bad. In many contexts, convergence on a single standard creates significant advantages:\n\n- **Efficiency and economies of scale**: A single approach eliminates the overhead of managing multiple variants. One programming language across a codebase, one operating system across an organization, one methodology across teams - all reduce friction\n- **Interoperability**: When everyone uses the same standard, systems integrate seamlessly. USB, TCP/IP, and containerization all benefit from monoculture\n- **Lower training costs**: A unified technology stack means people can move between teams and projects without retraining\n- **Predictability**: Uniform systems behave consistently, making them easier to monitor, debug, and maintain\n- **Network effects**: The more people adopt the same platform or tool, the more valuable it becomes for everyone (Metcalfe's Law)\n- **Depth of expertise**: Concentrating on one approach allows deeper mastery rather than shallow knowledge of many\n\n## The negative case against monoculture\n\nThe very strengths of monoculture contain the seeds of its risks:\n\n- **Systemic fragility**: When everything depends on one approach, a single failure can cascade through the entire system. The Irish Potato Famine (1845-1852) is the canonical example: reliance on a single potato variety meant that one pathogen caused catastrophic crop failure. In technology, a bug in a dominant software library can affect millions of systems simultaneously\n- **Vulnerability to disruption**: A monoculture creates a single attack surface. One exploit, one market shift, one paradigm change threatens everything at once\n- **Suppressed innovation**: Dominant approaches crowd out alternatives. Teams stop exploring because the existing solution is \"good enough.\" This creates path dependence and technological lock-in\n- **Blind spots**: A monoculture of thought (cognitive monoculture) means everyone sees problems the same way, misses the same things, and makes the same errors. Groupthink is monoculture applied to thinking\n- **Reduced adaptability**: Diverse systems can respond to changing conditions by shifting resources to whatever works. Monocultures cannot - they either work or they don't\n- **Winner-takes-all dynamics**: Monocultures tend to self-reinforce through network effects and switching costs, making it increasingly difficult to escape even when better alternatives exist\n\n## Monoculture across domains\n\n- **Agriculture**: Single-crop farming maximizes yield but is vulnerable to disease and soil depletion\n- **Technology**: Platform monopolies (operating systems, cloud providers) create efficiency but concentration risk\n- **Software**: A single library or framework becoming ubiquitous (e.g., Log4j vulnerability in 2021 affected virtually all Java systems)\n- **Organizations**: Uniform hiring practices and thinking styles optimize execution but impair creativity and risk detection\n- **Knowledge management**: Relying on a single tool or method creates lock-in and limits cross-pollination of ideas\n- **Culture**: Globalization can homogenize cultures, gaining economic efficiency but losing local knowledge and diversity\n\n## Finding the balance\n\nThe optimal strategy is usually deliberate diversity within a coherent framework: standardize where consistency matters most, but maintain diversity where resilience and adaptability are critical. The key question is not \"monoculture or diversity?\" but \"where should we standardize and where should we diversify?\"",
+    "tags": [
+        "systems-thinking",
+        "risk-management",
+        "resilience",
+        "strategies",
+        "technology"
+    ],
+    "category": "Thinking",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Technological Monoculture",
+        "Cognitive Monoculture",
+        "Cultural Monoculture"
+    ],
+    "relatedConcepts": [
+        "diversity-of-thought",
+        "groupthink",
+        "single-point-of-failure",
+        "antifragility",
+        "resilience",
+        "redundancy",
+        "vendor-lock-in",
+        "technological-lock-in",
+        "path-dependence",
+        "network-effects",
+        "winner-takes-all",
+        "process-standardization",
+        "echo-chamber",
+        "conformity-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Monoculture - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Monoculture",
+            "type": "website"
+        },
+        {
+            "title": "Monoculture (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Monoculture_(computer_science)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

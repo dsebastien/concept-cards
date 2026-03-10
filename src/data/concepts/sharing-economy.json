@@ -1,0 +1,25 @@
+{
+    "id": "sharing-economy",
+    "name": "Sharing Economy",
+    "summary": "An economic system where individuals share access to underutilized assets, resources, or services, often facilitated by digital platforms.",
+    "explanation": "The Sharing Economy is an economic model based on sharing underutilized assets—physical goods, spaces, skills, or time—among individuals, typically facilitated by peer-to-peer digital platforms. Instead of each person owning a drill used 15 minutes per year, a neighborhood shares one. Instead of hotel rooms sitting empty, homeowners rent spare rooms on Airbnb. The core premise is that access can replace ownership for many goods, increasing utilization and reducing waste.\n\nThe sharing economy gained momentum through several converging forces. Digital platforms solved the trust problem (ratings, reviews, identity verification) and the matching problem (connecting supply and demand in real time). Smartphones provided ubiquitous access. The 2008 financial crisis made people more open to alternative income sources and more cost-conscious. And growing environmental awareness made the wastefulness of underutilized assets more visible.\n\nMajor examples include transportation (Uber, Lyft, BlaBlaCar), accommodation (Airbnb, Vrbo), workspace (WeWork), goods (Fat Llama, Library of Things), skills (TaskRabbit, Fiverr), and finance (Kickstarter, LendingClub). Each platform creates a marketplace where asset owners monetize idle capacity and consumers access goods and services at lower cost than ownership.\n\nCritiques of the sharing economy are substantial. Many 'sharing' platforms are actually rental marketplaces operated by profit-maximizing companies—Uber drivers don't share their cars; they provide taxi services with lower labor protections. The gig economy model can exploit workers by classifying them as independent contractors, denying benefits and job security. Regulatory arbitrage allows platforms to undercut regulated industries (hotels, taxis) without meeting the same standards. And concentration effects mean a few dominant platforms capture most of the value. The genuine sharing economy—tool libraries, time banks, cooperatively owned platforms—remains smaller but more aligned with the original vision of collaborative consumption.",
+    "tags": ["economics", "businesses", "sustainability", "innovation", "platforms"],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": ["Collaborative Consumption", "Peer-to-Peer Economy", "Access Economy"],
+    "relatedConcepts": ["circular-economy", "platform-business", "network-effects", "externality", "sustainable-innovation", "supply-chain"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sharing economy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sharing_economy",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

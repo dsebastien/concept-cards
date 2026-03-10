@@ -1,0 +1,69 @@
+{
+    "id": "precautionary-principle",
+    "name": "Precautionary Principle",
+    "summary": "The principle that when an action risks causing severe or irreversible harm, precautionary measures should be taken even without full scientific certainty.",
+    "explanation": "The Precautionary Principle states that if an action or policy has a suspected risk of causing severe or irreversible harm to the public or the environment, the burden of proof that it is not harmful falls on those taking the action—rather than requiring proof of harm before taking protective measures. It is codified in numerous international treaties and national laws, including the Rio Declaration on Environment and Development (1992).\n\nThe principle is most commonly invoked in environmental policy, public health, and emerging technology regulation. It guided the European Union's restrictions on genetically modified organisms, influenced the global response to ozone depletion (the Montreal Protocol acted before damage was fully understood), and informs debates about AI safety, geoengineering, and novel chemical compounds.\n\nNassim Nicholas Taleb and colleagues have given the precautionary principle a rigorous statistical foundation. They argue it should apply specifically when potential harm involves systemic, irreversible ruin—when the downside is not merely large but existential or civilizational. In such cases, cost-benefit analysis breaks down because no amount of benefit justifies risking total ruin. This connects directly to the concept of ergodicity: in non-ergodic situations where you can't recover from the worst case, avoiding ruin must take priority over maximizing expected value.\n\nCritics argue the principle can be used to block beneficial innovation and that 'proving a negative' (showing something is harmless) is logically impossible. Supporters counter that the principle doesn't demand zero risk but rather proportionate caution: the greater and more irreversible the potential harm, the stronger the justification needed before proceeding. The practical wisdom is about asymmetry—when the downside is catastrophic and irreversible but the upside is incremental and reversible, caution is rational.",
+    "tags": [
+        "decision-making",
+        "risk-management",
+        "ethics",
+        "public-policy",
+        "mental-models"
+    ],
+    "category": "Decision Science",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Precaution Principle",
+        "Better Safe Than Sorry"
+    ],
+    "relatedConcepts": [
+        "black-swan",
+        "antifragility",
+        "ergodicity",
+        "fat-tails",
+        "margin-of-safety",
+        "risk-reward-tradeoff",
+        "asymmetric-upside",
+        "externality",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Antifragile by Nassim Nicholas Taleb",
+            "url": "https://www.amazon.com/dp/0812979680?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Precautionary principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Precautionary_principle",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "resume-driven-development",
+    "name": "Resume-Driven Development",
+    "summary": "The practice of choosing technologies or architectures based on what looks impressive on a resume rather than what best serves the project.",
+    "explanation": "Resume-Driven Development (RDD) is an anti-pattern where engineers select technologies, frameworks, or architectural approaches primarily because learning them enhances their career prospects, rather than because they're the best fit for the problem at hand. The term captures a real tension in software engineering: individual career incentives don't always align with organizational needs.\n\nThe pattern manifests in predictable ways. A team adopts Kubernetes for a simple application that could run on a single server. A developer introduces microservices architecture for a small CRUD application. A project chooses a trendy but immature framework over a proven one because 'everyone is hiring for it.' In each case, the technology choice serves the developer's career narrative more than the project's requirements.\n\nRDD is understandable from the individual's perspective. The tech industry rewards novelty in hiring—job postings list the latest frameworks, and candidates with experience in trending technologies command higher salaries. Engineers rationally respond to these incentives. However, the organizational cost is significant: increased complexity, longer development timelines, higher operational burden, and technical debt that accrues as enthusiasm fades and the team moves on.\n\nCountering RDD requires both cultural and structural approaches. Organizations can reduce the incentive by valuing problem-solving ability over technology-specific experience in hiring and promotion. Technical leaders can create space for experimentation through hackathons and side projects, satisfying the desire to learn new things without imposing unvetted technology on production systems. And individuals can recognize the pattern in their own thinking, asking: 'Would I choose this technology if I planned to maintain this system for the next five years?'",
+    "tags": [
+        "software-development",
+        "anti-patterns",
+        "decision-making",
+        "engineering",
+        "career"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "RDD",
+        "Hype-Driven Development"
+    ],
+    "relatedConcepts": [
+        "boring-technology",
+        "innovation-tokens",
+        "shiny-object-syndrome",
+        "technical-debt",
+        "premature-optimization",
+        "second-system-effect",
+        "hype-cycle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Resume Driven Development - ThoughtWorks",
+            "url": "https://www.thoughtworks.com/radar/techniques/resume-driven-development",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

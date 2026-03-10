@@ -1,0 +1,52 @@
+{
+    "id": "quantum-entanglement",
+    "name": "Quantum Entanglement",
+    "summary": "A quantum phenomenon where particles become correlated such that measuring one instantly determines properties of the other, regardless of the distance between them.",
+    "explanation": "Quantum entanglement is a phenomenon in which two or more particles become linked in such a way that the quantum state of each particle cannot be described independently. Instead, the system must be described as a whole. Measuring a property of one entangled particle instantly determines the corresponding property of the other, no matter how far apart they are.\n\n**How entanglement works:**\n\nWhen two particles interact and become entangled, their quantum states become correlated. For example, two entangled photons might be created with opposite polarizations. Before measurement, neither photon has a definite polarization - both are in superposition. But the moment one is measured as vertically polarized, the other is instantly known to be horizontally polarized.\n\nCrucially, neither particle has a definite state before measurement. It is not that we simply don't know which state each is in (like flipping two coins where one must be heads and the other tails). Bell's theorem and subsequent experiments prove that the correlations are stronger than any classical explanation allows.\n\n**Einstein's objection:**\n\nEinstein famously called entanglement \"spooky action at a distance\" and argued in the 1935 EPR paper (with Podolsky and Rosen) that it implied quantum mechanics was incomplete. He believed hidden variables must predetermine the outcomes. In 1964, John Bell devised a mathematical inequality (Bell's inequality) that could distinguish between quantum predictions and hidden variable theories. Experiments by Alain Aspect (1982) and many others have consistently violated Bell's inequality, confirming quantum mechanics and ruling out local hidden variables.\n\n**What entanglement is NOT:**\n\n- **Not faster-than-light communication**: While the correlation is instantaneous, it cannot be used to transmit information. The measurement results appear random locally; the correlation is only visible when comparing both results\n- **Not a physical connection**: Entangled particles don't have a wire or signal between them. The correlation is a property of the quantum state itself\n- **Not fragile only in theory**: In practice, entanglement is easily destroyed by interaction with the environment (decoherence), which is why maintaining entanglement is a major challenge in quantum technology\n\n**Applications:**\n\n- **Quantum computing**: Entanglement is a key resource for quantum algorithms, enabling quantum gates to create correlations impossible in classical computing\n- **Quantum cryptography**: Quantum key distribution uses entanglement to create provably secure communication channels\n- **Quantum teleportation**: The quantum state of a particle can be transferred to another using entanglement (the original is destroyed in the process)\n- **Quantum sensing**: Entangled particles enable measurements beyond classical precision limits\n\n**2022 Nobel Prize in Physics:**\n\nAlain Aspect, John Clauser, and Anton Zeilinger received the 2022 Nobel Prize for their experiments establishing the reality of quantum entanglement, vindicating quantum mechanics over Einstein's objections.",
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "foundations"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Entanglement",
+        "Quantum Correlation",
+        "Spooky Action at a Distance",
+        "EPR Paradox"
+    ],
+    "relatedConcepts": [
+        "quantum-mechanics",
+        "quantum-superposition",
+        "double-slit-experiment",
+        "uncertainty-principle",
+        "observer-effect",
+        "schrodingers-cat"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Entanglement: The Greatest Mystery in Physics by Amir Aczel",
+            "url": "https://www.amazon.com/dp/0452284570?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Quantum entanglement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantum_entanglement",
+            "type": "website"
+        },
+        {
+            "title": "Bell's theorem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bell%27s_theorem",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

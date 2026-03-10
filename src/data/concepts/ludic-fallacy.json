@@ -1,0 +1,73 @@
+{
+    "id": "ludic-fallacy",
+    "name": "Ludic Fallacy",
+    "summary": "The error of applying neat, well-defined models from games and controlled environments to the messy, unpredictable complexity of the real world.",
+    "explanation": "The Ludic Fallacy (from Latin 'ludus' meaning game) is a term coined by Nassim Nicholas Taleb in 'The Black Swan' to describe the misapplication of precise, game-like models to real-world situations where uncertainty is far wilder and more complex than any model can capture.\n\nIn a casino, the odds are known and calculable—the roulette wheel has 38 slots, each with a precise probability. This is 'Mediocristan'—the domain of mild randomness where bell curves, averages, and standard deviations work well. But real life operates in 'Extremistan'—the domain of wild randomness where a single event (a pandemic, a technological breakthrough, a financial crisis) can dwarf all previous observations combined. The ludic fallacy is using Mediocristan tools in Extremistan.\n\nTaleb illustrates this with two characters: Dr. John the statistician and Fat Tony the street-smart trader. Given a coin that landed heads 99 times in a row, Dr. John calculates the probability of tails next as still 50%—he trusts his model. Fat Tony says the coin is rigged—he trusts reality over the model. The ludic fallacy is Dr. John's error: he's so committed to the model that he ignores the most obvious real-world explanation.\n\nThe fallacy has profound implications for risk management, finance, and decision-making. Financial models like Value at Risk (VaR) that assume normal distributions dramatically underestimate the probability of extreme events. Economic forecasters using historical data fail to predict unprecedented crises. The antidote is recognizing the limits of models, maintaining awareness of what you don't know (epistemic humility), and building systems that are robust or antifragile rather than optimized for a model's assumptions.",
+    "tags": [
+        "mental-models",
+        "probabilities",
+        "risks",
+        "thinking",
+        "decision-making"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Gaming Fallacy"
+    ],
+    "relatedConcepts": [
+        "black-swan",
+        "fat-tails",
+        "antifragility",
+        "turkey-problem",
+        "narrative-fallacy",
+        "map-is-not-the-territory",
+        "normalcy-bias",
+        "epistemic-humility",
+        "neglect-of-probability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Black Swan by Nassim Nicholas Taleb",
+            "url": "https://www.amazon.com/dp/081297381X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Ludic fallacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ludic_fallacy",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

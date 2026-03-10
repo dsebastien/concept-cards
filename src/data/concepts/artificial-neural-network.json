@@ -1,0 +1,84 @@
+{
+    "id": "artificial-neural-network",
+    "name": "Artificial Neural Network",
+    "summary": "A computing system inspired by biological neural networks that learns to perform tasks by processing examples through layers of interconnected nodes.",
+    "explanation": "An artificial neural network (ANN) is a computational model inspired by the structure and function of biological brains. It consists of interconnected nodes (neurons) organized in layers that process information by transmitting signals and adjusting the strength (weight) of connections based on experience.\n\n**Basic structure:**\n\n- **Input layer**: Receives raw data (pixels, words, numbers)\n- **Hidden layers**: Process and transform the data through weighted connections. The number and size of hidden layers determine the network's capacity\n- **Output layer**: Produces the result (classification, prediction, generation)\n- **Weights and biases**: Parameters that the network adjusts during training to minimize error\n- **Activation functions**: Non-linear functions that determine whether a neuron \"fires\" (ReLU, sigmoid, softmax)\n\n**How learning works:**\n\n1. **Forward pass**: Input data flows through the network, producing an output\n2. **Loss calculation**: The output is compared to the desired result, producing an error signal\n3. **Backpropagation**: The error is propagated backward through the network, calculating how much each weight contributed to the error\n4. **Weight update**: Weights are adjusted to reduce the error (gradient descent)\n5. **Repeat**: This process iterates over many examples until the network performs well\n\n**Key architectures:**\n\n- **Feedforward networks**: Information flows in one direction; used for classification and regression\n- **Convolutional Neural Networks (CNNs)**: Specialized for spatial data like images; use filters to detect features\n- **Recurrent Neural Networks (RNNs)**: Process sequential data by maintaining internal memory; used for time series and text\n- **Transformers**: Use attention mechanisms to process sequences in parallel; power modern large language models\n- **Generative Adversarial Networks (GANs)**: Two networks compete to generate realistic synthetic data\n\n**Historical timeline:**\n\n- **1943**: McCulloch and Pitts propose the first mathematical model of a neuron\n- **1958**: Rosenblatt creates the Perceptron, the first trainable neural network\n- **1969**: Minsky and Papert's \"Perceptrons\" book highlights limitations, triggering the first neural network winter\n- **1986**: Backpropagation is popularized by Rumelhart, Hinton, and Williams\n- **2012**: AlexNet wins ImageNet, demonstrating deep learning's power\n- **2017**: The Transformer architecture revolutionizes NLP\n- **2020s**: Large-scale neural networks achieve remarkable capabilities across domains\n\n**Why neural networks work:**\n\nNeural networks are universal function approximators: given enough neurons and data, they can approximate any continuous function. Their power comes from learning representations directly from data rather than requiring hand-engineered features. However, they are often opaque (\"black boxes\"), require large amounts of data and compute, and can fail in unexpected ways on out-of-distribution inputs.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "neural-networks",
+        "technology",
+        "computer-science"
+    ],
+    "category": "AI",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "ANN",
+        "Neural Network",
+        "Neural Net"
+    ],
+    "relatedConcepts": [
+        "artificial-intelligence",
+        "machine-learning",
+        "deep-learning",
+        "connectionism",
+        "thinking-machine",
+        "large-language-models",
+        "natural-language-processing",
+        "symbolic-ai"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville",
+            "url": "https://www.amazon.com/dp/0262035618?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Artificial neural network - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+            "type": "website"
+        },
+        {
+            "title": "Neural network (machine learning) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

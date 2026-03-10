@@ -1,0 +1,41 @@
+{
+    "id": "quantum-superposition",
+    "name": "Quantum Superposition",
+    "summary": "The quantum mechanical principle that a physical system exists in all possible states simultaneously until it is measured or observed.",
+    "explanation": "Quantum superposition is one of the most counterintuitive principles of quantum mechanics. It states that a quantum system can exist in multiple states at the same time, with the system being described by a combination (superposition) of all possible states. Only when a measurement is performed does the system \"collapse\" into one definite state.\n\n**What superposition means:**\n\nImagine a coin spinning in the air. In classical physics, it is either heads or tails at every moment - we just don't know which. In quantum mechanics, a particle in superposition is genuinely in multiple states simultaneously. It is not that we are ignorant of its state; the state is genuinely indefinite until measured. The particle does not \"choose\" a state until forced to by observation.\n\n**The mathematics:**\n\nQuantum states are described by wave functions. A superposition is a linear combination of multiple wave functions. For a two-state system:\n\n|ψ⟩ = α|state A⟩ + β|state B⟩\n\nThe coefficients α and β are complex numbers whose squared magnitudes give the probability of measuring the system in state A or state B. Before measurement, the system is in both states simultaneously.\n\n**Key demonstrations:**\n\n- **Double-slit experiment**: A single particle passes through both slits simultaneously, interfering with itself. The interference pattern is direct evidence that the particle was in a superposition of \"through slit A\" and \"through slit B\"\n- **Stern-Gerlach experiment**: Atoms in superposition of spin states separate into discrete beams when measured\n- **Quantum computing**: Qubits exploit superposition to be in states |0⟩ and |1⟩ simultaneously, enabling parallel computation\n\n**The measurement problem:**\n\nWhat causes superposition to collapse into a definite state? This remains one of the deepest unsolved questions in physics:\n\n- **Copenhagen interpretation**: Measurement causes collapse. The wave function represents our knowledge, not physical reality\n- **Many-worlds**: No collapse occurs. The universe branches, with each branch containing one outcome\n- **Decoherence**: Interaction with the environment effectively destroys superposition at macroscopic scales, explaining why we don't see superposition in everyday life\n\n**Schrodinger's cat:**\n\nSchrodinger's famous thought experiment illustrates the absurdity of applying superposition to everyday objects: a cat in a box is simultaneously alive and dead until observed. This was meant as a critique, not an endorsement, of the Copenhagen interpretation.\n\n**Applications:**\n\n- **Quantum computing**: Superposition enables quantum parallelism\n- **Quantum cryptography**: Superposition ensures that eavesdropping disturbs the quantum state, making interception detectable\n- **Quantum sensing**: Superposition states are extremely sensitive to environmental changes, enabling ultra-precise measurements",
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "foundations"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Superposition",
+        "Quantum State Superposition"
+    ],
+    "relatedConcepts": [
+        "quantum-mechanics",
+        "double-slit-experiment",
+        "wave-particle-duality",
+        "schrodingers-cat",
+        "uncertainty-principle",
+        "quantum-entanglement",
+        "observer-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Quantum superposition - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantum_superposition",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

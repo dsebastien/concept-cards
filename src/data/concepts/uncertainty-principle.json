@@ -1,0 +1,42 @@
+{
+    "id": "uncertainty-principle",
+    "name": "Uncertainty Principle",
+    "summary": "Heisenberg's fundamental principle that certain pairs of physical properties, like position and momentum, cannot both be known to arbitrary precision simultaneously.",
+    "explanation": "The Heisenberg Uncertainty Principle, formulated by Werner Heisenberg in 1927, is a fundamental limit of quantum mechanics. It states that there are pairs of physical properties (called conjugate variables) that cannot both be measured with arbitrary precision at the same time. The more precisely one property is known, the less precisely the other can be determined.\n\n**The mathematics:**\n\nFor position (x) and momentum (p):\n\nΔx · Δp ≥ ℏ/2\n\nwhere Δx is the uncertainty in position, Δp is the uncertainty in momentum, and ℏ is the reduced Planck constant. Similar relations hold for other conjugate pairs:\n\n- Energy and time: ΔE · Δt ≥ ℏ/2\n- Angular position and angular momentum\n\n**What it does NOT mean:**\n\nThe uncertainty principle is widely misunderstood:\n\n- It is NOT about measurement disturbing the system (that is the observer effect). Even with a perfect, non-disturbing measurement, the uncertainty remains\n- It is NOT about the limitations of our instruments. It is a fundamental property of nature itself\n- It is NOT about human ignorance. The particle genuinely does not have a precise position and momentum simultaneously\n\n**What it DOES mean:**\n\n- Conjugate properties are complementary aspects of reality that cannot coexist with arbitrary sharpness\n- A particle with a very well-defined position has a very spread-out momentum, and vice versa\n- This is a consequence of the wave nature of quantum mechanics: a wave packet localized in space must be composed of many different wavelengths (momenta), and a wave with a single wavelength extends through all space\n\n**Physical consequences:**\n\n- **Zero-point energy**: A particle confined to a small space must have some minimum kinetic energy - it cannot be perfectly still. This is why absolute zero temperature is unattainable\n- **Atomic stability**: Electrons cannot spiral into the nucleus because confining them to a smaller space would increase their momentum uncertainty (and thus energy)\n- **Virtual particles**: The energy-time uncertainty relation allows brief violations of energy conservation, enabling the creation of virtual particle-antiparticle pairs\n- **Quantum tunneling**: Particles can pass through energy barriers they classically could not overcome\n\n**Metaphorical applications:**\n\nThe uncertainty principle is often invoked metaphorically - \"you can't measure something without changing it\" or \"precision in one area comes at the cost of another.\" While these analogies can be insightful, they should be used carefully to avoid pseudoscientific claims. The principle is specifically about conjugate quantum variables, not a general statement about trade-offs.",
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "foundations",
+        "principles"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Heisenberg Uncertainty Principle",
+        "Heisenberg's Principle",
+        "Indeterminacy Principle"
+    ],
+    "relatedConcepts": [
+        "quantum-mechanics",
+        "quantum-superposition",
+        "observer-effect",
+        "wave-particle-duality",
+        "double-slit-experiment",
+        "schrodingers-cat"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Uncertainty principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

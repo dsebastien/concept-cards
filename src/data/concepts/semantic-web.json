@@ -1,0 +1,89 @@
+{
+    "id": "semantic-web",
+    "name": "Semantic Web",
+    "summary": "An extension of the web where data is given well-defined meaning, enabling machines to understand, link, and reason across information.",
+    "explanation": "The Semantic Web is a vision articulated by Tim Berners-Lee, the inventor of the World Wide Web, for transforming the web from a collection of human-readable documents into a global database of machine-readable, interconnected data. While the traditional web links documents to documents, the Semantic Web links data to data with explicit meaning.\n\nThe technical foundation rests on several W3C standards. RDF (Resource Description Framework) provides a model for describing resources as subject-predicate-object triples (e.g., 'Paris is-capital-of France'). OWL (Web Ontology Language) enables the definition of formal ontologies—shared vocabularies with logical rules that allow automated reasoning. SPARQL provides a query language for retrieving and manipulating RDF data. URIs (Uniform Resource Identifiers) give every entity a unique, web-resolvable identity.\n\nWhile the full Semantic Web vision has not been realized as originally envisioned, its principles have profoundly influenced technology. Knowledge graphs at Google, Wikidata, and DBpedia use Semantic Web technologies. Schema.org provides structured data markup used by billions of web pages. Linked Open Data initiatives have published billions of RDF triples connecting datasets across domains. The core insight—that explicitly encoding meaning and relationships in data makes it more useful—underpins modern approaches to knowledge management, AI training data, and enterprise data integration.\n\nThe Semantic Web's challenges include the difficulty of getting publishers to add structured metadata, the complexity of ontology design and maintenance, and the tension between formal logic (precise but rigid) and natural language (flexible but ambiguous). These challenges foreshadowed similar tensions in modern AI between symbolic approaches (precise, explainable) and neural approaches (flexible, pattern-based).",
+    "tags": [
+        "knowledge-management",
+        "data",
+        "standards",
+        "information-architecture",
+        "technology"
+    ],
+    "category": "Systems",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Web 3.0",
+        "Semantic Web Technologies",
+        "Web of Data"
+    ],
+    "relatedConcepts": [
+        "knowledge-graph",
+        "linked-data",
+        "ontology-knowledge-management",
+        "taxonomy",
+        "metadata",
+        "semantic-search",
+        "graph-database",
+        "linked-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Semantic Web - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Semantic_Web",
+            "type": "website"
+        },
+        {
+            "title": "W3C Semantic Web Activity",
+            "url": "https://www.w3.org/2001/sw/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

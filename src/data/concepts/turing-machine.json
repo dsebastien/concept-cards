@@ -1,0 +1,50 @@
+{
+    "id": "turing-machine",
+    "name": "Turing Machine",
+    "summary": "A theoretical mathematical model of computation that defines an abstract machine manipulating symbols on a tape according to rules, forming the foundation of computer science.",
+    "explanation": "A Turing machine is an abstract mathematical model of computation introduced by Alan Turing in his 1936 paper \"On Computable Numbers, with an Application to the Entscheidungsproblem.\" Despite its simplicity, it can simulate the logic of any computer algorithm and remains the foundational model for understanding what computers can and cannot do.\n\n**How it works:**\n\nA Turing machine consists of:\n\n- **An infinite tape**: Divided into cells, each containing a symbol from a finite alphabet\n- **A head**: Reads and writes symbols on the tape, and moves one cell left or right\n- **A state register**: Stores the current state of the machine from a finite set of states\n- **A transition function**: A table of rules that, given the current state and symbol being read, specifies what to write, which direction to move, and what state to enter next\n\nThe machine starts in an initial state, reads the symbol under the head, consults its rules, writes a symbol, moves, changes state, and repeats until it reaches a halting state (or runs forever).\n\n**Why it matters:**\n\n- **Defines computability**: A problem is \"computable\" if a Turing machine can solve it. This gives a precise mathematical definition to the intuitive notion of an algorithm\n- **Universal Turing Machine**: Turing showed that a single machine can simulate any other Turing machine if given its description as input. This is the theoretical basis for general-purpose programmable computers\n- **The Halting Problem**: Turing proved that no algorithm can determine, for all possible programs, whether a given program will halt or run forever. This was the first major undecidability result and has profound implications for the limits of computation\n- **Church-Turing thesis**: The claim that Turing machines capture everything that is effectively computable, establishing the boundary between what machines can and cannot solve\n\n**Turing machines and real computers:**\n\nEvery modern computer is essentially a finite approximation of a Turing machine (limited by finite memory rather than an infinite tape). While real computers are far more complex and efficient, they cannot solve any problem that a Turing machine cannot. The Turing machine thus provides the theoretical ceiling for all digital computation.\n\n**Historical significance:**\n\nTuring's 1936 paper, written when he was just 23, is one of the most important papers in the history of mathematics and computer science. It simultaneously defined computation, proved fundamental limits of what can be computed, and laid the conceptual groundwork for programmable digital computers - years before any such machine existed.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "history",
+        "foundations"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Universal Turing Machine",
+        "Abstract Machine"
+    ],
+    "relatedConcepts": [
+        "church-turing-thesis",
+        "thinking-machine",
+        "computational-thinking",
+        "artificial-intelligence",
+        "turing-test"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Alan Turing: The Enigma by Andrew Hodges",
+            "url": "https://www.amazon.com/dp/069116472X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Turing machine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Turing_machine",
+            "type": "website"
+        },
+        {
+            "title": "On Computable Numbers - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

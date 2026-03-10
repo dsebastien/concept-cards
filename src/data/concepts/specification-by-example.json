@@ -1,0 +1,63 @@
+{
+    "id": "specification-by-example",
+    "name": "Specification by Example",
+    "summary": "A collaborative approach to defining software requirements using concrete examples that serve as both living documentation and automated tests.",
+    "explanation": "Specification by Example (SBE) is a collaborative approach to software development where requirements, tests, and documentation are defined through concrete, real-world examples rather than abstract statements. These examples serve triple duty: they specify what the system should do, they form the basis of automated tests, and they become living documentation that stays synchronized with the code.\n\n**Core idea:**\n\nInstead of writing abstract requirements like \"the system should handle discounts correctly,\" SBE uses concrete examples:\n\n| Cart Total | Discount Type | Expected Total |\n|------------|--------------|----------------|\n| $100       | 10% off      | $90            |\n| $50        | $10 coupon   | $40            |\n| $30        | 10% off + $5 coupon | $22      |\n\nThese examples are unambiguous, testable, and immediately reveal edge cases (what about combining discounts? what if discount exceeds total?).\n\n**The SBE process:**\n\n1. **Derive scope from goals**: Start with business goals, not solution features\n2. **Specify collaboratively**: Business, development, and testing work together (Three Amigos) to define examples\n3. **Illustrate with examples**: Use concrete scenarios instead of abstract specifications\n4. **Refine the specification**: Remove ambiguity, add edge cases, simplify\n5. **Automate literally**: Turn examples directly into automated tests using BDD tools (Cucumber, SpecFlow, FitNesse)\n6. **Validate frequently**: Run automated examples as part of CI/CD to ensure the system matches the specification\n7. **Evolve living documentation**: As the system changes, update the examples to maintain a single source of truth\n\n**Key principles:**\n\n- **Examples over abstractions**: Concrete scenarios communicate more clearly than general statements\n- **Collaboration over handoffs**: Specifications emerge from conversation, not documents thrown over walls\n- **Living documentation over static docs**: Automated examples never go stale because failing tests catch discrepancies\n- **Just enough, just in time**: Specify in detail only what you are about to build\n\n**Benefits:**\n\n- Eliminates ambiguity in requirements\n- Catches misunderstandings before coding starts\n- Creates a regression test suite as a by-product of requirements definition\n- Documentation stays current automatically\n- Reduces the gap between what was specified and what was built\n\n**Relationship to BDD:**\n\nSBE and BDD are closely related. BDD provides the Given-When-Then format and tooling for automating examples. SBE provides the broader methodology for how to use examples to drive the entire development process. SBE is the \"what and why\"; BDD is often the \"how.\"",
+    "tags": [
+        "agile",
+        "requirements",
+        "testing",
+        "software-development",
+        "documentation"
+    ],
+    "category": "Techniques",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "SBE",
+        "Example-Driven Development",
+        "Executable Specifications"
+    ],
+    "relatedConcepts": [
+        "acceptance-criteria",
+        "behavior-driven-development",
+        "given-when-then",
+        "three-amigos",
+        "user-acceptance-testing",
+        "test-driven-development",
+        "user-stories",
+        "definition-of-ready"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Specification by Example by Gojko Adzic",
+            "url": "https://www.amazon.com/dp/1617290084?tag=dsebastien00-20"
+        },
+        {
+            "title": "Bridging the Communication Gap by Gojko Adzic",
+            "url": "https://www.amazon.com/dp/0955683610?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Specification by example - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Specification_by_example",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

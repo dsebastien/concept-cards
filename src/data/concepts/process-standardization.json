@@ -1,0 +1,44 @@
+{
+    "id": "process-standardization",
+    "name": "Process Standardization",
+    "summary": "The practice of establishing uniform methods and procedures for performing tasks to ensure consistency, quality, and efficiency across an organization.",
+    "explanation": "Process standardization is the practice of defining and implementing a single, agreed-upon way of performing a task or process. It establishes a common baseline that ensures consistency regardless of who performs the work, when, or where.\n\n**Why standardize processes:**\n\n- **Consistency**: Everyone follows the same steps, producing predictable, reliable results\n- **Quality**: Standardized processes reduce errors and variation, leading to higher-quality outputs\n- **Training efficiency**: New team members can learn from documented standards rather than relying on ad hoc mentoring\n- **Scalability**: Standardized processes can be replicated across teams, departments, and locations\n- **Measurement**: When everyone follows the same process, you can meaningfully compare performance and identify improvements\n- **Foundation for improvement**: You cannot improve a process that varies every time it is executed. Standardization creates the stable baseline needed for Kaizen\n\n**The standardization paradox:**\n\nStandardization sometimes appears to conflict with innovation and flexibility. The resolution lies in understanding that standardization establishes the current best known way of doing something. It is not permanent. When someone discovers a better way, the standard is updated and everyone benefits. As Taiichi Ohno (creator of the Toyota Production System) said: \"Without standards, there can be no improvement.\"\n\n**Levels of standardization:**\n\n- **Rigid standardization**: Every step must be followed exactly (appropriate for safety-critical or compliance processes)\n- **Flexible standardization**: Core steps are defined but practitioners can adapt to context (appropriate for knowledge work)\n- **Outcome standardization**: The desired result is defined but the method is left to the practitioner (appropriate for creative work)\n\n**Implementing standardization:**\n\n1. Identify processes that would benefit from standardization (high-frequency, high-impact, or high-risk processes)\n2. Document the current best practice by consulting the people who do the work\n3. Get consensus from stakeholders\n4. Create clear, accessible documentation (SOPs, checklists, templates)\n5. Train everyone on the standard\n6. Monitor compliance and gather feedback\n7. Regularly review and update standards\n\nThe key is choosing the right level of standardization for each context. Not everything needs to be standardized, and over-standardization can be as harmful as under-standardization.",
+    "tags": [
+        "processes",
+        "quality",
+        "operations",
+        "consistency",
+        "management"
+    ],
+    "category": "Principles",
+    "icon": "FaClipboardCheck",
+    "featured": false,
+    "aliases": [
+        "Standardized Work",
+        "Standard Work",
+        "Process Standards"
+    ],
+    "relatedConcepts": [
+        "standard-operating-procedure",
+        "kaizen",
+        "convention-over-configuration",
+        "process-optimization",
+        "benefits-of-documenting-processes",
+        "lean-manufacturing",
+        "total-quality-management",
+        "continuous-improvement"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Standardization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Standardization",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

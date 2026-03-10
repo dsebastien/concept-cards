@@ -1,0 +1,88 @@
+{
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "summary": "The field of computer science focused on creating systems that can perform tasks requiring human-like intelligence, learning, and reasoning.",
+    "explanation": "Artificial Intelligence (AI) is the branch of computer science that aims to build systems capable of performing tasks that typically require human intelligence. These tasks include understanding natural language, recognizing patterns, making decisions, learning from experience, and solving complex problems.\n\n**History and origins:**\n\nThe field was formally founded at the Dartmouth Conference in 1956, where John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon proposed that \"every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.\" This optimistic vision launched decades of research through several cycles of progress and setbacks known as \"AI winters.\"\n\n**Major approaches:**\n\n- **Symbolic AI**: Represents knowledge using symbols and rules. Dominated the field from the 1950s to 1980s, producing expert systems and logic-based reasoning\n- **Machine learning**: Systems learn patterns from data rather than following explicit rules. Includes supervised learning, unsupervised learning, and reinforcement learning\n- **Deep learning**: Uses artificial neural networks with many layers to learn hierarchical representations. Powers modern breakthroughs in image recognition, natural language processing, and game playing\n- **Hybrid approaches**: Combine symbolic reasoning with statistical learning for more robust systems\n\n**Types of AI:**\n\n- **Narrow AI (ANI)**: Systems designed for specific tasks (image recognition, language translation, chess). All current AI is narrow AI\n- **General AI (AGI)**: Hypothetical systems with human-level ability across all cognitive tasks\n- **Superintelligence (ASI)**: Hypothetical AI that surpasses human intelligence in all domains\n\n**Key milestones:**\n\n- 1956: Dartmouth Conference formally establishes AI as a field\n- 1966: ELIZA, an early natural language processing program\n- 1997: IBM's Deep Blue defeats world chess champion Garry Kasparov\n- 2011: IBM Watson wins Jeopardy!\n- 2016: DeepMind's AlphaGo defeats world Go champion Lee Sedol\n- 2017: The Transformer architecture is introduced, enabling modern LLMs\n- 2022+: Large language models demonstrate broad reasoning capabilities\n\n**AI in knowledge work:**\n\nAI is transforming how we manage knowledge, create content, make decisions, and solve problems. AI assistants help with writing, research, coding, and analysis. The relationship between AI and human intelligence is increasingly seen as complementary - intelligence amplification rather than replacement.",
+    "tags": [
+        "ai",
+        "technology",
+        "computer-science",
+        "history",
+        "machine-learning"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "AI",
+        "Machine Intelligence"
+    ],
+    "relatedConcepts": [
+        "thinking-machine",
+        "machine-learning",
+        "deep-learning",
+        "artificial-general-intelligence",
+        "natural-language-processing",
+        "symbolic-ai",
+        "connectionism",
+        "artificial-neural-network",
+        "expert-system",
+        "turing-test",
+        "chinese-room-argument",
+        "intelligence-amplification",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig",
+            "url": "https://www.amazon.com/dp/0134610997?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "History of artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

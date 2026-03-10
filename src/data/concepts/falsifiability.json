@@ -1,0 +1,69 @@
+{
+    "id": "falsifiability",
+    "name": "Falsifiability",
+    "summary": "Karl Popper's criterion that a theory is scientific only if it makes predictions that can potentially be proven wrong by observation or experiment.",
+    "explanation": "Falsifiability is a demarcation criterion proposed by philosopher Karl Popper in 'The Logic of Scientific Discovery' (1934). A statement or theory is falsifiable if there exists a possible observation or experiment that could show it to be false. Falsifiability doesn't mean a theory is false—it means it's testable. Popper argued this is what distinguishes science from pseudoscience.\n\nPopper developed this criterion partly in response to theories he considered unfalsifiable—particularly Freudian psychoanalysis and Marxist historical theory. These systems could explain any observation after the fact but made no predictions that could potentially refute them. By contrast, Einstein's general relativity made specific, risky predictions (like the bending of light by gravity) that could have been proven wrong but were spectacularly confirmed.\n\nThe key insight is asymmetry between verification and falsification. No number of white swans proves the statement 'all swans are white,' but a single black swan refutes it. This means scientific knowledge advances not by confirming theories but by failing to falsify them. Theories that survive increasingly severe tests earn greater confidence, but never certainty.\n\nFalsifiability has practical applications beyond academic science. In business, a hypothesis like 'customers will pay $50 for this feature' is falsifiable and therefore testable. 'Our product is great' is not falsifiable and therefore not useful for decision-making. Lean Startup methodology, hypothesis-driven development, and A/B testing all implicitly rely on Popper's insight: frame your beliefs as testable predictions, then try to prove yourself wrong. The willingness to seek disconfirming evidence rather than confirmation is what separates rigorous thinking from self-deception.",
+    "tags": [
+        "philosophy",
+        "epistemology",
+        "science",
+        "thinking",
+        "critical-thinking"
+    ],
+    "category": "Philosophy & Wisdom",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Falsification",
+        "Popper's Criterion",
+        "Demarcation Criterion"
+    ],
+    "relatedConcepts": [
+        "epistemology",
+        "scientific-method",
+        "empiricism",
+        "skepticism",
+        "scientific-fallibilism",
+        "hypothesis-driven-development",
+        "confirmation-bias",
+        "lean-startup"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Logic of Scientific Discovery by Karl Popper",
+            "url": "https://www.amazon.com/dp/0415278449?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Falsifiability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Falsifiability",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

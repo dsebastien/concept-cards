@@ -1,0 +1,41 @@
+{
+    "id": "observer-effect",
+    "name": "Observer Effect",
+    "summary": "The phenomenon where the act of observing or measuring a system inevitably disturbs or alters it, fundamental in both physics and social sciences.",
+    "explanation": "The observer effect refers to the fact that the act of observation or measurement changes the system being observed. While the concept has its most precise formulation in quantum mechanics, it applies broadly across physics, social sciences, and everyday life.\n\n**In quantum mechanics:**\n\nAt the quantum scale, observation is not passive. To \"see\" a particle, you must interact with it - typically by bouncing photons off it. These interactions transfer energy and momentum, disturbing the particle's state. More fundamentally, quantum mechanics suggests that certain properties simply do not have definite values until measured. The double-slit experiment is the iconic demonstration: observing which slit a particle passes through destroys the interference pattern, fundamentally changing the outcome.\n\nThis is distinct from the uncertainty principle (which concerns limits on simultaneous knowledge of complementary properties) and from the measurement problem (which concerns what constitutes a \"measurement\").\n\n**In physics more broadly:**\n\n- **Thermodynamics**: Measuring temperature requires thermal contact, which exchanges heat and slightly changes the temperature\n- **Electronics**: A voltmeter draws current, slightly changing the voltage it measures\n- **Astronomy**: Even observing distant stars absorbs photons that otherwise would continue traveling\n\n**In social sciences:**\n\n- **Hawthorne effect**: Workers change behavior when they know they are being observed\n- **Reactivity**: Research participants alter their behavior in response to being studied\n- **Surveillance**: People behave differently when they know they are watched\n- **Anthropology**: The presence of an observer changes the culture being studied\n\n**In everyday life:**\n\n- Checking tire pressure releases a small amount of air\n- Asking someone if they are happy makes them reflect and potentially changes their emotional state\n- Monitoring a process changes how people execute it\n\n**Key distinctions:**\n\n- **Observer effect vs. observer bias**: The observer effect is about the measurement physically disturbing the system. Observer bias is about the observer's expectations distorting their interpretation of results\n- **Observer effect vs. uncertainty principle**: The uncertainty principle is a fundamental limit on knowledge, not just a measurement disturbance. Even a perfect measurement cannot overcome it\n\n**Philosophical implications:**\n\nThe observer effect raises profound questions about objectivity. If every observation changes what is observed, can we ever know the \"true\" state of a system? In quantum mechanics, many physicists conclude that the question is meaningless - there is no \"true state\" independent of measurement. This has far-reaching implications for our understanding of reality, knowledge, and the relationship between mind and matter.",
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "philosophy",
+        "measurement"
+    ],
+    "category": "Concepts",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Measurement Effect",
+        "Observer Disturbance"
+    ],
+    "relatedConcepts": [
+        "quantum-mechanics",
+        "double-slit-experiment",
+        "quantum-superposition",
+        "uncertainty-principle",
+        "observer-expectancy-effect",
+        "wave-particle-duality"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Observer effect (physics) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Observer_effect_(physics)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

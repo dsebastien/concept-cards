@@ -1,0 +1,45 @@
+{
+    "id": "process-mapping",
+    "name": "Process Mapping",
+    "summary": "A visual representation technique that documents the steps, inputs, outputs, and decision points within a workflow or business process.",
+    "explanation": "Process mapping is the technique of creating a visual diagram that shows the steps, sequence, and flow of a process from start to finish. It makes explicit what is often implicit, turning complex workflows into clear, understandable representations that anyone can follow.\n\n**Common types of process maps:**\n\n- **Flowcharts**: The most basic form, showing sequential steps with decision points\n- **Swimlane diagrams**: Organize steps by role or department, clarifying who does what\n- **Value stream maps**: Focus on value-adding vs. non-value-adding steps (from Lean manufacturing)\n- **SIPOC diagrams**: Map Suppliers, Inputs, Process, Outputs, and Customers at a high level\n- **BPMN diagrams**: Use standardized Business Process Model and Notation for formal documentation\n\n**Why process mapping matters:**\n\n- **Reveals inefficiencies**: Visualizing a process often exposes redundant steps, bottlenecks, and unnecessary handoffs that are invisible in day-to-day work\n- **Enables improvement**: You cannot improve what you cannot see. A map provides the baseline for optimization\n- **Facilitates communication**: A visual diagram communicates process flow far more effectively than written descriptions\n- **Supports onboarding**: New team members can quickly understand how work flows through the organization\n- **Drives standardization**: Mapping exposes variations in how different people perform the same process\n\n**How to create a process map:**\n\n1. Define the process boundaries (start and end points)\n2. Identify all steps and decision points\n3. Document inputs and outputs for each step\n4. Note who is responsible for each step\n5. Validate with people who actually perform the process\n6. Identify pain points, delays, and improvement opportunities\n\nProcess mapping is a prerequisite for effective process improvement. Whether applying Lean, Six Sigma, or any other improvement methodology, you first need to understand the current state before designing the future state.",
+    "tags": [
+        "processes",
+        "documentation",
+        "visualization",
+        "improvement",
+        "operations"
+    ],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Process Map",
+        "Workflow Mapping",
+        "Process Flowchart",
+        "Business Process Mapping"
+    ],
+    "relatedConcepts": [
+        "standard-operating-procedure",
+        "business-process-management",
+        "process-optimization",
+        "lean-manufacturing",
+        "six-sigma",
+        "value-stream-mapping",
+        "benefits-of-documenting-processes",
+        "muda"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Business process mapping - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Business_process_mapping",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

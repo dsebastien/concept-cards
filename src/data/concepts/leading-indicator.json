@@ -1,0 +1,63 @@
+{
+    "id": "leading-indicator",
+    "name": "Leading Indicator",
+    "summary": "A measurable factor that changes before the broader system follows, enabling prediction and proactive response.",
+    "explanation": "A Leading Indicator is a metric or signal that changes direction ahead of a larger trend, providing advance warning of what's coming. In contrast, lagging indicators confirm what has already happened—they tell you where you've been, not where you're going. The distinction is critical for anyone trying to steer rather than merely report.\n\nIn economics, classic leading indicators include: new building permits (predict construction activity), stock market performance (anticipates economic expansion or contraction), consumer confidence surveys (predict spending behavior), and initial jobless claims (signal labor market shifts). These are formally tracked by organizations like the Conference Board, which publishes a composite Leading Economic Index.\n\nThe concept extends far beyond economics. In software development, code complexity metrics and technical debt measurements are leading indicators of future bugs and delivery slowdowns. In health, biomarkers like blood pressure and cholesterol are leading indicators of cardiovascular events. In business, customer satisfaction scores and employee engagement are leading indicators of revenue and retention. In personal productivity, the quality of your planning and review processes is a leading indicator of output quality.\n\nThe challenge with leading indicators is that they are probabilistic, not deterministic—they increase the likelihood of a prediction being correct but don't guarantee it. They also require calibration: a signal that led economic downturns in the past may not work in a structurally different economy. The most valuable leading indicators are those that are causally connected to the outcome (not just correlated), actionable (you can respond to them), and timely (they give you enough lead time to act). Organizations that identify and monitor the right leading indicators gain a significant strategic advantage—they see what's coming while others are still looking at lagging data.",
+    "tags": [
+        "strategies",
+        "decision-making",
+        "data",
+        "foresight",
+        "metrics"
+    ],
+    "category": "Frameworks",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Leading Metric",
+        "Predictive Indicator",
+        "Forward-Looking Indicator"
+    ],
+    "relatedConcepts": [
+        "weak-signals",
+        "environmental-scanning",
+        "pattern-recognition",
+        "feedback-loop",
+        "signal-to-noise-ratio",
+        "strategic-thinking",
+        "scenario-planning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Economic indicator - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Economic_indicator",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

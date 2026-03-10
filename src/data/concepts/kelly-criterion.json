@@ -1,0 +1,69 @@
+{
+    "id": "kelly-criterion",
+    "name": "Kelly Criterion",
+    "summary": "A formula for determining the optimal bet size to maximize long-term compound growth while avoiding ruin.",
+    "explanation": "The Kelly Criterion, developed by John Larry Kelly Jr. at Bell Labs in 1956, is a formula that determines the optimal fraction of capital to wager or invest in a favorable opportunity. The basic formula is f* = (bp - q) / b, where f* is the fraction of bankroll to bet, b is the odds received, p is the probability of winning, and q is the probability of losing (1 - p).\n\nThe key insight of the Kelly Criterion is that it maximizes the expected logarithm of wealth, which corresponds to maximizing long-term compound growth rate. Betting more than the Kelly amount increases risk of ruin without proportionally increasing long-term returns. Betting less than Kelly is safer but grows capital more slowly. Betting exactly Kelly optimizes the tradeoff between growth and risk.\n\nIn practice, most sophisticated investors and gamblers use 'fractional Kelly'—typically half-Kelly or quarter-Kelly—because the formula assumes perfect knowledge of probabilities and payoffs, which rarely exists. Overestimating your edge and betting full Kelly with wrong inputs can lead to catastrophic losses. Warren Buffett's concentrated investing approach implicitly reflects Kelly-like thinking: bet big when odds strongly favor you, bet small or not at all otherwise.\n\nThe Kelly Criterion connects deeply to information theory—Kelly originally framed it as maximizing the growth rate of wealth in a repeated game with an information advantage. It demonstrates that even with a positive expected value, improper position sizing can lead to ruin. This makes it essential for anyone making repeated decisions under uncertainty: investors, poker players, entrepreneurs allocating resources, and anyone managing a portfolio of bets.",
+    "tags": [
+        "decision-making",
+        "investing",
+        "probabilities",
+        "risk-management",
+        "strategies",
+        "mental-models"
+    ],
+    "category": "Decision Science",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Kelly Formula",
+        "Kelly Bet",
+        "Optimal Bet Sizing"
+    ],
+    "relatedConcepts": [
+        "expected-value",
+        "ergodicity",
+        "asymmetric-upside",
+        "margin-of-safety",
+        "risk-reward-tradeoff",
+        "law-of-large-numbers",
+        "probabilistic-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Fortune's Formula by William Poundstone",
+            "url": "https://www.amazon.com/dp/0809045990?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Kelly criterion - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kelly_criterion",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

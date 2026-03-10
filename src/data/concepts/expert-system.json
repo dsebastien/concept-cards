@@ -1,0 +1,90 @@
+{
+    "id": "expert-system",
+    "name": "Expert System",
+    "summary": "A computer system that emulates the decision-making ability of a human expert by using a knowledge base and inference rules.",
+    "explanation": "An expert system is a computer program designed to solve complex problems within a specific domain by emulating the reasoning of a human expert. It was one of the first commercially successful forms of artificial intelligence, widely adopted in the 1980s.\n\n**Architecture:**\n\n- **Knowledge base**: A structured repository of domain-specific facts, rules, and heuristics, typically expressed as IF-THEN rules (e.g., \"IF the patient has fever AND cough THEN consider pneumonia\")\n- **Inference engine**: The reasoning mechanism that applies rules to known facts to derive new conclusions. Can work forward (from facts to conclusions) or backward (from a hypothesis back to supporting evidence)\n- **User interface**: Allows users to input information and receive recommendations\n- **Explanation facility**: Crucially, expert systems can explain their reasoning, showing which rules fired and why - a feature modern AI often lacks\n\n**Notable examples:**\n\n- **MYCIN (1976)**: Diagnosed bacterial infections; performed as well as human specialists\n- **DENDRAL (1965)**: Identified chemical compounds from mass spectrometry data\n- **XCON/R1 (1980)**: Configured DEC VAX computer systems; saved the company $40M/year\n- **PROSPECTOR (1983)**: Predicted mineral deposit locations; discovered a molybdenum deposit worth $100M\n\n**Rise and fall:**\n\nExpert systems boomed in the 1980s as businesses saw their commercial potential. However, they suffered from the knowledge acquisition bottleneck (extracting expertise from humans is slow and expensive), brittleness (they fail ungracefully on cases outside their rules), and maintenance burden (rules must be manually updated as knowledge evolves). The expert systems bust of the late 1980s contributed to the second AI winter.\n\n**Legacy:**\n\nDespite their decline as standalone systems, expert systems' ideas persist. Business rules engines, clinical decision support systems, and recommendation systems all descend from expert system concepts. The emphasis on explainability anticipates modern concerns about AI transparency. Expert systems demonstrated that encoding domain knowledge computationally is both valuable and hard - a lesson that remains relevant in the age of machine learning.",
+    "tags": [
+        "ai",
+        "history",
+        "knowledge-representation",
+        "decision-making",
+        "technology"
+    ],
+    "category": "AI",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Knowledge-Based System",
+        "Rule-Based Expert System"
+    ],
+    "relatedConcepts": [
+        "artificial-intelligence",
+        "symbolic-ai",
+        "thinking-machine",
+        "decision-tree",
+        "knowledge-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Expert system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Expert_system",
+            "type": "website"
+        },
+        {
+            "title": "MYCIN - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mycin",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

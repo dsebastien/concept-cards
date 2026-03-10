@@ -1,0 +1,49 @@
+{
+    "id": "entity-relationship-model",
+    "name": "Entity-Relationship Model",
+    "summary": "A data modeling technique that describes entities, their attributes, and the relationships between them using diagrams.",
+    "explanation": "The Entity-Relationship (ER) Model is a conceptual data modeling framework introduced by Peter Chen in 1976. It provides a visual and logical way to describe the structure of a database or information system by identifying the key entities (things), their attributes (properties), and the relationships (connections) between them.\n\nThe core components are straightforward. Entities represent real-world objects or concepts—a Customer, an Order, a Product. Attributes describe properties of entities—a Customer has a Name, Email, and Address. Relationships define how entities connect—a Customer 'places' an Order, an Order 'contains' Products. Relationships have cardinality (one-to-one, one-to-many, many-to-many) that constrains how entities can be related.\n\nER diagrams (ERDs) visualize these components using standardized notation: rectangles for entities, ovals for attributes, diamonds for relationships, and lines showing cardinality. This visual representation bridges the gap between business stakeholders (who think in terms of real-world concepts) and database designers (who think in terms of tables and constraints). An ER model serves as a blueprint that can be translated into a physical database schema.\n\nBeyond database design, ER modeling is a valuable thinking tool for understanding any domain. When you model a problem as entities and relationships, you're forced to identify what the key 'things' are, what properties matter, and how they connect—essentially creating an ontology of the problem space. This discipline applies to knowledge management (notes as entities, links as relationships), software architecture (domain-driven design), and business analysis (understanding organizational structures and processes).",
+    "tags": [
+        "data",
+        "software-development",
+        "modeling",
+        "databases",
+        "information-architecture"
+    ],
+    "category": "Frameworks",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "ER Model",
+        "ER Diagram",
+        "ERD",
+        "Entity-Relationship Diagram"
+    ],
+    "relatedConcepts": [
+        "domain-model",
+        "ontology-knowledge-management",
+        "knowledge-graph",
+        "graph-database",
+        "schema",
+        "taxonomy",
+        "concept-maps"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Entity–relationship model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

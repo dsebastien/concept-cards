@@ -1,0 +1,80 @@
+{
+    "id": "process-optimization",
+    "name": "Process Optimization",
+    "summary": "The practice of improving existing processes to increase efficiency, reduce waste, and enhance quality of outcomes.",
+    "explanation": "Process optimization is the discipline of analyzing and improving existing processes to make them more efficient, effective, and aligned with desired outcomes. It goes beyond simply documenting how things are done, focusing instead on how they could be done better.\n\n**The optimization cycle:**\n\n1. **Measure current state**: Establish baseline metrics. You cannot improve what you do not measure. Key metrics include cycle time, error rate, throughput, cost per unit, and customer satisfaction\n2. **Identify bottlenecks**: Find the constraints that limit overall throughput. Often, a small number of steps account for most of the delay or waste\n3. **Analyze root causes**: Use techniques like the 5 Whys, fishbone diagrams, or Pareto analysis to understand why problems exist\n4. **Design improvements**: Develop solutions targeting root causes. Options include eliminating steps, parallelizing tasks, automating repetitive work, reducing handoffs, and simplifying decision points\n5. **Implement and validate**: Make changes incrementally, measure results, and adjust\n\n**Common optimization strategies:**\n\n- **Eliminate waste (muda)**: Remove steps that do not add value from the customer's perspective\n- **Reduce variation**: Standardize processes to achieve consistent, predictable outcomes\n- **Automate repetitive tasks**: Free human effort for work that requires judgment and creativity\n- **Reduce handoffs**: Each handoff introduces delay, information loss, and potential errors\n- **Parallelize**: Identify steps that can occur simultaneously rather than sequentially\n- **Simplify**: Reduce complexity wherever possible. Simpler processes are easier to execute, monitor, and improve\n\n**Pitfalls to avoid:**\n\n- **Optimizing the wrong thing**: Make sure you are improving a process that matters, not polishing something irrelevant\n- **Local optimization**: Improving one step while making the overall process worse\n- **Automating a broken process**: Fix the process first, then automate\n- **Over-optimization**: There are diminishing returns. Know when a process is good enough\n\nProcess optimization draws on principles from Lean (waste elimination), Six Sigma (variation reduction), Theory of Constraints (bottleneck management), and systems thinking (understanding interconnections).",
+    "tags": [
+        "processes",
+        "improvement",
+        "efficiencies",
+        "operations",
+        "productivity"
+    ],
+    "category": "Techniques",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Process Improvement",
+        "Workflow Optimization"
+    ],
+    "relatedConcepts": [
+        "standard-operating-procedure",
+        "process-mapping",
+        "business-process-management",
+        "kaizen",
+        "lean-manufacturing",
+        "six-sigma",
+        "muda",
+        "automating-processes",
+        "theory-of-constraints",
+        "continuous-improvement"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Process optimization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Process_optimization",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

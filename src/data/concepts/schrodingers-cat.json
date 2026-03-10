@@ -1,0 +1,43 @@
+{
+    "id": "schrodingers-cat",
+    "name": "Schrodinger's Cat",
+    "summary": "A thought experiment illustrating the paradox of quantum superposition when applied to everyday objects: a cat in a sealed box is simultaneously alive and dead until observed.",
+    "explanation": "Schrodinger's Cat is a famous thought experiment devised by Austrian physicist Erwin Schrodinger in 1935 to illustrate what he saw as the absurdity of the Copenhagen interpretation of quantum mechanics when applied to macroscopic objects.\n\n**The thought experiment:**\n\nA cat is placed in a sealed box with:\n\n1. A radioactive atom that has a 50% chance of decaying within one hour\n2. A Geiger counter connected to a mechanism\n3. A vial of poison\n\nIf the atom decays, the Geiger counter triggers the mechanism, breaking the vial and killing the cat. If the atom does not decay, the cat lives.\n\nAccording to the Copenhagen interpretation of quantum mechanics, the radioactive atom is in a superposition of \"decayed\" and \"not decayed\" until observed. Since the cat's fate is entangled with the atom's state, the cat must also be in a superposition - simultaneously alive and dead - until someone opens the box and observes it.\n\n**Schrodinger's intent:**\n\nContrary to popular belief, Schrodinger did NOT propose this as a genuine description of reality. He presented it as a reductio ad absurdum - a demonstration that something was wrong or incomplete about the Copenhagen interpretation. If quantum superposition applies to atoms, and atoms determine the fate of cats, then quantum mechanics seems to predict absurd macroscopic superpositions.\n\n**Resolutions:**\n\n- **Copenhagen interpretation**: The cat is indeed in superposition until observed. \"Observation\" collapses the wave function. But what counts as an observation? This remains debated\n- **Many-worlds interpretation**: The universe branches at the quantum event. In one branch the cat lives, in another it dies. Both are equally real\n- **Decoherence**: Interaction with the environment (air molecules, photons, the box itself) causes the quantum superposition to effectively collapse almost instantly at macroscopic scales. The cat is never actually in superposition because decoherence happens too fast\n- **Objective collapse theories**: The wave function physically collapses at some threshold of mass or complexity, preventing macroscopic superpositions\n\n**Cultural impact:**\n\nSchrodinger's Cat has become one of the most recognizable scientific thought experiments in popular culture. It is frequently referenced in discussions of quantum mechanics, philosophy of science, and as a metaphor for situations where two contradictory states coexist. While the metaphor is appealing, it is important to remember that it was originally designed as a critique, not as a description of how the world works.\n\n**Beyond metaphor:**\n\nModern experiments have placed increasingly large objects in quantum superposition - molecules of thousands of atoms, vibrating mechanical resonators, and even small visible objects. The question of where quantum behavior ends and classical behavior begins (the quantum-classical boundary) remains one of the most active areas of physics research.",
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "thought-experiments",
+        "philosophy"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Schrodinger Cat",
+        "Schroedinger's Cat",
+        "Cat Paradox"
+    ],
+    "relatedConcepts": [
+        "quantum-mechanics",
+        "quantum-superposition",
+        "double-slit-experiment",
+        "observer-effect",
+        "uncertainty-principle",
+        "quantum-entanglement",
+        "wave-particle-duality"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Schrodinger's cat - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

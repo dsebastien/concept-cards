@@ -1,0 +1,57 @@
+{
+    "id": "quantum-mechanics",
+    "name": "Quantum Mechanics",
+    "summary": "The fundamental theory of physics describing nature at the atomic and subatomic scale through wave functions, probability, and quantized energy.",
+    "explanation": "Quantum mechanics is the branch of physics that describes the behavior of matter and energy at the smallest scales - atoms, electrons, photons, and subatomic particles. It is one of the most successful and precisely tested scientific theories ever developed, yet its implications challenge our everyday intuitions about reality.\n\n**Core principles:**\n\n- **Quantization**: Energy, angular momentum, and other properties come in discrete units (quanta), not continuous amounts. Max Planck discovered this in 1900 when explaining black-body radiation\n- **Wave-particle duality**: Quantum entities exhibit both wave-like and particle-like behavior. Which aspect manifests depends on how they are observed\n- **Superposition**: A quantum system can exist in multiple states simultaneously until measured. The double-slit experiment dramatically demonstrates this\n- **Uncertainty principle**: Certain pairs of properties (like position and momentum) cannot both be precisely known at the same time - not due to measurement limitations, but as a fundamental feature of nature\n- **Entanglement**: Particles can become correlated so that measuring one instantly determines properties of the other, regardless of the distance between them\n- **Probability**: Quantum mechanics predicts probabilities of outcomes, not definite results. The wave function encodes these probabilities\n\n**Historical development:**\n\n- **1900**: Planck introduces energy quanta\n- **1905**: Einstein explains the photoelectric effect using photons\n- **1913**: Bohr proposes the quantized atom model\n- **1924**: De Broglie proposes matter waves\n- **1925-26**: Heisenberg (matrix mechanics) and Schrodinger (wave equation) independently formulate quantum mechanics\n- **1927**: Heisenberg's uncertainty principle; Solvay Conference debates interpretation\n- **1935**: Einstein-Podolsky-Rosen paradox and Schrodinger's cat thought experiment\n- **1964**: Bell's theorem provides a way to test quantum entanglement experimentally\n- **1982**: Aspect's experiments confirm quantum entanglement violates classical expectations\n\n**Interpretations:**\n\nQuantum mechanics tells us what happens but not why, leading to competing interpretations:\n\n- **Copenhagen interpretation**: The wave function collapses upon measurement; quantum properties are undefined until observed\n- **Many-worlds**: Every quantum measurement splits reality into branches, with all outcomes realized\n- **Pilot wave (Bohmian)**: Particles have definite positions guided by a physical wave\n- **QBism**: Quantum probabilities represent an agent's beliefs, not objective states\n\n**Why it matters beyond physics:**\n\n- **Technology**: Transistors, lasers, MRI machines, LEDs, and nuclear energy all depend on quantum mechanics. It underpins all modern electronics\n- **Computing**: Quantum computers exploit superposition and entanglement to solve certain problems exponentially faster than classical computers\n- **Philosophy**: Raises deep questions about the nature of reality, measurement, determinism, and the role of observers\n- **Metaphor**: Concepts like superposition, entanglement, and observer effects have become powerful metaphors in other fields, though they should be used with care to avoid pseudoscientific misapplication",
+    "tags": [
+        "physics",
+        "science",
+        "quantum-mechanics",
+        "foundations",
+        "history"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Quantum Physics",
+        "Quantum Theory",
+        "QM"
+    ],
+    "relatedConcepts": [
+        "double-slit-experiment",
+        "wave-particle-duality",
+        "quantum-superposition",
+        "uncertainty-principle",
+        "quantum-entanglement",
+        "schrodingers-cat",
+        "observer-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "QED: The Strange Theory of Light and Matter by Richard P. Feynman",
+            "url": "https://www.amazon.com/dp/0691164096?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Feynman Lectures on Physics by Richard P. Feynman",
+            "url": "https://www.amazon.com/dp/0465025629?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Quantum mechanics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+            "type": "website"
+        },
+        {
+            "title": "Introduction to quantum mechanics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Introduction_to_quantum_mechanics",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

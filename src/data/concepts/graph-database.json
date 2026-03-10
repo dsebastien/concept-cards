@@ -1,0 +1,92 @@
+{
+    "id": "graph-database",
+    "name": "Graph Database",
+    "summary": "A database that uses graph structures with nodes, edges, and properties to store, map, and query relationships between data.",
+    "explanation": "A Graph Database is a type of database that uses graph theory to store, organize, and query data. Instead of tables and rows (relational databases) or documents (document databases), graph databases represent information as nodes (entities), edges (relationships between entities), and properties (attributes of nodes and edges). This makes them exceptionally efficient at traversing and querying complex, interconnected data.\n\nThe key advantage of graph databases emerges when relationships are central to your data model. In a relational database, finding 'friends of friends of friends' requires expensive join operations that scale poorly. In a graph database, this is a simple traversal that performs consistently regardless of total data size—you only touch the relevant portion of the graph. This property makes graph databases ideal for social networks, recommendation engines, fraud detection, network analysis, and knowledge graphs.\n\nPopular graph databases include Neo4j (the most widely adopted, using the Cypher query language), Amazon Neptune, ArangoDB, and JanusGraph. Some databases support the Property Graph model (nodes and edges with key-value properties) while others support RDF (the Semantic Web standard using subject-predicate-object triples). The choice depends on whether you need flexible, application-focused data modeling (property graphs) or standards-based interoperability and reasoning (RDF).\n\nGraph databases have become critical infrastructure for AI and knowledge management. Knowledge graphs at Google, Microsoft, and Amazon are backed by graph databases. Retrieval-Augmented Generation (RAG) systems increasingly use graph-based retrieval alongside vector search for more structured, relationship-aware information retrieval. For personal knowledge management, tools like Obsidian and Roam are essentially lightweight graph databases where notes are nodes and links are edges.",
+    "tags": [
+        "data",
+        "technology",
+        "software-development",
+        "knowledge-management",
+        "databases"
+    ],
+    "category": "Tools",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Graph DB",
+        "Network Database"
+    ],
+    "relatedConcepts": [
+        "knowledge-graph",
+        "semantic-web",
+        "linked-data",
+        "ontology-knowledge-management",
+        "entity-relationship-model",
+        "semantic-search",
+        "retrieval-augmented-generation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Graph Databases by Ian Robinson, Jim Webber, and Emil Eifrem",
+            "url": "https://www.amazon.com/dp/1491930896?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Graph database - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Graph_database",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

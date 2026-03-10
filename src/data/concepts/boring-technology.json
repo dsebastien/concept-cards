@@ -1,0 +1,71 @@
+{
+    "id": "boring-technology",
+    "name": "Boring Technology",
+    "summary": "The principle of choosing well-understood, proven technologies over novel ones to reduce operational risk and preserve innovation capacity for what truly matters.",
+    "explanation": "Boring Technology is a software engineering philosophy articulated by Dan McKinley in his influential 2015 talk 'Choose Boring Technology.' The core argument is that every company has a limited capacity for complexity and novelty—what McKinley calls 'innovation tokens'—and should spend them on solving problems that genuinely differentiate the business, not on infrastructure choices.\n\nThe reasoning is practical. Well-understood technologies like PostgreSQL, Python, or Linux have known failure modes, extensive documentation, large talent pools, and battle-tested operational tooling. Novel technologies may offer theoretical advantages but come with unknown failure modes, smaller communities, immature tooling, and a steep learning curve. When something goes wrong at 3 AM, you want problems that have been encountered and solved thousands of times before.\n\nThis doesn't mean never adopting new technology. It means being deliberate about where you spend your innovation budget. If your competitive advantage depends on a specific capability that only a new technology provides, that's a valid use of an innovation token. But if you're choosing MongoDB over PostgreSQL because it's trendy, or rewriting a working system in Rust because it's exciting, you're burning innovation capacity on decisions that don't move the business forward.\n\nThe principle connects to broader engineering wisdom about simplicity, maintainability, and total cost of ownership. Every technology choice has hidden costs: hiring, training, debugging, monitoring, and maintaining expertise over years. Boring technologies minimize these hidden costs, freeing teams to focus energy on the problems that actually matter to their users and business.",
+    "tags": [
+        "software-development",
+        "strategies",
+        "engineering",
+        "decision-making",
+        "simplicity"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Choose Boring Technology"
+    ],
+    "relatedConcepts": [
+        "innovation-tokens",
+        "shiny-object-syndrome",
+        "tool-fatigue",
+        "technical-debt",
+        "yagni",
+        "kiss-principle",
+        "lindy-effect",
+        "resume-driven-development",
+        "premature-optimization",
+        "second-system-effect",
+        "hype-cycle",
+        "chestertons-fence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Choose Boring Technology - Dan McKinley",
+            "url": "https://mcfunley.com/choose-boring-technology",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

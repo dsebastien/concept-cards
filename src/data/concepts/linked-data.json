@@ -1,0 +1,83 @@
+{
+    "id": "linked-data",
+    "name": "Linked Data",
+    "summary": "A method of publishing structured data on the web so it can be interlinked, discovered, and queried across sources using standard protocols.",
+    "explanation": "Linked Data is a set of best practices for publishing and connecting structured data on the web, formulated by Tim Berners-Lee in 2006. It operationalizes the Semantic Web vision by providing practical guidelines for making data web-accessible and machine-readable while connecting it to other datasets.\n\nBerners-Lee defined four principles: use URIs to name things, use HTTP URIs so people can look those names up, provide useful information in standard formats (RDF, SPARQL) when someone looks up a URI, and include links to other URIs so people can discover more things. These principles create a web of data analogous to the web of documents—but instead of following links between pages, you follow links between data points.\n\nThe Linked Open Data (LOD) cloud has grown to encompass thousands of interconnected datasets containing billions of triples. DBpedia extracts structured data from Wikipedia. Wikidata serves as a central hub of open knowledge. Government open data initiatives, scientific databases, library catalogs, and geographic databases are all part of this ecosystem. The practical impact is enormous: Google's Knowledge Panel, Siri's answers, and many AI training datasets draw on linked data.\n\nFor knowledge workers, linked data principles translate into personal practice. The concept of giving every idea a unique identifier, making explicit connections between ideas, and using standardized formats echoes in tools like Obsidian (with unique note names and bidirectional links), Notion (with relation properties), and Roam Research (with block references). The insight that knowledge becomes exponentially more valuable when explicitly connected is as true for personal knowledge as for the web at large.",
+    "tags": [
+        "knowledge-management",
+        "data",
+        "standards",
+        "information-architecture",
+        "technology"
+    ],
+    "category": "Systems",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "LOD",
+        "Linked Open Data",
+        "Web of Data"
+    ],
+    "relatedConcepts": [
+        "semantic-web",
+        "knowledge-graph",
+        "ontology-knowledge-management",
+        "metadata",
+        "linked-thinking",
+        "networked-thought",
+        "graph-database"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Linked data - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Linked_data",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,85 @@
+{
+    "id": "symbolic-ai",
+    "name": "Symbolic AI",
+    "summary": "An approach to artificial intelligence based on manipulating human-readable symbols and explicit rules to represent knowledge and solve problems.",
+    "explanation": "Symbolic AI, also known as Good Old-Fashioned AI (GOFAI), is an approach to artificial intelligence that represents knowledge using human-readable symbols (words, numbers, logical expressions) and manipulates them according to explicit rules. It was the dominant paradigm in AI from the field's founding in the 1950s through the 1980s.\n\n**Core ideas:**\n\n- **Physical Symbol System Hypothesis**: Proposed by Allen Newell and Herbert Simon in 1976, this states that a physical system has the necessary and sufficient means for general intelligent action if it can create, modify, and manipulate symbols. In other words, intelligence is fundamentally symbol manipulation\n- **Knowledge representation**: The world is represented using formal structures such as logical propositions, semantic networks, frames, and ontologies\n- **Inference**: New knowledge is derived from existing knowledge using logical rules (deduction, induction, abduction)\n- **Search**: Problem-solving is modeled as searching through a space of possible states\n\n**Key achievements:**\n\n- **Logic Theorist (1956)**: One of the first AI programs, proved mathematical theorems\n- **DENDRAL (1965)**: Inferred molecular structures from mass spectrometry data\n- **MYCIN (1976)**: Diagnosed bacterial infections and recommended antibiotics\n- **Expert systems (1980s)**: Commercial applications encoding domain expertise in rule-based systems\n- **Cyc (1984-present)**: Ambitious project to encode common sense knowledge\n\n**Strengths:**\n\n- Transparent and explainable: you can trace exactly how conclusions are reached\n- Good at representing structured knowledge and logical relationships\n- Can work with small amounts of data when rules are well-defined\n- Captures expert knowledge in a reusable, auditable form\n\n**Limitations:**\n\n- Brittle: fails on inputs outside its rules\n- Knowledge bottleneck: extracting and encoding expert knowledge is extremely labor-intensive\n- Struggles with uncertainty, ambiguity, and real-world messiness\n- Does not learn from experience; requires manual rule updates\n\n**Symbolic AI vs. connectionism:**\n\nThe tension between symbolic and connectionist (neural network) approaches has defined much of AI's history. Symbolic AI excels at logical reasoning and structured knowledge; connectionism excels at pattern recognition and learning from data. Modern AI increasingly combines both: neural networks handle perception and pattern recognition while symbolic methods handle structured reasoning and planning.",
+    "tags": [
+        "ai",
+        "history",
+        "computer-science",
+        "reasoning",
+        "knowledge-representation"
+    ],
+    "category": "AI",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "GOFAI",
+        "Good Old-Fashioned AI",
+        "Classical AI",
+        "Rule-Based AI"
+    ],
+    "relatedConcepts": [
+        "artificial-intelligence",
+        "thinking-machine",
+        "expert-system",
+        "connectionism",
+        "turing-machine",
+        "church-turing-thesis",
+        "computational-thinking",
+        "artificial-general-intelligence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig",
+            "url": "https://www.amazon.com/dp/0134610997?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Symbolic artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Physical symbol system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Physical_symbol_system",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

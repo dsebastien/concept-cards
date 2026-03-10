@@ -1,0 +1,92 @@
+{
+    "id": "domain-model",
+    "name": "Domain Model",
+    "summary": "A conceptual representation of the key entities, rules, and relationships within a specific problem domain.",
+    "explanation": "A Domain Model is an abstraction that describes the essential concepts, behaviors, and rules of a particular problem area. It represents how domain experts think about their field—capturing the vocabulary, entities, relationships, constraints, and business logic that define how things work in that domain.\n\nIn software engineering, domain modeling is central to Domain-Driven Design (DDD), pioneered by Eric Evans. DDD argues that the most important asset in complex software is not the code itself but the shared understanding of the domain captured in the model. The model serves as the 'ubiquitous language' that both developers and domain experts use, eliminating the translation layer that typically introduces errors and misunderstandings. When the code directly reflects the domain model, changes in business requirements map cleanly to changes in code.\n\nA domain model typically includes: entities (objects with identity that persist over time, like a Customer or Order), value objects (immutable objects defined by their attributes, like an Address or Money amount), aggregates (clusters of entities and value objects treated as a unit), services (operations that don't naturally belong to any entity), and domain events (significant occurrences the system needs to react to).\n\nBeyond software, domain modeling is a powerful thinking tool. When you build a domain model, you're forced to make implicit knowledge explicit—identifying the core concepts, distinguishing what matters from what doesn't, and mapping how pieces relate. This is equally valuable in knowledge management (modeling a field of study), business strategy (modeling market dynamics), and education (building mental models of a subject). The act of modeling reveals gaps in understanding and surfaces hidden assumptions.",
+    "tags": [
+        "software-development",
+        "modeling",
+        "design",
+        "knowledge-management",
+        "mental-models"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Domain Object Model",
+        "Conceptual Model"
+    ],
+    "relatedConcepts": [
+        "entity-relationship-model",
+        "ontology-knowledge-management",
+        "domain-event",
+        "schema",
+        "knowledge-graph",
+        "taxonomy",
+        "ubiquitous-language"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain-Driven Design by Eric Evans",
+            "url": "https://www.amazon.com/dp/0321125215?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Domain model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Domain_model",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

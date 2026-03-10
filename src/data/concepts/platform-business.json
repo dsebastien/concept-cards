@@ -1,0 +1,48 @@
+{
+    "id": "platform-business",
+    "name": "Platform Business",
+    "summary": "A business model that creates value by facilitating exchanges between two or more interdependent groups, generating network effects.",
+    "explanation": "A Platform Business is an organizational model that creates value primarily by enabling direct interactions between two or more distinct user groups—typically producers and consumers. Unlike traditional pipeline businesses that create value through a linear sequence of activities (design, manufacture, sell), platforms orchestrate external producers and consumers to create and exchange value.\n\nThe defining characteristic of platforms is their ability to generate network effects. Each additional user on one side makes the platform more valuable to users on the other side. More riders make Uber more attractive to drivers, and more drivers make it more attractive to riders. This creates a virtuous cycle that, once established, becomes extremely difficult for competitors to replicate—a powerful economic moat.\n\nPlatform businesses follow distinct strategic patterns. They must solve the 'chicken-and-egg' problem of attracting both sides simultaneously. Many do this by subsidizing one side (the money side pays, the subsidy side participates free or cheaply). They must manage platform governance—setting rules that encourage valuable interactions while discouraging abuse. And they must resist the temptation to compete with their own producers, which can destroy trust and undermine the ecosystem.\n\nThe most valuable companies of the 21st century—Apple, Google, Amazon, Meta, Microsoft—are all platform businesses or have major platform components. This isn't coincidental. Platforms can scale with minimal marginal cost, benefit from data network effects (more usage generates more data, enabling better matching and recommendations), and create high switching costs for both producers and consumers who have invested in the ecosystem. Understanding platform dynamics is essential for anyone building or competing against platform businesses.",
+    "tags": [
+        "businesses",
+        "strategies",
+        "business-models",
+        "competition",
+        "startups"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Platform Model",
+        "Two-Sided Market",
+        "Multi-Sided Platform"
+    ],
+    "relatedConcepts": [
+        "moat",
+        "network-effects",
+        "economies-of-scale",
+        "winner-takes-all",
+        "switching-costs",
+        "barriers-to-entry",
+        "flywheels"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Platform Revolution by Geoffrey G. Parker",
+            "url": "https://www.amazon.com/dp/0393354350?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Platform economy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Platform_economy",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

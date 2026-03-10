@@ -1,0 +1,58 @@
+{
+    "id": "three-amigos",
+    "name": "Three Amigos",
+    "summary": "A collaborative practice where a product owner, developer, and tester discuss a user story together to build shared understanding before development begins.",
+    "explanation": "Three Amigos is a practice from agile software development where three key perspectives come together to discuss a user story or requirement before development begins. The \"three amigos\" represent:\n\n1. **Business (Product Owner/BA)**: Defines what needs to be built and why. Brings the business context, user needs, and acceptance criteria\n2. **Development (Developer)**: Determines how to build it. Identifies technical considerations, risks, and implementation options\n3. **Testing (Tester/QA)**: Considers how to verify it. Identifies edge cases, failure scenarios, and testability concerns\n\n**How a Three Amigos session works:**\n\n1. The product owner presents the user story and its acceptance criteria\n2. The developer asks clarifying questions about scope, constraints, and technical implications\n3. The tester challenges assumptions by asking \"what if\" questions and exploring edge cases\n4. The group refines the acceptance criteria together, often discovering gaps, ambiguities, or hidden complexity\n5. The session concludes with shared understanding and refined, testable acceptance criteria\n\n**Why three perspectives matter:**\n\nEach role brings a fundamentally different lens:\n\n- **Business** asks: \"Is this the right thing to build?\"\n- **Developer** asks: \"Can we build this? What are the trade-offs?\"\n- **Tester** asks: \"How do we know it works? What could go wrong?\"\n\nWithout all three perspectives, requirements tend to be incomplete. Business alone may overlook technical constraints. Developers alone may miss business context. Testers alone may not understand the intended user experience. Together, they catch issues that no single role would identify.\n\n**When to hold Three Amigos sessions:**\n\n- During backlog refinement, before stories enter a sprint\n- When a story seems complex or ambiguous\n- Before estimating effort for unfamiliar work\n- When acceptance criteria feel incomplete\n\n**Benefits:**\n\n- Reduces rework by catching misunderstandings early\n- Produces better acceptance criteria\n- Builds empathy between roles\n- Distributes knowledge across the team\n- Shifts quality left (finding issues before coding starts)\n\n**Tips for effective sessions:**\n\n- Keep sessions short (15-30 minutes per story)\n- Focus on one story at a time\n- Encourage questions over assertions\n- Document refined acceptance criteria during the session\n- It's fine to include more than three people, but ensure all three perspectives are represented\n\nThe name \"Three Amigos\" was popularized by George Dinwiddie and is closely associated with Behavior-Driven Development (BDD) and the Specification by Example approach.",
+    "tags": [
+        "agile",
+        "collaboration",
+        "requirements",
+        "software-development",
+        "quality"
+    ],
+    "category": "Techniques",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "Three Amigos Meeting",
+        "Specification Workshop",
+        "Discovery Workshop"
+    ],
+    "relatedConcepts": [
+        "acceptance-criteria",
+        "user-stories",
+        "behavior-driven-development",
+        "given-when-then",
+        "specification-by-example",
+        "definition-of-ready",
+        "invest-criteria"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Three Amigos - Agile Alliance",
+            "url": "https://www.agilealliance.org/glossary/three-amigos/",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

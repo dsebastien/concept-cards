@@ -1,0 +1,45 @@
+{
+    "id": "church-turing-thesis",
+    "name": "Church-Turing Thesis",
+    "summary": "The hypothesis that any function computable by an effective procedure can be computed by a Turing machine, defining the fundamental limits of computation.",
+    "explanation": "The Church-Turing thesis is a foundational hypothesis in computer science and mathematics that defines what it means for something to be \"computable.\" It states that any function that can be calculated by any effective method (any well-defined, step-by-step procedure) can also be calculated by a Turing machine.\n\n**The convergence:**\n\nIn the 1930s, several mathematicians independently developed formal models of computation:\n\n- **Alonzo Church**: Lambda calculus (1936) - a formal system for expressing computation through function abstraction and application\n- **Alan Turing**: Turing machines (1936) - an abstract machine model manipulating symbols on a tape\n- **Kurt Godel**: General recursive functions (1934) - a mathematical characterization of computable functions\n- **Emil Post**: Post machines (1936) - another abstract computing model\n\nRemarkably, all these different formalizations turned out to be equivalent - they all define the same class of computable functions. This convergence from multiple independent approaches provides strong evidence for the thesis.\n\n**What the thesis claims:**\n\n- If a problem can be solved by any mechanical procedure whatsoever, it can be solved by a Turing machine\n- Equivalently: there is no \"super-Turing\" computation that is achievable by some other means but not by a Turing machine\n- This means all general-purpose computers (including modern ones) are equivalent in computational power - they can all solve the same class of problems\n\n**What the thesis does NOT claim:**\n\n- It does not say all problems are computable (the Halting Problem proves otherwise)\n- It does not address efficiency (quantum computers may solve some problems faster, but not different problems)\n- It is not a proven theorem but a hypothesis supported by strong evidence\n\n**Why it matters:**\n\n- **Defines limits of computation**: Establishes what any computer, present or future, can and cannot do\n- **Foundation of computer science**: Provides the theoretical basis for algorithm design and complexity theory\n- **Implications for AI**: If human thinking is an effective procedure, the thesis implies it can be replicated by a Turing machine. If it is not, this may explain fundamental limits of AI\n\n**The extended thesis:**\n\nSome formulations strengthen the thesis to claim that all physically realizable processes are Turing-computable. This physical Church-Turing thesis remains debated, particularly in light of quantum computing and the possibility of hypercomputation.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "foundations",
+        "philosophies"
+    ],
+    "category": "Software Development",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Church's Thesis",
+        "Turing's Thesis",
+        "Computability Thesis"
+    ],
+    "relatedConcepts": [
+        "turing-machine",
+        "thinking-machine",
+        "computational-thinking",
+        "artificial-intelligence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Church-Turing thesis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis",
+            "type": "website"
+        },
+        {
+            "title": "The Church-Turing Thesis - Stanford Encyclopedia of Philosophy",
+            "url": "https://plato.stanford.edu/entries/church-turing/",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

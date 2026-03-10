@@ -1,0 +1,75 @@
+{
+    "id": "turkey-problem",
+    "name": "Turkey Problem",
+    "summary": "The illusion of safety built from past experience, illustrated by a turkey fed daily for 1,000 days that sees no danger until Thanksgiving.",
+    "explanation": "The Turkey Problem, described by Nassim Nicholas Taleb (drawing on Bertrand Russell's earlier 'chicken' formulation), illustrates how inductive reasoning from past experience can create a fatal illusion of safety. A turkey is fed every day for 1,000 days. Each day confirms its model that the farmer is a benevolent provider. Its confidence grows with each feeding. On day 1,001—Thanksgiving—the turkey discovers that its model was catastrophically wrong.\n\nThe turkey's error is not stupidity but a fundamental limitation of inductive reasoning: past data cannot predict unprecedented events, especially when the system contains hidden dynamics the observer cannot see. The turkey has no visibility into the farmer's intentions, the seasonal calendar, or the economics of poultry farming. Its data—1,000 days of feeding—is not merely incomplete but actively misleading, because the very process that generates comfort (being fed and fattened) is the process that increases danger.\n\nThis parable has direct applications in finance, risk management, and strategy. Banks that had never experienced a major housing crash concluded their mortgage-backed securities were safe—until 2008. Companies that had never faced disruption in their industry concluded their business model was permanent—until digital transformation arrived. In each case, the absence of past disaster was mistaken for evidence that disaster couldn't happen.\n\nThe antidote to the turkey problem involves several strategies: don't confuse absence of evidence with evidence of absence, stress-test your assumptions against scenarios that haven't happened yet (pre-mortem analysis), build margins of safety that don't depend on your model being right, and pay attention to fragilities in your situation rather than past stability. The question isn't 'Has anything bad happened?' but 'What would happen if something unprecedented occurred?'",
+    "tags": [
+        "mental-models",
+        "risks",
+        "probabilities",
+        "thinking",
+        "decision-making"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Thanksgiving Turkey",
+        "Russell's Chicken",
+        "Problem of Induction"
+    ],
+    "relatedConcepts": [
+        "black-swan",
+        "ludic-fallacy",
+        "narrative-fallacy",
+        "normalcy-bias",
+        "fat-tails",
+        "antifragility",
+        "survivorship-bias",
+        "confirmation-bias",
+        "scientific-fallibilism"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Black Swan by Nassim Nicholas Taleb",
+            "url": "https://www.amazon.com/dp/081297381X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Problem of induction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Problem_of_induction",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

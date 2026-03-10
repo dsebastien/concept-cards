@@ -1,0 +1,78 @@
+{
+    "id": "guardrails",
+    "name": "Guardrails",
+    "summary": "Safety constraints and boundaries that control AI system behavior, preventing harmful, undesired, or out-of-scope outputs and actions.",
+    "explanation": "Guardrails are the safety mechanisms built into AI systems to ensure they operate within acceptable boundaries. As AI agents become more autonomous and capable of taking real-world actions—writing code, sending emails, executing transactions—guardrails become critical infrastructure rather than optional safeguards.\n\nGuardrails operate at multiple levels. Input guardrails filter and validate what goes into the system—blocking prompt injection attempts, detecting adversarial inputs, and ensuring requests fall within the system's intended scope. Output guardrails check what comes out—scanning for harmful content, validating factual claims, ensuring format compliance, and catching hallucinations. Action guardrails govern what the agent can do—restricting file system access, requiring approval for destructive operations, rate-limiting API calls, and enforcing permission boundaries.\n\nImplementation approaches range from simple rule-based filters (blocklists, regex patterns, format validators) to sophisticated AI-based classifiers that evaluate content semantically. Constitutional AI, developed by Anthropic, trains models to self-evaluate and revise their outputs according to a set of principles. RLHF (Reinforcement Learning from Human Feedback) aligns model behavior with human preferences during training. Runtime guardrails add a separate checking layer that evaluates the primary model's outputs before they reach the user or execute in the environment.\n\nThe challenge of guardrails design involves balancing safety with utility. Overly restrictive guardrails make systems frustrating and useless—refusing benign requests or blocking legitimate workflows. Insufficient guardrails allow harmful outputs or dangerous actions. Effective guardrail systems are contextual and proportional: they enforce strict controls for high-stakes actions (deleting data, sending communications) while allowing flexibility for low-risk operations. They also maintain transparency, helping users understand why an action was blocked rather than silently failing.",
+    "tags": [
+        "ai",
+        "safety",
+        "agents",
+        "risk-management",
+        "software-development"
+    ],
+    "category": "AI",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "AI Guardrails",
+        "Safety Rails",
+        "AI Safety Constraints"
+    ],
+    "relatedConcepts": [
+        "agent-harness",
+        "ai-agent",
+        "human-in-the-loop",
+        "ai-alignment",
+        "ai-safety",
+        "ai-ethics",
+        "agent-orchestration"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "AI safety - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/AI_safety",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}
