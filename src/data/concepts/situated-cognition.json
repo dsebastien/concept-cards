@@ -1,0 +1,73 @@
+{
+    "id": "situated-cognition",
+    "name": "Situated Cognition",
+    "summary": "The theory that cognitive processes are fundamentally shaped by the physical and social environment in which they occur, rather than being purely internal computations.",
+    "explanation": "Situated cognition is the theoretical perspective that human thinking and knowing are inseparable from the physical, social, and cultural contexts in which they occur. Rather than viewing the mind as an isolated information processor that manipulates abstract symbols, situated cognition emphasizes that cognitive activity is always embedded in—and deeply shaped by—the situations in which it takes place. This perspective has profound implications for how we understand learning, expertise, and knowledge transfer.\n\n## Origins in Lave and Wenger's Work\n\nThe foundations of situated cognition were laid by anthropologist Jean Lave and educational theorist Etienne Wenger in their influential 1991 book \"Situated Learning: Legitimate Peripheral Participation.\" Drawing on ethnographic studies of apprenticeship in diverse settings—tailors in Liberia, midwives in the Yucatan, butchers, and naval quartermasters—Lave and Wenger argued that learning is not primarily a process of internalizing abstract knowledge but a process of increasing participation in communities of practice. Newcomers begin at the periphery, performing simple tasks while observing experts, and gradually move toward full participation as they develop competence. Learning, in this view, is fundamentally social and situated.\n\n## Core Claims\n\nSituated cognition rests on several interconnected claims:\n\n- **Knowledge is inseparable from context.** What a person knows cannot be fully separated from the situation in which that knowledge was acquired and is used. The same individual may demonstrate competence in one context and struggle in another, not because of a change in \"underlying ability\" but because knowledge is tied to environmental cues, social roles, and available resources.\n- **Learning is social participation.** Becoming knowledgeable is not just about acquiring facts or procedures; it is about becoming a particular kind of person within a community. Learning involves adopting the practices, language, norms, and identity of a community of practice.\n- **Thinking uses environmental resources.** Cognition does not happen exclusively inside the head. People routinely use objects, tools, spatial arrangements, other people, and cultural artifacts as integral parts of their thinking processes. A chef's knowledge is partly in their hands and partly in their organized kitchen; an architect thinks through sketches and models.\n\n## Relationship to Embodied and Distributed Cognition\n\nSituated cognition is closely related to two other perspectives that challenge traditional cognitive science:\n\n- **Embodied cognition** emphasizes that cognitive processes are shaped by the body—its morphology, sensory systems, and motor capabilities. Thinking is not disembodied symbol manipulation but is grounded in bodily experience.\n- **Distributed cognition** proposes that cognitive processes can be distributed across individuals and artifacts. A cockpit crew, for example, performs cognitive tasks (navigation, communication, decision-making) that no single individual could accomplish alone—the cognition is spread across people and instruments.\n\nSituated cognition encompasses and extends both perspectives by insisting that all cognition is contextually embedded.\n\n## Contrast with Traditional Information Processing\n\nThe situated cognition perspective stands in sharp contrast to the traditional information processing view that dominated cognitive psychology from the 1960s through the 1980s. The information processing approach modeled the mind as a general-purpose computer that processes abstract representations according to formal rules, largely independent of context. Situated cognition challenges this view on multiple fronts: knowledge is not context-free, learning is not just information transfer, and thinking is not purely internal computation. Where information processing theory asks \"what are the internal representations and algorithms?\", situated cognition asks \"how does the whole person-in-context system produce intelligent behavior?\"\n\n## Evidence from Workplace Studies and Everyday Reasoning\n\nEmpirical support for situated cognition comes from diverse sources. Lave's studies of grocery shoppers showed that people who struggled with formal math problems in school could perform sophisticated proportional reasoning in the supermarket when the task was embedded in meaningful activity. Studies of workplace cognition—photocopier repair technicians (Julian Orr), ship navigation crews (Edwin Hutchins), midwifery practice—consistently show that expert performance relies heavily on contextual cues, social interaction, and environmental scaffolding rather than the application of abstract rules.\n\n## Implications for Education\n\nSituated cognition has had a transformative impact on educational theory and practice:\n\n- **Authentic tasks**: Learning activities should resemble the real-world situations in which knowledge will be used, rather than being artificially decontextualized.\n- **Apprenticeship models**: Instruction should follow the apprenticeship pattern of modeling, coaching, scaffolding, and fading, as described in Collins, Brown, and Newman's cognitive apprenticeship framework.\n- **Communities of practice**: Classrooms and training programs should be organized as communities of practice where learners engage in genuine participation rather than passive reception of information.\n- **Transfer through preparation for future learning**: Rather than expecting direct transfer of abstract knowledge, educators should prepare learners to learn effectively in new situations.\n\n## Implications for Knowledge Management\n\nSituated cognition has important implications for organizational knowledge management. Because knowledge is deeply tied to context, it cannot be fully captured in documents, databases, or procedures. Much organizational knowledge is tacit—embodied in practices, relationships, and shared understandings that resist explicit formulation. Effective knowledge management therefore requires not just information systems but the cultivation of communities of practice, opportunities for legitimate peripheral participation, and the design of environments that support knowledge-rich activity. Knowledge transfer between contexts is never automatic; it requires active recontextualization.",
+    "tags": [
+        "cognition",
+        "psychology",
+        "learning",
+        "philosophy",
+        "neuroscience"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Situated Learning",
+        "Contextual Cognition"
+    ],
+    "relatedConcepts": [
+        "embodied-cognition",
+        "enactivism",
+        "distributed-cognition",
+        "cognitive-science",
+        "extended-mind-thesis",
+        "context-dependent-memory",
+        "state-dependent-learning",
+        "cognitive-apprenticeship"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Situated Learning by Jean Lave and Etienne Wenger",
+            "url": "https://www.amazon.com/dp/0521423740?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Situated cognition - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Situated_cognition",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

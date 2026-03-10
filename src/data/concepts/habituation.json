@@ -1,0 +1,66 @@
+{
+    "id": "habituation",
+    "name": "Habituation",
+    "summary": "A fundamental form of learning in which repeated exposure to a stimulus leads to a decreased response over time.",
+    "explanation": "Habituation is the simplest and most universal form of non-associative learning, observed across virtually all species from single-celled organisms to humans. It describes the process by which an organism reduces or ceases its response to a stimulus after repeated or prolonged exposure, provided the stimulus is neither rewarding nor harmful. Unlike fatigue or sensory adaptation, habituation is a true learning process that occurs at the neural level and demonstrates several distinctive characteristics.\n\n## Characteristics of Habituation\n\nHabituation exhibits several well-defined properties that distinguish it from other forms of response decline:\n\n- **Stimulus Specificity**: Habituation is specific to the particular stimulus presented. If a new, different stimulus is introduced, the organism responds fully to it — a phenomenon called **dishabituation**. This proves that the decreased response is not due to general fatigue or sensory exhaustion.\n- **Spontaneous Recovery**: After a period without exposure to the habituated stimulus, the response naturally returns, often at a reduced intensity. This shows that habituation involves a temporary suppression rather than a permanent erasure of the response.\n- **Frequency and Intensity Effects**: More frequent stimulus presentation leads to faster and more pronounced habituation. Conversely, very intense or painful stimuli may not habituate at all, which serves an important survival function.\n- **Potentiation of Habituation**: Repeated habituation-recovery cycles lead to progressively faster habituation, suggesting that long-term changes in the neural pathways accumulate over time.\n\n## Neural Mechanisms\n\nAt the cellular level, habituation involves a decrease in neurotransmitter release at synaptic junctions. Eric Kandel's Nobel Prize-winning research on the sea slug *Aplysia californica* demonstrated that habituation results from a reduction in calcium ion influx at presynaptic terminals, leading to less neurotransmitter being released. This work provided one of the first clear links between a behavioral phenomenon and specific molecular changes in the nervous system.\n\nIn more complex organisms, habituation also involves changes in cortical and subcortical circuits, particularly in areas responsible for attention and arousal.\n\n## Difference from Sensory Adaptation and Fatigue\n\nHabituation is often confused with related phenomena, but it is fundamentally different:\n\n- **Sensory Adaptation** occurs at the receptor level — the sensory organs themselves become less sensitive (e.g., adjusting to a dark room). Habituation occurs at the neural processing level.\n- **Muscular or Sensory Fatigue** involves physical exhaustion of the response system. Habituation is not due to fatigue, as demonstrated by the dishabituation effect — introducing a novel stimulus instantly restores the full response.\n\n## Practical Examples\n\nHabituation is pervasive in daily life:\n\n- **Background Noise**: People living near airports or busy roads eventually stop noticing the constant noise, while visitors find it overwhelming.\n- **Visual Clutter**: A cluttered desk or a persistent notification badge on an app gradually fades from conscious awareness.\n- **Clothing Sensation**: Within minutes of getting dressed, the sensation of clothing against skin disappears from awareness.\n- **Notification Fatigue**: Repeated app notifications that initially grab attention become ignored over time, reducing the effectiveness of alerts.\n\n## Relationship to Hedonic Adaptation\n\nHabituation is closely related to the concept of hedonic adaptation (the hedonic treadmill), where people return to a baseline level of happiness despite major positive or negative life events. The psychological mechanism is similar — repeated exposure to a stimulus (whether a new car, a promotion, or a life change) diminishes the emotional response over time. Understanding this link has important implications for well-being and the pursuit of lasting satisfaction.\n\n## Implications for Attention Management\n\nIn a world saturated with information and stimuli, habituation plays a dual role. On one hand, it is essential for filtering out irrelevant information and allowing us to focus on what matters. On the other hand, it means that important but persistent signals (safety warnings, recurring health reminders, dashboard alerts) may lose their effectiveness over time. Designers of warning systems, user interfaces, and learning environments must account for habituation by varying stimuli, using intermittent rather than constant signals, and periodically refreshing important information.\n\n## Use in Exposure Therapy\n\nHabituation is a core mechanism underlying exposure therapy, one of the most effective treatments for anxiety disorders and phobias. By gradually and repeatedly exposing a person to a feared stimulus in a safe context, the anxiety response habituates over time. The person learns — at a deep, automatic level — that the stimulus is not dangerous, and the fear response diminishes.",
+    "tags": [
+        "psychology",
+        "learning",
+        "cognition",
+        "attention",
+        "neuroscience"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Stimulus Habituation"
+    ],
+    "relatedConcepts": [
+        "classical-conditioning",
+        "attention-fatigue",
+        "sensory-overload",
+        "novelty-bias",
+        "change-blindness",
+        "selective-attention",
+        "synaptic-plasticity"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Habituation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Habituation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -3,11 +3,21 @@
     "name": "Temporal Double-Slit Experiment",
     "summary": "A time-domain analog of the classic double-slit experiment that demonstrates wave-like interference of light in time rather than space.",
     "explanation": "The temporal double-slit experiment is a groundbreaking physics experiment that transposes the classic spatial double-slit experiment into the time domain. Instead of light passing through two slits separated in space, light passes through two 'slits' separated in time—brief windows when a material's optical properties change rapidly. The result: an interference pattern in the frequency (color) of the light, analogous to the spatial interference pattern on a screen.\n\n**How it works:**\n\nResearchers use a thin film of indium tin oxide (ITO) whose reflectivity can be changed on femtosecond timescales using ultrafast laser pulses:\n\n1. Continuous light shines on the ITO film\n2. An ultrafast laser pulse abruptly changes the film's reflectivity (first 'time slit' opens and closes)\n3. A second ultrafast pulse changes the reflectivity again (second 'time slit')\n4. The reflected light from these two temporal 'slits' interferes—not in space, but in frequency\n5. The resulting spectrum shows an interference pattern: alternating peaks and troughs in different frequencies\n\n**Why it matters:**\n\n- **Time-space symmetry**: Demonstrates a deep symmetry between space and time in wave physics. Just as spatial slits create spatial interference, temporal slits create spectral (frequency) interference\n- **Temporal diffraction**: Opens the door to manipulating light in the time domain, analogous to how gratings and lenses manipulate light in space\n- **New optical technologies**: Potential applications in ultrafast optical switches, frequency conversion, and time-domain optics\n- **Fundamental physics**: Provides new ways to probe the nature of light and time at quantum scales\n\n**Connection to the spatial double-slit:**\n\nIn the classic experiment, two spatial slits create an interference pattern on a detector. In the temporal version, two time slits create an interference pattern in the light's spectrum. The mathematics is analogous—Fourier transforms connect position and momentum (spatial case) just as they connect time and frequency (temporal case).\n\n**Historical context:**\n\nThe temporal double-slit experiment was first demonstrated in 2023 by researchers at Imperial College London, building on theoretical proposals about time-varying media. It represents a new frontier in photonics and quantum optics, extending our ability to control light from three spatial dimensions into the fourth dimension of time.",
-    "tags": ["physics", "quantum-mechanics", "science", "experiments", "optics"],
+    "tags": [
+        "physics",
+        "quantum-mechanics",
+        "science",
+        "experiments",
+        "optics"
+    ],
     "category": "Concepts",
     "icon": "FaAtom",
     "featured": false,
-    "aliases": ["Time-Domain Double Slit", "Temporal Diffraction Experiment", "Time Slit Experiment"],
+    "aliases": [
+        "Time-Domain Double Slit",
+        "Temporal Diffraction Experiment",
+        "Time Slit Experiment"
+    ],
     "relatedConcepts": [
         "double-slit-experiment",
         "wave-particle-duality",
@@ -17,12 +27,24 @@
     "articles": [],
     "books": [],
     "references": [
-        {"title": "Double-slit time diffraction at optical frequencies - Nature Physics", "url": "https://www.nature.com/articles/s41567-023-01993-w", "type": "paper"},
-        {"title": "Double-slit experiment - Wikipedia", "url": "https://en.wikipedia.org/wiki/Double-slit_experiment", "type": "website"}
+        {
+            "title": "Double-slit time diffraction at optical frequencies - Nature Physics",
+            "url": "https://www.nature.com/articles/s41567-023-01993-w",
+            "type": "paper"
+        },
+        {
+            "title": "Double-slit experiment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Double-slit_experiment",
+            "type": "website"
+        }
     ],
     "tutorials": [
-        {"title": "The Time Slit Experiment - YouTube", "url": "https://www.youtube.com/watch?v=t0DrYefctsE", "type": "video"}
+        {
+            "title": "The Time Slit Experiment - YouTube",
+            "url": "https://www.youtube.com/watch?v=t0DrYefctsE",
+            "type": "video"
+        }
     ],
     "datePublished": "2026-03-08",
-    "dateModified": "2026-03-08"
+    "dateModified": "2026-03-10"
 }

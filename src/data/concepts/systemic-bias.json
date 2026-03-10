@@ -1,0 +1,69 @@
+{
+    "id": "systemic-bias",
+    "name": "Systemic Bias",
+    "summary": "Bias embedded within institutions, policies, and cultural practices that systematically advantages certain groups while disadvantaging others, independent of individual intent.",
+    "explanation": "Systemic bias refers to patterns of disadvantage that are woven into the fabric of institutions, policies, procedures, and cultural norms. Unlike individual bias, which resides in a person's attitudes or decisions, systemic bias operates through structures and systems that produce inequitable outcomes regardless of the intentions of the people within them.\n\n## Distinction from Individual Bias\n\nThe critical difference between systemic bias and individual bias lies in where the bias resides. Individual bias is about people—their attitudes, stereotypes, and discriminatory behaviors. Systemic bias is about systems—the rules, norms, processes, and structures that produce disparate outcomes even when individuals within the system act without prejudice. A hiring process can systematically disadvantage certain groups through its criteria, channels, and evaluation methods even if every individual involved genuinely intends to be fair.\n\n## How Systemic Bias Perpetuates Itself\n\nSystemic bias is self-reinforcing through several mechanisms:\n\n- **Feedback loops**: Outcomes of biased systems become inputs for future decisions. If a system historically excluded a group, the lack of representation becomes a justification for continued exclusion (\"we've never had someone like that succeed here\").\n- **Path dependence**: Early decisions and structures constrain future possibilities. Systems built around the needs and norms of one group become increasingly difficult to reform as they accumulate layers of dependent structures.\n- **Normalization**: When biased outcomes persist long enough, they come to be seen as natural or inevitable rather than as the product of specific structural choices.\n- **Compound effects**: Small biases at each stage of a process compound into large disparities in outcomes. A slight disadvantage in hiring, combined with a slight disadvantage in promotion, combined with a slight disadvantage in compensation, produces dramatic inequity over a career.\n\n## Examples Across Domains\n\nSystemic bias manifests across many domains:\n\n- **Hiring algorithms**: AI systems trained on historical data can perpetuate past discrimination, screening out qualified candidates from underrepresented groups.\n- **Educational testing**: Standardized tests may reflect the cultural knowledge and communication styles of dominant groups, creating systematic disadvantages for others.\n- **Healthcare protocols**: Medical research historically centered on certain demographics, leading to diagnostic criteria and treatment protocols that are less effective for underrepresented populations.\n- **Criminal justice**: Sentencing guidelines, policing patterns, and bail systems can produce disparate outcomes along racial and socioeconomic lines.\n\n## Relationship to Unconscious Bias\n\nSystemic bias and unconscious bias are deeply connected. Individual unconscious biases, when shared widely enough and repeated over time, become codified into organizational practices, policies, and cultural norms. Once codified, these biases no longer depend on individual attitudes to produce their effects—the system itself generates inequitable outcomes. This is why addressing systemic bias requires structural change, not just individual awareness.\n\n## Identifying Systemic Bias\n\nDetecting systemic bias requires looking beyond individual cases to patterns and outcomes:\n\n- **Outcome disparities**: Examining whether different groups experience systematically different outcomes (in hiring, promotion, compensation, discipline, etc.)\n- **Process analysis**: Auditing decision-making processes for criteria, standards, or procedures that may disadvantage certain groups\n- **Historical analysis**: Understanding how current structures were shaped by past exclusionary practices\n- **Disaggregated data**: Breaking down aggregate data by demographic categories to reveal hidden patterns\n\n## Strategies for Dismantling Systemic Bias\n\nAddressing systemic bias requires structural interventions:\n\n- **Policy audit**: Systematically reviewing policies and procedures for disparate impact\n- **Algorithmic fairness**: Auditing automated systems for bias and implementing fairness constraints\n- **Structural redesign**: Rebuilding processes, criteria, and systems with equity as a design principle\n- **Accountability mechanisms**: Creating systems that track outcomes, hold institutions accountable, and provide recourse for those affected\n- **Diverse representation**: Ensuring that the people designing and governing systems reflect the diversity of those affected by them\n\n## Why Individual Debiasing Is Insufficient\n\nWhile individual bias training and awareness are valuable, they are insufficient on their own because systemic bias operates through structures that persist regardless of individual attitudes. Even in organizations where every individual has undergone bias training, biased outcomes will continue if the underlying systems, criteria, and processes remain unchanged. Effective change requires addressing both individual awareness and structural reform simultaneously.",
+    "tags": [
+        "psychology",
+        "inclusion",
+        "biases",
+        "organizations",
+        "social-psychology"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Structural Bias",
+        "Institutional Bias",
+        "Systemic Discrimination"
+    ],
+    "relatedConcepts": [
+        "unconscious-bias",
+        "privilege",
+        "intersectionality",
+        "diversity-and-inclusion",
+        "inclusive-transformation",
+        "organizational-justice",
+        "equity",
+        "in-group-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Systemic bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Systemic_bias",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,75 @@
+{
+    "id": "information-processing-theory",
+    "name": "Information Processing Theory",
+    "summary": "A cognitive framework that models the mind as a system that encodes, stores, and retrieves information, analogous to a computer.",
+    "explanation": "Information processing theory is a cognitive framework that conceptualizes the human mind as a system that receives, encodes, stores, and retrieves information—much like a computer processes data. Emerging during the cognitive revolution of the 1950s and 1960s, this approach fundamentally changed how psychologists think about mental processes, shifting the focus from observable behavior (as in behaviorism) to the internal mechanisms of thought.\n\n## Origins in the Cognitive Revolution\n\nInformation processing theory arose alongside the development of digital computers and communication theory in the mid-20th century. Pioneers such as George Miller, Herbert Simon, Allen Newell, and Ulric Neisser drew explicit analogies between human cognition and computer operations. The publication of Miller's landmark 1956 paper \"The Magical Number Seven, Plus or Minus Two\" highlighted the limited capacity of short-term memory and helped establish the information processing paradigm. Claude Shannon's information theory and Norbert Wiener's cybernetics provided formal tools for thinking about how systems transmit, encode, and decode information.\n\n## The Atkinson-Shiffrin Multi-Store Model\n\nThe most influential early model of information processing was proposed by Richard Atkinson and Richard Shiffrin in 1968. Their multi-store model describes three distinct memory stores through which information flows sequentially:\n\n- **Sensory memory** briefly holds raw sensory input (iconic memory for vision, echoic memory for audition) for fractions of a second to a few seconds. Only information that receives attention moves to the next stage.\n- **Short-term memory (STM)** holds a limited amount of information (roughly 7 items) for approximately 15-30 seconds. Information in STM can be maintained through rehearsal and may be transferred to long-term storage.\n- **Long-term memory (LTM)** has virtually unlimited capacity and duration. Information stored here can be retrieved when needed, though retrieval is not always successful.\n\nThis sequential flow—from sensory input through short-term processing to long-term storage—became the canonical model of human information processing.\n\n## Levels of Processing: An Alternative View\n\nIn 1972, Fergus Craik and Robert Lockhart proposed an influential alternative to the multi-store model. Their levels of processing framework argued that memory is not determined by which store information reaches, but by the depth at which it is processed. Shallow processing (attending to physical features like font or sound) produces weak, short-lived memories, while deep processing (attending to meaning, making associations, elaborating on content) produces strong, durable memories. This framework shifted attention from structural stores to the quality of encoding processes.\n\n## Baddeley's Working Memory Model\n\nAlan Baddeley and Graham Hitch refined the concept of short-term memory in 1974 with their working memory model. Rather than a single short-term store, they proposed a multi-component system:\n\n- The **central executive** directs attention and coordinates the other components.\n- The **phonological loop** processes and maintains verbal and acoustic information through subvocal rehearsal.\n- The **visuospatial sketchpad** handles visual and spatial information.\n- The **episodic buffer** (added by Baddeley in 2000) integrates information from the other components and links it with long-term memory.\n\nThis model better accounts for the active manipulation of information during complex cognitive tasks like reasoning, comprehension, and problem-solving.\n\n## Information Processing Stages\n\nRegardless of the specific model, information processing theory identifies three fundamental stages:\n\n- **Encoding** is the process of transforming sensory input into a mental representation. Encoding can be automatic or effortful, and the depth and type of encoding strongly influence later retrieval.\n- **Storage** is the maintenance of encoded information over time. Information may be stored in different forms (visual, acoustic, semantic) and is organized through schemas, categories, and associative networks.\n- **Retrieval** is the process of accessing stored information when needed. Retrieval can be aided by cues, context, and the match between encoding and retrieval conditions.\n\n## Strengths of the Computer Metaphor\n\nThe computer metaphor provided cognitive psychology with a powerful vocabulary and set of conceptual tools. It made internal mental processes scientifically tractable by offering precise, testable models. It inspired productive research programs on attention, memory, problem-solving, and language processing. The metaphor also facilitated productive exchange between psychology and computer science, contributing to the development of artificial intelligence and cognitive modeling.\n\n## Limitations and Critiques\n\nDespite its enormous influence, information processing theory has faced significant critiques:\n\n- **The embodied cognition challenge**: Critics argue that cognition is not purely abstract symbol manipulation but is deeply shaped by the body and its interactions with the environment. Thinking is not just \"in the head\" but involves bodily states, gestures, and environmental scaffolding.\n- **Neglect of emotion**: The computer metaphor tends to treat cognition as cold and rational, underemphasizing the pervasive influence of emotions, motivation, and social context on all stages of information processing.\n- **Serial vs. parallel processing**: Early models assumed largely serial (step-by-step) processing, while the brain actually performs massive parallel computation.\n- **Ecological validity**: Laboratory-based information processing research may not capture how cognition works in real-world, context-rich environments.\n\n## Legacy in Cognitive Load Theory and Instructional Design\n\nOne of the most practically important legacies of information processing theory is cognitive load theory, developed by John Sweller in the 1980s. By taking seriously the limited capacity of working memory and the role of schemas in long-term memory, cognitive load theory provides evidence-based principles for designing effective instruction. It distinguishes intrinsic load (inherent difficulty of the material), extraneous load (unnecessary processing caused by poor design), and germane load (processing that contributes to schema construction), guiding educators to optimize learning by managing these demands.",
+    "tags": [
+        "cognition",
+        "psychology",
+        "memory",
+        "learning",
+        "thinking"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Information Processing Model",
+        "Computer Metaphor of Mind"
+    ],
+    "relatedConcepts": [
+        "cognitive-science",
+        "cognitive-revolution",
+        "working-memory",
+        "memory",
+        "encoding",
+        "retrieval",
+        "attention-types",
+        "cognitive-load-theory",
+        "levels-of-processing",
+        "sensory-memory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Information processing theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_processing_theory",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

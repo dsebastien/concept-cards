@@ -1,0 +1,62 @@
+{
+    "id": "categorization",
+    "name": "Categorization",
+    "summary": "The cognitive process of grouping objects, events, or ideas based on shared features, enabling efficient information processing and reasoning.",
+    "explanation": "Categorization is a fundamental cognitive process by which the mind organizes the vast array of objects, events, and ideas it encounters into meaningful groups. Without categorization, every experience would be entirely novel, making learning, communication, and decision-making virtually impossible. It is one of the most basic and essential functions of human cognition, operating largely automatically and underlying much of our ability to navigate the world efficiently.\n\n## The Classical View\n\nThe classical theory of categorization, dating back to Aristotle, holds that categories are defined by a set of necessary and sufficient features. An item belongs to a category if and only if it possesses all the defining features. For example, a \"bachelor\" might be defined as an unmarried adult male — all three features are necessary, and together they are sufficient.\n\nWhile elegant and intuitive, the classical view struggles with many natural categories. What are the necessary and sufficient features of \"game,\" \"furniture,\" or \"bird\"? Most everyday categories resist clean, feature-based definitions, which led to the development of alternative theories.\n\n## Prototype Theory\n\nIn the 1970s, cognitive psychologist Eleanor Rosch proposed prototype theory, which transformed the study of categorization. According to this view, categories are organized around a **prototype** — the most typical or representative member. Category membership is determined by similarity to the prototype rather than by a checklist of features.\n\nRosch demonstrated that people judge some members of a category as \"better\" examples than others. A robin is a more prototypical bird than a penguin; a chair is a more prototypical piece of furniture than a lamp. This **typicality gradient** affects how quickly people categorize items, how easily they recall them, and how they reason about the category.\n\n## Exemplar Theory\n\nExemplar theory offers an alternative to the prototype approach. Rather than comparing new items to an abstract prototype, people compare them to specific remembered instances (exemplars) of the category. A new animal is categorized as a \"dog\" because it resembles specific dogs the person has encountered.\n\nExemplar theory is particularly good at explaining how people handle unusual category members and how categorization can be sensitive to context and individual experience. In practice, both prototype and exemplar processes likely contribute to categorization, with their relative importance varying by situation.\n\n## Basic-Level Categories\n\nRosch also identified a hierarchy of categorization levels: superordinate (animal), basic (dog), and subordinate (golden retriever). The **basic level** occupies a privileged position in cognition — it is the level at which people most naturally categorize objects, the level children learn first, and the level that carries the most useful information. Basic-level categories maximize within-category similarity while maximizing between-category differences.\n\n## Role in Language and Communication\n\nCategorization and language are deeply interconnected. Category labels allow us to communicate efficiently about the world — saying \"hand me a cup\" works because speaker and listener share a concept of \"cup.\" The categories available in a language can also influence how its speakers perceive and remember the world, as explored in linguistic relativity research. Different languages carve up the world into categories in different ways, reflecting cultural priorities and environmental demands.\n\n## Cultural Differences in Categorization\n\nResearch has shown that categorization strategies vary across cultures. Western populations tend to categorize objects based on shared features and taxonomic relationships (grouping cow with pig because both are animals), while East Asian populations more often categorize based on thematic relationships (grouping cow with grass because cows eat grass). These differences reflect broader cultural orientations toward analytic versus holistic thinking.\n\n## Fuzzy Boundaries\n\nMost natural categories have fuzzy rather than sharp boundaries. Is a tomato a fruit or a vegetable? Is a stool a chair? These boundary cases reveal that categorization is often a matter of degree rather than a binary decision. Fuzzy boundaries are a natural consequence of prototype-based and exemplar-based categorization, where membership is graded rather than all-or-nothing.\n\n## Implications for Knowledge Management and Information Architecture\n\nCategorization principles have direct applications in how we organize information:\n\n- **Taxonomies and Folksonomies**: Formal classification systems (taxonomies) and user-generated tagging systems (folksonomies) both rely on categorization. Understanding prototype effects and basic-level categories helps design systems that feel intuitive.\n- **Information Architecture**: Effective website navigation, library systems, and knowledge bases depend on category structures that match users' mental models.\n- **Personal Knowledge Management**: How individuals categorize notes, files, and ideas profoundly affects retrieval and creative connections. Over-rigid categorization can be as problematic as no categorization at all.\n\n## Relationship to Stereotyping and Biases\n\nCategorization is also the cognitive foundation of stereotyping. When we categorize people into social groups, the same cognitive machinery that efficiently organizes objects can lead to overgeneralization, prejudice, and discrimination. Understanding categorization as a basic cognitive process helps explain why stereotypes are so persistent — they are a byproduct of the same efficient categorization system that is essential for navigating the world. Awareness of this connection is the first step toward mitigating its harmful effects.",
+    "tags": [
+        "cognition",
+        "thinking",
+        "psychology",
+        "knowledge",
+        "perception"
+    ],
+    "category": "Thinking",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Cognitive Categorization",
+        "Concept Formation"
+    ],
+    "relatedConcepts": [
+        "chunking",
+        "schema-theory",
+        "pattern-recognition",
+        "abstraction",
+        "cognitive-science",
+        "mental-representation",
+        "analytical-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Categorization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Categorization",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

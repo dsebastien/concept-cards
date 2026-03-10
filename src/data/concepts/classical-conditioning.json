@@ -1,0 +1,67 @@
+{
+    "id": "classical-conditioning",
+    "name": "Classical Conditioning",
+    "summary": "A learning process in which a neutral stimulus becomes associated with a meaningful stimulus, eventually producing a similar response on its own.",
+    "explanation": "Classical conditioning is a fundamental learning process first systematically studied by Russian physiologist Ivan Pavlov in the 1890s. It describes how organisms learn to associate a previously neutral stimulus with a biologically significant one, eventually responding to the neutral stimulus alone as if it were the meaningful one. This form of associative learning is one of the most well-established phenomena in psychology and has profound implications for understanding behavior, emotions, and habits.\n\n## Pavlov's Dog Experiments\n\nPavlov discovered classical conditioning while studying digestion in dogs. He noticed that dogs began salivating not only when food was placed in their mouths, but also when they heard the footsteps of the lab assistant bringing the food. Pavlov systematically paired the sound of a bell (neutral stimulus) with the presentation of food (unconditioned stimulus). After repeated pairings, the dogs began salivating in response to the bell alone. This elegant experiment became one of the most famous demonstrations in the history of psychology.\n\n## Key Terms\n\nUnderstanding classical conditioning requires familiarity with its core terminology:\n\n- **Unconditioned Stimulus (US)**: A stimulus that naturally and automatically triggers a response (e.g., food causing salivation).\n- **Unconditioned Response (UR)**: The natural, unlearned reaction to the unconditioned stimulus (e.g., salivation in response to food).\n- **Neutral Stimulus (NS)**: A stimulus that initially produces no specific response (e.g., a bell sound before conditioning).\n- **Conditioned Stimulus (CS)**: The previously neutral stimulus that, after pairing with the unconditioned stimulus, triggers a conditioned response (e.g., the bell after conditioning).\n- **Conditioned Response (CR)**: The learned response to the conditioned stimulus (e.g., salivation in response to the bell alone).\n\n## Key Processes\n\nSeveral important processes govern how classical conditioning works:\n\n- **Acquisition**: The initial stage of learning, during which the association between the neutral stimulus and unconditioned stimulus is formed. Timing matters — the neutral stimulus typically needs to precede the unconditioned stimulus for strong conditioning.\n- **Extinction**: When the conditioned stimulus is repeatedly presented without the unconditioned stimulus, the conditioned response gradually weakens and may disappear.\n- **Spontaneous Recovery**: After extinction, a conditioned response may reappear after a rest period when the conditioned stimulus is presented again, suggesting the association is suppressed rather than erased.\n- **Generalization**: The tendency to respond to stimuli that are similar to the conditioned stimulus. For example, a dog conditioned to salivate at a specific tone may also salivate at similar tones.\n- **Discrimination**: The learned ability to distinguish between the conditioned stimulus and other similar stimuli that do not signal the unconditioned stimulus.\n\n## Real-World Examples\n\nClassical conditioning operates in everyday life far more than most people realize:\n\n- **Phobias**: Many fears develop through classical conditioning. A person bitten by a dog may develop a fear response to all dogs, or even to environments where the bite occurred.\n- **Advertising**: Marketers pair products with pleasant stimuli (attractive people, upbeat music, beautiful scenery) so that positive feelings become associated with the brand.\n- **Taste Aversion**: Eating a food followed by nausea (even if caused by something unrelated) can produce a strong, lasting aversion to that food. This is a biologically prepared form of classical conditioning that can occur after just one pairing.\n\n## The Little Albert Experiment\n\nIn 1920, John B. Watson and Rosalie Rayner demonstrated that emotional responses could be classically conditioned in humans. They conditioned a young child known as \"Little Albert\" to fear a white rat by pairing it with a loud, startling noise. The fear generalized to other furry objects. While ethically controversial by modern standards, this experiment was pivotal in showing that classical conditioning extends to human emotional learning.\n\n## Applications in Therapy\n\nClassical conditioning principles underpin several therapeutic techniques. **Systematic desensitization**, developed by Joseph Wolpe, treats phobias by gradually pairing feared stimuli with relaxation responses, effectively replacing the conditioned fear response. **Exposure therapy** relies on extinction by repeatedly presenting the feared stimulus without the negative outcome. **Aversion therapy** pairs undesirable behaviors with unpleasant stimuli to reduce those behaviors.\n\n## Relevance to Habits and Emotional Responses\n\nClassical conditioning helps explain why certain environments, sounds, or smells can trigger powerful emotional reactions or cravings. Understanding these automatic associations is key to managing habits, reducing anxiety, and designing environments that support desired behaviors. It also provides a foundation for understanding more complex forms of learning, including operant conditioning and observational learning.",
+    "tags": [
+        "psychology",
+        "learning",
+        "behaviorism",
+        "cognition",
+        "conditioning"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Pavlovian Conditioning",
+        "Respondent Conditioning"
+    ],
+    "relatedConcepts": [
+        "operant-conditioning",
+        "behaviorism",
+        "habituation",
+        "learning-transfer",
+        "habit-formation",
+        "cognitive-science",
+        "associative-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Classical conditioning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Classical_conditioning",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

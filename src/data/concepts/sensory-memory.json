@@ -1,0 +1,41 @@
+{
+    "id": "sensory-memory",
+    "name": "Sensory Memory",
+    "summary": "The ultra-brief retention of sensory information lasting milliseconds to seconds, serving as the initial stage of memory processing.",
+    "explanation": "Sensory memory is the earliest stage of memory processing, responsible for briefly holding incoming sensory information in a relatively unprocessed form. It acts as a buffer that captures a rich, detailed snapshot of the environment, allowing the cognitive system to select what to attend to and process further. Without sensory memory, our perception of the world would be fragmented and discontinuous.\n\n## The Atkinson-Shiffrin Model\n\nIn the Atkinson-Shiffrin multi-store model of memory (1968), sensory memory is the first of three stages, followed by short-term (working) memory and long-term memory. Information flows from the senses into sensory memory automatically and without conscious effort. Only the portion that receives attention is transferred to working memory for further processing; the rest decays rapidly.\n\n## Types of Sensory Memory\n\nSensory memory operates across different modalities, each with distinct characteristics:\n\n- **Iconic memory** (visual): Retains a brief image of visual stimuli for approximately 250-500 milliseconds. George Sperling's groundbreaking partial report experiments (1960) demonstrated that iconic memory has a large capacity - participants could recall any row of a briefly displayed letter grid if cued immediately, but only a few letters if asked to report the whole display, because the memory faded before they could report everything.\n\n- **Echoic memory** (auditory): Holds auditory information for approximately 3-4 seconds. This longer duration compared to iconic memory explains why we can sometimes \"replay\" something someone just said even if we weren't initially paying attention.\n\n- **Haptic memory** (tactile): Retains tactile sensory information for approximately 2 seconds, allowing us to perceive texture, pressure, and temperature patterns.\n\n## Key Characteristics\n\n- **Large capacity**: Sensory memory can hold a vast amount of information from the environment - far more than can be consciously processed.\n- **Very brief duration**: Information decays within milliseconds to a few seconds if not attended to.\n- **Automatic and pre-attentive**: Sensory memory operates without conscious effort or intention. It captures information before attentional selection occurs.\n- **Modality-specific**: Each sense has its own sensory memory store with distinct temporal characteristics.\n- **High fidelity**: The stored information is a relatively faithful representation of the original sensory input.\n\n## Sperling's Partial Report Experiments\n\nGeorge Sperling's 1960 experiments were pivotal in establishing the existence and properties of iconic memory. He briefly displayed arrays of letters and either asked participants to recall all letters (whole report) or cued them with a tone to recall only one row (partial report). Partial report performance was significantly higher, proving that more information was available in sensory memory than could be reported before it decayed.\n\n## Role as Gateway to Working Memory\n\nSensory memory serves as a critical gateway: it captures everything, but only what we attend to gets promoted to working memory. This selective transfer is governed by attention, meaning that our goals, expectations, and the salience of stimuli all influence what survives beyond sensory memory. This is why you might fail to notice a change in your visual environment if your attention is directed elsewhere (change blindness).\n\n## Practical Implications\n\nUnderstanding sensory memory has practical implications for information design and communication:\n\n- **Presentation timing**: Visual information presented too briefly (below ~250ms) may not be fully processed, while auditory information has a slightly longer window.\n- **Information overload**: Since only attended information transfers to working memory, overwhelming the senses leads to information loss at the earliest stage.\n- **Multimodal design**: Using multiple sensory channels (visual and auditory) can leverage separate sensory memory stores, increasing total information intake.\n- **Animation and transitions**: Smooth visual transitions exploit iconic memory to create perceptions of fluid motion from discrete frames.",
+    "tags": [
+        "memory",
+        "cognition",
+        "psychology",
+        "perception",
+        "neuroscience"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Sensory Register",
+        "Sensory Store"
+    ],
+    "relatedConcepts": [
+        "memory",
+        "working-memory",
+        "perception",
+        "attention-types",
+        "encoding",
+        "selective-attention"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sensory memory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sensory_memory",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "inclusive-design",
+    "name": "Inclusive Design",
+    "summary": "A design methodology that considers the full range of human diversity from the outset, creating products and experiences that work for as many people as possible.",
+    "explanation": "Inclusive design is a methodology and mindset that considers the full spectrum of human diversity throughout the design process. Rather than designing for a narrow \"average\" user and then making accommodations afterward, inclusive design starts by recognizing that every design decision has the potential to include or exclude people.\n\n## Core Principles\n\nMicrosoft's inclusive design framework articulates three foundational principles:\n\n- **Recognize exclusion**: Exclusion happens when we solve problems using our own biases. Recognizing where and how exclusion occurs is the first step toward designing more inclusively.\n- **Solve for one, extend to many**: Designing for people with permanent disabilities creates solutions that benefit a much wider population. This principle acknowledges that designing at the margins creates better experiences for everyone.\n- **Learn from diversity**: Human diversity is a resource for design. People who have been excluded develop expertise in navigating barriers, and their insights drive innovation.\n\n## Distinction from Accessibility and Universal Design\n\nInclusive design, accessibility, and universal design are related but distinct concepts. Accessibility typically focuses on compliance with standards and guidelines (such as WCAG) to ensure people with disabilities can use a product—it is often reactive, applied after initial design. Universal design aims to create one solution that works for everyone, emphasizing the broadest possible usability from the start. Inclusive design is a process and methodology that actively involves diverse perspectives in design decisions, recognizing that a single solution may not work for all and that multiple pathways may be needed.\n\n## The Disability Spectrum: Permanent, Temporary, and Situational\n\nOne of inclusive design's most powerful frameworks is the disability spectrum. Rather than viewing disability as a binary state, inclusive design recognizes three categories:\n\n- **Permanent**: A person with one arm\n- **Temporary**: A person with an arm injury\n- **Situational**: A new parent holding a baby\n\nAll three face similar interaction challenges. Designing for the permanent case naturally addresses the temporary and situational cases as well.\n\n## The Curb Cut Effect\n\nThe curb cut effect demonstrates how designs created for people with disabilities end up benefiting everyone. Curb cuts were originally mandated for wheelchair users but are now used daily by people with strollers, delivery workers, cyclists, and travelers with luggage. Similarly, closed captions designed for deaf users benefit people in noisy environments, non-native speakers, and those who prefer reading. Voice interfaces designed for people with motor disabilities help everyone when their hands are occupied.\n\n## The Inclusive Design Process\n\nInclusive design involves several key practices:\n\n- Including people with diverse abilities, backgrounds, and perspectives as co-designers\n- Creating multiple ways to interact with a product (visual, auditory, tactile)\n- Testing with assistive technologies and diverse user groups\n- Considering the full range of contexts in which a product will be used\n- Iterating based on feedback from excluded communities\n\n## Examples in Practice\n\nNotable examples of inclusive design include closed captions and subtitles, voice interfaces and smart assistants, high-contrast modes and dark themes, flexible text sizing, multimodal navigation (touch, voice, keyboard), and responsive layouts that adapt to different devices and screen sizes.\n\n## Relationship to Neurodiversity\n\nInclusive design extends beyond physical and sensory considerations to cognitive diversity. Designing for neurodiverse users—including those with ADHD, autism, dyslexia, and other cognitive differences—means providing clear information architecture, reducing cognitive load, offering customizable interfaces, and supporting different learning and processing styles.\n\n## The Business Case\n\nBeyond the ethical imperative, inclusive design makes strong business sense. Over one billion people worldwide have some form of disability, and situational and temporary impairments affect virtually everyone. Products designed inclusively reach larger markets, generate higher customer satisfaction, drive innovation through constraint-based problem solving, and often outperform competitors in usability for all users.",
+    "tags": ["design", "inclusion", "accessibility", "techniques", "user-experience"],
+    "category": "Techniques",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": ["Design for All", "Inclusive UX"],
+    "relatedConcepts": ["accessibility", "universal-design", "universal-design-for-learning", "user-centered-design", "ux-design", "neurodiversity", "inclusive-transformation", "human-computer-interaction"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Mismatch: How Inclusion Shapes Design by Kat Holmes",
+            "url": "https://www.amazon.com/dp/0262539489?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Inclusive design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Inclusive_design",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,68 @@
+{
+    "id": "mental-representation",
+    "name": "Mental Representation",
+    "summary": "Internal cognitive symbols, images, or structures that stand for external reality and enable thinking, reasoning, and planning.",
+    "explanation": "A mental representation is an internal cognitive structure that corresponds to, or stands for, some aspect of the external world, an imagined scenario, or an abstract concept. Mental representations are the currency of thought - they are what the mind operates on when we reason, plan, imagine, remember, and make decisions. Without the ability to represent information internally, cognition as we know it would be impossible.\n\n## Types of Mental Representations\n\nCognitive scientists have identified several distinct formats for mental representations:\n\n- **Propositional (symbolic) representations**: Abstract, language-like representations that capture relationships between concepts in a structured format. For example, the proposition LARGER(elephant, mouse) represents the size relationship without any imagery. These representations are amodal - they are not tied to any specific sensory modality.\n\n- **Imagistic (analog) representations**: Representations that preserve the spatial and structural properties of what they represent. Mental images, cognitive maps, and mental models of physical systems fall into this category. They are \"analog\" because they vary continuously, like the things they represent.\n\n- **Distributed (connectionist) representations**: In neural network models, information is represented not by discrete symbols but by patterns of activation across many interconnected units. Meaning emerges from the overall pattern rather than being localized in any single unit.\n\n## The Classical vs. Connectionist Debate\n\nOne of the most significant debates in cognitive science concerns the fundamental nature of mental representations:\n\n- **Classical (symbolic) approach**: Cognition operates on discrete, structured symbols according to rules, much like a computer program. This view, championed by Jerry Fodor and Zenon Pylyshyn, argues that thought has a \"language of thought\" (mentalese) with combinatorial syntax and semantics. It excels at explaining systematic and productive aspects of thought.\n\n- **Connectionist approach**: Mental representations are patterns of activation in neural networks. Learning involves adjusting connection weights rather than manipulating symbols. This approach better captures pattern recognition, graceful degradation, and the graded nature of many cognitive phenomena.\n\nMany contemporary theorists advocate hybrid models that incorporate elements of both approaches.\n\n## Mental Models Theory\n\nPhilip Johnson-Laird's mental models theory proposes that people reason by constructing and manipulating internal models of situations rather than by applying formal logical rules. A mental model represents a possibility - a way the world could be given certain premises or information. Reasoning involves:\n\n1. Constructing an initial model based on available information\n2. Drawing tentative conclusions from the model\n3. Searching for alternative models that might refute the conclusion\n\nThis theory explains many systematic reasoning errors: people tend to construct only one or a few models and often fail to consider alternatives, leading to predictable biases.\n\n## Relationship to Language and Thought\n\nThe connection between mental representations and language raises fundamental questions:\n\n- Does language shape our mental representations (linguistic relativity/Sapir-Whorf hypothesis)?\n- Are some representations pre-linguistic or non-linguistic?\n- How do verbal and non-verbal representations interact during thinking?\n\nResearch suggests that while language is a powerful tool for creating and manipulating representations, many representations are non-linguistic. Infants and non-human animals demonstrate sophisticated representational abilities that precede or exist without language.\n\n## Formation and Updating of Representations\n\nMental representations are not static; they are continuously formed, refined, and updated through:\n\n- **Perception**: Direct sensory experience creates initial representations of the environment\n- **Learning**: Education and experience build increasingly sophisticated and abstract representations\n- **Inference**: New representations can be constructed from existing ones through reasoning\n- **Social transmission**: Language and culture provide shared representational frameworks\n- **Revision**: When predictions fail, representations are updated to better match reality (belief revision)\n\n## Role in Problem Solving and Reasoning\n\nThe way a problem is mentally represented profoundly affects the ease and success of solving it. Classic demonstrations include:\n\n- **Representational change**: Many insight problems require restructuring the initial representation (e.g., the nine-dot problem)\n- **Multiple representations**: Experts often represent problems at a deeper structural level, while novices focus on surface features\n- **External representations**: Diagrams, equations, and models can augment internal representations and make difficult problems tractable\n\n## Challenges from Embodied Cognition\n\nThe embodied cognition perspective challenges traditional views of mental representation by arguing that:\n\n- Cognition is not solely about manipulating abstract internal symbols\n- The body and its interactions with the environment play a constitutive role in thought\n- Many cognitive processes are \"grounded\" in sensorimotor experience rather than being purely abstract\n- Some radical embodied approaches question whether traditional representations are needed at all\n\n## Practical Implications\n\nUnderstanding mental representations has important implications for learning and instruction:\n\n- **Multiple representations improve understanding**: Presenting information in multiple formats (text, diagrams, equations, examples) helps learners build richer, more flexible mental representations\n- **Making representations explicit**: Concept maps, diagrams, and models help externalize and examine mental representations\n- **Representational competence**: The ability to create, interpret, and translate between different representations is a core skill in many domains\n- **Misconceptions**: Faulty mental representations are at the root of many persistent misconceptions in education",
+    "tags": [
+        "cognition",
+        "psychology",
+        "thinking",
+        "philosophy",
+        "neuroscience"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Cognitive Representation",
+        "Internal Representation"
+    ],
+    "relatedConcepts": [
+        "cognitive-science",
+        "mental-imagery",
+        "schema-theory",
+        "embodied-cognition",
+        "representational-thinking",
+        "dual-coding-theory",
+        "connectionism",
+        "computational-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Mental Representations by Stephen Stich",
+            "url": "https://www.amazon.com/dp/0631183027?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Mental representation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mental_representation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

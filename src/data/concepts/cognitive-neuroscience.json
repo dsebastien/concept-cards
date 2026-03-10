@@ -1,0 +1,48 @@
+{
+    "id": "cognitive-neuroscience",
+    "name": "Cognitive Neuroscience",
+    "summary": "The study of how brain structures and neural processes give rise to cognitive functions such as perception, memory, attention, and language.",
+    "explanation": "Cognitive neuroscience is an interdisciplinary field that investigates the biological substrates of cognition\u2014how the physical brain gives rise to mental processes such as perception, attention, memory, language, reasoning, and consciousness. It sits at the intersection of neuroscience and cognitive psychology, combining the tools and theories of both to build a comprehensive understanding of the mind-brain relationship.\n\n## Origins and History\n\nThe term \"cognitive neuroscience\" was coined by Michael Gazzaniga and George Miller in the late 1970s during a taxi ride to a dinner meeting, reflecting their shared conviction that understanding the mind required bridging the gap between cognitive psychology and brain science. Gazzaniga's pioneering split-brain research\u2014studying patients whose corpus callosum had been severed to treat epilepsy\u2014demonstrated that the two hemispheres of the brain could process information independently, providing dramatic evidence that specific brain structures support specific cognitive functions.\n\nThe field gained enormous momentum with the development of non-invasive neuroimaging technologies in the 1980s and 1990s, which allowed researchers to observe the living brain at work during cognitive tasks.\n\n## Research Methods\n\nCognitive neuroscience relies on a diverse set of methodological approaches:\n\n- **Functional magnetic resonance imaging (fMRI)** measures changes in blood oxygenation to map brain activity with high spatial resolution, revealing which brain regions are engaged during specific cognitive tasks.\n- **Electroencephalography (EEG)** records electrical activity at the scalp with millisecond precision, capturing the rapid temporal dynamics of neural processing.\n- **Positron emission tomography (PET)** uses radioactive tracers to measure metabolic activity and neurotransmitter function in the brain.\n- **Transcranial magnetic stimulation (TMS)** uses magnetic pulses to temporarily disrupt or enhance activity in specific brain regions, providing causal evidence about brain-behavior relationships.\n- **Neuropsychological studies** of patients with brain lesions reveal what cognitive abilities are lost or preserved when specific brain areas are damaged.\n\n## Key Findings\n\nDecades of research in cognitive neuroscience have produced landmark discoveries linking brain regions to cognitive functions:\n\n- The **prefrontal cortex** plays a central role in executive functions, working memory, planning, and decision-making.\n- The **hippocampus** is critical for the formation and consolidation of new episodic and spatial memories.\n- The **fusiform face area** is specialized for face recognition, and damage to this region produces prosopagnosia (face blindness).\n- **Broca's area** and **Wernicke's area** in the left hemisphere are crucial for language production and comprehension, respectively.\n- The **parietal cortex** supports spatial attention and the integration of sensory information.\n- The **amygdala** modulates emotional processing and the emotional enhancement of memory.\n\nBeyond localization, cognitive neuroscience has revealed that cognition emerges from the dynamic interaction of distributed neural networks rather than isolated brain regions. Modern network neuroscience emphasizes functional connectivity and how information flows between brain areas.\n\n## Clinical Applications\n\nCognitive neuroscience has significant clinical implications. It informs the diagnosis and treatment of conditions such as Alzheimer's disease, attention deficit hyperactivity disorder (ADHD), traumatic brain injury, aphasia, and various psychiatric disorders. Understanding the neural basis of cognitive functions helps clinicians develop targeted interventions and rehabilitation strategies. It also contributes to the development of brain-computer interfaces, neurofeedback therapies, and cognitive enhancement techniques.\n\n## Broader Impact\n\nThe insights from cognitive neuroscience extend into education (how the brain learns best), law (the reliability of eyewitness memory), economics (neural basis of decision-making), and artificial intelligence (biologically inspired computing). As neuroimaging technologies continue to improve and computational models become more sophisticated, cognitive neuroscience is poised to yield ever deeper insights into the neural architecture of the human mind.",
+    "tags": [
+        "neuroscience",
+        "cognition",
+        "brain",
+        "psychology",
+        "research"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Brain and Cognition"
+    ],
+    "relatedConcepts": [
+        "neuroscience",
+        "cognitive-science",
+        "cognitive-psychology",
+        "consciousness",
+        "prefrontal-cortex",
+        "hippocampus",
+        "working-memory",
+        "executive-functions",
+        "neural-correlates-of-consciousness"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Cognitive Neuroscience: The Biology of the Mind by Michael Gazzaniga",
+            "url": "https://www.amazon.com/dp/0393603172?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cognitive neuroscience - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_neuroscience",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

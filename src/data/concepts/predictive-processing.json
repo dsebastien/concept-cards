@@ -1,0 +1,47 @@
+{
+    "id": "predictive-processing",
+    "name": "Predictive Processing",
+    "summary": "A framework proposing that the brain constantly generates and updates predictions about incoming sensory data, with perception driven by prediction errors.",
+    "explanation": "Predictive processing is a theoretical framework in neuroscience and cognitive science proposing that the brain is fundamentally a prediction machine. Rather than passively receiving and processing sensory input, the brain continuously generates top-down predictions about what it expects to perceive, and then compares those predictions against actual incoming sensory data. Perception, in this view, is not a bottom-up construction from raw sense data but a process of refining internal models to minimize prediction errors.\n\n## The Free Energy Principle\n\nKarl Friston's free energy principle provides the mathematical foundation for predictive processing. It proposes that biological systems maintain themselves by minimizing free energy—a quantity from information theory that, in this context, roughly corresponds to prediction error or \"surprise.\" According to Friston, all adaptive behavior can be understood as an organism's attempt to minimize the discrepancy between its internal model of the world and actual sensory input. This unifying principle encompasses perception, action, learning, and even the evolution of biological systems.\n\n## Hierarchical Predictive Processing\n\nThe brain is organized hierarchically, with each level generating predictions about the activity of the level below. Higher cortical areas send top-down predictions to lower areas, which compare those predictions against incoming sensory signals. When a prediction matches the input, the signal is \"explained away\" and does not propagate further. When there is a mismatch, the resulting prediction error signal is sent upward to update the internal model. This creates a bidirectional cascade: top-down predictions flow down the cortical hierarchy while bottom-up prediction errors flow up, with the brain constantly adjusting its generative model to improve its predictions.\n\n## Precision Weighting and Attention\n\nNot all prediction errors are treated equally. The brain assigns a weight to each error signal based on its estimated reliability or \"precision.\" Attention, in the predictive processing framework, is understood as the mechanism that adjusts precision weighting—attending to something means increasing the gain on prediction errors from that source, making them more influential in updating internal models. This elegantly explains why attention enhances perception: attended signals carry more weight in the brain's inferential process.\n\n## Illusions, Hallucinations, and Psychopathology\n\nPredictive processing provides powerful explanations for a range of perceptual phenomena. Visual illusions occur when strong prior predictions override weak or ambiguous sensory data. Hallucinations can be understood as cases where top-down predictions become so dominant that they generate perceptual experiences in the absence of corresponding sensory input. This framework has been applied to understanding clinical conditions: anxiety may involve chronically heightened precision on threat-related prediction errors, autism may involve reduced reliance on prior predictions (leading to sensory overwhelm), and psychosis may involve aberrant precision weighting that causes the brain to treat noise as meaningful signal.\n\n## Active Inference\n\nPredictive processing extends beyond passive perception through the concept of active inference. Rather than only updating internal models to match sensory input, organisms can also act on the world to make sensory input match their predictions. When you reach for a cup of coffee, your brain has predicted the sensory consequences of that action; your motor system then executes movements to fulfill those predictions. This reframes action not as a separate process from perception but as another way of minimizing prediction error—by changing the world rather than changing the model.\n\n## Learning as Surprise Minimization\n\nIn the predictive processing framework, learning is driven by prediction errors. When the brain encounters something unexpected, the resulting surprise signal triggers model updating. Over time, the brain builds increasingly sophisticated generative models that produce better predictions and fewer errors. This accounts for why novelty captures attention, why repetition leads to habituation, and why the most informative experiences are those that violate expectations.\n\n## Relationship to the Bayesian Brain Hypothesis\n\nPredictive processing is closely related to the Bayesian brain hypothesis, which proposes that the brain performs approximate Bayesian inference—combining prior beliefs with incoming evidence to form posterior estimates of the state of the world. Predictive processing can be seen as a neurally plausible implementation of Bayesian inference, with hierarchical message passing serving as the mechanism through which priors and likelihoods are combined.\n\n## Connection to Embodied Cognition\n\nPredictive processing bridges traditional computational approaches to the mind with embodied and enactive perspectives. Because active inference emphasizes that organisms are always acting within and upon their environment, it naturally incorporates the insight that cognition is deeply shaped by bodily and environmental context. The brain's predictions are not abstract symbol manipulations but are grounded in sensorimotor contingencies—expectations about how actions will change sensory input.",
+    "tags": [
+        "neuroscience",
+        "cognition",
+        "perception",
+        "psychology",
+        "philosophy"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Predictive Coding",
+        "Predictive Brain"
+    ],
+    "relatedConcepts": [
+        "cognitive-science",
+        "perception",
+        "cognitive-neuroscience",
+        "embodied-cognition",
+        "schema-theory",
+        "attention-types",
+        "interoception"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Surfing Uncertainty by Andy Clark",
+            "url": "https://www.amazon.com/dp/0190933216?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Predictive coding - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Predictive_coding",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

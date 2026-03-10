@@ -1,0 +1,72 @@
+{
+    "id": "synaptic-plasticity",
+    "name": "Synaptic Plasticity",
+    "summary": "The ability of synapses to strengthen or weaken over time in response to activity, forming the neural basis of learning and memory.",
+    "explanation": "Synaptic Plasticity refers to the capacity of synapses — the junctions between neurons — to change their strength in response to patterns of activity. This dynamic property of the nervous system is widely regarded as the fundamental mechanism underlying learning, memory formation, and adaptive behavior. Without synaptic plasticity, the brain would be a static organ incapable of encoding new experiences.\n\n## Hebb's Rule\n\nThe foundational principle of synaptic plasticity was articulated by Donald Hebb in 1949: 'Neurons that fire together, wire together.' When two connected neurons are repeatedly activated at the same time, the synapse between them becomes stronger, making future co-activation more likely. This associative learning rule explains how the brain forms connections between related concepts, sensory inputs, and motor responses.\n\n## Long-Term Potentiation (LTP) and Long-Term Depression (LTD)\n\nLong-Term Potentiation is the persistent strengthening of a synapse following repeated stimulation. Discovered in the hippocampus, LTP is considered a primary cellular mechanism for learning and memory. Conversely, Long-Term Depression is the weakening of a synapse that occurs when stimulation patterns are insufficient or poorly timed. Together, LTP and LTD allow the brain to both encode new information and prune outdated or irrelevant connections, maintaining a balance between stability and flexibility.\n\n## Role in Learning, Memory, and Skill Acquisition\n\nEvery time you learn a new fact, acquire a new skill, or form a new habit, synaptic plasticity is at work. Repeated practice strengthens the relevant neural pathways, making retrieval faster and more automatic. This is why distributed practice (spaced repetition) is more effective than cramming — it provides repeated opportunities for LTP to consolidate the connections. Skill acquisition in music, sports, and language all depend on the gradual strengthening of specific synaptic circuits.\n\n## Experience-Dependent Plasticity\n\nThe brain's synaptic architecture is continuously shaped by experience. Enriched environments with diverse sensory stimulation promote greater synaptic density, while deprivation can lead to synaptic pruning. This experience-dependent plasticity means that what you do, learn, and attend to physically reshapes your brain's wiring over time.\n\n## Critical Periods\n\nCertain types of synaptic plasticity are especially pronounced during critical periods in development — windows of time when the brain is maximally receptive to specific types of input. Language acquisition, visual development, and social bonding all have critical periods where synaptic plasticity is heightened. While the brain retains significant plasticity throughout life, these early windows represent periods of exceptional malleability.\n\n## Implications for Education and Cognitive Rehabilitation\n\nUnderstanding synaptic plasticity has profound implications for how we approach education and recovery from brain injury. Active engagement, repetition with variation, and spaced practice all leverage synaptic plasticity mechanisms. In cognitive rehabilitation, targeted exercises can help rewire damaged circuits by promoting compensatory synaptic connections. The brain's lifelong capacity for synaptic change provides a foundation for optimism about learning at any age and recovery from neurological damage.",
+    "tags": [
+        "neuroscience",
+        "learning",
+        "memory",
+        "brain",
+        "cognition"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Neural Plasticity",
+        "Synaptic Strength"
+    ],
+    "relatedConcepts": [
+        "neuroplasticity",
+        "neuroscience",
+        "memory-consolidation",
+        "learning-transfer",
+        "habituation",
+        "cognitive-neuroscience",
+        "neurotransmitters"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Brain That Changes Itself by Norman Doidge",
+            "url": "https://www.amazon.com/dp/0143113100?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Synaptic plasticity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Synaptic_plasticity",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

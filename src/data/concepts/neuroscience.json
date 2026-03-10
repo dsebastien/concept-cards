@@ -1,0 +1,52 @@
+{
+    "id": "neuroscience",
+    "name": "Neuroscience",
+    "summary": "The scientific study of the nervous system, encompassing the brain, spinal cord, and neural networks that underlie behavior and cognition.",
+    "explanation": "Neuroscience is the scientific study of the nervous system, from the molecular and cellular level to the complex neural circuits that give rise to behavior, cognition, and consciousness. It is one of the most rapidly advancing fields in modern science, drawing on biology, chemistry, physics, mathematics, computer science, and psychology to understand how the brain and nervous system function.\n\n## Historical Foundations\n\nThe modern era of neuroscience began with Santiago Ram\u00f3n y Cajal, often called the father of modern neuroscience, whose meticulous drawings of neurons in the late 19th century established the neuron doctrine\u2014the principle that individual nerve cells are the fundamental structural and functional units of the nervous system. This was a revolutionary departure from the earlier reticular theory, which held that the nervous system was a continuous network. Cajal shared the 1906 Nobel Prize in Physiology or Medicine with Camillo Golgi, whose staining technique made Cajal's observations possible.\n\n## Major Subfields\n\nNeuroscience encompasses a wide range of subfields, each focusing on different levels of analysis:\n\n- **Molecular neuroscience** investigates the molecular biology of neurons, including neurotransmitter synthesis, receptor function, and gene expression in the nervous system.\n- **Cellular neuroscience** studies the properties and functions of individual neurons and glial cells, including how they generate and transmit electrical signals.\n- **Systems neuroscience** examines how neural circuits and brain regions work together to produce complex functions such as sensory processing, motor control, and homeostasis.\n- **Cognitive neuroscience** bridges neuroscience and psychology, investigating the neural basis of higher-order functions like attention, memory, language, and decision-making.\n- **Computational neuroscience** uses mathematical models and computer simulations to understand neural computation and information processing in the brain.\n- **Clinical neuroscience** applies neuroscientific knowledge to understand and treat neurological and psychiatric disorders, including Alzheimer's disease, Parkinson's disease, epilepsy, depression, and schizophrenia.\n\n## Research Methods\n\nNeuroscientists employ a diverse toolkit of methods:\n\n- **Neuroimaging** techniques such as functional magnetic resonance imaging (fMRI), positron emission tomography (PET), and magnetoencephalography (MEG) allow researchers to observe brain activity in living humans.\n- **Electrophysiology** methods, including electroencephalography (EEG) and single-unit recordings, measure the electrical activity of neurons with high temporal precision.\n- **Lesion studies** examine how damage to specific brain areas affects behavior, providing causal evidence about brain-behavior relationships.\n- **Optogenetics** and **chemogenetics** enable precise manipulation of specific neural populations using light or chemical compounds.\n- **Molecular and genetic techniques** allow researchers to study gene expression, protein function, and cellular mechanisms in the nervous system.\n\n## Key Discoveries\n\nNeuroscience has produced transformative discoveries that have reshaped our understanding of ourselves. These include the identification of neurotransmitters and their roles in mood and behavior, the discovery of neuroplasticity\u2014the brain's ability to reorganize itself throughout life\u2014the mapping of sensory and motor cortices, the elucidation of memory consolidation processes involving the hippocampus, and the identification of mirror neurons that may underlie social cognition and empathy.\n\n## Relevance and Impact\n\nUnderstanding the nervous system has profound implications for mental health, education, artificial intelligence, and our fundamental understanding of human nature. Neuroscience informs treatments for neurological and psychiatric conditions, guides the design of educational practices grounded in how the brain learns, and inspires computational approaches in AI. It also raises important philosophical questions about free will, consciousness, and personal identity. As tools and techniques continue to advance, neuroscience promises to deepen our understanding of the most complex organ in the known universe\u2014the human brain.",
+    "tags": [
+        "neuroscience",
+        "brain",
+        "cognition",
+        "biology",
+        "research"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Brain Science",
+        "Neural Science"
+    ],
+    "relatedConcepts": [
+        "cognitive-neuroscience",
+        "affective-neuroscience",
+        "neuroplasticity",
+        "cognitive-science",
+        "consciousness",
+        "prefrontal-cortex",
+        "amygdala",
+        "hippocampus",
+        "dopamine",
+        "serotonin",
+        "neurotransmitters",
+        "mirror-neurons"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Principles of Neural Science by Eric Kandel",
+            "url": "https://www.amazon.com/dp/1259642232?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Neuroscience - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neuroscience",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}
