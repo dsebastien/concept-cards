@@ -1,8 +1,8 @@
 {
     "id": "forcing-function",
     "name": "Forcing Function",
-    "summary": "Constraints or mechanisms that compel specific behaviors or outcomes.",
-    "explanation": "A Forcing Function is any mechanism, commitment, or constraint that compels you to take action or behave in a certain way. Examples include: deadlines (forcing completion), public commitments (forcing follow-through), and physical environment design (forcing behaviors). In PKM, periodic reviews are forcing functions for processing notes. The power of forcing functions is that they remove the need for willpower - the structure itself drives the behavior.",
+    "summary": "Any mechanism, constraint, or design element that compels a specific behavior or outcome, removing the need for willpower by making the desired action the path of least resistance.",
+    "explanation": "A Forcing Function is any mechanism, commitment, or structural constraint that compels you to take action or behave in a certain way. The term originates from engineering and design, where it refers to a feature that prevents unintended or undesirable actions—like a microwave that stops when you open the door, or a car that won't shift out of park without pressing the brake.\n\n## Types of forcing functions\n\n### Structural\nPhysical or environmental designs that make certain behaviors unavoidable or impossible to skip:\n- Checklists that must be completed before proceeding\n- Software that requires saving before closing\n- Meeting agendas that enforce time limits per topic\n- Inbox-zero policies that force daily email processing\n\n### Temporal\nTime-based constraints that compel action:\n- Deadlines (forcing completion)\n- Timeboxes (forcing decisions within fixed periods)\n- Parkinson's Law in reverse—setting artificially tight timelines to prevent work expansion\n- Ship dates announced publicly before the product is ready\n\n### Social\nCommitments to others that create accountability:\n- Public announcements of goals\n- Accountability partners\n- Team stand-ups that force progress reporting\n- Publishing schedules that force content creation\n\n### Financial\nMonetary consequences that drive behavior:\n- Deposits that are forfeited if commitments aren't met\n- Contracts with penalties for missed milestones\n- Subscriptions that go to waste if unused\n\n### Cognitive\nDesigns that eliminate the need for decision-making:\n- Default settings that guide behavior\n- Pre-commitment strategies (deciding in advance)\n- Routines and rituals that automate initiation\n\n## Why forcing functions work\n\nForcing functions are powerful because they bypass the two biggest obstacles to action: decision fatigue and willpower depletion. Instead of relying on motivation or discipline, they make the desired behavior the easiest—or only—option. They externalize self-control, embedding it in the environment or system rather than depending on internal resolve.\n\n## In PKM and knowledge work\n\nForcing functions are particularly valuable for knowledge workers because knowledge work is inherently self-directed:\n- Periodic reviews force note processing and system maintenance\n- Publishing commitments force synthesis and articulation of ideas\n- Teaching engagements force deep understanding of material\n- Weekly planning sessions force prioritization\n\n## Designing effective forcing functions\n\n- **Make them unavoidable**: The best forcing functions cannot be easily bypassed\n- **Align with goals**: Ensure the forced behavior actually serves your objectives\n- **Right intensity**: Too weak and they are ignored; too strong and they create resentment\n- **Build in gradually**: Start with gentle forcing functions before escalating\n- **Review regularly**: Forcing functions that outlive their purpose become friction",
     "tags": [
         "habits",
         "principles",
@@ -13,13 +13,26 @@
     "icon": "FaCompressArrowsAlt",
     "featured": false,
     "aliases": [
-        "Behavior forcing",
-        "Commitment device"
+        "Behavior Forcing",
+        "Forcing Mechanism"
     ],
     "relatedConcepts": [
         "habit-loop",
         "periodic-reviews",
-        "systems-thinking"
+        "systems-thinking",
+        "pre-commitment",
+        "ulysses-contract",
+        "deadline-effect",
+        "parkinson-law",
+        "accountability-partner",
+        "implementation-intentions",
+        "nudge-theory",
+        "choice-architecture",
+        "default-effect",
+        "skin-in-the-game",
+        "time-blocking",
+        "creative-constraints",
+        "burning-the-boats"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Forcing+function"

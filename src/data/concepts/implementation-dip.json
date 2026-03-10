@@ -1,0 +1,82 @@
+{
+    "id": "implementation-dip",
+    "name": "Implementation Dip",
+    "summary": "The predictable drop in performance that occurs when organizations or individuals adopt new practices before mastery is achieved.",
+    "explanation": "The Implementation Dip is the well-documented phenomenon where performance temporarily declines after introducing a new process, technology, or practice—even when the new approach is objectively superior to the old one. This dip is not a sign of failure; it is the natural cost of transition.\n\n## Why the dip happens\n\nSeveral factors converge to create the implementation dip:\n\n- **Lost automaticity**: Old processes were performed on autopilot. New ones require conscious attention, which is slower and more error-prone.\n- **Incomplete knowledge**: Users haven't yet learned all the nuances, shortcuts, and workarounds that made the old system efficient.\n- **System disruption**: Interconnected workflows break when one component changes, even if the new component is better in isolation.\n- **Emotional resistance**: Frustration with the unfamiliar creates cognitive load that further reduces performance.\n- **Parallel running**: During transition periods, people often maintain both old and new systems simultaneously, doubling the workload.\n\n## The danger zone\n\nThe implementation dip is dangerous because it provides ammunition for resistance:\n- Critics point to declining metrics as proof the change was wrong\n- Decision-makers face pressure to reverse course\n- Participants lose confidence in the new approach\n- The organization may abandon the change right before the benefits would have materialized\n\nThis creates a perverse pattern where organizations repeatedly start changes, experience the dip, reverse course, and then try something else—never staying with anything long enough to get through the transition.\n\n## Managing through the dip\n\n- **Set expectations**: Communicate upfront that a temporary performance decline is expected and normal\n- **Define duration**: Estimate how long the dip will last based on similar transitions\n- **Protect the team**: Shield implementers from pressure to show immediate improvements\n- **Track leading indicators**: Identify early signals of progress that precede performance recovery (adoption rates, error reduction trends, user confidence)\n- **Provide support**: Increase training, coaching, and resources during the transition period\n- **Celebrate milestones**: Acknowledge progress through the dip, not just final outcomes\n\n## In education\n\nThe concept was notably explored by Michael Fullan in educational change literature, where curriculum reforms consistently show an initial performance dip before improvements emerge. Schools that abandon reforms during the dip never see the returns, creating a cycle of initiative fatigue.\n\n## Relationship to other concepts\n\nThe implementation dip is a specific instance of the broader J-curve effect applied to organizational and personal change. Understanding it helps leaders maintain commitment during the predictable period when new initiatives look like they are failing.",
+    "tags": [
+        "change-management",
+        "strategies",
+        "productivity",
+        "growth"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Performance Dip",
+        "Transition Dip"
+    ],
+    "relatedConcepts": [
+        "j-curve-effect",
+        "the-dip",
+        "change-management",
+        "psychology-of-change",
+        "switching-costs",
+        "temporary-incompetence",
+        "learning-curve",
+        "lippitt-knoster-change-model"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Implementation dip - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Implementation_dip",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "The New Meaning of Educational Change by Michael Fullan",
+            "url": "https://www.amazon.com/dp/0807761370?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,8 +1,8 @@
 {
     "id": "shared-vision",
     "name": "Shared Vision",
-    "summary": "A common understanding of the future that a team wants to create together, serving as a powerful tool for alignment and motivation.",
-    "explanation": "A shared vision is a common understanding of the future that the team wants to create. It is a powerful tool for aligning the team's efforts and motivating them to work towards a common goal. A shared vision helps to create a sense of purpose and direction, and it can inspire the team to achieve great things.\n\nCreating a shared vision is an essential part of the role of a leader. It requires the leader to communicate the vision clearly and consistently, and to involve the team in shaping the vision. A shared vision should be ambitious, but also realistic and achievable. It should be challenging, but also motivating and inspiring. It should be specific, but also flexible and adaptable.",
+    "summary": "A collectively held picture of the future that members of a group genuinely want to create together, generating intrinsic commitment rather than mere compliance.",
+    "explanation": "Shared Vision is one of Peter Senge's five disciplines of a learning organization, and arguably the one that gives the other disciplines their purpose. It is not simply a vision imposed by a leader that others follow—it is a picture of the future that emerges from and is genuinely embraced by the members of a group, creating commitment rather than compliance.\n\n## Vision vs. shared vision\n\nA personal vision is powerful but limited in scope. A shared vision multiplies that power by aligning the energy and aspirations of many people toward a common future. The critical distinction is how the vision is held:\n\n- **Compliance**: 'I'll do what's asked because I have to' — the vision belongs to someone else\n- **Enrollment**: 'I want this and I'll work within the system to achieve it' — the vision resonates\n- **Commitment**: 'I'll create whatever structures are needed to make this real' — the vision is mine too\n\nTrue shared vision produces commitment. Most organizational visions produce, at best, enrollment.\n\n## How shared visions emerge\n\nShared visions rarely come from strategic planning exercises. They grow from personal visions—when individuals share what they truly care about and discover common aspirations. The leader's role is not to dictate the vision but to:\n\n- Share their own personal vision authentically, inviting rather than imposing\n- Listen deeply to others' visions and find the common threads\n- Create conditions where honest dialogue about aspirations is safe\n- Allow the vision to evolve as understanding deepens\n\n## Why shared vision matters\n\n- **Intrinsic motivation**: People work harder and more creatively for something they genuinely want, not something they are told to want\n- **Creative tension**: A compelling shared vision creates productive tension between current reality and the desired future, generating energy for change\n- **Resilience**: Teams with genuine shared vision persist through setbacks because commitment runs deeper than compliance\n- **Alignment without control**: Shared vision coordinates action without requiring micromanagement—people make decisions consistent with the vision autonomously\n- **Learning catalyst**: A shared vision gives the learning organization its direction and purpose for learning\n\n## Common pitfalls\n\n- **Top-down imposition**: Announcing a vision and demanding buy-in destroys the very conditions needed for genuine shared vision\n- **Vague platitudes**: Visions so generic they could apply to any organization ('be the best') inspire no one\n- **Vision without current reality**: Without honest assessment of where things stand, vision becomes fantasy rather than fuel for creative tension\n- **Confusing vision with goals**: Goals are specific targets; vision is the larger picture of what the organization aspires to become\n- **One-time event**: Treating vision creation as a workshop exercise rather than an ongoing conversation\n\n## Building shared vision in practice\n\nBuilding shared vision is a continuous process, not a one-time event. It requires ongoing dialogue, the psychological safety to share authentic aspirations, and leaders who model vulnerability by sharing their own personal visions before asking others to share theirs. The strongest shared visions connect to something larger than the organization itself—a contribution to the world that gives work meaning beyond profit or performance.",
     "tags": [
         "leadership",
         "teamwork",
@@ -13,7 +13,7 @@
     "category": "Principles",
     "icon": "FaCompass",
     "featured": false,
-    "aliases": [],
+    "aliases": ["Collective Vision"],
     "relatedConcepts": [
         "company-vision",
         "company-mission",
@@ -21,13 +21,27 @@
         "purpose-driven-organization",
         "strategic-alignment",
         "visionary-leadership",
-        "learning-organization"
+        "learning-organization",
+        "personal-mastery",
+        "creative-tension",
+        "team-learning",
+        "buy-in",
+        "psychological-safety",
+        "shared-understanding",
+        "systems-thinking",
+        "transformational-leadership"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Shared+vision"
     ],
     "articles": [],
+    "books": [{"title": "The Fifth Discipline by Peter Senge", "url": "https://www.amazon.com/dp/0385517254?tag=dsebastien00-20"}],
     "references": [
+        {
+            "title": "Shared vision - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shared_vision",
+            "type": "website"
+        },
         {
             "title": "Clarity 101 Workshop",
             "url": "https://store.dsebastien.net/product/clarity-101",
@@ -46,5 +60,5 @@
     ],
     "tutorials": [],
     "datePublished": "2025-12-26",
-    "dateModified": "2026-01-29"
+    "dateModified": "2026-03-10"
 }
