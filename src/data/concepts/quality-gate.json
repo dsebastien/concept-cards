@@ -1,0 +1,68 @@
+{
+    "id": "quality-gate",
+    "name": "Quality Gate",
+    "summary": "A checkpoint in a development or project process where predefined criteria must be met before proceeding to the next phase.",
+    "explanation": "A Quality Gate is a formal checkpoint that enforces a set of conditions or criteria that must be satisfied before work can advance to the next stage. Originally from manufacturing and project management, the concept has been widely adopted in software development.\n\nHow Quality Gates work:\n\n1. **Define criteria** - Establish measurable pass/fail conditions for each gate\n2. **Automate checks** - Use tools to evaluate criteria automatically where possible\n3. **Review results** - Assess whether all conditions are met\n4. **Go/No-Go decision** - Either proceed, rework, or escalate\n\nCommon Quality Gates in software development:\n\n- **Code commit gate** - Linting, formatting, and pre-commit hooks pass\n- **Pull request gate** - Code review approved, tests pass, coverage thresholds met\n- **Build gate** - Compilation succeeds, static analysis passes, no critical issues\n- **Release gate** - Integration tests pass, performance benchmarks met, security scan clean\n- **Deployment gate** - Staging environment verified, rollback plan in place\n\nBenefits:\n\n- Catches defects early before they propagate downstream\n- Enforces consistent quality standards across teams\n- Provides clear, objective pass/fail criteria\n- Creates accountability and visibility into quality metrics\n- Reduces cost of fixing issues found late in the process\n\nTools like SonarQube, Jenkins, GitHub Actions, and GitLab CI/CD can enforce Quality Gates automatically in CI/CD pipelines. The key is finding the right balance: too few gates let defects through, while too many gates slow delivery and frustrate teams.\n\nAnti-patterns:\n\n- Gates so strict that teams game the metrics rather than improve quality\n- Manual-only gates that become bottlenecks\n- Gates without clear ownership or escalation paths\n- Ignoring gate failures under deadline pressure",
+    "tags": [
+        "quality",
+        "software-engineering",
+        "processes",
+        "automation",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Quality Checkpoint",
+        "Phase Gate",
+        "Stage Gate"
+    ],
+    "relatedConcepts": [
+        "definition-of-done",
+        "definition-of-ready",
+        "code-review",
+        "continuous-integration",
+        "continuous-deployment",
+        "static-analysis",
+        "code-coverage",
+        "shift-left",
+        "continuous-inspection",
+        "technical-debt",
+        "acceptance-criteria",
+        "total-quality-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Continuous Delivery by Jez Humble and David Farley",
+            "url": "https://www.amazon.com/dp/0321601912?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Quality gate - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quality_gate",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

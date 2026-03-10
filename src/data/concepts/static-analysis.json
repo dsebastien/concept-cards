@@ -1,0 +1,90 @@
+{
+    "id": "static-analysis",
+    "name": "Static Analysis",
+    "summary": "The automated examination of source code without executing it to find potential bugs, vulnerabilities, and quality issues.",
+    "explanation": "Static Analysis is the process of analyzing source code without running it to detect potential defects, security vulnerabilities, coding standard violations, and design issues. Unlike dynamic analysis (which examines running programs), static analysis works on the code itself.\n\nTypes of static analysis:\n\n1. **Syntactic analysis** - Checks code structure and formatting (linters like ESLint, Pylint)\n2. **Semantic analysis** - Detects logical errors, type mismatches, null dereferences\n3. **Data flow analysis** - Tracks how data moves through code to find issues like uninitialized variables\n4. **Control flow analysis** - Examines execution paths to find unreachable code or infinite loops\n5. **Security analysis** - Identifies vulnerabilities like SQL injection, XSS, buffer overflows (SAST tools)\n\nWhat static analysis catches:\n\n- Null pointer dereferences\n- Resource leaks (memory, file handles)\n- Race conditions and concurrency bugs\n- Security vulnerabilities (OWASP Top 10)\n- Code duplication\n- Cyclomatic complexity violations\n- Dead code\n- Style and convention violations\n\nPopular tools:\n\n- **General purpose** - SonarQube, Codacy, CodeClimate\n- **Language-specific** - ESLint (JavaScript), Pylint (Python), RuboCop (Ruby), Clippy (Rust)\n- **Security-focused** - Semgrep, Checkmarx, Fortify\n- **Type checkers** - TypeScript, mypy, Flow\n\nStatic analysis is most effective when integrated into CI/CD pipelines as quality gates, catching issues before they reach code review or production. The key trade-off is between thoroughness and false positive rates — overly aggressive rules cause alert fatigue.",
+    "tags": [
+        "quality",
+        "software-engineering",
+        "automation",
+        "security",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaSearchPlus",
+    "featured": false,
+    "aliases": [
+        "Static Code Analysis",
+        "SAST",
+        "Static Application Security Testing"
+    ],
+    "relatedConcepts": [
+        "code-review",
+        "quality-gate",
+        "continuous-inspection",
+        "code-smell",
+        "technical-debt",
+        "code-coverage",
+        "cyclomatic-complexity",
+        "shift-left",
+        "continuous-integration"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Code by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0132350882?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Static program analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Static_program_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

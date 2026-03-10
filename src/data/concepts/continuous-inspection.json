@@ -1,0 +1,65 @@
+{
+    "id": "continuous-inspection",
+    "name": "Continuous Inspection",
+    "summary": "The practice of automatically and continuously analyzing code quality throughout the development lifecycle rather than only at specific checkpoints.",
+    "explanation": "Continuous Inspection is the ongoing, automated evaluation of code quality, security, and maintainability as part of the development workflow. Rather than performing quality checks only at discrete milestones, it integrates analysis into every stage of the development process.\n\nHow Continuous Inspection works:\n\n1. **IDE integration** - Real-time feedback as developers write code (linting, type checking)\n2. **Pre-commit hooks** - Automated checks before code is committed locally\n3. **Pull request analysis** - Automated review comments on new/changed code\n4. **CI pipeline scans** - Full analysis on every build\n5. **Dashboard monitoring** - Ongoing tracking of quality trends and technical debt\n\nKey metrics tracked:\n\n- Code duplication percentage\n- Cyclomatic complexity\n- Code coverage trends\n- Security vulnerability count\n- Code smell density\n- Technical debt ratio\n- Maintainability rating\n\nThe 'Clean as You Code' approach:\n\nPopularized by SonarQube, this philosophy focuses quality gates on new code only. Instead of trying to fix all existing issues at once, teams ensure that every new addition meets high standards. Over time, the overall codebase quality improves naturally as new clean code replaces old problematic code.\n\nBenefits:\n\n- Issues caught when context is fresh and fixes are cheap\n- Quality trends visible over time, not just at checkpoints\n- Consistent standards applied automatically\n- Reduces technical debt accumulation\n- Complements but doesn't replace human code review\n\nTools: SonarQube/SonarCloud, Codacy, CodeClimate, Snyk, DeepSource, Semgrep.",
+    "tags": [
+        "quality",
+        "software-engineering",
+        "automation",
+        "devops",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Continuous Code Quality",
+        "Clean as You Code"
+    ],
+    "relatedConcepts": [
+        "quality-gate",
+        "static-analysis",
+        "code-review",
+        "continuous-integration",
+        "technical-debt",
+        "code-coverage",
+        "code-smell",
+        "cyclomatic-complexity",
+        "shift-left",
+        "kaizen"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Continuous inspection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Continuous_inspection",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -37,7 +37,11 @@
         "social-debt",
         "cultural-debt",
         "design-debt",
-        "security-debt"
+        "security-debt",
+        "quality-gate",
+        "continuous-inspection",
+        "static-analysis",
+        "cyclomatic-complexity"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Technical+debt"

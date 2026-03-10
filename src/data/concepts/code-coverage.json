@@ -1,0 +1,64 @@
+{
+    "id": "code-coverage",
+    "name": "Code Coverage",
+    "summary": "A metric that measures the percentage of source code executed during automated testing.",
+    "explanation": "Code Coverage is a software quality metric that quantifies how much of a program's source code is exercised by its test suite. It helps identify untested areas and serves as one indicator of test thoroughness.\n\nTypes of coverage:\n\n1. **Line coverage** - Percentage of code lines executed\n2. **Branch coverage** - Percentage of decision branches (if/else) taken\n3. **Function coverage** - Percentage of functions called\n4. **Statement coverage** - Percentage of statements executed\n5. **Condition coverage** - Whether each boolean sub-expression has been evaluated to both true and false\n6. **Path coverage** - Percentage of possible execution paths tested (often impractical for complex code)\n\nCommon thresholds:\n\n- 80% is a widely used minimum target\n- Critical systems (medical, aviation) may require 100% branch coverage\n- Library/framework code often targets 90%+\n- Legacy code may start lower with incremental improvement\n\nBenefits:\n\n- Identifies untested code paths\n- Provides objective quality gate criteria\n- Encourages writing tests alongside code\n- Tracks test quality trends over time\n\nLimitations:\n\n- High coverage does not guarantee high quality — code can be covered without meaningful assertions\n- Pursuing 100% coverage often yields diminishing returns\n- Can incentivize writing low-value tests just to hit a number\n- Does not measure test quality, only code execution\n\nPopular tools: Istanbul/nyc (JavaScript), Coverage.py (Python), JaCoCo (Java), lcov (C/C++), SimpleCov (Ruby).\n\nBest practice: Use coverage as a quality gate floor (not a ceiling), focus on meaningful test coverage of critical paths, and combine with mutation testing for deeper quality insights.",
+    "tags": [
+        "testing",
+        "quality",
+        "software-engineering",
+        "metrics",
+        "automation"
+    ],
+    "category": "Software Development",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "Test Coverage",
+        "Code Coverage Metric"
+    ],
+    "relatedConcepts": [
+        "unit-testing",
+        "integration-testing",
+        "test-driven-development",
+        "quality-gate",
+        "static-analysis",
+        "cyclomatic-complexity",
+        "continuous-integration",
+        "shift-left",
+        "technical-debt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Code coverage - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Code_coverage",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

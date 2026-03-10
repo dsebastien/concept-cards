@@ -1,0 +1,48 @@
+{
+    "id": "cyclomatic-complexity",
+    "name": "Cyclomatic Complexity",
+    "summary": "A quantitative measure of the number of linearly independent paths through a program's source code, indicating its structural complexity.",
+    "explanation": "Cyclomatic Complexity is a software metric developed by Thomas J. McCabe in 1976 that measures the structural complexity of code by counting the number of linearly independent paths through a program's control flow graph.\n\nHow it's calculated:\n\nFor a control flow graph with E edges, N nodes, and P connected components:\n**M = E - N + 2P**\n\nIn practice, it equals the number of decision points (if, else, while, for, case, catch, &&, ||) plus one.\n\nComplexity thresholds (commonly used):\n\n- **1-10** - Simple, low risk, easy to test\n- **11-20** - Moderate complexity, manageable\n- **21-50** - Complex, difficult to test and maintain\n- **51+** - Untestable, very high risk, should be refactored\n\nWhy it matters:\n\n1. **Testability** - Cyclomatic complexity equals the minimum number of test cases needed for full branch coverage\n2. **Maintainability** - Higher complexity correlates with more bugs and harder comprehension\n3. **Code review focus** - Helps reviewers identify the riskiest code sections\n4. **Refactoring signal** - High complexity is a clear indicator that a function should be broken down\n\nHow to reduce complexity:\n\n- Extract complex conditional logic into well-named functions\n- Replace nested conditionals with guard clauses or early returns\n- Use polymorphism instead of long switch/if-else chains\n- Apply the Strategy or State design pattern\n- Break large functions into smaller, focused ones\n\nTools that measure it: ESLint (complexity rule), SonarQube, CodeClimate, Radon (Python), PMD (Java), Lizard (multi-language).\n\nCyclomatic complexity is most useful as a relative metric and warning signal rather than an absolute quality measure. It works best combined with other metrics like code coverage and cognitive complexity.",
+    "tags": [
+        "software-engineering",
+        "metrics",
+        "quality",
+        "complexity",
+        "code-analysis"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "McCabe Complexity",
+        "McCabe's Cyclomatic Number"
+    ],
+    "relatedConcepts": [
+        "code-smell",
+        "static-analysis",
+        "code-coverage",
+        "technical-debt",
+        "quality-gate",
+        "continuous-inspection",
+        "refactoring",
+        "code-review"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Code Complete by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735619670?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cyclomatic complexity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cyclomatic_complexity",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

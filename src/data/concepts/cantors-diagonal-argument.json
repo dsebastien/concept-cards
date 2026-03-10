@@ -3,19 +3,44 @@
     "name": "Cantor's Diagonal Argument",
     "summary": "A mathematical proof technique showing that the real numbers are uncountable by constructing a number missing from any proposed complete listing.",
     "explanation": "Cantor's Diagonal Argument is one of the most elegant and influential proofs in mathematics. Published by Georg Cantor in 1891, it demonstrates that the set of real numbers is strictly larger than the set of natural numbers — proving that different sizes of infinity exist.\n\n**The argument**:\nSuppose someone claims to have a complete list of all real numbers between 0 and 1. Each number is written as an infinite decimal:\n\n1. 0.**5**1209384...\n2. 0.4**1**370928...\n3. 0.82**9**47561...\n4. 0.400**3**8295...\n\nNow construct a new number by taking the diagonal digits (5, 1, 9, 3, ...) and changing each one (e.g., add 1, wrapping 9 to 0): 0.6204...\n\nThis new number differs from every number on the list: it differs from the 1st number in the 1st digit, from the 2nd number in the 2nd digit, and so on. Therefore, no list can contain all real numbers. The real numbers are uncountable.\n\n**Why it works**:\n- The argument is a proof by contradiction\n- It makes no assumptions about how the list is organized\n- The constructed number is guaranteed to be new because it differs from every listed number in at least one position\n- No matter how the list is rearranged, a new diagonal number can always be found\n\n**Far-reaching consequences**:\n- Established that not all infinities are equal\n- Founded the study of transfinite cardinal numbers\n- Inspired Godel's incompleteness theorems (similar diagonal technique)\n- Proved the undecidability of the halting problem (Turing's adaptation)\n- Showed that most real numbers are undefinable and uncomputable\n\n**The diagonal method beyond mathematics**:\nThe diagonal technique has become a general proof strategy used throughout logic, computer science, and philosophy. Whenever you need to show that a collection is 'too large' to be enumerated, a diagonal-style argument is often the tool of choice.\n\n**Historical impact**:\nCantor's work was initially controversial — some mathematicians rejected the idea of different infinities. Today, it is considered one of the most important results in the history of mathematics, opening entirely new fields of study.",
-    "tags": ["mathematics", "set-theory", "infinity", "proofs", "logic"],
+    "tags": [
+        "mathematics",
+        "set-theory",
+        "infinity",
+        "proofs",
+        "logic"
+    ],
     "category": "Concepts",
     "icon": "FaAtom",
     "featured": false,
-    "aliases": ["Cantor's Diagonalization", "Diagonal Argument", "Cantor's Proof"],
-    "relatedConcepts": ["infinite-sets", "uncountable-infinity", "countable-infinity", "set-theory", "hilberts-hotel", "continuum-hypothesis", "halting-problem", "undecidability", "godels-incompleteness-theorems", "computability-theory"],
+    "aliases": [
+        "Cantor's Diagonalization",
+        "Diagonal Argument",
+        "Cantor's Proof"
+    ],
+    "relatedConcepts": [
+        "infinite-sets",
+        "uncountable-infinity",
+        "countable-infinity",
+        "set-theory",
+        "hilberts-hotel",
+        "continuum-hypothesis",
+        "halting-problem",
+        "undecidability",
+        "godels-incompleteness-theorems",
+        "computability-theory"
+    ],
     "relatedNotes": [],
     "articles": [],
     "books": [],
     "references": [
-        {"title": "Cantor's diagonal argument - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument", "type": "website"}
+        {
+            "title": "Cantor's diagonal argument - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument",
+            "type": "website"
+        }
     ],
     "tutorials": [],
     "datePublished": "2026-03-07",
-    "dateModified": "2026-03-07"
+    "dateModified": "2026-03-10"
 }

@@ -1,0 +1,56 @@
+{
+    "id": "shift-left",
+    "name": "Shift Left",
+    "summary": "The practice of moving testing, quality checks, and security measures earlier in the software development lifecycle to catch issues sooner.",
+    "explanation": "Shift Left is a philosophy and practice that advocates performing testing, quality assurance, and security analysis as early as possible in the software development lifecycle. The name comes from the idea of shifting activities leftward on a project timeline.\n\nWhy Shift Left matters:\n\nThe cost of fixing defects increases exponentially the later they are found. A bug caught during development might cost minutes to fix, while the same bug in production could cost hours of incident response, customer impact, and reputation damage. IBM research found that defects found in production cost 6x more than those caught during development.\n\nShift Left practices:\n\n1. **Shift Left Testing** - Write tests before or alongside code (TDD, BDD), not after\n2. **Shift Left Security** - Integrate security scanning into development (DevSecOps) rather than a final audit\n3. **Shift Left Quality** - Use linters, static analysis, and code review from the first commit\n4. **Shift Left Feedback** - Get user feedback on prototypes before building the full product\n5. **Shift Left Operations** - Consider deployment, monitoring, and observability during design\n\nEnabling practices:\n\n- Test-Driven Development (TDD)\n- Continuous Integration and automated pipelines\n- Static analysis tools in IDE and pre-commit hooks\n- Threat modeling during design phase\n- Infrastructure as Code\n- Pair programming and mob programming\n\nShift Left doesn't mean eliminating later-stage testing — it means adding earlier checks so fewer issues survive to later stages. The goal is faster feedback loops and lower overall cost of quality.",
+    "tags": [
+        "software-engineering",
+        "quality",
+        "testing",
+        "security",
+        "best-practices",
+        "devops"
+    ],
+    "category": "Software Development",
+    "icon": "FaArrowLeft",
+    "featured": false,
+    "aliases": [
+        "Shift-Left Testing",
+        "Shift-Left Security",
+        "Test Early"
+    ],
+    "relatedConcepts": [
+        "test-driven-development",
+        "quality-gate",
+        "continuous-integration",
+        "static-analysis",
+        "code-review",
+        "continuous-inspection",
+        "definition-of-done",
+        "technical-debt",
+        "fail-fast"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim",
+            "url": "https://www.amazon.com/dp/1942788339?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Shift-left testing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shift-left_testing",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}
