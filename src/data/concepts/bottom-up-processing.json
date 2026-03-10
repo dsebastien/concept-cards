@@ -1,0 +1,65 @@
+{
+    "id": "bottom-up-processing",
+    "name": "Bottom-Up Processing",
+    "summary": "A cognitive process where perception is built directly from incoming sensory data without the influence of prior knowledge or expectations.",
+    "explanation": "Bottom-up processing (also called data-driven processing) is the cognitive mechanism by which perception is constructed from raw sensory input. Instead of the brain imposing expectations on what it perceives, information flows upward from simple sensory features—edges, colors, sounds, textures—through progressively more complex processing stages until a coherent percept is formed.\n\n## How it works\n\nBottom-up processing builds perception layer by layer:\n\n1. **Sensory detection**: Receptors (eyes, ears, skin) detect basic physical properties—light wavelengths, sound frequencies, pressure\n2. **Feature extraction**: Early processing stages identify basic features—edges, orientations, contrast, pitch, timbre\n3. **Feature integration**: Features are combined into objects and patterns—shapes, words, melodies\n4. **Recognition**: The assembled percept is matched to stored representations for identification\n\nEach stage depends only on the output of the previous stage, not on expectations about what should be perceived.\n\n## When bottom-up processing dominates\n\nBottom-up processing is most prominent when:\n\n- **Stimuli are novel**: Encountering something completely new forces data-driven processing because no prior model exists to generate predictions\n- **Stimuli are salient**: Bright flashes, loud sounds, sudden motion, and other high-contrast stimuli capture attention regardless of expectations\n- **Expectations are violated**: When reality differs sharply from prediction, bottom-up signals override top-down processing\n- **Attention is unfocused**: In a relaxed, scanning state, bottom-up features determine what captures attention (pop-out effects)\n\n## Classic demonstrations\n\n### Visual pop-out\nA red circle among green circles is instantly detected regardless of the number of items. The feature difference drives perception bottom-up—no searching or knowledge is required.\n\n### Cocktail party effect\nHearing your name in a noisy room where you weren't paying attention. The acoustic features of your name capture processing bottom-up, breaking through top-down attentional filters.\n\n### Infant perception\nNewborns, with minimal prior knowledge, rely heavily on bottom-up processing. They are drawn to high-contrast patterns, faces (a special bottom-up attractor), and movement—the raw features that are most salient.\n\n## James Gibson's ecological approach\n\nPsychologist James Gibson championed a radical bottom-up view of perception. His ecological approach argued that the environment provides rich, sufficient information for perception through **affordances**—properties of objects that directly specify possible actions (a handle affords grasping, a flat surface affords walking). In this view, perception doesn't require extensive top-down processing because the sensory information itself is informationally rich.\n\n## Bottom-up vs. top-down processing\n\n| Dimension | Bottom-Up | Top-Down |\n|---|---|---|\n| Direction | Senses → brain | Brain → senses |\n| Driven by | Stimulus features, raw data | Knowledge, expectations, context |\n| Speed | Slower (must build from scratch) | Fast (prediction-based) |\n| Errors | Misses meaning, context | Sees what it expects |\n| Best for | Novel, unexpected stimuli | Familiar, expected stimuli |\n\n## The interplay in practice\n\nPerception is never purely bottom-up or purely top-down. The two processes operate simultaneously and interact:\n\n- **Reading**: Bottom-up processing detects letter shapes; top-down processing uses word knowledge to speed recognition\n- **Driving**: Bottom-up processing detects a sudden red light; top-down processing anticipated the intersection based on the route\n- **Medical diagnosis**: Bottom-up processing identifies the visible symptoms; top-down processing filters them through diagnostic frameworks\n\nThe balance shifts based on familiarity, attentional state, and the reliability of sensory input. In degraded conditions (fog, noise), top-down processing compensates. In surprising conditions (unexpected event), bottom-up processing overrides.\n\n## Implications\n\n### For design\nEffective visual design uses bottom-up principles—contrast, color, size, motion—to guide attention to important elements without requiring users to know what to look for.\n\n### For learning\nNew domains require more bottom-up processing (carefully examining each detail) while familiar domains leverage more top-down processing (pattern recognition from experience). The transition from bottom-up to top-down is the transition from novice to expert.\n\n### For creativity\nDeliberately engaging bottom-up processing—looking at familiar things as if for the first time, noticing details normally filtered out—can generate novel insights. Beginner's mind is essentially choosing to process bottom-up in a domain where you normally process top-down.\n\n### For decision-making\nOver-reliance on top-down processing leads to confirmation bias and missed signals. Deliberately attending to bottom-up evidence—the actual data rather than what you expect to see—is a key practice in critical thinking and scientific reasoning.",
+    "tags": [
+        "cognition",
+        "perception",
+        "psychology",
+        "neuroscience",
+        "thinking"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Data-Driven Processing",
+        "Stimulus-Driven Processing",
+        "Sensory Processing"
+    ],
+    "relatedConcepts": [
+        "top-down-processing",
+        "bottom-up-analysis",
+        "bottom-up-attention",
+        "beginners-mind",
+        "gestalt-psychology",
+        "inductive-reasoning",
+        "critical-thinking",
+        "mental-models",
+        "affordances"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Top-down and bottom-up design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

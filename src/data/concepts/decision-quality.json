@@ -1,0 +1,72 @@
+{
+    "id": "decision-quality",
+    "name": "Decision Quality",
+    "summary": "A framework for evaluating decisions based on the quality of the process used rather than the outcome achieved, recognizing that good decisions can have bad outcomes and vice versa.",
+    "explanation": "Decision Quality (DQ) is a framework that separates the evaluation of a decision from its outcome, providing a principled way to assess whether a choice was well-made regardless of how things turned out. This distinction is critical because in an uncertain world, even the best decisions sometimes produce poor outcomes, and terrible decisions sometimes get lucky.\n\n## The Process-Outcome Distinction\n\nThe most important insight of the decision quality framework is that outcomes are unreliable indicators of decision quality. This cognitive error, sometimes called the \"resulting fallacy\" (a term popularized by Annie Duke), occurs when people judge the quality of a decision by its outcome rather than by the process that produced it. A poker player who goes all-in with pocket aces made a great decision even if they lose to a lucky draw. Evaluating decisions by outcomes corrupts our ability to learn and improve.\n\n## Six Elements of Decision Quality\n\nThe Strategic Decisions Group (SDG) framework, developed by Ronald Howard and his colleagues at Stanford, identifies six requirements for a high-quality decision:\n\n1. **Appropriate frame**: The decision is properly defined, with the right scope, perspective, and purpose. A misframed decision cannot be rescued by excellent analysis.\n2. **Creative alternatives**: Multiple viable options have been generated, going beyond the obvious. You can only choose among alternatives you've identified.\n3. **Relevant and reliable information**: The facts, data, and estimates informing the decision are accurate and pertinent. Garbage in, garbage out.\n4. **Clear values and trade-offs**: The decision-maker's preferences, risk tolerance, and priorities are explicit. Decisions ultimately reflect values.\n5. **Sound reasoning**: The logic connecting information to conclusions is valid, free from biases and errors. This is where analytical tools like decision trees and probability theory come in.\n6. **Commitment to action**: The decision-maker is genuinely willing to act on the analysis. A decision without commitment is merely an intellectual exercise.\n\nA decision achieves quality only when all six elements are strong. Like links in a chain, the weakest element determines overall decision quality.\n\n## Outcome Bias and Learning\n\nOutcome bias, closely related to hindsight bias, systematically distorts how organizations and individuals learn from decisions. When a risky bet pays off, the decision-maker is praised as visionary. When a well-reasoned decision encounters bad luck, the decision-maker is blamed. This creates perverse incentives: people optimize for appearing right rather than being thoughtful.\n\n## Decision Journals\n\nOne practical tool for improving decision quality is the decision journal. By recording the reasoning, alternatives considered, uncertainties identified, and expected outcomes before a decision plays out, you create an honest record that allows genuine learning. Reviewing past journal entries helps calibrate your judgment and identify systematic weaknesses in your decision process.\n\n## Building a Decision-Quality Culture\n\nOrganizations that embrace decision quality create environments where:\n\n- Process is celebrated alongside results\n- Dissent and alternative viewpoints are welcomed\n- Post-decision reviews focus on what was known at the time, not what happened afterward\n- Leaders model intellectual humility and acknowledge uncertainty\n- Bad outcomes from good processes are treated as learning opportunities, not failures\n\nThe ultimate goal of decision quality thinking is not perfect decisions (impossible in an uncertain world) but consistently good decision-making processes that produce the best possible outcomes over time.",
+    "tags": [
+        "decision-making",
+        "frameworks",
+        "quality",
+        "evaluation",
+        "thinking"
+    ],
+    "category": "Decision Science",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "DQ",
+        "Decision Process Quality"
+    ],
+    "relatedConcepts": [
+        "decision-making",
+        "decision-analysis",
+        "decision-journal",
+        "decision-hygiene",
+        "outcome-bias",
+        "hindsight-bias",
+        "bounded-rationality"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Bets by Annie Duke",
+            "url": "https://www.amazon.com/dp/0735216371?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Decision Quality - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision_quality",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

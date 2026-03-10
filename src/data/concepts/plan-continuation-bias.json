@@ -1,0 +1,69 @@
+{
+    "id": "plan-continuation-bias",
+    "name": "Plan Continuation Bias",
+    "summary": "The tendency to continue with an original course of action even when changing circumstances suggest the plan should be revised or abandoned.",
+    "explanation": "**Plan continuation bias** is the cognitive tendency to persist with an original plan even when new information, changing conditions, or accumulating evidence suggests that the plan should be modified or abandoned entirely. It is one of the most dangerous cognitive biases in high-stakes environments because it transforms a reasonable initial commitment into a rigid, potentially catastrophic course of action.\n\n## Origins in Aviation Safety Research\n\nThe concept was first identified and extensively studied in **aviation safety research**. Pilots have a well-documented tendency to continue flights into deteriorating weather conditions, mechanical issues, or other hazards rather than diverting or turning back. In aviation, this phenomenon is colloquially known as **\"get-there-itis\"** or **\"press-on-itis\"**—the overwhelming urge to reach the destination despite mounting risks. Numerous accident investigations have identified plan continuation bias as a contributing factor in crashes that could have been avoided by an earlier decision to abort or divert.\n\n## Why It Occurs\n\nSeveral psychological and situational factors drive plan continuation bias:\n\n- **Cognitive momentum**: Once a plan is set in motion, the brain tends to stay on the established mental track. Changing course requires effortful, deliberate thinking that disrupts the flow of execution.\n- **Sunk cost influence**: Resources already invested in the plan create pressure to continue. Abandoning the plan feels like wasting everything spent so far.\n- **Commitment and consistency**: People feel a strong drive to be consistent with their prior commitments, especially when those commitments were made publicly.\n- **Tunnel vision**: Focus narrows on executing the plan, causing peripheral information—including warning signs—to be filtered out or downplayed.\n- **Goal fixation**: The original objective becomes so dominant in attention that the means of achieving it (and the risks involved) fade into the background.\n- **Social pressure**: In team settings, no one wants to be the person who \"gives up\" or causes delay, especially when others seem committed.\n\n## Relationship to the Sunk Cost Fallacy\n\nPlan continuation bias can be understood as the **operational manifestation** of the sunk cost fallacy. While the sunk cost fallacy describes the general reasoning error, plan continuation bias describes how that error plays out in real-time decision-making during ongoing activities. The plan becomes the vehicle through which sunk cost reasoning drives behavior.\n\n## Examples Across Domains\n\n- **Aviation**: Continuing a visual approach in rapidly deteriorating visibility, leading to controlled flight into terrain.\n- **Project management**: Software development \"death marches\" where teams push toward a deadline with a failing approach rather than pausing to reassess.\n- **Military operations**: Continuing an offensive after the situation on the ground has fundamentally changed, because the operational plan calls for it.\n- **Startups**: Persisting with a product strategy or market approach long after evidence suggests it is not working, because the original business plan said so.\n- **Personal life**: Continuing with wedding plans, travel itineraries, or career paths despite clear signals that the circumstances have changed.\n\n## Red Flags\n\nWatch for these warning signs that plan continuation bias may be at work:\n\n- Ignoring or dismissing disconfirming information (\"that data point is an outlier\").\n- Rationalizing deviations from expected outcomes (\"it will get better once we pass this phase\").\n- Using the phrase \"we've come too far to stop now.\"\n- Feeling uncomfortable or resistant when someone suggests reconsidering the plan.\n- Noticing that the plan's assumptions no longer hold but proceeding anyway.\n\n## Countermeasures\n\nEffective strategies for combating plan continuation bias include:\n\n- **Pre-defined decision points**: Establish checkpoints in advance where the plan will be formally re-evaluated against current conditions.\n- **Kill criteria**: Define specific, measurable conditions under which the plan will be abandoned, agreed upon before execution begins.\n- **Devil's advocate**: Assign someone the explicit role of challenging the plan and presenting the case for alternatives.\n- **Pre-mortem analysis**: Before starting, imagine the plan has failed and work backward to identify likely causes.\n- **The fresh-start test**: Ask \"if I were starting from scratch today, knowing what I know now, would I choose this plan?\" If the answer is no, it is time to reconsider.\n\n## Organizational Factors\n\nPlan continuation bias is amplified in organizations by pressure to deliver on commitments, fear of admitting failure, hierarchical structures that discourage dissent, and cultures that celebrate persistence over adaptability. Building a culture that rewards **intelligent course correction** rather than blind persistence is essential for mitigating this bias at scale.",
+    "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "aviation",
+        "safety",
+        "planning"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Plan Continuation Error",
+        "Get-There-Itis",
+        "Press-On-Itis"
+    ],
+    "relatedConcepts": [
+        "commitment-and-consistency",
+        "confirmation-bias",
+        "escalation-of-commitment",
+        "goal-neglect",
+        "status-quo-bias",
+        "sunk-cost-fallacy",
+        "tunneling",
+        "waste-aversion"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Plan continuation bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Plan_continuation_bias",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,92 @@
+{
+    "id": "time-to-value",
+    "name": "Time to Value",
+    "summary": "The duration between making an investment or adopting something new and realizing its first meaningful benefits.",
+    "explanation": "Time to Value (TTV) measures how long it takes from the moment you invest in something—a product, skill, process, or system—until you experience its first meaningful return. Originally a SaaS and product management metric, the concept applies broadly to any investment decision.\n\n## Why TTV matters\n\nTime to Value is critical because it directly affects:\n\n- **Adoption persistence**: The longer it takes to see value, the more likely people are to abandon the investment. This is why freemium products prioritize fast \"aha moments.\"\n- **Opportunity cost**: Time spent waiting for returns from one investment is time not earning returns elsewhere.\n- **Confidence**: Early value signals reassure investors (of time, money, or effort) that their commitment was sound.\n- **Compounding**: The sooner value begins, the longer it has to compound.\n\n## Types of TTV\n\n### Time to Basic Value\nWhen the user or investor first experiences the core benefit. For a note-taking app, it's when the first useful note is created and retrieved. For a fitness program, it's the first noticeable improvement in energy.\n\n### Time to Full Value\nWhen the investment reaches its expected steady-state return. For a knowledge management system, this might be when the system reliably surfaces relevant connections. For a new hire, it's when they reach full productivity.\n\n### Time to Exceeded Value\nWhen returns surpass initial expectations, often through compounding or network effects. This is where gradual ROI investments ultimately shine.\n\n## TTV across domains\n\n| Investment | Typical TTV | Why |\n|---|---|---|\n| SaaS product | Minutes to days | Designed for fast onboarding |\n| New programming language | Weeks to months | Must build fluency before productivity |\n| Knowledge management system | Months to years | Value compounds with volume |\n| Relationship/network | Months to years | Trust builds slowly |\n| Brand building | Years | Reputation accrues gradually |\n| Exercise habit | Weeks to months | Physiological adaptation takes time |\n\n## Reducing TTV\n\nStrategies to shorten time to value include:\n\n- **Quick wins**: Design early milestones that deliver partial value fast\n- **Templates and defaults**: Pre-configure systems so value is immediate\n- **Guided onboarding**: Reduce friction in the learning/adoption phase\n- **Progressive complexity**: Start simple, add sophistication as comfort grows\n- **Social proof**: Show others who have achieved value to maintain motivation during the lag\n\n## The TTV paradox\n\nInvestments with the shortest TTV (buying a lottery ticket, checking social media) often have the lowest total value. Investments with the longest TTV (education, deep relationships, building expertise) often have the highest total value. Optimizing purely for short TTV leads to shallow returns; accepting long TTV without reducing it unnecessarily leads to abandonment. The art is finding the right balance: structuring long-TTV investments to deliver interim value signals along the way.",
+    "tags": [
+        "metrics",
+        "businesses",
+        "decision-making",
+        "productivity",
+        "strategies"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "TTV",
+        "Time-to-Value",
+        "Value Realization Time"
+    ],
+    "relatedConcepts": [
+        "gradual-roi",
+        "return-on-investment",
+        "effort-outcome-lag",
+        "j-curve-effect",
+        "payback-period",
+        "delayed-gratification",
+        "customer-onboarding",
+        "learning-curve",
+        "compound-effect",
+        "time-value-of-money",
+        "customer-experience"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Time to value - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Time_to_value",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

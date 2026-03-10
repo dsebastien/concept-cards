@@ -1,0 +1,71 @@
+{
+    "id": "quantum-computing",
+    "name": "Quantum Computing",
+    "summary": "A computing paradigm that harnesses quantum mechanical phenomena like superposition and entanglement to process information in fundamentally new ways.",
+    "explanation": "Quantum computing is a revolutionary approach to computation that exploits the principles of quantum mechanics — superposition, entanglement, and interference — to solve certain problems exponentially faster than any classical computer could.\n\n**How it differs from classical computing:**\n\nClassical computers process information using bits that are either 0 or 1. Quantum computers use quantum bits (qubits) that can exist in superposition — simultaneously 0 and 1. When multiple qubits are entangled, the number of states they can represent grows exponentially: n qubits can represent 2^n states simultaneously.\n\n**Key quantum computing concepts:**\n\n- **Qubits**: The fundamental unit of quantum information. Unlike classical bits, qubits can be in superposition of |0⟩ and |1⟩\n- **Quantum gates**: Operations that manipulate qubits, analogous to classical logic gates but operating on superpositions\n- **Quantum circuits**: Sequences of quantum gates that implement quantum algorithms\n- **Quantum interference**: Algorithms are designed so that correct answers interfere constructively (amplify) and wrong answers interfere destructively (cancel)\n- **Measurement**: Reading a qubit collapses its superposition, yielding a classical result. Algorithms must be cleverly designed to make the right answer most probable\n\n**Landmark algorithms:**\n\n- **Shor's algorithm (1994)**: Factors large numbers exponentially faster than classical algorithms, threatening RSA encryption\n- **Grover's algorithm (1996)**: Searches unsorted databases quadratically faster than classical search\n- **Quantum simulation**: Simulating quantum systems (chemistry, materials science) — the original motivation proposed by Richard Feynman in 1982\n- **Variational Quantum Eigensolver (VQE)**: Hybrid quantum-classical approach for finding molecular ground states\n\n**Current challenges:**\n\n- **Decoherence**: Qubits lose their quantum properties through environmental interaction, limiting computation time\n- **Error correction**: Quantum error correction requires many physical qubits per logical qubit (current estimates: 1000-10000:1)\n- **Scalability**: Building systems with enough high-quality qubits remains extremely difficult\n- **Temperature**: Most quantum computers require near absolute zero temperatures\n\n**Major approaches:**\n\n- **Superconducting qubits**: Used by IBM, Google (achieved 'quantum supremacy' in 2019)\n- **Trapped ions**: Used by IonQ, Quantinuum — longer coherence times but slower gates\n- **Photonic**: Used by Xanadu, PsiQuantum — operates at room temperature\n- **Topological**: Pursued by Microsoft — theoretically more error-resistant\n\n**Practical impact:**\n\nQuantum computing will likely transform drug discovery, materials science, cryptography, optimization, financial modeling, and AI. However, it won't replace classical computers — it excels at specific problem types. The field is currently in the 'NISQ era' (Noisy Intermediate-Scale Quantum), with practical quantum advantage for real-world problems still emerging.",
+    "tags": [
+        "quantum-mechanics",
+        "computing",
+        "technology",
+        "physics",
+        "AI"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Quantum computation",
+        "Quantum information processing"
+    ],
+    "relatedConcepts": [
+        "quantum-mechanics",
+        "quantum-superposition",
+        "quantum-entanglement",
+        "quantum-decoherence",
+        "non-locality",
+        "church-turing-thesis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Quantum computing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

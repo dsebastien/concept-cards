@@ -1,0 +1,95 @@
+{
+    "id": "human-on-the-loop",
+    "name": "Human-on-the-Loop",
+    "summary": "A supervisory model where humans monitor AI systems and can intervene when needed, but are not required to approve every individual action or decision.",
+    "explanation": "Human-on-the-Loop (HOTL) is a supervisory approach to human-AI interaction where humans oversee AI systems that operate semi-autonomously. Unlike Human-in-the-Loop (HITL), where a human must approve each individual action or decision before it is executed, HOTL allows the AI to act independently while a human monitors its behavior and retains the ability to intervene, override, or shut down the system when necessary.\n\n## The Spectrum of Human Oversight\n\nHuman oversight of AI exists on a spectrum:\n\n- **Human-in-the-Loop (HITL)**: The human is directly involved in every decision cycle. The AI cannot act without explicit human approval.\n- **Human-on-the-Loop (HOTL)**: The AI operates autonomously, but a human supervises and can intervene at any point. The human is a safety net, not a bottleneck.\n- **Human-out-of-the-Loop (HOOTL)**: The AI operates fully autonomously with no real-time human oversight or intervention capability.\n\nHOTL sits in the middle of this spectrum, balancing efficiency with safety.\n\n## When HOTL Is Appropriate\n\nHOTL works best for:\n\n- **Lower-stakes decisions** where errors are recoverable and consequences are manageable\n- **Well-understood domains** where the AI's behavior is predictable and well-tested\n- **Time-critical operations** where waiting for human approval would cause unacceptable delays\n- **High-volume tasks** where human review of every action is impractical\n- **Mature AI systems** with established track records of reliable performance\n\n## Risks and Challenges\n\nHOTL introduces several risks that must be actively managed:\n\n- **Automation complacency**: When systems work well most of the time, human supervisors become less vigilant and may miss critical failures\n- **Alert fatigue**: Too many notifications or false alarms cause supervisors to ignore or dismiss genuine problems\n- **Skill degradation**: When humans rarely need to intervene, they may lose the expertise required to intervene effectively when it matters\n- **Accountability gaps**: When things go wrong, it can be unclear whether the fault lies with the AI or the human supervisor\n\n## Design Principles for HOTL Systems\n\nEffective HOTL systems require thoughtful design:\n\n- **Meaningful alerts**: Notifications should be informative, actionable, and calibrated to minimize false positives\n- **Easy intervention mechanisms**: Humans must be able to quickly and intuitively take control or override AI decisions\n- **Clear escalation paths**: Define which situations require human attention and how they are surfaced\n- **Situational awareness tools**: Dashboards and visualizations that help supervisors understand what the AI is doing and why\n- **Regular drills and training**: Keep human skills sharp even during periods of smooth operation\n\n## Real-World Examples\n\n- **Autonomous vehicles with safety drivers**: The vehicle drives itself, but a human sits ready to take over if the system encounters a situation it cannot handle\n- **Content moderation**: AI automatically removes clearly violating content, while flagging borderline cases for human review\n- **Automated trading with circuit breakers**: Algorithms execute trades autonomously, but predefined thresholds trigger human review or automatic halts\n- **Drone operations**: Semi-autonomous drones carry out missions with human operators monitoring and able to redirect or abort\n\n## Military Context\n\nThe HOTL concept is particularly significant in military applications, especially the debate around autonomous weapons systems (also known as Lethal Autonomous Weapons Systems or LAWS). International discussions about maintaining meaningful human control over the use of force often center on whether HOTL oversight is sufficient, or whether HITL approval should be required for lethal decisions. This remains one of the most active areas of AI ethics and policy debate.",
+    "tags": [
+        "ai",
+        "oversight",
+        "automation",
+        "safety",
+        "workflows"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "HOTL",
+        "Human Supervision",
+        "Supervisory Control"
+    ],
+    "relatedConcepts": [
+        "human-in-the-loop",
+        "human-out-of-the-loop",
+        "ai-oversight",
+        "ai-safety",
+        "ai-guardrails",
+        "automation-bias",
+        "automation-complacency",
+        "ai-trust",
+        "augmented-intelligence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Human-in-the-loop - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Human-in-the-loop",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

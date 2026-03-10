@@ -1,0 +1,63 @@
+{
+    "id": "value-of-information",
+    "name": "Value of Information",
+    "summary": "A decision-theoretic measure of how much it is worth to gather additional information before committing to a decision, balancing the cost of research against reduced uncertainty.",
+    "explanation": "Value of Information (VOI) is a concept from decision theory that quantifies the benefit of acquiring additional information before making a decision. It answers a deceptively simple question: is it worth spending more time, money, or effort to learn more before acting? By comparing the expected outcomes with and without additional information, VOI provides a rigorous framework for deciding when to stop researching and start deciding.\n\n## Types of Value of Information\n\nThere are two main variants. **Expected Value of Perfect Information (EVPI)** measures the maximum you should pay to eliminate all uncertainty — it represents the theoretical ceiling on the value of any information-gathering effort. **Expected Value of Sample Information (EVSI)**, sometimes called the Expected Value of Imperfect Information, measures the value of a specific, realistic information source that reduces but does not eliminate uncertainty. EVSI is almost always less than EVPI, and the gap between them helps calibrate expectations about what any particular study, test, or consultation can actually deliver.\n\n## How to Calculate VOI\n\nThe basic calculation compares two scenarios: (1) the expected value of the best decision you can make right now with current information, and (2) the expected value of the best decision you could make after obtaining the new information, weighted by the probability of each possible informational outcome. The difference is the gross VOI. Subtract the cost of obtaining the information, and you have the net VOI. If net VOI is positive, gathering the information is worthwhile; if negative, you should decide now.\n\n## Practical Applications\n\nVOI shows up everywhere in practice. Should a company commission a market study before launching a product? Should a doctor order another diagnostic test? Should an engineer run another simulation? In each case, VOI provides a structured way to weigh the cost of the investigation against the potential for a better decision. In medicine, VOI analysis helps design clinical trials and determine which diagnostics are cost-effective. In business, it guides R&D investment and due diligence processes. In engineering, it informs testing and prototyping strategies.\n\n## The Information-Gathering Trap\n\nOne of VOI's most practical insights is identifying when additional information will not change your decision. If your current best option dominates all alternatives regardless of what the new information might reveal, then VOI is zero — no matter how interesting the information might be. This is the antidote to analysis paralysis: when VOI is low, stop researching and commit. Many people continue gathering information not because it will improve their decision, but because it feels productive or because they are anxious about deciding.\n\n## Connection to Satisficing\n\nVOI thinking aligns naturally with the concept of satisficing — accepting a \"good enough\" option rather than seeking perfection. Both frameworks recognize that the pursuit of complete information or the optimal solution has diminishing returns. The practical question is not \"do I have perfect information?\" but \"would more information meaningfully change what I should do?\" When the answer is no, the rational choice is to act.\n\n## Everyday Heuristics\n\nWhile formal VOI calculations require probability estimates and outcome valuations, the underlying logic yields useful everyday heuristics. Ask yourself: What could I learn that would actually change my decision? How likely am I to learn it? How much would it cost in time and resources? If no realistic discovery would change your course of action, you already have enough information to decide. This simple mental test can save enormous amounts of time and prevent the common trap of endless research as a substitute for commitment.",
+    "tags": [
+        "decision-making",
+        "information",
+        "analysis",
+        "risk",
+        "quantitative-methods"
+    ],
+    "category": "Decision Science",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "VOI",
+        "Expected Value of Information",
+        "EVPI"
+    ],
+    "relatedConcepts": [
+        "decision-analysis",
+        "expected-value",
+        "sensitivity-analysis",
+        "cost-benefit-analysis",
+        "information-overload",
+        "analysis-paralysis",
+        "satisficing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Value of Information - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Value_of_information",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

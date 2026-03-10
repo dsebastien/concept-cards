@@ -1,0 +1,69 @@
+{
+    "id": "option-value",
+    "name": "Option Value",
+    "summary": "The additional value inherent in maintaining flexibility and keeping options open, especially under conditions of uncertainty and irreversibility.",
+    "explanation": "Option Value is the measurable worth of maintaining flexibility in the face of uncertainty. Originating in financial options theory — where the Black-Scholes model provided a mathematical framework for pricing the right (but not obligation) to buy or sell an asset — the concept has been extended far beyond finance to encompass strategic, organizational, and personal decisions. The core insight is that flexibility itself has value, and this value can be systematically assessed.\n\n## Real Options Thinking\n\nWhen applied outside of financial markets, option value becomes \"real options\" thinking. A real option is the opportunity to make a future decision — to defer, expand, contract, abandon, or switch course — once more information becomes available. Unlike financial options with explicit contracts, real options are embedded in projects, strategies, and designs. A company that builds a modular factory has the option to expand production if demand materializes; a startup that stages its funding rounds preserves the option to pivot or shut down as it learns from the market.\n\n## Types of Real Options\n\nSeveral categories of real options appear in practice. The **option to defer** allows waiting for better information before committing resources. The **option to expand** lets you scale up if initial results are promising. The **option to contract** provides the ability to scale down if conditions deteriorate. The **option to abandon** permits cutting losses rather than continuing a failing venture. The **option to switch** enables changing inputs, outputs, or strategies as circumstances evolve. Each type preserves a different form of flexibility.\n\n## When Option Value Is High\n\nOption value is greatest when three conditions converge: uncertainty is high (making it hard to predict which course of action is best), consequences are irreversible (making mistakes costly or impossible to undo), and new information is expected to arrive over time (providing a reason to wait). When all three conditions hold, preserving flexibility can be worth significantly more than traditional analysis suggests.\n\n## Connection to Optionality and Antifragility\n\nNassim Nicholas Taleb popularized a related concept — optionality — emphasizing that systems and strategies with many options and limited downside can benefit from volatility and randomness. This connects to his broader framework of antifragility: entities that gain from disorder. Option value thinking formalizes the intuition behind Taleb's advice to structure decisions so that you have more to gain than to lose from the unexpected.\n\n## Reversible vs. Irreversible Decisions\n\nJeff Bezos' distinction between \"one-way doors\" (irreversible decisions) and \"two-way doors\" (reversible decisions) is essentially option value thinking applied to organizational decision-making. Two-way door decisions preserve option value because you can reverse course; one-way door decisions destroy it. This framework suggests that organizations should move quickly on reversible decisions (where option value is low) and deliberate carefully on irreversible ones (where option value is high).\n\n## Practical Applications\n\nOption value thinking applies broadly. In investment, staging capital deployment preserves the option to redirect funds. In product development, building modular architectures preserves the option to adapt. In career planning, developing transferable skills preserves the option to switch fields. In urban planning, preserving undeveloped land preserves the option for future use. The common thread is that committing fewer resources upfront, while maintaining the ability to act later, is often worth more than traditional cost-benefit analysis would suggest.\n\n## The Cost of Keeping Options Open\n\nWhile option value is real, it is not free. Maintaining flexibility often requires ongoing investment — keeping multiple product lines, paying for insurance, investing in skills you may never use. The practical challenge is balancing the value of preserved options against the cost of maintaining them, and recognizing when the time has come to commit.",
+    "tags": [
+        "decision-making",
+        "strategy",
+        "risk",
+        "flexibility",
+        "economics"
+    ],
+    "category": "Decision Science",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Real Options",
+        "Real Options Thinking",
+        "Optionality Value"
+    ],
+    "relatedConcepts": [
+        "optionality",
+        "reversible-vs-irreversible-decisions",
+        "decision-analysis",
+        "opportunity-cost",
+        "scenario-planning",
+        "risk-management",
+        "strategic-patience",
+        "antifragility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Investment under Uncertainty by Avinash Dixit and Robert Pindyck",
+            "url": "https://www.amazon.com/dp/0691034109?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Real Options Valuation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Real_options_valuation",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

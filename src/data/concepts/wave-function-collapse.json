@@ -1,0 +1,19 @@
+{
+    "id": "wave-function-collapse",
+    "name": "Wave Function Collapse",
+    "summary": "The process by which a quantum system in superposition transitions to a single definite state upon measurement or observation.",
+    "explanation": "Wave function collapse is one of the most debated concepts in quantum mechanics. It describes the apparent transition of a quantum system from a superposition of multiple possible states to a single definite state when a measurement is performed.\n\n**The standard account:**\n\nIn the Copenhagen interpretation, quantum systems evolve according to the Schrodinger equation — smoothly and deterministically — until a measurement occurs. At the moment of measurement, something dramatically different happens:\n\n1. Before measurement: The system is described by a wave function that is a superposition of all possible outcomes, each with an associated probability amplitude\n2. Measurement occurs: The wave function 'collapses' — instantaneously and randomly — to one of the possible states\n3. After measurement: The system is in a definite state, and subsequent measurements will confirm this state\n\n**The measurement problem:**\n\nWave function collapse raises profound questions:\n\n- **What triggers collapse?** What counts as a 'measurement'? Does it require a conscious observer, a macroscopic apparatus, or any interaction?\n- **Why is it random?** Quantum mechanics only predicts probabilities. Why does one outcome occur rather than another?\n- **Is it physical?** Does something actually happen to the system, or does collapse merely represent an update in our knowledge?\n- **Where is the boundary?** At what scale does quantum superposition give way to classical definiteness?\n\n**Different views on collapse:**\n\n- **Copenhagen (Bohr)**: Collapse is real but the question of what happens 'during' collapse is meaningless. Quantum mechanics describes measurement outcomes, not underlying reality\n- **Von Neumann**: Collapse is a physical process triggered by conscious observation (consciousness causes collapse)\n- **Many-Worlds (Everett)**: Collapse never occurs. All outcomes happen in branching universes. What appears as collapse is merely the observer becoming entangled with one branch\n- **Decoherence**: Collapse-like behavior emerges naturally from the system's interaction with its environment, without needing a special collapse postulate\n- **Objective collapse theories (GRW, Penrose)**: Collapse is a real physical process that occurs spontaneously at a rate proportional to the system's mass or gravitational self-energy\n- **QBism**: Collapse represents an agent updating their beliefs, not a physical event\n\n**Experimental status:**\n\nNo experiment has ever directly observed wave function collapse as a physical process. What we observe is that measurements produce definite outcomes distributed according to Born rule probabilities. Whether this requires collapse as a physical mechanism or can be explained otherwise remains one of the deepest open questions in physics.",
+    "tags": ["quantum-mechanics", "physics", "philosophy-of-science", "measurement"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Collapse of the wave function", "State reduction", "Quantum collapse", "Measurement collapse"],
+    "relatedConcepts": ["quantum-mechanics", "quantum-superposition", "observer-effect", "copenhagen-interpretation", "many-worlds-interpretation", "quantum-decoherence", "schrodingers-cat"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [{"title": "Wave function collapse - Wikipedia", "url": "https://en.wikipedia.org/wiki/Wave_function_collapse", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

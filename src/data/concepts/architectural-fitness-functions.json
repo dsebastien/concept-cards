@@ -1,0 +1,72 @@
+{
+    "id": "architectural-fitness-functions",
+    "name": "Architectural Fitness Functions",
+    "summary": "Automated tests and metrics that objectively assess how well a software architecture meets its intended quality goals, enabling continuous architectural governance.",
+    "explanation": "Architectural fitness functions are automated mechanisms that evaluate whether a software architecture continues to meet its design goals as the system evolves. Borrowed from evolutionary computing (where fitness functions evaluate how well a solution meets criteria), they serve as objective, repeatable architectural guardrails.\n\n## Why fitness functions exist\n\nTraditional architectural governance relies on architecture review boards, manual code reviews, and periodic audits. These approaches are slow, subjective, and intermittent—architectural violations slip through because governance happens at human speed while code changes at development speed.\n\nFitness functions automate architectural governance, running continuously in CI/CD pipelines and catching violations as they occur. They shift architectural compliance from a periodic activity to a continuous one.\n\n## Types of fitness functions\n\n### By scope\n- **Atomic**: Test a single architectural characteristic (e.g., response time < 200ms)\n- **Holistic**: Test a combination of characteristics (e.g., response time under load while maintaining data consistency)\n\n### By trigger\n- **Triggered**: Run on specific events (code commit, deployment, scheduled)\n- **Continuous**: Run constantly (monitoring, alerting)\n\n### By automation level\n- **Automated**: Fully automated tests in the pipeline\n- **Manual**: Require human evaluation but follow defined criteria (e.g., security audits)\n\n## Examples\n\n| Quality Attribute | Fitness Function | Tool |\n|---|---|---|\n| Modularity | No circular dependencies between modules | ArchUnit, Dependency Cruiser |\n| Performance | P95 response time < 200ms | Load testing in CI |\n| Security | No known vulnerabilities in dependencies | Snyk, Dependabot |\n| Coupling | Services communicate only through defined APIs | Contract testing |\n| Code quality | Cyclomatic complexity below threshold | SonarQube |\n| Data integrity | Schema changes are backward compatible | Schema registry tests |\n| Accessibility | WCAG AA compliance | Lighthouse, axe |\n| Resilience | System degrades gracefully under failure | Chaos engineering tests |\n\n## Fitness functions vs. regular tests\n\nFitness functions overlap with testing but serve a different purpose:\n- **Unit tests** verify behavior: \"Does this function return the right value?\"\n- **Integration tests** verify interaction: \"Do these components work together?\"\n- **Fitness functions** verify architecture: \"Does the system still meet its architectural goals?\"\n\nA performance test that checks a single endpoint is a test. A fitness function that ensures *no endpoint in the system* exceeds a response time threshold is an architectural fitness function—it governs a system-wide quality attribute.\n\n## Implementing fitness functions\n\n1. **Identify key architectural characteristics**: What quality attributes matter most? (Not everything needs a fitness function)\n2. **Define measurable criteria**: Convert subjective goals into objective, measurable thresholds\n3. **Automate the check**: Build the fitness function into the CI/CD pipeline\n4. **Document with an ADR**: Record why this fitness function exists and what architectural goal it protects\n5. **Evolve the functions**: As architectural goals change, update the fitness functions accordingly\n\n## The fitness function paradox\n\nFitness functions protect against architectural drift, but they can also create rigidity if applied too aggressively. The goal is to protect the characteristics that matter most while leaving room for evolution in other dimensions. Over-constraining the system with too many fitness functions can make it harder to change—the opposite of what evolutionary architecture intends.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "testing",
+        "automation",
+        "quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Fitness Functions",
+        "Architectural Governance Functions",
+        "Architecture Tests"
+    ],
+    "relatedConcepts": [
+        "evolutionary-architecture",
+        "software-architecture",
+        "architecture-decision-records",
+        "continuous-delivery",
+        "technical-debt",
+        "software-entropy",
+        "code-review",
+        "test-driven-development",
+        "solid-principles",
+        "separation-of-concerns",
+        "lead-and-lag-measures"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Building Evolutionary Architectures by Neal Ford, Rebecca Parsons, and Patrick Kua",
+            "url": "https://www.amazon.com/dp/1492097543?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Fitness function (evolutionary architecture) - ThoughtWorks",
+            "url": "https://www.thoughtworks.com/insights/articles/fitness-function-driven-development",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

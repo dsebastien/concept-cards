@@ -1,74 +1,82 @@
 {
-  "id": "top-down-analysis",
-  "name": "Top-Down Analysis",
-  "summary": "An analytical approach that starts with the big picture and progressively decomposes it into smaller, more detailed components.",
-  "explanation": "Top-down analysis is a problem-solving and analytical approach that begins with a high-level overview and systematically breaks it down into increasingly specific details. It moves from the general to the particular, from abstract to concrete.\n\n**How it works:**\n1. Start with the overall system, goal, or problem\n2. Identify major components or categories\n3. Break each component into sub-components\n4. Continue decomposing until reaching actionable or atomic elements\n\n**Applications:**\n\n**Software development**: Design the architecture first, then modules, then functions, then code. Top-down design creates a blueprint before implementation.\n\n**Business strategy**: Define company mission, then strategic objectives, then departmental goals, then individual tasks.\n\n**Writing**: Start with thesis, then main arguments, then supporting points, then paragraphs.\n\n**Problem-solving**: Understand the whole problem, identify major factors, then drill into specifics.\n\n**Strengths:**\n- Maintains alignment with overall goals\n- Provides clear structure and organization\n- Easier to communicate and delegate\n- Prevents getting lost in details prematurely\n- Good for well-understood domains\n\n**Limitations:**\n- Requires sufficient understanding of the whole system\n- May miss important details or exceptions\n- Can impose structure that doesn't fit reality\n- Less effective for novel or poorly understood problems\n\nTop-down analysis works best in combination with bottom-up analysis—using both approaches provides complementary perspectives and more robust understanding.",
-  "tags": [
-    "analysis",
-    "thinking",
-    "problem-solving",
-    "strategies",
-    "planning",
-    "decomposition"
-  ],
-  "category": "Thinking",
-  "icon": "FaArrowDown",
-  "featured": false,
-  "aliases": [
-    "Top-Down Approach",
-    "Top-Down Design",
-    "Top-Down Thinking",
-    "Deductive Analysis"
-  ],
-  "relatedConcepts": [
-    "bottom-up-analysis",
-    "decomposition",
-    "analytical-thinking",
-    "first-principles",
-    "systems-thinking",
-    "reductionism"
-  ],
-  "relatedNotes": [],
-  "articles": [],
-  "books": [],
-  "references": [
-    {
-      "title": "Top-down and bottom-up design - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design",
-      "type": "website"
-    },
-    {
-      "title": "Knowledge Worker Kit",
-      "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
-      "type": "other"
-    },
-    {
-      "title": "Clarity 101 Workshop",
-      "url": "https://store.dsebastien.net/product/clarity-101",
-      "type": "other"
-    },
-    {
-      "title": "Personal Organization 101 Workshop",
-      "url": "https://store.dsebastien.net/product/personal-organization-101",
-      "type": "other"
-    },
-    {
-      "title": "Obsidian Starter Kit",
-      "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
-      "type": "other"
-    },
-    {
-      "title": "Knowii Community",
-      "url": "https://store.dsebastien.net/product/knowii-community",
-      "type": "other"
-    },
-    {
-      "title": "Knowledge Management for Beginners",
-      "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
-      "type": "other"
-    }
-  ],
-  "tutorials": [],
-  "datePublished": "2026-01-16",
-  "dateModified": "2026-01-29"
+    "id": "top-down-analysis",
+    "name": "Top-Down Analysis",
+    "summary": "An analytical approach that starts with the big picture and progressively decomposes it into smaller, more detailed components.",
+    "explanation": "Top-down analysis is a problem-solving and reasoning approach that begins with a high-level overview—a theory, goal, framework, or system-level understanding—and systematically breaks it down into increasingly specific details. It moves from the general to the particular, from abstract to concrete, from the whole to the parts.\n\n## How it works\n\n1. Start with the overall system, goal, or problem\n2. Identify major components or categories\n3. Break each component into sub-components\n4. Continue decomposing until reaching actionable or atomic elements\n5. Validate that the parts correctly reconstruct the whole\n\nThis mirrors **deductive reasoning**: begin with general principles and derive specific conclusions. If the starting framework is correct, the details should follow logically.\n\n## The relationship to deductive reasoning\n\nTop-down analysis is the structural analog of deductive logic. Where deduction moves from general premises to specific conclusions with logical certainty, top-down analysis moves from general structures to specific components with organizational clarity. Both share the same strength (coherence with the whole) and the same weakness (dependence on the correctness of the starting point).\n\n## Applications\n\n### Software development\nDesign the architecture first, then modules, then functions, then code. Top-down design creates a blueprint before implementation. Waterfall methodologies are inherently top-down.\n\n### Business strategy\nDefine company mission, then strategic objectives, then departmental goals, then individual tasks. OKRs (Objectives and Key Results) are a top-down cascade.\n\n### Writing\nStart with thesis, then main arguments, then supporting points, then paragraphs. Outlining is a top-down activity.\n\n### Problem-solving\nUnderstand the whole problem, identify major factors, then drill into specifics. MECE (Mutually Exclusive, Collectively Exhaustive) decomposition is a top-down technique.\n\n### Knowledge management\nCreate a taxonomy or category system first, then organize individual items within it. Top-down PKM starts with structure before content.\n\n## Strengths\n\n- Maintains alignment with overall goals\n- Provides clear structure and organization\n- Easier to communicate, delegate, and coordinate\n- Prevents getting lost in details prematurely\n- Good for well-understood domains with known structure\n- Produces systematic, comprehensive coverage\n\n## Limitations\n\n- Requires sufficient understanding of the whole system before you begin\n- May impose structure that doesn't fit reality\n- Can miss important details, edge cases, or emergent patterns\n- Less effective for novel or poorly understood problems\n- Risk of confirmation bias: you find what your framework predicts\n- Assumes the whole can be meaningfully decomposed into parts (reductionism)\n\n## Top-down vs. bottom-up\n\n| Dimension | Top-Down | Bottom-Up |\n|---|---|---|\n| Starting point | The whole, a theory, a goal | Parts, data, observations |\n| Direction | General → specific | Specific → general |\n| Logic analog | Deductive reasoning | Inductive reasoning |\n| Best for | Known structures, planning | Discovery, novel domains |\n| Risk | Imposing wrong framework | Missing the big picture |\n| Philosophy | Reductionism | Holism/emergence |\n\n## Combining approaches\n\nThe most robust analysis alternates between top-down and bottom-up. Top-down provides structure; bottom-up provides ground truth. Middle-out thinking starts in between and works both directions simultaneously. In practice, experienced analysts constantly toggle between levels, using top-down structure to organize bottom-up discoveries and bottom-up evidence to revise top-down frameworks.",
+    "tags": [
+        "analysis",
+        "thinking",
+        "problem-solving",
+        "strategies",
+        "planning",
+        "decomposition"
+    ],
+    "category": "Thinking",
+    "icon": "FaArrowDown",
+    "featured": false,
+    "aliases": [
+        "Top-Down Approach",
+        "Top-Down Design",
+        "Top-Down Thinking",
+        "Deductive Analysis"
+    ],
+    "relatedConcepts": [
+        "bottom-up-analysis",
+        "middle-out-thinking",
+        "decomposition",
+        "problem-decomposition",
+        "analytical-thinking",
+        "structured-thinking",
+        "first-principles",
+        "systems-thinking",
+        "reductionism",
+        "deductive-reasoning",
+        "convergent-thinking",
+        "top-down-processing",
+        "top-down-attention",
+        "holism"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Top-down and bottom-up design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-01-16",
+    "dateModified": "2026-01-29"
 }

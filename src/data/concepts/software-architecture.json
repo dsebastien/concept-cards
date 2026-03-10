@@ -1,0 +1,94 @@
+{
+    "id": "software-architecture",
+    "name": "Software Architecture",
+    "summary": "The high-level structure of a software system, defining its components, their relationships, and the principles governing its design and evolution.",
+    "explanation": "Software architecture refers to the fundamental structural decisions about a software system—the decomposition into components, the relationships between those components, and the principles and guidelines governing their design and evolution over time. Architecture is not about getting everything right upfront; it is about making the decisions that are hardest to change later and creating a structure within which the system can evolve.\n\n## What architecture defines\n\n- **Component structure**: How the system is broken into modules, services, layers, or other units\n- **Communication patterns**: How components interact (synchronous calls, events, messages, shared data)\n- **Quality attributes**: How non-functional requirements (performance, scalability, security, maintainability) are addressed\n- **Constraints and trade-offs**: What was deliberately sacrificed and why\n- **Boundaries**: Where the system ends and external systems begin\n\n## Architecture vs. design\n\nArchitecture and design exist on a continuum rather than being cleanly separable. A useful heuristic: architecture is the set of decisions that are **expensive to change**. Choosing between microservices and a monolith is architectural; choosing a variable name is design. The boundary shifts as technology evolves—containerization made some previously architectural decisions (deployment topology) easier to change.\n\nMartin Fowler captures it well: architecture is \"the shared understanding that the expert developers have of the system design.\" Ralph Johnson adds: it is \"the decisions you wish you could get right early.\"\n\n## Common architectural styles\n\n| Style | Characteristics | Trade-offs |\n|---|---|---|\n| Monolithic | Single deployable unit | Simple to start; hard to scale independently |\n| Microservices | Independently deployable services | Flexible scaling; operational complexity |\n| Event-driven | Components communicate via events | Loose coupling; eventual consistency |\n| Layered | Horizontal layers (UI, business, data) | Clear separation; can become rigid |\n| Hexagonal | Ports and adapters isolate core logic | Testable, adaptable; more abstractions |\n| Serverless | Functions triggered by events | Pay-per-use; cold starts, vendor lock-in |\n\n## Architecture as decisions\n\nModern software architecture increasingly recognizes that architecture is not a blueprint but a collection of decisions. Architecture Decision Records (ADRs) capture these decisions explicitly, preserving the context and rationale that would otherwise be lost to context rot. The most important architectural knowledge is often not the structure itself but *why* the structure was chosen—what alternatives were rejected and what trade-offs were accepted.\n\n## Architecture and Conway's Law\n\nConway's Law states that systems mirror the communication structures of the organizations that build them. This means architecture is not purely a technical concern—it is deeply intertwined with team structure, communication patterns, and organizational design. Effective architects understand that changing the architecture often requires changing the organization, and vice versa.\n\n## Evolutionary architecture\n\nTraditional architecture assumed requirements could be known upfront. Modern approaches embrace evolutionary architecture—building systems that support guided, incremental change across multiple dimensions. Instead of trying to predict the future, evolutionary architecture uses fitness functions and incremental change to guide the system toward desired quality attributes over time.\n\n## The architect's role\n\nThe architect's primary job is not to draw diagrams but to:\n- Make the hard decisions that cannot be easily reversed\n- Communicate those decisions so the team understands and follows them\n- Create guardrails that prevent accidental violation of architectural principles\n- Evolve the architecture as requirements and context change\n- Balance competing quality attributes (you can't optimize for everything simultaneously)",
+    "tags": [
+        "software-development",
+        "architecture",
+        "design",
+        "systems-thinking",
+        "decision-making"
+    ],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "System Architecture",
+        "Software Design",
+        "Application Architecture"
+    ],
+    "relatedConcepts": [
+        "architecture-decision-records",
+        "evolutionary-architecture",
+        "architectural-fitness-functions",
+        "clean-architecture",
+        "microservices-architecture",
+        "monolithic-architecture",
+        "domain-driven-design",
+        "conways-law",
+        "separation-of-concerns",
+        "solid-principles",
+        "design-patterns",
+        "technical-debt",
+        "software-entropy",
+        "conceptual-integrity",
+        "modulith",
+        "service-oriented-architecture",
+        "distributed-systems",
+        "design-rationale",
+        "rfc",
+        "technology-radar"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Fundamentals of Software Architecture by Mark Richards and Neal Ford",
+            "url": "https://www.amazon.com/dp/1492043451?tag=dsebastien00-20"
+        },
+        {
+            "title": "Software Architecture: The Hard Parts by Neal Ford, Mark Richards, Pramod Sadalage, and Zhamak Dehghani",
+            "url": "https://www.amazon.com/dp/1492086894?tag=dsebastien00-20"
+        },
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Software architecture - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_architecture",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

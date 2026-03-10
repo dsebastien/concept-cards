@@ -20,7 +20,12 @@
         "large-language-models",
         "context-window",
         "ai-mega-prompts",
-        "knowledge-graph"
+        "knowledge-graph",
+        "knowledge-cutoff",
+        "ai-grounding",
+        "ai-hallucination",
+        "training-data",
+        "rag-pipelines"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Large+Language+Models+(LLMs)"

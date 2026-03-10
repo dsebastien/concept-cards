@@ -1,0 +1,19 @@
+{
+    "id": "quantum-tunneling",
+    "name": "Quantum Tunneling",
+    "summary": "The quantum phenomenon where particles pass through energy barriers that would be impossible to cross according to classical physics.",
+    "explanation": "Quantum tunneling is a quantum mechanical phenomenon in which a particle passes through a potential energy barrier that it classically should not have enough energy to overcome. Rather than going over the barrier, the particle 'tunnels' through it — a direct consequence of the wave-like nature of quantum particles.\n\n**How tunneling works:**\n\nIn classical physics, a ball rolling toward a hill must have enough energy to get over the top. If it doesn't, it bounces back — no exceptions. In quantum mechanics, particles are described by wave functions, and a wave function doesn't abruptly stop at a barrier. Instead, it decays exponentially inside the barrier. If the barrier is thin enough, the wave function has a non-zero amplitude on the other side, meaning there is a probability of finding the particle beyond the barrier.\n\n**Key factors:**\n\n- **Barrier width**: Thinner barriers have higher tunneling probability\n- **Barrier height**: Lower barriers relative to the particle's energy increase tunneling probability\n- **Particle mass**: Lighter particles tunnel more easily (electrons tunnel far more readily than protons)\n- **Exponential sensitivity**: Tunneling probability decreases exponentially with barrier width and height\n\n**Applications in nature:**\n\n- **Nuclear fusion in stars**: The Sun shines because protons tunnel through the electromagnetic repulsion barrier to fuse. Without tunneling, the Sun would not produce energy — stellar fusion requires tunneling because the core temperature is far too low for protons to classically overcome their mutual repulsion\n- **Radioactive decay**: Alpha particles tunnel out of atomic nuclei, explaining radioactive decay rates\n- **Enzymes**: Some biochemical reactions are accelerated by quantum tunneling of protons and hydrogen atoms\n\n**Applications in technology:**\n\n- **Tunnel diodes**: Electronic components that exploit tunneling for ultra-fast switching\n- **Scanning Tunneling Microscope (STM)**: Images surfaces at the atomic level by measuring tunneling current between a sharp tip and the surface. Invented in 1981, it earned the 1986 Nobel Prize in Physics\n- **Flash memory**: Data storage relies on electrons tunneling through thin insulating layers\n- **Josephson junctions**: Superconducting devices based on tunneling that are used in quantum computers and ultra-sensitive magnetic field detectors (SQUIDs)\n\n**Tunneling time controversy:**\n\nHow long does tunneling take? This seemingly simple question has generated decades of debate. Recent experiments suggest tunneling can appear to happen faster than light would traverse the same distance, though this does not enable faster-than-light communication due to the nature of quantum probability.",
+    "tags": ["quantum-mechanics", "physics", "technology", "nuclear-physics"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Quantum mechanical tunneling", "Barrier penetration"],
+    "relatedConcepts": ["quantum-mechanics", "wave-particle-duality", "quantum-superposition", "quantum-computing", "wave-function-collapse"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [{"title": "Quantum tunnelling - Wikipedia", "url": "https://en.wikipedia.org/wiki/Quantum_tunnelling", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

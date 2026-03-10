@@ -1,0 +1,74 @@
+{
+    "id": "ai-accountability",
+    "name": "AI Accountability",
+    "summary": "The principle that individuals, organizations, and institutions must be answerable for the development, deployment, and outcomes of AI systems.",
+    "explanation": "AI accountability is the principle that clear responsibility must exist for the decisions, actions, and impacts of artificial intelligence systems. It addresses a fundamental question: when an AI system makes a decision that affects people's lives, who is answerable for the outcome? As AI increasingly influences hiring, lending, healthcare, criminal justice, and other high-stakes domains, establishing clear lines of accountability has become one of the most pressing challenges in AI governance.\n\nThe accountability gap is a central concern. Traditional accountability structures assume human decision-makers who can explain their reasoning and be held responsible for outcomes. AI systems disrupt this model. When a machine learning model denies someone a loan or flags a person as a security risk, the decision emerges from complex mathematical operations across millions of parameters. No single person designed that specific decision. The developer created the architecture, the data team curated the training data, the product team defined the objectives, the deployer configured the system, and the organization chose to use it. This diffusion of responsibility makes it difficult to pinpoint who is accountable when things go wrong.\n\nAI accountability operates across several dimensions. Developer accountability holds the creators of AI systems responsible for building systems that are safe, fair, and well-tested. This includes responsibility for training data quality, model validation, and documentation. Deployer accountability places responsibility on organizations that integrate AI into their products and services, including proper configuration, monitoring, and context-appropriate use. User accountability recognizes that those who interact with and act on AI outputs share responsibility for how those outputs are used. Regulatory accountability establishes governmental and institutional oversight to ensure compliance with laws, standards, and ethical norms.\n\nSeveral challenges make AI accountability difficult to achieve. The opacity of many AI systems, particularly deep learning models, means that even developers may not fully understand why a specific decision was made. The complexity of AI supply chains, where models are built on top of other models, trained on data from many sources, and deployed across different contexts, creates attribution problems. When harm occurs, it may be unclear whether the fault lies in the data, the model, the deployment context, or some interaction among them.\n\nAccountability and transparency are deeply intertwined. You cannot hold someone accountable for a decision you cannot understand or audit. This is why transparency mechanisms like explainable AI, model cards, data sheets, and algorithmic impact assessments are prerequisites for meaningful accountability. Without the ability to inspect and understand AI systems, accountability becomes hollow.\n\nLegal frameworks are evolving to address AI accountability. The EU AI Act includes liability provisions for high-risk AI systems, requiring providers to implement risk management, maintain documentation, and enable human oversight. Product liability law is being adapted to cover AI-related harms. Some jurisdictions are exploring strict liability for certain AI applications, where the deployer is responsible for harm regardless of fault.\n\nOrganizational practices that support AI accountability include conducting algorithmic impact assessments before deployment, maintaining comprehensive audit trails of AI system decisions, establishing incident reporting and response procedures, defining clear ownership for each AI system, and creating governance structures with authority to halt or modify AI deployments. These practices ensure that accountability is not just a principle but an operational reality.\n\nIt is important to distinguish between related but distinct concepts. Accountability means being answerable and subject to consequences. Responsibility refers to the obligation to act appropriately. Liability is the legal obligation to compensate for harm. An organization can be responsible for using AI ethically, accountable to stakeholders for outcomes, and liable under law for damages. All three are necessary for a complete accountability framework.\n\nDocumentation plays a critical role in AI accountability. Model cards describe a model's intended use, performance characteristics, and limitations. Data sheets document the composition and collection process of training datasets. Decision logs record when and why AI systems were deployed, modified, or overridden. Together, these artifacts create the evidentiary basis needed to assess accountability when questions arise.",
+    "tags": [
+        "ai",
+        "ethics",
+        "governance",
+        "accountability",
+        "responsibility"
+    ],
+    "category": "AI",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Algorithmic Accountability",
+        "AI Responsibility"
+    ],
+    "relatedConcepts": [
+        "ai-ethics",
+        "ai-safety",
+        "explainable-ai",
+        "ai-fairness",
+        "responsible-ai",
+        "ai-governance",
+        "ai-guardrails",
+        "human-in-the-loop",
+        "algorithmic-bias"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Algorithmic accountability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algorithmic_accountability",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

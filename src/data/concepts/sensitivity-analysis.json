@@ -1,0 +1,63 @@
+{
+    "id": "sensitivity-analysis",
+    "name": "Sensitivity Analysis",
+    "summary": "A technique for determining how changes in input variables affect the output of a model or decision, revealing which assumptions matter most.",
+    "explanation": "Sensitivity analysis is a systematic technique for understanding how variation in the inputs of a model or decision translates into variation in its outputs. By methodically changing one or more assumptions and observing the effect, decision-makers can identify which variables have the greatest impact on outcomes, where to focus further research, and how robust their conclusions are to uncertainty.\n\n## Types of Sensitivity Analysis\n\nSensitivity analysis comes in several forms, ranging from simple to sophisticated:\n\n- **One-at-a-time (OAT) / Local sensitivity analysis**: Varies one input at a time while holding all others constant. This is the simplest approach and works well when inputs are independent, but it misses interaction effects between variables.\n- **Global sensitivity analysis**: Varies all inputs simultaneously across their full ranges, capturing interaction effects and providing a more complete picture of model behavior. Methods include variance-based decomposition (Sobol indices), Morris screening, and regression-based approaches.\n- **Scenario-based sensitivity**: Tests specific combinations of inputs that represent plausible future states, bridging the gap between pure mathematical analysis and narrative-driven scenario planning.\n\n## Visualization Tools\n\nSeveral visualization techniques make sensitivity results intuitive:\n\n- **Tornado diagrams**: Bar charts showing the range of output variation caused by each input, sorted from largest to smallest impact. The resulting shape resembles a tornado, making it immediately clear which variables matter most.\n- **Spider plots**: Line charts showing how the output changes as each input varies across its range, with all lines meeting at the base case. The steeper the line, the more sensitive the output is to that variable.\n- **Break-even analysis**: Identifies the specific input value at which the decision changes (e.g., the discount rate at which a project's NPV turns negative), providing concrete thresholds for decision-makers.\n\n## Applications\n\nSensitivity analysis is invaluable across many domains:\n\n- **Financial modeling**: Testing how changes in revenue growth, cost assumptions, or discount rates affect investment valuations and project returns\n- **Engineering**: Understanding how manufacturing tolerances and material properties affect system performance and reliability\n- **Policy analysis**: Evaluating how economic assumptions, behavioral responses, and implementation variables affect policy outcomes\n- **Project management**: Identifying which cost and schedule estimates have the greatest impact on total project risk\n\n## Relationship to Other Techniques\n\nSensitivity analysis complements other decision-making approaches. While scenario planning creates rich narratives about possible futures, sensitivity analysis provides the mathematical backbone to understand which variables drive different outcomes. Combined with Monte Carlo simulation, it can handle complex systems where many uncertain inputs interact simultaneously. It is a core component of formal decision analysis, helping analysts determine the value of gathering additional information about specific uncertainties.\n\n## Limitations\n\nSimple sensitivity analysis has important limitations:\n\n- **Independence assumption**: OAT methods assume inputs are independent, which is often unrealistic. Correlated inputs require more sophisticated approaches.\n- **Range selection**: Results depend heavily on the assumed ranges for each input. Garbage ranges produce garbage insights.\n- **Model structure**: Sensitivity analysis tests inputs within a given model but cannot reveal whether the model itself is wrong.\n\n## Practical Value for Knowledge Workers\n\nEven without formal models, the mindset behind sensitivity analysis is powerful for everyday decision-making. When evaluating a business case, ask: \"Which assumptions, if wrong, would change my decision?\" When making plans, ask: \"What needs to be true for this to work?\" This habit of testing assumptions systematically is one of the most valuable thinking skills a knowledge worker can develop.",
+    "tags": [
+        "decision-making",
+        "analysis",
+        "risk",
+        "modeling",
+        "quantitative-methods"
+    ],
+    "category": "Decision Science",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "What-If Analysis",
+        "Parameter Sensitivity"
+    ],
+    "relatedConcepts": [
+        "decision-analysis",
+        "risk-assessment",
+        "scenario-planning",
+        "monte-carlo-methods",
+        "decision-tree",
+        "cost-benefit-analysis",
+        "expected-value",
+        "decision-quality"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sensitivity Analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sensitivity_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

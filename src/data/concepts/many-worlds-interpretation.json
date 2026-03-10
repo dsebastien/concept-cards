@@ -1,0 +1,19 @@
+{
+    "id": "many-worlds-interpretation",
+    "name": "Many-Worlds Interpretation",
+    "summary": "The quantum mechanics interpretation proposing that all possible measurement outcomes are physically realized in branching parallel universes.",
+    "explanation": "The Many-Worlds Interpretation (MWI) is an interpretation of quantum mechanics proposed by Hugh Everett III in 1957. It offers a radical solution to the measurement problem: rather than wave function collapse selecting one outcome, all possible outcomes of every quantum measurement occur simultaneously, each in its own branch of an ever-splitting universe.\n\n**The core idea:**\n\nIn standard quantum mechanics, a particle in superposition (e.g., spin up AND spin down) supposedly 'collapses' to one state when measured. MWI eliminates collapse entirely. Instead, the measurement causes the observer to become entangled with the particle, splitting into two branches of reality:\n\n- In one branch, the observer measures spin up\n- In another branch, the observer measures spin down\n- Both branches are equally real\n- Neither observer is aware of the other branch\n\n**Key features:**\n\n- **No collapse**: The wave function never collapses — it evolves unitarily according to the Schrodinger equation at all times\n- **Universal wave function**: There is one wave function for the entire universe, and it never reduces\n- **Deterministic**: The theory is fully deterministic — the apparent randomness of quantum mechanics arises because each observer only experiences one branch\n- **Decoherence**: Branches become effectively independent through decoherence — the quantum interference between branches becomes unmeasurably small\n\n**Arguments for MWI:**\n\n- Eliminates the mysterious and poorly defined 'measurement' or 'observation' that triggers collapse\n- Takes the mathematics of quantum mechanics at face value without adding extra postulates\n- Naturally explains quantum computing — quantum computers work by exploiting parallel computation across branches\n- Preferred by many physicists and cosmologists, including Sean Carroll and David Deutsch\n\n**Arguments against MWI:**\n\n- **Ontological extravagance**: Creating entire universes for every quantum event seems wasteful (though proponents argue the math already contains these branches)\n- **The probability problem**: If all outcomes occur, why do we observe Born rule probabilities? This remains debated\n- **Untestable**: The other branches are by definition unobservable, making the interpretation empirically indistinguishable from Copenhagen\n- **Personal identity**: What does it mean for 'you' if copies of you exist in other branches?\n\n**Cultural impact:**\n\nThe many-worlds interpretation has had enormous influence on science fiction, philosophy, and popular culture. It provides the framework for stories about parallel universes, alternate timelines, and branching realities. However, it's important to distinguish the precise physics from its popular representation — the branches are quantum mechanical, not classical parallel worlds with arbitrary differences.",
+    "tags": ["quantum-mechanics", "physics", "philosophy-of-science", "interpretations"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["MWI", "Everett interpretation", "Many worlds", "Relative state formulation"],
+    "relatedConcepts": ["quantum-mechanics", "quantum-superposition", "schrodingers-cat", "copenhagen-interpretation", "wave-function-collapse", "quantum-decoherence", "non-locality", "observer-effect"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [{"title": "Many-worlds interpretation - Wikipedia", "url": "https://en.wikipedia.org/wiki/Many-worlds_interpretation", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

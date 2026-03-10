@@ -1,0 +1,111 @@
+{
+    "id": "knowledge-continuity-management",
+    "name": "Knowledge Continuity Management",
+    "summary": "The systematic practice of ensuring critical organizational knowledge survives personnel changes, restructurings, and other disruptions to maintain operational capability.",
+    "explanation": "Knowledge Continuity Management (KCM) is the discipline of ensuring that critical knowledge persists within an organization regardless of personnel changes, restructurings, technology migrations, or other disruptions. It treats knowledge as an organizational asset that requires explicit management—much like financial assets or physical infrastructure.\n\n## Why knowledge continuity matters\n\nMost organizations manage financial continuity rigorously (budgets, reserves, insurance) but treat knowledge continuity casually. Yet knowledge loss can be as devastating as financial loss:\n\n- A key engineer retires and no one can maintain a critical system\n- An account manager leaves and customer relationships evaporate\n- A restructuring eliminates the team that understood why the current architecture was chosen\n- A technology migration loses years of accumulated operational knowledge\n\nKCM addresses these risks proactively rather than reactively.\n\n## The knowledge continuity framework\n\n### 1. Knowledge identification\nMap the organization's critical knowledge:\n- **What knowledge exists?** Document explicit and identify tacit knowledge\n- **Where does it reside?** In people, documents, systems, or processes\n- **How critical is it?** What's the impact if this knowledge is lost\n- **How concentrated is it?** Is it held by one person (bus factor = 1) or distributed\n\n### 2. Knowledge risk assessment\nEvaluate the vulnerability of critical knowledge:\n- **Departure risk**: How likely is the knowledge holder to leave? (Retirement, turnover trends, role satisfaction)\n- **Documentation status**: Is the knowledge captured in a retrievable form?\n- **Transfer readiness**: Are there potential recipients prepared to absorb this knowledge?\n- **Criticality × vulnerability**: Prioritize efforts on high-criticality, high-vulnerability knowledge\n\n### 3. Knowledge preservation strategies\n\n| Strategy | Best for | Effort | Durability |\n|---|---|---|---|\n| Documentation (ADRs, runbooks, wikis) | Explicit, procedural knowledge | Medium | High |\n| Cross-training and mentorship | Tacit, experiential knowledge | High | Medium |\n| Pair work and shadowing | Complex, context-dependent knowledge | Medium | Medium |\n| Video and audio recording | Narrative, historical knowledge | Low | High |\n| Communities of practice | Distributed, evolving knowledge | Low ongoing | High |\n| Succession planning | Role-specific, leadership knowledge | High | High |\n| Exit knowledge capture | All types, departing employees | Medium | Varies |\n\n### 4. Knowledge transfer mechanisms\n- **Structured handoffs**: Formal transfer processes when people change roles\n- **Mentoring programs**: Long-term relationships for gradual knowledge transfer\n- **Knowledge bases**: Searchable repositories of documented knowledge\n- **Storytelling**: Narratives that convey tacit knowledge and organizational context\n- **Communities of practice**: Groups that maintain and evolve domain knowledge collectively\n\n### 5. Continuous monitoring\n- Track bus factor for critical systems and processes\n- Monitor knowledge concentration risks as the organization changes\n- Review documentation freshness and accuracy\n- Assess onboarding effectiveness as a proxy for knowledge transfer quality\n\n## KCM vs. knowledge management\n\nKnowledge management is the broad discipline of creating, sharing, using, and managing organizational knowledge. Knowledge continuity management is a specific focus within KM that addresses the *persistence* question: how do we ensure knowledge survives disruption? KCM is to knowledge management what business continuity planning is to operations management—focused specifically on resilience and continuity.\n\n## Anti-patterns\n\n- **The hero model**: Relying on one indispensable person instead of distributing knowledge\n- **Documentation graveyards**: Creating documents no one reads or maintains\n- **Exit interview theater**: Conducting perfunctory exit interviews without genuine knowledge capture\n- **Knowledge hoarding**: Tolerating individuals who accumulate knowledge as a power base\n- **Migration amnesia**: Treating technology migrations as purely technical projects without knowledge preservation planning\n\n## Organizational maturity levels\n\n1. **Reactive**: Knowledge loss is addressed only after a crisis (key person departs)\n2. **Aware**: Organization recognizes knowledge continuity as a risk but responds ad hoc\n3. **Structured**: Formal processes exist for knowledge identification, documentation, and transfer\n4. **Proactive**: Knowledge continuity is embedded in hiring, role changes, project management, and technology decisions\n5. **Optimized**: Continuous monitoring and improvement of knowledge continuity across the organization",
+    "tags": [
+        "knowledge-management",
+        "organizations",
+        "leadership",
+        "businesses",
+        "documentation",
+        "risk-management"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "KCM",
+        "Knowledge Continuity",
+        "Knowledge Preservation",
+        "Knowledge Resilience"
+    ],
+    "relatedConcepts": [
+        "corporate-amnesia",
+        "institutional-memory",
+        "brain-drain",
+        "bus-factor",
+        "knowledge-transfer",
+        "tribal-knowledge",
+        "tacit-knowledge",
+        "cross-training",
+        "succession-planning",
+        "documentation",
+        "knowledge-retention",
+        "knowledge-silos",
+        "architecture-decision-records",
+        "runbook",
+        "after-action-review",
+        "lessons-learned",
+        "transactive-memory",
+        "context-rot",
+        "business-continuity"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Corporate Amnesia by Arnold Kransdorff",
+            "url": "https://www.amazon.com/dp/0750637986?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Knowledge-Creating Company by Ikujiro Nonaka and Hirotaka Takeuchi",
+            "url": "https://www.amazon.com/dp/0195092694?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Knowledge management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_management",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,75 @@
+{
+    "id": "ai-trust",
+    "name": "AI Trust",
+    "summary": "The confidence users and stakeholders place in AI systems to perform reliably, safely, and in alignment with their expectations and values.",
+    "explanation": "AI trust refers to the confidence that individuals, organizations, and society place in artificial intelligence systems to behave reliably, safely, and in alignment with human expectations and values. Trust is not binary but exists on a spectrum ranging from active distrust through skepticism to appropriate trust and, at the extreme, over-trust. The central challenge is calibration: ensuring that the level of trust people place in an AI system accurately reflects that system's actual capabilities, limitations, and reliability.\n\nThe calibration problem is at the heart of AI trust. Ideally, trust should be proportional to an AI system's demonstrated competence in a given context. A well-calibrated user trusts the system where it performs well and remains skeptical where it does not. In practice, however, trust is influenced by many factors beyond actual performance, including the system's appearance, the user's prior experiences with technology, social influence, marketing, and cognitive biases. This means that trust frequently diverges from trustworthiness, creating risks at both ends of the spectrum.\n\nSeveral factors influence how much trust people place in AI systems. Performance and reliability are foundational: systems that consistently produce accurate, useful results earn trust over time. Transparency and explainability matter because people are more willing to trust systems they can understand, even partially. User experience design shapes trust through interface cues, confidence indicators, and how errors are communicated. Social influence, including media coverage, peer experiences, and expert opinions, shapes expectations before a person ever interacts with a system. Personal experience is perhaps the strongest factor: a single dramatic failure can destroy trust that took months to build.\n\nOver-trust in AI systems poses significant risks. Automation bias causes people to accept AI outputs without sufficient scrutiny, even when those outputs are incorrect. Over-reliance leads people to depend on AI for tasks they should verify independently, degrading their own skills and judgment over time. Reduced vigilance means that human monitors of AI systems may stop paying attention, missing errors that they would have caught with appropriate skepticism. These risks are particularly dangerous in high-stakes domains like healthcare, aviation, and criminal justice, where uncritical acceptance of AI recommendations can have severe consequences.\n\nUnder-trust carries its own costs. When people distrust beneficial AI tools, they may refuse to adopt technologies that could improve their health, productivity, or safety. They may create inefficient workarounds that duplicate what AI could do more effectively. Technology anxiety can cause stress and resistance to change, particularly among populations that have been historically harmed by technology or excluded from its development. Under-trust can also lead to the rejection of valid AI insights, potentially resulting in worse outcomes than if the AI had been appropriately trusted.\n\nBuilding appropriate trust requires deliberate design and organizational practices. Transparency about what an AI system can and cannot do sets realistic expectations from the start. Consistent performance across a range of conditions demonstrates reliability. Graceful failure, where the system recognizes its limitations and communicates uncertainty clearly, builds trust more effectively than a system that fails silently or confidently produces wrong answers. Maintaining user control, including the ability to override, adjust, or opt out of AI decisions, preserves autonomy and supports trust. Clear communication of limitations helps users understand where to apply skepticism.\n\nOrganizational trust in AI extends beyond individual user interactions. Stakeholders need confidence not just in specific AI systems but in the governance structures, ethical frameworks, and oversight mechanisms that surround them. This organizational dimension of trust depends on demonstrated commitment to responsible AI practices, transparent reporting of AI system performance and incidents, and meaningful accountability when things go wrong.\n\nAI literacy plays a crucial role in calibrating trust. People with a better understanding of how AI systems work, including their probabilistic nature, their dependence on training data, and their known failure modes, are better equipped to calibrate their trust appropriately. They can distinguish between contexts where AI excels and contexts where it is likely to fail. Investing in AI literacy across all levels of an organization and society is one of the most effective ways to promote appropriate trust.\n\nDesign patterns that support calibrated trust include displaying confidence scores alongside AI outputs, providing explanations for AI recommendations, showing the basis for AI decisions (such as the data or reasoning used), offering easy mechanisms to report errors or provide feedback, gradually increasing AI autonomy as trust is earned, and designing handoff protocols for situations where AI reaches the boundary of its competence. These patterns help users develop and maintain an accurate mental model of what the AI system can do.",
+    "tags": [
+        "ai",
+        "trust",
+        "psychology",
+        "user-experience",
+        "safety"
+    ],
+    "category": "AI",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Trust in AI",
+        "AI Trustworthiness",
+        "Calibrated AI Trust"
+    ],
+    "relatedConcepts": [
+        "explainable-ai",
+        "ai-safety",
+        "ai-accountability",
+        "responsible-ai",
+        "human-in-the-loop",
+        "automation-bias",
+        "automation-complacency",
+        "ai-hallucination",
+        "ai-ethics"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Trust (social science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

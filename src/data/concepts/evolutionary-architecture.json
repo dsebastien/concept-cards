@@ -1,0 +1,68 @@
+{
+    "id": "evolutionary-architecture",
+    "name": "Evolutionary Architecture",
+    "summary": "An architectural approach that supports guided, incremental change across multiple dimensions by building systems designed to adapt as requirements and environments evolve.",
+    "explanation": "Evolutionary architecture, formalized by Neal Ford, Rebecca Parsons, and Patrick Kua in their book *Building Evolutionary Architectures*, is the practice of designing software systems that can adapt and evolve over time rather than attempting to predict all future requirements upfront.\n\n## The core idea\n\nTraditional architecture treats design as a one-time, upfront activity: analyze requirements, design the architecture, then build it. This approach assumes requirements are knowable in advance and that the architecture, once designed, will remain suitable. In practice, requirements change, technologies evolve, and business contexts shift. Evolutionary architecture embraces this reality by building systems that support **guided, incremental change**.\n\nThe key word is *guided*. Evolution without guidance is just entropy. Evolutionary architecture uses **fitness functions** to ensure that as the system changes, it continues to meet its key architectural goals.\n\n## Three pillars\n\n### 1. Incremental change\nThe ability to make small, frequent changes to the architecture rather than large, infrequent ones. This requires:\n- Modular design that allows parts to change independently\n- Continuous delivery pipelines that validate changes quickly\n- Deployment practices that reduce the blast radius of each change\n- Feature flags and canary releases for safe experimentation\n\n### 2. Fitness functions\nAutomated mechanisms that assess whether the architecture still meets its goals after a change. Fitness functions act as architectural guardrails—they don't prevent change but ensure change moves in the desired direction. Examples:\n- Performance benchmarks that must be met on every deployment\n- Dependency structure tests that prevent unwanted coupling\n- Security scanning that flags violations\n- Code metrics that enforce modularity constraints\n\n### 3. Appropriate coupling\nArchitectural decisions about what to couple and what to decouple. Not all coupling is bad—some things *should* change together. The art is identifying which dimensions of the system need to evolve independently and designing boundaries accordingly.\n\n## Dimensions of evolution\n\nSoftware architectures must evolve across multiple dimensions simultaneously:\n- **Technical**: Languages, frameworks, platforms, infrastructure\n- **Data**: Schema evolution, data migration, storage technologies\n- **Security**: Threat landscape, compliance requirements, access patterns\n- **Operational**: Deployment practices, monitoring, scaling approaches\n\nEach dimension needs its own fitness functions and change mechanisms.\n\n## Contrast with Big Design Up Front (BDUF)\n\n| Aspect | BDUF | Evolutionary |\n|---|---|---|\n| Planning horizon | Long-term prediction | Short-term adaptation |\n| Change attitude | Resist and control | Embrace and guide |\n| Validation | Architecture review boards | Automated fitness functions |\n| Cost of change | Increases over time | Kept manageable |\n| Decision timing | Early, speculative | As late as responsibly possible |\n\n## Relationship to ADRs\n\nArchitecture Decision Records are a natural complement to evolutionary architecture. As the architecture evolves, ADRs document *why* each change was made and what alternatives were considered. When a fitness function is added or modified, an ADR explains the architectural goal it protects. Together, they create a living history of guided architectural evolution.\n\n## Key insight\n\nThe fundamental insight of evolutionary architecture is that **the only constant is change**. Rather than fighting this reality with increasingly detailed upfront plans, build systems and processes that make change safe, cheap, and guided. The architecture that lasts isn't the one that resists change—it's the one that evolves gracefully.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "design",
+        "agile",
+        "change-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Evolutionary Software Architecture",
+        "Adaptive Architecture"
+    ],
+    "relatedConcepts": [
+        "software-architecture",
+        "architectural-fitness-functions",
+        "architecture-decision-records",
+        "technical-debt",
+        "software-entropy",
+        "incremental-innovation",
+        "continuous-delivery",
+        "microservices-architecture",
+        "modulith",
+        "strangler-fig-pattern",
+        "separation-of-concerns",
+        "agile",
+        "kaizen",
+        "design-rationale"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Building Evolutionary Architectures by Neal Ford, Rebecca Parsons, and Patrick Kua",
+            "url": "https://www.amazon.com/dp/1492097543?tag=dsebastien00-20"
+        },
+        {
+            "title": "Fundamentals of Software Architecture by Mark Richards and Neal Ford",
+            "url": "https://www.amazon.com/dp/1492043451?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Evolutionary architecture - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Evolutionary_architecture",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,68 @@
+{
+    "id": "bayesian-decision-theory",
+    "name": "Bayesian Decision Theory",
+    "summary": "A normative framework for making optimal decisions under uncertainty by combining prior beliefs with observed evidence through probability theory and utility functions.",
+    "explanation": "Bayesian Decision Theory is a normative framework that prescribes how a rational agent should make decisions under uncertainty. It integrates two powerful ideas: Bayesian probability (updating beliefs based on evidence) and utility theory (quantifying preferences over outcomes). Together, they provide a mathematically rigorous foundation for choosing the action that maximizes expected benefit given what you currently know.\n\n## Relationship to Bayes' Theorem\n\nBayes' theorem provides the mathematical engine, while decision theory provides the framework for action. The theorem tells you how to update your beliefs when you encounter new evidence: start with a prior probability (your initial belief), observe data, and calculate a posterior probability (your updated belief). Decision theory then takes these updated beliefs and combines them with a utility or loss function to determine which action is optimal. The theorem answers \"What should I believe?\" while the decision framework answers \"What should I do?\"\n\n## Core Components\n\n1. **Prior probabilities**: Your initial beliefs about the state of the world before seeing new evidence. These can come from historical data, expert judgment, or previous analyses.\n2. **Likelihood / Evidence**: The probability of observing the data you've seen, given each possible state of the world. This is the link between reality and observation.\n3. **Posterior probabilities**: Updated beliefs after incorporating new evidence via Bayes' theorem. The posterior becomes the prior for the next round of updating.\n4. **Loss/Utility functions**: Mathematical representations of the costs of different outcomes or the value of different actions. These encode your preferences and risk tolerance.\n\n## How It Works\n\nThe decision process follows a clear logic:\n\n1. Define the possible states of the world and the actions available\n2. Assign prior probabilities to each state\n3. Observe evidence and update probabilities using Bayes' theorem\n4. For each possible action, calculate the expected utility (or expected loss) by summing across all states: the probability of each state multiplied by the utility of that action in that state\n5. Choose the action with the highest expected utility (or lowest expected loss)\n\nThis framework is sometimes called \"minimize expected loss\" or \"maximize expected utility,\" depending on how the objective function is framed.\n\n## Comparison with Frequentist Approaches\n\nFrequentist statistics treats probability as the long-run frequency of events and avoids assigning probabilities to hypotheses. Bayesian approaches treat probability as a degree of belief, allowing direct statements like \"there is a 70% probability this treatment is effective.\" For decision-making, the Bayesian approach is often more natural because decisions are typically one-time events where long-run frequency interpretations are less helpful.\n\n## Applications\n\n- **Medicine**: Diagnostic decisions combine the base rate of a disease (prior) with test results (evidence) to determine the probability of illness and choose the best treatment\n- **Business**: A/B testing uses Bayesian methods to update beliefs about which variant performs better, stopping tests when sufficient confidence is reached\n- **Artificial intelligence**: Bayesian classifiers use the framework to categorize data (spam filtering, sentiment analysis, medical diagnosis) by computing posterior probabilities for each category\n- **Everyday reasoning**: Informally, Bayesian thinking helps with any situation where you update beliefs incrementally as new information arrives\n\n## Limitations\n\nBayesian decision theory faces several practical challenges:\n\n- **Specifying priors**: The choice of prior can significantly influence results, especially with limited data. Critics argue this introduces subjectivity.\n- **Specifying utility functions**: Quantifying preferences precisely is difficult, especially for complex, multi-attribute outcomes.\n- **Computational complexity**: For real-world problems with many variables, exact Bayesian computation can be intractable, requiring approximation methods like Markov Chain Monte Carlo.\n- **Idealized rationality**: The framework assumes perfect rationality, but real humans have cognitive limitations (bounded rationality) and systematic biases that deviation from Bayesian norms.\n\n## Practical Bayesian Thinking\n\nEven without formal mathematics, the principles of Bayesian decision theory improve everyday reasoning. The core habits are: start with a reasonable estimate, update incrementally as you learn new things, weigh evidence by its reliability, and make decisions based on your current best understanding rather than waiting for certainty. This iterative, evidence-driven approach to belief and action is one of the most powerful thinking frameworks available.",
+    "tags": [
+        "decision-making",
+        "probability",
+        "statistics",
+        "reasoning",
+        "quantitative-methods"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Bayesian Decision Making",
+        "Statistical Decision Theory"
+    ],
+    "relatedConcepts": [
+        "bayes-theorem",
+        "decision-analysis",
+        "expected-value",
+        "prospect-theory",
+        "bounded-rationality",
+        "predictive-processing",
+        "decision-quality",
+        "value-of-information"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Theory That Would Not Die by Sharon Bertsch McGrayne",
+            "url": "https://www.amazon.com/dp/0300188226?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Bayesian Decision Theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_decision_theory",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

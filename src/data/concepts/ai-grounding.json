@@ -1,0 +1,96 @@
+{
+    "id": "ai-grounding",
+    "name": "AI Grounding",
+    "summary": "The practice of anchoring AI model outputs in verifiable, current, and authoritative information sources to reduce hallucinations and bridge knowledge gaps.",
+    "explanation": "AI grounding refers to the techniques and practices that connect AI-generated outputs to verifiable, factual, and current information sources. Without grounding, language models generate responses based solely on patterns learned during training—which may be outdated, incorrect, or entirely fabricated. Grounding transforms a model from a pattern-completion engine into a more reliable information system.\n\n## Why grounding is necessary\n\nLarge language models have two fundamental limitations that grounding addresses:\n\n1. **Knowledge cutoff**: Models only know what was in their training data, which has a fixed temporal boundary\n2. **Hallucination tendency**: Models generate plausible-sounding text regardless of whether it's factually correct, because they are optimized for fluency, not truth\n\nGrounding creates a bridge between the model's internal knowledge and external reality.\n\n## Grounding techniques\n\n### Retrieval-Augmented Generation (RAG)\nThe most common grounding approach. Before generating a response, the system retrieves relevant documents from an external knowledge base and includes them in the model's context. The model then generates responses informed by both its training and the retrieved, potentially current, information.\n\n### Tool use and function calling\nModels can be given access to tools—web search engines, calculators, databases, APIs—that provide real-time information. When a query requires current data, the model calls the appropriate tool rather than relying on potentially stale training knowledge.\n\n### Citation and attribution\nGrounded systems can point to specific sources for their claims, enabling users to verify information. This transforms the interaction from \"trust me\" to \"here's where I got this.\"\n\n### Knowledge graphs\nStructured knowledge representations that provide the model with verified facts and relationships, reducing reliance on probabilistic pattern matching for factual claims.\n\n### Human-in-the-loop verification\nFor high-stakes applications, grounding includes human review of AI outputs before they are acted upon, ensuring factual accuracy in critical domains.\n\n## Grounding spectrum\n\n| Level | Approach | Reliability | Cost |\n|---|---|---|---|\n| Ungrounded | Raw model output only | Low for facts | Lowest |\n| Lightly grounded | Web search augmentation | Moderate | Low |\n| Well grounded | RAG with curated knowledge base | High | Moderate |\n| Strongly grounded | Domain-specific tools + expert review | Very high | High |\n\n## When grounding matters most\n\n- **Time-sensitive queries**: Current events, prices, availability, regulations\n- **Domain-specific questions**: Medical, legal, financial, or technical advice\n- **Factual claims**: Statistics, dates, names, quotes, scientific findings\n- **High-stakes decisions**: Any context where incorrect information could cause harm\n\n## When grounding matters less\n\n- **Creative tasks**: Brainstorming, fiction writing, ideation\n- **General reasoning**: Logic, analysis, problem-solving frameworks\n- **Timeless knowledge**: Principles, concepts, historical analysis, mathematics\n- **Personal reflection**: Coaching conversations, journaling prompts\n\n## The grounding paradox\n\nGrounding improves factual reliability but introduces its own challenges: retrieved documents may themselves be incorrect, search results may be biased, and the model must correctly integrate external information with its internal knowledge. Over-reliance on grounding can also make systems brittle—if the retrieval system fails, the model may perform worse than an ungrounded model would. The goal is appropriate grounding: matching the level of verification to the stakes and domain of the query.",
+    "tags": [
+        "ai",
+        "knowledge-retrieval",
+        "large-language-models",
+        "information",
+        "reliability"
+    ],
+    "category": "AI",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Grounded AI",
+        "Factual Grounding",
+        "Model Grounding"
+    ],
+    "relatedConcepts": [
+        "knowledge-cutoff",
+        "retrieval-augmented-generation",
+        "ai-hallucination",
+        "large-language-models",
+        "training-data",
+        "context-window",
+        "information-half-life",
+        "rag-pipelines",
+        "ai-transparency",
+        "ai-trust"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Grounding (artificial intelligence) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Grounding_(artificial_intelligence)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

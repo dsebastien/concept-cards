@@ -1,0 +1,83 @@
+{
+    "id": "decision-audit",
+    "name": "Decision Audit",
+    "summary": "A structured retrospective review of past decisions to evaluate the quality of the decision process and extract lessons for future decision-making.",
+    "explanation": "A Decision Audit is a systematic retrospective examination of past decisions, focused not merely on whether the outcome was good or bad, but on whether the decision process itself was sound. By separating process quality from outcome quality, decision audits help individuals and organizations learn from experience without falling prey to hindsight bias or outcome bias.\n\n## Why Audit Decisions?\n\nHumans are naturally inclined to judge decisions by their results. A decision that led to a good outcome is assumed to have been a good decision, and vice versa. But this conflation of process and outcome is a cognitive trap. Good processes can produce bad outcomes due to bad luck, and bad processes can produce good outcomes due to good luck. Decision audits correct for this by reconstructing the decision as it was made — with the information, constraints, and reasoning available at the time — and evaluating whether the process was appropriate given those circumstances.\n\n## Structure of a Decision Audit\n\nA thorough decision audit examines several dimensions. **Context**: What was the situation? What problem was being solved or opportunity pursued? **Alternatives**: What options were considered? Were important alternatives overlooked? **Information**: What information was available? Was it sufficient? Was relevant information ignored or unavailable? **Reasoning**: What logic or framework guided the choice? Were assumptions made explicit? **Biases**: What cognitive biases might have influenced the decision? Was there groupthink, anchoring, confirmation bias, or overconfidence? **Execution**: Was the decision implemented as intended? Did execution failures distort the outcome?\n\n## Overcoming Hindsight Bias\n\nOne of the greatest challenges in decision auditing is hindsight bias — the tendency to believe, after learning the outcome, that you \"knew it all along.\" Effective audits require disciplined reconstruction of the decision-maker's state of knowledge at the time of the decision. Decision journals, which capture reasoning in real time, are invaluable companions to decision audits because they provide an unedited record of what was known and believed before the outcome was revealed.\n\n## Frequency and Timing\n\nDecision audits can be triggered by specific events (a project completion, a major failure, a strategic milestone) or conducted on a regular schedule (quarterly reviews of key decisions). Regular audits are preferable because they capture both successful and unsuccessful decisions, avoiding the common pattern of only reviewing failures. Some organizations conduct annual \"decision reviews\" of their most consequential strategic choices.\n\n## Decision Journals and Decision Audits\n\nDecision journals and decision audits are complementary practices. Journals capture decisions in real time — recording the context, reasoning, alternatives considered, and expected outcomes at the moment of choice. Audits review these records retrospectively, comparing predictions with reality and evaluating the quality of the process. Together, they create a feedback loop that systematically improves decision-making over time.\n\n## Organizational Decision Audits\n\nAt the organizational level, decision audits become a tool for building institutional learning. By systematically reviewing strategic decisions — hiring choices, product launches, investment decisions, partnership agreements — organizations can identify recurring patterns of good and poor decision-making. This connects to the broader concept of a learning organization and to practices like after-action reviews and blameless post-mortems. The key cultural requirement is psychological safety: people must feel safe to honestly examine their reasoning without fear of punishment for honest mistakes.\n\n## Building a Decision Culture\n\nThe ultimate goal of decision auditing is not to assign blame but to build a culture of decision excellence. By normalizing retrospective review of decision processes, organizations signal that how decisions are made matters as much as what outcomes they produce. This shift in focus — from outcome to process — is one of the most powerful levers for improving decision quality over the long term.",
+    "tags": [
+        "decision-making",
+        "evaluation",
+        "learning",
+        "reflection",
+        "improvement"
+    ],
+    "category": "Decision Science",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Decision Review",
+        "Decision Retrospective"
+    ],
+    "relatedConcepts": [
+        "decision-journal",
+        "after-action-review",
+        "reflective-practice",
+        "outcome-bias",
+        "hindsight-bias",
+        "post-mortem",
+        "double-loop-learning",
+        "decision-hygiene"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Decision Quality - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision_quality",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

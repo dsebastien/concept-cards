@@ -1,0 +1,48 @@
+{
+    "id": "undecidability",
+    "name": "Undecidability",
+    "summary": "The property of a decision problem for which no algorithm can exist that always gives a correct answer for every possible input.",
+    "explanation": "Undecidability is a foundational concept in mathematics and computer science describing problems that cannot be solved by any algorithm. An undecidable problem is one where no Turing machine (and therefore no computer program) can always correctly answer \"yes\" or \"no\" for every possible input—not because we haven't found the right algorithm yet, but because such an algorithm is mathematically proven to be impossible.\n\n## Decision problems\n\nA decision problem is any question with a yes/no answer. Examples:\n\n- \"Is this number prime?\" — **decidable** (algorithms exist)\n- \"Is this string a valid email address?\" — **decidable** (regex can check)\n- \"Will this program halt on this input?\" — **undecidable** (the halting problem)\n- \"Are these two programs equivalent?\" — **undecidable** (program equivalence)\n- \"Does this mathematical statement have a proof?\" — **undecidable** (Gödel's result)\n\n## How undecidability is proven\n\nMost undecidability proofs use one of two techniques:\n\n### Diagonalization\nDerived from Cantor's diagonal argument, this technique constructs a counterexample that defeats any proposed algorithm. Turing's halting problem proof uses this approach: assume an algorithm exists, then build a program that contradicts whatever the algorithm says about it.\n\n### Reduction\nShow that solving problem B would let you solve problem A, which is already known to be undecidable. If A reduces to B, and A is undecidable, then B must also be undecidable. This is the primary method for expanding the catalog of known undecidable problems from the halting problem outward.\n\n## Famous undecidable problems\n\n| Problem | Description |\n|---|---|\n| **Halting problem** | Does a given program halt on a given input? |\n| **Post correspondence problem** | Can tiles be arranged to produce matching top and bottom strings? |\n| **Entscheidungsproblem** | Is a given statement provable in first-order logic? |\n| **Word problem for groups** | Are two algebraic expressions equivalent in a given group? |\n| **Mortal matrix problem** | Can a set of matrices be multiplied to produce the zero matrix? |\n| **Wang tiling** | Can a given set of tiles tile the plane? |\n| **Diophantine equations** | Does a polynomial equation have integer solutions? (Hilbert's 10th problem) |\n\n## Undecidability in software engineering\n\nUndecidability has practical consequences for anyone who builds or analyzes software:\n\n- **Perfect static analysis is impossible**: No tool can detect all bugs in all programs (this would solve the halting problem)\n- **Perfect optimization is impossible**: No compiler can always find the most efficient version of any program\n- **Perfect security analysis is impossible**: No scanner can detect all vulnerabilities in all programs\n- **Type inference has limits**: Some type systems are undecidable (checking whether a program is well-typed has no general algorithm)\n\nThis doesn't mean analysis tools are useless—it means they must accept being either **incomplete** (missing some bugs) or **unsound** (reporting false positives), or both. Understanding this helps engineers set realistic expectations.\n\n## Undecidability vs. intractability\n\nThese are fundamentally different:\n\n- **Undecidable**: No algorithm can solve all cases, period. Not a matter of time or resources.\n- **Intractable** (e.g., NP-hard): Algorithms exist but may take impractically long for large inputs. The problem is solvable in principle.\n\nA problem that takes a billion years to solve is still categorically different from a problem that cannot be solved at all.\n\n## Undecidability vs. incompleteness\n\nGödel's incompleteness theorems and Turing's undecidability results are deeply connected but distinct:\n\n- **Gödel** (1931): Any sufficiently powerful formal system has true statements that cannot be proven within the system\n- **Turing** (1936): There are well-defined computational problems that no algorithm can solve\n\nBoth reveal fundamental limits—Gödel on proof systems, Turing on computation. Together they demonstrate that no formal system or algorithm can capture all mathematical truth.\n\n## Philosophical implications\n\nUndecidability raises profound questions:\n\n- Are there limits to what the human mind can know?\n- If computation has fundamental limits, what does this mean for artificial intelligence?\n- Does the physical universe compute undecidable functions, or is it also limited?\n- Can mathematical truth exceed what any formal system can prove?",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "logic",
+        "foundations"
+    ],
+    "category": "Software Development",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Undecidable Problem",
+        "Algorithmic Unsolvability",
+        "Computationally Unsolvable"
+    ],
+    "relatedConcepts": [
+        "halting-problem",
+        "turing-machine",
+        "church-turing-thesis",
+        "godels-incompleteness-theorems",
+        "computability-theory",
+        "cantors-diagonal-argument",
+        "recursion"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Gödel, Escher, Bach by Douglas Hofstadter",
+            "url": "https://www.amazon.com/dp/0465026567?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Undecidable problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Undecidable_problem",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

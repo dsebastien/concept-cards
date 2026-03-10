@@ -1,0 +1,70 @@
+{
+    "id": "decision-analysis",
+    "name": "Decision Analysis",
+    "summary": "A systematic, quantitative discipline for evaluating complex decisions by structuring problems, modeling uncertainty, and identifying the choice that maximizes value.",
+    "explanation": "Decision Analysis (DA) is a formal, systematic discipline that provides a structured approach to making decisions under uncertainty. Rather than relying on intuition or ad hoc reasoning, decision analysis uses quantitative tools and frameworks to decompose complex choices into manageable components, evaluate trade-offs rigorously, and identify the alternative that best serves the decision-maker's objectives.\n\n## Origins and Development\n\nThe field was pioneered by Howard Raiffa and Ronald Howard in the 1960s. Raiffa's foundational work on statistical decision theory and game theory at Harvard, combined with Howard's formalization of the discipline at Stanford (where he coined the term \"decision analysis\" in 1966), established DA as a distinct field bridging applied mathematics, psychology, and management science. Their work built upon earlier contributions from Abraham Wald's statistical decision theory and John von Neumann's utility theory.\n\n## Core Process\n\nDecision analysis follows a structured process:\n\n1. **Frame the decision**: Define the problem clearly, including the decision context, scope, and objectives. A well-framed decision is half-solved.\n2. **Identify alternatives**: Generate creative options beyond the obvious choices. Good analysis of bad alternatives still yields bad decisions.\n3. **Model uncertainty**: Represent what you don't know using probability distributions. This includes identifying key uncertainties and estimating their likelihood.\n4. **Assess consequences**: Determine the outcomes associated with each alternative under different scenarios.\n5. **Evaluate trade-offs**: Compare alternatives using expected value, utility functions, or multi-attribute value models to find the best choice.\n\n## Key Tools\n\nDecision analysts employ several powerful tools:\n\n- **Decision trees**: Visual representations of sequential decisions and chance events, allowing calculation of expected values along each path\n- **Influence diagrams**: Compact graphical models showing relationships between decisions, uncertainties, and outcomes\n- **Sensitivity analysis**: Testing how changes in assumptions affect the recommended decision, revealing which uncertainties matter most\n- **Monte Carlo simulation**: Using random sampling to model complex systems with many interacting uncertainties\n\n## Decision Analysis vs. Decision-Making\n\nAn important distinction exists between decision analysis and decision-making. Analysis is the formal discipline of structuring and quantifying choices; making is the broader human act that encompasses analysis but also includes judgment, values, and commitment to action. Good analysis informs good decisions but doesn't replace the need for human judgment, especially regarding values and risk tolerance.\n\n## Applications\n\nDecision analysis finds application across many domains: business strategy (investment decisions, market entry), medicine (treatment selection, diagnostic testing), engineering (design choices, reliability planning), and public policy (resource allocation, environmental regulation). In each domain, the structured approach helps decision-makers move beyond cognitive biases and organizational politics toward more rational choices.\n\n## When to Use Formal Analysis\n\nFormal decision analysis adds the most value when decisions are complex (multiple objectives, significant uncertainty), consequential (high stakes), and novel (limited relevant experience). For routine decisions or situations with clear best options, simpler heuristics often suffice. The key insight from decision analysis is not that every decision needs formal modeling, but that understanding the principles of good decision-making improves all decisions.",
+    "tags": [
+        "decision-making",
+        "analysis",
+        "frameworks",
+        "risk",
+        "quantitative-methods"
+    ],
+    "category": "Decision Science",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "DA",
+        "Formal Decision Analysis"
+    ],
+    "relatedConcepts": [
+        "decision-tree",
+        "decision-making",
+        "expected-value",
+        "sensitivity-analysis",
+        "bayesian-decision-theory",
+        "value-of-information",
+        "decision-quality",
+        "risk-assessment",
+        "scenario-planning",
+        "multi-criteria-decision-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Smart Choices by John Hammond",
+            "url": "https://www.amazon.com/dp/0767908864?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Decision Analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

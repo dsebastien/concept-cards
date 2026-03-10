@@ -1,0 +1,98 @@
+{
+    "id": "decision-intelligence",
+    "name": "Decision Intelligence",
+    "summary": "An interdisciplinary field that applies data science, social science, and managerial science to improve organizational decision-making at scale.",
+    "explanation": "Decision Intelligence (DI) is an interdisciplinary discipline that brings together data science, behavioral science, and managerial science to systematically improve how organizations make decisions. Rather than treating decision-making as an art or relying solely on intuition, DI applies engineering rigor to the entire decision lifecycle — from framing the problem and gathering evidence to choosing a course of action and learning from results.\n\n## Origins and Key Figures\n\nThe term was coined and popularized by Cassie Kozyrkov, who served as Google's first Chief Decision Scientist. Kozyrkov argued that while organizations had invested heavily in data infrastructure and analytics capabilities, they had largely neglected the \"last mile\" — the translation of data insights into better decisions. Decision Intelligence emerged to fill this gap, providing frameworks and practices for connecting data to action.\n\n## The Three Pillars\n\nDI rests on three foundational pillars. **Data science** provides the tools for extracting meaningful patterns and insights from data — statistics, machine learning, and analytics. **Behavioral science** contributes an understanding of how humans actually make decisions, including the systematic biases and heuristics that shape judgment under uncertainty. **Managerial science** addresses the organizational context — how incentive structures, information flows, authority, and culture shape the decisions that get made in practice. The integration of all three distinguishes DI from narrower disciplines.\n\n## Beyond Business Intelligence\n\nTraditional Business Intelligence (BI) focuses on describing what has happened — dashboards, reports, and historical analysis. Decision Intelligence goes further by asking: given what the data shows, what should we do? This shift from descriptive to prescriptive is fundamental. BI answers \"what happened?\" and \"why did it happen?\" DI adds \"what should we do about it?\" and \"how will we know if it worked?\" This reorientation around decisions, rather than data, changes how organizations think about their analytics investments.\n\n## AI and Human Judgment\n\nA central tenet of DI is that artificial intelligence and machine learning should augment rather than replace human judgment. AI excels at processing large volumes of data, detecting patterns, and generating predictions. Humans excel at framing problems, defining objectives, incorporating ethical considerations, and handling novel situations. DI designs systems where each contributes its strengths — machines handle the data-intensive analysis while humans provide the contextual judgment and value alignment.\n\n## Decision Engineering\n\nDI introduces the concept of decision engineering — the systematic design of organizational decision processes. This includes defining clear decision rights (who decides what), establishing appropriate information flows (ensuring decision-makers have the right data at the right time), creating feedback loops (so organizations learn from past decisions), and designing experiments to test hypotheses before committing resources at scale.\n\n## Common Decision Failures\n\nDI identifies and addresses several recurring patterns of decision failure in organizations. **Cognitive biases** distort individual judgment — confirmation bias, anchoring, availability bias, and overconfidence among them. **Information overload** overwhelms decision-makers with data while starving them of insight. **Misaligned incentives** cause people to optimize for the wrong objectives. **Decision debt** accumulates when organizations defer important decisions, and **decision theater** occurs when elaborate processes create the appearance of rigor without improving outcomes.\n\n## Practical Applications\n\nIn practice, DI manifests as a set of concrete practices. **Hypothesis testing** replaces intuition-driven product launches with structured experiments. **Decision frameworks** replace ad hoc deliberation with repeatable processes for common decision types. **Decision documentation** creates institutional memory that enables organizational learning. **A/B testing and experimentation** provide causal evidence for what works, moving beyond correlation-based analytics.\n\n## Building Decision Intelligence Capability\n\nOrganizations build DI capability through several mechanisms: training decision-makers in statistical thinking and cognitive bias awareness, embedding decision scientists in business teams, creating shared decision frameworks and templates, building experimentation platforms, and fostering a culture where decisions are treated as hypotheses to be tested rather than pronouncements to be defended. The ultimate goal is an organization where every significant decision is informed by the best available evidence, made through a well-designed process, and followed by systematic learning.",
+    "tags": [
+        "decision-making",
+        "data-science",
+        "ai",
+        "organizations",
+        "frameworks"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "DI",
+        "Applied Decision Science"
+    ],
+    "relatedConcepts": [
+        "decision-making",
+        "decision-analysis",
+        "data-visualization",
+        "behavioral-economics",
+        "bounded-rationality",
+        "cognitive-biases",
+        "artificial-intelligence",
+        "machine-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Decision Intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

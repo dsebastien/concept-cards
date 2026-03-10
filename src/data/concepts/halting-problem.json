@@ -1,0 +1,53 @@
+{
+    "id": "halting-problem",
+    "name": "Halting Problem",
+    "summary": "The proven impossibility of creating a general algorithm that can determine whether any given program will eventually halt or run forever.",
+    "explanation": "The halting problem is one of the most important results in the history of mathematics and computer science. Proved by Alan Turing in 1936, it demonstrates a fundamental limit on what computers can do: there is no general algorithm that can examine an arbitrary program and its input and correctly determine whether the program will eventually stop (halt) or run forever.\n\n## The problem stated\n\nGiven any program P and any input I, can we build an algorithm H that always correctly answers: \"Will P eventually halt when run on input I?\"\n\nTuring proved the answer is **no**. No such algorithm can exist.\n\n## The proof (by contradiction)\n\nTuring's proof is elegantly simple:\n\n1. **Assume** a halting detector H(P, I) exists that returns \"halts\" or \"loops\" for any program P and input I\n2. **Construct** a new program D that takes a program P as input:\n   - D runs H(P, P) — it asks whether P halts when given itself as input\n   - If H says \"halts\", D deliberately enters an infinite loop\n   - If H says \"loops\", D immediately halts\n3. **Ask**: What happens when D is given itself as input? D(D)?\n   - If H(D, D) says \"halts\", then D loops — but D was supposed to halt. Contradiction.\n   - If H(D, D) says \"loops\", then D halts — but D was supposed to loop. Contradiction.\n4. **Conclusion**: H cannot exist. The assumption was wrong.\n\nThis self-referential technique is closely related to Cantor's diagonal argument and the liar paradox (\"this sentence is false\").\n\n## Why it matters\n\n### Fundamental limits of computation\nThe halting problem establishes that there are well-defined questions that no computer—no matter how powerful—can answer. This isn't a limitation of current technology; it's a mathematical impossibility that applies to any conceivable computing device.\n\n### Software engineering implications\n\n- **No perfect bug detector**: You cannot build a program that correctly identifies all bugs in all programs. If you could, you could solve the halting problem (a non-terminating program is a bug)\n- **No perfect optimizer**: You cannot build a compiler that always finds the optimal version of any program\n- **No perfect verifier**: You cannot build a system that verifies all properties of all programs\n- **Rice's theorem generalization**: Any non-trivial semantic property of programs is undecidable — the halting problem is just the most famous example\n\n### Practical consequences\n\nWhile the halting problem proves you can't solve *all* cases, you can solve *many* cases:\n\n- Static analysis tools detect many infinite loops and bugs\n- Type systems prove certain properties of programs\n- Model checkers verify finite-state systems\n- Termination provers handle large classes of programs\n\nThe practical approach is to accept that no tool will be complete and to build layered defenses rather than seeking a single perfect solution.\n\n## Connections to other foundational results\n\n- **Gödel's incompleteness theorems** (1931): Any sufficiently powerful formal system contains true statements it cannot prove — the mathematical analog of the halting problem\n- **Cantor's diagonal argument** (1891): The proof technique Turing adapted — showing something cannot be enumerated by constructing a counterexample\n- **Church's undecidability of the Entscheidungsproblem** (1936): Alonzo Church independently proved the same result using lambda calculus\n- **Rice's theorem** (1953): Generalizes the halting problem — all non-trivial properties of the behavior of programs are undecidable\n\n## The halting problem as metaphor\n\nBeyond its technical meaning, the halting problem has become a metaphor for the limits of prediction:\n\n- You can't always predict the consequences of a complex system without actually running it\n- Some questions about the future are inherently unanswerable in advance\n- The desire for perfect analysis must be tempered by the reality that some outcomes can only be discovered empirically\n\nThis connects to broader themes in complexity science, chaos theory, and the limits of forecasting: some systems are irreducibly complex, and no shortcut exists to knowing their behavior other than letting them unfold.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "logic",
+        "foundations"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Turing's Halting Problem",
+        "The Undecidability of the Halting Problem",
+        "Entscheidungsproblem"
+    ],
+    "relatedConcepts": [
+        "turing-machine",
+        "church-turing-thesis",
+        "undecidability",
+        "godels-incompleteness-theorems",
+        "computability-theory",
+        "cantors-diagonal-argument",
+        "recursion",
+        "computational-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Annotated Turing by Charles Petzold",
+            "url": "https://www.amazon.com/dp/0470229055?tag=dsebastien00-20"
+        },
+        {
+            "title": "Gödel, Escher, Bach by Douglas Hofstadter",
+            "url": "https://www.amazon.com/dp/0465026567?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Halting problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Halting_problem",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

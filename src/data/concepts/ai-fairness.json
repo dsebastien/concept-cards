@@ -1,0 +1,74 @@
+{
+    "id": "ai-fairness",
+    "name": "AI Fairness",
+    "summary": "The study and practice of ensuring AI systems produce equitable outcomes and do not discriminate against individuals or groups based on protected characteristics.",
+    "explanation": "AI fairness is the interdisciplinary field concerned with ensuring that artificial intelligence systems treat people equitably and do not produce discriminatory outcomes based on characteristics like race, gender, age, disability, or socioeconomic status. As AI systems increasingly make or influence decisions in hiring, lending, criminal justice, healthcare, and education, the question of whether these systems are fair has become both a technical challenge and a societal imperative.\n\nOne of the most fundamental insights in AI fairness research is that fairness is not a single concept but a family of competing definitions, many of which are mathematically incompatible. Demographic parity requires that the positive outcome rate be equal across groups. Equalized odds demands that the true positive rate and false positive rate be equal across groups. Individual fairness stipulates that similar individuals should receive similar outcomes. Counterfactual fairness asks whether the decision would have been different if a person's protected attribute were changed. Impossibility theorems have formally proven that, except in trivial cases, these definitions cannot all be satisfied simultaneously. This means that any fairness intervention requires a value judgment about which type of fairness matters most in a given context.\n\nUnfairness in AI systems can originate from multiple sources. Biased training data reflects historical discrimination and societal inequities, teaching the model to perpetuate those patterns. Proxy variables allow protected characteristics to influence decisions indirectly, for example, zip code serving as a proxy for race. Feedback loops occur when biased predictions influence real-world outcomes that then become future training data, amplifying the original bias. Measurement bias arises when the target variable itself is measured differently across groups, such as using arrest rates as a proxy for crime rates.\n\nSeveral high-profile cases have brought AI fairness to public attention. The COMPAS recidivism prediction system was found to have significantly different false positive rates across racial groups, wrongly flagging Black defendants as high-risk at roughly twice the rate of white defendants. Amazon's experimental hiring tool was discovered to systematically downgrade resumes containing references to women's colleges or women's activities. A widely used healthcare algorithm was found to allocate less care to Black patients because it used healthcare spending rather than actual health needs as its optimization target, reflecting the systemic disparity in healthcare access.\n\nApproaches to improving fairness span the machine learning pipeline. Pre-processing techniques modify the training data to reduce bias before the model sees it, through methods like re-sampling, re-weighting, or data augmentation. In-processing methods incorporate fairness constraints directly into the model training objective, forcing the model to optimize for both accuracy and fairness simultaneously. Post-processing techniques adjust the model's outputs after prediction to satisfy fairness criteria, for example by applying different decision thresholds to different groups.\n\nFairness auditing and testing are essential practices for identifying and measuring bias. This includes disaggregated evaluation, where model performance is measured separately for each demographic group rather than in aggregate. Bias bounties, analogous to security bug bounties, incentivize external researchers to find fairness failures. Ongoing monitoring tracks fairness metrics over time, since data drift and population changes can cause a model that was fair at deployment to become unfair later.\n\nAI fairness research connects to broader equity and inclusion efforts but also highlights their limits. Technical fairness interventions can reduce disparities in AI outputs, but they cannot fix the underlying societal inequities reflected in the data. A hiring algorithm can be made fairer, but it cannot compensate for unequal access to education and opportunity. A lending model can be debiased, but it cannot address the wealth gaps produced by centuries of discrimination. This recognition has led many researchers to argue that technical fixes must be accompanied by structural and social changes to achieve genuine fairness.\n\nThe tension between fairness and other objectives, including accuracy, privacy, and efficiency, requires careful navigation. Improving fairness sometimes reduces overall accuracy, creating a tradeoff that must be managed transparently. Privacy-preserving techniques can conflict with the need to collect demographic data for fairness auditing. These tensions underscore that AI fairness is not purely a technical problem but a sociotechnical one requiring input from diverse stakeholders, including affected communities.",
+    "tags": [
+        "ai",
+        "ethics",
+        "fairness",
+        "biases",
+        "governance"
+    ],
+    "category": "AI",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Algorithmic Fairness",
+        "Machine Learning Fairness"
+    ],
+    "relatedConcepts": [
+        "algorithmic-bias",
+        "ai-ethics",
+        "ai-accountability",
+        "responsible-ai",
+        "ai-governance",
+        "equity",
+        "systemic-bias",
+        "unconscious-bias",
+        "inclusive-design"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Fairness (machine learning) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fairness_(machine_learning)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

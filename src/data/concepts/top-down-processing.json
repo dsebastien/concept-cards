@@ -1,0 +1,68 @@
+{
+    "id": "top-down-processing",
+    "name": "Top-Down Processing",
+    "summary": "A cognitive process where the brain uses prior knowledge, expectations, and context to interpret and organize incoming sensory information.",
+    "explanation": "Top-down processing is a fundamental mechanism of human cognition where the brain applies prior knowledge, expectations, beliefs, and contextual information to interpret incoming sensory data. Rather than building perception purely from raw stimuli, the brain actively predicts what it expects to perceive and uses those predictions to fill in gaps, resolve ambiguity, and speed up recognition.\n\n## How it works\n\nThe brain doesn't passively receive information—it actively constructs perception. Top-down processing operates by:\n\n1. **Prediction generation**: Based on context, experience, and expectations, the brain generates predictions about what sensory input should look like\n2. **Pattern matching**: Incoming data is compared against these predictions\n3. **Gap filling**: When sensory data is incomplete or ambiguous, predictions fill in the missing pieces\n4. **Error correction**: When predictions don't match reality, attention is drawn to the discrepancy (prediction error)\n\nThis is why you can read a sentence with missing letters, understand speech in a noisy room, or recognize a friend from across a crowded street in poor lighting. Your brain is doing most of the work from stored knowledge, not raw perception.\n\n## Demonstrations\n\n### Reading\nYou cn prbably rd ths sntnce dspt mssng vwls. Your knowledge of English, word shapes, and sentence context allows top-down processing to reconstruct the words from degraded input.\n\n### The phonemic restoration effect\nWhen a speech sound is replaced by a cough or noise, listeners \"hear\" the missing sound. The brain fills it in based on word knowledge and context.\n\n### Contextual expectations\nThe same ambiguous stimulus is perceived differently depending on context. A blurry shape is seen as a dog if you're at a park, or a cat if you're in a home. The physical input is identical—only the expectations differ.\n\n### Priming effects\nSeeing the word \"nurse\" makes you faster at recognizing \"doctor\" because your knowledge networks pre-activate related concepts.\n\n## The predictive brain\n\nModern neuroscience increasingly views the brain as a \"prediction machine.\" The predictive processing framework (Karl Friston, Andy Clark) proposes that top-down processing is not supplementary but primary: the brain continuously generates a model of the world and uses sensory input mainly to correct errors in that model. Perception is not sensing followed by interpretation—it is prediction checked against evidence.\n\nThis explains why:\n- Perception feels effortless (most of the work is done by prediction)\n- Surprises grab attention (prediction errors demand processing)\n- Experts perceive more than novices in their domain (richer predictive models)\n- Expectations can distort perception (predictions override weak evidence)\n\n## Top-down vs. bottom-up processing\n\n| Dimension | Top-Down | Bottom-Up |\n|---|---|---|\n| Direction | Brain → senses | Senses → brain |\n| Driven by | Knowledge, expectations, context | Stimulus features, raw data |\n| Speed | Fast (prediction-based) | Slower (data-driven) |\n| Errors | Sees what it expects (hallucination, bias) | Misses meaning and context |\n| Best for | Familiar, expected stimuli | Novel, unexpected stimuli |\n\nIn reality, perception is always a blend of both. Top-down and bottom-up processing operate simultaneously and interact continuously. The brain's challenge is balancing prior expectations (top-down) with actual evidence (bottom-up).\n\n## Implications\n\n### For cognitive biases\nMany cognitive biases are top-down processing errors: confirmation bias (expecting to see confirming evidence), the Einstellung effect (applying expected solutions), and stereotyping (perceiving individuals through group expectations) all result from predictions overriding evidence.\n\n### For expertise\nExperts have richer mental models that generate better predictions, allowing them to perceive patterns invisible to novices. A chess master \"sees\" strategic positions; a radiologist \"sees\" subtle anomalies. But this same mechanism creates cognitive entrenchment when the domain changes.\n\n### For learning\nEffective learning builds the mental models that power top-down processing. Understanding a subject means having rich predictive frameworks that make new information in that domain easier to perceive, interpret, and remember.\n\n### For design\nUser interfaces, signage, and communications that align with users' mental models (leveraging top-down processing) are perceived faster and more accurately than those that require purely bottom-up processing.",
+    "tags": [
+        "cognition",
+        "perception",
+        "psychology",
+        "neuroscience",
+        "thinking"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Conceptually-Driven Processing",
+        "Knowledge-Driven Processing",
+        "Predictive Processing"
+    ],
+    "relatedConcepts": [
+        "bottom-up-processing",
+        "top-down-analysis",
+        "top-down-attention",
+        "mental-models",
+        "confirmation-bias",
+        "einstellung-effect",
+        "cognitive-entrenchment",
+        "schema",
+        "gestalt-psychology",
+        "priming",
+        "deductive-reasoning",
+        "expertise"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Top-down and bottom-up design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

@@ -1,0 +1,64 @@
+{
+    "id": "dollar-auction",
+    "name": "Dollar Auction",
+    "summary": "A game theory thought experiment where players bid on a dollar bill but both the winner and second-highest bidder must pay, demonstrating how rational actors get trapped into escalating commitments.",
+    "explanation": "The dollar auction is a famous game theory scenario devised by economist Martin Shubik in 1971. It demonstrates how individually rational decisions can collectively produce deeply irrational outcomes, trapping participants in an escalating spiral of commitment.\n\n## How It Works\n\nThe rules are simple: a dollar bill (or other prize) is auctioned off using standard ascending-bid rules, with one critical twist — both the highest bidder AND the second-highest bidder must pay their bids, but only the highest bidder receives the dollar. Bids typically start small, at a few cents.\n\n## Why Rational Actors Escalate\n\nThe trap unfolds in stages. Early on, bidding seems like a great deal — you might win a dollar for only 20 cents. But once bidding climbs, the second-highest bidder faces a painful choice. Suppose you bid 80 cents and someone else bids 85 cents. If you stop, you lose 80 cents for nothing. If you bid 90 cents, you might win the dollar for a net gain of 10 cents. Bidding more seems 'rational' at every step because it reduces your expected loss compared to dropping out.\n\n## The Trap\n\nThis logic continues even after bids surpass $1. If you have bid $1.00 and your opponent bids $1.05, you face losing $1.00 for nothing versus bidding $1.10 and losing only 10 cents (paying $1.10 for a $1 prize). At every single step, escalating looks better than stopping — yet the cumulative result is that both bidders pay far more than the prize is worth. In experimental settings, the dollar routinely sells for $3 to $5, and sometimes much more.\n\n## Martin Shubik's Insight\n\nShubik designed the game to illustrate how the structure of a situation can trap rational agents into collectively irrational behavior. The key insight is that the escalation is not driven by irrationality at any individual step — it is driven by the structure of the game itself, which penalizes the second-place finisher and makes each marginal escalation look better than quitting.\n\n## Real-World Parallels\n\nThe dollar auction pattern appears in many real-world situations: arms races (each side escalates because unilateral disarmament is worse than matching the opponent), price wars (companies keep cutting prices to avoid losing market share), patent litigation (both sides keep spending because settling feels like losing), bidding wars for acquisitions (companies overpay because walking away after investing in due diligence feels wasteful), military escalation (each side commits more troops because withdrawal means the previous sacrifices were 'in vain'), and startup burn wars (competitors keep spending to outlast each other).\n\n## Game-Theoretic Analysis\n\nFormally, the dollar auction is an all-pay auction — a class of auctions where all bidders pay regardless of whether they win. All-pay auctions have no pure strategy Nash equilibrium in the finite case, meaning there is no stable strategy where both players are satisfied with their choices. The mixed strategy equilibrium involves randomized bidding, and the expected total payments from all bidders typically equal or exceed the value of the prize.\n\n## Lessons\n\nThe most important lesson of the dollar auction is structural awareness: recognize the trap before entering. Once you are inside the game, every individual decision to escalate feels justified, which is exactly why the game is so dangerous. The only reliable winning move is not to play — or, if already in, to recognize the escalation pattern and accept a small certain loss rather than chasing an uncertain recovery. This requires overcoming loss aversion and sunk cost reasoning, which is precisely what makes the dollar auction so difficult in practice.\n\n## Connection to Escalation of Commitment\n\nThe dollar auction is the purest illustration of escalation of commitment: a situation where the structure of incentives makes it rational at each step to invest more, even though the cumulative investment is clearly irrational. Understanding this pattern helps identify similar traps in business, politics, and personal life before the escalation begins.",
+    "tags": [
+        "game-theory",
+        "decision-making",
+        "economics",
+        "biases",
+        "strategy"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Dollar Auction Game",
+        "Shubik Auction",
+        "All-Pay Auction"
+    ],
+    "relatedConcepts": [
+        "commitment-and-consistency",
+        "escalation-of-commitment",
+        "game-theory",
+        "loss-aversion",
+        "nash-equilibrium",
+        "plan-continuation-bias",
+        "prisoners-dilemma",
+        "sunk-cost-fallacy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dollar auction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dollar_auction",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

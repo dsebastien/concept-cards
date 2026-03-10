@@ -1,0 +1,19 @@
+{
+    "id": "non-locality",
+    "name": "Non-Locality",
+    "summary": "The quantum phenomenon where entangled particles exhibit instantaneous correlations regardless of the physical distance separating them.",
+    "explanation": "Non-locality is one of the most profound and counterintuitive features of quantum mechanics. It refers to the fact that entangled quantum particles can exhibit correlations that cannot be explained by any local theory — that is, no theory in which information travels at or below the speed of light can account for the strength of quantum correlations.\n\n**What non-locality means:**\n\nWhen two particles become entangled, measuring a property of one particle instantly determines the corresponding property of the other, regardless of the distance between them. This is not because information is transmitted faster than light, but because the entangled system exists as a single, non-local quantum state that cannot be decomposed into independent local parts.\n\n**The EPR paradox:**\n\nIn 1935, Einstein, Podolsky, and Rosen (EPR) argued that quantum mechanics must be incomplete because it seemed to require 'spooky action at a distance.' They proposed that hidden local variables must predetermine measurement outcomes, preserving locality. Einstein believed that no measurement on one particle should instantly affect another particle far away.\n\n**Bell's theorem:**\n\nIn 1964, physicist John Bell proved mathematically that any theory based on local hidden variables must satisfy certain statistical inequalities (Bell inequalities). Quantum mechanics predicts violations of these inequalities. Experimental tests — most notably by Alain Aspect in 1982 and subsequent loophole-free experiments — have consistently confirmed quantum predictions, ruling out local hidden variable theories.\n\n**What non-locality is NOT:**\n\n- **Not faster-than-light communication**: The correlations cannot be used to transmit information, because individual measurement results appear random. Only when both sets of results are compared does the correlation become apparent\n- **Not a physical signal**: There is no energy or matter traveling between entangled particles\n- **Not a violation of relativity**: Special relativity prohibits faster-than-light signaling, and non-locality does not enable signaling\n\n**Interpretations:**\n\n- **Copenhagen**: Non-locality is a feature of the quantum formalism; asking what 'really happens' between measurements is meaningless\n- **Many-worlds**: No non-local influence occurs because all outcomes happen in different branches\n- **Bohmian mechanics**: Explicitly non-local — particles are guided by a non-local pilot wave\n- **Relational**: Correlations are relative to observers; no absolute non-local effect exists\n\n**Significance:**\n\nNon-locality is not just a philosophical curiosity. It is the basis for quantum cryptography (quantum key distribution), quantum teleportation, and plays a central role in quantum computing. The 2022 Nobel Prize in Physics was awarded to Aspect, Clauser, and Zeilinger for their experimental work establishing quantum non-locality.",
+    "tags": ["quantum-mechanics", "physics", "entanglement", "philosophy-of-science"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Quantum non-locality", "Spooky action at a distance", "Quantum nonlocality"],
+    "relatedConcepts": ["quantum-entanglement", "bells-theorem", "quantum-mechanics", "observer-effect", "wave-particle-duality", "quantum-computing", "copenhagen-interpretation", "many-worlds-interpretation"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [{"title": "Quantum nonlocality - Wikipedia", "url": "https://en.wikipedia.org/wiki/Quantum_nonlocality", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

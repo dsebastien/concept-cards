@@ -1,0 +1,19 @@
+{
+    "id": "quantum-decoherence",
+    "name": "Quantum Decoherence",
+    "summary": "The process by which quantum systems lose their quantum properties through interaction with their environment, explaining the emergence of classical behavior.",
+    "explanation": "Quantum decoherence is the mechanism by which a quantum system loses its quantum coherence — the ability to exhibit interference and superposition — through unavoidable interaction with its surrounding environment. It is widely regarded as the key to understanding why the everyday world appears classical despite being fundamentally quantum.\n\n**The problem decoherence solves:**\n\nQuantum mechanics predicts that objects can exist in superposition — being in multiple states simultaneously. Yet we never see a chair that is both here and there, or a cat that is both alive and dead. Why doesn't quantum weirdness show up at macroscopic scales? Decoherence provides the answer.\n\n**How decoherence works:**\n\n1. A quantum system begins in a coherent superposition of states\n2. The system inevitably interacts with its environment (air molecules, photons, vibrations)\n3. Information about the system's state 'leaks' into the environment\n4. The environment effectively 'measures' the system, entangling with it\n5. The quantum interference between different states is suppressed\n6. The system behaves as if it were in one definite state — classical behavior emerges\n\n**Key characteristics:**\n\n- **Irreversible in practice**: While theoretically reversible, the information spreads into so many environmental degrees of freedom that reversal is practically impossible\n- **Extremely fast**: For macroscopic objects, decoherence occurs on timescales of 10^-30 seconds or less — far too fast to observe superposition\n- **Basis selection**: Decoherence selects preferred states (pointer states) that are robust against environmental interaction, explaining why we see objects in definite positions rather than momentum states\n\n**Decoherence vs. collapse:**\n\nDecoherence is often confused with wave function collapse, but they are distinct:\n\n- **Decoherence** explains why quantum interference disappears and classical behavior emerges. It is a physical process described by standard quantum mechanics\n- **Collapse** (in the Copenhagen interpretation) is the transition from superposition to a definite outcome. Decoherence does not explain why we see one particular outcome — it only explains why we don't see interference\n\n**Implications:**\n\n- **Quantum computing**: Decoherence is the primary enemy of quantum computation. Quantum computers must isolate qubits from their environment to maintain coherence long enough to complete calculations\n- **Interpretations of QM**: Decoherence is interpretation-neutral but plays different roles in each: in Many-Worlds, it explains branch separation; in Copenhagen, it clarifies the classical-quantum boundary\n- **Biology**: Some researchers study whether quantum coherence plays a role in biological processes (photosynthesis, bird navigation) despite the warm, wet cellular environment",
+    "tags": ["quantum-mechanics", "physics", "computing", "philosophy-of-science"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Decoherence", "Environmental decoherence", "Quantum-to-classical transition"],
+    "relatedConcepts": ["quantum-mechanics", "quantum-superposition", "quantum-entanglement", "quantum-computing", "wave-function-collapse", "schrodingers-cat", "copenhagen-interpretation", "many-worlds-interpretation"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [{"title": "Quantum decoherence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Quantum_decoherence", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

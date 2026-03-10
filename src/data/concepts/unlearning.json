@@ -1,8 +1,8 @@
 {
     "id": "unlearning",
     "name": "Unlearning",
-    "summary": "The process of discarding outdated or incorrect knowledge and habits.",
-    "explanation": "Unlearning is the process of consciously discarding outdated, incorrect, or unhelpful knowledge, habits, and mental models. As the world changes and our understanding grows, some things we 'know' become obsolete or wrong. Unlearning things is as important as learning new ones. The challenge is that old patterns are deeply ingrained. PKM helps by making beliefs explicit so they can be examined and updated. Evergreen notes should evolve, and sometimes that means removing outdated content.",
+    "summary": "The deliberate process of discarding outdated or incorrect knowledge, habits, and mental models to make room for more effective approaches.",
+    "explanation": "Unlearning is the conscious, effortful process of identifying and releasing knowledge, habits, beliefs, and mental models that are no longer accurate or useful. It is not simply forgetting—it is the deliberate decision to stop relying on something you once learned, because the world has changed, your understanding has deepened, or the context no longer applies.\n\n## Why unlearning is hard\n\nLearning creates neural pathways that become stronger with repetition. Unlearning requires weakening these pathways while simultaneously strengthening new ones—a process that is cognitively expensive and emotionally uncomfortable:\n\n- **Identity threat**: Knowledge we've held for a long time becomes part of who we are. Letting go feels like losing a piece of ourselves.\n- **Competence anxiety**: Abandoning what you know means temporarily becoming a beginner again. The dip in performance before new skills develop is uncomfortable.\n- **Proactive interference**: Old knowledge actively interferes with new learning. A programmer switching languages keeps typing the old syntax; a manager trained in command-and-control keeps defaulting to top-down decisions.\n- **Sunk cost reasoning**: \"I invested years learning this—I can't just throw it away.\" The investment is real, but the knowledge may still be obsolete.\n- **Social reinforcement**: If your community still uses the old approach, unlearning means swimming against the current.\n\n## Types of unlearning\n\n### Knowledge unlearning\nDiscarding factual beliefs that are no longer true. Scientific knowledge evolves, best practices change, and what was once correct may now be wrong. Example: developers who learned that premature optimization is always harmful must unlearn this when working on performance-critical systems.\n\n### Skill unlearning\nBreaking ingrained procedural habits to adopt better techniques. Example: a musician unlearning incorrect finger positioning, or a typist switching from hunt-and-peck to touch typing.\n\n### Belief unlearning\nReleasing deep assumptions about how the world works. This is the hardest form because beliefs are often invisible—they feel like reality rather than interpretation. Example: unlearning the belief that asking for help is a sign of weakness.\n\n### Behavioral unlearning\nStopping habitual responses and replacing them with more effective ones. Example: unlearning the impulse to check email first thing in the morning, or unlearning defensive reactions to feedback.\n\n## The unlearning process\n\n1. **Awareness**: Recognize that something you know or do is outdated, incorrect, or counterproductive. This is often the hardest step because the old way feels natural.\n2. **Analysis**: Understand why the old approach was adopted and what has changed. This prevents throwing out knowledge that is still partially valid.\n3. **Deliberate inhibition**: Consciously suppress the old response when it arises. This requires active attention and is mentally taxing.\n4. **Replacement**: Learn and practice the new approach. Unlearning without replacement creates a vacuum that the old pattern rushes to fill.\n5. **Reinforcement**: Repeat the new pattern until it becomes the default. The old pattern may never fully disappear but becomes less dominant over time.\n\n## Unlearning in practice\n\n### Personal knowledge management\nPKM systems can support unlearning by making beliefs and knowledge explicit:\n- Evergreen notes that are regularly reviewed and updated surface outdated thinking\n- Tagging knowledge with its source and date makes obsolescence visible\n- Decision journals reveal patterns of outdated reasoning\n- Spaced repetition systems can be used to reinforce new knowledge while old associations fade\n\n### Professional development\n- Technology professionals must continuously unlearn superseded frameworks and practices\n- Leaders must unlearn management approaches that worked at previous scale or context\n- Teachers must unlearn pedagogical methods as learning science evolves\n\n### Organizations\nOrganizational unlearning—discarding outdated processes, assumptions, and strategies at the collective level—is even harder than individual unlearning because knowledge is embedded in systems, incentives, and culture.\n\n## The paradox of expertise\n\nExpertise is both the greatest asset and the greatest obstacle to unlearning. Deep knowledge creates cognitive entrenchment: the more you know about how things work, the harder it is to see that they could work differently. The expert's challenge is to maintain what the Buddhists call beginner's mind—the openness to seeing things fresh—while still leveraging accumulated wisdom.",
     "tags": [
         "concepts",
         "growth",
@@ -23,13 +23,40 @@
         "einstellung-effect",
         "intentional-forgetting",
         "knowledge-obsolescence",
-        "continual-learning"
+        "continual-learning",
+        "cognitive-entrenchment",
+        "organizational-unlearning",
+        "beginners-mind",
+        "interference-theory",
+        "success-trap",
+        "functional-fixedness",
+        "belief-perseverance",
+        "neuroplasticity",
+        "double-loop-learning",
+        "desirable-difficulties",
+        "cognitive-flexibility",
+        "knowledge-half-life",
+        "troublesome-knowledge",
+        "heutagogy",
+        "paradigm-shifts",
+        "sunk-cost"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Unlearning+things+is+as+important+as+learning+new+ones"
     ],
     "articles": [],
+    "books": [
+        {
+            "title": "Unlearn by Barry O'Reilly",
+            "url": "https://www.amazon.com/dp/1260143015?tag=dsebastien00-20"
+        }
+    ],
     "references": [
+        {
+            "title": "Unlearning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unlearning",
+            "type": "website"
+        },
         {
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/product/knowii-community",

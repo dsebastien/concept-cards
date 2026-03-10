@@ -1,0 +1,65 @@
+{
+    "id": "maximin",
+    "name": "Maximin",
+    "summary": "A decision strategy that chooses the option whose worst-case outcome is the least bad, prioritizing protection against the worst possible scenario.",
+    "explanation": "Maximin is a decision-making strategy that focuses on the worst-case scenario for each available option and selects the one whose worst case is the most favorable. The name comes from \"maximize the minimum\" — you look at the minimum payoff each choice could yield and pick the maximum among those minimums. It is a fundamentally conservative approach, designed to protect against catastrophic outcomes rather than to chase the highest possible reward.\n\n## Origins in Game Theory\n\nThe maximin principle has deep roots in the work of John von Neumann, who proved the minimax theorem in 1928 — a cornerstone of game theory. In two-player zero-sum games, the maximin strategy for one player and the minimax strategy for the other converge to the same equilibrium. Von Neumann showed that rational players in such games should assume their opponent will play optimally against them and choose accordingly. This mathematical foundation gave maximin its rigorous underpinning.\n\n## How Maximin Works\n\nThe procedure is straightforward. For each available decision, identify all possible outcomes and determine the worst case. Then compare the worst cases across all decisions and choose the option with the best worst-case outcome. For example, if Strategy A could yield outcomes of +100, +20, or -50, and Strategy B could yield +40, +30, or -10, maximin selects Strategy B because its worst case (-10) is better than Strategy A's worst case (-50), even though Strategy A has a higher ceiling.\n\n## Maximin vs. Minimax\n\nThe terms maximin and minimax are closely related but approach the problem from different angles. Maximin focuses on maximizing the minimum gain, while minimax focuses on minimizing the maximum loss. In zero-sum games, these are mathematically equivalent — the best guarantee you can secure for yourself equals the least your opponent can hold you to. Outside of zero-sum contexts, the two can diverge, and the distinction matters. A related concept, **minimax regret**, introduced by Leonard Savage, focuses on minimizing the maximum regret — the difference between the outcome of your chosen action and the best outcome you could have achieved.\n\n## Maximin vs. Expected Value\n\nMaximin and expected value maximization represent fundamentally different philosophies. Expected value weighs all outcomes by their probabilities and selects the highest average payoff. Maximin ignores probabilities entirely and focuses solely on the worst case. Expected value is appropriate when you can tolerate variance, face repeated decisions, and have reliable probability estimates. Maximin is appropriate when probabilities are unknown or unreliable, the downside is catastrophic, or the decision is a one-shot event where you cannot afford to be wrong.\n\n## Rawls and the Veil of Ignorance\n\nPhilosopher John Rawls famously applied maximin reasoning to political philosophy in his *A Theory of Justice* (1971). Rawls argued that if people were to design a just society from behind a \"veil of ignorance\" — not knowing what position they would occupy in that society — they would rationally choose institutions that maximize the welfare of the worst-off members. This is maximin applied to social justice: ensure the floor is as high as possible, because you might be standing on it.\n\n## Applications\n\nMaximin thinking appears across many domains. In **portfolio theory**, it underlies strategies that protect against extreme market downturns. In **military strategy**, it motivates planning for worst-case enemy capabilities. In **engineering safety**, it drives the design of systems that must not fail catastrophically. In **environmental policy**, it connects to the precautionary principle — when the worst-case scenario involves irreversible damage, err on the side of caution.\n\n## Limitations\n\nMaximin's greatest strength is also its greatest weakness: its conservatism. By focusing exclusively on worst cases, it can lead to overly cautious decisions that forgo enormous upside to avoid a slightly worse floor. It ignores the probability of worst-case scenarios — a vanishingly unlikely catastrophe receives the same weight as a near-certain one. In many real-world situations, a blend of maximin thinking (for catastrophic risks) and expected value thinking (for routine decisions) produces better outcomes than either approach alone.",
+    "tags": [
+        "decision-making",
+        "strategy",
+        "risk",
+        "game-theory",
+        "reasoning"
+    ],
+    "category": "Decision Science",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Maximin Strategy",
+        "Minimax Regret",
+        "Worst-Case Optimization"
+    ],
+    "relatedConcepts": [
+        "minimax",
+        "game-theory",
+        "risk-assessment",
+        "loss-aversion",
+        "decision-under-uncertainty",
+        "prospect-theory",
+        "precautionary-principle",
+        "satisficing",
+        "expected-value"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Minimax (Maximin) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minimax#Maximin",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

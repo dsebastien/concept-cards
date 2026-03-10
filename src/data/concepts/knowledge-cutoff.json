@@ -1,0 +1,77 @@
+{
+    "id": "knowledge-cutoff",
+    "name": "Knowledge Cutoff",
+    "summary": "The fixed date boundary beyond which an AI model has no training data, creating a temporal blind spot for events, discoveries, and changes after that point.",
+    "explanation": "A knowledge cutoff (also called a training data cutoff or model cutoff date) is the point in time after which an AI model has no information from its training data. Because large language models learn from text corpora collected up to a specific date, they are fundamentally unaware of anything that happened after that boundary—new events, scientific discoveries, product launches, policy changes, deaths, and evolving cultural norms.\n\n## How cutoffs work\n\nLarge language models are trained on massive datasets of text scraped, curated, and processed up to a particular date. For example, a model with a January 2025 cutoff has seen no text published after that date. It doesn't know about events in February 2025, even if asked directly. Crucially, the model doesn't know what it doesn't know—it may confidently generate plausible-sounding but incorrect information about post-cutoff events.\n\n## Why cutoffs matter\n\n### Factual accuracy\nAny query about recent events, current prices, living people's status, ongoing conflicts, or evolving technologies may produce outdated or fabricated answers. The model may present stale information with the same confidence as timeless facts.\n\n### Compounding staleness\nThe further past the cutoff date, the more domains become unreliable. A six-month-old cutoff might miss a few events; a two-year-old cutoff renders large swaths of current affairs, technology, and pop culture unreliable.\n\n### Uneven coverage\nEven within the training period, coverage is uneven. Events close to the cutoff may have less training data (fewer articles, less cross-referencing) than well-established historical facts. The boundary is not a clean line but a gradient of decreasing reliability.\n\n### Invisible failure mode\nUnlike a search engine that returns \"no results,\" a language model past its cutoff doesn't signal uncertainty—it generates fluent text that may be entirely wrong. This makes cutoff-related errors particularly dangerous because they look indistinguishable from correct responses.\n\n## Mitigating cutoff limitations\n\n- **Retrieval-Augmented Generation (RAG)**: Connecting the model to current data sources (web search, databases, document stores) at inference time\n- **Tool use**: Allowing models to call APIs, search engines, or databases to access current information\n- **Fine-tuning**: Updating models on newer data, though this is expensive and introduces its own challenges\n- **Continuous pre-training**: Extending training on newer data without full retraining\n- **User awareness**: Understanding when a question likely falls outside the model's training window and seeking alternative sources\n\n## Practical guidelines for users\n\n- Always check the model's stated cutoff date before relying on time-sensitive information\n- For anything that changes frequently (prices, rankings, regulations, living people), verify independently\n- Use AI for timeless knowledge (principles, concepts, historical analysis) with higher confidence than for current events\n- When a model says \"as of my last update\" or similar phrases, treat the response with skepticism for fast-changing domains\n- Prefer models with tool use or web search capabilities for current-information tasks\n\n## Broader implications\n\nThe knowledge cutoff illustrates a fundamental tension in AI: models trained on static datasets exist in a dynamic world. This parallels the information half-life concept—some knowledge decays rapidly, and any snapshot-based system will struggle with the most volatile information. It also connects to the broader challenge of AI grounding: ensuring model outputs correspond to current reality, not just patterns learned from historical text.",
+    "tags": [
+        "ai",
+        "knowledge",
+        "limitations",
+        "large-language-models",
+        "information"
+    ],
+    "category": "AI",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Model Cutoff Date",
+        "Training Data Cutoff",
+        "Training Cutoff",
+        "Knowledge Boundary"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "training-data",
+        "pre-training",
+        "ai-hallucination",
+        "retrieval-augmented-generation",
+        "ai-grounding",
+        "context-window",
+        "information-half-life",
+        "law-of-staleness",
+        "fine-tuning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Large language model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Large_language_model",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

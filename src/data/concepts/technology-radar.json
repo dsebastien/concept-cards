@@ -1,0 +1,96 @@
+{
+    "id": "technology-radar",
+    "name": "Technology Radar",
+    "summary": "A visualization technique for tracking and communicating technology adoption decisions, categorizing technologies by their maturity and recommended adoption status.",
+    "explanation": "The Technology Radar is a technique originally created by ThoughtWorks for tracking and communicating technology choices across an organization. It provides a structured way to evaluate, categorize, and communicate the adoption status of tools, techniques, platforms, languages, and frameworks.\n\n## Structure\n\nThe radar is organized along two dimensions:\n\n### Quadrants (what kind of technology)\n- **Techniques**: Methods and approaches (e.g., pair programming, trunk-based development)\n- **Tools**: Software tools and utilities (e.g., Docker, Terraform)\n- **Platforms**: Infrastructure and platform technologies (e.g., Kubernetes, AWS)\n- **Languages & Frameworks**: Programming languages and frameworks (e.g., Rust, React)\n\n### Rings (what to do with it)\n- **Adopt**: Proven and recommended for broad use. The organization should be using these.\n- **Trial**: Worth pursuing in low-risk projects. Positive experience is growing but more evidence is needed.\n- **Assess**: Worth exploring to understand how it might affect your work. Not yet ready for trial.\n- **Hold**: Proceed with caution. May be declining, superseded, or problematic. Don't start new work with these.\n\n## Why radars matter\n\n### For organizations\n- **Alignment**: Creates shared vocabulary about technology choices across teams\n- **Decision support**: Provides guidance without mandating—teams can make informed local decisions\n- **Knowledge sharing**: Surfaces technologies that individual teams have evaluated, preventing redundant assessment\n- **Risk management**: Makes technology risk visible (concentration on \"Hold\" technologies signals danger)\n- **Strategic direction**: Communicates where the organization is heading technically\n\n### For individuals\n- **Learning prioritization**: Focus learning on \"Adopt\" and \"Trial\" technologies rather than spreading attention thin\n- **Career development**: Understanding industry trends helps with skill investment decisions\n- **Decision confidence**: Knowing what others have evaluated reduces uncertainty\n\n## Building your own radar\n\n1. **Gather input**: Collect technology assessments from across teams (what's working, what's not, what's emerging)\n2. **Evaluate collectively**: Cross-functional groups discuss and place technologies on the radar\n3. **Document rationale**: For each technology, capture *why* it's in its current ring (this complements ADRs)\n4. **Publish and communicate**: Share the radar broadly and discuss changes\n5. **Update regularly**: Review quarterly or semi-annually. Technologies move between rings as experience grows\n\n## Radar as living document\n\nA technology radar is most valuable when it evolves. Technologies move inward (from Assess to Trial to Adopt) as confidence grows, or outward (to Hold) as better alternatives emerge or problems surface. Each movement should be accompanied by documentation explaining the change—effectively creating a timeline of technology decisions.\n\n## Relationship to ADRs\n\nThe technology radar and Architecture Decision Records serve complementary purposes. The radar provides a high-level overview of technology positioning; ADRs capture the detailed reasoning behind specific adoption or rejection decisions. When a technology moves from \"Trial\" to \"Adopt\" on the radar, an ADR documents why. When a technology moves to \"Hold,\" an ADR explains what went wrong and what alternatives are recommended.\n\n## Common pitfalls\n\n- **Stale radars**: Publishing once and never updating makes the radar actively harmful\n- **Top-down dictation**: Radars work best when informed by practitioners, not imposed by management\n- **Too many items**: A radar with hundreds of entries is unusable. Focus on technologies where guidance adds value\n- **Ignoring \"Hold\"**: The most valuable part of the radar is often what *not* to use—don't neglect it\n- **No rationale**: A dot on the radar without explanation is just an opinion; documented reasoning is what creates value",
+    "tags": [
+        "software-development",
+        "architecture",
+        "strategies",
+        "decision-making",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Tech Radar",
+        "ThoughtWorks Technology Radar",
+        "Engineering Radar"
+    ],
+    "relatedConcepts": [
+        "architecture-decision-records",
+        "software-architecture",
+        "evolutionary-architecture",
+        "technology-adoption-lifecycle",
+        "design-rationale",
+        "rfc",
+        "technical-debt",
+        "technological-lock-in",
+        "crossing-the-chasm",
+        "innovation-culture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Building Evolutionary Architectures by Neal Ford, Rebecca Parsons, and Patrick Kua",
+            "url": "https://www.amazon.com/dp/1492097543?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "ThoughtWorks Technology Radar",
+            "url": "https://www.thoughtworks.com/radar",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

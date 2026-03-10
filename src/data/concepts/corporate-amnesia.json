@@ -1,0 +1,106 @@
+{
+    "id": "corporate-amnesia",
+    "name": "Corporate Amnesia",
+    "summary": "The loss of organizational knowledge, experience, and institutional memory that occurs when employees leave, restructurings happen, or documentation practices fail.",
+    "explanation": "Corporate amnesia describes the phenomenon where organizations lose critical knowledge about their own history, decisions, processes, and lessons learned. Like a person with amnesia who cannot recall their past, an organization suffering from corporate amnesia repeats mistakes, re-litigates settled debates, loses competitive advantages built through experience, and fails to learn from its own history.\n\n## How corporate amnesia develops\n\nCorporate amnesia rarely happens suddenly. It accumulates through multiple reinforcing mechanisms:\n\n### Personnel turnover\nThe most common driver. When experienced employees leave—through retirement, layoffs, restructuring, or voluntary departure—they take their tacit knowledge with them. The institutional context behind decisions, the lessons from past failures, the informal networks and relationships, the \"why\" behind current systems—all of this walks out the door. If knowledge was stored primarily in people's heads rather than in documentation, the loss is permanent.\n\n### Restructuring and reorganization\nEach reorganization disrupts knowledge networks. Teams are broken apart, reporting lines change, and the social fabric that enabled informal knowledge sharing is torn. The new organization often doesn't inherit the knowledge structures of the old one. Ironically, restructurings often follow periods of poor performance—which may themselves have been caused by earlier knowledge losses.\n\n### Technology migrations\nWhen organizations move from one system to another—new CRM, new project management tool, new wiki—historical data and context are frequently lost in translation. Migrated data often loses its structure, relationships, and metadata. The knowledge embedded in the old system's organization and workflows disappears.\n\n### Documentation debt\nOrganizations that underinvest in documentation accumulate knowledge that exists only as tribal knowledge. As the original knowledge holders leave, this undocumented knowledge vanishes. The organization doesn't even know what it has forgotten.\n\n### Mergers and acquisitions\nWhen companies merge, one culture typically dominates. The acquired company's institutional memory—its decision history, process rationale, customer relationships—is often discarded or ignored, even when it contains valuable lessons.\n\n## Symptoms\n\n- Repeatedly solving problems that were already solved years ago\n- Not understanding why current systems or processes exist (and changing them without realizing why they were designed that way)\n- Re-debating decisions that were thoroughly analyzed before\n- New leadership \"reinventing\" approaches identical to those tried and abandoned previously\n- Loss of customer relationships when account managers leave\n- Inability to maintain legacy systems because no one understands them\n- Declining product quality as the craftspeople who built it move on\n\n## The cost\n\nCorporate amnesia is expensive but largely invisible. Its costs include:\n- **Redundant work**: Solving previously solved problems\n- **Repeated mistakes**: Not learning from past failures\n- **Slower onboarding**: No institutional knowledge to transfer to newcomers\n- **Poor decisions**: Missing context that would have informed better choices\n- **Lost competitive advantage**: Knowledge-based advantages evaporating with departures\n- **Cultural erosion**: Values and norms diluting as carriers leave\n\n## Prevention and mitigation\n\n- **Architecture Decision Records**: Document the \"why\" behind significant decisions\n- **Knowledge management systems**: Structured repositories for organizational knowledge\n- **Exit interviews with knowledge capture**: Don't just ask why people are leaving—capture what they know\n- **Cross-training and mentorship**: Distribute critical knowledge across multiple people\n- **Succession planning**: Identify and transfer knowledge before key people leave\n- **After-action reviews**: Systematically capture lessons from projects and incidents\n- **Documentation culture**: Make documentation a normal part of work, not an afterthought\n- **Institutional narratives**: Maintain living histories of key decisions, pivots, and lessons\n\n## The amnesia paradox\n\nOrganizations that most need to preserve knowledge are often least likely to invest in doing so. When things are going well, preservation seems unnecessary. When things are going badly, there's no time or budget for it. And after a crisis, the focus is on the future, not on capturing what was learned. The result: organizations systematically under-invest in memory until the cost of forgetting becomes catastrophic.",
+    "tags": [
+        "knowledge-management",
+        "organizations",
+        "leadership",
+        "businesses",
+        "documentation"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Organizational Amnesia",
+        "Institutional Amnesia",
+        "Organizational Forgetting"
+    ],
+    "relatedConcepts": [
+        "institutional-memory",
+        "tribal-knowledge",
+        "tacit-knowledge",
+        "context-rot",
+        "bus-factor",
+        "knowledge-transfer",
+        "knowledge-silos",
+        "knowledge-retention",
+        "documentation-debt",
+        "brain-drain",
+        "organizational-unlearning",
+        "knowledge-continuity-management",
+        "succession-planning",
+        "cross-training",
+        "after-action-review",
+        "lessons-learned",
+        "onboarding",
+        "transactive-memory",
+        "architecture-decision-records",
+        "organizational-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Corporate Amnesia by Arnold Kransdorff",
+            "url": "https://www.amazon.com/dp/0750front637?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Organizational memory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Organizational_memory",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

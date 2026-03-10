@@ -1,0 +1,53 @@
+{
+    "id": "computability-theory",
+    "name": "Computability Theory",
+    "summary": "The branch of mathematical logic and computer science studying which problems can be solved algorithmically and which are fundamentally unsolvable.",
+    "explanation": "Computability theory (also known as recursion theory) is the branch of mathematics and computer science that studies the fundamental question: what can and cannot be computed? While most of computer science focuses on making computation efficient, computability theory asks the prior question of whether computation is even *possible* for a given problem.\n\n## The central question\n\nGiven a well-defined problem, does there exist an algorithm (a finite, mechanical procedure) that solves it? If yes, the problem is **computable** (decidable). If no, it is **uncomputable** (undecidable).\n\nThis question turns out to have a precise mathematical answer, thanks to the formalization of \"algorithm\" in the 1930s.\n\n## Historical foundations\n\nComputability theory emerged in the 1930s from several converging lines of research:\n\n- **Kurt Gödel** (1931): Proved that formal systems have inherent limitations (incompleteness theorems), introducing the recursive functions that would become central to the field\n- **Alonzo Church** (1936): Developed lambda calculus and proved the Entscheidungsproblem undecidable\n- **Alan Turing** (1936): Invented the Turing machine model and proved the halting problem undecidable\n- **Emil Post** (1936): Independently developed a similar machine model\n- **Stephen Kleene**: Systematized the theory and proved key equivalences\n\nRemarkably, all these independent approaches turned out to define the same class of computable functions—strong evidence for the Church-Turing thesis.\n\n## Key results\n\n### What can be computed\n- Every function definable by a Turing machine, lambda calculus, or recursive function\n- This includes all algorithms ever written and all that could ever be written\n- Modern computers compute exactly this class (Church-Turing thesis)\n\n### What cannot be computed\n- **The halting problem**: Whether a given program halts on a given input\n- **Program equivalence**: Whether two programs compute the same function\n- **Rice's theorem**: Any non-trivial semantic property of programs\n- **Kolmogorov complexity**: The length of the shortest program producing a given output\n- **Busy beaver function**: The maximum number of steps a halting Turing machine with n states can take\n\n## Degrees of unsolvability\n\nNot all uncomputable problems are equally uncomputable. Computability theory has developed a rich hierarchy:\n\n- **Turing degrees**: Problems are classified by their relative difficulty. Problem A is \"easier\" than problem B if having an oracle for B lets you solve A.\n- **The arithmetical hierarchy**: Classifies problems by the complexity of the logical statements needed to define them\n- **The halting problem** sits just above the computable, but there are problems even harder than the halting problem (e.g., determining whether a Turing machine halts on all inputs)\n\n## Computability vs. complexity\n\n| | Computability Theory | Complexity Theory |\n|---|---|---|\n| **Question** | Can it be solved at all? | How efficiently can it be solved? |\n| **Answer type** | Yes/No | O(n), O(n²), NP-hard, etc. |\n| **Failure mode** | Impossible (no algorithm exists) | Impractical (takes too long) |\n| **Key results** | Halting problem, Rice's theorem | P vs NP, NP-completeness |\n| **Practical impact** | Tells you when to stop looking for a perfect solution | Tells you when to look for approximations |\n\n## Practical relevance\n\nComputability theory matters beyond pure mathematics:\n\n- **Software verification**: Understanding why perfect bug-detection tools are impossible helps engineers set realistic expectations\n- **Language design**: Knowing the limits of type inference informs programming language design choices\n- **Security**: Understanding undecidability explains why no single tool can find all vulnerabilities\n- **AI**: The Church-Turing thesis frames fundamental questions about what artificial intelligence can and cannot achieve\n- **Philosophy**: Raises deep questions about the nature of mind, mathematical truth, and the limits of reason\n\n## The positive perspective\n\nWhile undecidability results might seem discouraging, they are practically liberating. Knowing that a perfect general solution is impossible frees engineers and scientists to:\n\n- Develop partial solutions that work well for practical cases\n- Accept that heuristics and approximations are not just expedient but theoretically necessary\n- Focus resources on solvable subproblems rather than pursuing impossible perfection\n- Appreciate that the boundary between computable and uncomputable is one of the deepest truths about the nature of mathematics and computation",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "logic",
+        "foundations"
+    ],
+    "category": "Software Development",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Recursion Theory",
+        "Theory of Computation",
+        "Computability"
+    ],
+    "relatedConcepts": [
+        "halting-problem",
+        "undecidability",
+        "turing-machine",
+        "church-turing-thesis",
+        "godels-incompleteness-theorems",
+        "cantors-diagonal-argument",
+        "recursion",
+        "computational-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Introduction to the Theory of Computation by Michael Sipser",
+            "url": "https://www.amazon.com/dp/113318779X?tag=dsebastien00-20"
+        },
+        {
+            "title": "Gödel, Escher, Bach by Douglas Hofstadter",
+            "url": "https://www.amazon.com/dp/0465026567?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Computability theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computability_theory",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}

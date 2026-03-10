@@ -1,0 +1,19 @@
+{
+    "id": "bells-theorem",
+    "name": "Bell's Theorem",
+    "summary": "A mathematical proof that no theory of local hidden variables can reproduce all the predictions of quantum mechanics.",
+    "explanation": "Bell's Theorem, formulated by physicist John Stewart Bell in 1964, is one of the most profound results in the foundations of physics. It proves mathematically that the predictions of quantum mechanics are incompatible with any theory that is both local (no faster-than-light influences) and realistic (physical properties exist prior to measurement).\n\n**The background:**\n\nIn 1935, Einstein, Podolsky, and Rosen (EPR) argued that quantum mechanics must be incomplete. They believed that particles must have definite properties before measurement (realism) and that no measurement on one particle could instantly affect a distant particle (locality). They proposed that 'hidden variables' — unknown factors — must predetermine measurement outcomes, making quantum randomness merely apparent.\n\n**What Bell proved:**\n\nBell showed that any local hidden variable theory must satisfy certain mathematical constraints — Bell inequalities. He then demonstrated that quantum mechanics predicts violations of these inequalities for entangled particles. This means:\n\n- If quantum mechanics is correct, then either locality or realism (or both) must be false\n- There is no way to reproduce quantum predictions using local hidden variables\n- The debate between Einstein and Bohr could be settled experimentally\n\n**The CHSH inequality:**\n\nThe most commonly tested version (Clauser-Horne-Shimony-Holt, 1969) involves measuring correlations between entangled particles along different angles. Local hidden variables predict the correlation strength is bounded by 2. Quantum mechanics predicts a maximum of 2√2 ≈ 2.83.\n\n**Experimental confirmation:**\n\n- **1972**: Freedman and Clauser perform the first experimental test, finding quantum violations\n- **1982**: Alain Aspect performs decisive tests closing the locality loophole\n- **2015**: Multiple groups achieve loophole-free Bell tests, definitively ruling out local hidden variables\n- **2022**: Nobel Prize awarded to Aspect, Clauser, and Zeilinger for this work\n\n**What it means:**\n\nBell's theorem forces a choice:\n\n1. **Give up locality**: Accept that distant events can be correlated in ways that transcend space (non-locality)\n2. **Give up realism**: Accept that particles don't have definite properties until measured\n3. **Give up both**: Some interpretations abandon both assumptions\n\nMost physicists accept non-locality in some form, while maintaining that it cannot be used for faster-than-light communication.\n\n**Why it matters beyond physics:**\n\nBell's theorem is remarkable because it transforms a philosophical debate (does quantum mechanics describe reality completely?) into a testable empirical question. It demonstrates that nature is fundamentally more strange than classical intuition suggests, and that the correlations in entangled systems cannot be explained by any mechanism that respects our everyday notions of locality and pre-existing properties.",
+    "tags": ["quantum-mechanics", "physics", "philosophy-of-science", "mathematics"],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": ["Bell inequality", "Bell's inequality", "CHSH inequality"],
+    "relatedConcepts": ["quantum-entanglement", "non-locality", "quantum-mechanics", "observer-effect", "copenhagen-interpretation", "many-worlds-interpretation"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [{"title": "Bell's theorem - Wikipedia", "url": "https://en.wikipedia.org/wiki/Bell%27s_theorem", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-10",
+    "dateModified": "2026-03-10"
+}
