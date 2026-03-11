@@ -1,0 +1,80 @@
+{
+    "id": "ovsiankina-effect",
+    "name": "Ovsiankina Effect",
+    "summary": "The tendency to resume an interrupted action even without any reinforcement or incentive to do so.",
+    "explanation": "The Ovsiankina Effect, named after psychologist Maria Ovsiankina, describes the psychological tendency to resume an interrupted task even when there is no external reason, reward, or requirement to do so. It is the behavioral complement to the Zeigarnik Effect: while Zeigarnik showed that incomplete tasks are remembered better, Ovsiankina demonstrated that people feel compelled to actually go back and finish them.\n\n## The Original Research\n\nIn her 1928 experiments, Ovsiankina gave participants simple tasks (puzzles, drawings, building models) and interrupted them before completion. When given free time afterwards with no instruction to continue, the vast majority of participants spontaneously returned to the interrupted task — even when alternative activities were available. The pull to complete was strong, automatic, and didn't require any external motivation.\n\n## The Psychological Mechanism\n\nOvsiankina's work, conducted under Kurt Lewin's supervision, was grounded in Lewinian field theory. The key idea is that starting a task creates a 'quasi-need' — a state of psychological tension that persists until the task is completed. This tension functions like a need state (similar to hunger or thirst) that motivates behavior toward resolution.\n\nThe strength of this quasi-need depends on several factors:\n- **How close to completion the task was when interrupted**: Near-completion creates stronger pull\n- **How personally engaged the person was**: Higher involvement means stronger resumption tendency\n- **Whether the task had a clear end state**: Well-defined completion criteria create clearer quasi-needs\n- **Whether the person accepted the task as their own**: Voluntarily chosen tasks create stronger tension than assigned ones\n\n## Relationship to Other Concepts\n\n### Zeigarnik Effect\nThe Zeigarnik Effect is about memory — incomplete tasks are remembered better. The Ovsiankina Effect is about motivation — incomplete tasks create a drive to resume them. Together they describe the cognitive and behavioral consequences of interruption.\n\n### Open Loops\nIn productivity frameworks like GTD, the Ovsiankina Effect explains why open loops are so mentally taxing. Each unfinished task doesn't just occupy memory — it creates an active pull on behavior, fragmenting attention across all the things you've started but not finished.\n\n### Sunk Cost Fallacy\nThe Ovsiankina Effect can contribute to sunk cost reasoning. The quasi-need to complete an interrupted task may drive continued investment even when abandonment would be rational.\n\n## Practical Implications\n\n**For Productivity**:\n- Starting a task creates psychological commitment to finishing it. Be intentional about what you start.\n- Strategic interruption can be used to maintain motivation — stopping mid-task makes it easier to resume later (Hemingway's technique of stopping mid-sentence).\n- Capturing an interrupted task in a trusted system (writing it down) can partially satisfy the quasi-need and reduce the pull.\n\n**For Focus**:\n- Every open task competes for behavioral resumption. Fewer concurrent open tasks means less fragmented attention.\n- Context switching is costly partly because each switch interrupts a task, creating another quasi-need.\n\n**For Design**:\n- Progress bars and 'continue where you left off' features leverage the Ovsiankina Effect by making the interrupted state visible and the resumption path easy.\n- Onboarding flows that are interrupted create natural motivation to return and complete them.",
+    "tags": [
+        "psychology",
+        "motivations",
+        "cognitive-science",
+        "productivity",
+        "attention"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaCircleNotch",
+    "featured": false,
+    "aliases": [
+        "Ovsiankina effect",
+        "Task resumption tendency",
+        "Quasi-need for completion"
+    ],
+    "relatedConcepts": [
+        "zeigarnik-effect",
+        "open-loops",
+        "closing-open-loops",
+        "need-for-closure",
+        "cognitive-load",
+        "context-switching",
+        "sunk-cost-fallacy",
+        "flow-state",
+        "attention-residue"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Ovsiankina effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ovsiankina_effect",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}
