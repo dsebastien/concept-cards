@@ -1,0 +1,25 @@
+{
+    "id": "dwell-time",
+    "name": "Dwell Time",
+    "summary": "The duration a user spends on a page after clicking a search result before returning to the SERP, used as an indirect signal of content quality.",
+    "explanation": "Dwell time is the amount of time a user spends on a web page after clicking on it from a search engine results page (SERP) and before returning to the search results. It serves as a behavioral signal that may indicate how well content satisfies a searcher's query—longer dwell times generally suggest the content was relevant and engaging.\n\nDwell time is distinct from related metrics: bounce rate measures the percentage of single-page sessions (regardless of time spent); time on page measures how long any visitor stays (regardless of traffic source); and session duration measures the entire visit length. Dwell time specifically captures the search-to-SERP-return loop.\n\nWhile search engines have never officially confirmed using dwell time as a direct ranking factor, patents and research papers suggest it's part of user satisfaction modeling. Bing has publicly acknowledged using dwell time as a signal. The logic is intuitive: if users consistently spend significant time on a result before returning to search, that result likely provided value.\n\nFactors that influence dwell time include: content depth and quality (comprehensive answers keep users reading); page layout and readability (well-structured content with clear headings, visuals, and formatting); page speed (slow-loading pages increase immediate returns); content-intent alignment (matching what the user actually wanted); and multimedia elements (videos, interactive tools, and images that increase engagement).\n\nImproving dwell time involves creating content that thoroughly addresses search intent, using engaging formatting, placing key information strategically, and ensuring fast load times. However, context matters—a quick factual query (\"What year was X founded?\") naturally has shorter dwell time, and that's appropriate.",
+    "tags": ["seo", "search-marketing", "user-experience", "analytics"],
+    "category": "Concepts",
+    "icon": "FaClock",
+    "featured": false,
+    "aliases": ["Page Dwell Time"],
+    "relatedConcepts": ["bounce-rate", "pogo-sticking", "search-intent", "seo", "core-web-vitals", "click-through-rate"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dwell time (search engine) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dwell_time_(search_engine)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

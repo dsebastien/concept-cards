@@ -1,0 +1,19 @@
+{
+    "id": "search-volume",
+    "name": "Search Volume",
+    "summary": "The average number of times a specific keyword or query is searched in a given time period, used to gauge keyword demand and prioritize content creation.",
+    "explanation": "Search volume is a fundamental SEO metric representing how many times a particular keyword or search query is entered into a search engine within a given timeframe, typically reported as a monthly average. It serves as a proxy for demand—higher search volume indicates more people are looking for information on that topic.\n\nSearch volume data is used to: prioritize which keywords and topics to target; estimate potential organic traffic from ranking for a term; evaluate the commercial viability of content investments; compare demand across related topics; and identify seasonal trends and emerging interests.\n\nSearch volume is typically reported as a rounded monthly average (e.g., 1,000, 5,400, 12,100) derived from historical search data. Major sources include Google Keyword Planner (which provides ranges for non-advertisers), and third-party tools like Ahrefs, SEMrush, and Moz that estimate volumes using clickstream data and other methodologies.\n\nImportant caveats: search volume numbers are estimates, not exact counts, and can vary significantly between tools. They represent averages that may mask significant seasonality. A keyword with 1,000 monthly searches doesn't mean you'll get 1,000 visits if you rank first—click-through rates vary by position and SERP features. Additionally, search volume alone doesn't indicate commercial value or conversion potential.\n\nEffective keyword strategy considers search volume alongside keyword difficulty, search intent, business relevance, and competitive landscape. A low-volume keyword with high commercial intent and low competition often delivers more value than a high-volume keyword where you can't realistically compete. Long-tail keywords individually have low search volume but collectively represent the majority of all searches.",
+    "tags": ["seo", "keyword-research", "search-marketing", "analytics", "digital-marketing"],
+    "category": "Concepts",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": ["Monthly Search Volume", "Keyword Volume"],
+    "relatedConcepts": ["keyword-research", "long-tail-keywords", "keyword-difficulty", "search-intent", "seo", "keyword-clustering", "content-gap-analysis"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

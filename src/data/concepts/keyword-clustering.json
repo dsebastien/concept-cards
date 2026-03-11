@@ -1,0 +1,47 @@
+{
+    "id": "keyword-clustering",
+    "name": "Keyword Clustering",
+    "summary": "The process of grouping related keywords into clusters to target with a single page, improving topical relevance and avoiding keyword cannibalization.",
+    "explanation": "Keyword clustering is an SEO technique where semantically related keywords are grouped together so that a single page can target the entire cluster rather than creating separate pages for each keyword. This approach reflects how modern search engines understand topics—they recognize that related queries often share the same search intent and should be served by one comprehensive page.\n\nThe process typically involves: collecting a large set of keywords through research, analyzing SERP overlap (if two keywords show largely the same search results, they belong in one cluster), grouping by search intent (informational, navigational, transactional, commercial), and mapping clusters to content pieces.\n\nFor example, \"how to make cold brew coffee,\" \"cold brew coffee recipe,\" and \"cold brew at home\" would form a single cluster targeting one comprehensive guide, rather than three thin pages competing against each other.\n\nKeyword clustering prevents keyword cannibalization—where multiple pages on your site compete for the same terms, diluting your ranking power. It also enables more strategic content planning by revealing which topics need comprehensive pillar content versus which can be addressed within existing pages.\n\nTools and methods for clustering range from manual SERP analysis to automated approaches using NLP and cosine similarity. At scale, programmatic clustering becomes essential when working with thousands of keywords.",
+    "tags": [
+        "seo",
+        "keyword-research",
+        "content-strategy",
+        "search-marketing"
+    ],
+    "category": "Techniques",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Keyword Grouping",
+        "Topic Clustering for SEO"
+    ],
+    "relatedConcepts": [
+        "keyword-research",
+        "search-intent",
+        "keyword-cannibalization",
+        "content-clusters",
+        "long-tail-keywords",
+        "topical-authority",
+        "programmatic-seo",
+        "seo"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

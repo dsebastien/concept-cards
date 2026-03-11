@@ -1,0 +1,48 @@
+{
+    "id": "content-pruning",
+    "name": "Content Pruning",
+    "summary": "The practice of removing or consolidating low-performing, outdated, or thin content to improve overall site quality and search engine rankings.",
+    "explanation": "Content pruning is the systematic process of auditing a website's content and removing, consolidating, or improving pages that are underperforming, outdated, or dragging down overall site quality. Like pruning a tree to promote healthier growth, removing weak content allows search engines to focus on your strongest pages.\n\nThe rationale is rooted in how search engines evaluate site quality. Algorithms assess quality signals at the site level, not just page level. A site with hundreds of thin, outdated, or redundant pages dilutes its overall quality score, potentially suppressing rankings even for strong content. By removing the weakest pages, you improve the average quality signal across the site.\n\nThe pruning process involves: auditing all pages for organic traffic, rankings, backlinks, engagement metrics, and conversion data; categorizing pages as keep (performing well), improve (has potential but needs updating), consolidate (merge similar pages), or remove (no value and no recovery potential); implementing changes with proper redirects for removed pages that have backlinks; and monitoring the impact on site-wide organic performance.\n\nContent pruning is especially valuable for: sites that have published for years and accumulated outdated content; blogs with redundant posts on similar topics; e-commerce sites with expired product pages; and sites that have done programmatic SEO and generated thin pages.\n\nResults from content pruning can be dramatic. Sites frequently report significant ranking improvements after removing 20-50% of their weakest content. The key insight is that in SEO, subtraction can be as powerful as addition—sometimes the fastest path to more organic traffic is publishing less content, not more.\n\nPruning should be a regular maintenance activity, not a one-time project. Quarterly or semi-annual content audits prevent quality decay from accumulating.",
+    "tags": [
+        "seo",
+        "content-strategy",
+        "content",
+        "digital-marketing"
+    ],
+    "category": "Techniques",
+    "icon": "FaCut",
+    "featured": false,
+    "aliases": [
+        "Content Audit and Remove",
+        "Content Trimming",
+        "Content Consolidation"
+    ],
+    "relatedConcepts": [
+        "thin-content",
+        "content-decay",
+        "seo",
+        "keyword-cannibalization",
+        "duplicate-content",
+        "content-strategy",
+        "crawl-budget",
+        "topical-authority"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

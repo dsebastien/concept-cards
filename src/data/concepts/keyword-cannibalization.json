@@ -1,0 +1,48 @@
+{
+    "id": "keyword-cannibalization",
+    "name": "Keyword Cannibalization",
+    "summary": "An SEO issue where multiple pages on the same site compete for the same keywords, diluting ranking potential.",
+    "explanation": "Keyword cannibalization occurs when two or more pages on the same website target the same or very similar keywords, causing them to compete against each other in search results. Instead of one strong page ranking well, the site's authority is split across multiple pages, often resulting in none of them ranking as high as a single consolidated page would.\n\nSearch engines struggle to determine which page is the most relevant for a query when multiple pages send similar signals. This leads to several problems: fluctuating rankings as search engines alternate between pages, lower click-through rates due to less compelling results, wasted crawl budget on redundant pages, and diluted link equity spread across multiple URLs instead of concentrated on one.\n\nCommon causes include: creating multiple blog posts on the same topic over time, having both a category page and a blog post targeting the same keyword, optimizing product pages and informational pages for identical terms, or running programmatic SEO without proper keyword clustering.\n\nDiagnosing cannibalization involves searching your site for specific keywords (site:example.com \"keyword\"), monitoring which URL ranks for target terms over time, and using tools that track URL-level ranking changes. Resolution strategies include consolidating pages through 301 redirects, differentiating content to target distinct intents, using canonical tags to signal the preferred page, or removing and redirecting underperforming pages.\n\nPreventing cannibalization requires a clear content strategy with keyword mapping—assigning each target keyword to a single page and maintaining a content inventory that tracks these assignments.",
+    "tags": [
+        "seo",
+        "content-strategy",
+        "search-marketing",
+        "keyword-research"
+    ],
+    "category": "Concepts",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Keyword Cannibalism",
+        "Internal Keyword Competition"
+    ],
+    "relatedConcepts": [
+        "keyword-clustering",
+        "keyword-research",
+        "seo",
+        "content-clusters",
+        "canonical-url",
+        "redirect-chains",
+        "internal-linking",
+        "content-pruning",
+        "topical-authority"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "entity-seo",
+    "name": "Entity SEO",
+    "summary": "An SEO strategy centered on optimizing content around entities—people, places, things, and concepts—that search engines use to understand and categorize information.",
+    "explanation": "Entity SEO is an optimization strategy built around entities—the people, places, things, concepts, and ideas that search engines use to organize the world's information. Rather than thinking in keywords, entity SEO thinks in terms of the objects and relationships that populate search engines' knowledge graphs.\n\nSearch engines like Google maintain vast knowledge graphs containing billions of entities and the relationships between them. When content is clearly associated with known entities, search engines can better understand its context, relevance, and authority. A page about \"Python\" linked to the programming language entity is understood differently from one linked to the snake entity.\n\nKey practices in entity SEO include: ensuring your brand or organization is established as a recognized entity (through Wikipedia, Wikidata, Google Business Profile, and consistent structured data); using schema markup to explicitly declare entities and their properties on your pages; creating content that clearly associates with and links to established entities in your topic area; building topical authority around a cluster of related entities; and maintaining consistent entity references (names, descriptions, attributes) across your web presence.\n\nEntity SEO is particularly important for E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) signals. When Google can connect your content to recognized expert entities (authors, organizations), it has more confidence in your content's authority.\n\nAs AI-powered search experiences like AI Overviews become prevalent, entity SEO becomes even more critical. These systems build responses by synthesizing entity relationships from their knowledge graphs, making entity association essential for inclusion in AI-generated results.",
+    "tags": ["seo", "search-marketing", "digital-marketing", "knowledge-graphs"],
+    "category": "Methods",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["Entity-Based SEO", "Knowledge Graph SEO"],
+    "relatedConcepts": ["seo", "semantic-seo", "schema-markup", "e-e-a-t", "topical-authority", "knowledge-graph", "ai-overviews", "generative-engine-optimization"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge graph - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_graph",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "semantic-seo",
+    "name": "Semantic SEO",
+    "summary": "An approach to search engine optimization focused on building topical depth and meaning rather than targeting individual keywords, leveraging entity relationships and natural language understanding.",
+    "explanation": "Semantic SEO is an evolution beyond traditional keyword-focused optimization. Instead of targeting exact-match keywords, it focuses on comprehensively covering topics in a way that demonstrates expertise and helps search engines understand the meaning and context of your content.\n\nThe shift reflects how search engines have evolved. With advances like Google's Knowledge Graph, Hummingbird, RankBrain, and BERT, search engines moved from matching keywords to understanding entities, relationships, and intent. A page about \"apple\" is understood differently based on surrounding context—fruit, company, or records label.\n\nSemantic SEO practices include: covering topics comprehensively rather than superficially targeting keywords; using related terms, synonyms, and co-occurring phrases naturally; structuring content with clear hierarchies that signal topic relationships; implementing schema markup to explicitly communicate entities and their properties; building internal linking structures that reflect topical relationships; and answering related questions that users commonly ask about a topic.\n\nThe practical benefit is that semantically optimized content ranks for many more keyword variations than content targeting a single term. A comprehensive guide on \"content marketing\" might rank for hundreds of related long-tail queries because search engines recognize its topical depth.\n\nSemantic SEO aligns naturally with content cluster strategies, where a pillar page covers a broad topic and supporting pages address specific subtopics, all interlinked to demonstrate topical authority. It also connects closely with entity SEO—optimizing around the entities and relationships that search engines use to build their knowledge graphs.",
+    "tags": [
+        "seo",
+        "content-strategy",
+        "search-marketing",
+        "digital-marketing"
+    ],
+    "category": "Methods",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Topic-Based SEO",
+        "Semantic Search Optimization"
+    ],
+    "relatedConcepts": [
+        "seo",
+        "entity-seo",
+        "schema-markup",
+        "content-clusters",
+        "topical-authority",
+        "search-intent",
+        "keyword-clustering",
+        "e-e-a-t",
+        "internal-linking",
+        "natural-language-processing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Semantic search - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Semantic_search",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

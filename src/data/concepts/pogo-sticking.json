@@ -1,0 +1,19 @@
+{
+    "id": "pogo-sticking",
+    "name": "Pogo-Sticking",
+    "summary": "When a user clicks a search result, quickly returns to the SERP, and clicks a different result, signaling that the first result did not satisfy their query.",
+    "explanation": "Pogo-sticking is a user behavior pattern in search where someone clicks on a search result, quickly returns to the search engine results page (SERP), and then clicks on a different result. This back-and-forth behavior signals to search engines that the first result failed to satisfy the user's query, making it a potential negative quality signal.\n\nPogo-sticking differs from a regular bounce. A bounce simply means a user visited only one page—they might have found exactly what they needed and left satisfied. Pogo-sticking specifically involves returning to the SERP and trying another result, which more clearly indicates dissatisfaction with the clicked result.\n\nCommon causes of pogo-sticking include: misleading title tags or meta descriptions that promise content the page doesn't deliver; thin content that doesn't adequately answer the query; poor user experience (slow loading, intrusive ads, difficult navigation); content that doesn't match the searcher's intent (e.g., an advanced technical page when the user wanted a beginner guide); and outdated information that's no longer accurate.\n\nWhile search engines haven't explicitly confirmed pogo-sticking as a ranking factor, it's widely believed to influence results. Google's Search Quality Raters Guidelines emphasize user satisfaction, and pogo-sticking is one of the clearest behavioral signals of dissatisfaction. Persistent pogo-sticking on a result may lead to ranking demotions.\n\nReducing pogo-sticking requires: accurately representing page content in title tags and meta descriptions; ensuring content thoroughly addresses the likely search intent; providing immediate value above the fold; optimizing page speed; and structuring content so users can quickly confirm the page will answer their question.",
+    "tags": ["seo", "search-marketing", "user-experience", "analytics"],
+    "category": "Concepts",
+    "icon": "FaExchangeAlt",
+    "featured": false,
+    "aliases": ["Pogo Sticking", "SERP Bouncing"],
+    "relatedConcepts": ["dwell-time", "bounce-rate", "search-intent", "seo", "click-through-rate", "core-web-vitals"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "duplicate-content",
+    "name": "Duplicate Content",
+    "summary": "Identical or substantially similar content appearing at multiple URLs, which can confuse search engines and dilute ranking signals.",
+    "explanation": "Duplicate content occurs when identical or near-identical content is accessible at multiple URLs, either within the same website (internal duplication) or across different websites (external duplication). While search engines don't impose a formal \"penalty\" for duplicate content, it creates significant SEO problems by confusing search engines about which version to index, rank, and direct link equity to.\n\nInternal duplication commonly arises from: URL parameters creating multiple versions of the same page (e.g., sorting, filtering, tracking parameters); HTTP vs. HTTPS or www vs. non-www variations; printer-friendly page versions; paginated content; session IDs in URLs; and content management systems generating multiple URL paths to the same content.\n\nExternal duplication occurs through: content syndication without proper attribution; scraped or stolen content; press releases distributed verbatim; product descriptions used across multiple retailer sites; and legitimate cross-posting across platforms.\n\nSearch engines handle duplicate content by choosing one version as the canonical—the version they'll show in results. This selection may not align with your preference, potentially burying your preferred URL. Link equity is also split across duplicates rather than consolidated.\n\nSolutions include: implementing canonical tags to signal the preferred version; using 301 redirects to consolidate duplicate URLs; configuring URL parameters in search console; setting up proper hreflang tags for international content variations; using robots.txt or noindex directives for utility pages; and ensuring consistent internal linking to canonical URLs.\n\nPreventing duplicate content is especially important in programmatic SEO and e-commerce, where URL variations and similar page templates can create thousands of near-duplicate pages.",
+    "tags": ["seo", "technical-seo", "content", "search-marketing"],
+    "category": "Concepts",
+    "icon": "FaCopy",
+    "featured": false,
+    "aliases": ["Content Duplication", "Duplicate Pages"],
+    "relatedConcepts": ["seo", "canonical-url", "thin-content", "technical-seo", "programmatic-seo", "indexability", "crawl-budget", "redirect-chains"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Duplicate content - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Duplicate_content",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

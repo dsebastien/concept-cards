@@ -1,0 +1,66 @@
+{
+    "id": "programmatic-seo",
+    "name": "Programmatic SEO",
+    "summary": "A strategy of creating large volumes of SEO-optimized pages automatically using templates, databases, and automation to target long-tail keywords at scale.",
+    "explanation": "Programmatic SEO (pSEO) is an approach to search engine optimization where hundreds or thousands of pages are generated automatically using templates populated with data from databases, APIs, or spreadsheets. Instead of manually crafting each page, you build a template once and let automation fill in unique content for each variation—targeting long-tail keywords that would be impractical to address one by one.\n\nThe strategy works because long-tail keywords collectively represent the majority of search traffic, yet each individual term has low competition. By creating pages at scale—such as \"best [tool] for [use case]\" or \"[city] [service] reviews\"—you can capture a massive amount of aggregate traffic.\n\nSuccessful programmatic SEO requires several key elements: a large, structured dataset with unique information for each page; well-designed templates that produce genuinely useful content (not thin or duplicate pages); proper internal linking to help search engines discover and understand the page hierarchy; and technical SEO foundations like fast page loads, clean URL structures, and proper indexation controls.\n\nCompanies like Zapier (integration pages), Nomadlist (city comparison pages), Tripadvisor (location pages), and Wise (currency conversion pages) have built significant organic traffic through programmatic SEO. The approach is particularly effective for comparison sites, directories, data-driven tools, and marketplace listings.\n\nThe main risks include creating thin content that provides no real value, triggering duplicate content penalties, overwhelming crawl budgets, and being penalized by search engine quality updates. Google's Helpful Content Update specifically targets low-quality programmatic content. Success depends on ensuring each generated page provides unique value that a user cannot easily find elsewhere.",
+    "tags": [
+        "seo",
+        "marketing",
+        "automation",
+        "content",
+        "growth",
+        "digital-marketing"
+    ],
+    "category": "Methods",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "pSEO",
+        "Automated SEO",
+        "Scaled SEO"
+    ],
+    "relatedConcepts": [
+        "seo",
+        "long-tail-keywords",
+        "keyword-research",
+        "technical-seo",
+        "content-velocity",
+        "thin-content",
+        "duplicate-content",
+        "keyword-clustering",
+        "search-intent",
+        "crawl-budget",
+        "indexability",
+        "url-structure",
+        "content-clusters",
+        "schema-markup"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Programmatic SEO - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programmatic_SEO",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

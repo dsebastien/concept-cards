@@ -1,0 +1,46 @@
+{
+    "id": "thin-content",
+    "name": "Thin Content",
+    "summary": "Web pages with little or no substantive value to users, often penalized by search engines for lacking depth, originality, or usefulness.",
+    "explanation": "Thin content refers to web pages that provide little to no unique value to users. Search engines like Google consider thin content a quality issue and may penalize sites that contain significant amounts of it, either through algorithmic filtering or manual actions.\n\nThin content takes several forms: pages with very little text that don't adequately address the topic; automatically generated content that is grammatically correct but lacks genuine insight; doorway pages created solely to rank for specific keywords without providing real value; scraped or copied content from other sources without meaningful additions; affiliate pages that add no original content beyond product feeds; and pages that are substantially similar to other pages on the same site.\n\nGoogle's Panda algorithm update (2011) was specifically designed to identify and demote thin content, and subsequent updates like the Helpful Content Update (2022) have further refined these signals. Sites with a high proportion of thin pages can see their entire domain's rankings suppressed, not just the thin pages themselves.\n\nThin content is a particular risk in programmatic SEO, where templates can produce pages that look different but provide essentially the same shallow information with only minor variable substitutions. The antidote is ensuring each generated page contains unique, substantive data or insights that justify its existence.\n\nAddressing thin content involves auditing your site to identify underperforming pages, then either expanding them with genuine value, consolidating them into more comprehensive pages, or removing them entirely (with proper redirects). Regular content audits prevent thin content from accumulating over time.",
+    "tags": [
+        "seo",
+        "content",
+        "search-marketing",
+        "content-strategy"
+    ],
+    "category": "Concepts",
+    "icon": "FaFileAlt",
+    "featured": false,
+    "aliases": [
+        "Low-Quality Content",
+        "Shallow Content"
+    ],
+    "relatedConcepts": [
+        "seo",
+        "duplicate-content",
+        "content-pruning",
+        "programmatic-seo",
+        "e-e-a-t",
+        "indexability",
+        "content-decay"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

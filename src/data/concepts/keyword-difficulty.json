@@ -1,0 +1,19 @@
+{
+    "id": "keyword-difficulty",
+    "name": "Keyword Difficulty",
+    "summary": "A metric estimating how hard it would be to rank on the first page of search results for a given keyword, based on the authority and quality of competing pages.",
+    "explanation": "Keyword difficulty (KD) is an SEO metric that estimates the relative difficulty of ranking in the top search results for a specific keyword. It helps content creators and SEO practitioners prioritize which keywords to target based on their realistic chances of ranking, given their site's current authority and resources.\n\nMost SEO tools express keyword difficulty as a score from 0 to 100, where higher numbers indicate greater difficulty. The calculation typically considers: the domain authority and page authority of currently ranking pages; the number and quality of backlinks pointing to top-ranking pages; the content quality and topical depth of competing pages; and SERP features that reduce organic click opportunities.\n\nHowever, keyword difficulty scores vary significantly across tools because each uses different methodologies and data sources. A keyword rated 45 in one tool might be 62 in another. These scores are best used as relative comparisons within the same tool rather than absolute measures.\n\nEffective keyword difficulty assessment goes beyond tool scores to consider: your site's existing topical authority in the subject area (a high-authority site in a niche can rank for terms that would be impossible for a new site); the intent match of competing content (if top results don't match the intent well, there's opportunity even at high difficulty); the freshness of competing content (outdated pages are vulnerable); and the presence of weak domains in the top 10 (indicating a less competitive SERP than the score suggests).\n\nThe strategic approach is to match keyword difficulty to your site's current capabilities. New sites should target low-difficulty, long-tail keywords to build initial traffic and authority, gradually moving to more competitive terms as the site grows. Established sites can pursue higher-difficulty keywords where they have topical authority.\n\nKeyword difficulty combined with search volume and business relevance forms the core of keyword prioritization—finding the sweet spot of terms that are valuable enough to pursue and realistic enough to rank for.",
+    "tags": ["seo", "keyword-research", "search-marketing", "analytics"],
+    "category": "Concepts",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": ["KD Score", "Keyword Competition", "SEO Difficulty"],
+    "relatedConcepts": ["keyword-research", "search-volume", "long-tail-keywords", "domain-authority", "seo", "keyword-clustering", "content-gap-analysis", "topical-authority"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

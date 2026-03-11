@@ -1,0 +1,48 @@
+{
+    "id": "url-structure",
+    "name": "URL Structure",
+    "summary": "The format and hierarchy of a web page address, which impacts both user experience and search engine crawling, indexing, and ranking.",
+    "explanation": "URL structure refers to how web addresses are formatted, organized, and hierarchically arranged on a website. A well-designed URL structure improves both user experience and search engine optimization by making pages easy to understand, navigate, and index.\n\nSEO-friendly URL characteristics include: descriptive and readable paths that indicate page content (/blog/keyword-research-guide rather than /p?id=12847); logical hierarchy reflecting site architecture (/category/subcategory/page); consistent use of hyphens as word separators; lowercase characters throughout; reasonable length (under 60-75 characters for the path); and inclusion of relevant keywords without stuffing.\n\nURL structure impacts SEO in several ways. Search engines use URL paths as a signal of page topic and site hierarchy. Users are more likely to click on readable URLs in search results. Clean URLs are easier to share and link to, improving link acquisition. And hierarchical URL structures help search engines understand the relationship between pages.\n\nCommon URL structure pitfalls include: using query parameters for important navigational pages; allowing multiple URL paths to the same content (creating duplicate content issues); using session IDs or tracking parameters in crawlable URLs; creating excessively deep hierarchies; using dates in URLs for evergreen content (making it appear dated); and changing URL structures without implementing proper redirects.\n\nFor programmatic SEO, URL structure is especially critical because template-based generation can create thousands of URLs. The pattern must be scalable, descriptive, and avoid duplication. A clean URL taxonomy like /[category]/[location] or /[tool]-vs-[tool] creates both user-friendly and crawler-friendly page addresses at scale.\n\nURL changes should always be accompanied by 301 redirects from old URLs to preserve accumulated link equity and avoid broken links.",
+    "tags": [
+        "seo",
+        "technical-seo",
+        "web-development",
+        "search-marketing"
+    ],
+    "category": "Concepts",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "URL Design",
+        "URL Hierarchy",
+        "URL Format"
+    ],
+    "relatedConcepts": [
+        "seo",
+        "technical-seo",
+        "canonical-url",
+        "redirect-chains",
+        "duplicate-content",
+        "crawl-budget",
+        "internal-linking",
+        "programmatic-seo"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "URL - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/URL",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}
