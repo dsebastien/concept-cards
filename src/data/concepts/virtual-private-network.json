@@ -1,0 +1,59 @@
+{
+    "id": "virtual-private-network",
+    "name": "Virtual Private Network (VPN)",
+    "summary": "An encrypted tunnel between devices or networks over an untrusted network that provides confidentiality, authentication, and integrity.",
+    "explanation": "A Virtual Private Network (VPN) creates an encrypted tunnel between devices or networks over an untrusted network (typically the internet). It provides confidentiality (encryption), authentication (identity verification), and integrity (tamper detection) for traffic flowing through the tunnel.\n\n## Types\n\n- **Remote access VPN**: Connects individual devices to a private network (e.g., employee laptop to corporate network)\n- **Site-to-site VPN**: Connects entire networks together (e.g., branch office to headquarters)\n- **Mesh VPN**: Every node connects directly to every other node, forming a peer-to-peer overlay network\n\n## Protocols\n\n- **WireGuard**: Modern, minimal, fast. The current gold standard for new deployments\n- **OpenVPN**: Mature, widely supported, runs in userspace. More complex to configure\n- **IPsec/IKEv2**: Enterprise standard, built into most operating systems. Complex protocol suite\n- **SSL/TLS VPN**: Browser-based or clientless access, common in enterprise remote access\n\n## Modern Overlay Networks\n\nTraditional VPNs route traffic through a central gateway, creating a bottleneck. Modern solutions build mesh overlay networks on top of WireGuard, adding identity-based access control, automatic peer discovery, and NAT traversal. Examples include Tailscale, NetBird, and ZeroTier.\n\n## Use Cases\n\n- **Privacy**: Encrypting internet traffic from ISPs and network observers\n- **Remote work**: Secure access to corporate resources from anywhere\n- **Geo-restriction bypass**: Accessing content limited to specific regions\n- **Network security**: Protecting communications on untrusted networks like public WiFi",
+    "tags": [
+        "networking",
+        "security",
+        "privacy",
+        "infrastructure"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "VPN",
+        "VPNs",
+        "Virtual Private Network"
+    ],
+    "relatedConcepts": [
+        "wireguard",
+        "encryption"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Virtual+Private+Network+(VPN)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Virtual private network - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Virtual_private_network",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "statistical-distributions",
+    "name": "Statistical Distributions",
+    "summary": "Mathematical functions describing the probability of different outcomes, forming the foundation of statistical analysis and decision-making.",
+    "explanation": "Statistical distributions are mathematical functions that describe the probability of different outcomes in a dataset or random process. They are the foundation of statistical analysis, enabling us to model uncertainty, make predictions, and draw conclusions from data.\n\n## Key Distributions\n\n### Normal (Gaussian) Distribution\nThe famous bell curve. Most values cluster around the mean, with symmetric tails. Describes many natural phenomena: heights, test scores, measurement errors. The Central Limit Theorem explains why it appears so frequently — the average of many independent random variables tends toward normal distribution regardless of the underlying distribution.\n\n### Power Law Distribution\nA few items account for most of the effect (the 'long tail'). Examples: wealth distribution, city sizes, word frequencies, website traffic. Unlike normal distributions, extreme events are far more likely. The Pareto Principle (80/20 rule) is a manifestation of power law distributions.\n\n### Uniform Distribution\nAll outcomes are equally likely. Examples: fair dice rolls, random number generators.\n\n### Exponential Distribution\nDescribes time between events in a Poisson process. Examples: time between customer arrivals, radioactive decay, time between website visits.\n\n### Binomial Distribution\nDescribes the number of successes in a fixed number of independent yes/no trials. Examples: coin flips, quality control pass/fail rates.\n\n## Why Distributions Matter\n\n- **Decision-making**: Understanding whether outcomes follow a normal or power law distribution fundamentally changes strategy. In normal distributions, extreme events are rare. In power law distributions, they dominate\n- **Risk assessment**: Fat-tailed distributions (power laws) mean rare events are more common than normal distributions predict — crucial for finance, security, and engineering\n- **Data analysis**: Choosing the right statistical test requires knowing the underlying distribution\n- **Mental models**: Recognizing which distribution governs a situation prevents applying the wrong intuition\n\n## Common Mistakes\n\nAssuming everything is normally distributed is one of the most dangerous statistical errors. Many real-world phenomena (income, returns, earthquakes, viral content) follow power law or other fat-tailed distributions where extreme events are far more likely than a bell curve would predict.",
+    "tags": ["statistics", "mathematics", "data-analysis", "mental-models", "probability"],
+    "category": "Thinking",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["Probability Distributions", "Distribution Types"],
+    "relatedConcepts": ["normal-distribution", "pareto-principle", "power-law", "central-limit-theorem", "standard-deviation", "regression-to-the-mean"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [{"title": "Probability distribution - Wikipedia", "url": "https://en.wikipedia.org/wiki/Probability_distribution", "type": "website"}],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

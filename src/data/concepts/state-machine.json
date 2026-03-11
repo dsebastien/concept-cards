@@ -1,0 +1,75 @@
+{
+    "id": "state-machine",
+    "name": "State Machine",
+    "summary": "A computational model where a system can be in exactly one of a finite number of states at any given time, transitioning between states in response to inputs.",
+    "explanation": "A state machine (or finite state machine, FSM) is a computational model describing a system that can be in exactly one of a finite number of states at any given time. It transitions between states in response to inputs or events, following defined rules. State machines are foundational in computer science, appearing everywhere from text parsing to game logic to UI design.\n\n## Types\n\n- **Deterministic Finite Automaton (DFA)**: For each state and input, there is exactly one transition. Predictable, easy to reason about\n- **Nondeterministic Finite Automaton (NFA)**: A state may have multiple possible transitions for the same input. Theoretically equivalent to DFA but more compact to express\n- **Mealy Machine**: Outputs depend on both the current state and the input\n- **Moore Machine**: Outputs depend only on the current state\n\n## Key Concepts\n\n- **State**: A distinct condition or mode the system can be in (e.g., 'idle', 'loading', 'error')\n- **Transition**: A change from one state to another, triggered by an event or condition\n- **Event/Input**: The trigger that causes a transition\n- **Guard**: A condition that must be true for a transition to occur\n- **Action**: Side effects executed during a transition or on entering/leaving a state\n\n## Applications in Software Development\n\n- **UI state management**: Managing complex form states, modal workflows, multi-step processes (libraries like XState)\n- **Protocol design**: Network protocols (TCP states), authentication flows\n- **Game development**: Character behavior, game phases, AI behavior trees\n- **Parsing**: Regular expressions, lexical analyzers, pattern matching\n- **Workflow engines**: Business process modeling, approval chains\n- **Hardware design**: Digital circuit design, processor control units\n\n## Why State Machines Matter\n\nState machines make implicit states explicit. Instead of scattering boolean flags across your code (isLoading, hasError, isSubmitted), you define all valid states and all valid transitions between them. This eliminates impossible states by design and makes the system behavior predictable and testable.",
+    "tags": [
+        "computer-science",
+        "software-development",
+        "design-patterns",
+        "systems",
+        "modeling"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Finite State Machine",
+        "FSM",
+        "Finite Automaton",
+        "State Automaton"
+    ],
+    "relatedConcepts": [
+        "turing-machine",
+        "design-patterns",
+        "abstraction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Finite-state machine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Finite-state_machine",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

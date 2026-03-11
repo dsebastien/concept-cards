@@ -1,0 +1,63 @@
+{
+    "id": "wireguard",
+    "name": "WireGuard",
+    "summary": "A modern, minimal VPN protocol designed to be simpler, faster, and more secure than IPsec and OpenVPN.",
+    "explanation": "WireGuard is a modern VPN protocol designed to be simpler, faster, and more secure than IPsec and OpenVPN. It runs as a kernel module (Linux) or userspace implementation (other platforms) and consists of roughly 4,000 lines of code — compared to 100,000+ for OpenVPN or IPsec. This small attack surface makes it significantly easier to audit.\n\n## How It Works\n\nWireGuard creates encrypted point-to-point tunnels between peers using modern cryptography: Curve25519 for key exchange, ChaCha20 for symmetric encryption, Poly1305 for authentication, and BLAKE2s for hashing. There is no cipher negotiation — it uses a single, opinionated cryptographic suite (Noise protocol framework). If a vulnerability is found, the entire protocol version is bumped.\n\nEach peer has a public/private key pair. Configuration is minimal: you define peers by their public keys and allowed IP ranges. WireGuard operates at Layer 3 (IP level) and presents itself as a standard network interface. It is connectionless — there are no handshakes to maintain, no state machines, no keepalive negotiations. Packets are simply encrypted and sent. Silent when idle.\n\n## Key Properties\n\n- **Performance**: Runs in the Linux kernel, achieving near-line-rate throughput with minimal CPU overhead\n- **Roaming**: Handles IP changes transparently — works naturally on mobile devices switching between WiFi and cellular\n- **Stealth**: No response to unauthenticated packets, making it invisible to port scanners\n- **Simplicity**: Configuration is similar in complexity to SSH authorized_keys\n- **Cross-platform**: Linux (kernel module), Windows, macOS, iOS, Android, FreeBSD, OpenBSD\n\n## Limitations\n\nNo built-in user authentication or identity management — it is purely a tunneling protocol. No automatic key distribution or peer discovery. No dynamic IP assignment without external tooling. Layer 3 only (no Layer 2/bridging support). These gaps are exactly what projects like Tailscale, NetBird, and ZeroTier fill.",
+    "tags": [
+        "networking",
+        "security",
+        "vpn",
+        "protocols",
+        "open-source"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "wireguard"
+    ],
+    "relatedConcepts": [
+        "virtual-private-network",
+        "encryption"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/WireGuard"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "WireGuard - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/WireGuard",
+            "type": "website"
+        },
+        {
+            "title": "WireGuard Official Website",
+            "url": "https://www.wireguard.com/",
+            "type": "website"
+        },
+        {
+            "title": "WireGuard Whitepaper",
+            "url": "https://www.wireguard.com/papers/wireguard.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

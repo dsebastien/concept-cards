@@ -1,0 +1,41 @@
+{
+    "id": "open-source-transparency",
+    "name": "Open Source Transparency",
+    "summary": "The principle that making source code publicly available creates accountability, trust, and verifiable security through community inspection.",
+    "explanation": "Open source transparency is the principle that making source code publicly available creates accountability, trust, and verifiable security. When code is open, anyone can inspect what software actually does — rather than relying on a vendor's claims.\n\n## Core Principles\n\n- **Verifiable trust**: Users do not need to trust claims about what software does — they can read the code themselves or trust that others have\n- **Security through visibility**: More eyes on code means more bugs and vulnerabilities are found. Linus's Law: 'Given enough eyeballs, all bugs are shallow'\n- **Accountability**: Organizations cannot hide malicious behavior, privacy violations, or poor practices in open code\n- **Community governance**: Open source projects are accountable to their contributor and user communities, not just shareholders\n\n## Applications\n\n- **Security software**: VPN protocols (WireGuard), encryption libraries, password managers. For security tools, closed source means 'trust us' — open source means 'verify us'\n- **AI models**: Open weights and open training data enable scrutiny of AI behavior, biases, and capabilities\n- **Government software**: Public code for public services increases accountability and reduces vendor lock-in\n- **Infrastructure**: Open source infrastructure (Linux, Kubernetes, databases) builds trust through decades of community review\n\n## Transparency Spectrum\n\nNot all open source is equally transparent:\n- **Source available**: Code is readable but usage may be restricted\n- **Open source (OSI definition)**: Code is freely available with specific usage rights\n- **Open governance**: Development process, roadmap, and decision-making are also open\n- **Open data**: Training data, configurations, and operational data are also shared\n\n## Limitations\n\nTransparency does not automatically equal security or quality. Open source code still needs active maintenance, security audits, and community engagement. The mere availability of code is not sufficient — someone needs to actually read and review it.",
+    "tags": [
+        "open-source",
+        "transparency",
+        "security",
+        "software-development",
+        "trust"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Open Source Accountability",
+        "Transparency Through Open Source"
+    ],
+    "relatedConcepts": [
+        "open-source"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Open-source software - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open-source_software",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

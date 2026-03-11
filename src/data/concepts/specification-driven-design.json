@@ -1,0 +1,39 @@
+{
+    "id": "specification-driven-design",
+    "name": "Specification-Driven Design",
+    "summary": "An approach to software development where a formal specification document drives the design, implementation, and validation of the system.",
+    "explanation": "Specification-driven design is an approach to software development where a formal specification document serves as the single source of truth for system behavior. The specification defines what the system should do before any code is written, and all implementation, testing, and validation derive from this specification.\n\n## Core Principles\n\n- **Spec first, code second**: Define behavior explicitly before implementing it. The spec answers 'what' and 'why'; the code answers 'how'\n- **Single source of truth**: The specification is the authoritative description of system behavior. Code, tests, and documentation all derive from it\n- **Verifiable contracts**: Specifications define clear, testable contracts between components, services, or systems\n- **Living documents**: Specifications evolve with the system but always stay ahead of the implementation\n\n## Common Forms\n\n- **API specifications** (OpenAPI/Swagger): Define endpoints, request/response schemas, and behavior. Generate client libraries, server stubs, and documentation automatically\n- **Type specifications**: Type systems and schemas (TypeScript types, JSON Schema, Protocol Buffers) that enforce structure at compile time or runtime\n- **Behavioral specifications** (BDD): Given-When-Then scenarios that describe expected behavior in natural language, executed as automated tests\n- **Formal methods**: Mathematical specifications (TLA+, Alloy, Z notation) for critical systems where correctness must be proven\n\n## Benefits\n\n- **Alignment**: Teams agree on behavior before writing code, preventing costly misunderstandings\n- **Code generation**: Specifications can generate boilerplate, reducing manual work and inconsistency\n- **Contract testing**: Specs become executable tests that verify implementation matches intent\n- **Documentation**: The spec is the documentation — always up-to-date by definition\n- **AI-assisted development**: Specifications provide clear, structured context for AI coding assistants, enabling more accurate code generation",
+    "tags": [
+        "software-development",
+        "design",
+        "architecture",
+        "specifications",
+        "methodologies"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Spec-Driven Development",
+        "Specification-Driven Development",
+        "Design by Specification"
+    ],
+    "relatedConcepts": [
+        "specification-by-example",
+        "software-requirements-specification",
+        "test-driven-development"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

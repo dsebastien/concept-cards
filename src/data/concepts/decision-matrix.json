@@ -1,0 +1,82 @@
+{
+    "id": "decision-matrix",
+    "name": "Decision Matrix",
+    "summary": "A structured tool for evaluating and comparing multiple options against weighted criteria to make more objective decisions.",
+    "explanation": "A decision matrix is a structured tool for evaluating and comparing multiple options against defined criteria. By scoring each option on each criterion and optionally weighting the criteria by importance, it transforms subjective 'gut feel' decisions into transparent, comparable evaluations.\n\n## How to Build a Decision Matrix\n\n1. **List your options**: The alternatives you are choosing between (rows)\n2. **Define criteria**: The factors that matter for the decision (columns)\n3. **Weight criteria** (optional): Assign relative importance to each criterion (e.g., 1-5 or percentages totaling 100%)\n4. **Score each option**: Rate how well each option meets each criterion (e.g., 1-5 scale)\n5. **Calculate totals**: Multiply scores by weights and sum for each option\n6. **Compare and decide**: The highest total score indicates the strongest option\n\n## When to Use It\n\n- **Multiple options with multiple criteria**: When the decision involves trade-offs across several dimensions\n- **Team decisions**: When multiple stakeholders need to align on a choice with different priorities\n- **Recurring decisions**: Standardizing evaluation criteria for decisions you make repeatedly (e.g., hiring, tool selection)\n- **Reducing bias**: When you want to counteract anchoring, recency bias, or other cognitive biases in decision-making\n\n## Limitations\n\n- **Garbage in, garbage out**: The matrix is only as good as the criteria and scoring. Poor criteria produce misleading results\n- **False precision**: A numerical score does not make a subjective judgment objective — it makes it structured\n- **Missing intangibles**: Some factors (gut feeling, team morale, strategic alignment) are hard to score but matter greatly\n- **Weight manipulation**: Adjusting weights after seeing scores to justify a preferred outcome defeats the purpose\n\nThe decision matrix is a thinking tool, not a decision-making machine. Its value is in forcing you to articulate criteria, consider trade-offs explicitly, and communicate your reasoning — not in producing a magic number.",
+    "tags": [
+        "decision-making",
+        "frameworks",
+        "tools",
+        "analysis",
+        "problem-solving"
+    ],
+    "category": "Decision Science",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Decision Grid",
+        "Evaluation Matrix",
+        "Criteria Matrix",
+        "Pugh Matrix"
+    ],
+    "relatedConcepts": [
+        "weighted-decision-matrix",
+        "decision-making",
+        "cost-benefit-analysis",
+        "multi-criteria-decision-analysis",
+        "eisenhower-matrix"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Decision matrix - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision_matrix",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

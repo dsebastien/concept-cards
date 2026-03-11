@@ -1,0 +1,87 @@
+{
+    "id": "agentic-engineering",
+    "name": "Agentic Engineering",
+    "summary": "The practice of designing, building, and orchestrating AI agent systems that can autonomously plan, execute, and iterate on complex tasks.",
+    "explanation": "Agentic engineering is the emerging discipline of designing, building, and orchestrating AI agent systems that can autonomously plan, execute, and iterate on complex tasks. Unlike traditional prompt engineering (single-turn interactions), agentic engineering focuses on multi-step workflows where AI agents make decisions, use tools, handle errors, and adapt their approach based on intermediate results.\n\n## Core Concepts\n\n- **Agent loop**: The fundamental cycle of observe, plan, act, evaluate that agents execute repeatedly\n- **Tool use**: Agents interact with external systems (APIs, files, databases, browsers) through defined tool interfaces\n- **Planning and decomposition**: Breaking complex tasks into subtasks, determining execution order, handling dependencies\n- **Memory and context**: Managing what the agent knows, what it has done, and what it needs to remember across steps\n- **Error recovery**: Detecting failures and adapting the approach rather than stopping\n- **Orchestration**: Coordinating multiple agents working on different aspects of a problem\n\n## Key Design Patterns\n\n- **ReAct (Reasoning + Acting)**: Alternating between reasoning about what to do and taking action\n- **Plan-and-execute**: Creating a full plan upfront, then executing steps sequentially\n- **Hierarchical agents**: Manager agents delegating to specialized worker agents\n- **Human-in-the-loop**: Agents that pause for human approval at critical decision points\n\n## Relationship to Other Practices\n\nAgentic engineering sits at the intersection of AI, software engineering, and systems design. It draws on prompt engineering for individual interactions, software architecture for system design, and workflow automation for process orchestration. It differs from vibe coding (using AI to generate code interactively) in that the focus is on building autonomous systems rather than using AI as a coding assistant.",
+    "tags": [
+        "ai",
+        "software-development",
+        "agents",
+        "engineering",
+        "automation"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Agentic Software Engineering",
+        "Agent Engineering",
+        "AI Agent Development"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "agent-loop",
+        "agent-orchestration",
+        "vibe-coding",
+        "prompt-engineering",
+        "agent-skills"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "single-board-computer",
+    "name": "Single Board Computer (SBC)",
+    "summary": "A complete computer built on a single circuit board, combining processor, memory, storage, and I/O interfaces in a compact, low-cost form factor.",
+    "explanation": "A single board computer (SBC) is a complete computer built on a single circuit board. It includes a processor, memory, storage (or storage interface), and I/O ports — everything needed to run an operating system and applications. Unlike desktop computers with modular components, SBCs integrate everything into one board, trading upgradability for compactness, low power consumption, and low cost.\n\n## Popular Examples\n\n- **Raspberry Pi**: The most well-known SBC family. ARM-based, runs Linux, massive community and ecosystem\n- **BeagleBone**: Popular in industrial and embedded applications, strong real-time capabilities\n- **Orange Pi / Banana Pi**: Budget alternatives with various processor options\n- **NVIDIA Jetson**: Specialized for AI/ML workloads with GPU acceleration\n- **Pine64**: Open-source focused, various form factors\n\n## Common Use Cases\n\n- **Home servers**: Pi-hole (DNS ad blocking), Home Assistant (home automation), NAS storage\n- **Education**: Teaching programming, electronics, and computer science\n- **IoT and embedded systems**: Sensor nodes, edge computing, industrial automation\n- **Prototyping**: Rapid hardware prototype development\n- **Media centers**: Kodi, Plex clients, retro gaming emulation\n- **Network appliances**: VPN gateways, firewalls, network monitors\n- **AI at the edge**: Running inference models locally on specialized SBCs\n\n## Key Considerations\n\n- **Processing power**: Ranges from microcontroller-class to desktop-equivalent\n- **GPIO (General Purpose I/O)**: Pins for connecting sensors, motors, LEDs — a key differentiator from regular computers\n- **Power consumption**: Typically 2-15W, enabling battery and solar-powered deployments\n- **Operating system**: Most run Linux distributions; some support Android, Windows IoT, or RTOS\n- **Community and ecosystem**: Software support, tutorials, and compatible hardware matter as much as raw specs",
+    "tags": [
+        "hardware",
+        "computing",
+        "embedded-systems",
+        "electronics",
+        "iot"
+    ],
+    "category": "Tools",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "SBC",
+        "Single-Board Computer"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Single-board computer - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Single-board_computer",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

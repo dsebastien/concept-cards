@@ -1,0 +1,34 @@
+{
+    "id": "data-product",
+    "name": "Data Product",
+    "summary": "A product or feature whose primary value is derived from data, delivering actionable insights or automated decisions to its users.",
+    "explanation": "A data product is any product or feature whose primary value is derived from data. It takes raw data and transforms it into something actionable — insights, predictions, recommendations, automated decisions, or enriched datasets that users can consume directly.\n\n## Types of Data Products\n\n- **Dashboards and reports**: Visual representations of data for human decision-makers (e.g., business intelligence tools, analytics dashboards)\n- **Recommendation engines**: Systems that suggest items based on user behavior and preferences (e.g., Netflix recommendations, Amazon product suggestions)\n- **Search and discovery**: Finding relevant information in large datasets (e.g., Google Search, internal knowledge search)\n- **Predictive models**: Using historical data to forecast future outcomes (e.g., demand forecasting, churn prediction)\n- **Data APIs**: Programmatic access to curated, cleaned, enriched data (e.g., weather APIs, financial data feeds)\n- **Automated decision systems**: Systems that make or support decisions based on data (e.g., fraud detection, credit scoring)\n- **Data-as-a-service**: Selling access to proprietary datasets\n\n## Key Principles\n\n- **Treat data as a product**: Apply product management thinking — understand users, define quality standards, iterate based on feedback\n- **Data quality is product quality**: Garbage in, garbage out. Invest in data validation, cleaning, and monitoring\n- **Discoverability**: Users must be able to find the data product and understand what it offers\n- **Self-service**: Users should be able to access and use data products without needing a data engineer\n- **Domain ownership**: The team that knows the data best should own its data products (data mesh principle)\n\n## Data Products in Practice\n\nModern data product thinking draws from the data mesh architecture, which treats analytical data as a product served by domain teams rather than a centralized data warehouse. Each data product has clear ownership, SLAs, documentation, and versioning — just like a software product.",
+    "tags": [
+        "data",
+        "product-development",
+        "analytics",
+        "business",
+        "data-engineering"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Data Products",
+        "Data as a Product"
+    ],
+    "relatedConcepts": [],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Data product - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_product",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}

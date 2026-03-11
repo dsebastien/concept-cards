@@ -1,0 +1,71 @@
+{
+    "id": "pattern-matching",
+    "name": "Pattern Matching",
+    "summary": "The cognitive and computational ability to recognize regularities, structures, and recurring forms in data, experiences, or information.",
+    "explanation": "Pattern matching is the ability to recognize regularities, structures, and recurring forms in data, experiences, or information. It operates at every level — from unconscious perceptual processing to deliberate analytical reasoning, and from human cognition to computer algorithms.\n\n## Pattern Matching in Cognition\n\nHuman intelligence is fundamentally a pattern matching engine. We recognize faces, understand language, predict behavior, and navigate the world by matching current input against stored patterns.\n\n- **Expert intuition**: Experts in any domain have internalized thousands of patterns. A chess grandmaster recognizes board positions; a doctor recognizes symptom clusters; an experienced developer recognizes code smells. This 'gut feeling' is actually rapid pattern matching against a large library of stored experiences\n- **Learning**: Much of learning is building a pattern library. The more patterns you have encoded, the faster you can make sense of new situations\n- **Creativity**: Often involves matching patterns from one domain to problems in another (cross-domain pattern matching)\n\n## Pattern Matching in Computing\n\n- **Regular expressions**: Text pattern matching using formal pattern languages\n- **Machine learning**: Training models to recognize patterns in data\n- **Computer vision**: Recognizing objects, faces, and scenes in images\n- **Natural language processing**: Matching syntactic and semantic patterns in text\n- **Pattern matching in programming languages**: Structural decomposition in languages like Rust, Haskell, Scala, and Elixir\n\n## Pattern Detection\n\nWhile pattern matching compares input against known patterns, pattern detection (or pattern discovery) involves identifying new, previously unknown patterns in data. This is the foundation of data mining, scientific discovery, and insight generation.\n\n## Limitations\n\nPattern matching can mislead when patterns are spurious (apophenia), when past patterns do not predict future events, or when we see patterns that confirm our existing beliefs (confirmation bias). The skill is in knowing when patterns are real signals and when they are noise.",
+    "tags": [
+        "cognition",
+        "computer-science",
+        "thinking",
+        "learning",
+        "pattern-recognition"
+    ],
+    "category": "Thinking",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Pattern Recognition",
+        "Pattern Detection"
+    ],
+    "relatedConcepts": [
+        "mental-models",
+        "intuition",
+        "confirmation-bias",
+        "apophenia",
+        "expertise",
+        "machine-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pattern recognition (psychology) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pattern_recognition_(psychology)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-11",
+    "dateModified": "2026-03-11"
+}
