@@ -1,0 +1,89 @@
+{
+    "id": "abc-model-of-improvement",
+    "name": "ABC Model of Improvement",
+    "summary": "Engelbart's framework categorizing work into three levels: doing the work (A), improving how you work (B), and improving your improvement process (C).",
+    "explanation": "The ABC Model of Improvement is a framework developed by Douglas Engelbart that categorizes all organizational activities into three levels. It provides a powerful lens for understanding why some organizations continuously improve while others stagnate, and it is central to Engelbart's strategy for raising Collective IQ.\n\n**The three activity levels:**\n\n**A-Level Activities (Core Work):**\nThe primary work of the organization—building products, serving customers, conducting research, writing code. This is what the organization exists to do. Most people spend most of their time on A-level work.\n\n**B-Level Activities (Improving the Work):**\nActivities focused on improving how A-level work gets done. This includes process improvement, tool adoption, training, methodology refinement, and organizational restructuring. B-level work makes A-level work more effective. Examples: adopting a new project management approach, improving code review processes, setting up better knowledge sharing practices.\n\n**C-Level Activities (Improving the Improvement Process):**\nActivities focused on improving how B-level work gets done—improving the improvement process itself. This is the meta-level where organizations examine how they learn, how they adopt innovations, and how they can accelerate the entire improvement cycle. Examples: developing better methods for evaluating new tools, creating frameworks for organizational learning, building networks that share improvement innovations.\n\n**The bootstrapping insight:**\n\nEngelbart's key insight was that C-level activities create a bootstrapping effect. When you improve your ability to improve, every subsequent improvement happens faster and more effectively. This creates an accelerating cycle of capability enhancement—what Engelbart called 'bootstrapping.'\n\nMost organizations focus almost exclusively on A-level work, with some attention to B-level. Very few invest in C-level activities. Engelbart argued this is a critical strategic error: organizations that invest in C-level work gain a compounding advantage over those that don't.\n\n**Practical examples:**\n\n| Level | Software Team | Knowledge Worker |\n|-------|---------------|------------------|\n| A | Writing code, fixing bugs | Creating content, answering questions |\n| B | Adopting CI/CD, improving code reviews | Setting up a PKM system, improving note-taking |\n| C | Developing frameworks for evaluating dev tools, building learning organizations | Developing meta-learning strategies, improving how you evaluate and adopt new methods |\n\n**Connection to kaizen and continuous improvement:**\n\nWhile kaizen and lean methodologies focus primarily on B-level activities (continuous process improvement), the ABC Model adds the crucial C-level dimension. Engelbart argued that true organizational transformation requires not just improving processes but improving your capacity to improve processes.\n\n**Why most organizations underinvest in B and C:**\n\n- A-level work has immediate, visible results\n- B-level improvements are harder to measure and slower to pay off\n- C-level work is abstract and its returns are long-term\n- There is organizational pressure to 'just get the work done'\n\nThe ABC Model makes this underinvestment visible and provides a framework for deliberately allocating attention across all three levels.",
+    "tags": [
+        "continuous-improvement",
+        "organizations",
+        "systems-thinking",
+        "meta-learning",
+        "productivity"
+    ],
+    "category": "Frameworks",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "ABC Activities",
+        "Engelbart's ABC Framework",
+        "A/B/C Activity Levels"
+    ],
+    "relatedConcepts": [
+        "collective-iq",
+        "augmenting-human-intellect",
+        "dynamic-knowledge-repository",
+        "networked-improvement-communities",
+        "kaizen-group",
+        "learning-organization",
+        "levels-of-work",
+        "meta-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Douglas Engelbart - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Douglas_Engelbart",
+            "type": "website"
+        },
+        {
+            "title": "Doug Engelbart Institute - Bootstrap Strategy",
+            "url": "https://www.dougengelbart.org/content/view/226/176/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-12",
+    "dateModified": "2026-03-12"
+}

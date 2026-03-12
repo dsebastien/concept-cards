@@ -1,0 +1,96 @@
+{
+    "id": "dynamic-knowledge-repository",
+    "name": "Dynamic Knowledge Repository",
+    "summary": "Engelbart's concept of a continuously evolving shared knowledge base that captures an organization's collective understanding and improves over time.",
+    "explanation": "The Dynamic Knowledge Repository (DKR) is a concept developed by Douglas Engelbart as a key component of his vision for raising Collective IQ. A DKR is not a static document library but a living, evolving knowledge base that captures the best current understanding of a group on any given topic and continuously improves as new knowledge emerges.\n\n**Core characteristics:**\n\n- **Dynamic**: The repository is continuously updated as understanding evolves. It is never 'finished'—it represents the current best knowledge\n- **Structured**: Information is organized for navigability, with multiple views and levels of detail. Users can drill down from high-level summaries to supporting evidence\n- **Collaborative**: Multiple contributors can add, refine, and restructure content. The repository reflects collective understanding, not individual opinion\n- **Versioned**: Changes are tracked over time, allowing users to see how understanding has evolved and why\n- **Integrated**: The DKR connects related knowledge across domains, making cross-cutting insights visible\n\n**How a DKR works:**\n\nEngelbart envisioned the DKR as a multi-layered system:\n\n1. **Dialog records**: Raw conversations, emails, meeting notes—the unstructured input\n2. **Intelligence products**: Analyzed, structured summaries that synthesize the raw material\n3. **Handbook-level knowledge**: Polished, navigable knowledge organized for practical use\n\nAs new dialog enters the system, it is progressively refined into intelligence products and eventually incorporated into handbook-level knowledge. This creates a continuous improvement cycle where raw information is constantly being distilled into actionable understanding.\n\n**Relationship to modern systems:**\n\nMany modern systems partially implement the DKR vision:\n\n- **Wikis** (Wikipedia, corporate wikis): Collaborative, evolving knowledge with version history\n- **Knowledge bases** (Notion, Confluence): Structured organizational knowledge\n- **Personal knowledge management** (Obsidian, Roam): Individual DKRs that capture evolving understanding\n- **Documentation-as-code**: Version-controlled knowledge that evolves with software\n\nHowever, most of these systems fall short of Engelbart's full vision because they lack the integrated refinement process that continuously distills raw dialog into structured understanding.\n\n**Why it matters:**\n\nEngelbart believed that organizations cannot raise their Collective IQ without a DKR. Without a shared, evolving knowledge base, each new member starts from scratch, lessons are lost, and the organization cannot build on its own understanding. The DKR is the institutional memory that enables continuous improvement.\n\n**Connection to PKM:**\n\nPersonal knowledge management systems can be seen as individual-scale DKRs. The practice of progressively refining fleeting notes into permanent notes (as in Zettelkasten) mirrors the DKR's refinement from dialog records to handbook-level knowledge.",
+    "tags": [
+        "knowledge-management",
+        "collaboration",
+        "organizations",
+        "systems-thinking",
+        "information-management"
+    ],
+    "category": "Systems",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "DKR",
+        "Engelbart's DKR"
+    ],
+    "relatedConcepts": [
+        "collective-iq",
+        "augmenting-human-intellect",
+        "abc-model-of-improvement",
+        "networked-improvement-communities",
+        "knowledge-base",
+        "institutional-memory",
+        "wiki",
+        "knowledge-management",
+        "organizational-knowledge",
+        "progressive-summarization",
+        "zettelkasten"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Douglas Engelbart - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Douglas_Engelbart",
+            "type": "website"
+        },
+        {
+            "title": "Doug Engelbart Institute - Dynamic Knowledge Repository",
+            "url": "https://www.dougengelbart.org/content/view/190/163/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-12",
+    "dateModified": "2026-03-12"
+}
