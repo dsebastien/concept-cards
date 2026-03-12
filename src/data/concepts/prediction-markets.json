@@ -1,0 +1,66 @@
+{
+    "id": "prediction-markets",
+    "name": "Prediction Markets",
+    "summary": "Markets designed to aggregate dispersed information into accurate forecasts by allowing participants to trade on the outcomes of future events.",
+    "explanation": "Prediction Markets are exchange-traded markets created to harness collective intelligence for forecasting. Participants buy and sell contracts whose payoffs depend on the outcome of future events, and the resulting market prices serve as probability estimates. Because traders have financial incentives to be accurate, prediction markets consistently produce forecasts that rival or outperform expert opinions, polls, and statistical models.\n\n**How they work:**\n\nA prediction market typically offers binary contracts that pay $1 if an event occurs and $0 if it doesn't. If a contract trades at $0.70, the market collectively estimates a 70% probability of the event occurring. Participants who believe the true probability is higher buy, driving the price up; those who think it's lower sell, driving it down. The price reflects the aggregated judgment of all participants, weighted by their confidence (how much they're willing to bet).\n\n**Why they work:**\n\nPrediction markets succeed for the same reasons the wisdom of crowds works: they aggregate diverse, independent opinions through a robust mechanism. Key advantages include:\n\n- **Incentive alignment**: Financial stakes motivate participants to be honest and accurate rather than conformist or lazy\n- **Continuous updating**: Prices adjust in real-time as new information emerges, unlike periodic polls or forecasts\n- **Information aggregation**: Traders with different types of expertise and information all contribute to the price, combining knowledge that no single person possesses\n- **Self-correcting**: Mispriced contracts create profit opportunities, attracting informed traders who correct errors\n\n**Historical examples:**\n\n- **Iowa Electronic Markets**: One of the earliest prediction markets, used for U.S. presidential elections since 1988. Consistently outperformed major polls in predicting outcomes\n- **Intrade/PredictIt/Polymarket**: Commercial prediction markets covering politics, economics, and current events\n- **Internal corporate markets**: Companies like Google, HP, and Microsoft have used internal prediction markets to forecast product launch dates, sales figures, and project outcomes\n- **DARPA's FutureMAP**: A controversial U.S. government proposal to use prediction markets for forecasting geopolitical events\n\n**Limitations:**\n\n- **Thin markets**: Low participation leads to illiquid markets with unreliable prices\n- **Manipulation**: Wealthy participants can temporarily distort prices, though research suggests markets self-correct quickly\n- **Legal restrictions**: Many jurisdictions regulate prediction markets as gambling, limiting their use\n- **Known unknowns**: Markets struggle with truly unprecedented events (black swans) where no participant has relevant information\n- **Reflexivity**: In some cases, the prediction itself can influence the outcome (e.g., election markets affecting voter behavior)\n\n**Connection to collective intelligence:**\n\nPrediction markets are one of the purest practical applications of collective intelligence. They demonstrate that properly structured aggregation mechanisms can extract remarkably accurate forecasts from distributed, imperfect knowledge. They also illustrate the conditions required for collective intelligence: diversity of participants, independence of judgment (enforced by anonymous trading), and a robust aggregation mechanism (the market price).\n\n**Applications:**\n\nBeyond forecasting specific events, prediction markets inform decision-making in organizations by surfacing information that might be suppressed in hierarchical structures. They complement other forecasting methods and can be used to evaluate the probability-weighted impact of different strategic choices.",
+    "tags": [
+        "collective-intelligence",
+        "decision-making",
+        "economics",
+        "forecasting",
+        "intelligence"
+    ],
+    "category": "Decision Science",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Information Markets",
+        "Decision Markets",
+        "Betting Markets",
+        "Event Futures"
+    ],
+    "relatedConcepts": [
+        "collective-intelligence",
+        "probabilistic-thinking",
+        "superforecasting",
+        "wisdom-of-crowds"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Wisdom of Crowds by James Surowiecki",
+            "url": "https://www.amazon.com/dp/0385721706?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Prediction market - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prediction_market",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-12",
+    "dateModified": "2026-03-12"
+}

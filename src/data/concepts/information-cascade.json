@@ -1,0 +1,63 @@
+{
+    "id": "information-cascade",
+    "name": "Information Cascade",
+    "summary": "When individuals sequentially follow the decisions of others rather than using their own private information, leading to potentially irrational herding.",
+    "explanation": "An Information Cascade occurs when individuals, observing the actions of those who came before them, rationally decide to ignore their own private information and instead follow the crowd. This creates a chain reaction where each successive person's decision provides less new information to the group, potentially leading everyone to converge on a choice that may be wrong.\n\nThe concept was formally developed by economists Sushil Bikhchandani, David Hirshleifer, and Ivo Welch in 1992. Their model shows how cascades can start even when only a few early movers happen to make the same choice. Once a cascade begins, subsequent individuals rationally discard their private signals because the accumulated public evidence (others' choices) outweighs their personal information.\n\n**How cascades form:**\n\nImagine a sequence of people deciding whether to adopt a new technology. The first person uses their own judgment. The second person sees the first person's choice and combines it with their own assessment. By the third or fourth person, if the earlier adopters all chose the same option, a newcomer may reasonably conclude that so many people can't all be wrong, and follow suit regardless of their own doubts. The cascade has begun.\n\n**Key characteristics:**\n\n- **Fragility**: Cascades can be broken by a single piece of compelling contrary evidence or a credible dissenter. They are surprisingly unstable despite appearing as strong consensus\n- **Path dependence**: The outcome depends heavily on the order of early decisions. Different orderings of the same people with the same information can produce opposite cascades\n- **Informational externality**: Each person's decision affects what others learn. Once a cascade starts, individual decisions convey no new information because everyone is copying rather than thinking independently\n- **Rational irrationality**: Following the crowd during a cascade is individually rational even when it produces collectively poor outcomes\n\n**Real-world examples:**\n\n- **Financial bubbles**: Investors pile into assets because others are buying, ignoring fundamental valuations. The dot-com bubble and housing crisis both exhibited cascade dynamics\n- **Technology adoption**: Products succeed or fail based on early adoption patterns rather than inherent quality (VHS vs. Betamax, social media platforms)\n- **Restaurant choices**: People choose busy restaurants over empty ones, assuming popularity signals quality\n- **Academic citations**: Papers get cited because they've been cited before, regardless of quality\n- **Fashion and trends**: Styles spread through imitation cascades rather than independent aesthetic judgments\n\n**Relationship to collective intelligence:**\n\nInformation cascades represent a failure mode of collective intelligence. The wisdom of crowds depends on independent thinking and diverse opinions. When cascades form, independence is lost: people copy rather than contribute their own information. This is why Surowiecki identified independence as a critical condition for crowd wisdom. Breaking cascades by encouraging independent judgment, anonymous voting, or sequential reveal of information helps preserve collective intelligence.\n\n**Countermeasures:**\n\n- Encouraging independent decision-making before revealing group choices\n- Anonymous voting or prediction systems\n- Devil's advocate roles that challenge emerging consensus\n- Structured decision processes that elicit private information before aggregation\n- Awareness of cascade dynamics so individuals can consciously resist following the crowd",
+    "tags": [
+        "behavioral-design",
+        "collective-intelligence",
+        "decision-making",
+        "economics",
+        "social-psychology"
+    ],
+    "category": "Decision Science",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Informational Cascade",
+        "Herd Behavior",
+        "Bandwagon Effect",
+        "Social Cascade"
+    ],
+    "relatedConcepts": [
+        "availability-cascade",
+        "collective-intelligence",
+        "groupthink",
+        "herding-behavior",
+        "social-proof",
+        "wisdom-of-crowds"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Information cascade - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_cascade",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-12",
+    "dateModified": "2026-03-12"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "superforecasting",
+    "name": "Superforecasting",
+    "summary": "The practice of making highly accurate predictions through disciplined thinking, probability estimation, and continuous calibration.",
+    "explanation": "Superforecasting is the practice and science of making unusually accurate predictions about future events, as described by Philip Tetlock and Dan Gardner in their influential 2015 book. The concept emerged from the Good Judgment Project, a multi-year forecasting tournament sponsored by the U.S. intelligence community (IARPA) that compared thousands of forecasters to determine what distinguishes the most accurate predictors.\n\n**The discovery:**\n\nTetlock's earlier research, documented in 'Expert Political Judgment' (2005), had shown that the average expert's predictions were barely better than chance, and worse than simple statistical algorithms. The Good Judgment Project set out to find whether some individuals could consistently beat these baselines. The answer was yes: a small group of 'superforecasters' achieved accuracy levels roughly 30% better than intelligence analysts with access to classified information.\n\n**What makes superforecasters different:**\n\n- **Probabilistic thinking**: They assign precise numerical probabilities rather than vague verbal predictions ('likely,' 'possible'). They think in fine-grained odds, distinguishing between a 60% and a 65% chance\n- **Incremental updating**: When new information arrives, they adjust their estimates in small, measured steps rather than overreacting or ignoring it. This mirrors Bayesian reasoning\n- **Perspective-taking**: They actively seek out views that challenge their own assumptions and consider problems from multiple angles\n- **Decomposition**: They break complex questions into smaller, more tractable sub-problems. Instead of asking 'Will Russia invade Ukraine?', they ask about troop movements, diplomatic signals, economic incentives, and historical patterns separately\n- **Intellectual humility**: They acknowledge uncertainty, treat their beliefs as hypotheses to be tested rather than convictions to be defended, and are willing to change their minds\n- **Growth mindset**: They treat forecasting as a skill to be practiced and improved, not an innate talent\n\n**Dragonfly eye perspective:**\n\nTetlock describes the superforecaster's cognitive style as a 'dragonfly eye' — seeing the same problem from many perspectives simultaneously and integrating these views. This contrasts with the 'hedgehog' style of experts who view the world through a single overarching theory.\n\n**Connection to collective intelligence:**\n\nSuperforecasting leverages collective intelligence through team-based forecasting. Tetlock found that teams of superforecasters performed even better than individual superforecasters, because good team processes (constructive disagreement, information sharing, accountability) further reduced bias and error. Prediction markets represent another mechanism for aggregating forecaster judgments.\n\n**Practical applications:**\n\n- **Strategic planning**: Using calibrated probability estimates for scenario planning and risk assessment\n- **Decision-making**: Making better decisions under uncertainty by explicitly quantifying risks and likelihoods\n- **Organizational forecasting**: Building internal prediction capabilities for business outcomes\n- **Personal calibration**: Tracking predictions to improve one's own judgment over time\n\n**Key takeaway:**\n\nForecasting accuracy is a learnable skill, not a mystical gift. The techniques of superforecasting — probabilistic thinking, active open-mindedness, incremental updating, and continuous calibration — can be practiced and improved by anyone willing to invest the effort.",
+    "tags": [
+        "decision-making",
+        "forecasting",
+        "intelligence",
+        "mental-models",
+        "probabilistic-thinking",
+        "thinking"
+    ],
+    "category": "Decision Science",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Super Forecasting",
+        "Good Judgment",
+        "Calibrated Forecasting"
+    ],
+    "relatedConcepts": [
+        "prediction-markets",
+        "probabilistic-thinking",
+        "wisdom-of-crowds"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Superforecasting: The Art and Science of Prediction by Philip Tetlock and Dan Gardner",
+            "url": "https://www.amazon.com/dp/0804136718?tag=dsebastien00-20"
+        },
+        {
+            "title": "Expert Political Judgment by Philip Tetlock",
+            "url": "https://www.amazon.com/dp/0691128715?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Superforecasting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Superforecasting:_The_Art_and_Science_of_Prediction",
+            "type": "website"
+        },
+        {
+            "title": "Good Judgment Project - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Good_Judgment_Project",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-12",
+    "dateModified": "2026-03-12"
+}

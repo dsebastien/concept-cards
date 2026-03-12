@@ -1,0 +1,58 @@
+{
+    "id": "commons-based-peer-production",
+    "name": "Commons-Based Peer Production",
+    "summary": "A model of socioeconomic production where large numbers of people coordinate to create shared goods without traditional market or hierarchical organization.",
+    "explanation": "Commons-Based Peer Production (CBPP) is a term coined by Harvard law professor Yochai Benkler to describe a new model of economic production that has emerged with the internet. In CBPP, large numbers of individuals voluntarily contribute to the creation of shared information goods, coordinating their efforts without relying on market prices or managerial hierarchies. The resulting products are typically held in common rather than owned by any single entity.\n\n**Defining characteristics:**\n\n- **Decentralized coordination**: Contributors self-select tasks based on their interests, skills, and available time rather than being assigned work by managers\n- **Shared ownership**: The outputs are typically released under open licenses (Creative Commons, GPL, etc.) and belong to the commons rather than to any individual or corporation\n- **Voluntary participation**: People contribute for diverse motivations including intrinsic interest, learning, reputation, social connection, and ideological commitment rather than primarily for monetary compensation\n- **Modular contributions**: Work is organized into small, modular units that individuals can contribute to independently, lowering the barrier to participation\n- **Low transaction costs**: Digital technology dramatically reduces the cost of coordinating contributions from distributed participants\n\n**Paradigmatic examples:**\n\n- **Wikipedia**: Millions of volunteers create and maintain the world's largest encyclopedia, with quality rivaling traditional encyclopedias in many domains\n- **Open-source software**: Projects like Linux, Apache, Firefox, and thousands of others are built collaboratively by distributed developer communities\n- **OpenStreetMap**: Volunteers create and maintain detailed, free geographic data covering the entire world\n- **Creative Commons content**: Vast libraries of freely shared images, music, educational resources, and scientific data\n- **Citizen science**: Projects like Galaxy Zoo and Foldit engage volunteers in scientific research\n\n**Why it works:**\n\nBenkler argues that CBPP succeeds because it is better at identifying and allocating human creativity than either markets or firms. In traditional organizations, managers imperfectly match people to tasks. In markets, price signals are too coarse to capture the nuances of creative motivation. CBPP allows individuals to self-select into tasks they find intrinsically motivating and where they have relevant expertise, producing better allocation of creative effort.\n\nThe modular structure of CBPP projects means that contributions can range from tiny edits (fixing a typo on Wikipedia) to major architectural decisions (designing a Linux subsystem), enabling participation at any level of commitment.\n\n**Economic significance:**\n\nCBPP challenges fundamental assumptions of classical economics. It demonstrates that significant economic value can be produced outside the market, that intrinsic motivation can substitute for monetary incentives in certain domains, and that coordination doesn't always require hierarchy. This has implications for intellectual property law, organizational design, and economic policy.\n\n**Connection to collective intelligence:**\n\nCBPP is one of the most successful practical implementations of collective intelligence. By enabling distributed contributors to pool their knowledge, creativity, and effort, CBPP projects achieve outcomes that neither individual experts nor traditional organizations could match. The success of Wikipedia and Linux demonstrates that well-structured commons can harness collective intelligence at massive scale.\n\n**Challenges:**\n\n- Sustainability of volunteer motivation over time\n- Quality control and governance of contributor communities\n- Vulnerability to vandalism and manipulation\n- Difficulty of applying the model to physical goods production\n- Tension between openness and the need for coordination and standards",
+    "tags": [
+        "collaboration",
+        "collective-intelligence",
+        "economics",
+        "innovations",
+        "open-source"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaUsers",
+    "featured": false,
+    "aliases": [
+        "CBPP",
+        "Peer Production",
+        "Social Production",
+        "Collaborative Production"
+    ],
+    "relatedConcepts": [
+        "collective-intelligence",
+        "crowdsourcing",
+        "knowledge-commons",
+        "network-effects",
+        "open-source",
+        "tragedy-of-the-commons"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Wealth of Networks by Yochai Benkler",
+            "url": "https://www.amazon.com/dp/0300125771?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Commons-based peer production - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Commons-based_peer_production",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-12",
+    "dateModified": "2026-03-12"
+}
