@@ -1,0 +1,93 @@
+{
+    "id": "desired-state-management",
+    "name": "Desired State Management",
+    "summary": "The systematic practice of defining, declaring, and continuously working to converge reality toward clearly articulated target states across life, work, and systems.",
+    "explanation": "Desired State Management (DSM) is the discipline of explicitly defining what you want things to look like and then systematically working to close the gap between current reality and that target. The concept spans from personal life management to organizational strategy to infrastructure automation, united by a common principle: declare the desired end state, then converge toward it.\n\n## The Core Loop\n\nAll desired state management follows the same cycle:\n\n1. **Declare**: Define the desired state clearly and specifically\n2. **Observe**: Assess the current state honestly\n3. **Compare**: Identify the gap (drift) between desired and actual\n4. **Act**: Take corrective actions to reduce the gap\n5. **Repeat**: Continuously monitor and adjust\n\nThis is a feedback loop — the same cybernetic principle that governs thermostats, autopilots, and Kubernetes controllers.\n\n## In Personal Life\n\n### Life design\nDefine desired states across life domains (career, relationships, health, finances, growth) and review periodically:\n- Annual reviews: reassess and redefine desired states\n- Quarterly check-ins: measure drift and course-correct\n- Daily practices: align daily actions with longer-term desired states\n\n### Goal management\nSMART goals are essentially desired states with constraints (Specific, Measurable, Achievable, Relevant, Time-bound). OKRs separate the aspirational desired state (Objective) from measurable indicators of progress (Key Results).\n\n### Personal Knowledge Management\nYour PKM system itself can be managed as a desired state: what should your knowledge system look like? What capabilities should it provide? Then work toward that vision incrementally.\n\n## In Organizations\n\n### Strategic planning\nOrganizational strategy is desired state management at scale. Define where the organization should be in 3-5 years, assess where it is today, identify gaps, and create initiatives to close them.\n\n### Change management\nMost change management frameworks (Kotter, ADKAR, Lewin) are essentially structured approaches to moving from a current state to a desired state while managing the human side of the transition.\n\n## In Technology\n\nDesired state management is a foundational principle in modern infrastructure and operations:\n\n### Infrastructure as Code (IaC)\nTools like Terraform, Pulumi, and CloudFormation let you declare the desired state of infrastructure in code. The tool then calculates the difference between actual and desired state and makes only the necessary changes.\n\n### Kubernetes\nThe entire Kubernetes architecture is built on desired state management. You declare what you want (pods, services, deployments), and controllers continuously work to reconcile actual state with desired state. If a pod crashes, Kubernetes automatically restarts it because the actual state no longer matches the desired state.\n\n### Configuration management\nTools like Ansible, Puppet, and Chef manage server configurations by defining the desired state and converging systems toward it. This is idempotent — running the same configuration multiple times produces the same result.\n\n## Desired State Management vs. Imperative Management\n\n| Approach | Desired State (Declarative) | Imperative |\n|---|---|---|\n| Focus | What should be | How to get there |\n| Example | 'There should be 3 replicas' | 'Start replica 1, then 2, then 3' |\n| Resilience | Self-healing (detects and corrects drift) | Fragile (no drift detection) |\n| Idempotency | Naturally idempotent | Must be carefully designed |\n| Mental model | Describe the destination | Describe the journey |\n\n## Why It Works\n\nDesired state management works because it separates the what from the how. By focusing on the target state, you can:\n- Detect when you've drifted off course\n- Choose different paths to the same destination\n- Self-heal when disruptions occur\n- Communicate intent clearly\n- Measure progress objectively",
+    "tags": [
+        "systems-thinking",
+        "planning",
+        "strategy",
+        "productivity",
+        "software-development"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "DSM",
+        "Declarative Management",
+        "State Reconciliation"
+    ],
+    "relatedConcepts": [
+        "desired-state",
+        "gap-analysis",
+        "infrastructure-as-code",
+        "kubernetes",
+        "idempotency",
+        "cybernetics",
+        "goal-setting",
+        "smart-goals",
+        "periodic-reviews",
+        "life-design",
+        "life-audit",
+        "feedback-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Path of Least Resistance by Robert Fritz",
+            "url": "https://www.amazon.com/dp/0449903370?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Desired state - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Desired_state",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

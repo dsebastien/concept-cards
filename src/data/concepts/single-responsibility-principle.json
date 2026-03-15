@@ -1,0 +1,61 @@
+{
+    "id": "single-responsibility-principle",
+    "name": "Single Responsibility Principle",
+    "summary": "The software design principle stating that a module, class, or function should have one and only one reason to change, keeping it focused on a single concern.",
+    "explanation": "The Single Responsibility Principle (SRP) is the first of the five SOLID principles of object-oriented design, articulated by Robert C. Martin (Uncle Bob). It states: 'A module should have one, and only one, reason to change.' This means each unit of code should be responsible to one, and only one, actor or stakeholder.\n\n## What 'Responsibility' Means\n\nA common misunderstanding is that SRP means 'a class should do only one thing.' Martin's actual definition is more nuanced: a responsibility is a reason to change. If a class could be modified for two different reasons — say, both business logic changes and formatting changes — it has two responsibilities and should be split.\n\nThe key question is not 'does this class do one thing?' but 'who would request changes to this class?' If different stakeholders would request different kinds of changes, the class has multiple responsibilities.\n\n## Why SRP Matters\n\n### Reduced coupling\nWhen a module has a single responsibility, changes to one area of the system don't unexpectedly affect unrelated areas.\n\n### Improved testability\nModules with a single responsibility are easier to test because they have fewer dependencies and clearer expected behavior.\n\n### Better readability\nA module focused on one concern is easier to understand, name, and reason about.\n\n### Easier maintenance\nWhen a bug is reported or a feature requested, you know exactly which module to change and can be confident the change won't break something unrelated.\n\n### Parallel development\nTeams can work on different responsibilities independently without stepping on each other's code.\n\n## Examples\n\n### Violation\n```\nclass Employee {\n  calculatePay()      // Accounting department\n  generateReport()    // Reporting department  \n  saveToDatabase()    // IT/DBA team\n}\n```\nThree different stakeholders, three reasons to change.\n\n### Applied\n```\nclass PayCalculator { calculatePay() }\nclass ReportGenerator { generateReport() }\nclass EmployeeRepository { save() }\n```\nEach class has one stakeholder and one reason to change.\n\n## SRP Beyond Code\n\nThe principle applies broadly:\n\n- **Functions**: Each function should do one thing at one level of abstraction\n- **Microservices**: Each service should own one business capability\n- **Teams**: Two-pizza teams work best when each owns a single area (Conway's Law)\n- **Documents**: Each document should serve one purpose for one audience\n- **Meetings**: Effective meetings have a single clear objective\n\n## Connection to Unix Philosophy\n\nSRP echoes the Unix philosophy of 'do one thing and do it well.' Unix tools like `grep`, `sort`, and `wc` each handle a single task excellently, and composition (piping) combines them for complex workflows. This is SRP in action at the system level.\n\n## Common Mistakes\n\n- **Over-splitting**: Creating too many tiny classes that are hard to navigate. SRP doesn't mean every method needs its own class\n- **God classes**: The opposite extreme — classes that accumulate every responsibility in their domain\n- **Confusing SRP with single method**: A class can have multiple methods and still have a single responsibility\n- **Ignoring the 'reason to change' test**: Splitting by technical layer rather than by stakeholder often misapplies SRP",
+    "tags": [
+        "software-development",
+        "principles",
+        "design-patterns",
+        "architecture",
+        "clean-code"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "SRP",
+        "Single Responsibility",
+        "One Reason to Change"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "separation-of-concerns",
+        "cohesion",
+        "coupling",
+        "encapsulation",
+        "modularity",
+        "unix-philosophy",
+        "dry-principle",
+        "kiss-principle",
+        "clean-code",
+        "two-pizza-teams"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        },
+        {
+            "title": "Agile Software Development by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0135974445?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Single-responsibility principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Single-responsibility_principle",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

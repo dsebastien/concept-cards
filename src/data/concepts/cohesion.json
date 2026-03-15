@@ -1,0 +1,58 @@
+{
+    "id": "cohesion",
+    "name": "Cohesion",
+    "summary": "The degree to which elements within a module belong together, with high cohesion meaning a module is focused on a single, well-defined purpose.",
+    "explanation": "Cohesion measures how closely related and focused the responsibilities of a single module, class, or component are. High cohesion means that a module's elements all contribute to a single well-defined task. Low cohesion means a module handles many unrelated responsibilities, making it harder to understand, maintain, and reuse.\n\n## Levels of Cohesion (Worst to Best)\n\nLarry Constantine and Edward Yourdon identified seven levels, from weakest to strongest:\n\n### 1. Coincidental cohesion (worst)\nElements are grouped arbitrarily with no meaningful relationship. Example: a `Utilities` class containing unrelated helper methods.\n\n### 2. Logical cohesion\nElements perform similar operations but are otherwise unrelated. Example: a class that handles all types of input (keyboard, file, network) just because they're all 'input.'\n\n### 3. Temporal cohesion\nElements are grouped because they execute at the same time. Example: an `init()` function that sets up unrelated subsystems because they all happen at startup.\n\n### 4. Procedural cohesion\nElements are grouped because they follow a specific sequence. Example: a function that validates input, opens a file, reads data, and writes a report.\n\n### 5. Communicational cohesion\nElements operate on the same data. Example: a module that reads, transforms, and validates a customer record.\n\n### 6. Sequential cohesion\nOutput from one element serves as input to the next. Example: a pipeline where each step transforms data for the next.\n\n### 7. Functional cohesion (best)\nEvery element contributes to a single, well-defined task. Example: a `PasswordHasher` class that only deals with hashing passwords.\n\n## Why High Cohesion Matters\n\n- **Understandability**: A cohesive module can be described in one sentence\n- **Reusability**: Focused modules are useful in more contexts\n- **Maintainability**: Changes are localized to one module\n- **Testability**: Clear purpose means clear test cases\n- **Naming**: If you can't find a good name for a class, it probably lacks cohesion\n\n## Cohesion and Coupling\n\nCohesion and coupling are two sides of the same coin:\n- **High cohesion**: Things that belong together are together\n- **Low coupling**: Things that don't belong together are separated\n\nGood design maximizes cohesion within modules and minimizes coupling between them. These goals reinforce each other — highly cohesive modules naturally have fewer reasons to depend on each other.\n\n## The Naming Test\n\nA practical test for cohesion: can you describe what a module does without using the words 'and,' 'or,' or 'also'? If not, it probably has multiple responsibilities and low cohesion.\n\n## Beyond Software\n\nCohesion applies to any organized system:\n- **Teams**: A team focused on one product area is more cohesive than one handling unrelated projects\n- **Documents**: A chapter about one topic is more cohesive than one covering many\n- **Meetings**: A meeting with one clear objective is more cohesive than one with a grab-bag agenda\n- **PKM notes**: Atomic notes (one idea per note) are the ultimate expression of cohesion in knowledge management",
+    "tags": [
+        "software-development",
+        "principles",
+        "design-patterns",
+        "architecture",
+        "systems-thinking"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "High Cohesion",
+        "Module Cohesion",
+        "Functional Cohesion"
+    ],
+    "relatedConcepts": [
+        "coupling",
+        "single-responsibility-principle",
+        "solid-principles",
+        "separation-of-concerns",
+        "modularity",
+        "encapsulation",
+        "clean-code",
+        "atomic-notes"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        },
+        {
+            "title": "Structured Design by Edward Yourdon and Larry Constantine",
+            "url": "https://www.amazon.com/dp/0138544719?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Cohesion (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cohesion_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

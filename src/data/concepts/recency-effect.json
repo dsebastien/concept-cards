@@ -1,0 +1,73 @@
+{
+    "id": "recency-effect",
+    "name": "Recency Effect",
+    "summary": "The cognitive tendency to better remember and give more weight to the most recently presented information in a sequence.",
+    "explanation": "The recency effect is the tendency to recall items at the end of a list or sequence more easily than items in the middle. Together with the primacy effect (better recall of items at the beginning), it forms the serial position effect — one of the most robust findings in memory research.\n\n## How It Works\n\nThe recency effect occurs because the most recently encountered information is still held in short-term (working) memory when recall is attempted. Items at the end of a sequence haven't yet been displaced by new information, making them readily accessible.\n\n## Key Research\n\n- **Hermann Ebbinghaus** (1885) first documented the serial position curve\n- **Murdock** (1962) demonstrated the classic U-shaped recall curve: high recall for first items (primacy), low for middle items, high for last items (recency)\n- The recency effect is reduced or eliminated when there is a delay between presentation and recall, confirming its reliance on short-term memory\n\n## Applications\n\n### In Communication and Speaking\n- **End strong**: The last thing you say is what people remember most. Summarize key points at the end\n- **The 3-Touch Rule**: Preview, deliver, summarize — the summary leverages recency\n- **Closing statements**: In debates, presentations, and pitches, the final impression often outweighs earlier content\n\n### In Decision-Making\n- **Interview bias**: The last candidate interviewed often has an advantage\n- **Performance reviews**: Recent performance disproportionately influences evaluations\n- **Jury decisions**: Closing arguments carry outsized weight\n- **Consumer choice**: The last option presented can be preferred simply because it's freshest in memory\n\n### In Learning\n- **Study order**: Study the most important material last before a test\n- **Spaced repetition**: Review critical concepts right before they're needed\n- **Lesson design**: Place key takeaways at the end of learning sessions\n\n## Recency vs. Primacy\n\n| Aspect | Primacy Effect | Recency Effect |\n|---|---|---|\n| Position | First items | Last items |\n| Memory type | Long-term | Short-term |\n| Survives delay | Yes | No (without rehearsal) |\n| Mechanism | More rehearsal time | Still in working memory |\n\n## Counteracting Recency Bias\n\n- Be aware that your most recent experience colors your judgment\n- Use structured decision frameworks to weigh all evidence equally\n- Take notes throughout a sequence rather than relying on memory\n- In performance reviews, track outcomes throughout the period, not just recent weeks",
+    "tags": [
+        "cognitive-science",
+        "memory",
+        "cognitive-biases",
+        "communication",
+        "decision-making"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Recency Bias",
+        "End Effect",
+        "Last Position Effect"
+    ],
+    "relatedConcepts": [
+        "primacy-effect",
+        "serial-position-effect",
+        "cognitive-biases",
+        "public-speaking",
+        "rule-of-3",
+        "spaced-repetition",
+        "working-memory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking, Fast and Slow by Daniel Kahneman",
+            "url": "https://www.amazon.com/dp/0374533555?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Recency bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Recency_bias",
+            "type": "website"
+        },
+        {
+            "title": "Serial-position effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Serial-position_effect",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2025-12-30",
+    "dateModified": "2025-12-30"
+}

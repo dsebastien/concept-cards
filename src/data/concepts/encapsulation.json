@@ -1,0 +1,63 @@
+{
+    "id": "encapsulation",
+    "name": "Encapsulation",
+    "summary": "The principle of bundling data and behavior together while hiding internal implementation details behind a well-defined public interface.",
+    "explanation": "Encapsulation is one of the fundamental principles of object-oriented programming and, more broadly, of good system design. It has two complementary aspects: bundling related data and operations together, and hiding internal details so that the rest of the system interacts only through a well-defined interface.\n\n## The Two Aspects\n\n### 1. Bundling\nRelated data and the operations that act on that data are grouped together into a single unit (class, module, service). This ensures that the logic for managing a piece of data lives alongside the data itself, rather than being scattered across the codebase.\n\n### 2. Information hiding\nThe internal state and implementation details of a module are hidden from the outside world. Other modules interact only through a public interface (API). They don't know — and don't need to know — how things work inside.\n\n## Why Encapsulation Matters\n\n- **Change safety**: Internal implementations can be modified or optimized without affecting any code that uses the module, as long as the public interface stays stable\n- **Reduced complexity**: Users of a module deal with a simple interface instead of understanding all internal details\n- **Data integrity**: Internal state can't be corrupted by external code because access is controlled through methods that enforce invariants\n- **Clear boundaries**: Encapsulation makes it obvious what is public (the contract) versus private (the implementation)\n\n## In Practice\n\n```\n// Poor encapsulation: internal state exposed\nuser.balance = user.balance - amount;  // Can set negative balance!\n\n// Good encapsulation: behavior through interface\nuser.withdraw(amount);  // Validates, enforces rules, updates safely\n```\n\n## Encapsulation Beyond OOP\n\nThe principle extends far beyond classes:\n\n- **Functions**: Accept parameters, return results, hide internal logic\n- **Modules/packages**: Export a public API, keep internals private\n- **Microservices**: Expose endpoints, hide database schemas and implementation\n- **APIs**: Provide stable contracts while allowing internal evolution\n- **Organizations**: Teams encapsulate expertise behind clear interfaces (requests, deliverables)\n\n## Encapsulation and Related Principles\n\n| Principle | Relationship |\n|---|---|\n| **Information hiding** | The 'hiding' aspect of encapsulation (Parnas, 1972) |\n| **Abstraction** | Encapsulation enables abstraction by hiding complexity behind simple interfaces |\n| **Cohesion** | Encapsulated modules tend to be cohesive — their internals serve one purpose |\n| **Coupling** | Good encapsulation reduces coupling — modules depend on interfaces, not implementations |\n| **SRP** | A well-encapsulated module has a single responsibility |\n\n## Common Violations\n\n- **Getters/setters for everything**: Exposing all internal state through accessors defeats the purpose\n- **Leaky abstractions**: Internal details bleeding through the interface\n- **Public fields**: Direct access to internal data without validation or control\n- **God objects**: Large objects that encapsulate too much, becoming hard to understand\n- **Anemic domain models**: Objects that are just data containers with no behavior, leaving logic scattered elsewhere",
+    "tags": [
+        "software-development",
+        "principles",
+        "design-patterns",
+        "architecture",
+        "object-oriented-programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Information Hiding",
+        "Data Hiding",
+        "Encapsulation Principle"
+    ],
+    "relatedConcepts": [
+        "cohesion",
+        "coupling",
+        "single-responsibility-principle",
+        "solid-principles",
+        "separation-of-concerns",
+        "modularity",
+        "abstraction",
+        "clean-code"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        },
+        {
+            "title": "Design Patterns by Gang of Four",
+            "url": "https://www.amazon.com/dp/0201633612?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Encapsulation (computer programming) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)",
+            "type": "website"
+        },
+        {
+            "title": "Information hiding - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_hiding",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

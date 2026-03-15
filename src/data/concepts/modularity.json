@@ -1,0 +1,65 @@
+{
+    "id": "modularity",
+    "name": "Modularity",
+    "summary": "The design principle of organizing systems into self-contained, interchangeable components with well-defined interfaces, enabling independent development and evolution.",
+    "explanation": "Modularity is the principle of decomposing a complex system into smaller, self-contained units (modules) that can be independently designed, built, tested, understood, and replaced. Each module has a clear boundary, a well-defined interface, and hides its internal complexity from the rest of the system.\n\n## Why Modularity Works\n\nModularity manages complexity by dividing it. A system of 100,000 lines of code is incomprehensible as a monolith but manageable as 50 modules of 2,000 lines each, provided the boundaries are well-chosen.\n\n### Key benefits\n- **Comprehensibility**: Each module can be understood independently\n- **Parallel development**: Different teams can work on different modules simultaneously\n- **Independent testing**: Modules can be verified in isolation\n- **Replaceability**: A module can be swapped out without affecting the rest\n- **Reusability**: Well-designed modules can be used in different systems\n- **Evolvability**: Systems can adapt over time by modifying individual modules\n\n## Characteristics of Good Modules\n\n- **High cohesion**: All elements within the module serve its single purpose\n- **Low coupling**: Minimal dependencies on other modules\n- **Well-defined interface**: Clear contract for how other modules interact with it\n- **Information hiding**: Internal details are private and can change freely\n- **Right-sized**: Large enough to encapsulate meaningful functionality, small enough to understand\n\n## Modularity in Different Domains\n\n### Software\n- Functions, classes, packages, microservices, plugins\n- Component-based architectures (React components, Unix pipes)\n- API-first design, where services expose capabilities through stable interfaces\n\n### Hardware\n- USB, HDMI, and other standardized interfaces enable modular hardware\n- PC components (CPU, RAM, GPU) are modular — replaceable without redesigning the whole system\n\n### Organizations\n- Autonomous teams owning specific products or capabilities\n- Conway's Law: system design mirrors organizational structure\n- Two-pizza teams as organizational modules\n\n### Knowledge management\n- Atomic notes: each note captures one idea and links to others\n- Zettelkasten: a modular knowledge system where ideas are independent but connected\n- Composable workflows: combining simple tools and processes\n\n## The Modularization Trade-off\n\nModularity is not free. It requires:\n- **Interface design effort**: Defining good boundaries takes thought\n- **Integration overhead**: Modules must be composed into working systems\n- **Coordination cost**: Teams working on different modules must agree on interfaces\n- **Potential duplication**: Some functionality may appear in multiple modules\n\nThe art of good design is finding the right boundaries — where the natural seams in the system are, where change is likely, and where independent evolution is most valuable.",
+    "tags": [
+        "software-development",
+        "principles",
+        "architecture",
+        "systems-thinking",
+        "design-patterns"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Modular Design",
+        "Modular Architecture",
+        "Component-Based Design"
+    ],
+    "relatedConcepts": [
+        "cohesion",
+        "coupling",
+        "single-responsibility-principle",
+        "encapsulation",
+        "separation-of-concerns",
+        "unix-philosophy",
+        "solid-principles",
+        "atomic-notes",
+        "two-pizza-teams",
+        "composability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "A Philosophy of Software Design by John Ousterhout",
+            "url": "https://www.amazon.com/dp/173210221X?tag=dsebastien00-20"
+        },
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Modularity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Modularity",
+            "type": "website"
+        },
+        {
+            "title": "Modular programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Modular_programming",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

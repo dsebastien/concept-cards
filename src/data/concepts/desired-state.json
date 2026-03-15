@@ -1,0 +1,94 @@
+{
+    "id": "desired-state",
+    "name": "Desired State",
+    "summary": "A clearly defined vision of how you want things to be, serving as the target that gives direction to goal-setting, planning, and change efforts.",
+    "explanation": "A desired state is a specific, concrete description of what success looks like — the target condition you're working toward. It answers the question: 'What do I want things to look like when I'm done?' Whether applied to personal development, organizational strategy, or system configuration, the desired state serves as the north star that makes gap analysis, planning, and progress measurement possible.\n\n## Why Desired States Matter\n\n### Direction\nWithout a clearly defined desired state, efforts are scattered. You might be busy without making progress because you don't know what progress looks like. A desired state converts vague aspirations ('I want to be healthier') into concrete targets ('I want to run 5K in under 25 minutes').\n\n### Motivation\nThe gap between current reality and a compelling desired state creates creative tension — an energizing force that pulls you forward. Peter Senge and Robert Fritz describe this tension as the engine of purposeful change.\n\n### Decision-making\nA clear desired state simplifies decisions. When facing a choice, ask: 'Which option moves me closer to my desired state?' This filter eliminates options that feel productive but don't actually advance your goals.\n\n### Measurement\nYou can only measure progress if you know where you're going. The desired state defines the benchmark against which current reality is compared.\n\n## Characteristics of Effective Desired States\n\n- **Specific**: Concrete and detailed enough to recognize when achieved\n- **Compelling**: Emotionally motivating, not just logically sound\n- **Achievable**: Stretching but not impossible (the sweet spot of creative tension)\n- **Time-bound**: Connected to a timeframe, even if approximate\n- **Aligned**: Consistent with your values and other goals\n\n## Desired State Across Domains\n\n### Personal development\n- Life design: envisioning the life you want across multiple domains\n- Periodic reviews: comparing current reality to desired states and adjusting\n- Future self: imagining who you want to become\n\n### Organizations\n- Strategic planning: defining where the organization wants to be in 3-5 years\n- Change management: articulating the target state to align teams\n- OKRs: defining key results as measurable desired states\n\n### Software and infrastructure\n- Infrastructure as Code (IaC): declaring the desired state of systems and letting tools converge reality toward it\n- Kubernetes: continuously reconciling actual state with declared desired state\n- Configuration management: tools like Terraform, Ansible, and Puppet work by defining desired state\n\n## The Desired State / Current Reality Framework\n\n1. **Define the desired state**: Where do you want to be?\n2. **Assess current reality**: Where are you now? (Be honest)\n3. **Identify the gap**: What's the difference?\n4. **Plan actions**: What steps will close the gap?\n5. **Execute and iterate**: Act, measure, adjust\n\nThis simple framework underlies most effective planning methodologies, from strategic planning to personal goal-setting to Agile sprints.",
+    "tags": [
+        "goal-setting",
+        "planning",
+        "strategy",
+        "personal-growth",
+        "systems-thinking"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Target State",
+        "Future State",
+        "End State",
+        "To-Be State"
+    ],
+    "relatedConcepts": [
+        "desired-state-management",
+        "gap-analysis",
+        "creative-tension",
+        "goal-setting",
+        "smart-goals",
+        "future-self",
+        "life-design",
+        "life-audit",
+        "gap-vs-gain",
+        "backcasting",
+        "infrastructure-as-code",
+        "kubernetes",
+        "periodic-reviews"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Path of Least Resistance by Robert Fritz",
+            "url": "https://www.amazon.com/dp/0449903370?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Fifth Discipline by Peter Senge",
+            "url": "https://www.amazon.com/dp/0385517254?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Goal setting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Goal_setting",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

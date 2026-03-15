@@ -1,0 +1,59 @@
+{
+    "id": "unix-philosophy",
+    "name": "Unix Philosophy",
+    "summary": "A set of design principles favoring small, focused programs that do one thing well and can be composed together through simple interfaces.",
+    "explanation": "The Unix Philosophy is a set of design principles that emerged from the development of Unix at Bell Labs in the late 1960s and 1970s, primarily articulated by Ken Thompson, Dennis Ritchie, Doug McIlroy, and later codified by others including Eric S. Raymond. At its core, it advocates building small, sharp tools that can be combined in powerful ways.\n\n## The Core Principles\n\n### Doug McIlroy's summary (the canonical version)\n1. **Do one thing and do it well**: Write programs that do one thing well\n2. **Compose**: Write programs to work together\n3. **Handle text streams**: Use text as the universal interface, because text is a universal format\n\n### Eric Raymond's expanded principles (from 'The Art of Unix Programming')\n- **Rule of Modularity**: Write simple parts connected by clean interfaces\n- **Rule of Clarity**: Clarity is better than cleverness\n- **Rule of Composition**: Design programs to be connected to other programs\n- **Rule of Separation**: Separate policy from mechanism, interfaces from engines\n- **Rule of Simplicity**: Design for simplicity; add complexity only where you must\n- **Rule of Parsimony**: Write a big program only when nothing else will do\n- **Rule of Transparency**: Design for visibility to make inspection and debugging easier\n- **Rule of Silence**: When a program has nothing surprising to say, it should say nothing\n- **Rule of Economy**: Programmer time is expensive; conserve it in preference to machine time\n\n## The Pipe: Composition in Action\n\nThe Unix pipe (`|`) is the most elegant expression of the philosophy. It allows independent programs to be chained:\n\n```\ncat access.log | grep 'ERROR' | sort | uniq -c | sort -rn | head -10\n```\n\nSix small programs, each doing one thing well, composed into a powerful analysis pipeline. No program knows about the others. Each reads from standard input and writes to standard output.\n\n## Why It Endures\n\nThe Unix philosophy has survived for over 50 years because its principles are universal:\n\n- **Small tools are easier to write, test, and debug** than large integrated systems\n- **Composition scales**: New capabilities emerge from combining existing tools\n- **Simple interfaces enable loose coupling**: Programs connected by text streams can be replaced independently\n- **Focused tools are more reusable**: A tool that does one thing well is useful in many contexts\n\n## Modern Manifestations\n\n- **Microservices**: Small, focused services communicating through APIs\n- **Serverless functions**: Single-purpose functions triggered by events\n- **Unix command-line tools**: `grep`, `awk`, `sed`, `sort`, `jq` — still indispensable\n- **React components**: Small, composable UI building blocks\n- **Functional programming**: Pure functions composed through pipelines\n- **CI/CD pipelines**: Stages that each handle one step of the build-test-deploy process\n\n## Contrast with the Opposite\n\nThe anti-pattern to Unix philosophy is the 'kitchen sink' approach: monolithic programs that try to do everything. These tend to be harder to understand, harder to maintain, and harder to compose with other tools. The trade-off is that monolithic tools can offer a more integrated user experience — the Unix philosophy sometimes sacrifices convenience for composability.",
+    "tags": [
+        "software-development",
+        "principles",
+        "architecture",
+        "design-patterns",
+        "composability"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Do One Thing Well",
+        "Unix Design Philosophy",
+        "DOTADIW"
+    ],
+    "relatedConcepts": [
+        "single-responsibility-principle",
+        "modularity",
+        "separation-of-concerns",
+        "kiss-principle",
+        "solid-principles",
+        "cohesion",
+        "coupling",
+        "composability",
+        "clean-code"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of Unix Programming by Eric S. Raymond",
+            "url": "https://www.amazon.com/dp/0131429019?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Unix Programming Environment by Brian Kernighan and Rob Pike",
+            "url": "https://www.amazon.com/dp/013937681X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Unix philosophy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unix_philosophy",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

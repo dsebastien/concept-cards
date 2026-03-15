@@ -1,0 +1,92 @@
+{
+    "id": "two-pizza-teams",
+    "name": "Two-Pizza Teams",
+    "summary": "Amazon's principle that teams should be small enough to be fed by two pizzas, promoting clear ownership, fast execution, and individual accountability.",
+    "explanation": "The Two-Pizza Team rule, popularized by Amazon CEO Jeff Bezos, states that no team should be so large that it can't be fed by two pizzas — roughly 6 to 8 people. Far from being just a catchy heuristic, it reflects deep insights about how team size affects performance, ownership, and execution speed.\n\n## Why Small Teams Outperform\n\n### Communication overhead\nAs teams grow, the number of communication channels increases exponentially. A team of 6 has 15 possible person-to-person channels. A team of 12 has 66. A team of 20 has 190. This explosion in coordination costs means larger teams spend more time aligning and less time executing.\n\n### Ownership becomes visible\nIn a small team, there is nowhere to hide. Each person's contribution (or lack thereof) is apparent to everyone. This visibility naturally drives accountability and effort. In larger teams, social loafing kicks in as individual contributions become harder to identify.\n\n### Decision speed\nSmall teams can make decisions quickly because fewer people need to agree, fewer meetings are required, and less time is spent on alignment. They have the autonomy to decide and move rather than escalating to committees.\n\n### Identity and cohesion\nSmall teams develop stronger shared identity and mutual trust. Members know each other well, understand each other's strengths, and can coordinate informally rather than through process.\n\n## The Three Characteristics of Execution Culture\n\n1. **Small teams**: Ownership is visible and accountability is natural\n2. **Clear individual accountability**: Not 'we are responsible' but specifically who is responsible\n3. **Execution authority**: Teams can decide and act without escalating everything to committees\n\n## At Amazon\n\nBezos implemented two-pizza teams as a structural principle for organizing work. Each team operates like a small startup within the larger organization — owning their product, their decisions, and their outcomes. This structure has been credited as a key factor in Amazon's ability to innovate rapidly despite enormous organizational scale.\n\n## Limitations\n\n- Some problems genuinely require large-scale coordination\n- Very small teams can lack skill diversity\n- Not every function maps cleanly to a small team boundary\n- The principle works best when teams have clear, independent scope\n\n## Applying the Principle\n\n- When a team exceeds 8 people, look for natural boundaries to split it\n- Give each team end-to-end ownership of a clearly defined area\n- Ensure teams have authority to make decisions within their scope\n- Minimize cross-team dependencies where possible\n- Accept some duplication of effort as the cost of team independence",
+    "tags": [
+        "teams",
+        "leadership",
+        "productivity",
+        "organizations",
+        "management"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Two-Pizza Rule",
+        "Small Team Principle",
+        "Pizza Team"
+    ],
+    "relatedConcepts": [
+        "social-loafing",
+        "diffusion-of-responsibility",
+        "accountability",
+        "coordination-costs",
+        "agile",
+        "groupthink",
+        "parkinson-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Working Backwards by Colin Bryar and Bill Carr",
+            "url": "https://www.amazon.com/dp/1250267595?tag=dsebastien00-20"
+        },
+        {
+            "title": "Team Topologies by Matthew Skelton and Manuel Pais",
+            "url": "https://www.amazon.com/dp/1942788819?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Two-pizza rule - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jeff_Bezos#Two-pizza_rule",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}

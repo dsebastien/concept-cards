@@ -1,0 +1,59 @@
+{
+    "id": "coupling",
+    "name": "Coupling",
+    "summary": "The degree of interdependence between software modules, with low coupling meaning modules can be understood, changed, and tested independently.",
+    "explanation": "Coupling measures how much one module depends on and is affected by another. Low (loose) coupling means modules interact through well-defined, narrow interfaces and can be changed independently. High (tight) coupling means modules are deeply intertwined, so changes in one ripple through others.\n\n## Types of Coupling (Worst to Best)\n\nConstantine and Yourdon identified levels from tightest to loosest:\n\n### Content coupling (worst)\nOne module directly accesses or modifies the internal data of another. Example: reaching into another class's private fields.\n\n### Common coupling\nMultiple modules share global data. Example: modules reading and writing the same global variables.\n\n### External coupling\nModules share an externally imposed data format, communication protocol, or device interface.\n\n### Control coupling\nOne module controls the flow of another by passing control information (flags, commands). Example: passing a boolean that determines which branch of logic to execute.\n\n### Stamp coupling\nModules share a composite data structure but use only parts of it. Example: passing an entire `User` object when only the name is needed.\n\n### Data coupling (best)\nModules communicate through simple, well-defined parameters. Each parameter is necessary, and no unnecessary data is shared.\n\n### Message coupling (ideal)\nModules communicate only through messages or events, with no direct dependency on each other's interfaces.\n\n## Why Low Coupling Matters\n\n- **Independent development**: Teams can work on different modules without coordination overhead\n- **Easier testing**: Modules can be tested in isolation with simple mocks or stubs\n- **Reduced ripple effects**: Changes to one module don't cascade through the system\n- **Better reusability**: Loosely coupled modules can be used in different contexts\n- **Simpler reasoning**: You can understand one module without understanding the whole system\n\n## Coupling and Cohesion\n\nCoupling and cohesion are complementary design goals:\n\n| Goal | Within a module | Between modules |\n|---|---|---|\n| Cohesion | Maximize (related things together) | - |\n| Coupling | - | Minimize (unrelated things apart) |\n\nHigh cohesion naturally leads to low coupling: when a module is focused on one concern, it has fewer reasons to depend on other modules.\n\n## Reducing Coupling\n\n- **Depend on abstractions**: Use interfaces and abstract types rather than concrete implementations (Dependency Inversion Principle)\n- **Encapsulate**: Hide internal details behind well-defined public APIs\n- **Use events/messages**: Decouple sender and receiver through publish-subscribe patterns\n- **Apply the Law of Demeter**: Only talk to your immediate collaborators, not their collaborators\n- **Minimize shared state**: Prefer passing data to sharing mutable state\n\n## Beyond Software\n\nCoupling applies to any interconnected system:\n- **Organizations**: Tightly coupled teams need constant coordination; loosely coupled teams (microservices, two-pizza teams) move independently\n- **Knowledge systems**: Notes linked by topic are loosely coupled; notes that duplicate content are tightly coupled\n- **Processes**: Loosely coupled workflows can adapt when one step changes; tightly coupled ones break",
+    "tags": [
+        "software-development",
+        "principles",
+        "design-patterns",
+        "architecture",
+        "systems-thinking"
+    ],
+    "category": "Software Development",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Low Coupling",
+        "Loose Coupling",
+        "Tight Coupling",
+        "Module Coupling"
+    ],
+    "relatedConcepts": [
+        "cohesion",
+        "single-responsibility-principle",
+        "solid-principles",
+        "separation-of-concerns",
+        "encapsulation",
+        "modularity",
+        "clean-code",
+        "two-pizza-teams"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        },
+        {
+            "title": "Structured Design by Edward Yourdon and Larry Constantine",
+            "url": "https://www.amazon.com/dp/0138544719?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Coupling (computer programming) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Coupling_(computer_programming)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-15",
+    "dateModified": "2026-03-15"
+}
