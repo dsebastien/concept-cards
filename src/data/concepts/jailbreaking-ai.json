@@ -1,0 +1,79 @@
+{
+    "id": "jailbreaking-ai",
+    "name": "Jailbreaking AI",
+    "summary": "Techniques used to bypass an AI model's safety guardrails and restrictions to produce outputs it was designed to refuse.",
+    "explanation": "Jailbreaking in the context of AI refers to techniques that circumvent the safety training, content policies, and behavioral restrictions built into large language models, causing them to produce outputs they were designed to refuse — harmful content, private information, or unrestricted behavior.\n\n**How AI Jailbreaking Works:**\n\nLLMs are trained with safety layers through techniques like RLHF (Reinforcement Learning from Human Feedback) and Constitutional AI. These layers teach the model to refuse certain requests. Jailbreaking exploits gaps in this training.\n\n**Common Techniques:**\n\n- **Role-playing**: Asking the model to pretend to be an unrestricted AI ('You are DAN — Do Anything Now') or a fictional character who would provide the information\n- **Hypothetical framing**: 'For a novel I'm writing, how would a character...' or 'In a hypothetical world where safety guidelines don't exist...'\n- **Token manipulation**: Using unusual formatting, encoding, or language mixing to bypass pattern-matching safety filters\n- **Multi-turn escalation**: Gradually building context across many messages that makes the final harmful request seem reasonable in context\n- **Instruction injection**: Embedding override instructions that conflict with safety training\n- **Persona splitting**: Getting the model to adopt a persona that 'debates' its own safety guidelines\n- **Payload splitting**: Breaking a harmful request across multiple seemingly innocent messages\n\n**The Arms Race:**\n\nJailbreaking and defense exist in a continuous arms race. Model providers discover jailbreak techniques and patch them through additional training or filtering. Researchers and users then find new techniques that bypass the new defenses. This cycle is ongoing and accelerating.\n\n**Why It Matters:**\n\n- **Security implications**: Jailbroken models can generate malicious code, social engineering scripts, or harmful instructions\n- **Trust erosion**: If models can be easily jailbroken, organizations can't reliably deploy them in sensitive contexts\n- **Research value**: Jailbreaking research reveals weaknesses in alignment techniques and drives improvements in AI safety\n- **Policy implications**: The ease of jailbreaking informs debates about AI regulation and liability\n\n**Defenses:**\n\n- **Red teaming**: Proactively testing models against known and novel jailbreak techniques\n- **Constitutional AI**: Training models with principles that create more robust refusal patterns\n- **Input classifiers**: Detecting likely jailbreak attempts before they reach the model\n- **Output monitoring**: Scanning model outputs for policy violations\n- **Instruction hierarchy**: Training models to robustly prioritize safety guidelines over user instructions\n\nJailbreaking is distinct from prompt injection: jailbreaking typically involves a user deliberately trying to bypass restrictions on their own session, while prompt injection involves an attacker manipulating a system to affect other users or gain unauthorized access.",
+    "tags": [
+        "ai",
+        "security",
+        "safety",
+        "risks",
+        "ethics"
+    ],
+    "category": "AI",
+    "icon": "FaUnlock",
+    "featured": false,
+    "aliases": [
+        "AI jailbreak",
+        "LLM jailbreaking",
+        "Guardrail bypass"
+    ],
+    "relatedConcepts": [
+        "prompt-injection",
+        "ai-guardrails",
+        "ai-safety",
+        "ai-alignment",
+        "constitutional-ai",
+        "rlhf",
+        "red-teaming",
+        "prompt-adherence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Jailbreaking (large language model) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jailbreaking_(large_language_model)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-16",
+    "dateModified": "2026-03-16"
+}

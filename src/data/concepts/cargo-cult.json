@@ -1,0 +1,53 @@
+{
+    "id": "cargo-cult",
+    "name": "Cargo Cult",
+    "summary": "The practice of imitating the surface behaviors or rituals of successful entities without understanding the underlying principles that actually produce results.",
+    "explanation": "A cargo cult is a pattern of behavior where people replicate the superficial forms of something successful — the rituals, aesthetics, vocabulary, or visible practices — without understanding or reproducing the underlying mechanisms that actually create the desired outcomes.\n\n**Historical Origin:**\n\nThe term comes from a phenomenon observed in Melanesian and Pacific Island societies during and after World War II. Indigenous peoples who had witnessed the arrival of military cargo — supplies, equipment, medicine — built imitation landing strips, control towers from bamboo, and wooden headphones, believing that replicating the physical forms would cause the cargo planes to return. They had observed a correlation (infrastructure → cargo arrives) without understanding the causal mechanism.\n\n**Richard Feynman and Cargo Cult Science:**\n\nPhysicist Richard Feynman popularized the concept in his 1974 Caltech commencement address, coining the term 'cargo cult science' to describe research that follows all the apparent forms of scientific investigation but is missing the essential rigor — the honest self-criticism, the willingness to report negative results, the careful control of variables. It looks like science, but it doesn't work like science.\n\n**Cargo Cult in Technology and Business:**\n\n- **Cargo cult programming**: Copying code patterns (like design patterns or architectural choices) without understanding why they exist. Using microservices because Google does, without having Google's scale problems.\n- **Cargo cult agile**: Running standups, sprints, and retrospectives while ignoring the values behind them — responding to change, delivering working software, empowering teams.\n- **Cargo cult startups**: Copying the visible trappings of successful startups (ping pong tables, hoodies, pitch decks full of hockey-stick graphs) without the product-market fit or execution that actually matters.\n- **Cargo cult management**: Adopting OKRs because Intel and Google use them, without the cultural context that makes them effective.\n\n**Why It Happens:**\n\n- Surface behaviors are visible and easy to copy; underlying principles are invisible and hard to understand\n- Social proof and prestige: 'If it works for them, it'll work for us'\n- Confusing correlation with causation: Google has open offices and is successful, therefore open offices cause success\n- It's easier to adopt rituals than to do the hard work of understanding first principles\n\n**The Antidote:**\n\nBefore adopting any practice, ask: 'What problem was this designed to solve? Do we have that problem? What are the underlying conditions that make this work?' If you can't answer these questions, you're building bamboo control towers.",
+    "tags": [
+        "mental-models",
+        "critical-thinking",
+        "psychology",
+        "strategies",
+        "anti-patterns"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaPlane",
+    "featured": false,
+    "aliases": [
+        "Cargo cult programming",
+        "Cargo cult science",
+        "Cargo cult mentality"
+    ],
+    "relatedConcepts": [
+        "hype-cycle",
+        "first-principles",
+        "shiny-object-syndrome",
+        "resume-driven-development",
+        "innovation-theater",
+        "bandwagon-effect",
+        "correlation-vs-causation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Cargo cult - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cargo_cult",
+            "type": "website"
+        },
+        {
+            "title": "Cargo cult science - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cargo_cult_science",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Surely You're Joking, Mr. Feynman! by Richard P. Feynman",
+            "url": "https://www.amazon.com/dp/0393355624?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-16",
+    "dateModified": "2026-03-16"
+}

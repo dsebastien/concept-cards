@@ -185,7 +185,14 @@ import {
     FaExpandArrowsAlt,
     FaChartArea,
     FaStopwatch,
-    FaArrowLeft
+    FaArrowLeft,
+    FaCommentSlash,
+    FaFilm,
+    FaHandPaper,
+    FaCube,
+    FaPlane,
+    FaArrowDown,
+    FaPlus
 } from 'react-icons/fa'
 import { SiObsidian, SiSubstack, SiBluesky } from 'react-icons/si'
 import { FaXTwitter, FaThreads } from 'react-icons/fa6'
@@ -377,6 +384,13 @@ const iconMap: Record<string, IconType> = {
     FaChartArea,
     FaStopwatch,
     FaArrowLeft,
+    FaCommentSlash,
+    FaFilm,
+    FaHandPaper,
+    FaCube,
+    FaPlane,
+    FaArrowDown,
+    FaPlus,
     SiObsidian,
     SiSubstack,
     SiBluesky,
@@ -575,7 +589,14 @@ const iconColors: Record<string, string> = {
     FaExpandArrowsAlt: 'text-orange-400',
     FaChartArea: 'text-emerald-400',
     FaStopwatch: 'text-orange-400',
-    FaArrowLeft: 'text-blue-400'
+    FaArrowLeft: 'text-blue-400',
+    FaCommentSlash: 'text-violet-400',
+    FaFilm: 'text-amber-400',
+    FaHandPaper: 'text-orange-400',
+    FaCube: 'text-indigo-400',
+    FaPlane: 'text-amber-400',
+    FaArrowDown: 'text-orange-400',
+    FaPlus: 'text-green-400'
 }
 
 // Category fallback icons (emojis)

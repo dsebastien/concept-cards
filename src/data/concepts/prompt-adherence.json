@@ -1,0 +1,71 @@
+{
+    "id": "prompt-adherence",
+    "name": "Prompt Adherence",
+    "summary": "The degree to which a large language model follows the instructions, constraints, and formatting specified in a prompt.",
+    "explanation": "Prompt adherence refers to how faithfully an AI language model follows the instructions given to it in a prompt — including output format, length constraints, style requirements, content restrictions, and behavioral guidelines. It is one of the most important practical metrics for evaluating LLM reliability in production applications.\n\n**Dimensions of Adherence:**\n\n- **Instruction following**: Does the model do what was asked? If told to 'list exactly five items,' does it produce five?\n- **Format compliance**: If asked for JSON, does it return valid JSON? If asked for a numbered list, does it use numbers?\n- **Constraint respect**: If told 'respond in under 100 words' or 'do not mention competitors,' does it comply?\n- **Persona maintenance**: If given a role or persona, does it stay in character throughout the response?\n- **Negative instructions**: If told 'do not include explanations' or 'never use first person,' does it honor these restrictions? (Negative instructions are notoriously harder for models to follow.)\n\n**Why Models Fail to Adhere:**\n\n- **Training distribution**: Models are trained on vast corpora where certain patterns are dominant; they tend to regress toward those patterns regardless of instructions\n- **Instruction ambiguity**: Natural language is inherently ambiguous; the model may interpret instructions differently than intended\n- **Competing objectives**: Safety training, helpfulness training, and user instructions can conflict — the model must balance multiple pressures\n- **Context length**: As prompts grow longer and more complex, models lose track of earlier instructions\n- **Sycophancy**: Models may prioritize being agreeable over being accurate to instructions\n\n**Improving Adherence:**\n\n- **Be explicit**: State instructions clearly and unambiguously. 'Be concise' is vague; 'respond in 2-3 sentences' is specific.\n- **Use structured prompting**: XML tags, numbered steps, and clear section headers help models parse complex instructions\n- **Place important instructions strategically**: Instructions at the beginning and end of prompts receive more attention (primacy and recency effects apply to LLMs too)\n- **Provide examples**: Few-shot examples demonstrate the expected format more reliably than descriptions alone\n- **Use system prompts**: System-level instructions generally receive higher priority than user-level instructions\n- **Test systematically**: Evaluate adherence across diverse inputs, not just happy-path examples\n\n**Adherence vs. Capability:**\n\nA model may be capable of a task but fail on adherence (it knows the answer but doesn't format it correctly), or vice versa. Both matter for production use, but adherence failures are often more frustrating because the model 'could' do it right — it just doesn't consistently.\n\nPrompt adherence is a key differentiator between models and a central focus of instruction tuning and RLHF training. As AI applications move from demos to production, reliable adherence becomes more important than raw capability.",
+    "tags": [
+        "ai",
+        "prompt-engineering",
+        "reliability",
+        "evaluation",
+        "techniques"
+    ],
+    "category": "AI",
+    "icon": "FaBullseye",
+    "featured": false,
+    "aliases": [
+        "Instruction following",
+        "Prompt compliance",
+        "Instruction adherence"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "prompt-fragility",
+        "system-prompts",
+        "instruction-tuning",
+        "rlhf",
+        "ai-guardrails",
+        "structured-output-prompting",
+        "prompt-injection",
+        "steerability",
+        "ai-hallucination"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-16",
+    "dateModified": "2026-03-16"
+}

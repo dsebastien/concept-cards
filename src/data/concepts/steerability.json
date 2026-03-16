@@ -1,0 +1,70 @@
+{
+    "id": "steerability",
+    "name": "Steerability",
+    "summary": "The ability to control and direct an AI model's behavior, tone, style, and output characteristics through instructions and configuration.",
+    "explanation": "Steerability refers to how effectively and reliably an AI model's behavior can be directed, shaped, and constrained through prompts, system instructions, fine-tuning, or other configuration. A highly steerable model is one that faithfully adapts its outputs to match the user's or developer's specifications.\n\n**Dimensions of Steerability:**\n\n- **Tone and style**: Can the model reliably write formally, casually, technically, or poetically on command?\n- **Persona adoption**: Can it maintain a consistent character, voice, or role throughout a conversation?\n- **Output format**: Can it reliably produce structured data, specific layouts, or constrained formats?\n- **Content boundaries**: Can it be effectively restricted from discussing certain topics or generating certain types of content?\n- **Reasoning approach**: Can it be directed to use specific analytical frameworks, perspectives, or methodologies?\n- **Length and verbosity**: Can it calibrate its output length to match specifications?\n\n**Why Steerability Matters:**\n\nFor AI to be useful in production applications, it must be controllable. An unsteereable model is unpredictable — fine for casual conversation but unsuitable for business applications where consistency, brand voice, regulatory compliance, and user experience matter.\n\n**Factors Affecting Steerability:**\n\n- **Base model training**: Models trained on diverse, well-curated data are generally more steerable\n- **Instruction tuning**: Fine-tuning on instruction-following examples improves steerability\n- **RLHF quality**: The quality and diversity of human feedback during training directly impacts how well the model responds to direction\n- **Context window usage**: How instructions are positioned and formatted in the prompt affects steering effectiveness\n- **Model size**: Larger models tend to be more steerable, though this isn't absolute\n\n**Steerability Challenges:**\n\n- **Mode collapse under steering**: Pushing a model too hard in one direction can degrade its overall quality\n- **Instruction conflicts**: When multiple steering directives conflict, models may behave unpredictably\n- **Sycophancy**: Models may appear steerable by simply agreeing with the user rather than genuinely adapting their behavior\n- **Capability-steerability tradeoff**: Very strict steering can prevent the model from using its full capabilities\n\n**Practical Applications:**\n\n- **Product development**: Building AI features that behave consistently across users and sessions\n- **Content creation**: Directing AI to match brand voice, audience level, and editorial standards\n- **Education**: Configuring AI tutors to use appropriate pedagogical approaches\n- **Enterprise**: Ensuring AI assistants comply with organizational policies and communication norms\n\nSteerability is increasingly recognized as a core evaluation criterion for LLMs alongside raw capability. A model that's brilliant but uncontrollable is less useful than one that's slightly less capable but reliably follows direction.",
+    "tags": [
+        "ai",
+        "prompt-engineering",
+        "evaluation",
+        "reliability",
+        "techniques"
+    ],
+    "category": "AI",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "AI controllability",
+        "Model steerability",
+        "LLM controllability"
+    ],
+    "relatedConcepts": [
+        "prompt-adherence",
+        "prompt-engineering",
+        "system-prompts",
+        "instruction-tuning",
+        "rlhf",
+        "ai-alignment",
+        "fine-tuning",
+        "role-prompting",
+        "ai-guardrails"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-16",
+    "dateModified": "2026-03-16"
+}

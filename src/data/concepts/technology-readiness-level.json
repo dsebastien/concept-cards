@@ -1,0 +1,42 @@
+{
+    "id": "technology-readiness-level",
+    "name": "Technology Readiness Level",
+    "summary": "A systematic measurement framework originally developed by NASA to assess the maturity of a technology from basic research to proven deployment.",
+    "explanation": "Technology Readiness Levels (TRLs) are a systematic framework for measuring how mature a technology is, from initial concept through to proven, operational deployment. Originally developed by NASA in the 1970s and formalized in the 1990s, TRLs have been widely adopted by defense agencies, the European Commission, and increasingly by the private sector.\n\n**The Nine Levels:**\n\n- **TRL 1 — Basic Principles Observed**: Scientific research begins. Basic properties are studied and reported.\n- **TRL 2 — Technology Concept Formulated**: Practical applications are identified. The path from principles to application is speculated.\n- **TRL 3 — Experimental Proof of Concept**: Active research and experimentation begins. Analytical and laboratory studies validate predictions.\n- **TRL 4 — Technology Validated in Lab**: Basic components are integrated and tested in a laboratory environment.\n- **TRL 5 — Technology Validated in Relevant Environment**: Components are integrated into a realistic environment. The technology is ready for more rigorous testing.\n- **TRL 6 — Technology Demonstrated in Relevant Environment**: A representative model or prototype is tested in a relevant environment.\n- **TRL 7 — System Prototype Demonstration in Operational Environment**: The prototype is near or at planned operational scale and tested in an operational environment.\n- **TRL 8 — System Complete and Qualified**: The technology has been proven to work in its final form under expected conditions.\n- **TRL 9 — Actual System Proven in Operational Environment**: The technology is in its final form and has been successfully deployed in real operations.\n\n**Why TRLs Matter:**\n\nTRLs provide a common language for discussing technology maturity. Without such a framework, stakeholders often talk past each other — a researcher says 'we've demonstrated this works' (meaning TRL 3-4 lab results), while a business leader hears 'this is ready to deploy' (expecting TRL 8-9). The gap between a lab demo and a production system is enormous, and TRLs make that gap explicit.\n\n**TRLs vs. the Hype Cycle:**\n\nThe Hype Cycle measures public perception and market excitement. TRLs measure actual technical maturity. A technology can be at TRL 3 (early lab proof) while sitting at the Peak of Inflated Expectations in the Hype Cycle. This disconnect is exactly where vaporware and broken promises live.\n\n**Applications Beyond Aerospace:**\n\n- **Software development**: Mapping features from proof-of-concept to production-hardened systems\n- **Startup evaluation**: Assessing whether a company's core technology is truly ready for market\n- **Investment decisions**: Understanding the real distance between a demo and a product\n- **Project planning**: Estimating the effort remaining to reach deployment readiness\n\nFor knowledge workers, TRLs offer a powerful antidote to hype: when someone claims a technology 'works,' ask 'At what TRL?'",
+    "tags": [
+        "frameworks",
+        "technologies",
+        "innovation",
+        "critical-thinking",
+        "strategies"
+    ],
+    "category": "Frameworks",
+    "icon": "FaRocket",
+    "featured": false,
+    "aliases": [
+        "TRL",
+        "Technology readiness levels",
+        "TRL scale"
+    ],
+    "relatedConcepts": [
+        "hype-cycle",
+        "technology-adoption-lifecycle",
+        "vaporware",
+        "technology-radar",
+        "boring-technology",
+        "innovation-diffusion"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Technology readiness level - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Technology_readiness_level",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-16",
+    "dateModified": "2026-03-16"
+}
