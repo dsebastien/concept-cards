@@ -1,0 +1,57 @@
+{
+    "id": "information-theory",
+    "name": "Information Theory",
+    "summary": "The mathematical framework founded by Claude Shannon for quantifying information, measuring communication channel capacity, and establishing the fundamental limits of data compression and reliable transmission.",
+    "explanation": "Information Theory is a mathematical framework created by Claude Shannon in his landmark 1948 paper *A Mathematical Theory of Communication*. It provides the foundational science for understanding how information can be quantified, stored, compressed, and transmitted — and what the fundamental limits of these operations are. It is one of the most consequential intellectual achievements of the 20th century, underpinning everything from the internet to data compression to modern AI.\n\n**Core Concepts**:\n\n### Entropy (Information Entropy)\nShannon borrowed the term 'entropy' from thermodynamics to measure the average amount of information — or 'surprise' — in a message. A coin flip (50/50) has maximum entropy for a binary source: you genuinely don't know what's coming. A loaded coin (99/1) has low entropy: the outcome is almost certain, so each flip conveys little new information.\n\n*H(X) = -Σ p(x) log₂ p(x)*\n\nEntropy is measured in bits. A fair coin flip has 1 bit of entropy. The English language has roughly 1.0–1.5 bits of entropy per character (much lower than the ~4.7 bits a uniform 26-letter alphabet would have) because letters are highly predictable from context.\n\n### Channel Capacity\nEvery communication channel has a maximum rate at which information can be reliably transmitted, called the channel capacity (measured in bits per second). Shannon's noisy-channel coding theorem proved that it's possible to communicate at any rate below channel capacity with arbitrarily low error probability — a revolutionary result that seemed too good to be true when first published.\n\n### Source Coding (Compression)\nShannon's source coding theorem establishes the fundamental limit of lossless data compression: you cannot compress data below its entropy rate. This result tells us that Huffman coding, arithmetic coding, and other compression algorithms are bounded by an information-theoretic floor.\n\n### Redundancy\nRedundancy is the difference between the maximum possible entropy and the actual entropy of a source. English text is highly redundant (~75%), which is why:\n- We can read txt wth mssng lttrs\n- Compression algorithms work so well on text\n- Error-correcting codes can recover corrupted data\n\n**Impact Across Fields**:\n\n- **Computing**: Data compression (ZIP, MP3, JPEG, H.264), error-correcting codes (CDs, QR codes, satellite communication), cryptography\n- **Telecommunications**: Cell networks, WiFi, 5G — all designed around Shannon limits\n- **Machine Learning**: Cross-entropy loss, mutual information, information bottleneck theory, KL divergence\n- **Neuroscience**: Models of neural coding, efficient coding hypothesis (the brain compresses sensory information)\n- **Linguistics**: Measuring language complexity, predicting word frequencies (Zipf's law), evaluating language models\n- **Biology**: Genetic information (DNA as a code), molecular signaling\n- **Philosophy**: What is information? How does it relate to meaning, knowledge, and consciousness?\n\n**Key Insight — Information is Physical**:\n\nShannon deliberately separated *information* from *meaning*. In his framework, the content of a message doesn't matter — only its statistical properties. This abstraction is what made the theory so powerful: it applies equally to English text, DNA sequences, radio waves, and quantum states. Rolf Landauer later showed that information is physical — erasing a bit of information necessarily dissipates energy (Landauer's principle), connecting information theory directly to thermodynamics.\n\n**Relevance to Knowledge Work**:\n\n- **Signal vs. noise**: Information theory formalizes the intuition that not all data is equally valuable\n- **Compression as understanding**: True understanding is the ability to compress — to represent complex domains with fewer, more powerful concepts\n- **Communication efficiency**: The best communicators maximize information per word while maintaining clarity\n- **Attention allocation**: In an information-rich world, the scarce resource is attention — information theory helps us think about what deserves it",
+    "tags": [
+        "mathematics",
+        "computing",
+        "communication",
+        "foundations",
+        "science"
+    ],
+    "category": "Thinking",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Shannon Theory",
+        "Mathematical Theory of Communication"
+    ],
+    "relatedConcepts": [
+        "information-compression",
+        "entropy",
+        "signal-to-noise-ratio",
+        "abstraction",
+        "bloom-filter",
+        "hash-function",
+        "cognitive-load",
+        "working-memory"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Information theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_theory",
+            "type": "website"
+        },
+        {
+            "title": "Claude Shannon - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Claude_Shannon",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "A Mind at Play: How Claude Shannon Invented the Information Age by Jimmy Soni and Rob Goodman",
+            "url": "https://www.amazon.com/dp/1476766681?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Information: A History, a Theory, a Flood by James Gleick",
+            "url": "https://www.amazon.com/dp/1400096235?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-18",
+    "dateModified": "2026-03-18"
+}

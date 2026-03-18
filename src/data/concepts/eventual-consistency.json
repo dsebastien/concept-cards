@@ -1,0 +1,51 @@
+{
+    "id": "eventual-consistency",
+    "name": "Eventual Consistency",
+    "summary": "A consistency model in distributed systems where, given enough time without new updates, all replicas of the data will converge to the same value, trading immediate consistency for higher availability.",
+    "explanation": "Eventual consistency is a consistency model used in distributed computing where the system guarantees that, if no new updates are made to a piece of data, all replicas will eventually return the same value. It does not guarantee that all reads at any given moment will return the latest write — only that the system will converge over time.\n\n**Why Eventual Consistency Exists**:\n\nThe CAP Theorem proves that in the presence of network partitions (which are inevitable), a distributed system must choose between consistency (all nodes see the same data at the same time) and availability (every request gets a response). Many real-world systems choose availability over immediate consistency because:\n\n- Users expect fast responses even when parts of the system are unreachable\n- Many applications can tolerate slightly stale data (a social media feed doesn't need to be perfectly up-to-date)\n- Global distribution makes strong consistency prohibitively expensive in terms of latency\n\n**The BASE Model**:\n\nEventual consistency is formalized in the BASE model, contrasting with ACID:\n\n| ACID | BASE |\n|------|------|\n| Atomicity | **B**asically **A**vailable |\n| Consistency | **S**oft state |\n| Isolation | **E**ventual consistency |\n| Durability | |\n\nBASE systems accept that data may be temporarily inconsistent across nodes but guarantee convergence.\n\n**How Convergence Happens**:\n\n- **Read repair**: When a read detects inconsistency, the system updates the stale replica\n- **Anti-entropy protocols**: Background processes compare replicas and reconcile differences (e.g., Merkle trees)\n- **Gossip protocols**: Nodes periodically exchange state information with random peers, spreading updates epidemically\n- **Conflict resolution**: When concurrent writes conflict, strategies include last-write-wins (LWW), version vectors, or CRDTs (Conflict-free Replicated Data Types)\n\n**Real-World Examples**:\n\n- **DNS**: The Domain Name System is eventually consistent — DNS record changes propagate across global nameservers over hours\n- **Amazon DynamoDB**: Offers configurable consistency — eventually consistent reads are faster and cheaper than strongly consistent ones\n- **Apache Cassandra**: Tunable consistency levels per query, from eventual to quorum to full consistency\n- **Social media feeds**: Your timeline may show slightly different content on different devices momentarily\n- **Shopping carts**: Amazon's original Dynamo paper described eventually consistent shopping carts — it's acceptable if a cart temporarily shows stale items\n\n**Eventual Consistency Beyond Software**:\n\nThe concept applies metaphorically to many systems:\n\n- **Organizations**: A new company policy doesn't reach every employee simultaneously — it propagates through channels and conversations until everyone is aligned\n- **Knowledge**: New scientific findings take time to propagate through textbooks, curricula, and professional practice\n- **Culture**: Cultural changes spread unevenly, with some groups adopting new norms faster than others\n\n**When Not to Use Eventual Consistency**:\n\nSome domains require strong consistency:\n- Financial transactions (account balances must be exact)\n- Inventory systems (overselling must be prevented)\n- Safety-critical systems (medical records, access control)\n\nThe key design question is always: *what is the cost of a stale read?* If it's merely inconvenient, eventual consistency is likely fine. If it could cause financial loss, safety issues, or broken invariants, stronger guarantees are needed.",
+    "tags": [
+        "distributed-systems",
+        "software-engineering",
+        "architecture",
+        "reliability",
+        "scalability"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "BASE Model",
+        "Eventually Consistent"
+    ],
+    "relatedConcepts": [
+        "cap-theorem",
+        "distributed-systems",
+        "acid-properties",
+        "idempotency",
+        "fault-tolerance",
+        "graceful-degradation"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Eventual consistency - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Eventual_consistency",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-18",
+    "dateModified": "2026-03-18"
+}

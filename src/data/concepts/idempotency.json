@@ -8,7 +8,7 @@
     "icon": "FaCogs",
     "featured": false,
     "aliases": ["Idempotent", "Idempotent Operation"],
-    "relatedConcepts": ["fault-tolerance", "distributed-systems", "acid-properties", "graceful-degradation"],
+    "relatedConcepts": ["fault-tolerance", "distributed-systems", "acid-properties", "graceful-degradation", "eventual-consistency", "determinism", "cap-theorem"],
     "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+switching+is+not+an+idempotent+operation"],
     "articles": [],
     "books": [],

@@ -1,0 +1,48 @@
+{
+    "id": "defensive-design",
+    "name": "Defensive Design",
+    "summary": "A design philosophy that anticipates user errors, edge cases, and misuse, building systems that fail gracefully, guide users away from mistakes, and remain robust under unexpected conditions.",
+    "explanation": "Defensive design is the practice of designing products, systems, and interfaces that anticipate and handle things going wrong — before they go wrong. Rather than assuming ideal conditions and perfect users, defensive design assumes that users will make mistakes, inputs will be unexpected, networks will fail, and edge cases will occur. It builds resilience into the system from the start.\n\n**Core Principles**:\n\n1. **Anticipate errors**: Don't ask 'will users make mistakes?' Ask 'what mistakes will they make?'\n2. **Prevent before correcting**: Make wrong actions difficult or impossible rather than just catching them after the fact\n3. **Fail gracefully**: When something does go wrong, the system should degrade gracefully rather than catastrophically\n4. **Provide clear feedback**: Users should always know what happened, why, and what they can do about it\n5. **Make recovery easy**: Undo, back, retry — always provide escape routes\n\n**Defensive Design in Software**:\n\n- **Input validation**: Never trust user input. Validate type, range, format, and length at every boundary\n- **Error handling**: Catch exceptions, provide meaningful error messages, and log details for debugging\n- **Graceful degradation**: When a service is unavailable, the application continues working with reduced functionality rather than crashing\n- **Rate limiting**: Protect against accidental or intentional overuse\n- **Idempotency**: Design operations so they can be safely retried without side effects\n- **Timeouts**: Never wait forever for a response — set reasonable limits\n- **Defaults**: Provide sensible defaults so the system works even when users don't configure everything\n\n**Defensive Design in UX**:\n\n- **Confirmation dialogs**: 'Are you sure you want to delete?' for destructive actions\n- **Undo instead of confirm**: Gmail's 'Undo Send' is better than 'Are you sure?' because it doesn't interrupt flow\n- **Inline validation**: Show errors as users type, not after they submit a form\n- **Constraints**: Dropdown menus instead of free text fields. Date pickers instead of date entry\n- **Progressive disclosure**: Don't overwhelm users with options they don't need yet\n- **Helpful error pages**: A 404 page that offers navigation is better than a dead end\n\n**Defensive Design in Physical Products**:\n\n- **Poka-yoke** (mistake-proofing): USB-C plugs that can't be inserted wrong. Gas pump nozzles that don't fit diesel cars\n- **Dead man's switches**: A train that stops if the operator becomes incapacitated\n- **Guardrails**: Physical barriers that prevent falls — literal defensive design\n- **Safety margins**: Bridges rated for more weight than expected, elevator cables rated for 10x the load\n\n**Defensive Design in Organizations**:\n\n- **Checklists**: Prevent human error in complex, high-stakes procedures (aviation, surgery)\n- **Pre-mortems**: Imagine what could go wrong before it does\n- **Redundancy**: Key person risk mitigation, backup systems, documented processes\n- **Escalation paths**: Clear procedures for when things go beyond normal operating parameters\n\n**The Cost-Benefit Balance**:\n\nDefensive design has diminishing returns. Over-defending creates cumbersome systems that frustrate users and slow development. The art is knowing which failures are likely and consequential enough to defend against, and which are rare enough to accept. Defend aggressively at system boundaries (user input, external APIs, public interfaces) and trust more within controlled internals.\n\n**Key Insight**: The best defensive design is invisible. Users never notice the guardrails that prevented errors they never made. The measure of success is the absence of failure.",
+    "tags": [
+        "design",
+        "software-engineering",
+        "user-experience",
+        "reliability",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Defensive UX",
+        "Error Prevention Design"
+    ],
+    "relatedConcepts": [
+        "defensive-programming",
+        "graceful-degradation",
+        "poka-yoke",
+        "error-handling",
+        "idempotency",
+        "fault-tolerance",
+        "fail-fast",
+        "pre-mortem-analysis"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Defensive design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Defensive_design",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Defensive Design for the Web by 37signals",
+            "url": "https://www.amazon.com/dp/073571410X?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-18",
+    "dateModified": "2026-03-18"
+}
