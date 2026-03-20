@@ -1,0 +1,60 @@
+{
+    "id": "rule-of-72",
+    "name": "Rule of 72",
+    "summary": "A mental math shortcut that estimates how long it takes for an investment or quantity to double by dividing 72 by the growth rate percentage.",
+    "explanation": "The Rule of 72 is an elegant mental math heuristic: divide 72 by the annual growth rate (as a percentage) to estimate the number of years required for a quantity to double. At 6% growth, doubling takes approximately 72/6 = 12 years. At 8%, it takes about 9 years. At 2%, about 36 years.\n\nThe rule works because of the mathematics of logarithms. The exact doubling time is ln(2)/ln(1 + r), where r is the rate as a decimal. For rates between 2% and 20%, the Rule of 72 provides remarkably accurate estimates — typically within a few months of the exact answer. The number 72 is used rather than the mathematically more precise 69.3 because 72 has many convenient divisors (2, 3, 4, 6, 8, 9, 12), making mental arithmetic easier.\n\nVariants exist for different precision needs. The Rule of 70 is slightly more accurate for lower rates (under 5%), while the Rule of 69.3 gives the most mathematically precise result. For tripling time, use the Rule of 114 (divide 114 by the growth rate).\n\nThe Rule of 72 is invaluable for quick financial reasoning. It instantly reveals why a 1% difference in investment returns matters enormously over decades, why high-interest debt is so dangerous, and why inflation slowly but relentlessly erodes purchasing power. It also applies beyond finance: population doubling times, technology adoption rates, and any exponential process can be quickly estimated.\n\nThe rule also works in reverse: if you know something doubled in N years, divide 72 by N to estimate the growth rate. This makes it a versatile tool for both forward projection and backward analysis.",
+    "tags": [
+        "mathematics",
+        "finance",
+        "mental-models",
+        "heuristics",
+        "decision-making"
+    ],
+    "category": "Decision Science",
+    "icon": "FaCalculator",
+    "featured": false,
+    "aliases": [
+        "Rule of 70",
+        "Doubling Time Rule"
+    ],
+    "relatedConcepts": [
+        "compound-interest",
+        "exponential-growth",
+        "growth-rate",
+        "compound-growth",
+        "nonlinearity"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Rule of 72 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Rule_of_72",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

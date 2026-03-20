@@ -1,0 +1,44 @@
+{
+    "id": "growth-rate",
+    "name": "Growth Rate",
+    "summary": "The rate at which a quantity increases or decreases over a specific period of time, expressed as a percentage of its initial value.",
+    "explanation": "Growth rate measures how quickly a quantity changes relative to its starting value over a defined time period. It is one of the most fundamental concepts in mathematics, economics, biology, and business, providing a standardized way to compare changes across different scales and contexts.\n\nGrowth rates come in several forms. Simple growth rate measures change between two points: (new value - old value) / old value. Compound Annual Growth Rate (CAGR) smooths out volatility to show the mean annual growth rate over multiple periods. Real growth rate adjusts for inflation, while nominal growth rate does not.\n\nThe distinction between linear and exponential growth rates is critical for understanding how systems evolve. A constant growth rate produces exponential growth — the absolute increase gets larger each period even though the percentage stays the same. This is why a 'mere' 3% annual growth rate doubles a quantity in roughly 24 years, and why small differences in growth rates lead to enormous differences over time.\n\nIn business, growth rate applies to revenue, users, market share, and countless other metrics. In economics, GDP growth rate is a primary indicator of economic health. In biology, population growth rates determine ecosystem dynamics. In personal development, understanding growth rates helps set realistic expectations — early progress may seem slow, but consistent growth compounds dramatically.\n\nKey pitfalls include confusing percentage points with percentages, ignoring the base rate effect (high growth rates are easier to maintain from a small base), and assuming past growth rates will continue indefinitely. Sustainable growth requires understanding the carrying capacity and constraints of any system.",
+    "tags": [
+        "mathematics",
+        "economics",
+        "growth",
+        "metrics",
+        "business-strategy"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Rate of Growth",
+        "Growth Percentage"
+    ],
+    "relatedConcepts": [
+        "compound-growth",
+        "exponential-change",
+        "exponential-growth",
+        "diminishing-returns",
+        "nonlinearity",
+        "sustainable-growth",
+        "compound-interest",
+        "rule-of-72",
+        "logarithmic-growth"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Economic growth - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Economic_growth",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

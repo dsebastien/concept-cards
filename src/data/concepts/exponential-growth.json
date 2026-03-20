@@ -1,0 +1,19 @@
+{
+    "id": "exponential-growth",
+    "name": "Exponential Growth",
+    "summary": "A pattern of growth where a quantity increases by a fixed percentage over equal time intervals, causing acceleration that becomes dramatic over time.",
+    "explanation": "Exponential growth occurs when a quantity grows by a constant proportion (not a constant amount) in each time period. Unlike linear growth, where the same amount is added each period, exponential growth adds an ever-increasing amount because each increment is a percentage of the current — larger — total. The mathematical signature is the function f(t) = a × e^(rt), where 'a' is the initial amount, 'r' is the growth rate, and 't' is time.\n\nThe defining feature of exponential growth is that it starts deceptively slowly and then accelerates beyond intuition. This is sometimes called the 'hockey stick' curve. For a long time, exponential growth looks barely different from linear growth, then it suddenly takes off. This creates a persistent cognitive trap: humans tend to think linearly, which causes us to dramatically underestimate exponential processes until they become overwhelming.\n\nExponential growth appears everywhere. Population growth follows exponential patterns when unconstrained. Compound interest grows money exponentially. Viral spread of disease or information is exponential. Technology improvement, as captured by Moore's Law, is roughly exponential. Network effects in platforms can drive exponential user growth.\n\nHowever, true exponential growth is always temporary in physical systems because it eventually hits resource limits, competition, or other constraints, transitioning to logistic (S-curve) growth. Recognizing when a process is in its exponential phase — and when it will plateau — is a critical skill in business strategy, epidemiology, technology forecasting, and personal investing.\n\nThe Rule of 72 provides a quick mental shortcut: divide 72 by the growth rate percentage to estimate the doubling time. At 6% growth, a quantity doubles roughly every 12 years. Understanding exponential growth is essential for making sound long-term decisions about savings, technology adoption, and resource planning.",
+    "tags": ["mathematics", "growth", "economics", "systems-thinking", "mental-models"],
+    "category": "Thinking",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": ["Geometric Growth", "Compound Growth Pattern"],
+    "relatedConcepts": ["growth-rate", "compound-growth", "nonlinearity", "compound-interest", "rule-of-72", "logarithmic-growth", "exponential-change", "linear-thinking", "diminishing-returns"],
+    "relatedNotes": [],
+    "references": [{"title": "Exponential growth - Wikipedia", "url": "https://en.wikipedia.org/wiki/Exponential_growth", "type": "website"}],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

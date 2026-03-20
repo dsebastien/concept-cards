@@ -1,0 +1,67 @@
+{
+    "id": "logarithmic-growth",
+    "name": "Logarithmic Growth",
+    "summary": "A growth pattern where the rate of increase slows progressively, producing rapid early gains that gradually taper off toward a ceiling.",
+    "explanation": "Logarithmic growth is the mathematical inverse of exponential growth: instead of accelerating over time, the rate of increase continuously decelerates. The function grows quickly at first, then progressively slows, approaching but never quite reaching a theoretical limit. The mathematical form is f(t) = a × ln(t + 1), producing the characteristic curve that rises steeply then flattens.\n\nThis pattern appears throughout nature and human experience. Skill acquisition follows logarithmic growth — beginners improve rapidly, but each subsequent improvement requires more effort (the learning curve). Sensory perception is logarithmic, as described by the Weber-Fechner law: doubling the intensity of a stimulus does not double the perceived sensation. Economic utility of money is logarithmic — the first $1,000 in savings matters far more to quality of life than going from $100,000 to $101,000.\n\nIn technology, logarithmic growth describes the performance of many algorithms (binary search operates in O(log n) time) and the diminishing returns of adding resources to already-optimized systems. In ecology, population growth often transitions from exponential to logarithmic as carrying capacity is approached.\n\nUnderstanding logarithmic growth helps calibrate expectations. It explains why the initial excitement of a new skill, habit, or project naturally fades — not because motivation decreases, but because each unit of progress genuinely requires more effort. It also explains diminishing returns: adding the tenth feature to a product improves it less than the second feature did.\n\nThe practical wisdom is to front-load effort where logarithmic dynamics apply (capturing the steep early gains) and to recognize when continued investment yields only marginal improvement — the point at which resources might be better allocated elsewhere.",
+    "tags": [
+        "mathematics",
+        "growth",
+        "mental-models",
+        "learning",
+        "systems-thinking"
+    ],
+    "category": "Thinking",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Log Growth",
+        "Decelerating Growth"
+    ],
+    "relatedConcepts": [
+        "exponential-growth",
+        "diminishing-returns",
+        "growth-rate",
+        "nonlinearity",
+        "learning-curve",
+        "compound-growth",
+        "s-curve"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Logarithmic growth - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Logarithmic_growth",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

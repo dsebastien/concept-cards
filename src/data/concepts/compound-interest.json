@@ -1,0 +1,19 @@
+{
+    "id": "compound-interest",
+    "name": "Compound Interest",
+    "summary": "Interest calculated on both the initial principal and the accumulated interest from previous periods, creating exponential growth of money over time.",
+    "explanation": "Compound interest is the mechanism by which interest earns interest, creating a snowball effect that accelerates wealth accumulation over time. Unlike simple interest, which is calculated only on the original principal, compound interest applies to the growing total — principal plus all previously earned interest. The formula is A = P(1 + r/n)^(nt), where P is principal, r is the annual rate, n is compounding frequency, and t is time in years.\n\nAlbert Einstein reportedly called compound interest the eighth wonder of the world, stating that those who understand it earn it, and those who don't pay it. While the attribution is debated, the insight is sound. The power of compounding is profoundly counterintuitive because small differences in rate or time produce enormous differences in outcome. At 7% annual returns, $10,000 becomes $20,000 in about 10 years, $40,000 in 20 years, and $80,000 in 30 years — the final decade produces as much growth as the first two decades combined.\n\nThe frequency of compounding matters: daily compounding yields slightly more than monthly, which yields more than annual. Continuous compounding represents the mathematical limit and is described by A = Pe^(rt).\n\nCompound interest works in both directions. Credit card debt, mortgages, and loans compound against the borrower, which is why minimum payments on high-interest debt can trap people in long-term financial obligations. Understanding this duality is essential for financial literacy.\n\nBeyond finance, compound interest serves as a powerful metaphor for any domain where consistent small inputs accumulate nonlinearly: knowledge building, skill development, relationship investment, and habit formation all exhibit compounding dynamics. The key insight is always the same — start early, be consistent, and let time do the heavy lifting.",
+    "tags": ["economics", "mathematics", "finance", "growth", "mental-models"],
+    "category": "Business & Economics",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": ["Compounding", "Compound Returns"],
+    "relatedConcepts": ["compound-growth", "compound-effect", "exponential-growth", "growth-rate", "rule-of-72", "content-compounding", "knowledge-compounds", "compound-learning"],
+    "relatedNotes": [],
+    "references": [{"title": "Compound interest - Wikipedia", "url": "https://en.wikipedia.org/wiki/Compound_interest", "type": "website"}],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}
