@@ -1,0 +1,86 @@
+{
+    "id": "local-vs-global-optimization",
+    "name": "Local vs Global Optimization",
+    "summary": "The principle that optimizing individual parts of a system often degrades overall system performance because local efficiency can conflict with global effectiveness.",
+    "explanation": "Local vs Global Optimization is a fundamental systems thinking principle: making each part of a system individually efficient can make the whole system worse. This counterintuitive insight appears across management, software engineering, personal productivity, and economics.\n\n## The core problem\n\nWhen each department, team, or process step optimizes for its own metrics, the system as a whole suffers. This happens because:\n\n- **Parts compete for shared resources**: Two teams both optimizing their output may overload a shared service\n- **Local buffers create global waste**: Each step adding safety margin compounds into massive overall lead time\n- **Handoff inefficiencies multiply**: Optimizing within silos ignores the cost of transitions between them\n- **Metrics misalign**: What's 'good' for a part may be 'bad' for the whole\n\n## Classic examples\n\n### Manufacturing (Theory of Constraints)\nKeeping every machine running at 100% utilization seems efficient, but it builds mountains of work-in-progress inventory before bottlenecks. The system produces more by deliberately idling non-constraint resources.\n\n### Software development\nOptimizing each developer's utilization to 100% creates a traffic jam. Code reviews pile up, context switching increases, and throughput drops. Teams with slack capacity often deliver faster.\n\n### Organizations\nEach department optimizing its budget independently leads to duplicated tools, incompatible systems, and missed collaboration opportunities. The sum of locally optimal departments is not a globally optimal organization.\n\n### Personal productivity\nOptimizing every hour for 'productivity' eliminates the slack needed for creative thinking, relationship building, and recovery. Peak individual output requires deliberate inefficiency.\n\n## Why it happens\n\n- **Measurement**: We measure what's easy (local metrics), not what matters (system outcomes)\n- **Incentives**: People are rewarded for local performance, not system performance\n- **Visibility**: Local effects are visible; system effects are diffuse and delayed\n- **Control**: People can control their part but not the whole system\n- **Intuition**: 'More efficiency everywhere = more efficiency overall' feels true but isn't\n\n## The solution\n\n1. **Define the global goal**: What is the system trying to achieve?\n2. **Identify the constraint**: What single point limits system performance?\n3. **Subordinate**: Let local efficiency suffer where it serves global throughput\n4. **Measure system outcomes**: Track end-to-end metrics, not just local ones\n5. **Accept local 'waste'**: Some slack, idle time, and redundancy is necessary for system health\n\n## Key insight\n\nThe goal is not to make every part efficient — it's to make the whole system effective. The best-performing systems have deliberately inefficient parts that serve the global optimum.",
+    "tags": [
+        "systems-thinking",
+        "management",
+        "mental-models",
+        "strategies",
+        "productivity"
+    ],
+    "category": "Principles",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Local Optimization Trap",
+        "Sub-optimization",
+        "Global vs Local Optima"
+    ],
+    "relatedConcepts": [
+        "theory-of-constraints",
+        "bottleneck",
+        "systems-thinking",
+        "throughput",
+        "limit-work-in-progress",
+        "goodharts-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Fifth Discipline by Peter Senge",
+            "url": "https://www.amazon.com/dp/0385517254?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Suboptimization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Suboptimization",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

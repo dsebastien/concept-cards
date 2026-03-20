@@ -1,0 +1,34 @@
+{
+    "id": "throughput-accounting",
+    "name": "Throughput Accounting",
+    "summary": "An alternative to cost accounting from the Theory of Constraints that evaluates decisions based on their impact on throughput, inventory, and operating expense.",
+    "explanation": "Throughput Accounting (TA) is a management accounting approach developed by Eliyahu Goldratt as part of the Theory of Constraints. It challenges traditional cost accounting by arguing that most management decisions should be evaluated based on their impact on throughput rather than on cost reduction.\n\n## The three measures\n\nThroughput Accounting uses three fundamental measures:\n\n1. **Throughput (T)**: The rate at which the system generates money through sales — specifically, revenue minus truly variable costs (raw materials, sales commissions). This is the money that comes in.\n2. **Investment/Inventory (I)**: All the money tied up in the system — equipment, inventory, buildings, intellectual property. This is the money stuck inside.\n3. **Operating Expense (OE)**: All the money spent to turn inventory into throughput — salaries, rent, utilities. This is the money going out.\n\n## Decision rules\n\nFor any proposed change, ask:\n\n- Will it increase Throughput?\n- Will it decrease Inventory?\n- Will it decrease Operating Expense?\n\nPrioritize in that order. TOC argues that throughput has no upper limit, while costs can only be reduced to zero — so throughput improvement has far greater potential.\n\n## Why traditional cost accounting fails\n\nCost accounting was designed for a manufacturing world where direct labor was the major cost. It allocates overhead to products based on labor hours, leading to distortions:\n\n- Products that use expensive machines look artificially costly\n- Efficiency metrics encourage overproduction (building inventory to 'absorb' overhead)\n- Local cost optimization can harm global throughput\n- Cost-cutting mindset limits growth thinking\n\n## Throughput per constraint unit\n\nThe most powerful TA metric: **Throughput per unit of constraint time**. This tells you which products or activities generate the most value per unit of your scarcest resource. It often produces radically different priorities than traditional profit margin analysis.\n\n## Applications beyond manufacturing\n\n- **Personal productivity**: Evaluate tasks by value generated per hour of your constraint (attention/energy), not by cost of doing them\n- **Knowledge work**: Prioritize work that creates the most throughput (shipped value) rather than minimizing 'cost' (time spent)\n- **Business decisions**: Choose projects that maximize throughput per constraint unit rather than those with the highest gross margin\n- **Time management**: Your time is the constraint — what generates the most value per hour of your focused attention?\n\n## Key insight\n\nThe world of cost focuses on cutting. The world of throughput focuses on growing. This mindset shift — from 'how do we spend less?' to 'how do we generate more?' — changes how you evaluate every decision.",
+    "tags": ["systems-thinking", "management", "metrics", "decisions", "strategies"],
+    "category": "Frameworks",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": ["TA", "TOC Accounting"],
+    "relatedConcepts": ["theory-of-constraints", "throughput", "bottleneck", "cost-benefit-analysis", "leverage-points", "opportunity-cost", "value-stream"],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        },
+        {
+            "title": "Throughput Accounting by Thomas Corbett",
+            "url": "https://www.amazon.com/dp/0884271587?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Throughput accounting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Throughput_accounting",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

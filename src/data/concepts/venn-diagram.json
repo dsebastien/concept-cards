@@ -1,0 +1,42 @@
+{
+    "id": "venn-diagram",
+    "name": "Venn Diagram",
+    "summary": "A visual tool using overlapping circles to show relationships between sets, widely used for comparing ideas, finding commonalities, and structured thinking.",
+    "explanation": "A Venn diagram uses overlapping circles to visually represent relationships between different sets or groups. Invented by John Venn in 1880, it has become one of the most widely recognized thinking tools, used far beyond mathematics in business strategy, decision-making, education, and everyday reasoning.\n\n## Basic structure\n\n- Each circle represents a set (category, group, or concept)\n- **Overlap regions** show elements that belong to multiple sets (intersections)\n- **Non-overlapping regions** show elements unique to one set\n- The **area outside all circles** represents elements in none of the sets\n\n## As a thinking tool\n\nVenn diagrams make abstract relationships concrete and visual:\n\n### Comparison and contrast\nPlace two concepts in overlapping circles to clearly see what's shared and what's unique. This is more rigorous than listing 'similarities and differences' because the visual forces you to place each element precisely.\n\n### Finding your niche\nThe intersection of your skills, interests, and market needs — the 'sweet spot' — is a classic three-circle Venn diagram application. Ikigai uses a similar four-circle structure (what you love, what you're good at, what the world needs, what you can be paid for).\n\n### Strategic positioning\nBusinesses use Venn diagrams to find positions where customer needs, company capabilities, and competitor weaknesses overlap.\n\n### Decision-making\nCompare options by mapping their attributes in overlapping circles. The option whose circle overlaps most with your 'requirements' circle is the strongest choice.\n\n## Set theory operations visualized\n\nVenn diagrams make set theory intuitive:\n\n- **Union (A ∪ B)**: Everything in either circle — 'show me everything'\n- **Intersection (A ∩ B)**: Only the overlap — 'what do these have in common?'\n- **Difference (A - B)**: In A but not B — 'what's unique to this?'\n- **Complement**: Everything outside a circle — 'what's missing?'\n\n## In knowledge work\n\n- **Concept mapping**: Visualize how ideas from different domains overlap\n- **Skill development**: Map where your skills intersect with opportunities\n- **Team composition**: Show where team members' capabilities overlap and where there are gaps\n- **Problem framing**: Define what's in scope (inside circles) and out of scope (outside)\n- **Cross-pollination**: Identify where knowledge from one field applies to another\n\n## Beyond two circles\n\nThree-circle Venn diagrams are common and useful. Beyond three circles, traditional Venn diagrams become hard to read (the number of distinct regions grows as 2^n). For complex multi-set relationships, consider alternative visualizations like UpSet plots or Euler diagrams (which don't require showing all possible intersections).\n\n## Key insight\n\nThe power of the Venn diagram isn't mathematical — it's cognitive. By forcing you to think about overlaps and uniqueness visually, it reveals relationships you might miss when thinking in words alone. The most interesting insights often live in the intersections.",
+    "tags": [
+        "critical-thinking",
+        "problem-solving",
+        "mathematics",
+        "strategies",
+        "logic"
+    ],
+    "category": "Thinking",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Venn's Diagram",
+        "Set Diagram"
+    ],
+    "relatedConcepts": [
+        "set-theory",
+        "mece",
+        "ikigai",
+        "mental-models",
+        "visual-thinking",
+        "categorization",
+        "taxonomy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Venn diagram - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Venn_diagram",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

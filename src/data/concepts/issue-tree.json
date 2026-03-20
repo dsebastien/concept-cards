@@ -1,0 +1,48 @@
+{
+    "id": "issue-tree",
+    "name": "Issue Tree",
+    "summary": "A hierarchical problem decomposition tool that breaks complex questions into smaller, MECE sub-questions to enable structured analysis and focused problem-solving.",
+    "explanation": "An issue tree (also called a logic tree) is a visual, hierarchical framework for breaking a complex problem into smaller, more manageable components. Widely used in management consulting, it's one of the most practical applications of structured thinking.\n\n## How it works\n\n1. **Start with the key question**: Place the core problem at the root (e.g., 'Why is profit declining?')\n2. **Break into sub-questions**: Decompose into MECE branches — mutually exclusive (no overlap) and collectively exhaustive (nothing missing)\n3. **Continue decomposing**: Each branch breaks into further sub-branches until you reach testable hypotheses or actionable items\n4. **Prioritize**: Identify which branches are most likely to contain the answer, and investigate those first\n\n## Two types\n\n### Diagnostic (why?) trees\nUsed to find root causes. 'Why is revenue declining?' splits into: fewer customers, lower average order value, or reduced purchase frequency. Each branch splits further.\n\n### Solution (how?) trees\nUsed to generate options. 'How can we increase revenue?' splits into: increase customers, increase order value, or increase frequency. Then each branch explores specific tactics.\n\n## Why issue trees work\n\n- **Prevent tunnel vision**: The tree forces you to consider all possible causes or solutions, not just the first one that comes to mind\n- **Enable parallel work**: Different people can investigate different branches simultaneously\n- **Create accountability**: Each branch has a clear owner and scope\n- **Reduce complexity**: A massive problem becomes a set of small, answerable questions\n- **Focus effort**: Prioritization prevents wasted work on low-probability branches\n\n## MECE connection\n\nThe MECE principle is what makes issue trees powerful. Without MECE:\n- **Overlapping branches** cause confusion and double-counting\n- **Missing branches** mean you might miss the real answer entirely\n\nCommon MECE splits: revenue/cost, internal/external, people/process/technology, acquisition/retention, supply/demand.\n\n## In knowledge work\n\n- **Research**: Break a broad topic into specific questions you can investigate\n- **Writing**: Structure an argument as a tree before drafting\n- **Decision-making**: Map out all options and their consequences\n- **Debugging**: Systematically eliminate possible causes\n- **Learning**: Decompose a complex subject into learnable chunks\n\n## Common mistakes\n\n- **Branches that overlap**: 'Marketing' and 'Branding' are not mutually exclusive\n- **Missing branches**: Forgetting a category means you might miss the answer\n- **Going too deep too fast**: Decompose broadly first, then go deep on priority branches\n- **Analysis paralysis**: The tree is a tool for action, not an end in itself\n\n## Key insight\n\nThe issue tree transforms the overwhelming question 'where do I even start?' into a clear, systematic map of everything worth investigating. It doesn't require special expertise — just the discipline to break problems apart before trying to solve them.",
+    "tags": [
+        "critical-thinking",
+        "problem-solving",
+        "frameworks",
+        "strategies",
+        "communication"
+    ],
+    "category": "Thinking",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Logic Tree",
+        "Decision Tree",
+        "Problem Tree"
+    ],
+    "relatedConcepts": [
+        "mece",
+        "pyramid-of-communication",
+        "first-principles",
+        "root-cause-analysis",
+        "problem-decomposition",
+        "structured-thinking",
+        "five-whys"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Pyramid Principle by Barbara Minto",
+            "url": "https://www.amazon.com/dp/0273710516?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Issue tree - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Issue_tree",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "mece",
+    "name": "MECE",
+    "summary": "A structured thinking framework where categories are Mutually Exclusive and Collectively Exhaustive, ensuring no gaps or overlaps in analysis.",
+    "explanation": "MECE (pronounced 'me-see') stands for Mutually Exclusive, Collectively Exhaustive. Developed at McKinsey & Company by Barbara Minto, it's a foundational principle for structured thinking, problem-solving, and clear communication.\n\n## The two rules\n\n### Mutually Exclusive (no overlaps)\nEach category or element must be distinct — nothing should fit into more than one bucket. If you're segmenting customers, each customer belongs to exactly one segment. Overlaps create confusion, double-counting, and muddled analysis.\n\n### Collectively Exhaustive (no gaps)\nThe categories must cover everything — nothing should fall outside your framework. If you're analyzing reasons for customer churn, your categories must account for 100% of cases. Gaps mean you're missing part of the picture.\n\n## Why MECE matters\n\n- **Clarity**: Forces you to think precisely about what belongs where\n- **Completeness**: Ensures nothing important is overlooked\n- **Communication**: MECE structures are easier for others to follow and verify\n- **Problem-solving**: Breaking complex problems into MECE components makes them tractable\n- **Decision-making**: Clean categories lead to cleaner analysis and better decisions\n\n## MECE in practice\n\n### Problem decomposition\nBreak a complex problem into MECE sub-problems. 'Why are sales declining?' becomes: (1) fewer leads, (2) lower conversion rate, (3) smaller deal size, (4) higher churn. These four categories are mutually exclusive and collectively exhaustive — they account for all possible causes.\n\n### Issue trees\nStructure your analysis as a tree where each branch is MECE. This prevents both gaps and overlaps at every level, creating a clean logical structure.\n\n### Communication\nOrganize presentations and documents using MECE groupings. Audiences can follow the logic because categories don't blur into each other and nothing is missing.\n\n## Connection to set theory\n\nMECE is applied set theory. 'Mutually Exclusive' means the intersection of any two categories is empty. 'Collectively Exhaustive' means the union of all categories equals the universal set. Set theory provides the mathematical foundation; MECE makes it a practical thinking tool.\n\n## Common MECE frameworks\n\n- **Internal / External** factors\n- **Revenue / Costs** (profit = revenue - costs)\n- **Acquisition / Retention / Monetization** (customer lifecycle)\n- **People / Process / Technology** (organizational capabilities)\n- **Must have / Should have / Could have / Won't have** (MoSCoW prioritization)\n\n## When perfect MECE is hard\n\nReal-world categories often resist perfect MECE structuring. The goal isn't mathematical perfection but disciplined thinking. Ask: 'Is there meaningful overlap?' and 'Am I missing anything important?' Even approximate MECE thinking produces dramatically clearer analysis than unstructured approaches.\n\n## Key insight\n\nMECE is a thinking discipline, not just a consulting technique. Any time you're categorizing, analyzing, or structuring information, MECE helps you think more clearly by ensuring your mental buckets don't leak and don't miss anything.",
+    "tags": [
+        "critical-thinking",
+        "problem-solving",
+        "frameworks",
+        "strategies",
+        "communication"
+    ],
+    "category": "Thinking",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Mutually Exclusive Collectively Exhaustive",
+        "MECE Principle",
+        "MECE Framework"
+    ],
+    "relatedConcepts": [
+        "set-theory",
+        "first-principles",
+        "structured-thinking",
+        "categorization",
+        "taxonomy",
+        "decision-matrix",
+        "problem-decomposition",
+        "issue-tree",
+        "pyramid-of-communication",
+        "venn-diagram"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Pyramid Principle by Barbara Minto",
+            "url": "https://www.amazon.com/dp/0273710516?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "MECE principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/MECE_principle",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

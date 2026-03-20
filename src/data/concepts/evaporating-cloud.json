@@ -1,0 +1,49 @@
+{
+    "id": "evaporating-cloud",
+    "name": "Evaporating Cloud",
+    "summary": "A conflict resolution thinking tool from the Theory of Constraints that resolves dilemmas by surfacing and challenging hidden assumptions.",
+    "explanation": "The Evaporating Cloud (also called the Conflict Resolution Diagram or CRD) is one of the Thinking Processes developed by Eliyahu Goldratt as part of the Theory of Constraints. It provides a structured way to resolve conflicts and dilemmas that seem to require choosing between two opposing options.\n\n## How it works\n\nThe diagram has five elements:\n\n1. **Objective (A)**: The common goal both sides share\n2. **Need B**: One requirement to achieve the objective\n3. **Need C**: Another requirement to achieve the objective\n4. **Want D**: An action that satisfies Need B\n5. **Want D'**: An action that satisfies Need C, but conflicts with D\n\nThe conflict appears when D and D' seem mutually exclusive. The cloud makes the conflict explicit and structured, rather than leaving it as a vague feeling of being stuck.\n\n## Resolving the cloud\n\nThe key insight is that conflicts exist because of hidden assumptions. For each arrow in the diagram, you ask: 'What assumption makes this connection necessary?' Then you challenge each assumption:\n\n- Is the assumption always true?\n- Under what conditions would it be false?\n- Can we find a way to invalidate it?\n\nWhen you find an assumption you can break, the cloud 'evaporates' — the conflict dissolves because you've found a way to satisfy both needs without compromise.\n\n## Why compromise is not the answer\n\nGoldratt argued that compromise means both sides lose something. The Evaporating Cloud forces you to find win-win solutions by questioning the assumptions that create the apparent dilemma. This is fundamentally different from negotiation or splitting the difference.\n\n## Practical applications\n\n- **Work-life balance**: Instead of choosing between career and family, challenge the assumption that more hours equals more output\n- **Quality vs. speed**: Challenge the assumption that faster delivery means lower quality\n- **Innovation vs. stability**: Question whether new initiatives must disrupt existing operations\n- **Individual vs. team needs**: Find approaches that serve both without compromise\n- **Cost vs. value**: Challenge the assumption that higher quality always costs more\n\n## In knowledge work\n\nKnowledge workers face constant dilemmas: depth vs. breadth, exploration vs. exploitation, structure vs. flexibility. The Evaporating Cloud helps reframe these from either/or into both/and by finding the hidden assumptions that create the apparent trade-off.\n\n## Key principle\n\nEvery conflict rests on at least one flawed assumption. Finding and invalidating that assumption is more powerful than any compromise.",
+    "tags": [
+        "systems-thinking",
+        "problem-solving",
+        "critical-thinking",
+        "decisions",
+        "frameworks"
+    ],
+    "category": "Frameworks",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Conflict Resolution Diagram",
+        "CRD",
+        "EC"
+    ],
+    "relatedConcepts": [
+        "theory-of-constraints",
+        "current-reality-tree",
+        "systems-thinking",
+        "dialectical-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        },
+        {
+            "title": "It's Not Luck by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271153?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Evaporating Cloud - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Evaporating_cloud",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

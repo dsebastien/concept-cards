@@ -1,0 +1,85 @@
+{
+    "id": "buffers",
+    "name": "Buffers",
+    "summary": "Protective capacity reserves in time, energy, money, or inventory that absorb variability and prevent system breakdowns when things don't go as planned.",
+    "explanation": "A buffer is a deliberate reserve built into a system to absorb variability, uncertainty, and disruption. While often seen as waste by efficiency-minded thinkers, buffers are essential for system resilience and sustained performance.\n\n## Types of buffers\n\n### Time buffers\nSchedule margin between commitments. If every meeting is back-to-back and every task fills every hour, a single overrun cascades into chaos. Time buffers absorb the inevitable variability.\n\n### Energy buffers\nNot pushing to 100% capacity every day. Maintaining reserve energy means you can handle unexpected demands without burning out. The 85% rule — performing at 85% intensity rather than maximum — preserves long-term performance.\n\n### Financial buffers\nEmergency funds, runway, and reserves. They turn crises into inconveniences. Without financial buffers, every unexpected expense becomes a potential disaster.\n\n### Inventory buffers\nStock held before bottlenecks to ensure they never starve. In the Theory of Constraints, a time buffer protects the constraint from upstream variability.\n\n### Cognitive buffers\nMental white space between intense tasks. Without cognitive buffers, there's no room for reflection, creativity, or processing what you've learned.\n\n## Why buffers matter\n\n- **Variability is inevitable**: No plan survives reality perfectly. Buffers absorb the difference.\n- **Cascading failures**: Without buffers, one disruption propagates through the entire system\n- **Recovery capacity**: Buffers give you room to recover from setbacks without derailing everything\n- **Quality protection**: Rushed work without margin produces errors that cost more to fix later\n- **Creative space**: Innovation requires slack — if every moment is utilized, there's no room for new ideas\n\n## Buffer sizing\n\nThe right buffer size depends on:\n\n- **Variability**: More uncertain environments need bigger buffers\n- **Cost of failure**: Higher stakes warrant larger buffers\n- **Recovery time**: How long it takes to bounce back from disruption\n- **Aggregation**: Pooled buffers (one shared reserve) are more efficient than individual padding (Critical Chain insight)\n\n## Common mistakes\n\n- **No buffers**: The efficiency trap — optimizing away all slack until the system is fragile\n- **Hidden buffers**: People padding individual estimates instead of using explicit shared buffers\n- **Uniform buffers**: Using the same buffer everywhere instead of sizing based on variability and risk\n- **Wasting buffers**: Treating buffer time as free time (Student Syndrome) instead of protective capacity\n\n## In personal productivity\n\n- Block buffer time between meetings (transition time)\n- Don't fill your task list to 100% capacity\n- Keep an emergency fund (financial buffer)\n- Maintain sleep reserves (don't chronically under-sleep)\n- Build relationship buffers (goodwill that absorbs occasional mistakes)\n\n## Key insight\n\nBuffers look like waste to anyone measuring efficiency. But efficiency without resilience is fragility. The most robust systems — biological, organizational, or personal — all maintain strategic reserves. The question isn't whether to have buffers, but where to place them and how big to make them.",
+    "tags": [
+        "systems-thinking",
+        "productivity",
+        "strategies",
+        "well-being",
+        "planning"
+    ],
+    "category": "Principles",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Slack",
+        "Margin",
+        "Reserves",
+        "Safety Margin"
+    ],
+    "relatedConcepts": [
+        "critical-chain-project-management",
+        "drum-buffer-rope",
+        "theory-of-constraints",
+        "student-syndrome",
+        "85-percent-rule",
+        "antifragility",
+        "resilience",
+        "margin-of-safety"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Slack by Tom DeMarco",
+            "url": "https://www.amazon.com/dp/0767907698?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Buffer (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Buffer_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

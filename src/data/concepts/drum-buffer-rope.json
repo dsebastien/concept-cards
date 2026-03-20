@@ -1,0 +1,84 @@
+{
+    "id": "drum-buffer-rope",
+    "name": "Drum-Buffer-Rope",
+    "summary": "A scheduling and flow management methodology from the Theory of Constraints where the constraint sets the pace, buffers protect it, and rope controls upstream work release.",
+    "explanation": "Drum-Buffer-Rope (DBR) is the production scheduling methodology of the Theory of Constraints, developed by Eliyahu Goldratt. It provides a simple, elegant way to manage flow through any system by focusing entirely on the constraint.\n\n## The three components\n\n### Drum\nThe constraint (bottleneck) sets the pace — the 'beat' — for the entire system. Just as a drum sets the marching pace for soldiers, the constraint determines how fast the whole system can produce. Nothing should be scheduled faster than the constraint can handle.\n\n### Buffer\nA time or inventory buffer is placed before the constraint to protect it from disruption. Since the constraint determines system throughput, any time the constraint is idle, the entire system loses output. The buffer ensures the constraint always has work available, even if upstream processes experience variability.\n\n### Rope\nA signaling mechanism ties the release of new work to the consumption rate of the constraint. Like a rope connecting the front of a marching column to the drummer, it prevents upstream processes from producing faster than the constraint can handle. This prevents work-in-progress buildup and keeps the system flowing smoothly.\n\n## Why it works\n\n- **Simplicity**: Instead of scheduling every work center, you only schedule the constraint\n- **Focus**: Attention goes to the one place that determines system performance\n- **Flow**: WIP stays controlled because new work only enters when the constraint pulls it\n- **Protection**: Buffers absorb variability without requiring safety time everywhere\n\n## Applications beyond manufacturing\n\n- **Software development**: If code review is the bottleneck, don't start more features than reviewers can handle (rope), keep a queue of review-ready work (buffer), and pace new feature starts to review capacity (drum)\n- **Content creation**: If editing is the constraint, write at the pace editing can absorb, maintain a buffer of draft content, and don't start new pieces until the editor pulls them\n- **Personal productivity**: If deep work time is your constraint, protect it with buffers (blocked calendar time), pace commitments to your deep work capacity (rope), and let your deep work hours set the rhythm of your output (drum)\n- **Team workflows**: Identify which role or activity is the bottleneck, protect it, and pace everything else accordingly\n\n## Simplified DBR (S-DBR)\n\nGoldratt later developed a simplified version where the market (demand) is treated as the constraint. In S-DBR, you only need a shipping buffer and use 'planned load' to manage capacity. This works well when internal capacity exceeds demand.\n\n## Key insight\n\nMost systems try to keep every resource busy. DBR does the opposite — it deliberately limits the pace of non-constraints to match the constraint. Counter-intuitively, this produces higher throughput with lower work-in-progress.",
+    "tags": [
+        "systems-thinking",
+        "management",
+        "processes",
+        "operations",
+        "productivity"
+    ],
+    "category": "Frameworks",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "DBR",
+        "S-DBR",
+        "Simplified Drum-Buffer-Rope"
+    ],
+    "relatedConcepts": [
+        "theory-of-constraints",
+        "bottleneck",
+        "throughput",
+        "limit-work-in-progress",
+        "kanban",
+        "pull-system",
+        "flow-efficiency",
+        "critical-chain-project-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Goal by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271951?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Drum-buffer-rope - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Drum%E2%80%93buffer%E2%80%93rope",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

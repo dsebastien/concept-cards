@@ -1,0 +1,46 @@
+{
+    "id": "stock-and-flow",
+    "name": "Stock and Flow",
+    "summary": "A systems thinking model where stocks are accumulations of things and flows are the rates at which they increase or decrease, fundamental to understanding how systems change over time.",
+    "explanation": "Stock and Flow is a foundational concept in systems thinking. A stock is an accumulation — something you can measure at a point in time. A flow is a rate of change — something measured over time. Together, they describe how systems evolve.\n\n## The bathtub analogy\n\nImagine a bathtub:\n- **Stock**: The amount of water in the tub (measured in liters)\n- **Inflow**: Water from the faucet (measured in liters per minute)\n- **Outflow**: Water down the drain (measured in liters per minute)\n\nThe water level rises when inflow exceeds outflow, falls when outflow exceeds inflow, and stays constant when they're equal. This simple model applies to nearly every accumulation you can think of.\n\n## Examples across domains\n\n### Knowledge management\n- **Stock**: Your knowledge base (notes, mental models, skills)\n- **Inflow**: Learning, reading, experiencing, note-taking\n- **Outflow**: Forgetting, skills becoming obsolete\n- Insight: Your knowledge grows only when learning rate exceeds forgetting rate. Active recall and spaced repetition reduce outflow.\n\n### Personal finance\n- **Stock**: Bank account balance, net worth\n- **Inflow**: Income, investment returns\n- **Outflow**: Expenses, debt payments\n- Insight: Wealth builds through sustained positive net flow, not through one-time windfalls.\n\n### Energy and well-being\n- **Stock**: Energy level, motivation, resilience\n- **Inflow**: Sleep, exercise, meaningful work, social connection\n- **Outflow**: Stress, overwork, poor sleep, toxic relationships\n- Insight: Burnout is a stock depletion problem — outflow exceeding inflow for too long.\n\n### Reputation and trust\n- **Stock**: Trust, credibility, social capital\n- **Inflow**: Keeping promises, delivering value, being reliable\n- **Outflow**: Breaking commitments, poor quality, dishonesty\n- Insight: Trust accumulates slowly but can drain rapidly. The asymmetry matters.\n\n### Content and audience\n- **Stock**: Published content, subscriber count\n- **Inflow**: New posts, new subscribers\n- **Outflow**: Outdated content, unsubscribes\n- Insight: Consistent publishing (steady inflow) matters more than viral moments.\n\n## Key properties of stocks\n\n- **Stocks change slowly**: Even with high flow rates, stocks have inertia. This creates delays in systems.\n- **Stocks decouple flows**: A stock can absorb differences between inflow and outflow, acting as a buffer.\n- **Stocks create memory**: The current stock level reflects the cumulative history of all past flows.\n- **Stocks are observable**: You can see and measure them at any moment, while flows require tracking over time.\n\n## Practical applications\n\n1. **Diagnose problems**: Is the issue with inflow (not enough coming in), outflow (too much leaving), or both?\n2. **Set realistic expectations**: Stocks change gradually — don't expect overnight transformations\n3. **Find leverage**: Sometimes reducing outflow is easier than increasing inflow (e.g., retention vs. acquisition)\n4. **Identify delays**: Stock behavior lags flow changes, which explains why interventions take time to show results\n\n## Key insight\n\nMost people focus on flows (actions, events) while ignoring stocks (accumulations, levels). But stocks determine the state of the system. Understanding the stock-and-flow structure of any situation reveals why things change slowly, why quick fixes rarely work, and where the real leverage lies.",
+    "tags": [
+        "systems-thinking",
+        "mental-models",
+        "strategies",
+        "modeling",
+        "principles"
+    ],
+    "category": "Thinking",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": [
+        "Stocks and Flows",
+        "Accumulation and Depletion"
+    ],
+    "relatedConcepts": [
+        "systems-thinking",
+        "feedback-loop",
+        "causal-loop-diagram",
+        "leverage-points",
+        "theory-of-constraints",
+        "delayed-gratification"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Thinking in Systems by Donella Meadows",
+            "url": "https://www.amazon.com/dp/1603580557?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Stock and flow - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Stock_and_flow",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

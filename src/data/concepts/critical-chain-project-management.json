@@ -1,0 +1,62 @@
+{
+    "id": "critical-chain-project-management",
+    "name": "Critical Chain Project Management",
+    "summary": "A project management method from the Theory of Constraints that manages uncertainty through strategic buffers rather than padding individual task estimates.",
+    "explanation": "Critical Chain Project Management (CCPM) is a method of planning and managing projects developed by Eliyahu Goldratt, introduced in his 1997 book 'Critical Chain'. It applies the Theory of Constraints to project management, addressing the chronic problems of projects finishing late, over budget, and with reduced scope.\n\n## The problem with traditional project management\n\nTraditional approaches suffer from several behavioral dysfunctions:\n\n- **Student syndrome**: People start tasks at the last possible moment, wasting any safety time built into estimates\n- **Parkinson's Law**: Work expands to fill the time allotted — even if a task finishes early, the time isn't recaptured\n- **Multi-tasking**: Splitting attention across multiple projects dramatically increases lead times for all of them\n- **Milestone mentality**: People manage to milestones rather than focusing on overall project completion\n\n## How CCPM works\n\n1. **Build the network**: Create the project schedule based on task dependencies\n2. **Identify the critical chain**: The longest chain of dependent tasks considering both task dependencies AND resource constraints (unlike Critical Path which only considers task dependencies)\n3. **Cut task estimates**: Remove safety padding from individual tasks (often cut estimates by 50%)\n4. **Add project buffer**: Pool the removed safety into a project buffer at the end of the critical chain\n5. **Add feeding buffers**: Place buffers where non-critical chains feed into the critical chain\n6. **Manage by buffer consumption**: Track how much buffer has been consumed relative to project completion\n\n## Buffer management\n\nThe key innovation is buffer management — tracking buffer consumption using a simple traffic light system:\n\n- **Green**: Buffer consumption proportional to or less than chain completion — no action needed\n- **Yellow**: Buffer being consumed faster than the chain is completing — plan recovery actions\n- **Red**: Buffer consumption critical — execute recovery plans immediately\n\n## Why it works\n\n- **Aggregation effect**: Pooling safety into buffers leverages statistics — not every task will need its safety time, so the aggregate buffer is smaller than the sum of individual padding\n- **Focus**: By eliminating multi-tasking, each task gets full attention and finishes faster\n- **Visibility**: Buffer management provides early warning of problems, unlike milestone tracking which only reveals issues after they've happened\n- **Behavior change**: Aggressive estimates eliminate Student syndrome; there's no safety to waste\n\n## Applications beyond projects\n\nThe principles apply to personal productivity:\n\n- Don't pad individual task estimates — keep a general buffer instead\n- Stop multi-tasking — focus on one thing at a time\n- Track your buffer (energy, time margin) rather than individual task adherence\n- Plan for uncertainty at the aggregate level, not the task level",
+    "tags": [
+        "management",
+        "processes",
+        "systems-thinking",
+        "planning",
+        "strategies"
+    ],
+    "category": "Frameworks",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "CCPM",
+        "Critical Chain"
+    ],
+    "relatedConcepts": [
+        "theory-of-constraints",
+        "parkinson-law",
+        "bottleneck",
+        "throughput",
+        "drum-buffer-rope",
+        "limit-work-in-progress",
+        "planning-fallacy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Critical Chain by Eliyahu M. Goldratt",
+            "url": "https://www.amazon.com/dp/0884271536?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Critical chain project management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Critical_chain_project_management",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}
