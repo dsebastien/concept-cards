@@ -1,17 +1,18 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(grep:*)",
-      "Bash(ls:*)",
-      "Bash(cat:*)",
-      "Bash(npm:*)",
-      "Bash(jq:*)",
-      "Bash(done)",
-      "Bash(find:*)"
-    ]
-  },
-  "enabledPlugins": {
-    "frontend-design@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": true
-  }
+    "permissions": {
+        "allow": [
+            "Bash(grep:*)",
+            "Bash(ls:*)",
+            "Bash(cat:*)",
+            "Bash(npm:*)",
+            "Bash(jq:*)",
+            "Bash(done)",
+            "Bash(find:*)"
+        ]
+    },
+    "enabledPlugins": {
+        "frontend-design@claude-plugins-official": true,
+        "superpowers@claude-plugins-official": true,
+        "clean-commits@dsebastien/claude-code-clean-commits": true
+    }
 }
