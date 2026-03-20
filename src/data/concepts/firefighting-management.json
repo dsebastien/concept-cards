@@ -1,0 +1,87 @@
+{
+    "id": "firefighting-management",
+    "name": "Firefighting Management",
+    "summary": "A reactive management pattern of constantly responding to urgent crises rather than addressing root causes or planning proactively.",
+    "explanation": "Firefighting management is a reactive organizational pattern where teams and leaders spend most of their time responding to urgent crises, leaving little capacity for proactive planning, process improvement, or strategic work. Like literal firefighters rushing from blaze to blaze, these teams never get ahead of problems because they're always putting out the latest fire.\n\n**The Firefighting Trap**:\n1. A crisis emerges and demands immediate attention\n2. Resources are pulled from planned work to address the crisis\n3. Planned work is delayed, creating new problems downstream\n4. Those delayed problems become the next crisis\n5. The cycle repeats, becoming self-reinforcing\n\n**Characteristics of firefighting cultures**:\n- Heroics are celebrated (the person who fixed the outage at 3 AM) while prevention is invisible\n- Planned work is constantly interrupted by emergencies\n- Root cause analysis is skipped because there's always another fire\n- The same types of problems recur because underlying causes aren't addressed\n- Teams feel perpetually busy but never make strategic progress\n- Technical debt, process debt, and organizational debt accumulate\n\n**Why it persists**: Firefighting produces immediate, visible results — the problem was there, now it's solved. Prevention produces invisible results — the problem that didn't happen. Organizations tend to reward what they can see, creating perverse incentives that perpetuate reactive behavior.\n\n**Breaking the cycle**:\n- **Allocate protected time for proactive work**: Even 20% prevents degradation\n- **Conduct root cause analysis**: Treat each fire as a symptom, not the disease\n- **Track recurring issues**: Patterns reveal systemic problems worth fixing\n- **Measure prevention**: Track incidents prevented, not just incidents resolved\n- **Resist the urgency trap**: Not every 'urgent' issue is truly urgent\n- **Build slack**: Systems at 100% capacity have zero room for unexpected demands\n\nIn software development, firefighting manifests as constant bug fixes with no time for architecture improvement, which creates more bugs, which creates more firefighting. The Eisenhower Matrix's Quadrant II (important but not urgent) is precisely the work that breaks this cycle.",
+    "tags": [
+        "management",
+        "leadership",
+        "productivity",
+        "organizations",
+        "decision-making"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaFire",
+    "featured": false,
+    "aliases": [
+        "Crisis management mode",
+        "Firefighting mode",
+        "Fire-fighting management"
+    ],
+    "relatedConcepts": [
+        "proactivity",
+        "eisenhower-matrix",
+        "urgency-addiction",
+        "technical-debt",
+        "root-cause-analysis",
+        "crisis-management"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Firefighting (management) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Firefighting_(management)",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20"
+}

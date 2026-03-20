@@ -3,19 +3,41 @@
     "name": "Set Theory",
     "summary": "The branch of mathematics studying collections of objects, providing the foundational language and framework for nearly all of modern mathematics.",
     "explanation": "Set Theory is the mathematical study of sets — well-defined collections of distinct objects. Developed primarily by Georg Cantor in the late 19th century, it has become the foundational language upon which virtually all of modern mathematics is built.\n\n**Basic concepts**:\n- **Set**: A collection of distinct objects (elements or members)\n- **Subset**: A set whose elements all belong to another set\n- **Union**: Combining elements from two or more sets\n- **Intersection**: Elements common to two or more sets\n- **Complement**: Elements not in a given set\n- **Power set**: The set of all subsets of a set\n- **Cardinality**: The 'size' or number of elements in a set\n\n**Key results**:\n- Sets can be finite or infinite\n- There are different sizes of infinity (Cantor's discovery)\n- The power set of any set is strictly larger than the set itself (Cantor's theorem)\n- The natural numbers, integers, and rationals are all the same infinite size\n- The real numbers are a larger infinity than the natural numbers\n\n**Axiomatic set theory**:\nNaive set theory led to paradoxes (like Russell's Paradox: the set of all sets that don't contain themselves). This motivated formal axiom systems:\n- **ZFC** (Zermelo-Fraenkel with Choice): The standard foundation for mathematics\n- **NBG** (von Neumann-Bernays-Godel): An alternative that distinguishes sets and classes\n\n**Why it matters**:\nSet theory provides the vocabulary for all of mathematics. Numbers, functions, relations, geometric objects — all can be defined in terms of sets. Understanding set theory means understanding the grammar of mathematical thought.\n\n**Connection to logic and computing**:\nSet theory is deeply connected to mathematical logic, computability theory, and type theory in computer science. Database queries, type systems, and formal verification all rely on set-theoretic concepts.",
-    "tags": ["mathematics", "logic", "foundations", "abstraction"],
+    "tags": [
+        "mathematics",
+        "logic",
+        "foundations",
+        "abstraction"
+    ],
     "category": "Concepts",
     "icon": "FaAtom",
     "featured": false,
-    "aliases": ["Theory of Sets"],
-    "relatedConcepts": ["infinite-sets", "countable-infinity", "uncountable-infinity", "cantors-diagonal-argument", "continuum-hypothesis", "hilberts-hotel", "abstraction", "logical-fallacies", "mece", "venn-diagram"],
+    "aliases": [
+        "Theory of Sets"
+    ],
+    "relatedConcepts": [
+        "infinite-sets",
+        "countable-infinity",
+        "uncountable-infinity",
+        "cantors-diagonal-argument",
+        "continuum-hypothesis",
+        "hilberts-hotel",
+        "abstraction",
+        "logical-fallacies",
+        "mece",
+        "venn-diagram"
+    ],
     "relatedNotes": [],
     "articles": [],
     "books": [],
     "references": [
-        {"title": "Set theory - Wikipedia", "url": "https://en.wikipedia.org/wiki/Set_theory", "type": "website"}
+        {
+            "title": "Set theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Set_theory",
+            "type": "website"
+        }
     ],
     "tutorials": [],
     "datePublished": "2026-03-07",
-    "dateModified": "2026-03-07"
+    "dateModified": "2026-03-20"
 }
