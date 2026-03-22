@@ -1,0 +1,36 @@
+{
+    "id": "activation-rate",
+    "name": "Activation Rate",
+    "summary": "A product metric measuring the percentage of new users who complete a key action or set of actions that indicates they have experienced the product's core value.",
+    "explanation": "Activation rate measures the percentage of new users who reach a defined 'activation event' — the moment they first experience the core value of a product. It is one of the most important metrics in the user lifecycle because it sits at the critical junction between acquisition (getting users to sign up) and retention (getting them to come back).\n\n**The Activation Concept**:\n\nActivation answers: 'Of the people who signed up, how many actually got value from the product?' Signing up is not enough — users must complete specific actions that correlate with long-term retention:\n\n- **Slack**: Sending 2,000 messages as a team (the point at which teams are likely to keep using Slack)\n- **Dropbox**: Putting at least one file in a folder on one device\n- **Facebook**: Adding 7 friends within 10 days\n- **Twitter**: Following 30 people\n- **Zoom**: Completing a first video call\n\n**Why Activation Rate Matters**:\n\n1. **Retention predictor**: Users who activate retain at dramatically higher rates than those who don't. Improving activation rate has an outsized impact on long-term growth\n2. **Onboarding effectiveness**: Low activation rate signals that onboarding is failing — users can't find or experience the product's value\n3. **Product-market fit signal**: If many users sign up but few activate, the product may not be delivering on its promise\n4. **Growth multiplier**: Improving activation rate amplifies the value of every dollar spent on acquisition\n5. **Funnel bottleneck identifier**: Activation rate analysis reveals exactly where users drop off\n\n**Calculating Activation Rate**:\n\nActivation Rate = (Users who completed activation event / Total new users) × 100%\n\nTime window matters: define a reasonable period for activation (e.g., within first 7 days, first session, first 30 days). The window should be long enough for normal usage patterns but short enough to identify problems quickly.\n\n**Finding Your Activation Event**:\n\n1. **Analyze retention curves**: Identify actions that, when completed, correlate with significantly higher retention at 30, 60, and 90 days\n2. **Talk to users**: Ask churned users what they didn't understand and retained users what 'clicked' for them\n3. **Map the value delivery**: What is the minimum set of actions a user must take to receive the product's core value?\n4. **Test causation**: Correlation isn't causation. Ensure the activation event actually drives retention, not just correlates with the type of user who would retain anyway\n\n**Improving Activation Rate**:\n\n- **Reduce time to value**: Eliminate steps between signup and the first moment of value\n- **Progressive onboarding**: Guide users through activation steps without overwhelming them\n- **Remove friction**: Each additional step, field, or decision point in onboarding reduces activation\n- **Show value early**: Use templates, sample data, or demos to show users what success looks like before they invest effort\n- **Trigger-based communication**: Send targeted messages (email, in-app) to users who start but don't complete activation\n- **Segment and personalize**: Different user types may have different activation paths\n\n**Common Pitfalls**:\n\n- **Wrong activation event**: Choosing an event that's easy to measure rather than one that truly predicts retention\n- **Too many activation criteria**: Complex multi-step activation events make the metric hard to move and the user journey confusing\n- **Ignoring time-to-activate**: Two products with the same activation rate but different time-to-activate have very different user experiences\n- **Optimizing for activation theater**: Forcing users through steps (mandatory tutorials, required profile completion) that don't actually deliver value",
+    "tags": [
+        "metrics",
+        "product-management",
+        "analytics",
+        "user-engagement",
+        "growth"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "User activation rate",
+        "Product activation"
+    ],
+    "relatedConcepts": [
+        "daily-active-users",
+        "monthly-active-users",
+        "retention-rate",
+        "churn-rate",
+        "engagement-metrics",
+        "cohort-analysis",
+        "stickiness"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

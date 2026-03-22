@@ -1,0 +1,42 @@
+{
+    "id": "daily-active-users",
+    "name": "Daily Active Users",
+    "summary": "A product metric counting the number of unique users who engage with a product or service within a single day.",
+    "explanation": "Daily Active Users (DAU) is a key product and business metric that counts the number of unique users who perform a meaningful action within a product during a single calendar day. It is one of the most widely tracked engagement metrics in software, social media, gaming, and digital services.\n\n**Defining 'Active'**:\n\nThe critical challenge with DAU is defining what constitutes an 'active' user. Different products use different definitions:\n\n- **Minimal definition**: Any user who opens the app or visits the site\n- **Engagement definition**: Any user who performs a core action (posting, messaging, transacting)\n- **Value definition**: Any user who completes an action tied to the product's core value proposition\n\nThe choice of definition significantly affects the number and its usefulness. A social media platform might count anyone who scrolls their feed, while an e-commerce platform might only count users who view a product page. The best DAU definitions align with the product's core value — measuring actions that indicate the user received value, not just that they showed up.\n\n**Why DAU Matters**:\n\n1. **Engagement health**: DAU trends reveal whether a product is gaining or losing user attention\n2. **Monetization foundation**: For ad-supported products, DAU directly determines revenue potential\n3. **Retention signal**: Stable or growing DAU indicates users are returning consistently\n4. **Feature impact**: Changes in DAU after feature launches or changes reveal their impact on user behavior\n5. **Investor metric**: DAU is a standard metric reported to investors and in public company earnings\n\n**DAU in Context**:\n\nDAU is most valuable when analyzed alongside related metrics:\n\n- **DAU/MAU ratio (stickiness)**: The percentage of monthly users who engage daily. A ratio of 50%+ indicates very high engagement (e.g., messaging apps). A ratio of 10-20% is typical for many products\n- **DAU growth rate**: Is DAU growing, stable, or declining? The trend matters more than the absolute number\n- **New vs. returning DAU**: Breaking DAU into new users and returning users reveals whether growth comes from acquisition or retention\n- **DAU by cohort**: Tracking DAU for specific user cohorts over time reveals retention curves\n\n**Limitations**:\n\n- **Vanity metric risk**: High DAU doesn't guarantee revenue, satisfaction, or long-term viability\n- **Definition gaming**: Teams can inflate DAU by broadening the 'active' definition or sending notifications that drive low-quality visits\n- **Not universally applicable**: Products with natural weekly or monthly usage patterns (tax software, travel booking) shouldn't optimize for daily engagement\n- **Quality vs. quantity**: DAU counts users equally regardless of engagement depth\n- **Platform dependency**: For products distributed through app stores or platforms, DAU can be affected by algorithm changes outside the product team's control\n\n**Industry Benchmarks**:\n\n- **Messaging apps** (WhatsApp, Telegram): DAU/MAU of 50-70%\n- **Social media** (Instagram, TikTok): DAU/MAU of 40-60%\n- **Productivity tools** (Slack, Notion): DAU/MAU of 30-50% for work days\n- **Marketplace/e-commerce**: DAU/MAU of 10-25%\n- **Entertainment/gaming**: Varies widely, from 5% (casual) to 40% (competitive/social)",
+    "tags": [
+        "metrics",
+        "product-management",
+        "analytics",
+        "business",
+        "user-engagement"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "DAU"
+    ],
+    "relatedConcepts": [
+        "weekly-active-users",
+        "monthly-active-users",
+        "stickiness",
+        "churn-rate",
+        "retention-rate",
+        "engagement-metrics",
+        "activation-rate",
+        "cohort-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Daily active users - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Daily_active_users",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

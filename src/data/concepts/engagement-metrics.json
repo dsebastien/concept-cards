@@ -1,0 +1,44 @@
+{
+    "id": "engagement-metrics",
+    "name": "Engagement Metrics",
+    "summary": "Quantitative measures that track how users interact with a product or service, including frequency, depth, and quality of usage.",
+    "explanation": "Engagement metrics are a family of quantitative measures used to assess how actively and meaningfully users interact with a product, platform, or service. They go beyond simple adoption metrics (like total signups) to answer: 'Are users actually using this, and are they getting value from it?'\n\n**The Engagement Metric Framework**:\n\nEngagement can be measured across several dimensions:\n\n**Breadth — How many users engage?**\n- Daily Active Users (DAU)\n- Weekly Active Users (WAU)\n- Monthly Active Users (MAU)\n- Active user ratios (DAU/MAU for stickiness)\n\n**Depth — How intensely do they engage?**\n- Session duration (time spent per visit)\n- Pages/screens per session\n- Actions per session (messages sent, items viewed, tasks completed)\n- Feature adoption rate (percentage of users using specific features)\n\n**Frequency — How often do they return?**\n- Sessions per user per day/week/month\n- DAU/MAU ratio (stickiness)\n- Time between sessions (inter-session interval)\n- Visit cadence patterns\n\n**Quality — Is the engagement valuable?**\n- Conversion rate (free to paid, browse to purchase)\n- Net Promoter Score (NPS)\n- Customer satisfaction (CSAT)\n- Task completion rate\n- Error rate during key flows\n\n**The AARRR Framework (Pirate Metrics)**:\n\nDave McClure's framework organizes engagement metrics across the user lifecycle:\n\n1. **Acquisition**: How do users find you? (Traffic sources, signup rate)\n2. **Activation**: Do they have a good first experience? (Activation rate, onboarding completion)\n3. **Retention**: Do they come back? (Retention rate, DAU/MAU)\n4. **Revenue**: Do they pay? (Conversion rate, ARPU, LTV)\n5. **Referral**: Do they tell others? (Viral coefficient, referral rate)\n\n**Choosing the Right Metrics**:\n\nThe best engagement metrics are:\n\n- **Tied to value**: They measure actions that indicate users received genuine value, not just that they were present\n- **Actionable**: They can be influenced by product decisions\n- **Comparable**: They enable comparison across time periods, cohorts, and segments\n- **Leading indicators**: They predict future outcomes (retention, revenue) rather than just documenting the past\n\n**Common Anti-Patterns**:\n\n- **Vanity metrics**: Tracking impressive-sounding numbers (total downloads, page views) that don't correlate with business success\n- **Over-measurement**: Tracking so many metrics that no clear signal emerges\n- **Gaming metrics**: Optimizing for engagement metrics through dark patterns (infinite scroll, notification spam) rather than genuine value delivery\n- **Ignoring context**: Comparing engagement across fundamentally different product categories or user segments\n- **Metric fixation**: Treating the metric as the goal rather than a proxy for user value (Goodhart's Law)\n\n**Engagement Metrics by Product Type**:\n\n| Product Type | Primary Metric | Secondary Metrics |\n|-------------|---------------|-------------------|\n| Social media | DAU/MAU | Time spent, posts per user, interactions |\n| SaaS (B2B) | WAU, feature adoption | Tasks completed, seats activated |\n| E-commerce | Purchase frequency | Cart conversion, browse-to-buy ratio |\n| Content/media | Session duration | Articles read, completion rate |\n| Marketplace | Transactions per user | Listing views, buyer/seller ratio |\n| Gaming | DAU, session length | Levels completed, in-app purchases |\n\n**Evolution of Engagement Thinking**:\n\nThe industry has shifted from quantity-focused metrics (time spent, clicks) toward quality-focused metrics (value delivered, problems solved). This reflects growing recognition that engagement theater — keeping users hooked without delivering proportional value — is both ethically questionable and commercially unsustainable.",
+    "tags": [
+        "metrics",
+        "product-management",
+        "analytics",
+        "business",
+        "user-engagement"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "User engagement metrics",
+        "Product engagement metrics",
+        "Pirate metrics"
+    ],
+    "relatedConcepts": [
+        "daily-active-users",
+        "weekly-active-users",
+        "monthly-active-users",
+        "stickiness",
+        "retention-rate",
+        "churn-rate",
+        "activation-rate",
+        "cohort-analysis",
+        "net-promoter-score"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Lean Analytics by Alistair Croll and Benjamin Yoskovitz",
+            "url": "https://www.amazon.com/dp/1449335675?tag=dsebastien00-20"
+        }
+    ],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

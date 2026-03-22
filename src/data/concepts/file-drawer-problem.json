@@ -1,0 +1,42 @@
+{
+    "id": "file-drawer-problem",
+    "name": "File Drawer Problem",
+    "summary": "The tendency for studies with null or negative results to remain unpublished in researchers' file drawers, creating a systematically incomplete evidence base.",
+    "explanation": "The file drawer problem, coined by psychologist Robert Rosenthal in 1979, refers to the phenomenon where research studies that fail to find statistically significant results are disproportionately likely to remain unpublished — figuratively stuffed into a researcher's file drawer rather than submitted for publication. This creates a systematic gap in the scientific literature that distorts our understanding of what is true.\n\n**Rosenthal's Original Formulation**:\n\nRosenthal asked a pointed question: for any published finding, how many unpublished studies with null results would need to exist in file drawers to overturn the conclusion? He called this the 'fail-safe N.' If only a small number of null studies would be needed to negate a finding, the finding is fragile. If a large number would be needed, the finding is robust. This framework provided the first quantitative approach to assessing the threat of unpublished null results.\n\n**Why Studies End Up in File Drawers**:\n\n1. **Journal rejection**: Null results are harder to publish. Researchers learn not to submit them\n2. **Researcher discouragement**: Finding 'nothing' feels like failure, discouraging the effort of writing up results\n3. **Career incentives**: Time spent writing up null results is time not spent on work that will advance one's career\n4. **Narrative difficulty**: Positive results tell a clear story; null results require explaining why nothing happened, which is harder to make compelling\n5. **Ambiguity of interpretation**: A null result could mean the hypothesis is wrong, or the study was underpowered, or the methods were flawed — the ambiguity makes publication less attractive\n\n**Impact on Knowledge**:\n\n- **Meta-analyses become unreliable**: If a meta-analysis combines only published (predominantly positive) studies, it overestimates the true effect. The file drawer studies that would have brought the average down are invisible\n- **False confidence**: Practitioners (doctors, therapists, policymakers) make decisions based on a biased sample of evidence\n- **Wasted research effort**: Multiple research groups may independently discover that something doesn't work, but none publishes, so others keep trying the same failed approach\n- **Distorted theory development**: Theories built on selectively published evidence may be fundamentally wrong\n\n**The File Drawer Problem Beyond Science**:\n\nThe same dynamic operates in many domains:\n\n- **Business**: Failed product launches and unsuccessful strategies rarely get case studies written about them. MBA students study successes, not the far more numerous failures\n- **Investing**: Failed trading strategies don't get published or marketed. Only strategies that happened to work (possibly by chance) attract attention\n- **Startups**: Survivorship bias in entrepreneurship narratives — we hear about successful founders, not the 90% who failed with similar approaches\n- **Media**: Newsworthy events get coverage; the vast majority of non-events (planes that land safely, drugs that don't work) go unreported\n\n**Solutions and Mitigations**:\n\n- **Pre-registration**: Publicly registering studies before conducting them creates a record that the study was attempted, even if results are never published\n- **Registered reports**: Journals accept papers based on methodology before results are known, committing to publish regardless of outcome\n- **Open Science Framework**: Platforms for sharing all research outputs, including null results\n- **All Trials initiative**: Campaign requiring registration and reporting of all clinical trials\n- **Institutional change**: Universities and funding agencies are beginning to value research transparency alongside publication counts\n\n**Rosenthal's Legacy**:\n\nBy naming the problem in 1979, Rosenthal catalyzed decades of research into publication bias and its remedies. The file drawer problem remains one of the most important concepts in research methodology because it highlights a fundamental truth: the absence of evidence in the published literature is not evidence of absence in reality.",
+    "tags": [
+        "science",
+        "research-methodology",
+        "critical-thinking",
+        "statistics",
+        "cognitive-biases"
+    ],
+    "category": "Thinking",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "File drawer effect",
+        "Rosenthal's file drawer problem",
+        "Fail-safe N"
+    ],
+    "relatedConcepts": [
+        "publication-bias",
+        "replication-crisis",
+        "survivorship-bias",
+        "look-elsewhere-effect",
+        "scientific-method",
+        "confirmation-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "File drawer problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/File_drawer_problem",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

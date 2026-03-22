@@ -1,0 +1,36 @@
+{
+    "id": "monthly-active-users",
+    "name": "Monthly Active Users",
+    "summary": "A product metric counting the number of unique users who engage with a product or service within a 30-day period.",
+    "explanation": "Monthly Active Users (MAU) is one of the most widely reported product and business metrics, counting the number of unique users who perform a defined action within a product over a 30-day (or calendar month) period. It serves as a top-level indicator of a product's reach, adoption, and overall health.\n\n**Why MAU Is a Standard Metric**:\n\nMAU became the dominant engagement metric because it provides a broad, stable view of a product's user base:\n\n1. **Investor communication**: MAU is the standard metric in earnings reports, pitch decks, and IPO filings. Facebook, Spotify, and Netflix all report MAU prominently\n2. **Market sizing**: MAU provides a clear picture of how many people a product reaches\n3. **Monetization basis**: Revenue per MAU (ARPMAU) is a key business metric for subscription and ad-supported models\n4. **Growth tracking**: MAU growth rate is a primary indicator of product-market fit and go-to-market effectiveness\n5. **Comparability**: Because MAU is so widely used, it enables (imperfect) comparison across products and companies\n\n**Components of MAU**:\n\nMAU can be decomposed to reveal deeper insights:\n\n- **New users**: First-time users within the month (acquisition)\n- **Retained users**: Users who were also active in the prior month (retention)\n- **Resurrected users**: Previously churned users who returned (reactivation)\n- **Churned users**: Users active last month but not this month (attrition)\n\nThe formula: MAU(t) = Retained + New + Resurrected. Healthy growth shows increasing retention and a declining reliance on new user acquisition.\n\n**MAU as Part of the Engagement Stack**:\n\n| Level | Metric | What It Reveals |\n|-------|--------|-----------------|\n| Reach | MAU | Total addressable engaged audience |\n| Frequency | DAU/MAU | How often users return (stickiness) |\n| Depth | Time per session, actions per session | How deeply users engage |\n| Value | Revenue per MAU | How effectively engagement is monetized |\n\n**Limitations and Criticisms**:\n\n- **Low bar**: A user who visits once in 30 days counts the same as one who visits daily. MAU alone doesn't distinguish casual visitors from power users\n- **Growth illusion**: MAU can grow even while engagement declines if acquisition outpaces churn — a dangerous pattern called 'leaky bucket' growth\n- **Definition gaming**: Companies sometimes change their 'active' definition to inflate MAU, making historical comparison unreliable\n- **Multi-accounting**: Users with multiple accounts inflate MAU without representing real growth\n- **Bot traffic**: Automated accounts can inflate MAU, particularly on social platforms\n- **Platform-specific**: MAU counted differently across web, mobile, and connected devices can lead to double-counting\n\n**Notable MAU Milestones** (approximate):\n\n- Facebook: 3+ billion MAU\n- YouTube: 2.5+ billion MAU\n- WhatsApp: 2+ billion MAU\n- Instagram: 2+ billion MAU\n- TikTok: 1.5+ billion MAU\n\n**Best Practices**:\n\n- Always define 'active' clearly and consistently\n- Report MAU alongside DAU/MAU ratio to show engagement quality\n- Break down MAU into new, retained, and resurrected components\n- Track cohort-based retention rather than relying solely on aggregate MAU\n- Complement MAU with revenue metrics to ensure engagement translates to business value",
+    "tags": [
+        "metrics",
+        "product-management",
+        "analytics",
+        "business",
+        "user-engagement"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "MAU"
+    ],
+    "relatedConcepts": [
+        "daily-active-users",
+        "weekly-active-users",
+        "stickiness",
+        "churn-rate",
+        "retention-rate",
+        "engagement-metrics",
+        "cohort-analysis",
+        "activation-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

@@ -1,0 +1,35 @@
+{
+    "id": "weekly-active-users",
+    "name": "Weekly Active Users",
+    "summary": "A product metric counting the number of unique users who engage with a product or service within a seven-day period.",
+    "explanation": "Weekly Active Users (WAU) is a product engagement metric that counts unique users who perform a meaningful action within a product during a rolling or calendar seven-day period. WAU occupies a middle ground between the granularity of DAU and the broader view of MAU, making it particularly useful for products with natural weekly usage patterns.\n\n**When WAU Is the Right Metric**:\n\nWAU is most appropriate for products where daily use isn't expected but weekly engagement is a healthy signal:\n\n- **Professional tools**: Products used during work weeks (project management, analytics platforms, CRM systems)\n- **Content platforms**: Weekly content consumption (newsletters, podcasts, streaming services)\n- **Fitness and wellness apps**: Exercise routines that follow weekly schedules\n- **Marketplace platforms**: Shopping and browsing behavior that peaks on certain days\n- **Educational platforms**: Course-based learning with weekly modules\n\n**WAU vs. DAU and MAU**:\n\n| Metric | Best For | Limitation |\n|--------|----------|------------|\n| DAU | High-frequency products (messaging, social) | Too granular for products with natural weekly/monthly rhythms |\n| WAU | Medium-frequency products (productivity, content) | Can mask day-to-day volatility or monthly seasonality |\n| MAU | Low-frequency products (travel, finance) | Too broad to detect engagement changes quickly |\n\n**Key Ratios**:\n\n- **WAU/MAU**: Indicates how frequently monthly users engage within a given week. A high ratio (>70%) suggests strong habitual usage\n- **DAU/WAU**: Shows what fraction of weekly users engage daily. Useful for understanding engagement depth within active weeks\n- **WAU growth rate**: Week-over-week growth reveals momentum better than daily fluctuations\n\n**Calculating WAU**:\n\nWAU can be measured as:\n- **Rolling 7-day**: Count unique active users in the past 7 days from any given point (smoother, more current)\n- **Calendar week**: Count unique active users Monday through Sunday (simpler, aligns with business cycles)\n\nThe rolling approach avoids distortions from day-of-week effects and is generally preferred for operational monitoring.\n\n**Analytical Value**:\n\n1. **Smooths daily noise**: DAU can fluctuate significantly based on day-of-week, holidays, or one-time events. WAU provides a more stable signal\n2. **Detects trends faster than MAU**: WAU responds to changes within 1-2 weeks rather than requiring a full month of data\n3. **Aligns with work rhythms**: Many products are used on a weekly cycle, making WAU a natural fit\n4. **Enables week-over-week analysis**: Comparing the same day-of-week or same calendar week eliminates cyclical effects\n\n**Limitations**:\n\n- **Definition inconsistency**: Like DAU and MAU, what counts as 'active' varies across products and companies, making cross-product comparison difficult\n- **Less standard than DAU/MAU**: Investors and analysts more commonly request DAU and MAU, making WAU less useful for external reporting\n- **Partial week effects**: Calendar-week WAU at month boundaries can be distorted by partial weeks\n- **Seasonal masking**: Rolling 7-day WAU can obscure longer-term seasonal patterns",
+    "tags": [
+        "metrics",
+        "product-management",
+        "analytics",
+        "business",
+        "user-engagement"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "WAU"
+    ],
+    "relatedConcepts": [
+        "daily-active-users",
+        "monthly-active-users",
+        "stickiness",
+        "churn-rate",
+        "retention-rate",
+        "engagement-metrics",
+        "cohort-analysis"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

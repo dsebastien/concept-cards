@@ -1,0 +1,49 @@
+{
+    "id": "stickiness",
+    "name": "Stickiness",
+    "summary": "A product engagement metric measuring how frequently users return to a product, typically calculated as the ratio of daily active users to monthly active users (DAU/MAU).",
+    "explanation": "Stickiness is a product metric that measures how habitually users engage with a product. Most commonly expressed as the DAU/MAU ratio, it answers a fundamental question: of all the people who use your product in a month, what fraction use it on any given day?\n\n**The DAU/MAU Ratio**:\n\nStickiness = DAU / MAU × 100%\n\n- A stickiness of 50% means half of monthly users engage every day\n- A stickiness of 10% means the average monthly user visits about 3 days per month\n- The theoretical maximum is 100% (every monthly user is also a daily user)\n\n**Why Stickiness Matters**:\n\n1. **Retention proxy**: High stickiness indicates strong habit formation and product-market fit. Users aren't just trying the product — they're coming back repeatedly\n2. **Monetization potential**: Sticky products have more opportunities to generate revenue through ads, transactions, or subscription value delivery\n3. **Defensibility**: Products with high stickiness are harder for competitors to displace because they've become part of users' daily routines\n4. **Organic growth indicator**: Sticky products are more likely to generate word-of-mouth referrals because users think about them frequently\n5. **Investor signal**: High stickiness is one of the strongest signals of product quality that investors look for\n\n**Stickiness Benchmarks by Category**:\n\n| Product Category | Typical DAU/MAU | Examples |\n|-----------------|----------------|----------|\n| Messaging | 50-70% | WhatsApp, Slack, iMessage |\n| Social media | 40-60% | Instagram, TikTok, Twitter |\n| Productivity (work) | 30-50% | Gmail, Notion, VS Code |\n| Entertainment | 20-40% | Netflix, Spotify, YouTube |\n| E-commerce | 10-25% | Amazon, eBay |\n| Travel/booking | 5-15% | Airbnb, Booking.com |\n| Finance | 10-30% | Banking apps, trading apps |\n\n**What Drives Stickiness**:\n\n- **Habit loops**: Products that create triggers, routines, and rewards build daily engagement\n- **Network effects**: Social products become stickier as more connections join\n- **Content freshness**: New content (feeds, notifications, updates) gives users a reason to return\n- **Workflow integration**: Products embedded in daily workflows (email, project management) become indispensable\n- **Stored value**: User-generated content, data, and history create switching costs that reinforce daily usage\n- **Variable rewards**: Unpredictable but rewarding experiences (social media feeds, marketplace deals) drive repeated checking\n\n**Improving Stickiness**:\n\n1. **Identify your 'aha moment'**: What action, when completed, predicts long-term retention? Drive users to that action faster\n2. **Build notification loops**: Thoughtful notifications that provide genuine value (not spam) bring users back\n3. **Create daily value**: Give users a reason to check in every day — new content, progress tracking, social interactions\n4. **Reduce friction**: Every tap, click, or second of load time is a barrier to returning. Make the product effortless to use\n5. **Layer features**: Add capabilities that serve different use cases, so users have multiple reasons to engage\n\n**Limitations**:\n\n- **Not all products should be daily**: Optimizing for stickiness can be counterproductive for naturally episodic products (tax prep, car insurance, travel booking)\n- **Quality vs. addiction**: Very high stickiness can indicate manipulation (dark patterns, artificial urgency) rather than genuine value\n- **Metric gaming**: Notification spam and engagement bait can temporarily inflate DAU/MAU without improving real product value\n- **Denominator effects**: MAU changes can make stickiness move in counterintuitive directions",
+    "tags": [
+        "metrics",
+        "product-management",
+        "user-engagement",
+        "business",
+        "analytics"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "DAU/MAU ratio",
+        "Product stickiness",
+        "User stickiness"
+    ],
+    "relatedConcepts": [
+        "daily-active-users",
+        "monthly-active-users",
+        "weekly-active-users",
+        "retention-rate",
+        "churn-rate",
+        "engagement-metrics",
+        "habit-loop",
+        "network-effects"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Hooked: How to Build Habit-Forming Products by Nir Eyal",
+            "url": "https://www.amazon.com/dp/1591847788?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Stickiness (user engagement) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Stickiness_(computing)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

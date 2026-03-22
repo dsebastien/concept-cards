@@ -1,0 +1,42 @@
+{
+    "id": "publication-bias",
+    "name": "Publication Bias",
+    "summary": "The tendency for research with positive or statistically significant results to be published more often than studies with null or negative findings, distorting the evidence base.",
+    "explanation": "Publication bias is a systematic distortion of the scientific literature caused by the preferential publication of studies with positive, novel, or statistically significant results over studies with null, negative, or inconclusive findings. This means the published research on any topic may not accurately represent the full body of evidence — it represents only the subset that 'worked.'\n\n**How Publication Bias Operates**:\n\nThe bias operates at multiple levels of the research ecosystem:\n\n1. **Researcher self-censorship**: Scientists may not even write up null results, assuming they won't be published. They may reframe analyses to find significant results (p-hacking) or abandon lines of inquiry that don't yield publishable findings\n2. **Journal editorial preferences**: Journals preferentially accept papers with novel, significant findings. 'We found no effect' is rarely considered newsworthy enough for a top journal\n3. **Reviewer bias**: Peer reviewers may view null results with more skepticism, assuming methodological problems rather than genuine absence of effect\n4. **Funding incentives**: Grant agencies reward researchers with publication records, creating pressure to produce publishable (i.e., positive) results\n5. **Career incentives**: Academic promotion depends on publications, particularly in high-impact journals, reinforcing the cycle\n\n**Consequences**:\n\n- **Overestimation of effects**: If only positive studies are published, meta-analyses and literature reviews overestimate the true size of effects. A treatment that doesn't actually work may appear effective because only the studies that happened to find an effect got published\n- **Wasted resources**: Other researchers may pursue dead ends because the negative evidence that would have redirected them was never published\n- **Misleading clinical practice**: In medicine, publication bias can lead to adoption of ineffective or harmful treatments\n- **Erosion of trust**: When published findings fail to replicate, public trust in science erodes — but the root cause is often publication bias, not bad science per se\n- **Replication crisis**: Publication bias is a primary driver of the replication crisis across psychology, medicine, economics, and other fields\n\n**The Funnel Plot**:\n\nPublication bias can be detected using funnel plots, which graph a study's effect size against its precision (usually sample size). In an unbiased literature, the plot should be symmetrical — small studies scatter widely around the true effect, while large studies cluster near it. Publication bias creates an asymmetric funnel, with small negative studies 'missing' from the bottom left.\n\n**Combating Publication Bias**:\n\n- **Pre-registration**: Registering study hypotheses, methods, and analysis plans before collecting data. This makes it harder to reframe hypotheses after seeing results\n- **Registered reports**: Journals commit to publishing studies based on the quality of the question and methodology, before results are known\n- **Open data and code**: Making raw data and analysis code publicly available enables independent verification\n- **Journals for null results**: Dedicated venues for null findings (e.g., Journal of Articles in Support of the Null Hypothesis)\n- **Replication studies**: Funding and publishing direct replications of important findings\n- **Systematic reviews**: Actively searching for unpublished studies and grey literature\n- **Effect size reporting**: Focusing on effect sizes and confidence intervals rather than binary significance testing\n\n**Scale of the Problem**:\n\nStudies suggest that:\n- Approximately 90-95% of published papers report statistically significant results, far higher than would be expected from the true distribution of effects\n- An estimated 50-60% of clinical trials go unpublished\n- Positive results are approximately 3x more likely to be published than negative results\n\n**The Broader Lesson**:\n\nPublication bias illustrates a general principle: any system that filters information based on its content (rather than its quality) will produce a biased view of reality. The same dynamic appears in news media (negativity bias), social media (engagement bias), corporate reporting (success bias), and survivorship bias in business narratives.",
+    "tags": [
+        "science",
+        "research-methodology",
+        "cognitive-biases",
+        "critical-thinking",
+        "statistics"
+    ],
+    "category": "Thinking",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Reporting bias",
+        "Positive results bias",
+        "Positive outcome bias"
+    ],
+    "relatedConcepts": [
+        "replication-crisis",
+        "survivorship-bias",
+        "confirmation-bias",
+        "file-drawer-problem",
+        "look-elsewhere-effect",
+        "scientific-method"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Publication bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Publication_bias",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

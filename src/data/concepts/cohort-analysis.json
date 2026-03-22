@@ -1,0 +1,42 @@
+{
+    "id": "cohort-analysis",
+    "name": "Cohort Analysis",
+    "summary": "An analytical technique that groups users by shared characteristics or timeframes to track and compare their behavior and metrics over time.",
+    "explanation": "Cohort analysis is a method of behavioral analytics that divides users into groups (cohorts) based on shared characteristics — typically the date they first used a product — and tracks each group's metrics over time. By comparing cohorts rather than looking at aggregate numbers, it reveals patterns that would otherwise be invisible.\n\n**Why Cohort Analysis Matters**:\n\nAggregate metrics lie. Consider a product with stable MAU of 100,000. This looks healthy, but cohort analysis might reveal that each monthly cohort loses 80% of users within 60 days — the stable MAU is only maintained because aggressive acquisition keeps replacing churned users. Without cohort analysis, this 'leaky bucket' would be invisible until acquisition slows.\n\n**Types of Cohorts**:\n\n**Acquisition cohorts** (most common): Group users by when they first joined. 'January 2026 cohort' = all users who signed up in January 2026. Track each cohort's retention, engagement, and revenue over subsequent weeks/months.\n\n**Behavioral cohorts**: Group users by actions they took. 'Users who completed onboarding in first session' vs. 'Users who skipped onboarding.' Compare retention between these groups to identify which behaviors predict success.\n\n**Demographic/segment cohorts**: Group users by characteristics — plan type (free vs. paid), source (organic vs. paid), geography, device type. Reveals which segments have the best unit economics.\n\n**Reading a Cohort Retention Table**:\n\n| Cohort | Month 0 | Month 1 | Month 2 | Month 3 |\n|--------|---------|---------|---------|----------|\n| Jan    | 100%    | 40%     | 30%     | 25%     |\n| Feb    | 100%    | 45%     | 35%     | 28%     |\n| Mar    | 100%    | 50%     | 38%     | 32%     |\n\nThis table shows improving retention across cohorts — March users retained better than January users at every stage. This could indicate product improvements, better onboarding, or improved targeting.\n\n**Key Patterns to Look For**:\n\n1. **Retention curve shape**: Does the curve flatten (good — a stable base of retained users) or continue declining (bad — even long-term users eventually leave)?\n2. **Cohort-over-cohort improvement**: Are newer cohorts retaining better than older ones? This indicates product improvements are working\n3. **Drop-off points**: Where does the steepest decline occur? This identifies critical moments in the user journey\n4. **Resurrection patterns**: Do users in older cohorts sometimes reactivate? This might justify re-engagement campaigns\n5. **Segment differences**: Which cohorts (by source, plan, or behavior) have the best retention? Double down on those\n\n**Applications Beyond Product Metrics**:\n\n- **Marketing**: Compare customer lifetime value across acquisition channels\n- **Sales**: Track revenue retention by contract vintage\n- **Education**: Compare student outcomes by enrollment period or program\n- **Healthcare**: Track patient outcomes by treatment start date\n- **Content**: Analyze reader engagement by subscription date\n\n**Best Practices**:\n\n- **Choose the right time granularity**: Weekly cohorts for fast-moving products, monthly for slower ones\n- **Define metrics clearly**: Standardize what 'retained' means across all cohorts\n- **Allow sufficient maturation**: Don't draw conclusions from immature cohorts\n- **Segment deeply**: The most valuable insights come from comparing sub-cohorts\n- **Combine with qualitative data**: Numbers show what happened; user research explains why\n\n**Limitations**:\n\n- **Sample size**: Recent or highly segmented cohorts may be too small for reliable analysis\n- **Survivorship bias**: Analyzing only retained users ignores the experience of churned users\n- **External factors**: Seasonal effects, market changes, and competitor actions can affect cohorts independently of product quality\n- **Complexity**: Maintaining and analyzing many cohorts across many metrics can become analytically overwhelming",
+    "tags": [
+        "metrics",
+        "analytics",
+        "product-management",
+        "business",
+        "data-analysis"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Cohort retention analysis",
+        "Cohort-based analytics"
+    ],
+    "relatedConcepts": [
+        "retention-rate",
+        "churn-rate",
+        "daily-active-users",
+        "monthly-active-users",
+        "engagement-metrics",
+        "activation-rate",
+        "stickiness"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Cohort analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cohort_analysis",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

@@ -1,0 +1,65 @@
+{
+    "id": "efficient-market-hypothesis",
+    "name": "Efficient Market Hypothesis",
+    "summary": "Theory stating that asset prices fully reflect all available information, making it impossible to consistently achieve above-market returns through skill or analysis.",
+    "explanation": "The Efficient Market Hypothesis (EMH) is one of the most influential and debated ideas in finance and economics. Developed by Eugene Fama in the 1960s, it posits that financial markets are 'informationally efficient' — meaning that asset prices at any given time incorporate and reflect all relevant available information. If true, no investor can consistently outperform the market through stock picking, market timing, or fundamental analysis, because any new information is rapidly absorbed into prices.\n\n**Three Forms of EMH**:\n\n**Weak form**: Prices reflect all past trading information (historical prices and volumes). Technical analysis — studying price charts and patterns — cannot generate excess returns because past price movements don't predict future ones. This is the most widely accepted form and is supported by substantial evidence.\n\n**Semi-strong form**: Prices reflect all publicly available information, including financial statements, news, economic data, and analyst reports. Neither technical nor fundamental analysis can produce excess returns because the market digests public information almost instantly. New information is priced in within minutes or seconds.\n\n**Strong form**: Prices reflect all information, including private or insider information. Even insiders cannot consistently profit from trading on non-public information. This is the most extreme form and is generally considered false — insider trading regulations exist precisely because insiders do have informational advantages.\n\n**Evidence Supporting EMH**:\n\n- Most actively managed mutual funds underperform their benchmark index over long periods, even before fees\n- Professional money managers as a group don't consistently beat the market\n- Stock prices respond almost instantaneously to new information (earnings announcements, economic data)\n- Random walk studies show that short-term price movements are largely unpredictable\n- The rise of index investing validates the EMH insight that paying for active management is often a losing proposition\n\n**Evidence Against EMH**:\n\n- **Market anomalies**: Persistent patterns like the value premium, momentum effect, and small-cap premium suggest systematic mispricings\n- **Bubbles and crashes**: Events like the dot-com bubble (1999-2000) and the 2008 financial crisis are difficult to reconcile with market efficiency\n- **Behavioral finance**: Extensive research by Kahneman, Tversky, Shiller, and others documents systematic cognitive biases that lead to irrational pricing\n- **Insider trading profits**: Insiders consistently earn abnormal returns, contradicting strong-form EMH\n- **Warren Buffett and similar investors**: A small number of investors have beaten the market over decades, which pure chance alone may not explain\n\n**Practical Implications**:\n\n| If EMH is true | If EMH is false |\n|---------------|----------------|\n| Index funds are optimal | Skilled analysis can add value |\n| Active management is a waste of fees | Some managers genuinely outperform |\n| Market timing is futile | Mispricings can be exploited |\n| Prices are always 'right' | Prices can deviate significantly from fundamental value |\n| Focus on asset allocation and costs | Information edge matters |\n\n**The Modern View**:\n\nMost economists today view EMH as a useful but imperfect model — 'the best wrong model we have.' Markets are highly efficient most of the time for most securities, making it very difficult for the average investor to beat the market after costs. But they are not perfectly efficient — mispricings occur, particularly in less liquid or less followed assets, during periods of market stress, and where behavioral biases are strongest.\n\nThe practical takeaway for most investors aligns with EMH: low-cost index funds outperform the majority of active strategies over time. But the existence of edge cases and anomalies means the debate continues.\n\n**Beyond Finance**:\n\nThe EMH concept extends metaphorically to other domains. In competitive markets of any kind — talent, ideas, real estate, startups — the question 'is the market efficient here?' is powerful. The best opportunities often exist precisely where markets are least efficient: where information is scarce, participants are few, or conventional wisdom is wrong.",
+    "tags": [
+        "economics",
+        "investing",
+        "markets",
+        "decision-making",
+        "finance"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "EMH",
+        "Market efficiency"
+    ],
+    "relatedConcepts": [
+        "information-asymmetry",
+        "adverse-selection",
+        "survivorship-bias",
+        "loss-aversion",
+        "grossman-stiglitz-paradox"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "A Random Walk Down Wall Street by Burton Malkiel",
+            "url": "https://www.amazon.com/dp/1324002182?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Efficient-market hypothesis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Efficient-market_hypothesis",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}

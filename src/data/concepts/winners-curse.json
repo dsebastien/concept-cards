@@ -1,0 +1,62 @@
+{
+    "id": "winners-curse",
+    "name": "Winner's Curse",
+    "summary": "The tendency for the winning bid in a competitive auction or negotiation to exceed the true value of the item, resulting in a net loss for the 'winner'.",
+    "explanation": "The winner's curse is a phenomenon in competitive bidding and auctions where the winning party tends to overpay relative to the true value of the item. First identified by petroleum engineers Capen, Clapp, and Campbell in 1971 studying oil lease auctions, it reveals a paradox: winning a competitive auction is itself evidence that you may have overestimated the item's value.\n\n**The Core Logic**:\n\nIn a common-value auction (where the item has the same objective value to all bidders, but that value is uncertain), each bidder estimates the value independently. Some will overestimate, some will underestimate. The winner is typically the bidder with the highest estimate — which is most likely an overestimate. The more bidders competing, the more extreme the winning bid tends to be, and the more likely the winner overpaid.\n\n**Mathematical Intuition**:\n\nImagine a jar of coins worth $10. If 20 people estimate its value, the average estimate might be close to $10, but individual estimates will range widely — say from $5 to $18. The person who bid $18 'wins' but overpays by $8. The winner's curse is not bad luck; it's a predictable statistical outcome of competitive bidding under uncertainty.\n\n**Where It Appears**:\n\n- **Corporate acquisitions**: Acquiring companies frequently overpay, especially in bidding wars. Studies show that acquiring firms' stock prices often decline after M&A announcements — the market recognizes the winner's curse\n- **Oil and gas leases**: The original context where the curse was identified. Companies bidding on drilling rights systematically overpaid\n- **Free agent markets in sports**: Teams competing for star athletes often pay above the player's actual contribution to wins\n- **Real estate bidding wars**: Multiple-offer situations in hot housing markets push prices above fair value\n- **Government contract bidding**: Contractors who win with the lowest bid often underbid, leading to cost overruns — a reverse winner's curse\n- **Online auctions**: eBay and similar platforms create environments ripe for overbidding\n- **IPO allocations**: Investors who receive shares in 'hot' IPOs may be experiencing the curse — they got shares because more informed investors passed\n\n**Why Rational Bidders Still Fall Victim**:\n\n- **Failure to account for selection bias**: Bidders don't adjust for the fact that winning is correlated with overestimation\n- **Competitive arousal**: The emotional drive to 'win' overrides rational valuation\n- **Anchoring**: Starting bids and competitor bids anchor expectations upward\n- **Escalation of commitment**: Having invested time and resources in the bidding process makes walking away psychologically costly\n- **Overconfidence**: Belief that one's estimate is more accurate than others'\n\n**Mitigating the Winner's Curse**:\n\n1. **Shade your bid down**: Deliberately bid below your estimate to account for the statistical bias. The more competitors, the more you should shade\n2. **Use independent valuations**: Get multiple independent appraisals rather than relying on a single estimate\n3. **Set walk-away prices in advance**: Commit to a maximum before entering the auction\n4. **Consider the information in losing**: If you're the highest bidder, ask why everyone else valued it less\n5. **Prefer second-price auctions**: Vickrey auctions (where the winner pays the second-highest bid) reduce but don't eliminate the curse\n6. **Watch for competitive arousal**: Recognize when the desire to win is driving your bid rather than rational valuation\n\n**Broader Implications**:\n\nThe winner's curse illustrates a general principle: in competitive selection processes, being chosen can itself be a warning sign. The job candidate who receives the highest salary offer, the startup that raises the most funding, or the vendor selected despite being most expensive should all consider whether the 'win' reflects genuine value or a systematic overestimation by the selecting party.",
+    "tags": [
+        "economics",
+        "decision-making",
+        "cognitive-biases",
+        "game-theory",
+        "negotiation",
+        "markets"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Winner's curse phenomenon",
+        "Auction winner's curse"
+    ],
+    "relatedConcepts": [
+        "caveat-emptor",
+        "adverse-selection",
+        "escalation-of-commitment",
+        "sunk-cost-fallacy",
+        "buyers-remorse",
+        "dollar-auction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Winner's curse - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Winner%27s_curse",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}
