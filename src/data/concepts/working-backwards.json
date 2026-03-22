@@ -1,0 +1,45 @@
+{
+    "id": "working-backwards",
+    "name": "Working Backwards",
+    "summary": "A product development approach pioneered at Amazon where teams start by writing a press release and FAQ for the finished product before building anything.",
+    "explanation": "Working Backwards is a product development methodology developed at Amazon that inverts the traditional approach. Instead of starting with technology or capabilities and figuring out what to build, teams start by defining the ideal customer experience and work backwards to determine what needs to be built.\n\n**The PR/FAQ process:**\n\nThe core artifact is a future press release (PR) paired with a frequently asked questions document (FAQ). The press release is written as if the product has already launched and describes:\n\n1. **The customer problem**: What pain point or need does this address?\n2. **The solution**: How does the product solve it?\n3. **The customer quote**: A fictional customer describing how the product improved their life\n4. **The call to action**: How do customers get started?\n\nThe FAQ section addresses both external questions (customer concerns, pricing, availability) and internal questions (technical feasibility, cost, timeline, dependencies).\n\n**Why it works:**\n\n- **Forces customer-centric thinking**: By writing from the customer's perspective first, teams naturally focus on what matters to users rather than what's technically interesting\n- **Surfaces vagueness early**: It's easy to have a fuzzy idea in your head; writing a concrete press release forces clarity\n- **Separates 'what' from 'how'**: The PR/FAQ defines the destination before anyone debates the route\n- **Creates alignment**: A written document is harder to misinterpret than a verbal pitch\n- **Kills bad ideas cheaply**: It's much cheaper to rewrite a press release than to rebuild a product\n\n**The narrative culture:**\n\nWorking Backwards is part of Amazon's broader narrative culture, where PowerPoint presentations were famously banned in favor of six-page narrative memos. Bezos argued that the discipline of writing complete sentences forces clearer thinking than bullet points, which can hide sloppy logic behind vague fragments.\n\n**How to apply it:**\n\n1. Write a one-page press release for your idea as if it already exists\n2. Draft a FAQ addressing customer and stakeholder questions\n3. Iterate on the PR/FAQ with your team until the value proposition is crystal clear\n4. Only then begin designing and building\n5. Use the PR/FAQ as a north star throughout development to prevent scope creep\n\n**Beyond product development:**\n\nThe Working Backwards approach can be applied to any initiative: career planning (write your future bio), project proposals (describe the successful outcome first), or strategic planning (write the annual review before the year starts). The principle is universal: define success concretely before determining how to achieve it.",
+    "tags": [
+        "product-development",
+        "innovation",
+        "strategies",
+        "leadership"
+    ],
+    "category": "Techniques",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "PR/FAQ",
+        "Press release approach",
+        "Working backwards process"
+    ],
+    "relatedConcepts": [
+        "customer-obsession",
+        "day-one-mentality",
+        "disagree-and-commit",
+        "regret-minimization-framework",
+        "done-is-better-than-perfect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Working Backwards by Colin Bryar and Bill Carr",
+            "url": "https://www.amazon.com/dp/1250267595?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Working backwards (Amazon) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Working_backwards_(Amazon)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-22",
+    "dateModified": "2026-03-22"
+}
