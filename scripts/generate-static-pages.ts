@@ -2090,7 +2090,7 @@ function generateUnexploredPageHtml(): string {
     const description =
         "Discover concepts that haven't been fully explored yet. Help expand the knowledge base by contributing to these concepts."
 
-    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+    const html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
 
     const schema = generateWebPageSchema(pageUrl, title, description, [
         { name: 'Home', item: BASE_URL },
@@ -2132,7 +2132,7 @@ function generateBooksListingPageHtml(): string {
     const title = 'Books - Concepts'
     const description = `Browse ${allBooks.length} recommended books related to concepts in areas like productivity, mental models, and more.`
 
-    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+    const html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
 
     const schema = generateWebPageSchema(pageUrl, title, description, [
         { name: 'Home', item: BASE_URL },
@@ -2204,7 +2204,7 @@ function generateArticlesListingPageHtml(): string {
     const title = 'Articles - Concepts'
     const description = `Browse ${allArticles.length} articles related to concepts covering productivity, mental models, and more.`
 
-    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+    const html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
 
     const schema = generateWebPageSchema(pageUrl, title, description, [
         { name: 'Home', item: BASE_URL },
@@ -2276,7 +2276,7 @@ function generateReferencesListingPageHtml(): string {
     const title = 'References - Concepts'
     const description = `Browse ${allReferences.length} references including papers, websites, videos, and more related to concepts.`
 
-    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+    const html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
 
     const schema = generateWebPageSchema(pageUrl, title, description, [
         { name: 'Home', item: BASE_URL },
@@ -2351,7 +2351,7 @@ function generateNotesListingPageHtml(): string {
     const title = 'Notes - Concepts'
     const description = `Browse ${allNotes.length} related notes linked to concepts in the collection.`
 
-    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+    const html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
 
     const schema = generateWebPageSchema(pageUrl, title, description, [
         { name: 'Home', item: BASE_URL },
