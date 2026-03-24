@@ -1,0 +1,67 @@
+{
+    "id": "lag-effect",
+    "name": "Lag Effect",
+    "summary": "Memory phenomenon where longer intervals between repeated study sessions produce better long-term retention than shorter intervals.",
+    "explanation": "The lag effect is a memory phenomenon discovered by researchers studying the spacing effect. It states that when information is presented or studied multiple times, longer gaps (lags) between repetitions lead to better long-term retention than shorter gaps. For example, studying a fact on Monday and again on Thursday produces stronger memory than studying it on Monday and again on Tuesday, even though the total study time is the same.\n\nThe lag effect is a refinement of the broader spacing effect. While the spacing effect shows that any spacing is better than no spacing (massed practice), the lag effect demonstrates that within spaced practice, the optimal interval depends on when the information needs to be recalled. Longer lags create more desirable difficulty during retrieval, forcing the brain to work harder to recall the information, which in turn strengthens the memory trace.\n\nThis principle directly underpins the design of spaced repetition systems like the Leitner System and algorithms like SM-2 (used in SuperMemo and Anki). In the Leitner System, each successive box has a longer review interval — this is the lag effect in action. Cards that are correctly recalled move to boxes with progressively longer lags, matching the finding that well-learned items benefit from even longer inter-study intervals.\n\nPractically, the lag effect suggests that learners should resist the temptation to review material too soon after initial study. Allowing some forgetting to occur before reviewing actually strengthens long-term retention — a counterintuitive but robust finding in memory research.",
+    "tags": [
+        "learning",
+        "memorization",
+        "memory",
+        "spaced-repetition",
+        "techniques"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Lag effect of spacing",
+        "Inter-study interval effect"
+    ],
+    "relatedConcepts": [
+        "spacing-effect",
+        "spaced-repetition",
+        "leitner-system",
+        "forgetting-curve",
+        "desirable-difficulties",
+        "massed-vs-distributed-practice",
+        "cramming"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Spacing effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Spacing_effect#Lag_effect",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}
