@@ -122,7 +122,7 @@ function generateSitemap(): string {
 
     // Add statistics page
     urls.push({
-        loc: `${BASE_URL}/statistics`,
+        loc: `${BASE_URL}/statistics/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -130,7 +130,7 @@ function generateSitemap(): string {
 
     // Add random page
     urls.push({
-        loc: `${BASE_URL}/random`,
+        loc: `${BASE_URL}/random/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.5'
@@ -138,7 +138,7 @@ function generateSitemap(): string {
 
     // Add unexplored page
     urls.push({
-        loc: `${BASE_URL}/unexplored`,
+        loc: `${BASE_URL}/unexplored/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.6'
@@ -146,7 +146,7 @@ function generateSitemap(): string {
 
     // Add categories listing page
     urls.push({
-        loc: `${BASE_URL}/categories`,
+        loc: `${BASE_URL}/categories/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -154,7 +154,7 @@ function generateSitemap(): string {
 
     // Add featured page
     urls.push({
-        loc: `${BASE_URL}/featured`,
+        loc: `${BASE_URL}/featured/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -162,7 +162,7 @@ function generateSitemap(): string {
 
     // Add history page
     urls.push({
-        loc: `${BASE_URL}/history`,
+        loc: `${BASE_URL}/history/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -170,7 +170,7 @@ function generateSitemap(): string {
 
     // Add tags listing page
     urls.push({
-        loc: `${BASE_URL}/tags`,
+        loc: `${BASE_URL}/tags/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -178,7 +178,7 @@ function generateSitemap(): string {
 
     // Add explore graph page
     urls.push({
-        loc: `${BASE_URL}/explore`,
+        loc: `${BASE_URL}/explore/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -187,7 +187,7 @@ function generateSitemap(): string {
     // Add each concept page
     for (const concept of concepts) {
         urls.push({
-            loc: `${BASE_URL}/concept/${concept.id}`,
+            loc: `${BASE_URL}/concept/${concept.id}/`,
             lastmod: today,
             changefreq: 'monthly',
             priority: '0.8'
@@ -197,7 +197,7 @@ function generateSitemap(): string {
     // Add each concept explore page
     for (const concept of concepts) {
         urls.push({
-            loc: `${BASE_URL}/explore/${concept.id}`,
+            loc: `${BASE_URL}/explore/${concept.id}/`,
             lastmod: today,
             changefreq: 'monthly',
             priority: '0.5'
@@ -207,7 +207,7 @@ function generateSitemap(): string {
     // Add each tag page
     for (const tag of allTags) {
         urls.push({
-            loc: `${BASE_URL}/tag/${encodeURIComponent(tag)}`,
+            loc: `${BASE_URL}/tag/${encodeURIComponent(tag)}/`,
             lastmod: today,
             changefreq: 'weekly',
             priority: '0.6'
@@ -217,7 +217,7 @@ function generateSitemap(): string {
     // Add each category page
     for (const category of allCategories) {
         urls.push({
-            loc: `${BASE_URL}/category/${encodeURIComponent(category)}`,
+            loc: `${BASE_URL}/category/${encodeURIComponent(category)}/`,
             lastmod: today,
             changefreq: 'weekly',
             priority: '0.7'
@@ -226,7 +226,7 @@ function generateSitemap(): string {
 
     // Add books listing page
     urls.push({
-        loc: `${BASE_URL}/books`,
+        loc: `${BASE_URL}/books/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -235,7 +235,7 @@ function generateSitemap(): string {
     // Add each book detail page
     for (const book of allBooks) {
         urls.push({
-            loc: `${BASE_URL}/books/${book.id}`,
+            loc: `${BASE_URL}/books/${book.id}/`,
             lastmod: today,
             changefreq: 'monthly',
             priority: '0.6'
@@ -244,7 +244,7 @@ function generateSitemap(): string {
 
     // Add articles listing page
     urls.push({
-        loc: `${BASE_URL}/articles`,
+        loc: `${BASE_URL}/articles/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -253,7 +253,7 @@ function generateSitemap(): string {
     // Add each article detail page
     for (const article of allArticles) {
         urls.push({
-            loc: `${BASE_URL}/articles/${article.id}`,
+            loc: `${BASE_URL}/articles/${article.id}/`,
             lastmod: today,
             changefreq: 'monthly',
             priority: '0.6'
@@ -262,7 +262,7 @@ function generateSitemap(): string {
 
     // Add references listing page
     urls.push({
-        loc: `${BASE_URL}/references`,
+        loc: `${BASE_URL}/references/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -271,7 +271,7 @@ function generateSitemap(): string {
     // Add each reference detail page
     for (const reference of allReferences) {
         urls.push({
-            loc: `${BASE_URL}/references/${reference.id}`,
+            loc: `${BASE_URL}/references/${reference.id}/`,
             lastmod: today,
             changefreq: 'monthly',
             priority: '0.6'
@@ -280,7 +280,7 @@ function generateSitemap(): string {
 
     // Add notes listing page
     urls.push({
-        loc: `${BASE_URL}/notes`,
+        loc: `${BASE_URL}/notes/`,
         lastmod: today,
         changefreq: 'weekly',
         priority: '0.7'
@@ -289,7 +289,7 @@ function generateSitemap(): string {
     // Add each note detail page
     for (const note of allNotes) {
         urls.push({
-            loc: `${BASE_URL}/notes/${note.id}`,
+            loc: `${BASE_URL}/notes/${note.id}/`,
             lastmod: today,
             changefreq: 'monthly',
             priority: '0.6'

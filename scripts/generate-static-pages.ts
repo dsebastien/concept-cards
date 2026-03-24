@@ -9,6 +9,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 import type { Concept } from '../src/types/concept'
+import { generateResourceId } from './utils/sitemap'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const BASE_URL = 'https://concepts.dsebastien.net'
@@ -26,6 +27,105 @@ const allTags = Array.from(new Set(concepts.flatMap((concept) => concept.tags)))
 
 // Extract all unique categories (excluding 'All')
 const allCategories = Array.from(new Set(concepts.map((concept) => concept.category))).sort()
+
+// Extract unique books with titles and related concepts
+interface ExtractedResource {
+    id: string
+    title: string
+    url: string
+    type?: string
+    concepts: Concept[]
+}
+
+const allBooks: ExtractedResource[] = []
+const bookUrlMap = new Map<string, ExtractedResource>()
+for (const concept of concepts) {
+    if (concept.books) {
+        for (const book of concept.books) {
+            const existing = bookUrlMap.get(book.url)
+            if (existing) {
+                existing.concepts.push(concept)
+            } else {
+                const resource: ExtractedResource = {
+                    id: generateResourceId(book.url),
+                    title: book.title,
+                    url: book.url,
+                    concepts: [concept]
+                }
+                bookUrlMap.set(book.url, resource)
+                allBooks.push(resource)
+            }
+        }
+    }
+}
+
+const allArticles: ExtractedResource[] = []
+const articleUrlMap = new Map<string, ExtractedResource>()
+for (const concept of concepts) {
+    if (concept.articles) {
+        for (const article of concept.articles) {
+            const existing = articleUrlMap.get(article.url)
+            if (existing) {
+                existing.concepts.push(concept)
+            } else {
+                const resource: ExtractedResource = {
+                    id: generateResourceId(article.url),
+                    title: article.title,
+                    url: article.url,
+                    type: article.type,
+                    concepts: [concept]
+                }
+                articleUrlMap.set(article.url, resource)
+                allArticles.push(resource)
+            }
+        }
+    }
+}
+
+const allReferences: ExtractedResource[] = []
+const referenceUrlMap = new Map<string, ExtractedResource>()
+for (const concept of concepts) {
+    if (concept.references) {
+        for (const reference of concept.references) {
+            const existing = referenceUrlMap.get(reference.url)
+            if (existing) {
+                existing.concepts.push(concept)
+            } else {
+                const resource: ExtractedResource = {
+                    id: generateResourceId(reference.url),
+                    title: reference.title,
+                    url: reference.url,
+                    type: reference.type,
+                    concepts: [concept]
+                }
+                referenceUrlMap.set(reference.url, resource)
+                allReferences.push(resource)
+            }
+        }
+    }
+}
+
+const allNotes: ExtractedResource[] = []
+const noteUrlMap = new Map<string, ExtractedResource>()
+for (const concept of concepts) {
+    if (concept.relatedNotes) {
+        for (const noteUrl of concept.relatedNotes) {
+            const existing = noteUrlMap.get(noteUrl)
+            if (existing) {
+                existing.concepts.push(concept)
+            } else {
+                const resource: ExtractedResource = {
+                    id: generateResourceId(noteUrl),
+                    title: noteUrl.split('/').pop() || noteUrl,
+                    url: noteUrl,
+                    concepts: [concept]
+                }
+                noteUrlMap.set(noteUrl, resource)
+                allNotes.push(resource)
+            }
+        }
+    }
+}
 
 const distDir = join(__dirname, '../dist')
 
@@ -1799,11 +1899,544 @@ mkdirSync(exploreDir, { recursive: true })
 writeFileSync(join(exploreDir, 'index.html'), generateExplorePageHtml())
 console.log('  ✓ Created explore page')
 
+// ============================================================
+// Helper: Replace common meta tags in HTML template
+// ============================================================
+function replaceMetaTags(
+    html: string,
+    opts: {
+        title: string
+        description: string
+        url: string
+        socialImage?: string
+    }
+): string {
+    const { title, description, url, socialImage } = opts
+    let result = html
+
+    result = result.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
+    result = result.replace(
+        /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+        `<link rel="canonical" href="${url}" />`
+    )
+    result = result.replace(
+        /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="description" content="${escapeHtml(description)}" />`
+    )
+    result = result.replace(
+        /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:url" content="${url}" />`
+    )
+    result = result.replace(
+        /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:title" content="${escapeHtml(title)}" />`
+    )
+    result = result.replace(
+        /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta property="og:description" content="${escapeHtml(description)}" />`
+    )
+    result = result.replace(
+        /<meta\s+name="twitter:url"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:url" content="${url}" />`
+    )
+    result = result.replace(
+        /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:title" content="${escapeHtml(title)}" />`
+    )
+    result = result.replace(
+        /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
+        `<meta name="twitter:description" content="${escapeHtml(description)}" />`
+    )
+
+    if (socialImage) {
+        result = result.replace(
+            /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/,
+            `<meta property="og:image" content="${socialImage}" />`
+        )
+        result = result.replace(
+            /<meta\s+property="og:image:alt"\s+content="[^"]*"\s*\/?>/,
+            `<meta property="og:image:alt" content="${escapeHtml(title)}" />`
+        )
+        result = result.replace(
+            /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/,
+            `<meta name="twitter:image" content="${socialImage}" />`
+        )
+        result = result.replace(
+            /<meta\s+name="twitter:image:alt"\s+content="[^"]*"\s*\/?>/,
+            `<meta name="twitter:image:alt" content="${escapeHtml(title)}" />`
+        )
+    }
+
+    return result
+}
+
+// Helper: Generate a simple WebPage JSON-LD schema
+function generateWebPageSchema(
+    pageUrl: string,
+    title: string,
+    description: string,
+    breadcrumbs: Array<{ name: string; item?: string }>
+): string {
+    const schema = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'WebPage',
+                '@id': `${pageUrl}#webpage`,
+                'name': title,
+                'description': description,
+                'url': pageUrl,
+                'creator': { '@id': `${BASE_URL}/#person` },
+                'publisher': { '@id': `${BASE_URL}/#organization` },
+                'isPartOf': {
+                    '@type': 'WebSite',
+                    '@id': `${BASE_URL}/#website`,
+                    'name': 'Concepts',
+                    'url': BASE_URL
+                },
+                'inLanguage': 'en'
+            },
+            authorSchema,
+            publisherSchema,
+            {
+                '@type': 'BreadcrumbList',
+                '@id': `${pageUrl}#breadcrumb`,
+                'itemListElement': breadcrumbs.map((crumb, i) => ({
+                    '@type': 'ListItem',
+                    'position': i + 1,
+                    'name': crumb.name,
+                    ...(crumb.item ? { item: crumb.item } : {})
+                }))
+            }
+        ]
+    }
+    return JSON.stringify(schema, null, 12)
+}
+
+// Helper: Replace JSON-LD and add noscript content
+function finalizePageHtml(html: string, schema: string, noscriptContent: string): string {
+    let result = html
+    result = result.replace(
+        /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
+        `<script type="application/ld+json">\n${schema}\n        </script>`
+    )
+    result = result.replace('</body>', `${noscriptContent}\n    </body>`)
+    return result
+}
+
+// ============================================================
+// Generate explore detail pages for each concept
+// ============================================================
+console.log('Generating explore detail pages...')
+let exploreDetailCount = 0
+for (const concept of concepts) {
+    const exploreConceptUrl = `${BASE_URL}/explore/${concept.id}/`
+    const title = `${concept.name} - Explore Graph - Concepts`
+    const description = `Explore ${concept.name} and its connections in the interactive concept graph. ${concept.summary}`
+    const socialImage = `${BASE_URL}/social-cards/concept-${concept.id}.png`
+
+    let html = replaceMetaTags(indexHtml, {
+        title,
+        description,
+        url: exploreConceptUrl,
+        socialImage
+    })
+
+    const schema = generateWebPageSchema(exploreConceptUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Explore', item: `${BASE_URL}/explore/` },
+        { name: concept.name }
+    ])
+
+    const relatedLinks = concept.relatedConcepts
+        ? concept.relatedConcepts
+              .map((id) => {
+                  const related = concepts.find((c) => c.id === id)
+                  return related
+                      ? `<li><a href="/concept/${id}/">${escapeHtml(related.name)}</a></li>`
+                      : null
+              })
+              .filter(Boolean)
+              .join('\n                ')
+        : ''
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>${escapeHtml(concept.name)} - Graph View</h1>
+            <p>${escapeHtml(concept.summary)}</p>
+            <p><a href="/concept/${concept.id}/">View concept details</a></p>
+            ${relatedLinks ? `<h2>Related Concepts</h2><ul>${relatedLinks}</ul>` : ''}
+            <p><a href="/explore/">← Back to full graph</a></p>
+        </article>
+    </noscript>`
+
+    html = finalizePageHtml(html, schema, noscriptContent)
+
+    const dir = join(distDir, 'explore', concept.id)
+    mkdirSync(dir, { recursive: true })
+    writeFileSync(join(dir, 'index.html'), html)
+    exploreDetailCount++
+}
+console.log(`  ✓ Created ${exploreDetailCount} explore detail pages`)
+
+// ============================================================
+// Generate unexplored page
+// ============================================================
+console.log('Generating unexplored page...')
+function generateUnexploredPageHtml(): string {
+    const pageUrl = `${BASE_URL}/unexplored/`
+    const title = 'Unexplored Concepts - Concepts'
+    const description =
+        "Discover concepts that haven't been fully explored yet. Help expand the knowledge base by contributing to these concepts."
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Unexplored' }
+    ])
+
+    const unexploredConcepts = concepts.filter((c) => !c.explanation || c.explanation.length < 50)
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>Unexplored Concepts</h1>
+            <p>These concepts haven't been fully explored yet.</p>
+            <ul>
+${unexploredConcepts
+    .slice(0, 50)
+    .map((c) => `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a></li>`)
+    .join('\n')}
+            </ul>
+            <p><a href="/">← Back to all concepts</a></p>
+        </article>
+    </noscript>`
+
+    return finalizePageHtml(html, schema, noscriptContent)
+}
+
+const unexploredDir = join(distDir, 'unexplored')
+mkdirSync(unexploredDir, { recursive: true })
+writeFileSync(join(unexploredDir, 'index.html'), generateUnexploredPageHtml())
+console.log('  ✓ Created unexplored page')
+
+// ============================================================
+// Generate resource listing and detail pages
+// ============================================================
+
+// --- Books ---
+console.log('Generating book pages...')
+function generateBooksListingPageHtml(): string {
+    const pageUrl = `${BASE_URL}/books/`
+    const title = 'Books - Concepts'
+    const description = `Browse ${allBooks.length} recommended books related to concepts in areas like productivity, mental models, and more.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Books' }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>Books</h1>
+            <p>${allBooks.length} recommended books</p>
+            <ul>
+${allBooks
+    .slice(0, 100)
+    .map((b) => `                <li><a href="/books/${b.id}/">${escapeHtml(b.title)}</a></li>`)
+    .join('\n')}
+            </ul>
+            <p><a href="/">← Back to all concepts</a></p>
+        </article>
+    </noscript>`
+
+    return finalizePageHtml(html, schema, noscriptContent)
+}
+
+const booksListingDir = join(distDir, 'books')
+mkdirSync(booksListingDir, { recursive: true })
+writeFileSync(join(booksListingDir, 'index.html'), generateBooksListingPageHtml())
+
+let bookDetailCount = 0
+for (const book of allBooks) {
+    const pageUrl = `${BASE_URL}/books/${book.id}/`
+    const title = `${book.title} - Books - Concepts`
+    const description = `Details about "${book.title}" and ${book.concepts.length} related concept${book.concepts.length === 1 ? '' : 's'}.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Books', item: `${BASE_URL}/books/` },
+        { name: book.title }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>${escapeHtml(book.title)}</h1>
+            <p><a href="${escapeHtml(book.url)}" rel="noopener noreferrer">View book</a></p>
+            <h2>Related Concepts</h2>
+            <ul>
+${book.concepts.map((c) => `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a></li>`).join('\n')}
+            </ul>
+            <p><a href="/books/">← Back to all books</a></p>
+        </article>
+    </noscript>`
+
+    html = finalizePageHtml(html, schema, noscriptContent)
+
+    const dir = join(distDir, 'books', book.id)
+    mkdirSync(dir, { recursive: true })
+    writeFileSync(join(dir, 'index.html'), html)
+    bookDetailCount++
+}
+console.log(`  ✓ Created books listing + ${bookDetailCount} detail pages`)
+
+// --- Articles ---
+console.log('Generating article pages...')
+function generateArticlesListingPageHtml(): string {
+    const pageUrl = `${BASE_URL}/articles/`
+    const title = 'Articles - Concepts'
+    const description = `Browse ${allArticles.length} articles related to concepts covering productivity, mental models, and more.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Articles' }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>Articles</h1>
+            <p>${allArticles.length} related articles</p>
+            <ul>
+${allArticles
+    .slice(0, 100)
+    .map((a) => `                <li><a href="/articles/${a.id}/">${escapeHtml(a.title)}</a></li>`)
+    .join('\n')}
+            </ul>
+            <p><a href="/">← Back to all concepts</a></p>
+        </article>
+    </noscript>`
+
+    return finalizePageHtml(html, schema, noscriptContent)
+}
+
+const articlesListingDir = join(distDir, 'articles')
+mkdirSync(articlesListingDir, { recursive: true })
+writeFileSync(join(articlesListingDir, 'index.html'), generateArticlesListingPageHtml())
+
+let articleDetailCount = 0
+for (const article of allArticles) {
+    const pageUrl = `${BASE_URL}/articles/${article.id}/`
+    const title = `${article.title} - Articles - Concepts`
+    const description = `Details about "${article.title}" and ${article.concepts.length} related concept${article.concepts.length === 1 ? '' : 's'}.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Articles', item: `${BASE_URL}/articles/` },
+        { name: article.title }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>${escapeHtml(article.title)}</h1>
+            <p><a href="${escapeHtml(article.url)}" rel="noopener noreferrer">Read article</a></p>
+            <h2>Related Concepts</h2>
+            <ul>
+${article.concepts.map((c) => `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a></li>`).join('\n')}
+            </ul>
+            <p><a href="/articles/">← Back to all articles</a></p>
+        </article>
+    </noscript>`
+
+    html = finalizePageHtml(html, schema, noscriptContent)
+
+    const dir = join(distDir, 'articles', article.id)
+    mkdirSync(dir, { recursive: true })
+    writeFileSync(join(dir, 'index.html'), html)
+    articleDetailCount++
+}
+console.log(`  ✓ Created articles listing + ${articleDetailCount} detail pages`)
+
+// --- References ---
+console.log('Generating reference pages...')
+function generateReferencesListingPageHtml(): string {
+    const pageUrl = `${BASE_URL}/references/`
+    const title = 'References - Concepts'
+    const description = `Browse ${allReferences.length} references including papers, websites, videos, and more related to concepts.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'References' }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>References</h1>
+            <p>${allReferences.length} references</p>
+            <ul>
+${allReferences
+    .slice(0, 100)
+    .map(
+        (r) => `                <li><a href="/references/${r.id}/">${escapeHtml(r.title)}</a></li>`
+    )
+    .join('\n')}
+            </ul>
+            <p><a href="/">← Back to all concepts</a></p>
+        </article>
+    </noscript>`
+
+    return finalizePageHtml(html, schema, noscriptContent)
+}
+
+const referencesListingDir = join(distDir, 'references')
+mkdirSync(referencesListingDir, { recursive: true })
+writeFileSync(join(referencesListingDir, 'index.html'), generateReferencesListingPageHtml())
+
+let referenceDetailCount = 0
+for (const reference of allReferences) {
+    const pageUrl = `${BASE_URL}/references/${reference.id}/`
+    const title = `${reference.title} - References - Concepts`
+    const description = `Details about "${reference.title}" and ${reference.concepts.length} related concept${reference.concepts.length === 1 ? '' : 's'}.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'References', item: `${BASE_URL}/references/` },
+        { name: reference.title }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>${escapeHtml(reference.title)}</h1>
+            ${reference.type ? `<p>Type: ${escapeHtml(reference.type)}</p>` : ''}
+            <p><a href="${escapeHtml(reference.url)}" rel="noopener noreferrer">View reference</a></p>
+            <h2>Related Concepts</h2>
+            <ul>
+${reference.concepts.map((c) => `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a></li>`).join('\n')}
+            </ul>
+            <p><a href="/references/">← Back to all references</a></p>
+        </article>
+    </noscript>`
+
+    html = finalizePageHtml(html, schema, noscriptContent)
+
+    const dir = join(distDir, 'references', reference.id)
+    mkdirSync(dir, { recursive: true })
+    writeFileSync(join(dir, 'index.html'), html)
+    referenceDetailCount++
+}
+console.log(`  ✓ Created references listing + ${referenceDetailCount} detail pages`)
+
+// --- Notes ---
+console.log('Generating note pages...')
+function generateNotesListingPageHtml(): string {
+    const pageUrl = `${BASE_URL}/notes/`
+    const title = 'Notes - Concepts'
+    const description = `Browse ${allNotes.length} related notes linked to concepts in the collection.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Notes' }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>Notes</h1>
+            <p>${allNotes.length} related notes</p>
+            <ul>
+${allNotes
+    .slice(0, 100)
+    .map((n) => `                <li><a href="/notes/${n.id}/">${escapeHtml(n.title)}</a></li>`)
+    .join('\n')}
+            </ul>
+            <p><a href="/">← Back to all concepts</a></p>
+        </article>
+    </noscript>`
+
+    return finalizePageHtml(html, schema, noscriptContent)
+}
+
+const notesListingDir = join(distDir, 'notes')
+mkdirSync(notesListingDir, { recursive: true })
+writeFileSync(join(notesListingDir, 'index.html'), generateNotesListingPageHtml())
+
+let noteDetailCount = 0
+for (const note of allNotes) {
+    const pageUrl = `${BASE_URL}/notes/${note.id}/`
+    const title = `${note.title} - Notes - Concepts`
+    const description = `Details about this note and ${note.concepts.length} related concept${note.concepts.length === 1 ? '' : 's'}.`
+
+    let html = replaceMetaTags(indexHtml, { title, description, url: pageUrl })
+
+    const schema = generateWebPageSchema(pageUrl, title, description, [
+        { name: 'Home', item: BASE_URL },
+        { name: 'Notes', item: `${BASE_URL}/notes/` },
+        { name: note.title }
+    ])
+
+    const noscriptContent = `
+    <noscript>
+        <article class="noscript-content" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+            <h1>${escapeHtml(note.title)}</h1>
+            <p><a href="${escapeHtml(note.url)}" rel="noopener noreferrer">View note</a></p>
+            <h2>Related Concepts</h2>
+            <ul>
+${note.concepts.map((c) => `                <li><a href="/concept/${c.id}/">${escapeHtml(c.name)}</a></li>`).join('\n')}
+            </ul>
+            <p><a href="/notes/">← Back to all notes</a></p>
+        </article>
+    </noscript>`
+
+    html = finalizePageHtml(html, schema, noscriptContent)
+
+    const dir = join(distDir, 'notes', note.id)
+    mkdirSync(dir, { recursive: true })
+    writeFileSync(join(dir, 'index.html'), html)
+    noteDetailCount++
+}
+console.log(`  ✓ Created notes listing + ${noteDetailCount} detail pages`)
+
 // Create 404.html for GitHub Pages fallback (copy of index.html)
 writeFileSync(join(distDir, '404.html'), indexHtml)
 console.log('  ✓ Created 404.html fallback')
 
-console.log(`\n✓ Static pages generated: ${conceptCount + tagCount + categoryCount + 9} total`)
+const totalPages =
+    conceptCount +
+    tagCount +
+    categoryCount +
+    9 + // homepage, statistics, random, categories listing, tags listing, featured, history, explore, 404
+    exploreDetailCount +
+    1 + // unexplored
+    1 +
+    bookDetailCount + // books listing + details
+    1 +
+    articleDetailCount + // articles listing + details
+    1 +
+    referenceDetailCount + // references listing + details
+    1 +
+    noteDetailCount // notes listing + details
+
+console.log(`\n✓ Static pages generated: ${totalPages} total`)
 console.log(`  - Homepage: 1`)
 console.log(`  - Statistics: 1`)
 console.log(`  - Random: 1`)
@@ -1811,8 +2444,13 @@ console.log(`  - Categories listing: 1`)
 console.log(`  - Tags listing: 1`)
 console.log(`  - Featured: 1`)
 console.log(`  - History: 1`)
-console.log(`  - Explore: 1`)
+console.log(`  - Explore: 1 listing + ${exploreDetailCount} detail`)
+console.log(`  - Unexplored: 1`)
 console.log(`  - Concepts: ${conceptCount}`)
 console.log(`  - Tags: ${tagCount}`)
 console.log(`  - Category pages: ${categoryCount}`)
+console.log(`  - Books: 1 listing + ${bookDetailCount} detail`)
+console.log(`  - Articles: 1 listing + ${articleDetailCount} detail`)
+console.log(`  - References: 1 listing + ${referenceDetailCount} detail`)
+console.log(`  - Notes: 1 listing + ${noteDetailCount} detail`)
 console.log(`  - 404 fallback: 1`)
