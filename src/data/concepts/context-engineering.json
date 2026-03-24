@@ -23,7 +23,9 @@
         "context-poisoning",
         "ai-attention-budget",
         "prompt-debt",
-        "context-window"
+        "context-window",
+        "input-randomness",
+        "output-randomness"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+engineering"

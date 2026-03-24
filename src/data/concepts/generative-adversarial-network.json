@@ -1,0 +1,74 @@
+{
+    "id": "generative-adversarial-network",
+    "name": "Generative Adversarial Network",
+    "summary": "A machine learning framework where two neural networks compete against each other — a generator creating synthetic data and a discriminator evaluating its authenticity — to produce increasingly realistic outputs.",
+    "explanation": "Generative Adversarial Networks (GANs), introduced by Ian Goodfellow in 2014, are a class of generative models that learn to create realistic data through an adversarial training process. The core idea is elegantly simple: pit two neural networks against each other in a game, and both get better.\n\n**The Two Networks**:\n\n- **Generator (G)**: Takes random noise as input and produces synthetic data (e.g., fake images). Its goal is to create outputs indistinguishable from real data\n- **Discriminator (D)**: Receives both real data and generated data, trying to correctly classify which is which. Its goal is to accurately detect fakes\n\n**The Adversarial Game**:\n\nTraining alternates between the two networks:\n1. The discriminator trains on a batch of real and generated data, learning to tell them apart\n2. The generator trains to fool the discriminator, adjusting its outputs to be more realistic\n3. Over time, the generator produces increasingly convincing data, while the discriminator becomes more discerning\n4. At equilibrium, the generator produces data indistinguishable from real data, and the discriminator can do no better than random guessing (50/50)\n\n**Why GANs Work**:\n\nThe adversarial setup creates a powerful training signal. Instead of comparing outputs to some fixed criterion, the generator faces a constantly improving critic. This dynamic competition drives both networks to improve, resulting in remarkably realistic outputs.\n\n**Major GAN Architectures**:\n\n| Architecture | Innovation |\n|-------------|------------|\n| DCGAN | Convolutional layers for stable image generation |\n| StyleGAN | Style-based generator for high-resolution face synthesis |\n| CycleGAN | Unpaired image-to-image translation (e.g., horse ↔ zebra) |\n| Pix2Pix | Paired image-to-image translation |\n| ProGAN | Progressive growing for high-resolution images |\n| WGAN | Wasserstein distance for more stable training |\n| BigGAN | Scaled-up architecture for class-conditional image generation |\n\n**Applications**:\n\n- **Image generation**: Creating photorealistic faces, scenes, and artwork\n- **Image-to-image translation**: Converting sketches to photos, day to night, style transfer\n- **Super-resolution**: Enhancing low-resolution images\n- **Data augmentation**: Generating synthetic training data for other models\n- **Video generation**: Creating and predicting video frames\n- **Text-to-image**: Early systems (before diffusion models became dominant)\n- **Deepfakes**: Face-swapping in video (raising ethical concerns)\n\n**Challenges**:\n\n- **Mode collapse**: The generator learns to produce only a few types of output, ignoring the diversity of real data\n- **Training instability**: The adversarial dynamic can oscillate or diverge instead of converging\n- **Evaluation difficulty**: No single metric reliably measures generation quality\n- **No explicit density model**: Unlike VAEs, GANs don't learn an explicit probability distribution\n\n**GANs vs Other Generative Models**:\n\nGANs produce sharper, more realistic images than VAEs but are harder to train and offer less control over the latent space. Diffusion models have largely overtaken GANs for image generation quality, but GANs remain important for real-time applications due to their single-pass generation (diffusion models require many iterative steps).\n\n**Historical Significance**:\n\nYann LeCun called GANs 'the most interesting idea in the last 10 years in ML.' They demonstrated that neural networks could learn to generate convincingly realistic data, opening the door to the generative AI revolution.",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "generative-ai",
+        "neural-networks",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "GAN",
+        "GANs",
+        "Adversarial Network"
+    ],
+    "relatedConcepts": [
+        "generative-ai",
+        "latent-space",
+        "deep-learning",
+        "neural-networks",
+        "variational-autoencoder",
+        "diffusion-models",
+        "representation-learning",
+        "backpropagation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Generative adversarial network - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}

@@ -1,0 +1,73 @@
+{
+    "id": "variational-autoencoder",
+    "name": "Variational Autoencoder",
+    "summary": "A generative model that learns a structured, continuous latent space by combining autoencoder architecture with probabilistic inference, enabling generation of new data by sampling from the learned distribution.",
+    "explanation": "A Variational Autoencoder (VAE) is a generative model that extends the autoencoder architecture with probabilistic principles, enabling it not just to compress data but to generate entirely new, realistic data samples. Introduced by Kingma and Welling in 2013, VAEs became one of the foundational architectures for generative AI.\n\n**Key Innovation Over Standard Autoencoders**:\n\nA regular autoencoder maps each input to a single point in latent space. A VAE instead maps each input to a probability distribution (typically a Gaussian) in latent space. This seemingly small change has profound consequences:\n\n- The latent space becomes continuous — nearby points decode to similar outputs\n- You can generate new data by sampling from the latent distribution\n- The latent space is regularized — no 'dead zones' with meaningless representations\n\n**How VAEs Work**:\n\n1. **Encoder** (Recognition Model): Takes input x and outputs parameters of a distribution — a mean vector μ and variance vector σ² — rather than a single point\n2. **Sampling**: A latent vector z is sampled from N(μ, σ²) using the reparameterization trick (which allows gradients to flow through the sampling step)\n3. **Decoder** (Generative Model): Takes z and reconstructs the input\n4. **Loss Function**: Combines reconstruction loss (how well the output matches input) with KL divergence (how close the learned distribution is to a standard normal distribution)\n\n**The Reparameterization Trick**:\n\nSampling is not differentiable, which would prevent backpropagation. The trick: instead of sampling z ~ N(μ, σ²) directly, compute z = μ + σ · ε where ε ~ N(0, 1). This makes the stochastic node differentiable.\n\n**Why the KL Divergence Term Matters**:\n\nThe KL divergence term regularizes the latent space by pushing learned distributions toward a standard normal. Without it, the encoder could learn to map each input to a tiny, isolated region — making the latent space discontinuous and generation impossible. With it, the latent space becomes smooth and well-organized.\n\n**Applications**:\n\n- **Image generation**: Generating new faces, artwork, or designs\n- **Data augmentation**: Creating synthetic training data\n- **Anomaly detection**: Unusual data produces high reconstruction error and unusual latent positions\n- **Drug discovery**: Exploring molecular latent spaces to find novel compounds\n- **Representation learning**: Learning disentangled, interpretable features\n- **Interpolation**: Smoothly morphing between two data points by interpolating in latent space\n\n**Variants**:\n\n- **β-VAE**: Adjusts the weight of the KL term to encourage disentangled representations\n- **Conditional VAE (CVAE)**: Conditions generation on class labels or other attributes\n- **VQ-VAE**: Uses discrete latent codes instead of continuous distributions (used in DALL-E)\n\n**Relationship to Other Generative Models**:\n\nVAEs offer a middle ground between GANs (which produce sharper images but are harder to train) and simple autoencoders (which compress but cannot generate). They provide principled probabilistic foundations and a structured latent space, making them particularly valuable for applications requiring interpretable representations.",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "generative-ai",
+        "neural-networks",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "VAE",
+        "Variational Auto-Encoder"
+    ],
+    "relatedConcepts": [
+        "autoencoder",
+        "latent-space",
+        "generative-adversarial-network",
+        "generative-ai",
+        "deep-learning",
+        "representation-learning",
+        "diffusion-models",
+        "backpropagation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Variational autoencoder - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Variational_autoencoder",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}

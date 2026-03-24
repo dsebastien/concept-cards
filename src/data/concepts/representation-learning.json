@@ -1,0 +1,72 @@
+{
+    "id": "representation-learning",
+    "name": "Representation Learning",
+    "summary": "A class of machine learning techniques where models automatically discover the representations needed for a task from raw data, rather than relying on manually engineered features.",
+    "explanation": "Representation learning is the branch of machine learning focused on automatically discovering useful representations of data. Rather than having humans hand-craft features (e.g., defining edge detectors for image recognition), representation learning lets neural networks learn what features matter directly from raw data.\n\n**Why Representation Matters**:\n\nThe performance of any machine learning model depends critically on how data is represented. Before deep learning, practitioners spent most of their time engineering features — manually designing transformations to extract useful information from raw data. Representation learning automates this process, often discovering features that humans would never have designed.\n\n**The Hierarchy of Representations**:\n\nDeep neural networks learn representations at multiple levels of abstraction:\n\n1. **Low-level features**: Edges, textures, simple patterns (learned in early layers)\n2. **Mid-level features**: Parts, motifs, combinations of low-level features (middle layers)\n3. **High-level features**: Objects, concepts, abstract categories (later layers)\n\nFor example, an image recognition network might learn: pixels → edges → textures → parts (eyes, wheels) → objects (faces, cars) → scenes.\n\n**Key Approaches**:\n\n| Approach | How It Learns Representations |\n|----------|------------------------------|\n| Supervised | Learns representations optimized for a specific labeled task |\n| Self-supervised | Creates its own labels from data structure (e.g., predicting masked words) |\n| Contrastive | Learns by pulling similar examples together and pushing different ones apart |\n| Generative | Learns representations by modeling the data distribution (VAEs, GANs) |\n| Multi-task | Learns shared representations useful across multiple tasks |\n\n**Self-Supervised Learning — The Modern Paradigm**:\n\nSelf-supervised learning has become the dominant approach for representation learning. Instead of requiring labeled data, models learn from the structure of data itself:\n- **Language**: Predict the next word (GPT) or fill in masked words (BERT)\n- **Vision**: Predict rotations, solve jigsaw puzzles, or contrast augmented views (SimCLR, DINO)\n- **Audio**: Predict future audio frames or reconstruct spectrograms\n\nThis enables learning from vast unlabeled datasets, producing representations that transfer well to many downstream tasks.\n\n**Properties of Good Representations**:\n\n- **Invariance**: Robust to irrelevant transformations (lighting changes, paraphrasing)\n- **Disentanglement**: Different dimensions capture different independent factors\n- **Smoothness**: Similar inputs have similar representations\n- **Transferability**: Useful for multiple downstream tasks\n- **Interpretability**: Dimensions correspond to meaningful concepts\n\n**Connection to Other Concepts**:\n\nRepresentation learning is the theoretical foundation connecting many AI concepts:\n- **Embeddings** are learned representations for discrete objects (words, items)\n- **Latent spaces** are the spaces where learned representations live\n- **Transfer learning** works because learned representations capture general knowledge\n- **Autoencoders** learn representations by compressing and reconstructing data\n- **Fine-tuning** adapts pre-learned representations to new tasks\n\n**Impact**:\n\nRepresentation learning is arguably the core reason deep learning works so well. The shift from hand-crafted features to learned representations enabled breakthroughs in computer vision, NLP, speech recognition, and virtually every area of AI.",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "machine-learning",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Feature Learning",
+        "Deep Representation Learning"
+    ],
+    "relatedConcepts": [
+        "latent-space",
+        "embedding",
+        "deep-learning",
+        "autoencoder",
+        "transfer-learning",
+        "pre-training",
+        "fine-tuning",
+        "dimensionality-reduction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Feature learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Feature_learning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}

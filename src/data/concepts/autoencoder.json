@@ -1,0 +1,73 @@
+{
+    "id": "autoencoder",
+    "name": "Autoencoder",
+    "summary": "A neural network architecture that learns compressed representations by encoding input into a lower-dimensional latent space and then decoding it back to reconstruct the original input.",
+    "explanation": "An autoencoder is a type of neural network designed to learn efficient, compressed representations of data in an unsupervised manner. It consists of two main components: an encoder that compresses input data into a lower-dimensional latent representation, and a decoder that reconstructs the original input from this compressed form.\n\n**Architecture**:\n\n- **Encoder**: Takes high-dimensional input (e.g., an image with thousands of pixels) and progressively compresses it through layers with decreasing dimensions\n- **Bottleneck (Latent Space)**: The narrowest layer, forcing the network to learn only the most essential features\n- **Decoder**: Takes the compressed representation and reconstructs the original input through layers with increasing dimensions\n- **Loss Function**: Measures reconstruction error — how closely the output matches the original input\n\n**How Learning Works**:\n\nThe network is trained to minimize reconstruction error. Because the bottleneck is smaller than the input, the autoencoder cannot simply copy the data — it must learn to extract meaningful features and discard noise. This compression forces the model to discover the underlying structure of the data.\n\n**Types of Autoencoders**:\n\n| Type | Key Feature |\n|------|-------------|\n| Vanilla Autoencoder | Basic encoder-decoder with a bottleneck |\n| Sparse Autoencoder | Adds sparsity constraint to learn more meaningful features |\n| Denoising Autoencoder | Trained to reconstruct clean data from corrupted input |\n| Variational Autoencoder (VAE) | Learns a probabilistic latent space for generative modeling |\n| Contractive Autoencoder | Penalizes sensitivity to small input changes for robust features |\n\n**Applications**:\n\n- **Dimensionality reduction**: More powerful non-linear alternative to PCA\n- **Anomaly detection**: Normal data reconstructs well; anomalies have high reconstruction error\n- **Denoising**: Removing noise from images, audio, or sensor data\n- **Feature learning**: Pre-training representations for downstream tasks\n- **Image compression**: Learning compact image representations\n- **Data generation**: Variational autoencoders can generate new data samples\n\n**Relationship to Latent Space**:\n\nAutoencoders are one of the most intuitive demonstrations of latent space. The bottleneck layer literally is a latent space — a compressed representation where similar inputs map to nearby points. The quality of this latent space determines how well the autoencoder captures the essential structure of its training data.\n\n**Limitations**:\n\n- Vanilla autoencoders produce latent spaces that may not be continuous or well-structured\n- Reconstruction quality depends heavily on bottleneck size — too small loses information, too large allows trivial copying\n- Not inherently generative (unlike VAEs) — sampling random points in latent space may not produce valid outputs",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "neural-networks",
+        "unsupervised-learning",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Auto-encoder",
+        "AE"
+    ],
+    "relatedConcepts": [
+        "latent-space",
+        "variational-autoencoder",
+        "neural-networks",
+        "deep-learning",
+        "dimensionality-reduction",
+        "representation-learning",
+        "embedding",
+        "unsupervised-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Autoencoder - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Autoencoder",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}

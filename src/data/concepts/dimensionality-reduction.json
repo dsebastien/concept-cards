@@ -1,0 +1,70 @@
+{
+    "id": "dimensionality-reduction",
+    "name": "Dimensionality Reduction",
+    "summary": "A set of techniques for reducing the number of variables in a dataset while preserving its essential structure, making high-dimensional data easier to visualize, process, and analyze.",
+    "explanation": "Dimensionality reduction encompasses techniques that transform data from a high-dimensional space into a lower-dimensional space while retaining as much meaningful information as possible. In a world where datasets routinely have hundreds or thousands of features, these techniques are essential for making data manageable and interpretable.\n\n**Why Reduce Dimensions?**:\n\n- **Curse of dimensionality**: As dimensions increase, data becomes sparse and distances between points lose meaning, making machine learning algorithms less effective\n- **Visualization**: Humans can only perceive 2-3 dimensions; reducing to 2D or 3D enables visual exploration\n- **Computational efficiency**: Fewer dimensions means faster training and inference\n- **Noise reduction**: Removing low-variance dimensions can eliminate noise\n- **Feature extraction**: Discovering the underlying factors that explain the data\n\n**Two Main Approaches**:\n\n**1. Feature Selection**: Choose a subset of the original features\n- Filter methods: Rank features by statistical measures (correlation, mutual information)\n- Wrapper methods: Use model performance to select features\n- Embedded methods: Feature selection built into model training (e.g., Lasso regression)\n\n**2. Feature Extraction**: Create new, lower-dimensional features from combinations of originals\n- Linear methods: PCA, Factor Analysis, Linear Discriminant Analysis\n- Non-linear methods: t-SNE, UMAP, autoencoders, kernel PCA\n\n**Key Techniques**:\n\n| Technique | Type | Best For |\n|-----------|------|----------|\n| PCA (Principal Component Analysis) | Linear | General-purpose, preserving global variance |\n| t-SNE | Non-linear | 2D/3D visualization of clusters |\n| UMAP | Non-linear | Faster alternative to t-SNE, preserves global structure better |\n| Autoencoders | Non-linear | Learning complex, non-linear representations |\n| LDA (Linear Discriminant Analysis) | Linear | Supervised classification tasks |\n| Factor Analysis | Linear | Finding latent factors behind observed variables |\n| Random Projection | Linear | Very fast approximate dimensionality reduction |\n\n**PCA — The Foundational Method**:\n\nPrincipal Component Analysis finds the directions of maximum variance in the data and projects it onto those directions. The first principal component captures the most variance, the second captures the most remaining variance orthogonal to the first, and so on. This provides an optimal linear compression.\n\n**Connection to Latent Space**:\n\nDimensionality reduction is fundamentally about discovering latent spaces — lower-dimensional representations that capture the essential structure of data. Autoencoders perform non-linear dimensionality reduction, with their bottleneck layer being exactly a latent space. Even classical methods like PCA can be viewed as learning a linear latent space.\n\n**Applications**:\n\n- **Data visualization**: Plotting high-dimensional data in 2D scatter plots\n- **Preprocessing for ML**: Reducing features before training classifiers\n- **Image compression**: Representing images with fewer values\n- **Genomics**: Analyzing gene expression data with thousands of dimensions\n- **NLP**: Reducing word embedding dimensions for efficiency\n- **Anomaly detection**: Unusual data stands out in reduced dimensions",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "data-science",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Dimension Reduction",
+        "Feature Extraction"
+    ],
+    "relatedConcepts": [
+        "latent-space",
+        "autoencoder",
+        "embedding",
+        "representation-learning",
+        "machine-learning",
+        "unsupervised-learning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Dimensionality reduction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dimensionality_reduction",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}

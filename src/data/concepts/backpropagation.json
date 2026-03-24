@@ -1,0 +1,74 @@
+{
+    "id": "backpropagation",
+    "name": "Backpropagation",
+    "summary": "The fundamental algorithm for training neural networks that efficiently computes gradients of the loss function with respect to each weight by propagating errors backward through the network layers.",
+    "explanation": "Backpropagation (short for 'backward propagation of errors') is the algorithm that makes training deep neural networks practical. It efficiently computes how much each weight in the network contributes to the overall error, enabling the network to learn by adjusting weights in the direction that reduces error.\n\n**The Core Problem It Solves**:\n\nA neural network might have millions or billions of parameters (weights). After processing an input and producing an output, we can measure the error (loss). But the crucial question is: how should each individual weight change to reduce the error? Computing this naively would be impossibly expensive. Backpropagation solves this using the chain rule of calculus.\n\n**How Backpropagation Works**:\n\n1. **Forward pass**: Input flows through the network layer by layer, producing an output\n2. **Loss computation**: Compare the output to the desired answer using a loss function\n3. **Backward pass**: Compute gradients of the loss with respect to each weight, starting from the output layer and working backward\n4. **Weight update**: Adjust each weight by a small step in the direction that reduces the loss (gradient descent)\n\n**The Chain Rule — The Mathematical Foundation**:\n\nBackpropagation is essentially a systematic application of the chain rule. If output depends on layer 3, which depends on layer 2, which depends on layer 1, the gradient with respect to layer 1 weights is:\n\n∂Loss/∂w₁ = (∂Loss/∂output) × (∂output/∂layer₃) × (∂layer₃/∂layer₂) × (∂layer₂/∂w₁)\n\nEach factor in this chain is computed locally and reused across many gradient calculations, making the algorithm efficient.\n\n**Why It's Called 'Back' Propagation**:\n\nDuring the forward pass, information flows from input to output. During backpropagation, gradient information flows backward — from the loss at the output, through each layer, back to the earliest weights. This backward flow is what allows each weight to 'know' how it contributed to the final error.\n\n**Historical Context**:\n\nThe algorithm was independently discovered multiple times (Linnainmaa 1970, Werbos 1974), but gained prominence when Rumelhart, Hinton, and Williams published their 1986 paper demonstrating its effectiveness for training multi-layer networks. This paper was a catalyst for the modern neural network era.\n\n**Challenges and Solutions**:\n\n| Problem | Description | Solution |\n|---------|-------------|----------|\n| Vanishing gradients | Gradients shrink exponentially in deep networks | ReLU activations, residual connections, batch normalization |\n| Exploding gradients | Gradients grow exponentially | Gradient clipping, careful initialization |\n| Slow convergence | Basic gradient descent can be slow | Adam, RMSprop, and other adaptive optimizers |\n| Local minima | Getting stuck in suboptimal solutions | In practice, saddle points are more problematic than local minima in high dimensions |\n\n**Backpropagation in Modern AI**:\n\nEvery modern neural network — from image classifiers to large language models — is trained using backpropagation. When GPT or Claude learns from text, backpropagation is the mechanism computing how to adjust billions of weights. The algorithm's efficiency (linear in the number of weights) is what makes training models with billions of parameters feasible.\n\n**Connection to Other Concepts**:\n\n- Backpropagation computes gradients; **gradient descent** uses them to update weights\n- **Loss functions** define what backpropagation optimizes\n- **Activation functions** (ReLU, sigmoid) determine the gradient flow properties\n- Techniques like **batch normalization** and **residual connections** were invented to improve gradient flow during backpropagation",
+    "tags": [
+        "ai",
+        "deep-learning",
+        "neural-networks",
+        "fundamentals",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Backprop",
+        "Backward Propagation of Errors",
+        "Back-propagation"
+    ],
+    "relatedConcepts": [
+        "neural-networks",
+        "deep-learning",
+        "machine-learning",
+        "autoencoder",
+        "variational-autoencoder",
+        "generative-adversarial-network",
+        "transformer",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Backpropagation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}

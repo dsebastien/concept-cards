@@ -1,0 +1,73 @@
+{
+    "id": "input-randomness",
+    "name": "Input Randomness",
+    "summary": "The variability and unpredictability in the inputs provided to an AI system, including prompt phrasing, context composition, and information ordering, which directly influences the quality and consistency of outputs.",
+    "explanation": "Input randomness refers to all the ways that what we feed into an AI system varies — often without us realizing it. Every time you interact with an LLM, the exact input determines the output. Small, seemingly insignificant differences in how you phrase a prompt, what context you include, and even the order of information can produce dramatically different results.\n\n**Sources of Input Randomness**:\n\n- **Prompt phrasing**: 'Summarize this article' vs 'Give me the key points' vs 'What are the main takeaways?' — each triggers different model behaviors\n- **Context composition**: Which documents, examples, or instructions are included in the context window\n- **Information ordering**: The sequence in which context items appear affects attention and priority\n- **System prompt variation**: Different system instructions prime the model differently\n- **Conversation history**: Prior turns accumulate and shift the model's trajectory\n- **Retrieval variability**: In RAG systems, which documents get retrieved depends on embedding similarity, which varies with query phrasing\n\n**Why Input Randomness Matters**:\n\nInput randomness is the primary source of output variability in AI systems — far more impactful than output randomness (temperature/sampling). Two users asking the 'same' question in different words may get substantially different answers, not because the model is random, but because the inputs are meaningfully different to the model.\n\n**The Connection to Context Engineering**:\n\nContext engineering is fundamentally about controlling input randomness. By carefully designing what goes into the context window — selecting the right documents, structuring information effectively, ordering context strategically — you reduce unproductive input randomness and steer the model toward consistent, high-quality outputs.\n\n| Uncontrolled Input Randomness | Controlled via Context Engineering |\n|------------------------------|-----------------------------------|\n| Ad-hoc prompt phrasing | Tested, refined prompt templates |\n| Random document retrieval | Curated, ranked context selection |\n| Arbitrary information order | Strategic information architecture |\n| Inconsistent system prompts | Versioned, validated system prompts |\n| Unstructured conversation history | Managed conversation state |\n\n**Input Randomness vs Output Randomness**:\n\nA critical insight: even at temperature 0 (no output randomness), two differently-phrased prompts asking the same question will produce different answers. Input randomness is deterministic chaos — the model behaves deterministically given identical inputs, but humans rarely provide identical inputs. This is why context engineering (controlling inputs) often matters more than temperature tuning (controlling output sampling).\n\n**Practical Implications**:\n\n- **Reproducibility**: To get reproducible AI results, you must control inputs precisely, not just set temperature to 0\n- **Evaluation**: Testing AI systems requires standardized inputs — prompt variation makes evaluation noisy\n- **Production systems**: Reliable AI applications need input pipelines that minimize unintended variation\n- **Prompt engineering**: Understanding input sensitivity helps craft more robust prompts\n- **Debugging**: When an AI gives a bad answer, the first question should be 'what was different about the input?' not 'the model is unreliable'",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "fundamentals",
+        "reliability",
+        "techniques"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Input Variability",
+        "Prompt Variability",
+        "Context Variability"
+    ],
+    "relatedConcepts": [
+        "output-randomness",
+        "context-engineering",
+        "prompt-engineering",
+        "large-language-models",
+        "ai-temperature",
+        "text-generation",
+        "next-token-prediction",
+        "system-prompts",
+        "retrieval-augmented-generation",
+        "ai-hallucination",
+        "prompt-fragility",
+        "ai-attention-budget"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24"
+}
