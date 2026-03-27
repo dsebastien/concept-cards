@@ -1,0 +1,24 @@
+{
+    "id": "product-discovery",
+    "name": "Product Discovery",
+    "summary": "The process of determining what to build by deeply understanding customer needs, validating problem-solution fit, and reducing risk before committing to full development.",
+    "explanation": "Product Discovery is the set of activities product teams undertake to decide what to build. It answers the fundamental questions: Are we solving a real problem? Will customers use this solution? Can we build it? Does it work for our business?\n\nThe term gained prominence through the work of Marty Cagan and the Silicon Valley Product Group, distinguishing between discovery (deciding what to build) and delivery (building it). Most failed products don't fail because they were built poorly — they fail because they solved the wrong problem or solved the right problem in the wrong way.\n\n**The four risks of product discovery:**\n\n1. **Value risk**: Will customers buy or use it?\n2. **Usability risk**: Can customers figure out how to use it?\n3. **Feasibility risk**: Can we build it with the time, skills, and technology available?\n4. **Business viability risk**: Does it work for our business model, brand, and stakeholders?\n\n**Key activities:**\n\n- Customer interviews and observation\n- Problem space exploration and opportunity mapping\n- Prototyping (from low-fidelity sketches to interactive prototypes)\n- Assumption testing and experimentation\n- Usability testing\n- Data analysis and quantitative research\n- Stakeholder alignment\n\n**Discovery vs. delivery:**\n\nIn modern product organizations, discovery and delivery happen in parallel, not sequentially. While engineers are building the solutions validated in previous discovery cycles, the product trio is simultaneously discovering what to build next. This dual-track approach prevents the bottleneck of waiting for a complete specification before starting development.\n\n**Common mistakes:**\n\n- Treating discovery as optional or a luxury\n- Equating customer requests with customer needs\n- Skipping discovery for \"obvious\" features\n- Over-indexing on quantitative data while ignoring qualitative insight\n- Confusing output (features shipped) with outcome (customer value created)\n\nEffective product discovery doesn't slow teams down — it prevents them from wasting months building the wrong thing.",
+    "tags": ["product-management", "product-discovery", "customer-needs", "risk-management", "methodologies", "validation"],
+    "category": "Methods",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": ["Dual-Track Discovery", "Product Discovery Process"],
+    "relatedConcepts": ["opportunity-solution-tree", "continuous-discovery", "customer-discovery", "assumption-mapping", "product-trio", "design-thinking", "lean-startup", "minimum-viable-product", "hypothesis-driven-development", "jobs-to-be-done", "problem-framing", "problem-solution-fit", "customer-pain-points", "design-sprint", "prototyping"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Product Discovery - Silicon Valley Product Group", "url": "https://www.svpg.com/product-discovery/", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Inspired by Marty Cagan", "url": "https://www.amazon.com/dp/1119387507?tag=dsebastien00-20"},
+        {"title": "Continuous Discovery Habits by Teresa Torres", "url": "https://www.amazon.com/dp/1736633309?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

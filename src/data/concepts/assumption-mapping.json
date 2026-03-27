@@ -1,0 +1,24 @@
+{
+    "id": "assumption-mapping",
+    "name": "Assumption Mapping",
+    "summary": "A technique for systematically identifying, categorizing, and prioritizing the assumptions behind a product idea to determine what needs testing first.",
+    "explanation": "Assumption Mapping is a structured technique used in product discovery to surface and prioritize the hidden assumptions that underlie any product idea or solution. Every product decision rests on assumptions — about customer behavior, market dynamics, technical feasibility, and business viability. The danger lies not in having assumptions, but in being unaware of them.\n\n**How it works:**\n\nThe process typically involves two dimensions plotted on a 2x2 matrix:\n\n1. **Importance**: How critical is this assumption to the success of the idea? If this assumption is wrong, does the whole idea fall apart, or is it just a minor detail?\n2. **Evidence**: How much evidence do we already have? Is this assumption well-supported by data, or is it based on gut feeling?\n\nAssumptions that are both highly important and lacking evidence are the **leap-of-faith assumptions** — these should be tested first.\n\n**Types of assumptions to identify:**\n\n- **Desirability assumptions**: Customers have this problem. Customers want this solution. Customers will switch from their current solution.\n- **Viability assumptions**: Customers will pay this price. We can acquire customers at this cost. This fits our business model.\n- **Feasibility assumptions**: We can build this with available technology. We can build this within our timeline. We have the skills needed.\n- **Usability assumptions**: Customers can figure out how to use this. Customers will complete the key workflow. The learning curve is acceptable.\n\n**Why it matters:**\n\n- Prevents teams from investing heavily in solutions built on untested assumptions\n- Focuses experimentation efforts on the highest-risk areas first\n- Makes implicit team beliefs explicit and debatable\n- Reduces confirmation bias by forcing teams to articulate what could go wrong\n- Aligns the team on what needs to be true for an idea to succeed\n\nAssumption mapping is a key practice within the Opportunity Solution Tree framework, where it sits at the bottom level — connecting proposed solutions to the experiments that will validate them.",
+    "tags": ["product-management", "product-discovery", "risk-management", "techniques", "validation", "experimentation"],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["Assumption Testing", "Leap of Faith Assumptions"],
+    "relatedConcepts": ["opportunity-solution-tree", "continuous-discovery", "product-discovery", "hypothesis-driven-development", "rapid-experimentation", "lean-startup", "build-measure-learn", "a-b-testing", "minimum-viable-product", "risk-management", "problem-framing"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Assumption Mapping - Product Talk", "url": "https://www.producttalk.org/assumption-mapping/", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Continuous Discovery Habits by Teresa Torres", "url": "https://www.amazon.com/dp/1736633309?tag=dsebastien00-20"},
+        {"title": "Testing Business Ideas by David J. Bland & Alexander Osterwalder", "url": "https://www.amazon.com/dp/1119551447?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

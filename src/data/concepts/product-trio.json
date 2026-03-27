@@ -1,0 +1,62 @@
+{
+    "id": "product-trio",
+    "name": "Product Trio",
+    "summary": "A cross-functional team of product manager, designer, and engineer who collaborate closely on product discovery decisions together.",
+    "explanation": "The Product Trio is a concept popularized by Teresa Torres that describes the minimum cross-functional team needed for effective product discovery. It consists of three roles: a product manager, a product designer, and a software engineer (typically a tech lead). These three individuals collaborate daily on discovery work — not just delivery.\n\n**Why a trio, not a solo PM:**\n\nTraditionally, product managers were expected to do discovery alone: talk to customers, define requirements, and hand off specs. The product trio model recognizes that this approach is deeply flawed:\n\n- **Product managers** bring business context, strategic thinking, and customer knowledge\n- **Designers** bring user empathy, interaction expertise, and creative problem-solving\n- **Engineers** bring technical feasibility awareness, solution creativity, and implementation insight\n\nWhen all three perspectives are present during discovery, the team makes better decisions. An engineer might spot a technically simple solution that a PM would never consider. A designer might identify a usability concern before any code is written. A PM might redirect the conversation toward a higher-value opportunity.\n\n**How the trio works:**\n\n1. **All three participate in customer interviews** — not just the PM\n2. **All three co-create the Opportunity Solution Tree** — shared ownership of the discovery artifact\n3. **All three discuss assumptions and experiments** — leveraging different expertise to identify risks\n4. **All three make prioritization decisions** — not top-down from the PM\n\n**Key benefits:**\n\n- Reduces handoff waste and misunderstanding\n- Catches blind spots earlier\n- Builds shared context and empathy across disciplines\n- Creates faster iteration cycles since feasibility is considered from the start\n- Increases team ownership and accountability\n\n**Common anti-patterns:**\n\n- The PM does all customer research solo and \"shares findings\" with the team\n- The designer creates mockups in isolation based on PM requirements\n- Engineers are only involved at implementation time\n- One role dominates all decisions while others rubber-stamp\n\nThe product trio doesn't mean every decision requires all three people, nor does it exclude other team members. It defines the core decision-making unit for discovery, while the broader team remains involved in delivery and can participate in discovery activities as well.",
+    "tags": [
+        "product-management",
+        "product-discovery",
+        "cross-functional-teams",
+        "collaboration",
+        "organizational-design"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Discovery Trio",
+        "Product Discovery Trio"
+    ],
+    "relatedConcepts": [
+        "opportunity-solution-tree",
+        "continuous-discovery",
+        "product-discovery",
+        "two-pizza-teams",
+        "design-thinking",
+        "shared-understanding",
+        "end-to-end-ownership",
+        "empowering-leadership"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "The Product Trio - Product Talk",
+            "url": "https://www.producttalk.org/product-trio/",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Continuous Discovery Habits by Teresa Torres",
+            "url": "https://www.amazon.com/dp/1736633309?tag=dsebastien00-20"
+        },
+        {
+            "title": "Empowered by Marty Cagan",
+            "url": "https://www.amazon.com/dp/111969129X?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "opportunity-solution-tree",
+    "name": "Opportunity Solution Tree",
+    "summary": "A visual framework for connecting desired outcomes to potential solutions through customer opportunities, ensuring teams build products that create real value.",
+    "explanation": "The Opportunity Solution Tree (OST) is a visual framework developed by Teresa Torres that helps product teams systematically connect their desired outcomes to the solutions they choose to build. The tree structure has four levels: a clear desired outcome at the top, opportunities (customer needs, pain points, and desires) in the middle, solutions that address those opportunities below, and assumption tests at the bottom.\n\nThe power of the OST lies in its ability to make the product decision-making process visible and structured. Instead of jumping from a business goal directly to a feature idea, the tree forces teams to first understand the opportunity space — what customers actually need — before generating solutions. This prevents the common trap of building solutions in search of problems.\n\n**How it works:**\n\n1. **Desired Outcome**: Start with a clear, measurable product outcome (e.g., increase activation rate by 15%)\n2. **Opportunity Space**: Map the customer needs, pain points, and desires discovered through continuous research\n3. **Solutions**: Generate multiple possible solutions for each opportunity, then prioritize\n4. **Assumption Tests**: Identify the riskiest assumptions behind each solution and design small experiments to test them\n\n**Key principles:**\n\n- **Compare and contrast**: Always consider multiple opportunities and multiple solutions rather than fixating on the first idea\n- **Break opportunities into smaller pieces**: Large opportunities should be decomposed into more specific, addressable sub-opportunities\n- **Test assumptions, not ideas**: Rather than building full solutions, identify and test the key assumptions that must be true for a solution to succeed\n- **Iterate continuously**: The tree is a living document that evolves as teams learn from customer interactions and experiments\n\nThe OST is central to the Continuous Discovery Habits framework and is typically maintained by a product trio (product manager, designer, and engineer). It serves as a shared artifact that keeps the team aligned on what they're learning and why they're building what they're building.",
+    "tags": [
+        "product-management",
+        "frameworks",
+        "product-discovery",
+        "customer-needs",
+        "decision-making",
+        "prioritization",
+        "outcomes"
+    ],
+    "category": "Frameworks",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "OST"
+    ],
+    "relatedConcepts": [
+        "continuous-discovery",
+        "product-discovery",
+        "assumption-mapping",
+        "product-trio",
+        "jobs-to-be-done",
+        "customer-discovery",
+        "hypothesis-driven-development",
+        "design-thinking",
+        "lean-startup",
+        "outcome-driven-innovation",
+        "customer-pain-points",
+        "problem-framing",
+        "build-measure-learn"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Opportunity Solution Tree - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Opportunity_solution_tree",
+            "type": "website"
+        },
+        {
+            "title": "Opportunity Solution Trees - Product Talk",
+            "url": "https://www.producttalk.org/opportunity-solution-tree/",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Continuous Discovery Habits by Teresa Torres",
+            "url": "https://www.amazon.com/dp/1736633309?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "guardrail-metrics",
+    "name": "Guardrail Metrics",
+    "summary": "Counter-metrics that prevent teams from optimizing their primary metric at the expense of overall product or business health.",
+    "explanation": "Guardrail Metrics are secondary metrics that act as safety checks alongside a team's primary metric (such as a North Star Metric). While focusing on a single key metric drives clarity and alignment, it also creates incentives to game that metric in ways that harm the broader business. Guardrail metrics exist to catch and prevent this.\n\n**Why guardrail metrics matter:**\n\nGoodhart's Law states that when a measure becomes a target, it ceases to be a good measure. If a team's primary metric is \"daily active users,\" they might send aggressive push notifications to boost opens — increasing DAU while degrading user experience. A guardrail metric like \"unsubscribe rate\" or \"user satisfaction score\" would flag this problem before it causes lasting damage.\n\n**How to design guardrail metrics:**\n\n1. **Identify gaming risks**: For each primary metric, ask \"What could we do to inflate this number that would actually hurt the business?\"\n2. **Cover adjacent areas**: If your primary metric measures growth, add guardrails for quality and retention. If it measures engagement depth, add guardrails for breadth.\n3. **Set thresholds, not targets**: Guardrail metrics don't need to improve — they just can't get worse. Define acceptable ranges.\n4. **Keep the set small**: 2-4 guardrail metrics are typically enough. Too many dilutes focus.\n\n**Common pairings:**\n\n| Primary Metric | Guardrail Metrics |\n|---|---|\n| Revenue growth | Customer satisfaction, churn rate |\n| Activation rate | Support ticket volume, time to value |\n| Feature adoption | Performance/load time, error rate |\n| Conversion rate | Average order value, return rate |\n| Velocity (dev speed) | Bug count, code quality metrics |\n\n**Guardrails vs. secondary metrics:**\n\nNot all secondary metrics are guardrails. A guardrail metric specifically exists to constrain how the primary metric is pursued. It's a \"don't break this\" signal, not an additional optimization target. This distinction matters because treating guardrails as targets reintroduces the same focus-dilution problem they're meant to solve.\n\nGuardrail metrics are an essential part of any metrics-driven culture, ensuring that the pursuit of a North Star doesn't lead teams off a cliff.",
+    "tags": ["metrics", "product-management", "strategies", "measurement", "accountability"],
+    "category": "Techniques",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": ["Counter Metrics", "Balancing Metrics"],
+    "relatedConcepts": ["north-star-metric", "kpis", "goodharts-law", "lead-and-lag-measures", "engagement-metrics", "activation-rate", "success-metrics", "okrs"],
+    "relatedNotes": [],
+    "references": [],
+    "articles": [],
+    "books": [
+        {"title": "Lean Analytics by Alistair Croll & Benjamin Yoskovitz", "url": "https://www.amazon.com/dp/1449335675?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

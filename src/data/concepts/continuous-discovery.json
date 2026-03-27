@@ -1,0 +1,77 @@
+{
+    "id": "continuous-discovery",
+    "name": "Continuous Discovery",
+    "summary": "An ongoing practice of weekly customer interactions and structured experimentation to continuously inform product decisions rather than treating research as a one-time phase.",
+    "explanation": "Continuous Discovery is a product management approach popularized by Teresa Torres that advocates for sustained, regular engagement with customers throughout the product development process. Rather than treating discovery as a discrete phase that happens before development, continuous discovery embeds research and learning into the weekly rhythm of product teams.\n\nThe core idea is that product decisions are never fully validated — the market, customer needs, and competitive landscape are always evolving. Teams that wait for big research projects to inform their decisions inevitably work with stale data and build on outdated assumptions.\n\n**Core habits of continuous discovery:**\n\n1. **Weekly touchpoints with customers**: At minimum, the product trio should talk to one customer every week. These aren't formal usability tests or lengthy interviews — they're short, focused conversations that keep the team connected to real customer experiences\n2. **Opportunity mapping**: Continuously update the opportunity space as new customer needs, pain points, and desires are discovered\n3. **Assumption testing**: Run small, fast experiments to validate or invalidate the assumptions behind potential solutions before investing in full development\n4. **Compare and contrast**: Always consider multiple solutions for any opportunity rather than committing to the first idea\n\n**Why it works:**\n\n- Reduces risk by testing ideas early and often\n- Builds empathy and customer understanding over time\n- Prevents teams from building features nobody wants\n- Creates faster feedback loops between learning and building\n- Keeps the entire product trio involved in discovery, not just the product manager\n\n**Common anti-patterns:**\n\n- Delegating all research to a separate UX research team\n- Only doing discovery at the start of a project\n- Confusing delivery velocity with progress toward outcomes\n- Skipping assumption testing because \"we already know the customer\"\n\nContinuous discovery works hand-in-hand with continuous delivery. While continuous delivery ensures teams can ship frequently, continuous discovery ensures they're shipping the right things.",
+    "tags": [
+        "product-management",
+        "product-discovery",
+        "customer-research",
+        "habits",
+        "methodologies",
+        "agile"
+    ],
+    "category": "Methods",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "Continuous Discovery Habits"
+    ],
+    "relatedConcepts": [
+        "opportunity-solution-tree",
+        "product-discovery",
+        "product-trio",
+        "assumption-mapping",
+        "customer-discovery",
+        "lean-startup",
+        "build-measure-learn",
+        "hypothesis-driven-development",
+        "rapid-experimentation",
+        "jobs-to-be-done",
+        "design-sprint",
+        "continuous-improvement"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Continuous Discovery Habits - Product Talk",
+            "url": "https://www.producttalk.org/continuous-discovery-habits/",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Continuous Discovery Habits by Teresa Torres",
+            "url": "https://www.amazon.com/dp/1736633309?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

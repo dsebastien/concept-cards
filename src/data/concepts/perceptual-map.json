@@ -1,0 +1,23 @@
+{
+    "id": "perceptual-map",
+    "name": "Perceptual Map",
+    "summary": "A visual tool that plots brands or products on axes representing key attributes as perceived by customers, revealing competitive positioning and market gaps.",
+    "explanation": "A Perceptual Map (also called a positioning map) is a visual diagram that displays how customers perceive different brands, products, or companies relative to each other along dimensions that matter to them. It's one of the most practical tools in a marketer's toolkit for understanding competitive positioning and identifying opportunities.\n\n**How it works:**\n\nA basic perceptual map uses a two-dimensional grid where:\n- The **X-axis** represents one attribute (e.g., price: low to high)\n- The **Y-axis** represents another attribute (e.g., quality: basic to premium)\n- Each **point** represents a brand or product, placed according to customer perceptions\n\n**Creating a perceptual map:**\n\n1. **Choose dimensions**: Select the two attributes most important to your target market's buying decisions. Common dimensions include price/quality, innovation/tradition, convenience/customization, mass-market/niche.\n2. **Gather perception data**: Use customer surveys, interviews, or market research to understand how customers perceive each competitor on these dimensions.\n3. **Plot competitors**: Place each brand on the map based on customer perceptions (not your internal view).\n4. **Identify your position**: Plot your own brand and assess how it compares.\n5. **Find gaps**: Look for underserved areas — spaces on the map with customer demand but no strong offerings.\n\n**What perceptual maps reveal:**\n\n- **Competitive clusters**: Where multiple brands compete for the same positioning\n- **White space**: Unoccupied areas that represent potential positioning opportunities\n- **Perception gaps**: Differences between how you see your brand and how customers see it\n- **Repositioning targets**: Where you might want to move your brand over time\n\n**Limitations:**\n\n- Only two dimensions can be shown at once (though multi-dimensional maps exist)\n- Based on perceptions, which may not reflect actual product attributes\n- Snapshots in time — perceptions shift as markets evolve\n- Dimension selection heavily influences the conclusions\n\n**Advanced variations:**\n\n- **Multi-attribute maps**: Use statistical techniques like multidimensional scaling to plot more than two attributes\n- **Ideal point maps**: Include the customer's ideal position to show which brands are closest to what they want\n- **Dynamic maps**: Track how positions shift over time\n\nPerceptual maps are most valuable when combined with segmentation data — different customer segments may perceive the same brands very differently, suggesting different positioning strategies for different audiences.",
+    "tags": ["marketing", "positioning", "strategies", "visualization", "competitive-analysis"],
+    "category": "Techniques",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": ["Positioning Map", "Brand Mapping"],
+    "relatedConcepts": ["positioning", "market-segmentation", "competitive-analysis", "brand-strategy", "unique-selling-proposition", "competitive-advantage", "blue-ocean-strategy", "category-design", "ideal-customer-profile"],
+    "relatedNotes": [],
+    "references": [
+        {"title": "Perceptual mapping - Wikipedia", "url": "https://en.wikipedia.org/wiki/Perceptual_mapping", "type": "website"}
+    ],
+    "articles": [],
+    "books": [
+        {"title": "Obviously Awesome by April Dunford", "url": "https://www.amazon.com/dp/1999023005?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "growth-loops",
+    "name": "Growth Loops",
+    "summary": "Self-reinforcing systems where the output of one growth cycle becomes the input for the next, creating compounding growth rather than linear acquisition.",
+    "explanation": "Growth Loops are a mental model for understanding sustainable growth that replaces the traditional marketing funnel metaphor. Instead of thinking about growth as a linear sequence (awareness → interest → conversion), growth loops describe closed systems where each new user or action generates inputs that drive additional growth.\n\nThe concept was popularized by Brian Balfour and the Reforge growth program as a more accurate representation of how the most successful products actually grow.\n\n**How growth loops work:**\n\nEvery growth loop has three components:\n1. **Input**: A new user, piece of content, or data point enters the system\n2. **Action**: The user takes some action within the product\n3. **Output**: That action generates something (content, invitations, data) that attracts new inputs\n\n**Common types of growth loops:**\n\n- **Viral loops**: Users invite others (e.g., Dropbox referral program — use product → invite friends → friends sign up → they invite more)\n- **Content loops**: Users create content that attracts new users via search (e.g., Pinterest — users pin content → content gets indexed → new users discover via Google → they pin more)\n- **Paid loops**: Revenue from users funds acquisition of more users (e.g., subscription revenue → reinvest in ads → acquire more subscribers → more revenue)\n- **Data loops**: More users generate more data, which improves the product, attracting more users (e.g., Waze — more drivers → better traffic data → better routing → more drivers)\n- **Sales loops**: Happy customers generate referrals and case studies that help close new customers\n\n**Why loops beat funnels:**\n\n- **Compounding**: Funnels are linear (spend more to get more). Loops compound — each cycle's output fuels the next.\n- **Sustainability**: Funnels require constant investment. Well-designed loops become increasingly efficient over time.\n- **Defensibility**: Loops create competitive advantages that are hard to replicate because they're embedded in the product.\n\n**Designing growth loops:**\n\n1. Identify what action your best users take that could generate new users\n2. Reduce friction in both the action and the re-entry path\n3. Measure the loop's cycle time and conversion at each step\n4. Optimize for loop speed and efficiency, not just funnel conversion\n\nThe most durable companies typically have multiple interlocking growth loops rather than depending on a single channel or mechanism.",
+    "tags": ["growth", "product-management", "strategies", "marketing", "businesses", "compounding"],
+    "category": "Frameworks",
+    "icon": "FaStream",
+    "featured": false,
+    "aliases": ["Growth Loop", "Viral Loops"],
+    "relatedConcepts": ["flywheels", "network-effects", "compound-growth", "marketing-funnel", "product-led-growth", "north-star-metric", "engagement-metrics", "virtuous-circle", "snowball-effect", "go-to-market-strategy"],
+    "relatedNotes": [],
+    "references": [],
+    "articles": [],
+    "books": [
+        {"title": "Hacking Growth by Sean Ellis & Morgan Brown", "url": "https://www.amazon.com/dp/045149721X?tag=dsebastien00-20"}
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}
