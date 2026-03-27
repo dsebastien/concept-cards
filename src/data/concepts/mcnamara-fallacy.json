@@ -1,0 +1,74 @@
+{
+    "id": "mcnamara-fallacy",
+    "name": "McNamara Fallacy",
+    "summary": "The mistake of making decisions based solely on quantitative metrics while ignoring qualitative factors that cannot be easily measured.",
+    "explanation": "The McNamara Fallacy, named after Robert McNamara, U.S. Secretary of Defense during the Vietnam War, describes the dangerous error of relying exclusively on quantitative observations and metrics while disregarding all qualitative factors. The fallacy follows a predictable four-step pattern:\n\n1. **Measure whatever can be easily measured.** This is a reasonable starting point.\n2. **Disregard what cannot be easily measured, or assign it an arbitrary quantitative value.** This is artificial and misleading.\n3. **Presume that what cannot be measured easily is not important.** This is blindness.\n4. **Say that what cannot be easily measured does not exist.** This is suicide.\n\nDuring the Vietnam War, McNamara and his team of analysts — known as the 'Whiz Kids' — relied heavily on quantifiable metrics like body counts, sorties flown, and territory controlled to assess progress. These numbers consistently suggested the U.S. was winning. Meanwhile, critical factors that were harder to quantify — Vietnamese morale and determination, the political legitimacy of the South Vietnamese government, the effectiveness of guerrilla tactics, the impact on civilian populations — were systematically underweighted or ignored. The result was catastrophically flawed decision-making that prolonged a losing war.\n\nThe fallacy is not about the use of metrics per se. Measurement is valuable. The fallacy lies in treating measurable quantities as the complete picture while dismissing everything else. It mistakes the map for the territory, confusing what can be counted with what actually counts.\n\nThis pattern recurs across domains:\n\n- **Business**: Companies optimize for easily measurable KPIs (revenue growth, user acquisition) while ignoring harder-to-quantify factors (employee morale, customer trust, brand perception, technical debt) until these unmeasured factors cause a crisis.\n- **Education**: Schools focused on test scores may produce students who score well but lack creativity, critical thinking, or genuine curiosity.\n- **Healthcare**: Optimizing for measurable outcomes like procedure throughput may come at the cost of patient experience, preventive care, and holistic well-being.\n- **Technology**: Engagement metrics may drive product decisions that increase screen time while degrading user well-being and social cohesion.\n\nThe antidote to the McNamara Fallacy is not to abandon measurement but to maintain intellectual humility about its limits. Use quantitative data as one input alongside qualitative assessment, expert judgment, and direct observation. Be especially vigilant about what your metrics are not capturing. As sociologist William Bruce Cameron noted: 'Not everything that counts can be counted, and not everything that can be counted counts.'",
+    "tags": [
+        "mental-models",
+        "thinking",
+        "decision-making",
+        "measurement",
+        "cognitive-biases"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Quantitative Fallacy",
+        "McNamara Error"
+    ],
+    "relatedConcepts": [
+        "goodharts-law",
+        "campbells-law",
+        "streetlight-effect",
+        "survivorship-bias",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Tyranny of Metrics by Jerry Z. Muller",
+            "url": "https://www.amazon.com/dp/0691191913?tag=dsebastien00-20"
+        },
+        {
+            "title": "In Retrospect: The Tragedy and Lessons of Vietnam by Robert S. McNamara",
+            "url": "https://www.amazon.com/dp/067976749X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "McNamara fallacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/McNamara_fallacy",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

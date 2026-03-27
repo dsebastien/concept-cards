@@ -1,0 +1,64 @@
+{
+    "id": "lucas-critique",
+    "name": "Lucas Critique",
+    "summary": "Econometric relationships observed under one policy regime cannot be relied upon to predict outcomes under a different policy because rational agents adjust their behavior to new policies.",
+    "explanation": "The Lucas Critique, articulated by economist Robert Lucas Jr. in his influential 1976 paper, is a fundamental challenge to the use of historical statistical relationships for policy evaluation. Lucas argued that the parameters of econometric models are not structural constants — they shift when policy changes because rational, forward-looking agents adjust their behavior in response to new rules.\n\nBefore Lucas, policymakers routinely used historical correlations to predict the effects of new policies. For example, they might observe a stable relationship between inflation and unemployment (the Phillips Curve) and assume they could exploit it: simply tolerate a bit more inflation to permanently reduce unemployment. Lucas showed this reasoning was deeply flawed. When the government pursues an inflationary policy, workers and firms anticipate higher inflation and adjust their wage and price expectations accordingly, causing the historical relationship to break down.\n\nThe core insight generalizes far beyond macroeconomics:\n\n- **Any system containing adaptive agents will change its behavior when the rules change.** Predicting the effects of a new policy by extrapolating from data gathered under old policies is unreliable because the agents in the system will respond to the new policy in ways not captured by the historical data.\n\n- **Regulation and finance**: When regulators impose new capital requirements on banks, banks don't simply absorb the cost — they restructure their portfolios, create new financial instruments, and shift risk in ways that may undermine the regulation's intent.\n\n- **Technology platforms**: When social media platforms change their algorithms, content creators adapt their strategies. A policy designed to reduce clickbait may instead spawn new forms of engagement-optimized content.\n\n- **Organizations**: When management introduces new performance metrics, employees don't passively accept measurement — they strategically alter their behavior, connecting the Lucas Critique to Goodhart's Law and Campbell's Law.\n\nThe Lucas Critique contributed to a methodological revolution in economics, pushing the field toward models built on micro-foundations — explicit assumptions about how individuals optimize — rather than aggregate statistical relationships. This approach aims to identify structural parameters that remain stable across policy changes.\n\nFor decision-makers in any domain, the lesson is clear: never assume that historical relationships will hold when you change the rules. Always ask: 'How will the agents in this system adapt to the new policy?' and model the feedback effects of that adaptation.",
+    "tags": [
+        "mental-models",
+        "economics",
+        "decision-making",
+        "systems-thinking"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Lucas' Critique",
+        "Policy invariance critique"
+    ],
+    "relatedConcepts": [
+        "goodharts-law",
+        "campbells-law",
+        "cobra-effect",
+        "second-order-effects",
+        "systems-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Lucas critique - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lucas_critique",
+            "type": "website"
+        },
+        {
+            "title": "Econometric Policy Evaluation: A Critique - Robert Lucas Jr. (1976)",
+            "url": "https://doi.org/10.1016/S0167-2231(76)80003-6",
+            "type": "paper"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

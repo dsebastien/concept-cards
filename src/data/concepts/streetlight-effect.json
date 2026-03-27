@@ -1,0 +1,66 @@
+{
+    "id": "streetlight-effect",
+    "name": "Streetlight Effect",
+    "summary": "The tendency to search for something where it is easiest to look rather than where the answer is most likely to be found.",
+    "explanation": "The Streetlight Effect, also known as the drunkard's search principle, is a type of observational bias where people search for answers, evidence, or solutions only where it is easiest to look rather than where they are most likely to find what they need. The name comes from an old joke about a drunk searching for his lost keys under a streetlight, not because he dropped them there, but because that's where the light is.\n\nThis bias is pervasive in research, business, and everyday decision-making:\n\n- **Scientific research**: Studies tend to investigate phenomena that are easy to measure, fund, and publish rather than those that are most important. Entire fields can develop blind spots when researchers cluster around tractable problems while neglecting harder but more consequential questions.\n\n- **Data analysis**: Organizations often make decisions based on data they already collect rather than the data they actually need. A company may optimize for website clicks (easy to measure) instead of genuine customer satisfaction (harder to measure), not because clicks matter more, but because click data is readily available.\n\n- **Problem-solving**: When faced with a complex problem, people naturally gravitate toward aspects they understand or can easily analyze, potentially missing root causes that lie in unfamiliar territory.\n\n- **Medicine**: Diagnostic testing may be biased toward conditions that are easy to test for rather than those most likely to explain symptoms. Rare or difficult-to-diagnose conditions may be systematically overlooked.\n\n- **Security**: Organizations may focus cybersecurity efforts on known, well-understood attack vectors while ignoring novel or difficult-to-detect threats.\n\nThe Streetlight Effect is closely related to the McNamara Fallacy (overreliance on measurable data) and Goodhart's Law (metrics becoming targets). Together, these concepts form a family of biases about measurement and observation. The Streetlight Effect explains why we look at the wrong things; Goodhart's Law explains why measuring the right things can corrupt them; and the McNamara Fallacy explains why we dismiss what we cannot measure.\n\nCountering the Streetlight Effect requires deliberate effort: actively questioning whether you are looking in the right place, seeking out disconfirming evidence in unfamiliar domains, investing in measurement capabilities for hard-to-observe phenomena, and cultivating intellectual honesty about the boundaries of what your data can tell you. As Abraham Kaplan warned in his Law of the Instrument: 'Give a small boy a hammer, and he will find that everything he encounters needs pounding.'",
+    "tags": [
+        "mental-models",
+        "thinking",
+        "cognitive-biases",
+        "decision-making",
+        "measurement"
+    ],
+    "category": "Cognitive Biases",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Drunkard's search principle",
+        "Observational bias",
+        "Streetlamp effect"
+    ],
+    "relatedConcepts": [
+        "goodharts-law",
+        "mcnamara-fallacy",
+        "campbells-law",
+        "survivorship-bias",
+        "confirmation-bias"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Streetlight effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Streetlight_effect",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

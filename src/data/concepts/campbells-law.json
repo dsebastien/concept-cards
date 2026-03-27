@@ -1,0 +1,75 @@
+{
+    "id": "campbells-law",
+    "name": "Campbell's Law",
+    "summary": "The more a quantitative social indicator is used for decision-making, the more subject it will be to corruption pressures and the more apt it will be to distort the social processes it was intended to monitor.",
+    "explanation": "Campbell's Law, formulated by social psychologist Donald T. Campbell in 1979, states that the more any quantitative social indicator is used for social decision-making, the more subject it will be to corruption pressures and the more apt it will be to distort and corrupt the social processes it is intended to monitor.\n\nWhile often conflated with Goodhart's Law, Campbell's Law makes a subtler and more alarming point. Goodhart's Law focuses on the measure losing its informational value when it becomes a target. Campbell's Law goes further: it warns that the underlying social process itself becomes distorted. The measure doesn't just stop being useful — it actively corrupts the thing it was trying to measure.\n\nConsider standardized testing in education. Goodhart's Law predicts that test scores will stop reflecting genuine learning when they become targets. Campbell's Law predicts something worse: the entire educational process will warp around the tests. Curricula narrow to tested subjects, teachers spend time on test-taking strategies instead of deep understanding, schools may even engage in outright cheating. The educational process itself is corrupted, not just the metric.\n\nThis dynamic plays out across domains:\n\n- **Policing**: When crime statistics are used to evaluate police performance, departments may downgrade reported crimes, discourage victims from filing reports, or focus on easy arrests rather than complex investigations.\n- **Healthcare**: When hospital mortality rates are published, some facilities may avoid taking on high-risk patients, improving their numbers while potentially worsening overall patient care.\n- **Academia**: When publication counts determine tenure, researchers may slice work into minimal publishable units, pursue trendy topics over important ones, or engage in citation rings.\n- **Software development**: When velocity metrics drive team evaluation, teams may inflate story point estimates, avoid tackling difficult technical debt, or game sprint commitments.\n\nCampbell's original paper, 'Assessing the Impact of Planned Social Change,' was motivated by concerns about the evaluation of social programs in the 1960s and 1970s. He observed that well-intentioned efforts to use data for accountability consistently produced gaming and distortion.\n\nThe practical implication is that high-stakes quantitative targets should always be accompanied by qualitative oversight, multiple diverse measures, and regular reassessment. Any single metric used for reward or punishment will eventually be corrupted, and the corruption will spread beyond the metric to the processes it was meant to improve.",
+    "tags": [
+        "mental-models",
+        "thinking",
+        "decision-making",
+        "measurement",
+        "management"
+    ],
+    "category": "Principles",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Campbell Law"
+    ],
+    "relatedConcepts": [
+        "goodharts-law",
+        "cobra-effect",
+        "mcnamara-fallacy",
+        "streetlight-effect",
+        "incentives",
+        "second-order-effects"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Tyranny of Metrics by Jerry Z. Muller",
+            "url": "https://www.amazon.com/dp/0691191913?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Campbell's Law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Campbell%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Assessing the Impact of Planned Social Change - Donald T. Campbell (1979)",
+            "url": "https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=1031&context=jmde",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}
