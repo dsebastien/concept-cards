@@ -1,0 +1,73 @@
+{
+    "id": "ai-skill-scoping",
+    "name": "AI Skill Scoping",
+    "summary": "Defining clear boundaries for what an AI skill should and should not do to ensure focused, reliable, and secure behavior.",
+    "explanation": "AI skill scoping is the practice of defining clear boundaries for what an AI skill should and should not do. Well-scoped skills are easier to build, test, trust, and compose. Poorly scoped skills try to do too much, leading to unreliable behavior, security risks, and maintenance headaches.\n\n## Why Scoping Matters\n\nAn AI skill without clear boundaries is like a function with no defined interface. It creates problems across the entire skill lifecycle:\n\n- **Development**: Unclear scope makes it hard to know when a skill is \"done\"\n- **Testing**: Broad scope means an exponential increase in test cases\n- **Security**: Overly permissive skills expand the attack surface\n- **Composability**: Skills with unclear boundaries are hard to combine predictably\n- **Maintenance**: Scope creep makes skills brittle and difficult to evolve\n\n## Dimensions of Scope\n\n### Functional Scope\n- What tasks does the skill perform?\n- What inputs does it accept?\n- What outputs does it produce?\n- What tasks are explicitly out of scope?\n\n### Permission Scope\n- What resources can the skill access?\n- What actions can it take (read-only vs. read-write)?\n- What external services can it call?\n- What data can it access or modify?\n\n### Context Scope\n- When should the skill be invoked?\n- What trigger conditions activate it?\n- In what agent contexts is it appropriate?\n\n### Safety Scope\n- What could go wrong if the skill misbehaves?\n- What guardrails constrain its behavior?\n- What are the blast radius limits?\n\n## Scoping Principles\n\n1. **Single responsibility**: Each skill should do one thing well\n2. **Least privilege**: Skills should request only the permissions they need\n3. **Explicit boundaries**: Document what is out of scope, not just what is in scope\n4. **Fail-safe defaults**: When in doubt, restrict rather than permit\n5. **Progressive disclosure**: Simple use cases should be simple; complexity available when needed\n\n## Scoping Antipatterns\n\n- **The Swiss Army Knife**: A skill that tries to handle every related task\n- **The Leaky Abstraction**: A skill whose behavior leaks implementation details\n- **The Privilege Hoarder**: A skill that requests far more permissions than needed\n- **The Invisible Boundary**: A skill with undocumented limitations that surprise users\n- **The Moving Target**: A skill whose scope keeps expanding without clear versioning\n\n## Scoping in Practice\n\nGood scoping starts at design time with a clear skill specification that answers: What does this skill do? What does it not do? What can go wrong? This specification then guides implementation, testing, and documentation. Regular reviews help prevent scope creep over time.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "design",
+        "security",
+        "modular-design"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Skill Scoping",
+        "AI Skill Boundaries",
+        "Agent Skill Scoping"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "ai-skill-composability",
+        "ai-skill-testing",
+        "ai-skill-resilience",
+        "ai-skill-best-practices"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

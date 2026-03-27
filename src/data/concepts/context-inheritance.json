@@ -1,0 +1,98 @@
+{
+    "id": "context-inheritance",
+    "name": "Context Inheritance",
+    "summary": "How child contexts automatically receive and can override parent context settings.",
+    "explanation": "Context Inheritance is the mechanism by which child context layers receive and extend context from parent layers. In the context layering architecture, enterprise context flows down to teams, team context flows down to individuals, and individual context flows down to tasks.\n\n## How it works\n\nLike class inheritance in object-oriented programming:\n- **Child inherits parent**: a team automatically gets enterprise-wide rules without explicitly copying them\n- **Child can override**: a team can set stricter coding standards than the enterprise default\n- **Child can extend**: a team adds project-specific context that the enterprise layer does not know about\n- **Overrides are local**: a team override does not change the enterprise rule for other teams\n\n## Inheritance in practice\n\nIn tools like Claude Code, this is already implemented:\n- **Enterprise**: organization settings propagate to all projects\n- **Project**: CLAUDE.md rules apply to all team members working in the repo\n- **User**: personal settings and memory layer on top\n- **Session**: conversation-specific context overrides everything for the current task\n\n## Design considerations\n\n- **Explicit over implicit**: it should be clear which layer a piece of context comes from. Silent inheritance creates context confusion when you cannot tell why the model behaves a certain way\n- **Override visibility**: when a child overrides a parent, the override should be visible and auditable\n- **Conflict resolution**: clear precedence rules prevent context confusion when layers disagree (narrower scope wins)\n- **Budget impact**: inherited context consumes context budget in the child layer. Heavy enterprise context leaves less room for team and personal context",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "architecture",
+        "systems"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-layering",
+        "context-isolation",
+        "personal-context-management",
+        "team-context-management",
+        "enterprise-context-management",
+        "context-engineering",
+        "context-confusion",
+        "context-budget",
+        "context-as-code",
+        "separation-of-concerns"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Inheritance"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

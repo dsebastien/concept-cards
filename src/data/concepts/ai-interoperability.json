@@ -1,0 +1,70 @@
+{
+    "id": "ai-interoperability",
+    "name": "AI Interoperability",
+    "summary": "Ability of AI tools, agents, and skills to work across different platforms, models, and environments without modification.",
+    "explanation": "AI Interoperability is the principle that AI skills, agents, and context should work transparently across models, providers, and platforms. Switching from one AI model to another should not break your setup. Switching from one AI coding tool to another should not require rewriting everything. The investment you make in your AI infrastructure should survive vendor changes.\n\n## Dimensions of interoperability\n\n- **Model interoperability**: skills and agents work regardless of which LLM runs them\n- **Provider interoperability**: switching API providers is transparent; no provider-specific assumptions baked in\n- **Platform interoperability**: skills written in one AI tool work in others\n- **Machine interoperability**: your setup works identically on all your machines, not just the one where you built it\n- **Team interoperability**: skills and agents work for every developer on the team, not just the author\n- **Org interoperability**: context management scales from individual to team to enterprise without breaking\n\n## Why interoperability matters\n\nThe AI landscape moves fast. Today's best model is tomorrow's second choice. Today's best tool might not exist next year. If your skills, agents, and context are tightly coupled to one model, one provider, or one platform, you are building on sand.\n\nOrganizations investing in enterprise knowledge management need interoperability guarantees. A company cannot standardize on AI infrastructure that locks them to a single vendor.\n\n## What breaks interoperability\n\n- Model-specific prompt tricks that only work on one model family\n- Provider-specific API calls hardcoded to one provider's tool naming or response format\n- Platform-specific syntax that only one tool understands\n- Hardcoded paths that assume specific file locations, folder structures, or OS conventions\n- Capability assumptions relying on features only one model or tool supports\n\n## Toward interoperability\n\n- The Model Context Protocol (MCP) provides a standard for tool integration across platforms\n- Context-as-Code (CLAUDE.md, AGENTS.md) uses plain Markdown, readable by any tool\n- AGENTS.md is emerging as a cross-tool agent definition standard\n- Skill bodies written as tool-agnostic instructions maximize portability\n- Abstraction layers that map generic operations to platform-specific implementations\n\nThe pragmatic approach: keep the core intent portable, wrap platform-specific details in thin adapters.",
+    "tags": [
+        "ai",
+        "standards",
+        "portability",
+        "integration"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "model-context-protocol",
+        "ai-agent",
+        "agent-skills",
+        "context-engineering",
+        "enterprise-knowledge-management",
+        "agentic-engineering",
+        "ai-agent-distribution"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Interoperability"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Interoperability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Interoperability",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

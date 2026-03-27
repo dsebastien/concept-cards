@@ -1,0 +1,66 @@
+{
+    "id": "context-management-maturity-model",
+    "name": "Context Management Maturity Model",
+    "summary": "Framework for assessing organizational readiness in AI context management practices.",
+    "explanation": "The Context Management Maturity Model is a framework for assessing how sophisticated an individual, team, or organization is at managing AI context. It combines the levels of AI context management (individual progression) with levels of AI use (tool adoption) into a unified maturity view that spans all three layers: personal context management (PCM), team context management (TCM), and enterprise context management (ECM).\n\n## Maturity dimensions\n\n| Dimension | Immature | Mature |\n|---|---|---|\n| **Context scope** | Ad-hoc prompts per conversation | Structured, persistent context across all interactions |\n| **Context lifecycle** | Static, set-and-forget | Actively maintained, reviewed, and evolved |\n| **AI memory** | None or built-in only | Managed, curated, and auditable memory systems |\n| **Skills and procedures** | Repetitive manual instructions | Codified skills that standardize outputs |\n| **Context sharing** | Individual silos | Layered sharing (PCM to TCM to ECM) |\n| **Context governance** | No policies | Clear policies on what context AI can access |\n| **Feedback loops** | None | Agents learn from outcomes and update context |\n\n## Assessment questions\n\n- Do you repeat yourself to AI? (context persistence)\n- Does AI know your goals, not just your current question? (context depth)\n- Can a new team member's AI get productive immediately? (TCM maturity)\n- Is there an org-wide policy for AI context access? (ECM maturity)\n- Do your agents improve their own context over time? (agentic context engineering maturity)\n\nThe model helps organizations identify gaps in their context management practices and prioritize improvements. Starting with personal context management and progressively building toward team and enterprise-level practices is the most practical path.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "frameworks",
+        "maturity-models"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "levels-of-ai-context-management",
+        "personal-context-management",
+        "team-context-management",
+        "enterprise-context-management",
+        "context-engineering",
+        "agentic-context-engineering",
+        "context-lifecycle",
+        "context-hygiene"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Management+Maturity+Model"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "neural-architecture-search",
+    "name": "Neural Architecture Search (NAS)",
+    "summary": "Automated process of discovering optimal neural network architectures using machine learning rather than manual design.",
+    "explanation": "Neural Architecture Search (NAS) is an automated machine learning (AutoML) technique that uses algorithms to discover optimal neural network architectures for a given task, replacing the traditionally manual and expertise-intensive process of designing network structures. Instead of a human researcher deciding how many layers to use, what types of connections to make, or how to configure each component, NAS algorithms systematically explore the space of possible architectures to find designs that maximize performance.\n\n## How it works\n\nNAS operates across three key dimensions:\n\n**Search space** defines the set of possible architectures the algorithm can explore. This includes decisions about the number of layers, types of operations (convolution, pooling, skip connections), connectivity patterns, and hyperparameters. Well-designed search spaces encode human knowledge about what generally works while leaving room for novel discoveries.\n\n**Search strategy** determines how the algorithm navigates the search space. Common approaches include:\n\n- **Reinforcement learning**: A controller network generates architecture descriptions and is rewarded based on the performance of the resulting models.\n- **Evolutionary algorithms**: Populations of architectures undergo mutation and selection, with the best-performing designs surviving and reproducing.\n- **Gradient-based methods**: Differentiable relaxations of the architecture search space allow gradient descent to optimize architecture choices directly.\n- **Bayesian optimization**: Statistical models predict which architectures are likely to perform well, guiding exploration efficiently.\n\n**Performance estimation** evaluates how good a candidate architecture is. Training each candidate to convergence is prohibitively expensive, so techniques like weight sharing, early stopping, learning curve prediction, and proxy tasks are used to estimate performance more cheaply.\n\n## Notable achievements\n\nNAS has produced architectures that match or exceed human-designed ones. Google's NASNet discovered image classification architectures that outperformed manually designed networks. EfficientNet, partially designed using NAS, became a widely adopted architecture family. In natural language processing, NAS has been applied to discover transformer variants and optimize attention mechanisms.\n\n## Challenges and evolution\n\nEarly NAS methods were extremely computationally expensive, requiring thousands of GPU hours. Modern approaches have dramatically reduced this cost through weight sharing (training a single supernet that contains all candidate architectures), one-shot methods, and hardware-aware search that optimizes for both accuracy and computational efficiency. Despite these advances, NAS remains more resource-intensive than manual design and can sometimes converge on architectures that are difficult to interpret or generalize poorly outside the search conditions.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "optimization",
+        "architectures"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "NAS"
+    ],
+    "relatedConcepts": [
+        "ai-scaling-laws",
+        "ai-foundation-models",
+        "transfer-learning",
+        "ai-fine-tuning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Neural architecture search - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neural_architecture_search",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,69 @@
+{
+    "id": "small-language-models",
+    "name": "Small Language Models (SLMs)",
+    "summary": "Compact language models optimized for efficiency that can run on consumer hardware while maintaining useful capabilities.",
+    "explanation": "Small Language Models (SLMs) are language models with relatively few parameters -- typically under 10 billion -- designed for efficiency, on-device deployment, and domain-specific tasks. They challenge the prevailing assumption that bigger is always better, demonstrating that with high-quality training data and techniques like knowledge distillation, small models can achieve surprisingly strong performance on targeted tasks.\n\n## Notable Examples\n\nSeveral major organizations have invested in SLM development:\n\n- **Phi** (Microsoft): Research-focused models demonstrating that carefully curated training data can compensate for smaller model size\n- **Gemma** (Google): Lightweight models available in 2B and 7B sizes, designed for accessibility\n- **Llama 3.2 1B/3B** (Meta): Compact versions of the Llama family optimized for edge deployment\n\n## Advantages\n\nSLMs offer several compelling benefits over their larger counterparts:\n\n- **Low latency**: Faster inference times due to fewer computations per token\n- **Low cost**: Significantly cheaper to run, both in terms of hardware and energy\n- **Privacy**: Can run entirely locally, ensuring sensitive data never leaves the device\n- **Edge deployment**: Small enough to run on mobile devices, laptops, and embedded systems\n- **Specialization**: Can be fine-tuned efficiently for specific domains where they rival much larger models\n\n## Trade-offs\n\nThe primary trade-off is generality. While SLMs excel at specific, well-defined tasks, they struggle with broad reasoning, complex multi-step problems, and tasks requiring extensive world knowledge. They are best suited for focused applications like text classification, summarization, code completion in constrained domains, and on-device assistants.\n\n## Why SLMs Matter\n\nAs AI becomes embedded in more devices and applications, not every use case can afford or justify the latency, cost, and infrastructure of frontier models. SLMs fill the gap by bringing useful AI capabilities to resource-constrained environments. The trend toward smaller, more efficient models running locally also addresses growing concerns about data privacy and the environmental cost of large-scale AI inference.\n\nSLMs and large models are complementary rather than competing: speculative decoding, for instance, uses small models to accelerate large model inference, and knowledge distillation transfers capabilities from large to small models.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "performance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "SLMs",
+        "Small Language Models"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "knowledge-distillation",
+        "model-quantization",
+        "fine-tuning",
+        "ai-open-weight-models",
+        "ai-speculative-decoding",
+        "ai-inference",
+        "ai-foundation-models"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Small+Language+Models+(SLMs)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,69 @@
+{
+    "id": "ai-benchmarks",
+    "name": "AI Benchmarks",
+    "summary": "Standardized tests and evaluation suites used to measure and compare AI model capabilities across tasks.",
+    "explanation": "AI Benchmarks are standardized evaluation frameworks used to measure and compare the capabilities of AI models across different tasks, domains, and difficulty levels. They provide a common yardstick for tracking progress, identifying strengths and weaknesses, and guiding model development.\n\n## Why benchmarks matter\n\nWithout benchmarks, comparing AI models would be purely subjective. Benchmarks provide:\n- **Reproducible measurement**: anyone can run the same tests and compare results\n- **Progress tracking**: the field can measure improvement over time\n- **Capability mapping**: understanding what models can and cannot do\n- **Informed selection**: helping practitioners choose the right model for their use case\n\n## Major benchmark categories\n\n**General reasoning and knowledge:**\n- MMLU (Massive Multitask Language Understanding): 57 subjects from STEM to humanities\n- GPQA (Graduate-level Google-Proof Q&A): expert-level questions that resist simple search\n- ARC (AI2 Reasoning Challenge): science questions requiring reasoning\n\n**Coding:**\n- HumanEval and MBPP: function-level code generation\n- SWE-bench: real-world software engineering tasks from GitHub issues\n- LiveCodeBench: competitive programming problems\n\n**Mathematics:**\n- GSM8K: grade school math word problems\n- MATH: competition-level mathematics\n- AIME: problems from the American Invitational Mathematics Examination\n\n**Safety and alignment:**\n- TruthfulQA: measuring tendency to generate false but plausible answers\n- BBQ: measuring social biases\n\n## Limitations and criticism\n\n- **Benchmark contamination**: models may have seen test data during training, inflating scores\n- **Goodhart's Law**: optimizing for benchmarks can diverge from optimizing for real-world usefulness\n- **Static nature**: benchmarks become saturated as models improve, requiring harder replacements\n- **Narrow scope**: high benchmark scores do not guarantee good performance on novel, real-world tasks\n- **Gaming**: models can be specifically tuned to perform well on popular benchmarks\n\nThe field increasingly recognizes that benchmark scores are a useful but incomplete signal. Real-world evaluation, human preference studies, and domain-specific testing remain essential complements to standardized benchmarks.",
+    "tags": [
+        "ai",
+        "measurement",
+        "evaluation",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "AI Evaluation",
+        "LLM Benchmarks"
+    ],
+    "relatedConcepts": [
+        "ai-foundation-models",
+        "ai-scaling-laws",
+        "ai-hallucination",
+        "ai-alignment",
+        "ai-safety"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Benchmark (artificial intelligence) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Benchmark_(artificial_intelligence)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

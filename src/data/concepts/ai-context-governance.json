@@ -1,0 +1,72 @@
+{
+    "id": "ai-context-governance",
+    "name": "AI Context Governance",
+    "summary": "Policies and practices for managing who can create, modify, and distribute AI context.",
+    "explanation": "AI Context Governance is the set of policies, controls, and practices that determine what context AI agents can access, how that context is managed, and who is responsible for its quality and security. It is the governance layer of enterprise context management.\n\nAs AI agents gain access to more organizational knowledge (via RAG, MCP, knowledge bases, and tool integrations), the question shifts from \"how do we give AI enough context?\" to \"how do we control what context AI gets?\"\n\n## Key concerns\n\n- **Access control**: which agents can access which knowledge, and under what conditions\n- **Data classification**: which information is safe to include in AI context and which is restricted (PII, trade secrets, credentials)\n- **Audit trails**: tracking what context was provided for which decisions, especially in regulated industries\n- **Context quality**: who is responsible for keeping context accurate and current? Stale or wrong context is worse than no context\n- **Cross-boundary sharing**: how context flows between teams, departments, and external partners without leaking sensitive information\n- **Compliance**: ensuring AI context management meets GDPR, SOC2, HIPAA, and industry-specific regulations\n\n## The governance paradox\n\nMore context generally produces better AI outputs. But more context also increases risk. AI context governance navigates this tension: maximizing AI usefulness while minimizing exposure. Organizations must find the balance between giving AI agents enough context to be effective and restricting context to maintain security and compliance boundaries.\n\nEffective governance requires clear ownership at every level of the context hierarchy, from enterprise-wide policies down to team and project-level practices.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "governance",
+        "security",
+        "compliance"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "enterprise-context-management",
+        "team-context-management",
+        "context-engineering",
+        "ai-governance",
+        "ai-safety",
+        "context-provenance",
+        "context-isolation",
+        "context-poisoning"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Context+Governance"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

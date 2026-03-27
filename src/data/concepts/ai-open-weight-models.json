@@ -1,0 +1,77 @@
+{
+    "id": "ai-open-weight-models",
+    "name": "AI Open Weight Models",
+    "summary": "AI models whose trained parameters are publicly released, enabling local deployment, modification, and research.",
+    "explanation": "Open weight models are AI models whose trained weights (parameters) are publicly released, allowing anyone to download, run, fine-tune, and deploy them. The term \"open weight\" is more precise than \"open source\" because most releases include only the model weights and inference code, but not the training data, training code, or full reproduction pipeline.\n\n## Key Model Families\n\nSeveral major organizations have released influential open weight model families:\n\n- **Llama** (Meta): One of the most widely adopted open weight families, available in sizes from 1B to 405B parameters\n- **Mistral/Mixtral** (Mistral AI): Known for strong performance relative to size, with the Mixtral models pioneering open mixture-of-experts architectures\n- **Gemma** (Google): Lightweight models designed for efficiency and accessibility\n- **Qwen** (Alibaba): Competitive models with strong multilingual capabilities\n- **Phi** (Microsoft): Research-focused small models demonstrating the power of high-quality training data\n- **DeepSeek** (DeepSeek): Models pushing the boundaries of what open weight releases can achieve\n\n## Why Open Weights Matter\n\nOpen weight models serve several critical functions in the AI ecosystem:\n\n- **Democratization**: Enable organizations and researchers without massive compute budgets to work with state-of-the-art models\n- **Privacy**: Allow local deployment where data never leaves the organization's infrastructure\n- **Customization**: Enable fine-tuning and adaptation for specific domains and use cases using techniques like LoRA\n- **Transparency**: Allow the research community to study, audit, and improve model behavior\n- **Reduced vendor lock-in**: Provide alternatives to proprietary API-only models\n\n## Open Weight vs. Open Source\n\nThe distinction matters. True open source AI would include training data, training code, evaluation methodology, and model weights -- everything needed to reproduce the model from scratch. Most \"open\" model releases provide only the weights, making them open weight rather than fully open source. Organizations like the Open Source Initiative have worked to clarify these definitions.\n\n## Tensions and Trade-offs\n\nOpen weight models create a fundamental tension with AI safety. Once weights are released, they cannot be un-released, and the models can be fine-tuned to remove safety guardrails. This makes misuse harder to prevent compared to API-only models. Balancing openness with safety remains an active debate in the AI community.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "open-source"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Open Weight Models",
+        "Open Source AI Models",
+        "Open Models"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "fine-tuning",
+        "knowledge-distillation",
+        "ai-safety",
+        "ai-governance",
+        "small-language-models",
+        "model-quantization",
+        "mixture-of-experts",
+        "ai-foundation-models",
+        "ai-instruction-tuning"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Open+Weight+Models"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Open-source artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

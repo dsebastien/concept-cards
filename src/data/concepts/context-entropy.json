@@ -1,0 +1,73 @@
+{
+    "id": "context-entropy",
+    "name": "Context Entropy",
+    "summary": "Natural tendency of AI context systems to degrade toward disorder over time, accumulating contradictions, redundancies, and noise until usefulness declines.",
+    "explanation": "Context entropy is the natural tendency of AI context to degrade toward disorder over time. Left unmanaged, any sufficiently complex context system accumulates contradictions, redundancies, outdated references, and noise until the signal-to-noise ratio drops below usefulness.\n\nThis is distinct from context rot (staleness of specific entries) and context confusion (contradictory information). Context entropy is the system-level tendency -- the second law of thermodynamics applied to AI context. Individual entries may each be fine, but the aggregate system becomes increasingly disordered.\n\n## How Entropy Accumulates\n\n- **Additive bias**: it is always easier to add context than to remove it. New rules, memories, and instructions pile up without corresponding pruning\n- **Temporal layering**: context from different time periods coexists without clear precedence, creating implicit contradictions\n- **Multi-author drift**: in team settings, different people add context with different assumptions, styles, and conventions\n- **Tool output accumulation**: agent conversations grow; tool results, memories, and state accumulate across interactions\n- **Scope creep**: context expands to cover edge cases, eventually overwhelming the common cases it was designed for\n\n## Entropy vs Rot\n\nContext entropy operates at the system level (overall disorder), while context rot targets individual entries (specific staleness). Entropy is harder to detect because the system \"feels\" slower rather than producing obvious errors. Fixing entropy requires restructuring and reorganizing, not just updating specific entries.\n\n## Fighting Entropy\n\nEntropy cannot be eliminated, only managed. It requires ongoing energy (effort) to maintain order:\n\n- **Regular pruning**: the context lifecycle review phase exists specifically to combat entropy\n- **Context budget**: hard limits force prioritization and prevent unbounded growth\n- **Context layering**: separate concerns into layers so entropy in one layer does not contaminate others\n- **Compression and summarization**: periodically consolidate verbose context into concise equivalents\n- **Context signal-to-noise ratio monitoring**: measure and track the ratio to detect entropy before it becomes critical",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-quality",
+        "information-theory"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-lifecycle",
+        "context-hygiene",
+        "context-bloat",
+        "context-confusion",
+        "context-budget",
+        "context-signal-to-noise-ratio",
+        "context-layering",
+        "bit-rot"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Entropy"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Entropy (information theory) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Entropy_(information_theory)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

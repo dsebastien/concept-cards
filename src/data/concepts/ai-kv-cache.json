@@ -1,0 +1,75 @@
+{
+    "id": "ai-kv-cache",
+    "name": "AI KV Cache",
+    "summary": "Key-value caching mechanism that stores previously computed attention states to speed up sequential token generation.",
+    "explanation": "The KV (Key-Value) Cache is an optimization technique used in transformer-based language models that stores previously computed key and value tensors from the attention mechanism during autoregressive text generation. Without it, the model would need to recompute attention over all previous tokens for every new token generated, making generation prohibitively slow.\n\n**How It Works**\n\nDuring autoregressive generation, a transformer model produces one token at a time. Each new token needs to attend to all previous tokens via the attention mechanism, which requires key and value vectors for every prior position. The KV cache stores these vectors as they are computed, so they only need to be calculated once.\n\nThis trades memory for speed: it makes generation O(n) instead of O(n^2) per token, where n is the sequence length. The improvement is dramatic for long sequences.\n\n**The Memory Challenge**\n\nThe KV cache grows linearly with sequence length and is proportional to the number of attention layers and heads in the model. For long contexts, this can consume tens of gigabytes of GPU memory. A model might support 128K tokens in theory, but the KV cache memory required to serve that context at reasonable batch sizes can be prohibitive.\n\nKV cache size is often the primary constraint on long-context inference, not the model weights themselves.\n\n**Optimization Techniques**\n\n- **Paged Attention** (used by vLLM): Treats the KV cache like virtual memory, eliminating fragmentation and enabling more efficient memory utilization.\n- **Sliding Window Attention**: Only caches the most recent N tokens, bounding memory usage at the cost of losing access to distant context.\n- **KV Cache Quantization**: Stores keys and values in lower precision (e.g., FP8 instead of FP16) to reduce memory footprint.\n- **Multi-Query / Grouped-Query Attention (MQA/GQA)**: Shares key-value heads across multiple query heads, significantly reducing the cache size per layer.\n\nThe KV cache is directly relevant to context window management, context compression strategies, and the practical economics of serving large language models at scale.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "performance",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "KV Cache",
+        "Key-Value Cache",
+        "Attention Cache"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "large-language-models",
+        "transformer",
+        "context-window",
+        "ai-quantization",
+        "ai-tokenization",
+        "ai-mixture-of-experts",
+        "deep-learning"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+KV+Cache"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Transformer (deep learning architecture) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

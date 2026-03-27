@@ -1,0 +1,97 @@
+{
+    "id": "personal-context-management",
+    "name": "Personal Context Management",
+    "summary": "Managing AI context at the individual level to personalize AI interactions and maintain personal knowledge.",
+    "explanation": "Personal Context Management (PCM) is the practice of curating, structuring, maintaining, and evolving the entire context layer that ensures AI is as aligned as possible with you and your goals. It means making your personal knowledge system as easy to understand, use, and leverage for your AI agents as it is for yourself.\n\nPCM goes beyond crafting good prompts or even doing context engineering well. It encompasses the full lifecycle of managing your personal AI context: building it, maintaining it, reviewing it, and evolving it over time.\n\n## What PCM includes\n\n- **Master prompts**: rules, preferences, and behavioral guidelines for how AI should interact with you\n- **Identity context**: who you are, your values, beliefs, principles, goals, projects, and history\n- **Memory systems**: AI-managed memories that accumulate and evolve across conversations\n- **Skills**: codified procedures for how you want specific tasks done\n- **AI agents**: specialized agents with distinct identities, memories, and capabilities\n- **Knowledge base**: your personal knowledge management system reimagined as an AI-accessible context layer\n- **Rules and constraints**: what AI should and should not do, how it should communicate\n\n## The PCM insight\n\nMost people treat AI as stateless: every conversation starts from zero, and they provide minimal context. PCM recognizes that the quality of AI output is directly proportional to how well AI understands your full context: your past, present, and future.\n\nThis is the same principle behind the levels of AI context management: progressing from no context (Level 1) to an AI-ready knowledge system (Level 8) where AI agents fully understand you and actively enrich your knowledge base over time.\n\n## PCM as a lifecycle\n\n1. **Build**: create your master prompts, identity notes, skills, and agent configurations\n2. **Maintain**: keep context current as your goals, projects, and knowledge evolve\n3. **Review**: periodically audit whether AI's understanding of you is still accurate\n4. **Evolve**: add new skills, refine agents, update rules as your needs change\n\n## Relationship to PKM\n\nPCM builds on personal knowledge management but extends it. Traditional PKM is designed for human retrieval and thinking. PCM ensures the same knowledge system is also optimized for AI consumption. Your second brain becomes your AI's brain too.\n\n## The context management hierarchy\n\nPCM is the individual layer in a nested hierarchy:\n- **Enterprise Context Management (ECM)**: organization-wide context governance and policies\n- **Team Context Management (TCM)**: team-level shared context\n- **Project Context Management**: project-specific context\n- **Personal Context Management (PCM)**: individual preferences, style, and personal knowledge\n\nEach layer inherits from the level above and adds its own context.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "personal-knowledge-management",
+        "productivity"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "PCM"
+    ],
+    "relatedConcepts": [
+        "context-engineering",
+        "levels-of-ai-context-management",
+        "agentic-knowledge-management",
+        "knowledge-management",
+        "team-context-management",
+        "enterprise-context-management",
+        "project-context-management",
+        "context-inheritance",
+        "context-layering",
+        "context-budget",
+        "context-signal-to-noise-ratio",
+        "context-as-code",
+        "agentic-context-engineering",
+        "context-management-maturity-model",
+        "context-lifecycle",
+        "context-hygiene",
+        "context-drift"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Personal+Context+Management+(PCM)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

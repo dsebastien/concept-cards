@@ -1,0 +1,67 @@
+{
+    "id": "context-hygiene",
+    "name": "Context Hygiene",
+    "summary": "Practices for actively managing, pruning, and maintaining the quality of AI context throughout its lifecycle to prevent degradation.",
+    "explanation": "Context hygiene is the practice of actively managing, pruning, and maintaining the quality of AI context throughout its lifecycle. It is a key principle of context engineering: actively manage context throughout a conversation; clear, compact, or reset when context becomes bloated.\n\nWithout hygiene practices, AI context inevitably suffers from context bloat (accumulation without pruning), context drift (gradual misalignment with reality), and context rot (overall quality degradation over time).\n\n## Concrete Hygiene Practices\n\n- **Pruning**: regularly removing outdated, redundant, or contradictory entries from CLAUDE.md files, memory systems, and skills\n- **Consolidating**: merging multiple entries that say similar things into a single, authoritative statement\n- **Timestamping**: adding dates to context entries so staleness is visible\n- **Validating**: periodically checking that referenced files, functions, tools, and conventions still exist\n- **Scoping**: ensuring each context entry has a clear purpose and audience; removing vague or aspirational entries\n- **Versioning**: keeping context in version control so changes are traceable and reversible\n\n## An Ongoing Discipline\n\nThe key insight is that context maintenance is not a one-time setup task. It is ongoing work, similar to code maintenance or knowledge management. The higher the level of AI context management, the more surface area requires hygiene. Teams and enterprises face exponentially more context surface to maintain than individuals, making systematic hygiene practices essential at scale.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-patterns"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-bloat",
+        "context-drift",
+        "context-entropy",
+        "context-lifecycle",
+        "context-anchoring",
+        "context-as-code",
+        "context-signal-to-noise-ratio",
+        "knowledge-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Hygiene"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

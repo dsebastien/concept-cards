@@ -1,0 +1,67 @@
+{
+    "id": "ai-routing",
+    "name": "AI Routing",
+    "summary": "Directing user requests or subtasks to the most appropriate AI model or agent based on task requirements.",
+    "explanation": "AI Routing is the practice of directing different tasks to different AI models or agents based on the task's requirements. Instead of using one model for everything, a routing layer selects the most appropriate destination considering capability, cost, speed, and context needs.\n\n## Model routing\n\nModel routing directs tasks to the right model. A simple classification (or even a smaller, faster model) decides whether a task needs a powerful reasoning model or can be handled by a faster, cheaper one. Subagents naturally implement this: the parent agent uses a premium model while subagents can run on lighter models for routine tasks like code review or file exploration.\n\n**Routing criteria:**\n- **Task complexity**: simple lookups vs. multi-step reasoning\n- **Latency requirements**: real-time responses vs. background processing\n- **Cost sensitivity**: high-volume tasks benefit from cheaper models\n- **Context length**: some tasks need large context windows, others don't\n- **Specialization**: some models excel at code, others at creative writing or analysis\n\n## Agent routing\n\nAgent routing maps user intent to the appropriate agent or team. It determines which agent handles a given request, ensuring the right expertise is applied to the right problem.\n\nEffective routing uses two tiers:\n- **Tier 1: Lightweight hints** - A routing table maps common domains to agents. Covers obvious cases without loading additional context. Costs almost zero tokens.\n- **Tier 2: Dynamic receptionist** - For ambiguous requests, a full receptionist skill loads, reads the agent registry, classifies intent, and routes dynamically. More expensive but more accurate.\n\n## Trade-offs\n\nThe key trade-off is routing accuracy. Misrouting a complex task to a cheap model produces bad output. Misrouting a simple task to an expensive model wastes money. Getting this right requires observability to track quality per model per task type.\n\nRouting is the first major context engineering decision in any multi-agent session. The choice of which agent to activate determines which context gets loaded. Good routing keeps context lean and relevant.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "architectures",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Model Routing",
+        "AI Agent Routing"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "multi-agent-systems",
+        "agent-orchestration",
+        "context-engineering",
+        "ai-scaling-laws"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Model+routing",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Agent+Routing"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

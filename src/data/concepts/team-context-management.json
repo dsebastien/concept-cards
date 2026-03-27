@@ -1,0 +1,74 @@
+{
+    "id": "team-context-management",
+    "name": "Team Context Management",
+    "summary": "Coordinating shared AI context across team members to ensure consistent AI behavior within a group.",
+    "explanation": "Team Context Management (TCM) is the practice of curating, sharing, and maintaining AI context at the team level. It bridges personal context management (individual) and enterprise context management (organizational), providing the shared context that enables teams to work effectively with AI.\n\nAll levels of context management use the same principles and techniques of context engineering, just applied at different scales. TCM focuses on members, processes, and priorities: the team-specific context that shapes how people collaborate with AI.\n\n## What TCM covers\n\n- **Team members and roles**: who is on the team, their responsibilities, and expertise\n- **Processes and workflows**: how the team works, reviews code, handles incidents, ships features\n- **Priorities**: what the team is focused on, current sprint goals, quarterly objectives\n- **Shared coding standards and conventions**: CLAUDE.md, AGENTS.md, and similar configuration files that encode team-specific rules, style guides, and architectural decisions\n- **Shared skills and workflows**: team-level AI skills, templates, and procedures that standardize how AI assists across the team\n- **Team memory**: accumulated decisions, lessons learned, and patterns that persist across individual conversations\n- **Tool and MCP configurations**: shared tool setups, API integrations, and MCP server configurations\n\n## Why TCM matters\n\nWithout TCM, every team member manages their own AI context independently. This leads to:\n- Inconsistent AI outputs across the team\n- Duplicated effort in prompt engineering and context setup\n- Knowledge silos where one person's AI knows things another's does not\n- Difficulty onboarding new team members into AI-augmented workflows\n\n## The context management hierarchy\n\nTCM sits in the middle of a nested hierarchy:\n- **Enterprise Context Management (ECM)**: organization-wide policies, compliance, standards\n- **Team Context Management (TCM)**: team-level conventions and shared workflows\n- **Project Context Management**: project-specific context\n- **Personal Context Management (PCM)**: individual preferences, style, and personal knowledge\n\nContext inheritance flows down: teams inherit enterprise standards and add their own. Projects inherit team standards. Individuals layer their personal context on top.\n\n## Practical examples\n\n- A shared CLAUDE.md in a Git repository that encodes coding conventions, architecture decisions, and team practices\n- A team skill library that standardizes how AI handles code reviews, PR descriptions, or documentation\n- Shared MCP server configurations for team-specific tools and services\n- Team-level memory systems that capture decisions and their rationale",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "collaboration",
+        "teams"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "TCM"
+    ],
+    "relatedConcepts": [
+        "personal-context-management",
+        "project-context-management",
+        "enterprise-context-management",
+        "context-engineering",
+        "context-inheritance",
+        "context-as-code",
+        "context-layering",
+        "levels-of-ai-context-management",
+        "ai-context-governance"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Team+Context+Management+(TCM)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

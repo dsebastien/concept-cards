@@ -1,0 +1,73 @@
+{
+    "id": "ai-speculative-decoding",
+    "name": "AI Speculative Decoding",
+    "summary": "Technique where a smaller draft model generates candidate tokens that a larger model verifies in parallel to speed up inference.",
+    "explanation": "Speculative decoding is an inference optimization technique that uses a small, fast \"draft\" model to generate candidate tokens, which a larger \"target\" model then verifies in parallel. Since verification is computationally cheaper than generation (multiple tokens can be checked in a single forward pass), this approach significantly speeds up inference without changing output quality.\n\n## How It Works\n\nThe process follows a simple loop:\n\n1. The draft model generates a sequence of candidate tokens (typically 3-8 tokens ahead)\n2. The target model evaluates all candidate tokens in a single forward pass\n3. The target model accepts or rejects each draft token by comparing probability distributions\n4. If a token is rejected, generation continues from that point using the target model's own distribution\n\nBecause the target model makes the final decision on every token, speculative decoding is **lossless** -- it produces exactly the same output distribution as running the target model alone. It is a pure speed optimization with no quality trade-off.\n\n## Performance\n\nTypical speedups range from 2-3x for well-matched draft/target pairs. The actual improvement depends on the **acceptance rate**: if the draft model's predictions closely match the target model, more tokens are accepted per verification step, yielding greater speedup. Tasks where the output is more predictable (e.g., code completion, structured outputs) tend to see higher acceptance rates.\n\n## Variants\n\nSeveral variants of the technique have emerged:\n\n- **Self-speculative decoding**: Uses earlier layers of the same model as the draft, eliminating the need for a separate smaller model\n- **Medusa**: Adds extra prediction heads to the target model itself, allowing it to predict multiple future tokens simultaneously\n- **Eagle**: Uses a lightweight draft head trained on the target model's hidden states for better acceptance rates\n\n## Why It Matters\n\nAs large language models grow in size, inference latency and cost become critical bottlenecks. Speculative decoding addresses this by making better use of available hardware parallelism, reducing the time users wait for responses without sacrificing the quality that larger models provide. It is increasingly becoming a standard optimization in production LLM serving systems.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "performance",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Speculative Decoding",
+        "Draft-Verify Decoding"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "large-language-models",
+        "knowledge-distillation",
+        "model-quantization",
+        "ai-kv-cache",
+        "small-language-models",
+        "tokenization"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Speculative+Decoding"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Speculative decoding - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Speculative_decoding",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

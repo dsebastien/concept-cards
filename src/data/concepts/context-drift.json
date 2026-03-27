@@ -1,0 +1,71 @@
+{
+    "id": "context-drift",
+    "name": "Context Drift",
+    "summary": "Gradual, often unnoticed divergence between what AI context describes and what is actually true about the system, project, or workflow it represents.",
+    "explanation": "Context drift is the gradual misalignment between what AI context describes and what is actually true about a system, project, or workflow. Unlike context rot, which emphasizes staleness over time, context drift highlights the **directional** nature of the problem: the context slowly moves away from reality as the underlying system evolves.\n\nThink of it like configuration drift in infrastructure. You start with a perfectly accurate description of reality. Then small changes accumulate: a function gets renamed, a convention shifts, a tool gets swapped out. Each change is minor, but the cumulative effect is a context that confidently describes a system that no longer exists in that form.\n\n## Why It Is Dangerous\n\nContext drift is particularly insidious because it is invisible. The AI still produces coherent-sounding output based on drifted context. There is no error, no crash -- just a slow decline in relevance. The law of staleness applies: the older the context entry, the higher the probability it has drifted.\n\n## Mitigation\n\nMitigation requires treating AI context like live documentation: version-controlled, regularly reviewed, and validated against the current state. Context hygiene practices and periodic audits help catch drift before it compounds into full context rot. Context anchoring -- externalizing decisions into living documents -- provides a structural defense against drift by ensuring key context is explicit and reviewable rather than implicit and ephemeral.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-quality"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-bloat",
+        "context-hygiene",
+        "context-anchoring",
+        "context-entropy",
+        "context-lifecycle",
+        "context-signal-to-noise-ratio",
+        "bit-rot"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Drift"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Configuration drift - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Configuration_drift",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

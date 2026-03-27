@@ -1,0 +1,69 @@
+{
+    "id": "context-budget",
+    "name": "Context Budget",
+    "summary": "Deliberate allocation of a model's finite context window across different types of context, framing context engineering as an optimization problem with hard token constraints.",
+    "explanation": "A context budget is the deliberate allocation of a model's finite context window across the different types of context it needs: instructions, knowledge, memory, tools, tool results, and the user query. It frames context engineering as an optimization problem with a hard constraint: everything must fit within the maximum token limit.\n\n## Why Budgets Matter\n\nThe context window is finite. Everything competes for the same token space. Without a budget, context grows until it either hits the window limit or degrades output quality through context distraction and context entropy. The key insight: past a certain point, more context actively hurts. A budget forces you to decide what earns its place.\n\n## Budget Allocation\n\nA practical budget divides the context window across components:\n\n- **Instructions**: rules, behavior, constraints -- stable but grows with scope\n- **Knowledge**: domain facts, documentation -- largest consumer, needs pruning\n- **Memory**: past interactions, learned patterns -- grows unboundedly without limits\n- **Tools**: tool definitions, MCP schemas -- fixed per tool set\n- **Tool results**: dynamic data from tool calls -- unpredictable, can spike\n- **Query**: the actual user request -- usually small\n- **Conversation**: prior turns in the exchange -- grows linearly with conversation length\n\n## Budget Strategies\n\n- **Progressive disclosure**: load only what is needed now; defer the rest\n- **Lazy loading**: let the agent pull context on demand rather than front-loading everything\n- **Compression**: summarize older context to free space for fresh information\n- **Tiered priority**: define what gets cut first when the budget is tight (usually conversation history, then tool results, then knowledge)\n- **Hard caps per component**: set maximum token allocations per context type to prevent any single component from starving the others",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-patterns",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Token Budget"
+    ],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-window",
+        "context-distraction",
+        "context-entropy",
+        "context-bloat",
+        "context-signal-to-noise-ratio",
+        "context-layering",
+        "progressive-disclosure"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Budget"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

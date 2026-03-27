@@ -1,0 +1,90 @@
+{
+    "id": "agentic-context-engineering",
+    "name": "Agentic Context Engineering",
+    "summary": "Designing context systems where AI agents autonomously manage, update, and optimize their own context.",
+    "explanation": "Agentic Context Engineering (ACE) is a framework where AI agents actively manage and evolve their own context rather than relying on humans to curate it. Unlike traditional context engineering where humans design the context, ACE treats contexts as evolving playbooks that accumulate, refine, and organize strategies through a modular process of generation, reflection, and curation.\n\nThe key shift: in standard context engineering, humans decide what context to include. In ACE, agents participate in that decision. They reflect on what worked, what did not, and incrementally update their own context to improve future performance.\n\n## Core mechanisms\n\n1. **Generation**: agents produce outputs using their current context\n2. **Reflection**: agents evaluate their own outputs against success criteria\n3. **Curation**: agents update their context based on what they learned, adding strategies that worked and pruning what did not\n4. **Structured updates**: incremental, modular changes that preserve detailed knowledge rather than wholesale rewrites\n\nThis prevents context collapse: the problem where aggressive context compression or rewriting destroys nuanced knowledge that took many iterations to build.\n\n## Connection to personal context management and harness engineering\n\nACE is what happens when personal context management becomes bidirectional: not just you curating context for AI, but AI curating its own context based on experience. In a well-designed harness, ACE operates within human-defined boundaries while still having autonomy over its own learning.\n\nThis is already happening in practice with AI agent memory systems that accumulate lessons, feedback, and patterns across conversations.\n\n## Implications\n\nACE represents a fundamental shift in how we think about AI context. Instead of static instructions that humans must maintain, context becomes a living system that improves through use. This has profound implications for context hygiene, context drift, and the overall context lifecycle, as agents can potentially detect and correct their own context rot.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "agents",
+        "self-improvement"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "ACE"
+    ],
+    "relatedConcepts": [
+        "context-engineering",
+        "personal-context-management",
+        "context-drift",
+        "context-hygiene",
+        "levels-of-ai-context-management",
+        "context-management-maturity-model",
+        "ai-context-rot",
+        "context-lifecycle",
+        "context-entropy",
+        "agentic-knowledge-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Agentic+Context+Engineering"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Agentic Context Engineering",
+            "url": "https://arxiv.org/abs/2510.04618",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

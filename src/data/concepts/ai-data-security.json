@@ -1,0 +1,75 @@
+{
+    "id": "ai-data-security",
+    "name": "AI Data Security",
+    "summary": "Protecting sensitive data when using AI systems, where every interaction including prompts, uploaded files, tool call results, and agent memory is a potential data exposure point.",
+    "explanation": "AI data security addresses the protection of sensitive information across every touchpoint with AI systems. Every interaction with an AI tool is a potential data exposure point: prompts, uploaded files, tool call results, and agent memory all contain information that may be confidential, proprietary, or regulated.\n\n## Attack surface\n\nThe data exposure surface in AI systems is broader than many realize:\n\n- **Prompts**: everything typed or pasted into an AI tool is data being shared with the provider\n- **File uploads**: documents, code, and images uploaded for analysis\n- **Tool call results**: when AI reads files, queries databases, or calls APIs\n- **Agent memory**: accumulated context that persists across sessions\n- **Skill content**: instructions that may reference internal architecture, processes, or credentials\n- **Output logging**: provider-side logging of conversations and outputs\n\n## Threat categories\n\n### Data leakage\n\nSensitive data included in prompts reaches the provider's servers. Your data may be used to train future models. Agent memory accumulates confidential information over time. Cross-session contamination can cause context from one project to leak into another.\n\n### Data exfiltration\n\nMalicious skills or prompts can extract data through tool calls. Prompt injection attacks can redirect AI to send data to external endpoints. Untrusted skills accessing sensitive data represent a supply chain security risk.\n\n### Compliance violations\n\nProcessing personal data (GDPR, CCPA) through non-compliant AI services, storing regulated data (HIPAA, SOX) in AI memory systems, and cross-border data transfer through cloud AI providers all pose regulatory risks.\n\n## Mitigations\n\n- Classify data before sharing with AI, following clear usage policies\n- Use API access with enterprise data handling agreements\n- Run sensitive workloads on self-hosted models\n- Implement AI agent permissions to restrict file and tool access\n- Maintain context isolation between projects and clients\n- Audit agent memory for accumulated sensitive data\n- Strip credentials and secrets from context before loading",
+    "tags": [
+        "ai",
+        "safety",
+        "data-management",
+        "governance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "AI Security",
+        "AI Information Security"
+    ],
+    "relatedConcepts": [
+        "ai-privacy",
+        "ai-training-data-collection",
+        "ai-usage-policy",
+        "ai-agent-permissions",
+        "ai-governance",
+        "ai-safety",
+        "prompt-injection",
+        "shadow-ai",
+        "enterprise-ai-deployment"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Data+Security"
+    ],
+    "references": [
+        {
+            "title": "Information security - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_security",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

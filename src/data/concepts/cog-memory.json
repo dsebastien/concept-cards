@@ -1,0 +1,78 @@
+{
+    "id": "cog-memory",
+    "name": "Cog Memory",
+    "summary": "Persistent file-based memory system that allows AI agents to retain and recall information across conversation sessions.",
+    "explanation": "Cog is a plain-text cognitive architecture for Claude Code created by Marcio Puga. It is a set of conventions, not code, that teaches Claude Code how to build and maintain its own persistent memory across sessions. The filesystem is the interface; there is no server, no runtime, no application code.\n\n## How it works\n\nCLAUDE.md contains the conventions: how to tier memory, when to condense, how to route queries, when to archive. Skill files (`.claude/commands/*.md`) teach Claude specific workflows like reflection, foresight, housekeeping, and self-evolution. Claude reads these instructions and follows them to organize, maintain, and grow a persistent knowledge base.\n\nEverything is Markdown. Claude can `grep` for patterns, `find` what changed, and `git diff` to see what the last pipeline run touched. The same Unix tools that make Linux powerful make Cog's memory observable and maintainable.\n\n## Three-tier memory\n\n- **Hot**: Always loaded, under 50 lines. Current state, top priorities. Lives in `memory/hot-memory.md`\n- **Warm**: Domain-specific files loaded when relevant. Includes observations (append-only event log), action items, entities (people, places, things)\n- **Glacier**: Cold archived data with YAML frontmatter. Indexed, searched on demand via `glacier/index.md`\n\n## Progressive condensation\n\nTwo processes maintain memory health:\n\n1. **Condensation**: observations are promoted to patterns, which are promoted to hot-memory. Each layer is smaller and more actionable\n2. **Archival**: old observations move to glacier. Indexed, retrievable, out of the way\n\nNothing is deleted; it moves to the right place. This is conceptually similar to progressive summarization applied to AI memory.\n\n## Tiered retrieval protocol\n\nEvery memory file has a one-line summary comment (L0). Retrieval uses three levels:\n\n- **L0**: one-line summary, decides whether to open the file\n- **L1**: section header scan, identifies which part of a long file to read\n- **L2**: full file read, when full context is needed\n\n## Design influences\n\nDraws from RLM (recursive memory hierarchy), A-MEM (bi-directional back-linking), OpenViking (L0/L1/L2 tiered context loading), Zep/Graphiti (temporal validity), Mem0 (contradiction detection), the Zettelkasten method (thread framework), and single source of truth principles (canonical fact storage).",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "memory",
+        "persistence"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Cog",
+        "Cog Cognitive Architecture"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-agent-memory",
+        "progressive-summarization",
+        "zettelkasten",
+        "context-engineering",
+        "model-context-protocol",
+        "agent-skills"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Cog+Memory"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Cog Architecture",
+            "url": "https://lab.puga.com.br/cog/#/architecture",
+            "type": "website"
+        },
+        {
+            "title": "Cog - GitHub",
+            "url": "https://github.com/marciopuga/cog",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

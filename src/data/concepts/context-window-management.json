@@ -1,0 +1,64 @@
+{
+    "id": "context-window-management",
+    "name": "Context Window Management",
+    "summary": "Strategies for efficiently using the limited token space available in an AI model's context window.",
+    "explanation": "Context window management encompasses the techniques and strategies practitioners use to make the most of the finite token space available in a Large Language Model's context window. The context window includes everything the model processes in a single interaction: system prompts, conversation history, retrieved documents, tool outputs, and the model's own response. Once the window is full, older information must be dropped, summarized, or compressed.\n\n## Why it matters\n\nEven as context windows have grown dramatically, from 4K-8K tokens in early models to 200K and even 1 million tokens in modern models like Claude, the fundamental constraint remains: context is finite, and filling it with low-quality information degrades output. Research has shown that a lean, well-curated 50K context often outperforms a noisy 500K one. Longer context does not mean infinite attention. Early long-context models exhibited a \"lost in the middle\" effect where information buried in the middle of the context was often missed.\n\n## Key strategies\n\n**Progressive disclosure** involves feeding information to the model incrementally rather than all at once, providing details only when they become relevant to the current task.\n\n**Context compression** reduces the token footprint of information while preserving its semantic content. This can involve summarizing previous conversation turns, extracting key facts from documents, or using more concise representations.\n\n**Prompt lazy loading** defers the inclusion of detailed instructions or reference material until the model actually needs them, keeping the initial context lean.\n\n**Context hygiene** means actively managing what enters and stays in the context, removing redundant information, outdated conversation turns, or irrelevant tool outputs that consume tokens without adding value.\n\n**Token budgeting** allocates specific portions of the available context window to different purposes: system instructions, conversation history, retrieved knowledge, and generation space. This ensures no single component monopolizes the available tokens.\n\n## Relationship to context engineering\n\nContext window management is a core practice within the broader discipline of context engineering. While context engineering addresses the full lifecycle of designing, building, and optimizing the information fed to AI models, context window management focuses specifically on the tactical decisions about what goes into the window, when, and how much space it occupies. Every design pattern in context engineering, from progressive disclosure to context compression, exists because the context window is a finite, precious resource where signal-to-noise ratio matters more than raw capacity.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "optimization",
+        "techniques"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-budget",
+        "context-bloat",
+        "context-signal-to-noise-ratio",
+        "context-window",
+        "ai-kv-cache"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Window"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "ai-usage-policy",
+    "name": "AI Usage Policy",
+    "summary": "Organizational rules governing how employees can use AI tools, what data can be shared with AI systems, which tools are approved, and what use cases are prohibited.",
+    "explanation": "An AI usage policy is the practical enforcement layer of AI governance within an organization. It defines the boundaries of acceptable AI use before incidents happen, covering which tools are sanctioned, what data can be shared, and what actions require human review.\n\nWithout a policy, employees use AI however they see fit. Some paste proprietary code into consumer chat interfaces. Some upload confidential documents to free-tier tools. Some let AI make decisions without review. An AI usage policy sets clear boundaries.\n\n## What a policy covers\n\n### Approved tools and tiers\n\n- Which AI tools are sanctioned (e.g., enterprise API plans, not consumer free-tier chat)\n- Which tiers and plans are approved (API access vs. consumer chat vs. enterprise)\n- Which open-weight models can be self-hosted\n- The approval process for adopting new AI tools\n\n### Data classification for AI\n\n- **Public**: can be shared with any AI tool\n- **Internal**: can be shared with approved enterprise AI tools only\n- **Confidential**: can only be processed by self-hosted models or not at all\n- **Restricted**: never share with AI under any circumstances (PII, credentials, legal privilege)\n\n### Permitted and prohibited use cases\n\nTypically allowed: code assistance, drafting, summarization, research. Typically restricted or requiring review: decision-making, customer communication, legal or medical advice. Typically prohibited without human oversight: fully autonomous agent actions.\n\n### Accountability\n\n- Who reviews AI output before it is used\n- Who is responsible when AI-generated work causes issues\n- Incident response procedures for AI data leaks\n\nAn AI usage policy is one component of broader enterprise AI governance. It defines the guardrails within which teams and individuals manage their AI context. Without it, team-level and personal AI usage operates in a governance vacuum, increasing the risk of shadow AI adoption.",
+    "tags": [
+        "ai",
+        "governance",
+        "ethics",
+        "policies"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "AI Acceptable Use Policy",
+        "AI Policy"
+    ],
+    "relatedConcepts": [
+        "ai-governance",
+        "ai-ethics",
+        "ai-safety",
+        "ai-privacy",
+        "ai-training-data-collection",
+        "ai-agent-permissions",
+        "ai-data-security",
+        "shadow-ai",
+        "enterprise-ai-deployment",
+        "human-in-the-loop",
+        "responsible-ai"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Usage+Policy"
+    ],
+    "references": [
+        {
+            "title": "Artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

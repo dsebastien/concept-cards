@@ -1,0 +1,78 @@
+{
+    "id": "context-as-code",
+    "name": "Context-as-Code",
+    "summary": "Practice of treating AI context definitions as version-controlled, reviewable, and testable code artifacts rather than ephemeral prompt text.",
+    "explanation": "Context-as-Code is the practice of treating AI context definitions as version-controlled, reviewable, testable code rather than ephemeral prompt text. Just as Infrastructure-as-Code brought software engineering discipline to infrastructure management, Context-as-Code brings the same discipline to AI context management.\n\n## Manifestations\n\n- **CLAUDE.md / AGENTS.md files**: AI behavior rules, conventions, and context stored in version-controlled files alongside code\n- **Skill definitions**: codified procedures (SKILL.md files) that define exactly how AI should perform specific tasks\n- **Agent configurations**: agent identity, memory, and capabilities defined in structured files\n- **MCP server configs**: tool and integration definitions stored as configuration\n- **Hook definitions**: event-driven behaviors defined in settings files\n\n## Why It Matters\n\nWhen context is code:\n- It can be **reviewed** in pull requests (someone changing AI behavior should be reviewed like any code change)\n- It can be **versioned** (you can roll back to a previous AI configuration)\n- It can be **tested** (verify that context changes produce expected outputs)\n- It can be **shared** (teams inherit and extend context through standard version control workflows)\n- It can be **audited** (compliance teams can inspect exactly what context AI operates with)\n\n## Enabling Higher-Level Context Management\n\nContext-as-Code is the implementation pattern that makes team and enterprise context management practical. Without it, context management stays informal and fragile. With it, context management becomes an engineering discipline. At the personal level, a project with CLAUDE.md files, skills, agent configurations, and memory systems is already practicing Context-as-Code.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-patterns",
+        "software-development"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Context as Code"
+    ],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-hygiene",
+        "context-lifecycle",
+        "context-file-hierarchy",
+        "context-layering",
+        "context-anchoring",
+        "model-context-protocol"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context-as-Code"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Infrastructure as code - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Infrastructure_as_code",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

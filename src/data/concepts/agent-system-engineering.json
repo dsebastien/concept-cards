@@ -1,0 +1,80 @@
+{
+    "id": "agent-system-engineering",
+    "name": "Agent System Engineering",
+    "summary": "Discipline of designing, building, and maintaining multi-component AI agent systems including identity, memory, skills, and orchestration.",
+    "explanation": "Agent System Engineering is the discipline of leveraging agent harnesses to create agentic systems that achieve meaningful goals, efficiently, either in isolation (single agent) or through collaboration (with humans, other agents, or both).\n\nWhere Harness Engineering focuses on equipping, guiding, and steering individual AI models with tools, rules, permissions, and skills, agent system engineering operates at the system level: designing how agents are composed, coordinated, and orchestrated to accomplish complex, multi-step objectives.\n\n## Key concerns\n\n- **Agent composition**: which agents exist, what each is responsible for, and how they are specialized\n- **Orchestration**: how agents are coordinated, sequenced, or parallelized\n- **Routing**: how tasks are dispatched to the right agent\n- **Memory and state**: how knowledge persists across agents and interactions\n- **Communication**: how agents share information, delegate work, and report results\n- **Panels**: how groups of agents evaluate content from multiple perspectives\n- **Governance**: permissions, audit trails, human-in-the-loop checkpoints\n\n## Architecture patterns\n\n- **Single-agent with tools**: one agent orchestrates everything via tool calls and MCP\n- **Multi-agent pipeline**: agents arranged in sequence, each handling a stage\n- **Multi-agent swarm**: agents operating in parallel with coordination\n- **Hierarchical delegation**: a supervisor agent delegates to specialized sub-agents\n- **Human-in-the-loop**: agents execute within boundaries, escalating to humans when needed\n\n## The microservices analogy\n\nThe agentic AI field is going through its microservices revolution. Single all-purpose agents are being replaced by orchestrated teams of specialized agents, just as monolithic applications gave way to distributed service architectures. This brings similar challenges: coordination complexity, observability, and the need for clear contracts between components.\n\nHarness engineering is a prerequisite. You need well-harnessed individual agents before you can compose them into reliable systems. Agent system engineering then addresses the emergent complexity of multi-agent collaboration.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "engineering",
+        "systems-thinking"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "harness-engineering",
+        "context-engineering",
+        "intent-engineering",
+        "ai-agent",
+        "ai-agent-memory",
+        "agent-skills",
+        "ai-agent-swarms",
+        "agentic-engineering",
+        "agentic-knowledge-management",
+        "model-context-protocol",
+        "receptionist-ai-pattern",
+        "ai-agent-distribution"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Agent+System+Engineering"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

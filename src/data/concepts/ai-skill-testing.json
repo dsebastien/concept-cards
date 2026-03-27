@@ -1,0 +1,78 @@
+{
+    "id": "ai-skill-testing",
+    "name": "AI Skill Testing",
+    "summary": "Validating AI skill correctness, reliability, and performance before deployment through structured evaluation and automated test suites.",
+    "explanation": "AI skill testing is the practice of validating that AI skills behave correctly, reliably, and performantly before they are deployed to production. Given the non-deterministic nature of AI systems, testing skills requires approaches that go beyond traditional software testing while still drawing on its principles.\n\n## Why Testing AI Skills Is Hard\n\nTraditional software testing relies on deterministic behavior: given input X, expect output Y. AI skills break this assumption because:\n\n- The same input can produce different outputs across runs\n- \"Correct\" output may be subjective or context-dependent\n- Behavior changes when underlying models are updated\n- Edge cases are hard to enumerate for natural language interactions\n\n## Testing Levels\n\n### Unit Testing\n- Test individual skill components in isolation\n- Verify input validation and error handling\n- Check that skill metadata and configuration are valid\n- Use mock models with deterministic responses for functional logic\n\n### Integration Testing\n- Test skills with actual model calls\n- Verify tool integrations work correctly\n- Check skill behavior within the agent orchestration layer\n- Validate that skill outputs are consumable by downstream skills\n\n### Behavioral Testing\n- Define expected behavioral properties rather than exact outputs\n- Use assertion patterns: \"output should contain X\", \"output should not contain Y\"\n- Test for safety constraints and guardrail compliance\n- Verify behavior across representative input distributions\n\n### Performance Testing\n- Measure latency and token usage\n- Test under concurrent load\n- Evaluate cost per invocation\n- Benchmark against quality thresholds\n\n## Testing Strategies\n\n1. **Golden dataset testing**: Curate input-output pairs that represent expected behavior\n2. **Property-based testing**: Define invariants that should always hold (e.g., \"output is valid JSON\", \"response is under 500 tokens\")\n3. **Adversarial testing**: Probe skills with adversarial inputs, prompt injections, and edge cases\n4. **A/B testing**: Compare new skill versions against baselines with real traffic\n5. **Regression testing**: Ensure changes don't break previously working scenarios\n6. **LLM-as-judge**: Use a separate model to evaluate skill output quality\n\n## Continuous Testing\n\nSkill testing should not be a one-time activity. Continuous testing catches regressions from model updates, environment changes, and skill modifications. CI/CD pipelines for skills should include automated test suites that run on every change.\n\n## Metrics to Track\n\n- **Success rate**: Percentage of invocations that produce acceptable results\n- **Consistency**: Variance in output quality across repeated runs\n- **Latency**: Time from invocation to result\n- **Cost efficiency**: Token usage and API costs per invocation\n- **Safety compliance**: Rate of guardrail violations",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "testing",
+        "quality-assurance",
+        "reliability"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Skill Testing",
+        "AI Skill Validation",
+        "Agent Skill Testing"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "ai-skill-versioning",
+        "ai-skill-resilience",
+        "ai-skill-scoping",
+        "ai-skill-best-practices"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Software testing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_testing",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

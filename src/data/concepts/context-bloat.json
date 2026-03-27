@@ -1,0 +1,66 @@
+{
+    "id": "context-bloat",
+    "name": "Context Bloat",
+    "summary": "Accumulation of excessive, redundant, or low-value information in AI context without adequate pruning or prioritization.",
+    "explanation": "Context bloat is the accumulation of context entries, instructions, rules, and memories without adequate pruning or prioritization. It happens when AI context is treated as append-only: new entries get added, but nothing gets removed or consolidated.\n\nThe result is a context window filled with redundant, contradictory, or low-value information that dilutes the signal. This directly wastes the token budget, since AI context is finite with diminishing returns. Past a certain point, adding more context actively degrades output quality rather than improving it.\n\n## Compounding Effects\n\nContext bloat accelerates both context drift and context rot. The more entries there are, the harder it becomes to maintain them, and the more likely contradictions emerge. A set of 200 rules is harder to keep consistent than 20.\n\n## Mitigation\n\nThe antidote is context hygiene: regularly pruning, consolidating, and prioritizing context entries. Progressive disclosure and lazy loading patterns help structurally by ensuring only relevant context gets loaded for a given task, rather than dumping everything into the window at once. Context compression techniques can also reduce volume while preserving essential information.\n\nA context budget provides a hard structural constraint: by defining maximum token allocations per context type, bloat becomes self-limiting rather than unbounded.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-quality"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-drift",
+        "context-hygiene",
+        "context-budget",
+        "context-entropy",
+        "context-signal-to-noise-ratio",
+        "context-distraction",
+        "progressive-disclosure"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Bloat"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

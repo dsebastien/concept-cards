@@ -1,0 +1,74 @@
+{
+    "id": "agentic-tdd",
+    "name": "Agentic TDD",
+    "summary": "Test-driven development approach where AI agents write tests first and iteratively implement code to pass them.",
+    "explanation": "Agentic TDD adapts Test-Driven Development (TDD) for AI-assisted workflows. The red-green cycle becomes even more valuable when an agent is writing the implementation, because tests provide the objective verification that the code actually works rather than just looks plausible.\n\n## The red-green cycle with agents\n\n1. **Red**: Write automated tests first and confirm they fail. This step is critical. Skipping it risks creating tests that already pass, which defeats the purpose.\n2. **Green**: Let the agent implement code until all tests pass.\n3. **Iterate**: The agent can refactor, extend, or fix, always keeping tests green.\n\nModern coding models understand \"use red/green TDD\" as shorthand. A prompt like \"Build a Python function to extract headers from a markdown string. Use red/green TDD.\" triggers the full workflow.\n\n## First run the tests\n\nA complementary pattern: always start a session by running existing tests. Four words (\"first run the tests\") accomplish several things simultaneously:\n\n- **Discovery**: the agent learns a test suite exists and how to run it\n- **Complexity assessment**: test output reveals project scale (number of tests acts as a proxy for size)\n- **Knowledge**: test code hints at existing features and architecture\n- **Mindset**: having run tests, the agent naturally expands them later\n\n## Why this matters for agents specifically\n\nAgent-generated code has three specific risks that TDD addresses:\n\n- **Non-functional code**: agents can generate plausible code that doesn't actually work. Tests catch this.\n- **Dead code**: unnecessary implementations that go unused. Tests expose what's actually needed.\n- **Regression**: as agents modify code, they risk breaking existing functionality. Tests prevent this.\n\nThe old argument against TDD (\"tests take too long to write\") collapses when agents can generate and maintain test suites quickly. The cost of testing has dropped alongside the cost of coding, removing the main friction that kept teams from adopting TDD.",
+    "tags": [
+        "ai",
+        "software-engineering",
+        "techniques",
+        "development-tools"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "test-driven-development",
+        "agentic-engineering",
+        "ai-agent",
+        "vibe-coding",
+        "ai-coding-maturity"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Agentic+TDD"
+    ],
+    "articles": [
+        {
+            "title": "Red-Green TDD - Simon Willison's Agentic Engineering Patterns",
+            "url": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/",
+            "type": "website"
+        },
+        {
+            "title": "First Run the Tests - Simon Willison's Agentic Engineering Patterns",
+            "url": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

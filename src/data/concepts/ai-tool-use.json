@@ -1,0 +1,79 @@
+{
+    "id": "ai-tool-use",
+    "name": "AI Tool Use",
+    "summary": "Ability of AI models to invoke external tools, APIs, and functions to extend their capabilities beyond text generation.",
+    "explanation": "AI Tool Use is the capability of large language models to invoke external tools, APIs, and functions during generation. Instead of only producing text, the model outputs a structured tool call containing a function name and arguments. A harness or runtime executes the call, and the result is fed back into the model's context for further reasoning.\n\n**How It Works**\n\nWhen a model with tool use capability receives a user request, it can decide whether to respond directly or to call one or more tools. The typical flow is:\n\n1. The model analyzes the request and available tool definitions\n2. It generates a structured tool call (function name + JSON arguments)\n3. The runtime executes the tool and returns the result\n4. The model incorporates the result and continues reasoning or responds\n\nThis loop can repeat multiple times, enabling multi-step workflows where the model chains several tool calls together to accomplish complex tasks.\n\n**Why It Matters**\n\nTool use is the bridge between language understanding and real-world action. Without it, LLMs are limited to what they can express in text. With it, they can query databases, call APIs, manipulate files, run code, browse the web, and interact with any system that exposes a programmatic interface.\n\nThis capability is the core enabler of AI agents. An agent loop is essentially: reason, pick a tool, call it, observe the result, and repeat. The quality of tool selection and argument construction depends heavily on the model's understanding of available tools, which is why careful tool descriptions and structured schemas are critical.\n\n**Standardization**\n\nTool use is being standardized through protocols like the Model Context Protocol (MCP), which provides a uniform way for models to discover and invoke tools across different providers and runtimes. This enables interoperability and makes it easier to build tool ecosystems that work across multiple AI platforms.\n\n**Limitations**\n\nModels can make errors in tool selection, construct invalid arguments, or misinterpret results. Robust tool use requires validation, error handling, and sometimes human-in-the-loop confirmation for high-stakes actions.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "capabilities",
+        "tools"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Function Calling",
+        "Tool Calling",
+        "Tool Use"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "large-language-models",
+        "model-context-protocol",
+        "ai-inference",
+        "ai-foundation-models",
+        "ai-guardrails",
+        "ai-safety"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Tool+Use"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Tool use (AI) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tool_use_(AI)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

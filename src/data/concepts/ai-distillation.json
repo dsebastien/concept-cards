@@ -1,0 +1,77 @@
+{
+    "id": "ai-distillation",
+    "name": "AI Distillation",
+    "summary": "Training a smaller student model to replicate the behavior of a larger teacher model while maintaining performance.",
+    "explanation": "Knowledge distillation is the process of transferring knowledge from a large, complex model (the \"teacher\") to a smaller, more efficient model (the \"student\"). The student learns to approximate the teacher's behavior, gaining much of its capability at a fraction of the computational cost. The technique was formalized by Geoffrey Hinton, Oriol Vinyals, and Jeff Dean in 2015.\n\n## How it works\n\nInstead of training the student model on hard labels (correct/incorrect), distillation uses the teacher's **soft outputs** (probability distributions across all possible answers). These soft labels contain richer information: they encode the teacher's uncertainty and the relationships between classes. A cat image might have a high probability for \"cat\" but also small probabilities for \"dog\" and \"tiger,\" revealing learned similarity structure.\n\nThe process typically involves:\n1. Train a large teacher model to high performance\n2. Generate soft labels by running training data through the teacher\n3. Train the student to match both the hard labels and the teacher's soft output distribution\n4. A temperature parameter controls how soft the distributions are\n\n## Why it matters\n\nDistillation enables deploying powerful capabilities on constrained hardware. A massive model runs in the cloud to generate training data, and a small model learns from that data to run locally. This is how many lightweight models achieve disproportionate performance relative to their size.\n\nPractical applications include:\n- **Edge deployment**: running capable models on phones, embedded devices, and browsers\n- **Cost reduction**: serving cheaper, faster models in production while maintaining quality\n- **Latency optimization**: smaller models respond faster for real-time applications\n- **Specialization**: distilling a general model into a task-specific expert\n\n## Types of distillation\n\n- **Response-based**: student learns from teacher's output predictions\n- **Feature-based**: student learns from teacher's intermediate representations\n- **Relation-based**: student learns the relationships between different layers or data points\n- **Progressive distillation**: gradually reducing model size through multiple distillation steps\n\n## Trade-offs\n\nDistillation inherently loses nuance. A compressed model cannot do everything the original could. The student may struggle with edge cases the teacher handled well, and the degree of compression determines the performance gap. Careful evaluation is needed to ensure the distilled model meets quality thresholds for its intended use case.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "optimization",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Knowledge Distillation",
+        "Model Distillation"
+    ],
+    "relatedConcepts": [
+        "ai-foundation-models",
+        "ai-quantization",
+        "ai-scaling-laws",
+        "transfer-learning",
+        "ai-fine-tuning",
+        "ai-inference"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Knowledge+distillation"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge distillation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_distillation",
+            "type": "website"
+        },
+        {
+            "title": "Distilling the Knowledge in a Neural Network - Hinton et al. (2015)",
+            "url": "https://arxiv.org/abs/1503.02531",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "configuration-drift",
+    "name": "Configuration Drift",
+    "summary": "Gradual divergence of a system's actual configuration from its intended or documented state over time.",
+    "explanation": "Configuration drift is the gradual divergence between the intended state of a system's configuration and its actual state. It happens when changes are made directly to running systems (manual hotfixes, ad-hoc tweaks, emergency patches) without updating the source of truth that describes the desired state.\n\nIn DevOps and Infrastructure as Code (IaC), configuration drift is a well-known problem. A server's actual packages, settings, and services slowly diverge from what the IaC templates describe. The gap widens silently until something breaks and nobody can explain why the running system doesn't match the specification.\n\nThe concept also maps to AI context management. Context drift is the AI equivalent: the context files describing a system diverge from the actual codebase and workflows as they evolve. Just as IaC tools detect and remediate infrastructure drift, context hygiene practices detect and fix context drift.\n\n## Mitigation strategies\n\nThe strategies are similar across domains:\n\n- **Declare desired state**: define configuration in version-controlled files, not ad-hoc\n- **Detect drift**: regularly compare actual state against declared state\n- **Remediate automatically**: use tooling to enforce convergence (IaC apply, configuration management runs)\n- **Prevent manual changes**: minimize out-of-band modifications that bypass the source of truth\n\nTools like Ansible, Puppet, Chef, Terraform, and Kubernetes controllers all address configuration drift through different mechanisms, but the core pattern is the same: declare what you want, detect when reality diverges, and converge back automatically.",
+    "tags": ["software-engineering", "reliability", "anti-patterns", "operations"],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": ["bit-rot", "technical-debt"],
+    "relatedNotes": ["https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Configuration+Drift"],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Configuration drift - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Configuration_drift",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

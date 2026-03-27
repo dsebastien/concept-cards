@@ -1,0 +1,72 @@
+{
+    "id": "ai-multimodal",
+    "name": "AI Multimodal",
+    "summary": "AI systems that can process and generate multiple types of data including text, images, audio, and video.",
+    "explanation": "Multimodal AI refers to artificial intelligence systems that can process, understand, and generate across multiple data types -- or modalities -- such as text, images, audio, video, code, and structured data. Unlike traditional AI models that operate on a single modality, multimodal systems can reason across different types of input simultaneously.\n\n## Current Examples\n\nSeveral leading AI models demonstrate multimodal capabilities:\n\n- **GPT-4o** (OpenAI): Processes text, images, and audio natively in a single model\n- **Claude** (Anthropic): Handles text and vision, with the ability to analyze images, charts, and documents\n- **Gemini** (Google): Designed from the ground up as multimodal, supporting text, vision, audio, and video\n\n## Key Capabilities\n\nThe defining feature of multimodal AI is **cross-modal reasoning** -- the ability to connect understanding across different types of data:\n\n- Answering questions about the content of images or videos\n- Generating images from text descriptions\n- Transcribing and understanding audio alongside visual context\n- Analyzing documents that combine text, tables, charts, and images\n- Understanding code alongside its visual output\n\n## Architecture Approaches\n\nMultimodal models typically follow one of two architectural patterns:\n\n- **Modality-specific encoders with a shared backbone**: Different input types are processed by specialized encoders (e.g., a vision encoder for images) and then projected into a shared representation space where a transformer processes them together\n- **Natively multimodal architectures**: Models designed from the ground up to handle multiple modalities in a unified architecture, without separate encoders per modality\n\n## Why Multimodal AI Matters\n\nThe real world is inherently multimodal -- humans process information across sight, sound, text, and more simultaneously. Multimodal AI brings machine understanding closer to this reality, enabling applications that were previously impossible with single-modality models. The trend in AI development is clearly toward unified multimodal architectures, as these models prove more versatile and capable than specialized single-modality alternatives.\n\nMultimodal capabilities also expand the practical utility of AI systems, allowing them to handle tasks like document understanding, visual question answering, and multimedia content creation that require reasoning across multiple data types.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "capabilities",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Multimodal AI",
+        "Multimodal Models"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "generative-ai",
+        "diffusion-models",
+        "ai-frontier-model",
+        "ai-foundation-models",
+        "ai-inference"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Multimodal"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Multimodal learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Multimodal_learning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

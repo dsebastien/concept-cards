@@ -1,0 +1,75 @@
+{
+    "id": "ai-agent-permissions",
+    "name": "AI Agent Permissions",
+    "summary": "Controls governing what actions, tools, files, and resources AI agents can access, enforcing the principle of least privilege in agentic AI systems.",
+    "explanation": "AI agent permissions define the boundaries of what an AI agent can and cannot do: which tools it can call, which files it can read or write, which commands it can execute, and what level of human approval is required before taking action.\n\nAn AI agent with unrestricted access is a security risk. It can read sensitive files, execute destructive commands, push code to production, send messages, or exfiltrate data. The combination of hallucination, tool access, and autonomy becomes catastrophic without permission boundaries. This makes permission management one of the most critical aspects of AI safety in agentic systems.\n\n## Permission models\n\nSeveral permission patterns have emerged:\n\n- **Allow once**: approve a specific tool call for a single invocation only\n- **Allow always**: auto-approve a tool pattern for the session or permanently\n- **Deny**: reject the tool call entirely\n- **Restricted patterns**: allow specific command subsets (e.g., only git commands via Bash)\n- **Tiered access**: different permission levels for different agents or contexts\n\nMore broadly, permission systems use allowlists (explicitly enumerating what the agent can do), denylists (blocking specific dangerous operations), approval workflows requiring human confirmation for high-risk actions, and role-based access control mapping permissions to agent roles.\n\n## The Least Privilege Principle applied to AI\n\nEvery agent should have the minimum permissions needed to do its job. A code review agent does not need write access. A search agent does not need shell access. A drafting agent does not need to publish. Applying least privilege to AI agents is essential but challenging because most tool interfaces are all-or-nothing.\n\n## Challenges\n\n- **Granularity**: \"can use Bash\" is too broad; \"can use Bash but only for git commands\" is closer to right\n- **Context-dependent permissions**: the same agent might need different permissions for different tasks\n- **Permission fatigue**: too many approval prompts train users to click \"allow always\" for everything\n- **Transitive access**: if agent A can spawn agent B, agent B may inherit A's permissions unless explicitly restricted\n- **Runtime skill loading**: a skill loaded at runtime can request tools the user did not anticipate, creating supply chain security concerns",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "safety",
+        "governance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "AI Agent Access Control",
+        "AI Permissions"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-safety",
+        "ai-governance",
+        "ai-guardrails",
+        "human-in-the-loop",
+        "least-privilege",
+        "ai-usage-policy",
+        "ai-data-security",
+        "enterprise-ai-deployment"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Agent+Permissions"
+    ],
+    "references": [
+        {
+            "title": "AI safety - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/AI_safety",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

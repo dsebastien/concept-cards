@@ -1,0 +1,74 @@
+{
+    "id": "ai-sampling-parameters",
+    "name": "AI Sampling Parameters",
+    "summary": "Configuration settings like temperature, top-p, and top-k that control the randomness and creativity of AI text generation.",
+    "explanation": "Sampling parameters are the configuration settings that control how a language model selects the next token during text generation. They determine the balance between predictable, focused outputs and creative, diverse responses. Understanding these parameters is essential for getting optimal results from AI models.\n\n## Core Parameters\n\n### Temperature\n\nTemperature scales the probability distribution over the vocabulary before sampling. A temperature of 0 always selects the most probable token (greedy decoding), while higher values flatten the distribution, giving less probable tokens a better chance of being selected. Typical range: 0.0 to 2.0.\n\n- **Low temperature (0.0-0.3)**: Deterministic, focused, factual responses\n- **Medium temperature (0.4-0.7)**: Balanced creativity and coherence\n- **High temperature (0.8-2.0)**: More creative, varied, but potentially less coherent\n\n### Top-p (Nucleus Sampling)\n\nTop-p sampling considers only the smallest set of tokens whose cumulative probability reaches the threshold p. For example, top-p = 0.9 means the model considers only the tokens that together account for 90% of the probability mass, discarding the long tail of unlikely tokens. This adaptively adjusts the candidate set size based on how confident the model is about the next token.\n\n### Top-k\n\nTop-k sampling restricts the model to choosing from only the k most probable tokens at each step. For example, top-k = 50 means only the 50 highest-probability tokens are considered. Unlike top-p, this is a fixed cutoff regardless of the probability distribution shape.\n\n### Frequency Penalty\n\nReduces the probability of tokens proportional to how many times they have already appeared in the output. This helps prevent repetitive text by penalizing tokens that appear frequently.\n\n### Presence Penalty\n\nReduces the probability of any token that has appeared at all in the output, regardless of how many times. This encourages the model to introduce new topics and vocabulary rather than dwelling on previously mentioned concepts.\n\n## Parameter Interactions\n\nThese parameters interact with each other in important ways. Temperature is applied first, reshaping the probability distribution, and then top-p or top-k filtering is applied. Using both top-p and top-k simultaneously creates a double filter. Most AI APIs allow setting combinations of these parameters, and finding the right combination often requires experimentation for specific use cases.\n\n## Practical Guidelines\n\n- **Factual Q&A / code generation**: Low temperature (0.0-0.2), high top-p (0.9-1.0)\n- **Creative writing**: Higher temperature (0.7-1.0), moderate top-p (0.8-0.95)\n- **Brainstorming**: High temperature (0.9-1.2), lower top-p (0.7-0.9)\n- **Structured output (JSON, XML)**: Temperature 0, or very low with strict formatting",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "techniques",
+        "configuration"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Sampling Parameters",
+        "Top-p",
+        "Top-k",
+        "Nucleus Sampling",
+        "Decoding Strategies"
+    ],
+    "relatedConcepts": [
+        "ai-temperature",
+        "large-language-models",
+        "prompt-engineering",
+        "ai-inference",
+        "tokenization"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Sampling+Parameters"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Top-k sampling - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Top-k_sampling",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

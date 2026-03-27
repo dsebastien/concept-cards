@@ -1,0 +1,76 @@
+{
+    "id": "ai-frontier-model",
+    "name": "AI Frontier Model",
+    "summary": "The most capable and advanced AI models at the cutting edge of performance, typically from leading AI labs.",
+    "explanation": "A frontier model is the most capable AI model available at any given time, representing the cutting edge of performance across benchmarks and real-world tasks. The term \"frontier\" distinguishes these models from the broader category of foundation models: all frontier models are foundation models, but not all foundation models are frontier models.\n\n## Defining Characteristics\n\nFrontier models are characterized by:\n\n- **State-of-the-art performance**: They set new benchmarks across a wide range of tasks including reasoning, coding, mathematics, and language understanding\n- **Massive scale**: They are typically trained with enormous compute budgets, large datasets, and billions to trillions of parameters\n- **Novel capabilities**: They often exhibit emergent abilities not present in smaller or older models\n- **Broad generality**: Unlike specialized models, frontier models perform well across diverse domains\n\n## Current Frontier Models (Early 2026)\n\nThe frontier model landscape is dominated by a handful of leading AI labs:\n\n- **Claude** (Anthropic): Known for strong reasoning, safety focus, and long-context capabilities\n- **GPT-4 / o1 / o3** (OpenAI): Pioneering models in the large language model era\n- **Gemini** (Google DeepMind): Natively multimodal models with strong performance across modalities\n- **Grok** (xAI): Competitive models with real-time information access\n\n## The Temporal Nature of \"Frontier\"\n\nThe concept of a frontier model is inherently temporal. Today's frontier model becomes tomorrow's baseline as new, more capable models are developed. What was considered cutting-edge a year ago may now be surpassed by smaller, more efficient models. This constant advancement is driven by improvements in training techniques, data quality, architecture design, and scaling.\n\n## Regulatory Significance\n\nFrontier models attract the most regulatory and safety attention because their capabilities create novel risks that have not been previously encountered. Many AI governance frameworks, including the EU AI Act and voluntary commitments from AI labs, specifically target frontier models with additional requirements for safety testing, red-teaming, and responsible deployment. Organizations like the Frontier Model Forum have been created specifically to address the unique challenges these models pose.\n\n## Why the Distinction Matters\n\nUnderstanding what constitutes a frontier model is important for AI policy, safety research, and strategic planning. The frontier represents where the most significant new capabilities -- and potential risks -- first emerge, making it the focal point for both innovation and oversight in the AI ecosystem.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Frontier Model",
+        "Frontier Models",
+        "Frontier AI"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "ai-safety",
+        "ai-governance",
+        "ai-alignment",
+        "ai-foundation-models",
+        "scaling-laws",
+        "ai-multimodal",
+        "ai-open-weight-models",
+        "artificial-general-intelligence"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Frontier+Model"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Frontier model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Frontier_model",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

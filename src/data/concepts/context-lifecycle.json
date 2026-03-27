@@ -1,0 +1,66 @@
+{
+    "id": "context-lifecycle",
+    "name": "Context Lifecycle",
+    "summary": "The full operational cycle of AI context from creation through maintenance, review, evolution, and eventual retirement.",
+    "explanation": "The context lifecycle is the full operational cycle of AI context from creation through retirement. Context is not a static artifact you build once; it is a living system that requires ongoing management across four phases.\n\n## Phase 1: Build\n\nCreate the initial context layer: master prompts, identity notes, rules, skills, agent configurations, memory systems, and knowledge base structure. This is where most people stop, treating context as a one-time setup.\n\n## Phase 2: Maintain\n\nKeep context current as the world changes. Code evolves, goals shift, projects start and end, conventions change. Without active maintenance, context drifts toward rot. Maintenance includes updating rules, pruning stale entries, and syncing context with reality.\n\n## Phase 3: Review\n\nPeriodically audit whether AI's understanding is still accurate and aligned. Review catches problems that daily maintenance misses: subtle contradictions (context confusion), accumulated noise (context distraction), and slow drift (context drift). Review cadence matters; too infrequent and rot accumulates, too frequent and it becomes overhead.\n\n## Phase 4: Evolve\n\nExpand capabilities by adding new skills, refining agents, updating rules as needs change, and incorporating lessons learned. Evolution is intentional change (adding new context), while maintenance is corrective change (fixing existing context).\n\n## Why the Lifecycle Matters\n\nMost context management failures happen because people treat context as a build-once problem. They invest heavily in Phase 1, skip Phases 2-3, and do Phase 4 reactively. The result is context entropy: context that starts clean and gradually degrades.\n\nContext-as-Code enables lifecycle management by making context changes visible, reviewable, and reversible. Without version control and review processes, lifecycle management is informal and error-prone.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-patterns"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-entropy",
+        "context-hygiene",
+        "context-drift",
+        "context-confusion",
+        "context-distraction",
+        "context-as-code",
+        "context-anchoring"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Lifecycle"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

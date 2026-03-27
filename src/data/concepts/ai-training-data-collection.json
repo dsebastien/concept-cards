@@ -1,0 +1,76 @@
+{
+    "id": "ai-training-data-collection",
+    "name": "AI Training Data Collection",
+    "summary": "The processes and ethical considerations of gathering data used to train AI models, including the use of user prompts and conversations as training signal.",
+    "explanation": "AI training data collection encompasses the methods, policies, and ethical considerations around gathering data used to train AI models. When you use AI platforms, your prompts and the model's responses may be collected and used to improve future models, effectively making your data part of the training set.\n\n## How it works\n\nMost AI providers distinguish between different service tiers:\n\n- **Consumer/free tier**: your conversations are typically used for training unless you opt out\n- **API access**: data is generally NOT used for training (OpenAI, Anthropic, Google all commit to this)\n- **Enterprise plans**: explicit contractual guarantees about data handling\n\nThe distinction matters significantly. Using ChatGPT in a browser is not the same as calling the OpenAI API from a privacy perspective.\n\n## What gets collected\n\n- Your prompts, including any pasted code, documents, or data\n- The model's responses\n- Conversation metadata such as timing, length, and model used\n- Feedback signals like thumbs up/down ratings and regenerations\n\n## Risks\n\n- **Model memorization**: in rare cases, training data can be extracted from models through targeted prompting\n- **Aggregation risk**: even if individual prompts seem harmless, patterns across many prompts reveal strategy, priorities, and capabilities\n- **Irreversibility**: once data is in a training set, it cannot be fully removed\n- **Competitive exposure**: your workflows, approaches, and domain expertise become training signal for a model your competitors also use\n\n## How to protect yourself\n\n1. Check each provider's data policy and opt-out settings\n2. Use API access for anything sensitive\n3. Use local models for the most confidential work\n4. Never paste credentials, API keys, or secrets into any AI tool\n5. Establish organizational policies about what can and cannot be shared with AI\n\nUnderstanding training data collection is essential for making informed decisions about AI privacy and for crafting effective AI usage policies within organizations.",
+    "tags": [
+        "ai",
+        "ethics",
+        "data-management",
+        "machine-learning"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "AI Data Collection",
+        "Training Data Harvesting",
+        "AI Data Harvesting"
+    ],
+    "relatedConcepts": [
+        "ai-privacy",
+        "ai-safety",
+        "ai-governance",
+        "ai-data-security",
+        "ai-usage-policy",
+        "ai-ethics",
+        "ai-bias",
+        "shadow-ai",
+        "responsible-ai"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Training+Data+Collection"
+    ],
+    "references": [
+        {
+            "title": "Training, validation, and test data sets - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,69 @@
+{
+    "id": "ai-prompt-caching",
+    "name": "AI Prompt Caching",
+    "summary": "Technique that caches repeated prompt prefixes to reduce latency and cost for recurring AI interactions.",
+    "explanation": "AI Prompt Caching is an optimization technique where the computed internal state (key-value cache) of a prompt prefix is stored and reused across multiple API calls. When the same prefix appears in subsequent requests, the model skips reprocessing those tokens, significantly reducing both latency and cost.\n\n## How it works\n\nWhen a language model processes a prompt, it computes attention key-value pairs for each token. For long system prompts or repeated context blocks, this computation is identical across requests. Prompt caching stores these intermediate computations so they can be reused.\n\nA typical flow:\n1. First request processes the full prompt and caches the prefix\n2. Subsequent requests with the same prefix reuse the cached state\n3. Only the new, unique portion of the prompt needs fresh computation\n\n## When to use it\n\n- **Long system prompts**: Applications with extensive instructions benefit most\n- **Repeated context**: RAG applications that frequently include the same documents\n- **Multi-turn conversations**: The conversation history prefix grows but remains constant\n- **Agent loops**: Agents that repeatedly call the model with the same tool definitions and context\n\n## Benefits\n\n- **Cost reduction**: Cached tokens are typically billed at a fraction of the normal input token price (e.g., 90% discount with some providers)\n- **Latency improvement**: Skipping computation for cached tokens reduces time-to-first-token\n- **Throughput**: Enables more efficient use of compute resources\n\n## Provider implementations\n\nAnthropic, OpenAI, and Google all offer prompt caching with slightly different mechanics. Anthropic's implementation caches exact prefix matches and offers significant per-token discounts. OpenAI's implementation is automatic for longer prompts. The cache typically has a time-to-live (TTL) and is evicted after a period of inactivity.\n\n## Considerations\n\n- Cache hits require exact prefix matching; even small changes invalidate the cache\n- Prompt structure should be designed with caching in mind: static content first, dynamic content last\n- Not all model providers support caching, and implementations vary",
+    "tags": [
+        "ai",
+        "performance",
+        "optimization",
+        "technologies"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Prompt Caching",
+        "KV Cache Reuse"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "ai-scaling-laws",
+        "context-engineering",
+        "prompt-engineering",
+        "ai-tool-use"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Prompt caching - Anthropic Docs",
+            "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

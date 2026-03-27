@@ -1,0 +1,77 @@
+{
+    "id": "context-signal-to-noise-ratio",
+    "name": "Context Signal-to-Noise Ratio",
+    "summary": "Proportion of task-relevant versus irrelevant information in an AI agent's context window, serving as the core metric that context engineering optimizes.",
+    "explanation": "The context signal-to-noise ratio (context SNR) is the proportion of task-relevant information versus irrelevant information within an AI agent's context window. It is the core metric that context engineering optimizes.\n\n## The Optimization Target\n\nContext engineering defines context as a composed assembly of instructions, knowledge, tools, memory, state, and query components, with the goal of maximizing output quality subject to a maximum token limit. In practice, maximizing output quality means maximizing context SNR: ensuring every token in the context window earns its place by contributing to the task at hand.\n\n## What Degrades SNR\n\nEach failure mode attacks SNR from a different angle:\n\n- **Context bloat**: too much context overall (volume problem)\n- **Context distraction**: irrelevant but correct information (relevance problem)\n- **Context confusion**: contradictory information (consistency problem)\n- **Context poisoning**: false information (accuracy problem)\n- **Context rot**: stale information (freshness problem)\n- **Context entropy**: system-level disorder (structural problem)\n\nEffective context management addresses all of these simultaneously.\n\n## The Funnel Model\n\nContext acts as a filter between all possible answers and the one the model produces. High SNR equals a tight funnel producing specific, accurate answers. Low SNR equals a leaky funnel producing generic or hallucinated answers.\n\n## Improving SNR\n\n- **Context budget**: hard limits force prioritization\n- **Progressive disclosure**: load context incrementally, only what is needed\n- **Context layering**: separate concerns so irrelevant layers are not loaded\n- **Context lifecycle**: regular review and pruning remove noise\n- **Specialized routing**: route to specialized agents with focused context\n- **Retrieval precision**: tune RAG for precision over recall",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-quality",
+        "information-theory"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Context SNR"
+    ],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-budget",
+        "context-bloat",
+        "context-distraction",
+        "context-confusion",
+        "context-poisoning",
+        "context-entropy",
+        "context-layering",
+        "context-lifecycle",
+        "progressive-disclosure",
+        "signal-to-noise-ratio"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Signal-to-Noise+Ratio"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Signal-to-noise ratio - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Signal-to-noise_ratio",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

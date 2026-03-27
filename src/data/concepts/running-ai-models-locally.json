@@ -1,0 +1,67 @@
+{
+    "id": "running-ai-models-locally",
+    "name": "Running AI Models Locally",
+    "summary": "Deploying and running AI models on personal hardware instead of cloud services for privacy, cost savings, and offline access.",
+    "explanation": "Running AI models locally means deploying and executing AI models on your own hardware instead of relying on cloud APIs. This gives you full control over your data, eliminates per-token costs, and removes dependency on external services.\n\nLocal inference became practical with quantization techniques that compress models to run on consumer hardware, and with open weight models that provide freely downloadable weights.\n\n## Why run locally\n\n- **Privacy**: data never leaves your machine\n- **Cost**: no per-token API fees after hardware investment\n- **Latency**: no network round-trips\n- **Availability**: works offline, no rate limits\n- **Experimentation**: swap models freely, test fine-tunes\n\n## Key tools\n\n- **Ollama**: CLI tool that makes downloading and running open models trivial. Pull a model, run it. Exposes an OpenAI-compatible API locally\n- **LM Studio**: GUI application for browsing, downloading, and running models with a chat interface and local API server\n\n## Trade-offs\n\nLocal models are typically smaller and less capable than frontier cloud models. Small language models are catching up fast, but for the most complex reasoning tasks, cloud APIs still lead. The sweet spot is using local models for privacy-sensitive tasks, high-volume workloads, and experimentation, while using cloud APIs for tasks requiring maximum capability.",
+    "tags": [
+        "ai",
+        "technologies",
+        "tools",
+        "privacy"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "ai-inference",
+        "ai-quantization",
+        "ai-open-weight-models",
+        "small-language-models"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Running+AI+Models+Locally"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

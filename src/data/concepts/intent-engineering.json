@@ -1,0 +1,69 @@
+{
+    "id": "intent-engineering",
+    "name": "Intent Engineering",
+    "summary": "Crafting clear expressions of desired outcomes so AI agents understand what to accomplish rather than how to do it.",
+    "explanation": "Intent Engineering is the design of AI systems around goals, constraints, and measurable outcomes rather than prompts or context alone. It represents a structural shift from reactive generation to outcome-driven system design.\n\nWhere Prompt Engineering refined communication and Context Engineering improved reasoning continuity, intent engineering defines purpose and success. When AI systems move from answering questions to executing objectives, the engineering discipline must evolve accordingly.\n\n## Intent vs instruction\n\nThe difference is architectural, not semantic:\n\n- **Instruction**: \"Generate a financial summary\"\n- **Intent**: \"Enable leadership to make a funding decision within five minutes by presenting three critical financial indicators, highlighting risks, and summarizing cash runway projections\"\n\nInstructions focus on output generation. Intent focuses on outcome, context of use, time sensitivity, and decision impact.\n\n## The evolutionary progression\n\nThe three disciplines reflect increasing system complexity:\n\n| Discipline | Optimizes | Core Question |\n|---|---|---|\n| Prompt Engineering | Responses | \"What should I say?\" |\n| Context Engineering | Reasoning continuity | \"What information is relevant?\" |\n| Intent Engineering | Business impact | \"What must be accomplished?\" |\n\n## Core architectural layers\n\nA mature intent-based architecture includes:\n\n1. **Intent Capture and Alignment**: understanding what the user or system actually needs to achieve\n2. **Intent Definition and Structure**: formalizing goals, constraints, and success criteria\n3. **Intent Modeling and Planning Engine**: breaking intent into actionable steps\n4. **Execution and Tool Orchestration**: agent execution within intent-defined boundaries\n5. **Validation and Governance**: verifying that outcomes match the stated intent\n\n## Current status\n\nIntent engineering is still emerging. Prompt Engineering and Context Engineering have empirical benchmark validation. Intent engineering has early adoption but limited benchmark data; performance improvements are projected rather than quantified at scale. Most current agents infer intent indirectly. Explicit intent modeling is needed for reliable, goal-driven execution.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "techniques",
+        "communication"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "prompt-engineering",
+        "harness-engineering",
+        "agent-system-engineering",
+        "ai-agent",
+        "agentic-engineering"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Intent+Engineering"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Intent Engineering - Tericsoft",
+            "url": "https://www.tericsoft.com/blogs/intent-engineering",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

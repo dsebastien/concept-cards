@@ -1,0 +1,74 @@
+{
+    "id": "ai-lethal-trifecta",
+    "name": "AI Lethal Trifecta",
+    "summary": "Dangerous combination of AI sycophancy, hallucination, and instruction drift that compounds agent failure modes.",
+    "explanation": "The Lethal Trifecta is a security concept identified by Simon Willison describing three capabilities that, when combined in an AI agent, create severe vulnerability to prompt injection attacks:\n\n- **Access to private data**: tools that retrieve sensitive information\n- **Exposure to untrusted content**: ability for malicious data or content to reach the model\n- **External communication ability**: capacity to send data outside the system\n\nSince LLMs cannot reliably distinguish between legitimate instructions and malicious ones embedded in content, an attacker can craft input that instructs the agent to exfiltrate private data.\n\n## Why it is dangerous\n\nSimon Willison emphasized that \"guardrail\" products claiming 95% attack prevention are inadequate. Even small failure rates enable exploitation due to LLMs' non-deterministic nature. The combination of these three capabilities creates an attack surface that is fundamentally difficult to secure with current technology.\n\n## Mitigation strategies\n\nThe safest approach is to **avoid combining all three capabilities** in a single agent. If that is not possible:\n\n- Implement strict **human-in-the-loop** approval for sensitive operations\n- Separate agents by privilege: one agent reads private data, a different agent handles external communication, and they never share context directly\n- Apply the principle of least privilege to tool access\n- Monitor and audit all external communications from agents\n- Use sandboxed environments where agents cannot access production data directly\n\nThis concept is closely related to the broader challenge of prompt injection, where untrusted content can hijack an agent's behavior. Any system that combines data access, untrusted input, and outbound communication should be treated as high-risk by default.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "risks",
+        "reliability"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Lethal Trifecta",
+        "AI Agent Security Trifecta"
+    ],
+    "relatedConcepts": [
+        "ai-sycophancy",
+        "ai-hallucination",
+        "prompt-injection",
+        "ai-safety",
+        "ai-guardrails",
+        "human-in-the-loop",
+        "ai-agent"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Lethal+Trifecta+for+AI+Agents"
+    ],
+    "articles": [
+        {
+            "title": "The Lethal Trifecta - Simon Willison",
+            "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

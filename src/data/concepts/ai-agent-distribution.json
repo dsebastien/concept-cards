@@ -1,0 +1,67 @@
+{
+    "id": "ai-agent-distribution",
+    "name": "AI Agent Distribution",
+    "summary": "Mechanisms for packaging, sharing, and deploying AI agents across different environments, teams, and organizations.",
+    "explanation": "AI agent distribution encompasses the practices, tools, and infrastructure needed to package, share, and deploy AI agents across different environments. As AI agents move from experimental prototypes to production systems, robust distribution mechanisms become essential for scaling adoption and ensuring consistent behavior.\n\n## What Gets Distributed\n\nAn AI agent is more than just a prompt. Distribution must handle:\n\n- **Agent configuration**: System prompts, personality, behavioral parameters\n- **Skills and tools**: The capabilities the agent can invoke\n- **Memory and knowledge**: Any pre-loaded context or knowledge bases\n- **Dependencies**: External services, APIs, and model requirements\n- **Guardrails**: Safety constraints and operational boundaries\n\n## Distribution Approaches\n\n- **Container-based**: Packaging agents as Docker containers with all dependencies\n- **Configuration-as-code**: Distributing agent definitions as declarative configuration files\n- **Platform-native**: Using agent platform marketplaces (e.g., GPT Store, agent registries)\n- **API-based**: Exposing agents as services that others can call remotely\n\n## Key Challenges\n\n1. **Environment parity**: Ensuring agents behave consistently across development, staging, and production\n2. **Secret management**: Handling API keys and credentials securely during distribution\n3. **Model dependency**: Agents tied to specific models may break when models are updated or deprecated\n4. **State management**: Deciding what state travels with the agent vs. what stays in the environment\n5. **Compliance**: Meeting regulatory requirements across different deployment contexts\n\n## Agent Distribution vs. Skill Distribution\n\nWhile skill distribution focuses on individual capabilities, agent distribution deals with complete agent systems including their orchestration logic, personality, and the full set of skills they use. An agent distribution often references skill distributions as dependencies.\n\n## Emerging Patterns\n\nThe field is converging on patterns from DevOps and cloud-native software: infrastructure as code for agent configuration, CI/CD pipelines for agent deployment, and observability stacks for monitoring distributed agents in production.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "distribution",
+        "deployment",
+        "infrastructure"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Agent Deployment",
+        "Agent Packaging",
+        "AI Agent Sharing"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "agent-skills",
+        "agentic-engineering",
+        "ai-skill-distribution",
+        "ai-agent-portability",
+        "ai-skill-supply-chain-security"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

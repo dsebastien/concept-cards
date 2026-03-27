@@ -1,0 +1,97 @@
+{
+    "id": "harness-engineering",
+    "name": "Harness Engineering",
+    "summary": "Designing and configuring the AI agent harness (CLI, IDE, runtime) that mediates between the user and the AI model.",
+    "explanation": "Harness Engineering is the discipline of designing constraints, tools, feedback loops, documentation, and verification systems that guide AI agents toward reliable, maintainable outputs. Where Context Engineering focuses on what information reaches the model and Prompt Engineering focuses on how you phrase the question, harness engineering focuses on how the agent runs: the environment, guardrails, and feedback mechanisms that surround its execution.\n\nThe term was coined in late 2025 and formalized in early 2026, notably through OpenAI's internal experiments with Codex, where they built a production application with over 1 million lines of code written entirely by agents. The key insight was that the agent was not the hard part -- the harness was.\n\n## Core components\n\nAccording to the OpenAI model, a harness operates across three layers:\n\n1. **Context Engineering**: the foundational layer. Continuous enhancement of knowledge bases embedded in codebases, supplemented by agent access to dynamic information sources\n2. **Architectural Constraints**: enforcement mechanisms combining LLM-based monitoring with deterministic custom linters and structural tests that constrain the agent's solution space\n3. **Periodic Maintenance (\"Garbage Collection\")**: agents that regularly scan for documentation inconsistencies and architectural violations to combat entropy and code decay\n\n## Key principles\n\n- **Constrain the solution space**: reliability requires limiting flexibility through standardized patterns, not unrestricted generation\n- **Iterative refinement**: when agents struggle, gaps in documentation, guardrails, or tools become signals for improvement\n- **Long-term maintainability**: emphasis on internal quality preservation over short-term velocity\n- **Feedback loops**: closed-loop failure tracking and pattern clustering to systematically improve agent behavior\n- **Hybrid verification**: combine deterministic tools (linters, type checkers) with AI-driven validation\n\n## Practical examples\n\n- Claude Code with CLAUDE.md files, skills, hooks, and MCP servers providing task-specific scaffolding\n- AI agent harness implementations like Cursor, Cline, Aider\n- CI/CD pipelines that validate agent-generated code before merge\n- Architectural decision records that constrain agent design choices",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "tools",
+        "engineering"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "prompt-engineering",
+        "intent-engineering",
+        "agent-system-engineering",
+        "ai-agent",
+        "agent-skills",
+        "agentic-engineering",
+        "feedback-loop",
+        "model-context-protocol"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Harness+Engineering"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Harness Engineering - OpenAI",
+            "url": "https://openai.com/index/harness-engineering/",
+            "type": "website"
+        },
+        {
+            "title": "Harness Engineering - Martin Fowler",
+            "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html",
+            "type": "website"
+        },
+        {
+            "title": "The Anatomy of an Agent Harness - LangChain",
+            "url": "https://blog.langchain.com/the-anatomy-of-an-agent-harness/",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

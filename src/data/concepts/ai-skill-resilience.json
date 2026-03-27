@@ -1,0 +1,73 @@
+{
+    "id": "ai-skill-resilience",
+    "name": "AI Skill Resilience",
+    "summary": "The ability of AI skills to handle failures, edge cases, and unexpected inputs gracefully without crashing or producing harmful results.",
+    "explanation": "AI skill resilience is the ability of AI skills to handle failures, edge cases, and unexpected inputs gracefully. Resilient skills degrade gracefully rather than failing catastrophically, maintaining useful behavior even when conditions are not ideal. In production agent systems, resilience is often more important than peak performance.\n\n## Why Resilience Matters\n\nAI skills operate in inherently unpredictable environments:\n\n- Users provide unexpected, malformed, or adversarial inputs\n- External APIs fail, time out, or return unexpected responses\n- Underlying models produce hallucinated or off-topic outputs\n- Context windows overflow or contain irrelevant information\n- Concurrent invocations create race conditions\n\nA single non-resilient skill can bring down an entire agent workflow.\n\n## Failure Modes\n\n### Input Failures\n- Missing required fields\n- Invalid data types or formats\n- Inputs that exceed expected size\n- Adversarial or prompt-injection inputs\n\n### Execution Failures\n- Model API errors or timeouts\n- External service unavailability\n- Token limit exceeded\n- Unexpected model output format\n\n### Output Failures\n- Generated output fails validation\n- Output is inconsistent with constraints\n- Output quality falls below acceptable thresholds\n\n## Resilience Patterns\n\n1. **Input validation**: Verify inputs before processing, reject or sanitize invalid data\n2. **Retry with backoff**: Automatically retry transient failures with increasing delays\n3. **Fallback strategies**: Provide degraded but useful responses when primary approach fails\n4. **Circuit breakers**: Stop calling failing dependencies after repeated failures\n5. **Timeouts**: Set time limits for operations to prevent hanging\n6. **Output validation**: Verify outputs meet expected format and quality constraints before returning\n7. **Graceful degradation**: Return partial results rather than nothing when full processing fails\n\n## Building Resilient Skills\n\n- **Design for failure**: Assume every external call can fail and plan accordingly\n- **Test with chaos**: Deliberately inject failures during testing\n- **Monitor in production**: Track error rates, latency percentiles, and quality metrics\n- **Set SLOs**: Define acceptable failure rates and response times\n- **Document failure modes**: Make it clear to consumers what can go wrong and how the skill handles it\n\n## Resilience vs. Correctness\n\nResilient skills prioritize availability and usefulness over perfect correctness. A skill that returns a helpful approximation is often more valuable than one that throws an error. However, resilience should never compromise safety. When a skill cannot execute safely, it should fail explicitly rather than produce potentially harmful results.\n\n## Relationship to Distributed Systems\n\nAI skill resilience draws heavily from distributed systems engineering concepts: circuit breakers, bulkheads, retries, and graceful degradation. The unique challenge is that AI skills have an additional layer of unpredictability from the non-deterministic nature of model inference.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "resilience",
+        "reliability",
+        "error-handling"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Skill Resilience",
+        "AI Skill Fault Tolerance",
+        "Robust AI Skills"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "ai-skill-testing",
+        "ai-skill-scoping",
+        "ai-skill-best-practices",
+        "ai-guardrails"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Resilience (engineering and construction) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Resilience_(engineering_and_construction)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

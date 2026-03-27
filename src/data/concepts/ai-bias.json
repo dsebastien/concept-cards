@@ -1,0 +1,76 @@
+{
+    "id": "ai-bias",
+    "name": "AI Bias",
+    "summary": "Systematic errors in AI outputs caused by biases in training data, model architecture, prompts, or agent configurations that must be continuously monitored and mitigated.",
+    "explanation": "AI bias refers to systematic errors in AI output caused by biases in training data, model architecture, prompts, skills, or agent configurations. Bias is not a bug that gets fixed once; it is a property of every AI system that must be continuously monitored and mitigated.\n\n## Where bias lives\n\n### In the models\n\n- **Training data bias**: models learn from internet text, which reflects historical biases in race, gender, culture, profession, and worldview\n- **Representation gaps**: underrepresented languages, cultures, and perspectives get worse performance\n- **Recency bias**: training data cutoffs mean models favor older knowledge while recent developments are missing\n- **Western/English-centric**: most training data is English and Western, skewing outputs toward those perspectives\n\n### In the prompts and skills\n\n- **Framing bias**: how you phrase a prompt shapes the answer. \"What are the risks?\" produces different output than \"What are the opportunities?\"\n- **Anchoring bias**: examples given in few-shot prompts anchor the model toward those patterns\n- **Selection bias**: which context you load (and which you leave out) biases the output toward that subset of knowledge\n- **Confirmation bias in skills**: skills that look for specific things tend to find them, ignoring contradicting evidence\n\n### In the agents\n\n- **Identity bias**: an agent defined as an \"expert in X\" will overweight X's importance and underweight alternatives\n- **Memory bias**: what an agent remembers shapes future interactions. Accumulated memories can drift toward particular viewpoints\n- **Routing bias**: if routing favors certain agents, certain perspectives dominate\n- **Panel composition bias**: which agents sit on an evaluation panel determines which perspectives are represented\n\n## Mitigation\n\n- Use diverse agent panels to get multiple perspectives\n- Audit prompts and skills for framing and anchoring effects\n- Include explicit \"consider the opposite\" or \"what am I missing\" instructions\n- Rotate examples in few-shot prompts to avoid anchoring\n- Use AI guardrails to flag one-sided outputs\n- Conduct regular bias audits on model outputs across demographic groups",
+    "tags": [
+        "ai",
+        "ethics",
+        "biases",
+        "fairness"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Algorithmic Bias",
+        "AI Discrimination",
+        "Machine Learning Bias"
+    ],
+    "relatedConcepts": [
+        "ai-fairness",
+        "ai-ethics",
+        "ai-safety",
+        "ai-alignment",
+        "ai-hallucination",
+        "ai-guardrails",
+        "ai-transparency",
+        "ai-training-data-collection",
+        "responsible-ai"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Bias"
+    ],
+    "references": [
+        {
+            "title": "Algorithmic bias - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

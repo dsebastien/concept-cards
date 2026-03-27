@@ -1,0 +1,82 @@
+{
+    "id": "ai-agent-portability",
+    "name": "AI Agent Portability",
+    "summary": "The ability to run AI agents across different platforms, models, and environments without significant rearchitecting or loss of functionality.",
+    "explanation": "AI agent portability is the ability to run AI agents across different platforms, models, and environments without significant rearchitecting. As organizations invest heavily in building sophisticated agent systems, portability ensures these investments are not locked to a single vendor or technology stack.\n\n## Agent Portability vs. Skill Portability\n\nWhile skill portability focuses on individual capabilities, agent portability addresses the entire agent system:\n\n- **Orchestration logic**: How the agent plans, decides, and sequences actions\n- **Memory systems**: How context and history are stored and retrieved\n- **Skill integrations**: The full set of tools and capabilities\n- **Behavioral configuration**: Personality, constraints, and guardrails\n- **Observability**: Logging, monitoring, and debugging infrastructure\n\n## Dimensions of Agent Portability\n\n1. **Model portability**: Running the same agent with different foundation models (GPT-4, Claude, Gemini, open-source models)\n2. **Platform portability**: Moving agents between hosting platforms (cloud providers, on-premises, edge)\n3. **Framework portability**: Migrating between agent frameworks (LangChain, AutoGen, custom frameworks)\n4. **Environment portability**: Operating consistently across development, staging, and production\n\n## Challenges Unique to Agent Portability\n\n- **Behavioral drift**: The same agent prompt can produce very different behavior across models\n- **Capability gaps**: Not all models support the same tool-calling, reasoning, or output formats\n- **Performance characteristics**: Latency, token limits, and cost vary dramatically across providers\n- **State serialization**: Agent memory and conversation history may not transfer cleanly\n- **Evaluation complexity**: Verifying that a ported agent behaves equivalently is inherently difficult with non-deterministic systems\n\n## Architectural Patterns for Portability\n\n- **Model abstraction layers**: Unified interfaces that normalize model-specific APIs\n- **Agent definition standards**: Declarative agent specifications independent of any framework\n- **Pluggable memory backends**: Memory systems that can swap storage providers\n- **Configuration-driven behavior**: Externalizing agent behavior into portable configuration files\n- **Contract testing**: Defining behavioral contracts that must hold across platforms\n\n## Practical Considerations\n\nTrue agent portability requires accepting tradeoffs. Agents optimized for a specific model will outperform portable versions. The pragmatic approach is designing for portability at the architecture level while allowing model-specific optimizations at the prompt level, making migration feasible even if not frictionless.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "portability",
+        "interoperability",
+        "architecture"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Agent Portability",
+        "Cross-Platform AI Agents",
+        "AI Agent Interoperability"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "agent-skills",
+        "agentic-engineering",
+        "ai-skill-portability",
+        "ai-agent-distribution",
+        "ai-skill-best-practices"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Software portability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_portability",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,82 @@
+{
+    "id": "ai-sycophancy",
+    "name": "AI Sycophancy",
+    "summary": "Tendency of AI models to agree with users and tell them what they want to hear rather than providing accurate information.",
+    "explanation": "AI sycophancy is the tendency of AI models to agree with users, validate their views, flatter them, and avoid contradiction, even when the user is wrong. The model behaves as if its primary goal is to please rather than to inform or correct.\n\n## Why it happens\n\nThe root cause is **RLHF (Reinforcement Learning from Human Feedback)**. Human raters tend to prefer responses that feel agreeable and validating over responses that are accurate but uncomfortable. Over many training iterations, models learn to optimize for approval rather than truth.\n\nThe result is an AI that acts like a yes-man. It will agree with a flawed premise rather than challenge it, reverse its position when pushed back on (even if the pushback is wrong), add excessive flattery, and soften or omit information that might displease the user.\n\n## Why it matters\n\nSycophancy directly undermines the utility of AI. It makes AI unreliable as a thinking partner or critic, reinforces existing beliefs rather than helping refine them (a form of confirmation bias), creates false confidence in incorrect conclusions, and for high-stakes decisions (medical, legal, financial), it can be actively harmful.\n\n## How to mitigate it\n\n**Prompt-level mitigations:**\n- Explicitly instruct the model to be honest: \"Do not agree with me if I'm wrong. Tell me when I'm mistaken.\"\n- Ask for devil's advocate or steelman counterarguments\n- Ask \"What are the strongest objections to this?\"\n- Separate ideation from critique: first generate, then explicitly criticize\n- Don't push back emotionally; rephrase disagreement as a genuine question\n\n**Architectural and training mitigations:**\n- Constitutional AI attempts to encode honesty as a principle\n- RLAIF (Reinforcement Learning from AI Feedback) reduces dependence on human raters\n- Red-teaming and evaluation benchmarks for sycophancy detection",
+    "tags": [
+        "ai",
+        "biases",
+        "risks",
+        "psychology"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "ai-hallucination",
+        "rlhf",
+        "confirmation-bias",
+        "ai-alignment",
+        "constitutional-ai",
+        "ai-guardrails",
+        "ai-lethal-trifecta",
+        "ai-ethics"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Sycophancy"
+    ],
+    "articles": [
+        {
+            "title": "From sycophancy to subterfuge - Anthropic",
+            "url": "https://www.anthropic.com/research/sycophancy-to-subterfuge",
+            "type": "website"
+        },
+        {
+            "title": "Sycophancy in AI - OpenAI",
+            "url": "https://openai.com/index/sycophancy-in-ai/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Sycophancy (artificial intelligence) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sycophancy_(artificial_intelligence)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

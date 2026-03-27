@@ -1,0 +1,93 @@
+{
+    "id": "ai-skill-composability",
+    "name": "AI Skill Composability",
+    "summary": "The ability to combine simple AI skills into complex workflows and capabilities through well-defined interfaces and orchestration patterns.",
+    "explanation": "AI skill composability is the ability to combine simple, single-purpose AI skills into complex workflows and higher-order capabilities. Just as functions in programming can be composed to build sophisticated behavior, AI skills with well-defined interfaces can be chained, nested, and orchestrated to tackle tasks that no individual skill could handle alone.\n\n## Why Composability Matters\n\nWithout composability, every new capability requires building a new monolithic skill from scratch. Composability enables:\n\n- **Reuse**: Build once, combine many ways\n- **Incremental complexity**: Start simple, add capabilities through composition\n- **Specialization**: Each skill can focus on doing one thing excellently\n- **Flexibility**: Swap out components without rewriting entire workflows\n\n## Composition Patterns\n\n- **Sequential chaining**: Output of one skill feeds into the next (pipeline pattern)\n- **Parallel execution**: Multiple skills run simultaneously, results aggregated\n- **Conditional branching**: Different skills invoked based on intermediate results\n- **Recursive composition**: Skills that invoke other skill compositions\n- **Fan-out/fan-in**: One skill distributes work to many, another collects results\n\n## Design Requirements for Composability\n\n1. **Clear interfaces**: Each skill must have well-defined inputs and outputs\n2. **Type compatibility**: Outputs of one skill must be usable as inputs to another\n3. **Error propagation**: Failures in one skill must be communicated to the composition layer\n4. **Statelessness**: Skills that avoid side effects compose more easily\n5. **Idempotency**: Skills that can be safely retried enable more robust compositions\n\n## Composability vs. Monolithic Skills\n\nMonolithic skills that try to do everything are harder to test, debug, and maintain. Composable skills follow the Unix philosophy: do one thing well, and work together through standard interfaces. However, composition adds latency and complexity, so the right granularity depends on the use case.\n\n## Relationship to Software Engineering\n\nSkill composability draws directly from functional programming concepts like function composition, higher-order functions, and monadic error handling. It also parallels microservices architecture, where small, focused services combine to deliver complex functionality. The challenge unique to AI skills is that their behavior is non-deterministic, making composition harder to reason about than with traditional software.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "composability",
+        "modular-design",
+        "workflows"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Skill Composition",
+        "Composable AI Skills",
+        "AI Skill Chaining"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "composability",
+        "ai-skill-scoping",
+        "ai-skill-testing",
+        "ai-skill-best-practices"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Composability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Composability",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

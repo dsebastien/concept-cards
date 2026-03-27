@@ -1,0 +1,74 @@
+{
+    "id": "ai-privacy",
+    "name": "AI Privacy",
+    "summary": "The set of concerns around what happens to personal and sensitive data when using AI platforms, encompassing data collection, retention, training use, and third-party access.",
+    "explanation": "AI privacy addresses what happens to your data when you use AI platforms. Every prompt you send, every file you upload, and every conversation you have with a cloud AI service is data that goes somewhere. The core tension is that using AI effectively requires giving it context, but sending that context to a cloud provider means trusting them with it.\n\n## The core tension\n\nThe more context you provide to an AI system, the better the output. But the more you share, the greater the exposure. This creates a fundamental tradeoff between capability and privacy that every individual and organization must navigate.\n\n## Key risks\n\n- **Training data collection**: your prompts and responses may be used to train future models, effectively making your data part of the model's knowledge\n- **Data retention**: providers may store your conversations for varying periods\n- **IP leakage**: proprietary code, business strategy, or trade secrets sent to AI become data you no longer fully control\n- **Employee exposure**: staff using consumer AI tools may inadvertently share confidential information\n- **Third-party access**: data may be accessible to provider employees, subcontractors, or through legal requests\n\n## Mitigation strategies\n\n- Use **API access** instead of consumer chat interfaces (APIs typically do not train on your data)\n- Use **enterprise plans** with explicit data handling agreements\n- Run models locally for maximum privacy\n- Use open-weight models to keep everything on your own infrastructure\n- Review and configure opt-out settings on every platform\n- Establish clear AI usage policies for teams and organizations\n\n## The tradeoff spectrum\n\nPrivacy and capability exist on a spectrum. Consumer chat on free tiers offers high capability with low privacy at no cost. API access provides medium privacy with high capability at per-token pricing. Enterprise plans deliver high privacy and high capability for a subscription fee. Local small models provide maximum privacy with limited capability for the cost of hardware. There is no free lunch: maximum privacy with maximum capability requires significant hardware investment. Most users and organizations land somewhere in the middle, using API access for sensitive work and consumer tools for general use.",
+    "tags": [
+        "ai",
+        "ethics",
+        "data-management",
+        "governance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "AI Data Privacy",
+        "Privacy in AI"
+    ],
+    "relatedConcepts": [
+        "ai-training-data-collection",
+        "ai-safety",
+        "ai-governance",
+        "ai-data-security",
+        "ai-usage-policy",
+        "ai-ethics",
+        "shadow-ai",
+        "responsible-ai"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Privacy"
+    ],
+    "references": [
+        {
+            "title": "Information privacy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_privacy",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

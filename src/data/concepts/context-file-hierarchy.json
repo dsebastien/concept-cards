@@ -1,0 +1,70 @@
+{
+    "id": "context-file-hierarchy",
+    "name": "Context File Hierarchy",
+    "summary": "Structured organization of context files like CLAUDE.md and AGENTS.md at different directory levels that compose into layered AI instructions through top-down merging.",
+    "explanation": "The context file hierarchy describes how CLAUDE.md and AGENTS.md files at different directory levels compose to form the full project context. Files at the root define project-wide rules; files in subfolders specialize for that area; the AI tool merges them top-down.\n\n## How It Works\n\nIn a typical project, the root CLAUDE.md defines project-wide rules, architecture, and team conventions. Subfolder CLAUDE.md files add area-specific conventions (e.g., frontend patterns in `src/`, API design rules in `api/`). When working on a file in a deep directory, the AI loads context from all levels: root to subfolder to leaf. Each level adds specificity without repeating what the parent already covers.\n\n## Inheritance and Override Logic\n\n- **Additive by default**: each level adds new rules and context on top of the parent\n- **Override by specificity**: a subfolder CLAUDE.md can override a root rule for that area (e.g., \"in this folder, use tabs not spaces\")\n- **No explicit merge syntax**: the AI interprets the combined context; there is no formal merge/override declaration yet\n- **Implicit priority**: more specific (deeper) files take precedence when rules conflict\n\nThis mirrors context inheritance at the file system level: enterprise to team to project becomes root to subfolder to leaf.\n\n## Design Principles\n\n- **Do not repeat**: if the root says \"use TypeScript\", subfolders do not need to restate it\n- **Specialize, do not contradict**: subfolders should add detail, not fight the root\n- **Keep it lean**: each file should be as short as possible; context budget applies since every line costs tokens\n- **Progressive disclosure**: root gives the overview, subfolders give detail only when needed\n\n## Connection to User Context\n\nCLAUDE.md files are project-scoped context. User-level configuration (e.g., `~/.claude/`) is user-scoped context that applies across all projects. Together they form the full context hierarchy: user to project root to subfolder to leaf.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-patterns",
+        "software-development"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-as-code",
+        "context-layering",
+        "context-budget",
+        "context-anchoring",
+        "progressive-disclosure"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+File+Hierarchy"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "ai-model-selection",
+    "name": "AI Model Selection",
+    "summary": "Process of choosing the right AI model for a specific task based on capability, cost, latency, and deployment constraints.",
+    "explanation": "AI Model Selection is the process of choosing the right model for a given task. The model landscape is broad and the right choice depends on the use case, not the hype cycle.\n\n## Selection criteria\n\n- **Capability**: can the model actually do the task? Coding, reasoning, creative writing, and classification require different strengths\n- **Cost**: frontier models can be 100x more expensive than small language models. Cost management is inseparable from model selection\n- **Latency**: real-time applications need fast inference. Smaller models and local deployment win here\n- **Privacy**: sensitive data may require local models or private deployments\n- **Context window**: long documents need models with large context windows\n- **Tool support**: agentic workflows need models with strong function calling capabilities\n\n## The model landscape\n\n- **Frontier models**: best capabilities, highest cost, API-only\n- **Open weight models**: strong and improving fast, can self-host, full control\n- **Small language models (SLMs)**: fast, cheap, good enough for many tasks. Often the right answer\n- **Local models**: maximum privacy and zero marginal cost after setup\n\n## Matching model to use case\n\nSimple classification, extraction, and formatting tasks do not need frontier models. Model routing enables dynamic selection: route each request to the cheapest model that can handle it. Evaluating models before committing avoids expensive mistakes.\n\nThe model landscape changes rapidly. A model that was state-of-the-art six months ago may now be outperformed by something cheaper and faster. Regular re-evaluation of model choices is essential.",
+    "tags": [
+        "ai",
+        "decisions",
+        "strategies",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "ai-cost-management",
+        "ai-evaluation",
+        "context-engineering",
+        "ai-agent"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Model+Selection"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Model selection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Model_selection",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

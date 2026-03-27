@@ -1,0 +1,77 @@
+{
+    "id": "ai-observability",
+    "name": "AI Observability",
+    "summary": "The ability to understand what an AI system is doing, why it is doing it, and how well it is performing by extending traditional software observability to AI-specific concerns.",
+    "explanation": "AI observability is the ability to understand what an AI system is doing, why it is doing it, and how well it is performing. It extends traditional software observability (logs, metrics, traces) to AI-specific concerns: prompt inputs, model outputs, token usage, latency, hallucination rates, context quality, and tool call patterns.\n\nWithout observability, AI systems are black boxes. You know what went in and what came out, but not why the output was good, bad, or subtly wrong. This makes debugging, optimization, and trust-building nearly impossible.\n\n## Key dimensions\n\n- **Input observability**: what prompts, context, and instructions reached the model\n- **Output quality**: tracking hallucination rates, user satisfaction, and task completion\n- **Cost tracking**: token consumption, API costs, and cache hit rates per task type\n- **Latency profiling**: where time is spent across model inference, tool execution, and retrieval\n- **Context health**: detecting context drift, context bloat, and context rot through automated checks\n- **Tool call analysis**: which tools agents use, how often, and their failure rates\n\n## Connection to context quality\n\nAI observability connects directly to context hygiene. If you can measure context quality over time, you can detect degradation before it impacts output. It is also the foundation for meaningful AI evaluation since you cannot evaluate what you cannot measure.\n\n## Complexity in agentic systems\n\nIn agentic systems, observability becomes more complex because subagents and multi-agent orchestration create multi-step, multi-model workflows where failures can cascade silently. A single user request might trigger dozens of tool calls across multiple agents, and understanding the full execution flow requires comprehensive tracing.\n\n## Practical observability stack\n\nA production AI observability stack typically includes structured logging of all prompts and completions, distributed tracing across agent chains, metrics dashboards for cost, latency, and quality, alerting on anomalous behavior or performance degradation, and audit logs for compliance and governance requirements.",
+    "tags": [
+        "ai",
+        "monitoring",
+        "reliability",
+        "performance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "AI Monitoring",
+        "AI System Observability",
+        "LLM Observability"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-safety",
+        "ai-hallucination",
+        "ai-transparency",
+        "ai-trust",
+        "context-drift",
+        "context-bloat",
+        "feedback-loop",
+        "enterprise-ai-deployment",
+        "ai-instruction-drift"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Observability"
+    ],
+    "references": [
+        {
+            "title": "Observability (software) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Observability_(software)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "enterprise-context-management",
+    "name": "Enterprise Context Management",
+    "summary": "Organization-wide governance and coordination of AI context across departments and teams.",
+    "explanation": "Enterprise Context Management (ECM) is the organization-wide discipline of governing, standardizing, and managing AI context across all teams and individuals. It is the highest layer in the context management hierarchy, providing the policies, standards, and infrastructure that flow down to team context management and personal context management.\n\nAll levels of context management use the same principles and techniques of context engineering, just applied at different scales. ECM focuses on strategy, focus, and culture: the organizational foundations that every team and project inherits.\n\n## What ECM covers\n\n- **Strategy and focus**: organizational direction, priorities, and what matters most\n- **Culture and values**: how the organization works, communicates, and makes decisions\n- **AI governance policies**: what AI can and cannot do, data handling rules, compliance requirements, and audit trails\n- **Organizational knowledge bases**: company-wide knowledge that all AI agents should have access to (or be restricted from)\n- **Access control**: who can provide what context to AI, and what context AI can access across the organization\n- **Context quality standards**: how context should be structured, maintained, and reviewed at the enterprise level\n- **Shared infrastructure**: centralized MCP servers, RAG pipelines, and knowledge retrieval systems\n- **Compliance and security**: ensuring AI context management meets regulatory requirements (GDPR, SOC2, industry-specific regulations)\n- **Cross-team context sharing**: policies for how context flows between teams without creating silos or leaking sensitive information\n\n## Why ECM matters\n\nAs organizations adopt AI at scale, context management becomes a governance challenge:\n- Different teams using conflicting AI configurations leads to inconsistent outputs\n- Uncontrolled context sharing creates security and compliance risks\n- Without standards, each team reinvents context management from scratch\n- AI agents with access to uncontrolled organizational knowledge can leak sensitive information\n\n## Connection to digital twins\n\nAt enterprise scale, ECM starts resembling a digital twin of the organization's knowledge and processes. AI agents equipped with well-managed enterprise context can navigate the organization's information landscape in ways that mirror how experienced employees do.\n\n## The context-as-code approach\n\nThe ideal form for enterprise context is a set of version-controlled Markdown files: master prompts for ground rules and base context, AGENTS.md and CLAUDE.md files at different levels of the codebase, AI skills describing workflows and processes, and AI agents taking on specific roles. This means context is version-controlled, reviewable, and evolves alongside the work it describes.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "governance",
+        "enterprise"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "ECM"
+    ],
+    "relatedConcepts": [
+        "personal-context-management",
+        "project-context-management",
+        "team-context-management",
+        "context-engineering",
+        "context-inheritance",
+        "context-as-code",
+        "ai-context-governance",
+        "context-layering",
+        "levels-of-ai-context-management",
+        "ai-governance",
+        "knowledge-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Enterprise+Context+Management+(ECM)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

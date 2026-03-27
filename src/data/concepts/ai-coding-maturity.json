@@ -1,0 +1,73 @@
+{
+    "id": "ai-coding-maturity",
+    "name": "AI Coding Maturity",
+    "summary": "Framework describing progressive levels of sophistication in how developers use AI for software development.",
+    "explanation": "AI Coding Maturity is an 8-stage maturity model for AI-assisted software development, introduced by Steve Yegge in his \"Welcome to Gas Town\" article (January 2026). It describes the progression from minimal AI usage to fully orchestrated multi-agent workflows.\n\n## The 8 stages\n\n**Stage 1: Zero or Near-Zero AI** - Maybe code completions, sometimes asking chat questions.\n\n**Stage 2: Coding agent in IDE, permissions on** - A narrow coding agent in a sidebar asks permission to run tools.\n\n**Stage 3: Agent in IDE, YOLO mode** - Trust goes up. Permissions are turned off, the agent gets wider latitude.\n\n**Stage 4: In IDE, wide agent** - The agent gradually grows to fill the screen. Code is just for reviewing diffs.\n\n**Stage 5: CLI, single agent, YOLO** - Diffs scroll by. You may or may not look at them.\n\n**Stage 6: CLI, multi-agent, YOLO** - You regularly use 3 to 5 parallel instances. You are very fast.\n\n**Stage 7: 10+ agents, hand-managed** - Pushing the limits of hand-management. Orchestration tools become necessary.\n\n**Stage 8: Building your own orchestrator** - You are on the frontier, automating your workflow.\n\n## Key patterns in the progression\n\n- **Trust escalation**: Each stage involves giving the agent more autonomy\n- **IDE to CLI**: The transition from IDE-based to CLI-based marks a major shift in workflow\n- **Single to multi-agent**: Going from one agent to many fundamentally changes the bottleneck from coding to design and planning\n- **Design becomes the constraint**: At stages 7-8, the agent churns through implementation so fast that imagining what to build and planning the details becomes the limiting factor",
+    "tags": [
+        "ai",
+        "software-engineering",
+        "frameworks",
+        "development-tools"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "AI Coding Maturity Levels",
+        "AI Coding Maturity Model"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "vibe-coding",
+        "agentic-engineering",
+        "ai-agent-swarms",
+        "agent-orchestration",
+        "multi-agent-systems"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Coding+Maturity+Levels"
+    ],
+    "articles": [
+        {
+            "title": "Welcome to Gas Town - Steve Yegge",
+            "url": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,105 @@
+{
+    "id": "enterprise-knowledge-management",
+    "name": "Enterprise Knowledge Management (EKM)",
+    "summary": "Organization-wide systems and practices for capturing, organizing, and sharing institutional knowledge to prevent knowledge loss.",
+    "explanation": "Enterprise Knowledge Management (EKM) is the discipline of systematically capturing, organizing, sharing, and governing knowledge across an entire organization. It applies knowledge management principles at organizational scale, dealing with both explicit knowledge (documentation, processes, databases) and tacit knowledge (expertise, intuition, tribal know-how that lives in people's heads).\n\nWhere Personal Knowledge Management (PKM) optimizes for individuals, EKM optimizes for collective organizational intelligence. The challenge is fundamentally different: it is not just about storing knowledge but about making it flow between people, teams, and systems while maintaining quality and governance.\n\n## Why EKM matters\n\n### Protecting against knowledge loss\n\nOrganizations hemorrhage knowledge constantly:\n\n- **The bus factor**: when key people leave, get sick, or switch roles, their knowledge leaves with them\n- **Tribal knowledge**: the unwritten rules, workarounds, and context that experienced employees accumulate but never document. It is the most valuable and most fragile kind of organizational knowledge\n- **Knowledge drain**: the gradual erosion of institutional knowledge through employee turnover, retirements, reorganizations, and layoffs\n- **Knowledge decay**: even documented knowledge degrades over time as processes change, tools evolve, and context shifts\n\n### Operational resilience\n\nEKM directly strengthens organizational resilience by reducing dependency on specific individuals, enabling faster onboarding of new team members, creating redundancy in expertise, making knowledge discoverable, and breaking down information silos.\n\n### Decision quality\n\nWhen organizational knowledge is well-managed, decision-makers can draw on the full breadth of the organization's experience. Lessons learned actually get learned, mistakes do not get repeated across teams, and best practices actually propagate.\n\n## EKM in the age of AI\n\nEKM has become a strategic capability for AI adoption:\n\n- **AI context quality depends on KM quality.** RAG systems, AI master prompts, and AI agent skills all need well-structured, accurate, up-to-date knowledge. Garbage knowledge in, garbage AI output out\n- **AI can accelerate EKM.** Agentic Knowledge Management approaches let AI agents proactively maintain knowledge bases, detect knowledge gaps, and surface relevant institutional knowledge\n- **EKM protects against AI context failures.** When knowledge is properly managed, AI systems have reliable foundations\n- **EKM enables context engineering at scale.** Organizations cannot do effective context engineering without first having their knowledge house in order\n\nThe organizations that will get the most from AI are those that already practice good knowledge management. AI amplifies what is there.\n\n## The hard part\n\nEKM's biggest challenge is not technical. It is cultural. People hoard knowledge for job security. Documentation feels like overhead. Tacit knowledge is hard to articulate by definition. The organizations that succeed at EKM are the ones that make knowledge sharing a valued behavior, not an afterthought.",
+    "tags": [
+        "ai",
+        "knowledge-management",
+        "businesses",
+        "strategies"
+    ],
+    "category": "AI",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "EKM"
+    ],
+    "relatedConcepts": [
+        "knowledge-management",
+        "tribal-knowledge",
+        "knowledge-drain",
+        "knowledge-decay",
+        "bus-factor",
+        "agentic-knowledge-management",
+        "context-engineering",
+        "tacit-knowledge",
+        "explicit-knowledge",
+        "onboarding"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Enterprise+Knowledge+Management+(EKM)"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowledge management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_management",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

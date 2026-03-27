@@ -1,0 +1,78 @@
+{
+    "id": "context-anchoring",
+    "name": "Context Anchoring",
+    "summary": "Practice of externalizing decision context into persistent, version-controlled documents that survive across AI sessions to guide consistent behavior.",
+    "explanation": "Context anchoring is the practice of externalizing decision context into living documents that persist across AI-assisted development sessions. The concept was described by Martin Fowler's team at Thoughtworks in their work on reducing friction with AI.\n\n## The Core Problem\n\nAI conversations are ephemeral. Decisions made early in a session fade as the context window fills. Research (Liu et al., 2023) shows models perform worse on information buried in the middle of conversations. Worse, the *reasoning* behind decisions fades faster than the decisions themselves. Developers end up keeping conversations running far too long, not because long sessions are productive, but because closing the session means losing context that exists nowhere else.\n\n## Two-Layer Solution\n\nContext anchoring solves this by capturing context in two layers:\n\n- **Priming documents** (project-level): tech stack, architecture patterns, naming conventions. Relatively stable, updated quarterly. Shared across all features. This is essentially what CLAUDE.md files and AI agent skills provide in tools like Claude Code.\n- **Feature documents** (feature-level): specific decisions, rejected alternatives, constraints, open questions, implementation state. These evolve rapidly with each session and enable coordination across developers and AI sessions.\n\n## The Litmus Test\n\nThe key question: \"Could I close this conversation right now and start a new one without anxiety?\" If discomfort emerges, context is trapped in the wrong medium.\n\nContext anchoring is a context hygiene practice that directly combats context drift and context rot. By externalizing context into version-controlled documents, it becomes reviewable, shareable, and durable. It is also a form of progressive disclosure at the project level: priming documents provide always-on context while feature documents load on demand.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-patterns"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-drift",
+        "context-hygiene",
+        "context-as-code",
+        "context-lifecycle",
+        "context-file-hierarchy",
+        "context-layering",
+        "progressive-disclosure",
+        "anchoring"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Anchoring"
+    ],
+    "articles": [
+        {
+            "title": "Context Anchoring - Reducing Friction with AI (Martin Fowler)",
+            "url": "https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Lost in the Middle: How Language Models Use Long Contexts (Liu et al., 2023)",
+            "url": "https://arxiv.org/abs/2307.03172",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

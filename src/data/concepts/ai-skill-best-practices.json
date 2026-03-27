@@ -1,0 +1,85 @@
+{
+    "id": "ai-skill-best-practices",
+    "name": "AI Skill Best Practices",
+    "summary": "Established patterns and guidelines for writing effective, maintainable, and reliable AI skills that work well in production agent systems.",
+    "explanation": "AI skill best practices are the established patterns, principles, and guidelines for writing effective, maintainable, and reliable AI skills. Drawing from both software engineering wisdom and lessons learned from the emerging field of agentic systems, these practices help skill authors avoid common pitfalls and build skills that perform well in production.\n\n## Core Principles\n\n### 1. Single Responsibility\nEach skill should have one clear purpose. A skill that does many things is harder to test, debug, and compose. If a skill needs a conjunction to describe what it does (\"analyzes data AND generates reports AND sends emails\"), it should probably be split.\n\n### 2. Clear Documentation\nSkill descriptions are not just for humans. They are the primary mechanism by which agents decide when and how to invoke skills. Effective documentation includes:\n- A concise description of what the skill does\n- Expected inputs with types and examples\n- Expected outputs with format descriptions\n- When to use this skill (and when not to)\n- Known limitations and edge cases\n\n### 3. Robust Error Handling\nSkills should handle failures gracefully:\n- Validate inputs before processing\n- Provide clear error messages that help diagnose problems\n- Use fallback strategies for recoverable failures\n- Fail explicitly rather than producing silently wrong results\n\n### 4. Minimal Permissions\nRequest only the permissions needed. A skill that reads files should not request write access. A skill that queries one API should not have credentials for all APIs. This limits the blast radius of bugs and security issues.\n\n### 5. Idempotency Where Possible\nSkills that can be safely retried are more resilient and easier to use in automated workflows. Design skills so that running them twice with the same input does not cause problems.\n\n## Design Guidelines\n\n- **Define clear interfaces**: Specify exactly what inputs are required and what outputs are produced\n- **Use structured outputs**: Return data in parseable formats (JSON, structured text) rather than free-form prose\n- **Version from the start**: Begin with version 1.0 and increment meaningfully\n- **Include examples**: Provide input-output examples that serve as both documentation and test cases\n- **Separate concerns**: Keep data access, business logic, and presentation in distinct layers\n\n## Testing Practices\n\n- Write test cases before or alongside the skill implementation\n- Include positive cases, negative cases, and edge cases\n- Test with different models to ensure portability\n- Run regression tests when updating skills\n- Use property-based testing for behavioral invariants\n\n## Maintenance Practices\n\n- **Monitor in production**: Track success rates, latency, and quality metrics\n- **Maintain changelogs**: Document every change with context on why\n- **Deprecate gracefully**: Give consumers time and guidance to migrate\n- **Review regularly**: Skills may need updates when underlying models or APIs change\n- **Collect feedback**: Establish channels for users to report issues and suggest improvements\n\n## Antipatterns to Avoid\n\n- **Prompt spaghetti**: Complex, tangled instructions that are impossible to maintain\n- **God skills**: Skills that try to do everything for everyone\n- **Hardcoded assumptions**: Skills that break when environments or contexts change\n- **Silent failures**: Skills that return plausible but incorrect results without indication\n- **Untested skills**: Skills deployed to production without validation\n- **Copy-paste skills**: Duplicating logic instead of composing existing skills",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "best-practices",
+        "engineering",
+        "quality-assurance"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Skill Best Practices",
+        "AI Skill Guidelines",
+        "Agent Skill Patterns"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "ai-skill-composability",
+        "ai-skill-testing",
+        "ai-skill-scoping",
+        "ai-skill-resilience",
+        "ai-skill-versioning",
+        "ai-skill-portability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Best practice - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Best_practice",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,64 @@
+{
+    "id": "ai-orchestration",
+    "name": "AI Orchestration",
+    "summary": "Coordinating multiple AI models, agents, and services to work together in complex workflows and pipelines.",
+    "explanation": "AI orchestration is the practice of coordinating multiple AI models, agents, tools, and services to work together within complex workflows and pipelines. Rather than relying on a single monolithic model to handle every aspect of a task, orchestration systems decompose problems into subtasks, route them to appropriate specialized components, manage data flow between steps, and aggregate results into coherent outputs.\n\n## Why orchestration matters\n\nAs AI applications grow more sophisticated, single-model architectures hit limitations. A customer service system might need a language model for conversation, a classification model for intent detection, a retrieval system for knowledge lookup, and a sentiment analysis model for escalation decisions. AI orchestration provides the architectural layer that ties these components together into a functioning system.\n\nThe rise of AI agents and agentic systems has made orchestration even more critical. Agents that use tools, make decisions, and take actions require careful coordination to ensure they operate safely, efficiently, and in the right sequence.\n\n## Key patterns\n\n**Sequential pipelines** chain models together in a linear flow, where the output of one step becomes the input of the next. For example, a document processing system might extract text, classify the document type, extract relevant entities, and then generate a summary.\n\n**Parallel execution** runs multiple models or agents simultaneously on different aspects of a problem, then combines their outputs. This improves latency and enables ensemble approaches where multiple models vote on an answer.\n\n**Routing and dispatch** uses a decision layer to direct inputs to the most appropriate model or agent based on the nature of the request. A simple query might go to a small, fast model while a complex analytical question is routed to a more capable one.\n\n**Agent orchestration** coordinates multiple autonomous agents, each with their own tools and capabilities, to collaborate on complex tasks. This includes managing agent communication, resolving conflicts, and ensuring coherent overall behavior.\n\n**Human-in-the-loop integration** incorporates human review, approval, or intervention at critical decision points within automated workflows.\n\n## Frameworks and tools\n\nSeveral frameworks have emerged to support AI orchestration, including LangChain, LlamaIndex, Semantic Kernel, CrewAI, and AutoGen. These provide abstractions for defining workflows, managing model interactions, handling tool use, and implementing common patterns like retrieval-augmented generation.\n\n## Challenges\n\nOrchestrating multiple AI components introduces complexity in error handling, latency management, cost optimization, and observability. When one component in a pipeline fails or produces unexpected output, the effects can cascade. Monitoring and debugging distributed AI systems requires specialized tooling. There are also challenges around maintaining consistency and coherence when multiple models contribute to a single output, and ensuring that the overall system behaves safely even when individual components are reliable.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "architectures",
+        "systems-thinking"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "agent-orchestration",
+        "ai-agent",
+        "ai-agent-swarms",
+        "ai-tool-use",
+        "retrieval-augmented-generation",
+        "human-in-the-loop",
+        "ai-observability",
+        "agentic-engineering"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

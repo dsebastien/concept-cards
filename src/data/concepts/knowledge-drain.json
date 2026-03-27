@@ -1,0 +1,90 @@
+{
+    "id": "knowledge-drain",
+    "name": "Knowledge Drain",
+    "summary": "Gradual loss of institutional knowledge when experienced employees leave an organization without transferring their expertise.",
+    "explanation": "Knowledge drain is the gradual, cumulative loss of organizational knowledge through employee departures, retirements, reorganizations, and role changes. Unlike a sudden departure that creates an obvious gap, knowledge drain is slow, diffuse, and often invisible until the damage is already done.\n\n## How it differs from related concepts\n\n- **Knowledge decay** is about knowledge becoming stale or inaccurate over time, even when the people are still around\n- **Tribal knowledge** is the undocumented knowledge that is at risk. Knowledge drain is the event of that knowledge actually leaving\n- **Bus factor** measures the vulnerability. Knowledge drain is what happens when the bus actually hits\n\n## How it happens\n\nKnowledge drain rarely looks dramatic. It looks like:\n\n- A senior engineer retiring after 20 years, taking decades of architectural reasoning with them\n- A team being reorganized, scattering contextual knowledge across new groups where it has no relevance\n- Layoffs that cut across teams, removing the people who knew why things were built the way they were\n- Natural attrition over months and years, where each departure takes a small piece of institutional memory\n- Promotions that move people away from the domain where their knowledge was deepest\n\nThe cumulative effect: the organization slowly forgets its own history, reasoning, and hard-won lessons. Decisions get re-litigated because nobody remembers the original analysis. Mistakes get repeated because the people who learned from them are gone.\n\n## Why it is accelerating\n\nModern work patterns make knowledge drain worse:\n\n- Shorter average tenure means less time to transfer knowledge before people move on\n- Remote and distributed work reduces the casual knowledge transfer that happens through proximity\n- Rapid organizational change (reorgs, pivots, M&A) disrupts knowledge networks faster than they can re-form\n- Specialization creates deeper but narrower knowledge, making each individual's knowledge harder to replace\n\n## Mitigating knowledge drain\n\nPrevention is better than recovery:\n\n- Invest in Enterprise Knowledge Management (EKM) to make knowledge organizational rather than personal\n- Document decision reasoning, not just decisions\n- Build knowledge redundancy through pair work, rotation, and shared ownership\n- Create offboarding processes that capture critical knowledge before people leave\n- Use Agentic Knowledge Management to continuously extract and structure knowledge rather than treating documentation as a one-time event\n\n## The AI angle\n\nKnowledge drain directly undermines AI effectiveness. When experienced people leave without their knowledge being captured, AI systems built on organizational context lose accuracy. The context engineering investment degrades silently because the human knowledge that informed it is no longer available to verify or update it.",
+    "tags": [
+        "knowledge-management",
+        "businesses",
+        "risks",
+        "leadership"
+    ],
+    "category": "AI",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Brain Drain"
+    ],
+    "relatedConcepts": [
+        "enterprise-knowledge-management",
+        "knowledge-management",
+        "tribal-knowledge",
+        "knowledge-decay",
+        "bus-factor",
+        "tacit-knowledge",
+        "explicit-knowledge",
+        "agentic-knowledge-management",
+        "context-engineering",
+        "onboarding"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Knowledge+Drain"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowledge management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_management",
+            "type": "website"
+        },
+        {
+            "title": "Human capital flight - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Human_capital_flight",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

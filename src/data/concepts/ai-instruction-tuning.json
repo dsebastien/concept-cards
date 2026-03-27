@@ -1,0 +1,74 @@
+{
+    "id": "ai-instruction-tuning",
+    "name": "AI Instruction Tuning",
+    "summary": "Training method that teaches AI models to follow natural language instructions by fine-tuning on instruction-response pairs.",
+    "explanation": "Instruction tuning is the process of fine-tuning a pre-trained language model on datasets of instruction-response pairs, transforming a base model that simply predicts the next token into one that can follow human instructions and produce helpful responses. It is the critical step that bridges the gap between a raw language model and a useful AI assistant.\n\n## How It Works\n\nDuring pre-training, language models learn to predict the next token in a sequence from vast corpora of text. While this gives them broad knowledge, it does not teach them to follow instructions. Instruction tuning addresses this by training the model on curated datasets where each example consists of:\n\n- An **instruction** (e.g., \"Summarize the following article\")\n- An optional **input** (e.g., the article text)\n- A **desired response** (e.g., a concise summary)\n\nBy training on thousands of such examples across diverse tasks, the model learns the general pattern of receiving instructions and producing appropriate responses.\n\n## Key Milestones\n\nInstruction tuning was pioneered by two landmark papers in 2022:\n\n- **FLAN** (Google): Demonstrated that fine-tuning on a large collection of tasks described via instructions dramatically improved zero-shot performance on unseen tasks\n- **InstructGPT** (OpenAI): Combined instruction tuning with Reinforcement Learning from Human Feedback (RLHF) to create models that were more helpful, harmless, and honest\n\n## Relationship to Other Techniques\n\nInstruction tuning is typically one stage in a multi-step post-training pipeline:\n\n1. **Pre-training**: Learn language patterns from large text corpora\n2. **Instruction tuning**: Learn to follow instructions from curated datasets\n3. **RLHF/Constitutional AI**: Further align the model with human preferences and safety requirements\n\nIt is closely related to but distinct from general fine-tuning. While fine-tuning can optimize a model for any specific task, instruction tuning specifically targets the model's ability to understand and execute diverse natural language instructions.\n\n## Why It Matters\n\nInstruction tuning is what makes modern AI assistants possible. Without it, even the largest language models would produce plausible-sounding text continuations rather than genuinely helpful answers. It has also enabled the creation of capable open-weight instruction-following models that the community can build upon.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "techniques",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Instruction Tuning",
+        "Instruction Fine-Tuning"
+    ],
+    "relatedConcepts": [
+        "fine-tuning",
+        "rlhf",
+        "large-language-models",
+        "constitutional-ai",
+        "ai-open-weight-models",
+        "ai-foundation-models",
+        "prompt-engineering",
+        "ai-alignment"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Instruction+Tuning"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Instruction tuning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Instruction_tuning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

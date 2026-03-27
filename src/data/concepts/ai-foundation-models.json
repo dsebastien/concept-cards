@@ -1,0 +1,81 @@
+{
+    "id": "ai-foundation-models",
+    "name": "AI Foundation Models",
+    "summary": "Large-scale AI models trained on broad data that serve as the base for various downstream applications.",
+    "explanation": "AI Foundation Models are large-scale models trained on massive, diverse datasets that can be adapted to a wide range of downstream tasks. The term was coined by the Stanford HAI (Human-Centered AI Institute) in their 2021 paper \"On the Opportunities and Risks of Foundation Models,\" marking a conceptual shift in how the AI community thinks about model development.\n\n**Key Properties**\n\n- **Trained at massive scale**: Billions of parameters, trained on internet-scale data spanning text, code, images, and more.\n- **General-purpose**: Not designed for a single task but capable of handling many different types of problems.\n- **Adaptable**: Can be specialized for particular use cases via fine-tuning, prompting, or retrieval augmentation.\n- **Emergent capabilities**: Abilities that appear at scale but were not explicitly trained for, such as chain-of-thought reasoning, in-context learning, and tool use.\n\nExamples include GPT-4, Claude, LLaMA, Gemini, Stable Diffusion, and DALL-E.\n\n**A Paradigm Shift**\n\nFoundation models represent a fundamental change from task-specific to general-purpose AI. Instead of training a separate model for each task (sentiment analysis, translation, summarization), a single foundation model serves as the base layer that can be adapted to all of them. This dramatically reduces the cost and expertise required to deploy AI for new use cases.\n\nLarge language models, image generators, and multimodal models are all built on this foundation model approach. They form the core of generative AI, and their practical utility comes from adaptation techniques like fine-tuning, prompting, and retrieval-augmented generation.\n\n**Implications**\n\nThe foundation model paradigm concentrates power in organizations that can afford large-scale pre-training, while democratizing access to AI capabilities through APIs and open-weight releases. It also raises important questions about data governance, bias amplification, and the environmental cost of training at scale.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Foundation Model",
+        "Foundation Models",
+        "Base Models"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "generative-ai",
+        "deep-learning",
+        "ai-fine-tuning",
+        "ai-scaling-laws",
+        "ai-inference",
+        "ai-tokenization",
+        "artificial-general-intelligence",
+        "ai-alignment"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Foundation+Models"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Foundation models - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Foundation_models",
+            "type": "website"
+        },
+        {
+            "title": "On the Opportunities and Risks of Foundation Models - Stanford HAI",
+            "url": "https://arxiv.org/abs/2108.07258",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

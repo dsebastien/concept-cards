@@ -1,0 +1,62 @@
+{
+    "id": "ai-cost-management",
+    "name": "AI Cost Management",
+    "summary": "Strategies for monitoring, optimizing, and controlling the financial costs of running AI systems in production.",
+    "explanation": "Managing the financial costs of using AI systems is a critical engineering concern that scales with adoption. As organizations integrate AI into more workflows, the per-token and per-request charges accumulate quickly, making cost management an essential discipline.\n\n## Pricing models\n\nAPI providers typically charge per-token (input and output priced separately), per-request, or via subscription tiers. The cost difference between models can be 100x or more for the same task, making model choice a financial decision as much as a technical one.\n\n## Cost optimization strategies\n\n- **Model routing**: route simple tasks to cheap models, complex tasks to expensive ones\n- **Caching**: store and reuse responses for repeated or similar queries\n- **Batching**: group requests to reduce overhead and take advantage of bulk pricing\n- **Local fallback**: run local models for tasks that do not need frontier capabilities\n- **Quantization**: reduce model size and inference cost at acceptable quality tradeoffs\n\n## Hidden costs\n\nThe obvious per-token price is only part of the picture. Context window waste (sending irrelevant tokens), retry loops from poor prompts, and over-provisioning (using frontier models for classification tasks) silently inflate costs. Context budget and token budget discipline matters. Context compression can reduce input costs significantly.\n\n## ROI calculation\n\nMeasure AI spend against the value produced: time saved, quality improvement, tasks that were previously impossible. A $500/month API bill that replaces 20 hours of manual work is cheap. A $50/month bill generating garbage is expensive. The key is connecting AI costs to measurable business outcomes rather than treating them as abstract infrastructure expenses.",
+    "tags": [
+        "ai",
+        "economics",
+        "optimization",
+        "governance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "ai-model-selection",
+        "ai-evaluation",
+        "context-engineering",
+        "ai-governance"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Cost+Management"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,75 @@
+{
+    "id": "knowledge-decay",
+    "name": "Knowledge Decay",
+    "summary": "Gradual loss of relevance or accuracy of stored knowledge over time as conditions change.",
+    "explanation": "Knowledge decay is the process by which stored knowledge loses accuracy, relevance, or usefulness over time. It applies to human memory, organizational knowledge bases, documentation, and AI context systems alike.\n\nThe law of staleness describes the mechanism: information's value declines rapidly as it ages. Technical documentation becomes outdated as APIs change. Best practices evolve. Facts get superseded. Notes about a project's architecture describe last year's system, not today's.\n\nIn Personal Knowledge Management (PKM), knowledge decay is why periodic review matters. A note written two years ago may contain outdated assumptions. A Zettelkasten that's only written to but never revisited accumulates decay silently. The same applies to organizational knowledge management: institutional knowledge decays as people leave, processes change, and context gets lost.\n\nKnowledge decay is the broader concept that specific forms of rot extend from:\n\n- **Bit rot**: digital data corruption from storage degradation\n- **Link rot**: URLs breaking as pages move or disappear\n- **AI context rot**: AI instructions and memory becoming stale relative to the system they describe\n\nMitigation strategies include periodic review cycles, automated staleness detection, pruning outdated content, and maintaining connections between notes so that updates propagate naturally through a knowledge network.",
+    "tags": [
+        "knowledge-management",
+        "information-architecture",
+        "risks"
+    ],
+    "category": "Concepts",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "knowledge-management",
+        "bit-rot",
+        "tribal-knowledge"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Knowledge+Decay"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowledge deprecation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_deprecation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

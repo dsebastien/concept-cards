@@ -1,0 +1,75 @@
+{
+    "id": "ai-fine-tuning",
+    "name": "AI Fine-Tuning",
+    "summary": "Adapting a pre-trained AI model to a specific task or domain using additional targeted training.",
+    "explanation": "AI Fine-Tuning is the process of further training a pre-trained model on task-specific data to adapt its behavior. While foundation models learn general capabilities during pre-training, fine-tuning specializes them for particular tasks, domains, or behavioral patterns by updating the model's weights with targeted data.\n\n**Types of Fine-Tuning**\n\n- **Full fine-tuning**: Updates all model parameters. This is the most expressive approach but also the most expensive, requiring significant compute and large amounts of high-quality training data.\n- **Parameter-efficient fine-tuning (PEFT)**: Methods like LoRA (Low-Rank Adaptation), QLoRA, and adapters that update only a small subset of parameters. These are dramatically cheaper while achieving comparable results for many tasks.\n- **Instruction tuning**: Training on instruction-response pairs to make the model follow directions more reliably. Reinforcement Learning from Human Feedback (RLHF) is often applied on top of instruction tuning to further align model behavior with human preferences.\n\n**Fine-Tuning vs. Prompting**\n\nFine-tuning captures deep behavioral changes that persist in the model's weights, making it suitable for tasks that require consistent, specialized behavior. In contrast, in-context learning via prompting is cheaper, more flexible, and easier to iterate on, but is less persistent and limited by the context window.\n\nThe choice between fine-tuning and prompting depends on the use case: prompting is preferred for rapid prototyping and tasks where flexibility matters, while fine-tuning is better for production systems that need consistent, domain-specific behavior at scale.\n\n**Trade-Offs and Risks**\n\nFine-tuning can cause **catastrophic forgetting**, where the model loses previously learned general capabilities as it specializes. Careful dataset curation and techniques like mixing general and specialized data during training help mitigate this risk.\n\nKnowledge distillation is a related technique where a smaller model is trained to mimic a larger one, effectively creating a compact, specialized model that replicates the behavior of a frontier model at lower cost.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "techniques",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Fine-Tuning",
+        "Fine-tuning",
+        "Model Fine-Tuning"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "ai-foundation-models",
+        "ai-inference",
+        "reinforcement-learning",
+        "deep-learning",
+        "ai-tokenization",
+        "ai-quantization",
+        "ai-scaling-laws"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Fine-Tuning"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Fine-tuning (deep learning) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

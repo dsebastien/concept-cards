@@ -1,0 +1,64 @@
+{
+    "id": "ai-evaluation",
+    "name": "AI Evaluation",
+    "summary": "Methods and metrics for assessing AI system quality, accuracy, and fitness for purpose.",
+    "explanation": "AI Evaluation covers the systematic assessment of AI output quality beyond subjective \"does it look right\" judgments. As AI systems are deployed in production, rigorous evaluation becomes essential for maintaining trust, catching regressions, and making informed decisions about model selection and deployment.\n\n## Evaluation approaches\n\n- **Human review**: the gold standard but expensive and slow. Best for calibrating automated methods and handling nuanced quality assessments\n- **Automated metrics**: BLEU, ROUGE, exact match, semantic similarity, LLM-as-judge. Cheap and scalable but can miss nuance\n- **A/B testing**: compare model versions or prompt variants on real traffic with measurable outcomes\n- **Benchmark suites**: standardized test sets for specific capabilities (reasoning, coding, factuality)\n\n## What to evaluate\n\n- **Accuracy**: is the output factually correct? Watch for hallucinations\n- **Consistency**: does the same input produce reliably similar outputs?\n- **Format compliance**: does the output follow the required structure?\n- **Safety**: does it avoid harmful content?\n- **Bias**: does it exhibit systematic skew across demographics or topics?\n- **Sycophancy**: does it agree with the user even when the user is wrong?\n\n## Evaluation in production\n\n- **Observability**: instrument systems to capture inputs, outputs, latency, and errors\n- **Sampling**: evaluate a representative subset of production traffic rather than everything\n- **Drift detection**: track quality metrics over time to catch model or data degradation early\n\nThe gap between lab benchmarks and real-world performance is significant. Evaluation strategies must account for the specific domain, use case, and failure modes that matter for a given deployment.",
+    "tags": [
+        "ai",
+        "measurement",
+        "quality-attributes",
+        "techniques"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "ai-model-selection",
+        "ai-cost-management",
+        "ai-hallucination",
+        "ai-guardrails",
+        "ai-safety",
+        "ai-ethics"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Evaluation"
+    ],
+    "articles": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "books": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

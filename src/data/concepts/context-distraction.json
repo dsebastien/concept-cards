@@ -1,0 +1,66 @@
+{
+    "id": "context-distraction",
+    "name": "Context Distraction",
+    "summary": "Irrelevant or low-priority information in AI context that diverts the model's attention from the actual task, degrading output quality.",
+    "explanation": "Context distraction occurs when irrelevant or low-priority information in an AI agent's context diverts its attention from what actually matters. The model's attention mechanism treats all context tokens as potentially relevant, so noise competes with signal for the model's limited processing capacity.\n\nThis is distinct from context bloat (too much context overall) and context poisoning (deliberately wrong information). Context distraction is about correct but irrelevant information pulling the model off-course.\n\n## How It Happens\n\n- **Over-inclusive retrieval**: RAG pipelines that pull in tangentially related documents, burying the actually relevant ones\n- **Unfocused system prompts**: master prompts that include instructions for every possible role and task, even when only one is active\n- **Context accumulation**: long conversations where early context (no longer relevant) still occupies attention\n- **Verbose tool outputs**: tools that return full documents when only a few lines were needed\n- **Kitchen-sink skills**: AI skills that load every possible piece of context \"just in case\"\n\n## Impact\n\nContext distraction directly degrades output quality. When irrelevant tokens consume attention budget, the model misses or de-emphasizes the actual task requirements, produces generic responses, follows outdated or inapplicable instructions, and generates longer, less precise outputs as it tries to address everything it sees.\n\n## Mitigation\n\n- **Progressive disclosure**: load context incrementally, only what is needed for the current task\n- **Lazy loading**: do not front-load everything; let the agent pull context on demand\n- **Receptionist pattern**: route to specialized agents with focused context rather than one agent with everything\n- **Context windowing**: actively expire or compact old context as conversations progress\n- **Focused retrieval**: tune RAG pipelines for precision over recall",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-quality"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-bloat",
+        "context-confusion",
+        "context-signal-to-noise-ratio",
+        "context-budget",
+        "context-hygiene",
+        "context-poisoning",
+        "progressive-disclosure"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Distraction"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

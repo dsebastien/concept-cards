@@ -1,0 +1,72 @@
+{
+    "id": "shadow-ai",
+    "name": "Shadow AI",
+    "summary": "Unauthorized or unmonitored use of AI tools by employees outside IT governance, the AI equivalent of Shadow IT but faster-moving and harder to detect.",
+    "explanation": "Shadow AI occurs when employees use unapproved AI tools without IT or security knowledge. It is the AI equivalent of Shadow IT, but it moves faster and is harder to detect because consumer AI tools are frictionless and immediately useful.\n\n## Why it happens\n\nOfficial tools are too slow, too restricted, or unavailable. Consumer AI platforms like ChatGPT, Claude, and Gemini are free or cheap, require no approval, and deliver immediate value. When the approved path has more friction than the unapproved one, people take the shortcut. This is not malicious; it is pragmatic.\n\n## Risks\n\n- **Data leakage**: employees paste proprietary code, customer data, or internal documents into consumer AI tools. This data may be used for model training or stored on servers the organization does not control.\n- **Compliance violations**: regulated industries (finance, healthcare) may violate data handling requirements when employees use unapproved AI tools.\n- **Inconsistent outputs**: no standardization across teams using different tools with different prompts leads to variable quality and approach.\n- **No audit trail**: impossible to review what was sent to AI, what was generated, or what decisions were influenced by AI outputs.\n\n## Detection\n\n- Monitor network traffic for AI service domains\n- Survey employees anonymously about actual AI tool usage\n- Review browser extensions and installed applications\n- Check expense reports for personal AI subscriptions\n\n## Mitigation\n\nThe most effective defense against shadow AI is making the approved tools easy to use and frictionless. When the official path is as convenient as the unofficial one, employees naturally adopt sanctioned tools.\n\nBeyond that, organizations need clear AI usage policies that define what is allowed and what is not, AI governance structures for oversight of tool adoption, and education programs that teach employees about risks rather than simply blocking tools. Prohibition without alternatives drives usage underground and makes the problem worse.",
+    "tags": [
+        "ai",
+        "governance",
+        "risks",
+        "compliance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Shadow IT for AI",
+        "Unauthorized AI Use"
+    ],
+    "relatedConcepts": [
+        "ai-usage-policy",
+        "ai-privacy",
+        "ai-training-data-collection",
+        "ai-data-security",
+        "ai-governance",
+        "enterprise-ai-deployment"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Shadow+AI"
+    ],
+    "references": [
+        {
+            "title": "Shadow IT - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shadow_IT",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

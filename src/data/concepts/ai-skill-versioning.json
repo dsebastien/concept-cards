@@ -1,0 +1,73 @@
+{
+    "id": "ai-skill-versioning",
+    "name": "AI Skill Versioning",
+    "summary": "Managing changes to AI skills over time with version control, compatibility tracking, and structured upgrade paths.",
+    "explanation": "AI skill versioning is the practice of managing changes to AI skills over time using version control, compatibility tracking, and structured upgrade paths. As AI skills evolve, organizations need systematic ways to track what changed, why it changed, and how those changes affect dependent systems.\n\n## Why Versioning Is Essential\n\nAI skills are not static artifacts. They evolve as:\n\n- Underlying models change behavior\n- New edge cases are discovered\n- Requirements shift\n- Performance is optimized\n- Security vulnerabilities are patched\n\nWithout versioning, consumers of shared skills face unpredictable breakages, and producers cannot safely iterate on their skills.\n\n## Versioning Approaches\n\n### Semantic Versioning (SemVer) for Skills\n\nAdapting SemVer to AI skills:\n\n- **Major version** (breaking): Changes to inputs, outputs, or fundamental behavior\n- **Minor version** (feature): New optional capabilities, additional output fields\n- **Patch version** (fix): Bug fixes, prompt improvements that maintain the same behavior\n\n### Behavioral Versioning\n\nSince AI skill behavior is non-deterministic, behavioral versioning goes beyond interface changes to track:\n\n- Expected output quality levels\n- Performance benchmarks\n- Known edge case handling\n- Model compatibility ranges\n\n## Challenges Unique to AI Skills\n\n1. **Non-deterministic behavior**: The same skill version can produce different outputs, making it hard to define what constitutes a \"breaking change\"\n2. **Model dependency**: A skill may behave differently when the underlying model is updated, even if the skill itself hasn't changed\n3. **Prompt sensitivity**: Small prompt changes can have outsized behavioral impacts\n4. **Evaluation subjectivity**: Quality changes may be improvements for some use cases and regressions for others\n\n## Version Management Practices\n\n- **Changelogs**: Document what changed and why in each version\n- **Migration guides**: Provide upgrade instructions for breaking changes\n- **Deprecation policies**: Give consumers time to migrate before removing old versions\n- **Compatibility matrices**: Track which skill versions work with which models and frameworks\n- **Rollback support**: Enable quick reversion to previous versions when issues arise\n\n## Relationship to Software Versioning\n\nAI skill versioning builds on decades of software versioning practices but must account for the fuzzy boundaries of AI behavior. A skill might technically have the same interface but produce meaningfully different results, a scenario that traditional versioning schemes struggle to capture.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "version-control",
+        "change-management",
+        "infrastructure"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Skill Versioning",
+        "AI Skill Version Control",
+        "Agent Skill Versioning"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "ai-skill-distribution",
+        "ai-skill-testing",
+        "ai-skill-supply-chain-security",
+        "ai-skill-best-practices"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Software versioning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_versioning",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

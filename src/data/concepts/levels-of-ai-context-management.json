@@ -1,0 +1,68 @@
+{
+    "id": "levels-of-ai-context-management",
+    "name": "Levels of AI Context Management",
+    "summary": "Hierarchy of context management scopes from personal to enterprise level.",
+    "explanation": "Levels of AI Context Management is a progression framework that describes how individuals and organizations can improve the leverage they get from AI by improving the way they manage context. Each level builds on the previous one, adding more sophistication to how context is structured and maintained.\n\n## The levels\n\n- **Level 1 - No context**: You ask a question, AI gives you generic answers\n- **Level 2 - Basic context**: You provide some context with your question. AI gives better answers, but you keep repeating yourself\n- **Level 3 - Basic context + AI built-in memory**: AI remembers a few things from past conversations and gives better answers. You repeat yourself less, but results are unreliable\n- **Level 4 - Basic context + AI memory + Prompt engineering**: You use prompt engineering techniques, and AI remembers some things. Output quality and consistency increases. You still repeat yourself, and managing prompts is a problem\n- **Level 5 - Advanced context management**: You have a knowledge system that you point AI to. It now gets a much better picture of what you want and need. Quality increases drastically, but there is still a lot of variability\n- **Level 6 - Advanced context + Managed AI memory**: You have a knowledge system and a memory system where AI stores memories. You control and manage those. Quality increases further, and variability reduces\n- **Level 7 - Advanced context + Managed AI memory + Skills**: You build AI agent skills on top of your knowledge and memory system. AI now knows exactly how you want things done. Results become very consistent across different tasks\n- **Level 8 - AI-ready knowledge system**: You leverage all of the above, but in addition you make it easier for AI to locate, identify, and produce information. AI agents fully leverage the knowledge system and actively enrich it over time. Your second brain is now also your AI's brain\n\nProgressing through these levels is a journey that applies at every scale: personal, team, project, and enterprise.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "frameworks",
+        "progression"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "prompt-engineering",
+        "personal-context-management",
+        "team-context-management",
+        "enterprise-context-management",
+        "context-management-maturity-model",
+        "agentic-context-engineering",
+        "ai-context-rot",
+        "agentic-knowledge-management",
+        "knowledge-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Levels+of+AI+Context+Management"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

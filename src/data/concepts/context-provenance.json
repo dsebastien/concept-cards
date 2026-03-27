@@ -1,0 +1,68 @@
+{
+    "id": "context-provenance",
+    "name": "Context Provenance",
+    "summary": "Tracking the origin, authorship, and modification history of context information.",
+    "explanation": "Context Provenance is the practice of tracking where each piece of AI context came from, when it was added, by whom, and how trustworthy it is. It answers the fundamental question: \"Why is this in the context, and should I trust it?\"\n\n## Why provenance matters\n\nAI models treat all context as equally trustworthy. They have no built-in mechanism to distinguish between a carefully reviewed CLAUDE.md rule and a scraped web page that happened to land in a RAG result. Context provenance adds the metadata layer that models lack.\n\nWithout provenance:\n- Context poisoning is harder to detect because you cannot trace where bad information entered\n- AI context rot is harder to fix because you do not know when entries were last validated\n- AI context governance is impossible to enforce because you cannot audit what you cannot trace\n- Debugging AI behavior becomes guesswork because you cannot reconstruct what the model saw\n\n## Provenance dimensions\n\n| Dimension | Question | Example |\n|---|---|---|\n| **Source** | Where did this come from? | Human-authored, RAG retrieval, tool output, AI-generated memory |\n| **Author** | Who created or approved it? | User, team lead, automated pipeline |\n| **Timestamp** | When was it added/updated? | Created 2026-01-15, last reviewed 2026-03-01 |\n| **Trust level** | How reliable is this source? | Verified (human-reviewed) vs unverified (auto-retrieved) |\n| **Scope** | Who is this for? | Enterprise, team, personal, task-specific |\n\n## Practical implementation\n\nIn context-as-code systems, provenance comes naturally through version control: git blame shows who changed what and when. For dynamic context (RAG results, tool outputs, AI memories), provenance requires explicit metadata.\n\nThe context lifecycle review phase is where provenance becomes actionable: during review, you can check whether context entries still have valid provenance or have become orphaned.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "governance",
+        "traceability"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-poisoning",
+        "ai-context-rot",
+        "ai-context-governance",
+        "context-as-code",
+        "context-lifecycle",
+        "context-isolation",
+        "context-hygiene",
+        "personal-context-management",
+        "enterprise-context-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Provenance"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

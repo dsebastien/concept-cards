@@ -1,0 +1,66 @@
+{
+    "id": "context-confusion",
+    "name": "Context Confusion",
+    "summary": "Contradictory, ambiguous, or inconsistent information within AI context that causes the model to produce incoherent or unpredictable outputs.",
+    "explanation": "Context confusion occurs when contradictory, ambiguous, or inconsistent information within an AI agent's context causes it to produce incoherent, unpredictable, or hallucinated outputs. The model receives conflicting signals and has no reliable way to resolve them, so it either picks one arbitrarily, tries to merge incompatible instructions, or hallucinates a middle ground.\n\nThis is distinct from context distraction (irrelevant information) and context poisoning (deliberately wrong information). Context confusion is about real, well-intentioned information that contradicts itself.\n\n## How It Happens\n\n- **Rule conflicts**: two instructions that directly contradict each other (e.g., \"always be concise\" alongside \"provide detailed explanations with examples\")\n- **Temporal inconsistency**: context from different time periods that describes the same thing differently because the codebase evolved\n- **Multi-source merging**: context from different authors, tools, or agents with incompatible assumptions\n- **Role ambiguity**: instructions for multiple roles active simultaneously, with conflicting behavioral expectations\n- **Memory vs instructions**: AI memories that contradict current instructions because the approach changed but memories were not updated\n- **Stale documentation**: CLAUDE.md files or skills referencing patterns, functions, or conventions that no longer exist\n\n## Impact\n\nContext confusion produces the worst kind of errors: outputs that look confident and plausible but are subtly wrong. The model does not flag contradictions; it resolves them silently, often in unpredictable ways. Different runs may resolve contradictions differently, creating inconsistent behavior. The model may hallucinate a synthesis that was not in any of the source materials.\n\n## Mitigation\n\n- **Single source of truth**: for any piece of context, there should be one canonical location\n- **Regular pruning**: remove outdated context rather than adding corrections on top\n- **Context hygiene**: actively manage context for consistency across the lifecycle\n- **Conflict detection**: use AI itself to scan context for contradictions before execution\n- **Versioned context**: Context-as-Code practices that make changes visible and reviewable\n- **Tiered priority**: establish clear precedence rules (e.g., user instructions > skills > defaults)",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-quality"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-distraction",
+        "context-drift",
+        "context-bloat",
+        "context-hygiene",
+        "context-as-code",
+        "context-poisoning",
+        "ai-hallucination"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Confusion"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

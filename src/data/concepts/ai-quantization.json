@@ -1,0 +1,74 @@
+{
+    "id": "ai-quantization",
+    "name": "AI Quantization",
+    "summary": "Reducing AI model precision from higher to lower bit representations to decrease size and increase speed.",
+    "explanation": "AI Quantization is the technique of reducing the numerical precision of model weights and activations (for example, from 32-bit floating point to 8-bit or 4-bit integers) to decrease model size, memory usage, and inference cost while preserving most of the model's capability. It is one of the most impactful optimization techniques for deploying large AI models on real-world hardware.\n\n**Common Formats and Methods**\n\n- **GGUF**: A popular format for CPU and hybrid CPU/GPU inference, used by llama.cpp and its ecosystem.\n- **GPTQ**: Post-training quantization optimized for GPU inference, widely used for serving quantized models.\n- **AWQ (Activation-Aware Weight Quantization)**: Preserves the most important weights by analyzing activation patterns, achieving better quality at the same bit level.\n- **INT8/INT4**: Standard integer precision levels. INT8 is commonly used in production; INT4 offers more aggressive compression.\n\n**The Quality-Efficiency Trade-Off**\n\nLower precision means a smaller, faster model, but with some quality degradation, especially at extreme quantization levels (2-3 bit). The sweet spot for most use cases is **4-bit quantization (Q4)**, which retains approximately 95% of full-precision quality at a fraction of the memory cost.\n\nThis trade-off is not uniform across tasks: simple classification tasks tolerate aggressive quantization well, while tasks requiring nuanced reasoning or rare knowledge may show more degradation.\n\n**Why Quantization Matters**\n\nQuantization directly determines whether a large language model can run on a given piece of hardware. A 70-billion parameter model at full precision (FP16) requires roughly 140 GB of memory, but at 4-bit quantization it fits in approximately 35 GB, bringing it within reach of consumer GPUs.\n\nFor production deployments, quantization reduces serving costs, increases throughput, and lowers latency. Combined with other optimization techniques like KV cache management and efficient batching, it forms the backbone of practical AI inference infrastructure.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "performance",
+        "optimization"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Quantization",
+        "Model Quantization",
+        "Weight Quantization"
+    ],
+    "relatedConcepts": [
+        "ai-inference",
+        "large-language-models",
+        "ai-kv-cache",
+        "ai-foundation-models",
+        "ai-tokenization",
+        "ai-mixture-of-experts",
+        "deep-learning"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Quantization"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Quantization (signal processing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantization_(signal_processing)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

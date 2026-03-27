@@ -1,0 +1,75 @@
+{
+    "id": "project-context-management",
+    "name": "Project Context Management",
+    "summary": "Managing AI context specific to a project including codebase knowledge, conventions, and architectural decisions.",
+    "explanation": "Project Context Management is the practice of curating, structuring, and maintaining the AI context specific to a single project or codebase. It ensures that AI agents working on a project understand its goals, architecture, conventions, constraints, and history without requiring repeated explanation.\n\nAll levels of context management use the same principles and techniques of context engineering, just applied at different scales. Project context sits between personal context management and team context management in granularity. Personal context is about you; team context is about how a group collaborates; project context is about what a specific body of work needs AI to know. Specifically: architecture, design, implementation details, and important business rules.\n\n## What project context management includes\n\n- **Project rules and conventions**: coding standards, naming conventions, architectural patterns (e.g., CLAUDE.md, .cursorrules, AGENTS.md)\n- **Architecture context**: how the codebase is structured, key abstractions, data flow, and design decisions\n- **Technical constraints**: tech stack, framework versions, deployment targets, performance requirements\n- **Decision history**: architecture decision records, why things are built the way they are\n- **Agent configurations**: project-specific skills, tools, and MCP server setups\n- **Domain knowledge**: business rules, terminology, and domain-specific logic embedded in the project\n\n## Why it matters\n\nWithout project context, AI starts every interaction from zero on the project. It guesses at conventions, misunderstands architecture, and produces code that does not fit. Good project context management means:\n- AI follows existing patterns instead of inventing new ones\n- Onboarding new contributors (human or AI) is faster\n- Consistency across the codebase improves\n- Less time spent correcting AI output\n\n## Project context as context-as-code\n\nProject context management is where context-as-code is most naturally applied. Project context lives in the repository alongside the code it describes. Files like CLAUDE.md, AGENTS.md, and .cursorrules are project context committed to version control; they evolve with the codebase, get reviewed in PRs, and benefit from the same collaboration workflows as code.\n\n## Project context lifecycle\n\n1. **Bootstrap**: establish initial project context when starting a new project or adopting AI tooling\n2. **Maintain**: update context as architecture evolves, decisions are made, and conventions change\n3. **Prune**: remove outdated context that no longer reflects the project's reality\n4. **Review**: periodically audit whether project context is still accurate and complete",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "software-development",
+        "architecture"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "personal-context-management",
+        "team-context-management",
+        "enterprise-context-management",
+        "context-engineering",
+        "context-as-code",
+        "context-layering",
+        "context-inheritance",
+        "context-lifecycle",
+        "context-drift",
+        "context-hygiene",
+        "context-budget",
+        "levels-of-ai-context-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Project+Context+Management+(PCM)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

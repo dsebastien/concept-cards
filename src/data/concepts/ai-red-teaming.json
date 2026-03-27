@@ -1,0 +1,71 @@
+{
+    "id": "ai-red-teaming",
+    "name": "AI Red Teaming",
+    "summary": "Systematic adversarial testing of AI systems to discover vulnerabilities, biases, and failure modes before deployment.",
+    "explanation": "AI red teaming is the practice of systematically probing AI systems through adversarial testing to uncover vulnerabilities, harmful behaviors, biases, and failure modes before they affect real users. Borrowed from cybersecurity, where red teams simulate attacks against organizational defenses, AI red teaming applies the same adversarial mindset to AI models and systems.\n\n## Why red teaming matters\n\nAI systems, particularly large language models and generative AI, can exhibit harmful behaviors that are not apparent during standard evaluation. They may generate toxic content, leak private training data, produce dangerously incorrect information, reinforce stereotypes, or be manipulated through prompt injection and jailbreaking techniques. Red teaming provides a structured way to discover these issues proactively rather than waiting for real-world incidents.\n\nMajor AI companies including Anthropic, OpenAI, Google DeepMind, and Microsoft conduct extensive red teaming before model releases. The practice has also been endorsed by governments; the White House AI commitments and the EU AI Act both reference adversarial testing as a key safety measure.\n\n## Approaches to red teaming\n\n**Manual red teaming** involves skilled human testers who craft adversarial inputs, attempt jailbreaks, probe for biases, and explore edge cases. Human testers bring creativity and domain expertise that automated methods cannot fully replicate. Teams often include diverse participants, security researchers, ethicists, domain experts, and people from communities most likely to be affected by model failures.\n\n**Automated red teaming** uses AI systems themselves to generate adversarial inputs at scale. One model can be trained to find prompts that cause another model to produce harmful outputs. This approach enables much broader coverage of the attack surface but may miss subtle or context-dependent vulnerabilities.\n\n**Structured evaluation frameworks** combine both approaches with systematic taxonomies of potential harms, covering categories like toxicity, bias, misinformation, privacy leakage, security vulnerabilities, and instruction-following failures.\n\n## Key areas of focus\n\n- **Jailbreaking and prompt injection**: Testing whether safety guardrails can be bypassed through clever prompting.\n- **Bias and fairness**: Probing for discriminatory outputs across protected characteristics.\n- **Hallucination and factual accuracy**: Testing the model's tendency to generate plausible but false information.\n- **Dangerous information**: Assessing whether the model provides harmful instructions (weapons, illegal activities).\n- **Privacy**: Testing whether the model reveals private information from training data.\n- **Robustness**: Evaluating how the model handles unusual, ambiguous, or adversarial inputs.\n\n## Limitations\n\nRed teaming is inherently incomplete. It can demonstrate the presence of vulnerabilities but cannot prove their absence. The space of possible inputs is effectively infinite, so even thorough red teaming provides a sample rather than exhaustive coverage. It works best as one component of a broader AI safety strategy that includes alignment research, monitoring, guardrails, and ongoing evaluation after deployment.",
+    "tags": [
+        "ai",
+        "safety",
+        "techniques",
+        "evaluation"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "ai-safety",
+        "ai-guardrails",
+        "ai-alignment",
+        "prompt-injection",
+        "ai-bias",
+        "ai-ethics",
+        "ai-hallucination",
+        "ai-governance",
+        "constitutional-ai",
+        "human-in-the-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "AI red teaming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/AI_red_teaming",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

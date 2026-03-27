@@ -1,0 +1,77 @@
+{
+    "id": "ai-skill-portability",
+    "name": "AI Skill Portability",
+    "summary": "The ability to transfer AI skills between different AI platforms, model providers, and agent frameworks without rewriting them.",
+    "explanation": "AI skill portability refers to the ability to use AI skills across different platforms, model providers, and agent frameworks without significant modification. As the AI ecosystem fragments across competing platforms, portability becomes crucial for avoiding vendor lock-in and maximizing the return on investment in skill development.\n\n## Why Portability Matters\n\n- **Vendor independence**: Organizations can switch providers without losing their skill investments\n- **Multi-platform strategies**: Skills can be deployed wherever they're needed most\n- **Future-proofing**: Skills remain valuable as the platform landscape evolves\n- **Collaboration**: Teams using different tools can share skills\n\n## Levels of Portability\n\n1. **Format portability**: Skills use a standard file format that multiple platforms can read\n2. **Behavioral portability**: Skills produce equivalent results across different models and platforms\n3. **Runtime portability**: Skills can execute in different agent frameworks without modification\n4. **Full portability**: Skills work identically across all supported platforms, including error handling and edge cases\n\n## Barriers to Portability\n\n- **Platform-specific APIs**: Skills that use proprietary tool interfaces\n- **Model-specific prompting**: Skills optimized for one model's idiosyncrasies\n- **Framework coupling**: Skills that depend on specific agent loop implementations\n- **Capability differences**: Features available on one platform but not another\n- **Context window variations**: Skills designed for specific context sizes\n\n## Strategies for Achieving Portability\n\n1. **Abstraction layers**: Use intermediate representations that translate to platform-specific formats\n2. **Standard protocols**: Adopt open standards like Model Context Protocol (MCP) for tool integration\n3. **Declarative definitions**: Describe what a skill does, not how it does it on a specific platform\n4. **Adaptation layers**: Build thin translation layers for platform-specific requirements\n5. **Testing across platforms**: Validate skill behavior on multiple targets during development\n\n## The Portability-Performance Tradeoff\n\nMaximizing portability often means avoiding platform-specific optimizations. Skills designed for portability may not leverage unique strengths of individual platforms. The practical approach is to maintain a portable core with optional platform-specific enhancements.\n\n## Current State\n\nThe AI industry is still in the early stages of standardization. Efforts like the Model Context Protocol represent steps toward interoperability, but true skill portability across the full ecosystem remains an aspiration rather than a reality.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "portability",
+        "interoperability",
+        "standards"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Skill Portability",
+        "Cross-Platform AI Skills",
+        "AI Skill Interoperability"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "ai-agent-portability",
+        "ai-skill-distribution",
+        "ai-skill-best-practices"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Software portability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_portability",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

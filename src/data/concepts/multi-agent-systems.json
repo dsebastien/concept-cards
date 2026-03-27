@@ -1,0 +1,79 @@
+{
+    "id": "multi-agent-systems",
+    "name": "Multi-Agent Systems",
+    "summary": "Architectures where multiple AI agents collaborate, coordinate, and communicate to accomplish complex tasks.",
+    "explanation": "A Multi-Agent System (MAS) is a computational framework where multiple autonomous agents operate in a shared environment, collaborating or competing to achieve objectives. Each agent is capable of perception, reasoning, action, and communication. Unlike single-agent systems, MAS leverages specialized roles, tools, and coordination to handle complex tasks.\n\n## Core components\n\n- **Agents**: Autonomous entities with specific roles, goals, and capabilities\n- **Communication**: Agents exchange information via protocols (APIs, message queues, or natural language)\n- **Coordination**: Negotiation, coalition formation, and task allocation to divide work efficiently\n- **Environment**: Shared context in which agents observe and act\n\n## Architectural patterns\n\n- **Hierarchical**: Tree-like structure with agents at varying levels of autonomy. A supervisor agent delegates and coordinates.\n- **Flat/peer-to-peer**: Agents collaborate as equals without central control.\n- **Hybrid**: Mix of hierarchical and flat, with specialized sub-teams.\n\n## Advantages\n\n- **Scalability**: Additional agents can be added without major redesign\n- **Fault tolerance**: If one agent fails, others continue operating\n- **Specialization**: Each agent focuses on what it does best\n- **Parallelism**: Multiple agents work simultaneously on different subtasks\n\n## Challenges\n\n- Coordination complexity as agent count grows\n- Communication overhead between agents\n- Conflict resolution when agents have competing goals\n- Security and trust (malicious or malfunctioning agents)\n- Debugging and observability across distributed agents\n\n## Notable frameworks and tools\n\n- CrewAI: Role-based multi-agent orchestration\n- AutoGen (Microsoft): Conversational multi-agent framework\n- LangGraph: Graph-based agent workflows\n- OpenAI Swarm: Lightweight multi-agent orchestration",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "architectures",
+        "systems-thinking"
+    ],
+    "category": "AI",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Multi-Agent System",
+        "MAS"
+    ],
+    "relatedConcepts": [
+        "ai-agent",
+        "ai-agent-swarms",
+        "agent-orchestration",
+        "ai-routing",
+        "ai-coding-maturity",
+        "agentic-engineering",
+        "context-engineering"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Multi-Agent+System+(MAS)"
+    ],
+    "articles": [
+        {
+            "title": "What is a multiagent system? - IBM",
+            "url": "https://www.ibm.com/think/topics/multiagent-system",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Multi-agent system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Multi-agent_system",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

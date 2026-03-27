@@ -1,0 +1,72 @@
+{
+    "id": "ai-explainability",
+    "name": "AI Explainability",
+    "summary": "Methods and techniques for making AI decision-making processes understandable and interpretable by humans.",
+    "explanation": "AI explainability, also known as Explainable AI (XAI), refers to the set of methods, techniques, and design principles that make the behavior and outputs of AI systems understandable to humans. As AI models grow more complex, particularly deep neural networks and large language models, understanding why a model produces a particular output becomes both more difficult and more critical.\n\n## Why explainability matters\n\nAI systems increasingly make or influence decisions with significant real-world consequences: medical diagnoses, loan approvals, criminal sentencing recommendations, hiring decisions, and autonomous driving. When these systems operate as black boxes, stakeholders cannot verify whether decisions are fair, correct, or aligned with intended goals. Explainability is essential for building trust, ensuring accountability, meeting regulatory requirements, and debugging model behavior.\n\nRegulations like the EU AI Act and GDPR's \"right to explanation\" are codifying explainability as a legal requirement for high-risk AI applications, making it not just an ethical consideration but a compliance necessity.\n\n## Types of explainability\n\n**Intrinsic explainability** comes from models that are inherently interpretable by design. Decision trees, linear regression, and rule-based systems produce outputs that humans can directly trace and understand. However, these simpler models often sacrifice predictive performance.\n\n**Post-hoc explainability** applies explanation techniques to complex models after training. Methods include:\n\n- **LIME (Local Interpretable Model-agnostic Explanations)**: Approximates complex model behavior locally with simpler, interpretable models to explain individual predictions.\n- **SHAP (SHapley Additive exPlanations)**: Uses game theory concepts to assign each feature an importance value for a particular prediction.\n- **Attention visualization**: Shows which parts of the input a model focuses on when generating output.\n- **Counterfactual explanations**: Describe what minimal changes to the input would alter the model's output.\n- **Feature importance**: Ranks which input features most influence the model's decisions.\n\n## Explainability vs. interpretability\n\nWhile often used interchangeably, these terms have distinct nuances. Interpretability refers to the degree to which a human can understand the cause of a decision. Explainability refers to the degree to which the internal mechanics of a model can be explained in human terms. A model can be interpretable without being fully explainable, and vice versa.\n\n## Challenges\n\nThere is often a trade-off between model performance and explainability. The most powerful models (large neural networks, ensemble methods) tend to be the least explainable. Additionally, explanations can be misleading if they oversimplify complex decision boundaries, or if users place unwarranted confidence in post-hoc rationalizations that do not truly reflect the model's internal reasoning process.",
+    "tags": [
+        "ai",
+        "ethics",
+        "transparency",
+        "governance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Explainable AI",
+        "XAI"
+    ],
+    "relatedConcepts": [
+        "ai-transparency",
+        "ai-trust",
+        "ai-fairness",
+        "ai-bias",
+        "ai-governance",
+        "ai-ethics",
+        "ai-observability",
+        "human-in-the-loop"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Explainable artificial intelligence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

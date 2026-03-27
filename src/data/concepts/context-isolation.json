@@ -1,0 +1,73 @@
+{
+    "id": "context-isolation",
+    "name": "Context Isolation",
+    "summary": "Keeping contexts separated to prevent cross-contamination between different tasks or agents.",
+    "explanation": "Context Isolation is the practice of separating different types or trust levels of context so that problems in one domain do not contaminate another. It is the security boundary within context engineering.\n\n## Isolation boundaries\n\n### Trust-based isolation\n\nSeparate context by trustworthiness:\n- **Trusted**: human-authored instructions, reviewed rules, curated knowledge (CLAUDE.md, skills, identity notes)\n- **Semi-trusted**: AI-generated memories, previous conversation context, internally retrieved documents\n- **Untrusted**: external tool outputs, web search results, RAG-retrieved content from unverified sources, user-uploaded documents\n\nThe model should treat these differently, but it cannot unless the context explicitly marks trust boundaries. This is the core challenge of preventing context poisoning.\n\n### Scope-based isolation\n\nSeparate context by scope to prevent cross-contamination:\n- Project A's context should not leak into Project B's agent\n- Personal context (health, finances) should not appear in work-related agent outputs\n- Customer data should not flow between different customer contexts\n\n### Temporal isolation\n\nSeparate current context from historical context:\n- Current task instructions should not be diluted by old conversation context\n- Fresh tool results should take precedence over cached or stale results\n\n## Why isolation matters\n\nWithout isolation:\n- A poisoned RAG result can override trusted instructions\n- Agent memories from one project bleed into another\n- Context entropy in one layer degrades the entire system\n- Security and compliance boundaries become impossible to enforce\n\n## Implementation patterns\n\n- **Separate context windows**: use different conversations or agents for different trust levels\n- **Context tagging**: mark each piece of context with its source and trust level (using context provenance)\n- **Agent specialization**: dedicated agents with focused context rather than one agent with everything\n- **Context layering**: architectural separation into enterprise, team, personal, and task layers",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "security",
+        "architecture"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-layering",
+        "context-inheritance",
+        "context-poisoning",
+        "context-engineering",
+        "ai-context-governance",
+        "context-provenance",
+        "context-entropy",
+        "separation-of-concerns",
+        "personal-context-management",
+        "enterprise-context-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Isolation"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

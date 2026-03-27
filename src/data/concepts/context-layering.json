@@ -1,0 +1,72 @@
+{
+    "id": "context-layering",
+    "name": "Context Layering",
+    "summary": "Architectural pattern of organizing AI context into hierarchical layers with defined scope, precedence, and inheritance from global to task-specific.",
+    "explanation": "Context layering is the architectural pattern of organizing AI context into hierarchical layers where each layer has a defined scope, precedence, and inheritance relationship with other layers. It provides the structural \"how\" behind scaling context management from individual to team to enterprise levels.\n\n## Layer Architecture\n\nFrom broadest to narrowest scope:\n\n1. **Enterprise layer**: org-wide policies, compliance rules, shared knowledge bases. Applies to all teams and individuals\n2. **Team layer**: project conventions, shared skills, team-specific rules. Inherits enterprise constraints, adds team-specific context\n3. **Personal layer**: individual preferences, personal knowledge, style, identity. Inherits team context, adds personal customization\n4. **Task layer**: context specific to the current task. Loaded dynamically, highest precedence for the duration of the task\n\n## Precedence Rules\n\nWhen layers conflict, narrower scope wins: Task overrides Personal, Personal overrides Team, Team overrides Enterprise. This mirrors how CSS specificity works, or how environment variables override defaults. The principle: context closer to the action takes priority.\n\n## Benefits\n\n- **Separation of concerns**: each layer manages its own scope without interfering with others\n- **Context isolation**: problems in one layer do not necessarily contaminate others\n- **Scalability**: add new layers (e.g., department-level) without restructuring existing ones\n- **Maintainability**: update enterprise policies once and they propagate to all teams and individuals\n- **Budget management**: each layer has its own context budget allocation\n\n## Practical Example\n\nIn Claude Code, this already exists: organization-wide settings and MCP servers form the enterprise layer, project CLAUDE.md and AGENTS.md form the team layer, user settings and personal memory form the personal layer, and conversation context with loaded skills form the task layer.",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "context-management",
+        "ai-context-patterns",
+        "architecture"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "context-engineering",
+        "context-budget",
+        "context-as-code",
+        "context-file-hierarchy",
+        "context-entropy",
+        "context-hygiene",
+        "progressive-disclosure",
+        "separation-of-concerns"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+Layering"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,75 @@
+{
+    "id": "ai-mixture-of-experts",
+    "name": "AI Mixture of Experts",
+    "summary": "Architecture where multiple specialized sub-networks are selectively activated for different inputs to improve efficiency.",
+    "explanation": "Mixture of Experts (MoE) is a neural network architecture where a model contains multiple specialized sub-networks called \"experts\" and a routing mechanism (often called a gating network) that activates only a subset of them for each input. This is **sparse activation**: the model has a very large total parameter count but only uses a fraction of them per inference step.\n\n**How It Works**\n\nIn a typical MoE transformer layer, each token is routed to a small number of experts (often 2 out of 8 or more). The gating network learns which experts are most relevant for each input, and only those experts process the token. The outputs are then combined, weighted by the router's confidence scores.\n\nThis means a 100-billion parameter MoE model that activates 20 billion parameters per token can match or beat a 70-billion parameter dense model in quality while being significantly cheaper to run at inference time.\n\n**Benefits**\n\n- **Better performance per compute dollar**: More total knowledge encoded in the parameters without proportionally higher inference cost.\n- **Faster inference**: Only a fraction of parameters are active per token.\n- **Scalability**: MoE models can be scaled to very large parameter counts while keeping inference costs manageable.\n\nProminent examples include GPT-4, Mixtral, DeepSeek, and Grok, all of which use MoE architectures.\n\n**Trade-Offs**\n\n- **Memory**: All experts must be loaded into memory even though only some are active for each token. This makes the total memory footprint much larger than a dense model with the same active parameter count.\n- **Quantization challenges**: MoE models are harder to quantize effectively because different experts may have different weight distributions.\n- **Load balancing**: During training, poorly balanced routing can lead to some experts being overtrained while others are undertrained. Auxiliary loss functions and load-balancing techniques are used to mitigate this.\n- **Routing complexity**: The gating mechanism adds engineering complexity and can introduce instability during training.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "architectures",
+        "performance"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "MoE",
+        "Mixture of Experts",
+        "Sparse Mixture of Experts"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "deep-learning",
+        "transformer",
+        "ai-scaling-laws",
+        "ai-inference",
+        "ai-quantization",
+        "ai-foundation-models",
+        "neural-networks"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Mixture+of+Experts+(MoE)"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Mixture of experts - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mixture_of_experts",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

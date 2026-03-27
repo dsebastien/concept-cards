@@ -1,0 +1,74 @@
+{
+    "id": "ai-instruction-drift",
+    "name": "AI Instruction Drift",
+    "summary": "The gradual deviation of AI behavior from original instructions over extended interactions, caused by accumulating contradictory rules or evolving user intent without matching instruction updates.",
+    "explanation": "AI instruction drift is a specific form of context drift that occurs when the instructions given to an AI agent (system prompts, configuration files, skill definitions, rules) gradually diverge from what the user actually wants or needs.\n\nIt happens through two primary mechanisms:\n\n## Accumulation without review\n\nInstructions pile up over time. Each addition makes sense in isolation, but the aggregate becomes contradictory or bloated. Rule 12 might conflict with rule 47. A skill added six months ago might encode assumptions that are no longer true. The context bloat compounds the drift, making it harder to spot individual contradictions in a growing mass of instructions.\n\n## Implicit evolution of intent\n\nThe user's needs, preferences, and workflows change, but the instructions do not get updated to match. The AI keeps following the old playbook. This is particularly insidious because the user might not notice for a while; the AI still produces reasonable output, just not optimally aligned with current intent.\n\n## Why it matters\n\nInstruction drift differs from broader context drift in that it specifically affects the behavioral contract between user and AI. Drifted knowledge context might produce slightly less relevant answers. Drifted instructions produce systematically wrong behavior. The AI does what it was told, but what it was told no longer matches what the user actually wants.\n\n## Mitigation\n\nMitigation requires periodic instruction audits as part of context hygiene practices:\n\n- Read through all active instructions regularly\n- Remove obsolete rules and instructions\n- Resolve contradictions between rules\n- Check alignment with current workflows and preferences\n- Make the reasoning behind instructions explicit so you can evaluate whether the reasoning still holds even when the instruction itself looks reasonable\n\nIn production AI systems, instruction drift can be detected through AI observability: monitoring for changes in behavior patterns, increased error rates, or growing divergence between expected and actual outputs over time.",
+    "tags": [
+        "ai",
+        "reliability",
+        "ai-agents",
+        "risks"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Instruction Drift",
+        "AI Behavioral Drift",
+        "Prompt Drift"
+    ],
+    "relatedConcepts": [
+        "context-drift",
+        "context-bloat",
+        "ai-agent",
+        "ai-observability",
+        "ai-alignment",
+        "ai-hallucination",
+        "ai-safety"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Instruction+Drift"
+    ],
+    "references": [
+        {
+            "title": "Concept drift - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Concept_drift",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

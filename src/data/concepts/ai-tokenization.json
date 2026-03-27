@@ -1,0 +1,79 @@
+{
+    "id": "ai-tokenization",
+    "name": "AI Tokenization",
+    "summary": "Process of breaking text into tokens that AI models use as their fundamental units of input and output.",
+    "explanation": "AI Tokenization is the process of converting raw text into numerical tokens that large language models can process. Because neural networks operate on numbers rather than characters or words, every piece of text must first be split into discrete units called tokens before it can enter the model.\n\n**How Tokenization Works**\n\nModern tokenizers use subword algorithms that strike a balance between character-level and word-level representations:\n\n- **Byte Pair Encoding (BPE)**: Iteratively merges the most frequent pairs of characters or subwords. Used by GPT models and many others.\n- **SentencePiece**: A language-agnostic tokenizer that operates directly on raw text without pre-tokenization. Used by LLaMA and T5.\n- **WordPiece**: Similar to BPE but uses a likelihood-based merging strategy. Used by BERT.\n\nCommon words typically map to a single token, while rare or complex words get split into multiple subword tokens. For English text, a rough average is about 4 characters per token, but this varies significantly for code, non-Latin scripts, and specialized terminology.\n\n**Why Tokenization Matters**\n\nToken count directly determines cost, context window usage, and processing time. Every input and output token counts against the model's token budget, making efficient tokenization a first-order concern for both cost and capability.\n\nDifferent models use different tokenizers, so the same text may produce different token counts across models. This means cost and context usage are not directly comparable between providers without accounting for tokenizer differences.\n\n**Structural Biases**\n\nTokenization has downstream consequences that are often overlooked. Rare words and non-Latin scripts are split into more tokens, which means they cost more, consume more context, and can receive lower-quality representations. This creates a structural bias in both cost and capability that disproportionately affects non-English languages and specialized domains.\n\nEmbeddings are computed per token, meaning tokenization choices directly affect the model's internal representations and, ultimately, its understanding of the input.",
+    "tags": [
+        "ai",
+        "machine-learning",
+        "technologies",
+        "fundamentals"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Tokenization",
+        "AI Tokens",
+        "Tokens"
+    ],
+    "relatedConcepts": [
+        "large-language-models",
+        "context-window",
+        "embedding",
+        "ai-inference",
+        "ai-kv-cache",
+        "ai-quantization",
+        "ai-foundation-models"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Tokenization"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Tokenization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization",
+            "type": "website"
+        },
+        {
+            "title": "Byte pair encoding - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Byte_pair_encoding",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

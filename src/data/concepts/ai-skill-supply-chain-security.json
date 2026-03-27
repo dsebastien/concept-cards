@@ -1,0 +1,79 @@
+{
+    "id": "ai-skill-supply-chain-security",
+    "name": "AI Skill Supply Chain Security",
+    "summary": "Protecting against malicious or compromised AI skills in shared skill ecosystems by verifying integrity, provenance, and safety.",
+    "explanation": "AI skill supply chain security addresses the risks that arise when organizations consume AI skills from external sources. Just as software supply chain attacks have become a major threat vector, shared AI skill ecosystems face similar vulnerabilities, with the added danger that compromised skills can manipulate AI agent behavior in subtle, hard-to-detect ways.\n\n## The Threat Landscape\n\nAs AI skill marketplaces and registries grow, attackers can exploit them through:\n\n- **Skill poisoning**: Publishing skills that contain hidden malicious instructions\n- **Typosquatting**: Creating skills with names similar to popular ones to trick users\n- **Dependency confusion**: Exploiting skill dependency resolution to inject malicious skills\n- **Account takeover**: Compromising skill publisher accounts to push malicious updates\n- **Prompt injection via skills**: Embedding instructions that override agent safety constraints\n\n## Why AI Skills Are Uniquely Vulnerable\n\nUnlike traditional software, AI skills often contain natural language instructions that are harder to audit programmatically. A malicious skill might:\n\n- Subtly bias agent responses without triggering obvious errors\n- Exfiltrate sensitive context data through seemingly innocent API calls\n- Gradually shift agent behavior over time through conditional logic\n- Bypass guardrails by exploiting model-specific vulnerabilities\n\n## Security Measures\n\n1. **Provenance verification**: Cryptographic signing to prove who published a skill and that it hasn't been tampered with\n2. **Automated scanning**: Static analysis of skill content for known attack patterns\n3. **Sandboxed execution**: Running skills in isolated environments with limited permissions\n4. **Behavioral monitoring**: Detecting anomalous skill behavior in production\n5. **Dependency pinning**: Locking skill versions to prevent supply chain attacks through updates\n6. **Review processes**: Human review of skills before they enter trusted registries\n\n## Organizational Practices\n\n- Maintain an approved skill list with vetted sources\n- Implement least-privilege access for skills (minimal permissions)\n- Regularly audit deployed skills against known vulnerability databases\n- Establish incident response procedures for compromised skills\n- Use reproducible builds to verify skill integrity\n\n## Relationship to Software Supply Chain Security\n\nAI skill supply chain security extends concepts from software supply chain security (SLSA, SBOM, Sigstore) but must also account for the unique properties of AI systems: non-deterministic behavior, natural language attack surfaces, and the difficulty of defining \"correct\" behavior for AI components.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "security",
+        "supply-chains",
+        "risk-management"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "AI Skill Security",
+        "Agent Skill Supply Chain",
+        "Skill Ecosystem Security"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "ai-safety",
+        "ai-governance",
+        "ai-guardrails",
+        "ai-skill-distribution",
+        "ai-agent-distribution",
+        "ai-skill-versioning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Supply chain security - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Supply_chain_security",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

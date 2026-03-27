@@ -1,0 +1,73 @@
+{
+    "id": "ai-skill-distribution",
+    "name": "AI Skill Distribution",
+    "summary": "Mechanisms for sharing, publishing, and deploying AI skills across teams and organizations to enable reuse and collaboration.",
+    "explanation": "AI skill distribution refers to the mechanisms and infrastructure for sharing, publishing, and deploying AI skills across teams, organizations, and ecosystems. As AI agents become more capable and skill libraries grow, the ability to distribute skills efficiently becomes critical for scaling agentic systems.\n\n## Why Distribution Matters\n\nWithout effective distribution mechanisms, organizations end up with duplicated efforts across teams, inconsistent skill implementations, and an inability to leverage collective expertise. Skill distribution transforms individual productivity gains into organizational capabilities.\n\n## Distribution Models\n\n- **Internal registries**: Private repositories where teams publish and discover skills within an organization\n- **Public marketplaces**: Open ecosystems where anyone can publish and consume skills (similar to npm or PyPI for code)\n- **Peer-to-peer sharing**: Direct sharing between teams or individuals without centralized infrastructure\n- **Curated collections**: Vetted, quality-controlled skill bundles maintained by trusted publishers\n\n## Key Challenges\n\n1. **Discovery**: How do users find the right skill among thousands of options?\n2. **Trust**: How do consumers verify that a distributed skill is safe and reliable?\n3. **Compatibility**: How do skills work across different agent frameworks and model providers?\n4. **Updates**: How are bug fixes and improvements propagated to consumers?\n5. **Licensing**: What are the intellectual property implications of skill sharing?\n\n## Distribution Infrastructure\n\nEffective skill distribution requires:\n\n- **Package formats**: Standardized ways to bundle skills with metadata, documentation, and dependencies\n- **Version management**: Semantic versioning to communicate breaking changes\n- **Authentication and authorization**: Controlling who can publish and consume skills\n- **Dependency resolution**: Managing skills that depend on other skills\n- **Telemetry**: Understanding how distributed skills are used and performing\n\n## Relationship to Software Distribution\n\nAI skill distribution borrows heavily from software package management (npm, pip, cargo) but adds unique considerations around prompt content, model compatibility, and the non-deterministic nature of AI execution. The ecosystem is still maturing, with no dominant standard yet established.",
+    "tags": [
+        "ai",
+        "ai-agents",
+        "distribution",
+        "collaboration",
+        "infrastructure"
+    ],
+    "category": "AI",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "AI Skill Sharing",
+        "Skill Publishing",
+        "Agent Skill Distribution"
+    ],
+    "relatedConcepts": [
+        "agent-skills",
+        "ai-agent",
+        "agentic-engineering",
+        "ai-agent-distribution",
+        "ai-skill-versioning",
+        "ai-skill-supply-chain-security",
+        "ai-skill-portability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

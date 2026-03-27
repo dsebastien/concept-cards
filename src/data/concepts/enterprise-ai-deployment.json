@@ -1,0 +1,76 @@
+{
+    "id": "enterprise-ai-deployment",
+    "name": "Enterprise AI Deployment",
+    "summary": "The practical discipline of rolling out AI tools, agents, and context management across an organization, addressing infrastructure, access control, compliance, training, and change management.",
+    "explanation": "Enterprise AI deployment goes beyond governance policies and context strategy to address the operational reality of rolling out AI at organizational scale. It encompasses infrastructure decisions, access control, compliance requirements, training programs, and change management.\n\n## Key dimensions\n\n### Infrastructure\n\n- Approved AI providers and enterprise agreements\n- Self-hosted model infrastructure for sensitive workloads\n- MCP (Model Context Protocol) server deployment for organization-wide tool access\n- Centralized vs. decentralized skill and agent registries\n\n### Access control and permissions\n\n- AI agent permissions at the enterprise level: who can deploy agents with what capabilities\n- Role-based AI access: different teams get different tools and permission levels\n- AI usage policy enforcement through technical controls, not just written rules\n- Audit trails: who used which AI tools, with what data, and what happened\n\n### Data governance\n\n- Data classification, encryption, and access control\n- Data residency: where AI processing happens (on-premises vs. specific cloud regions)\n- Retention policies: how long AI conversations and agent memory are kept\n- Enterprise-wide opt-out from provider training data collection\n\n### Compliance\n\n- Risk classification for deployed AI systems under emerging regulations\n- Sector-specific regulations (HIPAA, SOC2, GDPR, financial regulations)\n- AI observability for monitoring deployed agents for compliance violations\n- Incident response procedures for when AI systems misbehave\n\n### Change management\n\n- Training programs for progressive AI adoption across the organization\n- Pilot programs: starting with low-risk use cases, expanding gradually\n- Defining roles and responsibilities in AI teams\n- Measuring ROI and impact of AI deployments\n\nSuccessful enterprise AI deployment requires balancing the desire for rapid AI adoption with the need for governance, security, and compliance. Organizations that make the official AI tools easy to use and frictionless reduce the risk of shadow AI, where employees adopt unapproved tools outside IT governance.",
+    "tags": [
+        "ai",
+        "governance",
+        "strategies",
+        "scalability"
+    ],
+    "category": "AI",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Enterprise AI Rollout",
+        "Organizational AI Deployment"
+    ],
+    "relatedConcepts": [
+        "ai-governance",
+        "ai-usage-policy",
+        "ai-data-security",
+        "ai-agent-permissions",
+        "ai-safety",
+        "ai-observability",
+        "ai-training-data-collection",
+        "shadow-ai",
+        "ai-skill-distribution",
+        "responsible-ai"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Enterprise+AI+Deployment"
+    ],
+    "references": [
+        {
+            "title": "Artificial intelligence in industry - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_industry",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

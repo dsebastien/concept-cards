@@ -1,0 +1,74 @@
+{
+    "id": "ai-context-rot",
+    "name": "AI Context Rot",
+    "summary": "Degradation of AI context quality over time as referenced information becomes outdated.",
+    "explanation": "AI Context Rot is the gradual degradation of AI context quality over time. It occurs when the instructions, rules, memory, and knowledge that AI agents rely on become stale, inaccurate, or misaligned with the current state of a project, codebase, or workflow.\n\nIt is the AI equivalent of bit rot, but applied to the contextual information that shapes AI behavior rather than to stored data. Just as link rot breaks references on the Web, context rot breaks the assumptions AI operates under.\n\n## How it happens\n\nAI context rot emerges naturally as projects evolve:\n\n- **Code changes, instructions don't**: CLAUDE.md files, system prompts, and AI agent skills reference functions, files, patterns, or conventions that no longer exist\n- **Memory drift**: AI memories accumulate entries that were true at one point but are now outdated or contradictory\n- **Convention shifts**: Team practices change but the context files still describe the old way of doing things\n- **Scope creep in rules**: Rules and instructions pile up without pruning, leading to contradictions and bloat that dilute the signal\n- **Tool and API evolution**: Referenced tools, endpoints, or integrations change or get deprecated\n\nThe value of context information declines as it ages unless actively maintained.\n\n## Why it matters\n\nContext rot silently degrades AI output quality. The AI confidently follows outdated instructions, producing results that look correct but are subtly wrong. Unlike a compiler error, there is no clear signal that something is broken. The failure mode is insidious: things mostly work, but with increasing friction and decreasing relevance.\n\nThis is a form of technical debt specific to AI-augmented workflows. The more sophisticated the context setup, the more surface area there is for rot to accumulate.\n\n## Mitigation\n\n- **Periodic review**: Treat context files like code; they need maintenance, not just creation\n- **Version control**: Keep AI context in version-controlled files so changes are visible and reversible\n- **Freshness signals**: Timestamp context entries so staleness is detectable\n- **Pruning discipline**: Regularly remove outdated entries rather than just adding new ones\n- **Validation loops**: Use AI itself to flag inconsistencies between its context and the current state of the project\n- **Tight coupling with source of truth**: Keep context close to the code or knowledge it describes, reducing the gap between reality and instructions",
+    "tags": [
+        "ai",
+        "context-engineering",
+        "maintenance",
+        "quality"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Context Rot (AI)"
+    ],
+    "relatedConcepts": [
+        "bit-rot",
+        "context-engineering",
+        "context-drift",
+        "context-bloat",
+        "context-hygiene",
+        "context-entropy",
+        "context-lifecycle",
+        "context-poisoning",
+        "context-as-code",
+        "agentic-context-engineering",
+        "personal-context-management",
+        "ai-context-governance",
+        "progressive-disclosure",
+        "levels-of-ai-context-management"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Context+Rot"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}
