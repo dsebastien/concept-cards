@@ -1,0 +1,73 @@
+{
+    "id": "ai-powered-search-engines",
+    "name": "AI-Powered Search Engines",
+    "summary": "Search engines that use large language models to generate synthesized answers from multiple sources instead of simply listing links.",
+    "explanation": "AI-powered search engines represent a new generation of search tools that go beyond listing links to generate comprehensive, synthesized answers using large language models. Unlike traditional search engines that rank and display web pages, these systems read, understand, and combine information from multiple sources to produce direct answers.\n\nProminent examples include Perplexity AI, which provides cited answers with inline source references; Google's AI Overviews, which synthesize answers atop traditional results; Microsoft Copilot (formerly Bing Chat), which integrates GPT-powered answers into Bing; ChatGPT with browsing capabilities; and You.com's AI-powered search. Each takes a different approach to balancing AI-generated content with source attribution.\n\nThese engines typically work through retrieval-augmented generation (RAG): they first retrieve relevant web pages or documents, then use a language model to synthesize information into a coherent response. This process fundamentally changes the search experience—users get answers rather than links, making information access more efficient but also reducing direct traffic to source websites.\n\nFor content creators and businesses, AI-powered search engines create new optimization challenges. Traditional SEO metrics like click-through rate and ranking position matter less when the AI provides the answer directly. Instead, being cited as a source in AI responses becomes the new measure of visibility. This has given rise to Generative Engine Optimization (GEO) and LLMO as new disciplines.\n\nKey concerns around AI-powered search include: accuracy and hallucination risks, reduced traffic to content creators, copyright and attribution questions, and the potential for AI to homogenize information by favoring certain sources. Despite these challenges, adoption is accelerating as users increasingly prefer direct answers over navigating multiple web pages.",
+    "tags": [
+        "search",
+        "ai",
+        "emerging-trends",
+        "digital"
+    ],
+    "category": "Tools",
+    "icon": "FaSearch",
+    "featured": false,
+    "aliases": [
+        "AI Search Engines",
+        "Generative Search Engines",
+        "Answer Engines"
+    ],
+    "relatedConcepts": [
+        "generative-engine-optimization",
+        "answer-engine-optimization",
+        "ai-overviews",
+        "conversational-search",
+        "zero-click-searches",
+        "retrieval-augmented-generation",
+        "llmo",
+        "seo"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Perplexity AI - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Perplexity.ai",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "llmo",
+    "name": "LLMO (Large Language Model Optimization)",
+    "summary": "Optimizing content specifically to be cited and recommended by large language models like ChatGPT, Claude, and Gemini.",
+    "explanation": "Large Language Model Optimization (LLMO) is the practice of making content more likely to be referenced, cited, and recommended by AI language models. While Generative Engine Optimization (GEO) broadly covers optimization for AI-powered search, LLMO focuses specifically on how large language models select, prioritize, and cite sources when generating responses.\n\nLLMs like ChatGPT, Claude, and Gemini learn from vast datasets and develop preferences for certain types of content. LLMO strategies focus on understanding what makes content 'LLM-friendly': clear factual statements, well-structured information, authoritative sourcing, and comprehensive topic coverage. Content that is frequently cited across the web, appears in high-authority sources, and provides unique expert insights is more likely to be surfaced by LLMs.\n\nKey LLMO techniques include: ensuring content is accessible to AI crawlers (not blocked by robots.txt or paywalls that prevent indexing), creating definitive reference-style content that LLMs can confidently cite, building consistent entity presence across the web so LLMs associate your brand with expertise, providing structured data and clear metadata, and maintaining factual accuracy since LLMs increasingly cross-reference sources.\n\nLLMO differs from traditional SEO in important ways. There are no 'rankings' to track—instead, success is measured by citation frequency and brand mention in AI responses. The optimization target is not a search algorithm but a language model's training data and retrieval systems. Content must be not just findable but trustworthy enough for an AI to stake its response on.\n\nAs AI assistants become primary information interfaces for millions of users, LLMO is becoming essential for businesses and creators who want to maintain visibility in an AI-mediated information landscape.",
+    "tags": [
+        "seo",
+        "ai",
+        "digital-marketing",
+        "emerging-trends"
+    ],
+    "category": "Methods",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": [
+        "Large Language Model Optimization",
+        "LLM SEO",
+        "LLM Optimization"
+    ],
+    "relatedConcepts": [
+        "generative-engine-optimization",
+        "answer-engine-optimization",
+        "ai-overviews",
+        "seo",
+        "e-e-a-t",
+        "ai-powered-search-engines",
+        "content-strategy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

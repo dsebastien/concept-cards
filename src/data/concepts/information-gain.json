@@ -1,0 +1,53 @@
+{
+    "id": "information-gain",
+    "name": "Information Gain",
+    "summary": "The unique, original information a piece of content provides beyond what already exists on the topic, used as a quality and ranking signal.",
+    "explanation": "Information gain, in the context of content and SEO, refers to the novel, original information a piece of content contributes to a topic beyond what is already available on the web. Google patented an 'information gain score' system that evaluates how much new information a document adds compared to other documents the user has already seen or that already rank for a query.\n\nThe concept addresses a fundamental problem in the modern web: content saturation. When hundreds of articles cover the same topic with the same information (often rewritten from the same sources), search engines need a way to surface content that actually adds value. Information gain provides that signal—content that offers original research, unique data, novel perspectives, or expert insights scores higher than content that merely rehashes existing information.\n\nFor content creators, optimizing for information gain means: conducting original research and sharing first-party data, providing expert analysis that cannot be found elsewhere, including unique case studies or real-world examples, offering contrarian or novel perspectives backed by evidence, and creating comprehensive coverage that connects ideas in new ways.\n\nInformation gain is particularly important in the age of AI-generated content. As AI tools make it trivial to produce technically correct but derivative content, search engines and AI systems increasingly value content that provides genuinely new information. LLMs also tend to surface content with high information gain because it offers unique training signal and authoritative perspectives.\n\nThe concept has roots in information theory, where information gain measures how much a new piece of data reduces uncertainty. In the SEO context, it has been adapted to measure how much a new document reduces a searcher's information deficit on a topic. Content with high information gain is not just well-written—it tells you something you could not learn from the other results.",
+    "tags": [
+        "seo",
+        "content-strategy",
+        "content",
+        "search"
+    ],
+    "category": "Principles",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Information Gain Score",
+        "Content Uniqueness",
+        "Novel Content Value"
+    ],
+    "relatedConcepts": [
+        "content-strategy",
+        "generative-engine-optimization",
+        "e-e-a-t",
+        "topical-authority",
+        "evergreen-content",
+        "content-compounding",
+        "thin-content",
+        "seo"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Information gain in decision trees - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Information_gain_(decision_tree)",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}

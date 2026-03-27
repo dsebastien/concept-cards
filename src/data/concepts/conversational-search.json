@@ -1,0 +1,72 @@
+{
+    "id": "conversational-search",
+    "name": "Conversational Search",
+    "summary": "A search paradigm where users interact through natural language dialogue rather than keyword queries, enabled by AI language models.",
+    "explanation": "Conversational search is the shift from typing fragmented keywords into a search box to having natural language dialogues with AI-powered systems. Instead of searching 'best running shoes flat feet 2026', users ask 'What running shoes would you recommend for someone with flat feet who runs 30 miles a week?'—and receive a synthesized, personalized answer.\n\nThis paradigm shift is driven by advances in large language models and their integration into search products. Google's AI Overviews, Perplexity, ChatGPT with browsing, and Microsoft Copilot all enable conversational search. Users can ask follow-up questions, refine their queries, and explore topics through dialogue rather than reformulating keywords.\n\nConversational search fundamentally changes how information is discovered and consumed. In traditional search, users scan a list of links and choose which to visit. In conversational search, the AI synthesizes information from multiple sources into a direct answer, often citing sources inline. This means content creators need to optimize not just for being found, but for being the source an AI chooses to cite.\n\nKey implications for content strategy include: targeting natural language questions rather than keyword phrases, providing comprehensive answers that AI systems can extract and synthesize, building authority signals that make AI trust your content, and creating content structured for AI parsing (clear headers, definitive statements, structured data).\n\nConversational search also supports multi-turn interactions, where context from previous questions carries forward. This means long-tail and highly specific queries become more common, as users can progressively narrow their needs through dialogue. For businesses, this creates both challenges (less direct website traffic) and opportunities (being the cited expert source in AI responses).",
+    "tags": [
+        "search",
+        "ai",
+        "emerging-trends",
+        "natural-language-processing"
+    ],
+    "category": "Concepts",
+    "icon": "FaComments",
+    "featured": false,
+    "aliases": [
+        "Dialogue-Based Search",
+        "AI Search Conversations",
+        "Chat-Based Search"
+    ],
+    "relatedConcepts": [
+        "generative-engine-optimization",
+        "answer-engine-optimization",
+        "ai-powered-search-engines",
+        "search-intent",
+        "natural-language-processing",
+        "zero-click-searches",
+        "ai-overviews"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Web search engine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Web_search_engine",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-27",
+    "dateModified": "2026-03-27"
+}
