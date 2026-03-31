@@ -2,7 +2,7 @@
     "id": "pareto-principle",
     "name": "Pareto Principle",
     "summary": "80% of effects come from 20% of causes - focus on high-impact activities.",
-    "explanation": "The Pareto Principle, also known as the 80/20 rule, states that roughly 80% of effects come from 20% of causes. A small portion of inputs typically produces the majority of outputs. In productivity, 20% of your efforts likely produce 80% of your results. In PKM, a small percentage of your notes may provide most of your value. This principle helps prioritize: identify and focus on the vital few rather than the trivial many. Don't try to capture everything - focus on what matters most.",
+    "explanation": "The Pareto Principle, also known as the 80/20 rule or the Law of the Vital Few, states that roughly 80% of effects come from 20% of causes. The concept was formulated by management consultant Joseph M. Juran, who named it after economist Vilfredo Pareto's observation that 80% of Italy's land was owned by 20% of the population. Juran coined the phrase 'the vital few and the trivial many' to describe how a small portion of inputs typically produces the majority of outputs.\n\nExamples are everywhere: 20% of your efforts likely produce 80% of your results, a small percentage of customers generate most revenue, a handful of bugs cause most crashes, and in PKM, a small percentage of your notes may provide most of your value.\n\nThis principle helps prioritize: identify and focus on the vital few rather than the trivial many. Don't try to capture everything - focus on what matters most. Related distribution laws like Zipf's Law and Price's Law describe similar concentration effects in different domains. Techniques like ABC Analysis operationalize the Pareto Principle into actionable categorization frameworks.",
     "tags": [
         "decision-making",
         "frameworks",
@@ -14,15 +14,25 @@
     "featured": false,
     "aliases": [
         "80/20 Rule",
+        "Law of the Vital Few",
+        "Juran's Principle",
         "Pareto distribution"
     ],
     "relatedConcepts": [
         "effort-vs-impact",
         "eisenhower-matrix",
-        "focus"
+        "focus",
+        "abc-analysis",
+        "power-law",
+        "prices-law",
+        "zipfs-law",
+        "diminishing-returns",
+        "ruthless-prioritization"
     ],
     "relatedNotes": [
-        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Pareto+distribution"
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Pareto+distribution",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/The+Law+of+the+vital+few",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Pareto+Principle"
     ],
     "articles": [],
     "books": [

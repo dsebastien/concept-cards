@@ -1,0 +1,41 @@
+{
+    "id": "zipfs-law",
+    "name": "Zipf's Law",
+    "summary": "An empirical law stating that the frequency of any item is inversely proportional to its rank in the frequency table.",
+    "explanation": "Zipf's Law, named after linguist George Kingsley Zipf, is an empirical observation that in many datasets, the frequency of an item is inversely proportional to its rank. The most frequent item occurs roughly twice as often as the second most frequent, three times as often as the third, and so on.\n\n**The formula**: frequency ≈ 1 / rank^s (where s is close to 1)\n\n**Classic example — word frequency**:\n\nIn English text, 'the' (rank 1) appears about twice as often as 'of' (rank 2), three times as often as 'and' (rank 3), etc. A tiny fraction of words account for most of what we read and write.\n\n**Where Zipf's Law appears**:\n\n- **Language**: Word frequencies in virtually all languages\n- **Cities**: Population sizes follow Zipf distributions\n- **Websites**: Traffic distribution across sites\n- **Income**: Wealth distribution within populations\n- **Music**: Song play counts on streaming platforms\n- **Software**: Frequency of API calls, function usage\n- **Knowledge management**: Note access frequency, tag usage\n\n**Why it matters for knowledge workers**:\n\n- **Content strategy**: A few pieces of content will generate most engagement — invest accordingly\n- **Information architecture**: Design for the head of the distribution (most accessed items) while accommodating the long tail\n- **Search optimization**: A small number of search terms drive most queries\n- **Tool usage**: Users rely heavily on a few features; optimize those first\n- **Learning**: A core vocabulary or concept set provides outsized understanding of any domain\n\n**Connection to other laws**:\n\nZipf's Law is a specific form of power law distribution. It relates closely to the Pareto Principle (both describe uneven distributions), Price's Law (concentration of output), and the long tail distribution (the many items with low frequency that collectively matter).",
+    "tags": [
+        "distribution",
+        "statistics",
+        "linguistics",
+        "principles",
+        "patterns"
+    ],
+    "category": "Principles",
+    "icon": "FaChartArea",
+    "featured": false,
+    "aliases": [
+        "Zipf distribution",
+        "Rank-frequency distribution"
+    ],
+    "relatedConcepts": [
+        "pareto-principle",
+        "power-law",
+        "prices-law",
+        "long-tail-distribution",
+        "matthew-effect",
+        "frecency"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Zipf's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Zipf%27s_law",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-31",
+    "dateModified": "2026-03-31"
+}

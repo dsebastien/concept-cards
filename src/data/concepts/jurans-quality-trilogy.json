@@ -1,0 +1,68 @@
+{
+    "id": "jurans-quality-trilogy",
+    "name": "Juran's Quality Trilogy",
+    "summary": "A quality management framework comprising three processes: quality planning, quality control, and quality improvement.",
+    "explanation": "Juran's Quality Trilogy, developed by Joseph M. Juran, is a foundational framework in quality management that organizes quality work into three interconnected processes. Juran — who also coined the phrase 'the vital few and the trivial many' (the Law of the Vital Few, closely tied to the Pareto Principle) — believed that managing quality requires the same structured approach as managing finances.\n\n**The three processes**:\n\n**1. Quality Planning**\n- Identify who the customers are and what they need\n- Develop products and processes that meet those needs\n- Transfer the plans to operations\n- Key output: a process capable of meeting quality goals under operating conditions\n\n**2. Quality Control**\n- Evaluate actual performance against quality goals\n- Act on the difference (the gap between actual and planned)\n- Maintain the status quo — prevent things from getting worse\n- Uses tools like statistical process control, Pareto charts, and control charts\n\n**3. Quality Improvement**\n- Identify improvement opportunities (often using Pareto analysis to find the vital few problems)\n- Establish infrastructure for improvement (teams, training, resources)\n- Diagnose root causes and develop remedies\n- Hold the gains by establishing new controls\n\n**The financial analogy**: Just as financial management involves budgeting (planning), cost accounting (control), and cost reduction (improvement), quality management follows the same trilogy. This analogy helped Juran communicate with executives who understood financial management but were unfamiliar with quality concepts.\n\n**Why it endures**: The trilogy provides a complete, balanced view of quality management. Many organizations focus only on control (catching defects) while neglecting planning (preventing defects) and improvement (raising the bar). Juran's framework ensures all three receive attention, creating a cycle of continuous improvement that applies far beyond manufacturing — to software development, knowledge work, and personal productivity.",
+    "tags": [
+        "qualities",
+        "frameworks",
+        "management",
+        "continuous-improvement",
+        "problem-solving"
+    ],
+    "category": "Frameworks",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Quality Trilogy",
+        "Juran Trilogy"
+    ],
+    "relatedConcepts": [
+        "pareto-principle",
+        "pareto-chart",
+        "root-cause-analysis",
+        "continuous-improvement",
+        "total-quality-management",
+        "pdca-cycle"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/36+People/Joseph+M.+Juran"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Juran's Quality Handbook by Joseph M. Juran",
+            "url": "https://www.amazon.com/dp/1259643611?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Joseph M. Juran - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Joseph_M._Juran",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-31",
+    "dateModified": "2026-03-31"
+}

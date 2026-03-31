@@ -1,0 +1,75 @@
+{
+    "id": "prices-law",
+    "name": "Price's Law",
+    "summary": "The square root of the number of contributors to a field produce roughly 50% of the total output.",
+    "explanation": "Price's Law, formulated by Derek J. de Solla Price in 1963, states that the square root of the total number of contributors in a domain produces approximately 50% of the contributions. For example, if a company has 100 employees, about 10 of them will produce half of the total output.\n\n**The mathematics**:\n\nIf N is the total number of contributors, then √N contributors produce 50% of the work. This means:\n- 10 people → ~3 produce half the output\n- 100 people → ~10 produce half the output\n- 10,000 people → ~100 produce half the output\n\n**Key implications**:\n\n- **Scaling is brutal**: As organizations or fields grow, competence becomes increasingly concentrated. In a 10-person team, 30% do most of the work. In a 10,000-person company, only 1% do.\n- **Talent concentration**: A small minority of individuals disproportionately drive results in virtually every domain — scientific publications, software commits, sales revenue, creative output.\n- **Hiring matters enormously**: The difference between a top contributor and an average one grows as organizations scale.\n- **Growth paradox**: As a group grows linearly, the productive core grows only by the square root, meaning most new additions contribute proportionally less.\n\n**Relationship to other distribution laws**:\n\nPrice's Law is related to but more aggressive than the Pareto Principle (80/20 rule). While Pareto suggests 20% produce 80% of output, Price's Law implies the productive fraction shrinks as the total population grows. It is a specific manifestation of the power law distributions observed across many natural and social phenomena, alongside Zipf's Law and the Matthew Effect.\n\n**Applications for knowledge workers**: Understanding Price's Law helps in team composition, recognizing star performers, setting realistic expectations about organizational productivity, and making better hiring and retention decisions.",
+    "tags": [
+        "distribution",
+        "productivity",
+        "statistics",
+        "management",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaChartArea",
+    "featured": false,
+    "aliases": [
+        "Price's Square Root Law",
+        "De Solla Price's Law"
+    ],
+    "relatedConcepts": [
+        "pareto-principle",
+        "power-law",
+        "zipfs-law",
+        "matthew-effect",
+        "winner-takes-all"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Derek J. de Solla Price - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Derek_J._de_Solla_Price",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-31",
+    "dateModified": "2026-03-31"
+}

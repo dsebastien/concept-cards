@@ -1,0 +1,87 @@
+{
+    "id": "abc-analysis",
+    "name": "ABC Analysis",
+    "summary": "A categorization technique that divides items into three groups (A, B, C) based on their importance, using the Pareto principle to focus attention on the vital few.",
+    "explanation": "ABC Analysis is an inventory and prioritization technique that classifies items into three categories based on their relative importance or impact. Rooted in the Pareto Principle, it recognizes that not all items deserve equal attention.\n\n**The three categories**:\n\n- **A items** (the vital few): Roughly 10-20% of items that account for 70-80% of total value or impact. These demand the most attention, tightest controls, and most frequent review.\n- **B items** (the important middle): About 20-30% of items contributing 15-25% of value. These receive moderate attention and periodic review.\n- **C items** (the trivial many): The remaining 50-70% of items that account for only 5-10% of value. These require minimal oversight and simplified processes.\n\n**Applications**:\n\n- **Inventory management**: Focus tight controls on high-value A items while using simpler systems for C items\n- **Customer management**: Prioritize relationships with A-tier customers who generate most revenue\n- **Time management**: Ensure A-priority tasks get done first, delegate or batch C tasks\n- **Knowledge management**: Invest deeply in core A-category notes while keeping C-level references lightweight\n- **Project management**: Allocate the best resources to A-priority deliverables\n\n**How to perform ABC Analysis**:\n\n1. List all items and their relevant metric (cost, revenue, frequency, impact)\n2. Sort in descending order\n3. Calculate cumulative percentage\n4. Assign categories based on cumulative contribution thresholds\n5. Define management policies for each category\n\nThe power of ABC Analysis lies in making the Pareto Principle actionable. Instead of treating everything equally, it creates a structured framework for differential attention, ensuring effort concentrates where it generates the most value.",
+    "tags": [
+        "prioritization",
+        "frameworks",
+        "productivity",
+        "decision-making",
+        "resource-allocation"
+    ],
+    "category": "Frameworks",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "ABC Classification",
+        "ABC Categorization",
+        "Selective Inventory Control"
+    ],
+    "relatedConcepts": [
+        "pareto-principle",
+        "eisenhower-matrix",
+        "ruthless-prioritization",
+        "effort-vs-impact",
+        "pareto-chart",
+        "high-leverage-tasks"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "ABC analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/ABC_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-03-31",
+    "dateModified": "2026-03-31"
+}
