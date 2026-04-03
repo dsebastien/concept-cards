@@ -1,0 +1,54 @@
+{
+    "id": "software-supply-chain-security",
+    "name": "Software Supply Chain Security",
+    "summary": "The practices, tools, and policies that protect every stage of how software is built, distributed, and consumed",
+    "explanation": "Software supply chain security covers the practices, tools, and policies that protect every stage of how software is built, distributed, and consumed. Modern applications are composed of hundreds of dependencies, build tools, CI/CD pipelines, and distribution channels — each link is an attack surface.\n\nThe software supply chain spans from source code through dependencies, build systems, artifact registries, deployment, and runtime. An attacker can compromise any stage: source through compromised developer accounts or malicious commits, dependencies through typosquatting, dependency confusion, slopsquatting, or starjacking, builds through CI/CD pipeline compromise, distribution through registry account takeover, or runtime by exploiting vulnerabilities in deployed dependencies.\n\nThe urgency of supply chain security has grown dramatically. The average application has 200-500+ transitive dependencies. A single compromised dependency can affect millions of downstream projects, as demonstrated by incidents like the event-stream hijack, the colors.js/faker.js sabotage, and the xz-utils backdoor. AI-assisted coding and autonomous agents that install dependencies without human review have created entirely new attack vectors like slopsquatting.\n\nDefense requires multiple layers: Software Bill of Materials (SBOM) for machine-readable component inventories, Software Composition Analysis (SCA) for automated vulnerability and malware scanning, code signing and provenance verification through tools like Sigstore, lockfile discipline with pinned versions, package registry security features like scoped namespaces and publisher verification, and applying the principle of least privilege to CI/CD and AI agents.\n\nKey frameworks and standards include SLSA (Supply chain Levels for Software Artifacts) from Google, the OpenSSF Scorecard for automated security health assessment, NIST's Secure Software Development Framework (SSDF), and the EU Cyber Resilience Act requiring SBOM and vulnerability handling.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "supply-chain-attacks",
+        "software-development",
+        "devops"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Software Supply Chain Safety",
+        "Supply Chain Integrity"
+    ],
+    "relatedConcepts": [
+        "namesquatting",
+        "typosquatting",
+        "slopsquatting",
+        "dependency-confusion",
+        "starjacking",
+        "software-composition-analysis",
+        "package-registry-security",
+        "supply-chain-attack",
+        "ai-skill-supply-chain-security",
+        "least-privilege",
+        "zero-trust",
+        "vibe-coding"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Software+Supply+Chain+Security"
+    ],
+    "references": [
+        {
+            "title": "Software supply chain - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_supply_chain",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}

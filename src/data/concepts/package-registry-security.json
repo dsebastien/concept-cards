@@ -1,0 +1,44 @@
+{
+    "id": "package-registry-security",
+    "name": "Package Registry Security",
+    "summary": "How package registries like npm, PyPI, and crates.io handle trust, identity verification, and defense against malicious packages",
+    "explanation": "Package registries like npm, PyPI, crates.io, Maven Central, RubyGems, and NuGet are the distribution layer for software dependencies. They are critical infrastructure for the software supply chain and a primary target for attackers because a single malicious package can propagate to millions of downstream projects.\n\nRegistries operate on an open-publish model where anyone can create an account and upload packages with any unclaimed name. This is great for the open-source ecosystem's velocity but creates fundamental security challenges: no identity verification for publishers (though npm now requires 2FA for popular packages), names are first-come-first-served enabling namesquatting, no verified link between package name and source code, and self-declared metadata that enables starjacking.\n\nRegistry-level defenses have evolved to address these threats. Name policies include similarity checks (npm blocks names too close to existing popular packages), name normalization (PyPI normalizes hyphens, underscores, and case), and scoped namespaces (npm's @scope/package format). However, these defenses don't catch slopsquatting because hallucinated names are often dissimilar to existing packages. Provenance and signing tools include npm provenance attestations linking package versions to specific CI builds via Sigstore, and PyPI Trusted Publishers restricting publication to verified CI/CD workflows. Registries also run automated malware scans on uploads, though these only catch known patterns.\n\nConsumer-side defenses include private registry proxies like Artifactory, Verdaccio, and Nexus for caching approved packages, lockfiles that pin exact versions and integrity hashes, SCA tools for continuous dependency scanning, allowlists restricting which packages CI/CD can install, and namespace reservation to prevent dependency confusion.\n\nOpen problems include the lack of universal namespace ownership, cross-registry name confusion, AI agents bypassing human review gates, and no standardized way to revoke malicious packages across registries.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-development",
+        "infrastructure"
+    ],
+    "category": "Software Development",
+    "icon": "FaBoxOpen",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "software-supply-chain-security",
+        "namesquatting",
+        "typosquatting",
+        "slopsquatting",
+        "dependency-confusion",
+        "starjacking",
+        "software-composition-analysis",
+        "supply-chain-attack",
+        "ai-skill-supply-chain-security",
+        "zero-trust",
+        "least-privilege"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Package+Registry+Security"
+    ],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}

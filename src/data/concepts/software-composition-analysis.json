@@ -1,0 +1,74 @@
+{
+    "id": "software-composition-analysis",
+    "name": "Software Composition Analysis",
+    "summary": "The automated process of identifying all open-source and third-party components in a codebase and mapping their vulnerabilities, licenses, and security risks",
+    "explanation": "Software Composition Analysis (SCA) is the automated process of identifying all open-source and third-party components in a codebase, mapping their known vulnerabilities, license obligations, and security risks. It is the primary defensive tool against supply chain attacks like typosquatting, slopsquatting, dependency confusion, and starjacking.\n\nSCA tools perform several critical functions: building a complete dependency tree (direct and transitive) and generating Software Bills of Materials (SBOMs), cross-referencing dependencies against CVE databases like the National Vulnerability Database (NVD), OSV, and GitHub Advisory Database, flagging packages known to be malicious or exhibiting suspicious patterns, identifying license types and incompatibilities, performing reachability analysis to determine whether vulnerable functions are actually called in your code, and providing continuous monitoring that alerts when new vulnerabilities are disclosed for packages already in use.\n\nSCA runs at multiple points in the development lifecycle: in the IDE for catching issues before commit, in CI/CD pipelines for gating pull requests on vulnerability and license policy, at registry proxies for scanning packages before they enter private registries, and in production monitoring for alerting on newly disclosed vulnerabilities in deployed dependencies.\n\nKey tools in the SCA space include Snyk for vulnerability scanning and license compliance, Dependabot (GitHub) for automated dependency updates, Socket.dev for behavior-based supply chain attack detection, Grype and Syft (Anchore) for open-source vulnerability scanning and SBOM generation, OWASP Dependency-Check, and built-in tools like npm audit and pip audit.\n\nSCA has important limitations: CVE-based scanning only catches known vulnerabilities (not zero-days), most tools don't detect slopsquatting (hallucinated packages not in any CVE database), reachability analysis is imperfect for transitive dependencies, and false positive rates can be high without proper policy tuning.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-development",
+        "devops",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaSearch",
+    "featured": false,
+    "aliases": [
+        "SCA"
+    ],
+    "relatedConcepts": [
+        "software-supply-chain-security",
+        "package-registry-security",
+        "namesquatting",
+        "typosquatting",
+        "slopsquatting",
+        "dependency-confusion",
+        "starjacking",
+        "supply-chain-attack"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Software+Composition+Analysis+(SCA)"
+    ],
+    "references": [
+        {
+            "title": "Software composition analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_composition_analysis",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "dependency-confusion",
+    "name": "Dependency Confusion",
+    "summary": "A supply chain attack where a malicious public package with the same name as an internal package tricks build systems into installing the attacker's version",
+    "explanation": "Dependency confusion (also called namespace confusion or substitution attack) is a supply chain attack where an attacker publishes a malicious package on a public registry using the same name as an organization's private or internal package. Build systems that check public registries before or in addition to private ones pull the attacker's package instead of the legitimate internal one.\n\nThe attack works in a straightforward sequence: the attacker identifies the name of an internal package (via leaked lockfiles, job postings, error messages, or open-source build configs), publishes a package with that exact name on a public registry like npm or PyPI, sets the version number very high (e.g., 99.0.0) to win version resolution, and then waits for the organization's build system to resolve the dependency and install the higher-versioned malicious public package.\n\nAlex Birsan published the technique in February 2021 and successfully compromised over 35 major companies including Apple, Microsoft, and PayPal using this method. All were responsible disclosures through bug bounty programs, earning over $130,000 in bounties. The key insight was that most package managers default to preferring public registries, and many organizations don't pin their internal dependencies to private registry sources.\n\nDependency confusion is particularly effective because internal package names are often guessable or discoverable, build systems default to public registries, version resolution favors higher versions, CI/CD pipelines run with elevated privileges that amplify the impact, and no authentication is required to publish to most public registries.\n\nMitigation includes using scoped packages, configuring registry pinning, version pinning with lockfiles, publishing placeholder packages for internal names on public registries, and restricting CI/CD network access to only private registries for internal-only packages.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "supply-chain-attacks",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaExchangeAlt",
+    "featured": false,
+    "aliases": [
+        "Namespace Confusion",
+        "Substitution Attack"
+    ],
+    "relatedConcepts": [
+        "namesquatting",
+        "typosquatting",
+        "slopsquatting",
+        "starjacking",
+        "software-supply-chain-security",
+        "software-composition-analysis",
+        "package-registry-security",
+        "supply-chain-attack",
+        "ai-skill-supply-chain-security"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Dependency+Confusion"
+    ],
+    "references": [
+        {
+            "title": "Dependency confusion - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dependency_confusion",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}

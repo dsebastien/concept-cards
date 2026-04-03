@@ -1,0 +1,44 @@
+{
+    "id": "starjacking",
+    "name": "Starjacking",
+    "summary": "A supply chain attack where a malicious package links to a popular GitHub repository to inherit its star count and perceived legitimacy",
+    "explanation": "Starjacking is a supply chain attack where an attacker publishes a malicious package on a public registry and links it to a popular, unrelated GitHub repository to inherit its star count, contributor list, and perceived legitimacy. Package registries display the linked repository's metadata alongside the package, making it appear trusted when it is not.\n\nThe attack is deceptively simple: the attacker creates a malicious package on npm, PyPI, or another registry, sets the package's repository field to point to a popular, legitimate GitHub project, and the registry displays that project's star count, contributors, and activity. Developers evaluating the package see thousands of stars and assume it is trustworthy, then install it and execute the malicious payload.\n\nStarjacking works because most registries don't verify that the linked repository actually contains the package's source code. Developers use GitHub stars as a heuristic for trustworthiness, automated security tools may whitelist packages based on repository popularity metrics, and the attack requires zero interaction with the legitimate project's maintainers.\n\nStarjacking is particularly dangerous when combined with other attack techniques. A typosquatted package name plus fake stars makes the deception highly convincing. An AI-hallucinated package (slopsquatting) that appears to have a reputable repository is even harder to detect. Any name-based attack benefits from the inflated trust signals that starjacking provides.\n\nMitigation includes never trusting stars alone, verifying the repository actually contains the package source code, checking publisher identity rather than just the linked repo, using provenance attestations like npm provenance or Sigstore signatures, checking package age and history (newly published packages claiming old popular repos are suspicious), and using SCA tools that cross-reference package metadata with actual repository content.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "supply-chain-attacks",
+        "software-development",
+        "deception"
+    ],
+    "category": "Software Development",
+    "icon": "FaStar",
+    "featured": false,
+    "aliases": [
+        "Star Jacking"
+    ],
+    "relatedConcepts": [
+        "namesquatting",
+        "typosquatting",
+        "slopsquatting",
+        "dependency-confusion",
+        "software-supply-chain-security",
+        "software-composition-analysis",
+        "package-registry-security",
+        "supply-chain-attack"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Starjacking"
+    ],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}

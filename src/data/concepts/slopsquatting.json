@@ -1,0 +1,80 @@
+{
+    "id": "slopsquatting",
+    "name": "Slopsquatting",
+    "summary": "A supply chain attack where attackers register package names that AI models tend to hallucinate, then wait for developers to install them",
+    "explanation": "Slopsquatting is a supply chain attack that exploits AI hallucinations in code generation. When developers ask large language models for help with code, the models sometimes confidently suggest nonexistent package names. Attackers register these hallucinated names on public registries like npm or PyPI, then wait for developers (or AI agents) to install the malicious packages.\n\nThe key insight is that LLM hallucinations are not random — they are statistically predictable. The same model will repeatedly hallucinate the same plausible-sounding package names across different sessions and users, making them reliable attack targets. A USENIX Security 2025 study tested 16 code-generation models across 576,000 code samples and found that roughly 20% recommended nonexistent packages, with 43% of hallucinated names being repeated consistently across 10 queries.\n\nSlopsquatting is distinct from typosquatting in several important ways. While typosquatting relies on human typing errors, slopsquatting relies on machine error at scale. Hallucinated names often look completely different from real packages, bypassing registry similarity checks designed to catch typosquats. The rise of vibe coding and autonomous AI agents that install packages without human review has massively increased the attack surface.\n\nReal-world examples include 'huggingface-cli', which was documented by Bar Lanyado of Lasso Security in 2024 as a package name that AI models repeatedly hallucinated. When registered as an empty package on PyPI, it received over 30,000 downloads in three months.\n\nMitigation strategies include verifying packages before installing (checking publisher identity, creation date, download history), restricting autonomous installation by AI agents and CI/CD pipelines, using lockfiles and pinned dependencies, and employing Software Composition Analysis (SCA) tools to scan dependency trees for suspicious packages.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "supply-chain-attacks",
+        "ai",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaGhost",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "namesquatting",
+        "typosquatting",
+        "dependency-confusion",
+        "starjacking",
+        "software-supply-chain-security",
+        "software-composition-analysis",
+        "package-registry-security",
+        "ai-hallucination",
+        "vibe-coding",
+        "supply-chain-attack",
+        "ai-skill-supply-chain-security"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Slopsquatting"
+    ],
+    "references": [
+        {
+            "title": "Slopsquatting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Slopsquatting",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}

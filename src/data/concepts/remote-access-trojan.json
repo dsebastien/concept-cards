@@ -1,0 +1,53 @@
+{
+    "id": "remote-access-trojan",
+    "name": "Remote Access Trojan",
+    "summary": "Malware that gives an attacker unauthorized remote control over a victim's computer, operating covertly without the user's knowledge",
+    "explanation": "A Remote Access Trojan (RAT) is a type of malware that gives an attacker unauthorized remote control over a victim's computer. Unlike legitimate remote administration tools, RATs are installed covertly and operate without the user's knowledge or consent.\n\nRATs typically consist of two components: a client (attacker side) providing a control interface used to issue commands, and a server (victim side) as a payload installed on the target machine that connects back to the attacker. Once installed, the RAT establishes a connection to the attacker's command and control (C2) infrastructure, often using reverse connections to bypass firewalls, allowing the attacker to remotely control the compromised system as if they had physical access.\n\nCommon capabilities of RATs include keylogging and screen capture, file system access (upload, download, delete, modify), webcam and microphone activation, credential harvesting (passwords, tokens, session cookies), execution of arbitrary commands and scripts, lateral movement within a network, persistence mechanisms through registry modifications, scheduled tasks, or startup entries, and data exfiltration.\n\nRATs are commonly delivered through phishing emails with malicious attachments, drive-by downloads from compromised websites, bundled with pirated software, exploitation of software vulnerabilities, trojanized packages in software supply chains, and social engineering attacks.\n\nNotable RAT examples include DarkComet (widely used, eventually abandoned by its creator), njRAT/Bladabindi (popular in the Middle East), Gh0st RAT (attributed to Chinese threat actors for espionage), Emotet (evolved from banking trojan to RAT and malware distribution platform), Quasar RAT (open-source .NET RAT), and AsyncRAT (modern open-source RAT distributed via phishing).\n\nDetection and mitigation involves monitoring for unusual outbound network connections and beaconing patterns, using endpoint detection and response (EDR) solutions, enforcing application whitelisting, keeping systems patched, analyzing processes for suspicious behavior, employing network segmentation, and using Software Composition Analysis to detect trojanized dependencies.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "malware",
+        "threats"
+    ],
+    "category": "Concepts",
+    "icon": "FaUserSecret",
+    "featured": false,
+    "aliases": [
+        "RAT",
+        "Remote Access Tool"
+    ],
+    "relatedConcepts": [
+        "trojan-horse",
+        "backdoor",
+        "malware",
+        "botnet",
+        "spyware",
+        "keylogger",
+        "rootkit",
+        "phishing",
+        "social-engineering",
+        "software-supply-chain-security",
+        "software-composition-analysis",
+        "slopsquatting"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Remote+Access+Trojan+(RAT)"
+    ],
+    "references": [
+        {
+            "title": "Remote access trojan - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Remote_access_trojan",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}

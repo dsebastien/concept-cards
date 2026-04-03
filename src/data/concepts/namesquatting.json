@@ -1,0 +1,44 @@
+{
+    "id": "namesquatting",
+    "name": "Namesquatting",
+    "summary": "The practice of registering names in shared namespaces like package registries with intent to exploit trust or confusion",
+    "explanation": "Namesquatting is the practice of registering names in shared namespaces — such as package registries, domain names, or usernames — with the intent to exploit the trust or confusion associated with those names. It serves as an umbrella term covering several attack variants that target software supply chains, DNS, and identity systems.\n\nThe main variants of namesquatting include typosquatting (registering common misspellings of legitimate packages), combosquatting or brandjacking (appending or prepending words to trusted package names like '-utils' or '-cli'), slopsquatting (registering names that AI models hallucinate), dependency confusion (publishing public packages with the same name as private ones), and starjacking (faking popularity metrics to make malicious packages appear trustworthy).\n\nNamesquatting works because package registries operate on an open-publish model where names are first-come-first-served. Developers trust package names as proxies for legitimacy, and automated tooling like CI/CD pipelines and AI agents install packages without human verification. Registry similarity checks only catch the most obvious cases.\n\nThe threat has grown significantly with the rise of AI-assisted coding. Slopsquatting has expanded the attack surface far beyond what traditional defenses can handle, since hallucinated package names are often dissimilar to any existing package and thus evade similarity-based protections.\n\nMitigation strategies include namespace reservation (publishing placeholder packages for internal names), using scoped packages like '@org/package', maintaining lockfile discipline, restricting which registries and packages CI/CD can pull from, scanning dependencies with SCA tools, and verifying package provenance through signing and publisher identity checks.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "supply-chain-attacks",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaMask",
+    "featured": false,
+    "aliases": [
+        "Name Squatting"
+    ],
+    "relatedConcepts": [
+        "slopsquatting",
+        "typosquatting",
+        "dependency-confusion",
+        "starjacking",
+        "software-supply-chain-security",
+        "software-composition-analysis",
+        "package-registry-security",
+        "supply-chain-attack",
+        "ai-skill-supply-chain-security"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Namesquatting"
+    ],
+    "references": [
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03"
+}
