@@ -1,0 +1,72 @@
+{
+    "id": "test-potentiated-learning",
+    "name": "Test-Potentiated Learning",
+    "summary": "Taking a test before studying new material enhances subsequent learning and retention of that material.",
+    "explanation": "Test-Potentiated Learning (TPL) is a memory phenomenon discovered by Kathleen Arnold and Kathleen McDermott (2013) demonstrating that taking a test on material before restudying it significantly enhances the learning that occurs during that subsequent study session. In other words, testing doesn't just measure or strengthen existing knowledge - it primes the brain to learn more effectively from future study.\n\n**The key finding:**\n\nIn the original studies, participants who took a test between two study sessions remembered significantly more than participants who simply studied twice without an intervening test. Crucially, this benefit went beyond what could be explained by the testing effect alone. The test didn't just strengthen the items that were successfully retrieved - it enhanced learning of all items during the subsequent study session, including items that were not recalled on the test.\n\n**How test-potentiated learning works:**\n\n- **Metacognitive awareness**: Testing reveals what you don't know, directing attention and deeper processing to gaps during subsequent study. When you discover that you can't recall something, you process it more carefully when you encounter it again.\n- **Retrieval attempt priming**: Even unsuccessful retrieval attempts activate related knowledge structures and create a state of heightened receptivity. The brain has been \"primed\" to encode the sought-after information when it's encountered.\n- **Enhanced encoding**: After testing, learners engage in more elaborative processing during restudy because they have a better calibrated sense of what they know vs. don't know, reducing the fluency illusion.\n- **Curiosity and prediction error**: Failed retrieval creates a knowledge gap that motivates deeper encoding when the answer is subsequently encountered, similar to how prediction errors drive learning in other domains.\n\n**Distinction from the testing effect:**\n\nThe testing effect refers to how retrieval practice directly strengthens the memories being retrieved. Test-potentiated learning is a distinct, complementary phenomenon: it shows that testing enhances the *subsequent* study episode itself. The two effects work together - testing both strengthens existing memories (testing effect) and makes future learning more efficient (test-potentiated learning).\n\n**Relationship to pretesting:**\n\nTest-potentiated learning is closely related to pretesting (taking a test before learning material for the first time). Pretesting has been shown to enhance learning even when learners cannot answer any of the pretest questions correctly. The act of attempting to answer questions about upcoming material creates a scaffold of curiosity and directed attention that makes the subsequent learning experience more productive.\n\n**Practical applications:**\n\n- **Before studying a chapter**: Attempt the end-of-chapter questions first, even if you can't answer them\n- **Before a lecture**: Try to answer questions about the topic beforehand to prime your attention\n- **In review sessions**: Test yourself first, then restudy - don't just restudy directly\n- **In knowledge management**: Before reviewing your notes on a topic, try to recall what you know from memory first\n- **When learning from books**: Skim the summary or key questions before reading the full chapter to create retrieval targets",
+    "tags": [
+        "cognitive-science",
+        "education",
+        "learning",
+        "memory",
+        "study-techniques"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "TPL",
+        "Test-enhanced subsequent learning"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "desirable-difficulties",
+        "fluency-illusion",
+        "pretesting",
+        "retrieval-practice",
+        "successive-relearning",
+        "testing-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Make It Stick by Peter Brown, Henry Roediger, and Mark McDaniel",
+            "url": "https://www.amazon.com/dp/0674729013?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Testing effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Testing_effect",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07"
+}

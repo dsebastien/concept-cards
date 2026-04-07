@@ -1,0 +1,73 @@
+{
+    "id": "contextual-interference",
+    "name": "Contextual Interference",
+    "summary": "High variability in practice conditions initially impairs performance but leads to better long-term retention and transfer of skills.",
+    "explanation": "Contextual Interference is a motor learning and cognitive science principle first described by William Battig in 1966 and later demonstrated experimentally by Shea and Morgan (1979). It refers to the finding that practicing under conditions of high interference - such as mixing different tasks, skills, or problem types rather than practicing each one in isolation - initially slows acquisition but produces superior long-term retention and transfer to new situations.\n\n**Low vs. high contextual interference:**\n\n- **Low contextual interference (blocked practice)**: Practicing one skill or topic at a time before moving to the next (e.g., hitting 20 forehands, then 20 backhands, then 20 volleys). Performance during practice appears strong because each repetition is similar to the last.\n- **High contextual interference (interleaved/random practice)**: Mixing different skills or topics within the same practice session (e.g., randomly alternating between forehands, backhands, and volleys). Performance during practice appears worse, but long-term learning is enhanced.\n\n**Why high contextual interference helps:**\n\n- **Elaborative processing**: When different tasks are intermixed, the learner must engage in more extensive cognitive processing to distinguish between tasks, compare strategies, and select the appropriate response. This deeper processing produces richer, more distinctive memory representations.\n- **Action plan reconstruction**: In blocked practice, the motor plan or problem-solving strategy stays active in working memory across repetitions. In interleaved practice, each new trial requires reconstructing the appropriate plan from long-term memory, which strengthens retrieval pathways.\n- **Discrimination learning**: Mixing tasks forces learners to identify what makes each task different, building more refined mental categories and decision-making skills that transfer to novel situations.\n- **Forgetting and retrieval**: The interference between tasks causes partial forgetting, which creates a desirable difficulty - each retrieval from long-term memory strengthens the trace.\n\n**The contextual interference paradox:**\n\nThe central paradox is that practice conditions that make performance look worse during training produce better outcomes when it matters - in retention tests and real-world transfer. This creates a challenge for both learners and instructors, who may abandon effective interleaved practice in favor of blocked practice because it *feels* less productive. This is related to the fluency illusion: blocked practice creates a misleading sense of mastery.\n\n**Relationship to interleaving and desirable difficulties:**\n\nContextual interference is the theoretical mechanism underlying the benefits of interleaving (interleaved practice). It is also a core example of a desirable difficulty as defined by Robert Bjork - a learning condition that introduces challenge and apparent difficulty during acquisition but leads to enhanced long-term retention and transfer. The two concepts are complementary: interleaving is the practice strategy, and contextual interference is the cognitive mechanism that explains why it works.\n\n**Applications beyond motor learning:**\n\nWhile initially studied in motor skill acquisition, the contextual interference effect has been demonstrated in:\n- **Academic learning**: Mixing math problem types, mixing art styles for categorization, interleaving science concepts\n- **Medical training**: Mixing diagnostic cases rather than studying one condition at a time\n- **Music**: Practicing different pieces or techniques in random order rather than drilling one at a time\n- **Language learning**: Mixing vocabulary from different topics or grammatical structures\n\n**Practical guidelines:**\n\n- Mix related but distinct tasks within practice sessions\n- Resist the urge to switch back to blocked practice when interleaved practice feels harder\n- Use blocked practice only for initial familiarization with a completely new skill\n- Evaluate learning by delayed retention tests, not by within-session performance\n- Combine contextual interference with spacing for compounded benefits",
+    "tags": [
+        "cognitive-science",
+        "education",
+        "learning",
+        "memory",
+        "psychology"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "CI effect",
+        "Contextual interference effect"
+    ],
+    "relatedConcepts": [
+        "blocked-vs-interleaved-practice",
+        "desirable-difficulties",
+        "encoding-variability",
+        "fluency-illusion",
+        "interleaving",
+        "spacing-effect",
+        "testing-effect",
+        "transfer-appropriate-processing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Make It Stick by Peter Brown, Henry Roediger, and Mark McDaniel",
+            "url": "https://www.amazon.com/dp/0674729013?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Contextual interference - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Contextual_interference",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07"
+}

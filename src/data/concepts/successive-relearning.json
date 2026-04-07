@@ -1,0 +1,74 @@
+{
+    "id": "successive-relearning",
+    "name": "Successive Relearning",
+    "summary": "A potent learning strategy that combines retrieval practice with spaced repetition by repeatedly practicing recall across multiple sessions until mastery is achieved.",
+    "explanation": "Successive Relearning is a learning strategy that combines two of the most powerful evidence-based techniques - retrieval practice and spaced repetition - into a single integrated approach. Developed and studied extensively by Katherine Rawson, John Dunlosky, and colleagues, successive relearning involves practicing retrieval of material across multiple spaced sessions, each time relearning any items that were not successfully recalled.\n\n**How successive relearning works:**\n\n1. **Initial learning session**: Study material and practice retrieving it (e.g., using flashcards) until you can recall each item correctly at least once\n2. **Spaced interval**: Wait a period of time (hours, days, or weeks)\n3. **Relearning session**: Attempt to retrieve all items again. Items recalled correctly are set aside or moved to a longer interval. Items not recalled are restudied and practiced again\n4. **Repeat**: Continue across multiple sessions until all items are consistently recalled\n\n**Why successive relearning is so effective:**\n\n- **Combines two desirable difficulties**: Each session involves both retrieval effort (the testing effect) and the challenge of recalling after a delay (the spacing effect). These difficulties compound each other's benefits.\n- **Targets weak spots**: By identifying which items are not yet mastered at each session, effort is focused precisely where it's needed most rather than wasted on already-known material.\n- **Progressive consolidation**: Each successful retrieval strengthens memory traces, and the spacing between sessions allows memory consolidation to stabilize these traces before the next challenge.\n- **Self-correcting**: The process naturally adapts to the learner's actual knowledge state rather than following a predetermined schedule.\n\n**Research evidence:**\n\nRawson and Dunlosky's research has shown that successive relearning produces dramatically better long-term retention compared to single-session study strategies. In their studies, students who used successive relearning retained significantly more material weeks later compared to students who spent the same total time studying but used other strategies like rereading or single-session retrieval practice. The effect size is large enough to translate into meaningful grade improvements.\n\n**Successive relearning vs. spaced repetition systems:**\n\nSuccessive relearning is closely related to the algorithms used in spaced repetition software like Anki or the Leitner system, but it can be implemented without technology. The key distinction is the emphasis on achieving a criterion of successful recall within each session before moving on, combined with the spacing of sessions. Spaced repetition systems automate the scheduling, but the underlying principle is the same.\n\n**Practical applications:**\n\n- **Vocabulary learning**: Practice recalling definitions across multiple days until all words are consistently retrieved\n- **Exam preparation**: Instead of one long cramming session, distribute practice tests across multiple days, restudying missed items each time\n- **Professional knowledge**: Use successive relearning for any domain-specific knowledge that must be retained long-term\n- **Personal knowledge management**: When adding concepts to your knowledge base, revisit and attempt to recall them across multiple sessions\n- **Combine with elaboration**: After successfully retrieving an item, explain why the answer is correct or connect it to other knowledge for even deeper encoding",
+    "tags": [
+        "cognitive-science",
+        "education",
+        "learning",
+        "memory",
+        "study-techniques"
+    ],
+    "category": "Techniques",
+    "icon": "FaRedoAlt",
+    "featured": false,
+    "aliases": [
+        "Spaced retrieval practice",
+        "Repeated retrieval"
+    ],
+    "relatedConcepts": [
+        "active-recall",
+        "desirable-difficulties",
+        "flashcards",
+        "forgetting-curve",
+        "leitner-system",
+        "retrieval-practice",
+        "spaced-repetition",
+        "spacing-effect",
+        "testing-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Make It Stick by Peter Brown, Henry Roediger, and Mark McDaniel",
+            "url": "https://www.amazon.com/dp/0674729013?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Testing effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Testing_effect",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07"
+}

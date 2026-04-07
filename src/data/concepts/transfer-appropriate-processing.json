@@ -1,0 +1,70 @@
+{
+    "id": "transfer-appropriate-processing",
+    "name": "Transfer-Appropriate Processing",
+    "summary": "Memory performance is best when the cognitive processes used during retrieval match those used during encoding.",
+    "explanation": "Transfer-Appropriate Processing (TAP) is a framework proposed by Morris, Bransford, and Franks in 1977 that challenges the idea that deeper processing always leads to better memory. Instead, TAP holds that memory performance depends on the match between the cognitive processes engaged during encoding (learning) and those required during retrieval (testing). The closer the alignment between how you studied and how you are tested, the better you will remember.\n\n**The core principle:**\n\nTraditional levels-of-processing theory (Craik & Lockhart, 1972) argued that deeper, more semantic processing always produces stronger memories than shallow processing. TAP refined this by showing that what matters is not depth per se, but the overlap between encoding and retrieval processes. Shallow processing can outperform deep processing if the test requires the same shallow processing used during study.\n\n**Classic demonstration:**\n\nIn Morris et al.'s landmark study, participants encoded words either semantically (judging meaning) or phonetically (judging rhymes). On a standard recognition test (which requires semantic processing), semantically encoded words were remembered better. But on a rhyme recognition test (which requires phonetic processing), phonetically encoded words were remembered better. This proved that encoding depth alone doesn't determine memory - the match between encoding and retrieval processes is what matters.\n\n**Why TAP matters for learning:**\n\n- **Study like you'll be tested**: If your exam requires problem-solving, practice solving problems rather than rereading textbook explanations. If it requires essay writing, practice writing essays rather than doing multiple choice.\n- **Explains the testing effect**: One reason retrieval practice is so powerful is that it creates transfer-appropriate processing - practicing retrieval during study matches the retrieval demands of later tests.\n- **Informs study strategy design**: Effective studying means engaging in the same type of thinking you'll need to do later, not just any deep processing.\n\n**Relationship to other memory principles:**\n\n- Supports **encoding specificity** (Tulving): memory is cue-dependent, and the best cues are those present during encoding\n- Explains part of why the **testing effect** works: retrieval practice during study creates processing that matches later retrieval demands\n- Complements **desirable difficulties**: the most desirable difficulties are those that engage retrieval-appropriate processing\n- Relates to **contextual interference**: varied practice contexts create processing that transfers better to novel test conditions\n\n**Practical implications for knowledge workers:**\n\n- When preparing for a presentation, practice presenting aloud rather than just reviewing slides\n- When learning a skill, practice in conditions similar to where you'll use it\n- When building a knowledge base, write explanations in your own words (which practices the same generative processing you'll use when applying the knowledge)\n- Recognize that feeling fluent while rereading doesn't mean you'll perform well on tasks requiring different cognitive processes",
+    "tags": [
+        "cognitive-science",
+        "education",
+        "learning",
+        "memory",
+        "psychology"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "TAP",
+        "Transfer appropriate processing framework"
+    ],
+    "relatedConcepts": [
+        "desirable-difficulties",
+        "encoding-specificity",
+        "levels-of-processing",
+        "retrieval-practice",
+        "testing-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Make It Stick by Peter Brown, Henry Roediger, and Mark McDaniel",
+            "url": "https://www.amazon.com/dp/0674729013?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Transfer-appropriate processing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Transfer-appropriate_processing",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07"
+}
