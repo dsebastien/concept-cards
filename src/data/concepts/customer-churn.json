@@ -1,0 +1,47 @@
+{
+    "id": "customer-churn",
+    "name": "Customer Churn",
+    "summary": "The rate at which customers stop doing business with a company, a key metric for subscription and recurring revenue models.",
+    "explanation": "Customer Churn (also called attrition or turnover) measures the percentage of customers who stop using a product or service during a given time period. It is one of the most important metrics for any business with recurring revenue, because it directly determines whether the customer base is growing or shrinking.\n\n## The Math\n\n**Churn Rate** = (Customers lost during period / Customers at start of period) x 100\n\nFor example, if you start the month with 1,000 customers and lose 50, your monthly churn rate is 5%.\n\n**Revenue Churn** measures the percentage of recurring revenue lost, which can differ from customer churn if higher-value customers leave at different rates than lower-value ones.\n\n**Net Revenue Retention (NRR)** accounts for both churn and expansion revenue from existing customers. An NRR above 100% means expansion outpaces churn.\n\n## Why Churn Matters\n\nChurn compounds. A 5% monthly churn rate means losing roughly 46% of your customer base annually. Even small reductions in churn have enormous long-term impact:\n\n- **Growth ceiling**: If churn is too high, no amount of new customer acquisition can sustain growth\n- **Unit economics**: High churn increases Customer Acquisition Cost (CAC) relative to Customer Lifetime Value (CLV), making the business unsustainable\n- **Signal quality**: Churn is the most honest feedback mechanism -- customers vote with their feet\n\n## Causes of Churn\n\n- **Poor product-market fit**: The product doesn't solve the customer's actual job to be done\n- **Wrong ICP**: Acquiring customers who aren't a good fit for the product\n- **Onboarding failure**: Customers never reach the \"aha moment\" where they experience value\n- **Competitive alternatives**: A better solution appears\n- **Price sensitivity**: The value received doesn't justify the cost\n- **Poor customer experience**: Frustrating UX, unresponsive support, or broken promises\n- **Life changes**: The customer's needs or circumstances change (involuntary churn)\n\n## Reducing Churn\n\n1. **Fix your ICP first**: Acquiring the right customers is more effective than trying to retain wrong-fit customers\n2. **Nail onboarding**: Get customers to their first value moment as fast as possible\n3. **Monitor leading indicators**: Engagement drops, support ticket patterns, and usage decline predict churn before it happens\n4. **Close the feedback loop**: Conduct exit interviews and churn analyses to understand root causes\n5. **Build switching costs**: Create genuine value that makes leaving costly (integrations, data, workflows, community)\n6. **Proactive success**: Reach out to at-risk customers before they decide to leave\n\n## Churn and the JTBD Connection\n\nCustomers churn when your product stops being the best solution for the job they need done. Understanding the job -- including functional, emotional, and social dimensions -- reveals why customers stay or leave. The Forces of Progress framework (push, pull, anxiety, habit) maps directly to churn dynamics: customers leave when the push away from your product and the pull of alternatives overcome the anxiety of switching and the habit of staying.",
+    "tags": [
+        "metrics",
+        "businesses",
+        "customer-research",
+        "strategies",
+        "saas"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "Churn rate",
+        "Customer attrition",
+        "Customer turnover"
+    ],
+    "relatedConcepts": [
+        "customer-retention",
+        "lifetime-value",
+        "customer-acquisition-cost",
+        "ideal-customer-profile",
+        "product-market-fit",
+        "jobs-to-be-done",
+        "forces-of-progress",
+        "switching-costs",
+        "net-promoter-score",
+        "customer-onboarding",
+        "customer-success"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Churn rate - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Churn_rate",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08"
+}

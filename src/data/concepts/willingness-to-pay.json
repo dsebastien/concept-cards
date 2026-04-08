@@ -1,0 +1,68 @@
+{
+    "id": "willingness-to-pay",
+    "name": "Willingness to Pay",
+    "summary": "The maximum price a customer is willing to pay for a product or service, reflecting their perceived value of the offering.",
+    "explanation": "Willingness to Pay (WTP) is the highest price a customer will accept before deciding the cost exceeds the value they expect to receive. It represents the upper bound of what you can charge -- the point where the customer is indifferent between buying and not buying.\n\nWTP is not a fixed number. It varies across customers, contexts, and time, making it one of the most important and most misunderstood concepts in pricing and business strategy.\n\n## What Determines WTP\n\nSeveral factors shape a customer's willingness to pay:\n\n- **Perceived value**: How much benefit the customer expects to receive (functional, emotional, social)\n- **Available alternatives**: What competing solutions exist and what they cost\n- **Urgency**: How pressing the need is -- urgency increases WTP\n- **Ability to pay**: Budget constraints set a ceiling regardless of perceived value\n- **Reference prices**: What the customer is used to paying for similar solutions\n- **Switching costs**: If switching from an existing solution is costly, WTP for the alternative must be higher to justify the switch\n- **Trust and risk**: Uncertainty about whether the product will deliver reduces WTP\n\n## WTP and Value-Based Pricing\n\nThe gap between your cost to deliver and the customer's WTP defines the total value created by the transaction. How that gap is divided determines who captures the value:\n\n- **Price close to WTP**: The business captures most of the value (high margin, but risks losing price-sensitive customers)\n- **Price close to cost**: The customer captures most of the value (high volume, but low margins)\n- **Optimal pricing**: Balances value capture with market share, considering competitive dynamics\n\n## Measuring WTP\n\nWTP is difficult to measure directly because customers have incentives to understate it. Common approaches include:\n\n- **Van Westendorp Price Sensitivity Meter**: Asks customers at what price a product would be too expensive, a bargain, too cheap, or getting expensive\n- **Conjoint analysis**: Presents trade-off scenarios to infer relative value of features and price sensitivity\n- **Gabor-Granger method**: Directly asks purchase likelihood at different price points\n- **A/B testing**: Tests actual purchasing behavior at different prices\n- **Revealed preference**: Observes what customers actually pay in real markets\n\n## WTP and JTBD\n\nJobs to Be Done theory illuminates why WTP varies so much across customers and contexts. The same product can have vastly different WTP depending on the job the customer is hiring it for:\n\n- A bottle of water has low WTP in a grocery store but high WTP in a desert\n- A project management tool has different WTP for a freelancer versus a 500-person company\n- The same consulting service has higher WTP when the client's problem is urgent and costly\n\nUnderstanding the job reveals the true value the customer places on the solution, which drives their WTP.\n\n## Strategic Implications\n\n- **Segment by WTP**: Different customer segments have different WTP -- pricing tiers and packaging should reflect this\n- **Increase WTP before setting price**: Invest in features, branding, positioning, and customer education that increase perceived value\n- **Don't leave money on the table**: If all customers find your price easy to accept, you're probably underpriced\n- **Don't assume uniform WTP**: One price rarely captures value optimally across all segments",
+    "tags": [
+        "economics",
+        "businesses",
+        "strategies",
+        "pricing",
+        "decision-making"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLightbulb",
+    "featured": false,
+    "aliases": [
+        "WTP",
+        "Price sensitivity"
+    ],
+    "relatedConcepts": [
+        "pricing-strategies",
+        "value-proposition",
+        "jobs-to-be-done",
+        "ideal-customer-profile",
+        "switching-costs",
+        "positioning",
+        "competitive-advantage",
+        "customer-pain-points"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Willingness to pay - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Willingness_to_pay",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Monetizing Innovation by Madhavan Ramanujam",
+            "url": "https://www.amazon.com/dp/1119240867?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08"
+}
