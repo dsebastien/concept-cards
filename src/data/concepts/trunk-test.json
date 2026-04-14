@@ -1,0 +1,59 @@
+{
+    "id": "trunk-test",
+    "name": "Trunk Test",
+    "summary": "A usability test by Steve Krug that checks whether a user dropped onto any page of a site can instantly identify where they are, what the site is, and what they can do there.",
+    "explanation": "The Trunk Test is a quick usability heuristic introduced by Steve Krug in *Don't Make Me Think*. The name comes from a vivid thought experiment: imagine someone blindfolded you, bundled you into the trunk of a car, drove you around, then dropped you in front of a random page on a website. When you open your eyes, could you answer a handful of essential orientation questions at a glance?\n\n**The Core Questions**:\n\n1. **What site is this?** (site ID)\n2. **What page am I on?** (page name)\n3. **What are the major sections of this site?** (primary navigation)\n4. **What are my options at this level?** (local navigation)\n5. **Where am I in the scheme of things?** (indicator like breadcrumbs or highlighted section)\n6. **How do I search?**\n\nIf a user cannot answer all six within a few seconds, the page fails the Trunk Test — meaning its information architecture, navigation, or visual hierarchy is not working.\n\n**How to Run the Test**:\n\n- Print out (or take a screenshot of) a random page from deep inside the site.\n- Hold it at arm's length or squint so only the dominant elements register.\n- Circle the element that answers each of the six questions.\n- If any answer is missing, unclear, or hard to find, that is a usability problem to fix.\n\n**Why It Works**:\n\nUsers rarely arrive on a homepage via a neatly guided tour. They land on deep pages from search results, social links, or notifications — exactly the \"dropped from a trunk\" scenario. The test forces designers to stop assuming user context and to check whether every page can stand on its own.\n\n**When to Apply**:\n\n- Reviewing an existing site for navigation and information architecture issues.\n- Evaluating new designs before launch.\n- Auditing landing pages that receive traffic from ads, search, or referrals.\n- Comparing your site to competitors using the same test.\n\nThe Trunk Test is cheap, fast, and brutally honest — it surfaces problems that heavy analytics or long testing sessions often miss, and it rewards the designer choices that make a site feel effortless to use.",
+    "tags": [
+        "usability",
+        "user-experience",
+        "evaluation",
+        "heuristics",
+        "interfaces",
+        "navigation",
+        "information-architecture"
+    ],
+    "category": "Techniques",
+    "icon": "FaMapSigns",
+    "featured": false,
+    "aliases": [
+        "Krug's Trunk Test"
+    ],
+    "relatedConcepts": [
+        "dont-make-me-think",
+        "guerrilla-usability-testing",
+        "usability",
+        "usability-heuristics",
+        "heuristic-evaluation",
+        "ux-design",
+        "user-experience",
+        "billboard-principle",
+        "landing-page"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Don't Make Me Think by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321965515?tag=dsebastien00-20"
+        },
+        {
+            "title": "Rocket Surgery Made Easy by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321657292?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Trunk Test, Revisited - Steve Krug",
+            "url": "https://sensible.com/the-trunk-test-revisited/",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

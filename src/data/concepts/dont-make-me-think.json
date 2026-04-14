@@ -1,0 +1,66 @@
+{
+    "id": "dont-make-me-think",
+    "name": "Don't Make Me Think",
+    "summary": "Steve Krug's first law of usability: a page should be self-evident, obvious, and self-explanatory so users can grasp it without conscious effort.",
+    "explanation": "\"Don't Make Me Think\" is the central usability principle articulated by Steve Krug in his book of the same name. It states that when a user looks at a web page, button, label, or link, its meaning and purpose should be instantly clear — no puzzling, parsing, or guesswork required. Every unit of cognitive effort the interface demands is friction that slows users down and pushes some of them to leave entirely.\n\n**The Three Laws of Usability** (Krug):\n\n1. **Don't make me think.** Make it obvious.\n2. **It doesn't matter how many times I have to click, as long as each click is a mindless, unambiguous choice.**\n3. **Get rid of half the words on each page, then get rid of half of what's left.**\n\n**Why Thinking Is Expensive**:\n\n- Users don't read pages — they scan them, looking for things that match their goal.\n- Users don't make optimal choices — they satisfice, clicking the first reasonable option.\n- Users don't figure out how things work — they muddle through, often using features incorrectly.\n\nEvery time a design forces a user to stop and think — \"Is this clickable?\", \"What does this label mean?\", \"Where am I?\", \"Where do I start?\" — the user loses momentum and confidence. Enough friction and they bounce.\n\n**What Makes a Page Self-Evident**:\n\n- **Clear visual hierarchy**: importance is signaled by size, color, and position.\n- **Conventions over cleverness**: use patterns users already know (cart icon, underlined links, logo top-left links home).\n- **Obvious clickability**: interactive elements look interactive.\n- **Descriptive, unambiguous labels**: \"Jobs\" beats \"Opportunities\"; \"Sign up\" beats \"Join the movement\".\n- **Clearly defined, walled-off areas**: the eye can parse sections at a glance.\n- **Minimal noise**: every removed distraction makes the remaining content louder.\n\n**How to Apply It**:\n\n- Question every word, label, instruction, and feature: is it earning its place?\n- Replace clever wording with plain language.\n- Cut happy talk and instructions users won't read.\n- Use familiar patterns instead of inventing novel ones.\n- Test with real users (see the Trunk Test and guerrilla usability testing) — you'll be surprised what makes them stop and think.\n\nThe principle extends far beyond websites: it applies to any interface, document, form, or product. If people have to think about *how to use it* rather than *what they came to do*, the design has failed.",
+    "tags": [
+        "usability",
+        "user-experience",
+        "principles",
+        "cognitive-load",
+        "design",
+        "interfaces",
+        "simplicity"
+    ],
+    "category": "Principles",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Krug's First Law of Usability",
+        "Krug's Laws of Usability"
+    ],
+    "relatedConcepts": [
+        "trunk-test",
+        "guerrilla-usability-testing",
+        "usability",
+        "usability-heuristics",
+        "cognitive-load",
+        "ux-design",
+        "user-experience",
+        "satisficing",
+        "billboard-principle",
+        "affordances"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Don't Make Me Think, Revisited by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321965515?tag=dsebastien00-20"
+        },
+        {
+            "title": "Rocket Surgery Made Easy by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321657292?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Don't Make Me Think - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_Make_Me_Think",
+            "type": "website"
+        },
+        {
+            "title": "Steve Krug's Advanced Common Sense",
+            "url": "https://sensible.com/",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

@@ -1,0 +1,83 @@
+{
+    "id": "skeleton-of-thought-prompting",
+    "name": "Skeleton-of-Thought Prompting",
+    "summary": "Prompt the model to first sketch a skeleton outline of an answer, then expand each point in parallel.",
+    "explanation": "Skeleton-of-Thought (SoT) prompting is a two-stage technique designed to speed up and structure long-form AI responses. First, the model produces a concise skeleton - a numbered list of the points the answer will cover. Then each point is expanded independently, often in parallel, and the results are concatenated into the final response.\n\nA simplified flow:\n\n```\nStage 1 (skeleton): List the 5-7 key points needed to answer the question, one short line each.\nStage 2 (expansion): For each point in the skeleton, write a detailed paragraph.\n```\n\nWhy it matters:\n\n- **Latency**: Stage 2 expansions can run concurrently, dramatically reducing wall-clock time for long answers on systems that support parallel generation.\n- **Structure**: Answers become more organized because the outline is committed to first, forcing the model to plan before generating.\n- **Consistency**: Each section stays focused on its point, reducing meandering or mid-answer topic drift.\n- **Editability**: Humans (or automated filters) can review and edit the skeleton before expansion, cheaply redirecting a long response.\n\nTrade-offs:\n\n- Parallel expansion means each section lacks context from sibling sections, so transitions can feel mechanical and cross-references weak.\n- Problems requiring genuinely sequential reasoning (where later steps depend on earlier ones) are a poor fit - chain-of-thought or self-ask are better there.\n- Skeleton quality dominates final quality; a shallow outline produces a shallow answer regardless of how rich each expansion is.\n\nGood use cases include structured articles, how-to guides, comparison reports, and any response where points are mostly independent. It pairs well with meta-prompting: the skeleton itself can be generated and then critiqued before expansion.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "optimization",
+        "reasoning"
+    ],
+    "category": "Techniques",
+    "icon": "FaListUl",
+    "featured": false,
+    "aliases": [
+        "SoT Prompting",
+        "Skeleton Prompting",
+        "Outline-First Prompting"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "chain-of-thought-prompting",
+        "tree-of-thought-prompting",
+        "prompt-chaining",
+        "meta-prompting",
+        "structured-output-prompting",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding",
+            "url": "https://arxiv.org/abs/2307.15337",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "Prompt engineering - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

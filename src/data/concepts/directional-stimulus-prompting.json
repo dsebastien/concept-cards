@@ -1,0 +1,81 @@
+{
+    "id": "directional-stimulus-prompting",
+    "name": "Directional Stimulus Prompting",
+    "summary": "Guiding an AI toward a desired output by injecting small hints, keywords, or cues into the prompt.",
+    "explanation": "Directional stimulus prompting (DSP) nudges a language model toward a specific kind of response by adding targeted hints - keywords, constraints, or stylistic cues - alongside the main request. Rather than rewriting the whole instruction, you provide a small 'stimulus' that steers generation without overspecifying it.\n\nThe technique was introduced in research showing that a small tunable model can learn to produce hints for a larger frozen model, but the core idea applies manually as well: a well-chosen word or phrase in the prompt measurably shifts outputs.\n\nExamples:\n\n- **Summarization**: Instead of 'Summarize this article,' add a hint listing key entities or themes: 'Summarize this article (hint: focus on financial impact, regulatory risk, timeline).'\n- **Style control**: 'Write a product description (hint: confident, minimalist, no superlatives).'\n- **Disambiguation**: For ambiguous questions, add domain hints: 'Explain Python (hint: programming language, not snake).'\n- **Structured output**: 'List steps (hint: numbered, action verbs, one line each).'\n\nWhy it works:\n\n- Hints activate relevant parts of the model's training distribution without rewriting the task.\n- Small stimuli preserve the model's flexibility while constraining the output space.\n- Keywords can outweigh full sentences because attention concentrates on distinctive tokens.\n\nDSP is especially valuable when:\n- You need many variations that each follow a different angle.\n- Full instruction rewrites would be verbose or brittle.\n- You want to externalize control (hint generation) from core instruction design.\n\nIt overlaps with few-shot prompting and role prompting but is lighter weight - a nudge rather than a full example or persona.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "optimization"
+    ],
+    "category": "Techniques",
+    "icon": "FaCompass",
+    "featured": false,
+    "aliases": [
+        "DSP",
+        "Hint-Based Prompting",
+        "Stimulus Prompting"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "role-prompting",
+        "few-shot-learning",
+        "meta-prompting",
+        "structured-output-prompting",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Guiding Large Language Models via Directional Stimulus Prompting",
+            "url": "https://arxiv.org/abs/2302.11520",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "Prompt engineering - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

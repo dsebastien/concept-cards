@@ -1,0 +1,94 @@
+{
+    "id": "prompt-templates",
+    "name": "Prompt Templates",
+    "summary": "Reusable, parameterized prompt structures that standardize how you ask AI to perform recurring tasks.",
+    "explanation": "A prompt template is a prompt with placeholders that get filled in at runtime. Instead of writing a new prompt from scratch each time, you design a template once, test it, and then plug in new inputs. This turns prompt engineering into a durable artifact rather than a per-conversation improvisation.\n\nA minimal template looks like:\n\n```\nYou are a {role}.\nTask: {task}\nContext: {context}\nConstraints: {constraints}\nOutput format: {format}\n```\n\nAt call time you substitute concrete values for each placeholder. Production systems formalize this with tools like Jinja, Handlebars, or provider-specific template features, often adding type validation for inputs.\n\nWhy prompt templates matter:\n\n- **Consistency**: Every call to the same task uses the same structure, producing predictable outputs that downstream code can trust.\n- **Iteration**: When you improve the template, every caller benefits immediately - no copy-paste sprawl.\n- **Testing**: Templates can be evaluated against fixed inputs to measure regressions, enabling real prompt QA.\n- **Separation of concerns**: Business logic in code stays separate from the natural-language prompt, each maintained by whoever is best placed to.\n- **Reuse across models**: A well-designed template can be adapted to different providers with minimal changes.\n- **Versioning**: Templates can be stored, diffed, and rolled back like any other code artifact.\n\nDesign guidance:\n\n- Name placeholders clearly and document what each one expects.\n- Keep one template per distinct task; resist overloading a single template with mode flags.\n- Validate inputs before substitution to prevent prompt injection via placeholder values.\n- Include few-shot examples or output schemas directly in the template so they travel with it.\n- Track which template and which version produced each output for later debugging.\n\nPrompt templates are foundational to building reliable AI-powered features. They are the difference between a demo that worked once and a system that ships.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "software-development",
+        "optimization",
+        "automation"
+    ],
+    "category": "Techniques",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "Prompt Patterns",
+        "Parameterized Prompts",
+        "Prompt Scaffolds"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "meta-prompting",
+        "ai-master-prompt",
+        "ai-mega-prompts",
+        "structured-output-prompting",
+        "system-prompts",
+        "prompt-injection",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Prompt engineering - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

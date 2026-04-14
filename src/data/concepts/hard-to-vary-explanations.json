@@ -1,0 +1,76 @@
+{
+    "id": "hard-to-vary-explanations",
+    "name": "Hard-to-Vary Explanations",
+    "summary": "David Deutsch's criterion for good explanations: every detail plays a functional role so the account cannot be easily modified without ruining its explanatory power.",
+    "explanation": "Hard-to-vary is the criterion David Deutsch proposes for what makes an explanation good. A good explanation is one in which every part is constrained by the phenomenon it explains - you cannot tweak details, swap characters, or move events without the whole thing collapsing. By contrast, bad explanations are easy to vary: any part can be replaced with something else and the story still sort of works.\n\nDeutsch illustrates with the myth of Persephone explaining winter versus the axial-tilt explanation. The Persephone myth is easy to vary - any god could have been cast as Persephone, any season could have been chosen, any deal could have triggered it. Nothing about the details is forced by what is being explained. Axial tilt is hard to vary - the specific angle, the geometry of the orbit, the way sunlight distributes across latitudes all lock into precise quantitative predictions. Change any detail and the explanation stops predicting seasons correctly.\n\nWhy this matters:\n\n- **Goes beyond falsifiability**: Popper's falsifiability is necessary but not sufficient. An ad hoc theory can be rescued from every falsification, but only by becoming more easily varied. Hard-to-vary requires that rescues cost explanatory power.\n- **Separates science from myth**: Myths, conspiracy theories, and pseudo-science typically fail the hard-to-vary test. Their details are interchangeable because they explain nothing specific.\n- **Drives reach**: Hard-to-vary explanations tend to apply beyond the original context (the 'reach' of an explanation) because their structure reflects real constraints, not arbitrary choices.\n- **Guides theory choice**: When two theories fit the data, the one whose structure is more forced by the phenomenon is preferable.\n- **Operational test**: Ask 'what could be different in this explanation without breaking it?' The fewer the degrees of freedom, the better the explanation.\n\nCommon patterns that signal easy-to-vary explanations:\n\n- Details are arbitrary or ornamental - they could be swapped out.\n- The theory can be modified to accommodate any new evidence without cost.\n- Predictions are vague or post-hoc.\n- Mechanism is unspecified; the 'how' is hand-waved.\n- The story lives at a level of description where constraints are weak.\n\nHard-to-vary is a practical test for the quality of an idea, not just a scientific theory. It applies to strategies, product hypotheses, historical accounts, and personal narratives. When you can explain everything equally well, you are probably explaining nothing.",
+    "tags": [
+        "philosophy",
+        "epistemology",
+        "science",
+        "thinking",
+        "rationality",
+        "mental-models",
+        "knowledge"
+    ],
+    "category": "Philosophy & Wisdom",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Hard-to-Vary",
+        "Good Explanations",
+        "Deutsch's Criterion"
+    ],
+    "relatedConcepts": [
+        "critical-rationalism",
+        "falsifiability",
+        "reach-of-explanations",
+        "scientific-fallibilism",
+        "bold-conjectures",
+        "knowledge-has-unbounded-reach",
+        "epistemology",
+        "scientific-method",
+        "occams-razor"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Beginning of Infinity by David Deutsch",
+            "url": "https://www.amazon.com/dp/0143121359?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Fabric of Reality by David Deutsch",
+            "url": "https://www.amazon.com/dp/014027541X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "David Deutsch - A new way to explain explanation (TED)",
+            "url": "https://www.ted.com/talks/david_deutsch_a_new_way_to_explain_explanation",
+            "type": "video"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

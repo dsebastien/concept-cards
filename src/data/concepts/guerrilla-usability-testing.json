@@ -1,0 +1,64 @@
+{
+    "id": "guerrilla-usability-testing",
+    "name": "Guerrilla Usability Testing",
+    "summary": "Steve Krug's low-budget, do-it-yourself approach to usability testing: a few users, once a month, on whatever you've got — valuing frequency and simplicity over scientific rigor.",
+    "explanation": "Guerrilla usability testing is a scrappy, lightweight way to find usability problems without the cost and ceremony of formal lab studies. Popularized by Steve Krug in *Rocket Surgery Made Easy*, it rests on the observation that almost any real testing beats no testing — and that teams that test frequently improve their products far faster than teams that wait for a perfect research study.\n\n**Krug's Recipe**:\n\n- **Test three users, once a month.** Three people will reveal most of the serious problems; more testing that day produces diminishing returns.\n- **Test whatever you have.** Sketches, wireframes, prototypes, the live site, or a competitor's site. Don't wait for the design to be \"ready\".\n- **Do it in the morning, debrief over lunch, decide fixes the same afternoon.** Momentum matters more than precision.\n- **Recruit loosely.** Friends, colleagues from other teams, people from the street, or paid participants — usability problems are usually obvious enough that representative sampling is overkill.\n- **Fix the most serious problems first.** The goal is not a tidy bug list but shipping a better product next sprint.\n\n**Why a Few Users Is Enough**:\n\nJakob Nielsen's research showed that testing with just 5 users typically reveals around 85% of usability issues. Krug argues three is often sufficient because you're testing frequently — any issue missed in one round tends to surface in the next. The value compounds over months of small tests, not from one heroic large study.\n\n**Running a Session**:\n\n1. **Welcome (2 min)**: Explain it's the site being tested, not the user; encourage thinking aloud.\n2. **Questions (2 min)**: Gather brief background.\n3. **Home page tour (3 min)**: \"What is this? What can you do here?\" — tests first impressions.\n4. **Tasks (35 min)**: Give realistic goals and let them struggle without hints.\n5. **Probing (5 min)**: Ask follow-up questions.\n6. **Wrap-up (5 min)**: Thank them, pay them, let them go.\n\n**Why It Works**:\n\n- **Cheap**: a laptop, screen recorder, and three volunteers are enough.\n- **Fast**: findings land the same day, while decisions are still being made.\n- **Honest**: watching real people fumble is far more persuasive than opinions in a meeting.\n- **Habit-forming**: because it's easy, teams actually do it — and testing once a month beats testing perfectly once a year.\n\n**Common Pitfalls**:\n\n- Leading users (\"try clicking here\") — always wait and watch.\n- Recruiting only colleagues who know the product.\n- Debating findings instead of fixing them.\n- Chasing minor issues while ignoring the show-stoppers.\n\nGuerrilla usability testing is less a methodology than a mindset: stop arguing about what users will do and go watch them do it.",
+    "tags": [
+        "usability",
+        "user-experience",
+        "evaluation",
+        "research",
+        "techniques",
+        "testing",
+        "user-centered"
+    ],
+    "category": "Techniques",
+    "icon": "FaUserFriends",
+    "featured": false,
+    "aliases": [
+        "Guerilla Usability Testing",
+        "DIY Usability Testing",
+        "Rocket Surgery Usability Testing"
+    ],
+    "relatedConcepts": [
+        "trunk-test",
+        "dont-make-me-think",
+        "usability",
+        "usability-heuristics",
+        "heuristic-evaluation",
+        "ux-design",
+        "user-experience"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Rocket Surgery Made Easy by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321657292?tag=dsebastien00-20"
+        },
+        {
+            "title": "Don't Make Me Think, Revisited by Steve Krug",
+            "url": "https://www.amazon.com/dp/0321965515?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Usability testing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Usability_testing",
+            "type": "website"
+        },
+        {
+            "title": "Guerrilla Usability Testing - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/discount-usability-20-years/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

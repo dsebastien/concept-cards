@@ -1,0 +1,55 @@
+{
+    "id": "deutsch-algorithm",
+    "name": "Deutsch Algorithm",
+    "summary": "A quantum algorithm from 1985 that determines whether a one-bit function is constant or balanced with a single query, demonstrating quantum advantage over classical computation.",
+    "explanation": "The Deutsch algorithm, published by David Deutsch in 1985, was the first quantum algorithm to demonstrate a clear computational advantage over any classical algorithm. It solves a deliberately simple problem to make a sharp point: quantum computers can do things classical computers cannot, even for trivial tasks.\n\nThe problem: you are given a black-box function f that takes one bit and returns one bit. There are four possibilities: f(0)=0, f(1)=0 (constant 0); f(0)=1, f(1)=1 (constant 1); f(0)=0, f(1)=1 (balanced, identity); f(0)=1, f(1)=0 (balanced, flip). You want to determine only whether f is constant or balanced.\n\nClassically, you must evaluate f twice - once at 0 and once at 1 - to answer with certainty. The Deutsch algorithm answers in a single quantum query.\n\nHow it works conceptually:\n\n- Prepare input and output qubits in superposition using Hadamard gates.\n- Apply the oracle that encodes f to both branches of the superposition in parallel.\n- Interfere the resulting amplitudes using another Hadamard gate.\n- Measure. The result directly encodes whether f is constant or balanced.\n\nThe key quantum resources exploited are superposition (evaluating f on 0 and 1 simultaneously) and interference (combining the results so constant and balanced cases yield orthogonal outcomes).\n\nThe algorithm was later generalized by Deutsch and Richard Jozsa to n-bit functions, giving the Deutsch-Jozsa algorithm, which offers an exponential speedup (1 query instead of 2^(n-1)+1 queries in the worst deterministic classical case).\n\nWhy it matters:\n\n- **Historical significance**: The first proof that quantum computation is strictly more powerful than classical for some problems.\n- **Pedagogical value**: Small enough to walk through on paper; rich enough to illustrate superposition, oracles, and interference.\n- **Conceptual foundation**: Every later quantum algorithm - Shor's, Grover's, HHL - builds on the ideas first demonstrated here.\n- **Interpretive weight**: Deutsch used the algorithm to argue for the Many-Worlds interpretation, since the parallel evaluation of f at 0 and 1 is, in his view, genuinely happening in multiple universes.\n\nThe Deutsch algorithm is computationally useless - no one needs to know whether a one-bit function is constant or balanced. Its importance is entirely foundational: it is the moment quantum computing stopped being a thought experiment and became a field.",
+    "tags": [
+        "physics",
+        "computing",
+        "quantum",
+        "algorithms",
+        "theory",
+        "science"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Deutsch-Jozsa Algorithm",
+        "Deutsch Problem"
+    ],
+    "relatedConcepts": [
+        "universal-quantum-computer",
+        "quantum-computing",
+        "quantum-mechanics",
+        "quantum-superposition",
+        "quantum-entanglement",
+        "many-worlds-interpretation",
+        "turing-machine",
+        "computability-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Quantum theory, the Church-Turing principle and the universal quantum computer",
+            "url": "https://royalsocietypublishing.org/doi/10.1098/rspa.1985.0070",
+            "type": "paper"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Fabric of Reality by David Deutsch",
+            "url": "https://www.amazon.com/dp/014027541X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Deutsch-Jozsa algorithm - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

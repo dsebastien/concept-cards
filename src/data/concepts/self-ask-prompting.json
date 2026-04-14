@@ -1,0 +1,92 @@
+{
+    "id": "self-ask-prompting",
+    "name": "Self-Ask Prompting",
+    "summary": "A prompting technique where the AI explicitly asks and answers its own sub-questions before producing a final answer.",
+    "explanation": "Self-ask prompting is a structured reasoning technique in which the model is instructed to decompose a question into smaller follow-up questions, answer each one, and then combine the answers into a final response. It makes the decomposition step explicit rather than hoping the model does it implicitly.\n\nA typical self-ask flow looks like this:\n\n```\nQuestion: Who was president of the US when the inventor of the telephone was born?\nAre follow-up questions needed here: Yes.\nFollow up: Who invented the telephone?\nIntermediate answer: Alexander Graham Bell.\nFollow up: When was Alexander Graham Bell born?\nIntermediate answer: 1847.\nFollow up: Who was US president in 1847?\nIntermediate answer: James K. Polk.\nSo the final answer is: James K. Polk.\n```\n\nWhy it works:\n\n- **Forces decomposition**: Multi-hop questions are broken into single-hop lookups the model handles more reliably.\n- **Reveals reasoning gaps**: Wrong intermediate answers are easier to spot and correct than a wrong final answer.\n- **Enables tool use**: Each follow-up question can be routed to a search engine, database, or other tool instead of relying on the model's memory.\n- **Improves factuality**: Particularly strong on multi-hop question answering where chain-of-thought alone underperforms.\n\nSelf-ask is closely related to chain-of-thought prompting but makes the sub-question structure explicit, which is especially useful when integrating retrieval or tool calls. Modern agentic systems often use self-ask as the skeleton for a plan-and-execute loop.\n\nWhen to use: multi-hop factual questions, research tasks, any problem where decomposing into discrete look-ups improves accuracy. When not to use: simple one-step questions where the overhead outweighs the benefit, or tasks where reasoning is inherently holistic.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "reasoning",
+        "decision-making"
+    ],
+    "category": "Techniques",
+    "icon": "FaQuestion",
+    "featured": false,
+    "aliases": [
+        "Self-Questioning Prompting",
+        "Follow-Up Question Prompting"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "chain-of-thought-prompting",
+        "least-to-most-prompting",
+        "react-prompting",
+        "tree-of-thought-prompting",
+        "meta-prompting",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+            "url": "https://arxiv.org/abs/2210.03350",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "Prompt engineering - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

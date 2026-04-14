@@ -1,0 +1,108 @@
+{
+    "id": "learning-loop",
+    "name": "Learning Loop",
+    "summary": "A repeating cycle of acting, observing outcomes, reflecting, and adjusting that turns experience into durable improvement in skill, judgment, or understanding.",
+    "explanation": "A learning loop is the generic engine behind virtually every form of intentional improvement. Instead of treating learning as a one-off transfer of information, it frames learning as a continuous cycle: you do something, observe what happens, make sense of the gap between intent and outcome, then adjust the next attempt. Each lap through the loop extracts a bit more signal from experience, and the compounding effect over many cycles is what separates experts from novices, learning organizations from stagnant ones, and thriving systems from brittle ones.\n\n**Canonical Forms of the Loop**:\n\n- **Experiential Learning Cycle (Kolb)**: Concrete Experience → Reflective Observation → Abstract Conceptualization → Active Experimentation.\n- **PDCA / Deming Cycle**: Plan → Do → Check → Act.\n- **OODA Loop (Boyd)**: Observe → Orient → Decide → Act.\n- **Build-Measure-Learn (Ries)**: Build → Measure → Learn, the core loop of Lean Startup.\n- **Deliberate Practice Loop**: Focused attempt → immediate feedback → targeted correction → repeat.\n\nThe labels differ, but the shape is the same: action, feedback, reflection, and adjustment.\n\n**Anatomy of a Strong Learning Loop**:\n\n1. **Clear intent**: a specific hypothesis, goal, or prediction to test.\n2. **Action**: doing the thing, ideally with some reach beyond current skill.\n3. **Fast, honest feedback**: signal that tells you what actually happened, not what you hoped.\n4. **Reflection and sense-making**: connecting outcome to cause, updating mental models.\n5. **Adjustment**: a concrete change carried into the next iteration.\n6. **Re-entry**: the next attempt happens soon enough that context is still fresh.\n\nWhen any link is missing — no honest feedback, no reflection, no change in behavior, too long between iterations — the loop degrades into mere activity.\n\n**Levels of Learning** (Argyris & Schön):\n\n- **Single-loop learning**: adjusting actions within existing assumptions — \"am I doing things right?\"\n- **Double-loop learning**: examining the assumptions themselves — \"am I doing the right things?\"\n- **Triple-loop learning**: rethinking the values and context that shape those assumptions — \"how do we decide what's right?\"\n\nProductive learners deliberately move between levels rather than staying stuck in single-loop tweaking.\n\n**Why Loops Beat Linear Plans**:\n\n- Reality delivers information that plans cannot predict.\n- Small, frequent corrections compound faster than rare, large ones.\n- Each iteration reduces uncertainty and narrows in on what actually works.\n- Short loops keep cause and effect tightly coupled, so lessons are unambiguous.\n- Loops surface errors early, while they are still cheap to fix.\n\n**How to Strengthen Your Loops**:\n\n- **Shorten the cycle time**: shrink the gap between action and feedback.\n- **Tighten the feedback**: make signals quantitative, specific, and unbiased.\n- **Write things down**: a retrospective, journal, or after-action review forces reflection that would otherwise be skipped.\n- **Test one variable at a time**: so you can attribute outcomes.\n- **Separate performance from learning**: not every attempt should be optimized for success — some should be optimized for information.\n- **Raise the learning level**: periodically question goals and assumptions, not just tactics.\n\n**Where Learning Loops Appear**:\n\n- Individual skill acquisition (sports, writing, coding, music).\n- Team rituals (sprint retrospectives, post-mortems, after-action reviews).\n- Product development (experiments, MVPs, user testing).\n- Organizational learning (learning organizations, Kaizen, continuous improvement).\n- Scientific method (hypothesis → experiment → analysis → revision).\n\nUltimately, the quality of your learning is the quality of your loops. Building a life, team, or product around tight, honest feedback cycles is one of the highest-leverage moves available — because every other improvement flows through them.",
+    "tags": [
+        "learning",
+        "feedback",
+        "improvement",
+        "reflection",
+        "practice",
+        "systems-thinking",
+        "iteration"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Learning Loops",
+        "Learning Cycle",
+        "Cycle of Learning"
+    ],
+    "relatedConcepts": [
+        "feedback-loop",
+        "tight-feedback-loops",
+        "single-loop-learning",
+        "double-loop-learning",
+        "triple-loop-learning",
+        "kolb-learning-cycle",
+        "experiential-learning",
+        "pdca-cycle",
+        "ooda-loop",
+        "build-measure-learn",
+        "deliberate-practice",
+        "action-learning",
+        "continuous-improvement",
+        "kaizen",
+        "retrospective",
+        "after-action-review",
+        "lessons-learned",
+        "reflective-practice",
+        "meta-learning",
+        "learning-organization",
+        "iteration-speed",
+        "fail-fast"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Fifth Discipline by Peter Senge",
+            "url": "https://www.amazon.com/dp/0385517254?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Lean Startup by Eric Ries",
+            "url": "https://www.amazon.com/dp/0307887898?tag=dsebastien00-20"
+        },
+        {
+            "title": "Peak by Anders Ericsson",
+            "url": "https://www.amazon.com/dp/1531864880?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Experiential learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Experiential_learning",
+            "type": "website"
+        },
+        {
+            "title": "Double-loop learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Double-loop_learning",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Journaling Deep Dive Workshop",
+            "url": "https://store.dsebastien.net/product/journaling-deep-dive",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

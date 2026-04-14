@@ -1,0 +1,87 @@
+{
+    "id": "prompt-compression",
+    "name": "Prompt Compression",
+    "summary": "Shortening prompts while preserving their effectiveness, to reduce latency, cost, and context window usage.",
+    "explanation": "Prompt compression is the practice of making prompts shorter without losing the behavior they produce. Long prompts - loaded with examples, instructions, and context - work well but consume tokens, increase latency, push against context window limits, and raise costs at scale. Compression asks: what is the minimum prompt that still produces the needed quality?\n\nTechniques range from manual to automated:\n\n- **Manual rewriting**: Remove filler, collapse repeated instructions, prune redundant examples, replace verbose phrasing with concise directives. Often the cheapest win.\n- **Summarization of context**: Replace long retrieved documents with a model-generated summary focused on what the downstream task needs.\n- **Few-shot pruning**: Identify which examples actually move performance and drop the rest. One good example often beats three mediocre ones.\n- **Keyword distillation**: Replace full sentences with bullet-point keywords when the model can reliably expand them.\n- **Learned compression**: Tools like LLMLingua use a smaller model to remove low-information tokens from the prompt, claiming 2-20x compression with minimal quality loss.\n- **Embedding-based compression**: Replace text with learned prompt embeddings that carry the same signal in fewer tokens (for models that support it).\n- **Caching**: Not strictly compression, but prompt caching sidesteps the cost of repeated long prefixes entirely.\n\nWhy it matters:\n\n- **Cost**: Token-priced APIs make every word a recurring expense.\n- **Latency**: Shorter prompts process faster, improving user-perceived responsiveness.\n- **Context budget**: Long documents, multi-turn history, and tool outputs all compete for the same window.\n- **Signal-to-noise**: Leaner prompts often improve quality by preventing the model from over-attending to irrelevant content.\n\nTrade-offs to watch:\n\n- Aggressive compression can silently degrade edge-case performance; measure on a held-out evaluation set.\n- Compressed prompts may be harder for humans to read and maintain - keep a canonical verbose source if possible.\n- Compression that strips safety or format instructions is a common failure mode; guard those sections.\n\nPrompt compression becomes essential once AI features are used at scale, where pennies and milliseconds per call add up fast.",
+    "tags": [
+        "ai",
+        "prompting",
+        "llm-techniques",
+        "optimization",
+        "software-development"
+    ],
+    "category": "Techniques",
+    "icon": "FaCompressArrowsAlt",
+    "featured": false,
+    "aliases": [
+        "Prompt Distillation",
+        "Token Compression",
+        "Prompt Minimization"
+    ],
+    "relatedConcepts": [
+        "prompt-engineering",
+        "meta-prompting",
+        "ai-prompt-caching",
+        "prompt-templates",
+        "ai-master-prompt",
+        "large-language-models"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models",
+            "url": "https://arxiv.org/abs/2310.05736",
+            "type": "paper"
+        }
+    ],
+    "references": [
+        {
+            "title": "Prompt engineering - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}

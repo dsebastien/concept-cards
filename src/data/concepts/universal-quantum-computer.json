@@ -1,0 +1,61 @@
+{
+    "id": "universal-quantum-computer",
+    "name": "Universal Quantum Computer",
+    "summary": "A theoretical machine, formalized by David Deutsch in 1985, that can simulate any physically realizable process using quantum mechanics.",
+    "explanation": "A universal quantum computer is a quantum analogue of the universal Turing machine: a single physical device capable, in principle, of simulating any other physical system efficiently and of running any quantum algorithm. The concept was introduced by David Deutsch in his 1985 paper 'Quantum theory, the Church-Turing principle and the universal quantum computer,' which extended Alan Turing's notion of universal computation into the quantum domain.\n\nDeutsch's argument starts from physics, not mathematics. He proposed the Church-Turing-Deutsch principle: every physically realizable process can be simulated by a universal computing machine operating by finite means. But classical Turing machines cannot efficiently simulate quantum systems. Therefore the correct universal machine must itself be quantum. A universal quantum computer is the device that sits at the top of the computational hierarchy of our universe.\n\nKey implications:\n\n- **Computation is physical**: What can be computed depends on the laws of physics, not on abstract logic alone.\n- **Quantum speedup**: Certain problems - factoring, simulating quantum systems, unstructured search, solving linear equations - admit exponential or polynomial speedups that no classical computer can match.\n- **Universality**: Any valid quantum algorithm can run on a sufficient universal quantum computer. Hardware details matter for speed, not for what is computable in principle.\n- **Bridge to physics**: The universal quantum computer reframes quantum mechanics as an information-processing theory, deeply linking computer science and fundamental physics.\n- **Multiverse interpretation** (Deutsch's argument): The parallelism that gives quantum computers their power, Deutsch argues, is real - it occurs across branches of the multiverse described by the Many-Worlds interpretation.\n\nBuilding a scalable universal quantum computer is one of the major engineering projects of the twenty-first century. Qubits need to be coherent long enough to run long computations, connected in the right topologies, and protected from errors through quantum error correction. Current devices are NISQ - Noisy Intermediate-Scale Quantum - falling short of the universality Deutsch described but advancing quickly.\n\nThe universal quantum computer is not only a practical goal but a philosophical milestone: it is the first device whose very possibility depends on a specific interpretation of the physical laws of the universe.",
+    "tags": [
+        "physics",
+        "computing",
+        "quantum",
+        "theory",
+        "science",
+        "philosophy"
+    ],
+    "category": "Concepts",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Quantum Turing Machine",
+        "Deutsch Machine"
+    ],
+    "relatedConcepts": [
+        "quantum-computing",
+        "quantum-mechanics",
+        "quantum-superposition",
+        "quantum-entanglement",
+        "deutsch-algorithm",
+        "turing-machine",
+        "church-turing-thesis",
+        "computability-theory",
+        "many-worlds-interpretation",
+        "knowledge-has-unbounded-reach"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Quantum theory, the Church-Turing principle and the universal quantum computer",
+            "url": "https://royalsocietypublishing.org/doi/10.1098/rspa.1985.0070",
+            "type": "paper"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Fabric of Reality by David Deutsch",
+            "url": "https://www.amazon.com/dp/014027541X?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Beginning of Infinity by David Deutsch",
+            "url": "https://www.amazon.com/dp/0143121359?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Quantum Turing machine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Turing_machine",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14"
+}
