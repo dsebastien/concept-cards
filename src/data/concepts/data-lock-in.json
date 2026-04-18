@@ -1,0 +1,93 @@
+{
+    "id": "data-lock-in",
+    "name": "Data Lock-in",
+    "summary": "Dependence that arises when data is stored in proprietary formats or systems that make extraction, migration, or reuse in other tools difficult or impossible.",
+    "explanation": "Data lock-in is the subset of lock-in that specifically concerns the data itself - the content, records, history, metadata, and relationships accumulated within a system. Even when other forms of dependence are low, data lock-in alone can be enough to trap users, because the data often represents years of irreplaceable work.\n\n## Forms of Data Lock-in\n\n- **Proprietary formats** - data stored in formats only the original tool can read\n- **Closed APIs** - no programmatic way to export data at scale\n- **Rate-limited exports** - technical export paths exist but are practically unusable\n- **Incomplete exports** - exports omit critical metadata, relationships, or history\n- **Loss of structure** - exports flatten hierarchies, relationships, or rich formatting\n- **Opaque storage** - data is encrypted or obfuscated in ways that prevent direct access\n- **Cloud-only storage** - no local copy exists, making the provider the sole custodian\n- **Account-gated data** - losing the account means losing the data\n\n## Why Data Lock-in Is Especially Dangerous\n\n1. **Data is irreplaceable** - unlike software, you cannot just rewrite years of notes, emails, or history\n2. **It compounds silently** - the longer you use a system, the more data accumulates\n3. **You often do not own it** - terms of service may grant the provider extensive rights\n4. **Deprecation is final** - when a service shuts down, poorly portable data is lost forever\n5. **Migration loses fidelity** - even when export is possible, metadata and relationships rarely survive\n\n## Examples\n\n- **Notes apps** with proprietary databases that make bulk export painful\n- **Email services** where years of threaded conversations cannot be exported with full context\n- **Social media platforms** where posts, comments, and relationships are locked inside\n- **Photo services** that compress or strip metadata on export\n- **Fitness trackers** that capture years of health data only accessible within their apps\n- **Enterprise SaaS tools** whose data structures do not map cleanly to anything else\n\n## Detecting Data Lock-in\n\nAsk before committing data to any system:\n\n- Can I export all my data in a complete, usable format?\n- Does export preserve relationships, metadata, and history?\n- Can I export programmatically, or only through a limited UI?\n- Who owns the data according to the terms of service?\n- What happens to my data if the service shuts down?\n- If I export today, can I meaningfully use the data elsewhere?\n\n## Strategies to Minimize Data Lock-in\n\n- **Prefer open formats** - Markdown, plain text, CSV, JSON, standard image formats\n- **Prefer local-first software** - data lives on your device, synced through you rather than owned by a provider\n- **Automate regular exports** - backup data continuously so lock-in cannot accumulate quietly\n- **Test the export** - do not assume export works; periodically verify\n- **Prefer standard schemas** - where industry standards exist for your data type, use tools that support them\n- **Avoid deep metadata dependence** - if a system's value is entirely in proprietary metadata, that is maximum lock-in\n- **Read the terms of service** - know who owns your data\n\n## Data Lock-in vs Other Forms of Lock-in\n\nData lock-in is often the most severe form of lock-in because the data itself cannot be rebuilt:\n\n- **Tool lock-in** can be overcome by learning a new tool\n- **Workflow lock-in** can be overcome by designing new workflows\n- **Skill lock-in** can be overcome by learning new skills\n- **Data lock-in** cannot be overcome if the data is lost - it is gone\n\nFor knowledge workers, data lock-in is the primary threat to long-term intellectual work. Notes, writing, and research accumulated over years are irreplaceable. The principle 'file over app' exists precisely because of data lock-in: your files must outlive any single application.",
+    "tags": [
+        "data-portability",
+        "risks",
+        "technologies",
+        "knowledge-management",
+        "autonomy"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Data Dependence",
+        "Data Lock-In",
+        "Data Prison"
+    ],
+    "relatedConcepts": [
+        "vendor-lock-in",
+        "lock-in-effect",
+        "data-portability",
+        "platform-dependence",
+        "exit-cost",
+        "exit-strategy",
+        "open-standards",
+        "interoperability",
+        "file-over-app",
+        "local-first",
+        "digital-sovereignty",
+        "format-lock-in"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Vendor lock-in - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vendor_lock-in",
+            "type": "website"
+        },
+        {
+            "title": "Data portability - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_portability",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-18",
+    "dateModified": "2026-04-18"
+}

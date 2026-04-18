@@ -1,0 +1,73 @@
+{
+    "id": "exit-barriers",
+    "name": "Exit Barriers",
+    "summary": "Obstacles that make it difficult or impossible to leave a market, platform, vendor, commitment, or relationship.",
+    "explanation": "Exit barriers are the structural, economic, psychological, or legal obstacles that prevent parties from easily leaving a current situation. They are the mechanisms that create and sustain lock-in. While related to exit costs, exit barriers focus on the obstacles themselves rather than their price tag - some barriers are not primarily financial but still constrain mobility.\n\n## Types of Exit Barriers\n\n### Economic Barriers\n- **Specific asset investment** - assets that lose value outside the current context\n- **Termination fees and penalties** - contractual costs for leaving\n- **High fixed costs already paid** - sunk costs that bias toward staying\n- **Loss of volume discounts** - pricing benefits tied to continued engagement\n\n### Technical Barriers\n- **Proprietary data formats** - data that cannot be easily extracted or migrated\n- **Closed APIs** - integrations that do not work with alternatives\n- **Custom workflows** - automation built around specific tool behaviors\n- **Infrastructure dependencies** - other systems that rely on the one being exited\n\n### Legal and Contractual Barriers\n- **Long-term contracts** - multi-year commitments with no exit clause\n- **Non-compete agreements** - restrictions on alternative engagements\n- **Intellectual property constraints** - data or creations owned by the provider\n- **Regulatory requirements** - compliance obligations tied to specific platforms\n\n### Social and Network Barriers\n- **Network effects** - value tied to others remaining on the platform\n- **Social graph** - relationships that do not transfer\n- **Audience and reputation** - identity built within the platform\n- **Collaborative dependencies** - teams that use the same tools\n\n### Psychological Barriers\n- **Sunk cost fallacy** - past investment biasing future decisions\n- **Status quo bias** - preference for familiar arrangements\n- **Loss aversion** - overweighting what would be given up\n- **Fear of the unknown** - uncertainty about alternatives\n- **Identity attachment** - the tool or platform having become part of how one sees oneself\n\n### Strategic Barriers\n- **Lack of alternatives** - monopoly or oligopoly market structure\n- **Bundled services** - leaving one service means leaving related ones\n- **Skills specialization** - expertise that does not transfer\n- **Information asymmetry** - not knowing what alternatives offer\n\n## Why Exit Barriers Matter\n\nExit barriers shift power from the constrained party to the unconstrained one:\n\n- **Vendors with strong exit barriers** can raise prices, reduce service quality, or change terms with impunity\n- **Employers with strong exit barriers** can treat employees more harshly\n- **Platforms with strong exit barriers** can engage in enshittification\n- **Relationships with strong exit barriers** can become unhealthy\n\nThe ability to leave is the foundation of negotiating power and self-determination.\n\n## Managing Exit Barriers\n\n1. **Recognize them early** - map potential barriers before committing\n2. **Negotiate around them** - include exit clauses, data portability, reasonable termination in contracts\n3. **Build parallel systems** - maintain alternatives that reduce dependence\n4. **Use open standards** - minimize technical exit barriers\n5. **Preserve optionality** - avoid commitments with barriers disproportionate to the benefit\n6. **Periodic review** - check whether accumulated barriers still make sense\n\n## Exit Barriers vs Exit Costs\n\n- **Exit costs** are the quantifiable price of leaving\n- **Exit barriers** are the structural reasons that cost exists\n- Some barriers are not primarily financial (e.g., identity, regulatory restrictions) but still effectively prevent exit\n\nFor knowledge workers, exit barriers determine whether tool, platform, and vendor choices remain genuine choices over time. The most dangerous exit barriers are the invisible ones - those that accumulate quietly and only reveal themselves when departure is attempted.",
+    "tags": [
+        "strategies",
+        "risk-management",
+        "economics",
+        "decision-making",
+        "autonomy"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Barriers to Exit",
+        "Departure Barriers",
+        "Lock-in Barriers"
+    ],
+    "relatedConcepts": [
+        "exit-cost",
+        "exit-strategy",
+        "switching-costs",
+        "lock-in-effect",
+        "vendor-lock-in",
+        "sunk-cost-fallacy",
+        "status-quo-bias",
+        "loss-aversion",
+        "path-dependence",
+        "network-effects",
+        "technological-lock-in",
+        "platform-dependence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Competitive Strategy by Michael Porter",
+            "url": "https://www.amazon.com/dp/0684841487?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Barriers to exit - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Barriers_to_exit",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-18",
+    "dateModified": "2026-04-18"
+}

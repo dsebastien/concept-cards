@@ -1,0 +1,73 @@
+{
+    "id": "exit-strategy",
+    "name": "Exit Strategy",
+    "summary": "A planned approach for leaving a tool, platform, vendor, or commitment while minimizing cost, disruption, and loss.",
+    "explanation": "An exit strategy is a deliberate plan defined before or during engagement with a tool, platform, vendor, relationship, or commitment, describing how one could leave if circumstances require it. Having an exit strategy is a form of risk management: it preserves optionality, reduces lock-in, and forces clarity about dependencies.\n\n## Why Exit Strategies Matter\n\n- **Situations change**: tools shut down, vendors raise prices, platforms deteriorate, needs evolve\n- **Lock-in compounds**: the longer you stay, the harder leaving becomes if no strategy exists\n- **Power dynamics**: the party unable to leave has weaker negotiating position\n- **Risk mitigation**: an exit plan is insurance against unexpected disruption\n- **Forced clarity**: defining how to leave reveals hidden dependencies and true switching costs\n\n## Contexts Where Exit Strategies Apply\n\n- **Software and tools**: knowledge management apps, productivity tools, note-taking systems\n- **Cloud services and vendors**: storage providers, SaaS platforms, infrastructure\n- **Social platforms**: where your audience, content, and identity reside\n- **Business partnerships**: contracts, joint ventures, long-term agreements\n- **Investments**: startup equity, funds, real estate\n- **Careers and roles**: positions, employers, industries\n- **Projects**: initiatives that may need wind-down rather than completion\n\n## Elements of a Good Exit Strategy\n\n1. **Data portability** - can you export your data in open, usable formats?\n2. **Migration path** - what alternative systems could you move to?\n3. **Estimated cost** - time, money, disruption required to exit\n4. **Trigger conditions** - what signals would prompt initiating the exit?\n5. **Timeline** - how long would a realistic migration take?\n6. **Dependencies** - what else relies on this system and must also be addressed?\n7. **Communication plan** - who needs to be informed and how?\n8. **Backup and verification** - how to confirm nothing is lost in transition?\n\n## Designing for Exit from the Start\n\n- **Evaluate before adopting**: ask \"how would I leave this?\" before committing\n- **Prefer open formats**: Markdown, CSV, open standards over proprietary lock-in\n- **Maintain independent backups**: don't rely solely on the provider's storage\n- **Keep skills portable**: learn underlying concepts, not just vendor-specific features\n- **Diversify critical dependencies**: avoid single points of failure\n- **Document your workflows**: so they can be recreated elsewhere\n\n## Common Pitfalls\n\n- **Assuming stability**: believing current arrangements will last indefinitely\n- **Sunk cost thinking**: staying because of past investment rather than future value\n- **Underestimating switching costs**: exit always takes longer than expected\n- **Waiting until forced**: designing an exit under pressure is far more costly than preparing in advance\n\nFor knowledge workers, exit strategies are especially important because notes, writing, and intellectual work accumulated over years represent irreplaceable personal assets. Choosing tools with clear exit paths protects this investment and preserves long-term digital sovereignty.",
+    "tags": [
+        "strategies",
+        "risk-management",
+        "decision-making",
+        "planning",
+        "autonomy"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaSignOutAlt",
+    "featured": false,
+    "aliases": [
+        "Exit Plan",
+        "Departure Strategy",
+        "Migration Strategy"
+    ],
+    "relatedConcepts": [
+        "exit-cost",
+        "exit-barriers",
+        "vendor-lock-in",
+        "lock-in-effect",
+        "switching-costs",
+        "data-portability",
+        "interoperability",
+        "open-standards",
+        "digital-sovereignty",
+        "platform-dependence",
+        "risk-management",
+        "optionality"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Exit strategy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Exit_strategy",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-18",
+    "dateModified": "2026-04-18"
+}

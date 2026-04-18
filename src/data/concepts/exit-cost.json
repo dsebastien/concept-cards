@@ -1,0 +1,71 @@
+{
+    "id": "exit-cost",
+    "name": "Exit Cost",
+    "summary": "The total cost required to leave a system, vendor, platform, commitment, or relationship, including financial, time, learning, and relational costs.",
+    "explanation": "Exit cost is the full price of leaving a current arrangement and transitioning to an alternative. It is closely related to switching costs but emphasizes the perspective of departure: what it actually takes to disengage from something you are currently committed to. Understanding exit cost is critical for evaluating lock-in, preserving optionality, and making informed decisions about commitments.\n\n## Components of Exit Cost\n\n- **Financial cost** - termination fees, contract penalties, migration tooling, consulting, new vendor costs\n- **Time cost** - effort to export data, rebuild workflows, retrain, reconfigure systems\n- **Data cost** - loss of information, metadata, history, or relationships that cannot be migrated\n- **Learning cost** - mastering the replacement; rebuilding fluency\n- **Network cost** - losing integrations, audience, collaborators, or social graph\n- **Opportunity cost** - delayed projects, disrupted productivity during transition\n- **Psychological cost** - discomfort, anxiety, and identity shift from leaving\n- **Reputational cost** - perception effects from leaving a vendor, employer, or commitment\n\n## Why Exit Cost Deserves Explicit Attention\n\nExit costs are often invisible at the moment of adoption but accumulate silently over time. They are frequently underestimated because:\n\n- Hidden dependencies only reveal themselves when migration is attempted\n- Data in proprietary formats seems accessible until you try to export it\n- Workflows built around a tool are harder to replicate than they appear\n- Skills and muscle memory are not immediately portable\n- Integrations with other systems create a web of constraints\n\n## Measuring Exit Cost\n\n1. **List dependencies**: every data, workflow, integration, and skill tied to the system\n2. **Estimate migration time**: realistic effort to recreate each dependency elsewhere\n3. **Identify irreplaceable elements**: what would be lost and cannot be migrated\n4. **Assess contractual obligations**: penalties, notice periods, non-transferable commitments\n5. **Account for ecosystem effects**: second-order consequences of leaving\n\n## Strategies to Manage Exit Cost\n\n- **Evaluate before commitment**: estimate exit cost as part of adoption decisions\n- **Prefer open standards**: reduces data and format exit cost\n- **Maintain regular exports**: keeps data exit cost low and known\n- **Avoid deep customization**: in systems where you cannot migrate the customizations\n- **Document workflows**: so they are not trapped in vendor-specific implementations\n- **Periodic reassessment**: check exit cost trajectory - is it growing unacceptably?\n\n## Signs of Excessive Exit Cost\n\n- Cannot export data in a usable format\n- Years of accumulated history would be lost\n- Workflows cannot be replicated anywhere else\n- Contractual penalties exceed benefits of leaving\n- Exit would cause significant disruption to unrelated activities\n\nFor knowledge workers, exit cost is the measurable dimension of lock-in. Keeping exit cost low preserves freedom of choice and protects against adverse changes by vendors, platforms, and life circumstances. When exit cost becomes unbearable, you are no longer in control of your tools - they are in control of you.",
+    "tags": [
+        "economics",
+        "risk-management",
+        "decision-making",
+        "strategies",
+        "costs"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaDoorOpen",
+    "featured": false,
+    "aliases": [
+        "Exit Costs",
+        "Cost of Exit",
+        "Cost of Leaving"
+    ],
+    "relatedConcepts": [
+        "exit-strategy",
+        "exit-barriers",
+        "switching-costs",
+        "vendor-lock-in",
+        "lock-in-effect",
+        "sunk-cost",
+        "path-dependence",
+        "data-portability",
+        "platform-dependence",
+        "technological-lock-in"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Information Rules by Carl Shapiro and Hal Varian",
+            "url": "https://www.amazon.com/dp/087584863X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Switching barriers - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Switching_barriers",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-18",
+    "dateModified": "2026-04-18"
+}

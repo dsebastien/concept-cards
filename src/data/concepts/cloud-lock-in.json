@@ -1,0 +1,52 @@
+{
+    "id": "cloud-lock-in",
+    "name": "Cloud Lock-in",
+    "summary": "Dependence on a specific cloud provider due to proprietary services, APIs, managed offerings, and architectural patterns that make migration to another provider costly and complex.",
+    "explanation": "Cloud lock-in is a form of vendor lock-in specific to cloud infrastructure providers. As organizations move workloads to the cloud, they often adopt provider-specific services that do not exist elsewhere, embed provider-specific APIs into application code, and design architectures around the provider's unique capabilities. The deeper this integration, the more difficult and expensive leaving becomes.\n\n## Layers of Cloud Lock-in\n\n### Service Lock-in\n- **Proprietary managed services** - databases, queues, functions, ML services that only exist on one provider\n- **Unique capabilities** - features no competitor offers, making them impossible to replicate elsewhere\n- **Serverless platforms** - function-as-a-service offerings with provider-specific execution models\n\n### API and SDK Lock-in\n- **Provider SDKs** - code written against AWS, Azure, or Google SDKs is not portable without rewriting\n- **Authentication and IAM** - provider-specific identity systems baked into applications\n- **Event systems** - provider-specific event buses, triggers, and notifications\n\n### Data Lock-in\n- **Data gravity** - moving petabytes across providers is expensive and slow\n- **Egress fees** - high costs specifically for moving data out\n- **Proprietary data services** - managed databases, data warehouses, analytics engines with provider-specific formats and query languages\n\n### Architecture Lock-in\n- **Reference architectures** - designs optimized for one provider's services\n- **Networking patterns** - VPC, peering, private link designs that differ across providers\n- **Deployment tooling** - CloudFormation, ARM, Deployment Manager are not interchangeable\n\n### Operational Lock-in\n- **Monitoring and observability** - provider-specific dashboards, metrics, logs\n- **Skills and certifications** - team expertise tied to one provider\n- **Support relationships** - enterprise agreements, TAMs, and discounts\n\n## Why Cloud Lock-in Matters\n\n- **Negotiating power** - providers with locked-in customers can raise prices or reduce benefits\n- **Strategic flexibility** - locked-in organizations cannot easily move to providers with better offerings\n- **Compliance and geography** - certain regulations may require moving workloads the provider makes difficult\n- **Provider risk** - outages, policy changes, or acquisitions affect locked-in customers more severely\n- **Cost escalation** - consumption-based pricing combined with lock-in enables price increases\n\n## Common Lock-in Traps\n\n- **Tempting managed services** - lambdas, managed databases, and AI services save engineering time but create deep dependencies\n- **Vendor-specific infrastructure-as-code** - CloudFormation or ARM Templates tied to one provider\n- **Training investments** - teams who only know one provider's services\n- **Credits and discounts** - startup credits and enterprise discounts that disappear when switching\n\n## Strategies to Mitigate Cloud Lock-in\n\n- **Abstract dependencies** - wrap provider-specific services behind portable interfaces\n- **Use open standards** - Kubernetes, Terraform, OpenTelemetry are cloud-agnostic\n- **Prefer portable technologies** - open-source databases, standard protocols, containerized workloads\n- **Multi-cloud awareness** - design for the possibility of running elsewhere, even if you do not today\n- **Data portability planning** - know how you would extract and move your data\n- **Periodic lock-in assessment** - measure how deep the dependence has grown\n- **Cost of exit modeling** - estimate what leaving would actually require\n\n## The Pragmatic Trade-off\n\nSome cloud lock-in is rational. Managed services often deliver real productivity gains, and multi-cloud designs add complexity that may not be worth it for smaller organizations. The goal is conscious, bounded lock-in rather than accidental, unbounded lock-in:\n\n- **Acceptable lock-in** - using managed services where the benefit is clear and exit is realistic\n- **Dangerous lock-in** - using provider-specific features for critical systems without exit paths\n- **Hidden lock-in** - accumulating dependencies nobody is tracking\n\n## Signs of Problematic Cloud Lock-in\n\n- Cannot estimate what migration would cost\n- Critical systems use features unique to the provider\n- No team member has experience with alternative providers\n- Contracts lack exit or portability clauses\n- Data volume and egress fees would dominate any migration cost\n\nFor organizations, cloud lock-in has become one of the most significant forms of technological lock-in in modern infrastructure. Managing it requires architectural discipline, organizational awareness, and periodic reassessment as dependencies accumulate.",
+    "tags": [
+        "technologies",
+        "risks",
+        "strategies",
+        "businesses",
+        "architectures"
+    ],
+    "category": "Software Development",
+    "icon": "FaCloud",
+    "featured": false,
+    "aliases": [
+        "Cloud Provider Lock-in",
+        "Cloud Vendor Lock-in",
+        "Hyperscaler Lock-in"
+    ],
+    "relatedConcepts": [
+        "vendor-lock-in",
+        "technological-lock-in",
+        "lock-in-effect",
+        "platform-dependence",
+        "data-portability",
+        "interoperability",
+        "open-standards",
+        "exit-strategy",
+        "exit-cost",
+        "ecosystem-lock-in",
+        "digital-sovereignty"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Vendor lock-in - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vendor_lock-in",
+            "type": "website"
+        },
+        {
+            "title": "Cloud computing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cloud_computing",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-18",
+    "dateModified": "2026-04-18"
+}

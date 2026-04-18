@@ -1,0 +1,56 @@
+{
+    "id": "format-lock-in",
+    "name": "Format Lock-in",
+    "summary": "Dependence created by storing content in proprietary file formats that only specific tools can read, making migration to alternatives costly or lossy.",
+    "explanation": "Format lock-in is a specific form of data lock-in focused on the file or data format itself. When content lives in a proprietary format, the format becomes a barrier: you can only use tools that support it, and leaving that ecosystem requires conversion that often loses fidelity or fails entirely.\n\n## How Format Lock-in Works\n\n1. **Adoption**: you start using a tool that saves in its own format\n2. **Accumulation**: months or years of content pile up in that format\n3. **Feature capture**: you use format-specific features that do not translate elsewhere\n4. **Conversion problems**: exporting to other formats loses formatting, metadata, or structure\n5. **Trapped**: the content is so voluminous and richly formatted that migration is impractical\n\n## Examples\n\n- **Office document formats**: .doc, .docx, .pptx, .xlsx with complex features that do not export cleanly to open formats\n- **Note-taking apps**: proprietary databases with nested blocks, embedded media, cross-links that only work inside the app\n- **Design files**: Photoshop .psd, Sketch, Figma files with layer effects that do not translate\n- **CAD files**: vendor-specific formats that force continued use of the same tool\n- **Video projects**: editor-specific project files that cannot be opened in other editors\n- **Database dumps**: proprietary backup formats that lock data to a specific database engine\n- **Encrypted containers**: formats where the encryption is tied to specific software\n\n## Mechanisms of Format Lock-in\n\n- **Proprietary specifications** - format is not publicly documented or is patent-encumbered\n- **Complex structure** - even if the format is understood, replicating all features elsewhere is impractical\n- **Embedded features** - format includes capabilities unique to the original tool\n- **Binary opacity** - binary formats that cannot be parsed without special software\n- **Version churn** - format changes over time, complicating long-term access\n- **Network-dependent formats** - formats that require ongoing connection to the vendor's servers to render\n\n## Why Format Lock-in Is Particularly Persistent\n\n- **Content is irreplaceable** - the format contains actual work, not just infrastructure\n- **Conversion is lossy** - perfect round-trips are rare; something is always lost\n- **Features drive adoption** - proprietary formats often exist to support proprietary features\n- **Time compounds it** - every new document in the format deepens the trap\n\n## Defending Against Format Lock-in\n\n- **Prefer open formats**: Markdown, plain text, CSV, JSON, SVG, PDF/A, ODF, PNG\n- **Evaluate exportability**: before adopting a tool, check what exports preserve and what they lose\n- **Avoid format-specific features**: when possible, use capabilities that translate across tools\n- **Regular export hygiene**: periodically export to open formats as a parallel copy\n- **Favor text-based formats**: harder to break, easier to migrate, more durable across decades\n- **Check standardization**: is there an industry standard format for this type of content?\n- **Verify long-term readability**: can this format still be opened in 10 or 20 years?\n\n## The Open Format Principle\n\nA format is open if:\n- Its specification is publicly documented\n- It can be implemented without patent restrictions\n- Multiple independent tools support it\n- It has been stable or evolved in a backward-compatible way\n\nOpen formats do not eliminate lock-in entirely, but they dramatically reduce format-driven lock-in. Markdown, for example, is readable in any text editor, can be parsed by hundreds of tools, and remains usable even if every dedicated Markdown editor disappeared.\n\n## Format Lock-in vs Tool Lock-in\n\n- **Tool lock-in**: you depend on a specific tool for its features and workflows\n- **Format lock-in**: you depend on a specific tool because it is the only thing that reads your format\n\nFormat lock-in is often the more severe and persistent problem, because it prevents even voluntary migration.\n\nFor knowledge workers, format choice is one of the most consequential decisions about long-term work. Choosing tools that save in open, durable formats protects decades of accumulated thinking from becoming inaccessible when tools, companies, or business models change.",
+    "tags": [
+        "data-portability",
+        "formats",
+        "risks",
+        "technologies",
+        "strategies"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaFileCode",
+    "featured": false,
+    "aliases": [
+        "File Format Lock-in",
+        "Proprietary Format Lock-in",
+        "Format Dependence"
+    ],
+    "relatedConcepts": [
+        "data-lock-in",
+        "vendor-lock-in",
+        "lock-in-effect",
+        "data-portability",
+        "open-standards",
+        "interoperability",
+        "file-over-app",
+        "format-obsolescence",
+        "exit-cost",
+        "digital-sovereignty"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "File format - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/File_format",
+            "type": "website"
+        },
+        {
+            "title": "Open file format - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open_file_format",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-04-18",
+    "dateModified": "2026-04-18"
+}
