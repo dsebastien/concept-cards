@@ -1,3 +1,8 @@
+## [12.0.0](https://github.com/dsebastien/concept-cards/compare/11.51.0...12.0.0) (2026-04-29)
+
+### Features
+
+* **all:** adopt zod schema as concept source of truth ([e4c55f0](https://github.com/dsebastien/concept-cards/commit/e4c55f0839905e2e6893d7b668b27b6858362a27))
 ## [11.51.0](https://github.com/dsebastien/concept-cards/compare/11.50.0...11.51.0) (2026-04-22)
 
 ### Features
