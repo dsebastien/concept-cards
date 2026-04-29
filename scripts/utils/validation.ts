@@ -1,8 +1,14 @@
 /**
- * Concept validation utilities
+ * Concept validation utilities.
+ *
+ * Structural validation is delegated to the zod schema in
+ * `src/types/concept.schema.ts` so the rules stay in one place.
+ * This module wraps it with file-level context (filename, conceptId)
+ * and adds cross-cutting checks (id/filename match, broken refs).
  */
 
 import type { Concept, Reference } from '../../src/types/concept'
+import { validateConcept } from '../../src/types/concept.schema'
 
 export interface ValidationIssue {
     file: string
@@ -15,12 +21,60 @@ export interface ValidationIssue {
 }
 
 /**
- * Required fields for a concept
+ * Subset of required fields used by the legacy presence check below.
+ * Comprehensive structural validation lives in `validateSchema`.
+ *
+ * Booleans/dates are intentionally excluded — the truthiness-based
+ * check below cannot distinguish `false` from "missing".
  */
 export const REQUIRED_FIELDS = ['id', 'name', 'summary', 'explanation', 'tags', 'category']
 
 /**
- * Validate required fields in a concept
+ * Run structural validation against the zod schema. Each schema
+ * issue is mapped to a ValidationIssue so callers can format it
+ * the same way as the cross-cutting checks below.
+ */
+export function validateSchema(file: string, raw: unknown): ValidationIssue[] {
+    const result = validateConcept(raw)
+    if (result.success) return []
+
+    const conceptId =
+        raw && typeof raw === 'object' && 'id' in raw && typeof (raw as Concept).id === 'string'
+            ? (raw as Concept).id
+            : file
+
+    return result.issues.map((issue) => ({
+        file,
+        conceptId,
+        type: 'error',
+        category: 'schema',
+        message: `${issue.path}: ${issue.message}`,
+        field: issue.path.split('.')[0]
+    }))
+}
+
+/**
+ * Verify the concept's id matches its filename.
+ */
+export function validateIdMatchesFilename(file: string, concept: Concept): ValidationIssue[] {
+    const expectedId = file.replace(/\.json$/, '')
+    if (concept.id === expectedId) return []
+    return [
+        {
+            file,
+            conceptId: concept.id,
+            type: 'warning',
+            category: 'id-mismatch',
+            message: `ID "${concept.id}" doesn't match filename "${expectedId}"`,
+            field: 'id',
+            value: concept.id
+        }
+    ]
+}
+
+/**
+ * Validate required fields in a concept (kept for backwards
+ * compatibility — prefer `validateSchema` for new code).
  */
 export function validateRequiredFields(file: string, concept: Concept): ValidationIssue[] {
     const issues: ValidationIssue[] = []
@@ -38,25 +92,12 @@ export function validateRequiredFields(file: string, concept: Concept): Validati
         }
     }
 
-    // Check if id matches filename
-    const expectedId = file.replace('.json', '')
-    if (concept.id !== expectedId) {
-        issues.push({
-            file,
-            conceptId: concept.id,
-            type: 'warning',
-            category: 'id-mismatch',
-            message: `ID "${concept.id}" doesn't match filename "${expectedId}"`,
-            field: 'id',
-            value: concept.id
-        })
-    }
-
+    issues.push(...validateIdMatchesFilename(file, concept))
     return issues
 }
 
 /**
- * Validate relatedConcepts references
+ * Validate relatedConcepts references against the known concept ids.
  */
 export function validateRelatedConcepts(
     file: string,
@@ -100,8 +141,60 @@ export function isValidUrl(url: string): boolean {
     }
 }
 
+interface UrlEntry {
+    url: string
+    title?: string
+}
+
 /**
- * Validate URLs in a reference array
+ * Generic URL-list validator used by the field-specific helpers.
+ * Each entry's URL must be present and parsable.
+ */
+function validateUrlEntries(
+    file: string,
+    concept: Concept,
+    entries: UrlEntry[] | undefined,
+    fieldName: string,
+    options: { describe?: (entry: UrlEntry) => string } = {}
+): ValidationIssue[] {
+    if (!entries || entries.length === 0) return []
+
+    const issues: ValidationIssue[] = []
+    const describe =
+        options.describe ??
+        ((entry: UrlEntry) => (entry.title ? `${fieldName} entry "${entry.title}"` : fieldName))
+
+    for (const entry of entries) {
+        if (!entry.url) {
+            issues.push({
+                file,
+                conceptId: concept.id,
+                type: 'error',
+                category: 'missing-url',
+                message: `${describe(entry)} has no URL`,
+                field: fieldName
+            })
+            continue
+        }
+
+        if (!isValidUrl(entry.url)) {
+            issues.push({
+                file,
+                conceptId: concept.id,
+                type: 'error',
+                category: 'invalid-url',
+                message: `Invalid URL format in ${fieldName}: ${entry.url}`,
+                field: fieldName,
+                value: entry.url
+            })
+        }
+    }
+
+    return issues
+}
+
+/**
+ * Validate URLs in a reference array (articles, references, tutorials).
  */
 export function validateReferenceUrls(
     file: string,
@@ -109,97 +202,27 @@ export function validateReferenceUrls(
     refs: Reference[] | undefined,
     fieldName: string
 ): ValidationIssue[] {
-    const issues: ValidationIssue[] = []
-
-    if (!refs || refs.length === 0) return issues
-
-    for (const ref of refs) {
-        if (!ref.url) {
-            issues.push({
-                file,
-                conceptId: concept.id,
-                type: 'error',
-                category: 'missing-url',
-                message: `${fieldName} entry "${ref.title}" has no URL`,
-                field: fieldName
-            })
-            continue
-        }
-
-        if (!isValidUrl(ref.url)) {
-            issues.push({
-                file,
-                conceptId: concept.id,
-                type: 'error',
-                category: 'invalid-url',
-                message: `Invalid URL format in ${fieldName}: ${ref.url}`,
-                field: fieldName,
-                value: ref.url
-            })
-        }
-    }
-
-    return issues
+    return validateUrlEntries(file, concept, refs, fieldName)
 }
 
 /**
- * Validate book URLs
+ * Validate book URLs.
  */
 export function validateBookUrls(file: string, concept: Concept): ValidationIssue[] {
-    const issues: ValidationIssue[] = []
-
-    if (!concept.books || concept.books.length === 0) return issues
-
-    for (const book of concept.books) {
-        if (!book.url) {
-            issues.push({
-                file,
-                conceptId: concept.id,
-                type: 'error',
-                category: 'missing-url',
-                message: `Book "${book.title}" has no URL`,
-                field: 'books'
-            })
-            continue
-        }
-
-        if (!isValidUrl(book.url)) {
-            issues.push({
-                file,
-                conceptId: concept.id,
-                type: 'error',
-                category: 'invalid-url',
-                message: `Invalid book URL format: ${book.url}`,
-                field: 'books',
-                value: book.url
-            })
-        }
-    }
-
-    return issues
+    return validateUrlEntries(file, concept, concept.books, 'books', {
+        describe: (book) => `Book "${book.title}"`
+    })
 }
 
 /**
- * Validate relatedNotes URLs
+ * Validate relatedNotes URLs (plain string array).
  */
 export function validateRelatedNotesUrls(file: string, concept: Concept): ValidationIssue[] {
-    const issues: ValidationIssue[] = []
-
-    if (!concept.relatedNotes || concept.relatedNotes.length === 0) return issues
-
-    for (const noteUrl of concept.relatedNotes) {
-        if (!isValidUrl(noteUrl)) {
-            issues.push({
-                file,
-                conceptId: concept.id,
-                type: 'error',
-                category: 'invalid-url',
-                message: `Invalid relatedNotes URL format: ${noteUrl}`,
-                field: 'relatedNotes',
-                value: noteUrl
-            })
-        }
-    }
-
-    return issues
+    if (!concept.relatedNotes || concept.relatedNotes.length === 0) return []
+    return validateUrlEntries(
+        file,
+        concept,
+        concept.relatedNotes.map((url) => ({ url })),
+        'relatedNotes'
+    )
 }

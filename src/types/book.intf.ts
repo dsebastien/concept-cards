@@ -1,4 +1,1 @@
-export interface Book {
-    title: string
-    url: string
-}
+export type { Book } from './concept.schema'

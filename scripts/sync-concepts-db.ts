@@ -5,40 +5,10 @@ import * as crypto from 'crypto'
 import * as fs from 'fs'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
+import type { Concept } from '../src/types/concept'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-
-interface Concept {
-    id: string
-    name: string
-    summary: string
-    explanation: string
-    tags: string[]
-    category: string
-    featured: boolean
-    icon?: string
-    aliases?: string[]
-    relatedConcepts?: string[]
-    relatedNotes?: string[]
-    articles?: Reference[]
-    books?: Book[]
-    references?: Reference[]
-    tutorials?: Reference[]
-    datePublished: string
-    dateModified: string
-}
-
-interface Reference {
-    title: string
-    url: string
-    type?: string
-}
-
-interface Book {
-    title: string
-    url: string
-}
 
 const DB_PATH = path.join(__dirname, '..', 'concepts.db')
 const CONCEPTS_DIR = path.join(__dirname, '..', 'src', 'data', 'concepts')

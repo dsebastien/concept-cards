@@ -21,7 +21,9 @@ concept-cards/
 │   │   ├── index.ts
 │   │   ├── resources.json
 │   │   └── socials.json
-│   ├── types/concept.ts
+│   ├── types/
+│   │   ├── concept.schema.ts # zod schema — source of truth for concept shape
+│   │   └── concept.ts        # public type re-exports
 │   ├── lib/utils.ts
 │   ├── pages/home.tsx
 │   ├── styles/index.css
@@ -30,6 +32,7 @@ concept-cards/
 │   ├── social-card-template.svg
 │   └── social-cards/{concepts,tags,categories,pages}/
 ├── scripts/
+│   ├── validate-concepts.ts # zod-based validator for concept JSON files
 │   ├── generate-sitemap.ts
 │   ├── generate-llms-txt.ts
 │   ├── generate-rss-feed.ts
@@ -57,59 +60,30 @@ concept-cards/
 
 **MANDATORY**: Use `/manage-concepts-db` skill before adding ANY concept.
 
-### Concept JSON Schema
+### Concept Schema
 
-File: `/src/data/concepts/{concept-id}.json` (filename must match `id`)
+File location: `src/data/concepts/{concept-id}.json` — filename must match `id`.
 
-```json
-{
-    "id": "concept-id",
-    "name": "Concept Name",
-    "summary": "One-sentence summary",
-    "explanation": "Detailed explanation. What, how, why.",
-    "tags": ["tag1", "tag2"],
-    "category": "Category Name",
-    "icon": "FaBrain",
-    "featured": false,
-    "aliases": ["Alt Name"],
-    "relatedConcepts": ["other-concept-id"],
-    "relatedNotes": ["https://notes.dsebastien.net/..."],
-    "articles": [{ "title": "Title", "url": "https://...", "type": "website" }],
-    "books": [
-        { "title": "Book by Author", "url": "https://www.amazon.com/dp/ASIN?tag=dsebastien00-20" }
-    ],
-    "references": [{ "title": "Title", "url": "https://...", "type": "paper" }],
-    "tutorials": [{ "title": "Title", "url": "https://...", "type": "video" }],
-    "datePublished": "YYYY-MM-DD",
-    "dateModified": "YYYY-MM-DD"
-}
-```
+The concept schema is the **single source of truth** for shape, required fields,
+allowed values, and formats. Respect it exactly; do not duplicate or paraphrase
+the rules elsewhere.
 
-### Required Fields
+- Zod schema (runtime + types): [`src/types/concept.schema.ts`](src/types/concept.schema.ts)
+- Public type re-exports: [`src/types/concept.ts`](src/types/concept.ts)
 
-| Field           | Format                                          |
-| --------------- | ----------------------------------------------- |
-| `id`            | lowercase, hyphenated                           |
-| `name`          | Display name                                    |
-| `summary`       | One sentence, **plain text only** (no Markdown) |
-| `explanation`   | Multi-paragraph, Markdown supported             |
-| `tags`          | Array of strings                                |
-| `category`      | Must exist in categories.json                   |
-| `featured`      | boolean                                         |
-| `datePublished` | YYYY-MM-DD                                      |
-| `dateModified`  | YYYY-MM-DD                                      |
+Every concept JSON file is validated against the schema by
+`bun run validate:quick`. Any deviation (missing required field, wrong enum
+value, malformed URL, bad date format) is reported as an error.
 
-### Optional Fields
+Authoring constraints not encoded in the schema:
 
-`icon`, `aliases`, `relatedConcepts`, `relatedNotes`, `articles`, `books`, `references`, `tutorials`
+- `summary` is **plain text only** (no Markdown). The schema only enforces non-empty.
+- `category` must be one of the entries in [`src/data/categories.json`](src/data/categories.json).
+- `tags` follow the conventions in the [Tag Rules](#tag-rules) section below.
+- Book URLs must be Amazon affiliate links: `https://www.amazon.com/dp/[ASIN]?tag=dsebastien00-20`.
+- Date fields follow the [Date Fields](#date-fields) policy below.
 
-### Reference Types
-
-`paper`, `website`, `video`, `podcast`, `other`
-
-### Book Links (MANDATORY: Amazon Affiliate)
-
-Format: `https://www.amazon.com/dp/[ASIN]?tag=dsebastien00-20`
+<a id="tag-rules"></a>
 
 ### Tag Rules
 
@@ -121,9 +95,12 @@ Format: `https://www.amazon.com/dp/[ASIN]?tag=dsebastien00-20`
     grep -h '"tags"' src/data/concepts/*.json | tr ',' '\n' | tr -d '[]"' | sed 's/^[[:space:]]*//' | sort -u
     ```
 
+<a id="date-fields"></a>
+
 ### Date Fields
 
-- New concepts: set both to today
+- Format: `YYYY-MM-DD` (enforced by the schema)
+- New concepts: set both `datePublished` and `dateModified` to today
 - Updates: only update `dateModified` for substantive changes
 - Never modify `datePublished`
 
@@ -132,14 +109,13 @@ Format: `https://www.amazon.com/dp/[ASIN]?tag=dsebastien00-20`
 After adding or updating ANY concept, run:
 
 ```bash
-bun run fix-concepts
+bun run fix-concepts   # add affiliate links, fix cross-refs, populate dates
+bun run validate:quick # zod schema + cross-reference validation (offline)
 ```
 
-This script:
-
-- Adds affiliate product links to book references
-- Fixes concept cross-references (validates `relatedConcepts`)
-- Populates missing date fields
+`validate:quick` enforces the schema in [`src/types/concept.schema.ts`](src/types/concept.schema.ts)
+and reports any deviation. Use `bun run validate` (no flag) to also probe URL liveness,
+or `bun run validate:fix` to auto-remove broken `relatedConcepts` references.
 
 ### Social Images
 
@@ -204,6 +180,8 @@ bun run preview       # Preview production build
 bun run lint          # Lint code
 bun run format        # Format code
 bun run tsc           # Type check
+bun run validate:quick # Validate concepts against zod schema (offline)
+bun run validate      # Validate concepts + URL liveness checks
 ```
 
 ## Deployment
