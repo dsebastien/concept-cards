@@ -1,0 +1,48 @@
+{
+    "id": "event-driven-architecture",
+    "name": "Event-Driven Architecture",
+    "summary": "A software architecture paradigm where decoupled components communicate by producing and consuming events, enabling reactive and asynchronous system behavior.",
+    "explanation": "Event-driven architecture (EDA) is a software architecture paradigm in which the production, detection, consumption, and reaction to events drive system behavior. Components do not call each other directly; instead, they emit events when something noteworthy happens, and other components — independently and asynchronously — react to those events. This decoupling is the defining property of EDA and what makes it well-suited to scalable, distributed, and real-time systems.\n\n## Core Concepts\n\n- **Event**: An immutable record of something that has happened (e.g., \"OrderPlaced\", \"PaymentReceived\"). Events are facts, not commands\n- **Event producer (publisher)**: A component that detects or generates events and emits them\n- **Event consumer (subscriber)**: A component that listens for and reacts to events\n- **Event channel (broker, bus, stream)**: The transport that carries events from producers to consumers (Kafka, RabbitMQ, NATS, AWS EventBridge, etc.)\n- **Event schema**: The contract describing the shape of an event\n\n## Common Patterns\n\n- **Publish/Subscribe**: One producer, many independent consumers\n- **Event sourcing**: Persist the full sequence of events as the system of record; current state is derived by replay\n- **CQRS (Command Query Responsibility Segregation)**: Separate write-side (commands producing events) from read-side (projections consuming events)\n- **Event streaming**: Continuous flow of events processed as a real-time pipeline (Kafka Streams, Flink)\n- **Choreography vs orchestration**: Choreographed services react to events autonomously; orchestrated services follow a central coordinator\n- **Saga pattern**: Coordinate distributed transactions across services using a sequence of events and compensating actions\n\n## Benefits\n\n- **Loose coupling**: Producers don't know who consumes their events; consumers can be added or removed without changing producers\n- **Scalability**: Producers and consumers scale independently; brokers buffer load spikes\n- **Resilience**: A slow or failed consumer doesn't block the producer\n- **Auditability**: When events are persisted, you have a complete history of what happened and when\n- **Real-time responsiveness**: Reactions to events can be immediate\n- **Extensibility**: New behavior is added by introducing new consumers, not by modifying existing services\n\n## Trade-offs\n\n- **Eventual consistency**: Consumers process events asynchronously, so the system as a whole is rarely instantaneously consistent\n- **Debugging complexity**: Distributed event flows are harder to trace than synchronous call stacks; observability is essential\n- **Schema evolution**: Events outlive the code that produced them, so backward and forward compatibility matter\n- **Ordering and duplication**: Many brokers offer at-least-once delivery, requiring idempotent consumers\n- **Operational overhead**: Brokers, dead-letter queues, retries, and monitoring all add complexity\n\n## When to Use EDA\n\n- High-throughput systems with many independent reactions to the same event\n- Microservice architectures needing decoupling without tight RPC coupling\n- Real-time analytics, monitoring, fraud detection\n- Workflow systems with long-running processes and human steps\n- Systems requiring full audit trails or temporal queries (event sourcing)\n\n## Why EDA Matters\n\nEvent-driven architecture inverts the traditional request/response mindset. Instead of \"call this service to do X,\" you \"announce that X happened and let interested parties decide.\" This shift is what enables systems like Netflix, Uber, and modern banking to scale horizontally, evolve independently, and respond to events in real time. It is foundational to streaming platforms, microservices, and modern reactive systems.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "distributed-systems",
+        "design-patterns",
+        "scalability",
+        "microservices"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "EDA",
+        "Event-Driven Design",
+        "Event-Driven Systems"
+    ],
+    "relatedConcepts": [
+        "state-machine",
+        "petri-net",
+        "design-patterns",
+        "abstraction",
+        "domain-model",
+        "workflow-engine"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Event-driven architecture - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Event-driven_architecture",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

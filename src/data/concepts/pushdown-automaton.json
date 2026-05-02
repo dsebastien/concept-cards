@@ -1,0 +1,39 @@
+{
+    "id": "pushdown-automaton",
+    "name": "Pushdown Automaton",
+    "summary": "A type of automaton that augments a finite state machine with a stack, enabling it to recognize context-free languages.",
+    "explanation": "A pushdown automaton (PDA) is a finite state machine extended with a single stack as auxiliary memory. The stack lets a PDA remember an unbounded amount of nested context, which is exactly what is needed to parse balanced structures like matching parentheses, nested brackets, and the syntactic constructs of programming languages. PDAs occupy the second tier of the Chomsky hierarchy, sitting strictly between finite automata (regular languages) and Turing machines (recursively enumerable languages).\n\n## Why a Stack Matters\n\nA finite state machine has only a fixed amount of memory — its current state. It cannot count to arbitrary depths, so it cannot decide whether a string of parentheses is balanced. A PDA, by pushing an opening symbol onto the stack and popping it when matched, handles arbitrary nesting depth. This single addition unlocks the entire class of context-free languages.\n\n## Components\n\n- **Finite state control**: A set of states and transitions, like a standard FSM\n- **Input tape**: The string being processed, read left to right\n- **Stack**: A LIFO memory of unbounded depth\n- **Transition function**: Depends on the current state, the next input symbol, and the symbol on top of the stack; produces a new state and modifies the stack\n\n## Variants\n\n- **Deterministic PDA (DPDA)**: At most one transition possible for any configuration. Recognizes deterministic context-free languages — strictly weaker than the full class\n- **Nondeterministic PDA (NPDA)**: May have multiple possible transitions; recognizes all context-free languages. Equivalence with NPDAs is what makes context-free grammars (CFGs) the natural specification language for PDAs\n- **Two-stack PDA**: With two stacks, a PDA becomes equivalent to a Turing machine\n\n## Applications\n\n- **Compiler design**: Parsing the syntax of programming languages — LL and LR parsers are essentially deterministic PDAs\n- **XML/HTML/JSON parsing**: Validating nested tag or bracket structures\n- **Expression evaluation**: Handling operator precedence and parentheses\n- **Theory of computation**: Demonstrating the gap between regular and context-free languages, and proving language properties\n\n## Position in the Chomsky Hierarchy\n\n- Type 3 (regular) — finite automaton\n- Type 2 (context-free) — **pushdown automaton**\n- Type 1 (context-sensitive) — linear bounded automaton\n- Type 0 (recursively enumerable) — Turing machine\n\n## Why Pushdown Automata Matter\n\nPDAs explain a fundamental boundary in what software can recognize. They show why simple regex cannot match arbitrary nested HTML and why parsing programming languages requires more than finite-state pattern matching. Understanding the FSM-to-PDA jump is central to understanding parser theory, formal language design, and the layered architecture of compilers.",
+    "tags": [
+        "computer-science",
+        "modeling",
+        "formal-methods",
+        "languages",
+        "compilers"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "PDA",
+        "Pushdown Machine"
+    ],
+    "relatedConcepts": [
+        "state-machine",
+        "turing-machine",
+        "formal-methods",
+        "abstraction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Pushdown automaton - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pushdown_automaton",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

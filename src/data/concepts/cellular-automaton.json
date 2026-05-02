@@ -1,0 +1,76 @@
+{
+    "id": "cellular-automaton",
+    "name": "Cellular Automaton",
+    "summary": "A discrete computational model consisting of a grid of cells, each in one of a finite number of states, evolving in time according to fixed local rules.",
+    "explanation": "A cellular automaton (CA) is a discrete model studied in computability theory, mathematics, physics, and theoretical biology. It consists of a regular grid of cells, each in one of a finite number of states, that evolves through discrete time steps according to a fixed rule based on the states of neighboring cells. Despite their simplicity, cellular automata can exhibit astonishingly complex behavior — they are a paradigmatic example of how simple local rules can give rise to global complexity.\n\n## Core Components\n\n- **Grid (lattice)**: An array of cells, typically one-, two-, or three-dimensional\n- **States**: A finite set of values each cell can take (often just 0 and 1)\n- **Neighborhood**: The set of cells whose state determines a given cell's next value (e.g., the Moore or von Neumann neighborhood in 2D)\n- **Transition rule**: A deterministic (or stochastic) function mapping the current neighborhood configuration to the next state\n- **Initial configuration**: The starting pattern of states\n\n## Famous Examples\n\n- **Conway's Game of Life**: A 2D CA with two states; cells survive, die, or are born based on neighbor counts. Turing-complete despite trivial rules\n- **Rule 110**: A one-dimensional, two-state CA proven Turing-complete by Matthew Cook\n- **Rule 30**: Generates patterns with strong randomness properties; used in Wolfram's random number generation\n- **Langton's Ant**: A simple agent on a grid producing surprising emergent order\n- **Wireworld**: A CA designed to simulate digital electronic logic gates\n\n## Properties\n\n- **Local interaction, global behavior**: Each cell only sees its neighbors, but the whole grid exhibits collective patterns\n- **Parallelism**: All cells update simultaneously based on the previous step\n- **Determinism**: Most classical CAs are fully deterministic\n- **Discreteness**: In space, time, and state values\n- **Universality**: Several CAs are computationally universal — capable of simulating any Turing machine\n\n## Applications\n\n- **Modeling natural phenomena**: Crystal growth, fluid dynamics (lattice gas automata), biological pattern formation, forest fires, traffic flow\n- **Cryptography and PRNGs**: Rule 30 has been used to generate random sequences\n- **Image processing**: Edge detection, noise filtering, texture generation\n- **Procedural generation**: Cave systems and terrain in games\n- **Theoretical computer science**: Studying computation, complexity, and emergence\n- **Complex systems research**: Investigating how simple rules produce complexity\n\n## Why Cellular Automata Matter\n\nCellular automata are the cleanest demonstration that complexity does not require complicated rules — it can emerge from elementary local interactions. They challenge the intuition that complex outputs require complex inputs and serve as a foundational tool in the study of complex systems, emergence, and self-organization. Stephen Wolfram's *A New Kind of Science* argues that CAs offer a fundamentally different lens on natural laws, one based on simple programs rather than mathematical equations.",
+    "tags": [
+        "computer-science",
+        "modeling",
+        "complexity",
+        "systems",
+        "mathematics",
+        "emergence"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Cellular Automata",
+        "CA"
+    ],
+    "relatedConcepts": [
+        "turing-machine",
+        "state-machine",
+        "emergence",
+        "complex-adaptive-systems",
+        "self-organization"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Cellular automaton - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cellular_automaton",
+            "type": "website"
+        },
+        {
+            "title": "Conway's Game of Life - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

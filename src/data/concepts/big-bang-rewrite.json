@@ -1,0 +1,69 @@
+{
+    "id": "big-bang-rewrite",
+    "name": "Big Bang Rewrite",
+    "summary": "An approach to legacy modernization that replaces an existing system with a brand-new one in a single cutover, rather than evolving the system incrementally.",
+    "explanation": "A big bang rewrite is a software modernization strategy where an existing system is replaced by a completely new implementation in a single cutover event. Development happens in parallel with the legacy system, often for months or years, until the new version is judged ready and the old one is switched off. It is one of the most tempting and one of the most dangerous patterns in software engineering — and one that has a long history of high-profile failures.\n\n## How It Differs From Alternatives\n\n- **Big bang rewrite**: Build the new system in parallel, switch over all at once, retire the old\n- **Strangler fig pattern**: Gradually replace components of the old system one at a time behind stable interfaces, until nothing of the original remains\n- **Incremental modernization**: Refactor and rewrite in place, piece by piece, with the system remaining live throughout\n- **Lift and shift**: Move the existing system to new infrastructure with minimal changes\n\n## Why Teams Choose It\n\n- The legacy system uses obsolete technology no new engineers want to learn\n- Architecture is so entangled that incremental change feels impossible\n- Performance, scalability, or security limits cannot be addressed within the current design\n- Leadership is convinced a clean slate will be faster than evolution\n- The existing system is small enough that rewriting is genuinely cheaper\n\n## Why It So Often Fails\n\nJoel Spolsky's 2000 essay *Things You Should Never Do, Part I* identified the rewrite as \"the single worst strategic mistake that any software company can make.\" The recurring failure modes:\n\n- **Underestimating embedded knowledge**: The old code encodes years of edge cases, regulatory compliance, and bug fixes. Most of this is undocumented and only surfaces when the new system fails to handle a case the old one quietly did\n- **The second-system effect**: Engineers, finally freed from constraints, over-design the replacement with every feature they always wanted, dramatically expanding scope (Brooks's term in *The Mythical Man-Month*)\n- **Moving target**: The legacy system continues to evolve during the rewrite, so the team is chasing a goal that keeps moving. Either the rewrite is permanently behind on features, or new development is frozen — angering users\n- **No incremental value**: Years of investment with nothing shipped, no feedback, no validation of architecture choices against real usage\n- **Hidden integrations**: Other teams and systems depend on quirks of the legacy interface that nobody documented\n- **Migration cliff**: A single cutover means a single moment of maximum risk, with no easy rollback once data has diverged\n- **Talent drain**: Long projects without visible progress demoralize engineers; key people leave before the project finishes\n\n## Famous Cautionary Tales\n\n- **Netscape's Mozilla rewrite**: Joel Spolsky's example. Netscape lost years of market position rebuilding from scratch while Microsoft iterated on Internet Explorer\n- **Healthcare.gov initial launch (2013)**: A complex, schedule-driven big bang launch with disastrous early performance\n- **Many ERP and government IT modernizations**: A large fraction of multi-year public-sector rewrites have been written off as failures\n\n## When It Can Work\n\nBig bang rewrites are not always wrong. They can succeed when:\n\n- The system is small enough to rewrite in weeks, not years\n- The team has deep operational experience with the legacy system\n- A clear, narrow, frozen specification exists\n- The new system can be run side-by-side and validated against the old before cutover\n- The cutover can be staged (dual-writes, shadow traffic, gradual user migration) — at which point it starts to resemble a strangler approach\n\n## Better Defaults\n\nFor most non-trivial systems, prefer:\n\n- **Strangler fig pattern**: Replace one capability at a time, route traffic via a facade\n- **Branch by abstraction**: Introduce a seam, build the new implementation behind a flag, switch over per slice\n- **Parallel run / shadow traffic**: Run the new and old in parallel, compare outputs, build confidence before cutover\n- **Anti-corruption layer**: Insulate new code from legacy quirks behind a translation boundary\n\n## Why It Matters\n\nThe big bang rewrite is the canonical example of a strategy that feels rational and is usually wrong. Naming the pattern lets teams recognize when they are about to commit to it and triggers the right scrutiny: \"Are we really sure? What is the rollback plan? What incremental version of this could we ship in three months instead of three years?\" Most of the time, those questions lead to a different, less risky strategy.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "anti-patterns",
+        "legacy",
+        "engineering",
+        "strategies"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Big Bang Rewrite",
+        "Full Rewrite",
+        "Ground-up Rewrite",
+        "Big Bang Migration"
+    ],
+    "relatedConcepts": [
+        "strangler-fig-pattern",
+        "legacy-code",
+        "brownfield-project",
+        "greenfield-project",
+        "technical-debt",
+        "refactoring",
+        "second-system-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Working Effectively with Legacy Code by Michael Feathers",
+            "url": "https://www.amazon.com/dp/0131177052?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Mythical Man-Month by Frederick P. Brooks Jr.",
+            "url": "https://www.amazon.com/dp/0201835959?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Things You Should Never Do, Part I (Joel Spolsky)",
+            "url": "https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/",
+            "type": "website"
+        },
+        {
+            "title": "Rewrite (programming) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Rewrite_(programming)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

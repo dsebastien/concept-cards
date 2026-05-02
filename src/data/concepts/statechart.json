@@ -1,0 +1,83 @@
+{
+    "id": "statechart",
+    "name": "Statechart",
+    "summary": "An extension of finite state machines that adds hierarchy, concurrency, and history, designed by David Harel for modeling complex reactive systems.",
+    "explanation": "A statechart is a visual formalism for describing the behavior of complex reactive systems, introduced by David Harel in 1987. Statecharts extend traditional finite state machines with three crucial concepts — hierarchy, orthogonality (concurrency), and broadcast communication — solving the state explosion problem that plagues flat state machines. They form the basis of the UML state diagram and underpin practical libraries like XState.\n\n## Key Extensions Over State Machines\n\n- **Hierarchy (nesting)**: States can contain substates. A transition out of a parent state applies to all its children, eliminating the need to redraw the same transition from every leaf state\n- **Orthogonality (parallelism)**: A state can be split into multiple regions that are active simultaneously, modeling independent concurrent behaviors without combinatorial state explosion\n- **History states**: Pseudo-states that remember the last active substate, allowing a system to resume where it left off after exiting and re-entering a region\n- **Guards and actions**: Transitions can be conditional and trigger side effects on entry, exit, or during the transition itself\n- **Internal vs external transitions**: Self-transitions can either re-trigger entry/exit actions (external) or skip them (internal)\n\n## The State Explosion Problem It Solves\n\nA flat state machine modeling N independent boolean conditions requires 2^N states. With orthogonal regions, a statechart represents the same system as N parallel two-state machines — linear rather than exponential growth. This is what makes statecharts practical for non-trivial reactive systems.\n\n## Semantic Models\n\n- **Harel semantics**: The original formulation, with macro-step semantics where multiple transitions can fire in response to a single event\n- **UML semantics**: Adopted into UML 2.x state machines, with run-to-completion semantics\n- **SCXML**: A W3C standard XML notation for statecharts\n\n## Practical Applications\n\n- **UI state management**: Complex forms, multi-step flows, modals (XState, Stately)\n- **Embedded and real-time systems**: Avionics, automotive control units, medical devices\n- **Game development**: Character behaviors, AI, game phase management\n- **Communication protocols**: Connection lifecycles, handshakes, error recovery\n- **Robotics**: Behavior modeling, mode management\n\n## Why Statecharts Matter\n\nStatecharts make the implicit explicit, just like state machines do — but at a scale where flat machines would be unreadable or impossible to draw. They turn the question \"what happens when X occurs in this situation?\" from a guess into a diagram lookup. By eliminating impossible states by construction and making concurrency explicit, they reduce a major class of bugs in interactive and reactive systems.",
+    "tags": [
+        "computer-science",
+        "software-development",
+        "modeling",
+        "design-patterns",
+        "systems",
+        "reactive-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Statecharts",
+        "State Chart",
+        "Harel Statechart",
+        "Hierarchical State Machine Notation"
+    ],
+    "relatedConcepts": [
+        "state-machine",
+        "hierarchical-state-machine",
+        "event-driven-architecture",
+        "design-patterns",
+        "abstraction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "State diagram - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/State_diagram",
+            "type": "website"
+        },
+        {
+            "title": "Statecharts: A Visual Formalism for Complex Systems (Harel, 1987)",
+            "url": "https://www.sciencedirect.com/science/article/pii/0167642387900359",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

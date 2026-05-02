@@ -1,0 +1,74 @@
+{
+    "id": "petri-net",
+    "name": "Petri Net",
+    "summary": "A mathematical modeling language for distributed systems that uses places, transitions, and tokens to represent concurrent processes and resource flow.",
+    "explanation": "A Petri net is a mathematical modeling language for the description of distributed systems, invented by Carl Adam Petri in 1962. It is a directed bipartite graph that excels at modeling concurrent, asynchronous, distributed, parallel, nondeterministic, or stochastic systems. Where ordinary state machines model a single thread of control, Petri nets natively express multiple simultaneous activities and the synchronization between them.\n\n## Core Elements\n\n- **Places**: Represented as circles, places hold tokens and typically denote conditions, resources, or buffers\n- **Transitions**: Represented as bars or boxes, transitions are the events that may occur (firing)\n- **Arcs**: Directed edges connecting places to transitions or transitions to places — never place-to-place or transition-to-transition\n- **Tokens**: Markers that occupy places and represent the dynamic state of the net (the marking)\n\n## Firing Rules\n\nA transition is **enabled** when each input place holds at least as many tokens as the weight of the connecting arc. When an enabled transition **fires**, it removes tokens from input places and deposits tokens in output places. Multiple transitions may be enabled simultaneously, and the choice of which to fire is non-deterministic — this is what gives Petri nets their power for modeling concurrency.\n\n## Variants and Extensions\n\n- **Place/Transition nets**: The classical untyped form\n- **Colored Petri nets (CPN)**: Tokens carry data values, allowing compact representation of complex systems\n- **Timed Petri nets**: Transitions have associated delays for performance modeling\n- **Stochastic Petri nets**: Transition firing follows probability distributions\n- **Hierarchical Petri nets**: Subnets can be nested for scalability\n\n## Applications\n\n- **Workflow modeling**: Business processes, especially those with parallel branches and synchronization\n- **Manufacturing systems**: Production lines, resource allocation, just-in-time scheduling\n- **Communication protocols**: Modeling message passing and synchronization\n- **Distributed computing**: Race conditions, deadlock analysis, liveness verification\n- **Software engineering**: Concurrent program verification, embedded systems\n- **Biology**: Metabolic pathways, gene regulatory networks\n\n## Why Petri Nets Matter\n\nPetri nets provide both a visual diagrammatic notation and a rigorous mathematical foundation. Properties like reachability, boundedness, liveness, and deadlock-freedom can be analyzed formally. They are particularly valuable when you need to reason about systems where multiple things happen at once and where synchronization, resource sharing, or mutual exclusion matters — situations that simple state machines cannot express compactly.",
+    "tags": [
+        "computer-science",
+        "modeling",
+        "concurrency",
+        "systems",
+        "formal-methods",
+        "distributed-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Petri Nets",
+        "Place/Transition Net",
+        "P/T Net"
+    ],
+    "relatedConcepts": [
+        "state-machine",
+        "turing-machine",
+        "graph-theory",
+        "event-driven-architecture",
+        "formal-methods",
+        "process-calculus",
+        "workflow-engine"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Petri net - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Petri_net",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

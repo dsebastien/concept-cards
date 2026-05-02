@@ -1,0 +1,52 @@
+{
+    "id": "greenfield-project",
+    "name": "Greenfield Project",
+    "summary": "A software project started from scratch with no constraints from prior work, allowing free choice of technologies, architecture, and approach.",
+    "explanation": "A greenfield project is a software development effort that starts from a blank slate — no existing codebase, no legacy data formats, no entrenched infrastructure, no inherited architectural decisions. The term is borrowed from urban development, where a greenfield site is undeveloped land, in contrast to a brownfield site that has prior buildings or contamination to deal with. In software, the metaphor captures both the freedom and the responsibility of starting fresh.\n\n## Characteristics\n\n- **No legacy constraints**: No backwards-compatibility requirements, no migration concerns, no lock-in to past decisions\n- **Technology freedom**: Free choice of language, framework, database, deployment platform\n- **Clean architecture potential**: Opportunity to design from first principles rather than around existing structure\n- **Empty repo, blank database, undefined domain model**: Everything must be created\n- **Often new domain or new market**: Frequently associated with new products rather than rebuilds of existing ones\n\n## Advantages\n\n- **Maximum design flexibility**: You can pick the best tools for the job rather than what fits the existing stack\n- **No accumulated technical debt**: The codebase starts clean and well-structured if you keep it that way\n- **Faster early velocity**: Without integration constraints, initial features can ship quickly\n- **Attractive to engineers**: Greenfield work is often considered more enjoyable and creatively rewarding\n- **Modern practices from day one**: CI/CD, observability, testing, infrastructure-as-code can be set up correctly from the start\n\n## Hidden Pitfalls\n\nGreenfield freedom is also greenfield risk. Common traps include:\n\n- **Over-engineering**: Without real constraints to push back, teams build elaborate frameworks for problems that may never materialize\n- **Premature scaling decisions**: Choosing microservices, exotic databases, or complex infrastructure before understanding actual load patterns\n- **Analysis paralysis**: With every choice open, decisions take longer; technology selection becomes a project in itself\n- **Re-inventing solved problems**: Building things from scratch that mature off-the-shelf solutions already handle\n- **No real users yet**: Without production usage, design decisions are based on assumptions rather than evidence\n- **Bus factor of one**: Early greenfield codebases often live entirely in one or two heads\n\n## When Greenfield Is the Right Call\n\n- Building a genuinely new product or market entry\n- Existing system is structurally beyond rescue and a strangler approach is impractical\n- The new requirements diverge so far from the old system that incremental change would cost more than rewriting\n- The team needs to validate a fundamentally new architectural direction\n\n## When It Is the Wrong Call\n\n- A working system serves users today and the perceived ugliness is mostly familiarity contempt\n- Rewrites historically take much longer than estimated and rarely deliver promised improvements (see Joel Spolsky's \"Things You Should Never Do\")\n- The implicit knowledge encoded in the current system (edge cases, regulatory quirks, hard-won fixes) is not yet documented\n- A strangler fig pattern would let you replace the system incrementally with less risk\n\n## Greenfield vs Brownfield\n\nThe contrast with brownfield projects is the key axis. Greenfield maximizes design freedom but offers no real-world feedback. Brownfield is constrained by reality but grounded in actual usage. Most successful long-lived systems were greenfield only briefly; they spend the majority of their life as brownfield codebases.\n\n## Why It Matters\n\nThe greenfield/brownfield distinction shapes how teams approach planning, risk, and architecture. Recognizing which mode you are in helps calibrate expectations: greenfield projects need discipline against over-engineering and a bias toward shipping; brownfield projects need patience for incremental change and respect for the embedded knowledge in the existing system.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "projects",
+        "engineering",
+        "design"
+    ],
+    "category": "Software Development",
+    "icon": "FaSeedling",
+    "featured": false,
+    "aliases": [
+        "Greenfield Development",
+        "Greenfield Software",
+        "Greenfield Codebase"
+    ],
+    "relatedConcepts": [
+        "brownfield-project",
+        "legacy-code",
+        "technical-debt",
+        "essential-vs-accidental-complexity",
+        "strangler-fig-pattern",
+        "big-bang-rewrite"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Greenfield project - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Greenfield_project",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "brownfield-project",
+    "name": "Brownfield Project",
+    "summary": "A software project that involves working with, extending, or modernizing existing systems and codebases, constrained by prior decisions, data, and integrations.",
+    "explanation": "A brownfield project is a software development effort that builds on top of, integrates with, or modifies existing systems rather than starting from scratch. The term mirrors urban development, where a brownfield site has prior structures or contamination that must be accommodated. Most professional software work is brownfield: the system already exists, users depend on it, data is in production, and any change must coexist with what came before.\n\n## Characteristics\n\n- **Existing codebase, schema, and infrastructure**: You inherit decisions made years ago, possibly by people no longer at the company\n- **Live users and production data**: Changes carry real consequences and must preserve correctness across the existing dataset\n- **Integration constraints**: Other systems consume APIs, share databases, or depend on file formats you cannot freely change\n- **Mixed quality**: Some parts well-designed and well-tested, others crufty and brittle, often with little visible difference between them\n- **Embedded business knowledge**: The current system encodes years of edge cases, regulatory requirements, and bug fixes — much of it undocumented\n- **Legacy technology**: May involve outdated languages, frameworks, or platforms that limit modern tooling\n\n## Why Most Real Work Is Brownfield\n\nGreenfield phases of a successful system are short. Once a product reaches production and starts serving users, every subsequent change is brownfield work — adding features, fixing bugs, improving performance, paying down technical debt, integrating new services. Engineers who spend their careers in commercial software work overwhelmingly on brownfield codebases.\n\n## Strategies for Brownfield Work\n\n- **Strangler Fig Pattern**: Gradually replace pieces of the old system with new implementations behind a stable interface, retiring legacy code incrementally\n- **Anti-corruption layer**: Insulate new code from legacy quirks behind a translation boundary, preventing legacy concepts from leaking into new design\n- **Characterization tests**: Write tests that lock in *current* behavior (warts and all) before refactoring, so you can detect unintended changes\n- **Branch by abstraction**: Introduce an abstraction over the part you want to change, build the new implementation behind a feature flag, switch over, then remove the old\n- **Incremental migration**: Move users, data, or functionality in batches rather than all at once\n- **Read the code, then trust it less**: The code shows what *is*, but does not always reflect what was *intended* or what users now *expect*\n\n## Common Pitfalls\n\n- **Underestimating implicit knowledge**: \"This module is simple, we can rewrite it in a week\" — ignoring the dozens of edge cases the current code quietly handles\n- **Big bang rewrite temptation**: Believing a from-scratch rewrite will be faster and cleaner. It usually isn't\n- **Refactoring without tests**: Changing structure without safety nets in a system you don't fully understand\n- **Treating legacy code with contempt**: It got the company this far; the people who wrote it usually had reasons\n- **Skipping operational learning**: Without understanding how the system runs in production, refactors can quietly break things that were never tested\n\n## Skills That Matter More in Brownfield\n\n- **Reading code**: Far more time goes into understanding existing code than writing new code\n- **Archaeology**: Tracing why a piece of code exists through git history, tickets, and conversation\n- **Empathy for prior decisions**: Recognizing that constraints, deadlines, and information available at the time shaped the code\n- **Risk assessment**: Knowing which changes are safe, which need rollback plans, and which require canary deployments\n- **Patience and humility**: Real brownfield improvement is incremental and rarely glamorous\n\n## Greenfield vs Brownfield\n\nThe distinction is not just about codebase age but about constraints. Greenfield prioritizes design freedom; brownfield prioritizes continuity of service and respect for embedded knowledge. The same engineer often works in both modes — and the harder skill, less frequently taught, is being effective in brownfield contexts.\n\n## Why It Matters\n\nMisidentifying which kind of project you are on leads to predictable failure. Treating brownfield work as if it were greenfield invites rewrite disasters; treating greenfield work as if it were brownfield invites unnecessary caution and over-engineering. Naming the mode explicitly helps a team set the right expectations, choose appropriate strategies, and apply the right risk discipline.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "projects",
+        "engineering",
+        "legacy",
+        "maintenance"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Brownfield Development",
+        "Brownfield Software",
+        "Brownfield Codebase"
+    ],
+    "relatedConcepts": [
+        "greenfield-project",
+        "legacy-code",
+        "technical-debt",
+        "strangler-fig-pattern",
+        "refactoring",
+        "big-bang-rewrite",
+        "essential-vs-accidental-complexity"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Working Effectively with Legacy Code by Michael Feathers",
+            "url": "https://www.amazon.com/dp/0131177052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Brownfield (software development) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Brownfield_(software_development)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

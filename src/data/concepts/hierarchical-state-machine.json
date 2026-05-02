@@ -1,0 +1,78 @@
+{
+    "id": "hierarchical-state-machine",
+    "name": "Hierarchical State Machine",
+    "summary": "A state machine extension where states can contain nested substates, enabling shared transitions, behavior inheritance, and compact representation of complex behavior.",
+    "explanation": "A hierarchical state machine (HSM) is a state machine whose states can themselves contain entire state machines. This nesting transforms state machines from flat, often unwieldy graphs into structured trees — the essential insight behind statecharts, UML state diagrams, and frameworks like the Quantum Framework (QP) and XState.\n\n## How Nesting Works\n\nIn a flat state machine, each leaf state must individually define every transition that applies to it. In an HSM, a parent (composite) state can define transitions that all of its child states inherit. When an event arrives, the HSM looks for a handler starting at the currently active leaf state and walks up the hierarchy until it finds one. This is structurally analogous to method overriding in object-oriented programming — child states override parent behavior, parents provide defaults.\n\n## Key Concepts\n\n- **Composite state**: A state containing one or more substates\n- **Simple (leaf) state**: A state with no substates\n- **Initial pseudo-state**: Marks the default substate to enter when a composite state is entered\n- **Entry/exit actions**: Run when crossing the boundary of a state at any level, executed in the correct nesting order\n- **Local vs external transitions**: Whether a self-transition crosses the parent boundary or stays within it\n- **Event deferral**: A state can postpone an event for handling by another state later\n\n## Benefits\n\n- **Avoids state explosion**: Common transitions are factored up the hierarchy instead of duplicated across leaf states\n- **Behavioral inheritance**: New states inherit handling from ancestors automatically\n- **Programming by difference**: Specify only what changes between a parent and its children\n- **Clearer semantics for cross-cutting events**: \"Cancel\" or \"timeout\" events handled once at the top apply everywhere within\n- **Easier maintenance**: Changes to shared behavior are made in one place\n\n## Relation to Statecharts\n\nHierarchical state machines are the core of Harel's statecharts. Statecharts add orthogonality (parallel regions), history pseudo-states, and broadcast communication on top of hierarchy. Many implementations referred to as \"statechart libraries\" support hierarchy but only a subset of full Harel semantics.\n\n## Implementations and Tools\n\n- **XState** (JavaScript/TypeScript): Statecharts and HSMs for UI and backend\n- **Quantum Framework (QP)**: HSMs for embedded real-time systems\n- **Boost.MSM, Boost.SML** (C++): Header-only HSM libraries\n- **Stateflow** (MATLAB): HSMs for control systems and simulation\n- **UML state machines**: Standardized HSM notation\n\n## Why Hierarchical State Machines Matter\n\nFlat state machines are theoretically powerful but practically painful at scale. By the time you have a dozen states with cross-cutting behavior, the diagram becomes spaghetti and the code becomes a switch-statement nightmare. HSMs preserve the explicit, testable nature of state machines while making large designs tractable. They are the reason state machines remain a viable tool for real systems instead of a textbook curiosity.",
+    "tags": [
+        "computer-science",
+        "software-development",
+        "design-patterns",
+        "modeling",
+        "systems",
+        "abstraction"
+    ],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "HSM",
+        "Hierarchical FSM",
+        "Nested State Machine",
+        "Composite State Machine"
+    ],
+    "relatedConcepts": [
+        "state-machine",
+        "statechart",
+        "design-patterns",
+        "abstraction",
+        "event-driven-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "UML state machine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/UML_state_machine",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

@@ -1,0 +1,83 @@
+{
+    "id": "workflow-engine",
+    "name": "Workflow Engine",
+    "summary": "Software that defines, executes, monitors, and coordinates sequences of tasks, transitions, and conditions that make up a business or technical process.",
+    "explanation": "A workflow engine is a software system that orchestrates the execution of workflows — defined sequences of tasks, decisions, and transitions that together accomplish a business or technical process. The engine separates *what* the process does (the workflow definition) from *how* it runs (scheduling, retries, persistence, monitoring), letting domain experts model processes while the engine handles execution concerns.\n\n## Core Responsibilities\n\n- **Workflow definition**: A declarative description of steps, transitions, conditions, parallel branches, and error paths\n- **State management**: Track where each running workflow instance is, persist progress across failures and restarts\n- **Task scheduling and dispatch**: Decide what runs next, route work to available workers\n- **Coordination**: Handle parallel branches, joins, timeouts, retries, compensations\n- **Human task management**: Pause for user input or approval, then resume\n- **Monitoring and audit**: Provide visibility into running and completed workflows\n- **Versioning**: Allow workflow definitions to evolve while in-flight instances continue on the version they started with\n\n## Architectural Approaches\n\n- **Orchestration engines**: A central coordinator drives each workflow step. Examples: Camunda, Temporal, Cadence, Airflow, Step Functions\n- **Choreography**: No central coordinator; services react to events from a shared bus. Often built with event-driven architectures\n- **Stateful vs stateless engines**: Stateful engines (Temporal, Camunda) persist workflow state for durability; stateless ones rely on external state stores\n- **Code-first vs model-first**: Code-first engines (Temporal, Conductor) let developers express workflows in regular code with checkpointing; model-first engines (Camunda, Activiti) use BPMN diagrams as the source of truth\n\n## Common Building Blocks\n\n- **Activities / tasks**: Units of work executed by workers\n- **Decisions / gateways**: Branching logic based on data or external signals\n- **Parallel branches and joins**: Run multiple paths concurrently and synchronize at a join point\n- **Timers**: Wait for a duration, schedule retries, enforce deadlines\n- **Signals and events**: Inject external data into running workflows\n- **Compensation handlers**: Undo previous steps when a later step fails (saga pattern)\n- **Sub-workflows**: Compose larger workflows from smaller reusable ones\n\n## Notable Workflow Engines\n\n- **Temporal / Cadence**: Code-first, durable, distributed; popular for long-running microservice orchestration\n- **Camunda / Zeebe**: BPMN-native, widely used for business process automation\n- **Apache Airflow**: Python DAGs, dominant in data engineering and ETL\n- **Prefect, Dagster**: Modern data-orchestration alternatives to Airflow\n- **AWS Step Functions, Azure Durable Functions, Google Workflows**: Cloud-native managed offerings\n- **n8n, Zapier, Make**: Low-code workflow tools focused on integrations\n- **Argo Workflows**: Kubernetes-native workflow engine\n\n## When to Use a Workflow Engine\n\n- Long-running processes that span seconds to months\n- Business processes requiring auditability, reliability, or human steps\n- Distributed transactions needing the saga pattern with compensations\n- Data pipelines with dependencies between many tasks\n- Anywhere ad hoc cron + queues + state tables would otherwise be reinvented\n\n## Trade-offs\n\n- **Operational complexity**: Engines are themselves stateful systems that need running, scaling, and monitoring\n- **Lock-in**: Workflow definitions are usually engine-specific\n- **Debugging**: Distributed durable execution can be hard to reason about without good observability\n- **Latency**: Persistence and coordination add overhead unsuited to ultra-low-latency use cases\n\n## Why Workflow Engines Matter\n\nWithout a workflow engine, teams that need durable, multi-step, distributed processes typically rebuild the same primitives — state machines on top of databases, retries on top of queues, timers on top of cron, and audit logs bolted on the side. A workflow engine packages these as a first-class platform, letting application code focus on business logic. They are the natural execution substrate for state machines, statecharts, BPMN diagrams, and saga patterns at scale.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "automation",
+        "distributed-systems",
+        "orchestration",
+        "tools"
+    ],
+    "category": "Software Development",
+    "icon": "FaCogs",
+    "featured": false,
+    "aliases": [
+        "Workflow Orchestration Engine",
+        "Process Engine",
+        "Orchestration Engine"
+    ],
+    "relatedConcepts": [
+        "state-machine",
+        "statechart",
+        "petri-net",
+        "event-driven-architecture",
+        "business-process-management",
+        "bpmn"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Workflow engine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Workflow_engine",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Library",
+            "url": "https://store.dsebastien.net/product/pkm-library",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

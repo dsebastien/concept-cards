@@ -1,0 +1,44 @@
+{
+    "id": "process-calculus",
+    "name": "Process Calculus",
+    "summary": "A family of formal approaches to modeling concurrent systems through algebraic operations on processes that communicate via message passing.",
+    "explanation": "A process calculus (or process algebra) is a formal mathematical framework for modeling and reasoning about concurrent and communicating systems. Where Petri nets give a visual, graph-based view of concurrency, process calculi provide a textual, algebraic view: processes are terms in a formal language, and their behavior is defined by rewriting rules. They are foundational to the theory of concurrency and underpin languages like Erlang, Go's CSP-inspired channels, and the actor model.\n\n## The Core Idea\n\nA process calculus defines a small grammar of operators for combining processes — sequencing, parallel composition, choice, communication, restriction — and an operational semantics that says how a composed system evolves. Two processes are considered equivalent if they exhibit the same observable behavior under all contexts (bisimulation equivalence).\n\n## Major Calculi\n\n- **CCS (Calculus of Communicating Systems)**: Robin Milner's foundational calculus introducing parallel composition and synchronous communication on named channels\n- **CSP (Communicating Sequential Processes)**: Tony Hoare's calculus emphasizing synchronous channel-based communication. Inspired the concurrency models of Occam, Go, and Clojure's core.async\n- **π-calculus (pi-calculus)**: Milner's extension of CCS where channel names themselves can be passed as messages, capturing mobility of communication links\n- **Ambient calculus**: Models computation in mobile, hierarchical contexts (Cardelli and Gordon)\n- **Join calculus**: Underpins functional concurrent languages with pattern-matched joins\n- **ACP (Algebra of Communicating Processes)**: An algebraic counterpart focusing on equational reasoning\n\n## Common Operators\n\n- **Action prefix (a.P)**: Perform action a, then behave like P\n- **Parallel composition (P | Q)**: P and Q run concurrently and may communicate\n- **Choice (P + Q)**: Behave like either P or Q, decided by interaction\n- **Restriction (νx.P)**: Hide channel x from the outside world\n- **Replication (!P)**: Spawn arbitrarily many copies of P\n- **Recursion / fixed-point**: Define infinite behaviors\n\n## Behavioral Equivalences\n\n- **Trace equivalence**: Same set of observable action sequences\n- **Bisimulation**: Mutually simulating step-by-step — the strongest standard equivalence\n- **Weak bisimulation**: Ignores internal (silent) actions\n\nThese equivalences let designers replace one process with another without affecting the system's observable behavior.\n\n## Applications and Influence\n\n- **Concurrent programming languages**: Erlang, Go (CSP-inspired channels), Occam, Plan 9's libthread\n- **Reactive systems**: Actor frameworks like Akka, Pony\n- **Cryptographic protocol verification**: Spi-calculus and applied pi-calculus model security protocols; tools like ProVerif analyze them\n- **Mobile and distributed systems**: Pi-calculus captures dynamic topologies\n- **Service-oriented architecture**: WS-CDL and BPEL semantics drew on process algebra\n- **Hardware verification**: Reasoning about communicating components\n\n## Relation to Other Models\n\n- **vs Petri nets**: Both model concurrency; nets are graph-based with shared resources, calculi are algebraic with explicit channels. They are complementary and have known translations\n- **vs State machines**: A single process is essentially a labeled transition system; calculi let you compose many such systems algebraically\n- **vs Actor model**: The actor model can be encoded in pi-calculus; both emphasize asynchronous messaging and isolation\n\n## Why Process Calculi Matter\n\nProcess calculi provide a vocabulary and a proof theory for concurrency the way the lambda calculus does for sequential computation. They make it possible to ask — and answer — precise questions like \"is this protocol deadlock-free?\" or \"does this refactoring preserve observable behavior?\". Their abstractions have shaped how modern languages and frameworks express concurrent and distributed computation.",
+    "tags": [
+        "computer-science",
+        "concurrency",
+        "formal-methods",
+        "modeling",
+        "distributed-systems",
+        "mathematics"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Process Algebra",
+        "Process Calculi",
+        "CCS",
+        "CSP",
+        "Pi-calculus"
+    ],
+    "relatedConcepts": [
+        "petri-net",
+        "state-machine",
+        "formal-methods",
+        "event-driven-architecture",
+        "abstraction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Process calculus - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Process_calculus",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}

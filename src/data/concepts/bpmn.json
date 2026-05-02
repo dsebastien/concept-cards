@@ -1,0 +1,67 @@
+{
+    "id": "bpmn",
+    "name": "Business Process Model and Notation",
+    "summary": "A standardized graphical notation for specifying business processes in a business process diagram, designed to be understandable by both business users and developers.",
+    "explanation": "Business Process Model and Notation (BPMN) is an OMG (Object Management Group) standard providing a graphical notation for specifying business processes in a Business Process Diagram (BPD). Its goal is to give business analysts, technical developers, and the people who manage and monitor processes a single shared notation — bridging what would otherwise be a large communication gap between business intent and technical implementation.\n\n## Why BPMN Exists\n\nBefore BPMN, business processes were described in many incompatible notations: flowcharts, UML activity diagrams, ad hoc swimlane diagrams, vendor-specific tooling. BPMN unifies these into a single standard rich enough to model real-world processes (parallel paths, exceptions, message exchanges, time-based events, sub-processes) yet visual enough that non-technical stakeholders can read and validate the diagrams.\n\n## Core Element Categories\n\n- **Flow Objects**: The verbs of a diagram\n  - **Activities**: Tasks (user, service, script, business rule, manual, send, receive) and sub-processes\n  - **Events**: Things that happen (start, intermediate, end), classified by trigger (message, timer, signal, error, escalation, compensation)\n  - **Gateways**: Decision points controlling flow divergence and convergence (exclusive, parallel, inclusive, event-based, complex)\n- **Connecting Objects**: Sequence flows (within a pool), message flows (across pools), associations (linking artifacts)\n- **Swimlanes**: Pools (independent participants/processes) and lanes (roles within a pool)\n- **Artifacts**: Data objects, groups, annotations\n\n## Levels of BPMN Usage\n\n- **Descriptive**: A small subset for documenting processes for human readers\n- **Analytical**: More elements for analysis and improvement, including event types and gateways\n- **Executable**: The full subset that workflow engines can directly execute (BPMN 2.0)\n\nThis tiered usage is a deliberate design choice: a process modeled at the descriptive level can be progressively refined into something an engine can run.\n\n## BPMN 2.0 and Execution\n\nBPMN 2.0 (2011) introduced precise execution semantics, an XML interchange format, and enough rigor for tooling to compile diagrams to executable workflows. Engines like Camunda, Zeebe, Activiti, and jBPM execute BPMN 2.0 directly — the diagram *is* the program.\n\n## Common Patterns\n\n- **Sequential flow**: Linear task chains\n- **Parallel split and join**: Concurrent paths via parallel gateways\n- **Exclusive choice**: Decision via XOR gateway based on data\n- **Event-based gateway**: Wait for whichever event arrives first\n- **Boundary events**: Attach an interrupt (timer, error, message) to a task\n- **Compensation**: Define rollback handlers for completed work\n- **Sub-processes and call activities**: Reuse process fragments\n\n## When BPMN Helps\n\n- Cross-functional business processes spanning multiple roles or systems\n- Long-running workflows with timers, human steps, and exceptional paths\n- Compliance-heavy domains needing auditable, documented processes\n- Migration of paper or tribal-knowledge processes into digital workflows\n- Bridging communication between business stakeholders and engineering\n\n## Trade-offs\n\n- **Modeling discipline**: Diagrams quickly become unreadable without naming conventions and decomposition into sub-processes\n- **Tool dependence**: Vendor extensions can fragment portability\n- **Not for everything**: Highly algorithmic logic, real-time control, or short-lived API calls are usually clearer in code\n- **Learning curve**: The full BPMN notation is large; most teams use a subset\n\n## Relation to Other Notations\n\n- **vs UML Activity Diagrams**: Similar visual style; BPMN is the de facto standard for business processes, UML for software internals\n- **vs DMN (Decision Model and Notation)**: DMN handles decision logic; BPMN handles process flow. They are complementary OMG standards\n- **vs CMMN (Case Management Model and Notation)**: CMMN models knowledge work where the path is not predetermined; BPMN suits structured, repeatable processes\n\n## Why BPMN Matters\n\nBPMN gives organizations a shared, executable language for describing how work gets done. By making processes explicit and machine-readable, it enables analysis, simulation, automation, and continuous improvement — turning processes from tacit knowledge held in employees' heads into first-class artifacts that can be reasoned about, optimized, and evolved.",
+    "tags": [
+        "modeling",
+        "businesses",
+        "processes",
+        "automation",
+        "standards",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "BPMN",
+        "BPMN 2.0",
+        "Business Process Diagram"
+    ],
+    "relatedConcepts": [
+        "business-process-management",
+        "workflow-engine",
+        "state-machine",
+        "petri-net",
+        "event-driven-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Business Process Model and Notation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation",
+            "type": "website"
+        },
+        {
+            "title": "BPMN Specification (OMG)",
+            "url": "https://www.omg.org/spec/BPMN/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01"
+}
