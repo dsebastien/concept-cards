@@ -1,0 +1,86 @@
+{
+    "id": "cross-entropy",
+    "name": "Cross-Entropy",
+    "summary": "An information-theoretic measure of dissimilarity between two probability distributions, ubiquitous as the loss function for classification and language modeling.",
+    "explanation": "Cross-entropy measures the **average number of bits needed to encode samples from one distribution P using a code optimized for another distribution Q**. It is the workhorse loss function of modern machine learning: every classifier you train, every language model that predicts the next token, and most generative models are minimizing some form of cross-entropy.\n\n## Definition\n\nFor distributions P (true) and Q (predicted) over the same set of outcomes:\n\n*H(P, Q) = -Σ P(x) log Q(x)*\n\nThe relationship to other quantities is:\n\n*H(P, Q) = H(P) + D_KL(P ∥ Q)*\n\nWhen the logarithm is base 2, cross-entropy is in bits; with the natural log, it is in nats.\n\n## Intuition\n\n- If Q = P, cross-entropy equals the entropy H(P) — the minimum possible average code length\n- If Q ≠ P, cross-entropy is strictly greater than H(P), with the excess being the KL divergence — the *cost* of using the wrong model\n- A perfectly confident, perfectly correct prediction gives cross-entropy of 0\n- Confidently wrong predictions blow up cross-entropy toward infinity (the −log of a near-zero probability)\n\nThis last property is why cross-entropy is such an effective loss: it strongly penalizes models that are *confidently wrong*, forcing them to express calibrated uncertainty.\n\n## Why It's the Default ML Loss\n\nFor classification tasks, the true label distribution is one-hot: P puts probability 1 on the correct class. Then:\n\n*H(P, Q) = -log Q(correct class)*\n\nMinimizing this over a dataset is equivalent to **maximum likelihood estimation**. Since H(P) is constant when labels are fixed, minimizing cross-entropy is identical to minimizing KL divergence between the labels and the model.\n\n## Common Forms\n\n- **Binary cross-entropy** (BCE): for two-class problems with sigmoid outputs. Used in binary classification, multi-label classification, and GAN discriminators\n- **Categorical cross-entropy**: for multi-class problems with softmax outputs. Standard for image classification, sentiment analysis, etc.\n- **Sparse categorical cross-entropy**: same as categorical, but takes integer labels instead of one-hot vectors\n- **Token-level cross-entropy**: averaged over tokens in language models. Perplexity is the exponential of this loss\n- **Sequence cross-entropy**: summed across all positions in sequence-to-sequence tasks\n\n## Cross-Entropy and Language Models\n\nLanguage model training is cross-entropy minimization at scale:\n\n- For each token, the true distribution is one-hot on the actual next token\n- The model outputs a probability distribution over the vocabulary\n- The loss is the negative log-probability the model assigned to the actual next token\n- **Perplexity** = exp(cross-entropy) — the effective number of options the model is choosing among\n\nLower cross-entropy means the model is less surprised by real text, i.e., it has learned the distribution of language better.\n\n## Practical Properties\n\n- **Convex** for linear models with softmax/sigmoid outputs, leading to well-behaved optimization\n- **Calibration sensitive**: cross-entropy rewards calibrated probability outputs, not just correct argmax decisions\n- **Numerical stability**: implementations combine softmax and log into a single 'logsumexp' operation to avoid overflow\n- **Class imbalance**: needs reweighting, focal loss, or sampling strategies when classes are imbalanced\n- **Label smoothing**: replacing one-hot labels with a softened distribution can improve generalization by preventing the model from becoming over-confident\n\n## Cross-Entropy vs. Other Losses\n\n- **MSE for classification** is a poor choice: it doesn't penalize confident wrong predictions as sharply, and gradients vanish when the sigmoid saturates\n- **Hinge loss** (used in SVMs) optimizes margin, not probability\n- **Focal loss** is a modulated cross-entropy that down-weights easy examples — useful for object detection with extreme class imbalance\n\n## Mental Model\n\nCross-entropy answers: *given my model's beliefs about the world, how surprised would I be on average to see real data?* Minimizing it is the most direct way to make a probabilistic model match reality. Every time you train a softmax classifier, fine-tune an LLM, or evaluate a language model with perplexity, you are working with cross-entropy.",
+    "tags": [
+        "information-theory",
+        "machine-learning",
+        "ai",
+        "metrics",
+        "evaluation",
+        "mathematics",
+        "models"
+    ],
+    "category": "AI",
+    "icon": "FaCalculator",
+    "featured": false,
+    "aliases": [
+        "Cross Entropy Loss",
+        "Log Loss",
+        "Negative Log-Likelihood Loss",
+        "Categorical Cross-Entropy",
+        "Binary Cross-Entropy"
+    ],
+    "relatedConcepts": [
+        "shannon-entropy",
+        "kl-divergence",
+        "mutual-information",
+        "information-theory",
+        "perplexity",
+        "large-language-models",
+        "next-token-prediction"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Cross-entropy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cross-entropy",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville",
+            "url": "https://www.amazon.com/dp/0262035618?tag=dsebastien00-20"
+        },
+        {
+            "title": "Pattern Recognition and Machine Learning by Christopher Bishop",
+            "url": "https://www.amazon.com/dp/0387310738?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04"
+}

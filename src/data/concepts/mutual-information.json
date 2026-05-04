@@ -1,0 +1,85 @@
+{
+    "id": "mutual-information",
+    "name": "Mutual Information",
+    "summary": "A measure of how much knowing one random variable reduces uncertainty about another, capturing the strength of any relationship — linear or not — between them.",
+    "explanation": "Mutual Information (MI) quantifies the amount of information that two random variables share. Formally, it is the reduction in uncertainty about one variable that results from observing another. Unlike correlation, mutual information captures **any** statistical dependency — linear, nonlinear, or symbolic — making it one of the most general measures of association in statistics and machine learning.\n\n## Definition\n\nFor random variables X and Y with joint distribution p(x, y):\n\n*I(X; Y) = H(X) − H(X | Y) = H(Y) − H(Y | X) = H(X) + H(Y) − H(X, Y)*\n\nEquivalently, it is the KL divergence between the joint distribution and the product of the marginals:\n\n*I(X; Y) = D_KL( p(x, y) ∥ p(x) p(y) )*\n\nMutual information is **non-negative**, **symmetric** (I(X; Y) = I(Y; X)), and equals **zero if and only if X and Y are statistically independent**.\n\n## Intuition\n\n- I(X; Y) = 0 → X and Y are independent; observing one tells you nothing about the other\n- I(X; Y) is large → X and Y carry a lot of shared information\n- I(X; X) = H(X) → a variable carries full information about itself\n\nIt is measured in bits (when using log₂) or nats (when using natural log).\n\n## Why It Beats Correlation\n\nPearson correlation only detects linear relationships. Two variables can be deterministically related yet have zero correlation (e.g., Y = X²). Mutual information captures **any** dependency:\n\n- Linear, nonlinear, or piecewise relationships\n- Categorical, ordinal, or mixed data\n- Symbolic dependencies (e.g., Y is a hash of X)\n\nThis makes MI a natural choice for feature selection, dependency discovery, and probing learned representations.\n\n## Applications\n\n- **Feature selection**: Pick features with high mutual information with the target. Used in filter methods like mRMR (minimum-redundancy-maximum-relevance)\n- **Decision trees**: Information gain — the reduction in entropy from splitting on a feature — *is* mutual information\n- **Representation learning**: Methods like InfoNCE, MINE, and contrastive learning maximize mutual information between representations and inputs\n- **Communication theory**: The capacity of a noisy channel is the maximum mutual information between input and output over input distributions\n- **Independent Component Analysis (ICA)**: Find sources by minimizing mutual information between components\n- **Neuroscience**: Measure how much information neural responses carry about stimuli\n- **Genomics**: Detect gene-gene dependencies that linear methods miss\n- **Causal inference**: Used (with caveats) as evidence of statistical association before causal claims\n\n## Pointwise vs. Average\n\nMutual information is the **expected** value of the *pointwise mutual information* (PMI):\n\n*PMI(x, y) = log( p(x, y) / [p(x) p(y)] )*\n\nPMI is widely used in NLP for measuring word association (e.g., 'New York' has very high PMI), while MI averages PMI over the joint distribution.\n\n## Practical Notes\n\n- **Estimation is hard**: With finite samples, mutual information is notoriously difficult to estimate, especially in continuous, high-dimensional settings. Histogram, k-NN (Kraskov estimator), and neural estimators (MINE, InfoNCE) are common\n- **Not bounded above**: Unlike correlation, MI has no fixed upper bound — it grows with the entropy of the variables\n- **Normalized variants**: Normalized mutual information (NMI) and adjusted mutual information (AMI) rescale MI to a [0, 1] range, useful for comparing clusterings\n\n## Mental Model\n\nMutual information answers: *if I learn the value of X, how many bits less surprised am I, on average, when I see Y?* It is the formal currency of 'how much do these two things tell me about each other?' — agnostic to the form of the relationship.",
+    "tags": [
+        "information-theory",
+        "mathematics",
+        "machine-learning",
+        "statistics",
+        "probability",
+        "ai"
+    ],
+    "category": "Thinking",
+    "icon": "FaShareAlt",
+    "featured": false,
+    "aliases": [
+        "MI",
+        "Information Gain (when used as feature score)",
+        "Average Information"
+    ],
+    "relatedConcepts": [
+        "shannon-entropy",
+        "information-theory",
+        "kl-divergence",
+        "cross-entropy",
+        "channel-capacity",
+        "information-gain",
+        "perplexity",
+        "kolmogorov-complexity"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Mutual information - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mutual_information",
+            "type": "website"
+        },
+        {
+            "title": "Pointwise mutual information - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pointwise_mutual_information",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Elements of Information Theory by Thomas M. Cover and Joy A. Thomas",
+            "url": "https://www.amazon.com/dp/0471241954?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "kolmogorov-complexity",
+    "name": "Kolmogorov Complexity",
+    "summary": "The length of the shortest computer program that produces a given object as output, formalizing the intrinsic information content or 'descriptive complexity' of a string.",
+    "explanation": "Kolmogorov complexity, also called **algorithmic complexity** or **descriptive complexity**, defines the information content of an object as **the length, in bits, of the shortest possible program that produces it**. Where Shannon entropy measures uncertainty over a probability distribution, Kolmogorov complexity measures the intrinsic complexity of an *individual* object — independent of any probability model.\n\nNamed after Andrey Kolmogorov, who introduced it in 1965, the idea was independently discovered by Ray Solomonoff (1964) and Gregory Chaitin (1969), and forms the foundation of **algorithmic information theory**.\n\n## Definition\n\nThe Kolmogorov complexity K(x) of a string x is:\n\n*K(x) = min { |p| : U(p) = x }*\n\nwhere U is a universal Turing machine and |p| is the length of program p. Despite depending on the choice of U, complexities differ by at most a constant (the **invariance theorem**) — so K is well-defined up to additive constants.\n\n## Intuition\n\nA string is **simple** if it has a short description, **complex** if it does not:\n\n- *'aaaaaaaaaa...' (a million a's)* has very low complexity: a tiny loop generates it\n- *'01010101...'* has low complexity: a tiny program prints '01' repeatedly\n- *The first million digits of π* has low complexity: π can be computed by a short program\n- *A million bits from a fair coin* almost certainly has high complexity: no shorter description exists than the bits themselves\n\nA string is called **algorithmically random** if K(x) ≥ |x| − c for some constant c — i.e., the shortest description is essentially the string itself.\n\n## Key Properties\n\n- **Uncomputable**: K(x) cannot be computed by any algorithm. There is no general procedure to find the shortest program for an arbitrary string. This is a deep consequence of the halting problem\n- **Compressibility**: A string is compressible by k bits if and only if K(x) ≤ |x| − k. Most strings are nearly incompressible (a counting argument shows that fewer than 2^(n−k) strings of length n can be compressed by k bits)\n- **Invariance**: Choice of universal machine changes K only by a constant\n- **Subadditivity**: K(x, y) ≤ K(x) + K(y) + O(log min(K(x), K(y)))\n\n## Relationship to Shannon Entropy\n\nShannon entropy and Kolmogorov complexity are deeply linked but distinct:\n\n- **Shannon**: entropy of a distribution → average compressibility of typical samples\n- **Kolmogorov**: complexity of a specific object → ultimate compressibility of that one object\n- For samples drawn from a computable distribution P, the expected K(x) equals H(P) plus a constant (asymptotically). So Shannon entropy is the *average* Kolmogorov complexity\n\nKolmogorov complexity gives a notion of randomness for individual sequences that Shannon's framework cannot — Shannon entropy is a property of *distributions*, not of *strings*.\n\n## Applications and Implications\n\n- **Lossless compression bounds**: No algorithm can compress all strings; the best compression of a specific string approaches K(x) but can never reach it computably. Practical compressors (gzip, zstd, LZMA) approximate K from above\n- **Algorithmic randomness**: Provides the rigorous definition of a 'random sequence' that Shannon entropy cannot give for individual strings (Martin-Löf randomness)\n- **Solomonoff induction**: An (uncomputable) optimal predictor based on Kolmogorov complexity. The theoretical gold standard for inductive inference and the foundation of **AIXI**, the universal AI agent\n- **Minimum Description Length (MDL)**: A computable proxy for Kolmogorov complexity used in model selection. Choose the model that minimizes 'model description + data given model' — a formal Occam's razor\n- **Normalized Compression Distance (NCD)**: A practical similarity metric using off-the-shelf compressors as proxies for K, applied to genome comparison, language identification, music clustering, and plagiarism detection\n- **Chaitin's incompleteness theorems**: K is intimately connected to Gödel's incompleteness — there exist true facts about K that no formal system can prove\n- **Berry's paradox formalized**: Famously, *'the smallest positive integer not definable in fewer than twenty English words'* — Kolmogorov complexity is the formal version of this idea\n\n## Why It's Beautiful\n\nKolmogorov complexity captures something Shannon entropy cannot: the **irreducible information content** of an individual object. The first million digits of π look completely random by every statistical test — but they have tiny Kolmogorov complexity. A truly random sequence and a pseudo-random sequence are statistically indistinguishable, yet have completely different algorithmic complexities. K formalizes the intuition that *understanding* a phenomenon means *finding a short description of it*, which connects information theory to the philosophy of science (Occam's razor) and to learning itself.\n\n## Practical Caveats\n\n- **Uncomputability** means you can never know K(x) exactly. You can only upper-bound it (with any compression algorithm) and prove lower bounds for specific strings\n- **Constants matter in practice** even though they don't matter asymptotically — the choice of universal machine, programming language, and reference encoding affects real comparisons\n- **Use compressors as proxies**: in practice, K(x) ≈ |compress(x)| is a workable approximation for similarity, anomaly detection, and clustering\n\n## Mental Model\n\nKolmogorov complexity asks: *what is the shortest possible explanation for this thing?* It is the formal version of Occam's razor, the ultimate theoretical limit of compression, and the rigorous definition of randomness for individual objects. Every act of understanding — finding a pattern, deriving a law, discovering a formula — is, in this view, a search for shorter descriptions.",
+    "tags": [
+        "information-theory",
+        "mathematics",
+        "computing",
+        "complexity",
+        "foundations",
+        "algorithms",
+        "science"
+    ],
+    "category": "Thinking",
+    "icon": "FaCompress",
+    "featured": false,
+    "aliases": [
+        "Algorithmic Complexity",
+        "Algorithmic Information Content",
+        "Descriptive Complexity",
+        "Kolmogorov-Chaitin Complexity",
+        "Solomonoff-Kolmogorov-Chaitin Complexity"
+    ],
+    "relatedConcepts": [
+        "shannon-entropy",
+        "information-theory",
+        "information-compression",
+        "mutual-information",
+        "first-principles",
+        "abstraction",
+        "occams-razor"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Kolmogorov complexity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kolmogorov_complexity",
+            "type": "website"
+        },
+        {
+            "title": "Algorithmic information theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algorithmic_information_theory",
+            "type": "website"
+        },
+        {
+            "title": "Minimum description length - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minimum_description_length",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "An Introduction to Kolmogorov Complexity and Its Applications by Ming Li and Paul Vitányi",
+            "url": "https://www.amazon.com/dp/3030112977?tag=dsebastien00-20"
+        },
+        {
+            "title": "Information Theory, Inference, and Learning Algorithms by David MacKay",
+            "url": "https://www.amazon.com/dp/0521642981?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04"
+}

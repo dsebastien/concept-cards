@@ -1,0 +1,56 @@
+{
+    "id": "huffman-coding",
+    "name": "Huffman Coding",
+    "summary": "A lossless compression algorithm that assigns shorter binary codes to more frequent symbols, achieving optimal prefix-free encoding for known symbol probabilities.",
+    "explanation": "Huffman coding is a foundational **lossless data compression** algorithm that produces an optimal prefix-free binary code for a given set of symbols and their probabilities. Designed by David A. Huffman in 1952 while he was an MIT graduate student — and famously a homework problem assigned by his professor Robert Fano — Huffman's algorithm beats Fano's own prior method (Shannon-Fano coding) and remains a building block of modern compression pipelines.\n\n## Core Idea\n\nIn fixed-length encoding (like ASCII), every symbol takes the same number of bits regardless of how often it appears. This wastes space when the distribution is skewed: 'e' appears far more often than 'z' in English, so giving them equal-length codes is suboptimal.\n\nHuffman coding exploits this by:\n\n1. Counting symbol frequencies\n2. Assigning **shorter codes to frequent symbols** and **longer codes to rare ones**\n3. Ensuring the codes are **prefix-free** so no code is the start of another — making decoding unambiguous\n\nThe result minimizes the expected number of bits per symbol for a given symbol distribution.\n\n## The Algorithm\n\nHuffman's algorithm is elegantly simple:\n\n1. Create a leaf node for each symbol with weight equal to its probability/frequency\n2. While more than one node remains:\n   - Pick the two nodes with smallest weights\n   - Create a parent with weight = sum of the two weights, with these as children\n   - Edges to children get bit labels (0 and 1)\n3. The path from root to each leaf gives the symbol's binary code\n\nUsing a priority queue (min-heap), this runs in **O(n log n)** time for n symbols.\n\n## Example\n\nConsider symbols A (frequency 5), B (2), C (1), D (1):\n\n- Combine C+D → 2\n- Combine that with B → 4\n- Combine with A → 9\n- Resulting codes: A=0 (1 bit), B=10 (2 bits), C=110 (3 bits), D=111 (3 bits)\n\nAverage code length = (5·1 + 2·2 + 1·3 + 1·3) / 9 ≈ 1.67 bits/symbol — much better than the 2 bits/symbol fixed encoding would give, and very close to the Shannon entropy of this distribution.\n\n## Optimality\n\nHuffman coding is **optimal among symbol-by-symbol prefix codes** when symbol probabilities are known and fixed. The expected code length L satisfies:\n\n*H(X) ≤ L < H(X) + 1*\n\nwhere H(X) is the Shannon entropy of the source. So Huffman achieves the entropy bound to within one bit per symbol — and exactly meets it when all probabilities are negative powers of 2.\n\n## Limitations\n\nHuffman is optimal but not perfect:\n\n- **Integer-bit constraint**: each code must have an integer number of bits, so it can only approach (not match) the entropy bound for non-dyadic distributions\n- **Static distributions**: classic Huffman requires knowing the symbol probabilities up front. **Adaptive Huffman** updates the tree as symbols are seen, at the cost of complexity\n- **Header overhead**: the code table must be transmitted along with the compressed data\n- **No context modeling**: symbols are encoded independently, ignoring correlations between adjacent symbols\n- **Beaten by arithmetic and range coders** for compression ratio, since they encode using fractional bits\n\n## Variants and Improvements\n\n- **Adaptive Huffman coding** (FGK, Vitter): tree updates as data is read, allowing one-pass compression\n- **Canonical Huffman coding**: orders codes by length to enable compact tree storage and fast decoding\n- **Length-limited Huffman**: caps maximum code length for fixed-width hardware decoders\n- **Range coding / arithmetic coding**: assigns fractional bits per symbol, achieving entropy almost exactly. Used in modern compressors\n- **Asymmetric Numeral Systems (ANS)**: a more recent family that combines Huffman's speed with arithmetic coding's compression ratio. Used in Zstandard, Facebook's Zstd, and Apple's LZFSE\n\n## Where Huffman Is Used Today\n\nDespite its age, Huffman coding is everywhere:\n\n- **DEFLATE**: the algorithm behind ZIP, gzip, and PNG combines LZ77 with Huffman coding\n- **JPEG**: applies Huffman coding to quantized DCT coefficients\n- **MP3 and AAC**: Huffman-codes quantized audio coefficients\n- **HTTP/2 HPACK**: compresses headers using a static Huffman code\n- **HEVC and H.264 fallback paths**: use Huffman coding (CAVLC) as alternative to arithmetic coding\n- **Brotli, Zstandard**: use Huffman coding for some sub-streams (entropy stage)\n\nIn modern codecs, Huffman is often the entropy coder of choice when speed matters more than the last few percent of compression — its decoder is essentially a small lookup table.\n\n## Significance\n\nHuffman coding was the first concrete demonstration that Shannon's source coding theorem could be approached in practice, with a simple greedy algorithm. It made information theory operational and showed that **compression is fundamentally about probability** — the more you know about your data, the better you can compress it.\n\n## Mental Model\n\nHuffman coding is the principle that **rare events deserve long descriptions; common events deserve short ones**. Anywhere you allocate variable-cost representations to items of varying frequency — from URL shorteners reserving short codes for popular pages, to languages giving common words short forms ('the' vs. 'antidisestablishmentarianism') — you are using Huffman's idea.",
+    "tags": [
+        "information-theory",
+        "algorithms",
+        "computing",
+        "communication",
+        "computer-science"
+    ],
+    "category": "Software Development",
+    "icon": "FaCompress",
+    "featured": false,
+    "aliases": [
+        "Huffman Encoding",
+        "Huffman Compression",
+        "Huffman Algorithm",
+        "Huffman Code"
+    ],
+    "relatedConcepts": [
+        "shannon-entropy",
+        "information-theory",
+        "information-compression",
+        "kolmogorov-complexity",
+        "channel-capacity"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Huffman coding - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Huffman_coding",
+            "type": "website"
+        },
+        {
+            "title": "David A. Huffman - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/David_A._Huffman",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein",
+            "url": "https://www.amazon.com/dp/026204630X?tag=dsebastien00-20"
+        },
+        {
+            "title": "Elements of Information Theory by Thomas M. Cover and Joy A. Thomas",
+            "url": "https://www.amazon.com/dp/0471241954?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04"
+}

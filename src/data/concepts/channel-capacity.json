@@ -1,0 +1,58 @@
+{
+    "id": "channel-capacity",
+    "name": "Channel Capacity",
+    "summary": "The maximum rate at which information can be reliably transmitted over a communication channel, measured in bits per channel use or bits per second.",
+    "explanation": "Channel capacity is the **fundamental information-theoretic limit** of a communication channel. Defined by Claude Shannon in 1948, it specifies the maximum rate at which information can be transmitted with arbitrarily low error probability over a noisy channel. It is one of the most consequential results in 20th-century engineering: every modem, cellular network, satellite link, and storage medium is designed with Shannon's limits in mind.\n\n## Definition\n\nThe capacity C of a discrete memoryless channel is the maximum mutual information between input X and output Y, taken over all possible input distributions:\n\n*C = max_{p(x)} I(X; Y)*\n\nFor a continuous channel with bandwidth B and signal-to-noise ratio S/N (the famous **Shannon–Hartley theorem**):\n\n*C = B · log₂(1 + S/N)* bits per second\n\nThis simple equation governs the absolute speed limit of every analog and digital communication system.\n\n## What Shannon's Coding Theorem Actually Says\n\nShannon's **noisy-channel coding theorem** delivered a result so counterintuitive that engineers initially refused to believe it:\n\n- For any rate R < C, there exists a coding scheme whose error probability can be made arbitrarily small\n- For any rate R > C, error probability is bounded away from zero — reliable communication is impossible\n\nIn other words: **noise does not, by itself, limit reliability — it only limits speed**. As long as you transmit below capacity, you can drive errors down to zero with sufficiently clever coding. This was revolutionary because previously, engineers assumed noise inevitably caused some errors.\n\n## Implications\n\n- **Modems and Wi-Fi**: V.90 modems achieve ~56 kbps because that approaches the Shannon limit of phone lines. Wi-Fi standards push toward the limits of their RF bands\n- **Cellular networks**: 4G, 5G, and 6G are designed by computing the Shannon capacity of each frequency band and engineering toward it (using MIMO, OFDM, etc.)\n- **Deep-space communication**: NASA's Voyager probes use codes that operate within ~1 dB of the Shannon limit — extracting nearly every possible bit from extremely weak signals\n- **Storage**: Hard drive read channels and SSD error-correction are designed against capacity limits of the noise model\n- **Optical communication**: Fiber-optic systems push toward the nonlinear Shannon limit of optical channels\n\n## Why Capacity Matters Conceptually\n\nCapacity decouples two ideas that were previously conflated:\n\n1. **Noise** is the enemy of *speed*, not of *reliability* — you can always trade rate for reliability\n2. **Coding** can fundamentally compensate for noise, given enough redundancy\n\nThe practical engineering of communication for the next 75+ years has been a chase toward Shannon's bound. **Turbo codes**, **LDPC codes**, and **polar codes** all approach capacity within fractions of a decibel, and modern systems routinely operate near the theoretical maximum.\n\n## How Capacity Is Increased\n\nFrom the Shannon–Hartley formula:\n\n- **More bandwidth (B)**: linear increase in capacity → wider radio bands, mmWave, optical fiber\n- **Higher SNR**: logarithmic increase → better antennas, beamforming, lower noise figures, transmit power\n- **More antennas (MIMO)**: capacity scales linearly with the number of independent spatial channels in rich-scattering environments\n- **Multiple channels**: aggregation across frequencies (carrier aggregation, OFDM)\n\nNote the asymmetry: doubling bandwidth doubles capacity, but doubling SNR adds only ~1 bit per Hertz. This is why modern systems prefer to widen the spectrum or add antennas rather than blast more power.\n\n## Generalizations\n\n- **Continuous channels**: Gaussian channel, fading channels, MIMO channels\n- **Network information theory**: capacity regions for multi-user channels (broadcast, multiple-access, relay, interference)\n- **Quantum channel capacity**: classical and quantum information rates over quantum channels (Holevo bound, quantum capacity)\n- **Feedback capacity**: usually equals the no-feedback capacity for memoryless channels, but feedback simplifies coding\n\n## Mental Model\n\nThink of channel capacity as the **bandwidth of physical reality**: a hard ceiling on how fast information can flow, set by physics and noise. Every bit you send beyond capacity must be wrong, on average. Every bit below capacity can, in principle, be sent perfectly. The art of communication engineering is the art of squeezing into that gap.\n\nMore broadly, capacity is a powerful frame for any bandwidth-limited system: the cognitive capacity of working memory, the information capacity of an organization's decision processes, the throughput of a knowledge worker's attention. The deepest insight from Shannon is that **noise sets the price of bits, but it does not forbid them** — given enough cleverness, you can always communicate below the limit, and you can never communicate above it.",
+    "tags": [
+        "information-theory",
+        "communication",
+        "mathematics",
+        "computing",
+        "foundations",
+        "science"
+    ],
+    "category": "Thinking",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Shannon Capacity",
+        "Shannon Limit",
+        "Shannon-Hartley Limit"
+    ],
+    "relatedConcepts": [
+        "shannon-entropy",
+        "information-theory",
+        "noisy-channel-coding-theorem",
+        "mutual-information",
+        "signal-to-noise-ratio",
+        "redundancy",
+        "kolmogorov-complexity"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Channel capacity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Channel_capacity",
+            "type": "website"
+        },
+        {
+            "title": "Shannon–Hartley theorem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shannon%E2%80%93Hartley_theorem",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Elements of Information Theory by Thomas M. Cover and Joy A. Thomas",
+            "url": "https://www.amazon.com/dp/0471241954?tag=dsebastien00-20"
+        },
+        {
+            "title": "Information Theory, Inference, and Learning Algorithms by David MacKay",
+            "url": "https://www.amazon.com/dp/0521642981?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04"
+}

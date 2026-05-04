@@ -1,0 +1,73 @@
+{
+    "id": "shannon-entropy",
+    "name": "Shannon Entropy",
+    "summary": "Information-theoretic measure of the average uncertainty or surprise carried by a random variable, quantified in bits.",
+    "explanation": "Shannon Entropy is the central quantity of information theory. Introduced by Claude Shannon in his 1948 paper *A Mathematical Theory of Communication*, it measures the **average amount of information** — or equivalently, the **average uncertainty or surprise** — produced by a random source. The more unpredictable a source is, the higher its entropy.\n\n## Definition\n\nFor a discrete random variable X with possible outcomes x₁, x₂, ..., xₙ and probabilities p(xᵢ):\n\n*H(X) = -Σ p(xᵢ) log₂ p(xᵢ)*\n\nWhen the logarithm is base 2, entropy is measured in **bits**. A bit is the amount of information needed to resolve a binary, equally likely choice.\n\n## Intuition\n\n- A **fair coin flip** has entropy of exactly 1 bit: you genuinely don't know which side will come up\n- A **loaded coin** (99% heads / 1% tails) has very low entropy: the outcome is almost certain, so each flip conveys almost no new information\n- A **uniform die** (1 of 6 outcomes) has entropy log₂(6) ≈ 2.58 bits\n- **English text** has roughly 1.0–1.5 bits of entropy per character — far below the 4.7 bits a uniform 26-letter alphabet would have, because letters are highly predictable from context\n\nEntropy is maximized when all outcomes are equally likely (maximum unpredictability) and minimized (zero) when one outcome is certain.\n\n## Why Shannon Borrowed 'Entropy' From Thermodynamics\n\nThe formula has the same structure as Boltzmann's thermodynamic entropy, and both quantities measure 'disorder' or 'spread' in a probability distribution. John von Neumann reportedly told Shannon to call it entropy because *'no one really knows what entropy is, so in a debate you will always have the advantage.'* The two entropies are not just analogous — Landauer's principle later showed they are physically connected: erasing a bit of information necessarily dissipates kT·ln(2) joules of energy.\n\n## Distinction from Thermodynamic Entropy\n\n- **Thermodynamic entropy** describes the statistical disorder of physical systems (microstates per macrostate)\n- **Shannon entropy** describes the uncertainty of an information source — independent of any physical interpretation\n- Both follow the same mathematical form, but Shannon entropy abstracts away meaning and physics, applying equally to text, DNA, radio waves, or quantum states\n\n## Why It Matters\n\nShannon entropy gives us **fundamental limits**:\n\n- **Source coding theorem**: You cannot losslessly compress data below its entropy rate. This sets the theoretical floor for ZIP, Huffman, arithmetic coding, and every other lossless compressor\n- **Channel capacity**: The maximum reliable communication rate over a noisy channel is bounded by mutual information, which is built on entropy\n- **Cryptography**: A cryptographic key must have high entropy to resist brute-force attacks; password strength is essentially a measure of entropy\n- **Machine learning**: Cross-entropy loss, KL divergence, and information bottleneck theory all derive from Shannon entropy\n- **Decision trees**: Information gain (used in algorithms like ID3, C4.5) measures the reduction in entropy from splitting on a feature\n- **Linguistics**: Measures language complexity and predictability; Zipf's law and language model perplexity are entropy-based\n- **Neuroscience**: The efficient coding hypothesis posits that sensory neurons encode information to maximize entropy under metabolic constraints\n\n## Joint and Conditional Entropy\n\n- **Joint entropy** H(X, Y): uncertainty in the pair (X, Y) jointly\n- **Conditional entropy** H(Y | X): remaining uncertainty in Y given X is known\n- **Mutual information** I(X; Y) = H(Y) − H(Y | X): how much knowing X reduces uncertainty about Y\n\nThese build a complete grammar for reasoning about how information is shared, lost, and transmitted.\n\n## Practical Mental Model\n\nThink of entropy as **the average number of yes/no questions** needed to identify an outcome under an optimal questioning strategy. A fair coin needs 1 question. A 256-character random password needs roughly 256·log₂(94) ≈ 1,679 bits of questioning to guess. The lower the entropy, the more efficiently you can encode, predict, or compress — and the easier the source is to *understand*.\n\nIn knowledge work: high-entropy information is genuinely surprising and informative; low-entropy information is repetitive or already known. The art of communication is to spend bits where they matter.",
+    "tags": [
+        "information-theory",
+        "mathematics",
+        "computing",
+        "communication",
+        "foundations",
+        "probability",
+        "science"
+    ],
+    "category": "Thinking",
+    "icon": "FaAtom",
+    "featured": false,
+    "aliases": [
+        "Information Entropy",
+        "Shannon Information",
+        "Information Content"
+    ],
+    "relatedConcepts": [
+        "information-theory",
+        "entropy",
+        "mutual-information",
+        "kl-divergence",
+        "cross-entropy",
+        "channel-capacity",
+        "kolmogorov-complexity",
+        "huffman-coding",
+        "perplexity",
+        "information-compression",
+        "signal-to-noise-ratio",
+        "redundancy"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Entropy (information theory) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Entropy_(information_theory)",
+            "type": "website"
+        },
+        {
+            "title": "A Mathematical Theory of Communication (Shannon 1948)",
+            "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "Claude Shannon - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Claude_Shannon",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Elements of Information Theory by Thomas M. Cover and Joy A. Thomas",
+            "url": "https://www.amazon.com/dp/0471241954?tag=dsebastien00-20"
+        },
+        {
+            "title": "A Mind at Play: How Claude Shannon Invented the Information Age by Jimmy Soni and Rob Goodman",
+            "url": "https://www.amazon.com/dp/1476766681?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Information: A History, a Theory, a Flood by James Gleick",
+            "url": "https://www.amazon.com/dp/1400096235?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04"
+}

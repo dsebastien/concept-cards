@@ -1,0 +1,83 @@
+{
+    "id": "kl-divergence",
+    "name": "KL Divergence",
+    "summary": "An asymmetric measure of how much one probability distribution differs from a reference distribution, foundational to information theory and modern machine learning.",
+    "explanation": "Kullback–Leibler divergence (KL divergence), also called **relative entropy**, measures how one probability distribution P diverges from a reference distribution Q. It quantifies the **expected number of extra bits** required to encode samples from P using a code optimized for Q instead of for P itself.\n\n## Definition\n\nFor discrete distributions P and Q over the same support:\n\n*D_KL(P ∥ Q) = Σ P(x) log[ P(x) / Q(x) ]*\n\nFor continuous distributions, the sum becomes an integral. KL divergence is:\n\n- **Non-negative**: D_KL(P ∥ Q) ≥ 0 (Gibbs' inequality)\n- **Zero iff P = Q almost everywhere**\n- **Asymmetric**: D_KL(P ∥ Q) ≠ D_KL(Q ∥ P) in general\n- **Not a true distance**: it doesn't satisfy the triangle inequality and isn't symmetric\n\n## Intuition\n\nThink of KL divergence as the **information cost of being wrong about the distribution**:\n\n- If you assume the world looks like Q but it actually looks like P, D_KL(P ∥ Q) is the average penalty (in bits) you pay per sample when encoding or predicting\n- D_KL(P ∥ Q) = H(P, Q) − H(P), where H(P, Q) is cross-entropy and H(P) is the entropy of P\n- Equivalently, D_KL is the average of the log-likelihood ratio log[P(x)/Q(x)] under P\n\nThe asymmetry matters: D_KL(P ∥ Q) penalizes Q assigning low probability to events that P considers likely, while D_KL(Q ∥ P) penalizes P assigning low probability to events Q considers likely. This corresponds to two different ways of fitting an approximating distribution — **mode-seeking** vs. **mean-seeking** behavior.\n\n## Why It Matters in Machine Learning\n\nKL divergence is everywhere in modern ML:\n\n- **Maximum likelihood estimation** is equivalent to minimizing D_KL(p_data ∥ p_model)\n- **Cross-entropy loss** in classification: minimizing cross-entropy equals minimizing KL divergence between the true label distribution and predicted distribution (the entropy of labels is constant)\n- **Variational inference** and **VAEs**: the ELBO is derived from D_KL(q(z|x) ∥ p(z|x))\n- **Reinforcement learning**: PPO, TRPO, and KL-controlled policies use KL constraints to prevent the new policy from drifting too far from the old one\n- **RLHF and DPO**: KL penalties keep fine-tuned LLMs close to a reference model, preserving general capabilities while shaping behavior\n- **Knowledge distillation**: minimize KL between teacher and student outputs\n- **Bayesian inference**: posterior updates can be framed as projections that minimize KL\n- **Mutual information**: I(X; Y) = D_KL( p(x, y) ∥ p(x) p(y) )\n\n## Forward vs. Reverse KL\n\nWhen fitting a model q to a target p, the choice of direction matters:\n\n- **Forward KL** D_KL(p ∥ q): zero-avoiding — q must cover everywhere p has mass. Tends to spread q broadly (mean-seeking)\n- **Reverse KL** D_KL(q ∥ p): zero-forcing — q is heavily penalized for putting mass where p is near zero. Tends to concentrate q on a single mode (mode-seeking)\n\nVAEs use reverse KL; maximum likelihood uses forward KL. The asymmetry has real consequences for what your model learns.\n\n## Connection to Cross-Entropy\n\nCross-entropy H(P, Q) = H(P) + D_KL(P ∥ Q). When P is fixed (e.g., one-hot label distribution), minimizing cross-entropy is exactly minimizing KL divergence. This is why classifiers trained with cross-entropy loss are implicitly KL-minimizers.\n\n## Practical Caveats\n\n- **Undefined when Q(x) = 0 but P(x) > 0**: must use smoothing, support overlap, or alternatives like Jensen–Shannon divergence\n- **Estimation in high dimensions is hard**: small sample sizes give very noisy estimates\n- **Not symmetric**: choose direction deliberately based on whether you care about coverage or sharpness\n- **Symmetric alternatives**: Jensen–Shannon divergence and Wasserstein distance are bounded, symmetric, and often better behaved\n\n## Mental Model\n\nKL divergence answers: *if my beliefs (Q) are wrong about reality (P), how much information do I lose, on average, per observation?* It is the natural currency for comparing, fitting, and constraining probability distributions — and arguably the single most important number in modern statistical learning.",
+    "tags": [
+        "information-theory",
+        "machine-learning",
+        "mathematics",
+        "statistics",
+        "probability",
+        "ai"
+    ],
+    "category": "AI",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Kullback-Leibler Divergence",
+        "Relative Entropy",
+        "KL Distance",
+        "Information Divergence"
+    ],
+    "relatedConcepts": [
+        "shannon-entropy",
+        "cross-entropy",
+        "mutual-information",
+        "information-theory",
+        "perplexity",
+        "channel-capacity"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Kullback–Leibler divergence - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Elements of Information Theory by Thomas M. Cover and Joy A. Thomas",
+            "url": "https://www.amazon.com/dp/0471241954?tag=dsebastien00-20"
+        },
+        {
+            "title": "Pattern Recognition and Machine Learning by Christopher Bishop",
+            "url": "https://www.amazon.com/dp/0387310738?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04"
+}
