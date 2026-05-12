@@ -1,0 +1,71 @@
+{
+    "id": "coordination-game",
+    "name": "Coordination Game",
+    "summary": "A game-theoretic situation where players benefit from making compatible choices and have little incentive to defect once aligned.",
+    "explanation": "A coordination game is a strategic interaction in which players gain the most by selecting matching or compatible actions. Unlike adversarial games, the players' interests are largely aligned: the challenge is not to outwit anyone, but to converge on the same option without necessarily being able to communicate. Classic examples include choosing which side of the road to drive on, agreeing on a meeting place, picking a common file format, or settling on a standard measurement system. Coordination games typically have multiple Nash equilibria, which is what makes them interesting. Once enough people drive on the right, no individual benefits from switching to the left. Once a language community settles on a word for a concept, deviating costs intelligibility. The selection problem - which equilibrium gets reached - is solved through Schelling points, conventions, common knowledge, precedent, salience, or external coordination mechanisms like laws and standards. Some coordination games involve trust and risk-reward tradeoffs, like the stag hunt; others are pure matching problems where any equilibrium is fine as long as everyone picks the same one. Recognizing a problem as a coordination game shifts the strategy: instead of competing or persuading, the goal is to build common knowledge and salience so people converge on the right equilibrium.",
+    "tags": [
+        "game-theory",
+        "coordination",
+        "decision-making",
+        "strategies",
+        "cooperation"
+    ],
+    "category": "Decision Science",
+    "icon": "FaHandshake",
+    "featured": false,
+    "aliases": [
+        "Coordination problem",
+        "Pure coordination game"
+    ],
+    "relatedConcepts": [
+        "schelling-point",
+        "nash-equilibrium",
+        "game-theory",
+        "stag-hunt",
+        "common-knowledge",
+        "convention",
+        "prisoners-dilemma",
+        "network-effects",
+        "battle-of-the-sexes",
+        "hawk-dove-game",
+        "risk-dominance"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Coordination game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Coordination_game",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Strategy of Conflict by Thomas Schelling",
+            "url": "https://www.amazon.com/dp/0674840313?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

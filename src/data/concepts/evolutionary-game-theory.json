@@ -1,0 +1,68 @@
+{
+    "id": "evolutionary-game-theory",
+    "name": "Evolutionary Game Theory",
+    "summary": "The application of game theory to populations of agents whose strategies evolve under selection pressure.",
+    "explanation": "Evolutionary game theory recasts game theory in dynamic, populational terms. Instead of asking what rational players would choose, it studies how strategies fare when they are inherited or imitated, with successful strategies reproducing more than unsuccessful ones. Originating with John Maynard Smith and George Price in the 1970s for biology, the framework now spans cultural evolution, learning dynamics, and social phenomena. Key constructs include the population state (mix of strategies), the fitness or payoff each strategy receives given the population, and the dynamics governing how the population mix changes - replicator dynamics being the most studied. The central solution concept is the evolutionarily stable strategy (ESS), a strategy that, once dominant, cannot be invaded by a small mutant population. Evolutionary game theory illuminates why animals display rather than fight (Hawk-Dove), why altruism survives selection in kin and reciprocal forms, why cooperation emerges in populations playing iterated prisoner's dilemmas, and why certain stable mixes of behaviors (like the proportions of Hawks and Doves) appear repeatedly in nature. Applied to humans, it explains the persistence of cultural norms, the dynamics of cooperation, the evolution of conventions and language, and the success or failure of strategies in markets. The framework relaxes the strong rationality assumptions of classical game theory and connects strategic interaction with population biology, sociology, and complex adaptive systems.",
+    "tags": [
+        "game-theory",
+        "evolution",
+        "decision-making",
+        "biology",
+        "cooperation"
+    ],
+    "category": "Decision Science",
+    "icon": "FaDna",
+    "featured": false,
+    "aliases": [
+        "EGT",
+        "Evolutionary games"
+    ],
+    "relatedConcepts": [
+        "evolutionarily-stable-strategy",
+        "hawk-dove-game",
+        "game-theory",
+        "tit-for-tat",
+        "prisoners-dilemma",
+        "stag-hunt",
+        "nash-equilibrium",
+        "complex-adaptive-systems"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Evolutionary game theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Evolutionary_game_theory",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "Evolution and the Theory of Games by John Maynard Smith",
+            "url": "https://www.amazon.com/dp/0521288843?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

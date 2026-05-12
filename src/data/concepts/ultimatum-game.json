@@ -1,0 +1,61 @@
+{
+    "id": "ultimatum-game",
+    "name": "Ultimatum Game",
+    "summary": "A two-player experiment where a proposer offers a split of a sum and the responder can accept or reject, with rejection giving both nothing.",
+    "explanation": "The ultimatum game is one of the most studied experiments in behavioral economics. A proposer is given a sum of money and must offer some share to a responder. The responder can accept, in which case both keep their shares, or reject, in which case both get nothing. Standard rational choice theory predicts the proposer offers the smallest possible amount and the responder accepts, since any positive amount beats zero. Experiments consistently violate this prediction. Across cultures, proposers typically offer 40 to 50 percent, and responders reject offers below roughly 20 to 30 percent. The findings reshaped economics. They demonstrate that humans care about fairness, not just absolute payoffs - responders accept smaller amounts when they cost less to refuse, but the willingness to burn money to punish unfair behavior is widespread. Cross-cultural variation reveals that intuitions of fairness are partly learned: small-scale societies with little market integration sometimes offer less and reject less. Variants like the dictator game, where the responder cannot reject, separate fairness from strategic concern: smaller but still positive offers in the dictator game show genuine altruism, while the gap between dictator and ultimatum offers reveals strategic anticipation of rejection. The game informs negotiation theory, mechanism design, and the case for incorporating social preferences into economic models.",
+    "tags": [
+        "game-theory",
+        "psychology",
+        "decision-making",
+        "negotiations",
+        "economics"
+    ],
+    "category": "Decision Science",
+    "icon": "FaHandshakeSimple",
+    "featured": false,
+    "aliases": [
+        "Ultimatum bargaining game"
+    ],
+    "relatedConcepts": [
+        "dictator-game",
+        "trust-game",
+        "game-theory",
+        "loss-aversion",
+        "prospect-theory",
+        "prisoners-dilemma",
+        "social-norm"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Ultimatum game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ultimatum_game",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

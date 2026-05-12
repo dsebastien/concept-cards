@@ -1,0 +1,73 @@
+{
+    "id": "stag-hunt",
+    "name": "Stag Hunt",
+    "summary": "A coordination game in which players must choose between a high-payoff cooperative option that requires trust and a safe, lower-payoff individual option.",
+    "explanation": "The stag hunt is a game-theoretic scenario originally described by Jean-Jacques Rousseau. Two hunters can either cooperate to hunt a stag, which yields a large reward but requires both to commit, or each can hunt a hare alone for a small but guaranteed reward. If one hunter pursues the stag while the other defects to chase a hare, the stag hunter gets nothing. The game has two pure-strategy Nash equilibria: both hunt the stag (Pareto-efficient and risk-dominant only if trust is high) and both hunt hares (safe and individually rational under uncertainty). The stag hunt captures a deep tension in social life: the most rewarding outcomes often require mutual trust, but the cost of misplaced trust pushes people toward safer, suboptimal choices. Unlike the prisoner's dilemma, where defection is individually rational regardless of the other's choice, in the stag hunt cooperation is a best response if you believe the other will cooperate. This makes the game a useful model for collective action, team commitment, treaty negotiations, startup co-founder dynamics, and any setting where the payoff from joint effort dwarfs solo effort but a single defection ruins the result. Solutions to stag hunts hinge on building common knowledge, signaling commitment, and creating institutions that reduce the risk of being the lone cooperator.",
+    "tags": [
+        "game-theory",
+        "cooperation",
+        "coordination",
+        "decision-making",
+        "trust"
+    ],
+    "category": "Decision Science",
+    "icon": "FaPaw",
+    "featured": false,
+    "aliases": [
+        "Stag hunt game",
+        "Assurance game",
+        "Trust dilemma"
+    ],
+    "relatedConcepts": [
+        "coordination-game",
+        "prisoners-dilemma",
+        "nash-equilibrium",
+        "game-theory",
+        "schelling-point",
+        "tit-for-tat",
+        "common-knowledge",
+        "tragedy-of-the-commons",
+        "risk-dominance",
+        "evolutionary-game-theory",
+        "evolutionarily-stable-strategy",
+        "trust-game"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Stag hunt - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Stag_hunt",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Stag Hunt and the Evolution of Social Structure by Brian Skyrms",
+            "url": "https://www.amazon.com/dp/0521533929?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

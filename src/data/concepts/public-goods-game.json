@@ -1,0 +1,62 @@
+{
+    "id": "public-goods-game",
+    "name": "Public Goods Game",
+    "summary": "An experimental game in which players choose how much to contribute to a shared pool that benefits everyone.",
+    "explanation": "The public goods game is a cornerstone of experimental economics. Each of n players is given a private endowment and decides how much to contribute to a public pot. The pot is multiplied by a factor (typically less than n but greater than 1), then split equally among all players regardless of contribution. Individually, the rational choice is to contribute nothing and free-ride on others' contributions, since each contributed unit returns less than its cost to the contributor. Collectively, full contribution maximizes total welfare. The game operationalizes the tension between private and collective rationality and serves as a controlled laboratory for the free-rider problem and the tragedy of the commons. Empirical findings consistently surprise standard economic theory. Across hundreds of experiments, people contribute substantially - not zero - in one-shot games, often around 40 to 60 percent of endowment. Contributions decay over rounds in repeated games but rebound when punishment of free-riders is permitted. Cross-cultural studies show variation in baseline cooperativeness and in willingness to punish norm violators. The public goods game underwrites much of the empirical case for prosocial preferences, conditional cooperation, the importance of institutions for sustaining cooperation, and the design of mechanisms (taxation, reputation systems, sanctions) that solve real-world public-goods problems.",
+    "tags": [
+        "game-theory",
+        "cooperation",
+        "economics",
+        "decision-making",
+        "experiments"
+    ],
+    "category": "Decision Science",
+    "icon": "FaUsersGear",
+    "featured": false,
+    "aliases": [
+        "Public good game",
+        "Voluntary contribution mechanism"
+    ],
+    "relatedConcepts": [
+        "free-rider-problem",
+        "tragedy-of-the-commons",
+        "prisoners-dilemma",
+        "game-theory",
+        "collective-action-problem",
+        "public-good",
+        "stag-hunt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Public goods game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Public_goods_game",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

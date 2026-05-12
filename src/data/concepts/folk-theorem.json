@@ -1,0 +1,62 @@
+{
+    "id": "folk-theorem",
+    "name": "Folk Theorem",
+    "summary": "In repeated games with sufficient patience, almost any individually rational outcome can be sustained as an equilibrium.",
+    "explanation": "The folk theorem in game theory states that in infinitely repeated games (or finitely repeated games with sufficient time horizon), the set of equilibrium outcomes is dramatically larger than in the one-shot version. Specifically, any payoff vector that gives each player at least their minmax value, and that is feasible in the stage game, can be supported as a subgame perfect equilibrium provided players are patient enough. The intuition is that in repeated interaction, future punishments and rewards can discipline current behavior. A player who defects today can be punished tomorrow, so cooperation that would unravel in a one-shot game becomes self-enforcing. Tit-for-tat and grim trigger strategies illustrate how this works in the prisoner's dilemma: persistent cooperation becomes rational because defection triggers retaliation that destroys future gains. The theorem is called a folk theorem because the result was widely known among game theorists before it was formally published. Its implications are sobering. Repeated interaction explains how cooperation, trust, and norms emerge without external enforcement - but it also predicts a multiplicity of possible equilibria, including suboptimal ones like collusion, cartels, and entrenched corruption. Equilibrium selection then becomes the central question, with focal points, conventions, and history determining which outcome the players actually reach.",
+    "tags": [
+        "game-theory",
+        "cooperation",
+        "decision-making",
+        "strategies",
+        "economics"
+    ],
+    "category": "Decision Science",
+    "icon": "FaInfinity",
+    "featured": false,
+    "aliases": [
+        "Folk theorems",
+        "Repeated game folk theorem"
+    ],
+    "relatedConcepts": [
+        "repeated-game",
+        "tit-for-tat",
+        "prisoners-dilemma",
+        "nash-equilibrium",
+        "game-theory",
+        "schelling-point",
+        "reputation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Folk theorem (game theory) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Folk_theorem_(game_theory)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

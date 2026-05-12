@@ -1,0 +1,62 @@
+{
+    "id": "evolutionarily-stable-strategy",
+    "name": "Evolutionarily Stable Strategy",
+    "summary": "A strategy that, once adopted by most of a population, cannot be successfully invaded by any alternative strategy.",
+    "explanation": "An evolutionarily stable strategy (ESS), introduced by John Maynard Smith and George Price in 1973, is a refinement of Nash equilibrium adapted to populations and selection. A strategy is an ESS if, when nearly the entire population plays it, any rare mutant strategy earns lower fitness and so cannot grow. Formally, strategy s is an ESS if either it strictly outperforms any alternative against itself, or it ties against the alternative but strictly outperforms the alternative when the alternative plays itself. ESS is the dynamic, populational counterpart to Nash equilibrium: every ESS is a Nash equilibrium, but not every Nash equilibrium is an ESS, because some equilibria are vulnerable to invasion. The concept transformed the analysis of animal behavior. The Hawk-Dove game's mixed equilibrium is an ESS that explains why aggressive and peaceful morphs coexist in stable proportions in many species. Tit-for-tat is an ESS in iterated prisoner's dilemma populations because mutant defectors cannot invade a population of conditional cooperators. ESS analysis explains conventional sex ratios, ritualized combat, signal honesty, kin altruism, and the persistence of certain cooperative arrangements. The concept extends beyond biology to cultural evolution, market competition, and any setting where strategies spread through imitation rather than rational choice. Multiple ESSes can coexist in the same game, which means historical accident and initial conditions determine which stable state a population reaches - reinforcing the importance of path dependence and lock-in.",
+    "tags": [
+        "game-theory",
+        "evolution",
+        "decision-making",
+        "biology",
+        "strategies"
+    ],
+    "category": "Decision Science",
+    "icon": "FaShieldHeart",
+    "featured": false,
+    "aliases": [
+        "ESS",
+        "Stable strategy"
+    ],
+    "relatedConcepts": [
+        "evolutionary-game-theory",
+        "nash-equilibrium",
+        "hawk-dove-game",
+        "tit-for-tat",
+        "game-theory",
+        "prisoners-dilemma",
+        "stag-hunt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Evolutionarily stable strategy - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Evolutionarily_stable_strategy",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

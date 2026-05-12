@@ -1,0 +1,63 @@
+{
+    "id": "trust-game",
+    "name": "Trust Game",
+    "summary": "A two-player experiment that measures trust by having one player invest in another who can return any portion.",
+    "explanation": "The trust game, introduced by Berg, Dickhaut, and McCabe in 1995, isolates trust and trustworthiness as separate behavioral phenomena. The first player, the investor, is given an endowment and decides how much to send to a second player, the trustee. Whatever is sent is multiplied (typically tripled) before reaching the trustee, creating a positive-sum opportunity. The trustee then decides how much, if any, to return to the investor. The investor's transfer is interpreted as a measure of trust: the player risks money in expectation that the trustee will reciprocate. The trustee's return is a measure of trustworthiness, since they are under no enforcement obligation. Standard rationality predicts the trustee returns nothing, so the investor sends nothing. Empirically, investors typically send around half their endowment, and trustees usually return roughly what was invested or somewhat more. The game has become a workhorse for studying interpersonal trust, the role of communication, group identity, repeated interaction, and demographic variation. Variants explore how face-to-face contact, anonymity, monetary stakes, third-party punishment, and prior cooperation history shape trust and reciprocity. The game complements the ultimatum and dictator games by separating belief about others' behavior (trust) from preferences over fairness (reciprocity), providing crucial empirical input to theories of cooperation, social capital, and institutional design.",
+    "tags": [
+        "game-theory",
+        "psychology",
+        "decision-making",
+        "experiments",
+        "trust"
+    ],
+    "category": "Decision Science",
+    "icon": "FaHandHoldingHeart",
+    "featured": false,
+    "aliases": [
+        "Investment game",
+        "Berg trust game"
+    ],
+    "relatedConcepts": [
+        "ultimatum-game",
+        "dictator-game",
+        "stag-hunt",
+        "prisoners-dilemma",
+        "game-theory",
+        "tit-for-tat",
+        "reputation",
+        "social-norm"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Trust game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Trust_game_(economics)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

@@ -1,0 +1,68 @@
+{
+    "id": "repeated-game",
+    "name": "Repeated Game",
+    "summary": "A game played multiple times by the same players, where reputation, reciprocity, and long-term incentives reshape strategy.",
+    "explanation": "A repeated game is a strategic interaction in which the same stage game is played again by the same players, creating a sequence of decisions where each round's history is observable to participants. Repetition can be finite (a known number of rounds) or infinite (or indefinite, where players are uncertain when the game ends). The crucial insight is that repetition fundamentally changes optimal play. In one-shot games, only the current payoffs matter, so cooperation in a prisoner's dilemma is irrational. In repeated games, current actions affect future opponent behavior, which means cooperative strategies like tit-for-tat, generous tit-for-tat, and grim trigger become viable equilibria. The shadow of the future disciplines present-day choices. The folk theorem formalizes this: in infinitely repeated games with sufficient patience, almost any individually rational outcome can be sustained as equilibrium, including full cooperation. Reputation, trust, and norms - phenomena that puzzle one-shot analysis - emerge naturally as equilibria of repeated interaction. Repeated games illuminate why long-term relationships, recurring trade, online platforms with persistent identities, and tight communities sustain cooperation that anonymous one-shot encounters cannot. They also explain pathologies: collusion, mutual assured destruction, and entrenched grudges are equilibria of repeated games too. The framework underlies much of evolutionary biology, organizational design, international relations, and platform economics.",
+    "tags": [
+        "game-theory",
+        "cooperation",
+        "decision-making",
+        "strategies",
+        "reciprocity"
+    ],
+    "category": "Decision Science",
+    "icon": "FaArrowsRotate",
+    "featured": false,
+    "aliases": [
+        "Iterated game",
+        "Repeated games",
+        "Supergame"
+    ],
+    "relatedConcepts": [
+        "tit-for-tat",
+        "prisoners-dilemma",
+        "folk-theorem",
+        "nash-equilibrium",
+        "game-theory",
+        "reputation",
+        "stag-hunt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Repeated game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Repeated_game",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Evolution of Cooperation by Robert Axelrod",
+            "url": "https://www.amazon.com/dp/0465005640?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

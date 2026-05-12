@@ -1,0 +1,62 @@
+{
+    "id": "battle-of-the-sexes",
+    "name": "Battle of the Sexes",
+    "summary": "A coordination game where two players prefer to be together but disagree on which of two activities to do.",
+    "explanation": "Battle of the Sexes is a classic coordination game with conflicting preferences. The canonical setup imagines a couple deciding between two activities, say a concert and a sports event. Both prefer being together to being apart, but each prefers a different activity. There are two pure-strategy Nash equilibria (both go to the concert or both go to the game) plus a mixed-strategy equilibrium, but the players strictly disagree on which pure equilibrium is best. The game models any situation where coordination is essential but the parties have asymmetric preferences over outcomes: standards battles between firms whose products would benefit from interoperability but whose business models favor different formats; political coalitions that need to cohere but disagree on policy priorities; partners assigning household responsibilities. Because both equilibria are Pareto-efficient yet privately preferred by different players, Battle of the Sexes lacks a salient natural focal point and is sensitive to negotiation power, custom, signaling, and turn-taking arrangements. The game illustrates that coordination is not the same as harmony: aligned action can hide ongoing distributive conflict over which equilibrium gets reached.",
+    "tags": [
+        "game-theory",
+        "coordination",
+        "decision-making",
+        "negotiations",
+        "cooperation"
+    ],
+    "category": "Decision Science",
+    "icon": "FaHandshake",
+    "featured": false,
+    "aliases": [
+        "Bach or Stravinsky",
+        "Battle of sexes game"
+    ],
+    "relatedConcepts": [
+        "coordination-game",
+        "schelling-point",
+        "nash-equilibrium",
+        "stag-hunt",
+        "game-theory",
+        "common-knowledge",
+        "convention"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Battle of the sexes (game theory) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_the_sexes_(game_theory)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

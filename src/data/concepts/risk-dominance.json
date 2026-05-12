@@ -1,0 +1,61 @@
+{
+    "id": "risk-dominance",
+    "name": "Risk Dominance",
+    "summary": "An equilibrium selection criterion that prefers strategies less risky under uncertainty about what other players will choose.",
+    "explanation": "Risk dominance is a refinement of Nash equilibrium developed by John Harsanyi and Reinhard Selten to handle games with multiple equilibria. When a coordination game has more than one Nash equilibrium, players face the practical problem of which one to pick. Risk dominance asks: which equilibrium is safer to play under uncertainty about your opponent? Formally, an equilibrium is risk-dominant if it has the largest Nash product of deviation losses, meaning each player loses more by deviating from it than from the alternative. Intuitively, risk-dominant equilibria are the choices that minimize the cost of being wrong if your beliefs about the other player are uncertain. Risk dominance is often contrasted with payoff dominance, where one equilibrium gives strictly higher payoffs to all players. The two can conflict. In the stag hunt, hunting the stag is payoff-dominant (everyone earns more if both choose stag), but hunting the hare is risk-dominant (a hare hunter cannot be hurt by what the other does). When the criteria diverge, real players often select the risk-dominant equilibrium even though it is collectively suboptimal, because it is robust to mistakes and uncertainty. The concept clarifies why coordination on the best collective outcome is fragile, why trust and common knowledge matter so much in coordination games, and why nudges that make the better equilibrium feel safer can shift behavior more than nudges that only emphasize its higher payoff.",
+    "tags": [
+        "game-theory",
+        "decision-making",
+        "strategies",
+        "risk",
+        "equilibrium"
+    ],
+    "category": "Decision Science",
+    "icon": "FaShieldHalved",
+    "featured": false,
+    "aliases": [
+        "Risk-dominant equilibrium"
+    ],
+    "relatedConcepts": [
+        "nash-equilibrium",
+        "stag-hunt",
+        "coordination-game",
+        "game-theory",
+        "schelling-point",
+        "loss-aversion",
+        "prisoners-dilemma"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Risk dominance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Risk_dominance",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "reputation",
+    "name": "Reputation",
+    "summary": "The shared impression others hold of an actor based on observed behavior, sustaining trust and cooperation across repeated interactions.",
+    "explanation": "Reputation is the aggregated belief that members of a community hold about an individual, organization, or product based on past actions and observable signals. It is one of the most powerful mechanisms human societies have evolved for sustaining cooperation in the face of self-interest. In game-theoretic terms, reputation transforms one-shot interactions into effectively repeated games: a stranger you will never meet again still matters because what you do becomes data others can use against you in future interactions, even with different counterparties. This is the engine behind much of commerce, professional life, and public discourse. Reputation works through several channels. Direct experience creates first-hand impressions. Gossip, reviews, and references propagate impressions to people who never interacted with the actor. Costly signals (credentials, public commitments, expensive investments) speak louder than cheap claims. Group affiliations provide reputational shortcuts. The internet has dramatically extended reputation's reach: persistent identities, review platforms, and social networks let strangers cooperate at scale by pooling reputational information. Reputation also has well-known failure modes. It can be gamed by manipulation, manufactured by astroturfing, weaponized through harassment, and concentrated unfairly through algorithmic amplification. Privacy erodes when reputational data is permanent and searchable. And reputation lags reality: an actor can deteriorate while their reputation persists, or improve while their reputation lags. Understanding reputation as a designed and contested system clarifies how to invest in it, defend it, and design platforms and institutions that channel it toward genuine information rather than performance.",
+    "tags": [
+        "game-theory",
+        "communications",
+        "trust",
+        "cooperation",
+        "social-norms"
+    ],
+    "category": "Communication",
+    "icon": "FaStar",
+    "featured": false,
+    "aliases": [
+        "Reputational capital",
+        "Social reputation"
+    ],
+    "relatedConcepts": [
+        "repeated-game",
+        "tit-for-tat",
+        "social-norm",
+        "trust-game",
+        "signaling",
+        "costly-signaling-theory",
+        "game-theory",
+        "common-knowledge"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Reputation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reputation",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

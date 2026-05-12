@@ -1,0 +1,59 @@
+{
+    "id": "aumanns-agreement-theorem",
+    "name": "Aumann's Agreement Theorem",
+    "summary": "Two rational agents with common knowledge of each other's beliefs cannot agree to disagree about probabilities.",
+    "explanation": "Proven by Robert Aumann in 1976, this theorem states that if two Bayesian rational agents share a common prior, and their posterior probabilities about an event are common knowledge between them, those posteriors must be equal. They cannot persistently disagree once each knows what the other believes, what the other knows about their belief, and so on. The theorem is striking because real people disagree all the time. Its precise conditions reveal where disagreement actually comes from: different priors (people start from different worldviews), private information that has not been fully shared, bounded rationality and motivated reasoning, or failure to make beliefs common knowledge. The theorem has practical implications for collaboration and reasoning under disagreement. Among truth-seeking parties, sustained disagreement should trigger investigation: someone has information the other lacks, or one party is reasoning poorly. The result also underwrites the rationalist heuristic that updating toward a respected opponent's view is often correct, and that disagreement is informative data rather than a stable equilibrium. The theorem connects directly to common knowledge as a coordination concept: just as common knowledge enables convergent action, it forces convergent belief among ideal Bayesians.",
+    "tags": [
+        "game-theory",
+        "epistemics",
+        "decision-making",
+        "rationality",
+        "knowledge"
+    ],
+    "category": "Decision Science",
+    "icon": "FaScaleBalanced",
+    "featured": false,
+    "aliases": [
+        "Agreement theorem",
+        "Agreeing to disagree theorem"
+    ],
+    "relatedConcepts": [
+        "common-knowledge",
+        "game-theory",
+        "schelling-point",
+        "epistemic-humility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Aumann's agreement theorem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Aumann%27s_agreement_theorem",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "hawk-dove-game",
+    "name": "Hawk-Dove Game",
+    "summary": "A game-theory model of conflict over resources where aggressive and peaceful strategies must coexist in equilibrium.",
+    "explanation": "Developed by John Maynard Smith and George Price in 1973, the Hawk-Dove game (also called Chicken in human strategic settings) models conflict over a divisible resource. Two animals encounter a resource. Each chooses to play Hawk (escalate, fight) or Dove (display, retreat without fighting). Two Doves split the resource peacefully. A Hawk facing a Dove takes everything. Two Hawks fight, and both bear injury costs that may exceed the resource value. The game has no symmetric pure-strategy equilibrium when fight costs exceed gains: if everyone plays Hawk, escalation is too costly; if everyone plays Dove, deviating to Hawk pays. The mixed equilibrium has a stable population proportion of Hawks and Doves, balancing aggression with peace. In evolutionary biology, this explains why species exhibit both bold and timid morphs and how ritualized displays substitute for actual combat. In human contexts, it models nuclear deterrence, brinkmanship in negotiations, traffic merging, and any anti-coordination problem where two parties want to grab a resource but mutual aggression destroys value. The game is the conceptual mirror of the stag hunt: stag hunts reward coordination on the cooperative option, while Hawk-Dove rewards anti-coordination - one party yields so the other can take.",
+    "tags": [
+        "game-theory",
+        "decision-making",
+        "competitions",
+        "strategies",
+        "evolution"
+    ],
+    "category": "Decision Science",
+    "icon": "FaDove",
+    "featured": false,
+    "aliases": [
+        "Chicken game",
+        "Snowdrift game",
+        "Hawk dove"
+    ],
+    "relatedConcepts": [
+        "game-theory",
+        "nash-equilibrium",
+        "stag-hunt",
+        "prisoners-dilemma",
+        "evolutionary-game-theory",
+        "evolutionarily-stable-strategy",
+        "coordination-game"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Chicken (game) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Chicken_(game)",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-09",
+    "dateModified": "2026-05-09"
+}
