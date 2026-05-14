@@ -1,0 +1,79 @@
+{
+    "id": "bring-your-own-model",
+    "name": "Bring Your Own Model",
+    "summary": "An AI application pattern that lets users plug in their own language model — self-hosted, fine-tuned, or from a chosen provider — instead of being tied to a vendor's default.",
+    "explanation": "Bring Your Own Model (BYOM) is a pattern where an AI application, agent framework, or platform allows users to supply the language model it runs against, rather than hardcoding a single provider. Users might point the application at OpenAI, Anthropic, Google, a local model served by Ollama or llama.cpp, a fine-tuned model hosted on their own infrastructure, or a private deployment in their cloud account. The application provides the interface, prompts, tools, and orchestration; the user provides the brain.\n\nBYOM emerged as the LLM ecosystem fragmented. With multiple frontier models from different vendors plus a thriving open-weights ecosystem (Llama, Mistral, Qwen, DeepSeek, and others), users increasingly want flexibility: to pick the best model for a task, to switch when prices or capabilities change, to keep sensitive data on local models, or to use a fine-tuned model trained on their own data. Hardcoding a single provider has become a liability.\n\nTechnically, BYOM usually relies on a common API contract — most often OpenAI-compatible chat completions endpoints — that any provider can implement. Tools like LiteLLM, OpenRouter, and Vercel's AI SDK abstract over many providers behind a single interface, making BYOM almost trivial to support. The application defines the prompts, function-calling schemas, and tool definitions; the user configures a base URL and credentials.\n\nBYOM pairs naturally with Bring Your Own Key (BYOK): users supply both the model choice and the credentials to access it, while the application stays free of inference economics and provider lock-in. The combination is foundational to many open-source AI tools and is increasingly expected by sophisticated users. Trade-offs include feature divergence (not all models support the same tool-calling format, context length, or modalities) and prompt portability (a prompt tuned for one model may behave differently on another).\n\nBYOM is also relevant in enterprise contexts where compliance, latency, cost, or data residency dictate using a specific model or running inference within a controlled environment. In these cases BYOM may mean pointing the application at a model hosted in the company's own VPC, an air-gapped server, or a sovereign cloud region.",
+    "tags": [
+        "ai",
+        "api-design",
+        "technologies",
+        "saas",
+        "modeling"
+    ],
+    "category": "AI",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "BYOM",
+        "Bring Your Own LLM",
+        "Bring Your Own AI Model"
+    ],
+    "relatedConcepts": [
+        "bring-your-own-key",
+        "bring-your-own-ai",
+        "bring-your-own-cloud",
+        "bring-your-own-device",
+        "ai-agent",
+        "vendor-lock-in",
+        "digital-sovereignty",
+        "api"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Large language model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Large_language_model",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

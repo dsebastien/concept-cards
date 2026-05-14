@@ -1,0 +1,47 @@
+{
+    "id": "key-rotation",
+    "name": "Key Rotation",
+    "summary": "The practice of periodically replacing cryptographic or API keys with new ones to limit the impact of undetected compromise.",
+    "explanation": "Key rotation is the disciplined practice of replacing keys on a regular cadence — or in response to specific events — so that any single key has a bounded lifetime. The underlying assumption is uncomfortable but realistic: any key may eventually be compromised, often without anyone noticing. By rotating keys regularly, an organization ensures that even an undetected leak has a finite blast radius. A key stolen six months ago is useless if it was rotated three months ago.\n\nRotation applies broadly: TLS certificate private keys, API keys, database credentials, encryption keys protecting data at rest, signing keys for code or tokens, SSH keys for server access, and JWT signing secrets. Each has its own appropriate cadence. TLS certificates have been driven toward ever-shorter lifetimes by Let's Encrypt and now industry-wide policy. AWS, GCP, and Azure recommend rotating IAM access keys every 30–90 days. Long-lived shared secrets are increasingly considered an anti-pattern; modern systems prefer short-lived tokens issued by identity providers.\n\nThe technical challenge of rotation is that keys are usually in active use. A naive \"delete the old key and create a new one\" approach breaks every system that still has the old key cached. The standard pattern is overlap-and-cutover: introduce the new key while the old key still works, propagate the new key to all consumers, switch traffic to the new key, then revoke the old key after a grace period. Asymmetric keys often support multi-key validation (accept signatures from any current key) which makes rotation graceful. For encryption-at-rest, envelope encryption with a rotated key-encryption-key allows re-wrapping data keys without re-encrypting all the data underneath.\n\nWell-designed systems make rotation routine. Secrets managers like HashiCorp Vault, AWS Secrets Manager, and Doppler can rotate database credentials automatically on a schedule. Cloud KMS systems version keys so applications reference \"the current key for this purpose\" rather than a specific key ID. Service meshes rotate mTLS certificates every few hours without operators noticing. The opposite extreme — manual rotation that nobody wants to do — typically leads to either skipped rotations or scary midnight outages, neither of which improves security.\n\nKey rotation is closely tied to detection and incident response. A leaked key matters less when rotation is fast and routine. After any suspected compromise — a lost laptop, a departing employee with access, an inadvertent log of secrets — out-of-cycle rotation is the immediate first response. The faster and lower-friction rotation is, the more likely it actually happens.",
+    "tags": [
+        "security",
+        "cryptography",
+        "best-practices",
+        "technologies",
+        "access-control"
+    ],
+    "category": "Techniques",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Cryptographic Key Rotation",
+        "Credential Rotation",
+        "Secret Rotation"
+    ],
+    "relatedConcepts": [
+        "key-management",
+        "secrets-management",
+        "encryption",
+        "api-key",
+        "bring-your-own-key",
+        "authentication"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Key management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Key_management",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "api-key",
+    "name": "API Key",
+    "summary": "A secret token issued by a service to identify and authenticate the caller of an API request.",
+    "explanation": "An API key is a long, randomly-generated string that identifies a calling application or user to an API. The caller includes the key with each request — usually in a header like `Authorization: Bearer ...` or `X-API-Key: ...` — and the server verifies it before granting access. API keys serve three overlapping purposes: identification (who is calling), authorization (what they are allowed to do), and accounting (whose quota and bill to charge).\n\nAPI keys are deliberately simple. They require no negotiation, no token exchange, and no client-side cryptography — making them easy to integrate but also easy to leak. A key accidentally committed to a public repository, embedded in a mobile app binary, or logged in plaintext can be harvested and abused within minutes. Major cloud providers and AI vendors operate continuous scanning of public Git repositories to detect and revoke leaked keys.\n\nGood practice around API keys includes: scoping each key narrowly (read-only, single environment, single feature) so a leak has limited blast radius; setting rate limits and usage caps per key; rotating keys regularly and on suspected compromise; storing keys only in environment variables, secret managers, or encrypted client storage rather than source code; and providing per-user or per-service keys rather than a single shared key. Modern API platforms increasingly let users create multiple keys with explicit scopes, expiration dates, and IP restrictions.\n\nAPI keys differ from richer authentication mechanisms like OAuth 2.0 and JWTs. OAuth introduces a flow where users grant scoped, revocable access to applications without sharing long-lived credentials, and tokens often expire quickly. JWTs are signed and can carry claims about the bearer. API keys, by contrast, are opaque bearer tokens — anyone who has them can use them — which makes them suitable for server-to-server calls and developer access but a poor fit for end-user authentication in untrusted clients.\n\nIn the AI era, API keys have become unusually high-value. A leaked OpenAI or Anthropic key can incur thousands of dollars in charges before being noticed. This has sharpened practices around BYOK (Bring Your Own Key), client-side key handling, and the design of UI patterns that make it harder for users to accidentally expose keys.",
+    "tags": [
+        "security",
+        "api-design",
+        "authentication",
+        "software-development",
+        "technologies",
+        "access-control"
+    ],
+    "category": "Software Development",
+    "icon": "FaKey",
+    "featured": false,
+    "aliases": [
+        "API Token",
+        "API Access Key",
+        "Application Key"
+    ],
+    "relatedConcepts": [
+        "api",
+        "authentication",
+        "authorization",
+        "bring-your-own-key",
+        "secrets-management",
+        "key-rotation",
+        "key-management",
+        "rate-limiting",
+        "oauth",
+        "encryption",
+        "two-factor-authentication"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Application programming interface key - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Application_programming_interface_key",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

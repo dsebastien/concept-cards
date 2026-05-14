@@ -1,0 +1,50 @@
+{
+    "id": "oauth",
+    "name": "OAuth",
+    "summary": "An open standard for delegated authorization that lets users grant third-party applications scoped access to their accounts without sharing passwords.",
+    "explanation": "OAuth (Open Authorization) is the dominant protocol for letting users authorize third-party applications to act on their behalf with a service — for example, allowing a calendar app to read your Google Calendar, or a deployment tool to push to your GitHub repository — without ever handing over your password. The current standard, OAuth 2.0, defines a family of flows in which the application redirects the user to the service, the user logs in and consents to specific scopes, and the service returns a time-limited access token that the application uses to make API calls.\n\nOAuth's key insight is the separation between authentication (proving who you are) and authorization (granting access to do specific things). Users authenticate once with the service they trust; the service then issues a narrowly-scoped, revocable token to the third-party application. If the token leaks, it expires; if the user changes their mind, they can revoke the grant; and the third-party never sees the user's actual credentials. This decoupling underpins almost every \"Sign in with Google / GitHub / Apple\" button on the web.\n\nOAuth 2.0 defines several grant types tuned to different application shapes. The authorization code flow (with PKCE) is the recommended path for web and mobile apps. The client credentials flow handles server-to-server authentication where no user is present. The device code flow supports devices without a browser, like CLIs and TVs. Implicit and resource owner password flows still exist but are now discouraged for security reasons. Each flow produces an access token, often paired with a refresh token that lets the application obtain new access tokens without prompting the user again.\n\nOAuth is often paired with OpenID Connect (OIDC), a thin identity layer on top of OAuth 2.0 that adds an ID token and standardized user profile claims. Together they form the foundation of modern federated identity. JWT (JSON Web Token) is a common format for the tokens themselves, allowing servers to verify claims without round-tripping to the issuer.\n\nFor API consumers, OAuth solves the problems that plain API keys cannot: per-user authorization, fine-grained scopes, expiration, revocation, and a clear consent UX. The trade-off is complexity: implementing OAuth correctly requires handling redirects, state, PKCE, token storage, refresh, and a surprising number of subtle security pitfalls. For internal services or simple developer access, API keys often remain the pragmatic choice; for any application acting on behalf of users, OAuth is now the expected standard.",
+    "tags": [
+        "security",
+        "authentication",
+        "api-design",
+        "identity",
+        "access-control",
+        "technologies"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "OAuth 2.0",
+        "Open Authorization",
+        "OAuth2"
+    ],
+    "relatedConcepts": [
+        "authentication",
+        "authorization",
+        "api",
+        "api-key",
+        "two-factor-authentication",
+        "multi-factor-authentication",
+        "encryption",
+        "bring-your-own-key"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "OAuth - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/OAuth",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

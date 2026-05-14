@@ -1,0 +1,55 @@
+{
+    "id": "key-management",
+    "name": "Key Management",
+    "summary": "The discipline of generating, storing, distributing, rotating, and retiring cryptographic and API keys safely across their entire lifecycle.",
+    "explanation": "Key management is the set of practices and systems for handling cryptographic and access keys throughout their lifecycle — from generation, through storage and distribution, to rotation, revocation, and destruction. It is one of the few areas of computer security where the algorithms themselves are usually unbroken; failure almost always comes from how keys are managed. A perfectly designed encryption scheme is worthless if the key sits in a public Git repo, an unencrypted log file, or a laptop hard drive that walks out of the office.\n\nThe core operations of key management include: generating keys with sufficient entropy, ideally from a hardware random source; protecting keys at rest, typically by encrypting them with a separate key (a key encryption key) or storing them in a Hardware Security Module (HSM); controlling who and what can access each key through fine-grained authorization; rotating keys on a schedule so a compromise has bounded blast radius; revoking keys promptly when compromise is suspected or no longer needed; and securely destroying keys at end-of-life so they cannot be recovered from old media.\n\nDedicated key management systems implement these operations as a service. Cloud providers offer AWS KMS, Google Cloud KMS, and Azure Key Vault. Standalone tools include HashiCorp Vault, CyberArk Conjur, and 1Password Secrets Automation. Hardware Security Modules from vendors like Thales and AWS CloudHSM provide tamper-resistant key storage backed by FIPS 140-2 or 140-3 certification. These systems centralize keys, log every access, and let applications use keys without ever seeing the raw material — often via envelope encryption, where the data is encrypted by a per-record data key that is itself encrypted by the central KMS.\n\nKey management spans multiple key types: cryptographic keys for encryption and signing, API keys and tokens for service access, SSH keys for server access, TLS certificate private keys, code-signing keys, and database credentials. Each has its own lifecycle and threat model, but they share the same fundamental requirement: minimize who and what can touch the raw material, log everything, and assume eventual compromise.\n\nIn enterprise and regulated contexts, key management is increasingly customer-controlled. Bring Your Own Key (BYOK) and Hold Your Own Key (HYOK) models let customers manage their own keys in their own KMS while still using a SaaS provider's platform. This decouples data control from compute, satisfies sovereignty and compliance requirements, and means that revoking access can be as simple as disabling a key — without needing the vendor's cooperation.",
+    "tags": [
+        "security",
+        "cryptography",
+        "privacy",
+        "technologies",
+        "access-control"
+    ],
+    "category": "Concepts",
+    "icon": "FaKey",
+    "featured": false,
+    "aliases": [
+        "Cryptographic Key Management",
+        "Key Lifecycle Management",
+        "KMS"
+    ],
+    "relatedConcepts": [
+        "encryption",
+        "key-rotation",
+        "secrets-management",
+        "bring-your-own-key",
+        "api-key",
+        "authentication",
+        "data-security",
+        "hash-function",
+        "end-to-end-encryption"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Key management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Key_management",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

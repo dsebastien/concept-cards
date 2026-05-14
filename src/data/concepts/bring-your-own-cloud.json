@@ -1,0 +1,55 @@
+{
+    "id": "bring-your-own-cloud",
+    "name": "Bring Your Own Cloud",
+    "summary": "A deployment model where a vendor's software runs inside the customer's own cloud account, keeping data and workloads under the customer's control.",
+    "explanation": "Bring Your Own Cloud (BYOC) is a SaaS deployment model where the vendor's application or data plane is installed and runs within the customer's own cloud account — typically AWS, GCP, or Azure — rather than in the vendor's multi-tenant infrastructure. The customer owns the underlying compute, storage, and network; the vendor provides software, control plane, updates, and operational support. Data never leaves the customer's perimeter, billing for infrastructure flows directly to the customer's cloud provider, and the vendor's blast radius is dramatically reduced.\n\nBYOC sits between two extremes. Pure SaaS gives operational simplicity but forces customers to trust the vendor with their data and accept the vendor's hosting choices. Self-hosted on-premises software gives full control but burdens the customer with installation, patching, and operations. BYOC tries to capture the best of both: the customer keeps data sovereignty and compliance posture, while the vendor retains responsibility for upgrades, monitoring, and reliability via a control plane that reaches into the customer's account through scoped IAM roles.\n\nThe model has surged in popularity for data platforms, analytics tools, AI infrastructure, and developer tools — products that handle large volumes of sensitive data or are subject to strict regulatory regimes. Snowflake, Databricks, MongoDB Atlas, Confluent Cloud, and many newer AI startups offer BYOC tiers. For customers in finance, healthcare, government, or highly regulated industries, BYOC is often the only viable path to adopting modern SaaS while meeting compliance requirements like GDPR, HIPAA, or data residency mandates.\n\nBYOC introduces real operational complexity. Vendors must support multiple cloud providers and account configurations, design for least-privilege access, and operate without direct shell access to customer infrastructure. Customers take on responsibility for capacity planning, cloud cost optimization, and ensuring their account is configured correctly. Debugging incidents requires careful coordination because the vendor cannot freely inspect customer data.\n\nBYOC pairs with the broader BYO family — BYOK for encryption keys, BYOM for AI models, BYOD for devices — all sharing the principle that the customer retains ownership of a critical resource while the vendor provides the surrounding capability. It also relates closely to concepts like data sovereignty, digital sovereignty, and reducing vendor lock-in.",
+    "tags": [
+        "saas",
+        "technologies",
+        "security",
+        "privacy",
+        "businesses",
+        "software-engineering"
+    ],
+    "category": "Software Development",
+    "icon": "FaCloud",
+    "featured": false,
+    "aliases": [
+        "BYOC",
+        "Bring Your Own Cloud Account"
+    ],
+    "relatedConcepts": [
+        "bring-your-own-key",
+        "bring-your-own-model",
+        "bring-your-own-device",
+        "bring-your-own-ai",
+        "cloud-lock-in",
+        "vendor-lock-in",
+        "digital-sovereignty",
+        "data-security",
+        "zero-trust"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Cloud computing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cloud_computing",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

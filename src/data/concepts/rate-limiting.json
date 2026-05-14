@@ -1,0 +1,47 @@
+{
+    "id": "rate-limiting",
+    "name": "Rate Limiting",
+    "summary": "A technique that caps how many requests a client can make to a service in a given time window, protecting the service from overload, abuse, and runaway costs.",
+    "explanation": "Rate limiting is the practice of restricting how many requests a client — identified by API key, user ID, IP address, or some other dimension — can make to a service within a defined time window. It is one of the most fundamental defenses in a server's toolkit, protecting against denial-of-service attacks, abusive scraping, runaway client bugs, and unintended cost explosions. Beyond protection, rate limiting also shapes fair resource allocation in multi-tenant systems, ensuring one heavy user does not degrade service for everyone else.\n\nSeveral algorithms implement rate limiting, each with different characteristics. The fixed window counter resets at clock boundaries and is simple but can allow bursts at window edges. The sliding window log keeps timestamps of recent requests for precise control at a memory cost. The token bucket and leaky bucket algorithms allow bursts up to a configured size while enforcing a long-term average rate, and are the most common choices in production systems. Distributed rate limiters typically use Redis or a similar fast store to share counters across servers.\n\nWell-designed APIs expose rate limits explicitly. They publish quotas in documentation, include headers like `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` so clients can self-throttle, and return HTTP 429 (Too Many Requests) with a `Retry-After` header when limits are exceeded. Sophisticated systems support tiered limits — different quotas for different plans — and adaptive limits that respond to overall system load. Some APIs also distinguish between rate (requests per second) and concurrency (parallel in-flight requests) limits.\n\nFor clients, handling rate limits well means: respecting headers when present, implementing exponential backoff with jitter on 429 responses, queueing requests rather than spamming retries, and surfacing limits clearly to users. For LLM and AI APIs in particular, rate limits often combine request count, input tokens per minute, and output tokens per minute, each tracked independently and any of which can throttle the caller. BYOK applications must contend with the user's own rate limits with the upstream provider, often surfacing helpful error messages to explain why a request was blocked.\n\nRate limiting is a relatively crude protection — it cannot distinguish a legitimate burst from an attack on its own. It pairs with authentication, request signing, anomaly detection, WAF rules, and pricing-based throttling to form a layered defense. Done well, it is invisible; done poorly, it frustrates users and complicates integration. Done not at all, it is one of the surest paths to an outage or a surprise bill.",
+    "tags": [
+        "security",
+        "api-design",
+        "reliability",
+        "scalability",
+        "software-engineering",
+        "performance"
+    ],
+    "category": "Software Development",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "API Rate Limiting",
+        "Throttling",
+        "Request Throttling"
+    ],
+    "relatedConcepts": [
+        "api",
+        "api-key",
+        "authentication",
+        "bring-your-own-key",
+        "reliability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Rate limiting - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Rate_limiting",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

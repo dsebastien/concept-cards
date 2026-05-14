@@ -1,0 +1,86 @@
+{
+    "id": "bring-your-own-key",
+    "name": "Bring Your Own Key",
+    "summary": "A model where users supply their own API keys or cryptographic keys to a third-party application instead of using shared keys provided by the vendor.",
+    "explanation": "Bring Your Own Key (BYOK) is a pattern where users or organizations provide their own credentials, API keys, or cryptographic keys to a third-party application or service rather than relying on keys managed by the vendor. In AI tooling, BYOK most commonly means users plug in their personal API keys for providers like OpenAI, Anthropic, or Google directly into a client application, paying the model provider directly while the application itself remains free or charges only a flat fee. In cloud and enterprise contexts, BYOK refers to customers supplying their own encryption keys (often stored in their own Key Management Service) for data hosted on a vendor's platform, preserving control over who can decrypt the data.\n\nThe motivations behind BYOK vary by domain but share a common theme: control. For AI applications, BYOK lets users avoid markups on token usage, retain full visibility into their own consumption, and choose providers freely. For enterprises, BYOK satisfies compliance and data sovereignty requirements by ensuring that the cloud vendor cannot unilaterally access encrypted data — revoking the key effectively revokes access. BYOK also reduces vendor lock-in by decoupling the application layer from the underlying service or model provider.\n\nBYOK shifts responsibility along with control. Users become accountable for key security, rotation, rate limit management, and billing with the upstream provider. Application developers must implement secure key storage (typically client-side or in encrypted user-scoped storage), handle multiple provider APIs, and avoid ever logging or transmitting keys to their own servers when possible. For end users, leaking a BYOK key can mean direct financial exposure since charges accrue against their account.\n\nBYOK has become a defining feature of many open-source and indie AI tools — chat clients, coding assistants, agent frameworks, and browser extensions — because it sidesteps the difficult economics of reselling LLM inference. It also aligns with the broader principle of digital sovereignty: users own their relationships with providers rather than mediating them through an opaque vendor. The trade-off is friction at onboarding (users must obtain and paste keys) and a steeper support burden when something goes wrong with the upstream provider.\n\nVariants and adjacent patterns include Bring Your Own Model (BYOM) where users plug in their own fine-tuned or self-hosted model, Bring Your Own Cloud (BYOC) where the vendor's software runs in the customer's cloud account, and Hold Your Own Key (HYOK) where the customer retains the key in fully on-premises infrastructure that the vendor never touches.",
+    "tags": [
+        "ai",
+        "security",
+        "privacy",
+        "api-design",
+        "saas",
+        "technologies"
+    ],
+    "category": "AI",
+    "icon": "FaKey",
+    "featured": false,
+    "aliases": [
+        "BYOK",
+        "Bring Your Own API Key",
+        "Bring Your Own Keys"
+    ],
+    "relatedConcepts": [
+        "api-key",
+        "bring-your-own-model",
+        "bring-your-own-cloud",
+        "bring-your-own-device",
+        "bring-your-own-ai",
+        "key-management",
+        "key-rotation",
+        "secrets-management",
+        "encryption",
+        "digital-sovereignty",
+        "vendor-lock-in",
+        "cloud-lock-in",
+        "api",
+        "authentication"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Key management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Key_management",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

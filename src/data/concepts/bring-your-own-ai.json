@@ -1,0 +1,99 @@
+{
+    "id": "bring-your-own-ai",
+    "name": "Bring Your Own AI",
+    "summary": "The workplace pattern where employees use personal or third-party AI tools — often outside official IT sanction — to do their jobs.",
+    "explanation": "Bring Your Own AI (BYOAI) describes the phenomenon, increasingly the norm in modern knowledge work, where employees use AI tools they have chosen and configured themselves to perform their work, rather than relying solely on AI capabilities provided by their employer. A marketer might draft copy with their personal ChatGPT subscription, a developer might pair-program with Claude or Cursor on their own account, an analyst might paste internal data into a consumer-grade chatbot to summarize it. Sometimes this is sanctioned; often it is not.\n\nBYOAI is the AI-era successor to BYOD and shadow IT. Just as employees once started bringing personal smartphones to work and using consumer SaaS apps to fill gaps in official tooling, they now bring AI assistants. The dynamics are similar: the tools deliver immediate productivity gains, employees adopt them faster than IT can evaluate them, and organizations end up with significant AI usage they cannot see, govern, or secure. Microsoft's Work Trend Index and similar studies have repeatedly found that the majority of knowledge workers use AI at work and that most of that use is unsanctioned.\n\nThe risks are substantive. Sensitive data may be pasted into third-party services with unclear retention and training policies. Different employees produce inconsistent outputs. There is no audit trail of decisions informed by AI. Intellectual property and confidentiality protections may be eroded. Compliance regimes — GDPR, HIPAA, SOC 2, sector-specific rules — may be silently violated. And when employees leave, the prompts, custom GPTs, and workflows they built often leave with them.\n\nThe right response is not blanket prohibition, which simply pushes BYOAI further underground. Effective organizations acknowledge the demand and meet it with sanctioned alternatives: enterprise AI subscriptions with data protection guarantees, internal AI platforms that integrate with company data and identity, clear policies on what data can go to which tools, and training that helps employees use AI well. BYOAI then becomes a managed pattern rather than a hidden one — similar to how BYOD evolved from a security crisis into a normal IT practice.\n\nBYOAI overlaps with concepts like shadow AI, AI governance, and AI literacy. It also intersects with BYOK and BYOM: an employee using their personal ChatGPT subscription is, technically, using their own key and model. Organizations adopting AI maturely treat BYOAI as a signal of unmet need and as a governance challenge to solve, not as deviance to punish.",
+    "tags": [
+        "ai",
+        "businesses",
+        "management",
+        "security",
+        "privacy",
+        "productivity"
+    ],
+    "category": "AI",
+    "icon": "FaRobot",
+    "featured": false,
+    "aliases": [
+        "BYOAI",
+        "Shadow AI",
+        "Personal AI at Work"
+    ],
+    "relatedConcepts": [
+        "bring-your-own-key",
+        "bring-your-own-model",
+        "bring-your-own-device",
+        "bring-your-own-cloud",
+        "ai-agent",
+        "ai-context-governance",
+        "data-security"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Shadow IT - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shadow_IT",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "bring-your-own-device",
+    "name": "Bring Your Own Device",
+    "summary": "A workplace policy that lets employees use their personal devices to access corporate systems, data, and applications.",
+    "explanation": "Bring Your Own Device (BYOD) is the workplace practice and policy framework that allows employees to use their personally-owned smartphones, tablets, and laptops to access company resources such as email, file storage, internal applications, and corporate networks. BYOD emerged in the early 2010s as smartphones became ubiquitous and employees increasingly preferred their personal devices over corporate-issued hardware. Organizations adopted it to reduce hardware costs, improve employee satisfaction, and acknowledge that mobile, flexible work was already happening informally.\n\nBYOD raises a set of tensions that defined a generation of enterprise security tooling. Employees expect privacy on their personal devices; employers need assurance that corporate data is protected, can be wiped if a device is lost, and is segregated from personal content. The dominant technical answers have been Mobile Device Management (MDM), Mobile Application Management (MAM), containerization (separate work and personal profiles), conditional access policies, and zero trust architectures that verify each request regardless of device ownership.\n\nA well-designed BYOD program typically includes an acceptable use policy, mandatory security controls (passcode, encryption, remote wipe capability), restrictions on which apps can hold corporate data, and clear boundaries on what the employer can and cannot see on the device. Poorly-designed programs create friction, surveillance concerns, and legal exposure — particularly when employers wipe entire personal devices or monitor personal activity.\n\nBYOD spawned a family of \"Bring Your Own X\" patterns that share its core structure: the user supplies a resource that the organization or platform would traditionally have provided. BYOA (Applications), BYOI (Identity), BYOK (Key), BYOC (Cloud), BYOM (Model), and BYOAI (AI) all inherit BYOD's logic of user-controlled inputs combined with organizational policy and guardrails. As remote work and SaaS proliferated, this pattern became a default architectural assumption rather than a special case.",
+    "tags": [
+        "security",
+        "technologies",
+        "businesses",
+        "management",
+        "privacy"
+    ],
+    "category": "Concepts",
+    "icon": "FaMobileAlt",
+    "featured": false,
+    "aliases": [
+        "BYOD",
+        "Bring Your Own Technology",
+        "BYOT"
+    ],
+    "relatedConcepts": [
+        "bring-your-own-key",
+        "bring-your-own-cloud",
+        "bring-your-own-model",
+        "bring-your-own-ai",
+        "zero-trust",
+        "data-security",
+        "encryption",
+        "authentication"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Bring your own device - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bring_your_own_device",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14"
+}
