@@ -1,0 +1,56 @@
+{
+    "id": "decipherment",
+    "name": "Decipherment",
+    "summary": "The discovery of the meaning, sound values, and structural rules of texts written in a script or language that is no longer understood, typically by combining linguistic, historical, and statistical reasoning.",
+    "explanation": "Decipherment is the process by which lost writing systems are made readable again. It sits at the intersection of linguistics, archaeology, history, and—increasingly—computational analysis. Successful decipherments are rare events that can reshape entire fields of historical knowledge in a single stroke.\n\n## Typical Conditions for Success\n\nMost successful decipherments share a similar pattern:\n\n- A **substantial corpus** of inscriptions in the unknown script.\n- A **bridge to a known language**: either a parallel text (a [[rosetta-stone|Rosetta-Stone-like]] document) or a known descendant language that preserves vocabulary and grammar.\n- **Anchor names**: proper names of kings, gods, or places that recur in known sources and can be located in the unknown text, especially when set apart graphically (e.g., cartouches).\n- **Statistical regularities**: sign frequencies, positions, and combinations that constrain how symbols can map to sounds and morphemes.\n- A **working hypothesis about the script type**: logographic, syllabic, alphabetic, abjad, or a mix—each implies a very different sign inventory.\n\nWhen most of these are absent, scripts can resist decipherment for centuries or remain undeciphered indefinitely.\n\n## Landmark Decipherments\n\n- **Egyptian hieroglyphs** — deciphered by Jean-François Champollion in 1822, using the [[rosetta-stone|Rosetta Stone]]'s trilingual decree, the parallel Philae obelisk, and his knowledge of Coptic. Champollion's key insight was that hieroglyphs combined phonetic and logographic signs.\n- **Cuneiform** — Mesopotamian cuneiform was opened up in the 19th century by Georg Friedrich Grotefend's work on Old Persian and by Henry Rawlinson's reading of the trilingual Behistun Inscription, eventually allowing Akkadian, Sumerian, and other languages to be read.\n- **Mycenaean Linear B** — deciphered by architect Michael Ventris in 1952, working with linguist John Chadwick. Ventris demonstrated that Linear B encoded an early form of Greek, using grid analysis of sign frequencies and a hypothesis about toponyms.\n- **Maya glyphs** — read incrementally through the 20th century, with major breakthroughs by Yuri Knorozov (who showed the script was partly phonetic) and Tatiana Proskouriakoff (who identified historical content in the inscriptions).\n\n## Still Undeciphered\n\nSeveral important scripts remain partially or entirely undeciphered, including the **Indus Valley script**, **Linear A** (Minoan), **Rongorongo** (Easter Island), and the **Voynich manuscript** (whose status as a real linguistic artifact is itself disputed). Each lacks one or more of the conditions that enabled past successes.\n\n## Computational Decipherment\n\nModern decipherment increasingly uses computational tools: sign segmentation, frequency analysis, n-gram statistics, and machine learning models trained to align unknown scripts with candidate known languages. These methods do not replace philological expertise but greatly amplify it, allowing rapid testing of hypotheses that would once have taken years.\n\n## As a Pattern of Inquiry\n\nBeyond ancient scripts, the *logic* of decipherment—building a bridge from the known to the unknown via parallel structure, statistical pattern, and disciplined hypothesis testing—generalizes to many problems: reverse-engineering software, reading dense legal texts, learning a new technical field, or interpreting unfamiliar data. In this generalized sense, decipherment is one of the core moves in [[reasoning-by-analogy|analogical reasoning]] and in any work that crosses domains.",
+    "tags": [
+        "language",
+        "languages",
+        "linguistics",
+        "history",
+        "problem-solving",
+        "discovery",
+        "knowledge"
+    ],
+    "category": "Concepts",
+    "icon": "FaUnlock",
+    "featured": false,
+    "aliases": [
+        "Script Decipherment"
+    ],
+    "relatedConcepts": [
+        "rosetta-stone",
+        "parallel-text",
+        "linguistics",
+        "reasoning-by-analogy",
+        "pattern-recognition",
+        "abductive-reasoning"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Decipherment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decipherment",
+            "type": "website"
+        },
+        {
+            "title": "Undeciphered writing systems - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Undeciphered_writing_systems",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Lost Languages: The Enigma of the World's Undeciphered Scripts by Andrew Robinson",
+            "url": "https://www.amazon.com/dp/0500288151?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Decipherment of Linear B by John Chadwick",
+            "url": "https://www.amazon.com/dp/1107691761?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-17",
+    "dateModified": "2026-05-17"
+}

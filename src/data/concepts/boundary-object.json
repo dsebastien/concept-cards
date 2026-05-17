@@ -1,0 +1,55 @@
+{
+    "id": "boundary-object",
+    "name": "Boundary Object",
+    "summary": "An artifact, concept, or representation that is flexible enough to adapt to local needs in different communities while staying recognizable to all of them, enabling cooperation without requiring full agreement.",
+    "explanation": "The concept of the boundary object was introduced by sociologists Susan Leigh Star and James Griesemer in a 1989 paper studying how heterogeneous groups—amateur naturalists, professional zoologists, administrators, and trappers—managed to collaborate on building the Museum of Vertebrate Zoology at Berkeley despite having very different goals, vocabularies, and standards of evidence. Their answer was that certain objects worked at the interfaces between these groups: maps, specimens, and standardized forms that each community could interpret in its own way while still treating the object as the same thing.\n\n## Definition\n\nIn Star and Griesemer's original framing, boundary objects are \"both plastic enough to adapt to local needs and constraints of the several parties employing them, yet robust enough to maintain a common identity across sites.\" Crucially, they enable cooperation **without consensus**: groups do not need to share meanings to work together effectively, only to share an object whose meaning is locally adequate everywhere it is used.\n\n## Typical Forms\n\nStar identified several recurring types of boundary objects:\n\n- **Repositories** — ordered collections (libraries, museums, datasets) from which different communities can draw what they need.\n- **Ideal types** — abstractions or diagrams (the atlas, the map, the org chart) that gloss over local detail but capture shared structure.\n- **Coincident boundaries** — objects with the same physical extent but different internal contents for each community (e.g., the state of California as a political, ecological, and economic object).\n- **Standardized forms** — templates and protocols (intake forms, bug report templates, common APIs) that make information portable across contexts.\n\n## Why It Matters\n\nBoundary objects explain how interdisciplinary work, cross-functional teams, and large institutions function despite genuine differences in how their members think. They show that effective collaboration does not require everyone to share a single ontology; it requires shared artifacts that are simultaneously interpretable on each side of a boundary. This is a powerful counter to the common assumption that misunderstanding can only be solved by harmonizing definitions.\n\n## Examples\n\n- A product roadmap is a boundary object between product managers, engineers, executives, and customers—each reads it differently while treating it as the same artifact.\n- A medical chart is a boundary object between nurses, doctors, billing staff, and patients.\n- Wikipedia entries function as boundary objects between specialists and the general public.\n- A [[rosetta-stone]] is, in essence, an unintentional boundary object across millennia—a single inscription that scholars, administrators, and modern Egyptologists each engage with on their own terms.\n- Open-source license texts mediate between developers, lawyers, and corporate adopters.\n\n## Limits and Failure Modes\n\nBoundary objects can fail when one community's interpretation comes to dominate, when an object is over-standardized and loses local plasticity, or when it is under-standardized and loses common identity. Star later emphasized that boundary objects exist in dynamic tension between local flexibility and global stability—too much of either erodes their bridging function.",
+    "tags": [
+        "collaboration",
+        "communication",
+        "knowledge",
+        "interdisciplinary",
+        "methodologies",
+        "culture",
+        "philosophy-of-science"
+    ],
+    "category": "Frameworks",
+    "icon": "FaLink",
+    "featured": false,
+    "aliases": [
+        "Boundary Objects"
+    ],
+    "relatedConcepts": [
+        "rosetta-stone",
+        "interdisciplinarity",
+        "lingua-franca",
+        "conceptual-metaphor"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Boundary object - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Boundary_object",
+            "type": "website"
+        },
+        {
+            "title": "Institutional Ecology, 'Translations' and Boundary Objects (Star & Griesemer, 1989)",
+            "url": "https://journals.sagepub.com/doi/10.1177/030631289019003001",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-17",
+    "dateModified": "2026-05-17"
+}

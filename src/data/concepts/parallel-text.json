@@ -1,0 +1,72 @@
+{
+    "id": "parallel-text",
+    "name": "Parallel Text",
+    "summary": "A text presented alongside its translation into one or more other languages, used for language learning, translation studies, philology, and as the foundation for statistical and machine translation systems.",
+    "explanation": "A parallel text is a document in which the same content appears in two or more languages, arranged so that corresponding passages can be compared. When the alignment is done at the level of sentences or smaller units, the result is often called a **parallel corpus**. Parallel texts are among the oldest and most powerful tools for crossing language barriers; they sit behind everything from the [[rosetta-stone|Rosetta Stone]] to modern neural machine translation.\n\n## Historical Forms\n\nParallel texts have a long history in religious, legal, and scholarly contexts:\n\n- **Trilingual and bilingual inscriptions** issued by ancient states to publish edicts in the languages of their subjects (e.g., the Rosetta Stone, the Behistun Inscription).\n- **Polyglot Bibles** such as the Complutensian Polyglot (1517) and the London Polyglot (1657), which printed Hebrew, Greek, Latin, Aramaic, and other versions side by side for scholarly comparison.\n- **Interlinear glosses** in medieval manuscripts, with word-for-word translations between the lines of a sacred or classical text.\n- **Bilingual editions** of literary works, with original and translation on facing pages—still a common publishing format.\n\n## Uses\n\n### Language Learning\n\nParallel texts let learners read meaningful content in a target language while keeping a known-language safety net at hand. Methods built around them include the **Schliemann method** (reading the same text first in a known then in an unknown language), the **Assimil** approach (graded parallel dialogues), and the **LR (Listening-Reading) method** popularized by language learners online. Parallel reading is particularly effective at supplying [[comprehensible-input|comprehensible input]] in volumes that pure study cannot match.\n\n### Translation and Philology\n\nTranslators use parallel texts as references for terminology, style, and idiom. Philologists and historical linguists use them to reconstruct lost vocabulary, trace semantic change, and study how concepts move between languages.\n\n### Computational Linguistics\n\nLarge parallel corpora—such as the Europarl corpus (European Parliament proceedings), the UN Parallel Corpus, OPUS, and many Bible translations—underpin both **statistical machine translation** (which learns word and phrase alignments from aligned bitext) and **neural machine translation** (which trains sequence-to-sequence models on the same data). Sentence-aligned parallel corpora remain among the most valuable training resources in NLP.\n\n## Alignment\n\nA raw parallel text is more useful once aligned. Alignment can be:\n\n- **Document-level** — two texts known to be translations of each other.\n- **Paragraph- or section-level** — coarse correspondences.\n- **Sentence-level** — the standard granularity for most computational uses.\n- **Word- or sub-word-level** — needed for fine-grained lexical work and as a byproduct of many translation models.\n\nAutomatic alignment algorithms (Gale–Church, IBM Models, modern neural aligners) make it feasible to build large aligned corpora from raw bitext.\n\n## Limits\n\nParallel texts are constrained by the styles and genres they cover (parliamentary proceedings and religious texts are over-represented), by translation quality, and by the fact that some languages have very little aligned data available. For low-resource languages, building usable parallel corpora is itself an active research problem.",
+    "tags": [
+        "language",
+        "languages",
+        "linguistics",
+        "learning",
+        "translation-studies",
+        "natural-language-processing"
+    ],
+    "category": "Learning & Education",
+    "icon": "FaColumns",
+    "featured": false,
+    "aliases": [
+        "Bitext",
+        "Parallel Corpus",
+        "Bilingual Text"
+    ],
+    "relatedConcepts": [
+        "rosetta-stone",
+        "decipherment",
+        "comprehensible-input",
+        "linguistics",
+        "lingua-franca"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Parallel text - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Parallel_text",
+            "type": "website"
+        },
+        {
+            "title": "OPUS - the open parallel corpus",
+            "url": "https://opus.nlpl.eu/",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Course",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-course",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-05-17",
+    "dateModified": "2026-05-17"
+}
