@@ -1,0 +1,63 @@
+{
+    "id": "trilemma",
+    "name": "Trilemma",
+    "summary": "A choice or situation involving three difficult or undesirable alternatives, where at most two of three desirable properties can be achieved at once.",
+    "explanation": "A trilemma is a decision situation with three options, each carrying significant drawbacks—or, more rigorously, a constraint that allows you to achieve only two of three desirable properties at the same time. The term extends the structure of a dilemma to three horns instead of two.\n\n**Two senses of 'trilemma'**:\n\n1. **Three undesirable options**: Like a dilemma, but with three difficult choices instead of two\n2. **Pick-two constraint**: Three desirable properties exist, but any solution can have at most two; the third must be sacrificed\n\nThe second sense is more common in practical analysis. It exposes hidden trade-offs that make certain combinations impossible.\n\n**Classic trilemmas**:\n\n- **The Project Management Triangle**: Fast, cheap, good—pick two\n- **The Mundell-Fleming Trilemma (Impossible Trinity)**: A country cannot simultaneously maintain a fixed exchange rate, free capital movement, and independent monetary policy\n- **Blockchain Trilemma (Vitalik Buterin)**: Decentralization, security, scalability—blockchains struggle to maximize all three\n- **The Münchhausen Trilemma**: Any attempt to justify knowledge ends in infinite regress, circular reasoning, or arbitrary axioms\n- **Epicurus' Trilemma (Problem of Evil)**: If God is omnipotent, omniscient, and good, why does evil exist?\n- **CAP Theorem (Brewer's Trilemma)**: A distributed system can guarantee at most two of consistency, availability, and partition tolerance\n- **Energy Trilemma**: Affordability, security, sustainability—pick two\n\n**Why trilemmas matter**:\n\n- **Expose hidden trade-offs**: They force explicit recognition that wanting everything is impossible\n- **Constrain solution space**: They eliminate impossible combinations early\n- **Guide prioritization**: Knowing you must drop one helps clarify which one\n- **Resist false promises**: They counter pitches that claim to deliver all three simultaneously\n\n**Responding to a trilemma**:\n\n- **Pick the right two**: Choose based on context and which sacrificed property is least costly\n- **Question the framing**: Sometimes the three properties aren't truly independent; a clever solution might shift the trade-off\n- **Phase across time**: Optimize for different pairs at different stages\n- **Accept the imperfection**: Stop seeking the impossible fourth option\n\n**Trilemma vs. dilemma**:\n\nA dilemma forces a binary trade-off; a trilemma reveals a three-way constraint. Adding a third dimension often makes the structure of the problem clearer rather than harder—you can see exactly what you're giving up.\n\nFor knowledge workers and decision-makers, identifying the trilemma behind a frustrating project—often phrased as 'we want it fast, cheap, and high-quality'—is a powerful diagnostic. It moves the conversation from wishful thinking to honest prioritization.",
+    "tags": [
+        "decision-making",
+        "trade-offs",
+        "mental-models",
+        "critical-thinking",
+        "constraints"
+    ],
+    "category": "Decision Science",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Three-way dilemma",
+        "Pick two",
+        "Impossible trinity"
+    ],
+    "relatedConcepts": [
+        "dilemma",
+        "dichotomy",
+        "false-dichotomy",
+        "trade-off",
+        "trichotomy-of-control",
+        "decision-making",
+        "both-and-thinking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Trilemma - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Trilemma",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-18",
+    "dateModified": "2026-05-18"
+}

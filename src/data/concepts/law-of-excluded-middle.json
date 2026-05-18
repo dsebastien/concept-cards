@@ -1,0 +1,44 @@
+{
+    "id": "law-of-excluded-middle",
+    "name": "Law of Excluded Middle",
+    "summary": "Classical logic principle that for any proposition, either it or its negation must be true—there is no third option.",
+    "explanation": "The Law of Excluded Middle (tertium non datur, 'no third is given') is one of the three classical laws of thought, alongside the law of identity and the law of non-contradiction. It states that for any well-formed proposition P, either P is true or its negation ¬P is true. There is no third truth value between them.\n\nFormally: P ∨ ¬P\n\n**The three classical laws of thought**:\n\n1. **Law of Identity**: A is A (a thing is itself)\n2. **Law of Non-Contradiction**: Not (P and ¬P) (a proposition cannot be both true and false)\n3. **Law of Excluded Middle**: P or ¬P (a proposition must be true or false, with nothing in between)\n\nTogether, these laws underpin classical (bivalent) logic, mathematics, and most computing systems.\n\n**Why it matters**:\n\n- **Proof by contradiction**: Mathematics frequently proves P by showing ¬P leads to absurdity—this requires excluded middle\n- **Decidability**: Many algorithms assume every input either does or does not have a property\n- **Binary computing**: Digital systems rest on a strict two-valued logic\n- **Clear reasoning**: It forces precision—you cannot evade a question by claiming the answer is 'somewhere in between'\n\n**Challenges and limits**:\n\nThe law of excluded middle is not universally accepted. Several traditions reject or restrict it:\n\n- **Intuitionistic logic** (Brouwer, Heyting): Rejects excluded middle for infinite or non-constructive cases. You cannot assert 'P or ¬P' unless you can construct a proof of one of them. This affects much of constructive mathematics.\n- **Fuzzy logic**: Allows truth values between 0 and 1, modeling vagueness ('this is sort of red')\n- **Many-valued logics**: Add a third 'unknown' or 'undefined' value (e.g., SQL's NULL handling)\n- **Quantum logic**: Drops classical distributivity to model quantum phenomena\n- **Paraconsistent logic**: Tolerates contradictions without exploding into triviality\n\n**Excluded middle vs. false dichotomy**:\n\nThe law of excluded middle is a logical truth about propositions; a [[false-dichotomy]] is a rhetorical move that misapplies binary framing to non-binary situations. 'Either it is raining or it is not raining' is excluded middle (legitimate). 'You either support the plan or you're against it' is often a false dichotomy (illegitimate, because partial support, neutrality, or alternative plans exist).\n\nThe distinction is subtle but important: excluded middle applies to well-formed propositions with crisp truth conditions, not to vague statements, value-laden judgments, or continuous quantities.\n\n**Practical takeaway**:\n\nClassical logic is a powerful tool for crisp domains—formal proofs, software correctness, well-defined yes/no questions. But applying its binary framing to vague predicates, partial truths, or contested values commits a category error. Knowing when excluded middle applies—and when fuzzy, intuitionistic, or context-sensitive reasoning is more appropriate—is part of mature critical thinking.",
+    "tags": [
+        "logic",
+        "philosophies",
+        "reasoning",
+        "critical-thinking",
+        "epistemology"
+    ],
+    "category": "Philosophy & Wisdom",
+    "icon": "FaBalanceScale",
+    "featured": false,
+    "aliases": [
+        "Excluded middle",
+        "Tertium non datur",
+        "Principle of excluded middle"
+    ],
+    "relatedConcepts": [
+        "dichotomy",
+        "false-dichotomy",
+        "logical-fallacies",
+        "grey-thinking",
+        "all-or-nothing-thinking",
+        "paradox",
+        "mu",
+        "inference"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Law of excluded middle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Law_of_excluded_middle",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-05-18",
+    "dateModified": "2026-05-18"
+}
