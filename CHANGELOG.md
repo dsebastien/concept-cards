@@ -1,3 +1,8 @@
+## [12.9.0](https://github.com/dsebastien/concept-cards/compare/12.8.0...12.9.0) (2026-05-30)
+
+### Features
+
+* **all:** added concepts ([c1de2cf](https://github.com/dsebastien/concept-cards/commit/c1de2cfe02042cb25fd48692e9797356ad5b5b2e))
 ## [12.8.0](https://github.com/dsebastien/concept-cards/compare/12.7.0...12.8.0) (2026-05-20)
 
 ### Features
