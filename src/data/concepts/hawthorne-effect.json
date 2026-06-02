@@ -1,0 +1,41 @@
+{
+    "id": "hawthorne-effect",
+    "name": "Hawthorne Effect",
+    "summary": "The phenomenon in which people change their behavior — usually improving it — because they know they are being observed or studied, independent of the intervention itself.",
+    "explanation": "The Hawthorne Effect is named after a series of productivity experiments conducted at the Hawthorne Works (a Western Electric factory near Chicago) between 1924 and 1932. Researchers manipulated lighting, break schedules, and other conditions to study their effect on worker output. They found that productivity tended to rise regardless of what was changed — including when conditions were made worse. The most plausible explanation: workers responded to the attention itself rather than to any specific intervention.\n\nModern interpretation has refined the original story. The Hawthorne data has been re-analyzed and some of the original effects were smaller or more confounded than first reported. Even so, the underlying phenomenon — behavior changes under observation — is real and widely documented in clinical, educational, and organizational research.\n\nMechanisms:\n\n- **Reactivity**: People modify behavior when they sense they are being measured.\n- **Demand characteristics**: Participants infer what the experimenter wants and act accordingly.\n- **Novelty and attention**: Being singled out as a subject of interest is itself motivating.\n- **Social facilitation**: Observation increases effort on well-practiced tasks (and can degrade it on novel ones).\n\nWhy it matters:\n\n- **Research design**: Any study that involves human awareness of measurement risks Hawthorne-style inflation of effects. Blinding, control groups, and long-running observation help mitigate.\n- **Management and feedback**: Tracking and acknowledging effort can lift performance even without changing tools or processes — but the effect typically fades as observation becomes routine.\n- **Self-experimentation**: When you start tracking sleep, weight, or hours of focused work, your behavior shifts the moment the measurement begins. Useful for kickstarting change, misleading for estimating baseline behavior.\n- **Connection to self-distancing**: The Hawthorne Effect echoes the [[self-distancing]] insight that adopting an observer perspective — even of yourself — changes behavior. The Batman Effect ([[batman-effect]]) leverages a related mechanism: an imagined external persona watches and judges, and the self responds.\n\nHawthorne Effect is one of the foundational reasons that 'just measure it' is often a powerful first intervention — and a key reason to be skeptical of dramatic short-term effects in observational research.",
+    "tags": [
+        "psychology",
+        "behavior-change",
+        "research",
+        "performance",
+        "measurement",
+        "social-influence"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Observer Effect (Behavioral)",
+        "Hawthorne Studies"
+    ],
+    "relatedConcepts": [
+        "observer-effect",
+        "self-distancing",
+        "batman-effect",
+        "social-conformity",
+        "pygmalion-effect"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Hawthorne effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hawthorne_effect",
+            "type": "website"
+        }
+    ],
+    "articles": [],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-06-02",
+    "dateModified": "2026-06-02"
+}

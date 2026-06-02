@@ -1,0 +1,78 @@
+{
+    "id": "society-of-mind",
+    "name": "Society of Mind",
+    "summary": "Marvin Minsky's theory that the mind is built from many small, mindless agents that interact like a society — and that intelligence and self emerge from their interactions rather than from any single component.",
+    "explanation": "*The Society of Mind* is the title of Marvin Minsky's 1986 book and the name of his theory of how minds work. Minsky, a founder of AI research, proposed that what we call thinking is the activity of a vast collection of simple, specialized agents — none of which is itself intelligent — whose interactions, organized into shifting coalitions, produce intelligent behavior.\n\nCore ideas:\n\n- **Agents and agencies**: A mind contains many *agents* (very simple processes). Agents combine into *agencies* responsible for higher-level functions: vision, language, planning, motivation.\n- **No central self**: There is no homunculus, no single 'I' issuing orders. The sense of a unified self is an emergent product of agents that talk about other agents.\n- **K-lines and frames**: Memory works by reactivating prior mental states (K-lines) and structured representations of typical situations (frames).\n- **Conflict and competition**: Different agents often want different things; intelligence is partly the process by which competing agencies are arbitrated.\n- **Common sense as engineering**: What looks like everyday reasoning is built from layers of specialized agents accumulated through development.\n\nWhy it matters:\n\n- It offered an alternative to monolithic 'unified mind' theories that dominated mid-20th-century cognitive science.\n- It anticipated modern modular and ensemble views of cognition, including aspects of contemporary neural and AI architectures.\n- It provides a vocabulary for thinking about the [[stadium-of-selves]], [[internal-family-systems]], and other multi-self frameworks. The 'selves' in the stadium are agencies in Minsky's sense.\n- It clarifies why introspection feels unreliable: you are one coalition of agents trying to report on the activity of others.\n\nConnections:\n\n- [[internal-family-systems]] gives a clinical/therapeutic instantiation of a multi-agent mind.\n- [[modularity-of-mind]] (Fodor) overlaps but is stricter about innate, encapsulated modules.\n- The [[dialogical-self]] (Hermans) is a cousin in personality psychology.\n- Modern large language models, with their internal circuits and specialized heads, can be read partly through a Society-of-Mind lens.\n\nMinsky's book is famously written as a society of one-page essays — each idea its own agent — embodying the theory in its very form.",
+    "tags": [
+        "ai",
+        "cognition",
+        "philosophy",
+        "identity",
+        "mental-models",
+        "psychology"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Minsky Society of Mind",
+        "Agent Theory of Mind"
+    ],
+    "relatedConcepts": [
+        "internal-family-systems",
+        "stadium-of-selves",
+        "multiple-selves",
+        "dialogical-self",
+        "emergence",
+        "self-concept",
+        "narrative-identity"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Society of Mind - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Society_of_Mind",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "AI Ghostwriter Guide",
+            "url": "https://store.dsebastien.net/product/ai-ghostwriter-guide",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Voice AI",
+            "url": "https://voice-ai.knowii.net",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Society of Mind by Marvin Minsky",
+            "url": "https://www.amazon.com/dp/0671657135?tag=dsebastien00-20"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-06-02",
+    "dateModified": "2026-06-02"
+}
