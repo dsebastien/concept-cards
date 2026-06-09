@@ -1,0 +1,63 @@
+{
+    "id": "directly-responsible-individual",
+    "name": "Directly Responsible Individual (DRI)",
+    "summary": "The practice of assigning a single named person clear ownership of and accountability for an outcome, so that decisions have an owner rather than diffusing across a group.",
+    "explanation": "A Directly Responsible Individual (DRI) is the one person who is unambiguously accountable for a given task, decision, or outcome. The concept, popularized by Apple's internal management culture, answers a deceptively simple question for any piece of work: \"Whose name is next to this?\" When every initiative has a DRI, there is always a clear point of ownership - someone to drive it forward, make the calls, and answer for the result.\n\nThe DRI pattern is a direct structural remedy to the failure modes of group ownership. When responsibility is shared across a committee or a whole team, it is effectively owned by no one: this is the diffusion of responsibility, where each person assumes someone else will act. Decisions stall, get watered down into consensus compromises, or never get made at all. By naming a single accountable individual, the DRI model restores conceptual integrity to the work - one person holds the vision and ensures the pieces cohere - while still allowing broad input and collaboration. The DRI gathers feedback widely but decides narrowly.\n\nCrucially, being a DRI is about accountability, not about doing all the work alone or having unilateral power over everything. A good DRI consults experts, delegates execution, and builds consensus where it is cheap to do so - but when the group cannot agree, the DRI is the person empowered to break the tie and move forward. This is the complement to practices like \"disagree and commit\": the DRI makes the call, and the team commits to it.\n\nThe model relates to similar constructs such as Amazon's single-threaded leader (a leader wholly dedicated to one initiative) and the RACI framework's \"Accountable\" role. Adopting DRIs is a lightweight, high-leverage intervention: it counteracts design by committee, the HiPPO problem, and bikeshedding by making it clear who decides and who is answerable, without requiring heavy process.",
+    "tags": [
+        "leadership",
+        "accountability",
+        "decision-making",
+        "management",
+        "ownership"
+    ],
+    "category": "Leadership & Management",
+    "icon": "FaUserCheck",
+    "featured": false,
+    "aliases": [
+        "DRI",
+        "Directly Responsible Individual",
+        "Single-threaded leader",
+        "Single-threaded owner"
+    ],
+    "relatedConcepts": [
+        "design-by-committee",
+        "diffusion-of-responsibility",
+        "conceptual-integrity",
+        "disagree-and-commit",
+        "hippo",
+        "social-loafing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "DRI (Directly Responsible Individual) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Directly_responsible_individual",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-06-09",
+    "dateModified": "2026-06-09"
+}

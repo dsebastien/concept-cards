@@ -1,0 +1,62 @@
+{
+    "id": "hippo",
+    "name": "HiPPO (Highest Paid Person's Opinion)",
+    "summary": "A decision-making pitfall where the views of the most senior or highly paid person in the room override data, evidence, and the judgment of those closest to the problem.",
+    "explanation": "HiPPO stands for the Highest Paid Person's Opinion. It describes the tendency for groups to defer to the most senior, highest-paid, or most authoritative person present, regardless of whether that person has the best information or judgment about the matter at hand. Decisions get made to satisfy the HiPPO rather than to satisfy the evidence.\n\nThe dynamic is corrosive because it short-circuits the value of having a team at all. When people anticipate that the senior person's preference will prevail, they self-censor: they stop surfacing dissenting data, stop running experiments that might contradict the boss, and stop voicing the concerns they would otherwise raise. The organization loses access to the distributed knowledge that justified gathering a group in the first place. Worse, the HiPPO is often the person furthest from the customer, the code, or the operational detail - their intuition carries the most weight precisely where it has the least grounding.\n\nThe term was popularized in the context of web analytics and experimentation culture, where the antidote is to let data settle arguments. Instead of debating whose opinion is best, teams run an A/B test and let users vote with their behavior. More broadly, the HiPPO problem is countered by building a culture of psychological safety where junior voices are actively solicited, by separating idea generation from rank (e.g. collecting opinions in writing before discussion), by assigning clear decision rights based on expertise rather than seniority, and by leaders explicitly stating that they want to be proven wrong by evidence.\n\nHiPPO is a close cousin of design by committee and groupthink: all three describe ways that social dynamics, rather than merit, end up steering decisions. Where design by committee dilutes a vision through too many voices, the HiPPO problem amplifies a single voice beyond its warrant.",
+    "tags": [
+        "decision-making",
+        "leadership",
+        "pitfalls",
+        "biases",
+        "collaboration"
+    ],
+    "category": "Decision Science",
+    "icon": "FaUserTie",
+    "featured": false,
+    "aliases": [
+        "Highest Paid Person's Opinion",
+        "HiPPO effect",
+        "HiPPO problem"
+    ],
+    "relatedConcepts": [
+        "design-by-committee",
+        "groupthink",
+        "directly-responsible-individual",
+        "decision-fatigue",
+        "abilene-paradox",
+        "false-consensus-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "HiPPO (term) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/HiPPO",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-06-09",
+    "dateModified": "2026-06-09"
+}
