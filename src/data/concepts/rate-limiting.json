@@ -24,7 +24,11 @@
         "api-key",
         "authentication",
         "bring-your-own-key",
-        "reliability"
+        "reliability",
+        "thundering-herd",
+        "cache-stampede",
+        "backpressure",
+        "load-balancing"
     ],
     "relatedNotes": [],
     "articles": [],

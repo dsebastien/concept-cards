@@ -28,7 +28,12 @@
         "idempotency",
         "determinism",
         "statelessness",
-        "eventual-consistency"
+        "eventual-consistency",
+        "concurrency",
+        "load-balancing",
+        "sharding",
+        "race-condition",
+        "deadlock"
     ],
     "relatedNotes": [],
     "articles": [],

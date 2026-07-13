@@ -1,0 +1,40 @@
+{
+    "id": "concurrency",
+    "name": "Concurrency",
+    "summary": "Concurrency is structuring a program as independently executing tasks that make progress in overlapping time periods, whether or not they run at the same instant.",
+    "explanation": "Concurrency is the composition of independently executing tasks so that they make progress over overlapping periods of time. It is fundamentally about the structure of a program: dividing work into units that can be scheduled, suspended, and resumed independently, and coordinating how those units interact. A concurrent design lets a system deal with many things at once, such as handling thousands of network connections, responding to user input while performing background work, or interleaving computation with waiting on input and output.\n\nConcurrency is often confused with parallelism, but the two are distinct. Concurrency is about dealing with many tasks at once as a matter of program structure, while parallelism is about actually executing multiple tasks simultaneously, which requires multiple processing units. A single-core machine can be highly concurrent by rapidly switching between tasks even though only one instruction executes at any instant, whereas parallelism genuinely runs computations at the same physical time. Concurrency enables parallelism when hardware allows it, but a concurrent program can be valuable even without any parallel execution, for example to keep an application responsive while waiting on slow input and output.\n\nThe reason concurrency matters is that modern systems spend much of their time waiting on external events and must serve many clients at once, so organizing work into concurrent tasks improves throughput, responsiveness, and resource utilization. It is expressed through mechanisms such as threads, processes, coroutines, asynchronous input and output, event loops, actors, and message passing, each offering a different balance of control and overhead.\n\nThe difficulty of concurrency is coordinating access to shared state, which is the root of hazards like race conditions and deadlocks. Common mitigations include minimizing shared mutable state, favoring immutable data and message passing over shared memory, using synchronization primitives such as locks and semaphores where sharing is unavoidable, and adopting higher-level models like actors or channels that make coordination explicit. Designing tasks to be independent and idempotent where possible keeps concurrent systems correct and easier to reason about.",
+    "tags": [
+        "software-development",
+        "concurrency",
+        "performance",
+        "parallelism"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Concurrent Computing"
+    ],
+    "relatedConcepts": [
+        "race-condition",
+        "deadlock",
+        "distributed-systems",
+        "backpressure",
+        "idempotency"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Concurrency (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Concurrency_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

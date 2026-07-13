@@ -1,0 +1,35 @@
+{
+    "id": "load-balancing",
+    "name": "Load Balancing",
+    "summary": "Load balancing is the practice of distributing incoming work across multiple servers or resources to improve throughput, latency, and availability.",
+    "explanation": "Load balancing is the practice of distributing incoming requests or work across a pool of servers, processes, or resources so that no single member becomes a bottleneck. A load balancer sits between clients and a set of backends and decides, for each unit of work, which backend should handle it. By spreading the load evenly, the system can serve more traffic than any one machine could handle alone, keep response times low, and continue operating even when individual backends fail.\n\nThe motivation for load balancing is threefold: throughput, latency, and availability. Distributing work lets a system scale horizontally by adding more backends rather than making a single machine larger, which is often cheaper and more resilient. It reduces latency by keeping any one server from being overloaded, and it improves availability because the balancer can route around failed or unhealthy instances so that the loss of one machine does not take down the service.\n\nLoad balancers choose backends using distribution algorithms, each suited to different workloads. Round-robin cycles through backends in order, which is simple and fair when requests are uniform. Least-connections routes each request to the backend currently handling the fewest active connections, which adapts better when request durations vary. Weighted variants bias the distribution toward more capable machines, hash-based schemes route consistently based on a client or request attribute to preserve affinity, and random or power-of-two-choices strategies approximate even spreading cheaply. Health checks let the balancer detect and remove failing backends automatically.\n\nKey tradeoffs and mitigations concern statefulness and hotspots. Session affinity, or sticky sessions, keeps a client pinned to one backend when server-side state requires it, but this reduces the evenness of distribution and complicates failover, so stateless backends are generally preferred. The load balancer itself can become a single point of failure, mitigated by running redundant balancers. Combined with health checks, autoscaling, and backpressure, load balancing is a foundational technique for building scalable and reliable distributed systems.",
+    "tags": [
+        "distributed-systems",
+        "scalability",
+        "reliability",
+        "performance"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Load Balancer"
+    ],
+    "relatedConcepts": [
+        "sharding",
+        "distributed-systems",
+        "backpressure",
+        "rate-limiting",
+        "fault-tolerance"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Load balancing (computing) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

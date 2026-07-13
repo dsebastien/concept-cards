@@ -1,0 +1,40 @@
+{
+    "id": "computability",
+    "name": "Computability",
+    "summary": "The study of which problems can in principle be solved by an algorithm or effective procedure, and which cannot, regardless of available time or memory.",
+    "explanation": "Computability is the branch of mathematical logic and theoretical computer science concerned with what can, in principle, be computed by an algorithm. Rather than asking how quickly a problem can be solved, it asks the more fundamental question of whether any effective, mechanical procedure exists to solve it at all. A function or problem is called computable when some algorithm can produce the correct answer in a finite number of steps for every valid input.\n\nThe field crystallised in the 1930s through several independent formalisations of the intuitive idea of an algorithm, including Turing machines, Alonzo Church's lambda calculus, and the theory of recursive functions. Remarkably, all of these models turned out to define exactly the same class of computable functions. This convergence is the basis of the Church-Turing thesis, which proposes that any function computable by an effective procedure is computable by a Turing machine.\n\nA central discovery of computability theory is that some well-defined problems are not computable at all. The most famous example is the halting problem, which asks whether an arbitrary program will eventually stop or run forever. Turing proved that no algorithm can answer this for all programs. Many other problems have since been shown to be undecidable, often by reducing the halting problem to them, revealing hard limits on what computation can achieve.\n\nComputability theory also studies fine gradations among unsolvable problems, using tools such as reductions and Turing degrees to measure relative difficulty and organise problems into a rich hierarchy. These ideas connect deeply to mathematical logic, including Godel's incompleteness theorems, and they frame the boundary that complexity theory later refines by asking not just whether a problem is solvable, but how efficiently.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "foundations",
+        "logic"
+    ],
+    "category": "Software Development",
+    "icon": "FaCalculator",
+    "featured": false,
+    "aliases": [
+        "Computability Theory",
+        "Recursion Theory"
+    ],
+    "relatedConcepts": [
+        "computability-theory",
+        "halting-problem",
+        "church-turing-thesis",
+        "turing-machine",
+        "decidability",
+        "automata-theory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Computability theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computability_theory",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

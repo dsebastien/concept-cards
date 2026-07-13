@@ -1,0 +1,57 @@
+{
+    "id": "toulmin-model",
+    "name": "Toulmin Model",
+    "summary": "A framework by philosopher Stephen Toulmin for analyzing and constructing arguments by breaking them into six components: claim, grounds, warrant, backing, qualifier, and rebuttal.",
+    "explanation": "The Toulmin Model, introduced by British philosopher Stephen Toulmin in his 1958 book The Uses of Argument, is a practical framework for dissecting and building real-world arguments. Rather than treating reasoning as abstract formal logic, Toulmin sought to describe how people actually justify claims in everyday and professional discourse, where conclusions are rarely certain and almost always context-dependent. The model decomposes an argument into six functional parts, allowing you to see exactly how a conclusion is supported and where it might be weak.\n\nThe three core elements form the backbone of any argument. The claim is the conclusion or assertion you want the audience to accept (for example, \"You should get a flu shot this year\"). The grounds (also called data or evidence) are the facts, observations, or reasons offered in support (\"Flu cases are rising, and you work in a hospital\"). The warrant is the logical bridge that connects the grounds to the claim, often left unstated (\"Vaccination reduces the risk of infection for people with high exposure\"). Making the warrant explicit is frequently the most illuminating step, because a weak or unjustified warrant is where many arguments quietly fail.\n\nThe three supporting elements add nuance and honesty to the argument. The backing provides further justification for the warrant itself, typically citing studies, authorities, or established principles (\"Clinical trials show the vaccine lowers infection rates among healthcare workers\"). The qualifier expresses the degree of certainty, using words like \"probably,\" \"usually,\" or \"in most cases,\" acknowledging that the claim is not absolute (\"You will probably reduce your risk\"). The rebuttal identifies conditions or exceptions under which the claim would not hold (\"unless you have a medical reason that contraindicates the vaccine\"). Together, the qualifier and rebuttal keep an argument intellectually honest by mapping its limits instead of overstating its reach.\n\nThe model is especially useful for analyzing persuasive and argumentative writing, evaluating claims in debates, journalism, law, and science, and strengthening your own reasoning before you present it. By asking \"What is the claim? What grounds support it? What warrant links them? How is that warrant backed? How strong is the qualifier? What could rebut it?\" you can quickly locate hidden assumptions, unsupported leaps, and overconfident conclusions. It is a valuable critical-thinking tool because it forces both the arguer and the audience to surface the invisible warrant that everyone was silently assuming.\n\nThe strength of the Toulmin Model is its realism: it fits the messy, probabilistic arguments of ordinary life far better than strict deductive syllogisms, and it gives writers and analysts a shared vocabulary for diagnosing argument quality. Its limits are that not every argument maps cleanly onto all six parts, some elements can blur together in practice, and the model describes an argument's structure without judging whether its evidence is actually true. It is best treated as a lens for clarifying and stress-testing reasoning rather than as a guarantee of soundness.",
+    "tags": [
+        "thinking",
+        "critical-thinking",
+        "reasoning",
+        "argumentation",
+        "frameworks"
+    ],
+    "category": "Thinking",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Toulmin Method",
+        "Toulmin Argument Model"
+    ],
+    "relatedConcepts": [
+        "argumentation",
+        "argumentation-mapping",
+        "critical-thinking",
+        "steelmanning",
+        "logical-fallacies",
+        "first-principles"
+    ],
+    "references": [
+        {
+            "title": "Stephen Toulmin - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Toulmin_method",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

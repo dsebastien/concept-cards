@@ -1,0 +1,53 @@
+{
+    "id": "exponential-backoff",
+    "name": "Exponential Backoff",
+    "summary": "Exponential backoff is a retry strategy that progressively increases the wait time between successive attempts, usually adding randomized jitter, to reduce contention and give a failing resource time to recover.",
+    "explanation": "Exponential backoff is an algorithm for spacing out repeated attempts against a resource that has failed or signaled that it is busy. Rather than retrying at a fixed interval, each successive attempt waits longer than the last, with the delay growing multiplicatively (for example roughly doubling: 1s, 2s, 4s, 8s, often up to a maximum cap). The idea is that if a resource is unavailable now, waiting increasingly longer before trying again reduces wasted work and gives the resource room to recover.\n\nThe strategy exists because immediate or fixed-interval retries tend to synchronize many clients and amplify load exactly when a system is least able to handle it. By making each client back off for progressively longer periods, the total volume of retry traffic shrinks over time and the pressure on the struggling dependency eases instead of building. Exponential backoff is a standard component of robust retry logic in network protocols, API clients, and distributed systems.\n\nPlain exponential backoff is not enough on its own, because if many clients fail together they will also compute the same growing delays and retry in synchronized waves. This is why jitter is essential: adding randomness to each delay (for example choosing a random value between zero and the current backoff bound) desynchronizes clients so their retries are spread across the interval rather than clustered. Backoff with jitter meaningfully reduces contention and avoids the retry storms and thundering herds that undermine recovery.\n\nIn practice exponential backoff with jitter is combined with other controls: a maximum delay cap so waits do not grow unbounded, a limit on the number of retries or an overall retry budget, and often a circuit breaker that stops retrying entirely when a dependency is clearly down. Used together, these make retries safe and effective for transient failures while protecting the system from being overwhelmed by its own retry traffic.",
+    "tags": [
+        "distributed-systems",
+        "reliability",
+        "resilience",
+        "networking",
+        "fault-tolerance"
+    ],
+    "category": "Software Development",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Exponential backoff with jitter"
+    ],
+    "relatedConcepts": [
+        "retry-storm",
+        "circuit-breaker",
+        "thundering-herd",
+        "backpressure",
+        "rate-limiting",
+        "idempotency",
+        "distributed-systems"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Exponential backoff - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Exponential_backoff",
+            "type": "website"
+        },
+        {
+            "title": "Timeouts, retries, and backoff with jitter - Amazon Builders' Library",
+            "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

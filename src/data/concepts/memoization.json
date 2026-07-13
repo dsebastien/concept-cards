@@ -1,0 +1,42 @@
+{
+    "id": "memoization",
+    "name": "Memoization",
+    "summary": "An optimization that caches the result of an expensive function call and returns the stored result whenever the same inputs occur again.",
+    "explanation": "Memoization is an optimization technique in which the results of expensive function calls are stored in a cache keyed by the function's arguments. The first time the function is called with a particular set of inputs, it computes the result normally and saves it. On subsequent calls with the same inputs, it skips the computation and returns the previously stored value. This trades memory for speed, avoiding repeated work at the cost of retaining past results.\n\nMemoization is most effective when a function is called repeatedly with the same arguments and the computation is costly relative to a cache lookup. Classic examples include the recursive Fibonacci computation, where naive recursion recomputes the same subproblems exponentially many times, and dynamic programming in general, where overlapping subproblems are solved once and reused. It is also common in rendering and UI frameworks to avoid recomputing derived values when inputs have not changed.\n\nA crucial requirement is that the memoized function must be pure, or at least referentially transparent with respect to its inputs. If a function's output depends only on its arguments and it has no side effects, then caching by argument is always correct. If the function reads hidden state or produces side effects, returning a cached value silently skips that behavior and yields wrong results, which is why memoization pairs naturally with pure functions and immutable inputs.\n\nThe tradeoffs center on memory and cache management. An unbounded cache can grow without limit and leak memory, so real implementations often bound the cache size and use an eviction policy such as least-recently-used. Choosing a correct cache key can be subtle when arguments are complex objects, and cache invalidation becomes necessary if the underlying data a function conceptually depends on can change. Used carefully, memoization turns repeated expensive work into cheap lookups.",
+    "tags": [
+        "performance",
+        "functional-programming",
+        "programming",
+        "software-development",
+        "algorithms"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "relatedConcepts": [
+        "pure-functions",
+        "recursion",
+        "immutability",
+        "side-effects"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Memoization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Memoization",
+            "type": "website"
+        },
+        {
+            "title": "Dynamic programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dynamic_programming",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

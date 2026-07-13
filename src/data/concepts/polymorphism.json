@@ -1,0 +1,42 @@
+{
+    "id": "polymorphism",
+    "name": "Polymorphism",
+    "summary": "The ability for different types to be used through a common interface, with the actual behavior resolved according to each value's real type.",
+    "explanation": "Polymorphism is the ability of a single interface, name, or operation to work across many different types. The word means many forms, and in programming it lets code written against a general abstraction operate correctly on any concrete type that satisfies that abstraction. Instead of writing separate code paths for every type, a program expresses behavior once in terms of a shared contract and lets each type supply its own implementation.\n\nThere are several distinct kinds of polymorphism. Subtype polymorphism, central to object-oriented programming, lets a value of a subclass be used wherever its superclass or interface is expected, with method calls dispatched to the actual runtime type. Parametric polymorphism, known as generics or templates, writes code that works uniformly over any type supplied as a parameter, such as a list that can hold elements of any type. Ad-hoc polymorphism, including function overloading and type classes, provides different implementations selected by the specific types of the arguments.\n\nThe value of polymorphism is that it decouples the code that uses a behavior from the code that implements it. New types can be added that conform to an existing interface without modifying the callers that depend on that interface, which supports extensibility and the open-closed principle. It reduces duplication, since one generic algorithm can serve many concrete types, and it makes systems easier to extend as requirements grow.\n\nPolymorphism carries tradeoffs. Dynamic dispatch, used to resolve subtype behavior at runtime, adds a small performance cost and can obscure exactly which implementation runs for a given call, complicating debugging. Deep inheritance hierarchies built around subtype polymorphism can become rigid and hard to follow, which is why many designs favor composition and small interfaces. Generics can complicate type systems and error messages. Applied with restraint, polymorphism is one of the most powerful tools for writing flexible, reusable software.",
+    "tags": [
+        "programming",
+        "software-development",
+        "object-oriented-programming",
+        "design-patterns",
+        "computer-science"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "relatedConcepts": [
+        "abstraction",
+        "encapsulation",
+        "solid-principles",
+        "design-patterns"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Polymorphism (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Polymorphism_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Subtyping - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Subtyping",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

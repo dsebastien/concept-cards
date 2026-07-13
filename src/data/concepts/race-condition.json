@@ -1,0 +1,40 @@
+{
+    "id": "race-condition",
+    "name": "Race Condition",
+    "summary": "A race condition is a defect where a system's correctness depends on the unpredictable timing or interleaving of concurrent operations accessing shared state.",
+    "explanation": "A race condition arises when two or more concurrent operations access shared state and the final outcome depends on the order in which their steps happen to interleave. Because the scheduler, the hardware, and the operating system decide that ordering at runtime, the result becomes nondeterministic: the same code can produce a correct answer on one run and a corrupted one on the next. The classic example is a read-modify-write sequence such as incrementing a shared counter, where two threads each read the same old value, each add one, and each write back, so one increment is silently lost.\n\nThe underlying cause is that an operation the programmer imagines as atomic is actually several separate steps, and another operation can slip in between those steps. This applies not only to threads sharing memory but to processes sharing files, distributed nodes sharing a database row, or any code that checks a condition and then acts on it. A common variant is the time-of-check-to-time-of-use bug, where a program verifies that a resource is in some state and then uses it, but the state changes in the gap between the check and the use.\n\nRace conditions are notoriously hard to diagnose because they are timing-dependent and often disappear under a debugger or when logging is added, which changes the timing. They may surface only under load, on particular hardware, or once in millions of executions, making them intermittent and difficult to reproduce. Their consequences range from lost updates and corrupted data structures to security vulnerabilities and crashes.\n\nThe primary mitigations are synchronization primitives that enforce mutual exclusion over the shared state, such as locks, mutexes, semaphores, and monitors, so that only one operation touches the critical section at a time. Atomic hardware instructions like compare-and-swap, immutable data, message passing instead of shared memory, and transactional guarantees in databases also eliminate the interleaving window. Careful design to minimize shared mutable state is the most durable defense, and tools such as thread sanitizers and static analyzers help detect races before they reach production.",
+    "tags": [
+        "software-development",
+        "concurrency",
+        "reliability",
+        "parallelism"
+    ],
+    "category": "Software Development",
+    "icon": "FaRandom",
+    "featured": false,
+    "aliases": [
+        "Race Hazard"
+    ],
+    "relatedConcepts": [
+        "deadlock",
+        "concurrency",
+        "idempotency",
+        "eventual-consistency",
+        "fault-tolerance"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Race condition - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Race_condition",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

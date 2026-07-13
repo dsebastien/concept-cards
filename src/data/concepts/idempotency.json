@@ -24,7 +24,9 @@
         "graceful-degradation",
         "eventual-consistency",
         "determinism",
-        "cap-theorem"
+        "cap-theorem",
+        "race-condition",
+        "concurrency"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+switching+is+not+an+idempotent+operation"

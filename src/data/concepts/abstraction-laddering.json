@@ -1,0 +1,59 @@
+{
+    "id": "abstraction-laddering",
+    "name": "Abstraction Laddering",
+    "summary": "A technique for moving up or down levels of abstraction to find the most useful altitude at which to frame and solve a problem.",
+    "explanation": "Abstraction laddering is a technique for adjusting the level of abstraction of a problem statement in order to find the most useful vantage point from which to frame and solve it. A problem is written down, and then it is deliberately moved up the ladder to become broader and more general, or down the ladder to become narrower and more concrete. The goal is to escape the fixed altitude at which a problem was first stated and discover a framing that opens better options.\n\nTo climb up the ladder, you ask 'why?' about the current statement. Each answer reveals the larger purpose behind the problem and produces a broader framing. Broadening is useful when the initial problem feels too narrow, when solutions seem cramped, or when you suspect you are treating a symptom rather than a cause. Moving up widens the solution space and can reveal that the real objective is different from what was assumed.\n\nTo climb down the ladder, you ask 'how?' about the current statement. Each answer makes the problem more specific, concrete, and actionable. Narrowing is useful when a problem is so broad that it is paralyzing, when a team cannot get traction, or when abstract goals need to be translated into tangible next steps. Moving down turns a vague aspiration into something a team can actually build.\n\nThe skill lies in choosing the right altitude. Frame a problem too abstractly and it becomes unsolvable hand-waving; frame it too concretely and you may lock in a narrow solution to the wrong problem. Practitioners often generate several rungs in both directions, then select the level where the problem is both meaningful and workable. The ladder makes explicit a move that skilled problem solvers make intuitively.\n\nAbstraction laddering is widely used in design thinking, product strategy, and facilitation, often as a group exercise using sticky notes arranged vertically. It pairs naturally with problem reframing and problem finding, since sliding along the ladder is one of the most reliable ways to reframe a problem and to notice which version of it is truly worth pursuing.",
+    "tags": [
+        "thinking",
+        "problem-solving",
+        "creativity",
+        "frameworks",
+        "cognition"
+    ],
+    "category": "Thinking",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Abstraction Ladder"
+    ],
+    "relatedConcepts": [
+        "abstraction",
+        "problem-reframing",
+        "problem-framing",
+        "first-principles",
+        "five-whys"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Ladder of abstraction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ladder_of_abstraction",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

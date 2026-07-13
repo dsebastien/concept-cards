@@ -1,0 +1,33 @@
+{
+    "id": "unit-economics",
+    "name": "Unit Economics",
+    "summary": "The direct revenues and costs associated with a single unit such as one customer or product, used to assess whether a business model is fundamentally profitable and scalable.",
+    "explanation": "Unit economics breaks a business down to its smallest meaningful building block and asks a simple but decisive question: does each individual unit make or lose money? A unit is usually defined as a single customer or a single product sold, and the analysis isolates the direct revenue that unit generates and the direct costs required to acquire and serve it. By stripping away the noise of aggregate financials, unit economics reveals whether the underlying model works before it is scaled up. A company can grow rapidly and still be doomed if every new customer deepens the losses.\n\nThe most common framing in subscription and digital businesses compares customer lifetime value (CLV or LTV) against customer acquisition cost (CAC). Lifetime value estimates the total profit expected from a customer over the entire relationship, while acquisition cost captures the marketing and sales spend needed to win that customer. A healthy business typically wants an LTV to CAC ratio of at least three to one, alongside a reasonable payback period, meaning the time it takes to recover the acquisition cost from a customer's ongoing contribution.\n\nGetting the numbers right requires discipline about what counts. Contribution margin per unit should reflect the true variable costs of delivery, including payment processing, support, hosting, or fulfillment, not just the headline price. Overlooking retention and churn is a frequent mistake, because lifetime value collapses quickly when customers leave sooner than assumed. Cohort analysis, which tracks groups of customers acquired in the same period over time, is often used to ground these estimates in real behavior rather than optimistic projections.\n\nStrong unit economics give a company the confidence to invest in growth, because spending more on acquisition simply produces more profitable units. Weak or negative unit economics signal that scaling will amplify losses rather than build value, and that the model needs to change first, whether through higher prices, lower costs, better retention, or a different customer segment.\n\nBeyond fundraising and internal decision-making, unit economics function as a lens for evaluating strategy. They clarify which customer segments, channels, or product lines are actually worth pursuing, and they force founders and operators to confront whether apparent traction rests on durable profitability or on subsidized growth that cannot last."
+    ,
+    "tags": [
+        "economics",
+        "startups",
+        "businesses",
+        "finance",
+        "metrics"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaChartLine",
+    "featured": false,
+    "relatedConcepts": [
+        "product-market-fit",
+        "moat",
+        "network-effects",
+        "opportunity-cost",
+        "price-elasticity"
+    ],
+    "references": [
+        {
+            "title": "Unit cost - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unit_cost",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

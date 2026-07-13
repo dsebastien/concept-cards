@@ -1,0 +1,52 @@
+{
+    "id": "raid-log",
+    "name": "RAID Log",
+    "summary": "A project-management tool that tracks Risks, Assumptions, Issues, and Dependencies in a single register so that they stay visible, owned, and actively managed throughout a project.",
+    "explanation": "A RAID log is a structured register used to capture and monitor four categories of project information: Risks, Assumptions, Issues, and Dependencies. The acronym gives the tool its name and defines its four sections. By consolidating these items in one place, a project team ensures that nothing important slips through the cracks between status meetings, and that everyone shares a common view of what could threaten or influence the work.\n\nEach letter addresses a distinct concern. Risks are potential future events that could harm the project if they occur, each recorded with a likelihood, impact, owner, and mitigation plan. Assumptions are things believed to be true but not yet confirmed, which become risks if they prove false. Issues are problems that have already materialized and need active resolution. Dependencies are the internal or external relationships on which the project relies, such as another team delivering a component on time.\n\nThe value of a RAID log lies in visibility and accountability. Because each entry has a named owner, a status, and a next action, the register turns vague worries and half-remembered commitments into a tracked backlog. Project managers review it regularly, promoting assumptions that fail into risks or issues, closing items that are resolved, and escalating those that need attention from stakeholders or sponsors.\n\nA RAID log is typically maintained as a simple spreadsheet or a tab within a project-management tool, with one worksheet or view per category. It is deliberately lightweight so that it can be updated quickly during meetings and shared easily with the team. Some organizations extend the acronym, for example to RAIDD by adding Decisions, but the core four elements remain the backbone.\n\nThe tool is widely used across traditional and hybrid project methodologies because it scales from small efforts to complex programs. It complements formal risk registers and mitigation plans, and it pairs naturally with techniques such as the premortem, which generate the very risks and assumptions that a RAID log then tracks to closure.",
+    "tags": [
+        "project-management",
+        "risk-management",
+        "planning",
+        "frameworks",
+        "projects"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaClipboardList",
+    "featured": false,
+    "aliases": [
+        "RAID Log",
+        "RAID Register"
+    ],
+    "relatedConcepts": [
+        "premortem",
+        "risk-register",
+        "risk-management",
+        "risk-assessment",
+        "risk-mitigation",
+        "contingency-planning"
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13",
+    "references": [
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ]
+}

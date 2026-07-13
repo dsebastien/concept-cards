@@ -1,0 +1,73 @@
+{
+    "id": "premortem",
+    "name": "Premortem",
+    "summary": "A technique in which a team imagines, before a project begins, that it has already failed and works backward to identify what could have caused that failure, surfacing risks that optimism would otherwise hide.",
+    "explanation": "A premortem is a risk-surfacing exercise developed by psychologist Gary Klein and popularized through the Harvard Business Review. Where a traditional postmortem examines what went wrong after a project has ended, a premortem does the opposite: it takes place at the outset, when plans can still be changed. The facilitator asks the team to imagine that the project has been launched and has failed spectacularly, then invites each participant to write down every plausible reason for that failure.\n\nThe power of the technique comes from a cognitive shift called prospective hindsight. By treating the failure as a foregone conclusion rather than a mere possibility, people find it far easier to generate concrete, specific explanations. Research suggests this framing increases the number of causes identified and the correctness of reasoning, because it gives implicit doubts a legitimate voice they rarely get in an atmosphere of forced optimism.\n\nA premortem also counteracts common team dynamics that suppress bad news. Groupthink, deference to authority, and the desire to appear committed all discourage people from raising concerns once a plan has momentum. Because the exercise frames concern-raising as a creative task rather than disloyalty, even junior members feel safe naming risks that senior leaders may have overlooked.\n\nRunning a premortem is deliberately lightweight. After individuals list their imagined causes of failure, the group consolidates them, discusses the most serious ones, and adjusts the plan to reduce or monitor those risks. The output typically feeds directly into risk registers, mitigation plans, and contingency planning, turning vague unease into actionable safeguards.\n\nThe premortem is most valuable for high-stakes, irreversible, or novel initiatives where surprises are costly. It complements rather than replaces formal risk assessment: its strength is imaginative breadth and psychological safety, drawing out the risks that structured checklists and confident forecasts tend to miss.",
+    "tags": [
+        "risk-management",
+        "decision-making",
+        "planning",
+        "frameworks",
+        "project-management"
+    ],
+    "category": "Decision Science",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Pre-mortem"
+    ],
+    "relatedConcepts": [
+        "raid-log",
+        "risk-register",
+        "risk-management",
+        "risk-assessment",
+        "risk-mitigation",
+        "contingency-planning",
+        "decision-making",
+        "black-swan"
+    ],
+    "references": [
+        {
+            "title": "Performing a Project Premortem (Harvard Business Review, Gary Klein)",
+            "url": "https://hbr.org/2007/09/performing-a-project-premortem",
+            "type": "website"
+        },
+        {
+            "title": "Pre-mortem (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Pre-mortem",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

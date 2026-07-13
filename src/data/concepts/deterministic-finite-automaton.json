@@ -1,0 +1,38 @@
+{
+    "id": "deterministic-finite-automaton",
+    "name": "Deterministic Finite Automaton",
+    "summary": "A finite-state machine in which each state has exactly one transition per input symbol, with no ambiguity and no epsilon moves.",
+    "explanation": "A deterministic finite automaton (DFA) is a finite-state machine in which the behaviour is fully determined by the current state and the next input symbol. For every state and every symbol of the input alphabet, the transition function specifies exactly one next state; there are no choices to make and no empty (epsilon) transitions that would let the machine move without consuming input. This determinism means that a given input string always drives the automaton through a single, unambiguous sequence of states.\n\nFormally a DFA is a five-tuple consisting of a finite set of states, a finite input alphabet, a total transition function from state-symbol pairs to states, a single start state, and a set of accepting states. The machine processes an input string one symbol at a time from the start state; after consuming the entire string it either rests in an accepting state, meaning the string is accepted, or in a non-accepting state, meaning it is rejected. The set of all strings a DFA accepts is the language it recognizes.\n\nDeterministic finite automata recognize exactly the regular languages, the same class captured by regular expressions and by nondeterministic finite automata (NFAs). Although NFAs can be more compact and easier to construct, every NFA can be converted to an equivalent DFA through the subset (powerset) construction, so the two models are equal in expressive power. DFAs can also be minimized to a unique smallest automaton recognizing a given language, which makes them a canonical representation.\n\nThe determinism of a DFA makes it especially attractive for implementation. Because each step involves a single table lookup, a DFA runs in time linear in the length of the input and uses constant memory beyond its state table. This is why DFAs underpin the fast paths of lexical analyzers, tokenizers, regular-expression matchers, and protocol validators, where predictable, high-throughput recognition of patterns is required.\n\nUnderstanding DFAs clarifies both the power and the limits of pattern matching in software. Their linear-time guarantee explains why well-designed regular-expression engines are fast, while their inability to count or match balanced structures explains why regular languages cannot describe things like properly nested brackets, a task that demands a more powerful model such as a pushdown automaton.",
+    "tags": [
+        "computer-science",
+        "software-architecture",
+        "modeling",
+        "computation",
+        "algorithms"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "DFA"
+    ],
+    "relatedConcepts": [
+        "finite-state-machine",
+        "state-machine",
+        "turing-machine",
+        "statechart"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Deterministic finite automaton - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Deterministic_finite_automaton",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

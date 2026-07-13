@@ -1,0 +1,45 @@
+{
+    "id": "dependency-injection",
+    "name": "Dependency Injection",
+    "summary": "A technique where an object receives its dependencies from an external source rather than creating them itself, enabling loose coupling and easier testing.",
+    "explanation": "Dependency injection (DI) is a design technique in which the objects a component needs to do its work are supplied to it from the outside instead of being constructed internally. Rather than a class instantiating its collaborators directly, those collaborators are passed in through the constructor, a setter, or a method parameter. This inverts the usual control over object creation and is a concrete form of inversion of control.\n\nThe main reason to use dependency injection is to reduce coupling between components. When a class does not know how to build its own dependencies, it depends only on their interfaces or abstractions, not on their concrete implementations. This makes the code more modular and flexible, because different implementations can be swapped in without changing the consuming class. A database repository, a logger, or an HTTP client can each be replaced with a different variant simply by injecting a different object.\n\nTestability is one of the largest practical benefits. Because dependencies are supplied externally, a test can inject fakes, stubs, or mocks in place of real implementations, allowing the unit under test to be exercised in isolation without touching networks, databases, or the file system. This leads to faster, more focused, and more deterministic tests.\n\nDependency injection does introduce tradeoffs. It adds a layer of indirection that can make it harder to follow how objects are wired together, especially when a DI container or framework assembles the object graph automatically at runtime. Overusing it can turn a simple program into a maze of interfaces and configuration. The wiring itself has to live somewhere, typically in a composition root or container, and misconfigured bindings can fail only at runtime. Used judiciously, though, DI is a foundational technique for building maintainable, testable software.",
+    "tags": [
+        "software-development",
+        "design-patterns",
+        "software-architecture",
+        "programming",
+        "testing"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "DI"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "design-patterns",
+        "abstraction",
+        "encapsulation"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Dependency injection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dependency_injection",
+            "type": "website"
+        },
+        {
+            "title": "Inversion of Control Containers and the Dependency Injection pattern - Martin Fowler",
+            "url": "https://martinfowler.com/articles/injection.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

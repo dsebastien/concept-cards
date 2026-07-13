@@ -1,0 +1,40 @@
+{
+    "id": "immutability",
+    "name": "Immutability",
+    "summary": "The property of data that cannot be changed after it is created, so any modification produces a new value rather than altering the original.",
+    "explanation": "Immutability is the property whereby a value, once created, can never be modified in place. Instead of changing an existing object, code that operates on immutable data produces a new object that reflects the desired change while leaving the original untouched. Strings in many languages, and entire data structures in functional languages, are designed this way. Mutable data, by contrast, can be altered after creation, which is convenient but introduces a class of subtle problems.\n\nThe primary benefit of immutability is that it makes code easier to reason about. When a value cannot change, you can pass it anywhere without worrying that some distant piece of code will mutate it out from under you. This eliminates a whole category of aliasing bugs, where two references unexpectedly point to the same mutable object. It also makes equality and history easier to track, since a value observed at one moment remains valid later.\n\nImmutability is especially valuable for concurrency. Data that never changes can be shared freely across threads without locks or synchronization, because there is no possibility of a race condition on a value that no one can write to. This removes one of the hardest sources of bugs in parallel programming. Immutable values also enable safe caching and memoization, since a cached result keyed on an immutable input can never become stale due to hidden mutation.\n\nThe main tradeoff is cost. Producing a new value for every change can mean extra allocation and copying, which pressures memory and the garbage collector. This is the copy-on-write concern: naively copying large structures on each update is expensive. Persistent data structures mitigate this by sharing the unchanged portions of a structure between old and new versions, so updates copy only what actually differs. In practice, immutability trades some raw performance for correctness and simplicity, a trade that is usually worthwhile.",
+    "tags": [
+        "functional-programming",
+        "programming",
+        "software-development",
+        "concurrency"
+    ],
+    "category": "Software Development",
+    "icon": "FaCube",
+    "featured": false,
+    "relatedConcepts": [
+        "pure-functions",
+        "side-effects",
+        "memoization"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Immutable object - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Immutable_object",
+            "type": "website"
+        },
+        {
+            "title": "Persistent data structure - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Persistent_data_structure",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

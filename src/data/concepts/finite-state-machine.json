@@ -1,0 +1,72 @@
+{
+    "id": "finite-state-machine",
+    "name": "Finite-State Machine",
+    "summary": "A computational model with a finite number of states, transitions between them triggered by inputs, and at most one active state at a time.",
+    "explanation": "A finite-state machine (FSM), also called a finite automaton, is an abstract model of computation defined by a finite set of states, a set of inputs, and a transition function that dictates how the machine moves from one state to another in response to an input. At any given moment the machine occupies exactly one active state, and it reacts to each input by either staying put or transitioning to another state. This simplicity is precisely what makes finite-state machines so useful: the entire behaviour of the system can be enumerated and reasoned about.\n\nAn FSM is typically described by five components: a finite set of states, a starting state, an input alphabet, a transition function mapping state-input pairs to next states, and a set of accepting or final states. Two broad families exist. Acceptors (or recognizers) decide whether a sequence of inputs belongs to a language by ending in an accepting state, while transducers additionally produce output during operation; Mealy machines emit output based on the current state and input, whereas Moore machines emit output based on the current state alone.\n\nBecause finite-state machines have only a bounded amount of memory, encoded entirely in their current state, they cannot count arbitrarily or track unbounded nesting. This limits their expressive power to the regular languages, a strictly smaller class than what pushdown automata or Turing machines can recognize. Despite this limitation, the model is expressive enough for an enormous range of practical problems and remains one of the cornerstones of automata theory.\n\nIn software development, finite-state machines appear throughout the stack. They power lexical analyzers and regular-expression engines during parsing, they model the phases of network and communication protocols, they drive the control units of digital circuits, and they structure user-interface and workflow logic where an entity moves through well-defined stages such as idle, loading, success, and error. Modelling such logic as an explicit FSM makes impossible states unrepresentable and turns tangled boolean flags into a small, testable set of transitions.\n\nThe main practical value of thinking in terms of finite-state machines is that they make implicit behaviour explicit. By declaring every valid state and every legal transition up front, developers eliminate whole categories of bugs that arise from inconsistent combinations of flags, and they gain a diagrammable, verifiable specification of how the system responds to events over time.",
+    "tags": [
+        "computer-science",
+        "software-architecture",
+        "modeling",
+        "systems",
+        "computation"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Finite Automaton",
+        "FSM"
+    ],
+    "relatedConcepts": [
+        "deterministic-finite-automaton",
+        "state-pattern",
+        "state-machine",
+        "statechart",
+        "hierarchical-state-machine",
+        "turing-machine",
+        "event-driven-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Finite-state machine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Finite-state_machine",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

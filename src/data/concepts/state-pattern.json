@@ -1,0 +1,42 @@
+{
+    "id": "state-pattern",
+    "name": "State Pattern",
+    "summary": "A behavioral design pattern that lets an object alter its behavior when its internal state changes by delegating to state-specific objects instead of large conditionals.",
+    "explanation": "The State pattern is a behavioral design pattern from the Gang of Four catalog that allows an object to change its behavior when its internal state changes, making it appear as though the object has changed its class. Rather than encoding state-dependent logic in sprawling conditional statements, the pattern extracts each distinct state into its own object and lets the main object delegate work to whichever state object is currently active.\n\nStructurally the pattern involves three roles. A context holds a reference to a concrete state object and exposes the public interface clients use. A state interface declares the operations that vary by state. Concrete state classes implement that interface, each providing the behavior appropriate to one state and, crucially, deciding when and to which state the context should transition next. The context delegates incoming requests to its current state object and swaps that object as the state changes.\n\nThe pattern's core benefit is that it replaces large conditional blocks, the tangle of if-else or switch statements that check a status field, with polymorphism. Each state's logic is localized in a single class, so adding a new state means writing a new class rather than editing conditionals scattered across the codebase. This keeps state-specific behavior cohesive, honors the open-closed principle, and makes transitions explicit and easy to trace.\n\nThe State pattern is closely related to the finite-state machine as a formal model: the states and transitions a machine defines abstractly are realized concretely as state classes and the transition calls between them. It also shares its structure with the Strategy pattern, since both delegate behavior to interchangeable objects, but their intent differs. Strategy lets a client choose an interchangeable algorithm, whereas State encapsulates behavior that changes automatically as the object moves through a lifecycle, with the states themselves often driving the transitions.\n\nTypical applications include modelling document workflows such as draft, review, and published; connection lifecycles such as connecting, open, and closed; user-interface controls whose reactions depend on mode; and parsers or vending-machine style logic. The main trade-off is added indirection and class count, so the pattern pays off most when a type has several distinct states with genuinely different behavior and non-trivial transition rules.",
+    "tags": [
+        "design-patterns",
+        "software-architecture",
+        "computer-science",
+        "object-oriented-programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "State Design Pattern"
+    ],
+    "relatedConcepts": [
+        "finite-state-machine",
+        "state-machine",
+        "design-patterns",
+        "statechart"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "State pattern - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/State_pattern",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

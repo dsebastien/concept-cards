@@ -1,0 +1,40 @@
+{
+    "id": "amdahls-law",
+    "name": "Amdahl's Law",
+    "summary": "A formula giving the theoretical maximum speedup of a task from parallelization, limited by the fraction that must run sequentially.",
+    "explanation": "Amdahl's Law, formulated by computer architect Gene Amdahl in 1967, describes the theoretical maximum speedup achievable when part of a task is parallelised. Its central insight is that the overall improvement is fundamentally capped by the portion of the work that must remain sequential. No matter how many processors you add, the serial fraction sets a hard ceiling on how fast the whole task can run.\n\nConcretely, if a program spends ten percent of its time in code that cannot be parallelised, then even with infinite processors the maximum possible speedup is ten times, because that serial tenth never shrinks. This makes the law a sobering counterweight to the intuition that throwing more hardware at a problem yields proportional gains. The bottleneck, not the parallel bulk, governs the outcome.\n\nThe practical consequence is that optimisation effort should target the sequential portions and the true bottlenecks rather than simply adding parallelism. Reducing the serial fraction, even modestly, often produces larger returns than scaling up processor count against an unchanged bottleneck.\n\nAmdahl's Law is frequently contrasted with Gustafson's Law, which observes that in practice larger problems can make better use of more processors because the parallelisable work grows with problem size. Together the two laws frame the trade-offs at the heart of parallel and distributed computing, guiding decisions about where speedups are worth pursuing.",
+    "tags": [
+        "software-development",
+        "performance",
+        "computing",
+        "laws",
+        "optimization"
+    ],
+    "category": "Software Development",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "moores-law",
+        "technical-debt",
+        "conways-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Amdahl's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Amdahl%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

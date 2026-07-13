@@ -1,0 +1,43 @@
+{
+    "id": "big-o-notation",
+    "name": "Big O Notation",
+    "summary": "A notation that describes the asymptotic upper bound on how an algorithm's running time or memory use grows as the size of its input increases.",
+    "explanation": "Big O notation is a mathematical way of describing the limiting behavior of an algorithm's resource consumption as the input size grows toward infinity. It captures the dominant term of a cost function and discards constants and lower-order terms, so an algorithm that performs 3n + 7 operations is simply described as O(n). The goal is to characterize how cost scales, not to measure an exact runtime on a particular machine.\n\nCommon complexity classes form a familiar hierarchy. O(1) is constant time, independent of input size; O(log n) is logarithmic, as in binary search; O(n) is linear, as in a single pass over a list; O(n log n) is typical of efficient comparison sorts; O(n squared) is quadratic, common in naive nested-loop algorithms; and O(2 to the n) or O(n factorial) describe exponential and factorial growth that quickly becomes intractable. The same notation applies to space complexity, describing how memory use grows with input.\n\nThe reason big O matters is that it lets engineers reason about scalability before running any code. An algorithm that is fast on ten items may be unusable on ten million, and asymptotic analysis exposes that difference clearly. It provides a shared vocabulary for comparing approaches and for spotting bottlenecks that will surface only at scale.\n\nBig O has real limitations. Because it ignores constant factors and lower-order terms, an O(n) algorithm with a huge constant can be slower than an O(n squared) algorithm on realistic input sizes. It typically describes worst-case behavior, which may be pessimistic for inputs seen in practice, and it says nothing about cache behavior, memory locality, or real hardware effects. Asymptotic analysis is a guide to how algorithms scale, best combined with actual measurement when performance truly matters.",
+    "tags": [
+        "computer-science",
+        "algorithms",
+        "performance",
+        "programming",
+        "software-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaChartLine",
+    "featured": false,
+    "aliases": [
+        "Asymptotic Notation"
+    ],
+    "relatedConcepts": [
+        "recursion",
+        "memoization"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Big O notation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Big_O_notation",
+            "type": "website"
+        },
+        {
+            "title": "Time complexity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Time_complexity",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

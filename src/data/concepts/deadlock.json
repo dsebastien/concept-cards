@@ -1,0 +1,40 @@
+{
+    "id": "deadlock",
+    "name": "Deadlock",
+    "summary": "A deadlock is a state in which two or more processes are each waiting for resources the others hold, so none can ever proceed.",
+    "explanation": "A deadlock is a situation in a concurrent system where a set of processes or threads become permanently blocked because each is waiting for a resource that another member of the set is holding. The dependencies form a cycle: process A holds resource one and waits for resource two, while process B holds resource two and waits for resource one. Since neither will release what it holds until it acquires what it needs, the cycle never breaks and all involved parties are stuck indefinitely.\n\nDeadlock is classically characterized by four necessary conditions, known as the Coffman conditions, all of which must hold simultaneously for a deadlock to occur. Mutual exclusion means at least one resource is held in a non-shareable mode. Hold and wait means a process holding at least one resource is waiting to acquire additional resources held by others. No preemption means resources cannot be forcibly taken away and must be released voluntarily. Circular wait means there exists a closed chain of processes, each waiting for a resource held by the next in the chain.\n\nThe consequences of deadlock are frozen work, unresponsive services, and exhausted resource pools, since the blocked participants often hold locks or connections that other parts of the system also need. Deadlocks can cascade, dragging in additional processes that queue behind the stuck ones, and they may appear only under specific interleavings and load, making them intermittent and hard to reproduce.\n\nBecause a deadlock requires all four Coffman conditions, prevention works by denying at least one of them. Common strategies include acquiring locks in a globally consistent order to eliminate circular wait, requesting all needed resources at once to avoid hold and wait, allowing preemption or lock timeouts so a stuck process can back off and retry, and using lock-free or single-lock designs to sidestep the problem entirely. Systems can also detect deadlocks at runtime by finding cycles in a resource-allocation graph and then recover by aborting or rolling back one of the participants. Avoidance algorithms such as the banker's algorithm grant requests only when the resulting state remains safe.",
+    "tags": [
+        "software-development",
+        "concurrency",
+        "reliability",
+        "parallelism"
+    ],
+    "category": "Software Development",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Deadly Embrace"
+    ],
+    "relatedConcepts": [
+        "race-condition",
+        "concurrency",
+        "fault-tolerance",
+        "backpressure",
+        "distributed-systems"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Deadlock (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Deadlock_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

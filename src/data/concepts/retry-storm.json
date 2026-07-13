@@ -1,0 +1,23 @@
+{
+    "id": "retry-storm",
+    "name": "Retry Storm",
+    "summary": "A retry storm occurs when many clients react to a failure by retrying at nearly the same time, and their synchronized retries amplify load on the struggling system and prevent it from recovering.",
+    "explanation": "A retry storm is a distributed-systems failure mode in which the retry logic intended to improve reliability instead makes an outage worse. When a shared dependency slows down or fails, every client that was calling it experiences an error at roughly the same moment. If those clients immediately retry, they generate a wave of duplicate requests on top of the original load, and because the failure synchronized them, the retries themselves arrive in tight, overlapping bursts.\n\nThe problem happens because naive retry policies are aggressive and correlated: fixed short delays, unlimited or high retry counts, and no coordination between clients mean that a single transient blip is multiplied into several times the normal traffic. The very system that is already overloaded now receives even more work precisely when it has the least capacity to handle it, so each retry has a lower chance of succeeding, which prompts still more retries.\n\nThe consequence is that retries prevent recovery. A dependency that might have caught up if traffic briefly dropped is instead held down by a sustained flood, turning a short degradation into a prolonged outage. Retry storms also propagate: amplified load can exhaust connection pools and queues upstream, so the storm cascades into services that were previously healthy.\n\nMitigations reduce both the volume and the synchronization of retries. Exponential backoff with jitter spreads attempts out over time, capping the number of retries and total retry budget limits amplification, and per-client or system-wide retry budgets bound how much of total traffic may be retries. Circuit breakers stop retrying a dependency that is clearly down until it shows signs of health, while idempotency keys make the retries that do occur safe to process. Together these keep retries helpful for transient errors without letting them turn a failure into a storm."
+    ,
+    "tags": ["distributed-systems", "reliability", "resilience", "scalability", "fault-tolerance"],
+    "category": "Software Development",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": ["Retry amplification"],
+    "relatedConcepts": ["exponential-backoff", "circuit-breaker", "thundering-herd", "cache-stampede", "backpressure", "cascading-failures", "rate-limiting", "idempotency", "distributed-systems"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Timeouts, retries, and backoff with jitter - Amazon Builders' Library",
+            "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

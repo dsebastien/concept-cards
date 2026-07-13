@@ -1,0 +1,23 @@
+{
+    "id": "cache-stampede",
+    "name": "Cache Stampede",
+    "summary": "A cache stampede happens when a popular cache entry expires and many concurrent requests all miss at once, causing them to simultaneously recompute or refetch the same value and hammer the backend.",
+    "explanation": "A cache stampede is a specific failure mode of caching systems that occurs when a frequently requested cache entry becomes invalid or expires and, at that same moment, many concurrent requests look it up, all miss, and all fall through to the expensive origin operation that the cache was meant to protect. Instead of one request regenerating the value while others are served from cache, the backend is hit by a burst of identical, redundant work.\n\nThe problem happens because caches concentrate load on hot keys and because expiration is typically time-based and shared: every request sees the same value expire at the same instant. Under high request rates the window between expiry and repopulation is long enough for a large number of requests to arrive, each independently deciding it must recompute the value. The more popular the key, the larger the resulting herd of simultaneous misses.\n\nThe consequences are a sudden, amplified spike of load on the database, upstream service, or computation that the cache normally shields. That spike can exhaust connections, saturate CPU, slow every request, and push the backend into overload or failure, which then causes timeouts and retries that make the surge worse and can cascade into dependent systems. What was a cheap cached read momentarily becomes an expensive stampede.\n\nMitigations aim to ensure that only one request regenerates a value while others wait or serve stale data. Common techniques include request coalescing or locking so a single worker recomputes the entry while concurrent requests block or receive the previous value, probabilistic early expiration that randomly refreshes a key before it expires to desynchronize misses, serving stale-while-revalidate content during regeneration, and adding jitter to expiration times so hot keys do not all expire together."
+    ,
+    "tags": ["caching", "distributed-systems", "scalability", "reliability", "performance"],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": ["Cache miss storm", "Dogpiling"],
+    "relatedConcepts": ["thundering-herd", "retry-storm", "backpressure", "cascading-failures", "rate-limiting", "distributed-systems"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Cache stampede - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cache_stampede",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

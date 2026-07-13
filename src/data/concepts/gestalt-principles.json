@@ -1,0 +1,44 @@
+{
+    "id": "gestalt-principles",
+    "name": "Gestalt Principles",
+    "summary": "A set of perceptual grouping principles from Gestalt psychology describing how people organize visual elements into coherent wholes, widely applied in interface design.",
+    "explanation": "The Gestalt principles are a set of rules from Gestalt psychology that describe how people perceive and organize visual elements into coherent wholes rather than as isolated parts. The core insight is that the whole is different from the sum of its parts: our visual system automatically groups, completes, and structures what we see. In interface design these principles explain why certain layouts feel intuitive and why users perceive relationships between elements that were never explicitly drawn.\n\nSeveral principles are especially relevant to design. Proximity means elements placed close together are perceived as a group. Similarity means elements that share visual characteristics such as color or shape are seen as related. Closure means people mentally fill in gaps to perceive complete figures. Continuity means the eye follows lines and smooth paths, favoring continuous arrangements. Common region means elements enclosed within a shared boundary, such as a card or panel, are perceived as belonging together. Figure-ground describes how we separate an object of focus from its surrounding background.\n\nDesigners use these principles to structure information without adding visual clutter. Grouping related controls through proximity or a common region communicates relationships more efficiently than borders or labels alone. Similarity signals that items belong to the same category, and figure-ground contrast makes primary content and actions stand out from their surroundings. Because these groupings happen preattentively, they help users understand structure at a glance and reduce cognitive load.\n\nThe Gestalt principles connect closely to related ideas such as the law of pragnanz, which holds that people perceive ambiguous or complex images in the simplest form possible. Rather than being rigid laws, they are strong perceptual tendencies that designers can lean on deliberately, but which can also work against a design when layout accidentally implies groupings or continuities that do not match the intended meaning.",
+    "tags": [
+        "design",
+        "psychology",
+        "user-experience",
+        "usability",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaThLarge",
+    "featured": false,
+    "aliases": [
+        "Gestalt Laws",
+        "Gestalt Laws of Grouping",
+        "Principles of Grouping"
+    ],
+    "relatedConcepts": [
+        "gestalt-psychology",
+        "law-of-pragnanz",
+        "visual-hierarchy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Gestalt psychology - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Gestalt_psychology",
+            "type": "website"
+        },
+        {
+            "title": "Principles of grouping - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Principles_of_grouping",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

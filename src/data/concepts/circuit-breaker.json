@@ -1,0 +1,28 @@
+{
+    "id": "circuit-breaker",
+    "name": "Circuit Breaker",
+    "summary": "The circuit breaker is a resilience pattern that stops making calls to a failing dependency once errors cross a threshold, then periodically probes to detect recovery before allowing traffic to flow again.",
+    "explanation": "The circuit breaker is a stability pattern for remote calls and other operations that can fail, popularized by Michael Nygard in Release It! and widely described by Martin Fowler. It wraps a protected call in an object that monitors for failures. Like an electrical circuit breaker, once failures are frequent enough it trips open and immediately rejects further calls instead of letting them hang or pile up against a dependency that is clearly unhealthy.\n\nThe pattern exists because remote calls fail in ways that are expensive to keep attempting: a slow or down dependency causes callers to block on timeouts, exhaust threads and connection pools, and waste resources on requests that are almost certain to fail. By failing fast when a dependency is unhealthy, a circuit breaker prevents this wasted work and gives the struggling service breathing room to recover rather than being pounded by continued traffic.\n\nA circuit breaker moves between three states. In the closed state calls pass through normally while failures are counted; when the failure rate crosses a configured threshold the breaker trips to the open state, where calls are rejected immediately (often falling back to a default response or cached data). After a cooldown it enters a half-open state and lets a limited number of trial calls through to test the dependency: if they succeed the breaker closes and normal traffic resumes, and if they fail it opens again. This probing behavior lets the system automatically detect recovery without a flood of traffic.\n\nCircuit breakers are a core building block of resilient distributed systems and are usually combined with other mechanisms. Fallbacks provide graceful degradation when the breaker is open, timeouts bound how long calls may block, bulkheads isolate failures to prevent them from spreading, and retries with exponential backoff handle transient errors. Together these prevent a single failing dependency from causing retry storms and cascading failures across the system."
+    ,
+    "tags": ["distributed-systems", "resilience", "reliability", "fault-tolerance", "software-architecture"],
+    "category": "Software Development",
+    "icon": "FaBolt",
+    "featured": false,
+    "aliases": ["Circuit breaker pattern"],
+    "relatedConcepts": ["retry-storm", "exponential-backoff", "backpressure", "cascading-failures", "graceful-degradation", "fault-tolerance", "resilience", "rate-limiting", "distributed-systems"],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "CircuitBreaker - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/CircuitBreaker.html",
+            "type": "website"
+        },
+        {
+            "title": "Circuit breaker design pattern - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

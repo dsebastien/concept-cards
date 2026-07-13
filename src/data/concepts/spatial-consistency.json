@@ -1,0 +1,42 @@
+{
+    "id": "spatial-consistency",
+    "name": "Spatial Consistency",
+    "summary": "Keeping the position and arrangement of interface elements stable and predictable across screens and states so users can build reliable spatial memory.",
+    "explanation": "Spatial consistency is the design principle of keeping the location and arrangement of interface elements stable and predictable as users move between screens, views, and states. When a navigation bar, primary action button, or search field appears in the same place every time, people can rely on muscle memory and spatial memory instead of re-scanning the interface on each visit. This is a specific dimension of the broader idea of visual consistency, focused on where things live rather than how they look.\n\nHumans are remarkably good at remembering where objects are in space, and interfaces that honor this let users act quickly and confidently. Once someone learns that the menu is in the top-left or that the confirm button sits at the bottom-right of a dialog, that knowledge should transfer across the whole product. Every time an element unexpectedly moves, the user has to stop, search, and re-orient, which increases cognitive load and erodes trust in the interface.\n\nSpatial consistency matters most for frequently used and high-stakes controls. Persistent navigation, toolbars, and confirmation actions should stay anchored in stable positions, while transient or contextual content can be more flexible. Layout shifts that happen after a page has already rendered, such as content jumping as images or ads load, are a particularly harmful violation because they can cause users to click the wrong target.\n\nApplying the principle does not mean the layout can never evolve. It means changes to element positions should be deliberate, systematic, and ideally rare, so the mental map users have built remains valid. Responsive design, personalization, and progressive disclosure all introduce pressure to rearrange elements, so teams should weigh the flexibility they gain against the spatial predictability they lose. When positions must change, doing so consistently across the product preserves the benefit of a shared, learnable structure.",
+    "tags": [
+        "design",
+        "user-experience",
+        "usability",
+        "interfaces",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaThLarge",
+    "featured": false,
+    "aliases": [
+        "Positional Consistency",
+        "Layout Consistency"
+    ],
+    "relatedConcepts": [
+        "visual-consistency",
+        "cognitive-load"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Consistency and Standards in User Interface Design - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/consistency-and-standards/",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

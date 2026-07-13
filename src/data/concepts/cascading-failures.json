@@ -26,7 +26,10 @@
         "graceful-degradation",
         "bus-factor",
         "bottleneck",
-        "antifragility"
+        "antifragility",
+        "thundering-herd",
+        "retry-storm",
+        "circuit-breaker"
     ],
     "relatedNotes": [],
     "articles": [],

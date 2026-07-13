@@ -1,0 +1,34 @@
+{
+    "id": "sharding",
+    "name": "Sharding",
+    "summary": "Sharding is the horizontal partitioning of data across multiple databases or nodes so each holds only a subset, improving scalability.",
+    "explanation": "Sharding is a database architecture technique in which a large dataset is split horizontally across multiple independent databases or nodes, each called a shard. Instead of one machine storing every row, each shard stores a disjoint subset of the rows, and together the shards hold the complete dataset. Because each shard handles only part of the data and only the queries that touch that part, the system can serve far more storage and traffic than a single server could, and capacity grows by adding more shards rather than by buying ever-larger hardware.\n\nThe central design decision in sharding is choosing a shard key, the attribute used to decide which shard a given piece of data belongs to. A hash of the key spreads data evenly and avoids hotspots but scatters range queries across all shards. A range-based key keeps related records together and makes range scans efficient but risks uneven load if some ranges are far more active than others. A directory or lookup approach maps keys to shards through an explicit table, offering flexibility at the cost of an extra indirection. A good shard key distributes both data and load evenly and matches the application's most common access patterns.\n\nSharding is motivated by scalability: it enables horizontal scaling of writes and storage, which vertical scaling and read replicas alone cannot achieve, and it can also improve availability since the failure of one shard affects only a fraction of the data. It is widely used by systems that must store more data or handle more throughput than any single node can bear.\n\nThe tradeoffs are significant. Queries that span multiple shards, joins across shards, and transactions that touch more than one shard become complex, slow, or impossible without special coordination. Uneven key distribution creates hot shards that undermine the benefit, and rebalancing data when shards are added or removed is operationally difficult. Mitigations include choosing shard keys carefully, using consistent hashing to limit data movement during rebalancing, denormalizing to keep related data co-located, and relaxing consistency where the application can tolerate eventual consistency. Because sharding adds substantial complexity, it is usually adopted only after simpler scaling options have been exhausted.",
+    "tags": [
+        "distributed-systems",
+        "databases",
+        "scalability",
+        "performance"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Horizontal Partitioning"
+    ],
+    "relatedConcepts": [
+        "load-balancing",
+        "distributed-systems",
+        "eventual-consistency",
+        "cap-theorem"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Shard (database architecture) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shard_(database_architecture)",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

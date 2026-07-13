@@ -1,0 +1,65 @@
+{
+    "id": "accountability-sink",
+    "name": "Accountability Sink",
+    "summary": "A structural feature of an organization or system, such as a rule, policy, or process, that absorbs and dissipates responsibility so that when something goes wrong no individual person can be held accountable.",
+    "explanation": "An accountability sink is a part of a system designed, often unintentionally, to break the link between a decision and any person who can be held responsible for it. When you hit the phrase \"I'm sorry, it's company policy\" and there is no human you can appeal to, no one who can override the outcome, and no one who will admit that the decision was theirs, you have found an accountability sink. Responsibility flows into it and disappears. The rule or process stands between the person harmed and any decision-maker, so complaints hit a wall rather than a person.\n\nThe classic example is the frontline worker who enforces a policy they did not write and cannot change. A customer is denied a refund, a passenger is bumped from a flight, an applicant is rejected by an automated screen, and every actor in the chain can honestly say the decision was not theirs. The worker points to the policy, the manager points to head office, head office points to the system, and the system points nowhere. The decision was real and it had consequences, but responsibility for it has been so thoroughly diffused across roles, rules, and software that it belongs to no one.\n\nBureaucracies and algorithms are especially good at manufacturing accountability sinks because they sever the connection between the person who makes a decision and the person who feels its consequences. A bureaucracy converts a human judgment into a procedure, and a procedure has no author standing behind it in the moment it is applied. Automated systems go further: an algorithm can issue thousands of consequential decisions with no human in the loop at all, and \"the computer says no\" becomes a final answer rather than the start of a conversation. In both cases the structure is doing exactly what it was built to do, which is to make decisions repeatable and defensible, but a side effect is that it also makes them unchallengeable and unowned.\n\nThe reason accountability sinks are dangerous is that they break feedback loops and prevent learning. In a healthy system, a bad decision generates a signal, that signal reaches the person who made the decision, and they adjust. An accountability sink intercepts the signal before it can reach anyone who could act on it. Complaints are logged and closed, harms are recorded as exceptions, and the system keeps producing the same bad outcomes because nothing forces it to change. This is the core of Dan Davies' argument in The Unaccountability Machine: large systems make terrible decisions not because the people in them are stupid or malicious, but because they are organized so that information about failure never returns to a place where it can do any good. Without accountability there is no correction, and without correction the machine simply repeats itself.\n\nCountering accountability sinks means deliberately preserving a human who owns the outcome and keeping feedback loops intact. That can mean naming a person who is answerable for a policy and empowered to override it, building genuine escalation paths where a real decision-maker can be reached, and treating \"it's just the policy\" as a symptom to investigate rather than an acceptable final answer. It means designing systems so that the signal from a bad outcome routes back to whoever can change the rule, and resisting the temptation to hide behind process when a judgment call is required. The goal is not to abolish rules and automation, which are useful, but to make sure they never fully absorb the responsibility that ultimately has to rest with a person.",
+    "tags": [
+        "mental-models",
+        "systems-thinking",
+        "accountability",
+        "organizations",
+        "decision-making"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "diffusion-of-responsibility",
+        "principal-agent-problem",
+        "moral-hazard",
+        "systems-thinking",
+        "plausible-deniability",
+        "willful-blindness"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "The Unaccountability Machine (Dan Davies) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Unaccountability_Machine",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

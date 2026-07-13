@@ -1,0 +1,41 @@
+{
+    "id": "parsimony",
+    "name": "Parsimony",
+    "summary": "The principle of preferring the simplest adequate explanation or model, requiring no more assumptions than necessary.",
+    "explanation": "Parsimony, also called the law of parsimony or the principle of parsimony, is the broad scientific and philosophical guideline that among competing explanations that account equally well for the evidence, the one making the fewest assumptions should be preferred. It is the general principle that Occam's razor expresses as a practical heuristic, and it runs through methodology in the sciences, statistics, and philosophy.\n\nThe appeal of parsimony is both epistemic and practical. Simpler models tend to be easier to test, easier to falsify, and less prone to overfitting the particular quirks of a dataset. A theory that invents extra entities or mechanisms to explain a phenomenon carries a larger surface area of claims that could turn out to be false, so all else being equal the leaner account is more likely to generalize.\n\nParsimony is a guide, not a law of nature. It does not assert that reality is simple; it asserts that we should not multiply assumptions beyond what the evidence forces upon us. When a simpler explanation genuinely fails to fit the data, parsimony yields to accuracy, and additional complexity becomes warranted rather than gratuitous.\n\nIn knowledge management and system design, parsimony encourages keeping structures, tools, and workflows only as elaborate as the problem requires. A minimal system that captures what matters is usually more robust and more maintainable than a baroque one, and complexity should be added deliberately, in response to a demonstrated need, rather than by default.",
+    "tags": [
+        "principles",
+        "mental-models",
+        "reasoning",
+        "epistemology",
+        "critical-thinking"
+    ],
+    "category": "Principles",
+    "icon": "FaCut",
+    "featured": false,
+    "aliases": [
+        "Law of Parsimony",
+        "Principle of Parsimony"
+    ],
+    "relatedConcepts": [
+        "occams-razor",
+        "kiss-principle",
+        "reductionism",
+        "falsifiability",
+        "first-principles"
+    ],
+    "references": [
+        {
+            "title": "Occam's razor - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Occam%27s_razor",
+            "type": "website"
+        },
+        {
+            "title": "Razor (philosophy) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Razor_(philosophy)",
+            "type": "website"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

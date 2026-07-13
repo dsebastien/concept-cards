@@ -1,0 +1,45 @@
+{
+    "id": "decidability",
+    "name": "Decidability",
+    "summary": "The question of whether a decision problem admits an algorithm that always halts and returns a correct yes-or-no answer, distinguishing decidable problems from undecidable ones.",
+    "explanation": "Decidability concerns decision problems, which are questions with a yes-or-no answer, such as whether a number is prime or whether a program contains a certain pattern. A decision problem is called decidable when there exists an algorithm that, for every possible input, halts after finitely many steps and outputs the correct answer. If no such algorithm can exist, the problem is undecidable. Decidability is therefore a sharper, more demanding property than mere computability, because it insists that the procedure always terminates rather than possibly running forever.\n\nA closely related notion is semi-decidability, or recognisability. A problem is semi-decidable if an algorithm can confirm the yes-instances by halting on them, but may loop forever on no-instances. A problem is decidable exactly when both it and its complement are semi-decidable, so that a single procedure can settle either answer with certainty. This distinction reflects deep structure in the landscape of solvable and unsolvable problems.\n\nThe most celebrated undecidable problem is the halting problem, which asks whether an arbitrary program will eventually stop on a given input. Alan Turing proved this problem undecidable, and its undecidability propagates to countless others. Many problems are shown undecidable by reduction, transforming an already-known undecidable problem into the target problem so that a decider for one would yield a decider for the other. Rice's theorem generalises this, showing that essentially every nontrivial semantic property of programs is undecidable.\n\nDecidability originated with David Hilbert's Entscheidungsproblem, which asked for a general procedure to decide the truth of statements in first-order logic. Church and Turing independently proved that no such procedure exists, establishing that first-order validity is undecidable. These results mark fundamental limits on automated reasoning and shape fields ranging from logic and formal verification to programming language theory.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "logic",
+        "computation",
+        "foundations"
+    ],
+    "category": "Software Development",
+    "icon": "FaQuestion",
+    "featured": false,
+    "aliases": [
+        "Decision Problem",
+        "Decidable"
+    ],
+    "relatedConcepts": [
+        "undecidability",
+        "halting-problem",
+        "computability",
+        "computability-theory",
+        "church-turing-thesis",
+        "turing-machine"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Decidability (logic) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decidability_(logic)",
+            "type": "website"
+        },
+        {
+            "title": "Decision problem - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decision_problem",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

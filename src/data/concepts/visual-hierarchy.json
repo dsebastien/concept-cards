@@ -1,0 +1,42 @@
+{
+    "id": "visual-hierarchy",
+    "name": "Visual Hierarchy",
+    "summary": "Arranging and styling interface elements to communicate their relative importance and guide the eye through content in the intended order.",
+    "explanation": "Visual hierarchy is the arrangement and styling of interface elements to signal their relative importance and to guide the viewer's eye through content in the order the designer intends. By manipulating properties such as size, color, contrast, weight, spacing, and position, a designer can make some elements dominate attention and others recede, turning a flat collection of components into a structured, scannable experience. A clear hierarchy answers the user's implicit question of where to look first, next, and last.\n\nSeveral perceptual levers drive hierarchy. Larger and heavier elements read as more important, high contrast draws the eye more than low contrast, and elements placed near the top or along natural reading paths are noticed first. Whitespace isolates and emphasizes, grouping related items and separating unrelated ones. Because these cues combine, an effective hierarchy usually relies on a small, consistent set of levels rather than trying to emphasize everything at once, which would flatten the hierarchy and overwhelm the reader.\n\nVisual hierarchy is closely tied to how people actually scan interfaces. Users rarely read screens linearly; they skim in patterns and fixate on prominent anchors before deciding whether to engage. A well-built hierarchy channels that scanning behavior toward the most valuable content and the primary action, which is why call-to-action buttons are often the highest-contrast element on a page while secondary options are visually quieter.\n\nGood hierarchy supports both usability and communication. It reduces cognitive load by letting users find what matters without deliberate effort, and it reinforces meaning by making structure visible. When hierarchy is weak or contradictory, everything competes for attention, users hesitate, and important actions get missed. Designers therefore treat hierarchy as a deliberate composition problem, establishing a clear order of emphasis and then applying it consistently across the product.",
+    "tags": [
+        "design",
+        "user-experience",
+        "usability",
+        "interfaces",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaSortNumericUp",
+    "featured": false,
+    "aliases": [
+        "Visual Hierarchy in Design"
+    ],
+    "relatedConcepts": [
+        "visual-consistency",
+        "gestalt-principles",
+        "cognitive-load"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Visual Hierarchy: Organizing Content to Follow Natural Eye Movement - Nielsen Norman Group",
+            "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

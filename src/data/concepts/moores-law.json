@@ -1,0 +1,41 @@
+{
+    "id": "moores-law",
+    "name": "Moore's Law",
+    "summary": "Gordon Moore's observation that the number of transistors on an integrated circuit doubles roughly every two years, driving exponential growth in computing power.",
+    "explanation": "Moore's Law is the observation, first articulated by Intel co-founder Gordon Moore in 1965, that the number of transistors that can be placed on an integrated circuit doubles approximately every two years. Because more transistors mean more computational capability packed into the same area, the law has become shorthand for the steady, exponential improvement of computing power and the parallel decline in cost per transistor.\n\nStrictly speaking, Moore's Law is not a law of physics but an empirical trend and a self-fulfilling industry roadmap. For decades semiconductor manufacturers treated the doubling cadence as a target to be met, coordinating research, investment, and product cycles around it. This shared expectation helped sustain the trend far longer than a mere observation would have.\n\nThe cumulative effect has been staggering. Sustained exponential growth transformed room-sized computers into pocket-sized devices, enabled the internet, mobile computing, and modern artificial intelligence, and reshaped nearly every industry. Many second-order phenomena, from cheaper memory to ubiquitous sensors, trace back to this relentless doubling.\n\nIn recent years the pace has slowed as transistors approach atomic scales and physical limits such as heat dissipation and quantum effects become binding. The industry has responded with new strategies, including specialised chips, three-dimensional stacking, and parallel architectures. Whether Moore's Law is ending or merely evolving, understanding it remains essential for reasoning about the trajectory of technology.",
+    "tags": [
+        "software-development",
+        "technology",
+        "exponential-growth",
+        "computing",
+        "laws"
+    ],
+    "category": "Software Development",
+    "icon": "FaMicrochip",
+    "featured": false,
+    "aliases": [],
+    "relatedConcepts": [
+        "exponential-growth",
+        "amdahls-law",
+        "technical-debt",
+        "conways-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Moore's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Moore%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

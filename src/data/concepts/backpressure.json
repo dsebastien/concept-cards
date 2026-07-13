@@ -1,0 +1,72 @@
+{
+    "id": "backpressure",
+    "name": "Backpressure",
+    "summary": "Backpressure is a mechanism by which a system signals its upstream producers to slow down when it cannot keep up with the incoming rate of work, preventing overload and uncontrolled resource growth.",
+    "explanation": "Backpressure is a flow-control mechanism in which a consumer that is falling behind communicates that fact back to the producers feeding it, so that they reduce or pause the rate at which they send work. It turns an implicit, unbounded flow of data or requests into a regulated one where the slowest stage of a pipeline governs the pace, keeping the system within a load it can actually sustain.\n\nBackpressure is needed because producers and consumers rarely operate at the same speed, and any stage that receives work faster than it can process it must put the excess somewhere. Without a way to push back, that excess accumulates in queues and buffers that grow without bound, consuming memory and increasing latency until the component runs out of resources and fails. Backpressure gives the overwhelmed stage a way to say slow down instead of silently drowning.\n\nWhen backpressure is absent, the consequences are queue buildup, rising latency, memory exhaustion, and eventual collapse, and because the failure of one saturated stage can propagate to the stages feeding it, the overload can cascade through the whole system. Dropping or timing out work under load, and the retries that follow, can further amplify the problem.\n\nBackpressure is implemented in several ways. Bounded queues and buffers make overload explicit by blocking or rejecting once full; blocking or pull-based (demand-driven) models let the consumer request only as much as it can handle, as in reactive-streams designs where the subscriber signals demand; and TCP flow control is a low-level example that paces senders to receivers. When work cannot be slowed, systems combine backpressure with load shedding, rate limiting, and graceful degradation, deliberately rejecting or deprioritizing some requests so the rest continue to be served reliably.",
+    "tags": [
+        "distributed-systems",
+        "scalability",
+        "reliability",
+        "performance",
+        "systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaCompress",
+    "featured": false,
+    "aliases": [
+        "Back pressure",
+        "Flow control"
+    ],
+    "relatedConcepts": [
+        "thundering-herd",
+        "cache-stampede",
+        "retry-storm",
+        "circuit-breaker",
+        "cascading-failures",
+        "rate-limiting",
+        "graceful-degradation",
+        "distributed-systems",
+        "concurrency",
+        "load-balancing"
+    ],
+    "relatedNotes": [],
+    "references": [
+        {
+            "title": "Back pressure (software) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Back_pressure#Backpressure_in_software",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

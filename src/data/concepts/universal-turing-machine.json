@@ -1,0 +1,36 @@
+{
+    "id": "universal-turing-machine",
+    "name": "Universal Turing Machine",
+    "summary": "A Turing machine that can simulate any other Turing machine when given a description of that machine and its input, providing the theoretical basis for the stored-program computer.",
+    "explanation": "A universal Turing machine (UTM) is a Turing machine capable of simulating the behaviour of any other Turing machine. Instead of being hard-wired to compute a single function, a UTM takes as input an encoded description of an arbitrary Turing machine together with that machine's input, and then faithfully reproduces the computation that the described machine would perform. Alan Turing introduced the concept in his 1936 paper, showing that a single fixed machine can be programmed to do the work of infinitely many special-purpose machines.\n\nThe key insight is that a Turing machine's transition rules can themselves be written down as data on the tape. The universal machine reads this description, keeps track of the simulated machine's current state and tape contents, and repeatedly looks up the appropriate rule to apply. In this way the distinction between program and data collapses: a program is just another kind of input. This is the conceptual heart of what later became the stored-program computer, where instructions and data reside together in the same memory.\n\nThe existence of a UTM has profound consequences. It demonstrates that general-purpose computation is possible with a finite, fixed mechanism, and it underlies the modern idea of software running on universal hardware. It is also the engine behind many undecidability proofs: because a UTM can simulate any machine, questions about the behaviour of arbitrary programs, such as whether they halt, can be reduced to questions about the universal machine itself.\n\nWhile early UTM constructions required large state and symbol counts, researchers have since found remarkably small universal machines, sharpening our understanding of just how little machinery is needed for full computational generality. The universal Turing machine remains one of the most important ideas in theoretical computer science, connecting the abstract theory of computation to the practical design of programmable computers.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "foundations",
+        "algorithms"
+    ],
+    "category": "Software Development",
+    "icon": "FaMicrochip",
+    "featured": false,
+    "relatedConcepts": [
+        "turing-machine",
+        "church-turing-thesis",
+        "halting-problem",
+        "computability-theory",
+        "automata-theory",
+        "lambda-calculus"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Universal Turing machine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Universal_Turing_machine",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

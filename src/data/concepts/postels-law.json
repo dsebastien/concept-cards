@@ -1,0 +1,42 @@
+{
+    "id": "postels-law",
+    "name": "Postel's Law",
+    "summary": "The robustness principle, be conservative in what you send and liberal in what you accept, a design guideline for building interoperable systems.",
+    "explanation": "Postel's Law, also known as the robustness principle, was formulated by internet pioneer Jon Postel in the early specifications of the Transmission Control Protocol. It is usually stated as: be conservative in what you send, be liberal in what you accept. The idea is that systems interoperate more reliably when each component emits strictly correct output while tolerating minor imperfections and variations in the input it receives.\n\nThe principle proved foundational to the resilience of the early internet. By accepting slightly malformed or non-standard messages rather than rejecting them outright, implementations could interoperate even when peers had bugs or interpreted specifications differently. This forgiving behaviour let a heterogeneous, rapidly evolving network keep functioning without every participant being perfectly compliant.\n\nOver time, however, the principle has drawn significant criticism. Liberal acceptance can entrench ambiguity, because senders come to rely on receivers quietly tolerating their mistakes, and divergent behaviours accumulate as de facto standards. This erosion of strictness can create long-term security vulnerabilities and interoperability problems that are harder to fix than the original errors would have been.\n\nModern practice therefore treats Postel's Law as a nuanced trade-off rather than an absolute rule. In many contexts, especially security-sensitive protocols, strict validation and clear rejection of invalid input are now favoured. Understanding both the appeal and the pitfalls of the robustness principle helps designers decide when tolerance aids adoption and when rigor better serves reliability.",
+    "tags": [
+        "principles",
+        "software-design",
+        "interfaces",
+        "reliability",
+        "best-practices"
+    ],
+    "category": "Principles",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Robustness Principle"
+    ],
+    "relatedConcepts": [
+        "conways-law",
+        "goodharts-law",
+        "technical-debt"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Robustness principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Robustness_principle",
+            "type": "website"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "books": [],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

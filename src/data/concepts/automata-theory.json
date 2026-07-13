@@ -1,0 +1,40 @@
+{
+    "id": "automata-theory",
+    "name": "Automata Theory",
+    "summary": "The study of abstract computing machines such as finite automata, pushdown automata, and Turing machines, and the classes of problems each type of machine can solve.",
+    "explanation": "Automata theory is the branch of theoretical computer science that studies abstract machines, called automata, and the computational problems they can solve. An automaton is an idealised device that reads input, moves through a set of internal states according to fixed rules, and either accepts or rejects the input. By defining machines with different capabilities and comparing what each can recognise, automata theory maps out the fundamental structure of computation.\n\nThe subject is organised around a ladder of increasingly powerful machine models. Finite automata have only a fixed amount of memory and recognise the regular languages, which correspond to patterns expressible by regular expressions. Pushdown automata add a stack, giving them enough memory to recognise context-free languages such as balanced parentheses and the grammars of many programming languages. Linear bounded automata and, at the top, Turing machines are more powerful still, with the Turing machine capable of expressing any effective computation.\n\nThis hierarchy of machines mirrors the Chomsky hierarchy of formal grammars, linking each class of automaton to a corresponding class of languages: regular, context-free, context-sensitive, and recursively enumerable. The correspondence between machines that accept languages and grammars that generate them is one of the deepest and most useful results in the field, tying together operational and descriptive views of computation.\n\nAutomata theory is far from purely abstract. Finite automata drive lexical analysers, text search, and pattern matching; pushdown automata underlie parsers for programming languages; and the general theory frames the boundaries explored by computability and complexity theory. By clarifying exactly which problems each kind of machine can and cannot solve, automata theory provides the conceptual foundation on which much of computer science is built.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "foundations",
+        "algorithms"
+    ],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "Theory of Automata"
+    ],
+    "relatedConcepts": [
+        "finite-state-machine",
+        "state-machine",
+        "pushdown-automaton",
+        "turing-machine",
+        "computability-theory",
+        "complexity-theory",
+        "cellular-automaton"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Automata theory - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Automata_theory",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}

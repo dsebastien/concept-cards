@@ -1,0 +1,39 @@
+{
+    "id": "lambda-calculus",
+    "name": "Lambda Calculus",
+    "summary": "A formal system introduced by Alonzo Church for expressing computation through function abstraction and application, equivalent in power to Turing machines and foundational to functional programming.",
+    "explanation": "The lambda calculus is a formal system for defining and applying functions, devised by Alonzo Church in the 1930s as a foundation for mathematics and a model of computation. Everything in the pure lambda calculus is a function: there are only three kinds of expressions, namely variables, function abstractions written with the Greek letter lambda, and applications of one expression to another. Despite this minimalism, the system is expressive enough to represent numbers, booleans, data structures, and arbitrary algorithms.\n\nComputation in the lambda calculus proceeds by a rewriting rule called beta reduction, in which a function applied to an argument is evaluated by substituting the argument for the function's bound variable. Repeated reduction simplifies an expression toward a result, much as a program runs to produce output. Related rules, such as alpha conversion for renaming bound variables, keep the substitution mechanics consistent and free of accidental variable capture.\n\nA landmark result is that the lambda calculus is equivalent in computational power to Turing machines: any function computable by one can be computed by the other. This equivalence is a central pillar of the Church-Turing thesis, which holds that these formalisms capture the intuitive notion of effective computation. Church also used the lambda calculus to prove that certain problems, including the Entscheidungsproblem, are undecidable.\n\nBeyond its theoretical role, the lambda calculus is the intellectual ancestor of functional programming. Languages such as Lisp, Haskell, and ML draw directly on its ideas of first-class functions, higher-order functions, and evaluation by reduction. Typed variants of the lambda calculus also underpin modern type systems and proof assistants, making it one of the most influential frameworks bridging logic, mathematics, and programming language design.",
+    "tags": [
+        "computer-science",
+        "mathematics",
+        "computation",
+        "foundations",
+        "functional-programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Lambda Calculus",
+        "λ-calculus"
+    ],
+    "relatedConcepts": [
+        "church-turing-thesis",
+        "turing-machine",
+        "computability-theory",
+        "automata-theory",
+        "universal-turing-machine"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "references": [
+        {
+            "title": "Lambda calculus - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lambda_calculus",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13"
+}
