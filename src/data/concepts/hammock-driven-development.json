@@ -1,0 +1,84 @@
+{
+    "id": "hammock-driven-development",
+    "name": "Hammock Driven Development",
+    "summary": "Rich Hickey's approach to software design that deliberately allocates offline thinking time away from the keyboard so the background mind can solve hard problems before any code is written.",
+    "explanation": "Hammock Driven Development (HDD) is a design philosophy introduced by Rich Hickey, the creator of Clojure, in a 2010 talk of the same name. Its central claim is that most software problems are not typing problems: they are thinking problems, and thinking is a distinct activity that deserves its own dedicated, unhurried time. The name comes from the literal advice to spend time lying in a hammock with your eyes closed, doing nothing that looks like work. Hickey distinguishes two collaborating minds. The waking mind is analytical, fast, critical, and good at evaluating a specific idea, but it is also easily satisfied and biased toward the first solution it finds. The background mind is slower, associative, and works on problems while you sleep, walk, or rest, but it can only work on what you have consciously loaded into it. HDD is a protocol for feeding the background mind well and then getting out of its way. The practice works roughly as follows. First, state the problem explicitly in writing, and keep restating it until the statement is precise; a vague problem statement guarantees a vague solution. Second, gather facts, constraints, and context: read the relevant literature, study how others solved similar problems, and enumerate what you actually know versus what you are assuming. Third, build a list of the tradeoffs involved rather than searching for a single right answer. Fourth, load the whole problem into your mind, then deliberately walk away from it: sleep on it, take a long walk, or lie in the hammock. Fifth, capture the candidate solution when it surfaces and subject it to harsh analytical criticism the next day. Repeat the cycle until the design holds up. Hickey argues this cycle should take days or weeks for significant design decisions, and that the discomfort of not typing is precisely the point. HDD stands in explicit contrast to methodologies that optimize for rapid iteration and immediate feedback. Its critique is that fast feedback loops are excellent at correcting small local mistakes but useless against fundamental design errors, because you cannot iterate your way out of having chosen the wrong abstraction. Time spent thinking is cheap relative to the cost of building, shipping, and maintaining the wrong thing. For practitioners, HDD implies scheduling genuinely uninterrupted thinking blocks, writing problem statements before implementation plans, resisting pressure to show visible progress during the design phase, and keeping a way to capture insights that arrive at inconvenient moments.",
+    "tags": [
+        "software-design",
+        "problem-solving",
+        "thinking",
+        "creativity",
+        "software-engineering",
+        "deep-work",
+        "decision-making"
+    ],
+    "category": "Software Development",
+    "icon": "FaBed",
+    "featured": false,
+    "aliases": [
+        "HDD",
+        "Hammock-Driven Development",
+        "Hammock time"
+    ],
+    "relatedConcepts": [
+        "incubation-period",
+        "diffuse-mode-thinking",
+        "unconscious-thought-theory",
+        "problem-framing",
+        "deep-work",
+        "mind-wandering",
+        "aha-moment",
+        "slow-productivity",
+        "rubber-duck-debugging",
+        "first-principles",
+        "premature-optimization"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Rich Hickey - Hammock Driven Development (InfoQ)",
+            "url": "https://www.infoq.com/presentations/Hammock-Driven-Development/",
+            "type": "video"
+        },
+        {
+            "title": "Hammock Driven Development - Rich Hickey (YouTube)",
+            "url": "https://www.youtube.com/watch?v=f84n5oFoZBc",
+            "type": "video"
+        },
+        {
+            "title": "Rich Hickey - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Rich_Hickey",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}
