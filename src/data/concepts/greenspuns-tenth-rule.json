@@ -1,0 +1,47 @@
+{
+    "id": "greenspuns-tenth-rule",
+    "name": "Greenspun's Tenth Rule",
+    "summary": "The observation that any sufficiently complicated program contains an ad hoc, informally specified, bug-ridden, slow implementation of half of Lisp.",
+    "explanation": "Greenspun's Tenth Rule of Programming, stated by Philip Greenspun, holds that any sufficiently complicated C or Fortran program contains an ad hoc, informally specified, bug-ridden, slow implementation of half of Common Lisp. There are no rules one through nine; the numbering is part of the joke. The serious claim underneath is that large systems inevitably grow the facilities that dynamic, homoiconic languages provide by default: garbage collection, dynamic dispatch, closures, a plugin or macro system, a configuration language, runtime reflection, and eventually an embedded interpreter. Each of these arrives incrementally, invented in-house, without the design scrutiny that a language feature would receive. The rule is most useful as a diagnostic. When a codebase starts to include a bespoke expression evaluator, a hand-rolled dependency injection container, or a configuration format that has quietly acquired conditionals and loops, the team has begun building a language without admitting it. The choices at that point are to embrace it and adopt a real scripting language, or to recognise that the accidental language will never receive the tooling, documentation, or debugging support a real one has.",
+    "tags": [
+        "software-development",
+        "programming",
+        "laws",
+        "complexity",
+        "languages"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Greenspun's rule",
+        "Tenth Rule of Programming"
+    ],
+    "relatedConcepts": [
+        "zawinskis-law",
+        "inner-platform-effect",
+        "essential-vs-accidental-complexity",
+        "software-bloat",
+        "abstraction",
+        "worse-is-better",
+        "kiss-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Greenspun's tenth rule - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

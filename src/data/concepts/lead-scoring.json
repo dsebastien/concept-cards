@@ -1,0 +1,44 @@
+{
+    "id": "lead-scoring",
+    "name": "Lead Scoring",
+    "summary": "Assigning numeric values to prospects based on fit and engagement so that limited sales attention goes to the most promising ones.",
+    "explanation": "Lead scoring ranks prospects so that follow-up effort is allocated by likelihood to buy rather than by arrival order. Scores usually combine two dimensions. Fit attributes describe who the contact is: company size, industry, job title, geography, technology in use, and how closely these match the ideal customer profile. Behavioural attributes describe what they have done: pages viewed, emails opened, demos requested, pricing page visits, trial activity, and how recently. Points are added for positive signals and subtracted for negative ones such as a personal email domain, a student title, or long inactivity. Simple scoring uses rules chosen by the team; predictive scoring fits a model to historical won and lost deals, which tends to be more accurate and less intuitive. The common failure is building an elaborate model on guesses and never validating it. A score is only useful if high-scoring leads convert at a measurably higher rate than low-scoring ones, so the scoring rules deserve periodic recalibration against actual outcomes.",
+    "tags": [
+        "businesses",
+        "marketing",
+        "sales",
+        "lead-generation",
+        "processes"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaSortNumericUp",
+    "featured": false,
+    "aliases": [
+        "Predictive lead scoring",
+        "Lead grading"
+    ],
+    "relatedConcepts": [
+        "marketing-qualified-lead",
+        "sales-qualified-lead",
+        "lead-generation",
+        "lead-nurturing",
+        "ideal-customer-profile",
+        "buyer-persona",
+        "crm",
+        "marketing-attribution",
+        "conversion-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Lead scoring - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lead_scoring",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

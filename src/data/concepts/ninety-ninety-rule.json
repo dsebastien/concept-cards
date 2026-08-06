@@ -1,0 +1,74 @@
+{
+    "id": "ninety-ninety-rule",
+    "name": "Ninety-Ninety Rule",
+    "summary": "The joke that the first 90 percent of the code takes 90 percent of the time, and the remaining 10 percent takes the other 90 percent.",
+    "explanation": "Attributed to Tom Cargill of Bell Labs and popularised by Jon Bentley in Programming Pearls, the ninety-ninety rule accounts humorously for 180 percent of the schedule, which is the point. It captures the reliable pattern that projects reach an apparently near-complete state quickly and then spend as long again finishing. The last stretch contains the work that demonstrations skip: error handling, edge cases, performance under real load, security review, accessibility, migration of existing data, documentation, packaging, and the long tail of integration defects. None of it is visible in a happy-path demo, which is why it is systematically omitted from estimates. The rule is a specific instance of the planning fallacy applied to engineering, and it has direct implications for practice. Progress reported as a percentage complete is nearly meaningless before the unglamorous work has begun, so tracking should be based on demonstrably finished slices rather than on perceived proximity to done. It is also an argument for building thin end-to-end paths early, since the final 10 percent shrinks when integration risk has already been faced.",
+    "tags": [
+        "software-development",
+        "planning",
+        "estimation",
+        "project-management",
+        "laws"
+    ],
+    "category": "Software Development",
+    "icon": "FaHourglass",
+    "featured": false,
+    "aliases": [
+        "90-90 rule",
+        "Ninety-ninety rule of project schedules",
+        "Cargill's rule"
+    ],
+    "relatedConcepts": [
+        "planning-fallacy",
+        "murphys-law",
+        "parkinson-law",
+        "software-estimation",
+        "scope-creep",
+        "brooks-law",
+        "technical-debt",
+        "second-system-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Programming Pearls by Jon Bentley",
+            "url": "https://www.amazon.com/dp/0201657880?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Ninety-ninety rule - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ninety-ninety_rule",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

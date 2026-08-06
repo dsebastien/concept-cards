@@ -1,0 +1,45 @@
+{
+    "id": "free-trial",
+    "name": "Free Trial",
+    "summary": "A time-limited or usage-limited period of full product access offered to let prospects experience value before paying.",
+    "explanation": "A free trial removes the risk of buying by letting people use the product first. It differs from freemium, where a limited tier persists indefinitely: a trial ends. The main design decisions are duration, whether a credit card is required upfront, whether the trial is time-limited or usage-limited, and how much hand-holding accompanies it. Requiring a card raises conversion rate among those who start but sharply reduces how many start; the right choice depends on whether your constraint is top-of-funnel volume or downstream quality. Duration should be set by time to value, not by convention. A fourteen-day trial for a product that takes three weeks to configure guarantees failure, while a ninety-day trial for a product that delivers value in an hour mostly delays the decision and lets urgency dissipate. Trials succeed or fail on activation: the measure that matters is not how many sign up but how many reach the moment where the product's value becomes obvious, which makes onboarding design the highest-leverage part of the trial.",
+    "tags": [
+        "businesses",
+        "marketing",
+        "pricing",
+        "products",
+        "conversion"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaGift",
+    "featured": false,
+    "aliases": [
+        "Trial period",
+        "Free trial offer",
+        "Try before you buy"
+    ],
+    "relatedConcepts": [
+        "freemium",
+        "product-led-growth",
+        "bottom-up-adoption",
+        "customer-onboarding",
+        "activation-rate",
+        "time-to-value",
+        "conversion-rate",
+        "pricing-strategies",
+        "tripwire-offer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Free trial - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Trialware",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

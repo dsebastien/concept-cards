@@ -1,0 +1,44 @@
+{
+    "id": "sales-qualified-lead",
+    "name": "Sales Qualified Lead (SQL)",
+    "summary": "A prospect that a salesperson has vetted and accepted as a genuine opportunity worth active pursuit.",
+    "explanation": "A sales qualified lead is a contact that has passed human inspection by sales and been accepted into the pipeline as an opportunity. The distinction from a marketing qualified lead is who did the judging and against what evidence: an MQL is inferred from profile and behaviour, an SQL is confirmed through conversation. Qualification typically tests for a real problem the prospect acknowledges, authority or access to the people who decide, available budget or a plausible path to it, and a timeline that is not indefinite. Frameworks such as BANT and MEDDIC formalise these tests. Treating the SQL boundary seriously protects the most valuable resource in a sales organisation, which is rep attention. Every unqualified deal in the pipeline consumes hours, distorts the forecast, and inflates coverage with revenue that will never arrive. Good practice includes an explicit rejection path back to nurturing, so leads that are simply early are not discarded but revisited when the timing improves.",
+    "tags": [
+        "businesses",
+        "sales",
+        "metrics",
+        "processes",
+        "lead-generation"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaUserCheck",
+    "featured": false,
+    "aliases": [
+        "SQL",
+        "Sales-qualified lead",
+        "Sales accepted lead"
+    ],
+    "relatedConcepts": [
+        "marketing-qualified-lead",
+        "sales-qualification",
+        "lead-scoring",
+        "sales-pipeline",
+        "discovery-call",
+        "pipeline-coverage",
+        "sales-cycle",
+        "ideal-customer-profile"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Lead generation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lead_generation",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

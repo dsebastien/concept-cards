@@ -1,0 +1,57 @@
+{
+    "id": "pipeline-coverage",
+    "name": "Pipeline Coverage",
+    "summary": "The ratio of open pipeline value to the revenue target for a period, used to judge whether enough opportunities exist to hit quota.",
+    "explanation": "Pipeline coverage divides the total value of open opportunities expected to close in a period by the revenue target for that period. A team with three million in qualified pipeline against a one million target has three times coverage. The required ratio is not universal; it is the inverse of the historical win rate plus a margin for slippage. A team that wins one deal in four needs at least four times coverage, while a team winning half its deals needs far less. Coverage is a leading indicator: by the time a quarter's revenue is visibly short, it is too late to build pipeline that closes within it, which is why the metric is measured at the start of a period rather than the end. Its weakness is that it is only as honest as the pipeline itself. Coverage built on unqualified opportunities, stale deals nobody has touched in months, or optimistic close dates is a comfortable number attached to nothing. Reviewing coverage therefore means reviewing pipeline hygiene at the same time.",
+    "tags": [
+        "businesses",
+        "sales",
+        "metrics",
+        "planning",
+        "forecasting"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaChartBar",
+    "featured": false,
+    "aliases": [
+        "Pipeline-to-quota ratio",
+        "Coverage ratio"
+    ],
+    "relatedConcepts": [
+        "sales-pipeline",
+        "sales-velocity",
+        "sales-cycle",
+        "sales-qualification",
+        "lead-scoring",
+        "conversion-rate",
+        "scenario-planning"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sales management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sales_management",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

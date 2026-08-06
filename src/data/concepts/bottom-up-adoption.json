@@ -1,0 +1,45 @@
+{
+    "id": "bottom-up-adoption",
+    "name": "Bottom-Up Adoption",
+    "summary": "A market entry pattern where individual users or small teams adopt a product first, and organisational purchase follows usage.",
+    "explanation": "Bottom-up adoption reverses the traditional order of enterprise buying. Instead of an executive selecting a tool and mandating it, individuals adopt it because it solves their own problem, often on a free tier and sometimes without formal approval. Usage spreads team by team until the organisation faces a choice: sanction and consolidate what people already use, or remove a tool they depend on. By that point the vendor negotiates with evidence of adoption rather than promises of value. The pattern requires a product that delivers value to one person quickly, needs no procurement to start, and becomes more useful as colleagues join. It has produced some of the largest software companies of the last two decades. The tension appears at the enterprise boundary: what individuals value (speed, autonomy) differs from what IT and security demand (single sign-on, audit logs, admin controls, data residency). Companies that only build for the individual stall at the point where a real contract becomes possible, so bottom-up products eventually need an enterprise layer to convert adoption into revenue.",
+    "tags": [
+        "businesses",
+        "growth",
+        "products",
+        "strategies",
+        "adoption"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaLevelUpAlt",
+    "featured": false,
+    "aliases": [
+        "Bottom-up sales",
+        "Bottom-up go-to-market",
+        "User-first adoption"
+    ],
+    "relatedConcepts": [
+        "product-led-growth",
+        "land-and-expand",
+        "enterprise-sales",
+        "freemium",
+        "free-trial",
+        "gtm-motion",
+        "early-adopters",
+        "network-effects",
+        "time-to-value"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Technology adoption life cycle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Technology_adoption_life_cycle",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

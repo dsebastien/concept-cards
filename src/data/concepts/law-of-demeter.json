@@ -1,0 +1,54 @@
+{
+    "id": "law-of-demeter",
+    "name": "Law of Demeter",
+    "summary": "A design guideline that an object should only talk to its immediate collaborators, not to the objects those collaborators expose.",
+    "explanation": "The Law of Demeter, also called the principle of least knowledge, was formulated at Northeastern University in 1987 during the Demeter project. It says a method should only invoke methods on itself, on its own parameters, on objects it creates, and on its direct components; it should not reach through one object to call methods on another. The colloquial version is to talk only to friends, not to strangers, and the code smell it targets is the train wreck of chained calls such as order.getCustomer().getAddress().getCity().getName(). Each link in such a chain is a dependency on a structure the caller has no business knowing, so a change anywhere along it breaks code far away. Obeying the law produces objects that expose behaviour rather than data, which tends to push logic to where the data lives. The trade-off is real: strict application can generate many delegating wrapper methods, and the law is usually relaxed for data transfer objects, fluent builders, and query interfaces where chaining is the intended design rather than an accidental leak.",
+    "tags": [
+        "software-development",
+        "programming",
+        "design",
+        "architecture",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Principle of Least Knowledge",
+        "Demeter's Law",
+        "Don't talk to strangers"
+    ],
+    "relatedConcepts": [
+        "encapsulation",
+        "coupling",
+        "cohesion",
+        "separation-of-concerns",
+        "single-responsibility-principle",
+        "abstraction",
+        "hyrums-law",
+        "design-patterns"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Code by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0132350882?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Law of Demeter - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Law_of_Demeter",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

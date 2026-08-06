@@ -1,0 +1,58 @@
+{
+    "id": "hyrums-law",
+    "name": "Hyrum's Law",
+    "summary": "With enough users, every observable behaviour of a system will be depended on by somebody, regardless of what the contract promises.",
+    "explanation": "Hyrum's Law, formulated by Google engineer Hyrum Wright, states that with a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviours of your system will be depended on by somebody. Users build against what the system actually does, not what its documentation says it guarantees. Documented interfaces and undocumented accidents are indistinguishable from the outside, so timing characteristics, error message text, the iteration order of an unordered collection, memory layout, and even the presence of a bug all become part of the effective interface. The practical consequence is that any change, including a bug fix or a performance improvement, can break a downstream consumer. Large platforms accumulate compatibility shims specifically to preserve behaviour they never intended to promise. The defences are preventive: hide implementation details behind narrow interfaces, deliberately randomise behaviour that is not guaranteed so nobody can depend on it, test against real consumer usage rather than only against the specification, and version and deprecate explicitly. The law also explains why mature systems calcify, since with enough users every detail becomes load-bearing.",
+    "tags": [
+        "software-development",
+        "api-design",
+        "laws",
+        "compatibility",
+        "architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileContract",
+    "featured": false,
+    "aliases": [
+        "Law of Implicit Interfaces",
+        "Hyrum's law of implicit dependencies"
+    ],
+    "relatedConcepts": [
+        "postels-law",
+        "law-of-demeter",
+        "encapsulation",
+        "coupling",
+        "technical-debt",
+        "conways-law",
+        "abstraction",
+        "lehmans-laws"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Engineering at Google by Titus Winters, Tom Manshreck and Hyrum Wright",
+            "url": "https://www.amazon.com/dp/1492082791?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Hyrum's Law",
+            "url": "https://www.hyrumslaw.com/",
+            "type": "website"
+        },
+        {
+            "title": "Application programming interface - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/API",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

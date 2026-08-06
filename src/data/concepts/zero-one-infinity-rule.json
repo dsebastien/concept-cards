@@ -1,0 +1,48 @@
+{
+    "id": "zero-one-infinity-rule",
+    "name": "Zero One Infinity Rule",
+    "summary": "A design rule that the only reasonable numbers to allow of anything are zero, one, or an arbitrary number.",
+    "explanation": "The zero one infinity rule, attributed to Willem van der Poel and popularised through the Jargon File, holds that a design should permit none of a thing, exactly one of it, or any number of it, and never an arbitrary fixed limit. Limits such as eight open files, 255 characters in a filename, or three levels of nesting are always chosen against assumptions about usage that later prove wrong, and every one of them eventually becomes a defect report, a workaround, or a security vulnerability from an unchecked buffer. The rule argues that if you have decided to support more than one of something, the honest design supports an unbounded number, because the engineering required to move from a fixed limit to no limit is usually smaller than the accumulated cost of the limit. It is a guideline rather than a law: real systems need resource bounds to resist denial of service, and unbounded recursion or allocation is its own failure mode. The distinction that matters is between a limit imposed by physical resources, which should be explicit and configurable, and an arbitrary constant baked into the design, which should not exist.",
+    "tags": [
+        "software-development",
+        "design",
+        "principles",
+        "programming",
+        "architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Zero, one, infinity",
+        "0-1-infinity rule",
+        "ZOI rule"
+    ],
+    "relatedConcepts": [
+        "yagni",
+        "kiss-principle",
+        "unix-philosophy",
+        "abstraction",
+        "software-architecture",
+        "technical-debt",
+        "scope-creep"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Zero one infinity rule - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Zero_one_infinity_rule",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

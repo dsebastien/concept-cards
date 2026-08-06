@@ -1,0 +1,42 @@
+{
+    "id": "sales-velocity",
+    "name": "Sales Velocity",
+    "summary": "A metric combining deal count, deal size, win rate, and cycle length to express how fast revenue moves through a pipeline.",
+    "explanation": "Sales velocity is usually written as the number of qualified opportunities multiplied by average deal value multiplied by win rate, divided by average sales cycle length in days. The result is revenue per day flowing through the pipeline. Its value is diagnostic rather than decorative: it makes explicit that there are exactly four levers on revenue growth, and it forces a comparison between them. Doubling opportunity count is expensive; improving win rate from twenty to twenty-five percent may be free and produces the same effect. Shortening the cycle helps twice, because it both raises velocity directly and frees rep capacity. Reading the formula also exposes trade-offs that headline metrics hide: chasing larger deals raises deal value but usually lengthens the cycle and lowers the win rate, so the net effect can be negative. Track velocity by segment rather than in aggregate, since blending a fast self-serve motion with a slow enterprise one produces a number that describes neither.",
+    "tags": [
+        "businesses",
+        "sales",
+        "metrics",
+        "growth",
+        "strategies"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "Pipeline velocity",
+        "Revenue velocity"
+    ],
+    "relatedConcepts": [
+        "sales-pipeline",
+        "sales-cycle",
+        "pipeline-coverage",
+        "conversion-rate",
+        "sales-qualification",
+        "north-star-metric",
+        "growth-rate"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sales management - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sales_management",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

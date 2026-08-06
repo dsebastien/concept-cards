@@ -1,0 +1,50 @@
+{
+    "id": "lehmans-laws",
+    "name": "Lehman's Laws of Software Evolution",
+    "summary": "A set of empirical laws stating that useful software must continually change, and that changing it makes it progressively more complex.",
+    "explanation": "Meir Lehman and Laszlo Belady formulated these laws from studies of large systems beginning in the 1970s. The two most cited are continuing change, which holds that a program used in a real environment must be continually adapted or it becomes progressively less satisfactory, and increasing complexity, which holds that as a program evolves its complexity increases unless active work is done to reduce it. The other laws cover self-regulation of the growth rate, conservation of organisational stability and of familiarity, continuing growth in functionality, declining quality unless rigorously maintained, and the feedback-system nature of the evolution process. Together they describe software as something closer to a living system in an environment than a manufactured artefact that is finished. Two practical consequences follow. First, maintenance is not a failure of the original design; the environment moves and the software must move with it, so a system that stops changing is dying rather than complete. Second, complexity growth is the default and must be actively opposed, which is the empirical basis for treating refactoring as continuous work rather than as an occasional cleanup project.",
+    "tags": [
+        "software-development",
+        "maintenance",
+        "complexity",
+        "laws",
+        "systems-thinking"
+    ],
+    "category": "Software Development",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Lehman's laws",
+        "Laws of software evolution",
+        "Lehman-Belady laws"
+    ],
+    "relatedConcepts": [
+        "software-entropy",
+        "technical-debt",
+        "refactoring",
+        "software-bloat",
+        "brooks-law",
+        "conways-law",
+        "wirths-law",
+        "second-system-effect",
+        "hyrums-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Lehman's laws of software evolution - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "atwoods-law",
+    "name": "Atwood's Law",
+    "summary": "The observation that any application that can be written in JavaScript will eventually be written in JavaScript.",
+    "explanation": "Atwood's Law was stated by Jeff Atwood, co-founder of Stack Overflow, in 2007, when JavaScript was still widely regarded as a language for form validation. It has aged into an accurate prediction. JavaScript and its typed superset now run servers via Node, desktop applications via Electron, mobile applications via React Native, build tooling, infrastructure definitions, machine learning inference in the browser, and through WebAssembly it hosts programs written in other languages entirely. The mechanism is distribution rather than language design. JavaScript is the only language that executes natively in every browser, which makes the browser the largest deployment target in computing history and gives the language a labour pool and package ecosystem no competitor can match. Once a language reaches that position, the cost of using it for an adjacent problem is lower than the cost of introducing a second stack, even when the second stack is technically better suited. The law generalises: platforms with universal reach absorb workloads that would otherwise belong elsewhere, which is the same dynamic that drives Zawinski's Law at the application level.",
+    "tags": [
+        "software-development",
+        "programming",
+        "laws",
+        "javascript",
+        "web-development"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Atwood law",
+        "Any application that can be written in JavaScript"
+    ],
+    "relatedConcepts": [
+        "zawinskis-law",
+        "lock-in-effect",
+        "path-dependence",
+        "technological-lock-in",
+        "unix-philosophy",
+        "wirths-law",
+        "worse-is-better"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Jeff Atwood - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jeff_Atwood",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

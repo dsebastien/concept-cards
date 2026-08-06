@@ -1,0 +1,48 @@
+{
+    "id": "inner-platform-effect",
+    "name": "Inner-Platform Effect",
+    "summary": "The anti-pattern where a system becomes so configurable that it reimplements, poorly, the platform it was built on.",
+    "explanation": "The inner-platform effect describes software that has been generalised until it constitutes a worse version of its own foundation. The classic symptom is a database schema with tables named entity, attribute, and value, which reimplements the relational model inside the relational database. Other forms include configuration files that acquire variables, conditionals, and loops until they are an untyped programming language; workflow engines whose visual editors are less capable than the code they replaced; and rules engines that recreate control flow without a debugger. The path there is well-intentioned. Each generalisation is added to avoid a future code change, usually so that non-developers can adjust behaviour without a deployment. The result is a system that can express anything and therefore guarantees nothing, with none of the tooling the real platform provides: no type checking, no debugger, no profiler, no version control semantics, no library ecosystem. The counter is to prefer specificity and change code when requirements change, and where genuine runtime flexibility is required, to embed an existing scripting language rather than growing a private one.",
+    "tags": [
+        "software-development",
+        "architecture",
+        "complexity",
+        "design",
+        "anti-patterns"
+    ],
+    "category": "Software Development",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Inner platform",
+        "Inner-platform anti-pattern"
+    ],
+    "relatedConcepts": [
+        "greenspuns-tenth-rule",
+        "kiss-principle",
+        "yagni",
+        "essential-vs-accidental-complexity",
+        "abstraction",
+        "software-bloat",
+        "design-patterns",
+        "software-architecture"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Inner-platform effect - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Inner-platform_effect",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "zawinskis-law",
+    "name": "Zawinski's Law",
+    "summary": "The observation that every program expands until it can read mail, and programs that cannot are replaced by ones that can.",
+    "explanation": "Zawinski's Law was coined by Jamie Zawinski, an engineer on Netscape Navigator and a long-time Emacs contributor, as a wry description of software's tendency toward endless expansion. The full statement is that every program attempts to expand until it can read mail, and those programs which cannot so expand are replaced by ones which can. The mail reader is a stand-in for any adjacent capability a product absorbs while chasing the ambition of becoming a user's single environment. Emacs is the canonical example, having grown a mail client, a web browser, a file manager, and a psychotherapist; the modern equivalents are chat tools that acquire video calls and document editing, code editors that become IDEs with terminals and AI agents, and messaging apps that add payments. The law is a joke with an accurate mechanism underneath it. Each individual feature is justified by real user demand and by the switching cost of leaving the application, so growth is locally rational at every step even when the cumulative result is bloated and incoherent. Zawinski himself later noted the point was not that expansion is good but that it is inevitable, which is why it functions as a warning rather than a roadmap.",
+    "tags": [
+        "software-development",
+        "programming",
+        "laws",
+        "complexity",
+        "design"
+    ],
+    "category": "Software Development",
+    "icon": "FaEnvelopeOpenText",
+    "featured": false,
+    "aliases": [
+        "Law of Software Envelopment",
+        "Zawinski law",
+        "Every program expands until it can read mail"
+    ],
+    "relatedConcepts": [
+        "software-bloat",
+        "scope-creep",
+        "second-system-effect",
+        "everything-app",
+        "wirths-law",
+        "unix-philosophy",
+        "yagni",
+        "kiss-principle",
+        "worse-is-better",
+        "greenspuns-tenth-rule"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Jamie Zawinski - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jamie_Zawinski",
+            "type": "website"
+        },
+        {
+            "title": "Law of Software Envelopment - Jargon File",
+            "url": "http://www.catb.org/jargon/html/Z/Zawinskis-Law.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

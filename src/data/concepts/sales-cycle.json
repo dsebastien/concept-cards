@@ -1,0 +1,44 @@
+{
+    "id": "sales-cycle",
+    "name": "Sales Cycle",
+    "summary": "The elapsed time and sequence of stages from first contact with a prospect to a closed deal.",
+    "explanation": "The sales cycle describes both a sequence and a duration. As a sequence it lists the stages a deal passes through: prospecting, qualification, discovery, evaluation, proposal, negotiation, and close. As a duration it is the average number of days a won deal takes to traverse them, which is one of the most consequential numbers in a business. Cycle length determines how much cash you must hold, how long a new sales hire takes to prove themselves, and how slowly you learn whether a change to your pitch worked. It scales with price, risk, and the number of approvals required: a self-serve subscription may close in minutes, a mid-market deal in weeks, an enterprise agreement in a year. Measure the cycle from a consistent starting event and measure won deals separately from lost ones, since lost deals often linger and inflate the average. Shortening the cycle usually means removing a specific source of friction such as a security review, an unclear business case, or a missing decision maker, rather than pressing harder at the end.",
+    "tags": [
+        "businesses",
+        "sales",
+        "metrics",
+        "processes",
+        "strategies"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaSyncAlt",
+    "featured": false,
+    "aliases": [
+        "Sales cycle length",
+        "Deal cycle",
+        "Time to close"
+    ],
+    "relatedConcepts": [
+        "sales-pipeline",
+        "sales-funnel",
+        "sales-velocity",
+        "enterprise-sales",
+        "sales-qualification",
+        "pipeline-coverage",
+        "discovery-call",
+        "closing-techniques"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Sales process engineering - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sales_process_engineering",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

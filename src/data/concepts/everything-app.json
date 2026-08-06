@@ -1,0 +1,50 @@
+{
+    "id": "everything-app",
+    "name": "Everything App",
+    "summary": "A product strategy of absorbing adjacent capabilities until a single application covers most of a user's daily digital activity.",
+    "explanation": "An everything app aims to become the single place a user does messaging, payments, shopping, media, identity, and services, so that leaving it becomes impractical. WeChat is the reference implementation: a messaging app that grew into payments, mini-programs, government services, and commerce, to the point of functioning as infrastructure in China. Attempts to replicate the model elsewhere have mostly stalled, because the conditions that produced it were specific: mobile-first adoption without entrenched incumbents in payments, and a regulatory environment tolerant of that concentration. The strategic logic is straightforward. Each added service raises switching costs, and the network effects of one service subsidise acquisition for the next, producing a defensible position no single-purpose competitor can attack directly. The costs are equally real. Everything apps accumulate the bloat Zawinski's Law predicts, concentrate privacy and security risk in one account, attract antitrust attention, and dilute the focus that made the original product good. From the user's side the trade is convenience for dependency, since one suspended account can sever access to communication, money, and services at once.",
+    "tags": [
+        "businesses",
+        "products",
+        "strategies",
+        "platforms",
+        "software-development"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Super app",
+        "Superapp",
+        "All-in-one app"
+    ],
+    "relatedConcepts": [
+        "zawinskis-law",
+        "platform-business",
+        "software-bloat",
+        "ecosystem-lock-in",
+        "network-effects",
+        "walled-gardens",
+        "switching-costs",
+        "moat",
+        "bundling-unbundling"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Super-app - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Super-app",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "wirths-law",
+    "name": "Wirth's Law",
+    "summary": "The observation that software is getting slower more rapidly than hardware is getting faster.",
+    "explanation": "Wirth's Law, from Niklaus Wirth's 1995 essay A Plea for Lean Software, states that software slows down faster than hardware speeds up. Decades of exponential improvement in processors, memory, and storage have been substantially consumed by additional abstraction layers, larger frameworks, richer interfaces, and runtime environments, leaving perceived responsiveness roughly flat or worse. Text editors and chat clients that once ran in a few megabytes now ship as browser engines consuming hundreds. The mechanism is economic rather than technical incompetence: engineering time is expensive and hardware is cheap, so teams rationally trade machine efficiency for development speed, and each such trade is defensible in isolation. The aggregate outcome is that users on the same hardware experience degradation over time and users on older hardware are excluded entirely. Related formulations include May's Law and the maxim that what Intel giveth, Microsoft taketh away. Wirth's practical prescription was that lean software requires deliberate constraint, since without an explicit performance budget the default direction of every codebase is toward more layers and more consumption.",
+    "tags": [
+        "software-development",
+        "performance",
+        "laws",
+        "complexity",
+        "efficiency"
+    ],
+    "category": "Software Development",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "Wirth law",
+        "Page's Law",
+        "Software is getting slower more rapidly than hardware becomes faster"
+    ],
+    "relatedConcepts": [
+        "software-bloat",
+        "zawinskis-law",
+        "moores-law",
+        "premature-optimization",
+        "technical-debt",
+        "kiss-principle",
+        "atwoods-law",
+        "software-entropy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Wirth's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wirth%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}

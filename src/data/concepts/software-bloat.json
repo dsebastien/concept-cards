@@ -1,0 +1,51 @@
+{
+    "id": "software-bloat",
+    "name": "Software Bloat",
+    "summary": "The tendency of software to consume progressively more resources and surface area over successive versions without proportional gain in value.",
+    "explanation": "Software bloat is the accumulation of size, complexity, and resource consumption in a product across its lifetime. It shows up as larger downloads, slower startup, higher memory use, and an interface crowded with options that the majority of users never touch. The causes are structural rather than careless. Features are added for the loudest requests and are almost never removed, because removal generates complaints from a visible minority while retention costs are diffuse. Backward compatibility keeps old code paths alive indefinitely. Dependencies pull in transitive dependencies, and cross-platform runtimes trade footprint for development speed. Marketing rewards feature counts in comparison tables. Bloat matters because it compounds: every additional feature widens the surface that must be tested, secured, documented, and kept working during refactoring, which slows all future work. Hardware improvement masks the cost, a dynamic captured by Wirth's Law. Countermeasures include measuring binary size and startup time as tracked metrics rather than incidents, requiring evidence of use before keeping a feature, and treating deprecation as a normal part of the release cycle rather than an exceptional event.",
+    "tags": [
+        "software-development",
+        "complexity",
+        "performance",
+        "design",
+        "maintenance"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "Bloatware",
+        "Code bloat",
+        "Feature bloat"
+    ],
+    "relatedConcepts": [
+        "zawinskis-law",
+        "wirths-law",
+        "scope-creep",
+        "software-entropy",
+        "technical-debt",
+        "yagni",
+        "kiss-principle",
+        "unix-philosophy",
+        "second-system-effect",
+        "everything-app"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Software bloat - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_bloat",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06"
+}
