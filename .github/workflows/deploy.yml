@@ -8,6 +8,12 @@ on:
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
 
+    # Allows release.yml to chain this workflow as a dependent job.
+    # Needed because a tag pushed by a workflow's GITHUB_TOKEN does not
+    # trigger other workflows, so the `push: tags` trigger above never
+    # fires for automated releases.
+    workflow_call:
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
     contents: read
