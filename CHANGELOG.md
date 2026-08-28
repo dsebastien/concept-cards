@@ -1,3 +1,8 @@
+## [12.14.2](https://github.com/dsebastien/concept-cards/compare/12.14.1...12.14.2) (2026-08-28)
+
+### Bug Fixes
+
+* **concepts:** refresh stale dateModified values from git history ([ca055f1](https://github.com/dsebastien/concept-cards/commit/ca055f1889e3008acfa6c9c63a77178b06baaa1a))
 ## [12.14.1](https://github.com/dsebastien/concept-cards/compare/12.14.0...12.14.1) (2026-08-28)
 ## [12.14.0](https://github.com/dsebastien/concept-cards/compare/12.13.0...12.14.0) (2026-08-06)
 
