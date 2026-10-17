@@ -1,3 +1,14 @@
+## [12.15.0](https://github.com/dsebastien/concept-cards/compare/12.14.2...12.15.0) (2026-10-17)
+
+### Features
+
+* **concepts:** add Ovsiankina-related, Shape Up and flow concepts; merge duplicates ([1c7d1e2](https://github.com/dsebastien/concept-cards/commit/1c7d1e2535587bf9280804bf1c70249961a259c1))
+
+### Bug Fixes
+
+* **build:** exclude bun-types alongside @types/bun from the release-age gate ([a33a1e5](https://github.com/dsebastien/concept-cards/commit/a33a1e5dad912457689c586405732994095d4a7a))
+* **concepts:** bump dateModified on 12 concepts ([8ea87df](https://github.com/dsebastien/concept-cards/commit/8ea87df1ae5405be89e5804cd563fdb48bd297c9))
+* **concepts:** bump dateModified on 77 concepts ([008653d](https://github.com/dsebastien/concept-cards/commit/008653d8fba4f3cf91e4c9746afcb13c23e5bd34))
 ## [12.14.2](https://github.com/dsebastien/concept-cards/compare/12.14.1...12.14.2) (2026-08-28)
 
 ### Bug Fixes
