@@ -1,0 +1,63 @@
+{
+    "id": "hill-charts",
+    "name": "Hill Charts",
+    "summary": "A way to show project progress as climbing a hill of unknowns (figuring out what to do) and descending into known execution (getting it done).",
+    "explanation": "Hill Charts are a progress visualization from Shape Up, created at Basecamp. Each piece of work is a dot on a hill. The left side, going uphill, represents figuring things out: there are still unknowns and open questions. The right side, going downhill, represents execution: the approach is clear and what remains is doing it.\n\n## Why Not Just Count Tasks?\n\nTask counts and percentages hide the most important information: how much uncertainty remains. A project with 80% of its tasks done can still be stuck on an unsolved problem. Conversely, early tasks often reveal more tasks. Hill charts show what kind of work remains, not just how much.\n\n## How to Use Them\n\n- **Break work into scopes**: Meaningful, independently completable parts of the project, not to-dos.\n- **Place each scope on the hill**: Uphill if there are still unknowns, at the top once the approach is validated, downhill as it's executed.\n- **Push the riskiest scopes uphill first**: Solve the unknowns early, when there is still time to adjust, and leave routine work for later.\n- **Watch for stuck dots**: A dot that doesn't move uphill for days signals a problem that needs attention, even if the team is busy.\n\n## Benefits\n\n- Managers see status without asking for it, which reduces check-in meetings.\n- Teams are encouraged to reduce risk early instead of doing the easy work first.\n- Progress becomes about confidence, not activity.\n\n## Beyond Software\n\nHill charts work for any creative or knowledge work: writing a book, preparing a course, researching a topic. The question 'have I figured this out yet, or am I just executing?' is useful on its own.",
+    "tags": [
+        "project-management",
+        "visualization",
+        "product-management",
+        "uncertainty",
+        "metrics"
+    ],
+    "category": "Tools",
+    "icon": "FaMountain",
+    "featured": false,
+    "aliases": [
+        "Hill Chart",
+        "Basecamp Hill Charts",
+        "Uphill and Downhill Work"
+    ],
+    "relatedConcepts": [
+        "shape-up",
+        "appetite",
+        "betting-table",
+        "cone-of-uncertainty",
+        "cumulative-flow-diagram",
+        "kanban",
+        "progress-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Show Progress - Shape Up",
+            "url": "https://basecamp.com/shapeup/3.4-chapter-13",
+            "type": "website"
+        },
+        {
+            "title": "Shape Up - Ryan Singer (Basecamp)",
+            "url": "https://basecamp.com/shapeup",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "betting-table",
+    "name": "Betting Table",
+    "summary": "A Shape Up planning meeting where stakeholders choose which shaped pitches to commit the next cycle to, treating each project as a bet rather than a backlog item.",
+    "explanation": "The Betting Table is the decision meeting in Shape Up, held during the cool-down between six-week cycles. A small group of senior stakeholders reviews the pitches that have been shaped and decides which ones to bet the next cycle on.\n\n## How It Works\n\n- **Only shaped work is considered**: Each pitch defines a problem, an appetite, a rough solution, and known risks.\n- **No backlog**: There is no ever-growing queue of ideas. Pitches that are not chosen are not automatically kept. Anyone can track ideas they care about, and important ones come back.\n- **Bets, not plans**: Choosing a pitch is a bet with a bounded downside. The worst case is losing one cycle, because of the circuit breaker: unfinished projects are not extended automatically.\n- **Uninterrupted time**: Once a bet is placed, the team gets the whole cycle without being pulled onto other work.\n- **Short and decisive**: The meeting is meant to be fast, because the hard work happened during shaping.\n\n## Why Framing Work as Bets Helps\n\n- It acknowledges uncertainty: some bets won't pay off, and that's acceptable.\n- It caps risk: you never commit more than one cycle without re-evaluating.\n- It forces explicit choices: saying yes to one pitch means saying no to others.\n- It avoids backlog debt: grooming hundreds of stale items is waste.\n\n## Personal Version\n\nAt the start of each month or quarter, review the candidate projects you have shaped, choose a few to bet on, and let the rest go without guilt. Revisit at the next cycle.",
+    "tags": [
+        "project-management",
+        "product-management",
+        "decision-making",
+        "prioritization",
+        "planning"
+    ],
+    "category": "Techniques",
+    "icon": "FaDice",
+    "featured": false,
+    "aliases": [
+        "The Betting Table",
+        "Bets Not Backlogs",
+        "Betting (Shape Up)"
+    ],
+    "relatedConcepts": [
+        "shape-up",
+        "appetite",
+        "fixed-time-variable-scope",
+        "hill-charts",
+        "reversible-vs-irreversible-decisions",
+        "okrs"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "The Betting Table - Shape Up",
+            "url": "https://basecamp.com/shapeup/2.2-chapter-08",
+            "type": "website"
+        },
+        {
+            "title": "Bets, Not Backlogs - Shape Up",
+            "url": "https://basecamp.com/shapeup/2.1-chapter-07",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

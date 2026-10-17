@@ -1,0 +1,93 @@
+{
+    "id": "small-batches",
+    "name": "Small Batches",
+    "summary": "Doing and delivering work in small increments to shorten cycle times, reduce risk, and get feedback sooner.",
+    "explanation": "Working in small batches means splitting work into small pieces and moving each piece through the whole process (build, review, release, feedback) before starting a lot more. It is a central principle of lean manufacturing, Donald Reinertsen's product development flow, and continuous delivery.\n\n## Why Small Batches Win\n\n- **Shorter cycle time**: By Little's Law, less work in progress per item means it gets through the system faster.\n- **Shorter queues**: Smaller and more uniform items reduce variability, which, per Kingman's Formula, reduces waiting time.\n- **Faster feedback**: You learn whether something works after days rather than months.\n- **Lower risk**: When a small change fails, it is easy to identify and roll back. A large release fails in more ways at once.\n- **Less waste**: If priorities change, less work in progress is thrown away.\n- **More motivation**: Finishing things often provides a steady stream of small wins.\n\n## The Trade-off\n\nEach batch has a transaction cost: setup, review, deployment, coordination. Large batches are tempting when those costs are high. The lean answer is to reduce the transaction cost (automation, simpler processes) so that smaller batches become economical, rather than accepting large batches.\n\n## Examples\n\n- Small pull requests instead of giant ones\n- Publishing short articles regularly instead of one perfect long piece a year\n- Releasing features incrementally behind flags\n- Processing your inbox daily instead of weekly\n- Writing a book chapter by chapter with feedback along the way\n\n## Related Practice\n\nNote that this differs from task batching, which groups similar tasks to reduce context switching. Small batches are about the size of the units of work that flow through a process.",
+    "tags": [
+        "lean",
+        "agile",
+        "flow",
+        "productivity",
+        "software-development"
+    ],
+    "category": "Principles",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Small Batch Size",
+        "Small Batch Principle",
+        "Reduce Batch Size",
+        "Single-Piece Flow",
+        "One-Piece Flow"
+    ],
+    "relatedConcepts": [
+        "littles-law",
+        "kingmans-formula",
+        "resource-efficiency-trap",
+        "continuous-delivery",
+        "limit-work-in-progress",
+        "cycle-time",
+        "lean-manufacturing",
+        "small-wins",
+        "task-batching",
+        "minimum-viable-product"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Principles of Product Development Flow - Donald G. Reinertsen",
+            "url": "https://www.amazon.com/dp/1935401009?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Little's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Little%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

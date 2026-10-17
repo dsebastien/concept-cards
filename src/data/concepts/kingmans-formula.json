@@ -1,0 +1,87 @@
+{
+    "id": "kingmans-formula",
+    "name": "Kingman's Formula",
+    "summary": "A queueing theory approximation showing that waiting time grows explosively as utilization approaches 100%, amplified by variability in arrivals and service times.",
+    "explanation": "Kingman's Formula, published by John Kingman in 1961, approximates the average waiting time in a queue. In simplified form:\n\nWait time ≈ (u / (1 - u)) × ((ca² + cs²) / 2) × average service time\n\nwhere u is utilization, and ca and cs are the coefficients of variation of arrival times and service times.\n\n## What It Says\n\nThe formula has three parts, and two of them are bad news for busy teams:\n- **Utilization term u / (1 - u)**: At 50% utilization it equals 1. At 80%, 4. At 90%, 9. At 95%, 19. Waiting time does not grow linearly with load: it explodes as you approach full capacity.\n- **Variability term**: The more unpredictable the arrival of work and the time it takes, the longer the waits. Knowledge work has very high variability.\n- **Service time**: The basic time to process an item.\n\n## Why It Matters for Knowledge Work\n\n- **Fully loaded people and teams are slow**: If everyone is 100% busy, new work waits a long time. This is the mathematical core of the resource efficiency trap.\n- **Slack is not waste**: Spare capacity is what allows work to flow and urgent items to be handled quickly.\n- **Reduce variability**: Smaller and more uniform work items (small batches) shrink queues as much as adding capacity does.\n- **Combine with Little's Law**: Little's Law says lead time = WIP / throughput. Kingman explains why WIP and lead times balloon when utilization is high.\n\n## Practical Implications\n\n- Plan for 70-80% utilization, not 100%.\n- Limit work in progress.\n- Break work into smaller, more predictable pieces.\n- Leave buffer time in your calendar for the unexpected rather than scheduling every hour.",
+    "tags": [
+        "mathematics",
+        "operations",
+        "lean",
+        "productivity",
+        "flow"
+    ],
+    "category": "Principles",
+    "icon": "FaCalculator",
+    "featured": false,
+    "aliases": [
+        "Kingman Formula",
+        "Kingman's Equation",
+        "VUT Equation",
+        "Kingman Approximation"
+    ],
+    "relatedConcepts": [
+        "littles-law",
+        "resource-efficiency-trap",
+        "small-batches",
+        "flow-efficiency",
+        "limit-work-in-progress",
+        "work-in-progress",
+        "theory-of-constraints",
+        "bottleneck",
+        "cycle-time",
+        "lead-time"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Principles of Product Development Flow - Donald G. Reinertsen",
+            "url": "https://www.amazon.com/dp/1935401009?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Kingman's formula - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kingman%27s_formula",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

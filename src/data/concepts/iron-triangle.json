@@ -1,0 +1,66 @@
+{
+    "id": "iron-triangle",
+    "name": "Iron Triangle",
+    "summary": "The project management model stating that scope, time, and cost are interdependent constraints: you cannot change one without affecting the others or quality.",
+    "explanation": "The Iron Triangle, also called the project management triangle or triple constraint, is a model attributed to Martin Barnes (1969). It describes three constraints every project operates under: scope (what gets delivered), time (when), and cost (with what resources). Quality is often placed in the middle of the triangle because it is what absorbs the pressure when the constraints are not balanced.\n\n## The Core Idea\n\nThe three sides are linked. If you add scope, you need more time or more money. If you cut the deadline, you need to reduce scope or add resources. If you cut the budget, something else gives. Trying to fix all three at once while demanding more of one of them does not make the trade-off disappear: it silently pushes it into quality, through bugs, technical debt, burnout, or shortcuts.\n\nThe popular shorthand is 'good, fast, cheap: pick two'.\n\n## Using It Well\n\n- **Make the trade-off explicit**: Ask which constraint is fixed and which one is allowed to move. Having all three fixed is a red flag.\n- **Prefer fixing time and flexing scope**: Many modern methods (Shape Up, timeboxed sprints, MVPs) fix time and cost and treat scope as the variable. This keeps delivery predictable and forces prioritization.\n- **Beware adding people**: Adding resources rarely shortens time linearly. Brooks's Law notes that adding people to a late software project makes it later.\n- **Protect quality deliberately**: If quality is the hidden fourth side, state the quality bar explicitly so that it doesn't become the default sacrifice.\n\n## Criticism\n\nThe model is a simplification. It ignores value, risk, and benefits, and success on all three sides does not guarantee that the project delivered anything useful. Later variants add risk, quality, and benefits as further dimensions. It remains useful as a quick reminder that wishes are not plans.",
+    "tags": [
+        "project-management",
+        "trade-offs",
+        "planning",
+        "constraints",
+        "mental-models"
+    ],
+    "category": "Frameworks",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Project Management Triangle",
+        "Triple Constraint",
+        "Good Fast Cheap",
+        "Pick Two",
+        "Iron Triangle of Project Management"
+    ],
+    "relatedConcepts": [
+        "fixed-time-variable-scope",
+        "appetite",
+        "shape-up",
+        "scope-creep",
+        "brooks-law",
+        "technical-debt",
+        "planning-fallacy",
+        "minimum-viable-product"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Project management triangle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Project_management_triangle",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

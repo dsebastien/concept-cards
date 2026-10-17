@@ -1,0 +1,75 @@
+{
+    "id": "appetite",
+    "name": "Appetite",
+    "summary": "A time budget decided up front for how much a problem is worth, used to constrain the solution instead of estimating how long a given solution will take.",
+    "explanation": "Appetite is a core idea of Shape Up, the product development method published by Ryan Singer at Basecamp. Instead of starting with a solution and asking 'how long will this take?', you start with the problem and ask 'how much time is this worth to us?'. That amount of time is the appetite.\n\n## Appetite vs Estimate\n\n- **An estimate** starts from a design and predicts a duration. Estimates tend to grow, and they let the solution dictate the cost.\n- **An appetite** starts from a duration and constrains the design. The question becomes: what is the best version of this we can build in that time?\n\nIn Shape Up, appetites come in two sizes: a small batch (one or two weeks for a designer and one or two programmers) or a big batch (a full six-week cycle).\n\n## Why It Works\n\n- **It forces trade-offs early**: Knowing the budget, you design a solution that fits it rather than an ideal solution that then overruns.\n- **It protects against scope creep**: 'Is this worth more than six weeks?' is a clearer question than 'how can we fit everything in?'.\n- **It reflects value**: Some problems are only worth a week, no matter how much better a three-month version would be. Appetite makes that explicit.\n- **It counters the planning fallacy**: Estimates are biased toward optimism. A fixed appetite combined with variable scope sidesteps that bias.\n\n## Applying It Beyond Product Teams\n\nAppetite works for personal projects too. Before starting a side project, an article, or a home improvement, decide how much time you are willing to invest. When the budget runs out, ship what you have, cut scope, or consciously decide to make a new bet, rather than drifting.\n\n'Good' is relative to the appetite: a solution is good if it is the best one possible within the time you decided the problem deserved.",
+    "tags": [
+        "project-management",
+        "planning",
+        "product-management",
+        "estimation",
+        "prioritization"
+    ],
+    "category": "Techniques",
+    "icon": "FaClock",
+    "featured": false,
+    "aliases": [
+        "Appetite (Shape Up)",
+        "Time Budget",
+        "Fixed Appetite"
+    ],
+    "relatedConcepts": [
+        "shape-up",
+        "fixed-time-variable-scope",
+        "betting-table",
+        "iron-triangle",
+        "planning-fallacy",
+        "scope-creep",
+        "parkinson-law",
+        "time-blocking",
+        "hofstadter-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Shape Up - Ryan Singer (Basecamp)",
+            "url": "https://basecamp.com/shapeup",
+            "type": "website"
+        },
+        {
+            "title": "Set Boundaries - Shape Up",
+            "url": "https://basecamp.com/shapeup/1.2-chapter-03",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

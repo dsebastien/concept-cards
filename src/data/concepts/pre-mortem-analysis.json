@@ -5,29 +5,39 @@
     "explanation": "Pre-Mortem Analysis, developed by psychologist Gary Klein, is a prospective hindsight technique used to identify potential risks before a project begins. Unlike a post-mortem (which examines what went wrong after failure), a pre-mortem asks team members to imagine that the project has already failed spectacularly and then work backward to determine what could have caused the failure. This technique leverages our natural ability to explain past events while applying it to future planning. The process typically involves: 1) Assume the project has failed completely, 2) Have each team member independently write down all the reasons they can think of for the failure, 3) Share and compile the reasons, 4) Develop mitigation strategies for the most likely or impactful risks. Pre-mortems are powerful because they give permission to voice concerns that might otherwise be suppressed due to groupthink or optimism bias. They also engage prospective hindsight, which research shows generates more specific and plausible causes than simply asking 'what could go wrong.' This technique is particularly valuable for high-stakes decisions and complex projects.",
     "tags": [
         "decision-making",
-        "risk-management",
-        "psychology",
+        "frameworks",
+        "planning",
         "project-management",
-        "techniques",
-        "planning"
+        "psychology",
+        "risk-management",
+        "techniques"
     ],
     "category": "Techniques",
     "icon": "FaExclamationTriangle",
     "featured": false,
     "aliases": [
         "Pre-Mortem",
+        "Pre-mortem",
         "Premortem",
         "Prospective Hindsight"
     ],
     "relatedConcepts": [
+        "black-swan",
+        "contingency-planning",
+        "counterfactual-thinking",
+        "decision-making",
         "first-principles",
-        "root-cause-analysis",
         "five-whys",
         "planning-fallacy",
-        "second-order-effects",
+        "post-mortem",
+        "raid-log",
         "regret-minimization-framework",
-        "counterfactual-thinking",
-        "post-mortem"
+        "risk-assessment",
+        "risk-management",
+        "risk-mitigation",
+        "risk-register",
+        "root-cause-analysis",
+        "second-order-effects"
     ],
     "relatedNotes": [],
     "articles": [
@@ -82,9 +92,19 @@
             "title": "Knowii Community",
             "url": "https://store.dsebastien.net/product/knowii-community",
             "type": "other"
+        },
+        {
+            "title": "Performing a Project Premortem (Harvard Business Review, Gary Klein)",
+            "url": "https://hbr.org/2007/09/performing-a-project-premortem",
+            "type": "website"
+        },
+        {
+            "title": "Pre-mortem (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Pre-mortem",
+            "type": "website"
         }
     ],
     "tutorials": [],
     "datePublished": "2025-12-27",
-    "dateModified": "2026-05-02"
+    "dateModified": "2026-10-17"
 }

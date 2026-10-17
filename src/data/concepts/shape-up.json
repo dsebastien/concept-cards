@@ -1,0 +1,71 @@
+{
+    "id": "shape-up",
+    "name": "Shape Up",
+    "summary": "Basecamp's product development method built on six-week cycles, work shaped at the right level of abstraction before it is bet on, and teams given full responsibility to deliver within a fixed time.",
+    "explanation": "Shape Up is a product development method described by Ryan Singer in the free book Shape Up: Stop Running in Circles and Ship Work that Matters (Basecamp, 2019). It replaces backlogs, sprints, and estimates with fixed time, shaped work, and deliberate bets.\n\n## The Three Phases\n\n- **Shaping**: Senior people define a problem, set an appetite (how much time it is worth), and sketch a solution at the right level of abstraction: concrete enough that the team knows what to build, rough enough to leave room for design decisions. Rabbit holes and no-gos are identified up front. The result is a pitch.\n- **Betting**: At the betting table, stakeholders choose which pitches to bet the next cycle on. There is no backlog: pitches that are not chosen are not kept in a queue. Important ideas come back on their own.\n- **Building**: A small team gets the whole cycle to deliver the shaped project. They define their own tasks, work on vertical slices, and track progress with hill charts. Scope is the variable: they cut and adjust to ship on time.\n\n## Key Principles\n\n- **Six-week cycles followed by a two-week cool-down** for fixing bugs, exploring, and planning.\n- **Appetite instead of estimates**: Decide how much time a problem deserves, then design to fit it.\n- **Fixed time, variable scope**: The deadline does not move. Scope is hammered to fit.\n- **The circuit breaker**: If a project is not done by the end of the cycle, it does not get an automatic extension. It is stopped by default and must be re-shaped and re-bet.\n- **Responsibility to the team**: Teams receive projects, not tasks, and are trusted to work out the details.\n\n## Why It Matters\n\nShape Up addresses chronic problems of iterative methods: endless backlogs, projects that never end, and teams that never get uninterrupted time. It is also a good model for individuals: shape your projects before committing, give them a fixed budget, and accept that not everything you could do deserves to be done.",
+    "tags": [
+        "project-management",
+        "product-management",
+        "agile",
+        "methodologies",
+        "software-development"
+    ],
+    "category": "Methods",
+    "icon": "FaCube",
+    "featured": false,
+    "aliases": [
+        "Shape Up Method",
+        "Shaping",
+        "Basecamp Shape Up",
+        "Shape Up Methodology"
+    ],
+    "relatedConcepts": [
+        "appetite",
+        "fixed-time-variable-scope",
+        "betting-table",
+        "hill-charts",
+        "iron-triangle",
+        "scope-creep",
+        "kanban",
+        "minimum-viable-product",
+        "time-blocking"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Shape Up - Ryan Singer (Basecamp)",
+            "url": "https://basecamp.com/shapeup",
+            "type": "website"
+        },
+        {
+            "title": "Bets, Not Backlogs - Shape Up",
+            "url": "https://basecamp.com/shapeup/2.1-chapter-07",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

@@ -1,0 +1,97 @@
+{
+    "id": "resource-efficiency-trap",
+    "name": "Resource Efficiency Trap",
+    "summary": "The mistake of maximizing how busy people and resources are, which increases queues and lead times and slows down the delivery of value.",
+    "explanation": "The Resource Efficiency Trap is the counterintuitive result that keeping everyone as busy as possible makes the organization slower. It is described in Niklas Modig and Pär Åhlström's This is Lean as the conflict between resource efficiency (keeping resources utilized) and flow efficiency (keeping work moving).\n\n## Why It Happens\n\n- **Queueing math**: Kingman's Formula shows that waiting time explodes as utilization approaches 100%. A fully busy person is a bottleneck for anything new.\n- **Little's Law**: More work started without more capacity means more work in progress and longer lead times.\n- **Secondary needs**: Long waits create extra work: status updates, follow-ups, rework, context switching, expediting, and re-prioritization meetings. That extra work keeps people even busier, which makes things worse. Modig and Åhlström call this the efficiency paradox.\n\n## Signs You Are in the Trap\n\n- Everyone is busy, yet nothing seems to get finished.\n- Work items spend most of their life waiting.\n- Many projects are 'in progress' at the same time.\n- Urgent work requires escalation because nobody has capacity.\n- Utilization is a target or a KPI.\n\n## The Way Out\n\n- **Optimize for flow, not busyness**: Measure lead time and flow efficiency rather than utilization.\n- **Limit work in progress**: Stop starting, start finishing.\n- **Keep slack**: Spare capacity lets work move and absorbs variability.\n- **Work in small batches**: Smaller items flow faster and more predictably.\n- **Focus on the bottleneck**: Per the Theory of Constraints, improving anything else adds no throughput.\n\n## Personal Version\n\nA calendar with no free time and a to-do list with twenty active projects are the individual form of the trap. Fewer open loops and some unscheduled time usually mean more finished work.",
+    "tags": [
+        "lean",
+        "operations",
+        "productivity",
+        "flow",
+        "pitfalls"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaTachometerAlt",
+    "featured": false,
+    "aliases": [
+        "Efficiency Paradox",
+        "Resource Utilization Trap",
+        "100% Utilization Fallacy",
+        "Resource Efficiency vs Flow Efficiency",
+        "Busyness Trap"
+    ],
+    "relatedConcepts": [
+        "kingmans-formula",
+        "littles-law",
+        "flow-efficiency",
+        "limit-work-in-progress",
+        "work-in-progress",
+        "theory-of-constraints",
+        "bottleneck",
+        "small-batches",
+        "lean-manufacturing",
+        "open-loops"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "This is Lean - Niklas Modig and Pär Åhlström",
+            "url": "https://www.amazon.com/dp/919803930X?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Principles of Product Development Flow - Donald G. Reinertsen",
+            "url": "https://www.amazon.com/dp/1935401009?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Little's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Little%27s_law",
+            "type": "website"
+        },
+        {
+            "title": "Kingman's formula - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kingman%27s_formula",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

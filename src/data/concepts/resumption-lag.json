@@ -1,0 +1,91 @@
+{
+    "id": "resumption-lag",
+    "name": "Resumption Lag",
+    "summary": "The time it takes to get back to effective work on a task after an interruption, as you rebuild the mental context you lost.",
+    "explanation": "Resumption lag is the delay between the end of an interruption and the moment you are productive again on the interrupted task. The term comes from interruption research, notably Erik Altmann and Gregory Trafton's 'memory for goals' model (2002).\n\n## Why It Happens\n\nWhile you work on a task, its goal and current state are highly active in memory. An interruption activates a different goal. When you come back, the original goal has decayed and has to be retrieved and rebuilt: where was I, what was I about to do, what did I already decide? That reconstruction takes time, and sometimes fails, leading to errors such as skipped or repeated steps.\n\n## What Affects It\n\n- **Interruption length**: Longer interruptions usually mean longer resumption lags.\n- **Interruption complexity**: Demanding interruptions displace more of the original context than simple ones.\n- **Timing**: Interruptions in the middle of a subtask hurt more than interruptions at natural breakpoints.\n- **Retrieval cues**: Visible cues about where you were (cursor position, open notes, a written next step) shorten the lag significantly.\n- **Warning time**: Even a few seconds' warning before an interruption lets people encode where they are and shortens the lag.\n\n## Relationship to Other Concepts\n\nResumption lag is the measurable cost of switching back. Attention residue is the cost of carrying the previous task into the new one. The Ovsiankina Effect explains why you want to resume; resumption lag explains why resuming is slow.\n\n## Practical Strategies\n\n- **Leave a breadcrumb**: Before stepping away, write one sentence on what you were doing and what comes next. This is the idea behind the Hemingway Bridge.\n- **Defer interruptions to breakpoints**: Finish the current subtask or reach a clean stopping point before switching.\n- **Batch interruptions**: Fewer interruptions means fewer resumption lags. Check messages at set times.\n- **Keep context visible**: Leave the relevant files, notes, and windows open where possible.\n- **Protect deep work blocks**: For complex cognitive work, the cumulative resumption lag of frequent interruptions can eat most of the productive time.",
+    "tags": [
+        "productivity",
+        "focus",
+        "attention",
+        "cognitive-science",
+        "psychology"
+    ],
+    "category": "Attention & Focus",
+    "icon": "FaRedo",
+    "featured": false,
+    "aliases": [
+        "Resumption Time",
+        "Interruption Recovery Time",
+        "Recovery Time After Interruption"
+    ],
+    "relatedConcepts": [
+        "interruption-cost",
+        "attention-residue",
+        "context-switching",
+        "task-switching-cost",
+        "ovsiankina-effect",
+        "hemingway-bridge",
+        "deep-work",
+        "working-memory",
+        "task-batching",
+        "prospective-memory"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Interruption science - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Interruption_science",
+            "type": "website"
+        },
+        {
+            "title": "Altmann, E. M., & Trafton, J. G. (2002). Memory for goals: An activation-based model. Cognitive Science, 26(1), 39-83",
+            "url": "https://doi.org/10.1207/s15516709cog2601_2",
+            "type": "paper"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Personal Knowledge Management Coaching",
+            "url": "https://store.dsebastien.net/product/pkm-coaching",
+            "type": "other"
+        },
+        {
+            "title": "DeveloPassion's Newsletter",
+            "url": "https://dsebastien.net/newsletter",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        },
+        {
+            "title": "AI Master Prompt Workshop",
+            "url": "https://store.dsebastien.net/product/ai-master-prompt",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}

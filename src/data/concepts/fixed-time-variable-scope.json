@@ -1,0 +1,81 @@
+{
+    "id": "fixed-time-variable-scope",
+    "name": "Fixed Time, Variable Scope",
+    "summary": "A planning principle where the deadline is fixed and scope is cut or adjusted so that something valuable ships on time.",
+    "explanation": "Fixed Time, Variable Scope is the principle of treating the deadline as non-negotiable and scope as the adjustable variable. Rather than defining everything up front and letting the delivery date slip, you commit to a time box and deliver the most valuable version of the work that fits inside it.\n\n## How It Works\n\n1. Decide how much time the work deserves (the appetite).\n2. Define the problem and the essential outcome, not every feature.\n3. Build the core first, end to end, so that something works early.\n4. As the deadline approaches, cut, simplify, or postpone everything that is not essential. Shape Up calls this 'scope hammering'.\n5. Ship on the date.\n\nIn Shape Up, this principle is backed by a circuit breaker: projects that are not done at the end of the cycle are stopped by default rather than extended, which keeps the time box honest.\n\n## Why It Works\n\n- **Predictability**: Stakeholders know when something will ship.\n- **Forced prioritization**: A hard limit makes you separate must-haves from nice-to-haves.\n- **Protection against the planning fallacy**: You don't depend on estimates being right. You only depend on being able to cut.\n- **Counters Parkinson's Law**: Work cannot expand indefinitely when the time is fixed and the scope is expected to flex.\n- **Earlier feedback**: Shipping a smaller version on time provides real-world feedback sooner than shipping a complete version late.\n\n## Pitfalls\n\n- It requires real authority to cut scope. If scope is fixed by contract or politics, the trade-off moves to quality instead, as the Iron Triangle predicts.\n- Cutting scope must not mean cutting quality: what ships should be finished, not half-built.\n\n## Personal Use\n\nTimebox writing, learning, and side projects. 'I'll publish whatever I have on Friday' tends to produce more finished work than 'I'll publish when it's done'.",
+    "tags": [
+        "project-management",
+        "planning",
+        "prioritization",
+        "agile",
+        "time-management"
+    ],
+    "category": "Principles",
+    "icon": "FaStopwatch",
+    "featured": false,
+    "aliases": [
+        "Fixed Time Variable Scope",
+        "Fixed Deadline Variable Scope",
+        "Scope Hammering",
+        "Circuit Breaker (Shape Up)"
+    ],
+    "relatedConcepts": [
+        "appetite",
+        "shape-up",
+        "iron-triangle",
+        "time-blocking",
+        "parkinson-law",
+        "planning-fallacy",
+        "minimum-viable-product",
+        "scope-creep",
+        "deadline-effect"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Shape Up - Ryan Singer (Basecamp)",
+            "url": "https://basecamp.com/shapeup",
+            "type": "website"
+        },
+        {
+            "title": "The Betting Table - Shape Up",
+            "url": "https://basecamp.com/shapeup/2.2-chapter-08",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        },
+        {
+            "title": "Personal Organization 101 Workshop",
+            "url": "https://store.dsebastien.net/product/personal-organization-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17"
+}
