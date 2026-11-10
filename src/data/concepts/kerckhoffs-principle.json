@@ -1,0 +1,70 @@
+{
+    "id": "kerckhoffs-principle",
+    "name": "Kerckhoffs's Principle",
+    "summary": "A security principle stating that a system should stay secure even if everything about it, except the key, is public knowledge.",
+    "explanation": "In early 1883, Auguste Kerckhoffs, a professor of German at HEC Paris, published \"La cryptographie militaire\" in the Journal des sciences militaires. In it, he listed six design rules for military ciphers. The second one is the one everybody remembers: the system \"should not require secrecy, and it should not be a problem if it falls into enemy hands\".\n\nClaude Shannon later put it even more bluntly: \"the enemy knows the system\". In that form, it's known as Shannon's maxim.\n\n**What it means**:\n\nAssume attackers will learn everything about your system: the algorithm, the code, the protocol, the hardware. If the security still holds, the design is sound. If it collapses the moment the design leaks, it was never secure in the first place.\n\nThe only thing that should stay secret is the key (or the password, or the token). Keys are small, easy to change and easy to protect. A whole system design is none of those things.\n\n**Kerckhoffs's principle vs. security through obscurity**:\n\nSecurity through obscurity relies on keeping the design secret: a hidden algorithm, an undocumented port, a \"secret\" URL. It can add a thin extra layer, but it fails badly as the main defense:\n\n- **Secrets leak**: Employees leave, code gets decompiled, documents get shared, devices get stolen\n- **You can't rotate a design**: Once a key leaks, you replace it. Once your secret algorithm leaks, you rebuild the system\n- **Nobody reviews it**: A hidden design gets no outside scrutiny, so its weaknesses stay in place until an attacker finds them\n\n**Why open designs end up stronger**:\n\nThe long history of cryptography shows the same pattern again and again: algorithms that are published and attacked in public get better over time. AES, RSA and TLS are all public. Their strength comes from the keys and from years of public analysis, not from hiding how they work. Homemade, secret ciphers have a much worse track record.\n\n**Beyond cryptography**:\n\nSaltzer and Schroeder turned the same idea into their \"open design\" principle for secure systems in 1975. It applies to software in general:\n\n- Your security should survive your source code becoming public (open source projects live with this every day)\n- Hiding an admin panel behind an unusual URL is not access control\n- Configuration secrets belong in a secrets manager, never hardcoded in the code\n- Treat obscurity as an extra layer at most, on top of real controls (see defense in depth)\n\nKerckhoffs's principle is one more case of designing for the worst realistic scenario. Assume the attacker knows everything except the key, and build from there.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "cryptography",
+        "encryption",
+        "principles",
+        "software-design"
+    ],
+    "category": "Principles",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Kerckhoffs's Law",
+        "Kerckhoffs's Desiderata",
+        "Shannon's Maxim",
+        "The Enemy Knows the System"
+    ],
+    "relatedConcepts": [
+        "saltzer-and-schroeders-design-principles",
+        "secure-by-design",
+        "secure-by-default",
+        "defense-in-depth",
+        "encryption",
+        "open-source",
+        "zero-trust",
+        "least-privilege"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Codebreakers by David Kahn",
+            "url": "https://www.amazon.com/dp/0684831309?tag=dsebastien00-20"
+        },
+        {
+            "title": "Security Engineering by Ross Anderson",
+            "url": "https://www.amazon.com/dp/1119642787?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Kerckhoffs's principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle",
+            "type": "website"
+        },
+        {
+            "title": "Security through obscurity - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Security_through_obscurity",
+            "type": "website"
+        },
+        {
+            "title": "Auguste Kerckhoffs - La cryptographie militaire (Fabien Petitcolas)",
+            "url": "https://www.petitcolas.net/kerckhoffs/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

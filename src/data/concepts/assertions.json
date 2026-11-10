@@ -1,0 +1,68 @@
+{
+    "id": "assertions",
+    "name": "Assertions",
+    "summary": "Statements in code that check an assumption the programmer believes is always true, and stop the program loudly when it turns out to be false.",
+    "explanation": "Every piece of code rests on assumptions. This list is never empty here. The value is always positive. And the function only runs after initialization. Most of the time, those assumptions live in the programmer's head. An assertion writes them down, in the code, where the machine can check them.\n\n`assert(items.length > 0)` says: \"if this is ever false, something is deeply wrong, and the program should stop right now\".\n\nThe idea is old. Alan Turing used assertions in a 1949 paper on checking large routines, and Tony Hoare built on them in 1969 with Hoare logic, which uses preconditions and postconditions to reason formally about programs.\n\n**Why assertions are valuable**:\n\n- **They fail fast**: The bug shows up at the exact place where the assumption breaks, not three modules later (see Fail Fast)\n- **They document**: An assertion tells the next reader what the code expects, and unlike a comment, it can't silently go out of date\n- **They catch regressions**: When someone changes code and breaks an assumption, the assertion fires during testing\n- **They support contracts**: Preconditions, postconditions and invariants can be implemented as assertions (see Design by Contract)\n\n**Assertions vs. error handling**:\n\nThis distinction is crucial. Assertions check for BUGS, things that should be impossible if the code is correct. Error handling deals with situations that can legitimately happen: a missing file, a network timeout, invalid user input.\n\n- Use error handling for invalid input from users, files, networks and other systems\n- Use assertions for internal assumptions about your own code\n\nThe Pragmatic Programmer sums it up as a tip: \"If it can't happen, use assertions to ensure that it won't.\"\n\n**Watch out for these pitfalls**:\n\n- **Side effects inside assertions**: In some languages (e.g., C with `NDEBUG`, Python with `-O`), assertions can be disabled in production. If the assertion does real work, that work disappears too\n- **Using assertions for input validation**: Disabled assertions mean no validation at all. Validate external input with real checks (see Parse, Don't Validate)\n- **Catching assertion failures**: An assertion failure means the program is in a state nobody planned for. Swallowing it and continuing is usually worse than stopping\n\n**Keep or disable in production?**\n\nOpinions differ. Disabling assertions saves a little performance. Keeping them means bugs crash loudly instead of corrupting data quietly. Many teams keep the cheap assertions on everywhere, and only disable the expensive ones.\n\nAssertions are the runtime safety net. Where types and Correct by Construction can't rule a bug out, an assertion at least makes sure it can't hide.",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "programming",
+        "debugging",
+        "testing",
+        "reliability",
+        "error-handling"
+    ],
+    "category": "Software Development",
+    "icon": "FaClipboardCheck",
+    "featured": false,
+    "aliases": [
+        "Assertion",
+        "Assert Statements",
+        "Assertive Programming",
+        "Runtime Assertions"
+    ],
+    "relatedConcepts": [
+        "fail-fast",
+        "design-by-contract",
+        "defensive-programming",
+        "error-handling",
+        "parse-dont-validate",
+        "unit-testing",
+        "property-based-testing",
+        "correct-by-construction",
+        "total-functions",
+        "guard-clauses"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Pragmatic Programmer by David Thomas and Andrew Hunt",
+            "url": "https://www.amazon.com/dp/0135957052?tag=dsebastien00-20"
+        },
+        {
+            "title": "Code Complete by Steve McConnell",
+            "url": "https://www.amazon.com/dp/0735619670?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Assertion (software development) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Assertion_(software_development)",
+            "type": "website"
+        },
+        {
+            "title": "Hoare logic - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hoare_logic",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "make-the-change-easy-then-make-the-easy-change",
+    "name": "Make the Change Easy, Then Make the Easy Change",
+    "summary": "Kent Beck's advice for changing code: first restructure the code so the change becomes simple, then make that simple change.",
+    "explanation": "On September 25, 2012, Kent Beck posted: \"for each desired change, make the change easy (warning: this may be hard), then make the easy change\". It's one of the most quoted lines in software development, often shortened to \"first make the change easy, then make the easy change\".\n\nThe idea fits in one sentence, but it reverses how most people approach a change.\n\n**The usual approach**:\n\nYou need to add a feature. The code isn't shaped for it. So you force the feature in: a special case here, a flag there, a copy-pasted function with small differences. It works. The next change is a bit harder. After a few rounds, every change is painful (see technical debt).\n\n**Beck's approach, in two steps**:\n\n1. **Make the change easy**: Refactor first. Restructure the code so the new feature fits naturally, without changing what the code does. Extract a function, separate responsibilities, introduce the abstraction the feature needs. Run the tests after each step\n2. **Make the easy change**: Now add the feature. Because the code is ready for it, this step is often small and obvious\n\nThe parenthetical matters: \"warning: this may be hard\". Step one is where the real work happens. Sometimes it takes much longer than the change itself.\n\n**Why it works**:\n\n- **Two kinds of change, never mixed**: Refactoring changes structure without changing behavior. The feature changes behavior on top of a stable structure. Mixing both in a single step makes bugs hard to find and reviews hard to read\n- **Smaller, safer steps**: Each refactoring step is easy to verify (see refactoring and test-driven development)\n- **Better reviews**: A pull request that only restructures code, followed by one that adds the feature, is much easier to review than one that does both\n- **The codebase improves over time**: Every feature leaves the code in better shape for the next one (a close cousin of the Boy Scout Rule)\n\n**How to apply it**:\n\n1. Before writing the feature, ask yourself: what would the code need to look like for this change to be trivial?\n2. Get there with small refactorings, keeping the tests green the whole way\n3. Commit the refactoring separately from the feature\n4. Make the change\n5. If the preparation keeps growing, stop and reconsider: maybe the change belongs somewhere else\n\nKent Beck explores the same idea at length in his book Tidy First?, which is about when and how to tidy code before changing it.\n\nThe principle also works outside code. Before reorganizing a process, a document or a note system, first make the reorganization easy.",
+    "tags": [
+        "software-development",
+        "software-design",
+        "refactoring",
+        "technical-debt",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaWrench",
+    "featured": false,
+    "aliases": [
+        "First Make the Change Easy, Then Make the Easy Change",
+        "Make the Change Easy",
+        "Kent Beck's Refactoring Rule"
+    ],
+    "relatedConcepts": [
+        "refactoring",
+        "technical-debt",
+        "boy-scout-rule",
+        "test-driven-development",
+        "extreme-programming",
+        "small-batches",
+        "yak-shaving",
+        "pit-of-success",
+        "make-simple-things-simple",
+        "kiss-principle",
+        "yagni"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/32+Literature+notes/32.05+Quotes/First+make+the+change+easy,+then+make+the+easy+change"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Tidy First? by Kent Beck",
+            "url": "https://www.amazon.com/dp/1098151240?tag=dsebastien00-20"
+        },
+        {
+            "title": "Refactoring by Martin Fowler",
+            "url": "https://www.amazon.com/dp/0134757599?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Kent Beck on X (2012)",
+            "url": "https://x.com/KentBeck/status/250733358307500032",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

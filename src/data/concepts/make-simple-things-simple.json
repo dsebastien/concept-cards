@@ -1,0 +1,55 @@
+{
+    "id": "make-simple-things-simple",
+    "name": "Make Simple Things Simple, Complex Things Possible",
+    "summary": "A design principle attributed to Alan Kay: the common tasks should be easy to do, and the advanced tasks should still be possible.",
+    "explanation": "\"Simple things should be simple, complex things should be possible.\" That's how Alan Kay put it. Larry Wall, the creator of Perl, said something very similar: \"Easy things should be easy, and hard things should be possible.\"\n\nThe principle sounds obvious. Yet most tools fail on one side or the other.\n\n**The two ways to fail**:\n\n- **Only simple things are possible**: The tool is easy to start with, then you hit the ceiling. The moment you need something slightly unusual, you're stuck, and you have to switch tools (and redo everything)\n- **Even simple things are complex**: The tool can do anything, but every task requires configuration, boilerplate and documentation. Getting started takes a day. Many people give up before seeing any value\n\nGood design avoids both. The first steps are trivial, and the path to advanced use exists without forcing beginners to see it.\n\n**Examples**:\n\n- **`fetch(url)`** in JavaScript: one argument for the common case, an options object for headers, methods, credentials and the rest\n- **Git's porcelain vs. plumbing**: everyday commands (`commit`, `push`) on top, low-level commands underneath for those who need them\n- **Cameras**: an automatic mode for everyone, manual controls for photographers\n- **Obsidian**: plain Markdown files for a quick start, then links, properties, templates and plugins when you're ready\n\n**How to apply it**:\n\n1. Identify the 80% case (see the Pareto principle) and make it work with zero or minimal configuration\n2. Give sensible defaults to every option, so people can ignore what they don't need\n3. Layer the advanced features underneath, reachable when needed (see progressive disclosure)\n4. Make sure the simple path and the advanced path are the same system, so people never need to start over\n5. Provide escape hatches for the cases you didn't anticipate\n\n**The connection to the Pit of Success**:\n\nWhen simple things are simple, the easy path is usually also the correct one. And when complex things stay possible, people don't need to fight the system (or leave it) as their needs grow.",
+    "tags": [
+        "software-design",
+        "api-design",
+        "user-experience",
+        "developer-experience",
+        "simplicity",
+        "complexity",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaLevelUpAlt",
+    "featured": false,
+    "aliases": [
+        "Simple Things Should Be Simple, Complex Things Should Be Possible",
+        "Easy Things Easy, Hard Things Possible",
+        "Alan Kay's Principle"
+    ],
+    "relatedConcepts": [
+        "pit-of-success",
+        "progressive-disclosure",
+        "escape-hatch",
+        "kiss-principle",
+        "pareto-principle",
+        "convention-over-configuration",
+        "opinionated-software",
+        "developer-experience",
+        "principle-of-least-effort",
+        "cognitive-load",
+        "hard-to-misuse",
+        "rule-of-least-power"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Programming Perl by Tom Christiansen, brian d foy, Larry Wall and Jon Orwant",
+            "url": "https://www.amazon.com/dp/0596004923?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Alan Kay - Wikiquote",
+            "url": "https://en.wikiquote.org/wiki/Alan_Kay",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "stringly-typed",
+    "name": "Stringly Typed",
+    "summary": "Code that uses plain strings for values that deserve a real type, such as states, keys, dates or identifiers, so the compiler can't catch mistakes that a proper type would prevent.",
+    "explanation": "\"Stringly typed\" is a pun on \"strongly typed\". The term made the rounds in 2012, when Jeff Atwood collected it in his \"New Programming Jargon\" list on Coding Horror. The definition there: an implementation that needlessly relies on strings when programmer and refactor friendly options are available.\n\nThe problem is simple. A string accepts anything. `\"active\"`, `\"Active\"`, `\"actve\"` and `\"banana\"` are all perfectly valid strings. So the type system shrugs, and the typo shows up at runtime. Or in production. Or never, which is worse.\n\n**Common examples**:\n\n- **States and categories as strings**: `if (order.status === \"shiped\")` compiles, and never matches\n- **Configuration keys**: `config.get(\"timeuot\")` silently returns nothing\n- **Dates as strings**: is `\"03/04/2026\"` March 4th or April 3rd?\n- **Event names**: `emit(\"user:created\")` in one file, `on(\"user-created\")` in another\n- **Structured data stuffed in strings**: JSON blobs in a text column, comma-separated IDs, `\"key=value;key2=value2\"`\n- **SQL built by string concatenation**: the classic road to SQL injection\n\n**Why it hurts**:\n\n- Typos become runtime bugs instead of compile errors\n- Renaming a value means a risky search-and-replace across the codebase\n- Your editor can't autocomplete or show the valid options\n- The same parsing and validation logic gets repeated everywhere the string is used\n- The code doesn't tell you which values are actually allowed\n\n**How to fix it**:\n\n1. **Use enums or string literal unions**: In TypeScript, `type Status = \"pending\" | \"shipped\" | \"delivered\"` keeps the readability of strings and adds compiler checks\n2. **Use real types for structured values**: `Date` or `Temporal` for dates, `URL` for URLs, small domain types for identifiers (see Primitive Obsession)\n3. **Parse strings at the boundary**: HTTP requests, files and environment variables arrive as text. Turn them into proper types right away, then work with those types (see Parse, Don't Validate)\n4. **Use typed configuration**: a schema for your settings instead of `get(\"some-key\")` calls scattered around\n5. **Use parameterized queries** instead of building SQL by hand\n\n**Keep in mind**:\n\nStrings are fine at the edges of a system, where the outside world only speaks text. The smell starts when that text travels deep into your code without ever becoming a real type.\n\nStringly typed code is a special case of Primitive Obsession, and one of the most common footguns in everyday programming. The fix follows the Pit of Success idea: give values a type, and the compiler starts catching the mistakes for you.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "type-systems",
+        "code-quality",
+        "anti-patterns",
+        "error-prevention"
+    ],
+    "category": "Software Development",
+    "icon": "FaQuoteRight",
+    "featured": false,
+    "aliases": [
+        "Stringly-Typed",
+        "Stringly Typed Code",
+        "String Typing"
+    ],
+    "relatedConcepts": [
+        "primitive-obsession",
+        "parse-dont-validate",
+        "footgun",
+        "make-illegal-states-unrepresentable",
+        "algebraic-data-types",
+        "typescript",
+        "sql-injection",
+        "code-smell",
+        "hard-to-misuse",
+        "value-object",
+        "pit-of-success",
+        "newtype-pattern"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "New Programming Jargon - Coding Horror",
+            "url": "https://blog.codinghorror.com/new-programming-jargon/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

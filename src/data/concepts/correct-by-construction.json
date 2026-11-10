@@ -1,0 +1,56 @@
+{
+    "id": "correct-by-construction",
+    "name": "Correct by Construction",
+    "summary": "Build software so that correctness follows from the way it's put together, instead of trying to find and remove the bugs afterwards.",
+    "explanation": "The usual way to get working software goes like this: write the code, test it, find bugs, fix them, repeat. Correctness gets added at the end, one bug at a time. Correct by Construction takes the opposite route. You design the program so that whole categories of bugs can't appear in the first place.\n\nThe idea goes back to Edsger Dijkstra. In his 1972 Turing Award lecture, \"The Humble Programmer\", he argued that you should not first write a program and then prove it correct. Instead: \"the programmer should let correctness proof and program grow hand in hand.\" Later, Praxis High Integrity Systems (in the UK) turned that idea into an industrial method for safety-critical and secure systems, using formal specifications and the SPARK language.\n\n**Why does this matter?**\n\nTesting shows the presence of bugs, never their absence (Dijkstra again). You can't test every input. But you can make some mistakes impossible. Every bug you rule out by construction is a bug you never need to test for, debug or patch in production.\n\n**What it looks like in everyday code**:\n\nYou don't need formal proofs to apply the spirit of it. Most of the principles around the Pit of Success are correct by construction at a smaller scale:\n\n- **Types that rule out invalid data**: invalid states can't be written (see Make Illegal States Unrepresentable)\n- **Smart constructors**: the only way to create a value checks its rules, so every instance is valid\n- **Parsing at the boundary**: untrusted input becomes precise types once, and the core never sees raw data (see Parse, Don't Validate)\n- **Total functions**: every input gets an answer, so there's no hidden crash path\n- **Safe APIs**: parameterized queries make SQL injection impossible to write by accident\n- **Memory-safe languages**: buffer overflows and use-after-free bugs disappear as a class\n\n**At the formal end of the spectrum**:\n\n- **Formal specifications** written before the code\n- **Refinement**: turning the specification into code step by step, with each step proven correct\n- **Verified languages and tools** like SPARK, Dafny, Coq or Lean, where the compiler checks proofs alongside the code\n\n**Correct by Construction vs. testing**:\n\nThe two aren't enemies. Construction removes the bugs that design can rule out. Tests (unit tests, property-based tests) then cover the behavior that types and structure can't express. The more you shift into construction, the smaller and more focused your test suite can be.\n\n**Keep in mind**:\n\nFull formal verification is expensive, and most projects don't need it. The practical move is to pick the bugs that hurt the most (security holes, data corruption, crashes) and make those impossible by design. Test the rest.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "software-engineering",
+        "reliability",
+        "quality",
+        "error-prevention",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaCheckDouble",
+    "featured": false,
+    "aliases": [
+        "Correctness by Construction",
+        "CbyC",
+        "CbC"
+    ],
+    "relatedConcepts": [
+        "make-illegal-states-unrepresentable",
+        "parse-dont-validate",
+        "smart-constructor",
+        "total-functions",
+        "memory-safety",
+        "formal-methods",
+        "design-by-contract",
+        "property-based-testing",
+        "pit-of-success",
+        "poka-yoke",
+        "algebraic-data-types",
+        "static-analysis",
+        "secure-by-design"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "The Humble Programmer (EWD340) - Edsger W. Dijkstra",
+            "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html",
+            "type": "paper"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

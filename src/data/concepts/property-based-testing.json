@@ -1,0 +1,69 @@
+{
+    "id": "property-based-testing",
+    "name": "Property-Based Testing",
+    "summary": "A testing approach where you describe properties that must hold for all inputs, and a framework generates hundreds of random test cases to try to break them.",
+    "explanation": "Most tests check examples. `sort([3, 1, 2])` should return `[1, 2, 3]`. You pick a few inputs, write the expected outputs, and hope you thought of the tricky cases. Usually, you didn't. The empty list, the list with duplicates, the list with a million elements, the one with negative numbers... The bugs live in the cases nobody wrote down.\n\nProperty-based testing flips the approach. Instead of examples, you describe properties: things that must be true for ANY valid input. The framework then generates many random inputs and checks the property against each one.\n\nKoen Claessen and John Hughes introduced the idea with QuickCheck for Haskell, released in 1999. It has since been ported to most languages: Hypothesis for Python, fast-check for JavaScript and TypeScript, jqwik for Java, proptest for Rust and many more.\n\n**An example**:\n\nFor a `sort` function, a few properties:\n\n- The output has the same length as the input\n- The output contains exactly the same elements as the input\n- Each element is less than or equal to the next one\n- Sorting an already sorted list changes nothing\n\nThe framework throws hundreds of random lists at these properties. If one fails, you get a concrete counterexample.\n\n**Shrinking**:\n\nThis is where property-based testing really shines. When a failing input is found, the framework shrinks it: it searches for the SMALLEST input that still fails. Instead of a random 847-element list, you get `[0, -1]`. Debugging becomes much easier.\n\n**Common property patterns**:\n\n- **Round trip**: `decode(encode(x)) == x` (serialization, parsing, compression)\n- **Invariants**: Some quantity never changes (length, total, set of elements)\n- **Idempotence**: Doing it twice equals doing it once (`normalize(normalize(x)) == normalize(x)`)\n- **Oracle**: Compare against a simpler, slower, trusted implementation\n- **Never crashes**: The function returns a valid result for any input (see Total Functions)\n- **Commutativity**: The order of operations doesn't matter (`a + b == b + a`)\n\n**Where it fits**:\n\nProperty-based tests don't replace example-based unit tests. Examples document specific behavior and are easy to read. Properties explore the input space far more thoroughly than you could by hand. The combination is stronger than either alone.\n\n**The connection to Design by Contract**:\n\nProperties are contracts you check by experiment. Postconditions and invariants (see Design by Contract) make excellent properties: if a function claims `balance >= 0` after every operation, a property-based test can hammer it with random sequences of operations and try to prove it wrong.",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "testing",
+        "unit-testing",
+        "quality",
+        "reliability",
+        "functional-programming"
+    ],
+    "category": "Software Development",
+    "icon": "FaVial",
+    "featured": false,
+    "aliases": [
+        "Property Testing",
+        "PBT",
+        "Generative Testing",
+        "QuickCheck"
+    ],
+    "relatedConcepts": [
+        "unit-testing",
+        "test-driven-development",
+        "integration-testing",
+        "design-by-contract",
+        "total-functions",
+        "assertions",
+        "correct-by-construction",
+        "pure-functions",
+        "fail-fast",
+        "idempotency"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs - Claessen and Hughes",
+            "url": "https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "QuickCheck - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/QuickCheck",
+            "type": "website"
+        },
+        {
+            "title": "What is property-based testing? - Hypothesis",
+            "url": "https://hypothesis.works/articles/what-is-property-based-testing/",
+            "type": "website"
+        },
+        {
+            "title": "fast-check",
+            "url": "https://fast-check.dev/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

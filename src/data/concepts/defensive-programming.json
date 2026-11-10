@@ -26,7 +26,12 @@
         "fault-tolerance",
         "side-effects",
         "idempotency",
-        "defensive-design"
+        "defensive-design",
+        "design-by-contract",
+        "parse-dont-validate",
+        "make-illegal-states-unrepresentable",
+        "assertions",
+        "smart-constructor"
     ],
     "relatedNotes": [],
     "articles": [],

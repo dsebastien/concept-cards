@@ -1,0 +1,72 @@
+{
+    "id": "guard-clauses",
+    "name": "Guard Clauses",
+    "summary": "A coding technique where a function checks for special or invalid cases at the very top and exits early, so the main logic doesn't end up buried in nested conditionals.",
+    "explanation": "You've probably seen code like this. An `if` inside an `if` inside an `if`, with the actual work hidden five levels deep, and a cascade of `else` branches at the bottom that handle the errors. To understand what the function does in the normal case, you have to keep every condition in your head at once.\n\nGuard clauses fix this. Check the special cases first, return (or throw) right away, and let the normal path run at the top level of the function.\n\n**Before and after**:\n\nWithout guard clauses:\n\n```\nfunction pay(order) {\n  if (order) {\n    if (!order.paid) {\n      if (order.total > 0) {\n        charge(order)\n      }\n    }\n  }\n}\n```\n\nWith guard clauses:\n\n```\nfunction pay(order) {\n  if (!order) return\n  if (order.paid) return\n  if (order.total <= 0) return\n  charge(order)\n}\n```\n\nSame behavior. But now each condition reads as a separate rule, and the real work sits on the last line, without any indentation to wade through.\n\n**Where it comes from**:\n\nThe practice is old (Wikipedia traces it back to at least the early 1960s), and the name \"guard clause\" is attributed to Kent Beck. Martin Fowler turned it into a named refactoring in Refactoring: \"Replace Nested Conditional with Guard Clauses\".\n\n**Why it works**:\n\n- **Less nesting**: Fewer levels of indentation mean less to keep in your head (see cognitive load)\n- **The normal path stands out**: Special cases get handled and dismissed up front\n- **Each check is independent**: You can read, add or remove a guard without touching the rest\n- **Preconditions become visible**: The guards at the top of a function document what it requires (see Design by Contract)\n- **Errors fail fast**: Invalid input gets rejected immediately, before anything happens (see Fail Fast)\n\n**When to use them**:\n\nUse guard clauses for conditions that are exceptional or that stop the work: missing input, invalid values, nothing to do, no permission. When both branches of a condition are equally normal (e.g., two kinds of customers handled differently), a regular `if/else` often reads better.\n\n**Watch out**:\n\nOld advice said every function should have a single exit point. That rule made sense in languages where returning early could skip cleanup code. With modern constructs like `try/finally`, `defer`, `using` or RAII, cleanup still happens, so early returns are safe.\n\nKeep in mind that guards should stay simple. If the guard section grows longer than the actual logic, the function probably does too many things.",
+    "tags": [
+        "software-development",
+        "programming",
+        "code-quality",
+        "refactoring",
+        "clean-code",
+        "readability"
+    ],
+    "category": "Software Development",
+    "icon": "FaSignOutAlt",
+    "featured": false,
+    "aliases": [
+        "Guard Clause",
+        "Early Return",
+        "Early Exit",
+        "Replace Nested Conditional with Guard Clauses"
+    ],
+    "relatedConcepts": [
+        "fail-fast",
+        "design-by-contract",
+        "assertions",
+        "refactoring",
+        "clean-code",
+        "cognitive-load",
+        "defensive-programming",
+        "code-smell",
+        "parse-dont-validate",
+        "single-responsibility-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Refactoring by Martin Fowler",
+            "url": "https://www.amazon.com/dp/0134757599?tag=dsebastien00-20"
+        },
+        {
+            "title": "Smalltalk Best Practice Patterns by Kent Beck",
+            "url": "https://www.amazon.com/dp/013476904X?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Guard (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Guard_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Replace Nested Conditional with Guard Clauses - Refactoring catalog",
+            "url": "https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html",
+            "type": "website"
+        },
+        {
+            "title": "Replace Nested Conditional with Guard Clauses - Refactoring.Guru",
+            "url": "https://refactoring.guru/replace-nested-conditional-with-guard-clauses",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

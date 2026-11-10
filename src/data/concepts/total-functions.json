@@ -1,0 +1,65 @@
+{
+    "id": "total-functions",
+    "name": "Total Functions",
+    "summary": "A total function returns a valid result for every possible input of its type; a partial function only works for some inputs and crashes, throws or misbehaves on the others.",
+    "explanation": "Look at a function signature like `divide(a: number, b: number): number`. It promises a number for any two numbers. But what happens when `b` is zero? The signature lies. That's a partial function: it's defined for some of its inputs, not all of them.\n\nA total function keeps its promise. For every value its input type allows, it returns a valid value of its output type. No exceptions, no crashes, no infinite loops.\n\n**Classic partial functions**:\n\n- **`head` of a list** in Haskell: crashes on an empty list\n- **Array indexing**: `items[10]` fails (or returns `undefined`) when the array is shorter\n- **Integer division by zero**\n- **Parsing**: `parseInt(\"abc\")` returns `NaN` in JavaScript, and `int(\"abc\")` raises an exception in Python\n- **Dictionary lookups** that throw when the key is missing\n- **Type casts** that blow up at runtime\n\n**Why partial functions are dangerous**:\n\nThe failure case is invisible in the type. Nothing forces the caller to think about the empty list, the missing key or the zero divisor. So callers forget, and the bug shows up in production, far from the cause.\n\n**How to make a function total**:\n\nThere are three main strategies:\n\n1. **Narrow the input type**: Accept only the inputs that work. `head(list: NonEmptyList<T>): T` can never fail, because an empty list can't be passed (see Make Illegal States Unrepresentable)\n2. **Widen the output type**: Make failure part of the result. `head(list: T[]): Option<T>` returns `None` for an empty list, and `parse(s): Result<number, ParseError>` returns an error value instead of throwing (see Option Type)\n3. **Provide a sensible default**: `getOrDefault(key, fallback)` always returns something. Only use this when the default really makes sense, otherwise it hides bugs\n\n**The benefits**:\n\n- **Honest signatures**: The type tells you everything that can happen\n- **The compiler helps**: It forces callers to handle the failure case\n- **Easier reasoning**: Total, pure functions can be composed without wondering which one might explode\n- **Fewer runtime surprises**: A whole category of crashes moves to compile time\n\n**Total functional programming**:\n\nSome languages go further. Agda, Idris and Lean can check that functions are total, including that they always terminate. The computer scientist David Turner made the case for \"total functional programming\", where every function must be total. Most everyday code doesn't need that level of rigor, but the habit of asking \"what happens for EVERY input?\" pays off in any language.\n\nTotal functions are a small, practical case of Correct by Construction: when every function handles every input, there's simply no crash path left to find.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "functional-programming",
+        "type-systems",
+        "error-handling",
+        "error-prevention"
+    ],
+    "category": "Software Development",
+    "icon": "FaCheckCircle",
+    "featured": false,
+    "aliases": [
+        "Total Function",
+        "Partial Functions",
+        "Partial Function",
+        "Total Functional Programming"
+    ],
+    "relatedConcepts": [
+        "option-type",
+        "make-illegal-states-unrepresentable",
+        "algebraic-data-types",
+        "null-references",
+        "pure-functions",
+        "correct-by-construction",
+        "parse-dont-validate",
+        "error-handling",
+        "smart-constructor",
+        "property-based-testing",
+        "hard-to-misuse"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain Modeling Made Functional by Scott Wlaschin",
+            "url": "https://www.amazon.com/dp/1680502549?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Partial function - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Partial_function",
+            "type": "website"
+        },
+        {
+            "title": "Total functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Total_functional_programming",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

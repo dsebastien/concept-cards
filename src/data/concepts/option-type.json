@@ -1,0 +1,64 @@
+{
+    "id": "option-type",
+    "name": "Option Type",
+    "summary": "A type that makes the possible absence of a value explicit: a value is either present (Some(x)) or absent (None), and the compiler forces you to handle both cases.",
+    "explanation": "Every codebase has values that might not be there. A user without a middle name. A search that finds nothing. A config key nobody set. The question is how your code says so.\n\nWith null references, it doesn't say anything. Any value could be missing, and you find out at runtime (see Null References). An Option type puts the answer in the type itself. `Option<User>` tells every reader, and the compiler, that there might be no user. `User` alone means there is always one.\n\n**How it works**:\n\nAn Option is a small sum type with two variants (see Algebraic Data Types):\n\n- `Some(value)`: the value is present\n- `None`: the value is absent\n\nTo get the value out, you have to handle both cases, usually with pattern matching. Forget the `None` branch, and the code doesn't compile.\n\n**Where you'll find it**:\n\n- **Rust**: `Option<T>`, used throughout the standard library\n- **Haskell**: `Maybe a`, with `Just x` and `Nothing`\n- **OCaml, F#, Scala, Elm**: `option` / `Option` / `Maybe`\n- **Swift**: `Optional<T>`, written `T?`\n- **Java**: `Optional<T>` since Java 8, mostly meant for return values\n\nKotlin, C# and TypeScript (with `strictNullChecks`) take a related approach: nullable types like `String?` that the compiler tracks.\n\n**Working with Options**:\n\nYou rarely take a value out of an Option by hand. Most languages give you combinators that keep the code flat:\n\n- **`map`**: transform the value if it's there, keep `None` otherwise\n- **`flatMap` / `and_then`**: chain steps that can each return nothing\n- **`unwrap_or` / `orElse`**: provide a default when the value is absent\n- **`filter`**: turn `Some` into `None` when a condition fails\n\n**Watch out**:\n\nEvery Option type has an escape hatch that pulls the value out without checking: `unwrap()` in Rust, `get()` in Java, `fromJust` in Haskell. Used on a `None`, it crashes, exactly like a null would. Reach for it only when you can prove the value exists, and keep it rare enough to search for.\n\nAlso keep in mind that Option means \"might be absent\", nothing more. When you need to say WHY something is missing (e.g., \"not found\" vs. \"permission denied\"), use a `Result` or `Either` type instead.\n\n**Why it matters**:\n\nThe Option type is Make Illegal States Unrepresentable applied to absence. A value that can't be missing isn't marked as optional, so you never check it. A value that can be missing is marked, so you never forget.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "functional-programming",
+        "type-systems",
+        "error-prevention"
+    ],
+    "category": "Software Development",
+    "icon": "FaQuestionCircle",
+    "featured": false,
+    "aliases": [
+        "Maybe Type",
+        "Optional Type",
+        "Option/Maybe",
+        "Optional"
+    ],
+    "relatedConcepts": [
+        "null-references",
+        "algebraic-data-types",
+        "make-illegal-states-unrepresentable",
+        "pattern-matching",
+        "parse-dont-validate",
+        "escape-hatch",
+        "total-functions",
+        "smart-constructor",
+        "typescript",
+        "pit-of-success",
+        "static-typing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain Modeling Made Functional by Scott Wlaschin",
+            "url": "https://www.amazon.com/dp/1680502549?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Option type - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Option_type",
+            "type": "website"
+        },
+        {
+            "title": "std::option - Rust documentation",
+            "url": "https://doc.rust-lang.org/std/option/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

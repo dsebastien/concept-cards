@@ -43,7 +43,8 @@
         "static-analysis",
         "cyclomatic-complexity",
         "amdahls-law",
-        "iron-triangle"
+        "iron-triangle",
+        "make-the-change-easy-then-make-the-easy-change"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Technical+debt"

@@ -1,0 +1,71 @@
+{
+    "id": "parse-dont-validate",
+    "name": "Parse, Don't Validate",
+    "summary": "Turn untrusted input into precise, typed data at the edge of your system, instead of checking it and passing the same loose data along.",
+    "explanation": "Alexis King gave this principle its name in a 2019 blog post, \"Parse, don't validate\". The post is short, and it changes how you think about input for good.\n\n**Validation vs. parsing**:\n\n- **Validation** checks that data is correct, then throws away what it learned. The function returns nothing useful (or a boolean), and the rest of the program still holds the same loosely typed data. Every function downstream has to trust that someone checked it, or check again.\n- **Parsing** checks that data is correct AND returns a more precise type that proves it. A function that turns a `string` into an `EmailAddress`, or a `List` into a `NonEmptyList`, keeps what it learned in the type system.\n\n**Why does this matter?**\n\nWith validation alone, the knowledge that data is valid lives in your head. The code knows nothing. It's easy to forget a check, to check in the wrong place, or to use data before checking it. King calls the result \"shotgun parsing\": validation logic scattered across the codebase and mixed with processing. When a check fails halfway through, the system may already have performed half of its side effects. Good luck cleaning that up 😅\n\nParsing draws a clear line instead. Outside the line, data is untrusted and loosely typed. Inside, data has precise types that guarantee its properties, and the code never needs to re-check.\n\n**How to apply it**:\n\n1. Parse all external input as early as possible: HTTP requests, files, environment variables, user input and yes, LLM output too\n2. Return precise types that encode the guarantees (non-empty, positive, well-formed, within range)\n3. Fail at the boundary, before any processing or side effect happens\n4. Make the rest of the code depend on the precise types, never on raw data\n5. Use a schema library (Zod, Pydantic, Serde, io-ts) to keep parsing declarative\n\n**An example**:\n\nInstead of `validateConfig(raw: unknown): void` followed by unsafe casts, write `parseConfig(raw: unknown): Config`. It either returns a fully typed `Config` or fails. Every function downstream accepts a `Config`, so you can't pass unchecked data by accident anymore.\n\n**How it connects**:\n\nParse, Don't Validate is the boundary-side companion of Make Illegal States Unrepresentable. Precise types define what valid data looks like. Parsing is how untrusted data becomes those types. Together, they build a Pit of Success where the code inside your system only ever sees valid data.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "functional-programming",
+        "type-systems",
+        "validation",
+        "security",
+        "error-prevention",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaFilter",
+    "featured": false,
+    "aliases": [
+        "Parse Don't Validate",
+        "Parse, Do Not Validate"
+    ],
+    "relatedConcepts": [
+        "make-illegal-states-unrepresentable",
+        "pit-of-success",
+        "design-by-contract",
+        "fail-fast",
+        "value-object",
+        "schema",
+        "typescript",
+        "defensive-programming",
+        "secure-by-default",
+        "primitive-obsession",
+        "null-references",
+        "postels-law",
+        "smart-constructor",
+        "newtype-pattern",
+        "stringly-typed",
+        "allowlisting",
+        "functional-core-imperative-shell",
+        "static-typing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain Modeling Made Functional by Scott Wlaschin",
+            "url": "https://www.amazon.com/dp/1680502549?tag=dsebastien00-20"
+        },
+        {
+            "title": "Secure by Design by Dan Bergh Johnsson, Daniel Deogun and Daniel Sawano",
+            "url": "https://www.amazon.com/dp/1617294357?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Parse, don't validate - Alexis King",
+            "url": "https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

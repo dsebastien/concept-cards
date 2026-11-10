@@ -1,0 +1,62 @@
+{
+    "id": "footgun",
+    "name": "Footgun",
+    "summary": "A feature, tool or API that makes it easy to shoot yourself in the foot: the obvious use works most of the time, then does something harmful that nobody notices right away.",
+    "explanation": "The word comes from the old expression \"to shoot yourself in the foot\". Programmers turned it into a noun. A footgun is a feature that seems fine, gets used the obvious way, and then hurts the person using it. Usually at the worst possible moment.\n\nFootguns are the opposite of a Pit of Success. Instead of falling into good results, you fall into bugs, data loss or security holes, often without noticing until much later.\n\n**Classic examples**:\n\n- **`rm -rf \"$DIR/\"`** in a shell script: if `$DIR` happens to be empty, you just asked to delete `/`\n- **The YAML \"Norway problem\"**: in YAML 1.1, the country code `NO` gets parsed as the boolean `false`\n- **JavaScript's `==`**: `\"0\" == false` is `true`, and so is `[] == false`\n- **Zero-based months in JavaScript dates**: `new Date(2026, 1, 1)` is February, not January\n- **`git push --force`** on a shared branch: it silently erases your colleagues' commits\n- **C's `gets()`**: it has no way to limit input size, so every use is a buffer overflow waiting to happen (it was finally removed in C11)\n- **Floating-point money**: `0.1 + 0.2` is not `0.3`, and someone's invoice will show it\n\n**What makes something a footgun?**\n\n- The dangerous behavior is the DEFAULT, or the shortest thing to type\n- It works in the common case, so nobody notices the problem during testing\n- The failure is silent, delayed or far away from the cause\n- Avoiding it depends on knowledge the user is unlikely to have\n\n**How to remove footguns**:\n\n1. **Delete them**: Deprecate and remove the dangerous API when you can (like `gets()`)\n2. **Make the safe version the easy version**: `git push --force-with-lease` exists for exactly this reason\n3. **Make the dangerous version loud**: React named its raw HTML API `dangerouslySetInnerHTML`. Nobody types that by accident\n4. **Fail early**: Turn silent misbehavior into a clear error (e.g., `set -u` in Bash makes unset variables fail)\n5. **Add guardrails**: Linters, type checks and confirmation prompts catch what the design couldn't prevent\n\nKeep in mind that a footgun is a design problem. Don Norman makes the same point in The Design of Everyday Things: when many people make the same mistake, look at the design before blaming the people.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "api-design",
+        "developer-experience",
+        "error-prevention",
+        "anti-patterns"
+    ],
+    "category": "Software Development",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Foot-Gun",
+        "Shooting Yourself in the Foot",
+        "Foot Gun"
+    ],
+    "relatedConcepts": [
+        "pit-of-success",
+        "hard-to-misuse",
+        "escape-hatch",
+        "principle-of-least-astonishment",
+        "null-references",
+        "boolean-trap",
+        "fail-fast",
+        "guardrails",
+        "defensive-design",
+        "poka-yoke",
+        "developer-experience",
+        "secure-by-default",
+        "stringly-typed",
+        "memory-safety",
+        "fail-open-vs-fail-closed"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Design of Everyday Things by Don Norman",
+            "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "footgun - Wiktionary",
+            "url": "https://en.wiktionary.org/wiki/footgun",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

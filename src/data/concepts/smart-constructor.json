@@ -1,0 +1,68 @@
+{
+    "id": "smart-constructor",
+    "name": "Smart Constructor",
+    "summary": "A function that is the only way to create a value of a given type and that checks the type's rules, so every value that exists is guaranteed to be valid.",
+    "explanation": "A regular constructor accepts whatever you give it. `new EmailAddress(\"not an email\")` happily creates an invalid email address, and every function that receives it now has to wonder whether it's real.\n\nA smart constructor fixes that. You make the raw constructor private, and expose one function that validates the input and either returns a valid value or reports a failure. Since there's no other way in, any `EmailAddress` anywhere in the system went through that check.\n\n**How it works**:\n\n1. **Hide the real constructor** (a private constructor, an unexported type, a module boundary)\n2. **Expose a creation function** like `EmailAddress.create(raw: string)` or `parseEmail(raw)`\n3. **Validate inside it**: format, range, length, whatever the concept requires\n4. **Return a result that can fail**: an `Option`, a `Result` / `Either`, or throw at the boundary if that's your language's convention\n5. **Trust the type everywhere else**: functions that accept an `EmailAddress` never check it again\n\n**Examples**:\n\n- `PositiveInteger.create(n)` returns `None` for zero and negative numbers\n- `Percentage.create(x)` only accepts values between 0 and 100\n- `NonEmptyList.fromList(items)` fails on an empty list\n- `DateRange.create(start, end)` rejects ranges where the end comes before the start\n\n**Where the name comes from**:\n\nThe term comes from the Haskell community, where a module exports a type without its data constructor and provides a validating function instead. The same idea shows up everywhere today: factory methods in object-oriented code, `TryFrom` implementations in Rust, and the `create` functions Scott Wlaschin uses throughout Domain Modeling Made Functional.\n\n**Why it matters**:\n\n- **Validation happens exactly once**, in one place, instead of being scattered across the codebase\n- **Invalid values can't exist**, so downstream code gets simpler (see Make Illegal States Unrepresentable)\n- **The rules live with the type**, where the next developer will find them\n- **Failure is explicit**: the return type tells callers that creation can fail, so they handle it\n\n**How it connects**:\n\nSmart constructors are where Parse, Don't Validate actually happens: raw input goes in, a precise type comes out. They pair naturally with the newtype pattern and value objects, and they're the standard fix for Primitive Obsession. The book Secure by Design builds its \"domain primitives\" on exactly this idea.\n\nKeep in mind that a smart constructor only protects what it checks. If a rule matters, it belongs inside the constructor, not in a comment next to it.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "functional-programming",
+        "type-systems",
+        "domain-modeling",
+        "validation"
+    ],
+    "category": "Software Development",
+    "icon": "FaCheckCircle",
+    "featured": false,
+    "aliases": [
+        "Smart Constructors",
+        "Validating Constructor",
+        "Factory Function with Validation"
+    ],
+    "relatedConcepts": [
+        "parse-dont-validate",
+        "newtype-pattern",
+        "value-object",
+        "primitive-obsession",
+        "make-illegal-states-unrepresentable",
+        "option-type",
+        "design-by-contract",
+        "secure-by-design",
+        "domain-driven-design",
+        "correct-by-construction",
+        "fail-fast"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain Modeling Made Functional by Scott Wlaschin",
+            "url": "https://www.amazon.com/dp/1680502549?tag=dsebastien00-20"
+        },
+        {
+            "title": "Secure by Design by Dan Bergh Johnsson, Daniel Deogun and Daniel Sawano",
+            "url": "https://www.amazon.com/dp/1617294357?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Smart constructors - Haskell Wiki",
+            "url": "https://wiki.haskell.org/Smart_constructors",
+            "type": "website"
+        },
+        {
+            "title": "Designing with types: Single case union types - F# for Fun and Profit",
+            "url": "https://fsharpforfunandprofit.com/posts/designing-with-types-single-case-dus/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

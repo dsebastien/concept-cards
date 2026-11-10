@@ -1,0 +1,70 @@
+{
+    "id": "secure-by-design",
+    "name": "Secure by Design",
+    "summary": "An approach where security is built into a product's architecture, code and development process from the very beginning, instead of being added on top at the end.",
+    "explanation": "For decades, software security worked like this: build the product, ship it, then fix the vulnerabilities as attackers find them. Patch, patch, patch. The cost of that approach lands on customers, who have to install updates, configure protections and clean up after breaches.\n\nSecure by Design flips that. Security becomes a core requirement from day one, at the same level as features and performance. It shapes the architecture, the choice of languages and libraries, the APIs, and how the team works.\n\n**What it looks like in practice**:\n\n- **Threat modeling early**: Ask \"what could go wrong?\" while designing, not after shipping\n- **Memory-safe languages** where possible, to remove entire classes of vulnerabilities\n- **Safe-by-construction APIs**: parameterized queries, auto-escaping templates, typed domain primitives instead of raw strings\n- **Least privilege and defense in depth** built into the architecture\n- **Secure defaults** (see Secure by Default) so what ships is protected out of the box\n- **Security in the development process**: code review, dependency scanning and security testing (see shift left and DevSecOps)\n- **Transparency**: publishing vulnerability data and fixing root causes, instead of quietly patching symptoms\n\n**Two meanings worth knowing**:\n\n1. **The industry movement**: In 2023, CISA and partner agencies from several countries published joint guidance on Secure by Design. Their core message is that software manufacturers, not customers, should own the security outcomes of their products. In 2024, CISA launched a Secure by Design pledge that software companies can sign\n2. **The book**: Secure by Design (2019) by Dan Bergh Johnsson, Daniel Deogun and Daniel Sawano argues that good design and good security go hand in hand. Their key idea is the domain primitive: a small value object (e.g., `EmailAddress`, `Quantity`) that validates itself at creation. If invalid data can't exist, a lot of injection and logic attacks have nothing to work with\n\n**Secure by Design vs. Secure by Default**:\n\nThe two work together. Secure by Design is about how the product is built. Secure by Default is about how it ships. A product built securely but shipped with an open admin panel and default credentials still fails its users.\n\nThis is the Pit of Success applied to security engineering: when the architecture makes insecure code hard to write, developers end up writing secure code without thinking about it.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-design",
+        "software-development",
+        "software-architecture",
+        "principles",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Security by Design",
+        "Secure-by-Design"
+    ],
+    "relatedConcepts": [
+        "secure-by-default",
+        "pit-of-success",
+        "saltzer-and-schroeders-design-principles",
+        "threat-modeling",
+        "shift-left",
+        "devsecops",
+        "least-privilege",
+        "defense-in-depth",
+        "zero-trust",
+        "security-debt",
+        "primitive-obsession",
+        "value-object",
+        "make-illegal-states-unrepresentable",
+        "parse-dont-validate",
+        "memory-safety",
+        "allowlisting",
+        "fail-open-vs-fail-closed",
+        "kerckhoffs-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Secure by Design by Dan Bergh Johnsson, Daniel Deogun and Daniel Sawano",
+            "url": "https://www.amazon.com/dp/1617294357?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Secure by design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Secure_by_design",
+            "type": "website"
+        },
+        {
+            "title": "Secure by Design - CISA",
+            "url": "https://www.cisa.gov/securebydesign",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

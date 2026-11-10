@@ -1,0 +1,56 @@
+{
+    "id": "typestate-pattern",
+    "name": "Typestate Pattern",
+    "summary": "A design technique that encodes an object's current state in its type, so calling an operation in the wrong state becomes a compile-time error instead of a runtime bug.",
+    "explanation": "Some objects only make sense in a certain order. Open a file, then read it, then close it. Build a request, then send it. Connect, authenticate, then query. Call things in the wrong order, and you get an exception at runtime. Or worse, silent corruption.\n\nThe typestate pattern moves those rules into the type system. Each state becomes its own type, and each type only exposes the operations that are valid in that state. Reading a closed file doesn't throw an error. It doesn't compile.\n\n**Where the idea comes from**:\n\nRobert Strom introduced typestate in 1983, and formalized it with Shaula Yemini in a 1986 paper titled \"Typestate: A programming language concept for enhancing software reliability\". The idea stayed mostly academic for decades. Rust made it practical and popular, because its ownership system can guarantee that an old state can't be used after a transition.\n\n**How it works**:\n\nTake a connection with three states: `Disconnected`, `Connected` and `Authenticated`.\n\n- `Connection<Disconnected>` only has a `connect()` method, which returns a `Connection<Connected>`\n- `Connection<Connected>` only has `authenticate()`, which returns a `Connection<Authenticated>`\n- `Connection<Authenticated>` is the only one with `query()`\n\nEach transition consumes the old value and returns a new one. There is simply no way to call `query()` on a connection that hasn't authenticated. The compiler checks the whole protocol for you.\n\n**Common uses**:\n\n- **Builders** that require some fields before `build()` becomes available\n- **Resources** with a lifecycle (files, sockets, database transactions)\n- **Protocols and workflows**: a payment that must be authorized before it can be captured\n- **Hardware drivers**, where configuring a pin in the wrong mode can damage a device\n\n**What it costs**:\n\n- More types, more boilerplate, and longer type signatures\n- It works best when states change in a known sequence. If the state depends on runtime data (e.g., a server's response), you still need a runtime check at that point, typically with a sum type\n- It's most natural in languages with ownership or linear types (Rust). In other languages, nothing stops you from keeping a reference to the old state and reusing it\n\n**How it connects**:\n\nThe typestate pattern is a finite-state machine checked at compile time. It's one of the strongest ways to Make Illegal States Unrepresentable: invalid transitions can't be written, so they can't happen.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "type-systems",
+        "error-prevention"
+    ],
+    "category": "Software Development",
+    "icon": "FaProjectDiagram",
+    "featured": false,
+    "aliases": [
+        "Typestate",
+        "Typestate Analysis",
+        "Type State Pattern"
+    ],
+    "relatedConcepts": [
+        "finite-state-machine",
+        "make-illegal-states-unrepresentable",
+        "algebraic-data-types",
+        "correct-by-construction",
+        "hard-to-misuse",
+        "pit-of-success",
+        "memory-safety",
+        "newtype-pattern",
+        "design-by-contract",
+        "static-typing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Typestate analysis - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Typestate_analysis",
+            "type": "website"
+        },
+        {
+            "title": "The Typestate Pattern in Rust - Cliff L. Biffle",
+            "url": "https://cliffle.com/blog/rust-typestate/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

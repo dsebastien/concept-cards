@@ -1,0 +1,68 @@
+{
+    "id": "functional-core-imperative-shell",
+    "name": "Functional Core, Imperative Shell",
+    "summary": "An architecture pattern where all decisions live in pure functions at the center, and a thin outer layer handles the side effects: reading input, talking to the network, writing to disk.",
+    "explanation": "Most code mixes two very different kinds of work. Some of it decides things: calculating a price, validating an order, picking the next state. Some of it does things: reading files, calling APIs, writing to the database, sending emails. When both are tangled in the same functions, everything gets harder. Testing needs mocks. Bugs hide in the interaction. Reasoning about a function means knowing everything it touches.\n\nGary Bernhardt named the fix in 2012, in his Destroy All Software screencast \"Functional Core, Imperative Shell\", and expanded on it in his talk \"Boundaries\" at SCNA 2012. Split the program in two.\n\n**The two parts**:\n\n- **The functional core**: Pure functions working on plain values. No I/O, no clock, no randomness, no global state. Given the same input, they always return the same output. This is where the logic and the decisions live\n- **The imperative shell**: A thin layer around the core. It gathers input from the outside world, calls the core, then performs the side effects the core asked for. It contains as few decisions as possible\n\nThe core decides. The shell acts.\n\n**An example**:\n\nThink of a function that renews expired subscriptions. The tangled version loads users from the database, checks dates against the system clock, charges cards and sends emails, all in one loop. The split version looks different:\n\n1. The shell loads the subscriptions and reads the current date\n2. The core takes those values and returns a list of actions: which subscriptions to renew, which to cancel, which emails to send\n3. The shell executes that list\n\nThe core is now trivial to test: pass in values, check the returned values. No database, no mocks, no fake clock.\n\n**Why it works**:\n\n- **Fast, simple tests**: Most of the logic sits in pure functions, so most tests are plain input/output checks\n- **Fewer mocks**: The shell is so thin that a few integration tests cover it\n- **Easier reasoning**: Pure functions can be read in isolation (see pure functions and immutability)\n- **Safer changes**: Side effects are concentrated in one place, so you know exactly where the risky code is\n\n**How it connects**:\n\nThe pattern pairs naturally with Parse, Don't Validate: the shell parses messy external input into precise types, and the core only ever sees valid data. It's also a close cousin of hexagonal architecture and Clean Architecture, which push I/O to the edges for the same reasons.\n\n**Keep in mind**:\n\nSome programs are mostly shell (e.g., a script that copies files). Forcing a functional core there adds ceremony for nothing. The pattern pays off when there's real logic to protect.",
+    "tags": [
+        "software-architecture",
+        "software-design",
+        "software-development",
+        "functional-programming",
+        "testing",
+        "architecture"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "FCIS",
+        "Functional Core Imperative Shell",
+        "Imperative Shell, Functional Core"
+    ],
+    "relatedConcepts": [
+        "pure-functions",
+        "immutability",
+        "side-effects",
+        "separation-of-concerns",
+        "clean-architecture",
+        "parse-dont-validate",
+        "dependency-injection",
+        "unit-testing",
+        "test-driven-development",
+        "make-illegal-states-unrepresentable",
+        "property-based-testing",
+        "total-functions"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Grokking Simplicity by Eric Normand",
+            "url": "https://www.amazon.com/dp/1617296201?tag=dsebastien00-20"
+        },
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Functional Core, Imperative Shell - Destroy All Software",
+            "url": "https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell",
+            "type": "website"
+        },
+        {
+            "title": "Boundaries - Gary Bernhardt (SCNA 2012)",
+            "url": "https://www.destroyallsoftware.com/talks/boundaries",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

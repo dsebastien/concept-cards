@@ -1,0 +1,67 @@
+{
+    "id": "escape-hatch",
+    "name": "Escape Hatch",
+    "summary": "A deliberate, explicit way to bypass an abstraction, convention or safety mechanism when the default path doesn't fit the problem at hand.",
+    "explanation": "No abstraction covers every case. Sooner or later, someone hits an edge case the designers didn't anticipate. What happens then makes a huge difference. Either the system gives them a clean way out, or they start hacking around it (copy-pasting internals, monkey-patching, forking).\n\nAn escape hatch is that clean way out. It lets you step outside the safe defaults on purpose, in a visible and controlled way.\n\n**Examples**:\n\n- **Rust's `unsafe` blocks**: the compiler's memory-safety guarantees are the default, and `unsafe` lets you opt out for low-level code\n- **TypeScript's `any` and type assertions (`as`)**: a way to tell the compiler \"trust me\" when the type system can't express something\n- **React's refs and effects**: the React docs literally group them under \"Escape Hatches\", for when you need to step outside React to talk to the DOM or external systems\n- **Raw SQL in an ORM**: for the queries the query builder can't express\n- **`--force` flags** on command-line tools\n- **Configuration overrides** in convention-over-configuration frameworks\n\n**What makes a good escape hatch**:\n\n- **It exists**: Conventions must be overridable for edge cases, otherwise people fight the system or leave it\n- **It's explicit**: Using it requires a deliberate action, never an accident\n- **It's loud**: The name signals danger (`unsafe`, `dangerouslySetInnerHTML`, `--force`)\n- **It's searchable**: You can grep the codebase for every place where someone opted out\n- **It's narrow**: It bypasses one guarantee in one place, not the whole system\n- **It's documented**: With a clear explanation of when to use it, and what you give up\n\n**Why escape hatches matter for the Pit of Success**:\n\nStrong defaults and escape hatches work together. Defaults guide most cases toward the right path. Escape hatches handle the rare ones without forcing anyone to tear down the defaults. Without them, the first unusual requirement pushes people to abandon the safe path entirely.\n\n**Watch out**:\n\nAn escape hatch used everywhere stops being an escape hatch. If half your TypeScript codebase is `any`, you don't have a type system anymore. When people reach for the escape hatch all the time, take it as a signal: the default path needs work.\n\nThe same idea applies to writing AI skills and conventions. Pick one default approach, and note the escape hatch for edge cases.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "api-design",
+        "developer-experience",
+        "abstraction",
+        "defaults"
+    ],
+    "category": "Software Development",
+    "icon": "FaDoorOpen",
+    "featured": false,
+    "aliases": [
+        "Escape Hatches",
+        "Opt-Out Mechanism"
+    ],
+    "relatedConcepts": [
+        "pit-of-success",
+        "convention-over-configuration",
+        "golden-path",
+        "opinionated-software",
+        "abstraction",
+        "make-simple-things-simple",
+        "footgun",
+        "hard-to-misuse",
+        "typescript",
+        "progressive-disclosure",
+        "developer-experience",
+        "law-of-leaky-abstractions"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Convention+over+Configuration",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Skill+Best+Practices"
+    ],
+    "articles": [
+        {
+            "title": "The Complete Guide to Obsidian Automation - From Templates to an AI Operating System",
+            "url": "https://www.dsebastien.net/the-complete-guide-to-obsidian-automation/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Escape Hatches - React documentation",
+            "url": "https://react.dev/learn/escape-hatches",
+            "type": "website"
+        },
+        {
+            "title": "Unsafe Rust - The Rust Programming Language",
+            "url": "https://doc.rust-lang.org/book/ch20-01-unsafe-rust.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

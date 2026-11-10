@@ -1,0 +1,83 @@
+{
+    "id": "hard-to-misuse",
+    "name": "Hard to Misuse",
+    "summary": "Make interfaces easy to use correctly and hard to use incorrectly, so the design prevents mistakes instead of relying on the documentation.",
+    "explanation": "Scott Meyers called it possibly the most important design guideline of all: \"Make interfaces easy to use correctly and hard to use incorrectly.\" He wrote about it in IEEE Software in 2004, and in Effective C++. Rusty Russell, a Linux kernel developer, turned the same idea into a scale of API quality known as Rusty's API Design Manifesto.\n\n**The core idea**:\n\nThe interface should carry the burden of correct use. If an API can be called in a way that compiles, looks reasonable and does the wrong thing, someone WILL call it that way, sooner or later. Blaming that person fixes nothing; redesigning the interface does.\n\n**Rusty Russell's scale (best to worst)**:\n\n1. It's impossible to get wrong\n2. The compiler or linker won't let you get it wrong\n3. The compiler will warn if you get it wrong\n4. The simplest use is the correct one\n5. The name tells you how to use it\n6. Do it right or it will always break at runtime\n7. Follow common convention and you'll get it right\n8. Read the documentation and you'll get it right\n9. Read the implementation and you'll get it right\n10. Read the correct mailing list thread and you'll get it right\n\nThe scale goes on into negative levels, where the obvious use is actually wrong. Your goal is to push every interface as high up that list as you can. Notice where \"read the documentation\" sits: level 8 out of 10.\n\n**Techniques**:\n\n- **Use precise types**: A `Duration` instead of a raw integer that could be seconds or milliseconds\n- **Avoid parameter traps**: `copy(src, dst)` is easy to swap, and `setVisible(true, false)` tells you nothing. Named parameters or distinct types fix both\n- **Make dangerous operations explicit**: `deleteAllUnsafe()` beats a `delete()` whose default wipes everything\n- **Provide safe defaults**: The zero-configuration call should do the right thing\n- **Manage resources automatically**: RAII, `using` or `try-with-resources` instead of manual cleanup\n- **Fail loudly and early**: Reject misuse at compile time, or immediately at runtime\n- **Stay consistent**: Similar operations get similar names, argument orders and behaviors\n\n**Why it matters**:\n\nAn interface gets designed once, then used over and over by people who never saw the design discussion. A little extra effort to make misuse hard saves bugs, debugging sessions and security incidents for every one of them. This is the Pit of Success at the interface level: when misuse is hard, correct use becomes the natural path.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "api-design",
+        "interfaces",
+        "developer-experience",
+        "usability",
+        "error-prevention",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Easy to Use Correctly, Hard to Use Incorrectly",
+        "Hard to Misuse Interfaces",
+        "Rusty's API Design Manifesto",
+        "Misuse-Resistant APIs"
+    ],
+    "relatedConcepts": [
+        "pit-of-success",
+        "principle-of-least-astonishment",
+        "make-illegal-states-unrepresentable",
+        "parse-dont-validate",
+        "design-by-contract",
+        "secure-by-default",
+        "poka-yoke",
+        "affordances",
+        "developer-experience",
+        "api",
+        "fail-fast",
+        "defensive-design",
+        "footgun",
+        "boolean-trap",
+        "primitive-obsession",
+        "hyrums-law",
+        "typestate-pattern",
+        "newtype-pattern",
+        "stringly-typed"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Effective C++ by Scott Meyers",
+            "url": "https://www.amazon.com/dp/0321334876?tag=dsebastien00-20"
+        },
+        {
+            "title": "Framework Design Guidelines by Krzysztof Cwalina, Jeremy Barton and Brad Abrams",
+            "url": "https://www.amazon.com/dp/0135896460?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Most Important Design Guideline? - Scott Meyers",
+            "url": "https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm",
+            "type": "website"
+        },
+        {
+            "title": "How Do I Make This Hard to Misuse? - Rusty Russell",
+            "url": "https://ozlabs.org/~rusty/index.cgi/tech/2008-03-30.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

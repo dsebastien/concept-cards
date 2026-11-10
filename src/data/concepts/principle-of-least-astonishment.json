@@ -1,0 +1,69 @@
+{
+    "id": "principle-of-least-astonishment",
+    "name": "Principle of Least Astonishment",
+    "summary": "A component should behave the way its users expect it to, because every surprise is an opportunity for a mistake.",
+    "explanation": "Every surprise has a cost. When a system does something you didn't expect, you lose time, you lose trust, and sometimes you lose data. The Principle of Least Astonishment (POLA), also called the Principle of Least Surprise, says that a system should behave the way most of its users expect. If a feature astonishes people, change the feature.\n\nThe idea shows up in programming language and user interface design writing from the 1970s onward. Eric S. Raymond made it one of the core rules in The Art of Unix Programming.\n\n**Where expectations come from**:\n\nUsers don't arrive empty-handed. They bring mental models from other software, from platform conventions, from physical objects and from other parts of the same system. Good design reuses those models. Bad design fights them, and the user pays for it.\n\n**What astonishes people**:\n\n- Similar functions with different names, argument orders or behaviors\n- Hidden side effects (e.g., a getter that changes state, a `sort()` that also removes duplicates)\n- Broken conventions: Ctrl+S that doesn't save, red that means success\n- Destructive actions without a warning or an undo\n- Defaults that do something nobody would pick\n- Names that don't describe what the code actually does\n\n**How to apply it**:\n\n- **Follow conventions**: Reuse the patterns of the platform, the language or the domain. Getting \"creative\" with conventions is rarely worth it\n- **Be consistent**: Things that look alike should behave alike, everywhere in the system\n- **Name things honestly**: A function name should describe everything the function does, side effects included\n- **Make important behavior visible**: Hidden behavior is fun to build and painful to debug\n- **Know your audience**: What surprises a beginner differs from what surprises a Unix veteran. Design for the people who actually use your system\n\n**A few examples from software**:\n\n- Equality checks should be symmetric: if `a == b`, then `b == a`\n- Command-line tools should respect common flags (`-h`, `--help`, `-v`)\n- Configuration should behave the same in every environment, unless you explicitly override it\n\n**Why it matters**:\n\nPredictable systems are easier to learn, easier to use correctly and easier to maintain. You can reason about them without reading the source code. That's why this principle pairs so well with the Pit of Success: when the system does what you expect, the obvious action is also the right one.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "api-design",
+        "user-experience",
+        "usability",
+        "design",
+        "principles",
+        "consistency"
+    ],
+    "category": "Principles",
+    "icon": "FaCheckCircle",
+    "featured": false,
+    "aliases": [
+        "Principle of Least Surprise",
+        "POLA",
+        "POLS",
+        "Law of Least Astonishment",
+        "Rule of Least Surprise"
+    ],
+    "relatedConcepts": [
+        "pit-of-success",
+        "hard-to-misuse",
+        "consistency",
+        "mental-models",
+        "usability-heuristics",
+        "usability",
+        "affordances",
+        "convention-over-configuration",
+        "defensive-design",
+        "developer-experience",
+        "api",
+        "footgun",
+        "boolean-trap",
+        "signifier"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Art of Unix Programming by Eric S. Raymond",
+            "url": "https://www.amazon.com/dp/0131429019?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Design of Everyday Things by Don Norman",
+            "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Principle of least astonishment - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Principle_of_least_astonishment",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

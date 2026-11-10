@@ -1,0 +1,67 @@
+{
+    "id": "secure-by-default",
+    "name": "Secure by Default",
+    "summary": "Software should ship with its most secure configuration already switched on, so people are protected without having to do anything.",
+    "explanation": "Ask yourself: how many default settings did you change in the last app you installed? Probably none. And you're far from alone. Research on the default effect shows that most people never touch defaults.\n\nIn security, that has a direct consequence. The default configuration IS the configuration of most deployments. If the default is insecure, most installations are insecure, no matter how good the security options buried in the settings are.\n\nSecure by Default is the principle that the default setup of a product, system or library should be the most secure reasonable one. Users shouldn't need security expertise, extra configuration or a careful read of the docs to be protected. Weakening security should require an explicit, informed decision to opt out.\n\n**Core practices**:\n\n- **Deny by default**: Block access unless it's explicitly allowed (firewalls, permissions, CORS)\n- **Least privilege by default**: Grant the minimum permissions needed, nothing more\n- **No default credentials**: Force a unique password or key at setup. `admin/admin` should never ship\n- **Encryption on by default**: TLS, encrypted storage and secure cookies, with no opt-in required\n- **A small attack surface**: Disable unused services, ports, debug endpoints and features\n- **Safe APIs by default**: Auto-escaping templates, parameterized queries, memory-safe languages\n- **Automatic security updates** wherever that's feasible\n- **A visible opt-out**: Weakening security should be deliberate, logged and clearly labeled\n\n**Secure by Default vs. Secure by Design**:\n\nThe two often go together. Secure by Design means building security into the architecture from day one, instead of bolting it on later. Secure by Default makes sure that what ships is actually configured safely. Agencies such as CISA push both, to move the burden of security from end users to the companies that build the products.\n\n**The tradeoff**:\n\nSecure defaults can add friction: an extra setup step, a blocked feature that would have been convenient. Add too much, and people disable the protection entirely (the classic \"just turn off the firewall\" move). Good secure-by-default design keeps that friction as low as possible, so the secure path is also the easy one.\n\nThat's the Pit of Success applied to security. When the system is safe without effort, most people end up secure simply by leaving the defaults alone.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-design",
+        "software-development",
+        "defaults",
+        "principles",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Secure Defaults",
+        "Security by Default",
+        "Safe Defaults"
+    ],
+    "relatedConcepts": [
+        "pit-of-success",
+        "least-privilege",
+        "defense-in-depth",
+        "zero-trust",
+        "default-effect",
+        "guardrails",
+        "defensive-design",
+        "hard-to-misuse",
+        "fail-fast",
+        "secure-by-design",
+        "saltzer-and-schroeders-design-principles",
+        "fail-open-vs-fail-closed",
+        "allowlisting",
+        "memory-safety"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Secure by Design by Dan Bergh Johnsson, Daniel Deogun and Daniel Sawano",
+            "url": "https://www.amazon.com/dp/1617294357?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Secure by design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Secure_by_design",
+            "type": "website"
+        },
+        {
+            "title": "Secure by Design - CISA",
+            "url": "https://www.cisa.gov/securebydesign",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

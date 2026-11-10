@@ -1,0 +1,82 @@
+{
+    "id": "allowlisting",
+    "name": "Allowlisting",
+    "summary": "A security approach where you explicitly list what is permitted and deny everything else, instead of trying to list everything that is forbidden.",
+    "explanation": "There are two ways to control what gets through:\n\n- **Allowlist**: You name what's allowed, and everything else gets rejected\n- **Denylist**: You name what's forbidden, and everything else gets accepted\n\nThey sound symmetrical. They're not. A denylist only works if you can predict every bad thing in advance. Attackers spend their time finding exactly what you forgot: another encoding, a new file type, a command you didn't think of. An allowlist flips the burden. If you forget something, a legitimate use gets blocked, someone complains, and you add it. That failure is visible and cheap.\n\nThis is Saltzer and Schroeder's \"fail-safe defaults\" principle in practice: base decisions on permission, not exclusion.\n\n**Where you'll find allowlists**:\n\n- **Input validation**: The OWASP Input Validation Cheat Sheet recommends defining what the application accepts and rejecting everything outside those rules, instead of trying to recognize every malicious string\n- **API payloads**: In NestJS, `whitelist: true` on the `ValidationPipe` strips any property that doesn't have a validation decorator, so you never receive unexpected fields. `forbidNonWhitelisted: true` throws an error instead. Stricter, but clearer for the client\n- **Firewalls**: Deny all traffic by default, then open specific ports and sources\n- **Software supply chain**: Allowlists of approved packages and tools protect against typosquatting and slopsquatting, where attackers publish malicious packages under names that look legitimate (or that an AI assistant might hallucinate)\n- **AI agents**: Allowlists explicitly enumerate what an agent can do (which commands, which tools, which folders), instead of hoping to block every dangerous action\n- **Web security**: Allowed CORS origins, allowed redirect URLs, Content Security Policy sources\n- **Applications**: Endpoint protection that only runs approved executables\n\n**The tradeoffs**:\n\n- **Maintenance**: Someone has to keep the list up to date\n- **Friction**: Legitimate new uses get blocked until they're added. Make adding entries easy, or people will look for workarounds\n- **Denylists still have a role**: Blocking known-bad items (malware signatures, known malicious domains) is a useful extra layer, as long as it's not the only one (see defense in depth)\n\n**A note on terminology**:\n\nIn 2020, the UK's National Cyber Security Centre switched to \"allow list\" and \"deny list\" instead of \"whitelist\" and \"blacklist\". The new terms say what they do, and many projects and vendors have followed. You'll still see the old terms in older tools (NestJS's `whitelist` option, for example).\n\nAllowlisting is Secure by Default applied to access: the safe outcome is the default, and every exception is a deliberate, visible decision.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "access-control",
+        "validation",
+        "defaults",
+        "principles",
+        "supply-chain"
+    ],
+    "category": "Software Development",
+    "icon": "FaClipboardCheck",
+    "featured": false,
+    "aliases": [
+        "Allowlist",
+        "Denylist",
+        "Whitelisting",
+        "Allowlist vs. Denylist",
+        "Deny by Default",
+        "Allow List"
+    ],
+    "relatedConcepts": [
+        "saltzer-and-schroeders-design-principles",
+        "secure-by-default",
+        "least-privilege",
+        "defense-in-depth",
+        "zero-trust",
+        "fail-open-vs-fail-closed",
+        "parse-dont-validate",
+        "ai-agent-permissions",
+        "supply-chain-attack",
+        "slopsquatting",
+        "typosquatting",
+        "firewall",
+        "role-based-access-control"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/AI+Agent+Permissions"
+    ],
+    "articles": [
+        {
+            "title": "Input validation with NestJS",
+            "url": "https://www.dsebastien.net/2020-07-23-input-validation-with-nestjs/",
+            "type": "website"
+        },
+        {
+            "title": "Slopsquatting, Typosquatting, and the New Software Supply Chain Attacks",
+            "url": "https://www.dsebastien.net/slopsquatting-typosquatting-and-the-new-software-supply-chain-attacks-how-ai-and-vibe-coding-are-making-package-registries-even-more-dangerous/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Input Validation Cheat Sheet - OWASP",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+            "type": "website"
+        },
+        {
+            "title": "Terminology: it's not black and white - NCSC",
+            "url": "https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white",
+            "type": "website"
+        },
+        {
+            "title": "Whitelist - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Whitelist",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

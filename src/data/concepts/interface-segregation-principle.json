@@ -1,0 +1,72 @@
+{
+    "id": "interface-segregation-principle",
+    "name": "Interface Segregation Principle",
+    "summary": "Clients should not be forced to depend on methods they don't use, so large interfaces should be split into smaller, role-specific ones.",
+    "explanation": "Imagine a `Job` class with dozens of methods: some for printing, some for stapling, some for faxing. A stapling task only needs a few of them. But it depends on all of them. Change a printing method, and the stapling code gets rebuilt and redeployed too.\n\nThis actually happened. Robert C. Martin formulated the Interface Segregation Principle (ISP) while consulting for Xerox. Xerox had built a new printer system that could print, staple and fax. As the software grew, a single \"fat\" `Job` class ended up being used by almost every task, and even the smallest change took a redeployment cycle of an hour. Martin's solution was to put small, task-specific interfaces (a Staple Job interface, a Print Job interface) between the `Job` class and its clients. It's the I in SOLID.\n\n**The principle**:\n\nNo client should be forced to depend on methods it does not use. Martin's short version: \"Keep interfaces small so that users don't end up depending on things they don't need.\" These smaller interfaces are often called role interfaces, because each one describes one role a client needs.\n\n**Why it matters**:\n\n- **Fewer ripple effects**: Changes to one group of methods don't force rebuilds, redeploys or re-tests of unrelated clients\n- **Clearer code**: A small interface tells you exactly what a piece of code needs\n- **Easier testing**: Faking a two-method interface takes a minute; faking a forty-method one takes an afternoon\n- **Honest implementations**: Classes don't have to implement methods that make no sense for them (a common source of Liskov violations)\n\n**Signs you need it**:\n\n- Interfaces with many methods that each client only uses partially\n- Implementations full of empty methods or `throw new NotImplementedException()`\n- A change in one area forcing recompilation or redeployment of unrelated modules\n- Test doubles that need dozens of stubs just to compile\n\n**How to apply it**:\n\n1. Look at each interface from the client's side: which methods does each client actually call?\n2. Group methods by role, and extract one interface per role\n3. Let a class implement several small interfaces if it plays several roles\n4. Make each client depend only on the role it needs\n\nKeep in mind that the goal isn't one interface per method. Split along real client needs, and stop there.\n\n**In AI skills**:\n\nISP maps to opt-in context loading. Instead of loading every dependency every time, an agent declares its dependencies in a DEPENDENCIES.md manifest with three tiers: Always, OnTrigger and Never. Each context only gets what it actually needs.",
+    "tags": [
+        "software-development",
+        "software-design",
+        "object-oriented",
+        "design-patterns",
+        "architecture",
+        "maintainability",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaLayerGroup",
+    "featured": false,
+    "aliases": [
+        "ISP",
+        "Role Interfaces",
+        "Interface Segregation"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "single-responsibility-principle",
+        "liskov-substitution-principle",
+        "dependency-inversion-principle",
+        "open-closed-principle",
+        "coupling",
+        "cohesion",
+        "abstraction",
+        "api",
+        "context-budget",
+        "progressive-context-disclosure",
+        "dummy-object",
+        "tell-dont-ask"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Articles/Software+Architecture+Principles+for+AI+Skills+and+Agents+(Article)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Software Development, Principles, Patterns, and Practices by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0135974445?tag=dsebastien00-20"
+        },
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Interface segregation principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Interface_segregation_principle",
+            "type": "website"
+        },
+        {
+            "title": "Solid Relevance - Robert C. Martin",
+            "url": "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "liskov-substitution-principle",
+    "name": "Liskov Substitution Principle",
+    "summary": "Objects of a subtype must be usable anywhere objects of their parent type are expected, without breaking the correctness of the program.",
+    "explanation": "If your code works with a `Bird`, it should keep working when someone hands it a `Penguin`. If it doesn't (because `fly()` throws an exception), the type hierarchy is lying to you.\n\nBarbara Liskov introduced the idea in a 1987 conference keynote titled \"Data abstraction and hierarchy\". In 1994, she and Jeannette Wing formalized it in \"A Behavioral Notion of Subtyping\": if a property is provable about objects of a type T, it should also hold for objects of a subtype S. It's the L in SOLID.\n\n**The core idea**:\n\nA subtype is a promise. It says \"you can use me wherever you'd use my parent\". The Liskov Substitution Principle (LSP) asks you to keep that promise at the level of behavior, beyond method signatures. The compiler checks that the methods exist. It can't check that they behave the way callers expect.\n\nRobert C. Martin points out that this is about subtyping, not inheritance: every implementation of an interface is a subtype of that interface. His short version: \"A program that uses an interface must not be confused by an implementation of that interface.\"\n\n**The classic example: squares and rectangles**:\n\nMathematically, a square is a rectangle. So it seems natural to make `Square` extend `Rectangle`. But a `Rectangle` lets you set its width and height independently, and a `Square` can't: setting its width also changes its height. Now take code that sets a rectangle's width to 5 and its height to 4, and expects an area of 20. Pass it a `Square`, and it gets 16. The subtype broke the parent's behavior, even though every method exists and everything compiles.\n\n**The rules of behavioral subtyping**:\n\nThe rules on preconditions and postconditions are identical to the ones Bertrand Meyer introduced for Design by Contract in 1988:\n\n- **Preconditions can't be strengthened** in the subtype: it must accept at least everything the parent accepts\n- **Postconditions can't be weakened**: it must guarantee at least everything the parent guarantees\n- **Invariants must be preserved**: what's always true for the parent stays true for the subtype\n- **The history rule**: the subtype can't allow state changes the parent would never allow\n\n**Signs of an LSP violation**:\n\n- Subclasses that throw `NotImplementedException` or `UnsupportedOperationException` for inherited methods\n- Code that checks the concrete type (`instanceof`, type switches) before calling a method\n- Overrides that silently do nothing\n- Tests written for the parent type that fail when run against a subtype\n\n**How to fix it**:\n\nOften, the hierarchy itself is wrong. Split the parent type into smaller interfaces (e.g., `Bird` and `FlyingBird`, see the Interface Segregation Principle), or use composition instead of inheritance.\n\n**In AI skills**:\n\nLSP translates to swappable implementations. When several search skills exist with incompatible interfaces, they can't replace each other. The fix is to define the contract (what each skill expects as input and produces as output), so that any implementation respecting it can be swapped in.",
+    "tags": [
+        "software-development",
+        "software-design",
+        "object-oriented",
+        "design-patterns",
+        "architecture",
+        "maintainability",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaExchangeAlt",
+    "featured": false,
+    "aliases": [
+        "LSP",
+        "Liskov Substitution",
+        "Behavioral Subtyping",
+        "Substitutability"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "design-by-contract",
+        "interface-segregation-principle",
+        "open-closed-principle",
+        "dependency-inversion-principle",
+        "single-responsibility-principle",
+        "polymorphism",
+        "abstraction",
+        "encapsulation",
+        "hard-to-misuse",
+        "principle-of-least-astonishment",
+        "static-typing"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Articles/Software+Architecture+Principles+for+AI+Skills+and+Agents+(Article)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Agile Software Development, Principles, Patterns, and Practices by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0135974445?tag=dsebastien00-20"
+        },
+        {
+            "title": "Object-Oriented Software Construction by Bertrand Meyer",
+            "url": "https://www.amazon.com/dp/0136291554?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Liskov substitution principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Liskov_substitution_principle",
+            "type": "website"
+        },
+        {
+            "title": "A Behavioral Notion of Subtyping - Barbara Liskov and Jeannette Wing (1994)",
+            "url": "https://www.cs.cmu.edu/~wing/publications/LiskovWing94.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "Solid Relevance - Robert C. Martin",
+            "url": "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

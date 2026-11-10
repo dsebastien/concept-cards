@@ -1,0 +1,62 @@
+{
+    "id": "law-of-leaky-abstractions",
+    "name": "Law of Leaky Abstractions",
+    "summary": "Joel Spolsky's observation that every abstraction that hides real complexity eventually exposes the details it was supposed to hide, so you still need to understand what's underneath.",
+    "explanation": "\"All non-trivial abstractions, to some degree, are leaky.\" Joel Spolsky wrote that in 2002, on his blog Joel on Software, and it has been quoted in architecture discussions ever since.\n\nAn abstraction hides complexity behind a simpler interface. That's its whole purpose. A leak happens when the hidden details break through: the abstraction stops behaving the way its interface promises, and you have to understand the layer below to fix the problem.\n\n**Spolsky's examples**:\n\n- **TCP** promises reliable delivery over an unreliable network. If your pet snake chews through the network cable (his example), no amount of abstraction delivers your packets. Your app just waits\n- **SQL** lets you describe what data you want, not how to get it. Then two equivalent queries run at wildly different speeds, and you need to understand indexes and query plans\n- **Iterating over a 2D array** row by row or column by column gives the same result. One can be much slower, because of how memory and caches work\n- **Network file systems** look like local disks, until latency or a dropped connection shows that they aren't\n\n**More recent leaks**:\n\n- **ORMs**: the N+1 query problem appears the moment you need to care about the SQL being generated\n- **Garbage collection**: memory is \"automatic\" until a GC pause shows up in your latency charts\n- **Cloud services**: \"infinitely scalable\" storage still has rate limits, regions and eventual consistency\n- **LLM APIs**: a chat interface looks like a conversation, until the context window fills up and earlier messages fall out\n\n**What it means in practice**:\n\n1. **Abstractions save time while you work, not while you learn**: You can use a tool without knowing its internals. You can't debug it without knowing them\n2. **Learn one layer down**: Know enough about the layer under your main tools to recognize a leak when it happens\n3. **Expect leaks at the edges**: Performance, failures, concurrency and limits are where abstractions break first\n4. **Design for honest abstractions**: When you build one, document where it leaks, and offer escape hatches for the cases it can't hide\n\n**How it connects**:\n\nHyrum's Law describes the other direction: users start depending on details the abstraction never promised. Both point to the same lesson. An interface never fully hides what's behind it, so good design acknowledges the leaks instead of pretending they don't exist.\n\nThis is also why \"it's just a wrapper\" is rarely true. The wrapper simplifies the common case. The leaks remain for everything else.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "software-architecture",
+        "abstraction",
+        "complexity",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaWater",
+    "featured": false,
+    "aliases": [
+        "Leaky Abstraction",
+        "Leaky Abstractions",
+        "Spolsky's Law of Leaky Abstractions"
+    ],
+    "relatedConcepts": [
+        "abstraction",
+        "hyrums-law",
+        "escape-hatch",
+        "make-simple-things-simple",
+        "technical-debt",
+        "mental-models",
+        "sql",
+        "galls-law",
+        "worse-is-better",
+        "principle-of-least-astonishment"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Joel on Software by Joel Spolsky",
+            "url": "https://www.amazon.com/dp/1590593898?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "The Law of Leaky Abstractions - Joel on Software",
+            "url": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/",
+            "type": "website"
+        },
+        {
+            "title": "Leaky abstraction - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Leaky_abstraction",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

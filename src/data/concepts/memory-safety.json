@@ -1,0 +1,71 @@
+{
+    "id": "memory-safety",
+    "name": "Memory Safety",
+    "summary": "A property of programs and programming languages that prevents code from reading or writing memory it shouldn't, which removes entire classes of bugs such as buffer overflows and use-after-free.",
+    "explanation": "In languages like C and C++, the programmer manages memory by hand. Allocate it, use it, free it, and never touch it outside those rules. One mistake, and the program reads or writes memory it doesn't own. Sometimes it crashes. Sometimes it keeps running with corrupted data. And sometimes an attacker uses it to take control of the machine.\n\nMemory safety means the language (or the runtime) makes those mistakes impossible, or at least catches them before they do damage.\n\n**The usual suspects**:\n\n- **Buffer overflows**: Writing past the end of an array, overwriting whatever sits next to it\n- **Out-of-bounds reads**: Reading past the end of a buffer (Heartbleed in OpenSSL, 2014, was a buffer over-read)\n- **Use-after-free**: Using memory after it has been released, and possibly reused for something else\n- **Double free**: Releasing the same memory twice\n- **Uninitialized memory**: Reading values that were never set\n- **Null pointer dereferences** (see Null References)\n\n**Why it matters so much**:\n\nThe numbers are hard to ignore. In 2019, a Microsoft security engineer reported that around 70% of the security bugs Microsoft fixes are memory safety issues, a share that had hovered around 70% for 12 years. The Chromium project reports the same proportion for its serious security bugs. Years of code review, training and better tooling barely moved that number. That points at the design: one that demands perfection from humans.\n\n**How languages provide it**:\n\n- **Garbage collection plus bounds checks**: Java, C#, Go, Python, JavaScript. Memory gets freed automatically, and array accesses are checked\n- **Ownership and borrowing**: Rust checks memory rules at compile time, without a garbage collector. Code that could cause a use-after-free or a data race doesn't compile\n- **Explicit escape hatches**: Rust's `unsafe` blocks allow low-level code, but they're small, visible and easy to review\n\n**The policy push**:\n\nIn December 2023, CISA and partner agencies published \"The Case for Memory Safe Roadmaps\", asking software manufacturers to plan their move to memory-safe languages and to publish those plans.\n\n**How to apply it**:\n\n1. Write new code in a memory-safe language whenever you can\n2. Migrate the riskiest parts first: parsers, network code, anything that handles untrusted input\n3. Harden the C and C++ code you keep: sanitizers (e.g., AddressSanitizer), fuzzing, bounds-checked containers, smart pointers\n4. Keep `unsafe` code small, isolated and reviewed\n\nMemory safety is a textbook Pit of Success. Instead of asking every programmer to be perfect forever, the language makes the safe behavior the default, and an entire class of vulnerabilities disappears.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-development",
+        "programming",
+        "error-prevention",
+        "reliability"
+    ],
+    "category": "Software Development",
+    "icon": "FaMicrochip",
+    "featured": false,
+    "aliases": [
+        "Memory-Safe Languages",
+        "Memory Safe",
+        "Memory Safety Bugs"
+    ],
+    "relatedConcepts": [
+        "null-references",
+        "secure-by-design",
+        "pit-of-success",
+        "escape-hatch",
+        "footgun",
+        "make-illegal-states-unrepresentable",
+        "defense-in-depth",
+        "security-debt",
+        "correct-by-construction"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Rust Programming Language by Steve Klabnik and Carol Nichols",
+            "url": "https://www.amazon.com/dp/1718503105?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Memory safety - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Memory_safety",
+            "type": "website"
+        },
+        {
+            "title": "Memory safety - The Chromium Projects",
+            "url": "https://www.chromium.org/Home/chromium-security/memory-safety/",
+            "type": "website"
+        },
+        {
+            "title": "Microsoft: 70 percent of all security bugs are memory safety issues - ZDNET",
+            "url": "https://www.zdnet.com/article/microsoft-70-percent-of-all-security-bugs-are-memory-safety-issues/",
+            "type": "website"
+        },
+        {
+            "title": "The Case for Memory Safe Roadmaps - CISA",
+            "url": "https://www.cisa.gov/resources-tools/resources/case-memory-safe-roadmaps",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

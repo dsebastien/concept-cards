@@ -1,0 +1,70 @@
+{
+    "id": "newtype-pattern",
+    "name": "Newtype Pattern",
+    "summary": "A technique that wraps an existing type (often a primitive) in a new, distinct type, so the compiler can tell apart values that share a representation but mean different things.",
+    "explanation": "A user ID and an order ID are both integers. A distance in meters and a distance in feet are both floating-point numbers. To the compiler, they're interchangeable. To your business, they're not.\n\nIn 1999, NASA lost the Mars Climate Orbiter because one piece of software produced values in pound-force seconds while another expected newton-seconds. Both were just numbers.\n\nThe newtype pattern gives each concept its own type, even when the underlying data is identical. `UserId` wraps an integer. `OrderId` wraps an integer too. But you can't pass one where the other is expected anymore.\n\n**How it looks**:\n\n- **Haskell**: `newtype UserId = UserId Int`. The language even has a dedicated keyword, which gave the pattern its name\n- **Rust**: `struct UserId(u64);`, a tuple struct with one field\n- **Kotlin**: `@JvmInline value class UserId(val value: Long)`\n- **Scala 3**: `opaque type UserId = Long`\n- **TypeScript**: \"branded types\", e.g., `type UserId = number & { readonly __brand: \"UserId\" }`, since the structural type system would otherwise treat both as plain numbers\n\nIn most of these languages, the wrapper disappears at compile time. You get the type safety without paying for it at runtime.\n\n**What it gives you**:\n\n- **No more mix-ups**: Swapped arguments and wrong units become compile errors\n- **Self-documenting signatures**: `transfer(from: AccountId, to: AccountId, amount: Money)` says far more than three strings and a number\n- **A home for rules**: Combined with a smart constructor, the newtype guarantees that every instance is valid (e.g., an `EmailAddress` that was checked once at creation)\n- **Controlled operations**: You decide what makes sense. Adding two `Meters` is fine; multiplying two `UserId`s isn't\n\nIn Rust, newtypes also solve a practical problem: they let you implement a trait for a type from another crate, which the orphan rule would otherwise block.\n\n**What to keep in mind**:\n\nWrapping everything can feel heavy at first, especially when you need to unwrap values to call other libraries. Start with the concepts that get mixed up most often: identifiers, units, money and anything that carries validation rules.\n\nThe newtype pattern is the most direct fix for Primitive Obsession, and a cheap way to make code Hard to Misuse.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "type-systems",
+        "domain-modeling",
+        "error-prevention"
+    ],
+    "category": "Software Development",
+    "icon": "FaTags",
+    "featured": false,
+    "aliases": [
+        "Newtype",
+        "Newtypes",
+        "Branded Types",
+        "Opaque Types",
+        "Value Classes"
+    ],
+    "relatedConcepts": [
+        "primitive-obsession",
+        "value-object",
+        "smart-constructor",
+        "hard-to-misuse",
+        "make-illegal-states-unrepresentable",
+        "parse-dont-validate",
+        "stringly-typed",
+        "typescript",
+        "domain-driven-design",
+        "secure-by-design",
+        "static-typing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain Modeling Made Functional by Scott Wlaschin",
+            "url": "https://www.amazon.com/dp/1680502549?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "New Type Idiom - Rust by Example",
+            "url": "https://doc.rust-lang.org/rust-by-example/generics/new_types.html",
+            "type": "website"
+        },
+        {
+            "title": "Newtype - Haskell Wiki",
+            "url": "https://wiki.haskell.org/Newtype",
+            "type": "website"
+        },
+        {
+            "title": "Mars Climate Orbiter - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

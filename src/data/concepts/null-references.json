@@ -1,0 +1,59 @@
+{
+    "id": "null-references",
+    "name": "Null References",
+    "summary": "The practice of letting any reference point to \"nothing\", which Tony Hoare, who introduced it in 1965, later called his \"billion-dollar mistake\".",
+    "explanation": "In 1965, Tony Hoare was designing the type system of ALGOL W. He added the null reference, simply because it was so easy to implement. In 2009, at QCon London, he apologized for it: \"I call it my billion-dollar mistake. It was the invention of the null reference in 1965.\" His estimate covered the errors, vulnerabilities and system crashes it caused over the following decades.\n\n**What's the problem?**\n\nIn languages with null references, almost every reference can be \"nothing\". The type `User` really means \"a user, or maybe nothing\". But the type system doesn't say so, and it doesn't force you to check. So you forget. And at runtime, you get a `NullPointerException`, a segmentation fault or `undefined is not a function`.\n\nNull is a footgun hidden inside the type system: the dangerous case looks exactly like the safe one.\n\n**Why it's so costly**:\n\n- **It's everywhere**: Any variable, parameter or return value can be null, so every one of them is a potential crash\n- **It's invisible**: Nothing in the code tells you which values can actually be null\n- **It fails far from the cause**: A null created in one module explodes in another, often much later\n- **It mixes meanings**: Null can mean \"not found\", \"not loaded yet\", \"unknown\", \"not applicable\" or \"a bug happened\"\n\n**The fix: make absence explicit**:\n\nModern languages make the possible absence of a value part of its type, so the compiler forces you to handle it:\n\n- **Option / Maybe types** (Rust, Haskell, OCaml, F#, Scala): a value is either `Some(x)` or `None`, and you must handle both\n- **Nullable types** (Kotlin, Swift, C# with nullable reference types, TypeScript with `strictNullChecks`): `String` can never be null, `String?` can, and the compiler checks every use\n- **Null object pattern**: return a harmless default object instead of null when that makes sense\n\n**How to apply it in your code**:\n\n1. Turn on strict null checking if your language supports it (e.g., `strictNullChecks` in TypeScript)\n2. Use Option or nullable types to mark values that can be absent\n3. Don't return null for collections; return an empty one\n4. Parse external data at the boundary, so missing fields get handled once (see Parse, Don't Validate)\n\nMaking absence explicit is a textbook case of Make Illegal States Unrepresentable: if a value can't be null, a whole class of crashes disappears.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "type-systems",
+        "error-prevention",
+        "anti-patterns"
+    ],
+    "category": "Software Development",
+    "icon": "FaBug",
+    "featured": false,
+    "aliases": [
+        "Billion-Dollar Mistake",
+        "The Billion Dollar Mistake",
+        "Null Pointer",
+        "Null Reference"
+    ],
+    "relatedConcepts": [
+        "make-illegal-states-unrepresentable",
+        "algebraic-data-types",
+        "parse-dont-validate",
+        "footgun",
+        "pit-of-success",
+        "typescript",
+        "fail-fast",
+        "defensive-programming",
+        "hard-to-misuse",
+        "option-type",
+        "total-functions"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Null References: The Billion Dollar Mistake - Tony Hoare (InfoQ)",
+            "url": "https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/",
+            "type": "website"
+        },
+        {
+            "title": "Null pointer - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Null_pointer",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "dependency-inversion-principle",
+    "name": "Dependency Inversion Principle",
+    "summary": "High-level modules should not depend on low-level modules: both should depend on abstractions, and those abstractions should not depend on implementation details.",
+    "explanation": "In a typical layered design, the business logic calls the database code directly. The high-level policy depends on the low-level detail. Change the database, and you have to touch the business logic. Test the business logic, and you need a database.\n\nThe Dependency Inversion Principle (DIP) reverses that. Robert C. Martin described it in the C++ Report in June 1996, and it's the D in SOLID. It has two parts:\n\n1. High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces)\n2. Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions\n\n**What gets \"inverted\"?**\n\nThe direction of the source code dependency. Without DIP, `OrderService` imports `PostgresOrderRepository`. With DIP, `OrderService` depends on an `OrderRepository` interface, and `PostgresOrderRepository` implements it. That interface belongs to the high-level side, so it speaks the language of the business, not the language of the database. The low-level code now depends on the high-level abstraction, instead of the other way around.\n\n**DIP vs. dependency injection**:\n\nThe two often get confused. They're related, but they answer different questions:\n\n- **Dependency inversion** is a design principle: which way your dependencies point\n- **Dependency injection** is a technique: how a component receives its dependencies (through a constructor, a setter or a framework) instead of creating them itself\n\nDependency injection is a common way to apply DIP, because something has to hand the concrete implementation to the code that only knows the abstraction. But you can inject concrete classes without inverting anything, and you can invert dependencies without any DI framework.\n\n**Why it matters**:\n\n- **Replaceable details**: Swap the database, the email provider or the payment gateway without touching the business rules\n- **Testability**: Test the high-level logic with simple fakes instead of real infrastructure\n- **A stable core**: The most important code depends on nothing volatile\n- **Clean boundaries**: It's the mechanism behind Clean Architecture, hexagonal architecture and ports and adapters\n\n**Keep in mind**:\n\nPutting an interface in front of every class doesn't make a design loosely coupled. The value comes from thinking about the interaction between modules, and shaping the abstraction around what the high-level side needs. Depending on stable details is fine, too: nobody wraps the standard library's string type in an interface.\n\n**In AI skills**:\n\nIn AI skills, tight coupling manifests as hardcoded tool references. Skills should depend on abstractions, not concrete implementations. A skill welded to specific tools (e.g., a particular CLI command or a specific search tool) breaks as soon as one of them changes or gets replaced. The fix is to describe intent instead of implementation: \"Search vault\", not \"call qmd\". The harness then resolves that intent to whatever tool is available.",
+    "tags": [
+        "software-development",
+        "software-design",
+        "object-oriented",
+        "design-patterns",
+        "architecture",
+        "maintainability",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaSitemap",
+    "featured": false,
+    "aliases": [
+        "DIP",
+        "Dependency Inversion"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "dependency-injection",
+        "clean-architecture",
+        "abstraction",
+        "coupling",
+        "separation-of-concerns",
+        "single-responsibility-principle",
+        "open-closed-principle",
+        "liskov-substitution-principle",
+        "interface-segregation-principle",
+        "functional-core-imperative-shell",
+        "unit-testing",
+        "agent-skills"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Articles/Software+Architecture+Principles+for+AI+Skills+and+Agents+(Article)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Architecture by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0134494164?tag=dsebastien00-20"
+        },
+        {
+            "title": "Agile Software Development, Principles, Patterns, and Practices by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0135974445?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Dependency inversion principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dependency_inversion_principle",
+            "type": "website"
+        },
+        {
+            "title": "Solid Relevance - Robert C. Martin",
+            "url": "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

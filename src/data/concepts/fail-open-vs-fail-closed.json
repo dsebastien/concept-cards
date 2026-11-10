@@ -1,0 +1,63 @@
+{
+    "id": "fail-open-vs-fail-closed",
+    "name": "Fail Open vs. Fail Closed",
+    "summary": "Two opposite ways a system can behave when a component fails: fail open lets everything through, fail closed blocks everything, and choosing between them is a deliberate design decision.",
+    "explanation": "Every system with a check in it will, one day, have that check break. The authentication service times out. The firewall process crashes. The power goes out on an electronic door lock. What happens next?\n\n- **Fail open**: When the check can't run, the system allows the action. Availability wins\n- **Fail closed**: When the check can't run, the system denies the action. Security wins\n\nNeither is right in general. What matters is that you choose on purpose, instead of discovering the answer during an incident.\n\n**Examples**:\n\n- **Authentication service down**: An API gateway that fails open lets anyone in. Failing closed is almost always the right call here\n- **Rate limiter unavailable**: Failing open is usually acceptable. A few extra requests beat a full outage\n- **Spam filter crashes**: Failing open delivers some spam. Failing closed holds back legitimate mail until the filter is back\n- **Fraud check times out**: A payment system has to choose between blocking good customers and letting fraud through\n- **Firewall or intrusion prevention failure**: Some devices cut all traffic (fail closed), others have a bypass mode that keeps the network up (fail open). Know which one you're running\n- **AI guardrail classifier unreachable**: Letting the model answer without the check is fail open\n\n**The terminology trap**:\n\n\"Fail-safe\" doesn't mean the same thing everywhere. In physical safety, an electric lock that is fail-safe UNLOCKS when it loses power, so people can escape a fire. A fail-secure lock stays locked, to protect what's behind the door. Wikipedia's example: a gate that gives vehicle access to homes uses a fail-safe design, so the fire department can get in. In computer security, \"fail-safe defaults\" (from Saltzer and Schroeder) means the opposite direction: deny access unless it's explicitly granted.\n\nSo when someone says \"fail-safe\", ask: safe for whom? People, data or uptime?\n\n**How to choose**:\n\n1. **Compare the two failures**: What's worse here, wrongly blocking a legitimate user, or wrongly letting a bad action through?\n2. **Decide per component**: An app can fail closed on authentication and fail open on analytics\n3. **Write the decision down**: Make it explicit in the design and the code, not an accident of how an exception gets caught\n4. **Test it**: Kill the dependency on purpose and check that the system does what you decided\n5. **Soften the impact**: Fail closed with a clear error message, a retry, a circuit breaker or a degraded mode (see graceful degradation)\n\n**Watch out for accidental fail open**:\n\nA lot of fail-open behavior isn't designed at all. A `try/catch` that logs the error and returns `true`. A permission check that treats \"unknown\" like \"allowed\". A missing config value that disables a check. Those are footguns hiding in error handling.\n\nFor access decisions, the default should be fail closed (see Secure by Default). It's the Pit of Success applied to failure: when something breaks, the safe outcome happens without anyone having to think about it.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-design",
+        "software-architecture",
+        "reliability",
+        "fault-tolerance",
+        "defaults"
+    ],
+    "category": "Software Development",
+    "icon": "FaUnlock",
+    "featured": false,
+    "aliases": [
+        "Fail-Open",
+        "Fail-Closed",
+        "Fail-Secure",
+        "Fail-Safe vs Fail-Secure",
+        "Fail Open",
+        "Fail Closed"
+    ],
+    "relatedConcepts": [
+        "secure-by-default",
+        "saltzer-and-schroeders-design-principles",
+        "allowlisting",
+        "graceful-degradation",
+        "fail-fast",
+        "fault-tolerance",
+        "circuit-breaker",
+        "defense-in-depth",
+        "footgun",
+        "pit-of-success",
+        "ai-guardrails",
+        "resilience"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Security Engineering by Ross Anderson",
+            "url": "https://www.amazon.com/dp/1119642787?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Fail-safe - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fail-safe",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "saltzer-and-schroeders-design-principles",
+    "name": "Saltzer and Schroeder's Design Principles",
+    "summary": "Eight design principles for building secure systems, published by Jerome Saltzer and Michael Schroeder in 1975 and still used as the foundation of security engineering today.",
+    "explanation": "In 1975, Jerome Saltzer and Michael Schroeder published \"The Protection of Information in Computer Systems\". The paper is about protection mechanisms in operating systems, but one section aged remarkably well: a list of eight design principles. Half a century later, they still show up in security courses, standards and code reviews.\n\n**The eight principles**:\n\n1. **Economy of mechanism**: Keep the design as simple and small as possible. Every extra line of code is a place where a bug can hide (see the KISS principle)\n2. **Fail-safe defaults**: Base access decisions on permission, not exclusion. By default, access is denied, and you explicitly grant what's needed. A mistake then blocks a legitimate user (which gets noticed and fixed), instead of letting an attacker in (which may go unnoticed)\n3. **Complete mediation**: Check every access to every object, every time. Don't cache a permission decision and assume it stays valid\n4. **Open design**: The security of a system should not depend on keeping its design secret. Only keys and passwords should be secret (an idea that goes back to Kerckhoffs's principle in cryptography)\n5. **Separation of privilege**: Where possible, require two independent conditions to grant access (e.g., two keys, two-factor authentication, two people approving a deploy)\n6. **Least privilege**: Every program and every user should operate with the minimum set of privileges needed to do the job\n7. **Least common mechanism**: Minimize the mechanisms shared between users, because every shared channel is a potential path for information to leak\n8. **Psychological acceptability**: The protection mechanism must be easy to use, so people apply it routinely and correctly. If security is painful, people work around it\n\nThe paper also mentions two principles borrowed from physical security, with less confidence that they apply to computers: **work factor** (compare the cost of breaking the system with the attacker's resources) and **compromise recording** (keep reliable records that a breach happened, even if you can't prevent it).\n\n**Why they still matter**:\n\nLook at modern security practices, and you'll find these principles everywhere. Zero trust is complete mediation at network scale. Role-based access control is least privilege. Secure by Default is fail-safe defaults applied to configuration. Psychological acceptability is the Pit of Success, decades before the term existed: if the secure way is hard, people won't use it.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-design",
+        "software-architecture",
+        "principles",
+        "defaults"
+    ],
+    "category": "Principles",
+    "icon": "FaLock",
+    "featured": false,
+    "aliases": [
+        "Saltzer and Schroeder Principles",
+        "Fail-Safe Defaults",
+        "Economy of Mechanism",
+        "Complete Mediation",
+        "Psychological Acceptability",
+        "Separation of Privilege",
+        "Least Common Mechanism",
+        "Open Design"
+    ],
+    "relatedConcepts": [
+        "secure-by-default",
+        "secure-by-design",
+        "least-privilege",
+        "defense-in-depth",
+        "zero-trust",
+        "kiss-principle",
+        "confused-deputy",
+        "pit-of-success",
+        "threat-modeling",
+        "data-security",
+        "fail-open-vs-fail-closed",
+        "allowlisting",
+        "rule-of-least-power",
+        "kerckhoffs-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Saltzer and Schroeder's design principles - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Saltzer_and_Schroeder%27s_design_principles",
+            "type": "website"
+        },
+        {
+            "title": "The Protection of Information in Computer Systems - Saltzer and Schroeder (1975)",
+            "url": "https://www.cs.virginia.edu/~evans/cs551/saltzer/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

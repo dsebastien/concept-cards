@@ -1,0 +1,75 @@
+{
+    "id": "make-illegal-states-unrepresentable",
+    "name": "Make Illegal States Unrepresentable",
+    "summary": "Design your data types so that invalid combinations of values simply can't be created, and let the compiler catch a whole class of bugs for you.",
+    "explanation": "A lot of bugs come from data that should never have existed. A user marked as \"active\" who also has a deletion date. An order that is both \"paid\" and \"cancelled\". A connection that is \"connected\" and still carries a disconnect reason. The code checks for some of these cases. Rarely for all of them.\n\n\"Make illegal states unrepresentable\" is the fix. Yaron Minsky (Jane Street) popularized the phrase in his talks and writing on effective OCaml. Scott Wlaschin then spread it through the F# community, and it's now standard advice in Haskell, Rust, Elm and TypeScript circles. The idea is simple. Stop writing code that checks whether data is valid, and design your types so that invalid data can't exist in the first place.\n\n**The problem**:\n\nConsider a connection record with three fields: `isConnected`, `connectedAt` (optional) and `disconnectReason` (optional). Nothing stops you from writing `isConnected: true` with a `disconnectReason`, or `isConnected: false` without any reason. So every function that touches this record has to check for impossible combinations. Forget one check, and you've got a bug.\n\n**The fix**:\n\nModel each valid state explicitly, usually with a sum type (also called a tagged union, a discriminated union or an enum with data):\n\n- `Connecting`\n- `Connected { connectedAt }`\n- `Disconnected { reason }`\n\nNow each state carries only the data that makes sense for it. You can't write the impossible combinations anymore. And the compiler forces every consumer to handle every state.\n\n**Common techniques**:\n\n- **Sum types** instead of boolean flags plus optional fields\n- **Non-empty collections** when an empty list makes no sense (e.g., an order with zero items)\n- **Value objects / newtypes** like `EmailAddress` or `PositiveInteger` instead of raw strings and numbers\n- **State machines in the type system**, where each transition is a function from one state type to another\n- **Smart constructors**: the only way to create a value, so its rules get enforced exactly once\n\n**Why it's worth the effort**:\n\n- Bugs show up at compile time instead of in production\n- You can delete a LOT of defensive checks scattered across the codebase\n- Your types become precise, executable documentation of the domain\n- Exhaustiveness checks make sure a new state gets handled everywhere\n- Refactoring gets safer, because the compiler points at every place you need to change\n\n**Keep in mind**:\n\nYou can't encode every rule in a type system, and trying to will make your code hard to read. Start with the invariants that cause the most bugs. Validate the rest at clear boundaries (see Parse, Don't Validate).\n\nThis is the Pit of Success applied to data modeling: when invalid states are impossible to express, correct code is the only code you can write.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "functional-programming",
+        "type-systems",
+        "domain-modeling",
+        "error-prevention",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaCube",
+    "featured": false,
+    "aliases": [
+        "Making Illegal States Unrepresentable",
+        "Make Impossible States Impossible",
+        "Type-Driven Design"
+    ],
+    "relatedConcepts": [
+        "pit-of-success",
+        "parse-dont-validate",
+        "design-by-contract",
+        "hard-to-misuse",
+        "value-object",
+        "finite-state-machine",
+        "domain-driven-design",
+        "typescript",
+        "encapsulation",
+        "poka-yoke",
+        "defensive-programming",
+        "schema",
+        "algebraic-data-types",
+        "null-references",
+        "primitive-obsession",
+        "typestate-pattern",
+        "newtype-pattern",
+        "smart-constructor",
+        "correct-by-construction",
+        "option-type",
+        "static-typing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain Modeling Made Functional by Scott Wlaschin",
+            "url": "https://www.amazon.com/dp/1680502549?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Effective ML Revisited - Jane Street",
+            "url": "https://blog.janestreet.com/effective-ml-revisited/",
+            "type": "website"
+        },
+        {
+            "title": "Designing with types: Making illegal states unrepresentable - F# for Fun and Profit",
+            "url": "https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

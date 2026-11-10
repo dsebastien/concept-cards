@@ -30,7 +30,12 @@
         "encapsulation",
         "modularity",
         "dependency-injection",
-        "polymorphism"
+        "polymorphism",
+        "design-by-contract",
+        "open-closed-principle",
+        "liskov-substitution-principle",
+        "interface-segregation-principle",
+        "dependency-inversion-principle"
     ],
     "relatedNotes": [],
     "articles": [

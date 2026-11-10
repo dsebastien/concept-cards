@@ -1,0 +1,88 @@
+{
+    "id": "pit-of-success",
+    "name": "Pit of Success",
+    "summary": "Build systems so that the easiest path is also the right one: people fall into good results by default, and they have to work hard to get things wrong.",
+    "explanation": "Most systems make you climb toward success. You need to know the rules, read the docs and stay careful the whole time. One slip, and you slide back down. The Pit of Success flips that picture. Success sits at the bottom of a pit, and you simply fall into it.\n\nRico Mariani coined the term while working on the .NET platform at Microsoft. His goal: \"we want our customers to simply fall into winning practices by using our platform and frameworks.\" Brad Abrams and Jeff Atwood (Coding Horror) spread the idea later on. The opposite also has a name: the \"Pit of Despair\", where the obvious path leads straight to bugs, security holes or slow code.\n\n**Why does this matter?**\n\nBecause people don't read the manual. They copy the first example they find, keep the defaults and move on. If your system only works when people are careful, it will fail. Not once in a while. REGULARLY. The rules everyone \"knows\" are usually the first ones to get broken.\n\n**How it works**:\n\n- **Defaults do most of the work**: Most people never change a default (see the default effect). So the default must be the safe, correct and fast option\n- **The obvious way is the right way**: The first API, button or command someone reaches for should give a good result\n- **Wrong things take effort**: Dangerous operations need an explicit, deliberate opt-in (e.g., a `--force` flag, an `unsafe` block)\n- **Mistakes are loud and early**: When misuse is possible, the system fails fast and tells you why\n- **Design for the person in a hurry**: Assume they skimmed the docs (if they opened them at all)\n\n**Examples**:\n\n- Template engines that escape HTML by default. You have to opt out to create an XSS hole\n- Database libraries that use parameterized queries by default, which blocks most SQL injection\n- Rust's ownership model: memory-safe code is the default, and `unsafe` code is explicit and easy to search for\n- Type systems that make invalid states impossible to write (see Make Illegal States Unrepresentable)\n- Project templates (i.e., golden paths) that ship with tests, linting and CI already set up\n- Physical design: plugs that only fit one way, doors that show you whether to push or pull\n\n**How to apply it**:\n\n1. List the mistakes people make most often with your system\n2. Ask yourself how the design invites each one\n3. Change the defaults, the interface or the constraints so the mistake stops being the easy path\n4. Make correct usage the shortest and most convenient option\n5. Keep friction for dangerous or irreversible actions, and only there\n\n**Beyond software**:\n\nThis works for your personal systems too. Put the fruit at eye level and the snacks at the back of the cupboard. Leave your phone in another room while you write. Create templates for the work you repeat every week. Each one is a small pit of success: the good behavior happens because it's the easiest option around.\n\nKeep in mind that willpower runs out. A well-designed environment keeps working when you're tired.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "api-design",
+        "design",
+        "user-experience",
+        "developer-experience",
+        "principles",
+        "defaults",
+        "error-prevention"
+    ],
+    "category": "Principles",
+    "icon": "FaArrowDown",
+    "featured": false,
+    "aliases": [
+        "Falling Into the Pit of Success",
+        "The Pit of Success",
+        "Make the Right Thing Easy"
+    ],
+    "relatedConcepts": [
+        "golden-path",
+        "poka-yoke",
+        "default-effect",
+        "default-path",
+        "choice-architecture",
+        "nudge-theory",
+        "affordances",
+        "convention-over-configuration",
+        "defensive-design",
+        "developer-experience",
+        "forcing-function",
+        "guardrails",
+        "fail-fast",
+        "principle-of-least-effort",
+        "friction",
+        "principle-of-least-astonishment",
+        "hard-to-misuse",
+        "make-illegal-states-unrepresentable",
+        "secure-by-default",
+        "parse-dont-validate",
+        "footgun",
+        "escape-hatch",
+        "make-simple-things-simple",
+        "secure-by-design",
+        "opinionated-software",
+        "reversible-vs-irreversible-decisions",
+        "correct-by-construction",
+        "memory-safety",
+        "make-the-change-easy-then-make-the-easy-change"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Framework Design Guidelines by Krzysztof Cwalina, Jeremy Barton and Brad Abrams",
+            "url": "https://www.amazon.com/dp/0135896460?tag=dsebastien00-20"
+        },
+        {
+            "title": "The Design of Everyday Things by Don Norman",
+            "url": "https://www.amazon.com/dp/0465050654?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Falling Into The Pit of Success - Coding Horror",
+            "url": "https://blog.codinghorror.com/falling-into-the-pit-of-success/",
+            "type": "website"
+        },
+        {
+            "title": "The Pit of Success - Brad Abrams (Microsoft)",
+            "url": "https://learn.microsoft.com/en-us/archive/blogs/brada/the-pit-of-success",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

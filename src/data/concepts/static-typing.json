@@ -1,0 +1,86 @@
+{
+    "id": "static-typing",
+    "name": "Static Typing",
+    "summary": "A way of checking the types of values in a program before it runs, so a whole class of errors gets caught by the compiler or type checker instead of by your users.",
+    "explanation": "Every program works with values of different types: numbers, strings, lists, users, orders. The question is when those types get checked.\n\n- **Static typing**: The types are checked before the program runs, by a compiler or a type checker. Java, C#, Rust, Go, Haskell and TypeScript work this way\n- **Dynamic typing**: The types are checked while the program runs, value by value. JavaScript, Python and Ruby work this way by default\n\nWith static typing, calling `user.nmae` or passing a string where a number is expected fails at build time. With dynamic typing, you find out when that line actually runs (sometimes in production, months later).\n\n**Type safety**:\n\nType safety is the guarantee that a program can't perform an operation on a value of the wrong type. Static typing is one way to get it, but the two terms aren't the same thing. C is statically typed and still lets you reinterpret memory as any type you like. Python is dynamically typed and still refuses to add a string to a number. In practice, the strongest guarantees come from languages that are both statically typed and type safe.\n\n**What static types give you**:\n\n- **Earlier feedback**: Many bugs show up in your editor, while you type\n- **Safer refactoring**: Rename a field, and the compiler lists every place that needs to change\n- **Documentation that can't go stale**: Function signatures describe what goes in and what comes out\n- **Better tooling**: Autocompletion, navigation and inline errors all rely on type information\n- **Design tools**: Option types, newtypes and sum types let you encode domain rules directly (see Make Illegal States Unrepresentable)\n\n**Gradual typing**:\n\nJeremy Siek and Walid Taha coined the term \"gradual typing\" in 2006. The idea is to mix static and dynamic typing in the same program, and to add types progressively. TypeScript does this for JavaScript, and Python's type hints (PEP 484, checked by tools like mypy) do it for Python. You can start with an untyped codebase and add types where they pay off most.\n\n**The limit: types vanish at runtime**:\n\nTypeScript's types are erased when the code is compiled to JavaScript. The article on TypeScript's non-goals explains this design choice: TypeScript aims to give developers as much certainty as possible at development time, and does not keep type information at runtime. That's why runtime checks still matter for data coming from back-ends or external clients. A type annotation on an API response is a promise, not a check.\n\nThe fix is to parse untrusted data at the boundary (see Parse, Don't Validate), for example with a schema library like Zod, and let the static types take over from there.\n\n**The tradeoffs**:\n\nStatic types add some upfront work and can feel restrictive for quick experiments. Type systems also can't express every rule. Still, the bigger and longer-lived a codebase gets, the more those early, automatic checks are worth.",
+    "tags": [
+        "software-development",
+        "software-design",
+        "programming",
+        "type-systems",
+        "code-quality",
+        "typescript"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "Static Type Checking",
+        "Type Safety",
+        "Static vs. Dynamic Typing",
+        "Statically Typed",
+        "Gradual Typing"
+    ],
+    "relatedConcepts": [
+        "typescript",
+        "make-illegal-states-unrepresentable",
+        "parse-dont-validate",
+        "newtype-pattern",
+        "option-type",
+        "algebraic-data-types",
+        "null-references",
+        "static-analysis",
+        "primitive-obsession",
+        "smart-constructor",
+        "correct-by-construction",
+        "total-functions",
+        "refactoring",
+        "javascript",
+        "python",
+        "liskov-substitution-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Discover the Non-Goals of TypeScript",
+            "url": "https://www.dsebastien.net/2020-04-25-typescript-non-goals/",
+            "type": "website"
+        }
+    ],
+    "books": [
+        {
+            "title": "Types and Programming Languages by Benjamin C. Pierce",
+            "url": "https://www.amazon.com/dp/0262162091?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Type system - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Type_system",
+            "type": "website"
+        },
+        {
+            "title": "Gradual typing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Gradual_typing",
+            "type": "website"
+        },
+        {
+            "title": "PEP 484 - Type Hints",
+            "url": "https://peps.python.org/pep-0484/",
+            "type": "website"
+        },
+        {
+            "title": "mypy documentation",
+            "url": "https://mypy.readthedocs.io/en/stable/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

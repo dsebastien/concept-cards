@@ -1,0 +1,58 @@
+{
+    "id": "rule-of-least-power",
+    "name": "Rule of Least Power",
+    "summary": "A design principle from the W3C: when you have a choice, use the least powerful language that can do the job, so the result stays easy to analyze, reuse and transform.",
+    "explanation": "In 2006, the W3C Technical Architecture Group (TAG) published a finding called \"The Rule of Least Power\", written by Tim Berners-Lee and Noah Mendelsohn. The idea goes back to the \"Principle of Least Power\" in Berners-Lee's 1998 notes on web design principles. The finding puts it simply: when publishing on the web, choose the least powerful language suitable for a given purpose.\n\nThat sounds backwards at first. Why would you choose LESS power?\n\n**Why less power is often better**:\n\nA powerful language (e.g., a general-purpose programming language) can express anything. The price is that nobody can know what a program does without running it. A less powerful language (e.g., HTML, JSON, CSS, a configuration format) can express much less, but what it does express can be read, searched, validated, transformed and reused by other tools.\n\nConsider a weather forecast:\n\n- **As a JavaScript program** that draws the forecast on screen: only a browser running the code can see the data\n- **As a table in HTML**: search engines, screen readers and scrapers can read it\n- **As structured data (JSON, RDF)**: any program can extract the temperature for Tuesday\n\nThe less powerful the format, the more ways other people and programs can use it.\n\n**Where you see the rule**:\n\n- **Declarative over imperative**: SQL describes the data you want, HTML describes a document, CSS describes styles\n- **Data over code**: configuration in JSON or YAML instead of executable scripts\n- **Plain text and Markdown** for notes and documentation, instead of proprietary formats only one app can open (see file over app)\n- **Regular expressions or parsers** for structured input, instead of arbitrary code\n- **Templates with limited logic** (e.g., Mustache) instead of templates that can run anything\n\n**The benefits**:\n\n- **Analyzable**: Tools can check, lint and validate the content without executing it\n- **Safer**: Less power means less room for malicious or buggy behavior\n- **Reusable**: Other programs can consume the data for purposes the author never imagined\n- **Durable**: Simple formats outlive the tools that created them\n\n**Keep in mind**:\n\nThe rule says \"least powerful language SUITABLE for the purpose\". When a simple format can't express what you need, people start encoding logic in strings and comments, and you end up with the worst of both worlds. Choose the simplest option that fits, then stop.\n\nThe rule is a cousin of the KISS principle and Make Simple Things Simple, applied to the choice of languages and formats.",
+    "tags": [
+        "software-design",
+        "software-architecture",
+        "web",
+        "standards",
+        "simplicity",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaCompress",
+    "featured": false,
+    "aliases": [
+        "Principle of Least Power",
+        "Least Power Principle"
+    ],
+    "relatedConcepts": [
+        "kiss-principle",
+        "make-simple-things-simple",
+        "plain-text",
+        "file-over-app",
+        "html",
+        "json",
+        "markdown",
+        "sql",
+        "occams-razor",
+        "worse-is-better",
+        "yagni",
+        "secure-by-design"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "The Rule of Least Power - W3C TAG Finding (2006)",
+            "url": "https://www.w3.org/2001/tag/doc/leastPower.html",
+            "type": "website"
+        },
+        {
+            "title": "Principles of Design - Tim Berners-Lee",
+            "url": "https://www.w3.org/DesignIssues/Principles.html",
+            "type": "website"
+        },
+        {
+            "title": "Rule of least power - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Rule_of_least_power",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

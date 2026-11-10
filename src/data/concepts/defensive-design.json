@@ -25,7 +25,11 @@
         "idempotency",
         "fault-tolerance",
         "fail-fast",
-        "pre-mortem-analysis"
+        "pre-mortem-analysis",
+        "pit-of-success",
+        "principle-of-least-astonishment",
+        "hard-to-misuse",
+        "secure-by-default"
     ],
     "relatedNotes": [],
     "references": [

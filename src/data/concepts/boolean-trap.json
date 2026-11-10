@@ -1,0 +1,61 @@
+{
+    "id": "boolean-trap",
+    "name": "Boolean Trap",
+    "summary": "An API design mistake where boolean parameters make function calls unreadable and easy to get wrong, because true and false say nothing about what they control.",
+    "explanation": "Read this line: `window.resize(800, 600, true, false)`. What do `true` and `false` mean? Animate? Keep the aspect ratio? Center the window? You can't know without opening the documentation. And neither can the person reviewing the code.\n\nThat's the boolean trap. Ariya Hidayat gave it that name in his \"Hall of API Shame\" series in 2011. Martin Fowler describes the same problem as \"flag arguments\", and Robert C. Martin's Clean Code recommends avoiding them altogether.\n\n**Why it's a trap**:\n\n- **Unreadable call sites**: `true` carries no meaning on its own\n- **Easy to swap**: With two booleans next to each other, putting them in the wrong order compiles fine\n- **Hidden double behavior**: A boolean flag often means the function does two different things, and should really be two functions\n- **Hard to extend**: The day you need a third option, a boolean can't represent it\n\n**Examples of the trap and the fix**:\n\n- `setVisible(false)` reads fine, but nobody can tell whether `false` in `widget.repaint(false)` means \"don't erase the background\" or \"don't wait\"\n- `render(true)` → `renderPreview()` and `renderFinal()`\n- `copy(src, dst, true)` → `copy(src, dst, { overwrite: true })`\n- `createSlider(true)` → `createSlider(Orientation.Horizontal)`\n\n**How to avoid it**:\n\n1. **Split the function** when the boolean selects between two behaviors\n2. **Use an enum** for named choices (there might be more than two one day)\n3. **Use named parameters or an options object** if your language supports them\n4. **Lean on your editor's parameter hints**, but don't rely on them: code is also read in diffs, logs and reviews\n\nThe boolean trap is a small, everyday example of the Hard to Misuse principle. An interface should make the correct call obvious from reading it.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "api-design",
+        "programming",
+        "code-quality",
+        "anti-patterns"
+    ],
+    "category": "Software Development",
+    "icon": "FaQuestionCircle",
+    "featured": false,
+    "aliases": [
+        "Flag Argument",
+        "Boolean Parameter Trap",
+        "Boolean Flag Parameters"
+    ],
+    "relatedConcepts": [
+        "hard-to-misuse",
+        "primitive-obsession",
+        "clean-code",
+        "principle-of-least-astonishment",
+        "footgun",
+        "api",
+        "code-smell",
+        "refactoring",
+        "developer-experience"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Clean Code by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0132350882?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Hall of API Shame: Boolean Trap - Ariya Hidayat",
+            "url": "https://ariya.io/2011/08/hall-of-api-shame-boolean-trap",
+            "type": "website"
+        },
+        {
+            "title": "FlagArgument - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/FlagArgument.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "primitive-obsession",
+    "name": "Primitive Obsession",
+    "summary": "A code smell where primitive types like strings, integers and booleans represent domain concepts that deserve their own small types.",
+    "explanation": "An email address is a `string`. A price is a `number`. A user ID is a `string` too, and so is an order ID. Everything compiles. Then one day, someone passes an order ID where a user ID was expected, or adds euros to dollars, and nothing stops them.\n\nMartin Fowler listed Primitive Obsession as a code smell in Refactoring. The smell isn't the use of primitives itself. It's using them for concepts that carry rules, units or meaning of their own.\n\n**Signs you're dealing with it**:\n\n- Functions with several parameters of the same primitive type: `transfer(fromId: string, toId: string, amount: number)`\n- Validation of the same value repeated in many places (e.g., checking email format in the form, the API and the database layer)\n- Magic strings and numbers for states and types: `status === \"actv\"`\n- Money stored as a float, with the currency in a separate variable (or nowhere)\n- Comments explaining what a value really is: `timeout: number // in milliseconds`\n- Groups of primitives that always travel together (e.g., `street`, `city`, `zip`, `country`)\n\n**Why it hurts**:\n\n- The compiler can't tell different concepts apart, so mix-ups go unnoticed\n- Rules get scattered and duplicated instead of living in one place\n- Invalid values can exist anywhere in the system\n- The code doesn't speak the language of the domain (see ubiquitous language)\n\n**How to fix it**:\n\n1. **Replace the primitive with a small type**: `EmailAddress`, `UserId`, `Money`, `Duration` (see value objects)\n2. **Validate once, at creation**: the type's constructor rejects invalid values, so every instance is valid (see Parse, Don't Validate)\n3. **Group related primitives** into a single object (e.g., `Address`, `DateRange`)\n4. **Replace magic strings with enums or sum types** for states and categories\n5. **Use your language's lightweight options**: newtypes in Rust and Haskell, branded types in TypeScript, value classes in Kotlin, records in Java and C#\n\nThe book Secure by Design calls these small types \"domain primitives\", and shows how they block entire categories of attacks: if invalid input can't become an `EmailAddress`, it can't reach the code that trusts one.\n\nKeep in mind that this is about domain concepts. A loop counter can stay an `int`.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "code-quality",
+        "refactoring",
+        "domain-modeling",
+        "anti-patterns"
+    ],
+    "category": "Software Development",
+    "icon": "FaCubes",
+    "featured": false,
+    "aliases": [
+        "Primitive Obsession Code Smell",
+        "Domain Primitives"
+    ],
+    "relatedConcepts": [
+        "value-object",
+        "code-smell",
+        "refactoring",
+        "make-illegal-states-unrepresentable",
+        "parse-dont-validate",
+        "hard-to-misuse",
+        "boolean-trap",
+        "domain-driven-design",
+        "ubiquitous-language",
+        "secure-by-design",
+        "clean-code",
+        "algebraic-data-types",
+        "newtype-pattern",
+        "smart-constructor",
+        "stringly-typed"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Refactoring by Martin Fowler",
+            "url": "https://www.amazon.com/dp/0134757599?tag=dsebastien00-20"
+        },
+        {
+            "title": "Secure by Design by Dan Bergh Johnsson, Daniel Deogun and Daniel Sawano",
+            "url": "https://www.amazon.com/dp/1617294357?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Primitive Obsession - Refactoring.Guru",
+            "url": "https://refactoring.guru/smells/primitive-obsession",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

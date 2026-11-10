@@ -1,0 +1,77 @@
+{
+    "id": "open-closed-principle",
+    "name": "Open-Closed Principle",
+    "summary": "Software entities should be open for extension but closed for modification: you add new behavior by adding new code, instead of changing code that already works.",
+    "explanation": "Every time you modify working code, you risk breaking it. And everything that depends on it. The Open-Closed Principle (OCP) is about avoiding that risk: design modules so that new behavior can be added without touching what already works.\n\nThe principle states that \"software entities should be open for extension, but closed for modification\". Bertrand Meyer introduced the term in 1988, in Object-Oriented Software Construction. It's the O in SOLID.\n\n**Two versions of the same idea**:\n\n- **Meyer's version (1988)**: Once a class is finished and published, you stop changing it, except to fix bugs. New features go into new subclasses that inherit from it (implementation inheritance)\n- **The polymorphic version (1990s)**: Robert C. Martin's 1996 article \"The Open-Closed Principle\" moved the focus to abstract interfaces. The interface stays closed to modification, and you extend the system by writing new implementations of it. This is the version most people mean today\n\nMartin later summarized it in one line: \"A Module should be open for extension but closed for modification.\"\n\n**An example**:\n\nConsider a function that calculates shipping costs with a `switch` on the carrier: `case \"DHL\"`, `case \"UPS\"`, and so on. Every new carrier means opening that function and editing it, along with every other `switch` on carriers scattered through the codebase. With OCP, you define a `ShippingCarrier` interface with a `cost(parcel)` method, and each carrier becomes its own implementation. Adding a carrier now means adding a class. The existing, tested code stays untouched.\n\n**Common ways to apply it**:\n\n- **Interfaces and polymorphism** instead of `switch` or `if/else` chains on types\n- **Strategy and plugin patterns**, where new behavior plugs in from the outside\n- **Configuration and data** instead of hardcoded rules\n- **Hooks, events and extension points** in frameworks and tools (e.g., Obsidian plugins add features to the app without modifying it)\n\n**Keep in mind**:\n\nYou can't make code closed against every possible change, and trying to creates layers of abstraction nobody needs (see YAGNI). Every abstraction is a bet on which changes are likely. A pragmatic approach: write the simple version first, then introduce the extension point when the second or third variation actually shows up.\n\n**In AI skills**:\n\nThe same principle applies to AI skills: extend via references, not modification. Instead of growing a skill's main file every time it needs to handle a new case, keep the core stable and load additional material by reference, only when it's needed (see Prompt Lazy Loading and progressive disclosure, with its three levels).",
+    "tags": [
+        "software-development",
+        "software-design",
+        "object-oriented",
+        "design-patterns",
+        "architecture",
+        "maintainability",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaPuzzlePiece",
+    "featured": false,
+    "aliases": [
+        "Open/Closed Principle",
+        "OCP",
+        "Open Closed Principle"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "single-responsibility-principle",
+        "liskov-substitution-principle",
+        "interface-segregation-principle",
+        "dependency-inversion-principle",
+        "polymorphism",
+        "abstraction",
+        "encapsulation",
+        "yagni",
+        "prompt-lazy-loading",
+        "progressive-disclosure",
+        "design-by-contract",
+        "clean-architecture"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Articles/Software+Architecture+Principles+for+AI+Skills+and+Agents+(Article)"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Object-Oriented Software Construction by Bertrand Meyer",
+            "url": "https://www.amazon.com/dp/0136291554?tag=dsebastien00-20"
+        },
+        {
+            "title": "Agile Software Development, Principles, Patterns, and Practices by Robert C. Martin",
+            "url": "https://www.amazon.com/dp/0135974445?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Open–closed principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle",
+            "type": "website"
+        },
+        {
+            "title": "The Open Closed Principle - Robert C. Martin",
+            "url": "https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html",
+            "type": "website"
+        },
+        {
+            "title": "Solid Relevance - Robert C. Martin",
+            "url": "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

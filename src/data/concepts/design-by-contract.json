@@ -1,0 +1,73 @@
+{
+    "id": "design-by-contract",
+    "name": "Design by Contract",
+    "summary": "A methodology where software components define precise, verifiable interface specifications: what they require (preconditions), what they guarantee (postconditions) and what stays true (invariants).",
+    "explanation": "Every function call is a deal between two parties. The caller wants something done. The function needs certain things to be true to do it. Most of the time, that deal stays implicit and written down nowhere. That's exactly where bugs hide.\n\nDesign by Contract (DbC) makes the deal explicit. Bertrand Meyer introduced it in the 1980s with the Eiffel programming language, and described it in depth in Object-Oriented Software Construction (1988). Each component declares its preconditions (what it requires), its postconditions (what it guarantees) and its invariants (what stays true). Just like in a business contract, each party has obligations and gets benefits in return.\n\n**The three parts**:\n\n- **Preconditions**: What the caller must provide. If violated, the fault is the caller's\n- **Postconditions**: What the component guarantees on return. If violated, the fault is the component's\n- **Invariants**: Properties that remain true before and after every operation\n\n**An example**:\n\nA `withdraw(amount)` method on a bank account could declare:\n\n- Precondition: `amount > 0` and `amount <= balance`\n- Postcondition: `balance == old balance - amount`\n- Invariant: `balance >= 0`\n\n**Why it matters**:\n\nContracts make interfaces explicit. Debugging becomes straightforward: check the preconditions, then the postconditions. Blame is unambiguous. And components can be swapped if they satisfy the same contract, which is what the Liskov Substitution Principle in SOLID asks for.\n\nAnd there's more... A component can trust its preconditions instead of defensively re-checking everything, so the code gets simpler. The contracts also double as precise documentation that a machine can verify.\n\n**Design by Contract vs. Defensive Programming**:\n\nDefensive programming checks for every possible bad input, everywhere. Design by Contract assigns responsibility instead: the caller ensures the preconditions, the callee ensures the postconditions. You avoid redundant checks, and a violation shows up as what it really is: a bug.\n\n**In practice**:\n\nFew mainstream languages support contracts natively. Eiffel, Ada/SPARK, D and Kotlin are the exceptions, and C++26 adds them too. Elsewhere, you approximate DbC with assertions, type systems, validation at the boundaries, property-based tests and schema libraries.\n\n**In AI skills**:\n\nAI skills lack formal type systems, but contract thinking still applies:\n\n- **Preconditions**: \"This skill requires a note path as argument and the osk-obsidian-cli context loader\"\n- **Postconditions**: \"This skill outputs a markdown document with H1 title matching the filename\"\n- **Invariants**: \"This skill never modifies files outside the target folder\"\n\nMaking these explicit (e.g., in a dedicated Input/Output section of SKILL.md) enables substitution, composition and trust between skills that chain into each other. Today, most skill \"contracts\" are implicit. Formalizing them is the next step for skill ecosystems.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "software-engineering",
+        "programming",
+        "interfaces",
+        "reliability",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaFileContract",
+    "featured": false,
+    "aliases": [
+        "DbC",
+        "Contract Programming",
+        "Programming by Contract",
+        "Design-by-Contract Programming"
+    ],
+    "relatedConcepts": [
+        "solid-principles",
+        "defensive-programming",
+        "fail-fast",
+        "encapsulation",
+        "make-illegal-states-unrepresentable",
+        "parse-dont-validate",
+        "hard-to-misuse",
+        "api",
+        "unit-testing",
+        "schema",
+        "null-references",
+        "assertions",
+        "property-based-testing",
+        "total-functions",
+        "correct-by-construction",
+        "liskov-substitution-principle",
+        "guard-clauses"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Design+by+Contract"
+    ],
+    "articles": [],
+    "books": [
+        {
+            "title": "Object-Oriented Software Construction by Bertrand Meyer",
+            "url": "https://www.amazon.com/dp/0136291554?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Design by contract - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Design_by_contract",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        },
+        {
+            "title": "Model Context Protocol (MCP) Workshop",
+            "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

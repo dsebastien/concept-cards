@@ -1,0 +1,70 @@
+{
+    "id": "algebraic-data-types",
+    "name": "Algebraic Data Types",
+    "summary": "Composite types built by combining other types in two ways: \"and\" (product types, like records) and \"or\" (sum types, like tagged unions), which lets you model a domain precisely.",
+    "explanation": "Most programmers know product types already, even if they don't use the name. A record, a struct or a class with fields is a product type: a `User` has a name AND an email AND an age. What many mainstream languages were missing for a long time is the other half: sum types, where a value is one option OR another.\n\n**The two building blocks**:\n\n- **Product types (AND)**: Combine several values at once. A `Point` has an `x` and a `y`. Records, structs, tuples and classes are product types\n- **Sum types (OR)**: A value is exactly one of several variants, each with its own data. A `PaymentMethod` is a `Card { number }`, OR `PayPal { email }`, OR `Cash`. Also called tagged unions, discriminated unions, variants or enums with data\n\nWhy \"algebraic\"? Count the possible values. A product of a boolean (2 values) and a 3-value enum has 2 × 3 = 6 possible values. A sum of the same two types has 2 + 3 = 5. Types combine like multiplication and addition.\n\n**Why sum types are such a big deal**:\n\nWithout sum types, you model \"one of several options\" with a bag of optional fields and a type flag. That opens the door to impossible combinations (a `Cash` payment with a card number). With sum types, each variant carries only the data that makes sense for it, and the impossible combinations can't be written. That's exactly what Make Illegal States Unrepresentable is about.\n\n**Pattern matching and exhaustiveness**:\n\nSum types usually come with pattern matching: you handle each variant in its own branch. And the compiler checks that you've handled ALL of them. Add a new variant later (e.g., `BankTransfer`), and the compiler points at every place in the code that needs to handle it. Few refactoring tools are that reliable.\n\n**Where you'll find them**:\n\n- **Native support**: Haskell, OCaml, F#, Elm, Rust (`enum`), Swift (`enum` with associated values), Scala\n- **Added more recently**: Kotlin and Java (sealed classes and interfaces, plus records), C# (records and pattern matching)\n- **By convention**: TypeScript's discriminated unions (a shared `type` field plus union types)\n\n**Common uses**:\n\n- Results that can fail: `Result = Ok(value) | Error(reason)`\n- Values that can be absent: `Option = Some(value) | None` (see Null References)\n- States of a process or a UI: `Loading | Loaded(data) | Failed(error)` (see finite-state machines)\n- Commands, events and messages in a system\n\nModel with sum types, and your types start describing the domain: which states exist, what data each one carries, and which cases the code must handle.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "functional-programming",
+        "type-systems",
+        "domain-modeling"
+    ],
+    "category": "Software Development",
+    "icon": "FaCube",
+    "featured": false,
+    "aliases": [
+        "ADT",
+        "ADTs",
+        "Sum Types",
+        "Tagged Unions",
+        "Discriminated Unions",
+        "Product Types",
+        "Variant Types"
+    ],
+    "relatedConcepts": [
+        "make-illegal-states-unrepresentable",
+        "pattern-matching",
+        "null-references",
+        "finite-state-machine",
+        "parse-dont-validate",
+        "value-object",
+        "domain-driven-design",
+        "typescript",
+        "primitive-obsession",
+        "pit-of-success",
+        "option-type",
+        "typestate-pattern",
+        "total-functions",
+        "static-typing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Domain Modeling Made Functional by Scott Wlaschin",
+            "url": "https://www.amazon.com/dp/1680502549?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Algebraic data type - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algebraic_data_type",
+            "type": "website"
+        },
+        {
+            "title": "Tagged union - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tagged_union",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}

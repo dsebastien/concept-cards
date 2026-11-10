@@ -1,0 +1,66 @@
+{
+    "id": "tell-dont-ask",
+    "name": "Tell, Don't Ask",
+    "summary": "An object-oriented design principle: instead of asking an object for its data and making decisions with it, tell the object what to do and let it decide.",
+    "explanation": "Look at this code: `if (account.getBalance() >= amount) { account.setBalance(account.getBalance() - amount) }`. The caller asks the account for its data, makes a decision, and then changes the account's state from the outside. The rule \"you can't withdraw more than your balance\" now lives in the caller. And in every other caller that needs the same check.\n\nTell, Don't Ask says to write `account.withdraw(amount)` instead. The account knows its own data and its own rules. You tell it what you want, and it takes care of the rest.\n\n**Where it comes from**:\n\nAndy Hunt and Dave Thomas (the authors of The Pragmatic Programmer) popularized the principle in \"The Art of Enbugging\", a column in IEEE Software (January/February 2003). Citing Alec Sharp's Smalltalk by Example, they describe the difference: procedural code tends to get information and then make decisions based on it, while object-oriented code tells objects to do things.\n\nMartin Fowler describes it as a reminder that object orientation is about bundling data with the functions that operate on that data.\n\n**Why it helps**:\n\n- **Rules live in one place**: The object that owns the data also owns the logic, so you don't duplicate checks across callers\n- **Better encapsulation**: Callers don't depend on the object's internal structure, so you can change it freely\n- **Fewer invalid states**: When only the object can change its own state, it can keep its invariants intact (see Design by Contract)\n- **Code that reads like the domain**: `order.ship()` says more than five lines of getters and setters\n\n**The connection to the Law of Demeter**:\n\nThe same IEEE Software column also covers the Law of Demeter. Both push in the same direction: talk to the objects you work with directly, don't reach through them into their internals. A chain like `order.getCustomer().getAddress().getCity()` violates both.\n\n**Don't overdo it**:\n\nFowler adds a caution. He points out that the principle can push people to become \"getter eradicators\", trying to remove every query method. But objects sometimes collaborate well by providing information, for example when they transform input data to make life simpler for their clients. The goal is to keep data and the behavior that uses it together, not to ban getters.\n\nA good rule of thumb: if a caller grabs data from an object only to make a decision the object could make itself, move that decision into the object.",
+    "tags": [
+        "software-design",
+        "software-development",
+        "programming",
+        "object-oriented-programming",
+        "encapsulation",
+        "code-quality",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaBullhorn",
+    "featured": false,
+    "aliases": [
+        "Tell Dont Ask",
+        "Tell-Dont-Ask",
+        "TDA"
+    ],
+    "relatedConcepts": [
+        "law-of-demeter",
+        "encapsulation",
+        "design-by-contract",
+        "single-responsibility-principle",
+        "solid-principles",
+        "clean-code",
+        "refactoring",
+        "code-smell",
+        "primitive-obsession",
+        "open-closed-principle",
+        "liskov-substitution-principle",
+        "interface-segregation-principle",
+        "dependency-inversion-principle"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "The Pragmatic Programmer by David Thomas and Andrew Hunt",
+            "url": "https://www.amazon.com/dp/0135957052?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "TellDontAsk - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/TellDontAsk.html",
+            "type": "website"
+        },
+        {
+            "title": "The Art of Enbugging - Andy Hunt and Dave Thomas (IEEE Software, 2003)",
+            "url": "https://media.pragprog.com/articles/jan_03_enbug.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10"
+}
