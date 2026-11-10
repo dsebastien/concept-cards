@@ -1,3 +1,8 @@
+## [12.16.0](https://github.com/dsebastien/concept-cards/compare/12.15.0...12.16.0) (2026-11-10)
+
+### Features
+
+* **concepts:** add Pit of Success and 39 related software design concepts ([39df954](https://github.com/dsebastien/concept-cards/commit/39df954f16558ddb2b6d12f0be799c149faecfd0))
 ## [12.15.0](https://github.com/dsebastien/concept-cards/compare/12.14.2...12.15.0) (2026-10-17)
 
 ### Features
