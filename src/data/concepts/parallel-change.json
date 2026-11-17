@@ -1,0 +1,57 @@
+{
+    "id": "parallel-change",
+    "name": "Parallel Change",
+    "summary": "A technique to make a breaking change safely in three steps: expand the interface to support old and new, migrate all clients, then contract by removing the old.",
+    "explanation": "Parallel change, also known as expand and contract, splits a risky incompatible change into steps that are each safe to release. Instead of changing an interface and all of its users in one coordinated big bang, you let the old and the new way exist side by side for a while.\n\n**The three phases**:\n\n1. **Expand**: Add the new version next to the old one. Both work. Nothing breaks\n2. **Migrate**: Move the clients from the old to the new, one at a time, each at its own pace\n3. **Contract**: Once nothing uses the old version anymore, remove it\n\n**Example: renaming a database column**:\n\n1. Add the new column. Change the code to write to both columns\n2. Copy the existing data to the new column\n3. Switch the reads to the new column\n4. Stop writing to the old column\n5. Drop the old column\n\nEach step is a small, separate deployment. The application never stops, and each step can be rolled back.\n\n**Other uses**:\n\n- **APIs**: Add the new field or endpoint, mark the old one as deprecated, remove it when traffic reaches zero\n- **Method signatures**: Add the new method, have the old one delegate to it, migrate callers, delete the old one\n- **Message formats**: Publish both formats until every consumer has moved\n- **Infrastructure**: Blue-green deployments and the strangler fig pattern follow the same logic on a larger scale\n\n**Why it works**:\n\n- No release has to be synchronized between teams or services\n- The system is always in a working state, which is what continuous delivery requires\n- Problems show up one client at a time, not all at once\n\n**Pitfalls**:\n\n- **Never contracting**: The migration stalls at 90%, and you now maintain two ways forever. Plan the contract phase, give it an owner and a date\n- **Keeping both in sync**: During the migration, old and new have to stay consistent. Double writes need care\n- **Not knowing who still uses the old way**: Measure usage. Don't guess\n- **Overkill for small scopes**: Inside a single codebase with good tests, an automated refactoring is often enough",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "refactoring",
+        "patterns",
+        "compatibility",
+        "deployment",
+        "databases"
+    ],
+    "category": "Software Development",
+    "icon": "FaExpandArrowsAlt",
+    "featured": false,
+    "aliases": [
+        "Expand and Contract",
+        "Expand-Contract Pattern",
+        "Expand/Migrate/Contract",
+        "Zero-Downtime Migration"
+    ],
+    "relatedConcepts": [
+        "breaking-change",
+        "backward-compatibility",
+        "deprecation",
+        "schema-evolution",
+        "strangler-fig-pattern",
+        "blue-green-deployment",
+        "continuous-delivery",
+        "feature-flags",
+        "refactoring",
+        "trunk-based-development",
+        "api-versioning",
+        "evolutionary-architecture",
+        "make-the-change-easy-then-make-the-easy-change"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Parallel Change - Danilo Sato",
+            "url": "https://martinfowler.com/bliki/ParallelChange.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

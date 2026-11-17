@@ -1,0 +1,62 @@
+{
+    "id": "undefined-behavior",
+    "name": "Undefined Behavior",
+    "summary": "Program behavior on which a language specification places no requirements at all. Once a program triggers it, anything can happen.",
+    "explanation": "Some language specifications, with C and C++ as the best-known cases, declare certain operations to be undefined. If your program does one of them, the standard says nothing about what happens next. It can crash, give a wrong result, or seem to work. The compiler is allowed to assume that it never happens.\n\n**Classic examples in C and C++**:\n\n- Reading or writing outside the bounds of an array\n- Dereferencing a null pointer\n- Using memory after it was freed\n- Signed integer overflow\n- Reading a variable that was never initialized\n- Data races between threads\n\n**Three categories that are easy to confuse**:\n\n- **Implementation-defined**: Each compiler chooses and documents its choice. Example: the size of an `int`\n- **Unspecified**: The compiler picks one of several valid options and doesn't have to say which. Example: the order in which function arguments are evaluated\n- **Undefined**: No requirements at all\n\n**Why it exists**:\n\n- **Performance**: The compiler doesn't have to add checks, and can optimize on the assumption that the code is correct\n- **Portability**: The same language can run on very different hardware without forcing one behavior that is slow on some machines\n\n**Why it's dangerous**:\n\n- **Optimizers reason backwards from it**: If dereferencing a pointer would be undefined when it's null, the compiler concludes that the pointer isn't null, and removes your later null check\n- **It works until it doesn't**: The code passes every test for years, then breaks with a new compiler version or another optimization level. The program relied on what one compiler happened to do, not on what the language promised (see Hyrum's Law)\n- **It's the root of most memory safety vulnerabilities**\n\n**What to do**:\n\n- Use sanitizers and static analysis in testing, such as AddressSanitizer and UndefinedBehaviorSanitizer\n- Prefer languages that are memory safe. Safe Rust, for example, rules out undefined behavior\n- Turn on compiler options that define the behavior, when they exist\n\n**The lesson for designers**:\n\nEvery gap in a specification gets filled by implementations, and each one fills it differently. For a protocol or an API, that means interoperability bugs and security holes. Define what happens for every input, including the invalid ones.",
+    "tags": [
+        "programming",
+        "software-engineering",
+        "security",
+        "computer-science",
+        "vulnerabilities",
+        "code-quality"
+    ],
+    "category": "Software Development",
+    "icon": "FaSkullCrossbones",
+    "featured": false,
+    "aliases": [
+        "UB",
+        "Undefined Behaviour",
+        "Nasal Demons",
+        "Unspecified Behavior",
+        "Implementation-Defined Behavior"
+    ],
+    "relatedConcepts": [
+        "memory-safety",
+        "footgun",
+        "hyrums-law",
+        "total-functions",
+        "design-by-contract",
+        "assertions",
+        "static-typing",
+        "bug-compatibility",
+        "reference-implementation",
+        "parser-differential",
+        "law-of-leaky-abstractions",
+        "correct-by-construction",
+        "null-references"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Undefined behavior - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Undefined_behavior",
+            "type": "website"
+        },
+        {
+            "title": "A Guide to Undefined Behavior in C and C++ - John Regehr",
+            "url": "https://blog.regehr.org/archives/213",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

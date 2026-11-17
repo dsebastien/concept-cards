@@ -1,0 +1,66 @@
+{
+    "id": "robustness",
+    "name": "Robustness",
+    "summary": "The ability of a system to keep working correctly when it meets invalid input, stress, failures or conditions that its designers did not plan for.",
+    "explanation": "A robust system doesn't need ideal conditions. Feed it bad data, overload it, take away a dependency, use it in a way nobody anticipated: it keeps doing its job, or at least it fails in a controlled and safe way. A fragile system works perfectly right up to the first surprise.\n\n**Robust, resilient, antifragile**:\n\n- **Robust**: Withstands the shock and stays the same\n- **Resilient**: Gets disturbed, then recovers\n- **Antifragile**: Gets better because of the shock\n\nIn Nassim Taleb's triad, robust sits in the middle: neither harmed by volatility, nor improved by it.\n\n**Where robustness comes from**:\n\n- **Margins**: Capacity beyond what the average case needs (see Margin of Safety)\n- **Redundancy**: More than one way to get the job done\n- **Input checking**: Don't let bad data in (see Input Validation and Defensive Programming)\n- **Isolation**: A failure in one part doesn't spread to the others\n- **Graceful degradation**: Lose a feature, not the whole system\n- **Simplicity**: Fewer parts, fewer interactions, fewer surprises\n- **Testing beyond the happy path**: Fuzzing, stress tests, fault injection\n\n**The price**:\n\nRobustness is paid for in efficiency. Margins and redundancy look like waste, until the day they're needed. A system tuned for average conditions is cheap and fragile.\n\n**Robust yet fragile**:\n\nComplex systems are often very robust against the disturbances they were designed for, and surprisingly fragile against the ones they weren't. Every protection adds complexity, and complexity brings new failure modes. Robustness against everything doesn't exist. You choose what to be robust against.\n\n**Robustness can hide problems**:\n\nA system that silently absorbs errors gives no signal that something is wrong. That's the main criticism of the robustness principle (Postel's Law): tolerance today, decay tomorrow. Sometimes the robust choice for the whole system is a component that fails fast and loudly.\n\n**Outside software**:\n\n- **Statistics**: A robust estimator, such as the median, isn't thrown off by outliers\n- **Decisions**: A robust plan is acceptable across many scenarios, instead of optimal for one forecast\n- **Biology**: Organisms keep functioning despite mutations and changing environments",
+    "tags": [
+        "systems-thinking",
+        "reliability",
+        "resilience",
+        "software-engineering",
+        "risk-management",
+        "fault-tolerance",
+        "principles"
+    ],
+    "category": "Principles",
+    "icon": "FaShieldAlt",
+    "featured": false,
+    "aliases": [
+        "Robust Systems",
+        "System Robustness",
+        "Robust Design",
+        "Robust Yet Fragile"
+    ],
+    "relatedConcepts": [
+        "resilience",
+        "antifragility",
+        "fault-tolerance",
+        "reliability",
+        "postels-law",
+        "redundancy",
+        "margin-of-safety",
+        "graceful-degradation",
+        "defensive-programming",
+        "defensive-design",
+        "fail-fast",
+        "input-validation",
+        "chaos-engineering",
+        "single-point-of-failure",
+        "resilience-engineering",
+        "slack-resources",
+        "silent-failure"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Release It! by Michael T. Nygard",
+            "url": "https://www.amazon.com/dp/1680502395?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Robustness (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Robustness_(computer_science)",
+            "type": "website"
+        },
+        {
+            "title": "Robustness - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Robustness",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

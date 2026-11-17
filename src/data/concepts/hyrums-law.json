@@ -27,7 +27,19 @@
         "abstraction",
         "lehmans-laws",
         "hard-to-misuse",
-        "law-of-leaky-abstractions"
+        "law-of-leaky-abstractions",
+        "tolerant-reader",
+        "protocol-ossification",
+        "bug-compatibility",
+        "backward-compatibility",
+        "de-facto-standard",
+        "breaking-change",
+        "consumer-driven-contracts",
+        "protocol-greasing",
+        "deprecation",
+        "reference-implementation",
+        "undefined-behavior",
+        "api-versioning"
     ],
     "relatedNotes": [],
     "articles": [],
@@ -56,5 +68,5 @@
     ],
     "tutorials": [],
     "datePublished": "2026-08-06",
-    "dateModified": "2026-08-06"
+    "dateModified": "2026-11-10"
 }

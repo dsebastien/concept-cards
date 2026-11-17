@@ -1,0 +1,61 @@
+{
+    "id": "draconian-error-handling",
+    "name": "Draconian Error Handling",
+    "summary": "An error policy where a parser must stop and report failure at the first malformed input instead of trying to recover. It is the strict opposite of the robustness principle.",
+    "explanation": "Draconian error handling is the rule that XML made famous: when a document isn't well-formed, the parser has to stop. No guessing, no repair, no partial result. One missing end tag or one unescaped ampersand, and the whole document is rejected.\n\n**Where it comes from**:\n\nThe designers of XML had seen what lenient parsing did to HTML. Browsers accepted almost anything, authors wrote almost anything, and every browser guessed differently. The result was \"tag soup\": pages that only worked in the browser they were tested in. For XML, the working group decided in 1997 to do the opposite and made well-formedness errors fatal.\n\n**The argument for**:\n\n- Errors get caught where they're created, by the author, not by each reader\n- Every parser agrees on every document. There's no room for different interpretations\n- Parsers stay small and simple, because they don't contain recovery logic\n- No silent corruption: you never process data that means something else than you think\n\n**The argument against**:\n\n- **Users pay for the mistakes of authors**: XHTML showed this. A single encoding glitch in a comment or an ad turned the whole page into an error message\n- **It assumes that producers are reliable**: On the open web, with content assembled from many sources, they aren't\n- **Competition punishes strictness**: When one tool shows the content and another shows an error, users pick the first one\n\n**How it ended on the web**:\n\nThe web didn't move to strict XHTML. HTML5 took a third path: it specifies the error recovery itself, in full detail. Every browser has to recover from each kind of broken markup in exactly the same way. That's liberal acceptance without the ambiguity.\n\n**The three options for malformed input**:\n\n1. **Guess** (the naive reading of Postel's Law): Everyone recovers their own way. Implementations drift apart\n2. **Reject** (draconian): Simple and unambiguous, and harsh for the end user\n3. **Specify the recovery**: The most work, and the only one that scales when you don't control the producers\n\n**When draconian is the right choice**:\n\n- Machine-to-machine formats, where the producer is a program that someone can fix\n- Configuration files and source code\n- Security-sensitive input\n- New formats: start strict. You can't tighten later",
+    "tags": [
+        "software-development",
+        "software-design",
+        "standards",
+        "web",
+        "reliability",
+        "validation",
+        "compatibility"
+    ],
+    "category": "Software Development",
+    "icon": "FaExclamationTriangle",
+    "featured": false,
+    "aliases": [
+        "Draconian Error Handling Policy",
+        "Strict Parsing",
+        "Tag Soup",
+        "Fatal Error on Malformed Input"
+    ],
+    "relatedConcepts": [
+        "postels-law",
+        "fail-fast",
+        "input-validation",
+        "language-theoretic-security",
+        "parser-differential",
+        "error-handling",
+        "html",
+        "graceful-degradation",
+        "parse-dont-validate",
+        "worse-is-better",
+        "silent-failure",
+        "de-facto-standard"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Extensible Markup Language (XML) 1.0 - W3C",
+            "url": "https://www.w3.org/TR/xml/",
+            "type": "website"
+        },
+        {
+            "title": "Tag soup - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tag_soup",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

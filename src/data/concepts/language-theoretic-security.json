@@ -1,0 +1,63 @@
+{
+    "id": "language-theoretic-security",
+    "name": "Language-Theoretic Security",
+    "summary": "A security approach that treats every input as a formal language: define its grammar precisely, keep it as simple as possible, and fully recognize input with a real parser before any other code touches it.",
+    "explanation": "Language-theoretic security, or LangSec, starts from one observation: most vulnerabilities are input handling bugs. An attacker sends input that the developers didn't expect, and the program, while trying to make sense of it, ends up doing something it was never meant to do. LangSec's answer is to treat input handling as a language recognition problem and to apply formal language theory to it.\n\nThe approach comes from the work of Meredith Patterson, Sergey Bratus, Len Sassaman and others.\n\n**Core principles**:\n\n- **All input is a language**: Every protocol and file format has a grammar, whether someone wrote it down or not. Write it down\n- **Recognize fully before processing**: Run the whole input through a parser generated from that grammar. Only input that the parser accepts reaches the business logic\n- **Keep the input language weak**: Prefer regular or context-free grammars. The more expressive the input language, the harder it is to validate. For the most powerful classes, deciding whether two implementations accept the same inputs is impossible in general\n- **Parser equivalence matters**: Two components that parse the same message have to agree on it. When they don't, you get a parser differential, which attackers exploit\n\n**Anti-patterns that it names**:\n\n- **Shotgun parsing**: Validation checks scattered through the processing code. Some input gets acted upon before it's fully checked\n- **Weird machines**: Input complex enough to work as a program for the code that parses it. The attacker is then programming your parser\n- **Length fields and nested formats**: Features that push a format beyond context-free. They're a classic source of memory corruption bugs\n\n**LangSec and Postel's Law**:\n\nLangSec is the sharpest critique of \"be liberal in what you accept\". In their paper \"A Patch for Postel's Robustness Principle\", Sassaman, Patterson and Bratus propose a replacement: be definite about what you accept. Accept exactly the language you specified, reject the rest, and don't try to repair.\n\n**In practice**:\n\n- Use parser generators or parser combinators instead of hand-written ad hoc parsing\n- Choose simple, unambiguous formats\n- Parse into typed structures at the boundary (see Parse, Don't Validate)\n- Reject ambiguous input, such as duplicate keys or conflicting length indications",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-engineering",
+        "computer-science",
+        "formal-methods",
+        "validation",
+        "principles"
+    ],
+    "category": "Software Development",
+    "icon": "FaCode",
+    "featured": false,
+    "aliases": [
+        "LangSec",
+        "Language-Based Input Security",
+        "Shotgun Parsing",
+        "Weird Machines"
+    ],
+    "relatedConcepts": [
+        "postels-law",
+        "input-validation",
+        "parse-dont-validate",
+        "parser-differential",
+        "rule-of-least-power",
+        "attack-surface",
+        "trust-boundary",
+        "formal-methods",
+        "halting-problem",
+        "finite-state-machine",
+        "draconian-error-handling",
+        "secure-by-design",
+        "memory-safety",
+        "allowlisting"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "LangSec: Language-theoretic Security",
+            "url": "http://langsec.org/",
+            "type": "website"
+        },
+        {
+            "title": "A Patch for Postel's Robustness Principle - Sassaman, Patterson and Bratus",
+            "url": "http://langsec.org/papers/postel-patch.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

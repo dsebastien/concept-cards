@@ -1,0 +1,67 @@
+{
+    "id": "breaking-change",
+    "name": "Breaking Change",
+    "summary": "A change to a system that makes existing clients fail or behave differently unless they are modified.",
+    "explanation": "A breaking change is any modification that forces the people who depend on your system to do work they didn't plan. Their code stops compiling, their requests start failing, or, worst of all, everything still runs but produces different results.\n\n**Kinds of breaking changes**:\n\n- **Removals and renames**: A field, function, endpoint or option disappears\n- **Signature changes**: Different types, a new mandatory parameter\n- **Stricter input**: You start rejecting requests that you used to accept\n- **Different output**: A changed format, new enum values that clients don't expect, another default sort order\n- **Semantic changes**: Same name, same shape, different meaning. A value that was in seconds is now in milliseconds\n- **Non-functional changes**: Slower responses, lower rate limits, different timing or error messages\n\n**The uncomfortable part**:\n\nYou don't get to decide what is breaking. Your users do. With enough users, somebody depends on every observable behavior, including the ones you never documented (see Hyrum's Law). A bug fix is a breaking change for whoever relied on the bug.\n\n**How to avoid them**:\n\n- **Prefer additive changes**: Add new things next to the old ones\n- **Use parallel change**: Expand, migrate, contract\n- **Be strict from the start**: You can loosen a rule later without breaking anyone. Tightening it is a breaking change\n- **Keep the surface small**: Whatever you don't expose, you can change freely\n- **Know your consumers**: Consumer-driven contracts and usage telemetry tell you what is really in use\n\n**How to make them when you must**:\n\n- Signal them with a new major version (see Semantic Versioning)\n- Announce early, document the migration, give a timeline (see Deprecation)\n- Provide tooling where you can: automated migrations beat migration guides\n- Batch them. One painful upgrade is better than ten\n\n**The trade-off**:\n\nNever breaking anything means carrying every past mistake forever. Breaking things often means nobody trusts you enough to build on you. Mature projects break rarely, deliberately and loudly.",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "compatibility",
+        "api-design",
+        "maintainability",
+        "change-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaUnlink",
+    "featured": false,
+    "aliases": [
+        "Breaking Changes",
+        "Incompatible Change",
+        "Backward-Incompatible Change",
+        "API Break"
+    ],
+    "relatedConcepts": [
+        "backward-compatibility",
+        "forward-compatibility",
+        "semantic-versioning",
+        "api-versioning",
+        "deprecation",
+        "parallel-change",
+        "hyrums-law",
+        "consumer-driven-contracts",
+        "tolerant-reader",
+        "schema-evolution",
+        "coupling",
+        "encapsulation",
+        "open-closed-principle",
+        "bug-compatibility"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Engineering at Google by Titus Winters, Tom Manshreck and Hyrum Wright",
+            "url": "https://www.amazon.com/dp/1492082791?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Semantic Versioning 2.0.0",
+            "url": "https://semver.org/",
+            "type": "website"
+        },
+        {
+            "title": "Backward compatibility - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backward_compatibility",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

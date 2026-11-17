@@ -1,0 +1,61 @@
+{
+    "id": "reference-implementation",
+    "name": "Reference Implementation",
+    "summary": "An implementation of a specification that serves as the working example that other implementations are compared with.",
+    "explanation": "A specification describes what a system should do. A reference implementation shows it. It's a concrete, working program that follows the specification, published so that other implementers can study it, test against it and settle questions that the text leaves open.\n\n**What it's for**:\n\n- **Proof that the specification can be built**: Writing the code finds the gaps and contradictions in the text\n- **Clarification**: When the text is ambiguous, people check what the reference does\n- **A test partner**: A new implementation is on the right track when it works with the reference\n- **A starting point**: Many products begin as a fork or a port of the reference\n\n**Examples**:\n\n- **CPython** for the Python language\n- **libpng** for the PNG image format\n- **cmark and commonmark.js** for the CommonMark specification of Markdown\n- **The official SDKs** of the Model Context Protocol\n\n**Risks**:\n\n- **The code becomes the specification**: When the text and the reference disagree, the world follows the reference. Its bugs turn into required behavior (see Bug Compatibility)\n- **Accidental details leak**: Performance characteristics, error messages, ordering. Others start depending on them (see Hyrum's Law)\n- **Monoculture**: If everyone ships the reference, there's only one real implementation. One bug hits everybody, and the specification is never really tested\n- **Specification by implementation**: With no independent text, nobody can tell a feature from an accident\n\n**What a good setup looks like**:\n\n- A written specification that is the authority\n- A reference implementation written for clarity, not for speed\n- A conformance test suite that every implementation can run\n- At least two independent implementations that work together. The IETF tradition asks for this before a standard is considered mature\n\nA reference implementation answers \"how could this be done?\". Only a specification with tests answers \"what has to be done?\".",
+    "tags": [
+        "software-development",
+        "standards",
+        "software-engineering",
+        "interoperability",
+        "open-source",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaBook",
+    "featured": false,
+    "aliases": [
+        "Reference Implementations",
+        "Sample Implementation",
+        "Model Implementation",
+        "Specification by Implementation"
+    ],
+    "relatedConcepts": [
+        "open-standards",
+        "de-facto-standard",
+        "interoperability",
+        "rough-consensus-and-running-code",
+        "bug-compatibility",
+        "hyrums-law",
+        "specification-by-example",
+        "rfc",
+        "model-context-protocol",
+        "undefined-behavior",
+        "parser-differential",
+        "documentation",
+        "open-source"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Reference implementation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reference_implementation",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

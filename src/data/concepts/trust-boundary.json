@@ -1,0 +1,63 @@
+{
+    "id": "trust-boundary",
+    "name": "Trust Boundary",
+    "summary": "A line in a system where data or control passes between parts that have different levels of trust. It is where input has to be checked and access decided.",
+    "explanation": "Not every part of a system deserves the same trust. Your own server code is under your control. A browser, a mobile app, a partner API, an uploaded file or the output of an AI model is not. A trust boundary is the line between two such zones. Whenever data crosses it towards the more trusted side, somebody has to check it.\n\n**Typical trust boundaries**:\n\n- Between the internet and your network\n- Between the client (browser, mobile app) and the server\n- Between your service and a third-party service\n- Between user space and the operating system kernel\n- Between tenants in a multi-tenant system\n- Between a normal user and an administrator\n- Between an AI model and the tools it can call\n\n**What happens at a boundary**:\n\n- **Authentication**: Who's on the other side?\n- **Authorization**: Are they allowed to do this?\n- **Input validation**: Is this data well-formed and acceptable?\n- **Output filtering**: What is allowed to leave?\n- **Logging**: A record of what crossed\n\n**In threat modeling**:\n\nYou draw the system as a data flow diagram and mark the trust boundaries. Every arrow that crosses a boundary is a place to ask what could go wrong. Most threats sit on those arrows.\n\n**Common mistakes**:\n\n- **Trusting the internal network**: \"It's behind the firewall\" isn't a trust level. Zero trust treats every call as a boundary crossing\n- **Checking on the wrong side**: Validation in the browser protects nothing\n- **Trusting stored data**: Data in your own database that a user typed in earlier is still untrusted when you use it later\n- **Missing boundaries**: A plugin, a dependency or a build script runs with your privileges. That's a boundary people rarely draw\n- **Mixing instructions and data**: An AI model reads trusted instructions and untrusted content in the same channel. Prompt injection is the result of that missing boundary\n\n**Design advice**:\n\n- Have few boundaries and make them explicit\n- Do all the checks at the boundary, once, and turn the input into typed values (see Parse, Don't Validate)\n- Inside a zone, code can rely on what the boundary enforced. Across zones, it can't",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "software-architecture",
+        "threat-modeling",
+        "access-control",
+        "trust"
+    ],
+    "category": "Software Development",
+    "icon": "FaDoorOpen",
+    "featured": false,
+    "aliases": [
+        "Trust Boundaries",
+        "Security Boundary",
+        "Trust Zone",
+        "Privilege Boundary"
+    ],
+    "relatedConcepts": [
+        "threat-modeling",
+        "attack-surface",
+        "input-validation",
+        "zero-trust",
+        "least-privilege",
+        "defense-in-depth",
+        "parse-dont-validate",
+        "prompt-injection",
+        "privilege-escalation",
+        "trust-but-verify",
+        "bounded-context",
+        "anti-corruption-layer",
+        "parser-differential",
+        "language-theoretic-security",
+        "saltzer-and-schroeders-design-principles"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Trust boundary - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Trust_boundary",
+            "type": "website"
+        },
+        {
+            "title": "Threat model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Threat_model",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

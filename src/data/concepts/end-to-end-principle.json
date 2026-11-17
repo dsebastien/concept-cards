@@ -1,0 +1,66 @@
+{
+    "id": "end-to-end-principle",
+    "name": "End-to-End Principle",
+    "summary": "A network design principle: functions that only the communicating endpoints can implement completely belong in the endpoints, and the network in between should stay simple and general.",
+    "explanation": "The end-to-end principle comes from the 1984 paper \"End-to-End Arguments in System Design\" by Jerome Saltzer, David Reed and David Clark. Its argument: some functions, such as reliable delivery, encryption or duplicate detection, can only be done correctly with the knowledge that the two ends of a conversation have. Building them into the network in between can't make them complete. At best, it's a performance optimization.\n\n**The classic example**:\n\nYou transfer a file from one computer to another. Every network hop can check and retransmit packets, and the file can still arrive corrupted: a disk error, a bug in the file transfer program, a faulty memory chip. The only way to be sure is an end-to-end check: compare a checksum of what was sent with what was stored. Once you have that check, the per-hop guarantees are no longer needed for correctness. They only reduce how often you retry.\n\n**Consequences for the internet**:\n\n- **Dumb network, smart endpoints**: IP only makes a best effort to move packets. TCP, running on the endpoints, adds reliability\n- **Permissionless innovation**: A new application only needs new software at the edges. The web, email, video calls and peer-to-peer file sharing were deployed without asking network operators to change anything\n- **Generality**: A network that doesn't know about applications can carry applications nobody has invented yet\n\n**Under pressure**:\n\nThe modern internet bends the principle a lot. NAT devices, firewalls, content delivery networks, traffic shapers and inspection boxes all put intelligence in the middle. Each one solves a real problem, and each one makes the network harder to change (see Protocol Ossification). End-to-end encryption is partly a way to restore the principle. Net neutrality debates are its political form.\n\n**Beyond networking**:\n\nThe same reasoning applies to any layered system. Put a function at the layer that has the knowledge to do it completely. Message brokers can't give you exactly-once processing on their own, so the application has to be idempotent. Checking a backup means restoring it, not trusting each step of the pipeline.",
+    "tags": [
+        "networking",
+        "internet",
+        "software-architecture",
+        "principles",
+        "distributed-systems",
+        "systems-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "End-to-End Argument",
+        "End-to-End Arguments in System Design",
+        "E2E Principle",
+        "Dumb Network"
+    ],
+    "relatedConcepts": [
+        "postels-law",
+        "protocol-ossification",
+        "tcp-ip",
+        "internet",
+        "end-to-end-encryption",
+        "separation-of-concerns",
+        "unix-philosophy",
+        "kiss-principle",
+        "decentralization",
+        "idempotency",
+        "distributed-systems",
+        "saltzer-and-schroeders-design-principles",
+        "worse-is-better"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "End-to-end principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/End-to-end_principle",
+            "type": "website"
+        },
+        {
+            "title": "End-to-End Arguments in System Design - Saltzer, Reed and Clark",
+            "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+            "type": "paper"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

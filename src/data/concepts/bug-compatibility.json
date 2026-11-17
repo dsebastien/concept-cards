@@ -1,0 +1,62 @@
+{
+    "id": "bug-compatibility",
+    "name": "Bug Compatibility",
+    "summary": "Deliberately preserving or reproducing the bugs and quirks of an earlier system, because existing software has come to depend on them.",
+    "explanation": "Bug compatibility, also called bug-for-bug compatibility, is what you get when fixing a bug would break more than the bug itself does. Once enough software relies on a defect, the defect is part of the interface. The new version, or the competing implementation, has to copy it.\n\n**Examples**:\n\n- **Excel and the year 1900**: Excel treats 1900 as a leap year, which it wasn't. Lotus 1-2-3 had that bug, and Excel copied it so spreadsheets would import with the same dates. It's still there\n- **Windows compatibility shims**: Windows detects specific old applications and reproduces the old behavior they rely on. The famous case is SimCity, which read memory right after freeing it. Windows 95 got a special allocator mode so the game kept running\n- **JavaScript**: `typeof null` returns `\"object\"`. It's a mistake from the first implementation, and fixing it would break too many websites\n- **Browser quirks mode**: Browsers still render old pages with the layout bugs of 1990s browsers, because those pages were written against the bugs\n- **Emulators and reimplementations**: Wine, game console emulators and API clones have to match the original, defects included\n\n**Why it happens**:\n\nUsers build against what a system does, not against what its documentation says. That's Hyrum's Law. Liberal receivers make it worse: when a system accepts sloppy input, the sloppiness spreads until everyone has to accept it (see Postel's Law).\n\n**The cost**:\n\n- The defect has to be documented, tested and maintained forever\n- The code fills up with special cases that nobody dares to remove\n- New implementers have to reverse-engineer behavior that no specification describes\n\n**What to do about it**:\n\n- Fix bugs early, before anyone depends on them\n- Be strict from the first release. It's easy to loosen later, and very hard to tighten\n- When a quirk is here to stay, write it into the specification. HTML5 did that for browser error handling\n- Isolate the compatibility behavior behind a mode, a shim or a version flag, so the main path stays clean",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "compatibility",
+        "legacy",
+        "maintainability",
+        "api-design"
+    ],
+    "category": "Software Development",
+    "icon": "FaBug",
+    "featured": false,
+    "aliases": [
+        "Bug-for-Bug Compatibility",
+        "Bug-Compatible",
+        "Quirks Mode"
+    ],
+    "relatedConcepts": [
+        "hyrums-law",
+        "postels-law",
+        "backward-compatibility",
+        "de-facto-standard",
+        "breaking-change",
+        "legacy-code",
+        "technical-debt",
+        "reference-implementation",
+        "undefined-behavior",
+        "path-dependence"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Engineering at Google by Titus Winters, Tom Manshreck and Hyrum Wright",
+            "url": "https://www.amazon.com/dp/1492082791?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Bug compatibility - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bug_compatibility",
+            "type": "website"
+        },
+        {
+            "title": "Quirks mode - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quirks_mode",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

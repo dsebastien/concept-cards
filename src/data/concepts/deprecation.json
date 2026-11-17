@@ -1,0 +1,67 @@
+{
+    "id": "deprecation",
+    "name": "Deprecation",
+    "summary": "Marking a feature as discouraged and scheduled for removal, while it keeps working for a transition period so its users have time to move away.",
+    "explanation": "Deprecation is the polite way to remove something. Instead of deleting a feature overnight, you announce that it's on its way out, you point to the replacement, and you leave it working for a defined period. Users get time to migrate. Maintainers get a path to remove old code.\n\n**A good deprecation has**:\n\n- **A clear signal**: An annotation in the code, a compiler or runtime warning, a notice in the documentation, a response header in an API\n- **A replacement**: Tell people what to use instead. A deprecation with no alternative is just a threat\n- **A migration path**: A guide, or better, a tool that does the migration\n- **A timeline**: A removal date or version. \"Deprecated\" with no date means \"here forever\"\n- **Usage data**: Know who still uses the feature, and contact them\n- **A real removal**: The last step is the one that most often never happens\n\n**Techniques**:\n\n- **Warnings**: At compile time or at run time. Useful, but people learn to ignore them\n- **HTTP headers**: The `Deprecation` and `Sunset` response headers announce the status and the end date of an API\n- **Brownouts**: Switch the feature off for short planned periods before the final date. It finds the users who missed every announcement\n- **Advisory vs. compulsory**: Advisory deprecation asks users to migrate. Compulsory deprecation sets a deadline, and works best when the team that deprecates also does most of the migration work\n\n**Why it's hard**:\n\n- Migration costs the users and benefits the maintainers. The incentives point in opposite directions\n- With enough users, somebody depends on every behavior (see Hyrum's Law). Some will only find out on the day of removal\n- Features that stay deprecated for years teach everyone that deprecation warnings don't mean anything\n- Removing too fast, or too often, destroys trust in the platform\n\n**Why it's worth it**:\n\nCode is a liability. Every old feature you keep costs maintenance, security exposure and complexity in every future change. A system that can't remove anything ends up unable to change at all. Planning for removal when you design a feature makes the future deprecation much cheaper.",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "maintainability",
+        "compatibility",
+        "api-design",
+        "change-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaHourglass",
+    "featured": false,
+    "aliases": [
+        "Deprecated",
+        "Deprecation Policy",
+        "Sunsetting",
+        "End of Life",
+        "Feature Deprecation"
+    ],
+    "relatedConcepts": [
+        "breaking-change",
+        "backward-compatibility",
+        "api-versioning",
+        "semantic-versioning",
+        "parallel-change",
+        "hyrums-law",
+        "legacy-code",
+        "technical-debt",
+        "lehmans-laws",
+        "bit-rot",
+        "strangler-fig-pattern",
+        "chestertons-fence",
+        "documentation"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Software Engineering at Google by Titus Winters, Tom Manshreck and Hyrum Wright",
+            "url": "https://www.amazon.com/dp/1492082791?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Deprecation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Deprecation",
+            "type": "website"
+        },
+        {
+            "title": "RFC 8594 - The Sunset HTTP Header Field",
+            "url": "https://www.rfc-editor.org/rfc/rfc8594.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

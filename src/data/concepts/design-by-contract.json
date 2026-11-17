@@ -38,7 +38,10 @@
         "total-functions",
         "correct-by-construction",
         "liskov-substitution-principle",
-        "guard-clauses"
+        "guard-clauses",
+        "input-validation",
+        "consumer-driven-contracts",
+        "undefined-behavior"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Design+by+Contract"

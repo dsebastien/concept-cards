@@ -1,0 +1,66 @@
+{
+    "id": "backward-compatibility",
+    "name": "Backward Compatibility",
+    "summary": "The ability of a newer version of a system to keep working with the data, interfaces and clients that were built for older versions.",
+    "explanation": "A system is backward compatible when what worked yesterday still works after the upgrade. A new version of a file format opens old files. A new version of an API still answers old clients. A new processor runs old programs. The new side takes on the burden of understanding the old one.\n\n**Examples**:\n\n- **x86 processors**: A current CPU can still run code written for chips from the 1980s\n- **The web**: Pages from the 1990s still render in today's browsers. \"Don't break the web\" is an explicit rule of web standards\n- **USB**: A USB 2.0 device works in a USB 3.0 port\n- **Windows**: Decades of effort went into keeping old applications running\n- **Counter-example**: Python 3 broke compatibility with Python 2 on purpose. The migration took the community more than a decade\n\n**Rules of thumb for APIs and data formats**:\n\n- **Safe**: Add an optional field, add a new endpoint, accept more input than before\n- **Not safe**: Remove or rename a field, change a type, make an optional input mandatory, tighten validation, change the meaning of an existing value\n- Changing behavior that nobody documented can still break people (see Hyrum's Law)\n\n**Why it matters**:\n\n- Users can upgrade without rewriting what they have. That lowers the cost of adoption\n- Trust: a platform that breaks its users teaches them not to build on it\n- In distributed systems you can't upgrade everything at once. Old and new versions have to work together during the rollout\n\n**The price**:\n\n- Old mistakes stay. Every design decision you can't undo adds complexity and attack surface\n- Testing grows with every version you still support\n- At some point the accumulated weight slows everything down. That's when deprecation and a deliberate breaking change become the better option\n\nBackward compatibility is a promise about the past. Its sibling, forward compatibility, is a bet on the future: old software that tolerates what newer versions produce.",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "compatibility",
+        "api-design",
+        "software-architecture",
+        "maintainability"
+    ],
+    "category": "Software Development",
+    "icon": "FaArrowLeft",
+    "featured": false,
+    "aliases": [
+        "Backwards Compatibility",
+        "Backward Compatible",
+        "Downward Compatibility"
+    ],
+    "relatedConcepts": [
+        "forward-compatibility",
+        "breaking-change",
+        "semantic-versioning",
+        "api-versioning",
+        "deprecation",
+        "schema-evolution",
+        "parallel-change",
+        "bug-compatibility",
+        "hyrums-law",
+        "postels-law",
+        "tolerant-reader",
+        "legacy-code",
+        "technical-debt",
+        "open-closed-principle",
+        "interoperability"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        },
+        {
+            "title": "Software Engineering at Google by Titus Winters, Tom Manshreck and Hyrum Wright",
+            "url": "https://www.amazon.com/dp/1492082791?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Backward compatibility - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backward_compatibility",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

@@ -1,0 +1,64 @@
+{
+    "id": "de-facto-standard",
+    "name": "De Facto Standard",
+    "summary": "A product, format or convention that becomes the standard because nearly everyone uses it, not because a standards body approved it.",
+    "explanation": "De facto is Latin for \"in fact\". A de facto standard wins through adoption. Nobody voted for it. It's simply what everyone uses, so everyone else has to support it. The opposite is a de jure standard: one that a recognized body such as ISO, the IETF or the W3C formally published.\n\n**Examples**:\n\n- **QWERTY**: The keyboard layout that stayed long after the mechanical reason for it disappeared\n- **PDF**: Adobe's format was the de facto standard for documents years before it became an ISO standard in 2008\n- **Microsoft Office formats**: `.doc` and `.xls` were what everyone exchanged, so every competitor had to read them\n- **Markdown**: It spread for years with no formal specification at all\n- **Git**: Nobody mandated it. It just won\n- **The S3 API**: Amazon's storage API is now implemented by many competing storage products\n\n**How one emerges**:\n\n- **Network effects**: Every new user makes the format more useful for the next one\n- **Being early and good enough**: The first workable solution collects the ecosystem (see Worse Is Better)\n- **Switching costs**: Once files, tools and skills depend on it, leaving is expensive\n- **Dominant implementations**: What the most popular product does becomes what everybody has to do, bugs included\n\n**Why it matters**:\n\n- Adopting a de facto standard gives you compatibility with a whole ecosystem for free\n- It can be owned by one company, which can change it or restrict it. That's a lock-in risk\n- Often there's no complete specification. The real standard is \"whatever the dominant implementation does\"\n\n**Link with the robustness principle**:\n\nLiberal receivers create de facto standards by accident. When popular software accepts sloppy input, the sloppiness spreads, and every other implementation has to accept it too. Browsers and broken HTML are the textbook case.\n\n**From de facto to de jure**:\n\nMany formal standards started this way. Standards bodies often do their best work when they write down and clean up what already works, instead of inventing from nothing.",
+    "tags": [
+        "standards",
+        "technology",
+        "network-effects",
+        "economics",
+        "interoperability",
+        "markets"
+    ],
+    "category": "Business & Economics",
+    "icon": "FaCrown",
+    "featured": false,
+    "aliases": [
+        "De Facto Standards",
+        "Industry Standard",
+        "Dominant Design",
+        "De Jure Standard"
+    ],
+    "relatedConcepts": [
+        "open-standards",
+        "network-effects",
+        "path-dependence",
+        "technological-lock-in",
+        "lock-in-effect",
+        "switching-costs",
+        "vendor-lock-in",
+        "format-lock-in",
+        "interoperability",
+        "reference-implementation",
+        "bug-compatibility",
+        "postels-law",
+        "rough-consensus-and-running-code",
+        "first-mover-advantage",
+        "worse-is-better",
+        "hyrums-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "De facto standard - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/De_facto_standard",
+            "type": "website"
+        },
+        {
+            "title": "Dominant design - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dominant_design",
+            "type": "website"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "schema-evolution",
+    "name": "Schema Evolution",
+    "summary": "Changing the structure of data over time while old and new versions of the code, and old and new data, keep working together.",
+    "explanation": "Applications change, so the shape of their data changes too: new fields, removed fields, different types. Schema evolution is the practice of making those changes without breaking the programs that read and write the data. It matters because you almost never switch everything at once:\n\n- During a rolling deployment, old and new versions of a service run side by side\n- Old clients stay in use for a long time\n- Stored data lives longer than the code that wrote it. Data written five years ago is still in the database, in its original shape\n\n**Two directions**:\n\n- **Backward compatibility**: New code can read data written by old code\n- **Forward compatibility**: Old code can read data written by new code\n\nRolling upgrades need both.\n\n**Rules that keep you safe**:\n\n- **Add fields as optional, with a default**: Old data doesn't have them. Old code ignores them\n- **Only remove optional fields**: And never reuse the identifier of a removed field\n- **Don't change the meaning of a field**: Add a new one instead\n- **Be careful with type changes**: Widening can work. Narrowing loses data\n- **Preserve unknown fields**: Code that reads a record, updates it and writes it back must not drop fields it doesn't know\n- **New enum values are a risk**: Old readers have to cope with values they've never seen\n\n**How formats help**:\n\n- **Protocol Buffers and Thrift**: Fields have numeric tags. Names can change, tags can't. Unknown tags are skipped\n- **Avro**: The reader's schema and the writer's schema are compared and resolved when the data is read\n- **JSON**: Flexible, with no built-in rules. The discipline has to come from conventions and validation\n- **Schema registries**: They check every new schema version against the previous ones and reject incompatible changes before deployment\n\n**For relational databases**:\n\nMigrations change the schema in place. Zero-downtime changes use the expand and contract approach (see Parallel Change): add the new structure, move the data and the code, then remove the old structure.\n\nThe Tolerant Reader pattern is the consumer-side half of schema evolution: read what you need and ignore the rest.",
+    "tags": [
+        "data",
+        "databases",
+        "software-architecture",
+        "compatibility",
+        "distributed-systems",
+        "software-engineering",
+        "data-management"
+    ],
+    "category": "Software Development",
+    "icon": "FaDatabase",
+    "featured": false,
+    "aliases": [
+        "Schema Migration",
+        "Schema Versioning",
+        "Data Format Evolution",
+        "Schema Compatibility"
+    ],
+    "relatedConcepts": [
+        "schema",
+        "backward-compatibility",
+        "forward-compatibility",
+        "parallel-change",
+        "tolerant-reader",
+        "breaking-change",
+        "api-versioning",
+        "consumer-driven-contracts",
+        "data-integrity",
+        "evolutionary-architecture",
+        "distributed-systems",
+        "postels-law"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Schema evolution - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Schema_evolution",
+            "type": "website"
+        },
+        {
+            "title": "Schema evolution in Avro, Protocol Buffers and Thrift - Martin Kleppmann",
+            "url": "https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

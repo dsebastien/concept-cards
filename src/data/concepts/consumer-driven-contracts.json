@@ -1,0 +1,66 @@
+{
+    "id": "consumer-driven-contracts",
+    "name": "Consumer-Driven Contracts",
+    "summary": "A way to evolve services safely: each consumer states what it expects from a provider as an executable contract, and the provider runs all those contracts as tests.",
+    "explanation": "In a system made of many services, the provider of an API rarely knows which parts of it are really used. Consumer-driven contracts turn that around. Every consumer writes down its expectations: \"when I send this request, I need a response with at least these fields\". Those expectations become automated tests that the provider runs in its own build. If a change would break a consumer, the provider's build fails before anything is deployed.\n\n**How it works**:\n\n1. The consumer team writes tests against a mock of the provider. The tool records each interaction as a contract\n2. The contract is published to a shared place, often a broker\n3. The provider's pipeline replays every contract against the real provider and checks the responses\n4. A deployment only goes ahead when the contracts of all the consumer versions in production pass\n\nPact is the best-known tool for this.\n\n**What you gain**:\n\n- **Freedom to change**: The sum of all contracts shows exactly what is in use. Everything else can change or go away without breaking anyone\n- **Fast feedback**: You find integration problems in a unit-test-speed build, not in a shared test environment\n- **Independent deployment**: Teams release on their own schedule, without big integration test phases\n- **A real conversation**: The contract makes the dependency between two teams explicit\n\n**How it fits with other ideas**:\n\n- It makes Hyrum's Law manageable: the dependencies are written down instead of hidden\n- It complements the Tolerant Reader pattern. Consumers ignore what they don't need, and contracts list what they do need\n- It applies Postel's Law with evidence. The provider knows precisely how conservative it has to stay\n\n**Limits**:\n\n- It needs cooperation, so it suits services inside one organization. For a public API with unknown consumers it doesn't work\n- Contracts check the shape and examples of interactions, not the full behavior\n- There's a cost: tooling, a broker, pipeline integration and discipline\n- Consumers that put too much in their contracts freeze the provider again",
+    "tags": [
+        "software-development",
+        "testing",
+        "software-architecture",
+        "api-design",
+        "microservices",
+        "compatibility",
+        "distributed-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaHandshake",
+    "featured": false,
+    "aliases": [
+        "Consumer-Driven Contract Testing",
+        "CDC Testing",
+        "Contract Testing",
+        "Consumer-Driven Contract"
+    ],
+    "relatedConcepts": [
+        "tolerant-reader",
+        "breaking-change",
+        "backward-compatibility",
+        "hyrums-law",
+        "postels-law",
+        "design-by-contract",
+        "integration-testing",
+        "test-double",
+        "microservices-architecture",
+        "continuous-delivery",
+        "schema-evolution",
+        "coupling"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Building Microservices by Sam Newman",
+            "url": "https://www.amazon.com/dp/1492034029?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Consumer-Driven Contracts: A Service Evolution Pattern - Ian Robinson",
+            "url": "https://martinfowler.com/articles/consumerDrivenContracts.html",
+            "type": "website"
+        },
+        {
+            "title": "Pact documentation",
+            "url": "https://docs.pact.io/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "attack-surface",
+    "name": "Attack Surface",
+    "summary": "The sum of all the points where an attacker can try to get into a system, feed it data or pull data out of it.",
+    "explanation": "The attack surface of a system is everything about it that an attacker can reach and interact with. Each reachable piece is a place where an attack can start. The bigger the surface, the more places to defend, and the higher the odds that one of them has a flaw.\n\n**What it includes**:\n\n- **Network**: Open ports, exposed services, public APIs, admin interfaces, cloud storage buckets\n- **Software**: Every endpoint, parameter, file parser and input field. Also every dependency and every enabled feature\n- **People**: Employees who can be phished, called or bribed. Accounts with too many rights\n- **Physical**: Devices, USB ports, offices, lost laptops\n- **Supply chain**: Vendors, build pipelines, third-party libraries, update mechanisms\n- **AI systems**: Every piece of text a model reads is a possible prompt injection. Every tool it can call is a possible way out\n\n**Reducing it**:\n\n- **Remove what you don't need**: Features, endpoints, services, accounts, dependencies. Code that doesn't exist can't be exploited\n- **Close what doesn't have to be open**: Nothing is exposed by default (see Secure by Default)\n- **Limit who can reach what**: Network segmentation, authentication before anything else, least privilege\n- **Accept less**: Narrow input formats, strict validation, smaller and simpler parsers\n- **Keep track**: You can't defend what you don't know you have. Forgotten test servers and old API versions are classic entry points\n\n**Surface vs. vectors**:\n\nAn attack vector is one specific path an attacker uses. The attack surface is the set of all the possible paths.\n\n**Link with the robustness principle**:\n\nBeing liberal in what you accept grows the attack surface. Every tolerated variation, every legacy format that is still parsed and every lenient fallback is more code that handles untrusted input.\n\n**Why it's a useful idea**:\n\nIt gives a simple question to ask about any design decision: does this add to the surface, or reduce it? You can't prove that a system is secure. You can always check whether its surface grew.",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "risk-management",
+        "software-architecture",
+        "threat-modeling",
+        "vulnerabilities"
+    ],
+    "category": "Software Development",
+    "icon": "FaCrosshairs",
+    "featured": false,
+    "aliases": [
+        "Attack Surface Reduction",
+        "Attack Surface Analysis",
+        "Attack Surface Management",
+        "Attack Vectors"
+    ],
+    "relatedConcepts": [
+        "threat-modeling",
+        "trust-boundary",
+        "least-privilege",
+        "defense-in-depth",
+        "zero-trust",
+        "secure-by-default",
+        "secure-by-design",
+        "input-validation",
+        "language-theoretic-security",
+        "saltzer-and-schroeders-design-principles",
+        "supply-chain-attack",
+        "prompt-injection",
+        "penetration-testing",
+        "postels-law",
+        "kiss-principle",
+        "yagni"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Attack+surface"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Attack surface - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Attack_surface",
+            "type": "website"
+        },
+        {
+            "title": "Attack Surface Analysis Cheat Sheet - OWASP",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

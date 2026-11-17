@@ -31,7 +31,10 @@
         "parse-dont-validate",
         "make-illegal-states-unrepresentable",
         "assertions",
-        "smart-constructor"
+        "smart-constructor",
+        "input-validation",
+        "robustness",
+        "postels-law"
     ],
     "relatedNotes": [],
     "articles": [],
@@ -54,5 +57,5 @@
     ],
     "tutorials": [],
     "datePublished": "2026-01-13",
-    "dateModified": "2026-03-20"
+    "dateModified": "2026-11-10"
 }

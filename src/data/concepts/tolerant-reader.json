@@ -1,0 +1,60 @@
+{
+    "id": "tolerant-reader",
+    "name": "Tolerant Reader",
+    "summary": "An integration pattern where a consumer reads only the data it needs from a message and ignores everything else, so the provider can evolve without breaking it.",
+    "explanation": "The Tolerant Reader pattern, named by Martin Fowler, is Postel's Law applied to service consumers. When you read a response from another system, take only the fields you need and make as few assumptions as possible about the rest. Unknown fields, extra elements, a different field order: none of that should make your code fail.\n\n**How it works**:\n\n- **Read only what you use**: If you need the customer name and the total, extract those two values. Don't bind the whole payload to a strict class that rejects anything unexpected\n- **Ignore unknown elements**: A new field in the response is not an error. It's the provider evolving\n- **Assume little about structure**: Find values by name or by path, not by position\n- **Fail on what matters**: If a field you do need is missing or malformed, fail clearly. Tolerant doesn't mean accepting garbage\n\n**Why it matters**:\n\nServices change at different speeds. If every consumer validates the full response against a strict schema, then every additive change on the provider side becomes a breaking change for somebody. The provider is stuck coordinating releases with all its consumers. A tolerant reader removes that coupling: the provider adds a field, and nothing happens.\n\n**The trap**:\n\nStrict schema validation on the consumer side looks like rigor, but it mostly detects changes that don't concern you. Generated clients that reject unknown properties are the usual culprits.\n\n**Limits**:\n\n- Tolerance on the reading side says nothing about what you send. Stay strict there\n- It protects against additions, not against removals or changes of meaning. Pair it with Consumer-Driven Contracts so the provider knows which fields are in use\n- For security-sensitive input, tolerance needs boundaries. Ignoring an unknown field is fine. Guessing what a malformed one meant is not",
+    "tags": [
+        "software-development",
+        "software-architecture",
+        "api-design",
+        "patterns",
+        "compatibility",
+        "distributed-systems"
+    ],
+    "category": "Software Development",
+    "icon": "FaEye",
+    "featured": false,
+    "aliases": [
+        "Tolerant Reader Pattern"
+    ],
+    "relatedConcepts": [
+        "postels-law",
+        "consumer-driven-contracts",
+        "forward-compatibility",
+        "backward-compatibility",
+        "breaking-change",
+        "schema-evolution",
+        "coupling",
+        "microservices-architecture",
+        "hyrums-law",
+        "anti-corruption-layer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Building Microservices by Sam Newman",
+            "url": "https://www.amazon.com/dp/1492034029?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Tolerant Reader - Martin Fowler",
+            "url": "https://martinfowler.com/bliki/TolerantReader.html",
+            "type": "website"
+        },
+        {
+            "title": "Robustness principle - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Robustness_principle",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

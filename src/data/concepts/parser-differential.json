@@ -1,0 +1,60 @@
+{
+    "id": "parser-differential",
+    "name": "Parser Differential",
+    "summary": "A situation where two components parse the same input in different ways. An attacker can use the gap so that one component checks one thing and the other executes another.",
+    "explanation": "Many systems process the same message more than once. A proxy reads a request, then the server reads it. A verifier checks a file, then an installer opens it. A filter inspects an address, then a mail server delivers to it. A parser differential exists when those components don't interpret the input in exactly the same way. The first one approves what it sees. The second one acts on something else.\n\n**Examples**:\n\n- **HTTP request smuggling**: A front-end proxy and a back-end server disagree about where a request ends, for instance when `Content-Length` and `Transfer-Encoding` are both present. The attacker hides a second request inside the first one\n- **Certificate names with null bytes**: A certificate authority read the full name, `www.bank.com\\0.attacker.com`, and saw a domain owned by the attacker. Some browsers stopped at the null byte and saw `www.bank.com`\n- **Android \"Master Key\"**: An app package with two entries of the same name. The signature check read one. The installer used the other\n- **Duplicate JSON keys**: One parser keeps the first value, another keeps the last. A check on one side and the action on the other see different data\n- **URL parsing**: An allowlist check and the HTTP client extract different hosts from the same odd URL. It's a common path to server-side request forgery\n\n**Why it happens**:\n\n- Specifications are ambiguous or incomplete, so each implementer fills the gaps differently\n- Parsers are lenient, and each one recovers from malformed input in its own way. That's the dark side of Postel's Law\n- Formats are complex: several ways to express a length, nesting, optional encodings\n- The same input goes through different libraries and languages\n\n**Defenses**:\n\n- **Parse once**: Parse at the boundary and pass the parsed result on, not the raw bytes (see Parse, Don't Validate)\n- **Reject ambiguity**: Duplicate keys, conflicting lengths or invalid encodings are errors. Don't pick a winner\n- **Use the same parser** for the check and for the use, when that's possible\n- **Re-serialize**: Forward a normalized form of the message instead of the original\n- **Prefer simple formats** with one possible interpretation (see Language-Theoretic Security)\n- **Differential fuzzing**: Send the same inputs to both parsers and compare the results",
+    "tags": [
+        "security",
+        "cybersecurity",
+        "vulnerabilities",
+        "software-engineering",
+        "validation",
+        "web-security"
+    ],
+    "category": "Software Development",
+    "icon": "FaColumns",
+    "featured": false,
+    "aliases": [
+        "Parsing Differential",
+        "Parser Differentials",
+        "Interpretation Mismatch",
+        "Parser Confusion"
+    ],
+    "relatedConcepts": [
+        "language-theoretic-security",
+        "postels-law",
+        "input-validation",
+        "parse-dont-validate",
+        "trust-boundary",
+        "attack-surface",
+        "draconian-error-handling",
+        "man-in-the-middle-attack",
+        "sql-injection",
+        "undefined-behavior",
+        "reference-implementation",
+        "defense-in-depth"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "HTTP request smuggling - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/HTTP_request_smuggling",
+            "type": "website"
+        },
+        {
+            "title": "LangSec: Language-theoretic Security",
+            "url": "http://langsec.org/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

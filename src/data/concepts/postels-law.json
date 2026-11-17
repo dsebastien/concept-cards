@@ -1,27 +1,55 @@
 {
     "id": "postels-law",
     "name": "Postel's Law",
-    "summary": "The robustness principle, be conservative in what you send and liberal in what you accept, a design guideline for building interoperable systems.",
-    "explanation": "Postel's Law, also known as the robustness principle, was formulated by internet pioneer Jon Postel in the early specifications of the Transmission Control Protocol. It is usually stated as: be conservative in what you send, be liberal in what you accept. The idea is that systems interoperate more reliably when each component emits strictly correct output while tolerating minor imperfections and variations in the input it receives.\n\nThe principle proved foundational to the resilience of the early internet. By accepting slightly malformed or non-standard messages rather than rejecting them outright, implementations could interoperate even when peers had bugs or interpreted specifications differently. This forgiving behaviour let a heterogeneous, rapidly evolving network keep functioning without every participant being perfectly compliant.\n\nOver time, however, the principle has drawn significant criticism. Liberal acceptance can entrench ambiguity, because senders come to rely on receivers quietly tolerating their mistakes, and divergent behaviours accumulate as de facto standards. This erosion of strictness can create long-term security vulnerabilities and interoperability problems that are harder to fix than the original errors would have been.\n\nModern practice therefore treats Postel's Law as a nuanced trade-off rather than an absolute rule. In many contexts, especially security-sensitive protocols, strict validation and clear rejection of invalid input are now favoured. Understanding both the appeal and the pitfalls of the robustness principle helps designers decide when tolerance aids adoption and when rigor better serves reliability.",
+    "summary": "The robustness principle: be conservative in what you do, be liberal in what you accept from others. A design guideline for interoperable systems that is now seen as a trade-off, not an absolute rule.",
+    "explanation": "Postel's Law, also known as the robustness principle, comes from internet pioneer Jon Postel. He wrote it into the 1980 specification of the Transmission Control Protocol (RFC 761): \"be conservative in what you do, be liberal in what you accept from others\". A later version (RFC 1122) reads: \"be liberal in what you accept, and conservative in what you send\". The idea is that systems work together more reliably when each one emits strictly correct output and tolerates small imperfections in the input it receives.\n\n**Why it worked**:\n\nThe early internet was a mix of independent implementations, written by different people from specifications that weren't always precise. By accepting slightly malformed or non-standard messages instead of rejecting them, implementations could talk to each other even when peers had bugs or read the specification differently. That tolerance let a varied, fast-changing network keep running without every participant being perfectly compliant.\n\n**The criticism**:\n\nLiberal acceptance has a long-term cost. Senders never find out about their mistakes, because everything still works. Other senders copy them. After a while, every receiver has to accept the faulty input, because too much depends on it. The mistake has become a de facto standard, and the specification no longer describes reality (see Hyrum's Law and Bug Compatibility). The consequences:\n\n- **Protocol decay**: Every new implementation has to reverse-engineer what the others tolerate\n- **Security holes**: Two lenient parsers that guess differently about the same input create a parser differential, which attackers exploit\n- **A bigger attack surface**: Each tolerated variation is more code that handles untrusted input\n- **Ossification**: Tolerated deviations become things that nobody can change anymore\n\nThe IETF itself published this critique in RFC 9413, \"Maintaining Robust Protocols\". The language-theoretic security community proposed a patch: be definite about what you accept.\n\n**The modern reading**:\n\n- **Stay conservative in what you send**. Nobody disputes this half\n- **Tolerate what is well-defined**: Ignoring unknown fields and extensions is healthy, because every implementation can do it the same way (see Tolerant Reader and Forward Compatibility)\n- **Reject what is malformed**, clearly and early, above all at security boundaries (see Input Validation and Fail Fast)\n- **Specify the error handling**, so all implementations react in the same way. HTML5 did this\n- **Fix the source**: When you tolerate a deviation, report it too, so it doesn't spread\n- **Start strict**: You can loosen a rule later. You can almost never tighten it\n\n**Beyond software**:\n\nPeople also use the principle as a rule for communication: express yourself carefully, and read others generously. It's close to the principle of charity.\n\nUnderstanding both the appeal and the pitfalls of the robustness principle helps you decide when tolerance helps adoption and when rigor serves reliability better.",
     "tags": [
         "principles",
         "software-design",
         "interfaces",
         "reliability",
-        "best-practices"
+        "best-practices",
+        "interoperability",
+        "networking",
+        "compatibility"
     ],
     "category": "Principles",
     "icon": "FaNetworkWired",
     "featured": false,
     "aliases": [
-        "Robustness Principle"
+        "Robustness Principle",
+        "Postel's Robustness Principle",
+        "Postel's Principle",
+        "Be Conservative in What You Do, Be Liberal in What You Accept"
     ],
     "relatedConcepts": [
         "conways-law",
         "goodharts-law",
         "technical-debt",
         "hyrums-law",
-        "parse-dont-validate"
+        "parse-dont-validate",
+        "tolerant-reader",
+        "protocol-ossification",
+        "bug-compatibility",
+        "backward-compatibility",
+        "forward-compatibility",
+        "input-validation",
+        "end-to-end-principle",
+        "de-facto-standard",
+        "consumer-driven-contracts",
+        "protocol-greasing",
+        "language-theoretic-security",
+        "robustness",
+        "schema-evolution",
+        "attack-surface",
+        "rough-consensus-and-running-code",
+        "draconian-error-handling",
+        "parser-differential",
+        "fail-fast",
+        "interoperability",
+        "principle-of-charity",
+        "defensive-programming",
+        "tcp-ip"
     ],
     "relatedNotes": [],
     "articles": [],
@@ -32,13 +60,43 @@
             "type": "website"
         },
         {
+            "title": "RFC 761 - DoD Standard Transmission Control Protocol",
+            "url": "https://www.rfc-editor.org/rfc/rfc761.html",
+            "type": "website"
+        },
+        {
+            "title": "RFC 9413 - Maintaining Robust Protocols",
+            "url": "https://www.rfc-editor.org/rfc/rfc9413.html",
+            "type": "website"
+        },
+        {
+            "title": "A Patch for Postel's Robustness Principle - Sassaman, Patterson and Bratus",
+            "url": "http://langsec.org/papers/postel-patch.pdf",
+            "type": "paper"
+        },
+        {
             "title": "Model Context Protocol (MCP) Workshop",
             "url": "https://store.dsebastien.net/product/model-context-protocol",
+            "type": "other"
+        },
+        {
+            "title": "Obsidian Starter Kit",
+            "url": "https://store.dsebastien.net/product/obsidian-starter-kit",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
             "type": "other"
         }
     ],
     "books": [],
     "tutorials": [],
     "datePublished": "2026-07-13",
-    "dateModified": "2026-08-06"
+    "dateModified": "2026-11-10"
 }

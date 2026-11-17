@@ -34,7 +34,9 @@
         "saltzer-and-schroeders-design-principles",
         "fail-open-vs-fail-closed",
         "allowlisting",
-        "memory-safety"
+        "memory-safety",
+        "input-validation",
+        "attack-surface"
     ],
     "relatedNotes": [],
     "articles": [],

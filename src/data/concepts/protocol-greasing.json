@@ -1,0 +1,69 @@
+{
+    "id": "protocol-greasing",
+    "name": "Protocol Greasing",
+    "summary": "Deliberately sending random, meaningless values in the extension points of a protocol, so that implementations that mishandle unknown values fail early and get fixed.",
+    "explanation": "Protocols reserve room for the future: extension numbers, version fields, reserved bits. The rule is always the same: ignore what you don't understand. In practice, an extension point that is never used is never tested. Some implementations get the rule wrong, nobody notices, and years later the first real extension breaks connections. Then it's too late to fix the installed base (see Protocol Ossification).\n\nGreasing is the countermeasure. Clients constantly send random reserved values that mean nothing. A correct peer ignores them. A broken peer fails immediately, during its own development or early deployment, when the bug is still cheap to fix.\n\nThe name comes from GREASE: Generate Random Extensions And Sustain Extensibility. David Benjamin at Google introduced it for TLS in Chrome, and it became RFC 8701. The image is a mechanical joint: keep it moving, or it rusts shut.\n\n**Where it's used**:\n\n- **TLS**: Random reserved cipher suites, extensions, named groups and versions in the handshake\n- **QUIC and HTTP/3**: Reserved versions, transport parameters, frame types and settings\n- **Browser client hints**: Chrome adds a deliberately odd fake brand such as \"Not A Brand\" to its brand list, so websites can't rely on an exact list\n\n**Why it works**:\n\n- It turns a rule on paper into a rule that the ecosystem enforces every day\n- Intolerant implementations hurt their own vendor right away, not the whole ecosystem later\n- It's cheap: a few extra bytes\n\n**The broader idea**:\n\nAnything you want to keep flexible has to be exercised. This is the \"use it or lose it\" principle for extension mechanisms. The same thinking shows up elsewhere:\n\n- Chaos engineering injects failures so that recovery paths stay working\n- Some hash map implementations randomize iteration order so nobody can depend on it. It's a direct defense against Hyrum's Law\n- Regular restore drills keep backups real\n\n**Limits**:\n\nGreasing only protects the specific extension points that get greased, and only against the kinds of intolerance that the random values trigger.",
+    "tags": [
+        "networking",
+        "protocols",
+        "internet",
+        "security",
+        "compatibility",
+        "evolution",
+        "best-practices"
+    ],
+    "category": "Software Development",
+    "icon": "FaRandom",
+    "featured": false,
+    "aliases": [
+        "GREASE",
+        "Greasing",
+        "Generate Random Extensions And Sustain Extensibility",
+        "Use It or Lose It"
+    ],
+    "relatedConcepts": [
+        "protocol-ossification",
+        "postels-law",
+        "forward-compatibility",
+        "hyrums-law",
+        "chaos-engineering",
+        "fail-fast",
+        "antifragility",
+        "interoperability",
+        "tcp-ip",
+        "property-based-testing"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "RFC 8701 - Applying GREASE to TLS Extensibility",
+            "url": "https://www.rfc-editor.org/rfc/rfc8701.html",
+            "type": "website"
+        },
+        {
+            "title": "RFC 9170 - Long-Term Viability of Protocol Extension Mechanisms",
+            "url": "https://www.rfc-editor.org/rfc/rfc9170.html",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "forward-compatibility",
+    "name": "Forward Compatibility",
+    "summary": "The ability of an older version of a system to accept input produced by newer versions, usually by safely ignoring what it does not understand.",
+    "explanation": "Forward compatibility is the harder half of compatibility. Backward compatibility asks new code to understand old data, and you know exactly what the old data looks like. Forward compatibility asks old code to cope with data from a future it knows nothing about. You can only get it by designing for the unknown from day one.\n\n**How systems achieve it**:\n\n- **The must-ignore rule**: Skip what you don't recognize. Browsers ignore unknown HTML tags and unknown CSS properties. HTTP clients and servers ignore unknown headers. That single rule let the web evolve for thirty years\n- **Preserve what you don't understand**: When you read a record, change one field and write it back, keep the unknown fields. Protocol Buffers does this. Otherwise an old service silently deletes data that a newer service wrote\n- **Reserved space and extension points**: Version fields, reserved bits, extension blocks. They only work when everyone handles them correctly (see Protocol Ossification)\n- **Must-understand markers**: Sometimes ignoring isn't safe. A flag that says \"reject this if you don't understand it\" covers those cases\n- **Unknown enum values**: Treat a value you don't know as \"unknown\" or as a default, not as a crash\n\n**Where you need it**:\n\n- **Rolling upgrades**: During a deployment, old instances receive messages from new instances\n- **Mobile and desktop clients**: Old app versions stay in use for years and talk to current servers\n- **Stored data**: Old readers meet files written by newer writers\n- **Event streams**: Consumers lag behind producers\n\n**Link with Postel's Law**:\n\nThe must-ignore rule is the healthy core of \"be liberal in what you accept\". The difference is precision. Ignoring a well-formed element that you don't know is a rule that every implementation can apply the same way. Guessing the meaning of malformed input is not.\n\n**Limits**:\n\nForward compatibility can't cover a change of meaning. If a new version redefines an existing field, old readers will misread it without noticing.",
+    "tags": [
+        "software-development",
+        "software-engineering",
+        "compatibility",
+        "api-design",
+        "software-architecture",
+        "evolution"
+    ],
+    "category": "Software Development",
+    "icon": "FaArrowRight",
+    "featured": false,
+    "aliases": [
+        "Forwards Compatibility",
+        "Forward Compatible",
+        "Upward Compatibility",
+        "Must-Ignore Rule"
+    ],
+    "relatedConcepts": [
+        "backward-compatibility",
+        "tolerant-reader",
+        "postels-law",
+        "schema-evolution",
+        "protocol-ossification",
+        "protocol-greasing",
+        "breaking-change",
+        "api-versioning",
+        "graceful-degradation",
+        "open-closed-principle",
+        "interoperability",
+        "html"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [
+        {
+            "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+            "url": "https://www.amazon.com/dp/1449373321?tag=dsebastien00-20"
+        }
+    ],
+    "references": [
+        {
+            "title": "Forward compatibility - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Forward_compatibility",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

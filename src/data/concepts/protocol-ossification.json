@@ -1,0 +1,65 @@
+{
+    "id": "protocol-ossification",
+    "name": "Protocol Ossification",
+    "summary": "The gradual loss of a protocol's ability to evolve, because deployed implementations and network middleboxes come to depend on how it currently looks on the wire.",
+    "explanation": "A protocol specification can leave plenty of room for extension: version fields, reserved bits, optional extensions. Protocol ossification is what happens when that room disappears in practice. Firewalls, load balancers, NAT devices and buggy implementations start assuming that traffic always looks the way it looks today. Anything different gets dropped, reset or mangled. The extension point still exists on paper, but using it breaks connections for real users.\n\n**Examples**:\n\n- **TLS 1.3**: Early deployments failed because middleboxes choked on the new version number. The final design disguises itself as a TLS 1.2 session and negotiates the real version in an extension\n- **TCP**: New options and extensions such as Multipath TCP and TCP Fast Open were held back for years by middleboxes that strip or block unknown options\n- **New transport protocols**: SCTP and DCCP never got broad deployment on the internet, because many devices only pass TCP and UDP. That's why QUIC runs on top of UDP\n\n**Why it happens**:\n\n- Middleboxes inspect fields they were never meant to depend on\n- Extension points that are never exercised are never tested. The first real use reveals all the implementations that got them wrong\n- Whatever is observable becomes load-bearing. It's Hyrum's Law at the scale of the internet\n\n**Countermeasures**:\n\n- **Encrypt as much as possible**: What a middlebox can't see, it can't depend on. QUIC encrypts most of its headers for this reason\n- **Grease the extension points**: Send random reserved values all the time, so intolerant implementations fail early (see Protocol Greasing)\n- **Use it or lose it**: Exercise every extension mechanism regularly\n- **State the invariants**: Say explicitly which few properties will never change, and promise nothing else\n\nThe lesson reaches beyond networking. Any interface with many independent consumers freezes around its observed behavior unless its owners actively keep it flexible.",
+    "tags": [
+        "networking",
+        "protocols",
+        "internet",
+        "software-architecture",
+        "compatibility",
+        "evolution",
+        "standards"
+    ],
+    "category": "Software Development",
+    "icon": "FaSnowflake",
+    "featured": false,
+    "aliases": [
+        "Ossification",
+        "Internet Ossification",
+        "Network Ossification"
+    ],
+    "relatedConcepts": [
+        "postels-law",
+        "protocol-greasing",
+        "hyrums-law",
+        "end-to-end-principle",
+        "forward-compatibility",
+        "backward-compatibility",
+        "de-facto-standard",
+        "path-dependence",
+        "technological-lock-in",
+        "tcp-ip",
+        "internet",
+        "lehmans-laws"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Protocol ossification - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Protocol_ossification",
+            "type": "website"
+        },
+        {
+            "title": "RFC 9170 - Long-Term Viability of Protocol Extension Mechanisms",
+            "url": "https://www.rfc-editor.org/rfc/rfc9170.html",
+            "type": "website"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

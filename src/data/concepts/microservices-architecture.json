@@ -33,7 +33,9 @@
         "event-sourcing",
         "cqrs",
         "anti-corruption-layer",
-        "domain-event"
+        "domain-event",
+        "tolerant-reader",
+        "consumer-driven-contracts"
     ],
     "relatedNotes": [],
     "articles": [],

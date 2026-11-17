@@ -1,0 +1,60 @@
+{
+    "id": "api-versioning",
+    "name": "API Versioning",
+    "summary": "Managing incompatible changes to an API by publishing explicit versions, so existing clients keep working while new clients get the new behavior.",
+    "explanation": "An API is a promise to the people who build on it. Sooner or later you'll want to change that promise in a way that would break them. API versioning lets you do it without forcing every client to change on the same day: the old version keeps running, the new version appears next to it, and clients move when they're ready.\n\n**Where to put the version**:\n\n- **In the URL path**: `/v1/customers`. Visible, simple, easy to route and to cache. The most common choice\n- **In a header or media type**: Keeps the URLs stable. Less visible, and harder to try out by hand\n- **In a query parameter**: Easy to add, and easy to forget\n- **Date-based versions pinned per account**: Each account stays on the version that existed when it first called the API, and upgrades explicitly. Stripe is the well-known example: internally, small compatibility layers translate between the current code and each older version\n- **No versions, only evolution**: Only ever add. Mark old fields as deprecated and remove them after their usage drops to zero. GraphQL APIs often work this way\n\n**What needs a new version**:\n\nOnly breaking changes. Adding an optional field or a new endpoint doesn't, as long as the clients ignore what they don't know (see Tolerant Reader). An API that needs a new version for every small addition has a compatibility problem, not a versioning problem.\n\n**Good practices**:\n\n- **Version from day one**: Adding versioning later is itself a breaking change\n- **Evolve first, version last**: Each live version is code to run, test, secure and document\n- **Publish a policy**: How long is a version supported? How is the end announced? (see Deprecation)\n- **Measure usage per version**: You can only retire what you can see\n- **Keep the old versions thin**: Translate old requests to the current model at the edge, instead of keeping whole copies of the system alive\n- **Describe the differences**: A changelog and a migration guide for each version\n\n**For libraries**:\n\nSemantic Versioning plays the same role: the major version number announces a breaking change.\n\n**The trade-off**:\n\nVersioning moves the cost of change from the consumers to the provider. Too few versions, and you break people. Too many, and you maintain all of them forever.",
+    "tags": [
+        "software-development",
+        "api-design",
+        "software-architecture",
+        "compatibility",
+        "apis",
+        "maintainability"
+    ],
+    "category": "Software Development",
+    "icon": "FaCodeBranch",
+    "featured": false,
+    "aliases": [
+        "API Versions",
+        "API Version Management",
+        "API Evolution",
+        "Versioned APIs"
+    ],
+    "relatedConcepts": [
+        "semantic-versioning",
+        "breaking-change",
+        "backward-compatibility",
+        "forward-compatibility",
+        "deprecation",
+        "tolerant-reader",
+        "parallel-change",
+        "schema-evolution",
+        "hyrums-law",
+        "rest",
+        "consumer-driven-contracts",
+        "anti-corruption-layer"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "APIs as infrastructure: future-proofing Stripe with versioning",
+            "url": "https://stripe.com/blog/api-versioning",
+            "type": "website"
+        },
+        {
+            "title": "Semantic Versioning 2.0.0",
+            "url": "https://semver.org/",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

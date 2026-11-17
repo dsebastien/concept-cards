@@ -1,0 +1,70 @@
+{
+    "id": "input-validation",
+    "name": "Input Validation",
+    "summary": "Checking that data entering a system has the expected type, format, range and meaning before the system acts on it.",
+    "explanation": "Input validation is the gatekeeping step at the edge of a system. Anything that comes from outside, whether a form field, an API request, a file, a message from another service or the output of an AI model, is checked before it's used. Valid input goes through. Invalid input is rejected with a clear error.\n\n**Two levels**:\n\n- **Syntactic validation**: Is it well-formed? Right type, length, format, character set. A date looks like a date\n- **Semantic validation**: Does it make sense here? The end date is after the start date. The quantity is positive. The account belongs to the caller\n\n**Good practices**:\n\n- **Validate at the trust boundary**: Check input where it enters, on the server side. Client-side validation is a convenience for the user, not a protection\n- **Allowlist, don't denylist**: Define what is acceptable and reject the rest. A list of known bad patterns is always incomplete\n- **Reject, don't repair**: Guessing what the sender meant creates ambiguity. Two components that repair differently end up disagreeing about the same input\n- **Validate early, fail fast**: Stop before bad data gets stored or passed on\n- **Parse into types**: Turn checked input into a typed value once, so the rest of the code can't forget the check (see Parse, Don't Validate)\n- **Set limits**: Maximum sizes, depths and counts protect against resource exhaustion\n\n**What it is not**:\n\n- **Not sanitization**: Sanitizing changes the input to make it safe. Validating accepts or rejects it\n- **Not a complete defense against injection**: A valid name can contain an apostrophe. Parameterized queries and output encoding are the real fix. Validation is one layer among several\n\n**Tension with Postel's Law**:\n\nThe robustness principle says to be liberal in what you accept. Input validation says the opposite at the security boundary. The modern reading: be precise about what you accept, tolerate harmless variation that is clearly defined (such as unknown extra fields), and reject everything else.",
+    "tags": [
+        "software-development",
+        "security",
+        "cybersecurity",
+        "best-practices",
+        "validation",
+        "software-design",
+        "reliability"
+    ],
+    "category": "Software Development",
+    "icon": "FaFilter",
+    "featured": false,
+    "aliases": [
+        "Data Validation",
+        "Input Checking",
+        "Request Validation"
+    ],
+    "relatedConcepts": [
+        "parse-dont-validate",
+        "trust-boundary",
+        "allowlisting",
+        "fail-fast",
+        "defensive-programming",
+        "sql-injection",
+        "prompt-injection",
+        "gigo",
+        "postels-law",
+        "language-theoretic-security",
+        "attack-surface",
+        "design-by-contract",
+        "guard-clauses",
+        "defense-in-depth",
+        "data-integrity",
+        "secure-by-default"
+    ],
+    "relatedNotes": [],
+    "articles": [
+        {
+            "title": "Input validation with NestJS",
+            "url": "https://www.dsebastien.net/2020-07-23-input-validation-with-nestjs/",
+            "type": "website"
+        }
+    ],
+    "books": [],
+    "references": [
+        {
+            "title": "Input Validation Cheat Sheet - OWASP",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+            "type": "website"
+        },
+        {
+            "title": "Data validation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Data_validation",
+            "type": "website"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}

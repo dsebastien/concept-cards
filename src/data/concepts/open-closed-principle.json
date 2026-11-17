@@ -33,7 +33,10 @@
         "prompt-lazy-loading",
         "progressive-disclosure",
         "design-by-contract",
-        "clean-architecture"
+        "clean-architecture",
+        "backward-compatibility",
+        "forward-compatibility",
+        "breaking-change"
     ],
     "relatedNotes": [
         "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Articles/Software+Architecture+Principles+for+AI+Skills+and+Agents+(Article)"

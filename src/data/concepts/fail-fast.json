@@ -32,7 +32,12 @@
         "parse-dont-validate",
         "assertions",
         "fail-open-vs-fail-closed",
-        "guard-clauses"
+        "guard-clauses",
+        "input-validation",
+        "protocol-greasing",
+        "robustness",
+        "draconian-error-handling",
+        "postels-law"
     ],
     "relatedNotes": [],
     "articles": [],
@@ -61,5 +66,5 @@
     ],
     "tutorials": [],
     "datePublished": "2025-12-28",
-    "dateModified": "2026-01-29"
+    "dateModified": "2026-11-10"
 }

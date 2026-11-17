@@ -26,7 +26,10 @@
         "graceful-degradation-pkm",
         "idempotency",
         "statelessness",
-        "fail-open-vs-fail-closed"
+        "fail-open-vs-fail-closed",
+        "forward-compatibility",
+        "robustness",
+        "draconian-error-handling"
     ],
     "relatedNotes": [],
     "articles": [],
@@ -50,5 +53,5 @@
     ],
     "tutorials": [],
     "datePublished": "2026-01-13",
-    "dateModified": "2026-01-20"
+    "dateModified": "2026-11-10"
 }

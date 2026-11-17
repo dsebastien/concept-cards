@@ -1,0 +1,76 @@
+{
+    "id": "rough-consensus-and-running-code",
+    "name": "Rough Consensus and Running Code",
+    "summary": "The working principle of the IETF: decide by broad agreement instead of voting, and trust working implementations over theoretical designs.",
+    "explanation": "\"We reject: kings, presidents and voting. We believe in: rough consensus and running code.\" David Clark said this in 1992, and it became the motto of the Internet Engineering Task Force (IETF), the community that writes the internet's protocol standards.\n\n**Rough consensus**:\n\n- **No voting**: Votes count heads. They don't weigh arguments, and they can be gamed by showing up in numbers\n- **No unanimity either**: Waiting until everyone agrees gives every single participant a veto\n- **What it is**: The group has heard and discussed every objection, and the large majority can live with the result. An objection can be overruled, but only after it has been understood and answered on its merits\n- **Humming**: IETF working groups famously hum to get a feel for the room. The chair listens for the balance. Nobody is counted\n- **The key question**: Not \"is everyone happy?\" but \"can anyone not live with this, and why?\". One well-founded technical objection outweighs a hundred preferences\n\n**Running code**:\n\n- A specification isn't proven until it has been implemented\n- Several independent implementations that work together show that the text is clear and complete\n- Experience from implementation beats elegant theory. It's a deliberate bias against design by committee\n\n**Why it worked**:\n\nThe IETF had no authority to force anyone to adopt its protocols. Standards only spread when implementers were convinced and when the thing demonstrably worked. The culture is a large part of why TCP/IP won against the formally designed OSI protocols.\n\n**Using it elsewhere**:\n\n- **Team decisions**: Aim for \"nobody has a blocking objection that remains unanswered\", not for full agreement and not for majority rule\n- **Design debates**: A prototype settles arguments that discussion can't\n- **Standards and conventions**: Write down what already works, instead of inventing in the abstract\n\n**Limits**:\n\n- It depends on good chairs and on participants who argue in good faith\n- Whoever shows up and stays longest has more weight\n- Running code tends to favor what exists today over a better design that needs more time",
+    "tags": [
+        "decision-making",
+        "consensus",
+        "standards",
+        "governance",
+        "internet",
+        "collaboration",
+        "principles"
+    ],
+    "category": "Decision Science",
+    "icon": "FaHandshake",
+    "featured": false,
+    "aliases": [
+        "Rough Consensus",
+        "Rough Consensus & Running Code",
+        "IETF Motto",
+        "Humming"
+    ],
+    "relatedConcepts": [
+        "rfc",
+        "internet",
+        "open-standards",
+        "de-facto-standard",
+        "reference-implementation",
+        "postels-law",
+        "worse-is-better",
+        "interoperability",
+        "tcp-ip",
+        "open-source",
+        "decentralization",
+        "unix-philosophy"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Rough consensus - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Rough_consensus",
+            "type": "website"
+        },
+        {
+            "title": "RFC 7282 - On Consensus and Humming in the IETF",
+            "url": "https://www.rfc-editor.org/rfc/rfc7282.html",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Management for Beginners",
+            "url": "https://store.dsebastien.net/product/knowledge-management-for-beginners",
+            "type": "other"
+        },
+        {
+            "title": "Knowii Community",
+            "url": "https://store.dsebastien.net/product/knowii-community",
+            "type": "other"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Clarity 101 Workshop",
+            "url": "https://store.dsebastien.net/product/clarity-101",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17"
+}
