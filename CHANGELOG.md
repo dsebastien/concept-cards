@@ -1,3 +1,13 @@
+## [12.17.0](https://github.com/dsebastien/concept-cards/compare/12.16.0...12.17.0) (2026-11-17)
+
+### Features
+
+* **concepts:** add 24 Robustness Principle related concepts ([7f439dc](https://github.com/dsebastien/concept-cards/commit/7f439dcfc62c6ea190cb5fe1291b7185b70601db))
+
+### Bug Fixes
+
+* **concepts:** bump dateModified on 135 concepts ([957712b](https://github.com/dsebastien/concept-cards/commit/957712b22d929a4096840c525d29524ce163c6ef))
+* **concepts:** bump dateModified on 29 concepts ([e18de9e](https://github.com/dsebastien/concept-cards/commit/e18de9e14226d9b1baebb92d3b99fdc4e0d9c0c9))
 ## [12.16.0](https://github.com/dsebastien/concept-cards/compare/12.15.0...12.16.0) (2026-11-10)
 
 ### Features
