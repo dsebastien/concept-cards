@@ -1,0 +1,75 @@
+{
+    "id": "black-start",
+    "name": "Black Start",
+    "summary": "Restarting a system from total shutdown without help from the system itself: you start the parts that can run on their own, then bring the load back in small, balanced steps.",
+    "explanation": "The electricity industry has this notion they call a black start: bringing a power grid back online from zero, after a total or partial blackout, without any power from the outside.\n\nIt's a really difficult operation. You can't start a generator straight into an offline grid, otherwise it gets hit with the full demand at once. Then it can't keep the frequency in the safe range, and equipment gets damaged. On top of that, most large power stations need electricity to start (for pumps, fans and controls), so they can't restart while the grid is dead (a chicken-and-egg problem). Operators begin with a few black-start units that can run on their own, such as hydro plants or diesel and gas generators. With all loads disconnected, those units energize a path to the bigger stations and start them. Then the operators bring blocks of load back in sequence, one at a time, each sized to match the generation that is available. Finally, they connect the restored islands to each other.\n\nIn practice, black starts are rare, but they become necessary after a cascading failure. A few generating stations trip, their load moves onto the remaining ones, and those can't handle it and trip in turn. Once that kind of runaway failure starts, a whole grid can collapse in about a minute. The 2003 Northeast blackout in North America and the 2025 blackout in Spain and Portugal followed that pattern.\n\nI think the idea transfers well to other domains, because the shape of the problem stays the same: a system that depends on itself to start, and a demand that is larger than what the first parts can handle. Take software. A full outage of a distributed system needs the same care. Services with circular dependencies can't start, and if all clients reconnect at once (a thundering herd or a retry storm), the first instances to come up fall over again. So you start the components that have no dependencies, then let traffic in gradually. Organizations that restart operations after a crisis work the same way: core functions first, then the rest in a planned sequence.\n\nAnd for people, coming back from burnout, illness or a long break is a personal black start. Take back every commitment on day one and you trip again. Restart with a small load, add one block at a time, and grow it as your capacity comes back.\n\nSo what are the practical lessons? Know which parts of your system can start on their own, and plan the restart sequence BEFORE you need it. Disconnect the load before you restart. Then bring it back in blocks that the available capacity can carry.",
+    "tags": [
+        "systems-thinking",
+        "resilience",
+        "mental-models",
+        "failures",
+        "recovery",
+        "infrastructure",
+        "engineering"
+    ],
+    "category": "Systems",
+    "icon": "FaNetworkWired",
+    "featured": false,
+    "aliases": [
+        "Blackstart",
+        "Black-start recovery",
+        "Grid black start",
+        "Cold restart from zero"
+    ],
+    "relatedConcepts": [
+        "cascading-failures",
+        "domino-effect",
+        "thundering-herd",
+        "retry-storm",
+        "backpressure",
+        "graceful-degradation",
+        "circuit-breaker",
+        "single-point-of-failure",
+        "disaster-recovery",
+        "resilience",
+        "systems-thinking",
+        "coupling",
+        "restart-problem",
+        "warm-up-effect",
+        "recovery",
+        "burnout"
+    ],
+    "relatedNotes": [],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Black start - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Black_start",
+            "type": "website"
+        },
+        {
+            "title": "Northeast blackout of 2003 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003",
+            "type": "website"
+        },
+        {
+            "title": "2025 Iberian Peninsula blackout - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2025_Iberian_Peninsula_blackout",
+            "type": "website"
+        },
+        {
+            "title": "Knowledge Worker Kit",
+            "url": "https://store.dsebastien.net/product/knowledge-worker-kit",
+            "type": "other"
+        },
+        {
+            "title": "Dev Concepts",
+            "url": "https://dev-concepts.dev",
+            "type": "other"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-24",
+    "dateModified": "2026-11-24"
+}
