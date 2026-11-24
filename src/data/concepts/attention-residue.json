@@ -2,7 +2,7 @@
     "id": "attention-residue",
     "name": "Attention Residue",
     "summary": "The mental carry-over effect where thoughts from a previous task linger and interfere with focus on a new task.",
-    "explanation": "Attention Residue is a concept coined by Sophie Leroy describing how part of our cognitive resources remain stuck on a previous task even after we switch to something new. When we transition between tasks, especially if the prior task was unfinished or particularly engaging, residual thoughts continue occupying our working memory. This residue reduces our cognitive capacity for the new task, impairs performance, and creates a sense of mental fragmentation. Leroy's research shows that people perform worse on subsequent tasks when they experience high attention residue. The effect is strongest when the previous task was interrupted before completion or when there was no clear mental closure. Strategies to reduce attention residue include: completing tasks before switching when possible, creating explicit closure rituals (writing down where you left off), scheduling transition buffers between tasks, and practicing mindful task transitions. Understanding attention residue explains why deep work periods and task batching are so effective - they minimize the number of attention-fragmenting transitions.",
+    "explanation": "Attention residue is the part of your attention that stays on a previous task after you switch to a new one. Sophie Leroy coined the term in 2009 while asking why it is so hard to focus on the work in front of us when we keep moving between tasks.\n\nIn her experiments, people who switched away from a task they had not finished kept thinking about it and performed worse on the next task. A surprising result: people who finished the first task under time pressure showed less residue and did better on the next task than both those who left it unfinished and those who finished it without time pressure. The likely reason is that a deadline pushes us to close the task in our heads, not just on paper. In a 2018 follow-up with Theresa Glomb, she found that expecting time pressure when returning to an interrupted task increases residue, and that writing a one-minute ready-to-resume plan before switching reduces it.\n\nThe mechanism connects to older findings. Unfinished tasks stay active in memory (the Zeigarnik effect), the previous task set keeps interfering with the next one (task-set inertia), and making a concrete plan for an unfinished goal quiets it (the plan-making effect).\n\nWhy it matters: context switching costs more than the switch itself. Every half-finished task, message you glanced at, or project you \"keep an eye on\" leaves residue that follows you into the next block of work, and at the end of the day it blocks psychological detachment. Practical consequences: finish or explicitly park a task before switching (write down where you are and what comes next), batch shallow work, reduce self-interruptions, keep few projects active at the same time, and close the workday with a shutdown ritual.\n\nCaveat: the core studies were lab experiments with about 80 undergraduates each. The idea is well grounded, but the exact size of the effect in real work is uncertain.",
     "tags": [
         "attention",
         "cognition",
@@ -31,13 +31,36 @@
         "mental-leakage",
         "psychic-entropy",
         "resumption-lag",
-        "hemingway-bridge"
+        "hemingway-bridge",
+        "ready-to-resume-plan",
+        "task-set-inertia",
+        "plan-making-effect",
+        "psychological-detachment",
+        "self-interruption",
+        "zeigarnik-effect",
+        "ovsiankina-effect",
+        "open-loops",
+        "limit-work-in-progress",
+        "interruption-cost",
+        "shutdown-ritual",
+        "transition-rituals",
+        "slow-productivity",
+        "mental-context"
     ],
-    "relatedNotes": [],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Attention+residue",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+switching",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+switching+is+not+an+idempotent+operation"
+    ],
     "articles": [
         {
             "title": "Why Is It So Hard to Do My Work? The Challenge of Attention Residue When Switching Between Work Tasks",
-            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749597809000399",
+            "url": "https://doi.org/10.1016/j.obhdp.2009.04.002",
+            "type": "paper"
+        },
+        {
+            "title": "Tasks Interrupted: How Anticipating Time Pressure on Resumption of an Interrupted Task Causes Attention Residue and Low Performance on Interrupting Tasks and How a \"Ready-to-Resume\" Plan Mitigates the Effects",
+            "url": "https://doi.org/10.1287/orsc.2017.1184",
             "type": "paper"
         }
     ],
@@ -96,5 +119,5 @@
     ],
     "tutorials": [],
     "datePublished": "2025-12-27",
-    "dateModified": "2026-10-17"
+    "dateModified": "2026-11-24"
 }

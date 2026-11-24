@@ -1,0 +1,53 @@
+{
+    "id": "task-set-inertia",
+    "name": "Task-Set Inertia",
+    "summary": "The tendency of the mental configuration used for a previous task to persist and interfere with the next task, which is one cause of switch costs.",
+    "explanation": "A task set is the mental configuration a task needs: which stimuli to attend to, which rules to apply, and which responses to give. Task-set inertia is the finding that this configuration does not switch off when you change tasks. It keeps running for a while and interferes with the new task.\n\nAlan Allport, Elizabeth Styles and Shulan Hsieh proposed the idea in 1994 to explain a puzzle in task-switching experiments. Even when people get plenty of time to prepare for a switch, they stay slower and make more errors on the first trial of the new task. That residual switch cost suggests that part of the cost is not about getting ready for the new task, but about the old task still being active. A related observation is the asymmetric switch cost: switching back to an easy, dominant task can cost more than switching to a hard one, because the dominant task had to be strongly suppressed and that suppression lingers.\n\nTask-set inertia is the lab-level, millisecond-scale version of what attention residue describes at the scale of real work. Both say the same thing: the previous task does not leave the stage when you tell it to. Practical consequences: group similar work so that consecutive tasks share a task set (task batching), leave a short buffer between very different kinds of work, and expect the first minutes after a switch to be slower and more error-prone.",
+    "tags": [
+        "attention",
+        "cognition",
+        "cognitive-science",
+        "context-switching",
+        "multitasking",
+        "psychology"
+    ],
+    "category": "Psychology & Mental Models",
+    "icon": "FaBrain",
+    "featured": false,
+    "aliases": [
+        "Task set inertia",
+        "TSI",
+        "Task-set persistence"
+    ],
+    "relatedConcepts": [
+        "attention-residue",
+        "task-switching-cost",
+        "context-switching",
+        "cognitive-switching-penalty",
+        "multitasking",
+        "task-batching",
+        "resumption-lag",
+        "transition-costs",
+        "working-memory",
+        "executive-functions",
+        "cognitive-flexibility",
+        "selective-attention"
+    ],
+    "relatedNotes": [
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+switching",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Context+switching+is+not+an+idempotent+operation",
+        "https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.02+Content/Multitasking"
+    ],
+    "articles": [],
+    "books": [],
+    "references": [
+        {
+            "title": "Task switching (psychology) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Task_switching_(psychology)",
+            "type": "website"
+        }
+    ],
+    "tutorials": [],
+    "datePublished": "2026-11-24",
+    "dateModified": "2026-11-24"
+}
