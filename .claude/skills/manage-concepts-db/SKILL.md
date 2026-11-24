@@ -78,6 +78,9 @@ done
 }
 ```
 
+### Step 5b: Voice Pass (MANDATORY)
+Rewrite `summary` and `explanation` in Sébastien's voice, then humanize and self-check. Follow the "Voice Pass" section of `AGENTS.md`. This also applies to bulk additions and to rewrites of existing concepts.
+
 ### Step 6: Fix & Sync
 ```bash
 bun run fix-concepts

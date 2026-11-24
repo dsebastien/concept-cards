@@ -104,6 +104,24 @@ Authoring constraints not encoded in the schema:
 - Updates: only update `dateModified` for substantive changes
 - Never modify `datePublished`
 
+<a id="voice-pass"></a>
+
+### Voice Pass (MANDATORY)
+
+The site is published under Sébastien's name. Every new concept, and every rewrite of a `summary` or `explanation`, must sound like him, not like generic AI prose.
+
+1. Draft the facts first: what the concept is, where it comes from, why it matters, how to apply it. Cite sources in `articles` or `references`.
+2. Rewrite `summary` and `explanation` in his voice. From the vault session, use the ghostwriter agent (or the `user-voice-profile` skill). Without the vault tooling, read `$OBSIDIAN_VAULT_LOCATION/10 Meta/11 Personal/My Voice Profile.md`.
+3. Run the `osk-writing-humanizer` skill on the result and remove every AI pattern it finds (em-dashes, triplets, "not X but Y", filler).
+4. Self-check with the `developassion-style-voice-audit` rubric. Target 80 or more.
+
+Constraints for the voice pass:
+
+- Change only `summary` and `explanation`. Keep every fact, name, year and citation. Add no new claims.
+- Keep the register explanatory, like a reference entry: "you" address and short questions are fine; no calls to action, no self-promotion, no invented first-person stories.
+- Keep the length roughly the same as the factual draft.
+- Edit the JSON in place with 4-space indentation and the same key order.
+
 ### Finalize Concept Changes (MANDATORY)
 
 After adding or updating ANY concept, run:
