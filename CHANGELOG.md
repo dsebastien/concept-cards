@@ -1,3 +1,13 @@
+## [12.19.0](https://github.com/dsebastien/concept-cards/compare/12.18.0...12.19.0) (2026-11-24)
+
+### Features
+
+* **concepts:** add Black Start concept ([bfcb148](https://github.com/dsebastien/concept-cards/commit/bfcb14846e530862989d8214919455879523fbb8))
+
+### Bug Fixes
+
+* **concepts:** bump dateModified on 6 concepts ([1409f9f](https://github.com/dsebastien/concept-cards/commit/1409f9f9a2dc6f451ab428fbbce194c2c0e6bcac))
+* **concepts:** rewrite attention residue cluster in author voice ([0cb1733](https://github.com/dsebastien/concept-cards/commit/0cb1733b10fe53cdd4a6ad2133444cec5916950d))
 ## [12.18.0](https://github.com/dsebastien/concept-cards/compare/12.17.0...12.18.0) (2026-11-24)
 
 ### Features
