@@ -1,3 +1,12 @@
+## [12.18.0](https://github.com/dsebastien/concept-cards/compare/12.17.0...12.18.0) (2026-11-24)
+
+### Features
+
+* **concepts:** add 5 attention residue related concepts ([c645e63](https://github.com/dsebastien/concept-cards/commit/c645e63de65a733dc0d59ac9324c74b07de5d0c2))
+
+### Bug Fixes
+
+* **concepts:** bump dateModified on 18 concepts ([4e40e42](https://github.com/dsebastien/concept-cards/commit/4e40e4259e715725379b690419328f2f0646c2de))
 ## [12.17.0](https://github.com/dsebastien/concept-cards/compare/12.16.0...12.17.0) (2026-11-17)
 
 ### Features
